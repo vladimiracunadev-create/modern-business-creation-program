@@ -125,17 +125,7 @@ jobs:
       - name: Compilar el manual integral
         run: python scripts/generar_manual.py
 
+      # Se relee el PDF emitido: un build en verde no prueba que el artefacto
+      # tenga contenido, portada ni la versión correcta.
       - name: Verificar el PDF resultante
-        run: |
-          pdf="output/pdf/modern-business-creation-program-manual-v$(cat VERSION).pdf"
-          test -f "$pdf"
-          python - "$pdf" <<'PY'
-          import sys
-          from pypdf import PdfReader
-          lector = PdfReader(sys.argv[1])
-          paginas = len(lector.pages)
-          print(f"Páginas del manual: {paginas}")
-          assert paginas >= 1200, "el manual salió demasiado corto"
-          texto = lector.pages[0].extract_text()
-          assert "Modern Business Creation Program" in texto, "portada sin título"
-          PY
+        run: python scripts/generar_manual.py --verificar

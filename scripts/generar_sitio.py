@@ -42,6 +42,12 @@ IGNORADOS = {".git", "node_modules", "site", ".venv", "__pycache__", "scripts"}
 # Carpetas que el sitio publica con su propio index.html.
 PUBLICADOS = {carpeta for carpeta, _ in SECCIONES}
 
+# El manual se compila aparte con scripts/generar_manual.py; el sitio se genera
+# igual sin él, solo que sin la sección de descargas.
+MANUALES = RAIZ / "output" / "pdf"
+HAY_MANUAL = MANUALES.exists() and any(MANUALES.glob("*.pdf"))
+HAY_PARTES = (MANUALES / "partes").exists() and any((MANUALES / "partes").glob("*.pdf"))
+
 
 # --------------------------------------------------------------------------- #
 # Conversor Markdown mínimo
@@ -521,13 +527,22 @@ def construir_menu(curriculo: list[dict], packs: list[dict], base: str) -> str:
         f'{pack["part"]:02d}. {html.escape(pack["titulo"])}</a></li>'
         for pack, carpeta in packs
     )
-    version = (RAIZ / "VERSION").read_text(encoding="utf-8").strip()
-    return f"""
+    # El bloque de descargas solo aparece si el manual ya fue compilado. En el
+    # job de CI que solo construye el sitio no existe, y enlazarlo igual dejaría
+    # 336 enlaces rotos en el propio verificador.
+    descargas = ""
+    if HAY_MANUAL:
+        version = (RAIZ / "VERSION").read_text(encoding="utf-8").strip()
+        enlace_partes = (
+            f'\n  <li><a href="{base}downloads/partes/">📄 PDF por parte</a></li>'
+            if HAY_PARTES else ""
+        )
+        descargas = f"""
 <h2>Descargas</h2>
 <ul>
-  <li><a href="{base}downloads/modern-business-creation-program-manual-v{version}.pdf">📕 Manual completo (PDF)</a></li>
-  <li><a href="{base}downloads/partes/">📄 PDF por parte</a></li>
-</ul>
+  <li><a href="{base}downloads/modern-business-creation-program-manual-v{version}.pdf">📕 Manual completo (PDF)</a></li>{enlace_partes}
+</ul>"""
+    return f"""{descargas}
 <h2>Programa</h2>
 <ul>
   <li><a href="{base}index.html">Inicio</a></li>
@@ -614,11 +629,10 @@ def main() -> int:
 
     # El manual en PDF se compila aparte con scripts/generar_manual.py y vive en
     # output/; aquí solo se copia a las descargas del sitio si ya está generado.
-    descargas = RAIZ / "output" / "pdf"
-    if descargas.exists():
+    if HAY_MANUAL:
         destino_descargas = SALIDA / "downloads"
-        for pdf in sorted(descargas.rglob("*.pdf")):
-            copia = destino_descargas / pdf.relative_to(descargas)
+        for pdf in sorted(MANUALES.rglob("*.pdf")):
+            copia = destino_descargas / pdf.relative_to(MANUALES)
             copia.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(pdf, copia)
 

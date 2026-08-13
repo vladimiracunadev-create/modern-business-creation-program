@@ -427,11 +427,55 @@ def construir_manual(est: dict, solo_parte: Path | None = None) -> tuple[Path, i
     return destino, documento.page
 
 
+PAGINAS_MINIMAS = 1200
+
+
+def verificar() -> int:
+    """Abre el PDF emitido y comprueba que tenga portada y extensión razonables.
+
+    Un build en verde no prueba que el artefacto sirva: reportlab produce un PDF
+    válido aunque el contenido llegue vacío. Aquí se lee el archivo de vuelta.
+    """
+    from pypdf import PdfReader
+
+    version = (RAIZ / "VERSION").read_text(encoding="utf-8").strip()
+    ruta = SALIDA / f"modern-business-creation-program-manual-v{version}.pdf"
+    if not ruta.exists():
+        print(f"ERROR: no existe {ruta.relative_to(RAIZ)}")
+        return 1
+
+    lector = PdfReader(str(ruta))
+    paginas = len(lector.pages)
+    portada_txt = lector.pages[0].extract_text() or ""
+    problemas = []
+    if paginas < PAGINAS_MINIMAS:
+        problemas.append(f"solo {paginas} páginas, se esperaban al menos {PAGINAS_MINIMAS}")
+    if TITULO not in portada_txt.replace("\n", " ").replace("  ", " "):
+        problemas.append("la portada no contiene el título del programa")
+    if version not in portada_txt:
+        problemas.append(f"la portada no declara la versión {version}")
+
+    if problemas:
+        print("FALLÓ la verificación del manual:")
+        for problema in problemas:
+            print(f"  ERROR: {problema}")
+        return 1
+
+    print(f"OK: {ruta.name} · {paginas} páginas · "
+          f"{ruta.stat().st_size / 1_048_576:.1f} MB · portada y versión correctas.")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--partes", action="store_true", help="genera además un PDF por parte")
     parser.add_argument("--check", action="store_true", help="valida sin escribir en disco")
+    parser.add_argument("--verificar", action="store_true",
+                        help="abre el PDF ya generado y comprueba portada y extensión")
     args = parser.parse_args()
+
+    if args.verificar:
+        return verificar()
 
     if args.check:
         faltan = [p.name for p in partes_ordenadas() if not (p / "README.md").exists()]
