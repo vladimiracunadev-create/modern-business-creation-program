@@ -1,82 +1,109 @@
 # Clase 215 — FOGAPE, garantías y evaluación bancaria
 
 > **Parte 16 · Financiamiento, banca, fondos e inversión** — clase 5 de 14
-> Estado: `DINAMICO` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `DINAMICO` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** evaluar si corresponde acceder a garantías estatales y qué exige el proceso<br>
+**Entregable:** evaluación de acceso a garantías con requisitos, plazos y verificación de comportamiento de pago
 
-Comprender **fogape, garantías y evaluación bancaria** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*evaluar si corresponde acceder a garantías estatales y qué exige el proceso*.
+## 🎯 Propósito
 
-## Resultados verificables
+Entender que las garantías estatales facilitan el acceso pero no reemplazan la evaluación de capacidad de pago.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —evaluar si corresponde acceder a garantías estatales y qué exige el proceso— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **FOGAPE** | fondo de garantía estatal para pequeños empresarios |
-| **Garantía estatal** | respaldo que reduce el riesgo del banco |
-| **Evaluación bancaria** | análisis de capacidad de pago y comportamiento |
-| **Comportamiento de pago** | historial que condiciona el acceso al crédito |
+| **FOGAPE** | Fondo de garantía estatal para pequeños empresarios. |
+| **Garantía estatal** | Respaldo que reduce el riesgo del banco. |
+| **Evaluación bancaria** | Análisis de capacidad de pago y comportamiento. |
+| **Comportamiento de pago** | Historial que condiciona el acceso al crédito. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["FOGAPE"]
+    C --> A2["Garantía estatal"]
+    C --> A3["Evaluación bancaria"]
+    C --> A4["Comportamiento de pago"]
+    A1 & A2 & A3 & A4 --> D{{"evaluar si corresponde acceder<br/>a garantías estatales y qué<br/>exige el proceso"}}
+    D --> E["Entregable<br/>evaluación de acceso a<br/>garantías con requisitos,<br/>plazos y verificación de<br/>comportamiento de pago"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Las garantías estatales no reemplazan la evaluación bancaria: facilitan el acceso reduciendo el riesgo del banco, pero la empresa debe demostrar capacidad de pago igual. Mantener limpio el comportamiento de pago —proveedores, impuestos, cotizaciones— es lo que determina el acceso futuro.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Reducen el riesgo del banco, no el requisito de demostrar que se puede pagar. Y el comportamiento de pago —proveedores, impuestos, cotizaciones— es lo que determina el acceso futuro: deteriorarlo para aliviar un mes cierra puertas por años, que es un costo que no aparece en ninguna planilla.
+
+### 3. Marco aplicable y quién interviene
 
 - FOGAPE y sistema de garantías estatales
 - Ley 21.521 Fintec para plataformas de financiamiento colectivo
 - instrumentos SAFE, notas convertibles y aumentos de capital en SpA
 
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
+**Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Evaluación de acceso a garantías con requisitos, plazos y verificación de comportamiento de pago.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] los requisitos vigentes están verificados en fuente oficial
 - [ ] el comportamiento de pago de la empresa está revisado
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- asumir que la garantía estatal reemplaza la evaluación de capacidad de pago
-- deteriorar el comportamiento de pago y perder acceso a financiamiento futuro
-- financiar activos de largo plazo con líneas de corto plazo
-- usar factoring de forma estructural y erosionar el margen
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Asumir que la garantía estatal reemplaza la evaluación de capacidad de pago.
+- Deteriorar el comportamiento de pago y perder acceso a financiamiento futuro.
 
-Cfo, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 16:**
 
-## Checklist Chile
+- Financiar activos de largo plazo con líneas de corto plazo.
+- Usar factoring de forma estructural y erosionar el margen.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,17 +135,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **CORFO** — Innovación, inversión y garantías: <https://www.corfo.cl/>
-- **CMF** — Registro de Prestadores de Servicios Financieros: <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html>
+1. ¿Cumples los requisitos vigentes del instrumento de garantía que buscas?
+2. ¿Cómo está tu comportamiento de pago en los registros que consulta el banco?
+3. ¿Qué deuda estás postergando que afectará tu acceso a crédito futuro?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Corporación de Fomento de la Producción — Innovación, inversión y garantías**  
+<https://www.corfo.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
+- *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
+
+**Comisión para el Mercado Financiero — Registro de Prestadores de Servicios Financieros · Ley 21.521**  
+<https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-18591.html> · verificado 2026-08-07
+
+- *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
+- *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 214. Leasing, factoring y confirming](../class-04-leasing-factoring-y-confirming/README.md) · [Índice de la parte](../README.md) · [216. SERCOTEC y programas de fomento →](../class-06-sercotec-y-programas-de-fomento/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 214 · Leasing, factoring y confirming](../class-04-leasing-factoring-y-confirming/README.md) | [Parte 16](../README.md) · [Programa](../../../README.md) | [216 · SERCOTEC y programas de fomento →](../class-06-sercotec-y-programas-de-fomento/README.md) |

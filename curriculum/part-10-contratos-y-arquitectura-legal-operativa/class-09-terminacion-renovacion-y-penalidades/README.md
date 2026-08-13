@@ -1,38 +1,61 @@
 # Clase 135 — Terminación, renovación y penalidades
 
 > **Parte 10 · Contratos y arquitectura legal operativa** — clase 9 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir cómo se sale de cada contrato y con qué anticipación<br>
+**Entregable:** registro de contratos con fecha de renovación, preaviso requerido y penalidad de salida
 
-Comprender **terminación, renovación y penalidades** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir cómo se sale de cada contrato y con qué anticipación*.
+## 🎯 Propósito
 
-## Resultados verificables
+Controlar cómo se sale de cada contrato, porque una renovación automática con preaviso largo exige un sistema que casi ninguna pyme tiene.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir cómo se sale de cada contrato y con qué anticipación— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Terminación anticipada** | facultad de poner fin antes del plazo |
-| **Renovación automática** | prórroga tácita salvo aviso en contrario |
-| **Preaviso** | plazo de anticipación para comunicar la terminación |
-| **Penalidad** | suma pactada por incumplimiento o salida anticipada |
+| **Terminación anticipada** | Facultad de poner fin antes del plazo. |
+| **Renovación automática** | Prórroga tácita salvo aviso en contrario. |
+| **Preaviso** | Plazo de anticipación para comunicar la terminación. |
+| **Penalidad** | Suma pactada por incumplimiento o salida anticipada. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Terminación anticipada"]
+    C --> A2["Renovación automática"]
+    C --> A3["Preaviso"]
+    C --> A4["Penalidad"]
+    A1 & A2 & A3 & A4 --> D{{"definir cómo se sale de cada<br/>contrato y con qué<br/>anticipación"}}
+    D --> E["Entregable<br/>registro de contratos con<br/>fecha de renovación, preaviso<br/>requerido y penalidad de<br/>salida"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Las cláusulas de salida definen si la empresa queda atrapada. Una renovación automática con preaviso de noventa días exige un control de vencimientos que casi ninguna pyme tiene, y produce renovaciones no deseadas de contratos caros. Las penalidades deben ser proporcionales o pueden ser reducidas judicialmente.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Renovar por olvido contratos caros que ya no sirven es un costo silencioso y recurrente. Las penalidades, por su parte, deben ser proporcionales al perjuicio previsible: las desproporcionadas pueden ser reducidas judicialmente, de modo que pactarlas altas da una falsa sensación de protección.
+
+### 3. Marco aplicable y quién interviene
 
 - Código Civil en materia de obligaciones, contratos y responsabilidad
 - Código de Comercio para actos mercantiles
@@ -40,44 +63,48 @@ Las cláusulas de salida definen si la empresa queda atrapada. Una renovación a
 - Ley 21.131 sobre pago a treinta días
 
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
+**Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Registro de contratos con fecha de renovación, preaviso requerido y penalidad de salida.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el registro incluye preaviso y fecha límite de aviso
 - [ ] las penalidades son proporcionales al perjuicio previsible
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- renovar automáticamente contratos por no controlar el preaviso
-- pactar penalidades desproporcionadas que después no son exigibles
-- aceptar términos y condiciones de un proveedor crítico sin leer la limitación de responsabilidad
-- operar con orden de compra sin contrato marco en servicios recurrentes
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Renovar automáticamente contratos por no controlar el preaviso.
+- Pactar penalidades desproporcionadas que después no son exigibles.
 
-Abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 10:**
 
-## Checklist Chile
+- Aceptar términos y condiciones de un proveedor crítico sin leer la limitación de responsabilidad.
+- Operar con orden de compra sin contrato marco en servicios recurrentes.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,16 +136,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Qué contratos se renuevan automáticamente y cuál es el plazo de preaviso?
+2. ¿Quién controla esas fechas y con qué alerta?
+3. ¿Qué contrato renovaste el último año sin quererlo?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 134. Limitación de responsabilidad y garantías](../class-08-limitacion-de-responsabilidad-y-garantias/README.md) · [Índice de la parte](../README.md) · [136. Jurisdicción, arbitraje y solución de controversias →](../class-10-jurisdiccion-arbitraje-y-solucion-de-controversias/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 134 · Limitación de responsabilidad y garantías](../class-08-limitacion-de-responsabilidad-y-garantias/README.md) | [Parte 10](../README.md) · [Programa](../../../README.md) | [136 · Jurisdicción, arbitraje y solución de controversias →](../class-10-jurisdiccion-arbitraje-y-solucion-de-controversias/README.md) |

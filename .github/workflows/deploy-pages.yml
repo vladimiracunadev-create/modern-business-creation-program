@@ -37,8 +37,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      # El generador no usa dependencias externas: conversor Markdown propio y
-      # biblioteca estándar. No hay paso de instalación que pueda romperse.
+      - name: Instalar dependencias del manual
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # El manual se compila primero porque el generador del sitio borra site/
+      # completo y después copia los PDF desde output/ a site/downloads/.
+      - name: Compilar el manual en PDF (integral y por parte)
+        run: python scripts/generar_manual.py --partes
+
       - name: Generar el sitio HTML
         run: python scripts/generar_sitio.py
 
@@ -46,6 +54,13 @@ jobs:
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6
         with:
           enablement: true
+
+      - name: Verificar que el manual llegó a las descargas
+        run: |
+          test -f site/downloads/modern-business-creation-program-manual-v$(cat VERSION).pdf
+          partes=$(find site/downloads/partes -name '*.pdf' | wc -l)
+          echo "PDF por parte publicados: $partes"
+          test "$partes" -eq 24
 
       - name: Subir artefacto de Pages
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5

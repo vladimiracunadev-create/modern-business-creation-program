@@ -1,82 +1,109 @@
 # Clase 209 — Riesgo de proveedores tecnológicos y SaaS
 
 > **Parte 15 · Tecnología, datos, IA y operación digital** — clase 13 de 14
-> Estado: `DINAMICO` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `DINAMICO` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir qué se evalúa antes de contratar un proveedor tecnológico<br>
+**Entregable:** ficha de evaluación de proveedores SaaS con seguridad, datos, continuidad y salida
 
-Comprender **riesgo de proveedores tecnológicos y saas** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir qué se evalúa antes de contratar un proveedor tecnológico*.
+## 🎯 Propósito
 
-## Resultados verificables
+Evaluar seguridad, ubicación de datos, continuidad y salida antes de contratar un proveedor tecnológico, porque la responsabilidad no se traslada.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir qué se evalúa antes de contratar un proveedor tecnológico— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Riesgo de proveedor** | exposición derivada de depender de un tercero tecnológico |
-| **Cláusula de salida** | derecho a terminar y obtener los datos |
-| **Portabilidad** | capacidad de exportar datos en formato usable |
-| **Evaluación de proveedor** | revisión de seguridad, continuidad y cumplimiento |
+| **Riesgo de proveedor** | Exposición derivada de depender de un tercero tecnológico. |
+| **Cláusula de salida** | Derecho a terminar y obtener los datos. |
+| **Portabilidad** | Capacidad de exportar datos en formato usable. |
+| **Evaluación de proveedor** | Revisión de seguridad, continuidad y cumplimiento. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Riesgo de proveedor"]
+    C --> A2["Cláusula de salida"]
+    C --> A3["Portabilidad"]
+    C --> A4["Evaluación de proveedor"]
+    A1 & A2 & A3 & A4 --> D{{"definir qué se evalúa antes de<br/>contratar un proveedor<br/>tecnológico"}}
+    D --> E["Entregable<br/>ficha de evaluación de<br/>proveedores SaaS con<br/>seguridad, datos, continuidad<br/>y salida"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Contratar SaaS traslada operación pero no responsabilidad: frente al cliente y frente a la autoridad de datos responde la empresa. Antes de contratar hay que verificar seguridad, ubicación de datos, acuerdo de tratamiento y forma de exportación al terminar.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Frente al cliente y frente a la autoridad de datos responde la empresa, no el proveedor. Descubrir al terminar que la exportación de datos no es usable —formatos propietarios, sin relaciones, sin históricos— es el escenario que convierte una migración planificada en una pérdida de información.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 21.663 Marco de Ciberseguridad y su reglamentación
 - Ley 21.719 en lo relativo a tratamiento automatizado y decisiones basadas en datos
 - controles de referencia tipo CIS Controls y NIST CSF adaptados a pyme
 
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
+**Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Ficha de evaluación de proveedores saas con seguridad, datos, continuidad y salida.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] cada proveedor crítico tiene ficha de evaluación completa
 - [ ] la portabilidad de datos está verificada, no solo declarada
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- contratar sin acuerdo de tratamiento de datos personales
-- descubrir al terminar que la exportación de datos no es usable
-- respaldos que nunca se probaron y no restauran cuando se necesitan
-- accesos compartidos y credenciales que sobreviven a la salida de una persona
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Contratar sin acuerdo de tratamiento de datos personales.
+- Descubrir al terminar que la exportación de datos no es usable.
 
-Responsable de ti, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 15:**
 
-## Checklist Chile
+- Respaldos que nunca se probaron y no restauran cuando se necesitan.
+- Accesos compartidos y credenciales que sobreviven a la salida de una persona.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,16 +135,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Tienes acuerdo de tratamiento de datos con cada proveedor que los procesa?
+2. ¿Probaste alguna vez exportar tus datos y verificar que sirven?
+3. ¿Qué pasa con tu operación si ese proveedor cierra en 30 días?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 208. Agentes de IA con humano en el circuito](../class-12-agentes-de-ia-con-humano-en-el-circuito/README.md) · [Índice de la parte](../README.md) · [210. Gobierno tecnológico y costos FinOps →](../class-14-gobierno-tecnologico-y-costos-finops/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 208 · Agentes de IA con humano en el circuito](../class-12-agentes-de-ia-con-humano-en-el-circuito/README.md) | [Parte 15](../README.md) · [Programa](../../../README.md) | [210 · Gobierno tecnológico y costos FinOps →](../class-14-gobierno-tecnologico-y-costos-finops/README.md) |

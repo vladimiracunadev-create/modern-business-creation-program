@@ -1,82 +1,109 @@
 # Clase 316 — Exportación de servicios de software
 
 > **Parte 23 · Estudios de líneas de negocio reales 2026** — clase 8 de 14
-> Estado: `SECTORIAL` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `SECTORIAL` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir el modelo de exportación y la estrategia de retención de talento<br>
+**Entregable:** modelo de exportación de servicios con calificación tributaria, tratamiento de FX y estrategia de retención
 
-Comprender **exportación de servicios de software** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir el modelo de exportación y la estrategia de retención de talento*.
+## 🎯 Propósito
 
-## Resultados verificables
+Verificar la calificación tributaria de la exportación de servicios y definir la estrategia de retención de talento, que es el riesgo estructural del modelo.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir el modelo de exportación y la estrategia de retención de talento— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Exportación de servicios de software** | prestación a clientes en el extranjero |
-| **Calificación de exportación** | condición que habilita el tratamiento tributario |
-| **Facturación en moneda extranjera** | implicancias cambiarias y contables |
-| **Talento y competencia global** | presión salarial por competencia internacional |
+| **Exportación de servicios de software** | Prestación a clientes en el extranjero. |
+| **Calificación de exportación** | Condición que habilita el tratamiento tributario. |
+| **Facturación en moneda extranjera** | Implicancias cambiarias y contables. |
+| **Talento y competencia global** | Presión salarial por competencia internacional. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Exportación de servicios<br/>de software"]
+    C --> A2["Calificación de<br/>exportación"]
+    C --> A3["Facturación en moneda<br/>extranjera"]
+    C --> A4["Talento y competencia<br/>global"]
+    A1 & A2 & A3 & A4 --> D{{"definir el modelo de<br/>exportación y la estrategia de<br/>retención de talento"}}
+    D --> E["Entregable<br/>modelo de exportación de<br/>servicios con calificación<br/>tributaria, tratamiento de FX<br/>y estrategia de retención"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Exportar servicios de software desde Chile aprovecha diferencia de costos y zona horaria compatible con América. El desafío estructural es retener talento que puede ser contratado directamente desde el exterior, lo que presiona los salarios y erosiona el margen del modelo de intermediación.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+El arbitraje salarial que sostenía este modelo se está cerrando: el talento chileno puede ser contratado directamente desde el exterior. Construir sobre esa diferencia sin una propuesta de retención propia es apostar a que una tendencia se detenga sola.
+
+### 3. Marco aplicable y quién interviene
 
 - matriz de líneas de negocio 2026 del repositorio (manifests/business_lines_2026.json)
 - regulación sectorial aplicable según actividad económica
 - economía unitaria por modelo: suscripción, proyecto, transacción, retail y servicio
 
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
+**Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Modelo de exportación de servicios con calificación tributaria, tratamiento de fx y estrategia de retención.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la calificación tributaria del servicio está verificada
 - [ ] la estrategia de retención de talento está definida
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- aplicar exención de IVA sin cumplir los requisitos de calificación
-- construir el modelo sobre arbitraje salarial que se está cerrando
-- entrar a un sector regulado subestimando el costo y el plazo de habilitación
-- asumir márgenes de referencia internacional que no aplican al mercado chileno
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Aplicar exención de iva sin cumplir los requisitos de calificación.
+- Construir el modelo sobre arbitraje salarial que se está cerrando.
 
-Fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 23:**
 
-## Checklist Chile
+- Entrar a un sector regulado subestimando el costo y el plazo de habilitación.
+- Asumir márgenes de referencia internacional que no aplican al mercado chileno.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,17 +135,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **ProChile** — Exportación de servicios: <https://centrodeayuda.prochile.gob.cl/hc/es-419/articles/360048482753--Qu%C3%A9-son-los-servicios-y-c%C3%B3mo-se-realiza-su-exportaci%C3%B3n>
-- **Servicio de Impuestos Internos** — Nuevos contribuyentes y DTE: <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html>
+1. ¿Cumples los requisitos que habilitan el tratamiento de IVA y lo documentas?
+2. ¿Qué retiene a tu equipo frente a una oferta directa del exterior?
+3. ¿Cómo gestionas la exposición cambiaria de facturar en moneda extranjera?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**ProChile — Exportación de servicios**  
+<https://www.prochile.gob.cl/exportadores/exportacion-de-servicios> · verificado 2026-08-07
+
+- *Qué contiene:* Explica qué se entiende por exportación de servicios, qué condiciones deben cumplirse para acceder al tratamiento tributario correspondiente y qué documentación de respaldo se exige.
+- *Cómo leerla:* Contrástala siempre con la resolución del SII aplicable: ProChile explica el concepto y el mercado, pero la calificación que habilita el tratamiento de IVA la resuelve la normativa tributaria.
+
+**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
+- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 315. Educación digital y capacitación empresarial](../class-07-educacion-digital-y-capacitacion-empresarial/README.md) · [Índice de la parte](../README.md) · [317. Fintech regulada y servicios financieros tecnológicos →](../class-09-fintech-regulada-y-servicios-financieros-tecnologicos/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 315 · Educación digital y capacitación empresarial](../class-07-educacion-digital-y-capacitacion-empresarial/README.md) | [Parte 23](../README.md) · [Programa](../../../README.md) | [317 · Fintech regulada y servicios financieros tecnológicos →](../class-09-fintech-regulada-y-servicios-financieros-tecnologicos/README.md) |

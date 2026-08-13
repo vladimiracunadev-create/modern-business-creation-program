@@ -1,38 +1,61 @@
 # Clase 250 — IVA, retenciones y doble tributación
 
 > **Parte 18 · Comercio exterior e internacionalización** — clase 12 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** determinar el tratamiento tributario de los flujos internacionales antes de facturar<br>
+**Entregable:** análisis de tributación internacional con retenciones aplicables, convenio vigente y documentación requerida
 
-Comprender **iva, retenciones y doble tributación** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*determinar el tratamiento tributario de los flujos internacionales antes de facturar*.
+## 🎯 Propósito
 
-## Resultados verificables
+Determinar el tratamiento tributario de los flujos internacionales antes de facturar, incluida la gestión del certificado de residencia.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —determinar el tratamiento tributario de los flujos internacionales antes de facturar— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Retención en la fuente** | impuesto retenido por el pagador extranjero o local |
-| **Doble tributación** | gravamen del mismo ingreso en dos jurisdicciones |
-| **Convenio** | tratado que reduce o elimina la doble tributación |
-| **Certificado de residencia** | documento que acredita residencia tributaria para aplicar el convenio |
+| **Retención en la fuente** | Impuesto retenido por el pagador extranjero o local. |
+| **Doble tributación** | Gravamen del mismo ingreso en dos jurisdicciones. |
+| **Convenio** | Tratado que reduce o elimina la doble tributación. |
+| **Certificado de residencia** | Documento que acredita residencia tributaria para aplicar el convenio. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Retención en la fuente"]
+    C --> A2["Doble tributación"]
+    C --> A3["Convenio"]
+    C --> A4["Certificado de residencia"]
+    A1 & A2 & A3 & A4 --> D{{"determinar el tratamiento<br/>tributario de los flujos<br/>internacionales antes de<br/>facturar"}}
+    D --> E["Entregable<br/>análisis de tributación<br/>internacional con retenciones<br/>aplicables, convenio vigente y<br/>documentación requerida"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Al recibir pagos del extranjero puede aplicarse retención en origen. Si existe convenio vigente con ese país, la tasa se reduce, pero solo si se presenta certificado de residencia tributaria en tiempo y forma. Gestionarlo después del pago suele ser imposible.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Si existe convenio vigente con el país de origen del pago, la retención se reduce, pero solo si se presenta el certificado de residencia tributaria en tiempo y forma. Gestionarlo después del pago suele ser imposible, y la diferencia retenida no se recupera.
+
+### 3. Marco aplicable y quién interviene
 
 - Ordenanza de Aduanas y arancel aduanero chileno
 - DL 825 en materia de exportación de bienes y servicios y recuperación de IVA exportador
@@ -40,44 +63,48 @@ Al recibir pagos del extranjero puede aplicarse retención en origen. Si existe 
 - Incoterms de la Cámara de Comercio Internacional
 
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
+**Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Análisis de tributación internacional con retenciones aplicables, convenio vigente y documentación requerida.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la existencia y vigencia del convenio está verificada
 - [ ] la documentación para aplicar el convenio está gestionada antes del pago
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- facturar al extranjero sin haber gestionado el certificado de residencia
-- asumir que el ingreso del exterior no tributa en Chile
-- clasificar mal la partida arancelaria y pagar derechos o multas
-- elegir un Incoterm que traslada un riesgo logístico que la empresa no puede gestionar
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Facturar al extranjero sin haber gestionado el certificado de residencia.
+- Asumir que el ingreso del exterior no tributa en chile.
 
-Agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 18:**
 
-## Checklist Chile
+- Clasificar mal la partida arancelaria y pagar derechos o multas.
+- Elegir un incoterm que traslada un riesgo logístico que la empresa no puede gestionar.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,17 +136,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Servicio de Impuestos Internos** — Nuevos contribuyentes y DTE: <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Existe convenio vigente con el país desde donde te pagan?
+2. ¿Gestionaste el certificado de residencia antes de facturar?
+3. ¿Cómo tributa en Chile el ingreso que recibes del exterior?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
+- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 249. Contratos internacionales](../class-11-contratos-internacionales/README.md) · [Índice de la parte](../README.md) · [251. ProChile y entrada a mercados →](../class-13-prochile-y-entrada-a-mercados/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 249 · Contratos internacionales](../class-11-contratos-internacionales/README.md) | [Parte 18](../README.md) · [Programa](../../../README.md) | [251 · ProChile y entrada a mercados →](../class-13-prochile-y-entrada-a-mercados/README.md) |

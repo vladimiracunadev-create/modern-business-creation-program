@@ -1,82 +1,109 @@
 # Clase 213 — Crédito comercial y capital de trabajo
 
 > **Parte 16 · Financiamiento, banca, fondos e inversión** — clase 3 de 14
-> Estado: `DINAMICO` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `DINAMICO` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** preparar la carpeta bancaria y evaluar las condiciones antes de aceptar<br>
+**Entregable:** carpeta bancaria completa con estados financieros, carpeta tributaria y análisis de covenants
 
-Comprender **crédito comercial y capital de trabajo** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*preparar la carpeta bancaria y evaluar las condiciones antes de aceptar*.
+## 🎯 Propósito
 
-## Resultados verificables
+Preparar la carpeta bancaria completa antes de solicitar crédito, porque la calidad de la información cambia materialmente las condiciones ofrecidas.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —preparar la carpeta bancaria y evaluar las condiciones antes de aceptar— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Línea de crédito** | cupo disponible para capital de trabajo |
-| **Carpeta bancaria** | documentación exigida para evaluar el crédito |
-| **Covenant** | condición que el deudor se obliga a mantener |
-| **Garantía** | respaldo exigido para el otorgamiento |
+| **Línea de crédito** | Cupo disponible para capital de trabajo. |
+| **Carpeta bancaria** | Documentación exigida para evaluar el crédito. |
+| **Covenant** | Condición que el deudor se obliga a mantener. |
+| **Garantía** | Respaldo exigido para el otorgamiento. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Línea de crédito"]
+    C --> A2["Carpeta bancaria"]
+    C --> A3["Covenant"]
+    C --> A4["Garantía"]
+    A1 & A2 & A3 & A4 --> D{{"preparar la carpeta bancaria y<br/>evaluar las condiciones antes<br/>de aceptar"}}
+    D --> E["Entregable<br/>carpeta bancaria completa con<br/>estados financieros, carpeta<br/>tributaria y análisis de<br/>covenants"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 El banco evalúa capacidad de pago, comportamiento histórico y garantías. Presentar estados financieros ordenados y carpeta tributaria al día cambia materialmente las condiciones ofrecidas. Los covenants deben leerse antes de firmar: incumplirlos puede hacer exigible toda la deuda.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+El banco evalúa capacidad de pago, comportamiento histórico y garantías, y presentar estados financieros ordenados con carpeta tributaria al día mejora la oferta. Los covenants deben leerse antes de firmar: incumplirlos puede hacer exigible toda la deuda de forma anticipada.
+
+### 3. Marco aplicable y quién interviene
 
 - FOGAPE y sistema de garantías estatales
 - Ley 21.521 Fintec para plataformas de financiamiento colectivo
 - instrumentos SAFE, notas convertibles y aumentos de capital en SpA
 
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
+**Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Carpeta bancaria completa con estados financieros, carpeta tributaria y análisis de covenants.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la carpeta incluye estados financieros y carpeta tributaria vigente
 - [ ] los covenants están evaluados contra la proyección financiera
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- solicitar crédito con información contable desordenada y aceptar peores condiciones
-- firmar covenants sin verificar que la empresa puede cumplirlos
-- financiar activos de largo plazo con líneas de corto plazo
-- usar factoring de forma estructural y erosionar el margen
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Solicitar crédito con información contable desordenada y aceptar peores condiciones.
+- Firmar covenants sin verificar que la empresa puede cumplirlos.
 
-Cfo, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 16:**
 
-## Checklist Chile
+- Financiar activos de largo plazo con líneas de corto plazo.
+- Usar factoring de forma estructural y erosionar el margen.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,17 +135,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Servicio de Impuestos Internos** — Carpeta Tributaria Electrónica: <https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm>
-- **CMF** — Registro de Prestadores de Servicios Financieros: <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html>
+1. ¿Tienes estados financieros ordenados y carpeta tributaria vigente para presentar?
+2. ¿Qué covenants te propusieron y podrías cumplirlos en tu escenario conservador?
+3. ¿Cómo se ve tu comportamiento de pago desde afuera hoy?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio de Impuestos Internos — Carpeta Tributaria Electrónica**  
+<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-08-07
+
+- *Qué contiene:* Permite generar el expediente que acredita la situación tributaria de la empresa: inicio de actividades, régimen, declaraciones presentadas y timbraje.
+- *Cómo leerla:* Es el documento que pedirán banco, inversionista y comprador. Genera una hoy aunque no la necesites: lo que muestre es exactamente lo que verá un tercero al evaluarte.
+
+**Comisión para el Mercado Financiero — Registro de Prestadores de Servicios Financieros · Ley 21.521**  
+<https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-18591.html> · verificado 2026-08-07
+
+- *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
+- *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 212. Cuenta bancaria, medios de pago y conciliación](../class-02-cuenta-bancaria-medios-de-pago-y-conciliacion/README.md) · [Índice de la parte](../README.md) · [214. Leasing, factoring y confirming →](../class-04-leasing-factoring-y-confirming/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 212 · Cuenta bancaria, medios de pago y conciliación](../class-02-cuenta-bancaria-medios-de-pago-y-conciliacion/README.md) | [Parte 16](../README.md) · [Programa](../../../README.md) | [214 · Leasing, factoring y confirming →](../class-04-leasing-factoring-y-confirming/README.md) |

@@ -1,38 +1,61 @@
 # Clase 140 — Cuándo debe intervenir un abogado
 
 > **Parte 10 · Contratos y arquitectura legal operativa** — clase 14 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** fijar los umbrales que obligan a revisión legal antes de firmar<br>
+**Entregable:** política de revisión legal con umbrales por monto, materia y contraparte
 
-Comprender **cuándo debe intervenir un abogado** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*fijar los umbrales que obligan a revisión legal antes de firmar*.
+## 🎯 Propósito
 
-## Resultados verificables
+Fijar por escrito los umbrales que obligan a revisión legal, para que la decisión no quede al juicio de quien tiene prisa por cerrar.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —fijar los umbrales que obligan a revisión legal antes de firmar— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Umbral de intervención** | monto o riesgo desde el cual se requiere abogado |
-| **Contrato de alto impacto** | aquel cuyo incumplimiento amenaza la continuidad |
-| **Revisión preventiva** | análisis antes de firmar |
-| **Costo de no consultar** | contingencia esperada por firmar sin revisión |
+| **Umbral de intervención** | Monto o riesgo desde el cual se requiere abogado. |
+| **Contrato de alto impacto** | Aquel cuyo incumplimiento amenaza la continuidad. |
+| **Revisión preventiva** | Análisis antes de firmar. |
+| **Costo de no consultar** | Contingencia esperada por firmar sin revisión. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Umbral de intervención"]
+    C --> A2["Contrato de alto impacto"]
+    C --> A3["Revisión preventiva"]
+    C --> A4["Costo de no consultar"]
+    A1 & A2 & A3 & A4 --> D{{"fijar los umbrales que obligan<br/>a revisión legal antes de<br/>firmar"}}
+    D --> E["Entregable<br/>política de revisión legal con<br/>umbrales por monto, materia y<br/>contraparte"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La regla práctica es definir umbrales por escrito: sobre cierto monto, con cierta contraparte o con ciertas materias (propiedad intelectual, laboral, datos personales, exclusividad), la revisión legal es obligatoria. Sin umbrales, la decisión queda al juicio del que tiene prisa por cerrar.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Los umbrales razonables combinan monto y materia: propiedad intelectual, laboral, datos personales, exclusividad y responsabilidad ilimitada deberían exigir revisión con independencia del valor. Consultar al abogado después de firmar convierte la asesoría en un informe sobre un problema que ya existe.
+
+### 3. Marco aplicable y quién interviene
 
 - Código Civil en materia de obligaciones, contratos y responsabilidad
 - Código de Comercio para actos mercantiles
@@ -40,44 +63,48 @@ La regla práctica es definir umbrales por escrito: sobre cierto monto, con cier
 - Ley 21.131 sobre pago a treinta días
 
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
+**Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Política de revisión legal con umbrales por monto, materia y contraparte.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] los umbrales están definidos por monto y por materia
 - [ ] la política identifica materias de revisión obligatoria
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- consultar al abogado después de firmar para que resuelva lo ya pactado
-- evitar el costo de revisión en contratos que comprometen la continuidad
-- aceptar términos y condiciones de un proveedor crítico sin leer la limitación de responsabilidad
-- operar con orden de compra sin contrato marco en servicios recurrentes
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Consultar al abogado después de firmar para que resuelva lo ya pactado.
+- Evitar el costo de revisión en contratos que comprometen la continuidad.
 
-Abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 10:**
 
-## Checklist Chile
+- Aceptar términos y condiciones de un proveedor crítico sin leer la limitación de responsabilidad.
+- Operar con orden de compra sin contrato marco en servicios recurrentes.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,16 +136,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Sobre qué monto o materia tu empresa exige revisión legal antes de firmar?
+2. ¿Cuántos contratos del último año se firmaron sin esa revisión?
+3. ¿Cuánto costaría la contingencia del peor contrato firmado sin revisar?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 139. Gestión y repositorio de contratos](../class-13-gestion-y-repositorio-de-contratos/README.md) · [Índice de la parte](../README.md) · [141. Ley del Consumidor aplicada al negocio →](../../part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-01-ley-del-consumidor-aplicada-al-negocio/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 139 · Gestión y repositorio de contratos](../class-13-gestion-y-repositorio-de-contratos/README.md) | [Parte 10](../README.md) · [Programa](../../../README.md) | [141 · Ley del Consumidor aplicada al negocio →](../../part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-01-ley-del-consumidor-aplicada-al-negocio/README.md) |

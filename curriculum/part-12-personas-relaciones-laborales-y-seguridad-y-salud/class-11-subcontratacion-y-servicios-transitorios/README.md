@@ -1,38 +1,61 @@
 # Clase 165 — Subcontratación y servicios transitorios
 
 > **Parte 12 · Personas, relaciones laborales y seguridad y salud** — clase 11 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir los controles que se exigirán a contratistas antes de cada pago<br>
+**Entregable:** procedimiento de control de subcontratistas con certificados exigidos y retención por incumplimiento
 
-Comprender **subcontratación y servicios transitorios** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir los controles que se exigirán a contratistas antes de cada pago*.
+## 🎯 Propósito
 
-## Resultados verificables
+Controlar a los contratistas ejerciendo el derecho de información antes de cada pago, que es lo que limita la responsabilidad de la empresa principal.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir los controles que se exigirán a contratistas antes de cada pago— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Subcontratación** | ejecución de obras o servicios por un contratista para una empresa principal |
-| **Empresa principal** | la que encarga la obra y responde subsidiaria o solidariamente |
-| **Derecho de información y retención** | facultad de exigir acreditación y retener pagos |
-| **EST** | empresa de servicios transitorios, con reglas y causales propias |
+| **Subcontratación** | Ejecución de obras o servicios por un contratista para una empresa principal. |
+| **Empresa principal** | La que encarga la obra y responde subsidiaria o solidariamente. |
+| **Derecho de información y retención** | Facultad de exigir acreditación y retener pagos. |
+| **EST** | Empresa de servicios transitorios, con reglas y causales propias. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Subcontratación"]
+    C --> A2["Empresa principal"]
+    C --> A3["Derecho de información y<br/>retención"]
+    C --> A4["EST"]
+    A1 & A2 & A3 & A4 --> D{{"definir los controles que se<br/>exigirán a contratistas antes<br/>de cada pago"}}
+    D --> E["Entregable<br/>procedimiento de control de<br/>subcontratistas con<br/>certificados exigidos y<br/>retención por incumplimiento"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La Ley 20.123 hace responder a la empresa principal por las obligaciones laborales y previsionales del contratista. Ejercer el derecho de información —exigir certificados de cumplimiento— transforma la responsabilidad solidaria en subsidiaria. No ejercerlo equivale a asumir la deuda del contratista.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+La Ley 20.123 hace responder solidaria o subsidiariamente por las obligaciones laborales y previsionales del contratista. Exigir certificados de cumplimiento transforma la solidaria en subsidiaria; no exigirlos equivale a garantizar la deuda de un tercero sobre el que no se tiene control.
+
+### 3. Marco aplicable y quién interviene
 
 - Código del Trabajo
 - Ley 21.561 de reducción gradual de jornada: 42 horas semanales desde el 26 de abril de 2026
@@ -41,44 +64,48 @@ La Ley 20.123 hace responder a la empresa principal por las obligaciones laboral
 - Ley 20.123 sobre subcontratación y servicios transitorios
 
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
+**Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Procedimiento de control de subcontratistas con certificados exigidos y retención por incumplimiento.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] se exige certificado de cumplimiento antes de cada pago
 - [ ] el procedimiento contempla retención ante incumplimiento
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- pagar al contratista sin exigir certificado de cumplimiento previsional
-- usar servicios transitorios fuera de las causales que la ley permite
-- contratar a honorarios a alguien que en los hechos es trabajador dependiente
-- no adecuar jornada y turnos al calendario de reducción legal
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Pagar al contratista sin exigir certificado de cumplimiento previsional.
+- Usar servicios transitorios fuera de las causales que la ley permite.
 
-Abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 12:**
 
-## Checklist Chile
+- Contratar a honorarios a alguien que en los hechos es trabajador dependiente.
+- No adecuar jornada y turnos al calendario de reducción legal.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,17 +137,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Dirección del Trabajo** — Trabajo y empleadores: <https://www.dt.gob.cl/>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Exiges certificado de cumplimiento previsional antes de cada pago al contratista?
+2. ¿Qué haces si el certificado muestra deuda: retienes o pagas igual?
+3. ¿Estás usando servicios transitorios fuera de las causales que la ley permite?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
+<https://www.dt.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
+- *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 164. Ley Karin: prevención, denuncia e investigación](../class-10-ley-karin-prevencion-denuncia-e-investigacion/README.md) · [Índice de la parte](../README.md) · [166. Ley 16.744 y seguro de accidentes →](../class-12-ley-16-744-y-seguro-de-accidentes/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 164 · Ley Karin: prevención, denuncia e investigación](../class-10-ley-karin-prevencion-denuncia-e-investigacion/README.md) | [Parte 12](../README.md) · [Programa](../../../README.md) | [166 · Ley 16.744 y seguro de accidentes →](../class-12-ley-16-744-y-seguro-de-accidentes/README.md) |

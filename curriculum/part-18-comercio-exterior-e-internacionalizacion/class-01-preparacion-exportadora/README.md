@@ -1,38 +1,61 @@
 # Clase 239 — Preparación exportadora
 
 > **Parte 18 · Comercio exterior e internacionalización** — clase 1 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** determinar si la empresa está en condiciones reales de exportar y a qué costo<br>
+**Entregable:** diagnóstico de preparación exportadora con brechas de capacidad, adecuación y costo de entrada
 
-Comprender **preparación exportadora** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*determinar si la empresa está en condiciones reales de exportar y a qué costo*.
+## 🎯 Propósito
 
-## Resultados verificables
+Diagnosticar si la empresa está en condiciones reales de exportar, considerando capacidad productiva, margen y capacidad administrativa.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —determinar si la empresa está en condiciones reales de exportar y a qué costo— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Preparación exportadora** | conjunto de capacidades necesarias para vender al exterior |
-| **Capacidad productiva** | volumen sostenible para atender demanda externa |
-| **Adecuación de producto** | cambios exigidos por normativa o preferencias del mercado destino |
-| **Costo de entrada** | inversión en certificaciones, adecuación y promoción |
+| **Preparación exportadora** | Conjunto de capacidades necesarias para vender al exterior. |
+| **Capacidad productiva** | Volumen sostenible para atender demanda externa. |
+| **Adecuación de producto** | Cambios exigidos por normativa o preferencias del mercado destino. |
+| **Costo de entrada** | Inversión en certificaciones, adecuación y promoción. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Preparación exportadora"]
+    C --> A2["Capacidad productiva"]
+    C --> A3["Adecuación de producto"]
+    C --> A4["Costo de entrada"]
+    A1 & A2 & A3 & A4 --> D{{"determinar si la empresa está<br/>en condiciones reales de<br/>exportar y a qué costo"}}
+    D --> E["Entregable<br/>diagnóstico de preparación<br/>exportadora con brechas de<br/>capacidad, adecuación y costo<br/>de entrada"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Exportar exige capacidad productiva estable, margen que soporte los costos adicionales y capacidad administrativa para gestionar documentación. Muchas empresas descubren tarde que la adecuación del producto —etiquetado, certificaciones, formatos— cuesta más que el envío mismo.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Muchas empresas descubren tarde que la adecuación del producto —etiquetado, certificaciones, formatos— cuesta más que el envío. Y comprometer volumen que la capacidad no sostiene daña la relación con un comprador extranjero de forma difícil de reparar, porque el mercado de referencias es pequeño.
+
+### 3. Marco aplicable y quién interviene
 
 - Ordenanza de Aduanas y arancel aduanero chileno
 - DL 825 en materia de exportación de bienes y servicios y recuperación de IVA exportador
@@ -40,44 +63,48 @@ Exportar exige capacidad productiva estable, margen que soporte los costos adici
 - Incoterms de la Cámara de Comercio Internacional
 
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
+**Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Diagnóstico de preparación exportadora con brechas de capacidad, adecuación y costo de entrada.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] las brechas de capacidad están identificadas con costo
 - [ ] el costo de entrada al mercado destino está estimado
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- exportar sin capacidad de sostener el volumen comprometido
-- subestimar el costo de adecuación normativa del mercado destino
-- clasificar mal la partida arancelaria y pagar derechos o multas
-- elegir un Incoterm que traslada un riesgo logístico que la empresa no puede gestionar
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Exportar sin capacidad de sostener el volumen comprometido.
+- Subestimar el costo de adecuación normativa del mercado destino.
 
-Agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 18:**
 
-## Checklist Chile
+- Clasificar mal la partida arancelaria y pagar derechos o multas.
+- Elegir un incoterm que traslada un riesgo logístico que la empresa no puede gestionar.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,17 +136,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **ProChile** — Herramientas y programas 2026: <https://centrodeayuda.prochile.gob.cl/hc/es-419/articles/360048423313--Qu%C3%A9-servicios-y-herramientas-ofrece-ProChile>
-- **ProChile** — Exportación de servicios: <https://centrodeayuda.prochile.gob.cl/hc/es-419/articles/360048482753--Qu%C3%A9-son-los-servicios-y-c%C3%B3mo-se-realiza-su-exportaci%C3%B3n>
+1. ¿Puedes sostener el volumen que comprometerías durante doce meses?
+2. ¿Qué adecuaciones exige el mercado destino y cuánto cuestan?
+3. ¿Quién gestionará la documentación de comercio exterior en tu empresa?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**ProChile — Programas, estudios de mercado y promoción**  
+<https://www.prochile.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
+- *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
+
+**ProChile — Exportación de servicios**  
+<https://www.prochile.gob.cl/exportadores/exportacion-de-servicios> · verificado 2026-08-07
+
+- *Qué contiene:* Explica qué se entiende por exportación de servicios, qué condiciones deben cumplirse para acceder al tratamiento tributario correspondiente y qué documentación de respaldo se exige.
+- *Cómo leerla:* Contrástala siempre con la resolución del SII aplicable: ProChile explica el concepto y el mercado, pero la calificación que habilita el tratamiento de IVA la resuelve la normativa tributaria.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[Índice de la parte](../README.md) · [240. Incoterms y responsabilidades →](../class-02-incoterms-y-responsabilidades/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| **Inicio de la parte** | [Parte 18](../README.md) · [Programa](../../../README.md) | [240 · Incoterms y responsabilidades →](../class-02-incoterms-y-responsabilidades/README.md) |

@@ -1,82 +1,109 @@
 # Clase 212 — Cuenta bancaria, medios de pago y conciliación
 
 > **Parte 16 · Financiamiento, banca, fondos e inversión** — clase 2 de 14
-> Estado: `DINAMICO` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `DINAMICO` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** elegir medios de pago según comisión, plazo de abono y perfil de cliente<br>
+**Entregable:** comparación de medios de pago con comisión, plazo y procedimiento de conciliación de recaudación
 
-Comprender **cuenta bancaria, medios de pago y conciliación** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*elegir medios de pago según comisión, plazo de abono y perfil de cliente*.
+## 🎯 Propósito
 
-## Resultados verificables
+Elegir medios de pago considerando comisión y plazo de abono, y conciliar la recaudación para detectar abonos faltantes y contracargos.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —elegir medios de pago según comisión, plazo de abono y perfil de cliente— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Medio de pago** | instrumento con el que el cliente paga |
-| **Comisión** | costo del medio de pago sobre la venta |
-| **Plazo de abono** | tiempo hasta que el dinero está disponible |
-| **Conciliación de recaudación** | cuadratura entre ventas, abonos y comisiones |
+| **Medio de pago** | Instrumento con el que el cliente paga. |
+| **Comisión** | Costo del medio de pago sobre la venta. |
+| **Plazo de abono** | Tiempo hasta que el dinero está disponible. |
+| **Conciliación de recaudación** | Cuadratura entre ventas, abonos y comisiones. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Medio de pago"]
+    C --> A2["Comisión"]
+    C --> A3["Plazo de abono"]
+    C --> A4["Conciliación de<br/>recaudación"]
+    A1 & A2 & A3 & A4 --> D{{"elegir medios de pago según<br/>comisión, plazo de abono y<br/>perfil de cliente"}}
+    D --> E["Entregable<br/>comparación de medios de pago<br/>con comisión, plazo y<br/>procedimiento de conciliación<br/>de recaudación"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Cada medio de pago tiene comisión y plazo de abono distintos, y ambos afectan la caja. La conciliación de recaudación es indispensable: sin ella no se detectan abonos faltantes, comisiones mal aplicadas ni contracargos, que se descubren meses después sin poder reclamarlos.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Cada medio tiene comisión y plazo distintos y ambos afectan la caja. Sin conciliación de recaudación no se detectan abonos que nunca llegaron, comisiones mal aplicadas ni contracargos, y esos hallazgos aparecen meses después cuando ya no se pueden reclamar.
+
+### 3. Marco aplicable y quién interviene
 
 - FOGAPE y sistema de garantías estatales
 - Ley 21.521 Fintec para plataformas de financiamiento colectivo
 - instrumentos SAFE, notas convertibles y aumentos de capital en SpA
 
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
+**Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Comparación de medios de pago con comisión, plazo y procedimiento de conciliación de recaudación.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la comparación incluye comisión y plazo de abono
 - [ ] existe procedimiento de conciliación con periodicidad definida
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- elegir medio de pago por comisión sin considerar el plazo de abono
-- no conciliar la recaudación y perder abonos no acreditados
-- financiar activos de largo plazo con líneas de corto plazo
-- usar factoring de forma estructural y erosionar el margen
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Elegir medio de pago por comisión sin considerar el plazo de abono.
+- No conciliar la recaudación y perder abonos no acreditados.
 
-Cfo, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 16:**
 
-## Checklist Chile
+- Financiar activos de largo plazo con líneas de corto plazo.
+- Usar factoring de forma estructural y erosionar el margen.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,16 +135,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **CMF** — Registro de Prestadores de Servicios Financieros: <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html>
+1. ¿Cuál es la comisión y el plazo de abono de cada medio de pago que usas?
+2. ¿Concilias lo vendido contra lo efectivamente abonado y con qué frecuencia?
+3. ¿Cuántos contracargos tuviste el último año y los detectaste a tiempo?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Comisión para el Mercado Financiero — Registro de Prestadores de Servicios Financieros · Ley 21.521**  
+<https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-18591.html> · verificado 2026-08-07
+
+- *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
+- *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 211. Bootstrapping y reinversión](../class-01-bootstrapping-y-reinversion/README.md) · [Índice de la parte](../README.md) · [213. Crédito comercial y capital de trabajo →](../class-03-credito-comercial-y-capital-de-trabajo/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 211 · Bootstrapping y reinversión](../class-01-bootstrapping-y-reinversion/README.md) | [Parte 16](../README.md) · [Programa](../../../README.md) | [213 · Crédito comercial y capital de trabajo →](../class-03-credito-comercial-y-capital-de-trabajo/README.md) |

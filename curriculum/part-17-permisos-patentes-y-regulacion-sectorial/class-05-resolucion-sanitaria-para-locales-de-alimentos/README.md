@@ -1,38 +1,61 @@
 # Clase 229 — Resolución sanitaria para locales de alimentos
 
 > **Parte 17 · Permisos, patentes y regulación sectorial** — clase 5 de 14
-> Estado: `SECTORIAL` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `SECTORIAL` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** diseñar el local considerando desde el inicio los requisitos sanitarios<br>
+**Entregable:** checklist de resolución sanitaria aplicado al proyecto de local con brechas y costo de cierre
 
-Comprender **resolución sanitaria para locales de alimentos** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*diseñar el local considerando desde el inicio los requisitos sanitarios*.
+## 🎯 Propósito
 
-## Resultados verificables
+Diseñar el local considerando desde el inicio los requisitos de planta física, porque adaptarlos después cuesta más que construirlos bien.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —diseñar el local considerando desde el inicio los requisitos sanitarios— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Resolución sanitaria** | autorización específica para un establecimiento de alimentos |
-| **Planta física** | condiciones de infraestructura exigidas |
-| **Manipulador de alimentos** | persona con capacitación exigida |
-| **Fiscalización** | inspección de la autoridad sanitaria |
+| **Resolución sanitaria** | Autorización específica para un establecimiento de alimentos. |
+| **Planta física** | Condiciones de infraestructura exigidas. |
+| **Manipulador de alimentos** | Persona con capacitación exigida. |
+| **Fiscalización** | Inspección de la autoridad sanitaria. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Resolución sanitaria"]
+    C --> A2["Planta física"]
+    C --> A3["Manipulador de alimentos"]
+    C --> A4["Fiscalización"]
+    A1 & A2 & A3 & A4 --> D{{"diseñar el local considerando<br/>desde el inicio los requisitos<br/>sanitarios"}}
+    D --> E["Entregable<br/>checklist de resolución<br/>sanitaria aplicado al proyecto<br/>de local con brechas y costo<br/>de cierre"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La resolución sanitaria para locales de alimentos exige condiciones de planta física —superficies lavables, separación de áreas, agua potable, control de plagas— que deben resolverse en el diseño y no después. Modificar un local ya construido para cumplir suele costar más que haberlo diseñado bien.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Superficies lavables, separación de áreas, agua potable y control de plagas se resuelven en el diseño. Modificar un local ya construido para cumplir suele costar más que la diferencia de haberlo hecho correctamente, y mientras tanto el local no puede operar.
+
+### 3. Marco aplicable y quién interviene
 
 - DL 3.063 sobre rentas municipales (patente municipal)
 - Ley General de Urbanismo y Construcciones y su Ordenanza General
@@ -41,44 +64,48 @@ La resolución sanitaria para locales de alimentos exige condiciones de planta f
 - Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT
 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
+**Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Checklist de resolución sanitaria aplicado al proyecto de local con brechas y costo de cierre.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el diseño del local contempla los requisitos de planta física
 - [ ] la capacitación del personal manipulador está planificada
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- construir el local y después adaptar para cumplir el requisito sanitario
-- operar con personal manipulador sin la capacitación exigida
-- arrendar un local cuyo uso de suelo no admite la actividad
-- iniciar operación con permiso en trámite y exponerse a clausura
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Construir el local y después adaptar para cumplir el requisito sanitario.
+- Operar con personal manipulador sin la capacitación exigida.
 
-Abogado regulatorio, arquitecto o dom, prevencionista, consultor sectorial. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 17:**
 
-## Checklist Chile
+- Arrendar un local cuyo uso de suelo no admite la actividad.
+- Iniciar operación con permiso en trámite y exponerse a clausura.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,16 +137,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **ChileAtiende / Autoridad Sanitaria** — Autorización sanitaria de alimentos: <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos>
+1. ¿Tu diseño contempla separación de áreas y superficies exigidas?
+2. ¿Tu personal manipulador tiene la capacitación exigida y está vigente?
+3. ¿Qué observación te haría un fiscalizador hoy si entrara a tu local?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos**  
+<https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> · verificado 2026-08-07
+
+- *Qué contiene:* Detalla qué establecimientos requieren autorización sanitaria, qué antecedentes se presentan, qué condiciones de planta física se exigen y cuál es la vigencia del permiso.
+- *Cómo leerla:* Léela antes de firmar el arriendo, no después: las exigencias de planta física —separación de áreas, superficies lavables, agua potable— se resuelven en el diseño y se vuelven carísimas de corregir sobre un local ya construido.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 228. Alimentos y Reglamento Sanitario DS 977](../class-04-alimentos-y-reglamento-sanitario-ds-977/README.md) · [Índice de la parte](../README.md) · [230. Salud, prestaciones y datos sensibles →](../class-06-salud-prestaciones-y-datos-sensibles/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 228 · Alimentos y Reglamento Sanitario DS 977](../class-04-alimentos-y-reglamento-sanitario-ds-977/README.md) | [Parte 17](../README.md) · [Programa](../../../README.md) | [230 · Salud, prestaciones y datos sensibles →](../class-06-salud-prestaciones-y-datos-sensibles/README.md) |

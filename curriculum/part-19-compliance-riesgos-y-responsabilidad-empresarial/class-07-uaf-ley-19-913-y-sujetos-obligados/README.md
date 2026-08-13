@@ -1,38 +1,61 @@
 # Clase 259 — UAF, Ley 19.913 y sujetos obligados
 
 > **Parte 19 · Compliance, riesgos y responsabilidad empresarial** — clase 7 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** determinar si la empresa es sujeto obligado y qué deberes activa<br>
+**Entregable:** análisis de calificación como sujeto obligado con deberes aplicables y designaciones requeridas
 
-Comprender **uaf, ley 19.913 y sujetos obligados** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*determinar si la empresa es sujeto obligado y qué deberes activa*.
+## 🎯 Propósito
 
-## Resultados verificables
+Verificar si la empresa es sujeto obligado ante la UAF buscando su actividad en el listado literal, no por intuición.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —determinar si la empresa es sujeto obligado y qué deberes activa— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **UAF** | Unidad de Análisis Financiero |
-| **Sujeto obligado** | entidad con deberes de reporte por su actividad |
-| **ROS** | reporte de operación sospechosa |
-| **ROE** | reporte de operaciones en efectivo sobre el umbral |
+| **UAF** | Unidad de análisis financiero. |
+| **Sujeto obligado** | Entidad con deberes de reporte por su actividad. |
+| **ROS** | Reporte de operación sospechosa. |
+| **ROE** | Reporte de operaciones en efectivo sobre el umbral. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["UAF"]
+    C --> A2["Sujeto obligado"]
+    C --> A3["ROS"]
+    C --> A4["ROE"]
+    A1 & A2 & A3 & A4 --> D{{"determinar si la empresa es<br/>sujeto obligado y qué deberes<br/>activa"}}
+    D --> E["Entregable<br/>análisis de calificación como<br/>sujeto obligado con deberes<br/>aplicables y designaciones<br/>requeridas"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La Ley 19.913 define los sectores obligados a reportar: entre otros, inmobiliarias, casas de cambio, notarios, corredores, casinos y ciertas actividades con manejo de efectivo. Ser sujeto obligado implica designar oficial de cumplimiento, mantener registros y reportar. Desconocerlo no exime de la sanción.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Inmobiliarias, casas de cambio, notarios, corredores, casinos y varias actividades con manejo de efectivo entran sin ser instituciones financieras. Desconocer la condición no exime de la sanción, y las obligaciones se activan completas: oficial de cumplimiento, registros y reportes.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 20.393 sobre responsabilidad penal de la persona jurídica
 - Ley 21.595 sobre delitos económicos y ambientales
@@ -41,44 +64,48 @@ La Ley 19.913 define los sectores obligados a reportar: entre otros, inmobiliari
 - Ley 21.643 en lo relativo a canal de denuncias e investigación interna
 
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
+**Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Análisis de calificación como sujeto obligado con deberes aplicables y designaciones requeridas.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la calificación se verificó contra el listado oficial vigente
 - [ ] los deberes aplicables están identificados con responsable
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- desconocer la condición de sujeto obligado por el rubro
-- no reportar operaciones en efectivo sobre el umbral establecido
-- modelo de prevención de delitos en papel, sin evidencia de operación
-- no identificar la condición de sujeto obligado UAF y omitir reportes
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Desconocer la condición de sujeto obligado por el rubro.
+- No reportar operaciones en efectivo sobre el umbral establecido.
 
-Oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 19:**
 
-## Checklist Chile
+- Modelo de prevención de delitos en papel, sin evidencia de operación.
+- No identificar la condición de sujeto obligado uaf y omitir reportes.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,17 +137,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Unidad de Análisis Financiero** — Sujetos obligados LA/FT: <https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Está tu actividad en el listado literal de sujetos obligados?
+2. Si lo estás, ¿designaste oficial de cumplimiento y llevas los registros?
+3. ¿Reportas operaciones en efectivo sobre el umbral establecido?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Unidad de Análisis Financiero — Sujetos obligados · Ley 19.913**  
+<https://www.uaf.cl/entidades/quienes.aspx> · verificado 2026-08-07
+
+- *Qué contiene:* Enumera los sectores obligados a reportar, las obligaciones que se activan —designar oficial de cumplimiento, mantener registros, reportar ROS y ROE— y los umbrales aplicables.
+- *Cómo leerla:* Busca tu actividad en la lista literal antes de asumir que no te aplica: inmobiliarias, casas de cambio, corredores y varias actividades con manejo de efectivo entran sin ser instituciones financieras.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 258. Canal de denuncias e investigaciones](../class-06-canal-de-denuncias-e-investigaciones/README.md) · [Índice de la parte](../README.md) · [260. KYC, PEP, beneficiario final y debida diligencia →](../class-08-kyc-pep-beneficiario-final-y-debida-diligencia/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 258 · Canal de denuncias e investigaciones](../class-06-canal-de-denuncias-e-investigaciones/README.md) | [Parte 19](../README.md) · [Programa](../../../README.md) | [260 · KYC, PEP, beneficiario final y debida diligencia →](../class-08-kyc-pep-beneficiario-final-y-debida-diligencia/README.md) |

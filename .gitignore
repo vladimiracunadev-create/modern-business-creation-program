@@ -6,8 +6,10 @@ __pycache__/
 *.py[cod]
 node_modules/
 
-# Sitio generado para GitHub Pages (artefacto de build, se reconstruye en CI)
+# Artefactos de build: el sitio y el manual se reconstruyen en CI y se publican
+# como descargas de GitHub Pages, no se versionan.
 site/
+output/
 
 # Credenciales y secretos — nunca deben entrar al repositorio
 *.pem

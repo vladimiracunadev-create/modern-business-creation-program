@@ -1,82 +1,109 @@
 # Clase 294 — Plan de recuperación y vuelta a crecimiento
 
 > **Parte 21 · Crisis, continuidad, insolvencia y recuperación** — clase 14 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir los hitos de estabilización y la secuencia de recuperación<br>
+**Entregable:** plan de recuperación con hitos de estabilización, secuencia de reconstrucción y meta de reserva
 
-Comprender **plan de recuperación y vuelta a crecimiento** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir los hitos de estabilización y la secuencia de recuperación*.
+## 🎯 Propósito
 
-## Resultados verificables
+Definir hitos observables de estabilización y reconstituir la reserva antes de volver a crecer.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir los hitos de estabilización y la secuencia de recuperación— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Plan de recuperación** | secuencia para volver a la operación y al crecimiento |
-| **Hito de estabilización** | condición que indica que la crisis está contenida |
-| **Reconstrucción de capacidad** | recuperación de recursos recortados durante la crisis |
-| **Reserva reconstituida** | restablecimiento del colchón de caja |
+| **Plan de recuperación** | Secuencia para volver a la operación y al crecimiento. |
+| **Hito de estabilización** | Condición que indica que la crisis está contenida. |
+| **Reconstrucción de capacidad** | Recuperación de recursos recortados durante la crisis. |
+| **Reserva reconstituida** | Restablecimiento del colchón de caja. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Plan de recuperación"]
+    C --> A2["Hito de estabilización"]
+    C --> A3["Reconstrucción de<br/>capacidad"]
+    C --> A4["Reserva reconstituida"]
+    A1 & A2 & A3 & A4 --> D{{"definir los hitos de<br/>estabilización y la secuencia<br/>de recuperación"}}
+    D --> E["Entregable<br/>plan de recuperación con hitos<br/>de estabilización, secuencia<br/>de reconstrucción y meta de<br/>reserva"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Salir de la crisis exige un plan tan explícito como el de contención: qué indica que está estabilizada, en qué orden se recupera capacidad y cuándo se reconstituye la reserva. Volver a crecer antes de reconstituir la reserva deja a la empresa expuesta al siguiente golpe.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Reanudar el crecimiento con la reserva agotada deja a la empresa expuesta al siguiente golpe, que en una recuperación temprana es más probable de lo habitual. Y recuperar capacidad en el orden equivocado —primero estructura, después lo que genera ingreso— alarga la recuperación innecesariamente.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 20.720 sobre reorganización y liquidación de empresas y personas
 - Ley 19.983 sobre mérito ejecutivo de la factura para cobranza
 - continuidad de negocio: BIA, RTO, RPO y plan de comunicación de crisis
 
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
+**Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Plan de recuperación con hitos de estabilización, secuencia de reconstrucción y meta de reserva.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] los hitos de estabilización son observables
 - [ ] la reconstitución de la reserva tiene meta y plazo
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- reanudar el crecimiento antes de reconstituir la reserva de caja
-- recuperar capacidad en orden inverso al que sostiene el ingreso
-- esperar a la cesación de pagos para buscar asesoría y perder la opción de reorganización
-- recortar costos destruyendo la capacidad que permite recuperarse
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Reanudar el crecimiento antes de reconstituir la reserva de caja.
+- Recuperar capacidad en orden inverso al que sostiene el ingreso.
 
-Abogado de insolvencia, veedor o liquidador, cfo, comunicaciones. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 21:**
 
-## Checklist Chile
+- Esperar a la cesación de pagos para buscar asesoría y perder la opción de reorganización.
+- Recortar costos destruyendo la capacidad que permite recuperarse.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,17 +135,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
-- **Dirección del Trabajo** — Trabajo y empleadores: <https://www.dt.gob.cl/>
+1. ¿Qué hito observable te indicaría que la crisis está contenida?
+2. ¿En qué orden recuperarías la capacidad que recortaste?
+3. ¿Qué nivel de reserva debes reconstituir antes de volver a invertir en crecimiento?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+**Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
+<https://www.dt.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
+- *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 293. Post-mortem y aprendizaje organizacional](../class-13-post-mortem-y-aprendizaje-organizacional/README.md) · [Índice de la parte](../README.md) · [295. Construir una empresa transferible →](../../part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 293 · Post-mortem y aprendizaje organizacional](../class-13-post-mortem-y-aprendizaje-organizacional/README.md) | [Parte 21](../README.md) · [Programa](../../../README.md) | [295 · Construir una empresa transferible →](../../part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible/README.md) |

@@ -3,6 +3,42 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado según [SemVer](https://semver.org/lang/es/).
 
+## [1.1.0] — 2026-08-13
+
+### Añadido
+
+- **Capa pedagógica en las 336 clases.** `manifests/pedagogia/` aporta a cada clase un propósito
+  en prosa, un segundo bloque de desarrollo que baja el concepto a la práctica chilena y tres
+  preguntas de comprobación contrastables contra el propio negocio. El currículo pasa de 281.184
+  a **419.186 palabras**, con mediana de 1.239 por clase.
+- **360 diagramas mermaid.** Uno por clase, construido con sus propios conceptos, decisión y
+  entregable, de modo que no hay dos iguales; y uno por parte, dibujado a mano para el flujo de
+  esa materia. El validador rechaza cualquier README sin diagrama.
+- **Narrativa por parte.** `manifests/part_content.json` añade a las 24 partes lema, tres
+  párrafos de contexto, mapa visual, conexiones con las demás partes y pauta bibliográfica.
+- **Fuentes explicadas.** Las 32 fuentes oficiales traen ahora *qué contienen* y *cómo leerlas*,
+  con fecha de verificación. Las clases dejan de enlazar la fuente para pasar a enseñarla.
+- **Glosario maestro.** `docs/19_GLOSSARY.md` se genera desde los 1.344 conceptos del currículo:
+  1.251 términos con definición operacional y enlace a la clase donde se introducen. Cada parte
+  incluye además el glosario de sus propias clases.
+- **Manual en PDF.** `scripts/generar_manual.py` compila con reportlab el manual integral de
+  **1.541 páginas** y un PDF por parte, con portada, índice, encabezado corrido y numeración.
+  Los diagramas se transcriben a esquema legible en vez de volcarse como sintaxis.
+- **Diagramas en el sitio.** Los bloques mermaid se renderizan en el navegador y degradan a
+  código legible si la librería no carga; el tema del diagrama sigue al tema de la página.
+- Nuevas fuentes en el catálogo: SUSESO, Superintendencia de Insolvencia, INE y Banco Central.
+- `requirements.txt` con dependencias fijadas y `pip-audit` en el workflow de seguridad.
+
+### Cambiado
+
+- **Rediseño visual de todos los README.** Cabecera con estado, decisión y entregable; secciones
+  con emoji; tablas para conceptos, talleres y errores; alertas de GitHub; y tabla de navegación
+  anterior/índice/siguiente al pie.
+- `CURRICULUM.md` abre con el mapa del recorrido completo y añade la idea central de cada parte.
+- El validador de estructura pasa a exigir las secciones nuevas y la presencia del diagrama.
+- El control de dependencias del workflow de seguridad deja de exigir cero dependencias y pasa a
+  exigir que todas estén fijadas a versión exacta y auditadas.
+
 ## [1.0.0] — 2026-08-13
 
 ### Añadido
@@ -53,5 +89,6 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 - Matriz normativa Chile 2026 y catálogo de fuentes oficiales.
 - Watchlist de datos personales, jornada de 42 horas, fintech y regímenes Pro Pyme.
 
+[1.1.0]: https://github.com/vladimiracunadev-create/modern-business-creation-program/releases/tag/v1.1.0
 [1.0.0]: https://github.com/vladimiracunadev-create/modern-business-creation-program/releases/tag/v1.0.0
 [0.1.0]: https://github.com/vladimiracunadev-create/modern-business-creation-program/releases/tag/v0.1.0

@@ -24,29 +24,36 @@ MANIFESTS = RAIZ / "manifests"
 CURRICULUM = RAIZ / "curriculum"
 
 SECCIONES_CLASE = [
-    "## Objetivo",
-    "## Resultados verificables",
-    "## Conceptos clave",
-    "## Desarrollo",
-    "## Marco aplicable en esta parte",
-    "## Flujo de trabajo",
-    "## Taller guiado",
-    "### Entregable",
-    "## Reto",
-    "### Criterio de aceptación",
-    "## Errores comunes",
-    "## Profesionales a considerar",
-    "## Checklist Chile",
-    "## Fuentes oficiales",
+    "## 🎯 Propósito",
+    "## 📚 Resultados de aprendizaje",
+    "## 🧩 Conceptos centrales",
+    "## 🗺️ Flujo de razonamiento",
+    "## 📖 Desarrollo",
+    "## 🧪 Taller guiado",
+    "### 📦 Entregable",
+    "## 🏆 Reto verificable",
+    "## ✅ Criterio de aceptación",
+    "## ⚠️ Errores frecuentes",
+    "## 🇨🇱 Checklist Chile",
+    "## ❓ Preguntas de comprobación",
+    "## 🔗 Fuentes oficiales",
 ]
 
 SECCIONES_PARTE = [
-    "## Resultados de la parte",
-    "## Marco aplicable",
-    "## Riesgos característicos de esta parte",
-    "## Clases",
-    "## Fuentes oficiales de la parte",
+    "## 🎯 De qué trata esta parte",
+    "## 📚 Resultados de la parte",
+    "## 🗺️ Mapa de la parte",
+    "## ⚖️ Marco aplicable",
+    "## ⚠️ Riesgos característicos",
+    "## 🔤 Glosario de la parte",
+    "## 🔗 Cómo se conecta",
+    "## 📖 Pauta bibliográfica",
+    "## 🏛️ Fuentes oficiales de la parte",
 ]
+
+# Todo README de clase y de parte debe traer su diagrama: es el apoyo visual que
+# distingue este programa y su ausencia indica una plantilla incompleta.
+BLOQUE_MERMAID = "```mermaid"
 
 # Enlaces markdown [texto](destino), ignorando imágenes y anclas de referencia.
 ENLACE = re.compile(r"(?<!\!)\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
@@ -125,12 +132,14 @@ def main() -> int:
             f"hay {len(readmes_clase)} README de clase y {len(curriculo)} clases declaradas"
         )
 
-    # 3. Secciones obligatorias.
+    # 3. Secciones obligatorias y diagrama.
     for readme in readmes_clase:
         texto = readme.read_text(encoding="utf-8")
         for seccion in SECCIONES_CLASE:
             if seccion not in texto:
                 errores.append(f"{readme.relative_to(RAIZ).as_posix()}: falta '{seccion}'")
+        if BLOQUE_MERMAID not in texto:
+            errores.append(f"{readme.relative_to(RAIZ).as_posix()}: falta el diagrama mermaid")
 
     for carpeta in carpetas_parte:
         readme = carpeta / "README.md"
@@ -141,6 +150,8 @@ def main() -> int:
         for seccion in SECCIONES_PARTE:
             if seccion not in texto:
                 errores.append(f"{readme.relative_to(RAIZ).as_posix()}: falta '{seccion}'")
+        if BLOQUE_MERMAID not in texto:
+            errores.append(f"{readme.relative_to(RAIZ).as_posix()}: falta el diagrama mermaid")
 
     # 4. Enlaces internos.
     for markdown in archivos_markdown():

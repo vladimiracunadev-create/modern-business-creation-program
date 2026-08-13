@@ -1,38 +1,61 @@
 # Clase 242 — Importación de bienes a Chile
 
 > **Parte 18 · Comercio exterior e internacionalización** — clase 4 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** calcular el costo total de internación antes de comprometer una importación<br>
+**Entregable:** costeo completo de importación con todos los conceptos y visaciones exigidas por producto
 
-Comprender **importación de bienes a chile** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*calcular el costo total de internación antes de comprometer una importación*.
+## 🎯 Propósito
 
-## Resultados verificables
+Calcular el costo total de internación hasta bodega, porque costear sobre el valor FOB es el error que destruye el margen de la importación.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —calcular el costo total de internación antes de comprometer una importación— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Importación** | ingreso legal de mercancía al territorio nacional |
-| **Declaración de ingreso** | documento aduanero de la operación |
-| **Agente de aduana** | profesional que tramita ante el servicio |
-| **Costo de internación** | arancel, IVA, transporte, almacenaje y gastos |
+| **Importación** | Ingreso legal de mercancía al territorio nacional. |
+| **Declaración de ingreso** | Documento aduanero de la operación. |
+| **Agente de aduana** | Profesional que tramita ante el servicio. |
+| **Costo de internación** | Arancel, iva, transporte, almacenaje y gastos. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Importación"]
+    C --> A2["Declaración de ingreso"]
+    C --> A3["Agente de aduana"]
+    C --> A4["Costo de internación"]
+    A1 & A2 & A3 & A4 --> D{{"calcular el costo total de<br/>internación antes de<br/>comprometer una importación"}}
+    D --> E["Entregable<br/>costeo completo de importación<br/>con todos los conceptos y<br/>visaciones exigidas por<br/>producto"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 El costo real de importar incluye arancel, IVA de importación, flete, seguro, almacenaje y honorarios del agente. Calcular el precio de venta sobre el valor FOB es el error clásico que destruye el margen. Además, ciertos productos requieren visaciones sanitarias o certificaciones previas al ingreso.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Arancel, IVA de importación, flete, seguro, almacenaje y honorarios del agente forman el costo real. Además, ciertos productos requieren visaciones sanitarias o certificaciones previas al ingreso: gestionarlas después del embarque significa mercancía detenida acumulando almacenaje.
+
+### 3. Marco aplicable y quién interviene
 
 - Ordenanza de Aduanas y arancel aduanero chileno
 - DL 825 en materia de exportación de bienes y servicios y recuperación de IVA exportador
@@ -40,44 +63,48 @@ El costo real de importar incluye arancel, IVA de importación, flete, seguro, a
 - Incoterms de la Cámara de Comercio Internacional
 
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
+**Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Costeo completo de importación con todos los conceptos y visaciones exigidas por producto.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el costeo incluye todos los conceptos hasta bodega
 - [ ] las visaciones exigidas por producto están identificadas
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- costear la importación sobre el valor FOB sin incluir internación
-- importar productos que requieren visación previa sin haberla gestionado
-- clasificar mal la partida arancelaria y pagar derechos o multas
-- elegir un Incoterm que traslada un riesgo logístico que la empresa no puede gestionar
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Costear la importación sobre el valor fob sin incluir internación.
+- Importar productos que requieren visación previa sin haberla gestionado.
 
-Agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 18:**
 
-## Checklist Chile
+- Clasificar mal la partida arancelaria y pagar derechos o multas.
+- Elegir un incoterm que traslada un riesgo logístico que la empresa no puede gestionar.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,17 +136,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Servicio Nacional de Aduanas** — Importación y exportación: <https://www.aduana.cl/>
-- **SICEX** — Comercio exterior: <https://www.sicexchile.cl/>
+1. ¿Tu costeo llega hasta bodega o se detiene en el valor FOB?
+2. ¿Qué visaciones exige tu producto y cuándo debes gestionarlas?
+3. ¿Cuánto representa el almacenaje si la carga se detiene una semana?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria**  
+<https://www.aduana.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el arancel aduanero con la clasificación del Sistema Armonizado, los regímenes de importación y exportación, la documentación exigida y las estadísticas de comercio exterior.
+- *Cómo leerla:* La partida arancelaria decide arancel, certificaciones y acuerdos aplicables. Ante duda, usa el mecanismo de consulta de clasificación en vez de decidir por parecido de nombre: el error se paga en diferencias y multas.
+
+**Sistema Integrado de Comercio Exterior — Ventanilla única de comercio exterior**  
+<https://www.sicexchile.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Integra en una sola plataforma los trámites de los servicios que intervienen en una operación de comercio exterior, con el estado de cada visación.
+- *Cómo leerla:* Úsala para descubrir qué servicios intervienen en tu producto antes de embarcar. La mercancía detenida en puerto esperando una visación es el costo típico de no haber hecho esta consulta a tiempo.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 241. Clasificación arancelaria](../class-03-clasificacion-arancelaria/README.md) · [Índice de la parte](../README.md) · [243. Exportación de bienes →](../class-05-exportacion-de-bienes/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 241 · Clasificación arancelaria](../class-03-clasificacion-arancelaria/README.md) | [Parte 18](../README.md) · [Programa](../../../README.md) | [243 · Exportación de bienes →](../class-05-exportacion-de-bienes/README.md) |

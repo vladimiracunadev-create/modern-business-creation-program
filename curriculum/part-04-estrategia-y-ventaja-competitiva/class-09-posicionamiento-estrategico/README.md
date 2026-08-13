@@ -1,82 +1,109 @@
 # Clase 051 — Posicionamiento estratégico
 
 > **Parte 04 · Estrategia y ventaja competitiva** — clase 9 de 14
-> Estado: `GUIA-PRACTICA` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** elegir la categoría de comparación y el punto de diferencia dentro de ella<br>
+**Entregable:** declaración de posicionamiento con marco de referencia, diferencia y prueba
 
-Comprender **posicionamiento estratégico** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*elegir la categoría de comparación y el punto de diferencia dentro de ella*.
+## 🎯 Propósito
 
-## Resultados verificables
+Elegir el marco de referencia con el que el cliente te compara, porque un marco mal elegido te pone a competir contra quienes te superan en todo.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —elegir la categoría de comparación y el punto de diferencia dentro de ella— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Posicionamiento** | lugar que la oferta ocupa en la mente del cliente frente a alternativas |
-| **Marco de referencia** | categoría con la que el cliente compara |
-| **Punto de diferencia** | atributo que distingue dentro de esa categoría |
-| **Prueba de posicionamiento** | evidencia que hace creíble la afirmación |
+| **Posicionamiento** | Lugar que la oferta ocupa en la mente del cliente frente a alternativas. |
+| **Marco de referencia** | Categoría con la que el cliente compara. |
+| **Punto de diferencia** | Atributo que distingue dentro de esa categoría. |
+| **Prueba de posicionamiento** | Evidencia que hace creíble la afirmación. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Posicionamiento"]
+    C --> A2["Marco de referencia"]
+    C --> A3["Punto de diferencia"]
+    C --> A4["Prueba de posicionamiento"]
+    A1 & A2 & A3 & A4 --> D{{"elegir la categoría de<br/>comparación y el punto de<br/>diferencia dentro de ella"}}
+    D --> E["Entregable<br/>declaración de posicionamiento<br/>con marco de referencia,<br/>diferencia y prueba"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 El posicionamiento se define eligiendo primero el marco de referencia. Decir que se es la alternativa más ágil solo significa algo si está claro frente a qué categoría. Un marco mal elegido pone a la empresa a competir contra actores que la superan en todos los atributos evaluados.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Decir que se es «la alternativa más ágil» solo significa algo si está claro frente a qué categoría. Si tu marco es el software empresarial global, pierdes en todos los atributos evaluados; si es la planilla que el cliente usa hoy, ganas en casi todos. El marco es una decisión, no un hecho.
+
+### 3. Marco aplicable y quién interviene
 
 - PESTEL, cinco fuerzas, cadena de valor y estrategias genéricas
 - opciones reales para decisiones bajo incertidumbre
 - OKR y métrica norte como sistema de dirección
 
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
+**Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Declaración de posicionamiento con marco de referencia, diferencia y prueba.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el marco de referencia está declarado explícitamente
 - [ ] el punto de diferencia tiene prueba verificable
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- elegir un marco de referencia donde la empresa es estructuralmente inferior
-- posicionarse por atributos que el cliente no usa para comparar
-- declarar una ventaja competitiva que en realidad es solo precio bajo insostenible
-- definir OKR que miden actividad y no resultado
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Elegir un marco de referencia donde la empresa es estructuralmente inferior.
+- Posicionarse por atributos que el cliente no usa para comparar.
 
-Fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 04:**
 
-## Checklist Chile
+- Declarar una ventaja competitiva que en realidad es solo precio bajo insostenible.
+- Definir okr que miden actividad y no resultado.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,17 +135,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
-- **CORFO** — Innovación, inversión y garantías: <https://www.corfo.cl/>
+1. ¿Con qué categoría te compara hoy tu cliente al decidir?
+2. ¿Qué marco de referencia te conviene y cómo lo instalas en la conversación?
+3. ¿Tu punto de diferencia se puede probar con evidencia verificable?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+**Corporación de Fomento de la Producción — Innovación, inversión y garantías**  
+<https://www.corfo.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
+- *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 050. Estrategia de nicho y beachhead market](../class-08-estrategia-de-nicho-y-beachhead-market/README.md) · [Índice de la parte](../README.md) · [052. Portafolio de apuestas y opciones reales →](../class-10-portafolio-de-apuestas-y-opciones-reales/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 050 · Estrategia de nicho y beachhead market](../class-08-estrategia-de-nicho-y-beachhead-market/README.md) | [Parte 04](../README.md) · [Programa](../../../README.md) | [052 · Portafolio de apuestas y opciones reales →](../class-10-portafolio-de-apuestas-y-opciones-reales/README.md) |

@@ -1,82 +1,109 @@
 # Clase 216 — SERCOTEC y programas de fomento
 
 > **Parte 16 · Financiamiento, banca, fondos e inversión** — clase 6 de 14
-> Estado: `DINAMICO` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `DINAMICO` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** determinar a qué instrumentos la empresa es elegible y cuándo postular<br>
+**Entregable:** mapa de instrumentos SERCOTEC aplicables con requisitos, plazos y exigencias de rendición
 
-Comprender **sercotec y programas de fomento** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*determinar a qué instrumentos la empresa es elegible y cuándo postular*.
+## 🎯 Propósito
 
-## Resultados verificables
+Verificar la elegibilidad contra las bases vigentes y planificar la rendición antes de postular, porque ahí se pierden los fondos adjudicados.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —determinar a qué instrumentos la empresa es elegible y cuándo postular— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **SERCOTEC** | servicio de apoyo a micro y pequeñas empresas |
-| **Convocatoria** | llamado con bases, plazos y requisitos específicos |
-| **Cofinanciamiento** | aporte propio exigido junto al subsidio |
-| **Rendición** | obligación de documentar el uso de los fondos |
+| **SERCOTEC** | Servicio de apoyo a micro y pequeñas empresas. |
+| **Convocatoria** | Llamado con bases, plazos y requisitos específicos. |
+| **Cofinanciamiento** | Aporte propio exigido junto al subsidio. |
+| **Rendición** | Obligación de documentar el uso de los fondos. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["SERCOTEC"]
+    C --> A2["Convocatoria"]
+    C --> A3["Cofinanciamiento"]
+    C --> A4["Rendición"]
+    A1 & A2 & A3 & A4 --> D{{"determinar a qué instrumentos<br/>la empresa es elegible y<br/>cuándo postular"}}
+    D --> E["Entregable<br/>mapa de instrumentos SERCOTEC<br/>aplicables con requisitos,<br/>plazos y exigencias de<br/>rendición"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Los instrumentos de fomento se pierden por errores formales más que por calidad del proyecto: postulaciones fuera de plazo, documentación incompleta o empresa que no cumple el perfil. La rendición posterior exige respaldo documental estricto; sin él, el subsidio debe devolverse.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Los instrumentos de fomento se pierden por errores formales más que por calidad del proyecto: postulaciones fuera de plazo, documentación incompleta o perfil de empresa que no calza. Y la rendición exige respaldo documental estricto: sin él, el subsidio debe devolverse.
+
+### 3. Marco aplicable y quién interviene
 
 - FOGAPE y sistema de garantías estatales
 - Ley 21.521 Fintec para plataformas de financiamiento colectivo
 - instrumentos SAFE, notas convertibles y aumentos de capital en SpA
 
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
+**Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Mapa de instrumentos sercotec aplicables con requisitos, plazos y exigencias de rendición.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la elegibilidad está verificada contra las bases vigentes
 - [ ] las exigencias de rendición están identificadas antes de postular
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- postular sin verificar el perfil de empresa exigido por las bases
-- no planificar la rendición y no poder acreditar el uso de los fondos
-- financiar activos de largo plazo con líneas de corto plazo
-- usar factoring de forma estructural y erosionar el margen
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Postular sin verificar el perfil de empresa exigido por las bases.
+- No planificar la rendición y no poder acreditar el uso de los fondos.
 
-Cfo, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 16:**
 
-## Checklist Chile
+- Financiar activos de largo plazo con líneas de corto plazo.
+- Usar factoring de forma estructural y erosionar el margen.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,16 +135,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **SERCOTEC** — Fomento para micro y pequeñas empresas: <https://www.sercotec.cl/>
+1. ¿Cumples el perfil de empresa que exigen las bases, verificado en el texto?
+2. ¿Qué gastos son financiables y cuáles no en la convocatoria concreta?
+3. ¿Podrías acreditar documentalmente cada gasto en la forma que exigen?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas**  
+<https://www.sercotec.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
+- *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 215. FOGAPE, garantías y evaluación bancaria](../class-05-fogape-garantias-y-evaluacion-bancaria/README.md) · [Índice de la parte](../README.md) · [217. CORFO y financiamiento para innovación →](../class-07-corfo-y-financiamiento-para-innovacion/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 215 · FOGAPE, garantías y evaluación bancaria](../class-05-fogape-garantias-y-evaluacion-bancaria/README.md) | [Parte 16](../README.md) · [Programa](../../../README.md) | [217 · CORFO y financiamiento para innovación →](../class-07-corfo-y-financiamiento-para-innovacion/README.md) |

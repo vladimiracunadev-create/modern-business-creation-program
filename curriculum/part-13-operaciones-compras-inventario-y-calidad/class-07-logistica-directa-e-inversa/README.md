@@ -1,82 +1,109 @@
 # Clase 175 — Logística directa e inversa
 
 > **Parte 13 · Operaciones, compras, inventario y calidad** — clase 7 de 14
-> Estado: `GUIA-PRACTICA` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** diseñar el flujo de devoluciones y su costo antes de prometer políticas de cambio<br>
+**Entregable:** proceso de logística inversa con costo por devolución y criterios de aceptación
 
-Comprender **logística directa e inversa** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*diseñar el flujo de devoluciones y su costo antes de prometer políticas de cambio*.
+## 🎯 Propósito
 
-## Resultados verificables
+Costear la logística inversa antes de prometer políticas de cambio, porque recibir, revisar y reponer puede costar más que el margen del pedido.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —diseñar el flujo de devoluciones y su costo antes de prometer políticas de cambio— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Logística directa** | flujo desde la empresa al cliente |
-| **Logística inversa** | flujo de devoluciones, cambios y reparaciones |
-| **Costo de la devolución** | transporte, revisión, reacondicionamiento y pérdida de valor |
-| **Última milla** | tramo final de la entrega, el más caro por unidad |
+| **Logística directa** | Flujo desde la empresa al cliente. |
+| **Logística inversa** | Flujo de devoluciones, cambios y reparaciones. |
+| **Costo de la devolución** | Transporte, revisión, reacondicionamiento y pérdida de valor. |
+| **Última milla** | Tramo final de la entrega, el más caro por unidad. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Logística directa"]
+    C --> A2["Logística inversa"]
+    C --> A3["Costo de la devolución"]
+    C --> A4["Última milla"]
+    A1 & A2 & A3 & A4 --> D{{"diseñar el flujo de<br/>devoluciones y su costo antes<br/>de prometer políticas de<br/>cambio"}}
+    D --> E["Entregable<br/>proceso de logística inversa<br/>con costo por devolución y<br/>criterios de aceptación"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La logística inversa se subestima sistemáticamente en e-commerce: recibir, revisar, reacondicionar y reponer un producto devuelto puede costar más que el margen del pedido. Diseñarla desde el inicio, con criterios claros de aceptación, evita que la tasa de devolución destruya la rentabilidad.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+En e-commerce la tasa de devolución es una variable estructural del modelo, no un incidente. Ofrecer devolución sin costo sin haber calculado su efecto en la contribución por pedido es una decisión comercial que se paga en margen, y no reacondicionar el producto devuelto pierde su valor completo.
+
+### 3. Marco aplicable y quién interviene
 
 - ISO 9001 como referencia de sistema de gestión de calidad
 - teoría de restricciones para capacidad y cuellos de botella
 - trazabilidad de lote exigida en rubros regulados (alimentos, salud, químicos)
 
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
+**Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Proceso de logística inversa con costo por devolución y criterios de aceptación.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el costo por devolución está calculado
 - [ ] los criterios de aceptación de devolución son operables
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- ofrecer devolución sin costo sin haber calculado su efecto en la contribución
-- no reacondicionar y perder el valor completo del producto devuelto
-- inventario teórico que no coincide con el físico y destruye la promesa de entrega
-- proveedor crítico único sin plan alternativo
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Ofrecer devolución sin costo sin haber calculado su efecto en la contribución.
+- No reacondicionar y perder el valor completo del producto devuelto.
 
-Jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 13:**
 
-## Checklist Chile
+- Inventario teórico que no coincide con el físico y destruye la promesa de entrega.
+- Proveedor crítico único sin plan alternativo.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,16 +135,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **SERNAC** — Consumidor y comercio electrónico: <https://www.sernac.cl/>
+1. ¿Cuánto te cuesta procesar una devolución, incluido el reacondicionamiento?
+2. ¿Qué tasa de devolución tienes y cómo afecta tu contribución por pedido?
+3. ¿Qué haces con el producto devuelto: se repone, se liquida o se pierde?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
+<https://www.sernac.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
+- *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 174. Bodega, picking y despacho](../class-06-bodega-picking-y-despacho/README.md) · [Índice de la parte](../README.md) · [176. Gestión de calidad y no conformidades →](../class-08-gestion-de-calidad-y-no-conformidades/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 174 · Bodega, picking y despacho](../class-06-bodega-picking-y-despacho/README.md) | [Parte 13](../README.md) · [Programa](../../../README.md) | [176 · Gestión de calidad y no conformidades →](../class-08-gestion-de-calidad-y-no-conformidades/README.md) |

@@ -1,38 +1,61 @@
 # Clase 238 — Matriz regulatoria por actividad económica
 
 > **Parte 17 · Permisos, patentes y regulación sectorial** — clase 14 de 14
-> Estado: `SECTORIAL` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `SECTORIAL` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** construir la matriz regulatoria completa de la actividad y mantenerla vigente<br>
+**Entregable:** matriz regulatoria con permiso, autoridad, vigencia, responsable y ubicación de la evidencia
 
-Comprender **matriz regulatoria por actividad económica** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*construir la matriz regulatoria completa de la actividad y mantenerla vigente*.
+## 🎯 Propósito
 
-## Resultados verificables
+Construir la matriz regulatoria completa con autoridad, vigencia, responsable y ubicación de la evidencia por cada obligación.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —construir la matriz regulatoria completa de la actividad y mantenerla vigente— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Matriz regulatoria** | inventario de obligaciones aplicables por actividad |
-| **Autoridad competente** | organismo que fiscaliza cada obligación |
-| **Vencimiento** | fecha en que la habilitación debe renovarse |
-| **Evidencia de cumplimiento** | documento que acredita el cumplimiento vigente |
+| **Matriz regulatoria** | Inventario de obligaciones aplicables por actividad. |
+| **Autoridad competente** | Organismo que fiscaliza cada obligación. |
+| **Vencimiento** | Fecha en que la habilitación debe renovarse. |
+| **Evidencia de cumplimiento** | Documento que acredita el cumplimiento vigente. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Matriz regulatoria"]
+    C --> A2["Autoridad competente"]
+    C --> A3["Vencimiento"]
+    C --> A4["Evidencia de cumplimiento"]
+    A1 & A2 & A3 & A4 --> D{{"construir la matriz<br/>regulatoria completa de la<br/>actividad y mantenerla vigente"}}
+    D --> E["Entregable<br/>matriz regulatoria con<br/>permiso, autoridad, vigencia,<br/>responsable y ubicación de la<br/>evidencia"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La matriz regulatoria es el instrumento que evita descubrir obligaciones por fiscalización. Debe listar cada permiso, su autoridad, su vigencia, su responsable interno y dónde está la evidencia. Sin ella, la renovación depende de que alguien recuerde, que es como funciona hasta que falla.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Es el instrumento que evita descubrir obligaciones por fiscalización. Sin ella la renovación depende de que alguien recuerde, que funciona hasta que falla; y armarla una vez sin actualizarla ante cambios de actividad produce una falsa sensación de control.
+
+### 3. Marco aplicable y quién interviene
 
 - DL 3.063 sobre rentas municipales (patente municipal)
 - Ley General de Urbanismo y Construcciones y su Ordenanza General
@@ -41,44 +64,48 @@ La matriz regulatoria es el instrumento que evita descubrir obligaciones por fis
 - Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT
 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
+**Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Matriz regulatoria con permiso, autoridad, vigencia, responsable y ubicación de la evidencia.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] cada obligación tiene autoridad, vigencia y responsable
 - [ ] la evidencia de cumplimiento es ubicable para cada ítem
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- armar la matriz una vez y no actualizarla ante cambios de actividad
-- no asignar responsable interno por cada obligación
-- arrendar un local cuyo uso de suelo no admite la actividad
-- iniciar operación con permiso en trámite y exponerse a clausura
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Armar la matriz una vez y no actualizarla ante cambios de actividad.
+- No asignar responsable interno por cada obligación.
 
-Abogado regulatorio, arquitecto o dom, prevencionista, consultor sectorial. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 17:**
 
-## Checklist Chile
+- Arrendar un local cuyo uso de suelo no admite la actividad.
+- Iniciar operación con permiso en trámite y exponerse a clausura.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,22 +137,66 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **ChileAtiende / Autoridad Sanitaria** — Autorización sanitaria de alimentos: <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos>
-- **Superintendencia de Electricidad y Combustibles** — Energía e instalaciones: <https://www.sec.cl/>
-- **Subsecretaría de Telecomunicaciones** — Telecomunicaciones: <https://www.subtel.gob.cl/>
-- **SERNATUR** — Turismo: <https://www.sernatur.cl/>
-- **SENCE** — Capacitación y OTEC: <https://sence.gob.cl/>
-- **Servicio de Evaluación Ambiental** — Evaluación ambiental: <https://www.sea.gob.cl/>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Existe un documento único con todos tus permisos, vigencias y responsables?
+2. ¿Quién actualiza la matriz cuando cambia la actividad o se abre una sucursal?
+3. ¿Puedes ubicar hoy la evidencia de cualquier permiso vigente?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos**  
+<https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> · verificado 2026-08-07
+
+- *Qué contiene:* Detalla qué establecimientos requieren autorización sanitaria, qué antecedentes se presentan, qué condiciones de planta física se exigen y cuál es la vigencia del permiso.
+- *Cómo leerla:* Léela antes de firmar el arriendo, no después: las exigencias de planta física —separación de áreas, superficies lavables, agua potable— se resuelven en el diseño y se vuelven carísimas de corregir sobre un local ya construido.
+
+**Superintendencia de Electricidad y Combustibles — Instalaciones eléctricas y de gas**  
+<https://www.sec.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Regula la ejecución y declaración de instalaciones eléctricas y de gas, el registro de instaladores autorizados y las exigencias de seguridad de productos energéticos.
+- *Cómo leerla:* Verifica la licencia del instalador antes de contratar y exige la declaración como entregable del trabajo: sin ella no hay empalme, y un siniestro sobre instalación no declarada compromete la cobertura del seguro.
+
+**Subsecretaría de Telecomunicaciones — Concesiones y permisos de telecomunicaciones**  
+<https://www.subtel.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Detalla qué servicios de telecomunicaciones requieren concesión, permiso o licencia, y el procedimiento y plazos de cada figura.
+- *Cómo leerla:* Califica tu servicio por su naturaleza técnica, no por cómo lo llamas comercialmente. Revender conectividad o instalar redes para terceros suele exigir habilitación aunque el negocio se presente como servicio digital.
+
+**Servicio Nacional de Turismo — Registro de prestadores de servicios turísticos**  
+<https://www.sernatur.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Administra el registro obligatorio de prestadores de servicios turísticos, las categorías de servicio y las normas técnicas aplicables, en particular al turismo aventura.
+- *Cómo leerla:* Si tu actividad es turismo aventura, ve directo a las normas técnicas de seguridad: definen personal, equipamiento y procedimientos, y su incumplimiento es el riesgo mayor del modelo.
+
+**Servicio Nacional de Capacitación y Empleo — OTEC, franquicia tributaria y cursos**  
+<https://sence.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Regula el reconocimiento de organismos técnicos de capacitación, el registro de cursos y el uso de la franquicia tributaria que permite a las empresas descontar capacitación.
+- *Cómo leerla:* Separa dos decisiones que la página presenta juntas: ser OTEC reconocido y usar la franquicia. La segunda solo existe si tienes la primera, y arrastra exigencias estrictas de registro de asistencia y ejecución.
+
+**Servicio de Evaluación Ambiental — Sistema de Evaluación de Impacto Ambiental**  
+<https://www.sea.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Define qué proyectos deben ingresar al SEIA según su tipología y magnitud, la diferencia entre declaración y estudio de impacto, y publica las resoluciones de calificación ambiental otorgadas.
+- *Cómo leerla:* Consulta primero la tipología del reglamento para saber si ingresas; y si ingresas, lee resoluciones de proyectos parecidos: sus condiciones te anticipan las obligaciones permanentes que tendrás.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 237. Medio ambiente, SEA, SMA y permisos sectoriales](../class-13-medio-ambiente-sea-sma-y-permisos-sectoriales/README.md) · [Índice de la parte](../README.md) · [239. Preparación exportadora →](../../part-18-comercio-exterior-e-internacionalizacion/class-01-preparacion-exportadora/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 237 · Medio ambiente, SEA, SMA y permisos sectoriales](../class-13-medio-ambiente-sea-sma-y-permisos-sectoriales/README.md) | [Parte 17](../README.md) · [Programa](../../../README.md) | [239 · Preparación exportadora →](../../part-18-comercio-exterior-e-internacionalizacion/class-01-preparacion-exportadora/README.md) |

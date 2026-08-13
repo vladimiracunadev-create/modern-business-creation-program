@@ -1,38 +1,61 @@
 # Clase 089 — Selección de régimen tributario
 
 > **Parte 07 · SII y ciclo tributario de principio a fin** — clase 5 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** elegir el régimen tributario con simulación comparada documentada<br>
+**Entregable:** simulación comparada de regímenes elegibles con carga total empresa más socios
 
-Comprender **selección de régimen tributario** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*elegir el régimen tributario con simulación comparada documentada*.
+## 🎯 Propósito
 
-## Resultados verificables
+Elegir régimen con una simulación comparada documentada, que es la única forma responsable de tomar la decisión de mayor impacto tributario del negocio.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —elegir el régimen tributario con simulación comparada documentada— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Régimen tributario** | conjunto de reglas de determinación y pago del impuesto |
-| **Requisito de ingreso** | condiciones de ingresos, capital y tipo de socios para acceder |
-| **Cambio de régimen** | paso de un régimen a otro, con plazos y efectos definidos |
-| **Simulación comparada** | cálculo del resultado bajo cada régimen para el mismo escenario |
+| **Régimen tributario** | Conjunto de reglas de determinación y pago del impuesto. |
+| **Requisito de ingreso** | Condiciones de ingresos, capital y tipo de socios para acceder. |
+| **Cambio de régimen** | Paso de un régimen a otro, con plazos y efectos definidos. |
+| **Simulación comparada** | Cálculo del resultado bajo cada régimen para el mismo escenario. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Régimen tributario"]
+    C --> A2["Requisito de ingreso"]
+    C --> A3["Cambio de régimen"]
+    C --> A4["Simulación comparada"]
+    A1 & A2 & A3 & A4 --> D{{"elegir el régimen tributario<br/>con simulación comparada<br/>documentada"}}
+    D --> E["Entregable<br/>simulación comparada de<br/>regímenes elegibles con carga<br/>total empresa más socios"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La elección de régimen depende del nivel de ingresos, del tipo de socios y de la política de retiros. La única forma responsable de decidir es simular el mismo escenario bajo cada régimen elegible, incluyendo el impuesto de los socios, y no quedarse con la carga a nivel empresa.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+La comparación debe incluir el impuesto de los socios y verificar primero los requisitos de tipo de propietarios, que descartan regímenes antes de que las tasas importen. Las tasas además cambian por ley y por período transitorio: cada cifra usada necesita fecha de consulta anotada junto a ella.
+
+### 3. Marco aplicable y quién interviene
 
 - DL 824 sobre impuesto a la renta y DL 825 sobre impuesto a las ventas y servicios
 - Código Tributario (DL 830)
@@ -40,44 +63,48 @@ La elección de régimen depende del nivel de ingresos, del tipo de socios y de 
 - regímenes Pro Pyme General (14 D N°3), Pro Pyme Transparente (14 D N°8) y Semi Integrado (14 A)
 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
+**Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Simulación comparada de regímenes elegibles con carga total empresa más socios.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la simulación incluye impuestos finales de los socios
 - [ ] los requisitos de elegibilidad están verificados
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- elegir régimen por recomendación genérica sin simular el caso
-- ignorar los requisitos de tipo de socios que restringen la elegibilidad
-- elegir régimen por recomendación genérica sin mirar la estructura de socios
-- usar el IVA recaudado como capital de trabajo y no poder pagar el F29
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Elegir régimen por recomendación genérica sin simular el caso.
+- Ignorar los requisitos de tipo de socios que restringen la elegibilidad.
 
-Contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 07:**
 
-## Checklist Chile
+- Elegir régimen por recomendación genérica sin mirar la estructura de socios.
+- Usar el iva recaudado como capital de trabajo y no poder pagar el f29.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,17 +136,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Servicio de Impuestos Internos** — Regímenes tributarios Operación Renta 2026: <https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Simulaste el mismo escenario bajo cada régimen elegible, con impuestos finales incluidos?
+2. ¿Qué régimen queda descartado por la estructura de propietarios de tu sociedad?
+3. ¿De qué fecha son las tasas que usaste y cuándo toca revalidarlas?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio de Impuestos Internos — Regímenes tributarios · Operación Renta 2026**  
+<https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-08-07
+
+- *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
+- *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 088. Acreditación de domicilio ante SII](../class-04-acreditacion-de-domicilio-ante-sii/README.md) · [Índice de la parte](../README.md) · [090. Pro Pyme General →](../class-06-pro-pyme-general/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 088 · Acreditación de domicilio ante SII](../class-04-acreditacion-de-domicilio-ante-sii/README.md) | [Parte 07](../README.md) · [Programa](../../../README.md) | [090 · Pro Pyme General →](../class-06-pro-pyme-general/README.md) |

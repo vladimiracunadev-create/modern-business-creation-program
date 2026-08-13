@@ -1,38 +1,61 @@
 # Clase 094 — Documentos tributarios electrónicos DTE
 
 > **Parte 07 · SII y ciclo tributario de principio a fin** — clase 10 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir el sistema de emisión y el procedimiento de corrección de documentos<br>
+**Entregable:** procedimiento de emisión y corrección de DTE con responsable y plazos
 
-Comprender **documentos tributarios electrónicos dte** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir el sistema de emisión y el procedimiento de corrección de documentos*.
+## 🎯 Propósito
 
-## Resultados verificables
+Definir el procedimiento de emisión y corrección de documentos tributarios, porque los errores tienen plazo y una corrección tardía deja el IVA en firme.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir el sistema de emisión y el procedimiento de corrección de documentos— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **DTE** | documento tributario electrónico: factura, boleta, nota de crédito y débito |
-| **Folios** | numeración autorizada por el SII para emitir |
-| **Nota de crédito** | documento que anula o rebaja una operación previa |
-| **Facturador gratuito** | sistema del SII para emisión sin software propio |
+| **DTE** | Documento tributario electrónico: factura, boleta, nota de crédito y débito. |
+| **Folios** | Numeración autorizada por el sii para emitir. |
+| **Nota de crédito** | Documento que anula o rebaja una operación previa. |
+| **Facturador gratuito** | Sistema del sii para emisión sin software propio. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["DTE"]
+    C --> A2["Folios"]
+    C --> A3["Nota de crédito"]
+    C --> A4["Facturador gratuito"]
+    A1 & A2 & A3 & A4 --> D{{"definir el sistema de emisión<br/>y el procedimiento de<br/>corrección de documentos"}}
+    D --> E["Entregable<br/>procedimiento de emisión y<br/>corrección de DTE con<br/>responsable y plazos"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La emisión electrónica es obligatoria y determina el registro automático en el Registro de Compras y Ventas. Los errores más caros son emitir al RUT equivocado y corregir tarde: la nota de crédito tiene reglas y plazos, y una corrección mal hecha deja el IVA declarado en firme.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Emitir al RUT equivocado y corregir fuera de plazo es el error más caro y más frecuente. La nota de crédito tiene reglas y plazos propios, y operar sin control de folios puede dejar a la empresa impedida de emitir justo cuando necesita facturar el cierre de mes.
+
+### 3. Marco aplicable y quién interviene
 
 - DL 824 sobre impuesto a la renta y DL 825 sobre impuesto a las ventas y servicios
 - Código Tributario (DL 830)
@@ -40,44 +63,48 @@ La emisión electrónica es obligatoria y determina el registro automático en e
 - regímenes Pro Pyme General (14 D N°3), Pro Pyme Transparente (14 D N°8) y Semi Integrado (14 A)
 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
+**Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Procedimiento de emisión y corrección de dte con responsable y plazos.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el procedimiento cubre emisión, anulación y corrección con plazos
 - [ ] el responsable de emisión está designado
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- emitir factura a un RUT incorrecto y corregir fuera de plazo
-- operar sin control de folios y quedar impedido de emitir
-- elegir régimen por recomendación genérica sin mirar la estructura de socios
-- usar el IVA recaudado como capital de trabajo y no poder pagar el F29
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Emitir factura a un rut incorrecto y corregir fuera de plazo.
+- Operar sin control de folios y quedar impedido de emitir.
 
-Contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 07:**
 
-## Checklist Chile
+- Elegir régimen por recomendación genérica sin mirar la estructura de socios.
+- Usar el iva recaudado como capital de trabajo y no poder pagar el f29.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,16 +136,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Servicio de Impuestos Internos** — Nuevos contribuyentes y DTE: <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html>
+1. ¿Quién emite tus documentos y quién revisa antes de emitir?
+2. ¿Qué haces cuando detectas un error y cuál es el plazo que tienes?
+3. ¿Tienes control de folios disponibles antes de un cierre de mes fuerte?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
+- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 093. IVA: débito, crédito y hechos gravados](../class-09-iva-debito-credito-y-hechos-gravados/README.md) · [Índice de la parte](../README.md) · [095. Registro de Compras y Ventas →](../class-11-registro-de-compras-y-ventas/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 093 · IVA: débito, crédito y hechos gravados](../class-09-iva-debito-credito-y-hechos-gravados/README.md) | [Parte 07](../README.md) · [Programa](../../../README.md) | [095 · Registro de Compras y Ventas →](../class-11-registro-de-compras-y-ventas/README.md) |

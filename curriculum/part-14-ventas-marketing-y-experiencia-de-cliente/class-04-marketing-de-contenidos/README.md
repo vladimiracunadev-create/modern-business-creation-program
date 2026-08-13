@@ -1,82 +1,109 @@
 # Clase 186 — Marketing de contenidos
 
 > **Parte 14 · Ventas, marketing y experiencia de cliente** — clase 4 de 14
-> Estado: `GUIA-PRACTICA` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir qué contenido se produce y cómo se distribuye<br>
+**Entregable:** plan de contenidos con intención de búsqueda, formato, distribución y métrica por pieza
 
-Comprender **marketing de contenidos** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir qué contenido se produce y cómo se distribuye*.
+## 🎯 Propósito
 
-## Resultados verificables
+Tratar el contenido como inversión con resultados diferidos y acumulativos, y definir la distribución antes que la producción.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir qué contenido se produce y cómo se distribuye— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Contenido** | material que resuelve un problema del cliente antes de vender |
-| **Intención de búsqueda** | necesidad detrás de una consulta |
-| **Distribución** | mecanismo por el que el contenido llega a la audiencia |
-| **Activo de contenido** | material que sigue generando resultados con el tiempo |
+| **Contenido** | Material que resuelve un problema del cliente antes de vender. |
+| **Intención de búsqueda** | Necesidad detrás de una consulta. |
+| **Distribución** | Mecanismo por el que el contenido llega a la audiencia. |
+| **Activo de contenido** | Material que sigue generando resultados con el tiempo. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Contenido"]
+    C --> A2["Intención de búsqueda"]
+    C --> A3["Distribución"]
+    C --> A4["Activo de contenido"]
+    A1 & A2 & A3 & A4 --> D{{"definir qué contenido se<br/>produce y cómo se distribuye"}}
+    D --> E["Entregable<br/>plan de contenidos con<br/>intención de búsqueda,<br/>formato, distribución y<br/>métrica por pieza"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 El contenido funciona como inversión, no como campaña: los resultados llegan con retraso y se acumulan. Producir sin plan de distribución es el error más frecuente. En Chile, el contenido que mejor convierte suele ser el que resuelve problemas normativos y operativos concretos del cliente.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Producir sin plan de distribución es el error más frecuente y el más caro en horas. En Chile el contenido que mejor convierte suele ser el que resuelve problemas normativos y operativos concretos, porque hay poca oferta de material específico y mucha demanda de claridad.
+
+### 3. Marco aplicable y quién interviene
 
 - embudo de adquisición y métricas por etapa
 - calificación estructurada de oportunidades y discovery comercial
 - revenue operations como integración de marketing, ventas y postventa
 
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
+**Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Plan de contenidos con intención de búsqueda, formato, distribución y métrica por pieza.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] cada pieza tiene canal de distribución definido
 - [ ] la métrica de éxito es de negocio y no de vanidad
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- producir contenido sin plan de distribución
-- medir contenido por visitas y no por oportunidades generadas
-- publicidad con condiciones no informadas que constituye infracción a la Ley del Consumidor
-- pipeline inflado que produce decisiones de contratación equivocadas
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Producir contenido sin plan de distribución.
+- Medir contenido por visitas y no por oportunidades generadas.
 
-Responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 14:**
 
-## Checklist Chile
+- Publicidad con condiciones no informadas que constituye infracción a la ley del consumidor.
+- Pipeline inflado que produce decisiones de contratación equivocadas.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,17 +135,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **SERNAC** — Consumidor y comercio electrónico: <https://www.sernac.cl/>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Cómo llega cada pieza que produces a la audiencia que buscas?
+2. ¿Mides el contenido por visitas o por oportunidades generadas?
+3. ¿Qué problema concreto de tu cliente resuelve tu último contenido?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
+<https://www.sernac.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
+- *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 185. Embudo de adquisición](../class-03-embudo-de-adquisicion/README.md) · [Índice de la parte](../README.md) · [187. Publicidad digital y atribución →](../class-05-publicidad-digital-y-atribucion/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 185 · Embudo de adquisición](../class-03-embudo-de-adquisicion/README.md) | [Parte 14](../README.md) · [Programa](../../../README.md) | [187 · Publicidad digital y atribución →](../class-05-publicidad-digital-y-atribucion/README.md) |

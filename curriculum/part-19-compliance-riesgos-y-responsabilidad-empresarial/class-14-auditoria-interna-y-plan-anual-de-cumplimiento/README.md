@@ -1,38 +1,61 @@
 # Clase 266 — Auditoría interna y plan anual de cumplimiento
 
 > **Parte 19 · Compliance, riesgos y responsabilidad empresarial** — clase 14 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir el plan anual de revisiones y el mecanismo de seguimiento de hallazgos<br>
+**Entregable:** plan anual de cumplimiento con revisiones programadas, hallazgos y seguimiento de cierre
 
-Comprender **auditoría interna y plan anual de cumplimiento** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir el plan anual de revisiones y el mecanismo de seguimiento de hallazgos*.
+## 🎯 Propósito
 
-## Resultados verificables
+Programar revisiones por riesgo y dar seguimiento verificado al cierre de hallazgos, porque un hallazgo sin cierre reaparece.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir el plan anual de revisiones y el mecanismo de seguimiento de hallazgos— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Auditoría interna** | revisión independiente del funcionamiento de los controles |
-| **Plan anual** | programación de revisiones por área y riesgo |
-| **Hallazgo** | desviación detectada con su causa y efecto |
-| **Seguimiento** | verificación del cierre de los hallazgos |
+| **Auditoría interna** | Revisión independiente del funcionamiento de los controles. |
+| **Plan anual** | Programación de revisiones por área y riesgo. |
+| **Hallazgo** | Desviación detectada con su causa y efecto. |
+| **Seguimiento** | Verificación del cierre de los hallazgos. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Auditoría interna"]
+    C --> A2["Plan anual"]
+    C --> A3["Hallazgo"]
+    C --> A4["Seguimiento"]
+    A1 & A2 & A3 & A4 --> D{{"definir el plan anual de<br/>revisiones y el mecanismo de<br/>seguimiento de hallazgos"}}
+    D --> E["Entregable<br/>plan anual de cumplimiento con<br/>revisiones programadas,<br/>hallazgos y seguimiento de<br/>cierre"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 En empresas pequeñas la auditoría interna puede ser una revisión trimestral hecha por un externo o por el dueño con checklist. Lo que la hace efectiva no es la formalidad sino el seguimiento: un hallazgo sin plan de cierre verificado es un hallazgo que reaparecerá.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+En empresas pequeñas la auditoría interna puede ser una revisión trimestral con checklist hecha por un externo o por el dueño. Lo que la hace efectiva no es la formalidad sino el seguimiento; y concentrar las revisiones en lo fácil de auditar deja sin cubrir justamente lo riesgoso.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 20.393 sobre responsabilidad penal de la persona jurídica
 - Ley 21.595 sobre delitos económicos y ambientales
@@ -41,44 +64,48 @@ En empresas pequeñas la auditoría interna puede ser una revisión trimestral h
 - Ley 21.643 en lo relativo a canal de denuncias e investigación interna
 
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
+**Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Plan anual de cumplimiento con revisiones programadas, hallazgos y seguimiento de cierre.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el plan prioriza por riesgo y no por facilidad
 - [ ] existe seguimiento verificado del cierre de hallazgos
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- auditar sin dar seguimiento al cierre de los hallazgos
-- concentrar las revisiones en lo fácil de auditar y no en lo riesgoso
-- modelo de prevención de delitos en papel, sin evidencia de operación
-- no identificar la condición de sujeto obligado UAF y omitir reportes
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Auditar sin dar seguimiento al cierre de los hallazgos.
+- Concentrar las revisiones en lo fácil de auditar y no en lo riesgoso.
 
-Oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 19:**
 
-## Checklist Chile
+- Modelo de prevención de delitos en papel, sin evidencia de operación.
+- No identificar la condición de sujeto obligado uaf y omitir reportes.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,18 +137,42 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Unidad de Análisis Financiero** — Sujetos obligados LA/FT: <https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
-- **Servicio de Impuestos Internos** — Nuevos contribuyentes y DTE: <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html>
+1. ¿Tu plan de revisiones prioriza por riesgo o por facilidad de auditar?
+2. ¿Cuántos hallazgos del año pasado siguen abiertos?
+3. ¿Quién verifica que un hallazgo cerrado efectivamente se corrigió?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Unidad de Análisis Financiero — Sujetos obligados · Ley 19.913**  
+<https://www.uaf.cl/entidades/quienes.aspx> · verificado 2026-08-07
+
+- *Qué contiene:* Enumera los sectores obligados a reportar, las obligaciones que se activan —designar oficial de cumplimiento, mantener registros, reportar ROS y ROE— y los umbrales aplicables.
+- *Cómo leerla:* Busca tu actividad en la lista literal antes de asumir que no te aplica: inmobiliarias, casas de cambio, corredores y varias actividades con manejo de efectivo entran sin ser instituciones financieras.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
+- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 265. Seguros empresariales y transferencia de riesgo](../class-13-seguros-empresariales-y-transferencia-de-riesgo/README.md) · [Índice de la parte](../README.md) · [267. De fundador a organización →](../../part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 265 · Seguros empresariales y transferencia de riesgo](../class-13-seguros-empresariales-y-transferencia-de-riesgo/README.md) | [Parte 19](../README.md) · [Programa](../../../README.md) | [267 · De fundador a organización →](../../part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion/README.md) |

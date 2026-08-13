@@ -1,38 +1,61 @@
 # Clase 064 — Socios, accionistas, porcentajes y control
 
 > **Parte 05 · Diseño societario y gobierno inicial** — clase 8 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir el reparto de participación y los quórums que determinan el control real<br>
+**Entregable:** tabla de capital con participación, quórums por tipo de acuerdo y mecanismo de desempate
 
-Comprender **socios, accionistas, porcentajes y control** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir el reparto de participación y los quórums que determinan el control real*.
+## 🎯 Propósito
 
-## Resultados verificables
+Separar participación de control, porque los quórums pueden dar poder de bloqueo a un minoritario y dejar sin poder efectivo a una mayoría simple.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir el reparto de participación y los quórums que determinan el control real— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Participación** | porcentaje del capital que posee cada socio |
-| **Control** | capacidad de decidir, que depende de quórums y no solo de porcentaje |
-| **Quórum** | mayoría exigida para adoptar cada tipo de acuerdo |
-| **Bloqueo** | situación de empate que impide decidir |
+| **Participación** | Porcentaje del capital que posee cada socio. |
+| **Control** | Capacidad de decidir, que depende de quórums y no solo de porcentaje. |
+| **Quórum** | Mayoría exigida para adoptar cada tipo de acuerdo. |
+| **Bloqueo** | Situación de empate que impide decidir. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Participación"]
+    C --> A2["Control"]
+    C --> A3["Quórum"]
+    C --> A4["Bloqueo"]
+    A1 & A2 & A3 & A4 --> D{{"definir el reparto de<br/>participación y los quórums<br/>que determinan el control real"}}
+    D --> E["Entregable<br/>tabla de capital con<br/>participación, quórums por<br/>tipo de acuerdo y mecanismo de<br/>desempate"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Participación y control no son lo mismo: con quórums calificados un socio del 30% puede bloquear decisiones estructurales. El reparto 50/50 sin mecanismo de desempate es la causa más frecuente de parálisis en sociedades de dos fundadores; conviene resolverlo con voto dirimente, tercero neutral o cláusula de compra forzada.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+El reparto 50/50 sin mecanismo de desempate es la causa más frecuente de parálisis en sociedades de dos fundadores, y no se resuelve con buena voluntad sino con una cláusula: voto dirimente, tercero neutral o compra forzada. Escribirla al inicio cuesta una conversación incómoda; no escribirla cuesta la sociedad.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 20.190 (SpA) y Código de Comercio arts. 424-446
 - Ley 18.046 sobre sociedades anónimas y su reglamento
@@ -40,44 +63,48 @@ Participación y control no son lo mismo: con quórums calificados un socio del 
 - Ley 3.918 sobre sociedades de responsabilidad limitada
 
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
+**Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Tabla de capital con participación, quórums por tipo de acuerdo y mecanismo de desempate.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] los quórums por tipo de acuerdo están definidos
 - [ ] existe un mecanismo de desempate escrito
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- repartir 50/50 sin mecanismo de resolución de empates
-- confundir mayoría de capital con capacidad efectiva de decidir
-- repartir participaciones 50/50 sin mecanismo de desempate
-- entregar equity completo sin vesting ni condiciones de permanencia
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Repartir 50/50 sin mecanismo de resolución de empates.
+- Confundir mayoría de capital con capacidad efectiva de decidir.
 
-Abogado corporativo, notario, contador. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 05:**
 
-## Checklist Chile
+- Repartir participaciones 50/50 sin mecanismo de desempate.
+- Entregar equity completo sin vesting ni condiciones de permanencia.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,16 +136,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Qué acuerdos requieren quórum calificado y quién puede bloquearlos?
+2. Si hoy hubiera empate en una decisión estructural, ¿cómo se resolvería?
+3. ¿Alguien tiene control efectivo sin tener mayoría de capital?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 063. Comparación jurídica para elegir forma societaria](../class-07-comparacion-juridica-para-elegir-forma-societaria/README.md) · [Índice de la parte](../README.md) · [065. Capital, aportes, valorización y vesting →](../class-09-capital-aportes-valorizacion-y-vesting/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 063 · Comparación jurídica para elegir forma societaria](../class-07-comparacion-juridica-para-elegir-forma-societaria/README.md) | [Parte 05](../README.md) · [Programa](../../../README.md) | [065 · Capital, aportes, valorización y vesting →](../class-09-capital-aportes-valorizacion-y-vesting/README.md) |

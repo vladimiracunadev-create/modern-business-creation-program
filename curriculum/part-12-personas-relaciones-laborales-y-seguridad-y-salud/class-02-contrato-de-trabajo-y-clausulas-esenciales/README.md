@@ -1,38 +1,61 @@
 # Clase 156 — Contrato de trabajo y cláusulas esenciales
 
 > **Parte 12 · Personas, relaciones laborales y seguridad y salud** — clase 2 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** redactar contratos con cláusulas esenciales completas y funciones bien definidas<br>
+**Entregable:** modelo de contrato de trabajo con cláusulas esenciales y anexos tipo
 
-Comprender **contrato de trabajo y cláusulas esenciales** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*redactar contratos con cláusulas esenciales completas y funciones bien definidas*.
+## 🎯 Propósito
 
-## Resultados verificables
+Redactar contratos con todas las cláusulas esenciales y funciones descritas con precisión operativa, dentro del plazo legal de escrituración.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —redactar contratos con cláusulas esenciales completas y funciones bien definidas— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Contrato de trabajo** | acuerdo escrito con las cláusulas mínimas del Código del Trabajo |
-| **Cláusula esencial** | estipulación obligatoria: partes, funciones, lugar, remuneración, jornada, plazo |
-| **Anexo** | documento que modifica o complementa el contrato |
-| **Plazo de escrituración** | tiempo legal para poner el contrato por escrito |
+| **Contrato de trabajo** | Acuerdo escrito con las cláusulas mínimas del código del trabajo. |
+| **Cláusula esencial** | Estipulación obligatoria: partes, funciones, lugar, remuneración, jornada, plazo. |
+| **Anexo** | Documento que modifica o complementa el contrato. |
+| **Plazo de escrituración** | Tiempo legal para poner el contrato por escrito. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Contrato de trabajo"]
+    C --> A2["Cláusula esencial"]
+    C --> A3["Anexo"]
+    C --> A4["Plazo de escrituración"]
+    A1 & A2 & A3 & A4 --> D{{"redactar contratos con<br/>cláusulas esenciales completas<br/>y funciones bien definidas"}}
+    D --> E["Entregable<br/>modelo de contrato de trabajo<br/>con cláusulas esenciales y<br/>anexos tipo"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 El contrato debe escriturarse dentro del plazo legal y contener las cláusulas mínimas. La ausencia de escrituración hace presumir como estipulaciones las declaradas por el trabajador. Las funciones deben describirse con precisión suficiente para permitir la polifuncionalidad sin caer en indeterminación.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+La falta de escrituración hace presumir como estipulaciones las que declara el trabajador, lo que traslada la carga probatoria completa al empleador. Y describir las funciones de forma vaga impide exigir cumplimiento después: la polifuncionalidad se pacta con precisión, no con ambigüedad.
+
+### 3. Marco aplicable y quién interviene
 
 - Código del Trabajo
 - Ley 21.561 de reducción gradual de jornada: 42 horas semanales desde el 26 de abril de 2026
@@ -41,44 +64,48 @@ El contrato debe escriturarse dentro del plazo legal y contener las cláusulas m
 - Ley 20.123 sobre subcontratación y servicios transitorios
 
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
+**Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Modelo de contrato de trabajo con cláusulas esenciales y anexos tipo.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el contrato contiene todas las cláusulas esenciales
 - [ ] las funciones están descritas con precisión operativa
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- no escriturar dentro del plazo legal y quedar sujeto a la presunción
-- describir las funciones de forma tan vaga que impide exigir cumplimiento
-- contratar a honorarios a alguien que en los hechos es trabajador dependiente
-- no adecuar jornada y turnos al calendario de reducción legal
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- No escriturar dentro del plazo legal y quedar sujeto a la presunción.
+- Describir las funciones de forma tan vaga que impide exigir cumplimiento.
 
-Abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 12:**
 
-## Checklist Chile
+- Contratar a honorarios a alguien que en los hechos es trabajador dependiente.
+- No adecuar jornada y turnos al calendario de reducción legal.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,17 +137,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Dirección del Trabajo** — Trabajo y empleadores: <https://www.dt.gob.cl/>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Escrituras los contratos dentro del plazo legal y con qué evidencia lo acreditas?
+2. ¿Las funciones descritas permiten exigir lo que realmente esperas del cargo?
+3. ¿Qué anexos modificaron el contrato y están firmados y archivados?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
+<https://www.dt.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
+- *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 155. Cuándo contratar versus externalizar](../class-01-cuando-contratar-versus-externalizar/README.md) · [Índice de la parte](../README.md) · [157. Registro y gestión en Mi DT →](../class-03-registro-y-gestion-en-mi-dt/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 155 · Cuándo contratar versus externalizar](../class-01-cuando-contratar-versus-externalizar/README.md) | [Parte 12](../README.md) · [Programa](../../../README.md) | [157 · Registro y gestión en Mi DT →](../class-03-registro-y-gestion-en-mi-dt/README.md) |

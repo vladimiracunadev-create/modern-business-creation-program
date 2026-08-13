@@ -1,38 +1,61 @@
 # Clase 234 — Turismo y registros sectoriales
 
 > **Parte 17 · Permisos, patentes y regulación sectorial** — clase 10 de 14
-> Estado: `SECTORIAL` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `SECTORIAL` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** determinar si la actividad exige inscripción y qué normas técnicas aplican<br>
+**Entregable:** análisis de exigibilidad SERNATUR con registro, normas técnicas y requisitos de seguridad
 
-Comprender **turismo y registros sectoriales** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*determinar si la actividad exige inscripción y qué normas técnicas aplican*.
+## 🎯 Propósito
 
-## Resultados verificables
+Determinar si la actividad exige inscripción en SERNATUR y qué normas técnicas de seguridad aplican, especialmente en turismo aventura.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —determinar si la actividad exige inscripción y qué normas técnicas aplican— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **SERNATUR** | Servicio Nacional de Turismo |
-| **Registro de prestadores** | inscripción de servicios turísticos |
-| **Sello de calidad** | distintivo voluntario asociado a estándares |
-| **Servicio turístico** | categoría regulada según el tipo de prestación |
+| **SERNATUR** | Servicio nacional de turismo. |
+| **Registro de prestadores** | Inscripción de servicios turísticos. |
+| **Sello de calidad** | Distintivo voluntario asociado a estándares. |
+| **Servicio turístico** | Categoría regulada según el tipo de prestación. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["SERNATUR"]
+    C --> A2["Registro de prestadores"]
+    C --> A3["Sello de calidad"]
+    C --> A4["Servicio turístico"]
+    A1 & A2 & A3 & A4 --> D{{"determinar si la actividad<br/>exige inscripción y qué normas<br/>técnicas aplican"}}
+    D --> E["Entregable<br/>análisis de exigibilidad<br/>SERNATUR con registro, normas<br/>técnicas y requisitos de<br/>seguridad"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Los prestadores de servicios turísticos deben inscribirse en el registro de SERNATUR, y ciertas actividades de turismo aventura tienen normas técnicas y exigencias de seguridad específicas. La inscripción es además requisito para acceder a programas de promoción y para operar con ciertos canales.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+La inscripción es además requisito para acceder a programas de promoción y para operar con ciertos canales de comercialización. En turismo aventura las normas técnicas definen personal, equipamiento y procedimientos: su incumplimiento es el riesgo mayor del modelo, muy por encima del comercial.
+
+### 3. Marco aplicable y quién interviene
 
 - DL 3.063 sobre rentas municipales (patente municipal)
 - Ley General de Urbanismo y Construcciones y su Ordenanza General
@@ -41,44 +64,48 @@ Los prestadores de servicios turísticos deben inscribirse en el registro de SER
 - Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT
 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
+**Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Análisis de exigibilidad sernatur con registro, normas técnicas y requisitos de seguridad.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la categoría del servicio turístico está determinada
 - [ ] las normas técnicas de seguridad aplicables están identificadas
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- operar turismo aventura sin cumplir las normas técnicas de seguridad
-- no inscribirse y quedar fuera de canales y programas de promoción
-- arrendar un local cuyo uso de suelo no admite la actividad
-- iniciar operación con permiso en trámite y exponerse a clausura
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Operar turismo aventura sin cumplir las normas técnicas de seguridad.
+- No inscribirse y quedar fuera de canales y programas de promoción.
 
-Abogado regulatorio, arquitecto o dom, prevencionista, consultor sectorial. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 17:**
 
-## Checklist Chile
+- Arrendar un local cuyo uso de suelo no admite la actividad.
+- Iniciar operación con permiso en trámite y exponerse a clausura.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,16 +137,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **SERNATUR** — Turismo: <https://www.sernatur.cl/>
+1. ¿Qué categoría de servicio turístico prestas y exige inscripción?
+2. ¿Qué normas técnicas de seguridad aplican a tus actividades?
+3. ¿Tu personal cumple los requisitos de calificación exigidos?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio Nacional de Turismo — Registro de prestadores de servicios turísticos**  
+<https://www.sernatur.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Administra el registro obligatorio de prestadores de servicios turísticos, las categorías de servicio y las normas técnicas aplicables, en particular al turismo aventura.
+- *Cómo leerla:* Si tu actividad es turismo aventura, ve directo a las normas técnicas de seguridad: definen personal, equipamiento y procedimientos, y su incumplimiento es el riesgo mayor del modelo.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 233. Telecomunicaciones y SUBTEL](../class-09-telecomunicaciones-y-subtel/README.md) · [Índice de la parte](../README.md) · [235. Transporte, logística y permisos →](../class-11-transporte-logistica-y-permisos/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 233 · Telecomunicaciones y SUBTEL](../class-09-telecomunicaciones-y-subtel/README.md) | [Parte 17](../README.md) · [Programa](../../../README.md) | [235 · Transporte, logística y permisos →](../class-11-transporte-logistica-y-permisos/README.md) |

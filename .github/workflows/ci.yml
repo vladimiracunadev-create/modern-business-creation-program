@@ -92,4 +92,50 @@ jobs:
           test -f site/index.html
           test -f site/assets/estilos.css
           test -f site/assets/indice.js
+          test -f site/assets/diagramas.js
           test -f site/.nojekyll
+
+      # Los diagramas se comprueban aquí y no en el job de currículo porque es
+      # el HTML emitido, no el Markdown, el que debe llevar el bloque mermaid.
+      - name: Verificar que los diagramas llegaron al HTML
+        run: |
+          con_diagrama=$(grep -rl 'class="mermaid"' site --include='*.html' | wc -l)
+          echo "Páginas con diagrama: $con_diagrama"
+          test "$con_diagrama" -ge 360
+
+  manual:
+    name: Manual en PDF
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # En CI se compila solo el manual integral: los 24 PDF por parte se
+      # generan en el workflow de publicación, que es donde se necesitan.
+      - name: Compilar el manual integral
+        run: python scripts/generar_manual.py
+
+      - name: Verificar el PDF resultante
+        run: |
+          pdf="output/pdf/modern-business-creation-program-manual-v$(cat VERSION).pdf"
+          test -f "$pdf"
+          python - "$pdf" <<'PY'
+          import sys
+          from pypdf import PdfReader
+          lector = PdfReader(sys.argv[1])
+          paginas = len(lector.pages)
+          print(f"Páginas del manual: {paginas}")
+          assert paginas >= 1200, "el manual salió demasiado corto"
+          texto = lector.pages[0].extract_text()
+          assert "Modern Business Creation Program" in texto, "portada sin título"
+          PY

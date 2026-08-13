@@ -30,10 +30,15 @@ class ManifiestosTest(unittest.TestCase):
         cls.curriculo = cargar("curriculum.json")
         cls.packs = cargar("part_packs.json")
         cls.fuentes = cargar("official_sources.json")
+        cls.contenido = json.loads((MANIFESTS / "part_content.json").read_text(encoding="utf-8"))
         cls.clases = {}
         for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
             for entrada in json.loads(archivo.read_text(encoding="utf-8")):
                 cls.clases[entrada["n"]] = entrada
+        cls.pedagogia = {}
+        for archivo in sorted((MANIFESTS / "pedagogia").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                cls.pedagogia[entrada["n"]] = entrada
 
     def test_cantidad_de_clases_y_partes(self) -> None:
         self.assertEqual(len(self.curriculo), TOTAL_CLASES)
@@ -83,6 +88,44 @@ class ManifiestosTest(unittest.TestCase):
             with self.subTest(fuente=fuente["id"]):
                 self.assertTrue(fuente["url"].startswith("https://"))
 
+    def test_fuentes_estan_explicadas(self) -> None:
+        """Una fuente enlazada sin explicar obliga a adivinar qué parte importa."""
+        for fuente in self.fuentes:
+            with self.subTest(fuente=fuente["id"]):
+                self.assertGreaterEqual(len(fuente["que_dice"].split()), 15)
+                self.assertGreaterEqual(len(fuente["como_leerla"].split()), 15)
+                self.assertRegex(fuente["verificado"], r"^\d{4}-\d{2}-\d{2}$")
+
+    def test_pedagogia_completa_por_clase(self) -> None:
+        for numero in self.clases:
+            with self.subTest(clase=numero):
+                entrada = self.pedagogia.get(numero)
+                self.assertIsNotNone(entrada, f"clase {numero} sin capa pedagógica")
+                # Umbrales calibrados sobre la distribución real (propósito
+                # 14-33 palabras, desarrollo 35-58): detectan una entrada vacía o
+                # truncada sin obligar a inflar las que ya son precisas.
+                self.assertGreaterEqual(len(entrada["proposito"].split()), 12)
+                self.assertGreaterEqual(len(entrada["desarrollo2"].split()), 30)
+                self.assertEqual(len(entrada["preguntas"]), 3)
+                for pregunta in entrada["preguntas"]:
+                    self.assertTrue(pregunta.rstrip().endswith("?"), pregunta)
+
+    def test_propositos_y_preguntas_no_se_repiten(self) -> None:
+        propositos = Counter(e["proposito"] for e in self.pedagogia.values())
+        self.assertEqual([t for t, n in propositos.items() if n > 1], [])
+        preguntas = Counter(p for e in self.pedagogia.values() for p in e["preguntas"])
+        self.assertEqual([p for p, n in preguntas.items() if n > 1], [])
+
+    def test_contenido_de_parte_completo(self) -> None:
+        partes = {c["part"] for c in self.contenido}
+        self.assertEqual(partes, set(range(1, TOTAL_PARTES + 1)))
+        for parte in self.contenido:
+            with self.subTest(parte=parte["part"]):
+                self.assertGreaterEqual(len(parte["narrativa"].split()), 120)
+                self.assertIn("flowchart", parte["diagrama"])
+                self.assertGreaterEqual(len(parte["lecturas"]), 3)
+                self.assertGreaterEqual(len(parte["conexiones"].split()), 25)
+
     def test_packs_completos(self) -> None:
         estados = {"VERIFICADO-FUENTE", "GUIA-PRACTICA", "SECTORIAL", "DINAMICO"}
         for pack in self.packs:
@@ -107,9 +150,23 @@ class ArbolTest(unittest.TestCase):
         cortos = [
             p.relative_to(RAIZ).as_posix()
             for p in CURRICULUM.glob("part-*/class-*/README.md")
-            if len(p.read_text(encoding="utf-8").split()) < 400
+            if len(p.read_text(encoding="utf-8").split()) < 900
         ]
         self.assertEqual(cortos, [], f"clases por debajo del mínimo de profundidad: {cortos[:5]}")
+
+    def test_todo_readme_del_curriculo_tiene_diagrama(self) -> None:
+        sin_diagrama = [
+            p.relative_to(RAIZ).as_posix()
+            for p in CURRICULUM.rglob("README.md")
+            if "```mermaid" not in p.read_text(encoding="utf-8")
+        ]
+        self.assertEqual(sin_diagrama, [], f"README sin diagrama: {sin_diagrama[:5]}")
+
+    def test_glosario_generado_y_poblado(self) -> None:
+        glosario = (RAIZ / "docs" / "19_GLOSSARY.md").read_text(encoding="utf-8")
+        terminos = glosario.count("\n| **")
+        self.assertGreaterEqual(terminos, 1000, f"glosario con solo {terminos} términos")
+        self.assertIn("Glosario maestro", glosario)
 
     def test_documentos_transversales_presentes(self) -> None:
         for nombre in ("README.md", "CURRICULUM.md", "STATUS.md", "ROADMAP.md",

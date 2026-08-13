@@ -70,6 +70,9 @@ def en_linea(texto: str) -> str:
 
     texto = re.sub(r"`([^`]+)`", guardar, texto)
     texto = html.escape(texto, quote=False)
+    # Los README usan <br> en las cabeceras de metadatos; se restituye tras el
+    # escape para no publicarlo como texto literal.
+    texto = re.sub(r"&lt;br\s*/?&gt;", "<br>", texto)
     for patron, reemplazo in EN_LINEA[1:]:
         texto = patron.sub(reemplazo, texto)
     for indice, fragmento in enumerate(fragmentos):
@@ -152,8 +155,15 @@ def markdown_a_html(fuente: str, carpeta: Path) -> str:
             while indice < len(lineas) and not lineas[indice].strip().startswith("```"):
                 cuerpo.append(lineas[indice])
                 indice += 1
-            clase = f' class="lang-{html.escape(lenguaje)}"' if lenguaje else ""
-            salida.append(f"<pre><code{clase}>{html.escape(chr(10).join(cuerpo))}</code></pre>")
+            fuente_bloque = html.escape(chr(10).join(cuerpo))
+            if lenguaje.lower() == "mermaid":
+                # El diagrama se entrega como <pre class="mermaid"> para que la
+                # librería lo transforme en el navegador. Si no carga, queda un
+                # bloque de código legible en vez de una caja vacía.
+                salida.append(f'<pre class="mermaid">{fuente_bloque}</pre>')
+            else:
+                clase = f' class="lang-{html.escape(lenguaje)}"' if lenguaje else ""
+                salida.append(f"<pre><code{clase}>{fuente_bloque}</code></pre>")
             indice += 1
             continue
 
@@ -334,6 +344,11 @@ code{background:var(--codigo);padding:.13em .38em;border-radius:5px;
 pre{background:var(--codigo);border:1px solid var(--borde);border-radius:10px;
   padding:.9rem 1rem;overflow-x:auto}
 pre code{background:none;padding:0}
+pre.mermaid{background:var(--fondo-2);border:1px solid var(--borde);border-radius:12px;
+  padding:1.1rem;overflow-x:auto;text-align:center;font:.85em ui-monospace,Menlo,Consolas,monospace;
+  color:var(--tenue);min-height:3rem}
+pre.mermaid[data-processed="true"]{color:inherit;font:inherit}
+pre.mermaid svg{max-width:100%;height:auto}
 .tabla{overflow-x:auto;margin:1rem 0;border:1px solid var(--borde);border-radius:10px}
 table{border-collapse:collapse;width:100%;font-size:.93rem}
 th,td{text-align:left;padding:.55rem .75rem;border-bottom:1px solid var(--borde);vertical-align:top}
@@ -363,6 +378,37 @@ footer{border-top:1px solid var(--borde);color:var(--tenue);font-size:.85rem;
 }
 """
 
+GUION_MERMAID = """
+// Los diagramas son el único recurso externo del sitio. Se cargan como módulo
+// desde un CDN con versión fijada; si la carga falla —red, bloqueo, offline— el
+// bloque queda como código legible y el resto de la página funciona igual.
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.12.0/dist/mermaid.esm.min.mjs';
+
+const raiz = document.documentElement;
+const oscuro = () => (raiz.getAttribute('data-tema')
+  || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'oscuro' : 'claro')) === 'oscuro';
+
+const pintar = async () => {
+  mermaid.initialize({
+    startOnLoad: false,
+    securityLevel: 'strict',
+    theme: oscuro() ? 'dark' : 'default',
+    flowchart: { curve: 'basis', useMaxWidth: true },
+    fontFamily: 'ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif'
+  });
+  const nodos = document.querySelectorAll('pre.mermaid');
+  nodos.forEach(n => {
+    if (!n.dataset.fuente) n.dataset.fuente = n.textContent;
+    n.innerHTML = n.dataset.fuente;
+    n.removeAttribute('data-processed');
+  });
+  try { await mermaid.run({ nodes: nodos }); } catch (e) { /* queda el código visible */ }
+};
+
+pintar();
+document.addEventListener('tema-cambiado', pintar);
+"""
+
 GUION = """
 (function(){
   var raiz=document.documentElement;
@@ -376,6 +422,7 @@ GUION = """
     var nuevo=actual==='oscuro'?'claro':'oscuro';
     raiz.setAttribute('data-tema',nuevo);
     try{localStorage.setItem('tema',nuevo);}catch(e){}
+    document.dispatchEvent(new CustomEvent('tema-cambiado'));
   });}
 
   var caja=document.getElementById('buscador');
@@ -443,6 +490,7 @@ def pagina(titulo: str, cuerpo: str, base: str, menu: str) -> str:
 </footer>
 <script src="{base}assets/indice.js"></script>
 <script src="{base}assets/sitio.js"></script>
+<script type="module" src="{base}assets/diagramas.js"></script>
 </body>
 </html>
 """
@@ -473,10 +521,17 @@ def construir_menu(curriculo: list[dict], packs: list[dict], base: str) -> str:
         f'{pack["part"]:02d}. {html.escape(pack["titulo"])}</a></li>'
         for pack, carpeta in packs
     )
+    version = (RAIZ / "VERSION").read_text(encoding="utf-8").strip()
     return f"""
+<h2>Descargas</h2>
+<ul>
+  <li><a href="{base}downloads/modern-business-creation-program-manual-v{version}.pdf">📕 Manual completo (PDF)</a></li>
+  <li><a href="{base}downloads/partes/">📄 PDF por parte</a></li>
+</ul>
 <h2>Programa</h2>
 <ul>
   <li><a href="{base}index.html">Inicio</a></li>
+  <li><a href="{base}docs/19_GLOSSARY.html">Glosario maestro</a></li>
   <li><a href="{base}CURRICULUM.html">Currículo completo</a></li>
   <li><a href="{base}ROADMAP.html">Roadmap</a></li>
   <li><a href="{base}STATUS.html">Estado verificable</a></li>
@@ -557,10 +612,21 @@ def main() -> int:
     SALIDA.mkdir(parents=True)
     (SALIDA / ".nojekyll").write_text("", encoding="utf-8")
 
+    # El manual en PDF se compila aparte con scripts/generar_manual.py y vive en
+    # output/; aquí solo se copia a las descargas del sitio si ya está generado.
+    descargas = RAIZ / "output" / "pdf"
+    if descargas.exists():
+        destino_descargas = SALIDA / "downloads"
+        for pdf in sorted(descargas.rglob("*.pdf")):
+            copia = destino_descargas / pdf.relative_to(descargas)
+            copia.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(pdf, copia)
+
     activos = SALIDA / "assets"
     activos.mkdir()
     (activos / "estilos.css").write_text(ESTILOS.strip() + "\n", encoding="utf-8")
     (activos / "sitio.js").write_text(GUION.strip() + "\n", encoding="utf-8")
+    (activos / "diagramas.js").write_text(GUION_MERMAID.strip() + "\n", encoding="utf-8")
     (activos / "indice.js").write_text(
         f"window.INDICE={indice_json};\n", encoding="utf-8"
     )
@@ -568,6 +634,22 @@ def main() -> int:
     for destino, contenido in paginas:
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(contenido, encoding="utf-8")
+
+    # Índice navegable de los PDF por parte: sin él, /downloads/partes/ da 404.
+    partes_pdf = sorted((SALIDA / "downloads" / "partes").glob("*.pdf"))
+    if partes_pdf:
+        filas = "".join(
+            f'<li><a href="{p.name}">{p.stem.replace("manual-part-", "Parte ").replace("-", " ")}</a>'
+            f' <span style="color:var(--tenue)">· {p.stat().st_size // 1024} KB</span></li>'
+            for p in partes_pdf
+        )
+        (SALIDA / "downloads" / "partes" / "index.html").write_text(
+            pagina("PDF por parte",
+                   f"<h1>📄 PDF por parte</h1><p>Cada parte del programa como documento "
+                   f"independiente, con portada, índice y sus 14 clases.</p><ul>{filas}</ul>",
+                   "../../", construir_menu(curriculo, packs, "../../")),
+            encoding="utf-8",
+        )
 
     # Redirección desde la ruta corta de casos y plantillas.
     for carpeta in ("case-studies", "templates", "docs", "curriculum"):

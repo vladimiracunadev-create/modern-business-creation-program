@@ -1,38 +1,61 @@
 # Clase 143 — Información de precio, stock, despacho y retracto
 
 > **Parte 11 · Consumidor, e-commerce, privacidad, IP y seguridad digital** — clase 3 de 14
-> Estado: `DINAMICO` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `DINAMICO` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** asegurar que lo publicado sea cumplible por la operación real<br>
+**Entregable:** procedimiento de control de precio, stock y plazo publicado con responsable y frecuencia
 
-Comprender **información de precio, stock, despacho y retracto** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*asegurar que lo publicado sea cumplible por la operación real*.
+## 🎯 Propósito
 
-## Resultados verificables
+Asegurar que lo publicado sea cumplible por la operación real, porque el problema de fondo es operativo antes que legal.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —asegurar que lo publicado sea cumplible por la operación real— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Precio informado** | monto total que el consumidor debe pagar |
-| **Stock disponible** | existencia real que respalda la oferta publicada |
-| **Plazo de despacho** | tiempo comprometido de entrega |
-| **Derecho a retracto** | facultad de desistir en los casos y plazos legales |
+| **Precio informado** | Monto total que el consumidor debe pagar. |
+| **Stock disponible** | Existencia real que respalda la oferta publicada. |
+| **Plazo de despacho** | Tiempo comprometido de entrega. |
+| **Derecho a retracto** | Facultad de desistir en los casos y plazos legales. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Precio informado"]
+    C --> A2["Stock disponible"]
+    C --> A3["Plazo de despacho"]
+    C --> A4["Derecho a retracto"]
+    A1 & A2 & A3 & A4 --> D{{"asegurar que lo publicado sea<br/>cumplible por la operación<br/>real"}}
+    D --> E["Entregable<br/>procedimiento de control de<br/>precio, stock y plazo<br/>publicado con responsable y<br/>frecuencia"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Publicar precio o stock que no se puede honrar genera responsabilidad, y la corrección posterior no siempre la evita. La operación debe poder sostener lo publicado: si el inventario no está sincronizado o el despacho no cumple el plazo, el problema es operativo antes que legal.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Publicar plazos de despacho promedio como si fueran garantizados y vender contra inventario no sincronizado producen cancelaciones que el consumidor no aceptó. La corrección posterior no siempre evita la responsabilidad, y el costo reputacional supera al legal en un negocio que depende de recompra.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 19.496 sobre protección de los derechos de los consumidores y su Reglamento de Comercio Electrónico
 - Ley 19.628 sobre protección de la vida privada, vigente hasta la entrada en régimen de la Ley 21.719
@@ -41,44 +64,48 @@ Publicar precio o stock que no se puede honrar genera responsabilidad, y la corr
 - Ley 21.663 Marco de Ciberseguridad
 
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
+**Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Procedimiento de control de precio, stock y plazo publicado con responsable y frecuencia.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] existe control documentado de coherencia entre publicación y operación
 - [ ] el plazo publicado se sostiene con datos históricos de cumplimiento
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- publicar plazos de despacho promedio como si fueran garantizados
-- vender contra inventario no sincronizado y cancelar pedidos después
-- publicar precio o stock que después no se puede honrar
-- tratar datos personales sin base de licitud ni registro de actividades de tratamiento
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Publicar plazos de despacho promedio como si fueran garantizados.
+- Vender contra inventario no sincronizado y cancelar pedidos después.
 
-Abogado de consumo y datos, dpo o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 11:**
 
-## Checklist Chile
+- Publicar precio o stock que después no se puede honrar.
+- Tratar datos personales sin base de licitud ni registro de actividades de tratamiento.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,16 +137,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **SERNAC** — Consumidor y comercio electrónico: <https://www.sernac.cl/>
+1. ¿Qué porcentaje de tus despachos cumple el plazo que publicas?
+2. ¿Con qué frecuencia se sincroniza el stock que ve tu canal digital?
+3. ¿Cuántos pedidos cancelaste el último trimestre por falta de stock?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
+<https://www.sernac.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
+- *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 142. Reglamento de Comercio Electrónico](../class-02-reglamento-de-comercio-electronico/README.md) · [Índice de la parte](../README.md) · [144. Garantía legal y postventa →](../class-04-garantia-legal-y-postventa/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 142 · Reglamento de Comercio Electrónico](../class-02-reglamento-de-comercio-electronico/README.md) | [Parte 11](../README.md) · [Programa](../../../README.md) | [144 · Garantía legal y postventa →](../class-04-garantia-legal-y-postventa/README.md) |

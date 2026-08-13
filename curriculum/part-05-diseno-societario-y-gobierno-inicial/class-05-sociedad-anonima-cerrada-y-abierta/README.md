@@ -1,38 +1,61 @@
 # Clase 061 — Sociedad Anónima cerrada y abierta
 
 > **Parte 05 · Diseño societario y gobierno inicial** — clase 5 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** determinar si el caso requiere la formalidad de una SA<br>
+**Entregable:** comparación SA cerrada versus SpA con costo anual de gobierno y obligaciones de reporte
 
-Comprender **sociedad anónima cerrada y abierta** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*determinar si el caso requiere la formalidad de una SA*.
+## 🎯 Propósito
 
-## Resultados verificables
+Determinar si el caso justifica la formalidad de una sociedad anónima, con directorio, juntas y memoria, o si es sobredimensionada.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —determinar si el caso requiere la formalidad de una SA— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Sociedad anónima cerrada** | SA sin oferta pública, con junta y directorio obligatorios |
-| **Sociedad anónima abierta** | SA con oferta pública, supervisada por la CMF |
-| **Directorio** | órgano colegiado de administración obligatorio en la SA |
-| **Junta de accionistas** | órgano soberano que aprueba estados financieros y elige directorio |
+| **Sociedad anónima cerrada** | Sa sin oferta pública, con junta y directorio obligatorios. |
+| **Sociedad anónima abierta** | Sa con oferta pública, supervisada por la cmf. |
+| **Directorio** | Órgano colegiado de administración obligatorio en la sa. |
+| **Junta de accionistas** | Órgano soberano que aprueba estados financieros y elige directorio. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Sociedad anónima cerrada"]
+    C --> A2["Sociedad anónima abierta"]
+    C --> A3["Directorio"]
+    C --> A4["Junta de accionistas"]
+    A1 & A2 & A3 & A4 --> D{{"determinar si el caso requiere<br/>la formalidad de una SA"}}
+    D --> E["Entregable<br/>comparación SA cerrada versus<br/>SpA con costo anual de<br/>gobierno y obligaciones de<br/>reporte"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La SA impone una estructura de gobierno formal —directorio, juntas, memoria— que agrega costo y disciplina. La SA abierta suma supervisión de la CMF y obligaciones de información al mercado. Para la mayoría de las empresas nuevas es sobredimensionada; se justifica cuando hay muchos accionistas o requisitos regulatorios.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+La SA impone una estructura de gobierno que agrega costo y disciplina; la SA abierta suma supervisión de la CMF y obligaciones de información al mercado. Constituir una SA por prestigio y luego no celebrar juntas ni llevar registros produce una sociedad formalmente irregular y difícil de vender.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 20.190 (SpA) y Código de Comercio arts. 424-446
 - Ley 18.046 sobre sociedades anónimas y su reglamento
@@ -40,44 +63,48 @@ La SA impone una estructura de gobierno formal —directorio, juntas, memoria—
 - Ley 3.918 sobre sociedades de responsabilidad limitada
 
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
+**Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Comparación sa cerrada versus spa con costo anual de gobierno y obligaciones de reporte.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el costo anual de gobierno está estimado
 - [ ] las obligaciones de reporte están identificadas
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- constituir SA por prestigio sin capacidad de sostener directorio y juntas
-- operar una SA sin celebrar juntas ni llevar los registros exigidos
-- repartir participaciones 50/50 sin mecanismo de desempate
-- entregar equity completo sin vesting ni condiciones de permanencia
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Constituir sa por prestigio sin capacidad de sostener directorio y juntas.
+- Operar una sa sin celebrar juntas ni llevar los registros exigidos.
 
-Abogado corporativo, notario, contador. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 05:**
 
-## Checklist Chile
+- Repartir participaciones 50/50 sin mecanismo de desempate.
+- Entregar equity completo sin vesting ni condiciones de permanencia.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,17 +136,36 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **CMF** — Registro de Prestadores de Servicios Financieros: <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Cuántos accionistas tendrá la sociedad y hay alguna exigencia regulatoria que imponga la forma?
+2. ¿Puedes sostener el costo anual de directorio, juntas y memoria?
+3. ¿Qué obligaciones de reporte asumirías y quién las ejecutaría?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Comisión para el Mercado Financiero — Registro de Prestadores de Servicios Financieros · Ley 21.521**  
+<https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-18591.html> · verificado 2026-08-07
+
+- *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
+- *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 060. Sociedad por Acciones SpA](../class-04-sociedad-por-acciones-spa/README.md) · [Índice de la parte](../README.md) · [062. Sociedades colectivas y comanditarias →](../class-06-sociedades-colectivas-y-comanditarias/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 060 · Sociedad por Acciones SpA](../class-04-sociedad-por-acciones-spa/README.md) | [Parte 05](../README.md) · [Programa](../../../README.md) | [062 · Sociedades colectivas y comanditarias →](../class-06-sociedades-colectivas-y-comanditarias/README.md) |

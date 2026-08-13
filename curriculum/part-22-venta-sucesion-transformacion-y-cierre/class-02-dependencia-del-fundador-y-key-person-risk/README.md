@@ -1,38 +1,61 @@
 # Clase 296 — Dependencia del fundador y key-person risk
 
 > **Parte 22 · Venta, sucesión, transformación y cierre** — clase 2 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** identificar las personas críticas y reducir la dependencia de cada una<br>
+**Entregable:** mapa de key-person risk con conocimiento crítico, plan de documentación y redundancia por persona
 
-Comprender **dependencia del fundador y key-person risk** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*identificar las personas críticas y reducir la dependencia de cada una*.
+## 🎯 Propósito
 
-## Resultados verificables
+Reducir la dependencia de personas críticas documentando el conocimiento tácito y formando un segundo responsable.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —identificar las personas críticas y reducir la dependencia de cada una— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Key-person risk** | dependencia crítica de una persona |
-| **Conocimiento tácito** | saber no documentado que vive en una persona |
-| **Plan de sucesión** | preparación de un reemplazo para un rol crítico |
-| **Redundancia** | existencia de más de una persona capaz de ejecutar |
+| **Key-person risk** | Dependencia crítica de una persona. |
+| **Conocimiento tácito** | Saber no documentado que vive en una persona. |
+| **Plan de sucesión** | Preparación de un reemplazo para un rol crítico. |
+| **Redundancia** | Existencia de más de una persona capaz de ejecutar. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Key-person risk"]
+    C --> A2["Conocimiento tácito"]
+    C --> A3["Plan de sucesión"]
+    C --> A4["Redundancia"]
+    A1 & A2 & A3 & A4 --> D{{"identificar las personas<br/>críticas y reducir la<br/>dependencia de cada una"}}
+    D --> E["Entregable<br/>mapa de key-person risk con<br/>conocimiento crítico, plan de<br/>documentación y redundancia<br/>por persona"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 El key-person risk se reduce documentando el conocimiento tácito, formando un segundo responsable y trasladando relaciones a la empresa. La prueba práctica es simple y rara vez se hace: qué pasaría si esa persona no volviera mañana.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+La prueba práctica se hace rara vez y es simple: qué pasaría si esa persona no volviera mañana. Identificar el riesgo sin ejecutar la documentación es el patrón habitual, porque documentar compite con la operación diaria y siempre pierde salvo que se calendarice.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 20.720 en escenarios de cierre por insolvencia
 - Código Tributario y normas del SII sobre término de giro
@@ -40,44 +63,48 @@ El key-person risk se reduce documentando el conocimiento tácito, formando un s
 - normas societarias sobre disolución y liquidación
 
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
+**Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Mapa de key-person risk con conocimiento crítico, plan de documentación y redundancia por persona.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] cada persona crítica tiene plan de documentación y redundancia
 - [ ] las relaciones clave están siendo trasladadas a la empresa
@@ -85,19 +112,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- identificar el riesgo y no ejecutar la documentación del conocimiento
-- asumir que la relación con el cliente se transfiere sola
-- vender una empresa cuya operación depende de relaciones personales del fundador
-- no ordenar contratos, propiedad intelectual y laboral antes de la due diligence
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Identificar el riesgo y no ejecutar la documentación del conocimiento.
+- Asumir que la relación con el cliente se transfiere sola.
 
-Abogado corporativo y tributario, banquero de inversión o asesor m&a, contador, abogado laboral. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 22:**
 
-## Checklist Chile
+- Vender una empresa cuya operación depende de relaciones personales del fundador.
+- No ordenar contratos, propiedad intelectual y laboral antes de la due diligence.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -109,18 +136,42 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Servicio de Impuestos Internos** — Nuevos contribuyentes y DTE: <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html>
-- **Servicio de Impuestos Internos** — Carpeta Tributaria Electrónica: <https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm>
-- **Dirección del Trabajo** — Trabajo y empleadores: <https://www.dt.gob.cl/>
+1. ¿Qué conocimiento crítico vive solo en la cabeza de una persona?
+2. ¿Quién es el segundo responsable de cada función crítica?
+3. ¿Las relaciones con clientes clave son de la empresa o de la persona?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
+- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
+
+**Servicio de Impuestos Internos — Carpeta Tributaria Electrónica**  
+<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-08-07
+
+- *Qué contiene:* Permite generar el expediente que acredita la situación tributaria de la empresa: inicio de actividades, régimen, declaraciones presentadas y timbraje.
+- *Cómo leerla:* Es el documento que pedirán banco, inversionista y comprador. Genera una hoy aunque no la necesites: lo que muestre es exactamente lo que verá un tercero al evaluarte.
+
+**Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
+<https://www.dt.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
+- *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 295. Construir una empresa transferible](../class-01-construir-una-empresa-transferible/README.md) · [Índice de la parte](../README.md) · [297. Valoración para venta →](../class-03-valoracion-para-venta/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 295 · Construir una empresa transferible](../class-01-construir-una-empresa-transferible/README.md) | [Parte 22](../README.md) · [Programa](../../../README.md) | [297 · Valoración para venta →](../class-03-valoracion-para-venta/README.md) |

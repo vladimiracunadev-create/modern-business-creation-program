@@ -1,38 +1,61 @@
 # Clase 157 — Registro y gestión en Mi DT
 
 > **Parte 12 · Personas, relaciones laborales y seguridad y salud** — clase 3 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir qué actos laborales se registran, quién los registra y con qué plazo<br>
+**Entregable:** procedimiento de gestión en Mi DT con responsable, actos registrables y plazos
 
-Comprender **registro y gestión en mi dt** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir qué actos laborales se registran, quién los registra y con qué plazo*.
+## 🎯 Propósito
 
-## Resultados verificables
+Definir qué actos laborales se registran en Mi DT, quién lo hace y con qué plazo, porque la plataforma genera la evidencia de cumplimiento.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir qué actos laborales se registran, quién los registra y con qué plazo— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Mi DT** | plataforma electrónica de la Dirección del Trabajo |
-| **Registro electrónico** | obligación de informar actos laborales en la plataforma |
-| **Finiquito electrónico** | suscripción del término de la relación por la plataforma |
-| **Trazabilidad** | registro que acredita el cumplimiento ante fiscalización |
+| **Mi DT** | Plataforma electrónica de la dirección del trabajo. |
+| **Registro electrónico** | Obligación de informar actos laborales en la plataforma. |
+| **Finiquito electrónico** | Suscripción del término de la relación por la plataforma. |
+| **Trazabilidad** | Registro que acredita el cumplimiento ante fiscalización. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Mi DT"]
+    C --> A2["Registro electrónico"]
+    C --> A3["Finiquito electrónico"]
+    C --> A4["Trazabilidad"]
+    A1 & A2 & A3 & A4 --> D{{"definir qué actos laborales se<br/>registran, quién los registra<br/>y con qué plazo"}}
+    D --> E["Entregable<br/>procedimiento de gestión en Mi<br/>DT con responsable, actos<br/>registrables y plazos"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Mi DT centraliza registro de contratos, anexos, finiquitos y control de asistencia electrónico. Usarla correctamente reduce el riesgo de fiscalización, porque genera la evidencia de cumplimiento en el mismo acto. Su uso incorrecto o tardío deja constancia del incumplimiento.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Registrar fuera de plazo deja constancia del retraso, de modo que el uso incorrecto de la plataforma documenta el incumplimiento en vez de prevenirlo. Dejar el acceso en manos de una sola persona sin respaldo es además un riesgo operativo cuando esa persona no está disponible.
+
+### 3. Marco aplicable y quién interviene
 
 - Código del Trabajo
 - Ley 21.561 de reducción gradual de jornada: 42 horas semanales desde el 26 de abril de 2026
@@ -41,44 +64,48 @@ Mi DT centraliza registro de contratos, anexos, finiquitos y control de asistenc
 - Ley 20.123 sobre subcontratación y servicios transitorios
 
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
+**Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Procedimiento de gestión en mi dt con responsable, actos registrables y plazos.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el procedimiento cubre contratos, anexos y finiquitos
 - [ ] hay responsable designado y respaldo de acceso
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- registrar los contratos fuera de plazo y dejar constancia del retraso
-- dejar el acceso a la plataforma en manos de una sola persona sin respaldo
-- contratar a honorarios a alguien que en los hechos es trabajador dependiente
-- no adecuar jornada y turnos al calendario de reducción legal
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Registrar los contratos fuera de plazo y dejar constancia del retraso.
+- Dejar el acceso a la plataforma en manos de una sola persona sin respaldo.
 
-Abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 12:**
 
-## Checklist Chile
+- Contratar a honorarios a alguien que en los hechos es trabajador dependiente.
+- No adecuar jornada y turnos al calendario de reducción legal.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,16 +137,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Dirección del Trabajo** — Trabajo y empleadores: <https://www.dt.gob.cl/>
+1. ¿Quién registra en Mi DT y quién tiene acceso de respaldo?
+2. ¿Qué actos registraste fuera de plazo el último año?
+3. ¿Están tus contratos, anexos y finiquitos registrados o solo algunos?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
+<https://www.dt.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
+- *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 156. Contrato de trabajo y cláusulas esenciales](../class-02-contrato-de-trabajo-y-clausulas-esenciales/README.md) · [Índice de la parte](../README.md) · [158. Jornada ordinaria de 42 horas en 2026 →](../class-04-jornada-ordinaria-de-42-horas-en-2026/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 156 · Contrato de trabajo y cláusulas esenciales](../class-02-contrato-de-trabajo-y-clausulas-esenciales/README.md) | [Parte 12](../README.md) · [Programa](../../../README.md) | [158 · Jornada ordinaria de 42 horas en 2026 →](../class-04-jornada-ordinaria-de-42-horas-en-2026/README.md) |

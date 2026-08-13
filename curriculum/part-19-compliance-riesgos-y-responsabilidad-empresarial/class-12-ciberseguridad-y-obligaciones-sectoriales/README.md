@@ -1,38 +1,61 @@
 # Clase 264 — Ciberseguridad y obligaciones sectoriales
 
 > **Parte 19 · Compliance, riesgos y responsabilidad empresarial** — clase 12 de 14
-> Estado: `VERIFICADO-FUENTE` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** identificar las obligaciones de ciberseguridad directas y las trasladadas por clientes<br>
+**Entregable:** inventario de obligaciones de ciberseguridad por origen con brechas y plan de cierre
 
-Comprender **ciberseguridad y obligaciones sectoriales** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*identificar las obligaciones de ciberseguridad directas y las trasladadas por clientes*.
+## 🎯 Propósito
 
-## Resultados verificables
+Inventariar las obligaciones de ciberseguridad por origen —regulatorias directas y trasladadas por contrato— y cerrar las brechas antes de negociar.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —identificar las obligaciones de ciberseguridad directas y las trasladadas por clientes— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Obligación sectorial de ciberseguridad** | exigencia impuesta por regulador o por contrato |
-| **Traslado contractual** | exigencia que un cliente regulado impone a su proveedor |
-| **Reporte de incidentes** | obligación de informar en plazos definidos |
-| **Evaluación de proveedores** | revisión de seguridad de terceros |
+| **Obligación sectorial de ciberseguridad** | Exigencia impuesta por regulador o por contrato. |
+| **Traslado contractual** | Exigencia que un cliente regulado impone a su proveedor. |
+| **Reporte de incidentes** | Obligación de informar en plazos definidos. |
+| **Evaluación de proveedores** | Revisión de seguridad de terceros. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Obligación sectorial de<br/>ciberseguridad"]
+    C --> A2["Traslado contractual"]
+    C --> A3["Reporte de incidentes"]
+    C --> A4["Evaluación de proveedores"]
+    A1 & A2 & A3 & A4 --> D{{"identificar las obligaciones<br/>de ciberseguridad directas y<br/>las trasladadas por clientes"}}
+    D --> E["Entregable<br/>inventario de obligaciones de<br/>ciberseguridad por origen con<br/>brechas y plan de cierre"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Aunque la empresa no sea operador de importancia vital, sus clientes regulados le trasladarán exigencias por contrato: controles, auditorías, notificación de incidentes y cláusulas de responsabilidad. Anticiparlas convierte el cumplimiento en ventaja comercial en vez de obstáculo.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Los clientes regulados trasladan exigencias de controles, auditorías y notificación de incidentes por cláusula. Descubrirlas durante la negociación de un contrato importante deja a la empresa eligiendo entre aceptar obligaciones que no puede cumplir o perder la operación.
+
+### 3. Marco aplicable y quién interviene
 
 - Ley 20.393 sobre responsabilidad penal de la persona jurídica
 - Ley 21.595 sobre delitos económicos y ambientales
@@ -41,44 +64,48 @@ Aunque la empresa no sea operador de importancia vital, sus clientes regulados l
 - Ley 21.643 en lo relativo a canal de denuncias e investigación interna
 
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
+**Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Inventario de obligaciones de ciberseguridad por origen con brechas y plan de cierre.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] las obligaciones están clasificadas por origen
 - [ ] las brechas tienen plan de cierre con fecha
@@ -86,19 +113,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- descubrir las exigencias durante la negociación de un contrato importante
-- aceptar cláusulas de auditoría y notificación sin capacidad de cumplirlas
-- modelo de prevención de delitos en papel, sin evidencia de operación
-- no identificar la condición de sujeto obligado UAF y omitir reportes
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Descubrir las exigencias durante la negociación de un contrato importante.
+- Aceptar cláusulas de auditoría y notificación sin capacidad de cumplirlas.
 
-Oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 19:**
 
-## Checklist Chile
+- Modelo de prevención de delitos en papel, sin evidencia de operación.
+- No identificar la condición de sujeto obligado uaf y omitir reportes.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -110,16 +137,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Qué exigencias de seguridad te ha trasladado un cliente por contrato?
+2. ¿Aceptaste cláusulas de auditoría o notificación que hoy no podrías cumplir?
+3. ¿Qué brecha cerrarías primero si mañana te auditara un cliente grande?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 263. Compliance tributario y Ley 21.713](../class-11-compliance-tributario-y-ley-21-713/README.md) · [Índice de la parte](../README.md) · [265. Seguros empresariales y transferencia de riesgo →](../class-13-seguros-empresariales-y-transferencia-de-riesgo/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 263 · Compliance tributario y Ley 21.713](../class-11-compliance-tributario-y-ley-21-713/README.md) | [Parte 19](../README.md) · [Programa](../../../README.md) | [265 · Seguros empresariales y transferencia de riesgo →](../class-13-seguros-empresariales-y-transferencia-de-riesgo/README.md) |

@@ -1,82 +1,109 @@
 # Clase 049 — Switching costs, marca, datos y propiedad intelectual
 
 > **Parte 04 · Estrategia y ventaja competitiva** — clase 7 de 14
-> Estado: `GUIA-PRACTICA` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** decidir qué defensa se construye y con qué inversión<br>
+**Entregable:** plan de foso competitivo con la defensa elegida, inversión y plazo de construcción
 
-Comprender **switching costs, marca, datos y propiedad intelectual** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*decidir qué defensa se construye y con qué inversión*.
+## 🎯 Propósito
 
-## Resultados verificables
+Decidir deliberadamente qué defensa se construye, porque ninguna aparece sola y el producto superior no es defensa suficiente.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —decidir qué defensa se construye y con qué inversión— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Switching cost** | costo para el cliente de cambiarse a otro proveedor |
-| **Marca** | asociación mental que reduce el riesgo percibido de comprar |
-| **Dato propietario** | información acumulada que mejora el servicio y no es replicable |
-| **Propiedad intelectual** | derecho registrado que impide la copia legal |
+| **Switching cost** | Costo para el cliente de cambiarse a otro proveedor. |
+| **Marca** | Asociación mental que reduce el riesgo percibido de comprar. |
+| **Dato propietario** | Información acumulada que mejora el servicio y no es replicable. |
+| **Propiedad intelectual** | Derecho registrado que impide la copia legal. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Switching cost"]
+    C --> A2["Marca"]
+    C --> A3["Dato propietario"]
+    C --> A4["Propiedad intelectual"]
+    A1 & A2 & A3 & A4 --> D{{"decidir qué defensa se<br/>construye y con qué inversión"}}
+    D --> E["Entregable<br/>plan de foso competitivo con<br/>la defensa elegida, inversión<br/>y plazo de construcción"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Las defensas duraderas se construyen deliberadamente: integraciones que aumentan el costo de salida, datos que mejoran el servicio con el uso, marca registrada y contratos plurianuales. Ninguna aparece sola. La marca no registrada en INAPI no es una defensa: es una vulnerabilidad.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Integraciones que aumentan el costo de salida, datos que mejoran el servicio con el uso, marca registrada y contratos plurianuales son construcciones que llevan tiempo y presupuesto. La marca no registrada en INAPI, en particular, no es una defensa sino una vulnerabilidad: cualquiera puede registrarla y exigir que dejes de usarla.
+
+### 3. Marco aplicable y quién interviene
 
 - PESTEL, cinco fuerzas, cadena de valor y estrategias genéricas
 - opciones reales para decisiones bajo incertidumbre
 - OKR y métrica norte como sistema de dirección
 
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
+**Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Plan de foso competitivo con la defensa elegida, inversión y plazo de construcción.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] la defensa elegida tiene plan de construcción con plazo
 - [ ] el estado de registro de la marca está verificado
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- confiar en que el producto superior es defensa suficiente
-- operar una marca comercial sin registro en las clases relevantes
-- declarar una ventaja competitiva que en realidad es solo precio bajo insostenible
-- definir OKR que miden actividad y no resultado
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Confiar en que el producto superior es defensa suficiente.
+- Operar una marca comercial sin registro en las clases relevantes.
 
-Fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 04:**
 
-## Checklist Chile
+- Declarar una ventaja competitiva que en realidad es solo precio bajo insostenible.
+- Definir okr que miden actividad y no resultado.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,16 +135,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **INAPI** — Marcas y propiedad industrial: <https://www.inapi.cl/>
+1. ¿Qué defensa estás construyendo activamente y con qué inversión y plazo?
+2. ¿Está tu marca registrada en las clases donde realmente operas?
+3. ¿Cuánto tardaría un competidor con recursos en replicar tu ventaja actual?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Instituto Nacional de Propiedad Industrial — Marcas, patentes y diseños industriales**  
+<https://www.inapi.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Administra el registro de marcas, patentes, diseños e indicaciones geográficas, y ofrece el buscador público de solicitudes y registros vigentes por clase.
+- *Cómo leerla:* Empieza siempre por el buscador de anterioridades y por clases, no por el formulario de solicitud. Una marca disponible en tu clase puede estar tomada en la clase donde realmente operas, y eso solo se ve buscando por actividad.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 048. Efectos de red y economías de escala](../class-06-efectos-de-red-y-economias-de-escala/README.md) · [Índice de la parte](../README.md) · [050. Estrategia de nicho y beachhead market →](../class-08-estrategia-de-nicho-y-beachhead-market/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 048 · Efectos de red y economías de escala](../class-06-efectos-de-red-y-economias-de-escala/README.md) | [Parte 04](../README.md) · [Programa](../../../README.md) | [050 · Estrategia de nicho y beachhead market →](../class-08-estrategia-de-nicho-y-beachhead-market/README.md) |

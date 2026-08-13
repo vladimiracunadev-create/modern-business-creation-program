@@ -1,82 +1,109 @@
 # Clase 017 — Entrevistas de descubrimiento sin sesgos
 
 > **Parte 02 · Descubrimiento, validación y mercado** — clase 3 de 14
-> Estado: `GUIA-PRACTICA` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** decidir a quién entrevistar y qué evidencia de comportamiento se busca<br>
+**Entregable:** guion de entrevista y bitácora de diez entrevistas con hallazgos y citas textuales
 
-Comprender **entrevistas de descubrimiento sin sesgos** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*decidir a quién entrevistar y qué evidencia de comportamiento se busca*.
+## 🎯 Propósito
 
-## Resultados verificables
+Aprender a entrevistar sobre hechos ocurridos y no sobre intenciones, porque las respuestas sobre lo que alguien haría en el futuro tienen valor predictivo casi nulo.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —decidir a quién entrevistar y qué evidencia de comportamiento se busca— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Entrevista de descubrimiento** | conversación sobre el pasado del entrevistado, no sobre el futuro |
-| **Pregunta inductiva** | pregunta que sugiere la respuesta esperada |
-| **Evidencia de comportamiento** | lo que la persona ya hizo, gastó o intentó |
-| **Saturación** | punto en que las entrevistas dejan de aportar información nueva |
+| **Entrevista de descubrimiento** | Conversación sobre el pasado del entrevistado, no sobre el futuro. |
+| **Pregunta inductiva** | Pregunta que sugiere la respuesta esperada. |
+| **Evidencia de comportamiento** | Lo que la persona ya hizo, gastó o intentó. |
+| **Saturación** | Punto en que las entrevistas dejan de aportar información nueva. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Entrevista de<br/>descubrimiento"]
+    C --> A2["Pregunta inductiva"]
+    C --> A3["Evidencia de<br/>comportamiento"]
+    C --> A4["Saturación"]
+    A1 & A2 & A3 & A4 --> D{{"decidir a quién entrevistar y<br/>qué evidencia de<br/>comportamiento se busca"}}
+    D --> E["Entregable<br/>guion de entrevista y bitácora<br/>de diez entrevistas con<br/>hallazgos y citas textuales"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 La regla central es preguntar por hechos ocurridos y no por intenciones: qué hizo la última vez que enfrentó el problema, cuánto le costó, qué probó y por qué lo abandonó. Las respuestas sobre lo que la persona haría en el futuro tienen valor predictivo casi nulo.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+La contaminación más habitual es presentar la solución al inicio: a partir de ahí el entrevistado colabora en vez de informar. La estructura que funciona empieza por el último episodio real del problema y avanza hacia atrás, hasta que aparecen el costo y la alternativa que hoy usa.
+
+### 3. Marco aplicable y quién interviene
 
 - método de descubrimiento de clientes y experimentación acotada
 - Jobs to Be Done como marco de resultados esperados
 - estadística oficial chilena: INE, Banco Central, Censo y encuestas sectoriales
 
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
+**Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Guion de entrevista y bitácora de diez entrevistas con hallazgos y citas textuales.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] las preguntas indagan hechos pasados y no intenciones
 - [ ] las conclusiones citan evidencia textual de las entrevistas
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- presentar la solución al inicio y contaminar toda la conversación
-- entrevistar solo a personas del entorno cercano del fundador
-- entrevistar buscando confirmación en vez de refutación
-- estimar mercado de arriba hacia abajo sin conexión con capacidad real de venta
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Presentar la solución al inicio y contaminar toda la conversación.
+- Entrevistar solo a personas del entorno cercano del fundador.
 
-Fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 02:**
 
-## Checklist Chile
+- Entrevistar buscando confirmación en vez de refutación.
+- Estimar mercado de arriba hacia abajo sin conexión con capacidad real de venta.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,18 +135,42 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
-- **SERCOTEC** — Fomento para micro y pequeñas empresas: <https://www.sercotec.cl/>
-- **ProChile** — Herramientas y programas 2026: <https://centrodeayuda.prochile.gob.cl/hc/es-419/articles/360048423313--Qu%C3%A9-servicios-y-herramientas-ofrece-ProChile>
+1. ¿Cuántas de tus preguntas indagan hechos pasados y cuántas piden opiniones sobre el futuro?
+2. ¿Qué cita textual de un entrevistado respalda tu conclusión principal?
+3. ¿A cuántas personas fuera de tu entorno cercano entrevistaste?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+**Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas**  
+<https://www.sercotec.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
+- *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
+
+**ProChile — Programas, estudios de mercado y promoción**  
+<https://www.prochile.gob.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
+- *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 016. Investigación secundaria con fuentes confiables](../class-02-investigacion-secundaria-con-fuentes-confiables/README.md) · [Índice de la parte](../README.md) · [018. Segmentación y perfil de cliente ideal →](../class-04-segmentacion-y-perfil-de-cliente-ideal/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 016 · Investigación secundaria con fuentes confiables](../class-02-investigacion-secundaria-con-fuentes-confiables/README.md) | [Parte 02](../README.md) · [Programa](../../../README.md) | [018 · Segmentación y perfil de cliente ideal →](../class-04-segmentacion-y-perfil-de-cliente-ideal/README.md) |

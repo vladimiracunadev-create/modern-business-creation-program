@@ -61,13 +61,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
-      # El repositorio no declara dependencias de terceros a propósito: los
-      # generadores usan solo la biblioteca estándar. Este control impide que
-      # entre una dependencia sin que nadie lo note.
-      - name: Verificar que no hay dependencias de terceros sin declarar
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      # Una dependencia sin versión exacta no es auditable: ningún escáner puede
+      # pronunciarse sobre `reportlab>=4`. Este control exige `==` en todas.
+      - name: Verificar que toda dependencia está fijada a versión exacta
         run: |
-          if ls requirements*.txt pyproject.toml package.json 2>/dev/null | grep -q .; then
-            echo "Se agregó un manifiesto de dependencias: revisar el control de seguridad."
-            exit 1
+          sueltas=$(grep -vE '^\s*(#|$)' requirements.txt | grep -vE '==[0-9]' || true)
+          if [ -n "$sueltas" ]; then
+            echo "Dependencias sin versión exacta:"; echo "$sueltas"; exit 1
           fi
-          echo "OK: sin dependencias de terceros; solo biblioteca estándar de Python."
+          echo "OK: todas las dependencias están fijadas."
+          grep -cE '==[0-9]' requirements.txt
+
+      - name: Auditar dependencias declaradas (pip-audit)
+        run: |
+          python -m pip install --upgrade pip
+          pip install "pip-audit==2.9.0"
+          pip-audit --requirement requirements.txt --strict

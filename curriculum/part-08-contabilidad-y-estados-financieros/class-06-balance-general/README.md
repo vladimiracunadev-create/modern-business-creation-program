@@ -1,82 +1,109 @@
 # Clase 104 — Balance general
 
 > **Parte 08 · Contabilidad y estados financieros** — clase 6 de 14
-> Estado: `GUIA-PRACTICA` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** evaluar la posición financiera real detrás de las cifras del balance<br>
+**Entregable:** análisis de balance con liquidez, endeudamiento y ajustes de calidad de activos
 
-Comprender **balance general** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*evaluar la posición financiera real detrás de las cifras del balance*.
+## 🎯 Propósito
 
-## Resultados verificables
+Leer un balance preguntando si los activos son reales y cobrables y si las obligaciones están completas, en vez de mirar solo el patrimonio.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —evaluar la posición financiera real detrás de las cifras del balance— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Balance general** | estado de posición financiera a una fecha |
-| **Liquidez** | capacidad de cubrir obligaciones de corto plazo |
-| **Endeudamiento** | proporción de pasivos sobre patrimonio |
-| **Calidad del activo** | grado en que los activos registrados son realizables |
+| **Balance general** | Estado de posición financiera a una fecha. |
+| **Liquidez** | Capacidad de cubrir obligaciones de corto plazo. |
+| **Endeudamiento** | Proporción de pasivos sobre patrimonio. |
+| **Calidad del activo** | Grado en que los activos registrados son realizables. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Balance general"]
+    C --> A2["Liquidez"]
+    C --> A3["Endeudamiento"]
+    C --> A4["Calidad del activo"]
+    A1 & A2 & A3 & A4 --> D{{"evaluar la posición financiera<br/>real detrás de las cifras del<br/>balance"}}
+    D --> E["Entregable<br/>análisis de balance con<br/>liquidez, endeudamiento y<br/>ajustes de calidad de activos"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Leer un balance significa preguntar tres cosas: si los activos son reales y cobrables, si las obligaciones están completas y si el patrimonio refleja algo. Cuentas por cobrar antiguas sin provisión y activos totalmente depreciados aún en libros son las distorsiones más comunes.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Las distorsiones más comunes son cuentas por cobrar antiguas sin provisión y activos totalmente depreciados que siguen en libros. Ambas inflan el patrimonio contable y hacen que la empresa se vea mejor de lo que está, justo cuando se necesita evaluar si conviene endeudarse.
+
+### 3. Marco aplicable y quién interviene
 
 - IFRS e IFRS para Pymes como marco de referencia contable
 - Código Tributario en materia de libros, respaldo y plazos de conservación
 - normas del SII sobre contabilidad completa, simplificada y registros electrónicos
 
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
+**Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Análisis de balance con liquidez, endeudamiento y ajustes de calidad de activos.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el análisis identifica activos de dudosa realización
 - [ ] los índices están calculados e interpretados
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- leer el patrimonio contable como valor de la empresa
-- mantener cuentas por cobrar incobrables sin provisionar
-- cerrar el mes sin conciliar banco y arrastrar diferencias durante todo el año
-- reconocer ingreso al firmar y no al devengar el servicio
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Leer el patrimonio contable como valor de la empresa.
+- Mantener cuentas por cobrar incobrables sin provisionar.
 
-Contador general, auditor, controller. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 08:**
 
-## Checklist Chile
+- Cerrar el mes sin conciliar banco y arrastrar diferencias durante todo el año.
+- Reconocer ingreso al firmar y no al devengar el servicio.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,18 +135,42 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Servicio de Impuestos Internos** — Nuevos contribuyentes y DTE: <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html>
-- **Servicio de Impuestos Internos** — Carpeta Tributaria Electrónica: <https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm>
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
+1. ¿Qué proporción de tus cuentas por cobrar tiene más de 90 días?
+2. ¿Qué activos figuran en libros y ya no existen o no sirven?
+3. ¿Están completas tus obligaciones o hay pasivos no registrados?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
+- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
+
+**Servicio de Impuestos Internos — Carpeta Tributaria Electrónica**  
+<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-08-07
+
+- *Qué contiene:* Permite generar el expediente que acredita la situación tributaria de la empresa: inicio de actividades, régimen, declaraciones presentadas y timbraje.
+- *Cómo leerla:* Es el documento que pedirán banco, inversionista y comprador. Genera una hoy aunque no la necesites: lo que muestre es exactamente lo que verá un tercero al evaluarte.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 103. Devengo versus caja](../class-05-devengo-versus-caja/README.md) · [Índice de la parte](../README.md) · [105. Estado de resultados →](../class-07-estado-de-resultados/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 103 · Devengo versus caja](../class-05-devengo-versus-caja/README.md) | [Parte 08](../README.md) · [Programa](../../../README.md) | [105 · Estado de resultados →](../class-07-estado-de-resultados/README.md) |

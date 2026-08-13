@@ -1,82 +1,109 @@
 # Clase 040 — Publicidad, afiliación y contenido
 
 > **Parte 03 · Modelos de negocio y líneas de ingreso** — clase 12 de 14
-> Estado: `GUIA-PRACTICA` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir la mezcla entre audiencia propia y prestada y el mecanismo de monetización<br>
+**Entregable:** plan de audiencia con canales propios versus prestados y proyección de monetización
 
-Comprender **publicidad, afiliación y contenido** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir la mezcla entre audiencia propia y prestada y el mecanismo de monetización*.
+## 🎯 Propósito
 
-## Resultados verificables
+Distinguir audiencia propia de audiencia prestada, porque solo la primera es un activo que la empresa controla.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir la mezcla entre audiencia propia y prestada y el mecanismo de monetización— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Modelo publicitario** | monetización de la atención de una audiencia propia |
-| **Afiliación** | comisión por venta referida a un tercero |
-| **Audiencia propia** | canal que la empresa controla: base de correo, comunidad, sitio |
-| **Dependencia de plataforma** | riesgo de que un cambio de algoritmo elimine la distribución |
+| **Modelo publicitario** | Monetización de la atención de una audiencia propia. |
+| **Afiliación** | Comisión por venta referida a un tercero. |
+| **Audiencia propia** | Canal que la empresa controla: base de correo, comunidad, sitio. |
+| **Dependencia de plataforma** | Riesgo de que un cambio de algoritmo elimine la distribución. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Modelo publicitario"]
+    C --> A2["Afiliación"]
+    C --> A3["Audiencia propia"]
+    C --> A4["Dependencia de plataforma"]
+    A1 & A2 & A3 & A4 --> D{{"definir la mezcla entre<br/>audiencia propia y prestada y<br/>el mecanismo de monetización"}}
+    D --> E["Entregable<br/>plan de audiencia con canales<br/>propios versus prestados y<br/>proyección de monetización"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Monetizar contenido exige volumen y consistencia antes de generar ingresos, y expone a un riesgo específico: la audiencia construida sobre una plataforma ajena puede desaparecer con un cambio de reglas. La conversión a canal propio es lo que convierte audiencia en activo. La publicidad y el contenido pagado deben identificarse como tales.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+Una comunidad construida íntegramente sobre una plataforma ajena puede desaparecer con un cambio de algoritmo o de reglas. La conversión a canal propio —base de correo, comunidad, sitio— es lo que transforma alcance en activo. Y el contenido comercial debe identificarse como tal: la publicidad no identificada es infracción a la Ley del Consumidor.
+
+### 3. Marco aplicable y quién interviene
 
 - Business Model Canvas y Lean Canvas como instrumentos de diseño
 - Ley 19.496 sobre protección de los derechos de los consumidores para modelos B2C
 - Ley 20.169 sobre competencia desleal y DL 211 en modelos de plataforma
 
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
+**Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 Plan de audiencia con canales propios versus prestados y proyección de monetización.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] hay una meta explícita de conversión a canal propio
 - [ ] el contenido comercial se identifica según normativa de consumo
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- construir toda la audiencia en una plataforma que no se controla
-- no identificar el contenido comercial y exponerse a publicidad engañosa
-- copiar un modelo extranjero sin verificar su viabilidad regulatoria o logística en Chile
-- sumar líneas de negocio antes de que la primera sea rentable
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Construir toda la audiencia en una plataforma que no se controla.
+- No identificar el contenido comercial y exponerse a publicidad engañosa.
 
-Fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 03:**
 
-## Checklist Chile
+- Copiar un modelo extranjero sin verificar su viabilidad regulatoria o logística en chile.
+- Sumar líneas de negocio antes de que la primera sea rentable.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,16 +135,30 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **SERNAC** — Consumidor y comercio electrónico: <https://www.sernac.cl/>
+1. ¿Qué proporción de tu audiencia vive en canales que tú controlas?
+2. ¿Qué pasaría con tu distribución si la plataforma principal cambiara sus reglas mañana?
+3. ¿Tu contenido pagado o comercial está identificado de forma visible?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
+<https://www.sernac.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
+- *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[← 039. Franquicia y licenciamiento de formato](../class-11-franquicia-y-licenciamiento-de-formato/README.md) · [Índice de la parte](../README.md) · [041. Modelos freemium, usage-based y outcome-based →](../class-13-modelos-freemium-usage-based-y-outcome-based/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 039 · Franquicia y licenciamiento de formato](../class-11-franquicia-y-licenciamiento-de-formato/README.md) | [Parte 03](../README.md) · [Programa](../../../README.md) | [041 · Modelos freemium, usage-based y outcome-based →](../class-13-modelos-freemium-usage-based-y-outcome-based/README.md) |

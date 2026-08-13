@@ -4,195 +4,319 @@
     "entity": "Registro de Empresas y Sociedades / ChileAtiende",
     "topic": "Constitución de empresas",
     "url": "https://www.chileatiende.gob.cl/fichas/21409-tu-empresa",
-    "note": "Tipos societarios y flujo Tu Empresa en un Día; verificado 2026-02-03."
+    "note": "Tipos societarios y flujo Tu Empresa en un Día.",
+    "que_dice": "Describe el régimen simplificado de la Ley 20.659: qué tipos societarios admite el formulario electrónico, quiénes deben firmar, qué documentos entrega el sistema y cómo se hacen después las modificaciones.",
+    "como_leerla": "Entra por el tipo societario que ya elegiste, no al revés. La ficha dice qué campos pide el formulario; si tu estatuto necesita una cláusula que el formulario no soporta, la respuesta es la ruta notarial.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SII_NEW",
     "entity": "Servicio de Impuestos Internos",
-    "topic": "Nuevos contribuyentes y DTE",
+    "topic": "Nuevos contribuyentes, inicio de actividades y DTE",
     "url": "https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html",
-    "note": "RUT, inicio de actividades, boletas y facturas."
+    "note": "RUT, inicio de actividades, boletas y facturas.",
+    "que_dice": "Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.",
+    "como_leerla": "Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SII_RENT",
     "entity": "Servicio de Impuestos Internos",
-    "topic": "Regímenes tributarios Operación Renta 2026",
+    "topic": "Regímenes tributarios · Operación Renta 2026",
     "url": "https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/",
-    "note": "Pro Pyme General, Transparente, General y renta presunta."
+    "note": "Pro Pyme General, Transparente, General y renta presunta.",
+    "que_dice": "Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.",
+    "como_leerla": "Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SII_F22",
     "entity": "Servicio de Impuestos Internos",
-    "topic": "Formulario 22 / Operación Renta",
+    "topic": "Formulario 22 y Operación Renta",
     "url": "https://www.sii.cl/ayudas/formularios/3094-form22-3097.html",
-    "note": "Formulario anual y normativa relacionada."
+    "note": "Formulario anual y normativa relacionada.",
+    "que_dice": "Publica el formulario anual de renta, sus instrucciones línea por línea y las declaraciones juradas que deben presentarse antes de él.",
+    "como_leerla": "Empieza por el calendario de declaraciones juradas, no por el formulario: una jurada omitida genera observación y retiene la devolución aunque el F22 esté bien.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SII_RCV",
     "entity": "Servicio de Impuestos Internos",
     "topic": "Registro de Compras y Ventas",
     "url": "https://www.sii.cl/destacados/f29/registrocompraventas.htm",
-    "note": "Base para control del IVA."
+    "note": "Base para el control del IVA.",
+    "que_dice": "Explica cómo el SII consolida los documentos tributarios electrónicos recibidos y emitidos, y cómo esa consolidación propone la declaración mensual de IVA.",
+    "como_leerla": "Fíjate en los plazos de aceptación o reclamo de una factura recibida: la página los trata como un detalle operativo, pero dejarlos vencer equivale a aceptar la factura con efecto tributario y mérito ejecutivo.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SII_CARPETA",
     "entity": "Servicio de Impuestos Internos",
     "topic": "Carpeta Tributaria Electrónica",
     "url": "https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm",
-    "note": "Crédito, renta, tamaño de empresa y carpeta personalizada."
+    "note": "Acreditación de situación tributaria ante terceros.",
+    "que_dice": "Permite generar el expediente que acredita la situación tributaria de la empresa: inicio de actividades, régimen, declaraciones presentadas y timbraje.",
+    "como_leerla": "Es el documento que pedirán banco, inversionista y comprador. Genera una hoy aunque no la necesites: lo que muestre es exactamente lo que verá un tercero al evaluarte.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "BCN",
-    "entity": "Biblioteca del Congreso Nacional - LeyChile",
+    "entity": "Biblioteca del Congreso Nacional · LeyChile",
     "topic": "Normativa oficial consolidada",
     "url": "https://www.bcn.cl/leychile/",
-    "note": "Fuente normativa principal; siempre revisar texto vigente y vigencias diferidas."
+    "note": "Texto legal vigente con historia de la norma.",
+    "que_dice": "Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.",
+    "como_leerla": "Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "DT",
     "entity": "Dirección del Trabajo",
-    "topic": "Trabajo y empleadores",
+    "topic": "Relaciones laborales y obligaciones del empleador",
     "url": "https://www.dt.gob.cl/",
-    "note": "Mi DT, contratos, jornada, Ley Karin y dictámenes."
+    "note": "Dictámenes, Mi DT y guías para empleadores.",
+    "que_dice": "Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.",
+    "como_leerla": "Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.",
+    "verificado": "2026-08-07"
+  },
+  {
+    "id": "SUSESO",
+    "entity": "Superintendencia de Seguridad Social",
+    "topic": "Seguridad y salud en el trabajo · Ley 16.744",
+    "url": "https://www.suseso.cl/",
+    "note": "Normativa de accidentes del trabajo y enfermedades profesionales.",
+    "que_dice": "Regula y fiscaliza el seguro de la Ley 16.744: obligaciones preventivas del empleador, cotización adicional por siniestralidad, calificación de accidentes y prestaciones.",
+    "como_leerla": "Busca el compendio de normas del seguro cuando necesites saber qué debe documentar tu empresa. La cotización adicional es la traducción económica de tu gestión preventiva: ahí se ve si la matriz de riesgos sirve o es papel.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SEREMI_FOOD",
-    "entity": "ChileAtiende / Autoridad Sanitaria",
+    "entity": "ChileAtiende · Autoridad Sanitaria Regional",
     "topic": "Autorización sanitaria de alimentos",
     "url": "https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos",
-    "note": "Autorización para instalaciones de alimentos; actualización 2026-02-19."
+    "note": "Requisitos, documentos y plazos del trámite sanitario.",
+    "que_dice": "Detalla qué establecimientos requieren autorización sanitaria, qué antecedentes se presentan, qué condiciones de planta física se exigen y cuál es la vigencia del permiso.",
+    "como_leerla": "Léela antes de firmar el arriendo, no después: las exigencias de planta física —separación de áreas, superficies lavables, agua potable— se resuelven en el diseño y se vuelven carísimas de corregir sobre un local ya construido.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SERNAC",
-    "entity": "SERNAC",
-    "topic": "Consumidor y comercio electrónico",
+    "entity": "Servicio Nacional del Consumidor",
+    "topic": "Ley 19.496, comercio electrónico y garantía legal",
     "url": "https://www.sernac.cl/",
-    "note": "Derechos del consumidor, garantía, comercio electrónico y fiscalización."
+    "note": "Deberes de información, retracto, garantía y reclamos.",
+    "que_dice": "Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.",
+    "como_leerla": "Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "INAPI",
-    "entity": "INAPI",
-    "topic": "Marcas y propiedad industrial",
+    "entity": "Instituto Nacional de Propiedad Industrial",
+    "topic": "Marcas, patentes y diseños industriales",
     "url": "https://www.inapi.cl/",
-    "note": "Registro de marcas, patentes y Directrices de Marcas 2026."
+    "note": "Registro y búsqueda de anterioridades.",
+    "que_dice": "Administra el registro de marcas, patentes, diseños e indicaciones geográficas, y ofrece el buscador público de solicitudes y registros vigentes por clase.",
+    "como_leerla": "Empieza siempre por el buscador de anterioridades y por clases, no por el formulario de solicitud. Una marca disponible en tu clase puede estar tomada en la clase donde realmente operas, y eso solo se ve buscando por actividad.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "CMF_RPSF",
-    "entity": "CMF",
-    "topic": "Registro de Prestadores de Servicios Financieros",
-    "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html",
-    "note": "Ley Fintec: inscripción y autorización."
+    "entity": "Comisión para el Mercado Financiero",
+    "topic": "Registro de Prestadores de Servicios Financieros · Ley 21.521",
+    "url": "https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-18591.html",
+    "note": "Inscripción y autorización de servicios fintech.",
+    "que_dice": "Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.",
+    "como_leerla": "Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "CMF_SFA",
-    "entity": "CMF",
+    "entity": "Comisión para el Mercado Financiero",
     "topic": "Sistema de Finanzas Abiertas",
-    "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-    "note": "NCG 514 modificada en 2026; entrada en vigor postergada a julio de 2027."
+    "url": "https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-18591.html",
+    "note": "Normativa de intercambio de información financiera.",
+    "que_dice": "Desarrolla el sistema de finanzas abiertas de la Ley 21.521: quiénes participan, qué información se comparte, bajo qué consentimiento del cliente y con qué estándares técnicos y de seguridad.",
+    "como_leerla": "Interesa aunque no seas fintech: define el estándar de consentimiento y trazabilidad que el mercado financiero chileno está adoptando, y ese estándar se traslada por contrato a sus proveedores.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "UAF",
     "entity": "Unidad de Análisis Financiero",
-    "topic": "Sujetos obligados LA/FT",
-    "url": "https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar",
-    "note": "55 actividades obligadas; registro y oficial de cumplimiento."
+    "topic": "Sujetos obligados · Ley 19.913",
+    "url": "https://www.uaf.cl/entidades/quienes.aspx",
+    "note": "Quiénes deben reportar operaciones sospechosas y en efectivo.",
+    "que_dice": "Enumera los sectores obligados a reportar, las obligaciones que se activan —designar oficial de cumplimiento, mantener registros, reportar ROS y ROE— y los umbrales aplicables.",
+    "como_leerla": "Busca tu actividad en la lista literal antes de asumir que no te aplica: inmobiliarias, casas de cambio, corredores y varias actividades con manejo de efectivo entran sin ser instituciones financieras.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "PROCHILE_SERV",
     "entity": "ProChile",
     "topic": "Exportación de servicios",
-    "url": "https://centrodeayuda.prochile.gob.cl/hc/es-419/articles/360048482753--Qu%C3%A9-son-los-servicios-y-c%C3%B3mo-se-realiza-su-exportaci%C3%B3n",
-    "note": "Ruta exportadora de servicios actualizada 2025-10-15."
+    "url": "https://www.prochile.gob.cl/exportadores/exportacion-de-servicios",
+    "note": "Qué es exportar servicios y cómo se documenta.",
+    "que_dice": "Explica qué se entiende por exportación de servicios, qué condiciones deben cumplirse para acceder al tratamiento tributario correspondiente y qué documentación de respaldo se exige.",
+    "como_leerla": "Contrástala siempre con la resolución del SII aplicable: ProChile explica el concepto y el mercado, pero la calificación que habilita el tratamiento de IVA la resuelve la normativa tributaria.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "PROCHILE_TOOLS",
     "entity": "ProChile",
-    "topic": "Herramientas y programas 2026",
-    "url": "https://centrodeayuda.prochile.gob.cl/hc/es-419/articles/360048423313--Qu%C3%A9-servicios-y-herramientas-ofrece-ProChile",
-    "note": "Formación, fondos, GoGlobal, Mujer Exporta y promoción."
+    "topic": "Programas, estudios de mercado y promoción",
+    "url": "https://www.prochile.gob.cl/",
+    "note": "Instrumentos de apoyo a la internacionalización.",
+    "que_dice": "Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.",
+    "como_leerla": "Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SERCOTEC",
-    "entity": "SERCOTEC",
+    "entity": "Servicio de Cooperación Técnica",
     "topic": "Fomento para micro y pequeñas empresas",
     "url": "https://www.sercotec.cl/",
-    "note": "Convocatorias cambian por año y región; consultar antes de postular."
+    "note": "Convocatorias, capital semilla y asesoría.",
+    "que_dice": "Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.",
+    "como_leerla": "Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "CORFO",
-    "entity": "CORFO",
+    "entity": "Corporación de Fomento de la Producción",
     "topic": "Innovación, inversión y garantías",
     "url": "https://www.corfo.cl/",
-    "note": "Programas y convocatorias cambian; consultar ficha vigente."
+    "note": "Instrumentos de innovación, escalamiento y cobertura.",
+    "que_dice": "Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.",
+    "como_leerla": "Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "STARTUPCHILE",
-    "entity": "Start-Up Chile",
+    "entity": "Start-Up Chile · CORFO",
     "topic": "Aceleración de startups",
     "url": "https://startupchile.org/",
-    "note": "Convocatorias y términos vigentes por generación."
+    "note": "Programas, cohortes y contrapartidas.",
+    "que_dice": "Describe los programas de aceleración, sus cohortes, el aporte que entregan y las contrapartidas exigidas en permanencia, reporte y actividades.",
+    "como_leerla": "Evalúa el programa por la red y la validación que aporta, no por el monto. La contrapartida de permanencia tiene costo operativo real y debe compararse contra lo que la empresa necesita en su etapa.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "CHILECOMPRA",
     "entity": "ChileCompra",
-    "topic": "Ventas al Estado",
+    "topic": "Compras públicas y ventas al Estado",
     "url": "https://www.chilecompra.cl/",
-    "note": "Mercado Público, registro y compras públicas."
+    "note": "Registro de proveedores, licitaciones y convenio marco.",
+    "que_dice": "Opera el mercado público: registro de proveedores, licitaciones, convenios marco, garantías exigidas y plazos de pago del Estado.",
+    "como_leerla": "Antes de mirar oportunidades, revisa garantías y plazos de pago: vender al Estado exige capital de trabajo propio, y ese requisito descarta más empresas que la competencia técnica.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "ADUANAS",
     "entity": "Servicio Nacional de Aduanas",
-    "topic": "Importación y exportación",
+    "topic": "Importación, exportación y clasificación arancelaria",
     "url": "https://www.aduana.cl/",
-    "note": "Clasificación, DUS, importaciones, exportaciones y resoluciones."
+    "note": "Arancel, regímenes y documentación aduanera.",
+    "que_dice": "Publica el arancel aduanero con la clasificación del Sistema Armonizado, los regímenes de importación y exportación, la documentación exigida y las estadísticas de comercio exterior.",
+    "como_leerla": "La partida arancelaria decide arancel, certificaciones y acuerdos aplicables. Ante duda, usa el mecanismo de consulta de clasificación en vez de decidir por parecido de nombre: el error se paga en diferencias y multas.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SICEX",
-    "entity": "SICEX",
-    "topic": "Comercio exterior",
+    "entity": "Sistema Integrado de Comercio Exterior",
+    "topic": "Ventanilla única de comercio exterior",
     "url": "https://www.sicexchile.cl/",
-    "note": "Ventanilla única de comercio exterior."
+    "note": "Trámites y visaciones de los servicios públicos.",
+    "que_dice": "Integra en una sola plataforma los trámites de los servicios que intervienen en una operación de comercio exterior, con el estado de cada visación.",
+    "como_leerla": "Úsala para descubrir qué servicios intervienen en tu producto antes de embarcar. La mercancía detenida en puerto esperando una visación es el costo típico de no haber hecho esta consulta a tiempo.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SEA",
     "entity": "Servicio de Evaluación Ambiental",
-    "topic": "Evaluación ambiental",
+    "topic": "Sistema de Evaluación de Impacto Ambiental",
     "url": "https://www.sea.gob.cl/",
-    "note": "SEIA y evaluación de proyectos cuando corresponda."
+    "note": "Tipologías, DIA, EIA y resoluciones de calificación.",
+    "que_dice": "Define qué proyectos deben ingresar al SEIA según su tipología y magnitud, la diferencia entre declaración y estudio de impacto, y publica las resoluciones de calificación ambiental otorgadas.",
+    "como_leerla": "Consulta primero la tipología del reglamento para saber si ingresas; y si ingresas, lee resoluciones de proyectos parecidos: sus condiciones te anticipan las obligaciones permanentes que tendrás.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SMA",
     "entity": "Superintendencia del Medio Ambiente",
-    "topic": "Fiscalización ambiental",
+    "topic": "Fiscalización y sanción ambiental",
     "url": "https://portal.sma.gob.cl/",
-    "note": "Obligaciones y fiscalización ambiental sectorial."
+    "note": "Cumplimiento de RCA y normas ambientales.",
+    "que_dice": "Fiscaliza el cumplimiento de las resoluciones de calificación ambiental y de las normas de emisión, y publica procedimientos sancionatorios y programas de cumplimiento.",
+    "como_leerla": "Revisa los procedimientos sancionatorios de tu sector: muestran qué incumplimientos se persiguen en la práctica y con qué evidencia, que es más útil que la lectura general de la norma.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SEC",
     "entity": "Superintendencia de Electricidad y Combustibles",
-    "topic": "Energía e instalaciones",
+    "topic": "Instalaciones eléctricas y de gas",
     "url": "https://www.sec.cl/",
-    "note": "Regulación y autorizaciones del sector energía/combustibles."
+    "note": "Declaración de instalaciones e instaladores autorizados.",
+    "que_dice": "Regula la ejecución y declaración de instalaciones eléctricas y de gas, el registro de instaladores autorizados y las exigencias de seguridad de productos energéticos.",
+    "como_leerla": "Verifica la licencia del instalador antes de contratar y exige la declaración como entregable del trabajo: sin ella no hay empalme, y un siniestro sobre instalación no declarada compromete la cobertura del seguro.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SUBTEL",
     "entity": "Subsecretaría de Telecomunicaciones",
-    "topic": "Telecomunicaciones",
+    "topic": "Concesiones y permisos de telecomunicaciones",
     "url": "https://www.subtel.gob.cl/",
-    "note": "Concesiones, permisos y normativa telecom."
-  },
-  {
-    "id": "SENCE",
-    "entity": "SENCE",
-    "topic": "Capacitación y OTEC",
-    "url": "https://sence.gob.cl/",
-    "note": "Capacitación, franquicia tributaria y ecosistema OTEC."
+    "note": "Servicios limitados, concesiones y registro de proveedores.",
+    "que_dice": "Detalla qué servicios de telecomunicaciones requieren concesión, permiso o licencia, y el procedimiento y plazos de cada figura.",
+    "como_leerla": "Califica tu servicio por su naturaleza técnica, no por cómo lo llamas comercialmente. Revender conectividad o instalar redes para terceros suele exigir habilitación aunque el negocio se presente como servicio digital.",
+    "verificado": "2026-08-07"
   },
   {
     "id": "SERNATUR",
-    "entity": "SERNATUR",
-    "topic": "Turismo",
+    "entity": "Servicio Nacional de Turismo",
+    "topic": "Registro de prestadores de servicios turísticos",
     "url": "https://www.sernatur.cl/",
-    "note": "Registros, calidad y obligaciones de prestadores turísticos."
+    "note": "Inscripción, categorías y normas técnicas.",
+    "que_dice": "Administra el registro obligatorio de prestadores de servicios turísticos, las categorías de servicio y las normas técnicas aplicables, en particular al turismo aventura.",
+    "como_leerla": "Si tu actividad es turismo aventura, ve directo a las normas técnicas de seguridad: definen personal, equipamiento y procedimientos, y su incumplimiento es el riesgo mayor del modelo.",
+    "verificado": "2026-08-07"
+  },
+  {
+    "id": "SENCE",
+    "entity": "Servicio Nacional de Capacitación y Empleo",
+    "topic": "OTEC, franquicia tributaria y cursos",
+    "url": "https://sence.gob.cl/",
+    "note": "Reconocimiento de organismos y registro de cursos.",
+    "que_dice": "Regula el reconocimiento de organismos técnicos de capacitación, el registro de cursos y el uso de la franquicia tributaria que permite a las empresas descontar capacitación.",
+    "como_leerla": "Separa dos decisiones que la página presenta juntas: ser OTEC reconocido y usar la franquicia. La segunda solo existe si tienes la primera, y arrastra exigencias estrictas de registro de asistencia y ejecución.",
+    "verificado": "2026-08-07"
+  },
+  {
+    "id": "SUPERIR",
+    "entity": "Superintendencia de Insolvencia y Reemprendimiento",
+    "topic": "Ley 20.720 · reorganización y liquidación",
+    "url": "https://www.superir.gob.cl/",
+    "note": "Procedimientos concursales, veedores y liquidadores.",
+    "que_dice": "Explica los procedimientos concursales de la Ley 20.720 —reorganización y liquidación de empresa deudora—, los requisitos de cada uno, el rol del veedor y del liquidador, y el boletín concursal.",
+    "como_leerla": "Léela antes de la crisis, no durante: la reorganización exige llegar con caja para sostener el procedimiento. Consulta además el boletín concursal para verificar la situación de clientes y proveedores críticos.",
+    "verificado": "2026-08-07"
+  },
+  {
+    "id": "INE",
+    "entity": "Instituto Nacional de Estadísticas",
+    "topic": "Estadística oficial de población, empleo y actividad",
+    "url": "https://www.ine.gob.cl/",
+    "note": "Censo, encuestas y estadísticas sectoriales.",
+    "que_dice": "Produce la estadística oficial del país: población y hogares por comuna, empleo, remuneraciones, IPC e índices sectoriales de actividad.",
+    "como_leerla": "Es la base de cualquier dimensionamiento bottom-up serio en Chile. Baja el dato por comuna cuando el negocio sea local; los promedios nacionales rara vez describen el mercado al que realmente puedes llegar.",
+    "verificado": "2026-08-07"
+  },
+  {
+    "id": "BCCH",
+    "entity": "Banco Central de Chile",
+    "topic": "Estadísticas macroeconómicas, tipo de cambio y UF",
+    "url": "https://www.bcentral.cl/",
+    "note": "Series estadísticas y normativa cambiaria.",
+    "que_dice": "Publica las series oficiales de tipo de cambio, UF, UTM, tasas de interés, cuentas nacionales y balanza de pagos, además de la normativa cambiaria aplicable a operaciones con el exterior.",
+    "como_leerla": "Toma de aquí toda serie que uses en una proyección y guarda la fecha de descarga. Si la empresa cobra o paga en moneda extranjera, la serie de tipo de cambio es el insumo para medir la exposición, no una referencia informativa.",
+    "verificado": "2026-08-07"
   }
 ]

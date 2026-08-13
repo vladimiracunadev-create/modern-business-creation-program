@@ -3,14 +3,17 @@
 
 Fuentes de verdad:
   manifests/curriculum.json        -> qué clases existen y cómo se llaman
-  manifests/part_packs.json        -> conocimiento de dominio por parte (24)
-  manifests/classes/*.json         -> contenido específico por clase (336)
-  manifests/official_sources.json  -> catálogo de fuentes oficiales
+  manifests/part_packs.json        -> marco normativo y riesgos por parte (24)
+  manifests/part_content.json      -> narrativa, diagrama y lecturas por parte (24)
+  manifests/classes/*.json         -> contenido operativo por clase (336)
+  manifests/pedagogia/*.json       -> propósito, desarrollo y preguntas por clase (336)
+  manifests/official_sources.json  -> catálogo de fuentes con qué dice y cómo leerla
 
 Salida:
   curriculum/part-NN-<slug>/class-NN-<slug>/README.md
   curriculum/part-NN-<slug>/README.md
   CURRICULUM.md
+  docs/19_GLOSSARY.md
 
 Uso:
   python scripts/generar_clases.py            # escribe
@@ -21,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import unicodedata
 from pathlib import Path
@@ -51,23 +55,57 @@ def slug(texto: str) -> str:
     return "".join(salida).strip("-")
 
 
+def etiqueta(texto: str, ancho: int = 34) -> str:
+    """Prepara un texto para usarlo como etiqueta de nodo mermaid.
+
+    Mermaid rompe con comillas dobles dentro de una etiqueta entrecomillada y no
+    corta líneas solo, así que aquí se sustituyen las comillas y se inserta el
+    salto explícito `<br/>` cada `ancho` caracteres aproximados.
+    """
+    texto = texto.replace('"', "'").replace("\n", " ").strip()
+    palabras, lineas, actual = texto.split(), [], ""
+    for palabra in palabras:
+        if len(actual) + len(palabra) + 1 > ancho and actual:
+            lineas.append(actual)
+            actual = palabra
+        else:
+            actual = f"{actual} {palabra}".strip()
+    if actual:
+        lineas.append(actual)
+    return "<br/>".join(lineas)
+
+
 def cargar_json(ruta: Path):
     return json.loads(ruta.read_text(encoding="utf-8"))
+
+
+def cargar_carpeta(carpeta: Path, clave: str = "n") -> dict:
+    datos = {}
+    for archivo in sorted(carpeta.glob("*.json")):
+        for entrada in cargar_json(archivo):
+            datos[entrada[clave]] = entrada
+    return datos
 
 
 def cargar_datos():
     curriculo = cargar_json(MANIFESTS / "curriculum.json")
     packs = {p["part"]: p for p in cargar_json(MANIFESTS / "part_packs.json")}
+    for extra in cargar_json(MANIFESTS / "part_content.json"):
+        packs[extra["part"]].update(extra)
     fuentes = {f["id"]: f for f in cargar_json(MANIFESTS / "official_sources.json")}
 
-    especificas = {}
-    for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
-        for entrada in cargar_json(archivo):
-            especificas[entrada["n"]] = entrada
+    especificas = cargar_carpeta(MANIFESTS / "classes")
+    pedagogia = cargar_carpeta(MANIFESTS / "pedagogia")
+    for numero, entrada in pedagogia.items():
+        if numero in especificas:
+            especificas[numero].update(entrada)
 
-    faltantes = [c["global_class"] for c in curriculo if c["global_class"] not in especificas]
+    faltantes = [
+        c["global_class"] for c in curriculo
+        if c["global_class"] not in especificas or "proposito" not in especificas[c["global_class"]]
+    ]
     if faltantes:
-        raise SystemExit(f"ERROR: sin contenido específico las clases {faltantes[:10]}")
+        raise SystemExit(f"ERROR: sin contenido completo las clases {faltantes[:10]}")
     return curriculo, packs, fuentes, especificas
 
 
@@ -81,13 +119,48 @@ def ruta_clase(clase: dict) -> Path:
 
 
 def bloque_fuentes(ids: list[str], fuentes: dict) -> str:
-    lineas = []
+    """Renderiza las fuentes explicando qué dicen y cómo leerlas.
+
+    Enlazar una fuente sin explicarla obliga a quien estudia a descubrir por su
+    cuenta qué parte del sitio importa; por eso cada entrada trae el contenido y
+    la instrucción de lectura.
+    """
+    bloques = []
     for identificador in ids:
         fuente = fuentes.get(identificador)
         if fuente is None:
             raise SystemExit(f"ERROR: fuente desconocida '{identificador}'")
-        lineas.append(f"- **{fuente['entity']}** — {fuente['topic']}: <{fuente['url']}>")
-    return "\n".join(lineas)
+        bloques.append(
+            f"**{fuente['entity']} — {fuente['topic']}**  \n"
+            f"<{fuente['url']}> · verificado {fuente['verificado']}\n\n"
+            f"- *Qué contiene:* {fuente['que_dice']}\n"
+            f"- *Cómo leerla:* {fuente['como_leerla']}"
+        )
+    return "\n\n".join(bloques)
+
+
+def diagrama_clase(clase: dict, spec: dict) -> str:
+    """Construye el diagrama de razonamiento propio de la clase.
+
+    No es decorativo: los nodos salen de los cuatro conceptos, la decisión y el
+    entregable de esta clase concreta, así que dos clases nunca producen el mismo
+    diagrama.
+    """
+    conceptos = [c[0] for c in spec["conceptos"]]
+    nodos = "\n".join(
+        f'    C --> A{i}["{etiqueta(termino, 26)}"]' for i, termino in enumerate(conceptos, 1)
+    )
+    union = " & ".join(f"A{i}" for i in range(1, len(conceptos) + 1))
+    return f"""```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+{nodos}
+    {union} --> D{{{{"{etiqueta(spec['decision'], 30)}"}}}}
+    D --> E["Entregable<br/>{etiqueta(spec['entregable'], 30)}"]
+    E --> V{{"¿Cumple el criterio<br/>de aceptación?"}}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```"""
 
 
 def render_clase(clase: dict, pack: dict, spec: dict, fuentes: dict,
@@ -97,121 +170,140 @@ def render_clase(clase: dict, pack: dict, spec: dict, fuentes: dict,
     ids_fuentes = spec.get("fuentes") or pack["fuentes"][:3]
 
     conceptos = "\n".join(
-        f"| **{termino}** | {definicion} |" for termino, definicion in spec["conceptos"]
+        f"| **{termino}** | {definicion.capitalize()}. |" for termino, definicion in spec["conceptos"]
     )
     marco = "\n".join(f"- {item}" for item in pack["marco"])
-    errores_clase = "\n".join(f"- {e}" for e in spec["errores"])
-    errores_parte = "\n".join(f"- {e}" for e in pack["riesgos"][:2])
+    errores_clase = "\n".join(f"- {e.capitalize()}." for e in spec["errores"])
+    errores_parte = "\n".join(f"- {e.capitalize()}." for e in pack["riesgos"][:2])
     criterios = "\n".join(f"- [ ] {c}" for c in spec["criterios"])
+    preguntas = "\n".join(f"{i}. {p}" for i, p in enumerate(spec["preguntas"], 1))
     profesionales = ", ".join(pack["profesionales"])
     autoridades = ", ".join(pack["autoridades"])
 
-    nav = []
     if anterior:
-        nav.append(
-            f"[← {anterior['global_class']:03d}. {anterior['title']}]"
+        celda_anterior = (
+            f"[← {anterior['global_class']:03d} · {anterior['title']}]"
             f"(../{ruta_clase(anterior).name}/README.md)"
         )
-    nav.append("[Índice de la parte](../README.md)")
+    else:
+        celda_anterior = "**Inicio de la parte**"
+
     if siguiente:
         destino = (
             f"../{ruta_clase(siguiente).name}/README.md"
             if siguiente["part"] == clase["part"]
             else f"../../{ruta_parte(siguiente['part'], siguiente['part_title']).name}/{ruta_clase(siguiente).name}/README.md"
         )
-        nav.append(f"[{siguiente['global_class']:03d}. {siguiente['title']} →]({destino})")
+        celda_siguiente = f"[{siguiente['global_class']:03d} · {siguiente['title']} →]({destino})"
+    else:
+        celda_siguiente = "**Fin del programa**"
 
     return f"""# Clase {numero:03d} — {clase['title']}
 
-> **Parte {clase['part']:02d} · {clase['part_title']}** — clase {clase['class']} de {total_parte}
-> Estado: `{pack['estado']}` · Jurisdicción: **Chile-first** · Fecha base normativa: **{FECHA_BASE}**
+> **Parte {clase['part']:02d} · {pack['titulo']}** — clase {clase['class']} de {total_parte}
 
-## Objetivo
+**Estado de evidencia:** `{pack['estado']}` · **Jurisdicción:** Chile-first · **Fecha base normativa:** {FECHA_BASE}<br>
+**Decisión que habilita:** {spec['decision']}<br>
+**Entregable:** {spec['entregable']}
 
-Comprender **{clase['title'].lower()}** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*{spec['decision']}*.
+## 🎯 Propósito
 
-## Resultados verificables
+{spec['proposito']}
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —{spec['decision']}— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
 {conceptos}
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+{diagrama_clase(clase, spec)}
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 {spec['desarrollo']}
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+{spec['desarrollo2']}
+
+### 3. Marco aplicable y quién interviene
 
 {marco}
 
 **Autoridades o contrapartes involucradas:** {autoridades}.
+**Profesionales de apoyo:** {profesionales}. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 {spec['entregable'].capitalize()}.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 {criterios}
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
+
+**Propios de esta clase:**
 
 {errores_clase}
+
+**Característicos de la parte {clase['part']:02d}:**
+
 {errores_parte}
 
-## Profesionales a considerar
-
-{profesionales.capitalize()}. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
-
-## Checklist Chile
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -223,67 +315,125 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
+
+{preguntas}
+
+## 🔗 Fuentes oficiales
 
 {bloque_fuentes(ids_fuentes, fuentes)}
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
 
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-{" · ".join(nav)}
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| {celda_anterior} | [Parte {clase['part']:02d}](../README.md) · [Programa](../../../README.md) | {celda_siguiente} |
 """
 
 
-def render_parte(pack: dict, clases: list[dict], fuentes: dict) -> str:
-    resultados = "\n".join(f"{i}. {r};" for i, r in enumerate(pack["resultados"], 1))
+def render_parte(pack: dict, clases: list[dict], especificas: dict, fuentes: dict,
+                 anterior: dict | None, siguiente: dict | None) -> str:
+    rango = f"{clases[0]['global_class']:03d}–{clases[-1]['global_class']:03d}"
+    resultados = "\n".join(f"{i}. **{r[0].upper()}{r[1:]}**." for i, r in enumerate(pack["resultados"], 1))
     marco = "\n".join(f"- {item}" for item in pack["marco"])
-    riesgos = "\n".join(f"- {r}" for r in pack["riesgos"])
+    riesgos = "\n".join(f"- {r.capitalize()}." for r in pack["riesgos"])
+    lecturas = "\n".join(f"- {item}" for item in pack["lecturas"])
     indice = "\n".join(
-        f"| {c['class']:02d} | {c['global_class']:03d} | [{c['title']}]({ruta_clase(c).name}/README.md) |"
+        f"| {c['class']:02d} | {c['global_class']:03d} | "
+        f"[{c['title']}]({ruta_clase(c).name}/README.md) | "
+        f"{especificas[c['global_class']]['decision']} |"
         for c in clases
     )
-    rango = f"{clases[0]['global_class']:03d}–{clases[-1]['global_class']:03d}"
+
+    # Glosario de la parte: los 56 conceptos de sus clases, sin repetir término.
+    glosario: dict[str, str] = {}
+    for c in clases:
+        for termino, definicion in especificas[c["global_class"]]["conceptos"]:
+            glosario.setdefault(termino, definicion)
+    filas_glosario = "\n".join(
+        f"| **{t}** | {d.capitalize()}. |" for t, d in sorted(glosario.items(), key=lambda x: x[0].lower())
+    )
+
+    nav_anterior = (
+        f"[← Parte {anterior['part']:02d} · {anterior['titulo']}]"
+        f"(../{ruta_parte(anterior['part'], anterior['titulo']).name}/README.md)"
+        if anterior else "**Primera parte**"
+    )
+    nav_siguiente = (
+        f"[Parte {siguiente['part']:02d} · {siguiente['titulo']} →]"
+        f"(../{ruta_parte(siguiente['part'], siguiente['titulo']).name}/README.md)"
+        if siguiente else "**Última parte**"
+    )
+
     return f"""# Parte {pack['part']:02d} — {pack['titulo']}
 
-> Estado: `{pack['estado']}` · {len(clases)} clases ({rango}) · Fecha base normativa: **{FECHA_BASE}**
+> *{pack['lema']}*
 
-{pack['resumen']}
+**Estado de evidencia:** `{pack['estado']}` · **Clases:** {len(clases)} ({rango}) · **Fecha base normativa:** {FECHA_BASE}<br>
+**Conceptos definidos en esta parte:** {len(glosario)}
 
-## Resultados de la parte
+## 🎯 De qué trata esta parte
 
-Al terminar esta parte, quien estudia puede:
+{pack['narrativa']}
+
+## 📚 Resultados de la parte
+
+Al terminar esta parte podrás:
 
 {resultados}
 
-## Marco aplicable
+## 🗺️ Mapa de la parte
+
+{pack['diagrama_render']}
+
+## ⚖️ Marco aplicable
 
 {marco}
 
 **Autoridades o contrapartes:** {", ".join(pack['autoridades'])}.
 **Profesionales de apoyo:** {", ".join(pack['profesionales'])}.
 
-## Riesgos característicos de esta parte
+## ⚠️ Riesgos característicos
 
 {riesgos}
 
-## Clases
+## 📘 Las {len(clases)} clases
 
-| # | Global | Clase |
-|---:|---:|---|
+| # | Global | Clase | Decisión que habilita |
+|---:|---:|---|---|
 {indice}
 
-## Fuentes oficiales de la parte
+## 🔤 Glosario de la parte
+
+| Concepto | Definición operacional |
+|---|---|
+{filas_glosario}
+
+## 🔗 Cómo se conecta
+
+{pack['conexiones']}
+
+## 📖 Pauta bibliográfica
+
+{lecturas}
+
+## 🏛️ Fuentes oficiales de la parte
 
 {bloque_fuentes(pack['fuentes'], fuentes)}
 
 ---
 
-[← Volver al currículo completo](../../CURRICULUM.md) · [Inicio](../../README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| {nav_anterior} | [Currículo](../../CURRICULUM.md) · [Programa](../../README.md) | {nav_siguiente} |
 """
 
 
@@ -296,19 +446,45 @@ def render_curriculum(curriculo: list[dict], packs: dict) -> str:
             f"| {parte:02d} | [{pack['titulo']}]"
             f"(curriculum/{ruta_parte(parte, pack['titulo']).name}/README.md) "
             f"| {len(clases)} | {clases[0]['global_class']:03d}–{clases[-1]['global_class']:03d} "
-            f"| `{pack['estado']}` |"
+            f"| `{pack['estado']}` | {pack['lema']} |"
         )
     tabla = "\n".join(filas)
     return f"""# Currículo — {len(curriculo)} clases en {len(packs)} partes
 
-Cada parte tiene su propio README con narrativa, marco normativo, riesgos característicos y el
-índice de sus clases. Cada clase es una carpeta con un `README.md` autocontenido.
+Cada parte tiene su propio README con narrativa, mapa visual, marco normativo, glosario propio y
+el índice de sus clases. Cada clase es una carpeta con un `README.md` autocontenido que incluye
+diagrama de razonamiento, desarrollo, taller, criterio de aceptación y fuentes explicadas.
 
-| # | Parte | Clases | Rango | Estado |
-|---:|---|---:|---|---|
+## 🗺️ Recorrido completo
+
+```mermaid
+flowchart LR
+    subgraph F1["Fundamentos y mercado · 01-04"]
+        P1["01 Fundamentos"] --> P2["02 Validación"] --> P3["03 Modelos"] --> P4["04 Estrategia"]
+    end
+    subgraph F2["Constitución y finanzas · 05-09"]
+        P5["05 Societario"] --> P6["06 Constitución"] --> P7["07 SII"] --> P8["08 Contabilidad"] --> P9["09 Finanzas"]
+    end
+    subgraph F3["Marco legal y personas · 10-12"]
+        P10["10 Contratos"] --> P11["11 Consumidor y datos"] --> P12["12 Personas"]
+    end
+    subgraph F4["Operación y crecimiento · 13-20"]
+        P13["13 Operaciones"] --> P14["14 Ventas"] --> P15["15 Tecnología"] --> P16["16 Financiamiento"]
+        P16 --> P17["17 Permisos"] --> P18["18 Comercio exterior"] --> P19["19 Compliance"] --> P20["20 Escalamiento"]
+    end
+    subgraph F5["Crisis, salida y práctica · 21-24"]
+        P21["21 Crisis"] --> P22["22 Venta y cierre"] --> P23["23 Casos 2026"] --> P24["24 Capstone"]
+    end
+    F1 --> F2 --> F3 --> F4 --> F5
+```
+
+## 📘 Las {len(packs)} partes
+
+| # | Parte | Clases | Rango | Estado | Idea central |
+|---:|---|---:|---|---|---|
 {tabla}
 
-## Estados de evidencia
+## 🏷️ Estados de evidencia
 
 | Estado | Significado |
 |---|---|
@@ -319,7 +495,85 @@ Cada parte tiene su propio README con narrativa, marco normativo, riesgos caract
 
 ---
 
-[← Inicio](README.md)
+[← Inicio](README.md) · [Glosario maestro](docs/19_GLOSSARY.md) · [Estado verificable](STATUS.md)
+"""
+
+
+def render_glosario(curriculo: list[dict], packs: dict, especificas: dict) -> str:
+    """Glosario maestro construido desde los conceptos de las 336 clases."""
+    entradas: dict[str, dict] = {}
+    for clase in curriculo:
+        spec = especificas[clase["global_class"]]
+        for termino, definicion in spec["conceptos"]:
+            registro = entradas.setdefault(
+                termino, {"definicion": definicion, "clases": [], "partes": set()}
+            )
+            registro["clases"].append(clase)
+            registro["partes"].add(clase["part"])
+
+    por_letra: dict[str, list] = {}
+    for termino in sorted(entradas, key=lambda t: (unicodedata.normalize("NFKD", t.lower()), t)):
+        inicial = unicodedata.normalize("NFKD", termino[0].upper())[0]
+        por_letra.setdefault(inicial, []).append(termino)
+
+    indice = " · ".join(f"[{letra}](#{letra.lower()})" for letra in sorted(por_letra))
+
+    secciones = []
+    for letra in sorted(por_letra):
+        filas = []
+        for termino in por_letra[letra]:
+            registro = entradas[termino]
+            primera = registro["clases"][0]
+            ruta = (
+                f"../curriculum/{ruta_parte(primera['part'], primera['part_title']).name}/"
+                f"{ruta_clase(primera).name}/README.md"
+            )
+            referencia = f"[{primera['global_class']:03d}]({ruta})"
+            otras = len(registro["clases"]) - 1
+            if otras:
+                referencia += f" +{otras}"
+            filas.append(
+                f"| **{termino}** | {registro['definicion'].capitalize()}. | {referencia} |"
+            )
+        secciones.append(
+            f"### {letra}\n\n| Concepto | Definición operacional | Clase |\n|---|---|---|\n"
+            + "\n".join(filas)
+        )
+
+    cuerpo = "\n\n".join(secciones)
+    partes_glosario = "\n".join(
+        f"| {p:02d} | [{packs[p]['titulo']}]"
+        f"(../curriculum/{ruta_parte(p, packs[p]['titulo']).name}/README.md#-glosario-de-la-parte) |"
+        for p in sorted(packs)
+    )
+
+    return f"""# Glosario maestro
+
+{len(entradas)} conceptos con definición operacional, extraídos de las {len(curriculo)} clases del
+programa. Este archivo **se genera**: cada término proviene de la tabla «Conceptos centrales» de
+la clase donde se introduce, de modo que la definición del glosario y la de la clase nunca
+divergen.
+
+La columna **Clase** enlaza a la clase donde el concepto se introduce; `+n` indica en cuántas
+clases adicionales vuelve a aparecer.
+
+**Índice alfabético:** {indice}
+
+## Términos
+
+{cuerpo}
+
+## Glosarios por parte
+
+Cada parte reúne además los conceptos de sus propias clases:
+
+| # | Parte |
+|---:|---|
+{partes_glosario}
+
+---
+
+[← Inicio](../README.md) · [Currículo](../CURRICULUM.md) · [Catálogo de fuentes](16_OFFICIAL_SOURCE_CATALOG.md)
 """
 
 
@@ -332,6 +586,7 @@ def main() -> int:
     curriculo, packs, fuentes, especificas = cargar_datos()
     for parte, pack in packs.items():
         pack["_total_clases"] = sum(1 for c in curriculo if c["part"] == parte)
+        pack["diagrama_render"] = "```mermaid\n" + pack["diagrama"] + "\n```"
 
     pendientes: list[tuple[Path, str]] = []
 
@@ -350,10 +605,15 @@ def main() -> int:
 
     for parte, pack in packs.items():
         clases = [c for c in curriculo if c["part"] == parte]
-        pendientes.append((ruta_parte(parte, pack["titulo"]) / "README.md",
-                           render_parte(pack, clases, fuentes)))
+        pendientes.append((
+            ruta_parte(parte, pack["titulo"]) / "README.md",
+            render_parte(pack, clases, especificas, fuentes,
+                         packs.get(parte - 1), packs.get(parte + 1)),
+        ))
 
     pendientes.append((RAIZ / "CURRICULUM.md", render_curriculum(curriculo, packs)))
+    pendientes.append((RAIZ / "docs" / "19_GLOSSARY.md",
+                       render_glosario(curriculo, packs, especificas)))
 
     # Carpetas de clase que ya no corresponden a ninguna entrada del manifiesto:
     # aparecen al renombrar una clase y dejarían READMEs huérfanos en el sitio.

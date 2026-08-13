@@ -1,82 +1,109 @@
 # Clase 001 — Qué es una empresa y cómo crea valor
 
 > **Parte 01 · Fundamentos de empresa y mentalidad empresarial** — clase 1 de 14
-> Estado: `GUIA-PRACTICA` · Jurisdicción: **Chile-first** · Fecha base normativa: **07-08-2026**
 
-## Objetivo
+**Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
+**Decisión que habilita:** definir qué valor entrega la empresa, a quién y cuánto de ese valor puede retener<br>
+**Entregable:** one-pager de tesis con problema, cliente, valor entregado, precio estimado y costo estimado
 
-Comprender **qué es una empresa y cómo crea valor** dentro del sistema de creación y operación de una empresa,
-y quedar en condiciones de tomar la decisión que esta clase habilita:
-*definir qué valor entrega la empresa, a quién y cuánto de ese valor puede retener*.
+## 🎯 Propósito
 
-## Resultados verificables
+Instalar la definición de empresa que sostiene las 335 clases siguientes. Sin ella, constituir una sociedad es un trámite sin propósito y cada decisión posterior parece arbitraria en vez de encadenada.
 
-Al finalizar, quien estudia esta clase puede:
+## 📚 Resultados de aprendizaje
 
-1. definir los conceptos de la tabla siguiente sin recurrir a una definición memorizada;
-2. explicar cómo esta materia condiciona a las demás partes del programa;
-3. tomar la decisión declarada arriba y justificarla por escrito;
-4. producir el entregable de la clase con criterio de aceptación verificable;
-5. identificar qué dato es estable y cuál es dinámico y requiere revalidación en la fuente.
+Al finalizar esta clase podrás:
 
-## Conceptos clave
+1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
+2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
+3. **Decidir** —definir qué valor entrega la empresa, a quién y cuánto de ese valor puede retener— y justificar la decisión por escrito.
+4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
+5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
-| Concepto | Definición operacional |
+## 🧩 Conceptos centrales
+
+| Concepto | Comprensión verificable |
 |---|---|
-| **Empresa** | sistema que combina capital, personas y activos para entregar valor y sostenerse con sus ingresos |
-| **Propuesta de valor** | razón concreta por la que un cliente prefiere pagar a esta empresa y no a la alternativa |
-| **Captura de valor** | porción del valor creado que la empresa retiene como margen |
-| **Excedente del cliente** | diferencia entre lo que el cliente valora y lo que paga; si es cero, no repite |
+| **Empresa** | Sistema que combina capital, personas y activos para entregar valor y sostenerse con sus ingresos. |
+| **Propuesta de valor** | Razón concreta por la que un cliente prefiere pagar a esta empresa y no a la alternativa. |
+| **Captura de valor** | Porción del valor creado que la empresa retiene como margen. |
+| **Excedente del cliente** | Diferencia entre lo que el cliente valora y lo que paga; si es cero, no repite. |
 
-## Desarrollo
+## 🗺️ Flujo de razonamiento
+
+```mermaid
+flowchart TB
+    C["Contexto del caso<br/>actividad · escala · comuna"]
+    C --> A1["Empresa"]
+    C --> A2["Propuesta de valor"]
+    C --> A3["Captura de valor"]
+    C --> A4["Excedente del cliente"]
+    A1 & A2 & A3 & A4 --> D{{"definir qué valor entrega la<br/>empresa, a quién y cuánto de<br/>ese valor puede retener"}}
+    D --> E["Entregable<br/>one-pager de tesis con<br/>problema, cliente, valor<br/>entregado, precio estimado y<br/>costo estimado"]
+    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
+    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
+    V -->|no| C
+```
+
+## 📖 Desarrollo
+
+### 1. El fondo del asunto
 
 Una empresa crea valor cuando el resultado que entrega vale para el cliente más que el precio, y captura valor cuando ese precio supera el costo de producirlo. Las dos condiciones deben cumplirse a la vez: si solo se cumple la primera hay clientes felices y pérdida; si solo la segunda, hay margen y fuga de clientes.
 
-## Marco aplicable en esta parte
+### 2. Cómo se traduce en la práctica
+
+La prueba práctica es incómoda: describe tu empresa sin nombrar lo que hace y solo por el resultado que produce en el cliente. Si no puedes, todavía estás describiendo una actividad, no un negocio. Esa reformulación es la que después permite fijar precio por valor y no por costo.
+
+### 3. Marco aplicable y quién interviene
 
 - Código de Comercio y Código Civil como base de los actos de comercio y las obligaciones
 - Ley 20.416 (Estatuto Pyme) para el encuadre de tamaño de empresa
 - clasificación de empresa por ventas anuales en UF que usan SII, Sercotec y Corfo
 
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
+**Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
+tamaño de la empresa y de la actividad económica.
 
-## Flujo de trabajo
+## 🧪 Taller guiado
 
-1. Delimitar el contexto: actividad económica, escala, comuna y etapa de la empresa.
-2. Reunir los antecedentes que la decisión exige y verificar su fecha.
-3. Identificar las alternativas reales, incluida la de no hacer nada.
-4. Evaluar el impacto en mercado, caja, personas, regulación y operación.
-5. Tomar la decisión y dejarla registrada con sus supuestos.
-6. Ejecutar o simular el flujo hasta producir el entregable.
-7. Contrastar el resultado contra el criterio de aceptación.
-8. Anotar lo que requiere validación profesional y programar su revisión.
+Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
+una segunda línea de carga regulatoria distinta:
 
-## Taller guiado
+| Línea | Carga regulatoria |
+|---|---|
+| SaaS B2B con IA | media |
+| Servicios profesionales | baja |
+| E-commerce D2C | media |
+| Alimentos o foodtech | alta |
+| Exportación de servicios | media |
+| Fintech regulada | alta |
+| Construcción o servicios técnicos | alta |
 
-Aplicar esta clase a **una** de las siguientes líneas de negocio, y repetir el ejercicio con una
-segunda línea de carga regulatoria distinta:
+**Secuencia de trabajo:**
 
-- SaaS B2B con IA;
-- servicios profesionales;
-- e-commerce D2C;
-- alimentos o foodtech;
-- exportación de servicios;
-- fintech regulada;
-- construcción o servicios técnicos.
+1. Delimita el contexto: actividad económica, escala, comuna y etapa de la empresa.
+2. Reúne los antecedentes que la decisión exige y anota la fecha de cada fuente.
+3. Identifica las alternativas reales, incluida la de no hacer nada.
+4. Evalúa el impacto en mercado, caja, personas, regulación y operación.
+5. Toma la decisión y regístrala con sus supuestos.
+6. Produce el entregable.
+7. Contrástalo contra el criterio de aceptación.
+8. Anota lo que requiere validación profesional y programa su revisión.
 
-### Entregable
+### 📦 Entregable
 
 One-pager de tesis con problema, cliente, valor entregado, precio estimado y costo estimado.
 
-El documento debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable,
-riesgos identificados y próximos pasos.
+Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
+identificados y próximos pasos.
 
-## Reto
+## 🏆 Reto verificable
 
-Resolver la misma materia para una segunda línea de negocio con distinta carga regulatoria,
-y explicar por escrito **qué cambió y por qué**.
+Resuelve la misma materia para una segunda línea de negocio con distinta carga regulatoria y
+explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
-### Criterio de aceptación
+## ✅ Criterio de aceptación
 
 - [ ] el valor entregado está expresado como resultado medible para el cliente
 - [ ] se distingue creación de captura de valor con cifras estimadas
@@ -84,19 +111,19 @@ y explicar por escrito **qué cambió y por qué**.
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
 
-## Errores comunes
+## ⚠️ Errores frecuentes
 
-- describir la empresa por lo que hace y no por el resultado que produce en el cliente
-- asumir que un margen alto es sostenible sin barrera que lo proteja
-- confundir facturación con utilidad y utilidad con caja disponible
-- construir un autoempleo creyendo que se construye una empresa vendible
+**Propios de esta clase:**
 
-## Profesionales a considerar
+- Describir la empresa por lo que hace y no por el resultado que produce en el cliente.
+- Asumir que un margen alto es sostenible sin barrera que lo proteja.
 
-Fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, el tamaño de la
-empresa y la actividad económica; este material no reemplaza esa asesoría.
+**Característicos de la parte 01:**
 
-## Checklist Chile
+- Confundir facturación con utilidad y utilidad con caja disponible.
+- Construir un autoempleo creyendo que se construye una empresa vendible.
+
+## 🇨🇱 Checklist Chile
 
 - [ ] ¿existe norma o autoridad específica para esta materia?
 - [ ] ¿la fuente consultada está vigente a la fecha de ejecución?
@@ -108,18 +135,42 @@ empresa y la actividad económica; este material no reemplaza esa asesoría.
 - [ ] ¿afecta a contratos o a propiedad intelectual?
 - [ ] ¿requiere renovación, reporte periódico o revalidación?
 
-## Fuentes oficiales
+## ❓ Preguntas de comprobación
 
-- **Biblioteca del Congreso Nacional - LeyChile** — Normativa oficial consolidada: <https://www.bcn.cl/leychile/>
-- **Servicio de Impuestos Internos** — Nuevos contribuyentes y DTE: <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html>
-- **SERCOTEC** — Fomento para micro y pequeñas empresas: <https://www.sercotec.cl/>
+1. ¿Qué resultado medible obtiene tu cliente y cuánto vale para él en dinero o tiempo?
+2. ¿Qué impide que otro entregue ese mismo resultado más barato el próximo trimestre?
+3. Si el precio bajara 20 %, ¿seguiría habiendo captura de valor? ¿Y si subiera 20 %, seguiría habiendo clientes?
 
-Lecturas complementarias: [`docs/15_BOOKS_AND_LEARNING_PATH.md`](../../../docs/15_BOOKS_AND_LEARNING_PATH.md)
-y [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+## 🔗 Fuentes oficiales
 
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+
+**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-07
+
+- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
+- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
+
+**Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas**  
+<https://www.sercotec.cl/> · verificado 2026-08-07
+
+- *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
+- *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
+
+Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
+[ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
+[catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).
+
+> [!IMPORTANT]
 > Material educativo. Para una decisión real de alto impacto hay que verificar la fuente oficial
 > vigente y validar con el profesional competente.
 
 ---
 
-[Índice de la parte](../README.md) · [002. Emprender, autoemplearse y construir una organización →](../class-02-emprender-autoemplearse-y-construir-una-organizacion/README.md)
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| **Inicio de la parte** | [Parte 01](../README.md) · [Programa](../../../README.md) | [002 · Emprender, autoemplearse y construir una organización →](../class-02-emprender-autoemplearse-y-construir-una-organizacion/README.md) |

@@ -10,7 +10,7 @@
 [![Security](https://github.com/vladimiracunadev-create/modern-business-creation-program/actions/workflows/security.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/modern-business-creation-program/actions/workflows/security.yml)
 [![Deploy Pages](https://github.com/vladimiracunadev-create/modern-business-creation-program/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/modern-business-creation-program/actions/workflows/deploy-pages.yml)
 
-[![Version](https://img.shields.io/badge/version-1.0.0-e67e22?style=for-the-badge)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.1.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-336%20·%2024%20partes-7c5cff?style=for-the-badge)](CURRICULUM.md)
 [![Jurisdicción](https://img.shields.io/badge/jurisdicción-Chile%202026-2e8b57?style=for-the-badge)](docs/03_LEGAL_MATRIX_CHILE.md)
 [![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
@@ -23,7 +23,9 @@
 [![Ley 21.719](https://img.shields.io/badge/Ley%2021.719-1%20dic%202026-8e44ad?style=flat-square)](docs/17_2026_WATCHLIST.md)
 
 [🌐 **Sitio del programa**](https://vladimiracunadev-create.github.io/modern-business-creation-program/) ·
+[📕 **Manual completo en PDF**](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/modern-business-creation-program-manual-v1.1.0.pdf) ·
 [📚 Currículo completo](CURRICULUM.md) ·
+[🔤 Glosario](docs/19_GLOSSARY.md) ·
 [🗺️ Flujo maestro](docs/00_MASTER_FLOW.md) ·
 [✅ Estado verificable](STATUS.md) ·
 [🧭 Roadmap](ROADMAP.md) ·
@@ -61,16 +63,19 @@ responsable y qué evidencia debe quedar**.
 | Superficie | Estado |
 |---|---|
 | Currículo | ✅ 336/336 clases generadas desde manifiesto |
-| Contenido por clase | ✅ conceptos operacionales, desarrollo, decisión, entregable, errores y criterios propios |
-| Profundidad | ✅ 787–910 palabras por clase (mediana 835), 281.184 palabras totales |
-| Conceptos definidos | ✅ 1.344 definiciones operacionales (4 por clase) |
-| Marco normativo | ✅ 24 paquetes de parte con normas, autoridades, profesionales y riesgos |
+| Contenido por clase | ✅ propósito, conceptos, desarrollo en tres bloques, taller, reto, errores y preguntas propias |
+| Profundidad | ✅ 1.116–1.617 palabras por clase (mediana 1.239), 419.186 palabras totales |
+| Diagramas | ✅ 360 diagramas mermaid: uno por clase y uno por parte |
+| Conceptos definidos | ✅ 1.344 definiciones operacionales · glosario maestro de 1.251 términos |
+| Preguntas de comprobación | ✅ 1.008 (3 por clase) |
+| Marco normativo | ✅ 24 paquetes de parte con narrativa, normas, autoridades, riesgos y bibliografía |
 | Manuales transversales | ✅ 20 documentos en `docs/` |
 | Casos sectoriales | ✅ 20 líneas de negocio 2026 |
 | Plantillas operativas | ✅ 24 artefactos editables |
-| Fuentes oficiales | ✅ 28 fuentes con URL https verificable |
-| Sitio HTML | ✅ 421 páginas generadas, sin dependencias externas |
-| CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, build y tests |
+| Fuentes oficiales | ✅ 32 fuentes con qué contienen y cómo leerlas |
+| Manual en PDF | ✅ 1.541 páginas + 24 PDF por parte |
+| Sitio HTML | ✅ 426 páginas con buscador, diagramas y tema claro/oscuro |
+| CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
 | Licencia | ✅ MIT |
 
 Detalle completo en [`STATUS.md`](STATUS.md).
@@ -106,25 +111,42 @@ Detalle completo en [`STATUS.md`](STATUS.md).
 
 ➡️ **[Ver el currículo completo](CURRICULUM.md)**
 
+## 📕 Descargas
+
+| Formato | Contenido | Enlace |
+|---|---|---|
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.541 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/modern-business-creation-program-manual-v1.1.0.pdf) |
+| PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
+| Sitio HTML | 426 páginas con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
+
+Los PDF se compilan desde el mismo Markdown que publica el sitio, así que nunca divergen del
+contenido del repositorio. Se regeneran en cada publicación con
+[`scripts/generar_manual.py`](scripts/generar_manual.py).
+
 ## 📦 Contrato de una clase
 
 Cada clase es una carpeta con un `README.md` autocontenido que siempre incluye, en este orden:
 
 ```text
 # Clase NNN — Título
-├── Objetivo                      ← la decisión concreta que la clase habilita
-├── Resultados verificables       ← qué se puede hacer al terminar
-├── Conceptos clave               ← 4 definiciones operacionales propias de la clase
-├── Desarrollo                    ← el porqué, con el matiz chileno que importa
-├── Marco aplicable en esta parte ← normas, autoridades y contrapartes
-├── Flujo de trabajo              ← secuencia de ejecución
-├── Taller guiado + Entregable    ← artefacto concreto y revisable
-├── Reto + Criterio de aceptación ← criterios específicos de la clase, no genéricos
-├── Errores comunes               ← errores de la clase y riesgos de la parte
-├── Profesionales a considerar
-├── Checklist Chile
-└── Fuentes oficiales             ← URL institucional, no notas de prensa
+├── Cabecera            ← estado de evidencia, decisión que habilita y entregable
+├── 🎯 Propósito         ← por qué existe la clase, en prosa
+├── 📚 Resultados        ← 5 capacidades verificables
+├── 🧩 Conceptos         ← 4 definiciones operacionales propias de la clase
+├── 🗺️ Diagrama          ← flujo de razonamiento mermaid, construido con sus conceptos
+├── 📖 Desarrollo        ← el fondo · cómo se traduce en la práctica · marco y actores
+├── 🧪 Taller guiado     ← 7 líneas de negocio con su carga regulatoria + secuencia
+│   └── 📦 Entregable    ← artefacto concreto y revisable
+├── 🏆 Reto verificable
+├── ✅ Criterio de aceptación  ← específico de la clase, no genérico
+├── ⚠️ Errores frecuentes      ← propios de la clase + característicos de la parte
+├── 🇨🇱 Checklist Chile
+├── ❓ Preguntas de comprobación ← 3, para contrastar contra el propio negocio
+└── 🔗 Fuentes oficiales        ← con qué contiene cada una y cómo leerla
 ```
+
+Cada parte añade además narrativa de contexto, mapa visual, glosario propio, conexiones con las
+demás partes y pauta bibliográfica.
 
 El contenido **no se escribe a mano en los README**: se genera desde
 [`manifests/`](manifests/) con [`scripts/generar_clases.py`](scripts/generar_clases.py), y el CI
@@ -157,7 +179,8 @@ Detalle en [`docs/00_MASTER_FLOW.md`](docs/00_MASTER_FLOW.md).
 | [`docs/`](docs/) | 20 manuales: flujo maestro, tipos societarios, ciclo SII, matriz legal, permisos, laboral, consumidor y datos, financiamiento, fintech, comercio exterior, compliance, crisis, glosario y watchlist 2026 |
 | [`case-studies/`](case-studies/) | 20 líneas de negocio reales 2026 con su mapa regulatorio |
 | [`templates/`](templates/) | 24 artefactos operativos editables: canvas, flujo de caja de 13 semanas, cap table, checklist de constitución, matriz de permisos, registro de riesgos, mapa de datos, data room |
-| [`manifests/`](manifests/) | Fuentes de verdad: currículo, contenido por clase, paquetes por parte, fuentes oficiales, normativa y líneas de negocio |
+| [`docs/19_GLOSSARY.md`](docs/19_GLOSSARY.md) | Glosario maestro: 1.251 términos con definición operacional y enlace a la clase donde se introduce |
+| [`manifests/`](manifests/) | Fuentes de verdad: currículo, contenido y pedagogía por clase, paquetes y narrativa por parte, fuentes oficiales, normativa y líneas de negocio |
 | [`scripts/`](scripts/) | Generadores y validadores del repositorio |
 
 ## 🏷️ Estados de evidencia
@@ -186,11 +209,14 @@ Seguimiento en [`docs/17_2026_WATCHLIST.md`](docs/17_2026_WATCHLIST.md).
 ## 🔧 Trabajar con el repositorio
 
 ```bash
-python scripts/generar_clases.py            # regenera el currículo desde los manifiestos
+pip install -r requirements.txt             # solo necesario para compilar el PDF
+
+python scripts/generar_clases.py            # regenera currículo y glosario desde los manifiestos
 python scripts/generar_clases.py --check    # falla si hay READMEs desincronizados
-python scripts/validar_estructura.py        # estructura, secciones y enlaces internos
+python scripts/validar_estructura.py        # estructura, secciones, diagramas y enlaces
 python scripts/validar_encoding.py          # UTF-8 sin BOM y sin mojibake
-python scripts/generar_sitio.py             # construye el sitio HTML en site/
+python scripts/generar_manual.py --partes   # manual integral + 24 PDF por parte
+python scripts/generar_sitio.py             # sitio HTML en site/ (copia los PDF)
 python -m unittest discover -s tests -v     # pruebas estructurales
 ```
 
