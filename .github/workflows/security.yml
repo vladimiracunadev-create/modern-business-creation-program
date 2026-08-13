@@ -1,0 +1,73 @@
+name: Security
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+  schedule:
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  secretos:
+    name: Escaneo de secretos (gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Instalar gitleaks
+        env:
+          GITLEAKS_VERSION: "8.28.0"
+        run: |
+          curl -sSfL "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz" \
+            | tar -xz -C /usr/local/bin gitleaks
+          gitleaks version
+
+      # Se escanea el árbol de archivos y no el historial: las plantillas incluyen
+      # columnas de ejemplo (clave, token) que se excluyen vía .gitleaks.toml.
+      - name: Detectar secretos
+        run: gitleaks detect --no-git --redact -v --source . --config .gitleaks.toml
+
+  sast:
+    name: Análisis estático (bandit)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Instalar bandit
+        run: |
+          python -m pip install --upgrade pip
+          pip install "bandit==1.8.6"
+
+      # -ll reporta solo severidad media y alta: los scripts son generadores de
+      # texto sin red ni subprocesos, y el ruido de bajo nivel esconde lo real.
+      - name: Escaneo de los scripts
+        run: bandit -q -r scripts tests -ll
+
+  dependencias:
+    name: Superficie de dependencias
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      # El repositorio no declara dependencias de terceros a propósito: los
+      # generadores usan solo la biblioteca estándar. Este control impide que
+      # entre una dependencia sin que nadie lo note.
+      - name: Verificar que no hay dependencias de terceros sin declarar
+        run: |
+          if ls requirements*.txt pyproject.toml package.json 2>/dev/null | grep -q .; then
+            echo "Se agregó un manifiesto de dependencias: revisar el control de seguridad."
+            exit 1
+          fi
+          echo "OK: sin dependencias de terceros; solo biblioteca estándar de Python."

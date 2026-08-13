@@ -1,0 +1,162 @@
+[
+  {
+    "name": "SaaS B2B + IA",
+    "model": "Suscripción/uso",
+    "regulation": "Media",
+    "roles": "CEO/Producto, CTO, ventas B2B, privacidad/ciberseguridad",
+    "permits": "Generales; sectoriales si procesa datos/servicios regulados",
+    "risks": "Churn, concentración clientes, datos, dependencia cloud"
+  },
+  {
+    "name": "Agencia de automatización e IA",
+    "model": "Proyecto + retainer",
+    "regulation": "Baja-Media",
+    "roles": "Consultor, arquitecto automatización, ventas, abogado contratos",
+    "permits": "Generales",
+    "risks": "Responsabilidad por automatizaciones, datos de clientes, scope creep"
+  },
+  {
+    "name": "MSP/MSSP de ciberseguridad",
+    "model": "Mensual + incidentes",
+    "regulation": "Media-Alta",
+    "roles": "CISO/vCISO, SOC, legal, privacidad",
+    "permits": "Generales; revisar Ley 21.663 y obligaciones de clientes regulados",
+    "risks": "Incidentes, SLA, evidencia, acceso privilegiado"
+  },
+  {
+    "name": "Consultoría tecnológica",
+    "model": "Horas/proyectos",
+    "regulation": "Baja",
+    "roles": "Consultor senior, PM, comercial",
+    "permits": "Generales",
+    "risks": "Dependencia fundador, cobro, alcance, PI"
+  },
+  {
+    "name": "E-commerce D2C",
+    "model": "Margen de producto",
+    "regulation": "Media",
+    "roles": "Operaciones, marketing, CX, contador",
+    "permits": "Patente; sanitarios/sectoriales según producto",
+    "risks": "Inventario, devoluciones, SERNAC, logística"
+  },
+  {
+    "name": "Marketplace vertical",
+    "model": "Comisión/tarifa",
+    "regulation": "Media-Alta",
+    "roles": "Producto, legal, trust&safety, pagos",
+    "permits": "Generales; fintech si intermedia servicios financieros",
+    "risks": "Responsabilidad plataforma, fraude, pagos, efectos de red"
+  },
+  {
+    "name": "Educación digital B2C/B2B",
+    "model": "Curso/suscripción/licencias",
+    "regulation": "Baja-Media",
+    "roles": "Experto, instructional designer, comercial",
+    "permits": "Generales; SENCE/OTEC si usa ese sistema",
+    "risks": "PI, claims, calidad, CAC"
+  },
+  {
+    "name": "Exportación de software/servicios",
+    "model": "Proyecto/suscripción en divisa",
+    "regulation": "Media",
+    "roles": "Comercial internacional, legal tributario, finanzas",
+    "permits": "SII + Aduanas/ProChile según calificación",
+    "risks": "FX, retenciones, jurisdicción, cobranza"
+  },
+  {
+    "name": "Fintech regulada",
+    "model": "Fees/spread/suscripción",
+    "regulation": "Muy alta",
+    "roles": "CEO, CTO, compliance officer, MLRO, legal CMF, CISO",
+    "permits": "CMF RPSF/autorización cuando aplique; UAF",
+    "risks": "Licenciamiento, capital, AML, ciberseguridad"
+  },
+  {
+    "name": "Foodtech / dark kitchen",
+    "model": "Venta alimentos",
+    "regulation": "Alta",
+    "roles": "Operaciones, manipuladores, calidad, prevencionista",
+    "permits": "Patente + autorización sanitaria + DS 977",
+    "risks": "Inocuidad, cadena fría, delivery, reseñas"
+  },
+  {
+    "name": "Solar/eficiencia energética",
+    "model": "Proyecto + mantenimiento",
+    "regulation": "Alta",
+    "roles": "Ingeniería, instalador autorizado, comercial, HSE",
+    "permits": "SEC y municipales/sectoriales según proyecto",
+    "risks": "Seguridad, garantías, obra, financiamiento"
+  },
+  {
+    "name": "Última milla",
+    "model": "Tarifa por entrega",
+    "regulation": "Media",
+    "roles": "Ops, flota, dispatch, RRHH",
+    "permits": "Transporte/municipal según operación",
+    "risks": "Accidentes, laboral, combustible, SLA"
+  },
+  {
+    "name": "Turismo de experiencias",
+    "model": "Paquete/comisión",
+    "regulation": "Media-Alta",
+    "roles": "Operaciones, guías, marketing, seguridad",
+    "permits": "SERNATUR/sectoriales según servicio",
+    "risks": "Seguridad clientes, clima, cancelaciones"
+  },
+  {
+    "name": "Economía circular/reparación/reventa",
+    "model": "Margen + servicio",
+    "regulation": "Media",
+    "roles": "Técnicos, operaciones, e-commerce",
+    "permits": "Municipal/ambiental según residuos",
+    "risks": "Garantías, trazabilidad, residuos, inventario"
+  },
+  {
+    "name": "Servicios para minería",
+    "model": "Contrato B2B",
+    "regulation": "Alta",
+    "roles": "Ingeniería, HSE, contratos, procurement",
+    "permits": "Sectoriales y faena",
+    "risks": "Seguridad, acreditación, ciclos largos"
+  },
+  {
+    "name": "Agritech/agroservicios",
+    "model": "SaaS/equipos/servicio",
+    "regulation": "Media-Alta",
+    "roles": "Agrónomo, producto, comercial",
+    "permits": "SAG/sectoriales según insumos/actividad",
+    "risks": "Estacionalidad, clima, bioseguridad"
+  },
+  {
+    "name": "Salud digital",
+    "model": "Suscripción/consulta/licencia",
+    "regulation": "Muy alta",
+    "roles": "Profesional sanitario, legal, DPO, CISO",
+    "permits": "Autoridad sanitaria/Superintendencia según prestación",
+    "risks": "Datos sensibles, responsabilidad clínica, claims"
+  },
+  {
+    "name": "Construcción/mantención",
+    "model": "Proyecto/contrato",
+    "regulation": "Alta",
+    "roles": "Constructor, arquitecto/ingeniero, prevención, contratos",
+    "permits": "DOM, LGUC/OGUC y sectoriales",
+    "risks": "Accidentes, permisos, costos, subcontratación"
+  },
+  {
+    "name": "Ventas al Estado B2G",
+    "model": "Licitación/convenio",
+    "regulation": "Alta",
+    "roles": "Bid manager, legal, operaciones, finanzas",
+    "permits": "Mercado Público y requisitos de bases",
+    "risks": "Garantías, cumplimiento, plazos, concentración pública"
+  },
+  {
+    "name": "Creator/media/licencias",
+    "model": "Ads/patrocinio/licencias",
+    "regulation": "Baja-Media",
+    "roles": "Creador, comercial, PI",
+    "permits": "Generales",
+    "risks": "Derechos de autor, publicidad, plataformas"
+  }
+]

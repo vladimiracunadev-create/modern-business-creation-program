@@ -1,0 +1,14 @@
+# Normaliza los finales de línea a LF en el repositorio. Sin esto, un clon en
+# Windows con core.autocrlf=true reescribe cada archivo a CRLF y el diff de
+# cualquier regeneración del currículo aparece como "todo cambió".
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
+
+# El sitio es artefacto de build y no se versiona; si alguien lo fuerza, que no
+# ensucie las estadísticas de lenguaje del repositorio.
+site/** linguist-generated=true
+curriculum/** linguist-documentation=true

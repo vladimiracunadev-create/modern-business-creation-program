@@ -1,0 +1,29 @@
+# Glosario empresarial
+
+- **Activo:** recurso controlado con potencial de generar beneficios.
+- **Pasivo:** obligación presente.
+- **Patrimonio:** activos menos pasivos.
+- **Capital de trabajo:** recursos necesarios para el ciclo operativo.
+- **Runway:** tiempo de supervivencia con caja disponible.
+- **CAC:** costo de adquirir un cliente.
+- **LTV:** valor económico esperado de un cliente.
+- **MRR:** ingreso mensual recurrente.
+- **Churn:** pérdida de clientes/ingresos.
+- **DTE:** documento tributario electrónico.
+- **RCV:** Registro de Compras y Ventas.
+- **F29:** declaración/pago mensual de diversos impuestos.
+- **F22:** declaración anual de renta.
+- **PPM:** pago provisional mensual.
+- **RACI:** Responsible, Accountable, Consulted, Informed.
+- **SOP:** procedimiento operativo estándar.
+- **SLA:** acuerdo de nivel de servicio.
+- **KYC:** conocimiento del cliente.
+- **PEP:** persona expuesta políticamente.
+- **ROS:** reporte de operación sospechosa.
+- **ROE:** reporte de operaciones en efectivo, cuando corresponde.
+- **DPO:** responsable/función de protección de datos.
+- **CISO:** responsable de seguridad de la información.
+- **MVP:** producto mínimo viable.
+- **TAM/SAM/SOM:** niveles de estimación de mercado.
+- **Cap table:** tabla de propiedad/capital.
+- **Vesting:** adquisición gradual de derechos/acciones según reglas pactadas.

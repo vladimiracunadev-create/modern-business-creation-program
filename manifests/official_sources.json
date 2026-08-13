@@ -1,0 +1,198 @@
+[
+  {
+    "id": "RES",
+    "entity": "Registro de Empresas y Sociedades / ChileAtiende",
+    "topic": "Constitución de empresas",
+    "url": "https://www.chileatiende.gob.cl/fichas/21409-tu-empresa",
+    "note": "Tipos societarios y flujo Tu Empresa en un Día; verificado 2026-02-03."
+  },
+  {
+    "id": "SII_NEW",
+    "entity": "Servicio de Impuestos Internos",
+    "topic": "Nuevos contribuyentes y DTE",
+    "url": "https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html",
+    "note": "RUT, inicio de actividades, boletas y facturas."
+  },
+  {
+    "id": "SII_RENT",
+    "entity": "Servicio de Impuestos Internos",
+    "topic": "Regímenes tributarios Operación Renta 2026",
+    "url": "https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/",
+    "note": "Pro Pyme General, Transparente, General y renta presunta."
+  },
+  {
+    "id": "SII_F22",
+    "entity": "Servicio de Impuestos Internos",
+    "topic": "Formulario 22 / Operación Renta",
+    "url": "https://www.sii.cl/ayudas/formularios/3094-form22-3097.html",
+    "note": "Formulario anual y normativa relacionada."
+  },
+  {
+    "id": "SII_RCV",
+    "entity": "Servicio de Impuestos Internos",
+    "topic": "Registro de Compras y Ventas",
+    "url": "https://www.sii.cl/destacados/f29/registrocompraventas.htm",
+    "note": "Base para control del IVA."
+  },
+  {
+    "id": "SII_CARPETA",
+    "entity": "Servicio de Impuestos Internos",
+    "topic": "Carpeta Tributaria Electrónica",
+    "url": "https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm",
+    "note": "Crédito, renta, tamaño de empresa y carpeta personalizada."
+  },
+  {
+    "id": "BCN",
+    "entity": "Biblioteca del Congreso Nacional - LeyChile",
+    "topic": "Normativa oficial consolidada",
+    "url": "https://www.bcn.cl/leychile/",
+    "note": "Fuente normativa principal; siempre revisar texto vigente y vigencias diferidas."
+  },
+  {
+    "id": "DT",
+    "entity": "Dirección del Trabajo",
+    "topic": "Trabajo y empleadores",
+    "url": "https://www.dt.gob.cl/",
+    "note": "Mi DT, contratos, jornada, Ley Karin y dictámenes."
+  },
+  {
+    "id": "SEREMI_FOOD",
+    "entity": "ChileAtiende / Autoridad Sanitaria",
+    "topic": "Autorización sanitaria de alimentos",
+    "url": "https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos",
+    "note": "Autorización para instalaciones de alimentos; actualización 2026-02-19."
+  },
+  {
+    "id": "SERNAC",
+    "entity": "SERNAC",
+    "topic": "Consumidor y comercio electrónico",
+    "url": "https://www.sernac.cl/",
+    "note": "Derechos del consumidor, garantía, comercio electrónico y fiscalización."
+  },
+  {
+    "id": "INAPI",
+    "entity": "INAPI",
+    "topic": "Marcas y propiedad industrial",
+    "url": "https://www.inapi.cl/",
+    "note": "Registro de marcas, patentes y Directrices de Marcas 2026."
+  },
+  {
+    "id": "CMF_RPSF",
+    "entity": "CMF",
+    "topic": "Registro de Prestadores de Servicios Financieros",
+    "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html",
+    "note": "Ley Fintec: inscripción y autorización."
+  },
+  {
+    "id": "CMF_SFA",
+    "entity": "CMF",
+    "topic": "Sistema de Finanzas Abiertas",
+    "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+    "note": "NCG 514 modificada en 2026; entrada en vigor postergada a julio de 2027."
+  },
+  {
+    "id": "UAF",
+    "entity": "Unidad de Análisis Financiero",
+    "topic": "Sujetos obligados LA/FT",
+    "url": "https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar",
+    "note": "55 actividades obligadas; registro y oficial de cumplimiento."
+  },
+  {
+    "id": "PROCHILE_SERV",
+    "entity": "ProChile",
+    "topic": "Exportación de servicios",
+    "url": "https://centrodeayuda.prochile.gob.cl/hc/es-419/articles/360048482753--Qu%C3%A9-son-los-servicios-y-c%C3%B3mo-se-realiza-su-exportaci%C3%B3n",
+    "note": "Ruta exportadora de servicios actualizada 2025-10-15."
+  },
+  {
+    "id": "PROCHILE_TOOLS",
+    "entity": "ProChile",
+    "topic": "Herramientas y programas 2026",
+    "url": "https://centrodeayuda.prochile.gob.cl/hc/es-419/articles/360048423313--Qu%C3%A9-servicios-y-herramientas-ofrece-ProChile",
+    "note": "Formación, fondos, GoGlobal, Mujer Exporta y promoción."
+  },
+  {
+    "id": "SERCOTEC",
+    "entity": "SERCOTEC",
+    "topic": "Fomento para micro y pequeñas empresas",
+    "url": "https://www.sercotec.cl/",
+    "note": "Convocatorias cambian por año y región; consultar antes de postular."
+  },
+  {
+    "id": "CORFO",
+    "entity": "CORFO",
+    "topic": "Innovación, inversión y garantías",
+    "url": "https://www.corfo.cl/",
+    "note": "Programas y convocatorias cambian; consultar ficha vigente."
+  },
+  {
+    "id": "STARTUPCHILE",
+    "entity": "Start-Up Chile",
+    "topic": "Aceleración de startups",
+    "url": "https://startupchile.org/",
+    "note": "Convocatorias y términos vigentes por generación."
+  },
+  {
+    "id": "CHILECOMPRA",
+    "entity": "ChileCompra",
+    "topic": "Ventas al Estado",
+    "url": "https://www.chilecompra.cl/",
+    "note": "Mercado Público, registro y compras públicas."
+  },
+  {
+    "id": "ADUANAS",
+    "entity": "Servicio Nacional de Aduanas",
+    "topic": "Importación y exportación",
+    "url": "https://www.aduana.cl/",
+    "note": "Clasificación, DUS, importaciones, exportaciones y resoluciones."
+  },
+  {
+    "id": "SICEX",
+    "entity": "SICEX",
+    "topic": "Comercio exterior",
+    "url": "https://www.sicexchile.cl/",
+    "note": "Ventanilla única de comercio exterior."
+  },
+  {
+    "id": "SEA",
+    "entity": "Servicio de Evaluación Ambiental",
+    "topic": "Evaluación ambiental",
+    "url": "https://www.sea.gob.cl/",
+    "note": "SEIA y evaluación de proyectos cuando corresponda."
+  },
+  {
+    "id": "SMA",
+    "entity": "Superintendencia del Medio Ambiente",
+    "topic": "Fiscalización ambiental",
+    "url": "https://portal.sma.gob.cl/",
+    "note": "Obligaciones y fiscalización ambiental sectorial."
+  },
+  {
+    "id": "SEC",
+    "entity": "Superintendencia de Electricidad y Combustibles",
+    "topic": "Energía e instalaciones",
+    "url": "https://www.sec.cl/",
+    "note": "Regulación y autorizaciones del sector energía/combustibles."
+  },
+  {
+    "id": "SUBTEL",
+    "entity": "Subsecretaría de Telecomunicaciones",
+    "topic": "Telecomunicaciones",
+    "url": "https://www.subtel.gob.cl/",
+    "note": "Concesiones, permisos y normativa telecom."
+  },
+  {
+    "id": "SENCE",
+    "entity": "SENCE",
+    "topic": "Capacitación y OTEC",
+    "url": "https://sence.gob.cl/",
+    "note": "Capacitación, franquicia tributaria y ecosistema OTEC."
+  },
+  {
+    "id": "SERNATUR",
+    "entity": "SERNATUR",
+    "topic": "Turismo",
+    "url": "https://www.sernatur.cl/",
+    "note": "Registros, calidad y obligaciones de prestadores turísticos."
+  }
+]

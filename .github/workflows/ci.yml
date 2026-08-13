@@ -1,0 +1,95 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+  # Permite relanzar la validación a mano: si GitHub no crea el run de un push,
+  # sin esto la única forma de reejecutar el CI sería empujar un commit vacío.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  curriculo:
+    name: Currículo, estructura y enlaces
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Sincronía manifiestos -> README generados
+        run: python scripts/generar_clases.py --check
+
+      - name: Estructura, secciones obligatorias y enlaces internos
+        run: python scripts/validar_estructura.py
+
+      - name: Codificación UTF-8 sin BOM ni mojibake
+        run: python scripts/validar_encoding.py
+
+      - name: Pruebas estructurales
+        run: python -m unittest discover -s tests -v
+
+      - name: Resumen
+        if: always()
+        run: |
+          {
+            echo "### Modern Business Creation Program"
+            echo ""
+            echo "- Partes: **$(find curriculum -mindepth 1 -maxdepth 1 -type d -name 'part-*' | wc -l)**"
+            echo "- Clases: **$(find curriculum -mindepth 3 -name README.md | wc -l)**"
+            echo "- Palabras del currículo: **$(find curriculum -mindepth 3 -name README.md -exec cat {} + | wc -w)**"
+            echo "- Manuales: **$(find docs -maxdepth 1 -name '*.md' | wc -l)** · Casos: **$(find case-studies -maxdepth 1 -name '*.md' | wc -l)** · Plantillas: **$(find templates -maxdepth 1 -type f | wc -l)**"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  markdown:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Setup Node
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: "22"
+
+      # Versión fijada a propósito: sin pin, npx instala la última y una release
+      # con reglas nuevas deja el CI en rojo sin que nadie toque el repositorio.
+      - name: Lint Markdown (markdownlint-cli2)
+        run: npx --yes markdownlint-cli2@0.18.1 "**/*.md"
+
+  sitio:
+    name: Build del sitio
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Generar el sitio estático
+        run: python scripts/generar_sitio.py
+
+      - name: Verificar que el sitio quedó completo
+        run: |
+          paginas=$(find site -name '*.html' | wc -l)
+          echo "Páginas generadas: $paginas"
+          test "$paginas" -ge 400
+          test -f site/index.html
+          test -f site/assets/estilos.css
+          test -f site/assets/indice.js
+          test -f site/.nojekyll

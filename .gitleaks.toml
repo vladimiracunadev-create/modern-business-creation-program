@@ -1,0 +1,28 @@
+# Configuración de gitleaks para el Modern Business Creation Program.
+#
+# El repositorio es documental: no contiene credenciales. Los falsos positivos
+# esperables vienen de dos fuentes, y por eso se acotan aquí en vez de bajar la
+# severidad del escaneo completo:
+#   1. plantillas CSV/MD con columnas de ejemplo (clave, token, contraseña);
+#   2. el sitio generado en site/, que es un artefacto de build.
+
+title = "modern-business-creation-program"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Rutas y patrones sin secretos reales"
+
+paths = [
+  '''^site/''',
+  '''^templates/.*\.(csv|md)$''',
+  '''^\.gitleaks\.toml$''',
+]
+
+regexes = [
+  # Marcadores de ejemplo usados en plantillas y documentación.
+  '''(?i)(tu[-_ ]?clave|clave[-_ ]?aqui|ejemplo|ficticio|xxxx+|placeholder)''',
+  # RUT ficticios con formato chileno usados en los casos del programa.
+  '''\b(?:11\.111\.111|22\.222\.222|12\.345\.678)-[0-9kK]\b''',
+]

@@ -1,0 +1,639 @@
+[
+  {
+    "part": 1,
+    "titulo": "Fundamentos de empresa y mentalidad empresarial",
+    "resumen": "Antes de constituir nada hay que entender qué es una empresa como sistema económico y jurídico: cómo convierte recursos en valor, quién paga, qué obligaciones nacen al formalizarse y qué distingue un autoempleo de una organización transferible. Esta parte instala el vocabulario y los modelos mentales que el resto del programa da por sabidos.",
+    "resultados": [
+      "distinguir empresa, autoempleo y proyecto personal por su capacidad de operar sin el fundador",
+      "leer un negocio en términos de ingresos, costos, márgenes, activos y caja",
+      "identificar qué decisión de negocio dispara qué obligación legal o tributaria",
+      "evaluar riesgo e incertidumbre sin confundir optimismo con evidencia"
+    ],
+    "marco": [
+      "Código de Comercio y Código Civil como base de los actos de comercio y las obligaciones",
+      "Ley 20.416 (Estatuto Pyme) para el encuadre de tamaño de empresa",
+      "clasificación de empresa por ventas anuales en UF que usan SII, Sercotec y Corfo"
+    ],
+    "autoridades": ["SII", "Registro de Empresas y Sociedades", "Servicio Nacional del Consumidor"],
+    "profesionales": ["fundador o gerencia", "contador", "abogado corporativo"],
+    "riesgos": [
+      "confundir facturación con utilidad y utilidad con caja disponible",
+      "construir un autoempleo creyendo que se construye una empresa vendible",
+      "operar informalmente por comodidad hasta que el costo del incumplimiento supera el ahorro",
+      "tomar decisiones irreversibles con evidencia anecdótica"
+    ],
+    "fuentes": ["BCN", "SII_NEW", "SERCOTEC"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 2,
+    "titulo": "Descubrimiento, validación y mercado",
+    "resumen": "El objetivo es reducir la incertidumbre antes de gastar dinero irreversible. Se aprende a formular el problema, investigar con fuentes confiables, entrevistar sin inducir la respuesta, dimensionar mercado con supuestos auditables y diseñar experimentos baratos que produzcan evidencia de demanda real.",
+    "resultados": [
+      "formular un problema empresarial en términos falsables",
+      "producir evidencia de demanda antes de comprometer capital",
+      "dimensionar TAM, SAM y SOM con supuestos rastreables a una fuente",
+      "decidir con criterio explícito entre perseverar, pivotar o abandonar"
+    ],
+    "marco": [
+      "método de descubrimiento de clientes y experimentación acotada",
+      "Jobs to Be Done como marco de resultados esperados",
+      "estadística oficial chilena: INE, Banco Central, Censo y encuestas sectoriales"
+    ],
+    "autoridades": ["INE", "Banco Central de Chile", "SII (estadísticas de empresas por rubro)"],
+    "profesionales": ["fundador", "investigador de mercado", "analista de datos"],
+    "riesgos": [
+      "entrevistar buscando confirmación en vez de refutación",
+      "estimar mercado de arriba hacia abajo sin conexión con capacidad real de venta",
+      "confundir interés declarado con disposición a pagar",
+      "invertir en producto antes de tener un canal de adquisición identificado"
+    ],
+    "fuentes": ["BCN", "SERCOTEC", "PROCHILE_TOOLS"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 3,
+    "titulo": "Modelos de negocio y líneas de ingreso",
+    "resumen": "Un modelo de negocio describe cómo se captura parte del valor creado. Esta parte recorre los modelos realmente usados en Chile —servicios, suscripción, e-commerce, retail, marketplace, licencias, agencia, manufactura, franquicia, publicidad— con su economía, su carga operativa y su exposición regulatoria.",
+    "resultados": [
+      "elegir un modelo de ingreso coherente con el problema, el cliente y la capacidad de la empresa",
+      "estimar la economía unitaria implícita de cada modelo",
+      "anticipar la carga operativa y regulatoria que trae cada modelo",
+      "diseñar un portafolio de líneas que no concentre todo el riesgo en un cliente o canal"
+    ],
+    "marco": [
+      "Business Model Canvas y Lean Canvas como instrumentos de diseño",
+      "Ley 19.496 sobre protección de los derechos de los consumidores para modelos B2C",
+      "Ley 20.169 sobre competencia desleal y DL 211 en modelos de plataforma"
+    ],
+    "autoridades": ["SERNAC", "FNE", "SII"],
+    "profesionales": ["fundador", "abogado comercial", "contador de gestión"],
+    "riesgos": [
+      "copiar un modelo extranjero sin verificar su viabilidad regulatoria o logística en Chile",
+      "sumar líneas de negocio antes de que la primera sea rentable",
+      "modelos de plataforma que asumen responsabilidad de proveedor sin haberlo previsto",
+      "dependencia de un canal único que puede cambiar sus reglas unilateralmente"
+    ],
+    "fuentes": ["SERNAC", "SII_NEW", "BCN"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 4,
+    "titulo": "Estrategia y ventaja competitiva",
+    "resumen": "Estrategia es elegir qué no hacer y sostener una posición defendible. Esta parte cubre análisis del entorno, estructura competitiva, cadena de valor, fuentes de ventaja duradera, posicionamiento, métricas de dirección y los criterios explícitos para matar una apuesta que no funciona.",
+    "resultados": [
+      "diagnosticar la estructura de la industria y dónde queda el margen",
+      "identificar qué ventaja es real y cuál es solo una ventaja temporal de ejecución",
+      "traducir estrategia en OKR y métricas norte verificables",
+      "definir kill criteria antes de comprometerse con una apuesta"
+    ],
+    "marco": [
+      "PESTEL, cinco fuerzas, cadena de valor y estrategias genéricas",
+      "opciones reales para decisiones bajo incertidumbre",
+      "OKR y métrica norte como sistema de dirección"
+    ],
+    "autoridades": ["FNE en materias de competencia", "CMF para sociedades supervisadas"],
+    "profesionales": ["fundador o directorio", "consultor de estrategia", "control de gestión"],
+    "riesgos": [
+      "declarar una ventaja competitiva que en realidad es solo precio bajo insostenible",
+      "definir OKR que miden actividad y no resultado",
+      "revisar la estrategia solo cuando ya hay crisis de caja",
+      "no fijar criterios de abandono y financiar indefinidamente una apuesta muerta"
+    ],
+    "fuentes": ["BCN", "CORFO"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 5,
+    "titulo": "Diseño societario y gobierno inicial",
+    "resumen": "La forma societaria determina responsabilidad patrimonial, tributación, capacidad de incorporar socios e inversionistas y facilidad de venta. Esta parte compara EIRL, SRL, SpA y SA, y diseña las reglas entre socios antes de que exista conflicto: control, capital, vesting, poderes, pactos y trazabilidad de decisiones.",
+    "resultados": [
+      "elegir tipo societario con criterio de responsabilidad, tributación y entrada de inversionistas",
+      "diseñar la estructura de capital y control entre fundadores",
+      "redactar las reglas que gobiernan salida, incumplimiento y competencia de un socio",
+      "instalar un gobierno mínimo con actas y libros desde el primer día"
+    ],
+    "marco": [
+      "Ley 20.190 (SpA) y Código de Comercio arts. 424-446",
+      "Ley 18.046 sobre sociedades anónimas y su reglamento",
+      "Ley 19.857 sobre empresas individuales de responsabilidad limitada",
+      "Ley 3.918 sobre sociedades de responsabilidad limitada"
+    ],
+    "autoridades": ["Registro de Empresas y Sociedades", "Conservador de Bienes Raíces", "CMF para sociedades anónimas abiertas"],
+    "profesionales": ["abogado corporativo", "notario", "contador"],
+    "riesgos": [
+      "repartir participaciones 50/50 sin mecanismo de desempate",
+      "entregar equity completo sin vesting ni condiciones de permanencia",
+      "otorgar poderes amplios sin límite de monto ni actuación conjunta",
+      "no dejar constancia escrita de decisiones que después se discuten"
+    ],
+    "fuentes": ["RES", "BCN"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 6,
+    "titulo": "Constitución formal de la empresa en Chile",
+    "resumen": "Aquí la empresa nace jurídicamente. Se recorre la ruta del Registro de Empresas y Sociedades frente a la ruta notarial tradicional, la definición de razón social, objeto, domicilio y capital, la firma electrónica avanzada, la obtención del RUT y la apertura de cuenta bancaria con su debida diligencia.",
+    "resultados": [
+      "ejecutar o simular la constitución completa por la vía que corresponda al caso",
+      "redactar razón social, nombre de fantasía y objeto sin bloquear actividades futuras",
+      "obtener RUT y organizar la carpeta societaria de respaldo",
+      "anticipar los requisitos de la debida diligencia bancaria antes de pedir la cuenta"
+    ],
+    "marco": [
+      "Ley 20.659 sobre régimen simplificado de constitución (Tu Empresa en un Día)",
+      "Ley 19.799 sobre documentos y firma electrónica",
+      "Ley 20.393 y Ley 19.913 en lo relativo a conocimiento del cliente bancario"
+    ],
+    "autoridades": ["Registro de Empresas y Sociedades", "SII", "Conservador de Bienes Raíces", "Diario Oficial"],
+    "profesionales": ["abogado corporativo", "notario", "contador", "ejecutivo bancario"],
+    "riesgos": [
+      "objeto social redactado tan estrecho que impide facturar una línea nueva",
+      "usar una razón social o nombre de fantasía que colisiona con una marca registrada",
+      "declarar un domicilio que después no se puede acreditar ante SII o el municipio",
+      "asumir que con el RUT la empresa ya está habilitada para operar"
+    ],
+    "fuentes": ["RES", "SII_NEW", "INAPI", "BCN"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 7,
+    "titulo": "SII y ciclo tributario de principio a fin",
+    "resumen": "El ciclo tributario es una máquina de plazos. Esta parte cubre inicio de actividades, códigos de actividad económica, acreditación de domicilio, elección de régimen, IVA, documentos tributarios electrónicos, Registro de Compras y Ventas, F29 mensual, Operación Renta y término de giro.",
+    "resultados": [
+      "ejecutar inicio de actividades y elegir régimen con criterio, no por defecto",
+      "operar el ciclo mensual de IVA y PPM sin sorpresas de caja",
+      "emitir y controlar documentos tributarios electrónicos correctamente",
+      "preparar la Operación Renta con contabilidad conciliada"
+    ],
+    "marco": [
+      "DL 824 sobre impuesto a la renta y DL 825 sobre impuesto a las ventas y servicios",
+      "Código Tributario (DL 830)",
+      "Ley 21.210 de modernización tributaria y Ley 21.713 de cumplimiento tributario",
+      "regímenes Pro Pyme General (14 D N°3), Pro Pyme Transparente (14 D N°8) y Semi Integrado (14 A)"
+    ],
+    "autoridades": ["SII", "Tesorería General de la República"],
+    "profesionales": ["contador", "asesor tributario", "abogado tributario"],
+    "riesgos": [
+      "elegir régimen por recomendación genérica sin mirar la estructura de socios",
+      "usar el IVA recaudado como capital de trabajo y no poder pagar el F29",
+      "códigos de actividad económica incompletos que impiden facturar una línea",
+      "no conciliar el Registro de Compras y Ventas con la contabilidad propia"
+    ],
+    "fuentes": ["SII_NEW", "SII_RENT", "SII_RCV", "SII_F22", "SII_CARPETA", "BCN"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 8,
+    "titulo": "Contabilidad y estados financieros",
+    "resumen": "La contabilidad no es un trámite para el contador: es el sistema de información que permite saber si la empresa gana, si puede pagar y qué tiene. Se cubre plan de cuentas, partida doble, devengo versus caja, los tres estados financieros, conciliaciones y el cierre mensual y anual.",
+    "resultados": [
+      "leer balance, estado de resultados y flujo de efectivo y explicar qué dice cada uno",
+      "distinguir devengo de caja y anticipar el desfase",
+      "ejecutar un cierre mensual con conciliación bancaria y respaldos",
+      "armar la carpeta de respaldo que soporta una fiscalización o una due diligence"
+    ],
+    "marco": [
+      "IFRS e IFRS para Pymes como marco de referencia contable",
+      "Código Tributario en materia de libros, respaldo y plazos de conservación",
+      "normas del SII sobre contabilidad completa, simplificada y registros electrónicos"
+    ],
+    "autoridades": ["SII", "Colegio de Contadores de Chile"],
+    "profesionales": ["contador general", "auditor", "controller"],
+    "riesgos": [
+      "cerrar el mes sin conciliar banco y arrastrar diferencias durante todo el año",
+      "reconocer ingreso al firmar y no al devengar el servicio",
+      "no provisionar incobrables y sobreestimar el patrimonio",
+      "mezclar gastos personales del socio con gastos de la empresa"
+    ],
+    "fuentes": ["SII_NEW", "SII_CARPETA", "BCN"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 9,
+    "titulo": "Finanzas, caja, precios y economía unitaria",
+    "resumen": "Las empresas quiebran por caja, no por falta de utilidad contable. Esta parte instala el presupuesto de arranque, el flujo de 13 semanas, el capital de trabajo, el punto de equilibrio, los métodos de pricing, la economía unitaria por modelo y las reglas de reserva.",
+    "resultados": [
+      "construir y mantener un flujo de caja de 13 semanas con supuestos explícitos",
+      "calcular punto de equilibrio, margen de contribución y economía unitaria del modelo",
+      "fijar precio con un método defendible y no por comparación con el vecino",
+      "definir reglas de caja mínima y umbrales de decisión antes de la urgencia"
+    ],
+    "marco": [
+      "economía unitaria: CAC, LTV, payback, MRR, ARR, churn y NRR",
+      "ciclo de conversión de efectivo y capital de trabajo",
+      "costo de capital y evaluación de deuda"
+    ],
+    "autoridades": ["Banco Central de Chile", "CMF", "SII"],
+    "profesionales": ["CFO o controller", "contador", "asesor financiero"],
+    "riesgos": [
+      "proyectar ventas sin proyectar el desfase de cobro",
+      "fijar precio sobre costo sin considerar el valor percibido ni el mercado",
+      "crecer en ventas con margen de contribución negativo",
+      "financiar operación estructural con deuda de corto plazo"
+    ],
+    "fuentes": ["BCN", "SII_NEW", "CORFO"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 10,
+    "titulo": "Contratos y arquitectura legal operativa",
+    "resumen": "Los contratos son la infraestructura de la operación comercial: definen qué se entrega, cuándo se paga, quién responde y qué pasa cuando algo falla. Esta parte recorre la anatomía contractual, los tipos usados en la práctica y el gobierno del repositorio de contratos.",
+    "resultados": [
+      "leer y negociar un contrato comercial identificando las cláusulas que asignan riesgo",
+      "elegir el instrumento correcto entre cotización, orden de compra y contrato marco",
+      "diseñar SLA, límites de responsabilidad y salidas contractuales",
+      "mantener un repositorio de contratos con vencimientos y renovaciones controlados"
+    ],
+    "marco": [
+      "Código Civil en materia de obligaciones, contratos y responsabilidad",
+      "Código de Comercio para actos mercantiles",
+      "Ley 19.983 sobre mérito ejecutivo de la factura",
+      "Ley 21.131 sobre pago a treinta días"
+    ],
+    "autoridades": ["Tribunales ordinarios", "Centros de arbitraje (CAM Santiago)"],
+    "profesionales": ["abogado comercial", "responsable de contratos", "finanzas"],
+    "riesgos": [
+      "aceptar términos y condiciones de un proveedor crítico sin leer la limitación de responsabilidad",
+      "operar con orden de compra sin contrato marco en servicios recurrentes",
+      "no pactar propiedad intelectual sobre entregables desarrollados a medida",
+      "perder el control de vencimientos y renovar automáticamente contratos que ya no sirven"
+    ],
+    "fuentes": ["BCN", "SII_NEW"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 11,
+    "titulo": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "resumen": "Vender a consumidores y tratar datos personales activa un bloque regulatorio propio. Esta parte cubre la Ley del Consumidor y su reglamento de comercio electrónico, la transición desde la Ley 19.628 a la Ley 21.719, el registro de marca en INAPI, la propiedad intelectual y la Ley Marco de Ciberseguridad.",
+    "resultados": [
+      "cumplir las obligaciones de información, retracto y garantía legal en venta a consumidores",
+      "levantar el mapa de datos personales y su base de licitud",
+      "preparar la organización para la vigencia de la Ley 21.719",
+      "proteger marca, obra y secreto empresarial con el instrumento correcto"
+    ],
+    "marco": [
+      "Ley 19.496 sobre protección de los derechos de los consumidores y su Reglamento de Comercio Electrónico",
+      "Ley 19.628 sobre protección de la vida privada, vigente hasta la entrada en régimen de la Ley 21.719",
+      "Ley 21.719 sobre protección de datos personales, con vigencia el 1 de diciembre de 2026",
+      "Ley 19.039 sobre propiedad industrial y Ley 17.336 sobre propiedad intelectual",
+      "Ley 21.663 Marco de Ciberseguridad"
+    ],
+    "autoridades": ["SERNAC", "Agencia de Protección de Datos Personales (en implementación)", "INAPI", "ANCI"],
+    "profesionales": ["abogado de consumo y datos", "DPO o responsable de privacidad", "responsable de seguridad de la información"],
+    "riesgos": [
+      "publicar precio o stock que después no se puede honrar",
+      "tratar datos personales sin base de licitud ni registro de actividades de tratamiento",
+      "operar la marca comercial sin registro y perderla frente a un tercero que sí registró",
+      "no tener plan de respuesta a incidentes ni cadena de custodia de evidencia"
+    ],
+    "fuentes": ["SERNAC", "INAPI", "BCN"],
+    "estado": "DINAMICO"
+  },
+  {
+    "part": 12,
+    "titulo": "Personas, relaciones laborales y seguridad y salud",
+    "resumen": "Contratar personas es la decisión que más obligaciones periódicas activa. Esta parte cubre la decisión de contratar versus externalizar, el contrato de trabajo, Mi DT, la jornada de 42 horas, remuneraciones y cotizaciones, Ley Karin, subcontratación, Ley 16.744 y el término de la relación laboral.",
+    "resultados": [
+      "elegir la figura correcta entre trabajador dependiente, honorarios y proveedor",
+      "emitir contratos y registrar relaciones laborales conforme a la Dirección del Trabajo",
+      "liquidar remuneraciones y cotizaciones con la estructura correcta",
+      "cumplir las obligaciones preventivas y de investigación que exigen Ley Karin y Ley 16.744"
+    ],
+    "marco": [
+      "Código del Trabajo",
+      "Ley 21.561 de reducción gradual de jornada: 42 horas semanales desde el 26 de abril de 2026",
+      "Ley 21.643 (Ley Karin) sobre acoso laboral, sexual y violencia en el trabajo",
+      "Ley 16.744 sobre accidentes del trabajo y enfermedades profesionales y DS 44 de gestión preventiva",
+      "Ley 20.123 sobre subcontratación y servicios transitorios"
+    ],
+    "autoridades": ["Dirección del Trabajo", "SUSESO", "Mutualidades", "Previred", "IPS"],
+    "profesionales": ["abogado laboral", "encargado de personas", "prevencionista de riesgos", "contador de remuneraciones"],
+    "riesgos": [
+      "contratar a honorarios a alguien que en los hechos es trabajador dependiente",
+      "no adecuar jornada y turnos al calendario de reducción legal",
+      "carecer del protocolo Ley Karin y del canal de denuncia antes del primer caso",
+      "no registrar accidentes ni mantener la matriz de riesgos exigida por DS 44"
+    ],
+    "fuentes": ["DT", "BCN"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 13,
+    "titulo": "Operaciones, compras, inventario y calidad",
+    "resumen": "La operación es donde la promesa comercial se cumple o se rompe. Esta parte diseña procesos end-to-end, SOP, homologación de proveedores, control de inventario y trazabilidad, logística directa e inversa, calidad, capacidad y mejora continua.",
+    "resultados": [
+      "documentar procesos end-to-end con dueño, entrada, salida y control",
+      "homologar proveedores y controlar recepción contra orden de compra",
+      "mantener inventario confiable con trazabilidad y conteos cíclicos",
+      "medir OTIF, fill rate y lead time y actuar sobre el cuello de botella"
+    ],
+    "marco": [
+      "ISO 9001 como referencia de sistema de gestión de calidad",
+      "teoría de restricciones para capacidad y cuellos de botella",
+      "trazabilidad de lote exigida en rubros regulados (alimentos, salud, químicos)"
+    ],
+    "autoridades": ["SEREMI de Salud en rubros con trazabilidad sanitaria", "SERNAC en garantía y postventa"],
+    "profesionales": ["jefe de operaciones", "comprador", "encargado de calidad", "prevencionista"],
+    "riesgos": [
+      "inventario teórico que no coincide con el físico y destruye la promesa de entrega",
+      "proveedor crítico único sin plan alternativo",
+      "recibir mercadería sin control contra orden de compra y pagar diferencias",
+      "medir productividad sin medir calidad y trasladar el costo al cliente"
+    ],
+    "fuentes": ["SEREMI_FOOD", "SERNAC"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 14,
+    "titulo": "Ventas, marketing y experiencia de cliente",
+    "resumen": "Vender de forma repetible exige un sistema, no talento individual. Esta parte construye ICP, marca y mensaje, embudo de adquisición, contenidos, publicidad y atribución, prospección, discovery, cierre, CRM, onboarding, customer success y forecast.",
+    "resultados": [
+      "definir ICP y mensaje con evidencia de los clientes que sí retienen",
+      "operar un embudo medible desde el primer contacto hasta la renovación",
+      "calificar oportunidades con criterio y no por entusiasmo del vendedor",
+      "producir un forecast que la empresa pueda usar para planificar caja"
+    ],
+    "marco": [
+      "embudo de adquisición y métricas por etapa",
+      "calificación estructurada de oportunidades y discovery comercial",
+      "revenue operations como integración de marketing, ventas y postventa"
+    ],
+    "autoridades": ["SERNAC en publicidad y ofertas", "SUBTEL y SERNAC en contacto no solicitado"],
+    "profesionales": ["responsable comercial", "marketing", "customer success", "abogado de consumo"],
+    "riesgos": [
+      "publicidad con condiciones no informadas que constituye infracción a la Ley del Consumidor",
+      "pipeline inflado que produce decisiones de contratación equivocadas",
+      "invertir en adquisición con CAC superior al margen de contribución",
+      "no medir retención y crecer sobre una base que se fuga"
+    ],
+    "fuentes": ["SERNAC", "BCN"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 15,
+    "titulo": "Tecnología, datos, IA y operación digital",
+    "resumen": "La empresa moderna corre sobre software de terceros. Esta parte define la arquitectura mínima viable, la decisión comprar/construir/integrar, identidad y accesos, cloud y continuidad, respaldos, ciberseguridad por capas, gestión de secretos, calidad de datos, analítica, automatización, IA generativa con humano en el circuito y control de costos.",
+    "resultados": [
+      "definir una arquitectura mínima viable y justificar cada pieza por costo y riesgo",
+      "implantar identidad, accesos y gestión de secretos con principio de menor privilegio",
+      "probar respaldos con una restauración real y no solo confiar en el respaldo programado",
+      "usar IA en operaciones con trazabilidad, revisión humana y control de datos"
+    ],
+    "marco": [
+      "Ley 21.663 Marco de Ciberseguridad y su reglamentación",
+      "Ley 21.719 en lo relativo a tratamiento automatizado y decisiones basadas en datos",
+      "controles de referencia tipo CIS Controls y NIST CSF adaptados a pyme"
+    ],
+    "autoridades": ["ANCI", "CSIRT Nacional", "Agencia de Protección de Datos Personales (en implementación)"],
+    "profesionales": ["responsable de TI", "consultor de ciberseguridad", "analista de datos", "abogado de datos"],
+    "riesgos": [
+      "respaldos que nunca se probaron y no restauran cuando se necesitan",
+      "accesos compartidos y credenciales que sobreviven a la salida de una persona",
+      "cargar datos personales o confidenciales de clientes en herramientas de IA sin base contractual",
+      "dependencia de un SaaS sin plan de salida ni exportación de datos"
+    ],
+    "fuentes": ["BCN", "CORFO"],
+    "estado": "DINAMICO"
+  },
+  {
+    "part": 16,
+    "titulo": "Financiamiento, banca, fondos e inversión",
+    "resumen": "Financiar es elegir de quién depender. Esta parte cubre bootstrapping, banca y medios de pago, crédito, leasing, factoring y confirming, FOGAPE, los instrumentos públicos de Sercotec y Corfo, el ecosistema de startups, ángeles, venture capital, SAFE, valoración, data room y costo de dilución.",
+    "resultados": [
+      "elegir el instrumento de financiamiento coherente con el uso del dinero y el plazo",
+      "presentar una carpeta financiera que resista evaluación bancaria",
+      "postular a instrumentos públicos con la documentación exigida",
+      "entender el costo real de la dilución antes de levantar capital"
+    ],
+    "marco": [
+      "FOGAPE y sistema de garantías estatales",
+      "Ley 21.521 Fintec para plataformas de financiamiento colectivo",
+      "instrumentos SAFE, notas convertibles y aumentos de capital en SpA"
+    ],
+    "autoridades": ["CMF", "CORFO", "SERCOTEC", "BancoEstado y banca comercial"],
+    "profesionales": ["CFO", "abogado corporativo", "asesor financiero", "contador"],
+    "riesgos": [
+      "financiar activos de largo plazo con líneas de corto plazo",
+      "usar factoring de forma estructural y erosionar el margen",
+      "firmar instrumentos convertibles sin modelar la dilución en el escenario de conversión",
+      "postular a fondos públicos sin cumplir el requisito formal y perder la convocatoria"
+    ],
+    "fuentes": ["CORFO", "SERCOTEC", "STARTUPCHILE", "CMF_RPSF", "BCN"],
+    "estado": "DINAMICO"
+  },
+  {
+    "part": 17,
+    "titulo": "Permisos, patentes y regulación sectorial",
+    "resumen": "Estar constituido y con inicio de actividades no habilita a operar. Esta parte recorre patente municipal, uso de suelo, autorización sanitaria, alimentos, salud, construcción, energía, telecomunicaciones, turismo, transporte, capacitación y medio ambiente, y cierra con una matriz regulatoria por actividad.",
+    "resultados": [
+      "determinar qué permisos exige una actividad concreta en una comuna concreta",
+      "secuenciar los permisos en el orden en que se condicionan entre sí",
+      "estimar plazos y costos de habilitación antes de comprometer arriendo o inversión",
+      "mantener una matriz regulatoria viva con vencimientos y renovaciones"
+    ],
+    "marco": [
+      "DL 3.063 sobre rentas municipales (patente municipal)",
+      "Ley General de Urbanismo y Construcciones y su Ordenanza General",
+      "Código Sanitario y DS 977 Reglamento Sanitario de los Alimentos",
+      "Ley 19.300 sobre bases generales del medio ambiente",
+      "Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT"
+    ],
+    "autoridades": ["Municipalidad y Dirección de Obras Municipales", "SEREMI de Salud", "SEC", "SUBTEL", "SERNATUR", "SENCE", "SEA", "SMA"],
+    "profesionales": ["abogado regulatorio", "arquitecto o DOM", "prevencionista", "consultor sectorial"],
+    "riesgos": [
+      "arrendar un local cuyo uso de suelo no admite la actividad",
+      "iniciar operación con permiso en trámite y exponerse a clausura",
+      "olvidar renovaciones periódicas de permisos y resoluciones",
+      "asumir que un permiso obtenido en una comuna sirve en otra"
+    ],
+    "fuentes": ["SEREMI_FOOD", "SEC", "SUBTEL", "SERNATUR", "SENCE", "SEA", "SMA", "BCN"],
+    "estado": "SECTORIAL"
+  },
+  {
+    "part": 18,
+    "titulo": "Comercio exterior e internacionalización",
+    "resumen": "Exportar o importar agrega aduanas, moneda, logística y tributación internacional. Esta parte cubre preparación exportadora, Incoterms, clasificación arancelaria, flujos de importación y exportación de bienes y servicios, DUS y SICEX, factura de exportación, medios de pago, riesgo cambiario, contratos internacionales y estructura de entrada a mercado.",
+    "resultados": [
+      "determinar si la empresa está en condiciones reales de exportar",
+      "elegir Incoterm y medio de pago coherentes con el riesgo asumido",
+      "ejecutar o simular el flujo documental de exportación e importación",
+      "tratar correctamente IVA, retenciones y doble tributación en operaciones cruzadas"
+    ],
+    "marco": [
+      "Ordenanza de Aduanas y arancel aduanero chileno",
+      "DL 825 en materia de exportación de bienes y servicios y recuperación de IVA exportador",
+      "convenios para evitar la doble tributación suscritos por Chile",
+      "Incoterms de la Cámara de Comercio Internacional"
+    ],
+    "autoridades": ["Servicio Nacional de Aduanas", "SII", "ProChile", "Banco Central de Chile", "SAG y SEREMI de Salud según producto"],
+    "profesionales": ["agente de aduana", "abogado de comercio internacional", "asesor tributario internacional", "freight forwarder"],
+    "riesgos": [
+      "clasificar mal la partida arancelaria y pagar derechos o multas",
+      "elegir un Incoterm que traslada un riesgo logístico que la empresa no puede gestionar",
+      "no calzar moneda de ingresos y de costos y perder el margen en el tipo de cambio",
+      "exportar servicios sin la calificación que habilita el tratamiento tributario correspondiente"
+    ],
+    "fuentes": ["ADUANAS", "SICEX", "PROCHILE_SERV", "PROCHILE_TOOLS", "SII_NEW", "BCN"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 19,
+    "titulo": "Compliance, riesgos y responsabilidad empresarial",
+    "resumen": "Desde la Ley 21.595 de Delitos Económicos el riesgo penal corporativo dejó de ser un tema exclusivo de grandes empresas. Esta parte construye el mapa de riesgos, los controles, el modelo de prevención de delitos, el canal de denuncias, las obligaciones UAF, la debida diligencia de terceros y el plan anual de cumplimiento.",
+    "resultados": [
+      "levantar un mapa de riesgos con controles preventivos, detectivos y correctivos",
+      "diseñar un modelo de prevención de delitos proporcional al tamaño y actividad",
+      "determinar si la empresa es sujeto obligado ante la UAF y qué debe reportar",
+      "operar un canal de denuncias e investigaciones con debido proceso"
+    ],
+    "marco": [
+      "Ley 20.393 sobre responsabilidad penal de la persona jurídica",
+      "Ley 21.595 sobre delitos económicos y ambientales",
+      "Ley 19.913 que crea la UAF y establece sujetos obligados",
+      "Ley 21.713 sobre cumplimiento de obligaciones tributarias",
+      "Ley 21.643 en lo relativo a canal de denuncias e investigación interna"
+    ],
+    "autoridades": ["Ministerio Público", "UAF", "SII", "CMF", "Dirección del Trabajo"],
+    "profesionales": ["oficial de cumplimiento", "abogado penal económico", "auditor interno", "corredor de seguros"],
+    "riesgos": [
+      "modelo de prevención de delitos en papel, sin evidencia de operación",
+      "no identificar la condición de sujeto obligado UAF y omitir reportes",
+      "canal de denuncias sin garantías de confidencialidad ni protección al denunciante",
+      "seguros contratados sin revisar exclusiones que dejan fuera el riesgo real"
+    ],
+    "fuentes": ["UAF", "BCN", "SII_NEW", "CMF_RPSF"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 20,
+    "titulo": "Escalamiento, organización y gobierno avanzado",
+    "resumen": "Crecer rompe lo que funcionaba. Esta parte trata la transición de fundador a organización: diseño organizacional por etapas, delegación con accountability, presupuesto por centros de responsabilidad, hiring plan, estandarización previa al crecimiento, multi-sucursal, franquicia, alianzas, adquisiciones, consejo asesor y control de gestión.",
+    "resultados": [
+      "diseñar la estructura organizacional que corresponde a la etapa actual y no a la aspiracional",
+      "delegar con decisión, límite y métrica en vez de delegar tareas",
+      "estandarizar los procesos críticos antes de replicarlos en una segunda unidad",
+      "controlar que el crecimiento no destruya la caja"
+    ],
+    "marco": [
+      "presupuesto por centros de responsabilidad y control de gestión",
+      "gobierno corporativo escalonado: consejo asesor, directorio y comités",
+      "marcos de franquicia y licenciamiento de formato"
+    ],
+    "autoridades": ["CMF para sociedades anónimas", "FNE en operaciones de concentración", "SII en reorganizaciones"],
+    "profesionales": ["gerencia general", "control de gestión", "abogado corporativo", "consultor organizacional"],
+    "riesgos": [
+      "abrir una segunda sucursal antes de que la primera tenga proceso estable",
+      "crecer en headcount por encima de la capacidad de caja",
+      "franquiciar sin manual operativo ni control de calidad de marca",
+      "adquirir una empresa sin due diligence laboral y tributaria"
+    ],
+    "fuentes": ["CORFO", "SII_NEW", "BCN"],
+    "estado": "GUIA-PRACTICA"
+  },
+  {
+    "part": 21,
+    "titulo": "Crisis, continuidad, insolvencia y recuperación",
+    "resumen": "Toda empresa enfrenta una crisis. La diferencia está en si tenía un plan antes. Esta parte cubre el mapa de amenazas, continuidad de negocio, recuperación tecnológica, crisis reputacional, fuga de caja, insolvencia de terceros, renegociación de deuda, cobranza, Ley 20.720 y el plan de recuperación.",
+    "resultados": [
+      "levantar escenarios de crisis con impacto, probabilidad y plan de respuesta",
+      "construir un plan de continuidad con RTO y RPO definidos",
+      "ejecutar un plan de 30 días ante fuga de caja",
+      "conocer las alternativas de la Ley 20.720 antes de estar en cesación de pagos"
+    ],
+    "marco": [
+      "Ley 20.720 sobre reorganización y liquidación de empresas y personas",
+      "Ley 19.983 sobre mérito ejecutivo de la factura para cobranza",
+      "continuidad de negocio: BIA, RTO, RPO y plan de comunicación de crisis"
+    ],
+    "autoridades": ["Superintendencia de Insolvencia y Reemprendimiento", "Tribunales civiles", "Dirección del Trabajo"],
+    "profesionales": ["abogado de insolvencia", "veedor o liquidador", "CFO", "comunicaciones"],
+    "riesgos": [
+      "esperar a la cesación de pagos para buscar asesoría y perder la opción de reorganización",
+      "recortar costos destruyendo la capacidad que permite recuperarse",
+      "comunicar tarde o de forma inconsistente a trabajadores, clientes y proveedores",
+      "plan de continuidad escrito que nunca se ensayó"
+    ],
+    "fuentes": ["BCN", "DT"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 22,
+    "titulo": "Venta, sucesión, transformación y cierre",
+    "resumen": "Una empresa vale lo que puede operar sin su fundador. Esta parte cubre cómo construir una empresa transferible, reducir el key-person risk, valorar, preparar data room, due diligence, asset deal versus share deal, negociación, earn-out, sucesión, disolución, término de giro, finiquitos y cierre ordenado.",
+    "resultados": [
+      "medir y reducir la dependencia del fundador",
+      "preparar un data room que resista due diligence",
+      "elegir entre venta de activos y venta de acciones con criterio tributario y de riesgo",
+      "ejecutar un cierre ordenado: societario, tributario, laboral y de permisos"
+    ],
+    "marco": [
+      "Ley 20.720 en escenarios de cierre por insolvencia",
+      "Código Tributario y normas del SII sobre término de giro",
+      "Código del Trabajo en materia de finiquitos y causales de término",
+      "normas societarias sobre disolución y liquidación"
+    ],
+    "autoridades": ["SII", "Dirección del Trabajo", "Registro de Empresas y Sociedades", "Conservador de Bienes Raíces"],
+    "profesionales": ["abogado corporativo y tributario", "banquero de inversión o asesor M&A", "contador", "abogado laboral"],
+    "riesgos": [
+      "vender una empresa cuya operación depende de relaciones personales del fundador",
+      "no ordenar contratos, propiedad intelectual y laboral antes de la due diligence",
+      "cerrar la sociedad sin término de giro y arrastrar contingencia tributaria",
+      "finiquitar sin la documentación completa y exponerse a demanda laboral"
+    ],
+    "fuentes": ["SII_NEW", "SII_CARPETA", "DT", "RES", "BCN"],
+    "estado": "VERIFICADO-FUENTE"
+  },
+  {
+    "part": 23,
+    "titulo": "Estudios de líneas de negocio reales 2026",
+    "resumen": "Catorce estudios aplicados sobre líneas de negocio vigentes en Chile 2026. Cada uno recorre el mismo esqueleto: cliente y problema, modelo de ingreso, economía unitaria, forma societaria recomendada, régimen tributario, permisos, contratos, riesgos y señales de que el negocio funciona o no.",
+    "resultados": [
+      "aplicar el marco completo del programa a un sector concreto",
+      "identificar la carga regulatoria específica de cada línea antes de entrar",
+      "comparar economía unitaria entre modelos de negocio distintos",
+      "detectar las señales tempranas de que una línea no va a funcionar"
+    ],
+    "marco": [
+      "matriz de líneas de negocio 2026 del repositorio (manifests/business_lines_2026.json)",
+      "regulación sectorial aplicable según actividad económica",
+      "economía unitaria por modelo: suscripción, proyecto, transacción, retail y servicio"
+    ],
+    "autoridades": ["autoridad sectorial según la línea analizada", "SII", "SERNAC", "municipalidad"],
+    "profesionales": ["fundador", "consultor sectorial", "abogado regulatorio", "contador"],
+    "riesgos": [
+      "entrar a un sector regulado subestimando el costo y el plazo de habilitación",
+      "asumir márgenes de referencia internacional que no aplican al mercado chileno",
+      "elegir el sector por atractivo aparente y no por capacidad real de la empresa",
+      "no verificar la vigencia de la normativa sectorial en la fecha de ejecución"
+    ],
+    "fuentes": ["SII_NEW", "SERNAC", "SEREMI_FOOD", "CMF_RPSF", "PROCHILE_SERV", "SEC", "SENCE", "SERNATUR"],
+    "estado": "SECTORIAL"
+  },
+  {
+    "part": 24,
+    "titulo": "Capstone: construir una empresa de comienzo a fin",
+    "resumen": "El capstone integra todo el programa en un solo caso continuo: una empresa elegida por el estudiante que se lleva desde la tesis hasta la defensa final ante un comité, pasando por validación, modelo, sociedad, constitución, SII, finanzas, contratos, permisos, personas, operación, financiamiento y crisis.",
+    "resultados": [
+      "producir una carpeta empresarial completa y coherente entre sus partes",
+      "sostener las decisiones tomadas frente a preguntas adversariales",
+      "identificar de forma explícita los supuestos que requieren validación profesional",
+      "entregar un plan ejecutable con calendario de obligaciones y evidencia"
+    ],
+    "marco": [
+      "integración de todas las partes anteriores del programa",
+      "criterio de defensa: coherencia entre decisiones, evidencia y caja",
+      "trazabilidad a fuente oficial en cada afirmación regulatoria"
+    ],
+    "autoridades": ["todas las anteriores según la línea de negocio elegida"],
+    "profesionales": ["fundador", "contador", "abogado", "especialista sectorial"],
+    "riesgos": [
+      "producir documentos bonitos sin coherencia numérica entre ellos",
+      "copiar el caso de otra empresa sin adaptar actividad, comuna ni escala",
+      "omitir el calendario de obligaciones periódicas",
+      "defender decisiones sin poder citar la fuente que las respalda"
+    ],
+    "fuentes": ["RES", "SII_NEW", "SII_RENT", "DT", "SERNAC", "BCN"],
+    "estado": "GUIA-PRACTICA"
+  }
+]

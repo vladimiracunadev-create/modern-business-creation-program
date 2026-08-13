@@ -1,0 +1,267 @@
+[
+  {
+    "name": "Código de Comercio",
+    "scope": "Base general de actos de comercio, sociedades y SpA (arts. 424-446).",
+    "domain": "General"
+  },
+  {
+    "name": "Código Civil",
+    "scope": "Contratos, obligaciones, mandato, responsabilidad y personas.",
+    "domain": "General"
+  },
+  {
+    "name": "Ley 20.659",
+    "scope": "Régimen simplificado de constitución, modificación y disolución (RES).",
+    "domain": "Societario"
+  },
+  {
+    "name": "Ley 19.857",
+    "scope": "Empresa Individual de Responsabilidad Limitada.",
+    "domain": "Societario"
+  },
+  {
+    "name": "Ley 3.918",
+    "scope": "Sociedades de Responsabilidad Limitada.",
+    "domain": "Societario"
+  },
+  {
+    "name": "Ley 18.046",
+    "scope": "Sociedades Anónimas.",
+    "domain": "Societario"
+  },
+  {
+    "name": "Ley 20.190",
+    "scope": "Introdujo, entre otras materias, la Sociedad por Acciones al Código de Comercio.",
+    "domain": "Societario"
+  },
+  {
+    "name": "DL 824 / Ley sobre Impuesto a la Renta",
+    "scope": "Impuesto a la renta, art. 14 y regímenes empresariales.",
+    "domain": "Tributario"
+  },
+  {
+    "name": "DL 825 / Ley sobre IVA",
+    "scope": "Impuesto a las Ventas y Servicios.",
+    "domain": "Tributario"
+  },
+  {
+    "name": "DL 830 / Código Tributario",
+    "scope": "Procedimientos, obligaciones, fiscalización e infracciones tributarias.",
+    "domain": "Tributario"
+  },
+  {
+    "name": "Ley 21.713",
+    "scope": "Cumplimiento de obligaciones tributarias; revisar instrucciones SII vigentes.",
+    "domain": "Tributario"
+  },
+  {
+    "name": "Ley 21.755, art. 25",
+    "scope": "Reducción transitoria de tasa IDPC Pro Pyme a 12,5% para 2025-2027 bajo condiciones legales.",
+    "domain": "Tributario"
+  },
+  {
+    "name": "DL 3.063 / texto refundido de Rentas Municipales",
+    "scope": "Patentes municipales y rentas locales.",
+    "domain": "Municipal"
+  },
+  {
+    "name": "Ley 19.496",
+    "scope": "Protección de los Derechos de los Consumidores.",
+    "domain": "Consumidor"
+  },
+  {
+    "name": "Decreto 6/2021 Economía",
+    "scope": "Reglamento de Comercio Electrónico.",
+    "domain": "Consumidor"
+  },
+  {
+    "name": "Ley 19.628",
+    "scope": "Protección de la vida privada/datos personales, vigente hasta 30-11-2026 en su régimen actual.",
+    "domain": "Datos"
+  },
+  {
+    "name": "Ley 21.719",
+    "scope": "Nueva regulación de protección de datos; entra en vigencia 01-12-2026.",
+    "domain": "Datos"
+  },
+  {
+    "name": "Ley 19.039 / DFL 4-2022",
+    "scope": "Propiedad Industrial: marcas, patentes, diseños, etc.",
+    "domain": "PI"
+  },
+  {
+    "name": "Ley 17.336",
+    "scope": "Propiedad Intelectual y derecho de autor.",
+    "domain": "PI"
+  },
+  {
+    "name": "Ley 19.799",
+    "scope": "Documentos electrónicos y firma electrónica.",
+    "domain": "Digital"
+  },
+  {
+    "name": "DFL 1/2002 Trabajo",
+    "scope": "Código del Trabajo.",
+    "domain": "Laboral"
+  },
+  {
+    "name": "Ley 21.561",
+    "scope": "Reducción de jornada a 40 horas; etapa 42 horas desde 26-04-2026.",
+    "domain": "Laboral"
+  },
+  {
+    "name": "Ley 21.643",
+    "scope": "Ley Karin: prevención, investigación y sanción de acoso/violencia.",
+    "domain": "Laboral"
+  },
+  {
+    "name": "Decreto 21/2024 Trabajo",
+    "scope": "Reglamento de procedimientos de investigación de Ley Karin.",
+    "domain": "Laboral"
+  },
+  {
+    "name": "Ley 16.744",
+    "scope": "Accidentes del trabajo y enfermedades profesionales.",
+    "domain": "SST"
+  },
+  {
+    "name": "Decreto 44/2024 Trabajo",
+    "scope": "Gestión preventiva de riesgos laborales; vigente desde 01-02-2025.",
+    "domain": "SST"
+  },
+  {
+    "name": "DS 594 Salud",
+    "scope": "Condiciones sanitarias y ambientales básicas en lugares de trabajo.",
+    "domain": "SST"
+  },
+  {
+    "name": "Ley 20.123",
+    "scope": "Subcontratación y servicios transitorios.",
+    "domain": "Laboral"
+  },
+  {
+    "name": "Ley 20.393",
+    "scope": "Responsabilidad penal de las personas jurídicas.",
+    "domain": "Compliance"
+  },
+  {
+    "name": "Ley 21.595",
+    "scope": "Delitos Económicos; amplía sustancialmente el marco de responsabilidad y compliance.",
+    "domain": "Compliance"
+  },
+  {
+    "name": "Ley 19.913",
+    "scope": "Unidad de Análisis Financiero y obligaciones LA/FT para sujetos obligados.",
+    "domain": "AML"
+  },
+  {
+    "name": "Ley 21.663",
+    "scope": "Ley Marco de Ciberseguridad.",
+    "domain": "Ciberseguridad"
+  },
+  {
+    "name": "Ley 21.459",
+    "scope": "Delitos informáticos.",
+    "domain": "Ciberseguridad"
+  },
+  {
+    "name": "Ley 21.521",
+    "scope": "Ley Fintec y Sistema de Finanzas Abiertas.",
+    "domain": "Fintech"
+  },
+  {
+    "name": "NCG 502 CMF",
+    "scope": "Registro, autorización y obligaciones de prestadores Fintec.",
+    "domain": "Fintech"
+  },
+  {
+    "name": "NCG 514 CMF",
+    "scope": "Sistema de Finanzas Abiertas; modificaciones 2026, vigencia operacional postergada a julio 2027.",
+    "domain": "Fintech"
+  },
+  {
+    "name": "Ley 20.950",
+    "scope": "Medios de pago con provisión de fondos por entidades no bancarias.",
+    "domain": "Pagos"
+  },
+  {
+    "name": "Ley 20.720",
+    "scope": "Reorganización y liquidación de empresas y personas.",
+    "domain": "Insolvencia"
+  },
+  {
+    "name": "Ley 21.131",
+    "scope": "Pago a 30 días y factura en relaciones comerciales.",
+    "domain": "Comercial"
+  },
+  {
+    "name": "Ley 19.300",
+    "scope": "Bases Generales del Medio Ambiente.",
+    "domain": "Ambiental"
+  },
+  {
+    "name": "Ley 20.920",
+    "scope": "Gestión de residuos, REP y fomento al reciclaje.",
+    "domain": "Ambiental"
+  },
+  {
+    "name": "DFL 725 / Código Sanitario",
+    "scope": "Marco sanitario general.",
+    "domain": "Sanitario"
+  },
+  {
+    "name": "DS 977/1996 Salud",
+    "scope": "Reglamento Sanitario de los Alimentos; revisar versión vigente.",
+    "domain": "Alimentos"
+  },
+  {
+    "name": "Ley 20.606",
+    "scope": "Composición nutricional y publicidad de alimentos.",
+    "domain": "Alimentos"
+  },
+  {
+    "name": "Ley 21.368",
+    "scope": "Plásticos de un solo uso y botellas plásticas, según actividad.",
+    "domain": "Ambiental/Consumo"
+  },
+  {
+    "name": "DFL 458 / LGUC",
+    "scope": "Ley General de Urbanismo y Construcciones.",
+    "domain": "Construcción"
+  },
+  {
+    "name": "DS 47 / OGUC",
+    "scope": "Ordenanza General de Urbanismo y Construcciones.",
+    "domain": "Construcción"
+  },
+  {
+    "name": "Ley 18.168",
+    "scope": "Ley General de Telecomunicaciones.",
+    "domain": "Telecom"
+  },
+  {
+    "name": "Ley 19.518",
+    "scope": "Estatuto de Capacitación y Empleo; relevante a OTEC/SENCE.",
+    "domain": "Capacitación"
+  },
+  {
+    "name": "Ley 20.423",
+    "scope": "Sistema institucional para el desarrollo del turismo.",
+    "domain": "Turismo"
+  },
+  {
+    "name": "Ley 19.886 y Ley 21.634",
+    "scope": "Compras públicas; relevante para vender al Estado.",
+    "domain": "B2G"
+  },
+  {
+    "name": "Ley 18.045",
+    "scope": "Mercado de Valores; relevante a financiamiento y servicios regulados.",
+    "domain": "Mercado capitales"
+  },
+  {
+    "name": "Ley 18.010",
+    "scope": "Operaciones de crédito de dinero e intereses.",
+    "domain": "Finanzas"
+  }
+]

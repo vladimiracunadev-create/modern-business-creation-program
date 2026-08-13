@@ -1,0 +1,3026 @@
+[
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 1,
+    "global_class": 1,
+    "title": "Qué es una empresa y cómo crea valor",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 2,
+    "global_class": 2,
+    "title": "Emprender, autoemplearse y construir una organización",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 3,
+    "global_class": 3,
+    "title": "Problema, necesidad, deseo y trabajo por resolver",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 4,
+    "global_class": 4,
+    "title": "Cliente, usuario, pagador y beneficiario",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 5,
+    "global_class": 5,
+    "title": "Producto, servicio, solución y experiencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 6,
+    "global_class": 6,
+    "title": "Ingresos, costos, gastos, inversión y utilidad",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 7,
+    "global_class": 7,
+    "title": "Activos, pasivos, patrimonio y capital de trabajo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 8,
+    "global_class": 8,
+    "title": "Riesgo, incertidumbre y toma de decisiones",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 9,
+    "global_class": 9,
+    "title": "Ética empresarial y licencia social para operar",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 10,
+    "global_class": 10,
+    "title": "Formalidad, informalidad y costo del incumplimiento",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 11,
+    "global_class": 11,
+    "title": "Ciclo de vida completo de una empresa",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 12,
+    "global_class": 12,
+    "title": "Tipos de mercado: B2C, B2B, B2G, C2C y plataformas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 13,
+    "global_class": 13,
+    "title": "Empresa tradicional, digital y habilitada por IA",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 1,
+    "part_title": "Fundamentos de empresa y mentalidad empresarial",
+    "class": 14,
+    "global_class": 14,
+    "title": "Mapa personal de competencias del fundador",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 1,
+    "global_class": 15,
+    "title": "Formulación del problema empresarial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 2,
+    "global_class": 16,
+    "title": "Investigación secundaria con fuentes confiables",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 3,
+    "global_class": 17,
+    "title": "Entrevistas de descubrimiento sin sesgos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 4,
+    "global_class": 18,
+    "title": "Segmentación y perfil de cliente ideal",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 5,
+    "global_class": 19,
+    "title": "Jobs to Be Done y resultados esperados",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 6,
+    "global_class": 20,
+    "title": "Tamaño de mercado TAM SAM SOM",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 7,
+    "global_class": 21,
+    "title": "Competidores directos, indirectos y sustitutos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 8,
+    "global_class": 22,
+    "title": "Mapa de alternativas actuales del cliente",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 9,
+    "global_class": 23,
+    "title": "Propuesta de valor y diferenciación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 10,
+    "global_class": 24,
+    "title": "Hipótesis críticas del negocio",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 11,
+    "global_class": 25,
+    "title": "Experimentos de demanda antes de invertir",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 12,
+    "global_class": 26,
+    "title": "MVP, prototipo y concierge test",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 13,
+    "global_class": 27,
+    "title": "Precio como experimento de mercado",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 2,
+    "part_title": "Descubrimiento, validación y mercado",
+    "class": 14,
+    "global_class": 28,
+    "title": "Decidir: perseverar, pivotar o abandonar",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 1,
+    "global_class": 29,
+    "title": "Business Model Canvas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 2,
+    "global_class": 30,
+    "title": "Lean Canvas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 3,
+    "global_class": 31,
+    "title": "Modelo de servicios profesionales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 4,
+    "global_class": 32,
+    "title": "Suscripción y SaaS",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 5,
+    "global_class": 33,
+    "title": "Comercio electrónico D2C",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 6,
+    "global_class": 34,
+    "title": "Retail físico y omnicanal",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 7,
+    "global_class": 35,
+    "title": "Marketplace de dos lados",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 8,
+    "global_class": 36,
+    "title": "Licencias, royalties y propiedad intelectual",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 9,
+    "global_class": 37,
+    "title": "Agencia y servicios administrados",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 10,
+    "global_class": 38,
+    "title": "Manufactura y venta de productos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 11,
+    "global_class": 39,
+    "title": "Franquicia y licenciamiento de formato",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 12,
+    "global_class": 40,
+    "title": "Publicidad, afiliación y contenido",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 13,
+    "global_class": 41,
+    "title": "Modelos freemium, usage-based y outcome-based",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 3,
+    "part_title": "Modelos de negocio y líneas de ingreso",
+    "class": 14,
+    "global_class": 42,
+    "title": "Portafolio de líneas de negocio y concentración de riesgo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 1,
+    "global_class": 43,
+    "title": "Misión, visión, propósito y tesis estratégica",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 2,
+    "global_class": 44,
+    "title": "Análisis PESTEL",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 3,
+    "global_class": 45,
+    "title": "Cinco fuerzas y estructura competitiva",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 4,
+    "global_class": 46,
+    "title": "Cadena de valor",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 5,
+    "global_class": 47,
+    "title": "Ventaja por costo, diferenciación y enfoque",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 6,
+    "global_class": 48,
+    "title": "Efectos de red y economías de escala",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 7,
+    "global_class": 49,
+    "title": "Switching costs, marca, datos y propiedad intelectual",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 8,
+    "global_class": 50,
+    "title": "Estrategia de nicho y beachhead market",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 9,
+    "global_class": 51,
+    "title": "Posicionamiento estratégico",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 10,
+    "global_class": 52,
+    "title": "Portafolio de apuestas y opciones reales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 11,
+    "global_class": 53,
+    "title": "OKR, KPI y métricas norte",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 12,
+    "global_class": 54,
+    "title": "Roadmap estratégico de 12, 36 y 60 meses",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 13,
+    "global_class": 55,
+    "title": "Escenarios y señales tempranas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 4,
+    "part_title": "Estrategia y ventaja competitiva",
+    "class": 14,
+    "global_class": 56,
+    "title": "Revisión estratégica y kill criteria",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 1,
+    "global_class": 57,
+    "title": "Persona natural versus persona jurídica",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 2,
+    "global_class": 58,
+    "title": "EIRL: cuándo sirve y cuándo limita",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 3,
+    "global_class": 59,
+    "title": "Sociedad de Responsabilidad Limitada",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 4,
+    "global_class": 60,
+    "title": "Sociedad por Acciones SpA",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 5,
+    "global_class": 61,
+    "title": "Sociedad Anónima cerrada y abierta",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 6,
+    "global_class": 62,
+    "title": "Sociedades colectivas y comanditarias",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 7,
+    "global_class": 63,
+    "title": "Comparación jurídica para elegir forma societaria",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 8,
+    "global_class": 64,
+    "title": "Socios, accionistas, porcentajes y control",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 9,
+    "global_class": 65,
+    "title": "Capital, aportes, valorización y vesting",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 10,
+    "global_class": 66,
+    "title": "Administración, poderes y representación legal",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 11,
+    "global_class": 67,
+    "title": "Pactos de accionistas y acuerdos de fundadores",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 12,
+    "global_class": 68,
+    "title": "Conflictos de interés y partes relacionadas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 13,
+    "global_class": 69,
+    "title": "Juntas, actas, libros y trazabilidad de decisiones",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 5,
+    "part_title": "Diseño societario y gobierno inicial",
+    "class": 14,
+    "global_class": 70,
+    "title": "Gobierno mínimo viable desde el día uno",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 1,
+    "global_class": 71,
+    "title": "Ruta tradicional versus Registro de Empresas y Sociedades",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 2,
+    "global_class": 72,
+    "title": "Tu Empresa en un Día: flujo completo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 3,
+    "global_class": 73,
+    "title": "Definir razón social, nombre de fantasía y objeto",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 4,
+    "global_class": 74,
+    "title": "Domicilio social, comercial y tributario",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 5,
+    "global_class": 75,
+    "title": "Capital social y forma de enterarlo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 6,
+    "global_class": 76,
+    "title": "Acciones, series y derechos en una SpA",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 7,
+    "global_class": 77,
+    "title": "Administradores y representantes",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 8,
+    "global_class": 78,
+    "title": "Firma electrónica avanzada y firma notarial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 9,
+    "global_class": 79,
+    "title": "RUT de la persona jurídica",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 10,
+    "global_class": 80,
+    "title": "Obtención y resguardo de documentos societarios",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 11,
+    "global_class": 81,
+    "title": "Modificaciones, saneamientos y rectificaciones",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 12,
+    "global_class": 82,
+    "title": "Transformación, fusión y división",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 13,
+    "global_class": 83,
+    "title": "Cuenta bancaria empresarial y debida diligencia bancaria",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 6,
+    "part_title": "Constitución formal de la empresa en Chile",
+    "class": 14,
+    "global_class": 84,
+    "title": "Checklist de empresa jurídicamente lista",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 1,
+    "global_class": 85,
+    "title": "Arquitectura tributaria chilena para empresas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 2,
+    "global_class": 86,
+    "title": "Inicio de actividades en SII",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 3,
+    "global_class": 87,
+    "title": "Actividades económicas, giros y códigos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 4,
+    "global_class": 88,
+    "title": "Acreditación de domicilio ante SII",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 5,
+    "global_class": 89,
+    "title": "Selección de régimen tributario",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 6,
+    "global_class": 90,
+    "title": "Pro Pyme General",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 7,
+    "global_class": 91,
+    "title": "Pro Pyme Transparente",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 8,
+    "global_class": 92,
+    "title": "Régimen General semi integrado y otros regímenes",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 9,
+    "global_class": 93,
+    "title": "IVA: débito, crédito y hechos gravados",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 10,
+    "global_class": 94,
+    "title": "Documentos tributarios electrónicos DTE",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 11,
+    "global_class": 95,
+    "title": "Registro de Compras y Ventas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 12,
+    "global_class": 96,
+    "title": "Formulario 29, PPM y ciclo mensual",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 13,
+    "global_class": 97,
+    "title": "Operación Renta, F22 y declaraciones juradas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 7,
+    "part_title": "SII y ciclo tributario de principio a fin",
+    "class": 14,
+    "global_class": 98,
+    "title": "Modificaciones, fiscalización y término de giro",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 1,
+    "global_class": 99,
+    "title": "Contabilidad como sistema de información",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 2,
+    "global_class": 100,
+    "title": "Plan de cuentas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 3,
+    "global_class": 101,
+    "title": "Partida doble sin memorizar",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 4,
+    "global_class": 102,
+    "title": "Libro diario, mayor y auxiliares",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 5,
+    "global_class": 103,
+    "title": "Devengo versus caja",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 6,
+    "global_class": 104,
+    "title": "Balance general",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 7,
+    "global_class": 105,
+    "title": "Estado de resultados",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 8,
+    "global_class": 106,
+    "title": "Estado de flujo de efectivo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 9,
+    "global_class": 107,
+    "title": "Conciliación bancaria",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 10,
+    "global_class": 108,
+    "title": "Cuentas por cobrar y provisiones",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 11,
+    "global_class": 109,
+    "title": "Cuentas por pagar y cierre mensual",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 12,
+    "global_class": 110,
+    "title": "Existencias y costo de ventas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 13,
+    "global_class": 111,
+    "title": "Activos fijos, depreciación e intangibles",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 8,
+    "part_title": "Contabilidad y estados financieros",
+    "class": 14,
+    "global_class": 112,
+    "title": "Cierre anual y carpeta de respaldo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 1,
+    "global_class": 113,
+    "title": "Presupuesto de arranque",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 2,
+    "global_class": 114,
+    "title": "Flujo de caja de 13 semanas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 3,
+    "global_class": 115,
+    "title": "Capital de trabajo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 4,
+    "global_class": 116,
+    "title": "Punto de equilibrio",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 5,
+    "global_class": 117,
+    "title": "Margen bruto, contribución y EBITDA",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 6,
+    "global_class": 118,
+    "title": "Pricing basado en costos, valor y mercado",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 7,
+    "global_class": 119,
+    "title": "CAC, LTV y payback",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 8,
+    "global_class": 120,
+    "title": "MRR, ARR, churn y NRR para suscripciones",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 9,
+    "global_class": 121,
+    "title": "Rotación, ticket y merma para comercio",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 10,
+    "global_class": 122,
+    "title": "Ciclo de conversión de efectivo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 11,
+    "global_class": 123,
+    "title": "Deuda buena, deuda mala y costo de capital",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 12,
+    "global_class": 124,
+    "title": "Escenarios base, estrés y supervivencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 13,
+    "global_class": 125,
+    "title": "Dashboard financiero del fundador",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 9,
+    "part_title": "Finanzas, caja, precios y economía unitaria",
+    "class": 14,
+    "global_class": 126,
+    "title": "Reglas de caja y reservas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 1,
+    "global_class": 127,
+    "title": "Anatomía de un contrato comercial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 2,
+    "global_class": 128,
+    "title": "Cotización, orden de compra y aceptación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 3,
+    "global_class": 129,
+    "title": "Contrato de prestación de servicios",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 4,
+    "global_class": 130,
+    "title": "Contrato de suministro",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 5,
+    "global_class": 131,
+    "title": "NDA y confidencialidad",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 6,
+    "global_class": 132,
+    "title": "Propiedad intelectual en contratos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 7,
+    "global_class": 133,
+    "title": "SLA, soporte y niveles de servicio",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 8,
+    "global_class": 134,
+    "title": "Limitación de responsabilidad y garantías",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 9,
+    "global_class": 135,
+    "title": "Terminación, renovación y penalidades",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 10,
+    "global_class": 136,
+    "title": "Jurisdicción, arbitraje y solución de controversias",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 11,
+    "global_class": 137,
+    "title": "Cesión, subcontratación y terceros",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 12,
+    "global_class": 138,
+    "title": "Contratos con proveedores críticos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 13,
+    "global_class": 139,
+    "title": "Gestión y repositorio de contratos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 10,
+    "part_title": "Contratos y arquitectura legal operativa",
+    "class": 14,
+    "global_class": 140,
+    "title": "Cuándo debe intervenir un abogado",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 1,
+    "global_class": 141,
+    "title": "Ley del Consumidor aplicada al negocio",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 2,
+    "global_class": 142,
+    "title": "Reglamento de Comercio Electrónico",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 3,
+    "global_class": 143,
+    "title": "Información de precio, stock, despacho y retracto",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 4,
+    "global_class": 144,
+    "title": "Garantía legal y postventa",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 5,
+    "global_class": 145,
+    "title": "Términos y condiciones y contratos de adhesión",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 6,
+    "global_class": 146,
+    "title": "Privacidad bajo Ley 19.628 vigente",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 7,
+    "global_class": 147,
+    "title": "Preparación para Ley 21.719 desde 1-dic-2026",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 8,
+    "global_class": 148,
+    "title": "Mapa de datos y bases de licitud",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 9,
+    "global_class": 149,
+    "title": "Derechos de titulares y gobierno de datos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 10,
+    "global_class": 150,
+    "title": "Registro de marca en INAPI",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 11,
+    "global_class": 151,
+    "title": "Patentes, diseños y secretos empresariales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 12,
+    "global_class": 152,
+    "title": "Derecho de autor y licencias de software",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 13,
+    "global_class": 153,
+    "title": "Ley Marco de Ciberseguridad y ciberhigiene empresarial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 11,
+    "part_title": "Consumidor, e-commerce, privacidad, IP y seguridad digital",
+    "class": 14,
+    "global_class": 154,
+    "title": "Respuesta a incidentes y evidencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 1,
+    "global_class": 155,
+    "title": "Cuándo contratar versus externalizar",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 2,
+    "global_class": 156,
+    "title": "Contrato de trabajo y cláusulas esenciales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 3,
+    "global_class": 157,
+    "title": "Registro y gestión en Mi DT",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 4,
+    "global_class": 158,
+    "title": "Jornada ordinaria de 42 horas en 2026",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 5,
+    "global_class": 159,
+    "title": "Control de asistencia, horas extra y descansos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 6,
+    "global_class": 160,
+    "title": "Remuneraciones imponibles y no imponibles",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 7,
+    "global_class": 161,
+    "title": "Cotizaciones previsionales y seguridad social",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 8,
+    "global_class": 162,
+    "title": "Vacaciones, permisos y licencias",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 9,
+    "global_class": 163,
+    "title": "Reglamento interno y políticas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 10,
+    "global_class": 164,
+    "title": "Ley Karin: prevención, denuncia e investigación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 11,
+    "global_class": 165,
+    "title": "Subcontratación y servicios transitorios",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 12,
+    "global_class": 166,
+    "title": "Ley 16.744 y seguro de accidentes",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 13,
+    "global_class": 167,
+    "title": "Decreto 44 y gestión preventiva de riesgos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 12,
+    "part_title": "Personas, relaciones laborales y seguridad y salud",
+    "class": 14,
+    "global_class": 168,
+    "title": "Término de contrato y documentación de salida",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 1,
+    "global_class": 169,
+    "title": "Diseño de procesos end-to-end",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 2,
+    "global_class": 170,
+    "title": "SOP y controles operacionales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 3,
+    "global_class": 171,
+    "title": "Compras y homologación de proveedores",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 4,
+    "global_class": 172,
+    "title": "Órdenes de compra y recepción",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 5,
+    "global_class": 173,
+    "title": "Inventario, conteos y trazabilidad",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 6,
+    "global_class": 174,
+    "title": "Bodega, picking y despacho",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 7,
+    "global_class": 175,
+    "title": "Logística directa e inversa",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 8,
+    "global_class": 176,
+    "title": "Gestión de calidad y no conformidades",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 9,
+    "global_class": 177,
+    "title": "Capacidad y cuellos de botella",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 10,
+    "global_class": 178,
+    "title": "Make or buy",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 11,
+    "global_class": 179,
+    "title": "Continuidad de proveedores críticos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 12,
+    "global_class": 180,
+    "title": "Mantenimiento y activos operativos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 13,
+    "global_class": 181,
+    "title": "Indicadores OTIF, fill rate y lead time",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 13,
+    "part_title": "Operaciones, compras, inventario y calidad",
+    "class": 14,
+    "global_class": 182,
+    "title": "Mejora continua y automatización",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 1,
+    "global_class": 183,
+    "title": "ICP y segmentación comercial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 2,
+    "global_class": 184,
+    "title": "Marca, posicionamiento y mensaje",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 3,
+    "global_class": 185,
+    "title": "Embudo de adquisición",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 4,
+    "global_class": 186,
+    "title": "Marketing de contenidos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 5,
+    "global_class": 187,
+    "title": "Publicidad digital y atribución",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 6,
+    "global_class": 188,
+    "title": "Prospección B2B",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 7,
+    "global_class": 189,
+    "title": "Discovery comercial y calificación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 8,
+    "global_class": 190,
+    "title": "Propuesta, negociación y cierre",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 9,
+    "global_class": 191,
+    "title": "CRM y pipeline",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 10,
+    "global_class": 192,
+    "title": "Onboarding de clientes",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 11,
+    "global_class": 193,
+    "title": "Customer success y expansión",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 12,
+    "global_class": 194,
+    "title": "Soporte, reclamos y voz del cliente",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 13,
+    "global_class": 195,
+    "title": "Referidos, partners y canales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 14,
+    "part_title": "Ventas, marketing y experiencia de cliente",
+    "class": 14,
+    "global_class": 196,
+    "title": "Revenue operations y forecast",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 1,
+    "global_class": 197,
+    "title": "Arquitectura tecnológica mínima viable",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 2,
+    "global_class": 198,
+    "title": "Comprar, construir o integrar software",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 3,
+    "global_class": 199,
+    "title": "Dominio, correo, identidad y accesos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 4,
+    "global_class": 200,
+    "title": "Cloud, hosting y continuidad",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 5,
+    "global_class": 201,
+    "title": "Backups y recuperación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 6,
+    "global_class": 202,
+    "title": "Ciberseguridad por capas para pyme",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 7,
+    "global_class": 203,
+    "title": "Gestión de secretos y privilegios",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 8,
+    "global_class": 204,
+    "title": "Datos maestros y calidad de datos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 9,
+    "global_class": 205,
+    "title": "Analítica y BI empresarial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 10,
+    "global_class": 206,
+    "title": "Automatización de procesos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 11,
+    "global_class": 207,
+    "title": "IA generativa en operaciones",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 12,
+    "global_class": 208,
+    "title": "Agentes de IA con humano en el circuito",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 13,
+    "global_class": 209,
+    "title": "Riesgo de proveedores tecnológicos y SaaS",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 15,
+    "part_title": "Tecnología, datos, IA y operación digital",
+    "class": 14,
+    "global_class": 210,
+    "title": "Gobierno tecnológico y costos FinOps",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 1,
+    "global_class": 211,
+    "title": "Bootstrapping y reinversión",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 2,
+    "global_class": 212,
+    "title": "Cuenta bancaria, medios de pago y conciliación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 3,
+    "global_class": 213,
+    "title": "Crédito comercial y capital de trabajo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 4,
+    "global_class": 214,
+    "title": "Leasing, factoring y confirming",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 5,
+    "global_class": 215,
+    "title": "FOGAPE, garantías y evaluación bancaria",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 6,
+    "global_class": 216,
+    "title": "SERCOTEC y programas de fomento",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 7,
+    "global_class": 217,
+    "title": "CORFO y financiamiento para innovación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 8,
+    "global_class": 218,
+    "title": "Start-Up Chile y ecosistema emprendedor",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 9,
+    "global_class": 219,
+    "title": "Ángeles y capital semilla privado",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 10,
+    "global_class": 220,
+    "title": "Venture capital y rondas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 11,
+    "global_class": 221,
+    "title": "SAFE, notas convertibles y equity",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 12,
+    "global_class": 222,
+    "title": "Valoración empresarial básica",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 13,
+    "global_class": 223,
+    "title": "Data room y due diligence de inversión",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 16,
+    "part_title": "Financiamiento, banca, fondos e inversión",
+    "class": 14,
+    "global_class": 224,
+    "title": "Costo de dilución y estrategia de financiamiento",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 1,
+    "global_class": 225,
+    "title": "Patente municipal: flujo y evidencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 2,
+    "global_class": 226,
+    "title": "Uso de suelo, DOM y compatibilidad territorial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 3,
+    "global_class": 227,
+    "title": "Autorización sanitaria general",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 4,
+    "global_class": 228,
+    "title": "Alimentos y Reglamento Sanitario DS 977",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 5,
+    "global_class": 229,
+    "title": "Resolución sanitaria para locales de alimentos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 6,
+    "global_class": 230,
+    "title": "Salud, prestaciones y datos sensibles",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 7,
+    "global_class": 231,
+    "title": "Construcción, LGUC y OGUC",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 8,
+    "global_class": 232,
+    "title": "Energía e instalaciones fiscalizadas por SEC",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 9,
+    "global_class": 233,
+    "title": "Telecomunicaciones y SUBTEL",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 10,
+    "global_class": 234,
+    "title": "Turismo y registros sectoriales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 11,
+    "global_class": 235,
+    "title": "Transporte, logística y permisos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 12,
+    "global_class": 236,
+    "title": "OTEC, capacitación y SENCE",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 13,
+    "global_class": 237,
+    "title": "Medio ambiente, SEA, SMA y permisos sectoriales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 17,
+    "part_title": "Permisos, patentes y regulación sectorial",
+    "class": 14,
+    "global_class": 238,
+    "title": "Matriz regulatoria por actividad económica",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 1,
+    "global_class": 239,
+    "title": "Preparación exportadora",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 2,
+    "global_class": 240,
+    "title": "Incoterms y responsabilidades",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 3,
+    "global_class": 241,
+    "title": "Clasificación arancelaria",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 4,
+    "global_class": 242,
+    "title": "Importación de bienes a Chile",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 5,
+    "global_class": 243,
+    "title": "Exportación de bienes",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 6,
+    "global_class": 244,
+    "title": "Exportación de servicios",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 7,
+    "global_class": 245,
+    "title": "Aduanas, DUS/DUSS y SICEX",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 8,
+    "global_class": 246,
+    "title": "Factura de exportación y tratamiento tributario",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 9,
+    "global_class": 247,
+    "title": "Medios de pago internacionales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 10,
+    "global_class": 248,
+    "title": "FX y riesgo cambiario",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 11,
+    "global_class": 249,
+    "title": "Contratos internacionales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 12,
+    "global_class": 250,
+    "title": "IVA, retenciones y doble tributación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 13,
+    "global_class": 251,
+    "title": "ProChile y entrada a mercados",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 18,
+    "part_title": "Comercio exterior e internacionalización",
+    "class": 14,
+    "global_class": 252,
+    "title": "Filial, partner o venta remota",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 1,
+    "global_class": 253,
+    "title": "Mapa integral de riesgos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 2,
+    "global_class": 254,
+    "title": "Controles preventivos, detectivos y correctivos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 3,
+    "global_class": 255,
+    "title": "Ley 20.393 y responsabilidad penal de la persona jurídica",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 4,
+    "global_class": 256,
+    "title": "Ley 21.595 de Delitos Económicos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 5,
+    "global_class": 257,
+    "title": "Modelo de prevención de delitos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 6,
+    "global_class": 258,
+    "title": "Canal de denuncias e investigaciones",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 7,
+    "global_class": 259,
+    "title": "UAF, Ley 19.913 y sujetos obligados",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 8,
+    "global_class": 260,
+    "title": "KYC, PEP, beneficiario final y debida diligencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 9,
+    "global_class": 261,
+    "title": "Anticorrupción, regalos y conflictos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 10,
+    "global_class": 262,
+    "title": "Fraude interno y segregación de funciones",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 11,
+    "global_class": 263,
+    "title": "Compliance tributario y Ley 21.713",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 12,
+    "global_class": 264,
+    "title": "Ciberseguridad y obligaciones sectoriales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 13,
+    "global_class": 265,
+    "title": "Seguros empresariales y transferencia de riesgo",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 19,
+    "part_title": "Compliance, riesgos y responsabilidad empresarial",
+    "class": 14,
+    "global_class": 266,
+    "title": "Auditoría interna y plan anual de cumplimiento",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 1,
+    "global_class": 267,
+    "title": "De fundador a organización",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 2,
+    "global_class": 268,
+    "title": "Diseño organizacional por etapas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 3,
+    "global_class": 269,
+    "title": "Delegación y accountability",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 4,
+    "global_class": 270,
+    "title": "Presupuesto por centros de responsabilidad",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 5,
+    "global_class": 271,
+    "title": "Hiring plan y workforce planning",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 6,
+    "global_class": 272,
+    "title": "Procesos que deben estandarizarse antes de crecer",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 7,
+    "global_class": 273,
+    "title": "Multi-sucursal y expansión geográfica",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 8,
+    "global_class": 274,
+    "title": "Franquiciar un negocio",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 9,
+    "global_class": 275,
+    "title": "Alianzas estratégicas y joint ventures",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 10,
+    "global_class": 276,
+    "title": "Adquisición de competidores o capacidades",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 11,
+    "global_class": 277,
+    "title": "Consejo asesor y directorio",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 12,
+    "global_class": 278,
+    "title": "Auditoría externa y control de gestión",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 13,
+    "global_class": 279,
+    "title": "Internacionalización organizacional",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 20,
+    "part_title": "Escalamiento, organización y gobierno avanzado",
+    "class": 14,
+    "global_class": 280,
+    "title": "Evitar que el crecimiento destruya la caja",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 1,
+    "global_class": 281,
+    "title": "Mapa de amenazas y escenarios de crisis",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 2,
+    "global_class": 282,
+    "title": "Business Continuity Plan",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 3,
+    "global_class": 283,
+    "title": "Disaster Recovery para tecnología",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 4,
+    "global_class": 284,
+    "title": "Gestión de crisis reputacional",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 5,
+    "global_class": 285,
+    "title": "Fuga de caja y plan de 30 días",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 6,
+    "global_class": 286,
+    "title": "Cliente o proveedor crítico en insolvencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 7,
+    "global_class": 287,
+    "title": "Renegociación de deuda",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 8,
+    "global_class": 288,
+    "title": "Cobranza y gestión de incobrables",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 9,
+    "global_class": 289,
+    "title": "Ley 20.720: reorganización y liquidación",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 10,
+    "global_class": 290,
+    "title": "Protección de documentación y evidencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 11,
+    "global_class": 291,
+    "title": "Plan de reducción de costos sin destruir capacidad",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 12,
+    "global_class": 292,
+    "title": "Comunicaciones con trabajadores y clientes",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 13,
+    "global_class": 293,
+    "title": "Post-mortem y aprendizaje organizacional",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 21,
+    "part_title": "Crisis, continuidad, insolvencia y recuperación",
+    "class": 14,
+    "global_class": 294,
+    "title": "Plan de recuperación y vuelta a crecimiento",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 1,
+    "global_class": 295,
+    "title": "Construir una empresa transferible",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 2,
+    "global_class": 296,
+    "title": "Dependencia del fundador y key-person risk",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 3,
+    "global_class": 297,
+    "title": "Valoración para venta",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 4,
+    "global_class": 298,
+    "title": "Preparar un data room de M&A",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 5,
+    "global_class": 299,
+    "title": "Due diligence vendedor",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 6,
+    "global_class": 300,
+    "title": "Asset deal versus share deal",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 7,
+    "global_class": 301,
+    "title": "Negociación de compraventa empresarial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 8,
+    "global_class": 302,
+    "title": "Transición, earn-out y no competencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 9,
+    "global_class": 303,
+    "title": "Sucesión familiar o ejecutiva",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 10,
+    "global_class": 304,
+    "title": "Disolución societaria",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 11,
+    "global_class": 305,
+    "title": "Término de giro ante SII",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 12,
+    "global_class": 306,
+    "title": "Finiquitos y cierre laboral",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 13,
+    "global_class": 307,
+    "title": "Cierre de permisos, contratos, datos y cuentas",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 22,
+    "part_title": "Venta, sucesión, transformación y cierre",
+    "class": 14,
+    "global_class": 308,
+    "title": "Lecciones aprendidas y archivo legal",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 1,
+    "global_class": 309,
+    "title": "SaaS B2B con IA",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 2,
+    "global_class": 310,
+    "title": "Agencia de automatización e IA aplicada",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 3,
+    "global_class": 311,
+    "title": "Ciberseguridad administrada para pymes",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 4,
+    "global_class": 312,
+    "title": "Consultoría tecnológica y modernización",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 5,
+    "global_class": 313,
+    "title": "E-commerce D2C de productos físicos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 6,
+    "global_class": 314,
+    "title": "Marketplace vertical",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 7,
+    "global_class": 315,
+    "title": "Educación digital y capacitación empresarial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 8,
+    "global_class": 316,
+    "title": "Exportación de servicios de software",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 9,
+    "global_class": 317,
+    "title": "Fintech regulada y servicios financieros tecnológicos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 10,
+    "global_class": 318,
+    "title": "Foodtech, dark kitchen y alimentos",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 11,
+    "global_class": 319,
+    "title": "Energía solar y servicios de eficiencia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 12,
+    "global_class": 320,
+    "title": "Logística de última milla",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 13,
+    "global_class": 321,
+    "title": "Turismo de experiencias",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 23,
+    "part_title": "Estudios de líneas de negocio reales 2026",
+    "class": 14,
+    "global_class": 322,
+    "title": "Economía circular, reparación y reventa",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 1,
+    "global_class": 323,
+    "title": "Elegir tesis y línea de negocio",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 2,
+    "global_class": 324,
+    "title": "Validar problema, cliente y disposición a pagar",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 3,
+    "global_class": 325,
+    "title": "Diseñar modelo de negocio y estrategia",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 4,
+    "global_class": 326,
+    "title": "Elegir sociedad y diseñar pacto de fundadores",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 5,
+    "global_class": 327,
+    "title": "Simular constitución y carpeta legal",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 6,
+    "global_class": 328,
+    "title": "Diseñar inicio SII, régimen y calendario tributario",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 7,
+    "global_class": 329,
+    "title": "Construir presupuesto, pricing y flujo de caja",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 8,
+    "global_class": 330,
+    "title": "Diseñar contratos y mapa de compliance",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 9,
+    "global_class": 331,
+    "title": "Crear mapa de permisos sectoriales",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 10,
+    "global_class": 332,
+    "title": "Diseñar estructura de cargos y responsabilidades",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 11,
+    "global_class": 333,
+    "title": "Construir operación, ventas y stack tecnológico",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 12,
+    "global_class": 334,
+    "title": "Preparar financiación y data room",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 13,
+    "global_class": 335,
+    "title": "Simular crisis, continuidad y cierre",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  },
+  {
+    "part": 24,
+    "part_title": "Capstone: construir una empresa de comienzo a fin",
+    "class": 14,
+    "global_class": 336,
+    "title": "Defensa final ante comité empresarial",
+    "status": "GUIA-PRACTICA",
+    "jurisdiction": "Chile-first"
+  }
+]
