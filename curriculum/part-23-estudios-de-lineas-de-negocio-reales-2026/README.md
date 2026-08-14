@@ -2,7 +2,10 @@
 
 > *El mismo marco aplicado a catorce sectores reales*
 
+⚫ **Etapa 6 — Crisis, salida y práctica integrada** · salida de la etapa: Caso completo defendido y capacidad de operar bajo estrés
+
 **Estado de evidencia:** `SECTORIAL` · **Clases:** 14 (309–322) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** SaaS con IA, agencia, MSSP, D2C, marketplace, educación, fintech, foodtech, solar y última milla<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

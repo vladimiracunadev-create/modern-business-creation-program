@@ -2,7 +2,10 @@
 
 > *El riesgo penal corporativo dejó de ser tema exclusivo de grandes empresas*
 
+🔴 **Etapa 5 — Operar, vender y crecer** · salida de la etapa: Empresa habilitada, operando y creciendo con control
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (253–266) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Mapa de riesgos, controles, Ley 20.393 y 21.595, modelo de prevención, UAF, KYC y seguros<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

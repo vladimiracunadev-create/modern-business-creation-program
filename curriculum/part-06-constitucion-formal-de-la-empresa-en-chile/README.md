@@ -2,7 +2,10 @@
 
 > *Constituida no es lo mismo que habilitada para operar*
 
+🔵 **Etapa 2 — La empresa nace** · salida de la etapa: Empresa constituida, con RUT y régimen elegido
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (071–084) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Registro de Empresas, objeto y domicilio, capital, firma electrónica, RUT, carpeta y cuenta bancaria<br>
 **Conceptos definidos en esta parte:** 55
 
 ## 🎯 De qué trata esta parte

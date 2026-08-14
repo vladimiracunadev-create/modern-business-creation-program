@@ -2,7 +2,10 @@
 
 > *Vender a consumidores y tratar datos activa un bloque regulatorio propio*
 
+🟠 **Etapa 4 — El blindaje: contratos, datos y personas** · salida de la etapa: Operación contractual y laboral sin contingencias abiertas
+
 **Estado de evidencia:** `DINAMICO` · **Clases:** 14 (141–154) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Ley del Consumidor, comercio electrónico, garantía, Ley 19.628 y 21.719, marcas, IP y ciberseguridad<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

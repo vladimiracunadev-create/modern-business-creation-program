@@ -2,7 +2,10 @@
 
 > *Vender de forma repetible exige un sistema, no talento individual*
 
+🔴 **Etapa 5 — Operar, vender y crecer** · salida de la etapa: Empresa habilitada, operando y creciendo con control
+
 **Estado de evidencia:** `GUIA-PRACTICA` · **Clases:** 14 (183–196) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** ICP, marca y mensaje, embudo, contenidos, atribución, prospección, CRM, onboarding y forecast<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

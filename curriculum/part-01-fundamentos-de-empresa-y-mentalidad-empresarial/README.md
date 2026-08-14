@@ -2,7 +2,10 @@
 
 > *Aprender a ver la empresa como sistema antes de constituir nada*
 
+🟢 **Etapa 1 — Antes de que la empresa exista** · salida de la etapa: Tesis validada con evidencia primaria
+
 **Estado de evidencia:** `GUIA-PRACTICA` · **Clases:** 14 (001–014) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Valor, autoempleo frente a organización, ingresos y costos, caja, riesgo, ética y tipos de mercado<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

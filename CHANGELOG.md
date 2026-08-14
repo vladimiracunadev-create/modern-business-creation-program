@@ -3,6 +3,31 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado según [SemVer](https://semver.org/lang/es/).
 
+## [1.2.0] — 2026-08-13
+
+### Añadido
+
+- **Las 24 partes agrupadas en 6 etapas.** `manifests/etapas.json` define cada etapa con su
+  color, su promesa —qué sabes hacer al terminarla— y su salida. El README y `CURRICULUM.md`
+  presentan las partes por etapa en vez de como una tabla plana de 24 filas.
+- **Columna «contenido central» por parte.** Cada parte declara su temario en una línea, de modo
+  que la tabla dice de qué trata sin abrir el README, y un nombre corto para rotular el mapa.
+- **Bloque de partes del README generado.** El generador sustituye el contenido entre los
+  marcadores `<!-- partes:inicio -->` y `<!-- partes:fin -->`, y `--check` falla si quedó
+  desincronizado: la tabla de partes ya no puede divergir del manifiesto.
+- **Sección «Calidad y CI»** con la tabla de los tres workflows y qué cubre cada uno, más los
+  comandos equivalentes para correr los mismos validadores en local.
+- **Sección «Qué es y qué no es este programa»** a dos columnas, y cierre con la idea fuerza.
+- Cada README de parte muestra ahora a qué etapa pertenece, su salida y su contenido central.
+
+### Cambiado
+
+- El mapa del recorrido de `CURRICULUM.md` se dibuja desde `etapas.json`: si cambia la
+  agrupación de partes, el diagrama la sigue en vez de quedar describiendo otro recorrido.
+- `STATUS.md` incorpora las etapas y los controles nuevos.
+- Las pruebas suben de 20 a 23: cobertura y consecutividad de las etapas, temario y nombre corto
+  de cada parte, y sincronía del bloque de partes del README.
+
 ## [1.1.0] — 2026-08-13
 
 ### Añadido
@@ -89,6 +114,7 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 - Matriz normativa Chile 2026 y catálogo de fuentes oficiales.
 - Watchlist de datos personales, jornada de 42 horas, fintech y regímenes Pro Pyme.
 
+[1.2.0]: https://github.com/vladimiracunadev-create/modern-business-creation-program/releases/tag/v1.2.0
 [1.1.0]: https://github.com/vladimiracunadev-create/modern-business-creation-program/releases/tag/v1.1.0
 [1.0.0]: https://github.com/vladimiracunadev-create/modern-business-creation-program/releases/tag/v1.0.0
 [0.1.0]: https://github.com/vladimiracunadev-create/modern-business-creation-program/releases/tag/v0.1.0

@@ -2,7 +2,10 @@
 
 > *El modelo de ingreso decide la estructura de costos y la carga regulatoria*
 
+🟢 **Etapa 1 — Antes de que la empresa exista** · salida de la etapa: Tesis validada con evidencia primaria
+
 **Estado de evidencia:** `GUIA-PRACTICA` · **Clases:** 14 (029–042) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Canvas, servicios, suscripción, e-commerce, retail, marketplace, licencias, franquicia y portafolio<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

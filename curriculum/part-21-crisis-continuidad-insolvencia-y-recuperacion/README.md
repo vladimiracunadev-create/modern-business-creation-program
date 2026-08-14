@@ -2,7 +2,10 @@
 
 > *Toda empresa enfrenta una crisis; la diferencia es si tenía un plan antes*
 
+⚫ **Etapa 6 — Crisis, salida y práctica integrada** · salida de la etapa: Caso completo defendido y capacidad de operar bajo estrés
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (281–294) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Mapa de amenazas, continuidad, recuperación, crisis reputacional, plan de 30 días y Ley 20.720<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

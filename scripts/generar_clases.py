@@ -93,6 +93,7 @@ def cargar_datos():
     for extra in cargar_json(MANIFESTS / "part_content.json"):
         packs[extra["part"]].update(extra)
     fuentes = {f["id"]: f for f in cargar_json(MANIFESTS / "official_sources.json")}
+    etapas = cargar_json(MANIFESTS / "etapas.json")
 
     especificas = cargar_carpeta(MANIFESTS / "classes")
     pedagogia = cargar_carpeta(MANIFESTS / "pedagogia")
@@ -106,7 +107,10 @@ def cargar_datos():
     ]
     if faltantes:
         raise SystemExit(f"ERROR: sin contenido completo las clases {faltantes[:10]}")
-    return curriculo, packs, fuentes, especificas
+    cubiertas = [p for e in etapas for p in e["partes"]]
+    if sorted(cubiertas) != sorted(packs):
+        raise SystemExit("ERROR: las etapas no cubren exactamente las 24 partes")
+    return curriculo, packs, fuentes, especificas, etapas
 
 
 def ruta_parte(parte: int, titulo: str) -> Path:
@@ -340,7 +344,7 @@ Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 
 
 def render_parte(pack: dict, clases: list[dict], especificas: dict, fuentes: dict,
-                 anterior: dict | None, siguiente: dict | None) -> str:
+                 anterior: dict | None, siguiente: dict | None, etapa: dict) -> str:
     rango = f"{clases[0]['global_class']:03d}–{clases[-1]['global_class']:03d}"
     resultados = "\n".join(f"{i}. **{r[0].upper()}{r[1:]}**." for i, r in enumerate(pack["resultados"], 1))
     marco = "\n".join(f"- {item}" for item in pack["marco"])
@@ -377,7 +381,10 @@ def render_parte(pack: dict, clases: list[dict], especificas: dict, fuentes: dic
 
 > *{pack['lema']}*
 
+{etapa['color']} **Etapa {etapa['etapa']} — {etapa['nombre']}** · salida de la etapa: {etapa['salida']}
+
 **Estado de evidencia:** `{pack['estado']}` · **Clases:** {len(clases)} ({rango}) · **Fecha base normativa:** {FECHA_BASE}<br>
+**Contenido central:** {pack['temario']}<br>
 **Conceptos definidos en esta parte:** {len(glosario)}
 
 ## 🎯 De qué trata esta parte
@@ -437,18 +444,89 @@ Al terminar esta parte podrás:
 """
 
 
-def render_curriculum(curriculo: list[dict], packs: dict) -> str:
-    filas = []
-    for parte in sorted(packs):
-        pack = packs[parte]
-        clases = [c for c in curriculo if c["part"] == parte]
-        filas.append(
-            f"| {parte:02d} | [{pack['titulo']}]"
-            f"(curriculum/{ruta_parte(parte, pack['titulo']).name}/README.md) "
-            f"| {len(clases)} | {clases[0]['global_class']:03d}–{clases[-1]['global_class']:03d} "
-            f"| `{pack['estado']}` | {pack['lema']} |"
+def tabla_por_etapas(curriculo: list[dict], packs: dict, etapas: list[dict],
+                     prefijo: str = "curriculum/") -> str:
+    """Presenta las 24 partes agrupadas en etapas, con su promesa de salida.
+
+    Una tabla plana de 24 filas no dice en qué momento del recorrido está cada
+    parte; agrupadas por etapa se ve qué se obtiene al terminar cada tramo.
+    """
+    bloques = []
+    for etapa in etapas:
+        filas = []
+        for parte in etapa["partes"]:
+            pack = packs[parte]
+            clases = [c for c in curriculo if c["part"] == parte]
+            enlace = f"{prefijo}{ruta_parte(parte, pack['titulo']).name}/README.md"
+            filas.append(
+                f"| {parte:02d} | [{pack['titulo']}]({enlace}) | {len(clases)} "
+                f"({clases[0]['global_class']:03d}–{clases[-1]['global_class']:03d}) "
+                f"| {pack['temario']} | `{pack['estado']}` | [📘 leer]({enlace}) |"
+            )
+        total = sum(1 for c in curriculo if c["part"] in etapa["partes"])
+        bloques.append(
+            f"### {etapa['color']} Etapa {etapa['etapa']} — {etapa['nombre']}\n\n"
+            f"{etapa['promesa']}\n\n"
+            f"**Partes {etapa['partes'][0]:02d}–{etapa['partes'][-1]:02d} · {total} clases · "
+            f"salida: {etapa['salida']}**\n\n"
+            "| # | Parte | Clases | Contenido central | Evidencia | README |\n"
+            "|---:|---|---:|---|---|---|\n" + "\n".join(filas)
         )
-    tabla = "\n".join(filas)
+    return "\n\n".join(bloques)
+
+
+MARCA_INICIO = "<!-- partes:inicio -->"
+MARCA_FIN = "<!-- partes:fin -->"
+
+
+def actualizar_readme(curriculo: list[dict], packs: dict, etapas: list[dict]) -> str:
+    """Sustituye el bloque de partes del README por el generado desde el manifiesto.
+
+    El README se escribe a mano salvo esta sección: dejarla manual garantizaba
+    que la tabla de 24 partes se desincronizara al primer cambio de título.
+    """
+    readme = (RAIZ / "README.md").read_text(encoding="utf-8")
+    if MARCA_INICIO not in readme or MARCA_FIN not in readme:
+        raise SystemExit(
+            f"ERROR: README.md sin los marcadores {MARCA_INICIO} / {MARCA_FIN}"
+        )
+    antes, resto = readme.split(MARCA_INICIO, 1)
+    _, despues = resto.split(MARCA_FIN, 1)
+
+    bloque = (
+        f"\n## 🗂️ Las {len(packs)} partes, en {len(etapas)} etapas\n\n"
+        "Cada parte tiene su **propio README** con narrativa, mapa visual, marco normativo, "
+        "glosario propio y el índice de sus clases. Las etapas indican en qué momento del "
+        "recorrido estás y qué obtienes al terminar cada tramo.\n\n"
+        f"{tabla_por_etapas(curriculo, packs, etapas)}\n\n"
+        f"➡️ **[Ver el currículo completo con el mapa del recorrido](CURRICULUM.md)** · "
+        f"**[Glosario maestro](docs/19_GLOSSARY.md)**\n\n"
+        "> [!NOTE]\n"
+        "> Las partes 01–24 se estudian en orden: cada una da por sabido el vocabulario de las\n"
+        "> anteriores. La única excepción es la parte 23, que aplica el marco completo a catorce\n"
+        "> sectores y puede consultarse antes para elegir en cuál situarse.\n\n"
+    )
+    return antes + MARCA_INICIO + bloque + MARCA_FIN + despues
+
+
+def render_curriculum(curriculo: list[dict], packs: dict, etapas: list[dict]) -> str:
+    tabla = tabla_por_etapas(curriculo, packs, etapas)
+    # El mapa se dibuja desde manifests/etapas.json: si cambia la agrupación de
+    # partes, el diagrama la sigue en vez de quedar describiendo otro recorrido.
+    grupos = []
+    for etapa in etapas:
+        cadena = " --> ".join(
+            f'P{p}["{p:02d} · {packs[p]["corto"]}"]' for p in etapa["partes"]
+        )
+        cabecera = (
+            f'    subgraph E{etapa["etapa"]}'
+            f'["{etapa["color"]} Etapa {etapa["etapa"]} · {etapa["nombre"]}"]'
+        )
+        grupos.append(f"{cabecera}\n        {cadena}\n    end")
+    cadena_etapas = " --> ".join(f"E{e['etapa']}" for e in etapas)
+    cuerpo_mapa = "\n".join(grupos)
+    mapa = f"```mermaid\nflowchart LR\n{cuerpo_mapa}\n    {cadena_etapas}\n```"
+
     return f"""# Currículo — {len(curriculo)} clases en {len(packs)} partes
 
 Cada parte tiene su propio README con narrativa, mapa visual, marco normativo, glosario propio y
@@ -457,31 +535,10 @@ diagrama de razonamiento, desarrollo, taller, criterio de aceptación y fuentes 
 
 ## 🗺️ Recorrido completo
 
-```mermaid
-flowchart LR
-    subgraph F1["Fundamentos y mercado · 01-04"]
-        P1["01 Fundamentos"] --> P2["02 Validación"] --> P3["03 Modelos"] --> P4["04 Estrategia"]
-    end
-    subgraph F2["Constitución y finanzas · 05-09"]
-        P5["05 Societario"] --> P6["06 Constitución"] --> P7["07 SII"] --> P8["08 Contabilidad"] --> P9["09 Finanzas"]
-    end
-    subgraph F3["Marco legal y personas · 10-12"]
-        P10["10 Contratos"] --> P11["11 Consumidor y datos"] --> P12["12 Personas"]
-    end
-    subgraph F4["Operación y crecimiento · 13-20"]
-        P13["13 Operaciones"] --> P14["14 Ventas"] --> P15["15 Tecnología"] --> P16["16 Financiamiento"]
-        P16 --> P17["17 Permisos"] --> P18["18 Comercio exterior"] --> P19["19 Compliance"] --> P20["20 Escalamiento"]
-    end
-    subgraph F5["Crisis, salida y práctica · 21-24"]
-        P21["21 Crisis"] --> P22["22 Venta y cierre"] --> P23["23 Casos 2026"] --> P24["24 Capstone"]
-    end
-    F1 --> F2 --> F3 --> F4 --> F5
-```
+{mapa}
 
-## 📘 Las {len(packs)} partes
+## 📘 Las {len(packs)} partes, en {len(etapas)} etapas
 
-| # | Parte | Clases | Rango | Estado | Idea central |
-|---:|---|---:|---|---|---|
 {tabla}
 
 ## 🏷️ Estados de evidencia
@@ -583,7 +640,8 @@ def main() -> int:
                         help="no escribe; falla si hay archivos desactualizados")
     args = parser.parse_args()
 
-    curriculo, packs, fuentes, especificas = cargar_datos()
+    curriculo, packs, fuentes, especificas, etapas = cargar_datos()
+    etapa_de = {p: e for e in etapas for p in e["partes"]}
     for parte, pack in packs.items():
         pack["_total_clases"] = sum(1 for c in curriculo if c["part"] == parte)
         pack["diagrama_render"] = "```mermaid\n" + pack["diagrama"] + "\n```"
@@ -608,10 +666,12 @@ def main() -> int:
         pendientes.append((
             ruta_parte(parte, pack["titulo"]) / "README.md",
             render_parte(pack, clases, especificas, fuentes,
-                         packs.get(parte - 1), packs.get(parte + 1)),
+                         packs.get(parte - 1), packs.get(parte + 1), etapa_de[parte]),
         ))
 
-    pendientes.append((RAIZ / "CURRICULUM.md", render_curriculum(curriculo, packs)))
+    pendientes.append((RAIZ / "CURRICULUM.md", render_curriculum(curriculo, packs, etapas)))
+    pendientes.append((RAIZ / "README.md",
+                       actualizar_readme(curriculo, packs, etapas)))
     pendientes.append((RAIZ / "docs" / "19_GLOSSARY.md",
                        render_glosario(curriculo, packs, especificas)))
 

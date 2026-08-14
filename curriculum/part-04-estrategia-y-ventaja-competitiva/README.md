@@ -2,7 +2,10 @@
 
 > *Elegir dónde competir importa más que competir bien en el lugar equivocado*
 
+🟢 **Etapa 1 — Antes de que la empresa exista** · salida de la etapa: Tesis validada con evidencia primaria
+
 **Estado de evidencia:** `GUIA-PRACTICA` · **Clases:** 14 (043–056) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** PESTEL, cinco fuerzas, cadena de valor, ventaja defendible, nicho, OKR, roadmap y kill criteria<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

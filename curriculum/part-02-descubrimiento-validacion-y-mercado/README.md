@@ -2,7 +2,10 @@
 
 > *Gastar información barata antes de gastar dinero caro*
 
+🟢 **Etapa 1 — Antes de que la empresa exista** · salida de la etapa: Tesis validada con evidencia primaria
+
 **Estado de evidencia:** `GUIA-PRACTICA` · **Clases:** 14 (015–028) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Hipótesis falsables, entrevistas sin sesgo, TAM/SAM/SOM bottom-up, competencia, MVP y kill criteria<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

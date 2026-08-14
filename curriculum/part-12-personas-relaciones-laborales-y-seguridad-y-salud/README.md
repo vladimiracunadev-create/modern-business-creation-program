@@ -2,7 +2,10 @@
 
 > *Contratar es la decisión que más obligaciones periódicas activa*
 
+🟠 **Etapa 4 — El blindaje: contratos, datos y personas** · salida de la etapa: Operación contractual y laboral sin contingencias abiertas
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (155–168) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Contratar o externalizar, contrato, Mi DT, 42 horas, remuneraciones, Ley Karin, DS 44 y término<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

@@ -2,7 +2,10 @@
 
 > *El ciclo tributario es una máquina de plazos que no se detiene*
 
+🔵 **Etapa 2 — La empresa nace** · salida de la etapa: Empresa constituida, con RUT y régimen elegido
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (085–098) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Inicio de actividades, códigos, Pro Pyme General y Transparente, IVA, DTE, RCV, F29 y Operación Renta<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

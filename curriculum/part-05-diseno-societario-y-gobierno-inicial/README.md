@@ -2,7 +2,10 @@
 
 > *Las reglas entre socios se escriben cuando la relación está bien*
 
+🔵 **Etapa 2 — La empresa nace** · salida de la etapa: Empresa constituida, con RUT y régimen elegido
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (057–070) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** EIRL, SRL, SpA y SA, capital y control, vesting, poderes, pacto de socios y gobierno mínimo<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

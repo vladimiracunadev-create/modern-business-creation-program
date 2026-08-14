@@ -2,7 +2,10 @@
 
 > *Un solo caso llevado de la tesis a la defensa*
 
+⚫ **Etapa 6 — Crisis, salida y práctica integrada** · salida de la etapa: Caso completo defendido y capacidad de operar bajo estrés
+
 **Estado de evidencia:** `GUIA-PRACTICA` · **Clases:** 14 (323–336) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Tesis, validación, modelo, sociedad, SII, finanzas, contratos, permisos, financiamiento y defensa<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

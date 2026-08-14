@@ -2,7 +2,10 @@
 
 > *La empresa moderna corre sobre software de terceros*
 
+🔴 **Etapa 5 — Operar, vender y crecer** · salida de la etapa: Empresa habilitada, operando y creciendo con control
+
 **Estado de evidencia:** `DINAMICO` · **Clases:** 14 (197–210) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Arquitectura mínima, identidad y accesos, respaldos probados, ciberhigiene, datos, IA y FinOps<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

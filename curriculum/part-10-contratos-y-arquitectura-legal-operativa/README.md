@@ -2,7 +2,10 @@
 
 > *El contrato se lee empezando por el final*
 
+🟠 **Etapa 4 — El blindaje: contratos, datos y personas** · salida de la etapa: Operación contractual y laboral sin contingencias abiertas
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (127–140) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Anatomía contractual, servicios, suministro, NDA, propiedad intelectual, SLA, responsabilidad y salidas<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

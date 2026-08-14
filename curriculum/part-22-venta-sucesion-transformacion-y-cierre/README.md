@@ -2,7 +2,10 @@
 
 > *Una empresa vale lo que puede operar sin su fundador*
 
+⚫ **Etapa 6 — Crisis, salida y práctica integrada** · salida de la etapa: Caso completo defendido y capacidad de operar bajo estrés
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (295–308) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Transferibilidad, key-person risk, valoración, data room, asset o share deal, sucesión y cierre<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

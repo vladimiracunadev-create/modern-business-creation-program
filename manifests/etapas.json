@@ -1,0 +1,50 @@
+[
+  {
+    "etapa": 1,
+    "color": "🟢",
+    "nombre": "Antes de que la empresa exista",
+    "partes": [1, 2, 3, 4],
+    "promesa": "Para quien tiene una idea y ninguna estructura. Al terminarla sabes si el problema que elegiste sostiene un negocio, tienes evidencia de que alguien pagaría, un modelo de ingreso con su economía unitaria y una estrategia con criterios escritos para abandonarla si no funciona.",
+    "salida": "Tesis validada con evidencia primaria"
+  },
+  {
+    "etapa": 2,
+    "color": "🔵",
+    "nombre": "La empresa nace",
+    "partes": [5, 6, 7],
+    "promesa": "El bloque jurídico y tributario, en el orden en que ocurre de verdad. Al terminarla puedes elegir vehículo societario con criterio, redactar el pacto entre socios, constituir la sociedad, obtener el RUT y operar el ciclo del SII sin descubrir las obligaciones por multa.",
+    "salida": "Empresa constituida, con RUT y régimen elegido"
+  },
+  {
+    "etapa": 3,
+    "color": "🟣",
+    "nombre": "Los números que la sostienen",
+    "partes": [8, 9],
+    "promesa": "Donde se decide si la empresa sobrevive el primer año. Al terminarla lees los tres estados financieros, mantienes un flujo de caja de 13 semanas, fijas precio con un método defendible y sabes por qué una empresa rentable puede quedarse sin dinero.",
+    "salida": "Contabilidad que sirve para decidir y caja bajo control"
+  },
+  {
+    "etapa": 4,
+    "color": "🟠",
+    "nombre": "El blindaje: contratos, datos y personas",
+    "partes": [10, 11, 12],
+    "promesa": "Las tres materias que más contingencia generan cuando se improvisan. Al terminarla negocias contratos sabiendo dónde queda el riesgo, cumples el bloque de consumidor y datos personales, y contratas personas con la figura correcta y las obligaciones preventivas al día.",
+    "salida": "Operación contractual y laboral sin contingencias abiertas"
+  },
+  {
+    "etapa": 5,
+    "color": "🔴",
+    "nombre": "Operar, vender y crecer",
+    "partes": [13, 14, 15, 16, 17, 18, 19, 20],
+    "promesa": "La empresa funcionando. Al terminarla tienes procesos con dueño y control, un sistema comercial medible, un stack tecnológico proporcionado, financiamiento calzado al uso, los permisos sectoriales mapeados y un crecimiento que la caja puede financiar.",
+    "salida": "Empresa habilitada, operando y creciendo con control"
+  },
+  {
+    "etapa": 6,
+    "color": "⚫",
+    "nombre": "Crisis, salida y práctica integrada",
+    "partes": [21, 22, 23, 24],
+    "promesa": "Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla tienes plan de continuidad ensayado, sabes qué hacer ante una fuga de caja, entiendes cómo se vende o se cierra una empresa, y has llevado un caso propio de la tesis a la defensa ante un comité.",
+    "salida": "Caso completo defendido y capacidad de operar bajo estrés"
+  }
+]

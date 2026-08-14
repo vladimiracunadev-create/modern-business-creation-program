@@ -2,7 +2,10 @@
 
 > *Estar constituido y con inicio de actividades no habilita a operar*
 
+🔴 **Etapa 5 — Operar, vender y crecer** · salida de la etapa: Empresa habilitada, operando y creciendo con control
+
 **Estado de evidencia:** `SECTORIAL` · **Clases:** 14 (225–238) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Patente municipal, uso de suelo, sanitaria, DS 977, salud, obra, SEC, SUBTEL, SERNATUR y SEIA<br>
 **Conceptos definidos en esta parte:** 55
 
 ## 🎯 De qué trata esta parte

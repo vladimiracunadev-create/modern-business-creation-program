@@ -2,7 +2,10 @@
 
 > *Exportar agrega aduanas, moneda, logística y tributación internacional*
 
+🔴 **Etapa 5 — Operar, vender y crecer** · salida de la etapa: Empresa habilitada, operando y creciendo con control
+
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Clases:** 14 (239–252) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Preparación exportadora, Incoterms, clasificación arancelaria, DUS, IVA exportador, FX y entrada<br>
 **Conceptos definidos en esta parte:** 56
 
 ## 🎯 De qué trata esta parte

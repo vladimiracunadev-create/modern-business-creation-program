@@ -8,6 +8,7 @@ existentes y ausencia de texto de plantilla repetido entre clases.
 from __future__ import annotations
 
 import json
+import re
 import unittest
 from collections import Counter
 from pathlib import Path
@@ -115,6 +116,41 @@ class ManifiestosTest(unittest.TestCase):
         self.assertEqual([t for t, n in propositos.items() if n > 1], [])
         preguntas = Counter(p for e in self.pedagogia.values() for p in e["preguntas"])
         self.assertEqual([p for p, n in preguntas.items() if n > 1], [])
+
+    def test_etapas_cubren_las_partes_sin_solapes(self) -> None:
+        etapas = cargar("etapas.json")
+        cubiertas = [p for e in etapas for p in e["partes"]]
+        self.assertEqual(sorted(cubiertas), list(range(1, TOTAL_PARTES + 1)),
+                         "las etapas deben cubrir las 24 partes exactamente una vez")
+        for etapa in etapas:
+            with self.subTest(etapa=etapa["etapa"]):
+                # Consecutivas: una etapa con partes salteadas rompería el mapa
+                # del recorrido, que dibuja cada etapa como una cadena continua.
+                self.assertEqual(etapa["partes"],
+                                 list(range(etapa["partes"][0], etapa["partes"][-1] + 1)))
+                self.assertGreaterEqual(len(etapa["promesa"].split()), 30)
+                self.assertTrue(etapa["salida"])
+                self.assertTrue(etapa["color"])
+
+    def test_partes_tienen_temario_y_nombre_corto(self) -> None:
+        for parte in self.contenido:
+            with self.subTest(parte=parte["part"]):
+                self.assertGreaterEqual(len(parte["temario"].split()), 8)
+                # El nombre corto rotula los nodos del mapa: si crece, el
+                # diagrama deja de ser legible de un vistazo.
+                self.assertLessEqual(len(parte["corto"]), 20)
+
+    def test_bloque_de_partes_del_readme_generado(self) -> None:
+        readme = (RAIZ / "README.md").read_text(encoding="utf-8")
+        self.assertIn("<!-- partes:inicio -->", readme)
+        self.assertIn("<!-- partes:fin -->", readme)
+        bloque = readme.split("<!-- partes:inicio -->")[1].split("<!-- partes:fin -->")[0]
+        for etapa in cargar("etapas.json"):
+            self.assertIn(f"Etapa {etapa['etapa']} — {etapa['nombre']}", bloque)
+        # Una fila por parte: `| NN | [Título](...)`. Contar así y no por
+        # substring evita confundirlas con la columna de número de clases.
+        filas = re.findall(r"^\| (\d{2}) \| \[", bloque, re.M)
+        self.assertEqual([int(f) for f in filas], list(range(1, TOTAL_PARTES + 1)))
 
     def test_contenido_de_parte_completo(self) -> None:
         partes = {c["part"] for c in self.contenido}

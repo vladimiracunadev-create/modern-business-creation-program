@@ -2,7 +2,10 @@
 
 > *Financiar es elegir de quién depender*
 
+🔴 **Etapa 5 — Operar, vender y crecer** · salida de la etapa: Empresa habilitada, operando y creciendo con control
+
 **Estado de evidencia:** `DINAMICO` · **Clases:** 14 (211–224) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Bootstrapping, medios de pago, crédito, factoring, FOGAPE, Sercotec, Corfo, SAFE y dilución<br>
 **Conceptos definidos en esta parte:** 55
 
 ## 🎯 De qué trata esta parte

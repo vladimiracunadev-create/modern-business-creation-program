@@ -2,7 +2,10 @@
 
 > *Las empresas quiebran por caja, no por falta de utilidad contable*
 
+🟣 **Etapa 3 — Los números que la sostienen** · salida de la etapa: Contabilidad que sirve para decidir y caja bajo control
+
 **Estado de evidencia:** `GUIA-PRACTICA` · **Clases:** 14 (113–126) · **Fecha base normativa:** 07-08-2026<br>
+**Contenido central:** Presupuesto de arranque, flujo de 13 semanas, punto de equilibrio, pricing, CAC/LTV y reglas de caja<br>
 **Conceptos definidos en esta parte:** 55
 
 ## 🎯 De qué trata esta parte
