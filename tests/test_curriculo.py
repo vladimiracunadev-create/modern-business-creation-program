@@ -216,6 +216,23 @@ class ArbolTest(unittest.TestCase):
         changelog = (RAIZ / "CHANGELOG.md").read_text(encoding="utf-8")
         self.assertIn(f"## [{version}]", changelog)
 
+    def test_version_coincide_con_el_badge_del_readme(self) -> None:
+        version = (RAIZ / "VERSION").read_text(encoding="utf-8").strip()
+        readme = (RAIZ / "README.md").read_text(encoding="utf-8")
+        self.assertIn(f"badge/version-{version}-", readme,
+                      "el badge de versión del README quedó atrás respecto de VERSION")
+
+    def test_enlaces_al_manual_usan_el_alias_estable(self) -> None:
+        """El PDF versionado cambia de nombre en cada release y dejaría 404.
+
+        El sitio publica además `downloads/manual.pdf` apuntando a la última
+        versión; el README debe enlazar ese alias y no el archivo versionado.
+        """
+        readme = (RAIZ / "README.md").read_text(encoding="utf-8")
+        versionados = re.findall(r"downloads/[\w-]*manual-v[\d.]+\.pdf", readme)
+        self.assertEqual(versionados, [], f"enlaces versionados al manual: {versionados}")
+        self.assertIn("downloads/manual.pdf", readme)
+
 
 if __name__ == "__main__":
     unittest.main()

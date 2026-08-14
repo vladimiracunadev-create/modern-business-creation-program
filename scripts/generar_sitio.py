@@ -635,6 +635,12 @@ def main() -> int:
             copia = destino_descargas / pdf.relative_to(MANUALES)
             copia.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(pdf, copia)
+        # Alias estable a la última versión: el README y cualquier enlace externo
+        # apuntan aquí, así un cambio de versión no deja el enlace en 404.
+        version = (RAIZ / "VERSION").read_text(encoding="utf-8").strip()
+        vigente = destino_descargas / f"modern-business-creation-program-manual-v{version}.pdf"
+        if vigente.exists():
+            shutil.copy2(vigente, destino_descargas / "manual.pdf")
 
     activos = SALIDA / "assets"
     activos.mkdir()

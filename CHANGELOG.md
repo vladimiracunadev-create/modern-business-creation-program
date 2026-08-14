@@ -19,6 +19,11 @@ Versionado según [SemVer](https://semver.org/lang/es/).
   comandos equivalentes para correr los mismos validadores en local.
 - **Sección «Qué es y qué no es este programa»** a dos columnas, y cierre con la idea fuerza.
 - Cada README de parte muestra ahora a qué etapa pertenece, su salida y su contenido central.
+- **Cierre del README** al estilo del resto de los programas: bloque centrado con enlaces rápidos
+  —empezar por la clase 001, sitio, glosario, PDF y roadmap—, llamada a dar estrella y badges
+  sociales del repositorio.
+- **Alias estable `downloads/manual.pdf`** publicado por el sitio junto al PDF versionado, para
+  que los enlaces del README no queden en 404 al subir de versión.
 
 ### Cambiado
 

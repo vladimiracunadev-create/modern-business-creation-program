@@ -58,6 +58,7 @@ jobs:
       - name: Verificar que el manual llegó a las descargas
         run: |
           test -f site/downloads/modern-business-creation-program-manual-v$(cat VERSION).pdf
+          test -f site/downloads/manual.pdf
           partes=$(find site/downloads/partes -name '*.pdf' | wc -l)
           echo "PDF por parte publicados: $partes"
           test "$partes" -eq 24

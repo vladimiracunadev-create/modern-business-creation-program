@@ -23,7 +23,7 @@
 [![Ley 21.719](https://img.shields.io/badge/Ley%2021.719-1%20dic%202026-8e44ad?style=flat-square)](docs/17_2026_WATCHLIST.md)
 
 [🌐 **Sitio del programa**](https://vladimiracunadev-create.github.io/modern-business-creation-program/) ·
-[📕 **Manual completo en PDF**](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/modern-business-creation-program-manual-v1.2.0.pdf) ·
+[📕 **Manual completo en PDF**](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) ·
 [📚 Currículo completo](CURRICULUM.md) ·
 [🔤 Glosario](docs/19_GLOSSARY.md) ·
 [🗺️ Flujo maestro](docs/00_MASTER_FLOW.md) ·
@@ -176,7 +176,7 @@ Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla ti
 
 | Formato | Contenido | Enlace |
 |---|---|---|
-| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.548 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/modern-business-creation-program-manual-v1.2.0.pdf) |
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.548 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
 | PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
 | Sitio HTML | 426 páginas con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
 
@@ -348,7 +348,30 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 
 ## 📄 Licencia
 
-[MIT](LICENSE) — úsalo, modifícalo y compártelo. El conocimiento debe ser accesible.
+Código, documentación y contenido original bajo [MIT](LICENSE). Las normas, resoluciones y
+publicaciones de organismos públicos chilenos citadas como fuente conservan su propio régimen
+legal, y las obras de terceros referenciadas, los derechos de sus autores.
 
-Las normas, resoluciones y publicaciones de organismos públicos chilenos citadas como fuente
-conservan su propio régimen legal, y las obras de terceros referenciadas, los derechos de sus autores.
+---
+
+<div align="center">
+
+**Hecho para quien quiere entender la empresa completa, no solo el trámite de constituirla.**
+
+[⬆️ Empezar por la clase 001](curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-01-que-es-una-empresa-y-como-crea-valor/README.md) ·
+[🌐 Sitio de estudio](https://vladimiracunadev-create.github.io/modern-business-creation-program/) ·
+[📖 Glosario](docs/19_GLOSSARY.md) ·
+[📕 Programa completo en PDF](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) ·
+[🗺️ Roadmap](ROADMAP.md)
+
+<br>
+
+**¿Te resulta útil? ⭐ Dale una estrella al repo.**
+
+[![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/modern-business-creation-program?style=social)](https://github.com/vladimiracunadev-create/modern-business-creation-program/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vladimiracunadev-create/modern-business-creation-program?style=social)](https://github.com/vladimiracunadev-create/modern-business-creation-program/network/members)
+[![Follow](https://img.shields.io/github/followers/vladimiracunadev-create?style=social&label=Follow)](https://github.com/vladimiracunadev-create)
+
+Hecho con 🧠 y ☕ por [Vladimir Acuña](https://github.com/vladimiracunadev-create)
+
+</div>
