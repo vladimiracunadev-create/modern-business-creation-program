@@ -155,13 +155,13 @@ Toma el modelo de la parte 03 y le añade defensa y dirección. Entrega a la par
 ## 🏛️ Fuentes oficiales de la parte
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+<https://www.bcn.cl/leychile/> · verificado 2026-08-19
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 
 **Corporación de Fomento de la Producción — Innovación, inversión y garantías**  
-<https://www.corfo.cl/> · verificado 2026-08-07
+<https://www.corfo.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.

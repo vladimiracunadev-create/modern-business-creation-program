@@ -144,16 +144,18 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Instituto Nacional de Propiedad Industrial — Marcas, patentes y diseños industriales**  
-<https://www.inapi.cl/> · verificado 2026-08-07
+<https://www.inapi.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Administra el registro de marcas, patentes, diseños e indicaciones geográficas, y ofrece el buscador público de solicitudes y registros vigentes por clase.
 - *Cómo leerla:* Empieza siempre por el buscador de anterioridades y por clases, no por el formulario de solicitud. Una marca disponible en tu clase puede estar tomada en la clase donde realmente operas, y eso solo se ve buscando por actividad.
+- *Uso en esta clase:* aporta el marco de «Marcas, patentes y diseños industriales» para definir el mensaje central y asegurar su consistencia y protección.
 
 **Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
-<https://www.sernac.cl/> · verificado 2026-08-07
+<https://www.sernac.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir el mensaje central y asegurar su consistencia y protección.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

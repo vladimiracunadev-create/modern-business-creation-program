@@ -153,25 +153,25 @@ Aplica en bloque las partes 03, 07, 09, 11, 17 y 19. Sirve de banco de casos par
 ## 🏛️ Fuentes oficiales de la parte
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-07
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-08-19
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 
 **Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
-<https://www.sernac.cl/> · verificado 2026-08-07
+<https://www.sernac.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 
 **ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos**  
-<https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> · verificado 2026-08-07
+<https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> · verificado 2026-08-19
 
 - *Qué contiene:* Detalla qué establecimientos requieren autorización sanitaria, qué antecedentes se presentan, qué condiciones de planta física se exigen y cuál es la vigencia del permiso.
 - *Cómo leerla:* Léela antes de firmar el arriendo, no después: las exigencias de planta física —separación de áreas, superficies lavables, agua potable— se resuelven en el diseño y se vuelven carísimas de corregir sobre un local ya construido.
 
 **Comisión para el Mercado Financiero — Registro de Prestadores de Servicios Financieros · Ley 21.521**  
-<https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-18591.html> · verificado 2026-08-07
+<https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html> · verificado 2026-08-19
 
 - *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
 - *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
@@ -183,19 +183,19 @@ Aplica en bloque las partes 03, 07, 09, 11, 17 y 19. Sirve de banco de casos par
 - *Cómo leerla:* Contrástala siempre con la resolución del SII aplicable: ProChile explica el concepto y el mercado, pero la calificación que habilita el tratamiento de IVA la resuelve la normativa tributaria.
 
 **Superintendencia de Electricidad y Combustibles — Instalaciones eléctricas y de gas**  
-<https://www.sec.cl/> · verificado 2026-08-07
+<https://www.sec.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Regula la ejecución y declaración de instalaciones eléctricas y de gas, el registro de instaladores autorizados y las exigencias de seguridad de productos energéticos.
 - *Cómo leerla:* Verifica la licencia del instalador antes de contratar y exige la declaración como entregable del trabajo: sin ella no hay empalme, y un siniestro sobre instalación no declarada compromete la cobertura del seguro.
 
 **Servicio Nacional de Capacitación y Empleo — OTEC, franquicia tributaria y cursos**  
-<https://sence.gob.cl/> · verificado 2026-08-07
+<https://sence.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Regula el reconocimiento de organismos técnicos de capacitación, el registro de cursos y el uso de la franquicia tributaria que permite a las empresas descontar capacitación.
 - *Cómo leerla:* Separa dos decisiones que la página presenta juntas: ser OTEC reconocido y usar la franquicia. La segunda solo existe si tienes la primera, y arrastra exigencias estrictas de registro de asistencia y ejecución.
 
 **Servicio Nacional de Turismo — Registro de prestadores de servicios turísticos**  
-<https://www.sernatur.cl/> · verificado 2026-08-07
+<https://www.sernatur.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Administra el registro obligatorio de prestadores de servicios turísticos, las categorías de servicio y las normas técnicas aplicables, en particular al turismo aventura.
 - *Cómo leerla:* Si tu actividad es turismo aventura, ve directo a las normas técnicas de seguridad: definen personal, equipamiento y procedimientos, y su incumplimiento es el riesgo mayor del modelo.

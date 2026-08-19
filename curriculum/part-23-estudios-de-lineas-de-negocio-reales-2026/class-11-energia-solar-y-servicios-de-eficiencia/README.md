@@ -144,16 +144,18 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Superintendencia de Electricidad y Combustibles — Instalaciones eléctricas y de gas**  
-<https://www.sec.cl/> · verificado 2026-08-07
+<https://www.sec.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Regula la ejecución y declaración de instalaciones eléctricas y de gas, el registro de instaladores autorizados y las exigencias de seguridad de productos energéticos.
 - *Cómo leerla:* Verifica la licencia del instalador antes de contratar y exige la declaración como entregable del trabajo: sin ella no hay empalme, y un siniestro sobre instalación no declarada compromete la cobertura del seguro.
+- *Uso en esta clase:* aporta el marco de «Instalaciones eléctricas y de gas» para definir el modelo de cobro y asegurar el cumplimiento técnico y normativo.
 
 **Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
-<https://www.sernac.cl/> · verificado 2026-08-07
+<https://www.sernac.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir el modelo de cobro y asegurar el cumplimiento técnico y normativo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -146,10 +146,11 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Subsecretaría de Telecomunicaciones — Concesiones y permisos de telecomunicaciones**  
-<https://www.subtel.gob.cl/> · verificado 2026-08-07
+<https://www.subtel.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Detalla qué servicios de telecomunicaciones requieren concesión, permiso o licencia, y el procedimiento y plazos de cada figura.
 - *Cómo leerla:* Califica tu servicio por su naturaleza técnica, no por cómo lo llamas comercialmente. Revender conectividad o instalar redes para terceros suele exigir habilitación aunque el negocio se presente como servicio digital.
+- *Uso en esta clase:* aporta el marco de «Concesiones y permisos de telecomunicaciones» para determinar si la actividad requiere habilitación de SUBTEL y de qué tipo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

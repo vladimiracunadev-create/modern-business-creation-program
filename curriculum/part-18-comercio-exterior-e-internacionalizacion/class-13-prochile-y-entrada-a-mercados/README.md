@@ -145,16 +145,18 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **ProChile — Programas, estudios de mercado y promoción**  
-<https://www.prochile.gob.cl/> · verificado 2026-08-07
+<https://www.prochile.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
+- *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para definir el mercado objetivo y la estrategia de entrada con apoyo institucional.
 
 **ProChile — Exportación de servicios**  
 <https://www.prochile.gob.cl/exportadores/exportacion-de-servicios> · verificado 2026-08-07
 
 - *Qué contiene:* Explica qué se entiende por exportación de servicios, qué condiciones deben cumplirse para acceder al tratamiento tributario correspondiente y qué documentación de respaldo se exige.
 - *Cómo leerla:* Contrástala siempre con la resolución del SII aplicable: ProChile explica el concepto y el mercado, pero la calificación que habilita el tratamiento de IVA la resuelve la normativa tributaria.
+- *Uso en esta clase:* aporta el marco de «Exportación de servicios» para definir el mercado objetivo y la estrategia de entrada con apoyo institucional.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

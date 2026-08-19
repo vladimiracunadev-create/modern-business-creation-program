@@ -144,10 +144,11 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
-<https://www.dt.gob.cl/> · verificado 2026-08-07
+<https://www.dt.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
+- *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir qué cargos se abren, en qué orden y con qué gatillo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

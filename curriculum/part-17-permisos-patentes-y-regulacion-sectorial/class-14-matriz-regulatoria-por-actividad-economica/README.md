@@ -146,46 +146,53 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos**  
-<https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> · verificado 2026-08-07
+<https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> · verificado 2026-08-19
 
 - *Qué contiene:* Detalla qué establecimientos requieren autorización sanitaria, qué antecedentes se presentan, qué condiciones de planta física se exigen y cuál es la vigencia del permiso.
 - *Cómo leerla:* Léela antes de firmar el arriendo, no después: las exigencias de planta física —separación de áreas, superficies lavables, agua potable— se resuelven en el diseño y se vuelven carísimas de corregir sobre un local ya construido.
+- *Uso en esta clase:* aporta el marco de «Autorización sanitaria de alimentos» para construir la matriz regulatoria completa de la actividad y mantenerla vigente.
 
 **Superintendencia de Electricidad y Combustibles — Instalaciones eléctricas y de gas**  
-<https://www.sec.cl/> · verificado 2026-08-07
+<https://www.sec.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Regula la ejecución y declaración de instalaciones eléctricas y de gas, el registro de instaladores autorizados y las exigencias de seguridad de productos energéticos.
 - *Cómo leerla:* Verifica la licencia del instalador antes de contratar y exige la declaración como entregable del trabajo: sin ella no hay empalme, y un siniestro sobre instalación no declarada compromete la cobertura del seguro.
+- *Uso en esta clase:* aporta el marco de «Instalaciones eléctricas y de gas» para construir la matriz regulatoria completa de la actividad y mantenerla vigente.
 
 **Subsecretaría de Telecomunicaciones — Concesiones y permisos de telecomunicaciones**  
-<https://www.subtel.gob.cl/> · verificado 2026-08-07
+<https://www.subtel.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Detalla qué servicios de telecomunicaciones requieren concesión, permiso o licencia, y el procedimiento y plazos de cada figura.
 - *Cómo leerla:* Califica tu servicio por su naturaleza técnica, no por cómo lo llamas comercialmente. Revender conectividad o instalar redes para terceros suele exigir habilitación aunque el negocio se presente como servicio digital.
+- *Uso en esta clase:* aporta el marco de «Concesiones y permisos de telecomunicaciones» para construir la matriz regulatoria completa de la actividad y mantenerla vigente.
 
 **Servicio Nacional de Turismo — Registro de prestadores de servicios turísticos**  
-<https://www.sernatur.cl/> · verificado 2026-08-07
+<https://www.sernatur.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Administra el registro obligatorio de prestadores de servicios turísticos, las categorías de servicio y las normas técnicas aplicables, en particular al turismo aventura.
 - *Cómo leerla:* Si tu actividad es turismo aventura, ve directo a las normas técnicas de seguridad: definen personal, equipamiento y procedimientos, y su incumplimiento es el riesgo mayor del modelo.
+- *Uso en esta clase:* aporta el marco de «Registro de prestadores de servicios turísticos» para construir la matriz regulatoria completa de la actividad y mantenerla vigente.
 
 **Servicio Nacional de Capacitación y Empleo — OTEC, franquicia tributaria y cursos**  
-<https://sence.gob.cl/> · verificado 2026-08-07
+<https://sence.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Regula el reconocimiento de organismos técnicos de capacitación, el registro de cursos y el uso de la franquicia tributaria que permite a las empresas descontar capacitación.
 - *Cómo leerla:* Separa dos decisiones que la página presenta juntas: ser OTEC reconocido y usar la franquicia. La segunda solo existe si tienes la primera, y arrastra exigencias estrictas de registro de asistencia y ejecución.
+- *Uso en esta clase:* aporta el marco de «OTEC, franquicia tributaria y cursos» para construir la matriz regulatoria completa de la actividad y mantenerla vigente.
 
 **Servicio de Evaluación Ambiental — Sistema de Evaluación de Impacto Ambiental**  
-<https://www.sea.gob.cl/> · verificado 2026-08-07
+<https://www.sea.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Define qué proyectos deben ingresar al SEIA según su tipología y magnitud, la diferencia entre declaración y estudio de impacto, y publica las resoluciones de calificación ambiental otorgadas.
 - *Cómo leerla:* Consulta primero la tipología del reglamento para saber si ingresas; y si ingresas, lee resoluciones de proyectos parecidos: sus condiciones te anticipan las obligaciones permanentes que tendrás.
+- *Uso en esta clase:* aporta el marco de «Sistema de Evaluación de Impacto Ambiental» para construir la matriz regulatoria completa de la actividad y mantenerla vigente.
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+<https://www.bcn.cl/leychile/> · verificado 2026-08-19
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para construir la matriz regulatoria completa de la actividad y mantenerla vigente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -146,22 +146,25 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Evaluación Ambiental — Sistema de Evaluación de Impacto Ambiental**  
-<https://www.sea.gob.cl/> · verificado 2026-08-07
+<https://www.sea.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Define qué proyectos deben ingresar al SEIA según su tipología y magnitud, la diferencia entre declaración y estudio de impacto, y publica las resoluciones de calificación ambiental otorgadas.
 - *Cómo leerla:* Consulta primero la tipología del reglamento para saber si ingresas; y si ingresas, lee resoluciones de proyectos parecidos: sus condiciones te anticipan las obligaciones permanentes que tendrás.
+- *Uso en esta clase:* aporta el marco de «Sistema de Evaluación de Impacto Ambiental» para determinar si el proyecto debe ingresar al SEIA y bajo qué modalidad.
 
 **Superintendencia del Medio Ambiente — Fiscalización y sanción ambiental**  
 <https://portal.sma.gob.cl/> · verificado 2026-08-07
 
 - *Qué contiene:* Fiscaliza el cumplimiento de las resoluciones de calificación ambiental y de las normas de emisión, y publica procedimientos sancionatorios y programas de cumplimiento.
 - *Cómo leerla:* Revisa los procedimientos sancionatorios de tu sector: muestran qué incumplimientos se persiguen en la práctica y con qué evidencia, que es más útil que la lectura general de la norma.
+- *Uso en esta clase:* aporta el marco de «Fiscalización y sanción ambiental» para determinar si el proyecto debe ingresar al SEIA y bajo qué modalidad.
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-08-07
+<https://www.bcn.cl/leychile/> · verificado 2026-08-19
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar si el proyecto debe ingresar al SEIA y bajo qué modalidad.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -144,16 +144,18 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Registro de Empresas y Sociedades / ChileAtiende — Constitución de empresas**  
-<https://www.chileatiende.gob.cl/fichas/21409-tu-empresa> · verificado 2026-08-07
+<https://www.chileatiende.gob.cl/fichas/21409-tu-empresa> · verificado 2026-08-19
 
 - *Qué contiene:* Describe el régimen simplificado de la Ley 20.659: qué tipos societarios admite el formulario electrónico, quiénes deben firmar, qué documentos entrega el sistema y cómo se hacen después las modificaciones.
 - *Cómo leerla:* Entra por el tipo societario que ya elegiste, no al revés. La ficha dice qué campos pide el formulario; si tu estatuto necesita una cláusula que el formulario no soporta, la respuesta es la ruta notarial.
+- *Uso en esta clase:* aporta el marco de «Constitución de empresas» para definir razón social, nombre de fantasía y objeto verificando disponibilidad marcaria.
 
 **Instituto Nacional de Propiedad Industrial — Marcas, patentes y diseños industriales**  
-<https://www.inapi.cl/> · verificado 2026-08-07
+<https://www.inapi.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Administra el registro de marcas, patentes, diseños e indicaciones geográficas, y ofrece el buscador público de solicitudes y registros vigentes por clase.
 - *Cómo leerla:* Empieza siempre por el buscador de anterioridades y por clases, no por el formulario de solicitud. Una marca disponible en tu clase puede estar tomada en la clase donde realmente operas, y eso solo se ve buscando por actividad.
+- *Uso en esta clase:* aporta el marco de «Marcas, patentes y diseños industriales» para definir razón social, nombre de fantasía y objeto verificando disponibilidad marcaria.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

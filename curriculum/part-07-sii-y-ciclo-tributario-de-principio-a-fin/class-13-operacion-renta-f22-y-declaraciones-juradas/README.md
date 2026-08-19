@@ -145,16 +145,18 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Formulario 22 y Operación Renta**  
-<https://www.sii.cl/ayudas/formularios/3094-form22-3097.html> · verificado 2026-08-07
+<https://www.sii.cl/ayudas/formularios/3094-form22-3097.html> · verificado 2026-08-19
 
 - *Qué contiene:* Publica el formulario anual de renta, sus instrucciones línea por línea y las declaraciones juradas que deben presentarse antes de él.
 - *Cómo leerla:* Empieza por el calendario de declaraciones juradas, no por el formulario: una jurada omitida genera observación y retiene la devolución aunque el F22 esté bien.
+- *Uso en esta clase:* aporta el marco de «Formulario 22 y Operación Renta» para preparar el cierre anual y las declaraciones juradas antes del período de Operación Renta.
 
 **Servicio de Impuestos Internos — Regímenes tributarios · Operación Renta 2026**  
-<https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-08-07
+<https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-08-19
 
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
+- *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para preparar el cierre anual y las declaraciones juradas antes del período de Operación Renta.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

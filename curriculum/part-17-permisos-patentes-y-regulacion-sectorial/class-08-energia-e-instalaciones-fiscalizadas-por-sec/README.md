@@ -146,10 +146,11 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Superintendencia de Electricidad y Combustibles — Instalaciones eléctricas y de gas**  
-<https://www.sec.cl/> · verificado 2026-08-07
+<https://www.sec.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Regula la ejecución y declaración de instalaciones eléctricas y de gas, el registro de instaladores autorizados y las exigencias de seguridad de productos energéticos.
 - *Cómo leerla:* Verifica la licencia del instalador antes de contratar y exige la declaración como entregable del trabajo: sin ella no hay empalme, y un siniestro sobre instalación no declarada compromete la cobertura del seguro.
+- *Uso en esta clase:* aporta el marco de «Instalaciones eléctricas y de gas» para asegurar que las instalaciones estén ejecutadas y declaradas conforme a la normativa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

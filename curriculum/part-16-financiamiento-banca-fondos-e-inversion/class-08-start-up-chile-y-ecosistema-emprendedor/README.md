@@ -144,16 +144,18 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Start-Up Chile · CORFO — Aceleración de startups**  
-<https://startupchile.org/> · verificado 2026-08-07
+<https://startupchile.org/> · verificado 2026-08-19
 
 - *Qué contiene:* Describe los programas de aceleración, sus cohortes, el aporte que entregan y las contrapartidas exigidas en permanencia, reporte y actividades.
 - *Cómo leerla:* Evalúa el programa por la red y la validación que aporta, no por el monto. La contrapartida de permanencia tiene costo operativo real y debe compararse contra lo que la empresa necesita en su etapa.
+- *Uso en esta clase:* aporta el marco de «Aceleración de startups» para determinar si el programa aporta lo que la empresa necesita en esta etapa.
 
 **Corporación de Fomento de la Producción — Innovación, inversión y garantías**  
-<https://www.corfo.cl/> · verificado 2026-08-07
+<https://www.corfo.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
+- *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para determinar si el programa aporta lo que la empresa necesita en esta etapa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

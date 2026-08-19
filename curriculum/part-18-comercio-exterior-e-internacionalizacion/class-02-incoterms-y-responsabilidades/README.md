@@ -145,10 +145,11 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria**  
-<https://www.aduana.cl/> · verificado 2026-08-07
+<https://www.aduana.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Publica el arancel aduanero con la clasificación del Sistema Armonizado, los regímenes de importación y exportación, la documentación exigida y las estadísticas de comercio exterior.
 - *Cómo leerla:* La partida arancelaria decide arancel, certificaciones y acuerdos aplicables. Ante duda, usa el mecanismo de consulta de clasificación en vez de decidir por parecido de nombre: el error se paga en diferencias y multas.
+- *Uso en esta clase:* aporta el marco de «Importación, exportación y clasificación arancelaria» para elegir el Incoterm coherente con la capacidad logística de la empresa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

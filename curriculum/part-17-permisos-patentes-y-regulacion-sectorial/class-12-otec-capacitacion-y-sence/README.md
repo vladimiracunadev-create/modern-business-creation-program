@@ -146,10 +146,11 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio Nacional de Capacitación y Empleo — OTEC, franquicia tributaria y cursos**  
-<https://sence.gob.cl/> · verificado 2026-08-07
+<https://sence.gob.cl/> · verificado 2026-08-19
 
 - *Qué contiene:* Regula el reconocimiento de organismos técnicos de capacitación, el registro de cursos y el uso de la franquicia tributaria que permite a las empresas descontar capacitación.
 - *Cómo leerla:* Separa dos decisiones que la página presenta juntas: ser OTEC reconocido y usar la franquicia. La segunda solo existe si tienes la primera, y arrastra exigencias estrictas de registro de asistencia y ejecución.
+- *Uso en esta clase:* aporta el marco de «OTEC, franquicia tributaria y cursos» para determinar si conviene operar como OTEC y qué exige el reconocimiento.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
