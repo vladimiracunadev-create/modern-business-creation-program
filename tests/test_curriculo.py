@@ -30,7 +30,9 @@ class ManifiestosTest(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.curriculo = cargar("curriculum.json")
         cls.packs = cargar("part_packs.json")
-        cls.fuentes = cargar("official_sources.json")
+        cls.fuentes = json.loads(
+            (MANIFESTS.parent / "sources" / "bibliography.json").read_text(encoding="utf-8")
+        )["entries"]
         cls.contenido = json.loads((MANIFESTS / "part_content.json").read_text(encoding="utf-8"))
         cls.clases = {}
         for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
@@ -75,7 +77,7 @@ class ManifiestosTest(unittest.TestCase):
         self.assertEqual(repetidas, [], "hay decisiones duplicadas entre clases")
 
     def test_fuentes_citadas_existen(self) -> None:
-        conocidas = {f["id"] for f in self.fuentes}
+        conocidas = {f["manifest_id"] for f in self.fuentes}
         for entrada in self.clases.values():
             with self.subTest(clase=entrada["n"]):
                 self.assertLessEqual(set(entrada.get("fuentes", [])), conocidas)
@@ -86,16 +88,16 @@ class ManifiestosTest(unittest.TestCase):
 
     def test_fuentes_usan_https(self) -> None:
         for fuente in self.fuentes:
-            with self.subTest(fuente=fuente["id"]):
-                self.assertTrue(fuente["url"].startswith("https://"))
+            with self.subTest(fuente=fuente["manifest_id"]):
+                self.assertTrue(fuente["locator"].startswith("https://"))
 
     def test_fuentes_estan_explicadas(self) -> None:
         """Una fuente enlazada sin explicar obliga a adivinar qué parte importa."""
         for fuente in self.fuentes:
-            with self.subTest(fuente=fuente["id"]):
-                self.assertGreaterEqual(len(fuente["que_dice"].split()), 15)
+            with self.subTest(fuente=fuente["manifest_id"]):
+                self.assertGreaterEqual(len(fuente["que_contiene"].split()), 15)
                 self.assertGreaterEqual(len(fuente["como_leerla"].split()), 15)
-                self.assertRegex(fuente["verificado"], r"^\d{4}-\d{2}-\d{2}$")
+                self.assertRegex(fuente["accessed"], r"^\d{4}-\d{2}-\d{2}$")
 
     def test_pedagogia_completa_por_clase(self) -> None:
         for numero in self.clases:

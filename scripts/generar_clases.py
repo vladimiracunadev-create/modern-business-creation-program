@@ -7,7 +7,7 @@ Fuentes de verdad:
   manifests/part_content.json      -> narrativa, diagrama y lecturas por parte (24)
   manifests/classes/*.json         -> contenido operativo por clase (336)
   manifests/pedagogia/*.json       -> propósito, desarrollo y preguntas por clase (336)
-  manifests/official_sources.json  -> catálogo de fuentes con qué dice y cómo leerla
+  sources/bibliography.json        -> registro de fuentes: localizador, uso y fecha por fuente
 
 Salida:
   curriculum/part-NN-<slug>/class-NN-<slug>/README.md
@@ -92,7 +92,8 @@ def cargar_datos():
     packs = {p["part"]: p for p in cargar_json(MANIFESTS / "part_packs.json")}
     for extra in cargar_json(MANIFESTS / "part_content.json"):
         packs[extra["part"]].update(extra)
-    fuentes = {f["id"]: f for f in cargar_json(MANIFESTS / "official_sources.json")}
+    registro = cargar_json(RAIZ / "sources" / "bibliography.json")
+    fuentes = {f["manifest_id"]: f for f in registro["entries"]}
     etapas = cargar_json(MANIFESTS / "etapas.json")
 
     especificas = cargar_carpeta(MANIFESTS / "classes")
@@ -122,23 +123,45 @@ def ruta_clase(clase: dict) -> Path:
     return carpeta / f"class-{clase['class']:02d}-{slug(clase['title'])}"
 
 
-def bloque_fuentes(ids: list[str], fuentes: dict) -> str:
-    """Renderiza las fuentes explicando qué dicen y cómo leerlas.
+def fuentes_de_clase(spec: dict, pack: dict) -> list[str]:
+    """Resuelve qué fuentes cita una clase: las propias o el trío de su parte.
+
+    Vive aquí y no duplicada en el verificador porque es la regla que decide el
+    `used_in` del registro: si las dos copias divergieran, el registro diría que
+    una fuente se usa donde ya no se usa.
+    """
+    return spec.get("fuentes") or pack["fuentes"][:3]
+
+
+def bloque_fuentes(ids: list[str], fuentes: dict, decision: str | None = None) -> str:
+    """Renderiza las fuentes explicando qué dicen, cómo leerlas y para qué sirven aquí.
 
     Enlazar una fuente sin explicarla obliga a quien estudia a descubrir por su
     cuenta qué parte del sitio importa; por eso cada entrada trae el contenido y
-    la instrucción de lectura.
+    la instrucción de lectura. Cuando la clase aporta su decisión se declara
+    además el uso concreto que esa clase hace de la fuente: dos clases que citan
+    la misma obra rara vez la citan para lo mismo.
+
+    La fecha mostrada es la de la fuente (`accessed` en el registro) y no una
+    fecha global del programa: cada organismo se revalida por separado.
     """
     bloques = []
     for identificador in ids:
         fuente = fuentes.get(identificador)
         if fuente is None:
             raise SystemExit(f"ERROR: fuente desconocida '{identificador}'")
+        uso = (
+            f"\n- *Uso en esta clase:* aporta el marco de «{fuente['title']}» "
+            f"para {decision}."
+            if decision
+            else ""
+        )
         bloques.append(
-            f"**{fuente['entity']} — {fuente['topic']}**  \n"
-            f"<{fuente['url']}> · verificado {fuente['verificado']}\n\n"
-            f"- *Qué contiene:* {fuente['que_dice']}\n"
+            f"**{fuente['authority']} — {fuente['title']}**  \n"
+            f"<{fuente['locator']}> · verificado {fuente['accessed']}\n\n"
+            f"- *Qué contiene:* {fuente['que_contiene']}\n"
             f"- *Cómo leerla:* {fuente['como_leerla']}"
+            f"{uso}"
         )
     return "\n\n".join(bloques)
 
@@ -171,7 +194,7 @@ def render_clase(clase: dict, pack: dict, spec: dict, fuentes: dict,
                  anterior: dict | None, siguiente: dict | None) -> str:
     numero = clase["global_class"]
     total_parte = pack["_total_clases"]
-    ids_fuentes = spec.get("fuentes") or pack["fuentes"][:3]
+    ids_fuentes = fuentes_de_clase(spec, pack)
 
     conceptos = "\n".join(
         f"| **{termino}** | {definicion.capitalize()}. |" for termino, definicion in spec["conceptos"]
@@ -325,7 +348,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## 🔗 Fuentes oficiales
 
-{bloque_fuentes(ids_fuentes, fuentes)}
+{bloque_fuentes(ids_fuentes, fuentes, spec["decision"])}
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

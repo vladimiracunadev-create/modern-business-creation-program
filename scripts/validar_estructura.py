@@ -6,7 +6,7 @@ Comprueba:
   2. que exista una carpeta y un README por cada clase declarada, y ninguno de más;
   3. que cada README de clase tenga todas las secciones obligatorias;
   4. que todos los enlaces relativos de los .md apunten a archivos existentes;
-  5. que las URL del catálogo de fuentes sean https.
+  5. que los localizadores del registro de fuentes sean https.
 
 Salida: lista de errores y código 1, o "OK" y código 0.
 """
@@ -78,7 +78,7 @@ def main() -> int:
 
     curriculo = cargar("curriculum.json")
     packs = cargar("part_packs.json")
-    fuentes = cargar("official_sources.json")
+    fuentes = json.loads((RAIZ / "sources" / "bibliography.json").read_text(encoding="utf-8"))["entries"]
 
     contenido_clases: dict[int, dict] = {}
     for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
@@ -111,7 +111,7 @@ def main() -> int:
     if sobrantes:
         errores.append(f"contenido específico sin clase asociada: {sobrantes[:10]}")
 
-    ids_fuentes = {f["id"] for f in fuentes}
+    ids_fuentes = {f["manifest_id"] for f in fuentes}
     for entrada in contenido_clases.values():
         desconocidas = set(entrada.get("fuentes", [])) - ids_fuentes
         if desconocidas:
@@ -169,8 +169,10 @@ def main() -> int:
     if len(fuentes) < 20:
         errores.append(f"catálogo de fuentes demasiado pequeño ({len(fuentes)})")
     for fuente in fuentes:
-        if not fuente["url"].startswith("https://"):
-            errores.append(f"fuente {fuente['id']}: URL no https -> {fuente['url']}")
+        if not fuente["locator"].startswith("https://"):
+            errores.append(
+                f"fuente {fuente['manifest_id']}: localizador no https -> {fuente['locator']}"
+            )
 
     if errores:
         print(f"FALLÓ la validación con {len(errores)} error(es):")
