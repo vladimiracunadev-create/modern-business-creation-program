@@ -280,40 +280,86 @@ def cifras(entradas: list[dict], conteo: dict, registro: dict) -> dict:
     }
 
 
-def bloque_readme(c: dict) -> str:
+def bloque_readme(c: dict, entradas: list[dict]) -> str:
+    """Publica las fuentes que gobiernan el programa, no solo su recuento.
+
+    El listado se ordena por número de citas: las primeras filas son las obras
+    rectoras, las que sostienen la mayor parte del material. Un recuento sin las
+    fuentes no permite comprobar nada, que es justo lo contrario de lo que este
+    registro existe para conseguir.
+    """
     fecha = c["verified_on"] or "sin revalidar"
     color = "blue" if c["verified_on"] else "lightgrey"
     insignia = (
         "![Fuentes revalidadas](https://img.shields.io/badge/"
         f"fuentes%20revalidadas-{str(fecha).replace('-', '--')}-{color})"
     )
+
+    citadas = sorted(
+        (e for e in entradas if e.get("used_in")),
+        key=lambda e: (-len(e["used_in"]), e["authority"], e["title"]),
+    )
+    filas = [
+        "| Fuente | Organismo | Citas | Estado | Resolvió |",
+        "|---|---|---:|:---:|---|",
+    ]
+    for e in citadas:
+        estado = "✅" if e["status"] == "verificada" else "⚠️"
+        filas.append(
+            f"| [{e['title']}]({e['locator']}) | {e['authority']} | "
+            f"{len(e['used_in'])} | {estado} | {e['accessed']} |"
+        )
+    tabla = "\n".join(filas)
+
+    pendientes = [e for e in citadas if e["status"] == "pendiente"]
+    aviso = ""
+    if pendientes:
+        detalle = "\n".join(
+            f"- **{e['authority']} — {e['title']}** · `{e.get('last_error', 'sin detalle')}`  \n"
+            f"  Sigue citada y conserva su última fecha buena ({e['accessed']}). No se ha borrado."
+            for e in pendientes
+        )
+        aviso = (
+            f"\n⚠️ **{len(pendientes)} fuente(s) no resolvieron en la última pasada:**\n\n"
+            f"{detalle}\n"
+        )
+
+    sin_uso = [e for e in entradas if not e.get("used_in")]
+    nota_sin_uso = ""
+    if sin_uso:
+        nombres = " · ".join(f"{e['authority']}" for e in sin_uso)
+        nota_sin_uso = (
+            f"\nEl registro guarda además **{len(sin_uso)} fuentes catalogadas que ninguna clase "
+            f"cita todavía** ({nombres}). Se conservan con el motivo declarado en vez de "
+            "eliminarlas.\n"
+        )
+
     return f"""
 ## \U0001f517 Fuentes y revalidación
 
 {insignia}
 
 Toda afirmación del programa se apoya en una entrada del registro
-[`sources/bibliography.json`](sources/bibliography.json). Cada entrada declara su localizador, el
-organismo que responde por ella y la fecha en que se comprobó, de modo que **cada clase muestra la
-fecha de su propia fuente** y no una fecha global del programa.
+[`sources/bibliography.json`](sources/bibliography.json), que declara para cada fuente su
+localizador, el organismo que responde por ella y la fecha en que se comprobó. Por eso **cada clase
+muestra la fecha de su propia fuente** y no una fecha global del programa.
 
-| Registro de fuentes | Recuento |
-|---|---:|
-| Entradas en el registro | {c['total']} |
-| Citadas por una clase o parte | {c['usadas']} |
-| Citadas y resueltas en la última revalidación | {c['resueltas']}/{c['usadas']} |
-| Localizadores distintos | {c['localizadores']} |
-| Pendientes de resolver | {c['pendientes']} |
-| Declaradas sin uso, con motivo | {c['sin_uso']} |
-| Clases con bloque de fuentes | {c['con_bloque']}/{c['clases']} |
-| Bloques de fuentes distintos | {c['distintos']} |
+Estas son las **{len(citadas)} fuentes citadas** por las {c['clases']} clases y las 24 partes,
+ordenadas por peso en el material. Las primeras son las que gobiernan el programa: la normativa
+consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor parte de las citas.
 
-Última revalidación: **{fecha}**. La comprobación en red la ejecuta
-[`scripts/refresh-sources`](scripts/refresh-sources) una vez al mes y **no bloquea el CI**; el
-control que sí bloquea es [`scripts/verify-sources`](scripts/verify-sources), que no toca la red.
+{tabla}
+{aviso}{nota_sin_uso}
+Última revalidación: **{fecha}** · {c['resueltas']}/{c['usadas']} fuentes citadas resolvieron ·
+{c['distintos']}/{c['clases']} bloques de fuentes distintos, uno por clase.
+
+La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al
+mes y **no bloquea el CI**; el control que sí bloquea es
+[`scripts/verify-sources`](scripts/verify-sources), que no toca la red.
 
 > [!NOTE]
-> Estas cifras las escribe `python scripts/verify-sources --escribir`. No se editan a mano.
+> Esta tabla y sus cifras las escribe `python scripts/verify-sources --escribir` desde el registro.
+> No se editan a mano.
 """
 
 
@@ -324,14 +370,14 @@ def tabla_catalogo(entradas: list[dict]) -> str:
     del registro: enlazaba direcciones distintas para las mismas fuentes.
     """
     filas = [
-        "| Fuente | Tema | Localizador | Estado | Comprobada | Citas |",
+        "| Fuente | Tema | Localizador | Estado | Resolvió | Citas |",
         "|---|---|---|---|---:|---:|",
     ]
     for e in sorted(entradas, key=lambda x: (x["authority"], x["title"])):
         estado = "✅ verificada" if e["status"] == "verificada" else "⚠️ pendiente"
         filas.append(
             f"| {e['authority']} | {e['title']} | <{e['locator']}> | "
-            f"{estado} | {e.get('last_checked', e['accessed'])} | {len(e.get('used_in') or [])} |"
+            f"{estado} | {e['accessed']} | {len(e.get('used_in') or [])} |"
         )
     pendientes = [e for e in entradas if e["status"] == "pendiente"]
     aviso = ""
@@ -372,14 +418,14 @@ def sincronizar_catalogo(entradas: list[dict], escribir: bool, errores: list[str
         )
 
 
-def sincronizar_readme(c: dict, escribir: bool, errores: list[str]) -> None:
+def sincronizar_readme(c: dict, entradas: list[dict], escribir: bool, errores: list[str]) -> None:
     texto = README.read_text(encoding="utf-8")
     if MARCA_INICIO not in texto or MARCA_FIN not in texto:
         errores.append(f"README.md: faltan los marcadores {MARCA_INICIO} / {MARCA_FIN}")
         return
     antes, resto = texto.split(MARCA_INICIO, 1)
     _, despues = resto.split(MARCA_FIN, 1)
-    nuevo = antes + MARCA_INICIO + bloque_readme(c) + MARCA_FIN + despues
+    nuevo = antes + MARCA_INICIO + bloque_readme(c, entradas) + MARCA_FIN + despues
     if nuevo == texto:
         return
     if escribir:
@@ -438,7 +484,7 @@ def main() -> int:
     conteo = comprobar_bloques(errores)
     c = cifras(entradas, conteo, registro)
     sincronizar_catalogo(entradas, args.escribir, errores)
-    sincronizar_readme(c, args.escribir, errores)
+    sincronizar_readme(c, entradas, args.escribir, errores)
 
     print(f"Registro:    {c['total']} entradas · {c['localizadores']} localizadores distintos")
     print(f"Uso:         {c['usadas']} citadas · {c['sin_uso']} declaradas sin uso")
