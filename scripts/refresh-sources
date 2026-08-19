@@ -51,14 +51,24 @@ def normalizar(texto: str) -> str:
 
 
 def pedir(url: str, metodo: str = "GET") -> tuple[int | None, str | None, bytes]:
-    """Devuelve (código, error, cuerpo). Nunca lanza: el fallo es un dato más."""
+    """Devuelve (código, error, cuerpo). Nunca lanza: el fallo es un dato más.
+
+    Solo se abre `https://`. El registro ya lo exige y `verify-sources` lo
+    bloquea, pero la restricción se repite aquí porque este es el punto donde una
+    entrada con `file://` o un esquema propio dejaría de ser una cita y pasaría a
+    ser una lectura del disco de quien ejecuta el script.
+    """
+    if not url.startswith("https://"):
+        return None, f"esquema no permitido, solo https -> {url[:60]!r}", b""
+
     ultimo = "sin intentos"
     for intento in range(REINTENTOS + 1):
         peticion = urllib.request.Request(
             url, method=metodo, headers={"User-Agent": AGENTE, "Accept": "*/*"}
         )
         try:
-            with urllib.request.urlopen(peticion, timeout=TIEMPO_LIMITE) as respuesta:
+            # B310 queda cubierto: la guarda de arriba restringe el esquema a https.
+            with urllib.request.urlopen(peticion, timeout=TIEMPO_LIMITE) as respuesta:  # nosec B310
                 return respuesta.status, None, respuesta.read(65536)
         except urllib.error.HTTPError as exc:
             # 4xx no mejora reintentando; 5xx puede ser una caída pasajera.

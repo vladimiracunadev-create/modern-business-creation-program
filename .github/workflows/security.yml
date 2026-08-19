@@ -49,10 +49,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install "bandit==1.8.6"
 
-      # -ll reporta solo severidad media y alta: los scripts son generadores de
-      # texto sin red ni subprocesos, y el ruido de bajo nivel esconde lo real.
+      # -ll reporta solo severidad media y alta: el ruido de bajo nivel esconde
+      # lo real. `refresh-sources` sí sale a la red, así que su acceso HTTP está
+      # restringido a https en el propio código.
       - name: Escaneo de los scripts
         run: bandit -q -r scripts tests -ll
+
+      # `bandit -r` solo recorre archivos *.py, y estos dos no llevan extensión:
+      # sin nombrarlos explícitamente el escaneo los saltaría en silencio y el
+      # job saldría verde sin haber mirado el único script que abre sockets.
+      - name: Escaneo de los scripts sin extensión
+        run: bandit -q -ll scripts/verify-sources scripts/refresh-sources
 
   dependencias:
     name: Superficie de dependencias
