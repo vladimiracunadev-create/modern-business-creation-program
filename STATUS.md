@@ -12,8 +12,8 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Partes | 24 |
 | Clases | 336 |
 | Clases por parte | 14 |
-| Palabras totales del currículo | 419.186 |
-| Palabras por clase | 1.116–1.617 (mediana 1.239) |
+| Palabras totales del currículo | 436.795 |
+| Palabras por clase | 1.143–1.798 (mediana 1.290) |
 | Diagramas mermaid | 360 (uno por clase + uno por parte) |
 | Conceptos con definición operacional | 1.344 |
 | Términos del glosario maestro | 1.251 |
@@ -25,9 +25,9 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Manuales transversales (`docs/`) | 20 |
 | Casos de líneas de negocio (`case-studies/`) | 20 |
 | Plantillas operativas (`templates/`) | 24 |
-| Fuentes oficiales catalogadas | 32 (con qué contienen y cómo leerlas) |
+| Fuentes en el registro | 32 (28 citadas · 30 verificadas · 2 pendientes) |
 | Cuerpos normativos mapeados | 53 |
-| Fecha base normativa | 07-08-2026 |
+| Revalidación de fuentes | por fuente (`accessed` en `sources/bibliography.json`); última pasada 2026-08-19 |
 
 ## Publicación
 
@@ -35,9 +35,9 @@ sección final; el CI vuelve a comprobarlas en cada push.
 |---|---:|
 | Páginas del sitio HTML | 426 |
 | Enlaces internos verificados en el sitio | 26.400+ |
-| Manual integral en PDF | 1.548 páginas · ~3,9 MB |
+| Manual integral en PDF | 1.549 páginas · ~4,0 MB |
 | PDF por parte | 24 · ~63 páginas cada uno |
-| Workflows de CI | 3 |
+| Workflows de CI | 4 |
 | Dependencias de terceros | 2, fijadas a versión exacta |
 
 ## Cobertura por estado de evidencia

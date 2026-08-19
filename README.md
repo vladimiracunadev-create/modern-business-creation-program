@@ -64,7 +64,7 @@ responsable y qué evidencia debe quedar**.
 |---|---|
 | Currículo | ✅ 336/336 clases generadas desde manifiesto |
 | Contenido por clase | ✅ propósito, conceptos, desarrollo en tres bloques, taller, reto, errores y preguntas propias |
-| Profundidad | ✅ 1.116–1.617 palabras por clase (mediana 1.239), 419.186 palabras totales |
+| Profundidad | ✅ 1.143–1.798 palabras por clase (mediana 1.290), 436.795 palabras totales |
 | Diagramas | ✅ 360 diagramas mermaid: uno por clase y uno por parte |
 | Conceptos definidos | ✅ 1.344 definiciones operacionales · glosario maestro de 1.251 términos |
 | Preguntas de comprobación | ✅ 1.008 (3 por clase) |
@@ -73,7 +73,7 @@ responsable y qué evidencia debe quedar**.
 | Casos sectoriales | ✅ 20 líneas de negocio 2026 |
 | Plantillas operativas | ✅ 24 artefactos editables |
 | Fuentes oficiales | ✅ registro con localizador, uso y fecha por fuente — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
-| Manual en PDF | ✅ 1.548 páginas + 24 PDF por parte |
+| Manual en PDF | ✅ 1.549 páginas + 24 PDF por parte |
 | Sitio HTML | ✅ 426 páginas con buscador, diagramas y tema claro/oscuro |
 | CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
 | Licencia | ✅ MIT |
@@ -205,7 +205,7 @@ Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla ti
 
 | Formato | Contenido | Enlace |
 |---|---|---|
-| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.548 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.549 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
 | PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
 | Sitio HTML | 426 páginas con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
 
@@ -342,7 +342,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 🔗 contenido con **fuente citada, explicada y fechada**: cada una dice qué contiene y cómo leerla;
 - 🗺️ **360 diagramas** que muestran el flujo de decisión, no ilustraciones decorativas;
 - 🔍 material **honesto sobre sus límites**: distingue lo verificado de lo dinámico y marca qué revalidar;
-- 📖 material **abierto y offline-friendly**: manual de 1.548 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
+- 📖 material **abierto y offline-friendly**: manual de 1.549 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
 
 </td>
 <td valign="top" width="50%">
