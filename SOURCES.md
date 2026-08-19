@@ -17,7 +17,7 @@ una fuente de nivel inferior cuando existe una superior se considera un defecto 
 ## Catálogo
 
 El catálogo completo, con identificador, organismo, tema y URL, vive en
-[`manifests/official_sources.json`](manifests/official_sources.json) y se publica en
+[`sources/bibliography.json`](sources/bibliography.json) y se publica en
 [`docs/16_OFFICIAL_SOURCE_CATALOG.md`](docs/16_OFFICIAL_SOURCE_CATALOG.md).
 
 Cada clase declara las fuentes que le corresponden; el validador comprueba que todo identificador
@@ -41,7 +41,21 @@ se considera estable:
 
 Antes de ejecutar cualquier trámite real, hay que abrir la fuente y confirmar que sigue vigente.
 
-## Fecha de corte
+## Fecha de verificación
 
-**07-08-2026.** Los cambios normativos posteriores a esa fecha no están incorporados; el
-seguimiento de lo que viene está en [`docs/17_2026_WATCHLIST.md`](docs/17_2026_WATCHLIST.md).
+Ya no hay una única fecha de corte para todo el programa. Cada fuente lleva **su propia fecha**:
+`accessed` en [`sources/bibliography.json`](sources/bibliography.json) es el día en que esa fuente
+resolvió por última vez, y es esa fecha —no una global— la que aparece junto a la fuente en cada
+clase. Una fuente que deja de resolver conserva su última fecha buena y pasa a `pendiente`.
+
+La revalidación tiene dos capas separadas a propósito:
+
+| Script | Red | Cuándo | ¿Bloquea? |
+|---|---|---|---|
+| [`scripts/verify-sources`](scripts/verify-sources) | no | en cada push y PR | **sí**, es parte del CI |
+| [`scripts/refresh-sources`](scripts/refresh-sources) | sí | mensual y a mano | **no**, abre issue |
+
+Se mantienen separadas porque un CI que se pone rojo cuando un organismo está de mantención acaba
+ignorándose. El control determinista bloquea; el que depende de terceros informa.
+
+Lo que viene en normativa sigue en [`docs/17_2026_WATCHLIST.md`](docs/17_2026_WATCHLIST.md).

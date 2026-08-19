@@ -12,7 +12,7 @@ Los `README.md` de `curriculum/` **se generan**. Editarlos a mano hace fallar el
 | El contenido de una clase | `manifests/classes/parts-NN-NN.json` (entrada con `"n"` = número global) |
 | El marco normativo, riesgos o fuentes de una parte | `manifests/part_packs.json` |
 | El título o la posición de una clase | `manifests/curriculum.json` |
-| Una fuente oficial | `manifests/official_sources.json` |
+| Una fuente oficial | `sources/bibliography.json` (después: `python scripts/verify-sources --escribir`) |
 | La plantilla con que se renderiza una clase | `scripts/generar_clases.py` |
 
 Después de editar:

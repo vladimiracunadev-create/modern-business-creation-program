@@ -79,7 +79,8 @@ grep -rl '```mermaid' curriculum | wc -l
 
 # Términos del glosario y fuentes
 grep -c '^| \*\*' docs/19_GLOSSARY.md
-python -c "import json;print(len(json.load(open('manifests/official_sources.json',encoding='utf-8'))))"
+python -c "import json;print(len(json.load(open('sources/bibliography.json',encoding='utf-8'))['entries']))"
+python scripts/verify-sources
 
 # Páginas del sitio y del manual
 python scripts/generar_sitio.py && find site -name '*.html' | wc -l

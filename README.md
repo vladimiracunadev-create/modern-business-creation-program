@@ -72,13 +72,42 @@ responsable y qué evidencia debe quedar**.
 | Manuales transversales | ✅ 20 documentos en `docs/` |
 | Casos sectoriales | ✅ 20 líneas de negocio 2026 |
 | Plantillas operativas | ✅ 24 artefactos editables |
-| Fuentes oficiales | ✅ 32 fuentes con qué contienen y cómo leerlas |
+| Fuentes oficiales | ✅ registro con localizador, uso y fecha por fuente — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
 | Manual en PDF | ✅ 1.548 páginas + 24 PDF por parte |
 | Sitio HTML | ✅ 426 páginas con buscador, diagramas y tema claro/oscuro |
 | CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
 | Licencia | ✅ MIT |
 
 Detalle completo en [`STATUS.md`](STATUS.md).
+
+<!-- fuentes:inicio -->
+## 🔗 Fuentes y revalidación
+
+![Fuentes revalidadas](https://img.shields.io/badge/fuentes%20revalidadas-2026--08--19-blue)
+
+Toda afirmación del programa se apoya en una entrada del registro
+[`sources/bibliography.json`](sources/bibliography.json). Cada entrada declara su localizador, el
+organismo que responde por ella y la fecha en que se comprobó, de modo que **cada clase muestra la
+fecha de su propia fuente** y no una fecha global del programa.
+
+| Registro de fuentes | Recuento |
+|---|---:|
+| Entradas en el registro | 32 |
+| Citadas por una clase o parte | 28 |
+| Citadas y resueltas en la última revalidación | 26/28 |
+| Localizadores distintos | 32 |
+| Pendientes de resolver | 2 |
+| Declaradas sin uso, con motivo | 4 |
+| Clases con bloque de fuentes | 336/336 |
+| Bloques de fuentes distintos | 336 |
+
+Última revalidación: **2026-08-19**. La comprobación en red la ejecuta
+[`scripts/refresh-sources`](scripts/refresh-sources) una vez al mes y **no bloquea el CI**; el
+control que sí bloquea es [`scripts/verify-sources`](scripts/verify-sources), que no toca la red.
+
+> [!NOTE]
+> Estas cifras las escribe `python scripts/verify-sources --escribir`. No se editan a mano.
+<!-- fuentes:fin -->
 
 <!-- partes:inicio -->
 ## 🗂️ Las 24 partes, en 6 etapas
