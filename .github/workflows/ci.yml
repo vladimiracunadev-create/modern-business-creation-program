@@ -34,6 +34,12 @@ jobs:
       - name: Estructura, secciones obligatorias y enlaces internos
         run: python scripts/validar_estructura.py
 
+      # Offline a propósito: comprueba el registro de fuentes, su uso y las cifras
+      # publicadas sin tocar la red. La revalidación en red vive en sources.yml y
+      # no bloquea, para que la caída de un organismo no deje el CI en rojo.
+      - name: Registro de fuentes coherente y cifras al día
+        run: python scripts/verify-sources
+
       - name: Codificación UTF-8 sin BOM ni mojibake
         run: python scripts/validar_encoding.py
 

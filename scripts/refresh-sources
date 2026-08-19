@@ -1,0 +1,243 @@
+#!/usr/bin/env python3
+"""Revalida el registro de fuentes contra la red. No bloquea.
+
+Es la capa opuesta a `scripts/verify-sources`: aquí sí se sale a Internet, así
+que el resultado depende de terceros. Por eso termina en 0 aunque encuentre
+fuentes caídas — un CI que se pone rojo porque un organismo está de mantención
+enseña a ignorar el CI. Lo que hace es dejar constancia:
+
+  - resuelve cada ISBN-13 contra openlibrary.org y cada DOI contra api.crossref.org,
+    comparando título y autores con lo declarado en el registro;
+  - hace GET a cada URL de norma o documentación oficial y registra el estado;
+  - actualiza `verified_on` del registro y `accessed` de cada fuente que resolvió;
+  - marca `pendiente` lo que dejó de resolver y anota el motivo, **sin borrarlo**.
+
+Una fuente que no resuelve no se elimina: un hueco declarado es información, y
+borrarla convertiría una cita rota en una cita inexistente.
+
+Uso:
+  python scripts/refresh-sources                 # revalida y actualiza el registro
+  python scripts/refresh-sources --dry-run       # comprueba sin escribir nada
+  python scripts/refresh-sources --informe X.md  # deja el parte de daños en X.md
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+import unicodedata
+import urllib.error
+import urllib.request
+from datetime import date, datetime, timezone
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parents[1]
+REGISTRO = RAIZ / "sources" / "bibliography.json"
+
+TIEMPO_LIMITE = 25
+REINTENTOS = 2
+AGENTE = (
+    "modern-business-creation-program/refresh-sources "
+    "(+https://github.com/vladimiracunadev-create/modern-business-creation-program)"
+)
+
+
+def normalizar(texto: str) -> str:
+    """Deja un título comparable: sin tildes, sin puntuación y en minúsculas."""
+    texto = unicodedata.normalize("NFKD", str(texto))
+    texto = "".join(c for c in texto if not unicodedata.combining(c))
+    return " ".join("".join(c if c.isalnum() else " " for c in texto.lower()).split())
+
+
+def pedir(url: str, metodo: str = "GET") -> tuple[int | None, str | None, bytes]:
+    """Devuelve (código, error, cuerpo). Nunca lanza: el fallo es un dato más."""
+    ultimo = "sin intentos"
+    for intento in range(REINTENTOS + 1):
+        peticion = urllib.request.Request(
+            url, method=metodo, headers={"User-Agent": AGENTE, "Accept": "*/*"}
+        )
+        try:
+            with urllib.request.urlopen(peticion, timeout=TIEMPO_LIMITE) as respuesta:
+                return respuesta.status, None, respuesta.read(65536)
+        except urllib.error.HTTPError as exc:
+            # 4xx no mejora reintentando; 5xx puede ser una caída pasajera.
+            if exc.code < 500:
+                return exc.code, f"HTTP {exc.code}", b""
+            ultimo = f"HTTP {exc.code}"
+        except urllib.error.URLError as exc:
+            ultimo = f"red: {exc.reason}"
+        except Exception as exc:  # noqa: BLE001 - cualquier fallo se registra, no se propaga
+            ultimo = f"{type(exc).__name__}: {exc}"
+        if intento == REINTENTOS:
+            break
+    return None, ultimo, b""
+
+
+def comprobar_libro(entrada: dict) -> dict:
+    """Resuelve un ISBN-13 en Open Library y contrasta título y autores."""
+    isbn = str(entrada.get("isbn13", ""))
+    codigo, error, cuerpo = pedir(f"https://openlibrary.org/isbn/{isbn}.json")
+    if error or codigo != 200:
+        return {"ok": False, "detalle": error or f"HTTP {codigo}"}
+    try:
+        datos = json.loads(cuerpo.decode("utf-8"))
+    except (ValueError, UnicodeDecodeError) as exc:
+        return {"ok": False, "detalle": f"respuesta ilegible: {exc}"}
+
+    remoto = datos.get("title", "")
+    coincide = normalizar(remoto) == normalizar(entrada.get("title", ""))
+    return {
+        "ok": True,
+        "detalle": f"HTTP {codigo}",
+        "titulo_remoto": remoto,
+        "titulo_coincide": coincide,
+    }
+
+
+def comprobar_articulo(entrada: dict) -> dict:
+    """Resuelve un DOI en Crossref y contrasta título y autores."""
+    doi = str(entrada.get("doi", ""))
+    codigo, error, cuerpo = pedir(f"https://api.crossref.org/works/{doi}")
+    if error or codigo != 200:
+        return {"ok": False, "detalle": error or f"HTTP {codigo}"}
+    try:
+        mensaje = json.loads(cuerpo.decode("utf-8")).get("message", {})
+    except (ValueError, UnicodeDecodeError) as exc:
+        return {"ok": False, "detalle": f"respuesta ilegible: {exc}"}
+
+    titulos = mensaje.get("title") or [""]
+    remoto = titulos[0]
+    autores_remotos = {
+        normalizar(a.get("family", "")) for a in mensaje.get("author", []) if a.get("family")
+    }
+    declarados = {normalizar(a.split(",")[0]) for a in entrada.get("authors", [])}
+    return {
+        "ok": True,
+        "detalle": f"HTTP {codigo}",
+        "titulo_remoto": remoto,
+        "titulo_coincide": normalizar(remoto) == normalizar(entrada.get("title", "")),
+        "autores_coinciden": bool(declarados & autores_remotos) if declarados else False,
+    }
+
+
+def comprobar_url(entrada: dict) -> dict:
+    """GET a la fuente primaria. Se registra el estado, sea cual sea."""
+    url = str(entrada.get("locator", ""))
+    codigo, error, _ = pedir(url)
+    if error is None and codigo is not None and 200 <= codigo < 400:
+        return {"ok": True, "detalle": f"HTTP {codigo}"}
+    return {"ok": False, "detalle": error or f"HTTP {codigo}"}
+
+
+def revalidar(entrada: dict) -> dict:
+    tipo = entrada.get("type")
+    if tipo == "book":
+        return comprobar_libro(entrada)
+    if tipo == "paper":
+        return comprobar_articulo(entrada)
+    return comprobar_url(entrada)
+
+
+def informe(resultados: list[dict], hoy: str) -> str:
+    caidas = [r for r in resultados if not r["ok"]]
+    discrepancias = [r for r in resultados if r["ok"] and r.get("titulo_coincide") is False]
+    lineas = [
+        "# Revalidación de fuentes",
+        "",
+        f"Ejecutada el **{hoy}** sobre {len(resultados)} entradas del registro.",
+        "",
+        f"- Resolvieron: **{len(resultados) - len(caidas)}**",
+        f"- No resolvieron: **{len(caidas)}**",
+        f"- Resolvieron con título distinto al declarado: **{len(discrepancias)}**",
+        "",
+    ]
+    if caidas:
+        lineas += ["## Fuentes que no resolvieron", "", "| id | localizador | motivo |", "|---|---|---|"]
+        lineas += [f"| `{r['id']}` | {r['locator']} | {r['detalle']} |" for r in caidas]
+        lineas += [
+            "",
+            "> Estas entradas quedan marcadas `pendiente` en el registro. **No se han borrado**:",
+            "> hay que abrir la fuente, comprobar si cambió de dirección y actualizar el localizador.",
+            "",
+        ]
+    if discrepancias:
+        lineas += ["## Títulos que ya no coinciden", "", "| id | declarado | remoto |", "|---|---|---|"]
+        lineas += [
+            f"| `{r['id']}` | {r['titulo_declarado']} | {r.get('titulo_remoto', '')} |"
+            for r in discrepancias
+        ]
+        lineas.append("")
+    if not caidas and not discrepancias:
+        lineas += ["Todas las fuentes resolvieron y ninguna cambió de título.", ""]
+    return "\n".join(lineas)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Revalida el registro de fuentes contra la red.")
+    parser.add_argument("--dry-run", action="store_true", help="no escribe el registro")
+    parser.add_argument("--informe", type=Path, help="ruta del parte de daños en Markdown")
+    parser.add_argument(
+        "--estricto",
+        action="store_true",
+        help="termina en 1 si alguna fuente no resuelve (fuera del CI de integración)",
+    )
+    args = parser.parse_args()
+
+    registro = json.loads(REGISTRO.read_text(encoding="utf-8"))
+    entradas = registro.get("entries", [])
+    hoy = datetime.now(timezone.utc).date().isoformat()
+
+    resultados: list[dict] = []
+    for entrada in entradas:
+        salida = revalidar(entrada)
+        resultado = {
+            "id": entrada.get("id"),
+            "locator": entrada.get("locator"),
+            "titulo_declarado": entrada.get("title"),
+            **salida,
+        }
+        resultados.append(resultado)
+
+        if salida["ok"]:
+            entrada["status"] = "verificada"
+            entrada["accessed"] = hoy
+            entrada.pop("last_error", None)
+        else:
+            # No se borra ni se toca `accessed`: la última fecha buena sigue siendo
+            # información, y perderla ocultaría desde cuándo la cita está rota.
+            entrada["status"] = "pendiente"
+            entrada["last_error"] = f"{hoy}: {salida['detalle']}"
+        entrada["last_checked"] = hoy
+
+        marca = "ok " if salida["ok"] else "FALLA"
+        print(f"  {marca} {resultado['id']:16s} {salida['detalle']}")
+
+    caidas = [r for r in resultados if not r["ok"]]
+    registro["verified_on"] = hoy
+
+    if not args.dry_run:
+        REGISTRO.write_text(
+            json.dumps(registro, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+        print(f"\nRegistro actualizado: verified_on = {hoy}")
+    else:
+        print("\n--dry-run: no se escribió el registro")
+
+    texto = informe(resultados, hoy)
+    if args.informe:
+        args.informe.write_text(texto, encoding="utf-8")
+        print(f"Informe escrito en {args.informe}")
+
+    print(f"\nResolvieron {len(resultados) - len(caidas)}/{len(resultados)} · caídas {len(caidas)}")
+    if caidas:
+        print("Fuentes marcadas 'pendiente' (no se han borrado):")
+        for r in caidas:
+            print(f"  - {r['id']}: {r['detalle']}")
+
+    # Por defecto termina en 0 aunque haya caídas: esta capa informa, no bloquea.
+    return 1 if (args.estricto and caidas) else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

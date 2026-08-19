@@ -1,0 +1,93 @@
+name: Fuentes
+
+# Dos capas separadas a propósito:
+#   - `verify-sources` es offline y determinista: vive en ci.yml y bloquea.
+#   - `refresh-sources` sale a la red: vive aquí, corre una vez al mes y NO bloquea.
+# Si la comprobación en red entrara en el CI, la mantención de cualquier organismo
+# chileno dejaría el repositorio en rojo y el CI acabaría ignorándose.
+
+on:
+  schedule:
+    # 06:00 UTC del día 1 de cada mes.
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fuentes
+  cancel-in-progress: false
+
+jobs:
+  revalidar:
+    name: Revalidar el registro de fuentes
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      # `refresh-sources` termina en 0 aunque haya fuentes caídas: lo que interesa
+      # de este paso es el informe, no el código de salida.
+      - name: Revalidar contra la red
+        run: python scripts/refresh-sources --informe informe-fuentes.md
+
+      - name: Propagar las fechas al currículo, al catálogo y al README
+        run: |
+          python scripts/generar_clases.py
+          python scripts/verify-sources --escribir
+
+      # El control determinista sí tiene que quedar en verde después de refrescar:
+      # si el registro quedó incoherente, el fallo es del repositorio, no de la red.
+      - name: Comprobar la coherencia del registro
+        run: python scripts/verify-sources
+
+      - name: Abrir PR con el registro actualizado
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then
+            echo "Sin cambios: ninguna fecha ni estado se movió."
+            exit 0
+          fi
+          fecha="$(date -u +%Y-%m-%d)"
+          rama="fuentes/revalidacion-${fecha}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$rama"
+          git add -A ':!informe-fuentes.md'
+          git commit -m "chore(fuentes): revalidación mensual del registro (${fecha})"
+          git push --force origin "$rama"
+          gh pr create --base main --head "$rama" \
+            --title "Revalidación mensual de fuentes (${fecha})" \
+            --body-file informe-fuentes.md || \
+          gh pr edit "$rama" --body-file informe-fuentes.md
+
+      # Se abre issue solo cuando algo dejó de resolver. Una fuente caída no se
+      # borra del registro: queda `pendiente` y alguien tiene que mirarla.
+      - name: Abrir issue si alguna fuente dejó de resolver
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          caidas=$(python -c "import json;d=json.load(open('sources/bibliography.json',encoding='utf-8'));print(sum(1 for e in d['entries'] if e['status']=='pendiente'))")
+          echo "Fuentes pendientes: $caidas"
+          if [ "$caidas" -eq 0 ]; then
+            echo "Todas resolvieron: no hay nada que reportar."
+            exit 0
+          fi
+          fecha="$(date -u +%Y-%m-%d)"
+          titulo="Fuentes que dejaron de resolver (${fecha}): ${caidas}"
+          gh issue create --title "$titulo" --body-file informe-fuentes.md
+
+      - name: Adjuntar el informe al resumen del run
+        if: always()
+        run: cat informe-fuentes.md >> "$GITHUB_STEP_SUMMARY" || true
