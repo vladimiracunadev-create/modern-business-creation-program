@@ -151,7 +151,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Uso en esta clase:* aporta el marco de «Autorización sanitaria de alimentos» para definir los indicadores de servicio y su método de cálculo.
 
 **Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
-<https://www.sernac.cl/> · verificado 2026-08-19
+<https://www.sernac.cl/> · verificado 2026-09-01
 
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
