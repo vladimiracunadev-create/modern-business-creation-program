@@ -146,7 +146,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio Nacional de Turismo — Registro de prestadores de servicios turísticos**  
-<https://www.sernatur.cl/> · verificado 2026-08-19
+<https://www.sernatur.cl/> · verificado 2026-09-01
 
 - *Qué contiene:* Administra el registro obligatorio de prestadores de servicios turísticos, las categorías de servicio y las normas técnicas aplicables, en particular al turismo aventura.
 - *Cómo leerla:* Si tu actividad es turismo aventura, ve directo a las normas técnicas de seguridad: definen personal, equipamiento y procedimientos, y su incumplimiento es el riesgo mayor del modelo.

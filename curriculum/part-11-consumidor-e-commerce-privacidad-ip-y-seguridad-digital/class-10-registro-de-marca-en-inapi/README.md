@@ -146,7 +146,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Instituto Nacional de Propiedad Industrial — Marcas, patentes y diseños industriales**  
-<https://www.inapi.cl/> · verificado 2026-08-19
+<https://www.inapi.cl/> · verificado 2026-09-01
 
 - *Qué contiene:* Administra el registro de marcas, patentes, diseños e indicaciones geográficas, y ofrece el buscador público de solicitudes y registros vigentes por clase.
 - *Cómo leerla:* Empieza siempre por el buscador de anterioridades y por clases, no por el formulario de solicitud. Una marca disponible en tu clase puede estar tomada en la clase donde realmente operas, y eso solo se ve buscando por actividad.

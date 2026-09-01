@@ -145,7 +145,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Regímenes tributarios · Operación Renta 2026**  
-<https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-08-19
+<https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-09-01
 
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.

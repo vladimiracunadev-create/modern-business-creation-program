@@ -145,7 +145,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **ProChile — Programas, estudios de mercado y promoción**  
-<https://www.prochile.gob.cl/> · verificado 2026-08-19
+<https://www.prochile.gob.cl/> · verificado 2026-09-01
 
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.

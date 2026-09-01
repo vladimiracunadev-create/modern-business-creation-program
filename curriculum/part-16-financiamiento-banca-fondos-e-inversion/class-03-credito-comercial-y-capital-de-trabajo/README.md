@@ -144,14 +144,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Carpeta Tributaria Electrónica**  
-<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-08-19
+<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-09-01
 
 - *Qué contiene:* Permite generar el expediente que acredita la situación tributaria de la empresa: inicio de actividades, régimen, declaraciones presentadas y timbraje.
 - *Cómo leerla:* Es el documento que pedirán banco, inversionista y comprador. Genera una hoy aunque no la necesites: lo que muestre es exactamente lo que verá un tercero al evaluarte.
 - *Uso en esta clase:* aporta el marco de «Carpeta Tributaria Electrónica» para preparar la carpeta bancaria y evaluar las condiciones antes de aceptar.
 
 **Comisión para el Mercado Financiero — Registro de Prestadores de Servicios Financieros · Ley 21.521**  
-<https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html> · verificado 2026-08-19
+<https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html> · verificado 2026-09-01
 
 - *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
 - *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
