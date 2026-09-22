@@ -22,7 +22,7 @@ para identificación tampoco implican patrocinio del organismo correspondiente.
 | Componente | Uso en el proyecto | Régimen del tercero |
 |---|---|---|
 | [ReportLab 5.0.0](https://pypi.org/project/reportlab/5.0.0/) | Generación de los manuales PDF | BSD; copyright de ReportLab Inc. y sus contribuyentes |
-| [pypdf 6.16.0](https://pypi.org/project/pypdf/6.16.0/) | Verificación de los PDF generados | BSD-3-Clause; titulares y contribuyentes de pypdf |
+| [pypdf 6.18.0](https://pypi.org/project/pypdf/6.18.0/) | Verificación de los PDF generados | BSD-3-Clause; titulares y contribuyentes de pypdf |
 | [Mermaid 11.12.0](https://github.com/mermaid-js/mermaid/tree/v11.12.0) | Renderizado de diagramas en el sitio mediante jsDelivr | MIT; copyright de Knut Sveidqvist y contribuyentes |
 | [Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) | Inspiración declarada de `CODE_OF_CONDUCT.md` | Texto y atribución del proyecto Contributor Covenant; el documento local es una adaptación |
 

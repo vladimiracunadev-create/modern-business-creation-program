@@ -12,6 +12,8 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 - Se documentan el uso comercial, las marcas, los componentes de terceros y el historial de la
   transición, preservando las concesiones MIT de las revisiones publicadas hasta `c8a17b9`.
 - El README, las contribuciones y el manual generado muestran el nuevo alcance de forma expresa.
+- `pypdf` se actualiza a 6.18.0 para corregir las alertas `PYSEC-2026-3910` y
+  `PYSEC-2026-3911` detectadas por `pip-audit` en el workflow de seguridad.
 
 ## [1.2.0] — 2026-08-13
 
