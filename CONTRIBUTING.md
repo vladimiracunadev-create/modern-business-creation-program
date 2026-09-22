@@ -3,6 +3,21 @@
 Gracias por querer mejorar este programa. Las reglas de abajo existen para que el material siga
 siendo verificable y no se degrade en opiniones sin respaldo.
 
+## Licencia de las contribuciones
+
+Al enviar una contribución, declaras que tienes derecho a aportarla y aceptas que se publique
+bajo la licencia correspondiente a su naturaleza:
+
+- código, pruebas, workflows, configuración y componentes de software: [MIT](LICENSE);
+- contenido educativo, currículo, casos, guías, plantillas, checklists, metodologías y datos
+  curriculares originales: [CC BY-NC-SA 4.0](LICENSE-CONTENT.md);
+- un aporte mixto: cada parte queda bajo la licencia de su categoría.
+
+El material de terceros debe identificar titular, fuente y licencia o base jurídica. Las normas,
+formularios y publicaciones oficiales no se relicencian: conservan su régimen y atribución
+originales. Consulta [los avisos de terceros](THIRD_PARTY_NOTICES.md) antes de incorporar una
+obra ajena.
+
 ## Regla número uno: el contenido vive en `manifests/`
 
 Los `README.md` de `curriculum/` **se generan**. Editarlos a mano hace fallar el CI.

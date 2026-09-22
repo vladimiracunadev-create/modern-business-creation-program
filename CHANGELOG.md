@@ -3,6 +3,16 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado según [SemVer](https://semver.org/lang/es/).
 
+## [Sin publicar]
+
+### Cambiado
+
+- Se adopta un modelo de licencias por material: MIT para código y CC BY-NC-SA 4.0 para el
+  contenido educativo, las plantillas y las metodologías originales.
+- Se documentan el uso comercial, las marcas, los componentes de terceros y el historial de la
+  transición, preservando las concesiones MIT de las revisiones publicadas hasta `c8a17b9`.
+- El README, las contribuciones y el manual generado muestran el nuevo alcance de forma expresa.
+
 ## [1.2.0] — 2026-08-13
 
 ### Añadido

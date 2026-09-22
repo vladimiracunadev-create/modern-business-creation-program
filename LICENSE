@@ -1,3 +1,15 @@
+# Software License (MIT)
+
+This license applies to the software code in this repository, including the
+generators, validators, tests, workflows, configuration, and the software
+portions of the generated website, except where a file or third-party notice
+states otherwise.
+
+It does not apply to the original educational content, curriculum, case
+studies, guides, or templates. Those materials are covered by
+`LICENSE-CONTENT.md`. Third-party and official materials remain under their
+own terms as described in `THIRD_PARTY_NOTICES.md`.
+
 MIT License
 
 Copyright (c) 2026 Vladimir Acuña
@@ -19,10 +31,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Nota sobre el contenido: la licencia MIT cubre el código, la documentación y el material
-original de este repositorio. Las normas, resoluciones, formularios y publicaciones de
-organismos públicos chilenos citados como fuente conservan su propio régimen legal, y las
-obras de terceros referenciadas conservan los derechos de sus autores.

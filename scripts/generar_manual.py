@@ -400,7 +400,8 @@ def construir_manual(est: dict, solo_parte: Path | None = None) -> tuple[Path, i
         ["Clases", str(total_clases)],
         ["Jurisdicción", "Chile-first"],
         ["Fecha base normativa", "07-08-2026"],
-        ["Licencia", "MIT"],
+        ["Código", "MIT"],
+        ["Contenido", "CC BY-NC-SA 4.0"],
     ])
 
     indice = TableOfContents()

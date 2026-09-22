@@ -13,7 +13,7 @@
 [![Version](https://img.shields.io/badge/version-1.2.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-336%20·%2024%20partes-7c5cff?style=for-the-badge)](CURRICULUM.md)
 [![Jurisdicción](https://img.shields.io/badge/jurisdicción-Chile%202026-2e8b57?style=for-the-badge)](docs/03_LEGAL_MATRIX_CHILE.md)
-[![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
+[![Licencias](https://img.shields.io/badge/licencias-MIT%20%2B%20CC%20BY--NC--SA%204.0-3fb950?style=for-the-badge)](#-licencia)
 [![Idioma](https://img.shields.io/badge/idioma-español-1f6feb?style=for-the-badge)](README.md)
 
 [![Markdown](https://img.shields.io/badge/Markdown-contenido-000000?style=flat-square&logo=markdown&logoColor=white)](CURRICULUM.md)
@@ -73,10 +73,10 @@ responsable y qué evidencia debe quedar**.
 | Casos sectoriales | ✅ 20 líneas de negocio 2026 |
 | Plantillas operativas | ✅ 24 artefactos editables |
 | Fuentes oficiales | ✅ registro con localizador, uso y fecha por fuente — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
-| Manual en PDF | ✅ 1.549 páginas + 24 PDF por parte |
-| Sitio HTML | ✅ 426 páginas con buscador, diagramas y tema claro/oscuro |
+| Manual en PDF | ✅ 1.551 páginas + 24 PDF por parte |
+| Sitio HTML | ✅ 427 páginas con buscador, diagramas y tema claro/oscuro |
 | CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
-| Licencia | ✅ MIT |
+| Licencias | ✅ MIT para código · CC BY-NC-SA 4.0 para contenido original |
 
 Detalle completo en [`STATUS.md`](STATUS.md).
 
@@ -242,9 +242,9 @@ Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla ti
 
 | Formato | Contenido | Enlace |
 |---|---|---|
-| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.549 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.551 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
 | PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
-| Sitio HTML | 426 páginas con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
+| Sitio HTML | 427 páginas con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
 
 Los PDF se compilan desde el mismo Markdown que publica el sitio, así que nunca divergen del
 contenido del repositorio. Se regeneran en cada publicación con
@@ -341,7 +341,7 @@ sitio **y el manual en PDF releído desde el archivo emitido**. Nada llega a `ma
 
 | ⚙️ Workflow | Qué cubre |
 |---|---|
-| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 20 pruebas estructurales, build del sitio con sus 26.400 enlaces y compilación del manual |
+| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 25 pruebas estructurales, build del sitio con sus 26.400 enlaces y compilación del manual |
 | 🔒 [security.yml](.github/workflows/security.yml) | secretos (`gitleaks`), análisis estático de los scripts (`bandit`), dependencias fijadas a versión exacta y auditadas con `pip-audit` |
 | 🚀 [deploy-pages.yml](.github/workflows/deploy-pages.yml) | compila el manual integral y los 24 PDF por parte, genera el sitio, verifica que las 25 descargas llegaron y despliega a GitHub Pages |
 
@@ -357,7 +357,7 @@ python scripts/validar_encoding.py          # todo UTF-8, sin BOM ni mojibake
 python scripts/generar_manual.py --partes   # manual integral + 24 PDF por parte
 python scripts/generar_manual.py --verificar  # relee el PDF: portada, versión y extensión
 python scripts/generar_sitio.py             # sitio HTML en site/ y copia de las descargas
-python -m unittest discover -s tests -v     # 20 pruebas estructurales
+python -m unittest discover -s tests -v     # 25 pruebas estructurales
 npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 ```
 
@@ -379,7 +379,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 🔗 contenido con **fuente citada, explicada y fechada**: cada una dice qué contiene y cómo leerla;
 - 🗺️ **360 diagramas** que muestran el flujo de decisión, no ilustraciones decorativas;
 - 🔍 material **honesto sobre sus límites**: distingue lo verificado de lo dinámico y marca qué revalidar;
-- 📖 material **abierto y offline-friendly**: manual de 1.549 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
+- 📖 material **abierto y offline-friendly**: manual de 1.551 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
 
 </td>
 <td valign="top" width="50%">
@@ -414,9 +414,26 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 
 ## 📄 Licencia
 
-Código, documentación y contenido original bajo [MIT](LICENSE). Las normas, resoluciones y
-publicaciones de organismos públicos chilenos citadas como fuente conservan su propio régimen
-legal, y las obras de terceros referenciadas, los derechos de sus autores.
+Este repositorio usa un modelo por tipo de material:
+
+| Material | Licencia o régimen |
+|---|---|
+| Código, scripts, pruebas, workflows y componentes de software | [MIT](LICENSE) |
+| Currículo, clases, casos, guías, glosario y documentación educativa original | [CC BY-NC-SA 4.0](LICENSE-CONTENT.md) |
+| Plantillas, checklists y metodologías originales | [CC BY-NC-SA 4.0](LICENSE-CONTENT.md) |
+| Normas, formularios, resoluciones y publicaciones oficiales | Régimen jurídico y atribución de la fuente original |
+| Obras y componentes de terceros | Términos de cada titular en [avisos de terceros](THIRD_PARTY_NOTICES.md) |
+| Nombres e identificadores | Véase [marcas e identificadores](TRADEMARKS.md) |
+
+El uso educativo no comercial del contenido se permite bajo los términos CC. Los usos
+comerciales del contenido vigente requieren un acuerdo separado con Vladimir Acuña; consulte
+[uso comercial](docs/COMMERCIAL_USE.md). Esta posibilidad no modifica las licencias ni los
+derechos de terceros.
+
+Las revisiones publicadas hasta `c8a17b9` conservaron la licencia MIT que ya se había concedido.
+El cambio no intenta retirar esos derechos; la trazabilidad completa está en el
+[historial de licenciamiento](docs/LICENSING_HISTORY.md) y en la
+[auditoría](LICENSING_AUDIT.md).
 
 ---
 
