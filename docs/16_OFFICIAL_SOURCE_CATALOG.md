@@ -8,7 +8,7 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Fuente | Tema | Localizador | Estado | Resolvió | Citas |
 |---|---|---|---|---:|---:|
 | Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-08-19 | 0 |
-| Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-08-19 | 255 |
+| Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-08-19 | 256 |
 | ChileAtiende · Autoridad Sanitaria Regional | Autorización sanitaria de alimentos | <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> | ✅ verificada | 2026-08-19 | 24 |
 | ChileCompra | Compras públicas y ventas al Estado | <https://www.chilecompra.cl/> | ✅ verificada | 2026-08-19 | 1 |
 | Comisión para el Mercado Financiero | Registro de Prestadores de Servicios Financieros · Ley 21.521 | <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html> | ✅ verificada | 2026-08-19 | 15 |

@@ -96,7 +96,7 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 
 | Fuente | Organismo | Citas | Estado | Resolvió |
 |---|---|---:|:---:|---|
-| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 255 | ✅ | 2026-08-19 |
+| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 256 | ✅ | 2026-08-19 |
 | [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 108 | ✅ | 2026-08-19 |
 | [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 62 | ✅ | 2026-08-19 |
 | [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 53 | ✅ | 2026-08-19 |
