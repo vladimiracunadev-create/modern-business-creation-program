@@ -69,8 +69,8 @@ flowchart TB
 
 | # | Global | Clase | Decisión que habilita |
 |---:|---:|---|---|
-| 01 | 253 | [Mapa integral de riesgos](class-01-mapa-integral-de-riesgos/README.md) | identificar y priorizar los riesgos con responsable y control por cada uno |
-| 02 | 254 | [Controles preventivos, detectivos y correctivos](class-02-controles-preventivos-detectivos-y-correctivos/README.md) | diseñar la combinación de controles y su plan de pruebas |
+| 01 | 253 | [Mapa integral de riesgos](class-01-mapa-integral-de-riesgos/README.md) | identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control |
+| 02 | 254 | [Controles preventivos, detectivos y correctivos](class-02-controles-preventivos-detectivos-y-correctivos/README.md) | diseñar y probar controles que impidan, detecten y escalen desviaciones de fondos, autorización, evidencia y liquidez |
 | 03 | 255 | [Ley 20.393 y responsabilidad penal de la persona jurídica](class-03-ley-20-393-y-responsabilidad-penal-de-la-persona-juridica/README.md) | determinar la exposición de la empresa y si corresponde implementar un modelo de prevención |
 | 04 | 256 | [Ley 21.595 de Delitos Económicos](class-04-ley-21-595-de-delitos-economicos/README.md) | reevaluar la exposición de la empresa tras la ampliación del catálogo |
 | 05 | 257 | [Modelo de prevención de delitos](class-05-modelo-de-prevencion-de-delitos/README.md) | diseñar el modelo proporcional al tamaño y a las actividades de riesgo |
@@ -78,7 +78,7 @@ flowchart TB
 | 07 | 259 | [UAF, Ley 19.913 y sujetos obligados](class-07-uaf-ley-19-913-y-sujetos-obligados/README.md) | determinar si la empresa es sujeto obligado y qué deberes activa |
 | 08 | 260 | [KYC, PEP, beneficiario final y debida diligencia](class-08-kyc-pep-beneficiario-final-y-debida-diligencia/README.md) | definir el procedimiento de conocimiento del cliente y su actualización |
 | 09 | 261 | [Anticorrupción, regalos y conflictos](class-09-anticorrupcion-regalos-y-conflictos/README.md) | definir la política de regalos, hospitalidad y declaración de conflictos |
-| 10 | 262 | [Fraude interno y segregación de funciones](class-10-fraude-interno-y-segregacion-de-funciones/README.md) | definir la segregación posible y los controles compensatorios donde no la haya |
+| 10 | 262 | [Fraude interno y segregación de funciones](class-10-fraude-interno-y-segregacion-de-funciones/README.md) | segregar custodia, autorización, ejecución, registro y conciliación, y gobernar toda excepción |
 | 11 | 263 | [Compliance tributario y Ley 21.713](class-11-compliance-tributario-y-ley-21-713/README.md) | documentar la razón de negocios de cada estructura u operación relevante |
 | 12 | 264 | [Ciberseguridad y obligaciones sectoriales](class-12-ciberseguridad-y-obligaciones-sectoriales/README.md) | identificar las obligaciones de ciberseguridad directas y las trasladadas por clientes |
 | 13 | 265 | [Seguros empresariales y transferencia de riesgo](class-13-seguros-empresariales-y-transferencia-de-riesgo/README.md) | determinar qué riesgos se transfieren a seguro y verificar sus exclusiones |
@@ -90,17 +90,15 @@ flowchart TB
 |---|---|
 | **Ampliación del catálogo** | Aumento de figuras que generan responsabilidad de la persona jurídica. |
 | **Anticorrupción** | Conjunto de controles frente a soborno y cohecho. |
-| **Apetito de riesgo** | Nivel que la empresa decide aceptar. |
 | **Auditoría interna** | Revisión independiente del funcionamiento de los controles. |
 | **Beneficiario final** | Persona natural que controla en última instancia. |
 | **Canal de denuncias** | Medio confidencial para reportar irregularidades. |
 | **Certificación** | Validación externa voluntaria del modelo. |
 | **Cobertura** | Riesgos y montos efectivamente amparados. |
-| **Conciliación independiente** | Revisión hecha por alguien distinto del ejecutor. |
 | **Confidencialidad** | Protección de la identidad del denunciante. |
-| **Control correctivo** | Restaura la situación tras el evento. |
-| **Control detectivo** | Identifica el evento después de ocurrido. |
-| **Control preventivo** | Evita que el evento ocurra. |
+| **Confirmación independiente** | Validación realizada con evidencia ajena al ejecutor y al registro interno. |
+| **Control detectivo** | Identifica una desviación mediante evidencia independiente. |
+| **Control preventivo** | Evita o bloquea una operación no autorizada. |
 | **Deber de dirección y supervisión** | Obligación cuyo incumplimiento habilita la responsabilidad. |
 | **Debida diligencia continua** | Actualización periódica de la información del cliente. |
 | **Deducible** | Monto que asume el asegurado en cada siniestro. |
@@ -108,11 +106,11 @@ flowchart TB
 | **Determinación de la pena** | Sistema de penas y multas aplicable. |
 | **Documentación de respaldo** | Evidencia que sustenta la operación. |
 | **Encargado de prevención** | Responsable designado con autonomía y recursos. |
+| **Escalamiento** | Regla que define cuándo detener, informar y elevar una decisión. |
 | **Evaluación de proveedores** | Revisión de seguridad de terceros. |
 | **Evidencia de operación** | Registros que acreditan que el modelo funciona. |
 | **Exclusión** | Situación que la póliza no cubre. |
 | **Facilitación** | Pago para agilizar un trámite, prohibido en la mayoría de los marcos. |
-| **Fraude interno** | Apropiación o manipulación por personas de la organización. |
 | **Hallazgo** | Desviación detectada con su causa y efecto. |
 | **Investigación interna** | Procedimiento reglado de esclarecimiento. |
 | **KYC** | Conocimiento del cliente. |
@@ -127,22 +125,24 @@ flowchart TB
 | **Obligación sectorial de ciberseguridad** | Exigencia impuesta por regulador o por contrato. |
 | **PEP** | Persona expuesta políticamente, con debida diligencia reforzada. |
 | **Plan anual** | Programación de revisiones por área y riesgo. |
-| **Probabilidad e impacto** | Dimensiones para priorizar riesgos. |
-| **Prueba de control** | Verificación de que el control opera efectivamente. |
+| **Privilegio excepcional** | Permiso que omite un control ordinario y requiere aprobación y monitoreo reforzados. |
 | **Razón de negocios** | Justificación económica distinta del ahorro tributario. |
 | **Regalo y hospitalidad** | Atención cuyo valor puede constituir influencia indebida. |
 | **Registro de conflictos** | Declaración periódica de intereses del personal. |
 | **Reporte de incidentes** | Obligación de informar en plazos definidos. |
-| **Riesgo** | Evento que puede impedir el logro de objetivos. |
+| **Respuesta de crisis** | Acciones para contener daño, preservar evidencia y comunicar hechos confirmados. |
+| **Riesgo de concentración** | Exposición excesiva a un activo, contraparte, relacionada o fuente de ingresos. |
+| **Riesgo de liquidez** | Incapacidad de atender obligaciones o retiros cuando vencen. |
+| **Riesgo de producto** | Posibilidad de que el mecanismo central no cumpla lo prometido bajo estrés. |
 | **Riesgo residual** | Exposición que queda después de los controles. |
 | **ROE** | Reporte de operaciones en efectivo sobre el umbral. |
 | **ROS** | Reporte de operación sospechosa. |
-| **Segregación de funciones** | Separación entre quien autoriza, ejecuta y registra. |
+| **Segregación de funciones** | Separación entre custodia, autorización, ejecución, registro y conciliación. |
 | **Seguimiento** | Verificación del cierre de los hallazgos. |
 | **Seguro empresarial** | Transferencia del riesgo a una aseguradora. |
 | **Sujeto obligado** | Entidad con deberes de reporte por su actividad. |
 | **Traslado contractual** | Exigencia que un cliente regulado impone a su proveedor. |
-| **Triángulo del fraude** | Oportunidad, presión y racionalización. |
+| **Trazabilidad** | Capacidad de reconstruir la operación, su autorización y su beneficiario. |
 | **UAF** | Unidad de análisis financiero. |
 
 ## 🔗 Cómo se conecta

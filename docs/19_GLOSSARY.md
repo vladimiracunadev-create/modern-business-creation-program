@@ -1,6 +1,6 @@
 # Glosario maestro
 
-1251 conceptos con definición operacional, extraídos de las 336 clases del
+1250 conceptos con definición operacional, extraídos de las 336 clases del
 programa. Este archivo **se genera**: cada término proviene de la tabla «Conceptos centrales» de
 la clase donde se introduce, de modo que la definición del glosario y la de la clase nunca
 divergen.
@@ -77,11 +77,10 @@ clases adicionales vuelve a aparecer.
 | **Anticorrupción** | Conjunto de controles frente a soborno y cohecho. | [261](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-09-anticorrupcion-regalos-y-conflictos/README.md) |
 | **Antigüedad de saldos** | Clasificación de la deuda por tramos de vencimiento. | [108](../curriculum/part-08-contabilidad-y-estados-financieros/class-10-cuentas-por-cobrar-y-provisiones/README.md) |
 | **Apalancamiento** | Proporción de trabajo ejecutado por perfiles menos caros que el senior. | [031](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-03-modelo-de-servicios-profesionales/README.md) |
-| **Apetito de riesgo** | Nivel que la empresa decide aceptar. | [253](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos/README.md) |
 | **Aporte** | Bien, dinero o derecho entregado a cambio de participación. | [065](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-09-capital-aportes-valorizacion-y-vesting/README.md) |
 | **Aporte de cada parte** | Lo que cada uno pone y lo que espera obtener. | [275](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-09-alianzas-estrategicas-y-joint-ventures/README.md) |
 | **Aporte no dinerario** | Bien o derecho aportado en lugar de dinero. | [075](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-05-capital-social-y-forma-de-enterarlo/README.md) |
-| **Aprendizaje organizacional** | Incorporación del hallazgo a procesos y decisiones. | [293](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional/README.md) |
+| **Aprendizaje organizacional** | Incorporación verificable del hallazgo a procesos y decisiones. | [293](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional/README.md) |
 | **Apuesta reversible** | Decisión que puede deshacerse a bajo costo. | [008](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-08-riesgo-incertidumbre-y-toma-de-decisiones/README.md) |
 | **Arbitraje** | Resolución por árbitro designado según lo pactado. | [136](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-10-jurisdiccion-arbitraje-y-solucion-de-controversias/README.md) |
 | **Archivo legal** | Conjunto de documentos que deben conservarse tras el cierre. | [308](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-14-lecciones-aprendidas-y-archivo-legal/README.md) |
@@ -94,7 +93,7 @@ clases adicionales vuelve a aparecer.
 | **Atribución** | Asignación de la renta a los socios aunque no se haya retirado. | [091](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-07-pro-pyme-transparente/README.md) +1 |
 | **Audiencia propia** | Canal que la empresa controla: base de correo, comunidad, sitio. | [040](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-12-publicidad-afiliacion-y-contenido/README.md) |
 | **Auditoría de proveedor** | Derecho contractual de verificar cumplimiento. | [138](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-12-contratos-con-proveedores-criticos/README.md) |
-| **Auditoría externa** | Revisión independiente de los estados financieros. | [278](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion/README.md) |
+| **Auditoría externa** | Revisión independiente con alcance y evidencia definidos. | [278](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion/README.md) |
 | **Auditoría interna** | Revisión independiente del funcionamiento de los controles. | [266](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-14-auditoria-interna-y-plan-anual-de-cumplimiento/README.md) |
 | **Aumento de capital** | Emisión de nuevas acciones que puede diluir a los existentes. | [060](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-04-sociedad-por-acciones-spa/README.md) |
 | **Autenticación multifactor** | Verificación con más de un factor. | [202](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-06-ciberseguridad-por-capas-para-pyme/README.md) |
@@ -141,7 +140,7 @@ clases adicionales vuelve a aparecer.
 | **Cadena de custodia** | Registro que preserva el valor probatorio de la evidencia. | [154](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-14-respuesta-a-incidentes-y-evidencia/README.md) +1 |
 | **Cadena de valor** | Secuencia de actividades que transforman insumos en valor entregado. | [046](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-04-cadena-de-valor/README.md) |
 | **Cadencia** | Frecuencia comprometida de actualización. | [292](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-12-comunicaciones-con-trabajadores-y-clientes/README.md) |
-| **Caja mínima** | Saldo bajo el cual se activan medidas de contingencia. | [126](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas/README.md) |
+| **Caja mínima** | Saldo propio bajo el cual se activan medidas de contingencia. | [126](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas/README.md) |
 | **Calce de monedas** | Correspondencia entre moneda de ingresos y de costos. | [248](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-10-fx-y-riesgo-cambiario/README.md) |
 | **Calce de plazos** | Correspondencia entre la duración del activo y la del pasivo. | [123](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-11-deuda-buena-deuda-mala-y-costo-de-capital/README.md) |
 | **Calendario de obligaciones** | Fechas periódicas que la empresa debe cumplir. | [084](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-14-checklist-de-empresa-juridicamente-lista/README.md) |
@@ -176,12 +175,13 @@ clases adicionales vuelve a aparecer.
 | **Carpeta societaria** | Conjunto ordenado de documentos que acreditan la existencia y facultades. | [080](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-10-obtencion-y-resguardo-de-documentos-societarios/README.md) |
 | **Carpeta tributaria electrónica** | Documento del sii que acredita situación tributaria ante terceros. | [112](../curriculum/part-08-contabilidad-y-estados-financieros/class-14-cierre-anual-y-carpeta-de-respaldo/README.md) |
 | **Carta de aviso** | Comunicación con causal, hechos y fecha. | [168](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-14-termino-de-contrato-y-documentacion-de-salida/README.md) |
-| **Carta de control interno** | Observaciones del auditor sobre debilidades detectadas. | [278](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion/README.md) |
+| **Carta de control interno** | Observaciones del auditor sobre debilidades y respuesta de la administración. | [278](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion/README.md) |
 | **Carta de crédito** | Instrumento bancario que garantiza el pago contra documentos. | [247](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-09-medios-de-pago-internacionales/README.md) |
 | **Carta de intención** | Documento preliminar con condiciones principales. | [301](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-07-negociacion-de-compraventa-empresarial/README.md) |
 | **Caso de uso acotado** | Aplicación con entrada, salida y criterio de calidad definidos. | [207](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-11-ia-generativa-en-operaciones/README.md) |
 | **Castigo** | Reconocimiento contable de la pérdida. | [288](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-08-cobranza-y-gestion-de-incobrables/README.md) |
-| **Causa raíz** | Origen operativo del reclamo. | [194](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-12-soporte-reclamos-y-voz-del-cliente/README.md) +1 |
+| **Causa empresarial** | Falla de producto, liquidez, gobierno, control o comunicación que puede coexistir sin equivaler a delito. | [293](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional/README.md) |
+| **Causa raíz** | Origen operativo del reclamo. | [194](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-12-soporte-reclamos-y-voz-del-cliente/README.md) |
 | **Causal de término** | Fundamento legal invocado para poner fin al contrato. | [168](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-14-termino-de-contrato-y-documentacion-de-salida/README.md) +1 |
 | **Centro de costo** | Dimensión que permite atribuir gasto a una unidad o proyecto. | [100](../curriculum/part-08-contabilidad-y-estados-financieros/class-02-plan-de-cuentas/README.md) |
 | **Centro de responsabilidad** | Unidad con presupuesto y resultado propio. | [270](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-04-presupuesto-por-centros-de-responsabilidad/README.md) |
@@ -248,11 +248,13 @@ clases adicionales vuelve a aparecer.
 | **Concientización** | Formación de las personas frente a ingeniería social. | [202](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-06-ciberseguridad-por-capas-para-pyme/README.md) |
 | **Concierge test** | Entrega manual del servicio para validar antes de automatizar. | [026](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-12-mvp-prototipo-y-concierge-test/README.md) |
 | **Conciliación** | Comparación entre el rcv y la contabilidad propia. | [095](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-11-registro-de-compras-y-ventas/README.md) |
-| **Conciliación bancaria** | Comparación entre el mayor de banco y la cartola. | [107](../curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria/README.md) |
+| **Conciliación bancaria** | Comparación entre el mayor de banco y la cartola obtenida de la fuente independiente. | [107](../curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria/README.md) |
 | **Conciliación de recaudación** | Cuadratura entre ventas, abonos y comisiones. | [212](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-02-cuenta-bancaria-medios-de-pago-y-conciliacion/README.md) |
-| **Conciliación independiente** | Revisión hecha por alguien distinto del ejecutor. | [262](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones/README.md) |
 | **Confidencialidad** | Protección de la identidad del denunciante. | [258](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-06-canal-de-denuncias-e-investigaciones/README.md) |
 | **Confirmación de compra** | Comunicación que acredita la aceptación y condiciones. | [142](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-02-reglamento-de-comercio-electronico/README.md) |
+| **Confirmación de terceros** | Respuesta recibida directamente de banco, custodio, cliente o contraparte. | [278](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion/README.md) |
+| **Confirmación externa** | Evidencia recibida directamente del banco, custodio o contraparte. | [107](../curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria/README.md) +1 |
+| **Confirmación independiente** | Validación realizada con evidencia ajena al ejecutor y al registro interno. | [262](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones/README.md) |
 | **Confirming** | Pago a proveedores gestionado por una entidad financiera. | [214](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-04-leasing-factoring-y-confirming/README.md) |
 | **Conflicto de canal** | Competencia entre el canal directo y el indirecto. | [195](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-13-referidos-partners-y-canales/README.md) |
 | **Conflicto de interés** | Situación donde el interés personal compite con el de la empresa. | [009](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-09-etica-empresarial-y-licencia-social-para-operar/README.md) +1 |
@@ -280,21 +282,18 @@ clases adicionales vuelve a aparecer.
 | **Contrato marco** | Acuerdo general bajo el cual se emiten órdenes específicas. | [128](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-02-cotizacion-orden-de-compra-y-aceptacion/README.md) |
 | **Contribución por pedido** | Margen después de producto, envío, medios de pago y devolución. | [033](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-05-comercio-electronico-d2c/README.md) +1 |
 | **Control** | Capacidad de decidir, que depende de quórums y no solo de porcentaje. | [064](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-08-socios-accionistas-porcentajes-y-control/README.md) +1 |
-| **Control correctivo** | Restaura la situación tras el evento. | [254](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos/README.md) |
 | **Control de asistencia** | Registro obligatorio de entrada y salida. | [159](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-05-control-de-asistencia-horas-extra-y-descansos/README.md) |
 | **Control de calidad de red** | Mecanismo que asegura consistencia entre unidades. | [274](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-08-franquiciar-un-negocio/README.md) |
-| **Control de gestión** | Función que monitorea el desempeño contra el plan. | [278](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion/README.md) |
 | **Control de marca** | Mecanismo que asegura consistencia entre unidades. | [039](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-11-franquicia-y-licenciamiento-de-formato/README.md) |
-| **Control detectivo** | Identifica el evento después de ocurrido. | [254](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos/README.md) |
+| **Control detectivo** | Identifica una desviación mediante evidencia independiente. | [254](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos/README.md) |
 | **Control operacional** | Verificación incorporada en el proceso. | [170](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-02-sop-y-controles-operacionales/README.md) |
-| **Control preventivo** | Evita que el evento ocurra. | [254](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos/README.md) |
+| **Control preventivo** | Evita o bloquea una operación no autorizada. | [254](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos/README.md) |
 | **Convención de Viena** | Normativa uniforme sobre compraventa internacional de mercaderías. | [249](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-11-contratos-internacionales/README.md) |
 | **Convenio** | Tratado que reduce o elimina la doble tributación. | [250](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-12-iva-retenciones-y-doble-tributacion/README.md) |
 | **Conversión** | Momento en que el instrumento se transforma en acciones. | [221](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-11-safe-notas-convertibles-y-equity/README.md) |
 | **Convocatoria** | Llamado con bases, plazos y requisitos específicos. | [216](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-06-sercotec-y-programas-de-fomento/README.md) |
 | **CORFO** | Agencia de fomento a la innovación e inversión. | [217](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-07-corfo-y-financiamiento-para-innovacion/README.md) |
 | **Correlación** | Grado en que dos líneas caen juntas ante el mismo shock. | [042](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-14-portafolio-de-lineas-de-negocio-y-concentracion-de-riesgo/README.md) |
-| **Corte** | Fecha hasta la cual se concilia. | [107](../curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria/README.md) |
 | **Corte de documentos** | Regla que asigna documentos al período correcto. | [109](../curriculum/part-08-contabilidad-y-estados-financieros/class-11-cuentas-por-pagar-y-cierre-mensual/README.md) |
 | **Costo** | Recurso consumido directamente para producir lo vendido. | [006](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-06-ingresos-costos-gastos-inversion-y-utilidad/README.md) |
 | **Costo de cambio** | Esfuerzo, riesgo y dinero de abandonar la alternativa actual. | [022](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-08-mapa-de-alternativas-actuales-del-cliente/README.md) +1 |
@@ -339,7 +338,7 @@ clases adicionales vuelve a aparecer.
 | **Crédito de servicio** | Compensación por incumplimiento del sla. | [133](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-07-sla-soporte-y-niveles-de-servicio/README.md) |
 | **Crédito fiscal** | Iva soportado en las compras que da derecho a rebaja. | [093](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-09-iva-debito-credito-y-hechos-gravados/README.md) |
 | **Crédito por impuesto de primera categoría** | Imputación contra los impuestos finales de los socios. | [090](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-06-pro-pyme-general/README.md) |
-| **Crisis reputacional** | Evento que daña la confianza de clientes o del entorno. | [284](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional/README.md) |
+| **Crisis de confianza** | Evento que acelera retiros, reclamos o pérdida de contrapartes. | [284](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional/README.md) |
 | **Criterio de elección** | Conjunto de factores que determinan la forma societaria adecuada. | [063](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md) +1 |
 | **Criterio de evaluación** | Atributos con los que se compara: precio, calidad, plazo, riesgo. | [171](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-03-compras-y-homologacion-de-proveedores/README.md) |
 | **Criterio de exclusión** | Atributo que descarta a un prospecto aunque parezca atractivo. | [018](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-04-segmentacion-y-perfil-de-cliente-ideal/README.md) |
@@ -354,7 +353,6 @@ clases adicionales vuelve a aparecer.
 | **Cuenta puente** | Cuenta transitoria que debe quedar en cero al cierre. | [100](../curriculum/part-08-contabilidad-y-estados-financieros/class-02-plan-de-cuentas/README.md) |
 | **Cuentas por cobrar** | Derechos de cobro por ventas ya reconocidas. | [108](../curriculum/part-08-contabilidad-y-estados-financieros/class-10-cuentas-por-cobrar-y-provisiones/README.md) |
 | **Cuentas por pagar** | Obligaciones con proveedores por bienes o servicios recibidos. | [109](../curriculum/part-08-contabilidad-y-estados-financieros/class-11-cuentas-por-pagar-y-cierre-mensual/README.md) |
-| **Cultura sin culpa** | Enfoque que busca causas sistémicas y no responsables individuales. | [293](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional/README.md) |
 | **Cumplimiento de consumo** | Obligaciones de información, retracto y garantía. | [313](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-05-e-commerce-d2c-de-productos-fisicos/README.md) |
 | **Cumplimiento de licencias** | Verificación de que el uso respeta las condiciones. | [152](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-12-derecho-de-autor-y-licencias-de-software/README.md) |
 | **Cumplimiento local** | Obligaciones laborales y tributarias del país destino. | [279](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-13-internacionalizacion-organizacional/README.md) |
@@ -467,7 +465,7 @@ clases adicionales vuelve a aparecer.
 | **DS 44** | Reglamento sobre gestión preventiva de riesgos laborales. | [167](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-13-decreto-44-y-gestion-preventiva-de-riesgos/README.md) |
 | **DS 977** | Reglamento sanitario de los alimentos. | [228](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-04-alimentos-y-reglamento-sanitario-ds-977/README.md) |
 | **DTE** | Documento tributario electrónico: factura, boleta, nota de crédito y débito. | [094](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-10-documentos-tributarios-electronicos-dte/README.md) |
-| **Due diligence** | Proceso de verificación previo a la inversión. | [223](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion/README.md) +1 |
+| **Due diligence** | Verificación independiente de producto, entidad, modelo, fondos y gobierno. | [223](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion/README.md) +1 |
 | **Due diligence vendedor** | Revisión previa hecha por el propio vendedor. | [299](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-05-due-diligence-vendedor/README.md) |
 | **Dueño de proceso** | Responsable único de su desempeño. | [169](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-01-diseno-de-procesos-end-to-end/README.md) |
 | **Duplicado** | Registro repetido que fragmenta la información. | [204](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-08-datos-maestros-y-calidad-de-datos/README.md) |
@@ -512,7 +510,7 @@ clases adicionales vuelve a aparecer.
 | **Entero del capital** | Forma y plazo en que efectivamente se paga. | [075](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-05-capital-social-y-forma-de-enterarlo/README.md) |
 | **Entrada comprometida** | Cobro con documento y fecha acordada. | [114](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-02-flujo-de-caja-de-13-semanas/README.md) |
 | **Entrevista de descubrimiento** | Conversación sobre el pasado del entrevistado, no sobre el futuro. | [017](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-03-entrevistas-de-descubrimiento-sin-sesgos/README.md) |
-| **Escalamiento** | Regla que define qué decisiones suben de nivel. | [070](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-14-gobierno-minimo-viable-desde-el-dia-uno/README.md) +1 |
+| **Escalamiento** | Regla que define qué decisiones suben de nivel. | [070](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-14-gobierno-minimo-viable-desde-el-dia-uno/README.md) +3 |
 | **Escenario** | Descripción coherente de un futuro posible con sus implicancias. | [055](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-13-escenarios-y-senales-tempranas/README.md) |
 | **Escenario base** | Proyección con supuestos más probables. | [124](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-12-escenarios-base-estres-y-supervivencia/README.md) |
 | **Escenario de cierre** | Secuencia de término ordenado. | [335](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-13-simular-crisis-continuidad-y-cierre/README.md) |
@@ -522,6 +520,7 @@ clases adicionales vuelve a aparecer.
 | **EST** | Empresa de servicios transitorios, con reglas y causales propias. | [165](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-11-subcontratacion-y-servicios-transitorios/README.md) |
 | **Estacionalidad** | Concentración de demanda en períodos del año. | [321](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-13-turismo-de-experiencias/README.md) |
 | **Estado de resultados** | Reporte de ingresos, costos y gastos de un período. | [105](../curriculum/part-08-contabilidad-y-estados-financieros/class-07-estado-de-resultados/README.md) |
+| **Estado procesal** | Calidad jurídica de una afirmación: investigación, acusación, declaración de culpabilidad, sentencia, resolución civil o recurso. | [293](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional/README.md) |
 | **Estandarización** | Definición de una forma única de ejecutar. | [272](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-06-procesos-que-deben-estandarizarse-antes-de-crecer/README.md) |
 | **Estimación bottom-up** | Cálculo desde número de clientes posibles por ticket promedio. | [020](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-06-tamano-de-mercado-tam-sam-som/README.md) |
 | **Estrategia** | Elección de dónde competir y cómo defenderse. | [325](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-03-disenar-modelo-de-negocio-y-estrategia/README.md) |
@@ -599,7 +598,7 @@ clases adicionales vuelve a aparecer.
 | **Flujo operacional** | Efectivo generado por la actividad principal. | [106](../curriculum/part-08-contabilidad-y-estados-financieros/class-08-estado-de-flujo-de-efectivo/README.md) |
 | **FOGAPE** | Fondo de garantía estatal para pequeños empresarios. | [215](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-05-fogape-garantias-y-evaluacion-bancaria/README.md) |
 | **Folios** | Numeración autorizada por el sii para emitir. | [094](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-10-documentos-tributarios-electronicos-dte/README.md) |
-| **Fondo de impuestos** | Provisión separada para iva, ppm y renta. | [126](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas/README.md) |
+| **Fondos de terceros** | Recursos recibidos con titularidad, destino o disponibilidad restringidos. | [126](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas/README.md) |
 | **Forecast** | Proyección de ingresos por período. | [196](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-14-revenue-operations-y-forecast/README.md) |
 | **Forma societaria del caso** | Vehículo elegido con su justificación. | [326](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-04-elegir-sociedad-y-disenar-pacto-de-fundadores/README.md) |
 | **Formulario 22** | Declaración anual de renta. | [097](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-13-operacion-renta-f22-y-declaraciones-juradas/README.md) |
@@ -610,7 +609,6 @@ clases adicionales vuelve a aparecer.
 | **Franquicia SENCE** | Beneficio tributario para capacitación de empresas. | [315](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-07-educacion-digital-y-capacitacion-empresarial/README.md) |
 | **Franquicia tributaria** | Beneficio que permite descontar capacitación del impuesto. | [236](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-12-otec-capacitacion-y-sence/README.md) |
 | **Franquiciar** | Ceder el formato del negocio a un tercero. | [274](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-08-franquiciar-un-negocio/README.md) |
-| **Fraude interno** | Apropiación o manipulación por personas de la organización. | [262](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones/README.md) |
 | **Frecuencia** | Cada cuánto se actualiza cada indicador. | [125](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-13-dashboard-financiero-del-fundador/README.md) |
 | **Freemium** | Nivel gratuito permanente que alimenta la conversión a pago. | [041](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-13-modelos-freemium-usage-based-y-outcome-based/README.md) |
 | **Fuente del dato** | Sistema del que proviene cada indicador. | [125](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-13-dashboard-financiero-del-fundador/README.md) |
@@ -653,8 +651,9 @@ clases adicionales vuelve a aparecer.
 | **Haber no imponible** | Asignación que no constituye remuneración: colación, movilización, viáticos. | [160](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-06-remuneraciones-imponibles-y-no-imponibles/README.md) |
 | **Habilitación operativa** | Permisos que además permiten operar la actividad. | [084](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-14-checklist-de-empresa-juridicamente-lista/README.md) |
 | **Habilitación para emitir DTE** | Autorización para emitir documentos tributarios electrónicos. | [086](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-02-inicio-de-actividades-en-sii/README.md) |
-| **Hallazgo** | Problema detectado que afecta precio o condiciones. | [223](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion/README.md) +1 |
+| **Hallazgo** | Desviación detectada con su causa y efecto. | [266](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-14-auditoria-interna-y-plan-anual-de-cumplimiento/README.md) |
 | **Handoff** | Punto de traspaso entre áreas donde se pierde información. | [169](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-01-diseno-de-procesos-end-to-end/README.md) |
+| **Hecho confirmado** | Dato validado que puede comunicarse sin especulación. | [284](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional/README.md) |
 | **Hecho económico** | Evento que altera activos, pasivos o patrimonio. | [099](../curriculum/part-08-contabilidad-y-estados-financieros/class-01-contabilidad-como-sistema-de-informacion/README.md) |
 | **Hecho gravado** | Operación que la ley afecta con iva. | [093](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-09-iva-debito-credito-y-hechos-gravados/README.md) |
 | **Higiene de datos** | Calidad y actualización de la información registrada. | [191](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-09-crm-y-pipeline/README.md) |
@@ -692,6 +691,7 @@ clases adicionales vuelve a aparecer.
 | **Indemnidad** | Obligación de mantener indemne a la contraparte frente a reclamos de terceros. | [134](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-08-limitacion-de-responsabilidad-y-garantias/README.md) |
 | **Indemnización** | Pago que corresponde según causal y antigüedad. | [306](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-12-finiquitos-y-cierre-laboral/README.md) |
 | **Independencia** | Condición del miembro sin vínculo económico relevante. | [277](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-11-consejo-asesor-y-directorio/README.md) |
+| **Independencia del auditor** | Ausencia de relaciones que comprometan juicio, alcance o reporte. | [278](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion/README.md) |
 | **Indicador** | Medida asociada a un objetivo. | [205](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-09-analitica-y-bi-empresarial/README.md) |
 | **Información confidencial** | Definición del alcance protegido. | [131](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-05-nda-y-confidencialidad/README.md) |
 | **Información precontractual** | Datos que deben estar disponibles antes de contratar. | [142](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-02-reglamento-de-comercio-electronico/README.md) |
@@ -721,7 +721,6 @@ clases adicionales vuelve a aparecer.
 | **Investigación interna** | Procedimiento reglado de esclarecimiento. | [258](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-06-canal-de-denuncias-e-investigaciones/README.md) |
 | **IVA** | Impuesto al valor agregado sobre ventas y servicios gravados. | [085](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-01-arquitectura-tributaria-chilena-para-empresas/README.md) |
 | **IVA exportador** | Mecanismo de recuperación del iva soportado. | [243](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-05-exportacion-de-bienes/README.md) |
-| **Índice** | Estructura del data room que permite encontrar cada documento. | [223](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion/README.md) |
 | **Índice de due diligence** | Estructura por materia que espera el comprador. | [298](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-04-preparar-un-data-room-de-m-a/README.md) |
 
 ### J
@@ -827,7 +826,6 @@ clases adicionales vuelve a aparecer.
 | **Mejora continua** | Ciclo sistemático de detección y corrección. | [182](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-14-mejora-continua-y-automatizacion/README.md) |
 | **Menor privilegio** | Acceso limitado a lo estrictamente necesario. | [199](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-03-dominio-correo-identidad-y-accesos/README.md) |
 | **Mensaje** | Formulación de la promesa en el lenguaje del cliente. | [184](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-02-marca-posicionamiento-y-mensaje/README.md) |
-| **Mensaje central** | Posición única sostenida en todos los canales. | [284](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional/README.md) |
 | **Merma** | Pérdida de inventario por daño, vencimiento o hurto. | [034](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-06-retail-fisico-y-omnicanal/README.md) +1 |
 | **Metadatos** | Datos de control: contraparte, monto, vigencia, preaviso, responsable. | [139](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-13-gestion-y-repositorio-de-contratos/README.md) |
 | **Mérito ejecutivo** | Condición que permite cobrar judicialmente sin juicio declarativo previo. | [288](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-08-cobranza-y-gestion-de-incobrables/README.md) |
@@ -895,11 +893,10 @@ clases adicionales vuelve a aparecer.
 | **Omnicanal** | Operación integrada entre canal físico y digital con inventario único. | [034](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-06-retail-fisico-y-omnicanal/README.md) |
 | **Onboarding** | Proceso de puesta en marcha del cliente nuevo. | [192](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-10-onboarding-de-clientes/README.md) |
 | **Opción real** | Inversión pequeña que compra el derecho a invertir más tarde. | [052](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-10-portafolio-de-apuestas-y-opciones-reales/README.md) |
-| **Operación con parte relacionada** | Transacción que requiere aprobación y condiciones de mercado. | [068](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-12-conflictos-de-interes-y-partes-relacionadas/README.md) |
+| **Operación con parte relacionada** | Transacción que requiere aprobación, revelación y condiciones de mercado. | [068](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-12-conflictos-de-interes-y-partes-relacionadas/README.md) |
 | **Operación del caso** | Procesos que entregan la promesa al cliente. | [333](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-11-construir-operacion-ventas-y-stack-tecnologico/README.md) |
 | **Operación Renta** | Proceso anual de declaración y fiscalización. | [097](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-13-operacion-renta-f22-y-declaraciones-juradas/README.md) |
 | **Operador de importancia vital** | Entidad calificada con obligaciones reforzadas. | [153](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-13-ley-marco-de-ciberseguridad-y-ciberhigiene-empresarial/README.md) |
-| **Opinión de auditoría** | Conclusión del auditor sobre los estados financieros. | [278](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion/README.md) |
 | **Oponibilidad** | Efecto del acto frente a terceros una vez cumplida la publicidad. | [081](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-11-modificaciones-saneamientos-y-rectificaciones/README.md) |
 | **Oportunidad** | Cualidad de que la información esté disponible cuando se decide. | [099](../curriculum/part-08-contabilidad-y-estados-financieros/class-01-contabilidad-como-sistema-de-informacion/README.md) |
 | **Oposición** | Procedimiento por el que un tercero impugna la solicitud. | [150](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-10-registro-de-marca-en-inapi/README.md) |
@@ -921,7 +918,6 @@ clases adicionales vuelve a aparecer.
 | **Pacto de horas extra** | Acuerdo escrito y temporal que las autoriza. | [159](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-05-control-de-asistencia-horas-extra-y-descansos/README.md) |
 | **Pagador** | Quien libera el presupuesto. | [004](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-04-cliente-usuario-pagador-y-beneficiario/README.md) |
 | **Pago anticipado** | Cobro previo al embarque. | [247](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-09-medios-de-pago-internacionales/README.md) |
-| **Palanca de ajuste** | Decisión disponible para reaccionar en cada escenario. | [124](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-12-escenarios-base-estres-y-supervivencia/README.md) |
 | **Palanca de reducción** | Acción concreta que acorta el ciclo. | [122](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-10-ciclo-de-conversion-de-efectivo/README.md) |
 | **Paridad** | Atributo necesario para competir pero que no diferencia. | [023](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-09-propuesta-de-valor-y-diferenciacion/README.md) |
 | **Parte relacionada** | Persona o entidad vinculada a un socio o administrador. | [068](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-12-conflictos-de-interes-y-partes-relacionadas/README.md) |
@@ -980,7 +976,7 @@ clases adicionales vuelve a aparecer.
 | **Posicionamiento** | Lugar que la oferta ocupa en la mente del cliente frente a alternativas. | [051](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-09-posicionamiento-estrategico/README.md) |
 | **Posición intermedia** | Riesgo de no ser ni el más barato ni el más valorado. | [047](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-05-ventaja-por-costo-diferenciacion-y-enfoque/README.md) |
 | **Posición negociadora** | Fuerza relativa de las partes en la negociación. | [287](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-07-renegociacion-de-deuda/README.md) |
-| **Post-mortem** | Análisis estructurado de un evento adverso. | [293](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional/README.md) |
+| **Post-mortem** | Análisis estructurado de hechos, decisiones, controles y consecuencias. | [293](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional/README.md) |
 | **PPM** | Pago provisional mensual a cuenta del impuesto anual. | [096](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-12-formulario-29-ppm-y-ciclo-mensual/README.md) |
 | **Preaviso** | Plazo de anticipación para comunicar la terminación. | [135](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-09-terminacion-renovacion-y-penalidades/README.md) |
 | **Precio basado en costo** | Costo más margen objetivo. | [118](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-06-pricing-basado-en-costos-valor-y-mercado/README.md) |
@@ -1001,12 +997,13 @@ clases adicionales vuelve a aparecer.
 | **Previred** | Plataforma de declaración y pago de cotizaciones. | [161](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-07-cotizaciones-previsionales-y-seguridad-social/README.md) |
 | **Pricing** | Precio fijado con método declarado. | [329](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-07-construir-presupuesto-pricing-y-flujo-de-caja/README.md) |
 | **Prioridad de pago** | Orden que protege la continuidad y el cumplimiento legal. | [285](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-05-fuga-de-caja-y-plan-de-30-dias/README.md) |
+| **Privilegio excepcional** | Permiso que omite un control ordinario y requiere aprobación y monitoreo reforzados. | [262](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones/README.md) |
 | **Pro Pyme General** | Régimen del artículo 14 d n°3, con contabilidad simplificada y tributación a nivel empresa. | [090](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-06-pro-pyme-general/README.md) |
 | **Pro Pyme Transparente** | Régimen del artículo 14 d n°8, sin impuesto a nivel de empresa. | [091](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-07-pro-pyme-transparente/README.md) |
-| **Probabilidad e impacto** | Dimensiones para priorizar riesgos. | [253](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos/README.md) |
 | **Probabilidad por etapa** | Factor histórico de cierre según la etapa. | [191](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-09-crm-y-pipeline/README.md) |
 | **Problema** | Situación que produce un costo real, medible y recurrente para alguien. | [003](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-03-problema-necesidad-deseo-y-trabajo-por-resolver/README.md) |
 | **Problema del huevo y la gallina** | Ningún lado llega si el otro no está. | [035](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-07-marketplace-de-dos-lados/README.md) |
+| **Procedencia del rendimiento** | Actividad y flujo verificables que explican cómo se genera el retorno. | [223](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion/README.md) |
 | **Proceso candidato** | Actividad repetitiva, estable y de alto volumen. | [182](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-14-mejora-continua-y-automatizacion/README.md) |
 | **Proceso crítico** | Aquel cuya variación destruye la promesa al cliente. | [272](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-06-procesos-que-deben-estandarizarse-antes-de-crecer/README.md) +1 |
 | **Proceso de decisión del cliente** | Pasos internos que la compra debe recorrer. | [189](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-07-discovery-comercial-y-calificacion/README.md) |
@@ -1020,6 +1017,7 @@ clases adicionales vuelve a aparecer.
 | **Propuesta** | Documento que formaliza alcance, precio y condiciones. | [190](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-08-propuesta-negociacion-y-cierre/README.md) |
 | **Propuesta de valor** | Razón concreta por la que un cliente prefiere pagar a esta empresa y no a la alternativa. | [001](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-01-que-es-una-empresa-y-como-crea-valor/README.md) +1 |
 | **Prospección** | Búsqueda activa de oportunidades nuevas. | [188](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-06-prospeccion-b2b/README.md) |
+| **Protección de afectados** | Medidas para detener daño, preservar derechos y habilitar canales de atención. | [284](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional/README.md) |
 | **Protocolo de prevención** | Documento obligatorio con medidas preventivas. | [164](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-10-ley-karin-prevencion-denuncia-e-investigacion/README.md) |
 | **Protocolo familiar** | Acuerdo que regula la relación entre familia y empresa. | [303](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-09-sucesion-familiar-o-ejecutiva/README.md) |
 | **Prototipo** | Representación que permite evaluar sin operar. | [026](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-12-mvp-prototipo-y-concierge-test/README.md) |
@@ -1031,10 +1029,10 @@ clases adicionales vuelve a aparecer.
 | **Provisión de impuestos** | Reserva de caja para obligaciones tributarias. | [328](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-06-disenar-inicio-sii-regimen-y-calendario-tributario/README.md) |
 | **Provisión de incobrables** | Estimación de la parte que no se cobrará. | [108](../curriculum/part-08-contabilidad-y-estados-financieros/class-10-cuentas-por-cobrar-y-provisiones/README.md) |
 | **Prueba** | Evidencia que hace creíble la promesa. | [023](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-09-propuesta-de-valor-y-diferenciacion/README.md) |
-| **Prueba de control** | Verificación de que el control opera efectivamente. | [254](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos/README.md) |
 | **Prueba de posicionamiento** | Evidencia que hace creíble la afirmación. | [051](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-09-posicionamiento-estrategico/README.md) |
 | **Prueba de recuperación** | Ejercicio de restauración completo. | [283](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-03-disaster-recovery-para-tecnologia/README.md) |
 | **Prueba de restauración** | Ejercicio que verifica que el respaldo funciona. | [201](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-05-backups-y-recuperacion/README.md) |
+| **Prueba de sostenibilidad** | Contraste entre la promesa del producto y las fuentes reales de caja y rendimiento. | [124](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-12-escenarios-base-estres-y-supervivencia/README.md) |
 | **Prueba social** | Evidencia de terceros que respalda la promesa. | [184](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-02-marca-posicionamiento-y-mensaje/README.md) |
 | **Publicidad del acto** | Inscripción y publicación exigidas. | [304](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-10-disolucion-societaria/README.md) |
 | **Publicidad engañosa** | Comunicación que induce a error sobre características relevantes. | [141](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-01-ley-del-consumidor-aplicada-al-negocio/README.md) |
@@ -1097,7 +1095,7 @@ clases adicionales vuelve a aparecer.
 | **Registro SERNATUR** | Inscripción de prestadores de servicios turísticos. | [321](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-13-turismo-de-experiencias/README.md) |
 | **Registros empresariales** | Rai, ddan, rex y sac que controlan rentas y créditos. | [092](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-08-regimen-general-semi-integrado-y-otros-regimenes/README.md) |
 | **Regla de calidad** | Criterio que define un dato válido. | [204](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-08-datos-maestros-y-calidad-de-datos/README.md) |
-| **Regla de retiro** | Criterio que define cuándo y cuánto pueden retirar los socios. | [126](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas/README.md) |
+| **Regla de disposición** | Criterio de autorización para usar o transferir cada categoría de fondos. | [126](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas/README.md) |
 | **Reglamento interno** | Documento obligatorio sobre orden, higiene y seguridad según dotación. | [163](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-09-reglamento-interno-y-politicas/README.md) |
 | **Reinversión** | Utilidad destinada a financiar crecimiento. | [211](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-01-bootstrapping-y-reinversion/README.md) |
 | **Relación laboral del repartidor** | Calificación de la figura contractual. | [320](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-12-logistica-de-ultima-milla/README.md) |
@@ -1118,7 +1116,6 @@ clases adicionales vuelve a aparecer.
 | **Reprogramación** | Extensión de plazos con nuevo calendario. | [287](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-07-renegociacion-de-deuda/README.md) |
 | **Requisito de ingreso** | Condiciones de ingresos, capital y tipo de socios para acceder. | [089](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-05-seleccion-de-regimen-tributario/README.md) |
 | **Requisito de propietarios** | Exige que los dueños sean contribuyentes de impuestos finales. | [091](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-07-pro-pyme-transparente/README.md) |
-| **Reserva** | Fondo destinado a obligaciones futuras conocidas. | [126](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas/README.md) |
 | **Reserva reconstituida** | Restablecimiento del colchón de caja. | [294](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-14-plan-de-recuperacion-y-vuelta-a-crecimiento/README.md) |
 | **Resiliencia** | Capacidad de sostener la operación bajo estrés. | [335](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-13-simular-crisis-continuidad-y-cierre/README.md) |
 | **Resolución sanitaria** | Autorización específica para un establecimiento de alimentos. | [229](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-05-resolucion-sanitaria-para-locales-de-alimentos/README.md) +1 |
@@ -1133,6 +1130,7 @@ clases adicionales vuelve a aparecer.
 | **Responsabilidad solidaria** | Cada socio puede ser perseguido por el total de la deuda. | [062](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-06-sociedades-colectivas-y-comanditarias/README.md) +1 |
 | **Responsable del dato** | Persona a cargo de su exactitud. | [204](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-08-datos-maestros-y-calidad-de-datos/README.md) |
 | **Responsable del tratamiento** | Quien decide fines y medios. | [147](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-07-preparacion-para-ley-21-719-desde-1-dic-2026/README.md) |
+| **Respuesta de crisis** | Acciones para contener daño, preservar evidencia y comunicar hechos confirmados. | [254](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos/README.md) |
 | **Restitución** | Porción del crédito que el socio debe devolver. | [092](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-08-regimen-general-semi-integrado-y-otros-regimenes/README.md) |
 | **Resultado esperado** | Métrica con la que el cliente juzga si el progreso ocurrió. | [019](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-05-jobs-to-be-done-y-resultados-esperados/README.md) |
 | **Resultado operacional** | Antes de gastos financieros e impuestos. | [105](../curriculum/part-08-contabilidad-y-estados-financieros/class-07-estado-de-resultados/README.md) |
@@ -1151,11 +1149,14 @@ clases adicionales vuelve a aparecer.
 | **Régimen general semi integrado** | Régimen del artículo 14 a, con imputación parcial del crédito. | [092](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-08-regimen-general-semi-integrado-y-otros-regimenes/README.md) |
 | **Régimen simplificado** | Constitución electrónica por ley 20.659 en el registro de empresas y sociedades. | [071](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-01-ruta-tradicional-versus-registro-de-empresas-y-sociedades/README.md) |
 | **Régimen tributario** | Conjunto de reglas de determinación y pago del impuesto. | [089](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-05-seleccion-de-regimen-tributario/README.md) +1 |
-| **Riesgo** | Evento con probabilidad estimable y consecuencia acotada. | [008](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-08-riesgo-incertidumbre-y-toma-de-decisiones/README.md) +1 |
+| **Riesgo** | Evento con probabilidad estimable y consecuencia acotada. | [008](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-08-riesgo-incertidumbre-y-toma-de-decisiones/README.md) |
 | **Riesgo cambiario** | Exposición a variaciones del tipo de cambio. | [248](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-10-fx-y-riesgo-cambiario/README.md) |
+| **Riesgo de concentración** | Exposición excesiva a un activo, contraparte, relacionada o fuente de ingresos. | [253](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos/README.md) |
 | **Riesgo de contraparte** | Probabilidad de que el comprador no pague. | [247](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-09-medios-de-pago-internacionales/README.md) |
 | **Riesgo de deseabilidad** | Que el cliente no quiera la solución. | [024](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-10-hipotesis-criticas-del-negocio/README.md) |
 | **Riesgo de factibilidad** | Que la empresa no pueda entregarlo de forma sostenible. | [024](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-10-hipotesis-criticas-del-negocio/README.md) |
+| **Riesgo de liquidez** | Incapacidad de atender obligaciones o retiros cuando vencen. | [253](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos/README.md) |
+| **Riesgo de producto** | Posibilidad de que el mecanismo central no cumpla lo prometido bajo estrés. | [253](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos/README.md) |
 | **Riesgo de proveedor** | Exposición derivada de depender de un tercero tecnológico. | [209](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-13-riesgo-de-proveedores-tecnologicos-y-saas/README.md) |
 | **Riesgo de viabilidad** | Que el modelo no genere margen suficiente. | [024](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-10-hipotesis-criticas-del-negocio/README.md) |
 | **Riesgo priorizado** | Exposición ordenada por impacto y probabilidad. | [330](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-08-disenar-contratos-y-mapa-de-compliance/README.md) |
@@ -1201,7 +1202,8 @@ clases adicionales vuelve a aparecer.
 | **Secuencia de habilitación** | Orden en que los permisos se condicionan. | [331](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-09-crear-mapa-de-permisos-sectoriales/README.md) |
 | **Segmentación** | División del mercado en grupos con comportamiento de compra distinto. | [018](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-04-segmentacion-y-perfil-de-cliente-ideal/README.md) |
 | **Segmento accesible** | Grupo al que la empresa efectivamente puede llegar con su canal. | [018](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-04-segmentacion-y-perfil-de-cliente-ideal/README.md) |
-| **Segregación de funciones** | Separación entre quien autoriza, ejecuta y registra. | [262](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones/README.md) |
+| **Segregación de funciones** | Separación entre custodia, autorización, ejecución, registro y conciliación. | [262](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones/README.md) |
+| **Segregación patrimonial** | Separación jurídica, contable, bancaria y operativa entre patrimonios. | [126](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas/README.md) |
 | **Seguimiento** | Verificación del cierre de los hallazgos. | [266](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-14-auditoria-interna-y-plan-anual-de-cumplimiento/README.md) |
 | **Seguridad de la actividad** | Normas técnicas y cobertura de riesgos. | [321](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-13-turismo-de-experiencias/README.md) |
 | **Seguro de la carga** | Cobertura del riesgo durante el transporte. | [240](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-02-incoterms-y-responsabilidades/README.md) |
@@ -1290,7 +1292,6 @@ clases adicionales vuelve a aparecer.
 | **Tiempo de indisponibilidad tolerable** | Plazo máximo antes de daño irreversible. | [281](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-01-mapa-de-amenazas-y-escenarios-de-crisis/README.md) |
 | **Tiempo de rampa** | Período hasta que la persona es productiva. | [271](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-05-hiring-plan-y-workforce-planning/README.md) |
 | **Tiempo de resolución** | Plazo desde el ingreso hasta el cierre. | [194](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-12-soporte-reclamos-y-voz-del-cliente/README.md) |
-| **Tiempo de respuesta** | Rapidez con que la empresa se pronuncia. | [284](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional/README.md) |
 | **Tiempo de respuesta y de resolución** | Plazos comprometidos por severidad. | [133](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-07-sla-soporte-y-niveles-de-servicio/README.md) |
 | **Time to value** | Tiempo hasta que el cliente obtiene el primer resultado. | [192](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-10-onboarding-de-clientes/README.md) |
 | **Tipología de proyecto** | Categoría que determina si debe ingresar al sistema. | [237](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-13-medio-ambiente-sea-sma-y-permisos-sectoriales/README.md) |
@@ -1307,13 +1308,12 @@ clases adicionales vuelve a aparecer.
 | **Traslado contractual** | Exigencia que un cliente regulado impone a su proveedor. | [264](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-12-ciberseguridad-y-obligaciones-sectoriales/README.md) |
 | **Traspaso comercial** | Entrega ordenada desde ventas a la operación. | [192](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-10-onboarding-de-clientes/README.md) |
 | **Tratamiento** | Cualquier operación sobre datos personales. | [146](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-06-privacidad-bajo-ley-19-628-vigente/README.md) |
-| **Trazabilidad** | Posibilidad de reconstruir de dónde salió cada cifra. | [016](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-02-investigacion-secundaria-con-fuentes-confiables/README.md) +4 |
+| **Trazabilidad** | Posibilidad de reconstruir de dónde salió cada cifra. | [016](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-02-investigacion-secundaria-con-fuentes-confiables/README.md) +5 |
 | **Trazabilidad a fuente** | Capacidad de respaldar cada afirmación regulatoria. | [336](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-14-defensa-final-ante-comite-empresarial/README.md) |
 | **Trazabilidad de lote** | Capacidad de seguir el producto desde el insumo hasta el consumidor. | [228](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-04-alimentos-y-reglamento-sanitario-ds-977/README.md) |
 | **Trazabilidad de origen** | Acreditación de la procedencia del producto. | [322](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-14-economia-circular-reparacion-y-reventa/README.md) |
 | **Trazabilidad documental** | Seguimiento del estado de cada trámite. | [245](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-07-aduanas-dus-duss-y-sicex/README.md) |
 | **Tres vías** | Conciliación entre orden, recepción y factura. | [172](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-04-ordenes-de-compra-y-recepcion/README.md) |
-| **Triángulo del fraude** | Oportunidad, presión y racionalización. | [262](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones/README.md) |
 | **Tributación del vehículo** | Régimen aplicable según tipo y estructura de propietarios. | [063](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md) |
 | **Tributación en base a caja** | Reconocimiento de ingresos y gastos percibidos y pagados. | [090](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-06-pro-pyme-general/README.md) |
 | **Tu Empresa en un Día** | Plataforma del registro de empresas y sociedades para constitución electrónica. | [072](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-02-tu-empresa-en-un-dia-flujo-completo/README.md) |
@@ -1367,7 +1367,6 @@ clases adicionales vuelve a aparecer.
 | **Visación** | Autorización de un servicio previa al despacho. | [245](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-07-aduanas-dus-duss-y-sicex/README.md) |
 | **Visión** | Estado futuro al que aspira en un horizonte declarado. | [043](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-01-mision-vision-proposito-y-tesis-estrategica/README.md) |
 | **Vínculo de subordinación** | Dependencia que define la existencia de relación laboral. | [155](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar/README.md) |
-| **Vocería** | Persona designada para comunicar. | [284](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional/README.md) |
 | **Volumen mínimo** | Cantidad comprometida que activa el precio pactado. | [130](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-04-contrato-de-suministro/README.md) |
 | **Voz del cliente** | Información estructurada proveniente de reclamos y consultas. | [194](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-12-soporte-reclamos-y-voz-del-cliente/README.md) |
 

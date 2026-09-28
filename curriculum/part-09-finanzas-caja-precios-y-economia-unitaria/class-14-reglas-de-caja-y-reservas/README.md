@@ -3,12 +3,12 @@
 > **Parte 09 · Finanzas, caja, precios y economía unitaria** — clase 14 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** fijar caja mínima, reservas y reglas de retiro por escrito<br>
-**Entregable:** política de caja con nivel mínimo en semanas de operación, reservas y regla de retiros
+**Decisión que habilita:** fijar reglas de segregación, caja mínima, reservas y disposición por categoría de fondos<br>
+**Entregable:** política de tesorería con mapa de titularidad, cuentas separadas, autorizaciones, reservas y regla de retiros
 
 ## 🎯 Propósito
 
-Escribir reglas de caja mínima, reservas y retiros, que protegen a la empresa de los socios y a los socios de sí mismos en los meses buenos.
+Separar patrimonios y fijar reglas de disposición para que fondos de terceros, impuestos y reservas nunca financien informalmente la operación.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —fijar caja mínima, reservas y reglas de retiro por escrito— y justificar la decisión por escrito.
+3. **Decidir** —fijar reglas de segregación, caja mínima, reservas y disposición por categoría de fondos— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -24,10 +24,10 @@ Al finalizar esta clase podrás:
 
 | Concepto | Comprensión verificable |
 |---|---|
-| **Caja mínima** | Saldo bajo el cual se activan medidas de contingencia. |
-| **Reserva** | Fondo destinado a obligaciones futuras conocidas. |
-| **Regla de retiro** | Criterio que define cuándo y cuánto pueden retirar los socios. |
-| **Fondo de impuestos** | Provisión separada para iva, ppm y renta. |
+| **Caja mínima** | Saldo propio bajo el cual se activan medidas de contingencia. |
+| **Fondos de terceros** | Recursos recibidos con titularidad, destino o disponibilidad restringidos. |
+| **Segregación patrimonial** | Separación jurídica, contable, bancaria y operativa entre patrimonios. |
+| **Regla de disposición** | Criterio de autorización para usar o transferir cada categoría de fondos. |
 
 ## 🗺️ Flujo de razonamiento
 
@@ -35,11 +35,11 @@ Al finalizar esta clase podrás:
 flowchart TB
     C["Contexto del caso<br/>actividad · escala · comuna"]
     C --> A1["Caja mínima"]
-    C --> A2["Reserva"]
-    C --> A3["Regla de retiro"]
-    C --> A4["Fondo de impuestos"]
-    A1 & A2 & A3 & A4 --> D{{"fijar caja mínima, reservas y<br/>reglas de retiro por escrito"}}
-    D --> E["Entregable<br/>política de caja con nivel<br/>mínimo en semanas de<br/>operación, reservas y regla de<br/>retiros"]
+    C --> A2["Fondos de terceros"]
+    C --> A3["Segregación patrimonial"]
+    C --> A4["Regla de disposición"]
+    A1 & A2 & A3 & A4 --> D{{"fijar reglas de segregación,<br/>caja mínima, reservas y<br/>disposición por categoría de<br/>fondos"}}
+    D --> E["Entregable<br/>política de tesorería con mapa<br/>de titularidad, cuentas<br/>separadas, autorizaciones,<br/>reservas y regla de retiros"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Separar el dinero por destino evita la trampa más común: usar el IVA y las provisiones de impuestos como capital de trabajo. Una regla escrita de caja mínima y de retiros protege a la empresa de los socios y a los socios de sí mismos en los meses buenos.
+La política de tesorería debe distinguir caja propia, impuestos, garantías y fondos de terceros. Estos últimos no se convierten en financiamiento operativo por estar disponibles en una cuenta. El caso FTX/Alameda refuerza la necesidad de cuentas, auxiliares, permisos y conciliaciones separadas, con doble autorización para movimientos excepcionales; la obligación chilena concreta depende del contrato y de la regulación aplicable a la actividad.
 
 ### 2. Cómo se traduce en la práctica
 
-Definir la caja mínima en semanas de operación y no en pesos la hace comparable a lo largo del tiempo y a distintos tamaños. El fondo separado de impuestos evita la trampa más común: retirar utilidades sin haber provisionado el impuesto del ejercicio, que llega igual meses después.
+La separación debe existir al mismo tiempo en contrato, cuenta bancaria o custodio, plan de cuentas, permisos del sistema y conciliación. Etiquetar un saldo no impide usarlo; el control real limita técnicamente la transferencia, exige doble autorización, alerta la excepción y permite que otra persona confirme el saldo y su titularidad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Política de caja con nivel mínimo en semanas de operación, reservas y regla de retiros.
+Política de tesorería con mapa de titularidad, cuentas separadas, autorizaciones, reservas y regla de retiros.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] la caja mínima está expresada en semanas de operación
-- [ ] existe fondo separado para obligaciones tributarias
+- [ ] cada saldo tiene propietario económico, cuenta, auxiliar, uso permitido y responsable definidos
+- [ ] los movimientos excepcionales exigen autorización previa, evidencia y revisión independiente
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +115,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Retirar utilidades sin haber provisionado impuestos del ejercicio.
-- Definir caja mínima en pesos en vez de en semanas de operación.
+- Usar fondos de clientes o terceros como capital de trabajo por una necesidad transitoria.
+- Suponer que una separación contable basta sin separación bancaria, permisos y conciliación.
 
 **Característicos de la parte 09:**
 
@@ -137,9 +137,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Cuántas semanas de operación cubre tu caja actual?
-2. ¿Está separado el fondo de IVA, PPM y renta del resto de la caja?
-3. ¿Qué regla escrita define cuándo y cuánto pueden retirar los socios?
+1. ¿Qué saldos administras que pertenecen económica o jurídicamente a terceros?
+2. ¿Qué control técnico impide usarlos para pagar gastos propios?
+3. ¿Quién autoriza, concilia y revisa una transferencia excepcional?
 
 ## 🔗 Fuentes oficiales
 
@@ -148,7 +148,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para fijar caja mínima, reservas y reglas de retiro por escrito.
+- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para fijar reglas de segregación, caja mínima, reservas y disposición por categoría de fondos.
+
+**Departamento de Justicia de Estados Unidos — FTX y Alameda: condena y sentencia de Samuel Bankman-Fried**  
+<https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes> · verificado 2026-09-28
+
+- *Qué contiene:* Resume la condena dictada tras juicio y la sentencia de marzo de 2024, incluidos hechos acreditados sobre fondos de clientes, privilegios de Alameda, información financiera y ocultamiento a clientes, inversionistas y prestamistas.
+- *Cómo leerla:* Úsala para estudiar segregación de fondos, partes relacionadas, autorización, tesorería y evidencia de gobierno. No copies tipos penales ni reglas estadounidenses a Chile: contrasta cada obligación local con contrato, actividad y norma chilena aplicable.
+- *Uso en esta clase:* aporta el marco de «FTX y Alameda: condena y sentencia de Samuel Bankman-Fried» para fijar reglas de segregación, caja mínima, reservas y disposición por categoría de fondos.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

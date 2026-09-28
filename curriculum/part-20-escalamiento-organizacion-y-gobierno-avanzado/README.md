@@ -75,7 +75,7 @@ flowchart TB
 | 09 | 275 | [Alianzas estratégicas y joint ventures](class-09-alianzas-estrategicas-y-joint-ventures/README.md) | definir aportes, gobierno y mecanismo de salida antes de iniciar la alianza |
 | 10 | 276 | [Adquisición de competidores o capacidades](class-10-adquisicion-de-competidores-o-capacidades/README.md) | determinar si adquirir y cómo se cubren las contingencias detectadas |
 | 11 | 277 | [Consejo asesor y directorio](class-11-consejo-asesor-y-directorio/README.md) | decidir si corresponde consejo asesor o directorio y con qué agenda |
-| 12 | 278 | [Auditoría externa y control de gestión](class-12-auditoria-externa-y-control-de-gestion/README.md) | determinar si corresponde auditoría externa y qué función de control de gestión se necesita |
+| 12 | 278 | [Auditoría externa y control de gestión](class-12-auditoria-externa-y-control-de-gestion/README.md) | determinar el alcance de auditoría y las confirmaciones independientes exigidas según custodia, relacionadas y riesgo |
 | 13 | 279 | [Internacionalización organizacional](class-13-internacionalizacion-organizacional/README.md) | definir el modelo operativo internacional y sus obligaciones locales |
 | 14 | 280 | [Evitar que el crecimiento destruya la caja](class-14-evitar-que-el-crecimiento-destruya-la-caja/README.md) | determinar el límite de crecimiento financiable y ajustar el plan comercial |
 
@@ -90,14 +90,14 @@ flowchart TB
 | **Alianza estratégica** | Acuerdo de colaboración sin fusionar patrimonios. |
 | **Análisis de desviaciones** | Explicación de las diferencias y acción correctiva. |
 | **Aporte de cada parte** | Lo que cada uno pone y lo que espera obtener. |
-| **Auditoría externa** | Revisión independiente de los estados financieros. |
+| **Auditoría externa** | Revisión independiente con alcance y evidencia definidos. |
 | **Calidad del crecimiento** | Proporción del crecimiento que proviene de clientes rentables. |
-| **Carta de control interno** | Observaciones del auditor sobre debilidades detectadas. |
+| **Carta de control interno** | Observaciones del auditor sobre debilidades y respuesta de la administración. |
 | **Centro de responsabilidad** | Unidad con presupuesto y resultado propio. |
+| **Confirmación de terceros** | Respuesta recibida directamente de banco, custodio, cliente o contraparte. |
 | **Consejo asesor** | Grupo sin facultades formales que aporta criterio. |
 | **Consumo de caja del crecimiento** | Capital de trabajo adicional que exige cada peso de venta. |
 | **Control de calidad de red** | Mecanismo que asegura consistencia entre unidades. |
-| **Control de gestión** | Función que monitorea el desempeño contra el plan. |
 | **Costo de coordinación** | Carga de gestionar múltiples ubicaciones. |
 | **Costo total del cargo** | Remuneración, cotizaciones, equipamiento y tiempo de rampa. |
 | **Crecimiento rentable** | Aumento de ventas que no destruye caja ni margen. |
@@ -117,6 +117,7 @@ flowchart TB
 | **Hiring plan** | Plan de contrataciones asociado al crecimiento. |
 | **Huso horario y idioma** | Factores que afectan coordinación y servicio. |
 | **Independencia** | Condición del miembro sin vínculo económico relevante. |
+| **Independencia del auditor** | Ausencia de relaciones que comprometan juicio, alcance o reporte. |
 | **Institucionalización** | Traslado del conocimiento a procesos y roles. |
 | **Integración post-adquisición** | Proceso que determina si la sinergia se materializa. |
 | **Internacionalización organizacional** | Adaptación de la estructura para operar fuera de chile. |
@@ -126,7 +127,6 @@ flowchart TB
 | **Manual de franquicia** | Documento que transfiere el sistema completo. |
 | **Manual operativo** | Documento que permite replicar sin el fundador presente. |
 | **Modelo operativo** | Forma en que se coordinan las operaciones entre países. |
-| **Opinión de auditoría** | Conclusión del auditor sobre los estados financieros. |
 | **Presupuesto** | Asignación de recursos con meta asociada. |
 | **Proceso crítico** | Aquel cuya variación destruye la promesa al cliente. |
 | **RACI** | Matriz de responsable, aprobador, consultado e informado. |

@@ -77,9 +77,9 @@ flowchart TB
 | 09 | 121 | [Rotación, ticket y merma para comercio](class-09-rotacion-ticket-y-merma-para-comercio/README.md) | decidir la mezcla de productos según rotación y contribución, no solo margen |
 | 10 | 122 | [Ciclo de conversión de efectivo](class-10-ciclo-de-conversion-de-efectivo/README.md) | identificar qué palanca del ciclo se ataca primero y cuánta caja libera |
 | 11 | 123 | [Deuda buena, deuda mala y costo de capital](class-11-deuda-buena-deuda-mala-y-costo-de-capital/README.md) | determinar qué se financia con deuda, en qué plazo y a qué costo máximo aceptable |
-| 12 | 124 | [Escenarios base, estrés y supervivencia](class-12-escenarios-base-estres-y-supervivencia/README.md) | definir los gatillos y las palancas de ajuste de cada escenario |
+| 12 | 124 | [Escenarios base, estrés y supervivencia](class-12-escenarios-base-estres-y-supervivencia/README.md) | definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez |
 | 13 | 125 | [Dashboard financiero del fundador](class-13-dashboard-financiero-del-fundador/README.md) | definir los pocos indicadores que la empresa revisará efectivamente |
-| 14 | 126 | [Reglas de caja y reservas](class-14-reglas-de-caja-y-reservas/README.md) | fijar caja mínima, reservas y reglas de retiro por escrito |
+| 14 | 126 | [Reglas de caja y reservas](class-14-reglas-de-caja-y-reservas/README.md) | fijar reglas de segregación, caja mínima, reservas y disposición por categoría de fondos |
 
 ## 🔤 Glosario de la parte
 
@@ -87,7 +87,7 @@ flowchart TB
 |---|---|
 | **ARR** | Ingreso recurrente anualizado. |
 | **CAC** | Costo de adquirir un cliente, incluidos marketing y ventas. |
-| **Caja mínima** | Saldo bajo el cual se activan medidas de contingencia. |
+| **Caja mínima** | Saldo propio bajo el cual se activan medidas de contingencia. |
 | **Calce de plazos** | Correspondencia entre la duración del activo y la del pasivo. |
 | **Calidad del EBITDA** | Grado en que el ebitda se convierte efectivamente en caja. |
 | **Capital de trabajo** | Recursos que la operación inmoviliza permanentemente. |
@@ -113,7 +113,7 @@ flowchart TB
 | **Escenario de estrés** | Proyección con supuestos adversos pero plausibles. |
 | **Escenario de supervivencia** | Mínimo con el que la empresa sigue existiendo. |
 | **Flujo de 13 semanas** | Proyección semanal de entradas y salidas de efectivo. |
-| **Fondo de impuestos** | Provisión separada para iva, ppm y renta. |
+| **Fondos de terceros** | Recursos recibidos con titularidad, destino o disponibilidad restringidos. |
 | **Frecuencia** | Cada cuánto se actualiza cada indicador. |
 | **Fuente del dato** | Sistema del que proviene cada indicador. |
 | **Gasto preoperativo** | Desembolso previo a la primera venta. |
@@ -124,20 +124,20 @@ flowchart TB
 | **Merma** | Pérdida de inventario por daño, vencimiento o hurto. |
 | **MRR** | Ingreso recurrente mensual. |
 | **NRR** | Retención neta de ingresos incluyendo expansión y contracción. |
-| **Palanca de ajuste** | Decisión disponible para reaccionar en cada escenario. |
 | **Palanca de reducción** | Acción concreta que acorta el ciclo. |
 | **Payback** | Meses que tarda el margen en recuperar el cac. |
 | **Precio basado en costo** | Costo más margen objetivo. |
 | **Precio basado en valor** | Precio derivado del valor económico para el cliente. |
 | **Precio de mercado** | Referencia dada por alternativas disponibles. |
 | **Presupuesto de arranque** | Estimación de todos los desembolsos hasta alcanzar operación estable. |
+| **Prueba de sostenibilidad** | Contraste entre la promesa del producto y las fuentes reales de caja y rendimiento. |
 | **Punto de caja mínima** | Saldo bajo el cual la empresa entra en riesgo. |
 | **Punto de equilibrio** | Nivel de ventas donde el resultado es cero. |
-| **Regla de retiro** | Criterio que define cuándo y cuánto pueden retirar los socios. |
-| **Reserva** | Fondo destinado a obligaciones futuras conocidas. |
+| **Regla de disposición** | Criterio de autorización para usar o transferir cada categoría de fondos. |
 | **Rolling forecast** | Actualización semanal que desplaza el horizonte. |
 | **Rotación** | Frecuencia con que el inventario se vende y repone. |
 | **Salida ineludible** | Pago que no admite postergación: remuneraciones, impuestos, arriendo. |
+| **Segregación patrimonial** | Separación jurídica, contable, bancaria y operativa entre patrimonios. |
 | **Ticket promedio** | Venta media por transacción. |
 | **Umbral** | Valor que gatilla una acción. |
 

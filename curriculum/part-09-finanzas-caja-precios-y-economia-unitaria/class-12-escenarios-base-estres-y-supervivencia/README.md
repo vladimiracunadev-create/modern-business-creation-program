@@ -3,12 +3,12 @@
 > **Parte 09 · Finanzas, caja, precios y economía unitaria** — clase 12 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir los gatillos y las palancas de ajuste de cada escenario<br>
-**Entregable:** tres escenarios financieros con gatillo de activación y palancas de ajuste por escenario
+**Decisión que habilita:** definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez<br>
+**Entregable:** escenarios base, estrés y supervivencia con fuente de rendimientos, retiros, liquidez, gatillos y palancas
 
 ## 🎯 Propósito
 
-Construir escenarios que terminen en palancas ejecutables y gatillos observables, no en un ejercicio de ansiedad sin plan asociado.
+Probar que rendimiento, liquidez y promesa de producto siguen siendo sostenibles bajo estrés y tienen palancas ejecutables.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir los gatillos y las palancas de ajuste de cada escenario— y justificar la decisión por escrito.
+3. **Decidir** —definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -27,7 +27,7 @@ Al finalizar esta clase podrás:
 | **Escenario base** | Proyección con supuestos más probables. |
 | **Escenario de estrés** | Proyección con supuestos adversos pero plausibles. |
 | **Escenario de supervivencia** | Mínimo con el que la empresa sigue existiendo. |
-| **Palanca de ajuste** | Decisión disponible para reaccionar en cada escenario. |
+| **Prueba de sostenibilidad** | Contraste entre la promesa del producto y las fuentes reales de caja y rendimiento. |
 
 ## 🗺️ Flujo de razonamiento
 
@@ -37,9 +37,9 @@ flowchart TB
     C --> A1["Escenario base"]
     C --> A2["Escenario de estrés"]
     C --> A3["Escenario de supervivencia"]
-    C --> A4["Palanca de ajuste"]
-    A1 & A2 & A3 & A4 --> D{{"definir los gatillos y las<br/>palancas de ajuste de cada<br/>escenario"}}
-    D --> E["Entregable<br/>tres escenarios financieros<br/>con gatillo de activación y<br/>palancas de ajuste por<br/>escenario"]
+    C --> A4["Prueba de sostenibilidad"]
+    A1 & A2 & A3 & A4 --> D{{"definir gatillos y palancas<br/>después de probar la<br/>sostenibilidad económica y de<br/>liquidez"}}
+    D --> E["Entregable<br/>escenarios base, estrés y<br/>supervivencia con fuente de<br/>rendimientos, retiros,<br/>liquidez, gatillos y palancas"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Los tres escenarios sirven si cada uno tiene palancas asociadas y un gatillo que indica cuándo activarlas. Un escenario de estrés sin plan de acción es un ejercicio de ansiedad; con palancas definidas, es un plan de contingencia que se puede ejecutar en días y no en semanas.
+Los escenarios deben probar simultáneamente ingresos, liquidez, retiros y la fuente económica de cualquier rendimiento prometido. Celsius aporta una lección sobre tasas, liquidez y comunicación de riesgos; Terra/UST/LUNA, sobre productos cuya estabilidad depende de supuestos que pueden romperse de forma conjunta. Las fuentes citadas corresponden a sentencias estadounidenses, no a reglas trasladables por sí solas a Chile. Una rentabilidad elevada activa verificación reforzada, pero no demuestra automáticamente un delito.
 
 ### 2. Cómo se traduce en la práctica
 
-Un escenario de estrés cuya caída de ventas es menor a la ya observada históricamente no es un estrés. Y sin palancas definidas —qué se corta, qué se renegocia, en qué orden— el escenario no cambia nada el día que ocurre, porque la decisión se toma igual bajo presión y sin preparación.
+Celsius y Terra muestran por rutas distintas que el escenario útil combina deterioro de activos, retiros, concentración, pérdida de confianza y costo de sostener la promesa. El modelo debe explicar quién paga el rendimiento, qué activo lo produce, cuándo se realiza la caja y qué ocurre si todos los supuestos adversos se correlacionan. La señal abre una investigación; la evidencia determina la conclusión.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Tres escenarios financieros con gatillo de activación y palancas de ajuste por escenario.
+Escenarios base, estrés y supervivencia con fuente de rendimientos, retiros, liquidez, gatillos y palancas.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] cada escenario tiene gatillo observable
-- [ ] las palancas de ajuste son ejecutables en el plazo declarado
+- [ ] cada rendimiento se reconcilia con una fuente económica y un riesgo explícitos
+- [ ] el estrés combina retiros, deterioro de activos y pérdida de confianza con palancas ejecutables
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +115,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Construir escenarios sin definir qué se haría en cada uno.
-- Usar como estrés una caída de ventas menor a la observada históricamente.
+- Modelar el rendimiento prometido sin explicar quién lo genera y bajo qué riesgo.
+- Tratar la insolvencia o una rentabilidad alta como prueba automática de fraude.
 
 **Característicos de la parte 09:**
 
@@ -137,32 +137,25 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Tu escenario de estrés supone una caída mayor a la peor que ya viviste?
-2. ¿Qué palanca concreta activarías en cada escenario y en cuántos días?
-3. ¿Qué gatillo observable te indicaría que ya estás en el escenario de estrés?
+1. ¿Qué actividad y flujo de caja producen realmente cada rendimiento ofrecido?
+2. ¿Cuántos retiros simultáneos soporta la empresa sin vender activos con pérdida?
+3. ¿Qué gatillo detiene nuevas promesas y activa comunicación de riesgo?
 
 ## 🔗 Fuentes oficiales
 
-**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — Celsius: declaración de culpabilidad y sentencia del fundador**  
+<https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation> · verificado 2026-09-28
 
-- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
-- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir los gatillos y las palancas de ajuste de cada escenario.
+- *Qué contiene:* Registra que Alexander Mashinsky se declaró culpable en diciembre de 2024 y fue sentenciado en mayo de 2025, y describe hallazgos sobre sostenibilidad de rendimientos, liquidez, uso de depósitos y comunicación de riesgos.
+- *Cómo leerla:* Distingue los hechos reconocidos en la declaración de culpabilidad y considerados en la sentencia de las reglas aplicables a una empresa chilena. El aprendizaje empresarial es probar la fuente del rendimiento, el calce de liquidez y la evidencia detrás de cada comunicación.
+- *Uso en esta clase:* aporta el marco de «Celsius: declaración de culpabilidad y sentencia del fundador» para definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez.
 
-**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon**  
+<https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> · verificado 2026-09-28
 
-- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
-- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir los gatillos y las palancas de ajuste de cada escenario.
-
-**Corporación de Fomento de la Producción — Innovación, inversión y garantías**  
-<https://www.corfo.cl/> · verificado 2026-09-01
-
-- *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
-- *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
-- *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir los gatillos y las palancas de ajuste de cada escenario.
+- *Qué contiene:* Registra la declaración de culpabilidad de agosto de 2025 y la sentencia de diciembre de 2025, y describe hechos sobre el funcionamiento comunicado de UST, intervenciones no reveladas y respuesta posterior a la pérdida de estabilidad.
+- *Cómo leerla:* Úsala para someter a estrés el mecanismo del producto, sus dependencias, incentivos, liquidez y comunicación. La sentencia estadounidense acredita conducta en ese proceso; no crea por sí sola una regla jurídica aplicable en Chile.
+- *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

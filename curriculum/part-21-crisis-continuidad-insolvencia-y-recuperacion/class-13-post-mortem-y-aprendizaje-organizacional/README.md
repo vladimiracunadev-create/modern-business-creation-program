@@ -3,12 +3,12 @@
 > **Parte 21 · Crisis, continuidad, insolvencia y recuperación** — clase 13 de 14
 
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir cómo se analizan los eventos adversos y cómo se incorporan los aprendizajes<br>
-**Entregable:** post-mortem del último evento adverso con causa raíz, acciones y responsable de incorporación
+**Decisión que habilita:** convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes<br>
+**Entregable:** post-mortem con cronología, estado de cada afirmación, causas empresariales, controles fallidos, acciones y responsable
 
 ## 🎯 Propósito
 
-Analizar los eventos adversos buscando causas sistémicas, porque orientar el análisis a encontrar culpables detiene el flujo de información.
+Extraer aprendizajes empresariales sin confundir señales, insolvencia, investigaciones, acusaciones, resoluciones civiles y sentencias.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir cómo se analizan los eventos adversos y cómo se incorporan los aprendizajes— y justificar la decisión por escrito.
+3. **Decidir** —convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -24,10 +24,10 @@ Al finalizar esta clase podrás:
 
 | Concepto | Comprensión verificable |
 |---|---|
-| **Post-mortem** | Análisis estructurado de un evento adverso. |
-| **Causa raíz** | Origen real del problema, distinto del síntoma. |
-| **Aprendizaje organizacional** | Incorporación del hallazgo a procesos y decisiones. |
-| **Cultura sin culpa** | Enfoque que busca causas sistémicas y no responsables individuales. |
+| **Post-mortem** | Análisis estructurado de hechos, decisiones, controles y consecuencias. |
+| **Estado procesal** | Calidad jurídica de una afirmación: investigación, acusación, declaración de culpabilidad, sentencia, resolución civil o recurso. |
+| **Causa empresarial** | Falla de producto, liquidez, gobierno, control o comunicación que puede coexistir sin equivaler a delito. |
+| **Aprendizaje organizacional** | Incorporación verificable del hallazgo a procesos y decisiones. |
 
 ## 🗺️ Flujo de razonamiento
 
@@ -35,11 +35,11 @@ Al finalizar esta clase podrás:
 flowchart TB
     C["Contexto del caso<br/>actividad · escala · comuna"]
     C --> A1["Post-mortem"]
-    C --> A2["Causa raíz"]
-    C --> A3["Aprendizaje organizacional"]
-    C --> A4["Cultura sin culpa"]
-    A1 & A2 & A3 & A4 --> D{{"definir cómo se analizan los<br/>eventos adversos y cómo se<br/>incorporan los aprendizajes"}}
-    D --> E["Entregable<br/>post-mortem del último evento<br/>adverso con causa raíz,<br/>acciones y responsable de<br/>incorporación"]
+    C --> A2["Estado procesal"]
+    C --> A3["Causa empresarial"]
+    C --> A4["Aprendizaje organizacional"]
+    A1 & A2 & A3 & A4 --> D{{"convertir un evento adverso en<br/>mejoras verificables sin<br/>exceder lo que acreditan las<br/>fuentes"}}
+    D --> E["Entregable<br/>post-mortem con cronología,<br/>estado de cada afirmación,<br/>causas empresariales,<br/>controles fallidos, acciones y<br/>responsable"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El post-mortem produce aprendizaje solo si busca causas sistémicas: qué del sistema permitió que el error ocurriera y no se detectara. Si se orienta a encontrar culpables, la información deja de fluir y el siguiente incidente se ocultará hasta que sea peor.
+El aprendizaje comparado exige separar hechos acreditados, alegaciones y estado procesal, además de distinguir causa empresarial de calificación jurídica. FTX, Celsius, Terra, OneCoin, Madoff y AC Inversions permiten revisar custodia, rendimientos, producto, captación, auditoría, gobierno y crisis sin convertir el programa en un catálogo de fraudes. Una insolvencia no prueba fraude; una parte relacionada no es ilícita por sí misma; una rentabilidad alta exige evidencia reforzada.
 
 ### 2. Cómo se traduce en la práctica
 
-Si el post-mortem busca responsables individuales, el siguiente incidente se ocultará hasta que sea peor. La pregunta correcta es qué del sistema permitió que el error ocurriera y no se detectara, y el cierre exige acciones concretas con responsable y fecha de verificación.
+La comparación de los seis casos se organiza por competencia —custodia, rendimiento, producto, captación, auditoría, gobierno y crisis—, no por morbo. Cada afirmación debe llevar fuente, fecha, jurisdicción y estado procesal. El cierre propone controles verificables y conserva tres límites: rentabilidad alta no prueba delito, insolvencia no equivale a fraude y una relacionada puede operar legítimamente con revelación, autorización y control.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Post-mortem del último evento adverso con causa raíz, acciones y responsable de incorporación.
+Post-mortem con cronología, estado de cada afirmación, causas empresariales, controles fallidos, acciones y responsable.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] el análisis identifica causas sistémicas
-- [ ] cada acción tiene responsable y fecha de verificación
+- [ ] cada afirmación jurídica identifica jurisdicción, fuente, fecha y estado procesal
+- [ ] cada causa empresarial deriva en una acción con responsable, plazo y prueba de efectividad
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +115,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Orientar el análisis a identificar culpables en vez de causas sistémicas.
-- Cerrar el post-mortem sin acciones concretas ni responsable.
+- Presentar una acusación o investigación como si fuera sentencia firme.
+- Usar la etiqueta fraude como explicación total y omitir fallas de gobierno, producto, liquidez y control.
 
 **Característicos de la parte 21:**
 
@@ -137,25 +137,53 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Tu último análisis buscó causas del sistema o responsables individuales?
-2. ¿Qué acción concreta salió de él y quién verificó que se implementó?
-3. ¿Se ocultan los errores pequeños en tu empresa? ¿Por qué?
+1. ¿Qué afirmaciones del caso son hechos acreditados y cuáles alegaciones o etapas previas?
+2. ¿Qué falla empresarial explica el daño sin anticipar una calificación penal?
+3. ¿Qué control concreto cambiarás, quién lo implementará y cómo probarás su efectividad?
 
 ## 🔗 Fuentes oficiales
 
-**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — FTX y Alameda: condena y sentencia de Samuel Bankman-Fried**  
+<https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes> · verificado 2026-09-28
 
-- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
-- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir cómo se analizan los eventos adversos y cómo se incorporan los aprendizajes.
+- *Qué contiene:* Resume la condena dictada tras juicio y la sentencia de marzo de 2024, incluidos hechos acreditados sobre fondos de clientes, privilegios de Alameda, información financiera y ocultamiento a clientes, inversionistas y prestamistas.
+- *Cómo leerla:* Úsala para estudiar segregación de fondos, partes relacionadas, autorización, tesorería y evidencia de gobierno. No copies tipos penales ni reglas estadounidenses a Chile: contrasta cada obligación local con contrato, actividad y norma chilena aplicable.
+- *Uso en esta clase:* aporta el marco de «FTX y Alameda: condena y sentencia de Samuel Bankman-Fried» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
 
-**Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
-<https://www.dt.gob.cl/> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — Celsius: declaración de culpabilidad y sentencia del fundador**  
+<https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation> · verificado 2026-09-28
 
-- *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
-- *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
-- *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir cómo se analizan los eventos adversos y cómo se incorporan los aprendizajes.
+- *Qué contiene:* Registra que Alexander Mashinsky se declaró culpable en diciembre de 2024 y fue sentenciado en mayo de 2025, y describe hallazgos sobre sostenibilidad de rendimientos, liquidez, uso de depósitos y comunicación de riesgos.
+- *Cómo leerla:* Distingue los hechos reconocidos en la declaración de culpabilidad y considerados en la sentencia de las reglas aplicables a una empresa chilena. El aprendizaje empresarial es probar la fuente del rendimiento, el calce de liquidez y la evidencia detrás de cada comunicación.
+- *Uso en esta clase:* aporta el marco de «Celsius: declaración de culpabilidad y sentencia del fundador» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**Departamento de Justicia de Estados Unidos — Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon**  
+<https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> · verificado 2026-09-28
+
+- *Qué contiene:* Registra la declaración de culpabilidad de agosto de 2025 y la sentencia de diciembre de 2025, y describe hechos sobre el funcionamiento comunicado de UST, intervenciones no reveladas y respuesta posterior a la pérdida de estabilidad.
+- *Cómo leerla:* Úsala para someter a estrés el mecanismo del producto, sus dependencias, incentivos, liquidez y comunicación. La sentencia estadounidense acredita conducta en ese proceso; no crea por sí sola una regla jurídica aplicable en Chile.
+- *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**Departamento de Justicia de Estados Unidos — OneCoin: sentencia del cofundador Karl Sebastian Greenwood**  
+<https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> · verificado 2026-09-28
+
+- *Qué contiene:* Documenta la sentencia de septiembre de 2023 de un cofundador y describe la comercialización multinivel de un producto presentado como criptomoneda, mientras la otra cofundadora permanecía prófuga a la fecha de la fuente.
+- *Cómo leerla:* Separa el estado procesal de cada persona. Para debida diligencia, verifica existencia y funcionamiento del producto, infraestructura, posibilidad real de transar, modelo comercial, gobierno y evidencia independiente antes de evaluar promesas de rentabilidad.
+- *Uso en esta clase:* aporta el marco de «OneCoin: sentencia del cofundador Karl Sebastian Greenwood» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**U.S. Securities and Exchange Commission — Reformas posteriores a Madoff sobre custodia y verificación independiente**  
+<https://www.sec.gov/spotlight/secpostmadoffreforms.htm> · verificado 2026-09-28
+
+- *Qué contiene:* Explica controles adoptados después del caso Madoff, entre ellos custodia independiente, exámenes sorpresa, revisión por terceros y confirmación de que los activos informados existen.
+- *Cómo leerla:* Toma los principios de independencia, confirmación y separación de custodia como aprendizaje de control. Sus exigencias concretas pertenecen al marco estadounidense y no deben presentarse como obligaciones chilenas sin una norma local aplicable.
+- *Uso en esta clase:* aporta el marco de «Reformas posteriores a Madoff sobre custodia y verificación independiente» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**Ministerio Público de Chile — AC Inversions: reformalización y peritajes contables de la investigación**  
+<https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo> · verificado 2026-09-28
+
+- *Qué contiene:* Informa la reformalización de febrero de 2018 y los resultados entonces atribuidos por la Fiscalía a peritajes contables sobre captación y perjuicio en la investigación por estafa, infracción a la Ley de Bancos y lavado de activos.
+- *Cómo leerla:* Es una fuente de investigación y reformalización, no una sentencia. Sirve para diseñar verificaciones chilenas sobre captación, contratos, cuentas receptoras, autorización para operar, procedencia del rendimiento y peritaje contable sin anticipar conclusiones penales.
+- *Uso en esta clase:* aporta el marco de «AC Inversions: reformalización y peritajes contables de la investigación» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

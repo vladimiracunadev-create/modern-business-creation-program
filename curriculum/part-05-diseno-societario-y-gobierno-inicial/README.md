@@ -75,7 +75,7 @@ flowchart TB
 | 09 | 065 | [Capital, aportes, valorización y vesting](class-09-capital-aportes-valorizacion-y-vesting/README.md) | definir cómo se aportan y valorizan las contribuciones y bajo qué vesting se consolidan |
 | 10 | 066 | [Administración, poderes y representación legal](class-10-administracion-poderes-y-representacion-legal/README.md) | definir quién representa a la sociedad, en qué materias y hasta qué monto |
 | 11 | 067 | [Pactos de accionistas y acuerdos de fundadores](class-11-pactos-de-accionistas-y-acuerdos-de-fundadores/README.md) | definir las reglas de salida, transferencia y conducta entre socios |
-| 12 | 068 | [Conflictos de interés y partes relacionadas](class-12-conflictos-de-interes-y-partes-relacionadas/README.md) | definir cómo se aprueban y registran las operaciones con partes relacionadas |
+| 12 | 068 | [Conflictos de interés y partes relacionadas](class-12-conflictos-de-interes-y-partes-relacionadas/README.md) | definir cómo se revelan, autorizan, registran y monitorean las operaciones con partes relacionadas |
 | 13 | 069 | [Juntas, actas, libros y trazabilidad de decisiones](class-13-juntas-actas-libros-y-trazabilidad-de-decisiones/README.md) | definir la rutina de juntas, actas y libros que la sociedad mantendrá |
 | 14 | 070 | [Gobierno mínimo viable desde el día uno](class-14-gobierno-minimo-viable-desde-el-dia-uno/README.md) | definir el gobierno mínimo que la empresa sostendrá desde el primer mes |
 
@@ -112,7 +112,7 @@ flowchart TB
 | **Modificación estatutaria** | Cambio que requiere escritura y publicidad. |
 | **No competencia** | Obligación de no competir durante y después de la relación societaria. |
 | **Objeto único** | La eirl debe declarar un giro determinado. |
-| **Operación con parte relacionada** | Transacción que requiere aprobación y condiciones de mercado. |
+| **Operación con parte relacionada** | Transacción que requiere aprobación, revelación y condiciones de mercado. |
 | **Pacto de accionistas** | Acuerdo privado que regula relaciones entre socios. |
 | **Parte relacionada** | Persona o entidad vinculada a un socio o administrador. |
 | **Participación** | Porcentaje del capital que posee cada socio. |

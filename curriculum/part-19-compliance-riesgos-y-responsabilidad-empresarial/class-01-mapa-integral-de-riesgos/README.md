@@ -3,12 +3,12 @@
 > **Parte 19 · Compliance, riesgos y responsabilidad empresarial** — clase 1 de 14
 
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** identificar y priorizar los riesgos con responsable y control por cada uno<br>
-**Entregable:** matriz de riesgos con probabilidad, impacto, control, responsable y riesgo residual
+**Decisión que habilita:** identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control<br>
+**Entregable:** matriz de riesgos con dependencia crítica, gatillo, impacto, control, responsable y riesgo residual
 
 ## 🎯 Propósito
 
-Levantar un mapa de riesgos que cubra todas las categorías y evalúe el riesgo residual después de los controles existentes.
+Mapear cómo fallas de producto, liquidez, concentración y confianza se propagan y qué exposición queda después de los controles.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —identificar y priorizar los riesgos con responsable y control por cada uno— y justificar la decisión por escrito.
+3. **Decidir** —identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -24,9 +24,9 @@ Al finalizar esta clase podrás:
 
 | Concepto | Comprensión verificable |
 |---|---|
-| **Riesgo** | Evento que puede impedir el logro de objetivos. |
-| **Probabilidad e impacto** | Dimensiones para priorizar riesgos. |
-| **Apetito de riesgo** | Nivel que la empresa decide aceptar. |
+| **Riesgo de producto** | Posibilidad de que el mecanismo central no cumpla lo prometido bajo estrés. |
+| **Riesgo de liquidez** | Incapacidad de atender obligaciones o retiros cuando vencen. |
+| **Riesgo de concentración** | Exposición excesiva a un activo, contraparte, relacionada o fuente de ingresos. |
 | **Riesgo residual** | Exposición que queda después de los controles. |
 
 ## 🗺️ Flujo de razonamiento
@@ -34,12 +34,12 @@ Al finalizar esta clase podrás:
 ```mermaid
 flowchart TB
     C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Riesgo"]
-    C --> A2["Probabilidad e impacto"]
-    C --> A3["Apetito de riesgo"]
+    C --> A1["Riesgo de producto"]
+    C --> A2["Riesgo de liquidez"]
+    C --> A3["Riesgo de concentración"]
     C --> A4["Riesgo residual"]
-    A1 & A2 & A3 & A4 --> D{{"identificar y priorizar los<br/>riesgos con responsable y<br/>control por cada uno"}}
-    D --> E["Entregable<br/>matriz de riesgos con<br/>probabilidad, impacto,<br/>control, responsable y riesgo<br/>residual"]
+    A1 & A2 & A3 & A4 --> D{{"identificar y priorizar<br/>riesgos de producto, liquidez,<br/>concentración y confianza con<br/>dueño y control"}}
+    D --> E["Entregable<br/>matriz de riesgos con<br/>dependencia crítica, gatillo,<br/>impacto, control, responsable<br/>y riesgo residual"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El mapa de riesgos debe cubrir todas las categorías —estratégico, operacional, financiero, legal, tecnológico y reputacional— y priorizar por probabilidad e impacto. Su utilidad depende de que cada riesgo tenga responsable y control asociado, con evaluación del riesgo residual.
+El mapa debe conectar el producto con sus dependencias económicas, tecnológicas y de liquidez. Celsius enseña a preguntar de dónde proviene el rendimiento y si los activos calzan con retiros; Terra/UST/LUNA, a probar qué ocurre si fallan simultáneamente el mecanismo de estabilización, la liquidez y la confianza. La insolvencia describe incapacidad financiera y no acredita por sí sola fraude: conducta, evidencia y estado procesal se analizan por separado.
 
 ### 2. Cómo se traduce en la práctica
 
-Un mapa que lista riesgos genéricos sin controles ni responsable no cambia nada. La utilidad aparece cuando cada riesgo tiene control asociado, responsable nombrado y una evaluación honesta de qué exposición queda incluso con el control funcionando.
+Celsius y Terra permiten practicar riesgos correlacionados: un activo pierde valor, cae la liquidez, aumentan retiros y la comunicación acelera la pérdida de confianza. El mapa debe mostrar esa cadena, el indicador que la detecta y quién puede detener el producto o activar continuidad. La insolvencia puede ser consecuencia de múltiples causas y no decide por sí sola una calificación penal.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -95,7 +95,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Matriz de riesgos con probabilidad, impacto, control, responsable y riesgo residual.
+Matriz de riesgos con dependencia crítica, gatillo, impacto, control, responsable y riesgo residual.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -107,8 +107,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] cada riesgo tiene control y responsable asignado
-- [ ] el riesgo residual está evaluado
+- [ ] cada promesa del producto se vincula con una dependencia, un escenario de falla y un indicador
+- [ ] el riesgo residual incluye correlación, concentración y velocidad de retiros
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -117,8 +117,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Listar riesgos genéricos sin evaluar el residual después de controles.
-- No asignar responsable y dejar el mapa sin seguimiento.
+- Evaluar cada riesgo aisladamente cuando varias dependencias pueden fallar a la vez.
+- Confundir insolvencia, mal diseño de producto y fraude como si fueran la misma conclusión.
 
 **Característicos de la parte 19:**
 
@@ -139,32 +139,25 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Qué riesgo tuyo tiene mayor exposición residual, ya considerando los controles?
-2. ¿Cada riesgo prioritario tiene responsable nombrado?
-3. ¿Qué nivel de riesgo has decidido aceptar de forma explícita?
+1. ¿Qué dos riesgos de tu producto pueden activarse al mismo tiempo?
+2. ¿Qué indicador anticipa el quiebre antes de que falte caja?
+3. ¿Quién tiene autoridad para detener nuevas ventas, rendimientos o retiros discrecionales?
 
 ## 🔗 Fuentes oficiales
 
-**Unidad de Análisis Financiero — Sujetos obligados · Ley 19.913**  
-<https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — Celsius: declaración de culpabilidad y sentencia del fundador**  
+<https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation> · verificado 2026-09-28
 
-- *Qué contiene:* Enumera los sectores obligados a reportar, las obligaciones que se activan —designar oficial de cumplimiento, mantener registros, reportar ROS y ROE— y los umbrales aplicables.
-- *Cómo leerla:* Busca tu actividad en la lista literal antes de asumir que no te aplica: inmobiliarias, casas de cambio, corredores y varias actividades con manejo de efectivo entran sin ser instituciones financieras.
-- *Uso en esta clase:* aporta el marco de «Sujetos obligados · Ley 19.913» para identificar y priorizar los riesgos con responsable y control por cada uno.
+- *Qué contiene:* Registra que Alexander Mashinsky se declaró culpable en diciembre de 2024 y fue sentenciado en mayo de 2025, y describe hallazgos sobre sostenibilidad de rendimientos, liquidez, uso de depósitos y comunicación de riesgos.
+- *Cómo leerla:* Distingue los hechos reconocidos en la declaración de culpabilidad y considerados en la sentencia de las reglas aplicables a una empresa chilena. El aprendizaje empresarial es probar la fuente del rendimiento, el calce de liquidez y la evidencia detrás de cada comunicación.
+- *Uso en esta clase:* aporta el marco de «Celsius: declaración de culpabilidad y sentencia del fundador» para identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control.
 
-**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon**  
+<https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> · verificado 2026-09-28
 
-- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
-- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para identificar y priorizar los riesgos con responsable y control por cada uno.
-
-**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
-
-- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
-- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para identificar y priorizar los riesgos con responsable y control por cada uno.
+- *Qué contiene:* Registra la declaración de culpabilidad de agosto de 2025 y la sentencia de diciembre de 2025, y describe hechos sobre el funcionamiento comunicado de UST, intervenciones no reveladas y respuesta posterior a la pérdida de estabilidad.
+- *Cómo leerla:* Úsala para someter a estrés el mecanismo del producto, sus dependencias, incentivos, liquidez y comunicación. La sentencia estadounidense acredita conducta en ese proceso; no crea por sí sola una regla jurídica aplicable en Chile.
+- *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

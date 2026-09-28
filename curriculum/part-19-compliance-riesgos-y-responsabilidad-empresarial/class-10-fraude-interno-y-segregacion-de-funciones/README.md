@@ -3,12 +3,12 @@
 > **Parte 19 · Compliance, riesgos y responsabilidad empresarial** — clase 10 de 14
 
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir la segregación posible y los controles compensatorios donde no la haya<br>
-**Entregable:** matriz de segregación de funciones con controles compensatorios en los puntos no segregables
+**Decisión que habilita:** segregar custodia, autorización, ejecución, registro y conciliación, y gobernar toda excepción<br>
+**Entregable:** matriz de segregación con accesos, límites, excepciones, confirmaciones y controles compensatorios
 
 ## 🎯 Propósito
 
-Segregar funciones donde sea posible y establecer controles compensatorios donde no lo sea, que es el caso habitual en empresas pequeñas.
+Separar custodia, autorización, ejecución, registro y conciliación, con privilegios excepcionales visibles y caducables.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir la segregación posible y los controles compensatorios donde no la haya— y justificar la decisión por escrito.
+3. **Decidir** —segregar custodia, autorización, ejecución, registro y conciliación, y gobernar toda excepción— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -24,22 +24,22 @@ Al finalizar esta clase podrás:
 
 | Concepto | Comprensión verificable |
 |---|---|
-| **Fraude interno** | Apropiación o manipulación por personas de la organización. |
-| **Segregación de funciones** | Separación entre quien autoriza, ejecuta y registra. |
-| **Triángulo del fraude** | Oportunidad, presión y racionalización. |
-| **Conciliación independiente** | Revisión hecha por alguien distinto del ejecutor. |
+| **Segregación de funciones** | Separación entre custodia, autorización, ejecución, registro y conciliación. |
+| **Privilegio excepcional** | Permiso que omite un control ordinario y requiere aprobación y monitoreo reforzados. |
+| **Confirmación independiente** | Validación realizada con evidencia ajena al ejecutor y al registro interno. |
+| **Trazabilidad** | Capacidad de reconstruir la operación, su autorización y su beneficiario. |
 
 ## 🗺️ Flujo de razonamiento
 
 ```mermaid
 flowchart TB
     C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Fraude interno"]
-    C --> A2["Segregación de funciones"]
-    C --> A3["Triángulo del fraude"]
-    C --> A4["Conciliación independiente"]
-    A1 & A2 & A3 & A4 --> D{{"definir la segregación posible<br/>y los controles compensatorios<br/>donde no la haya"}}
-    D --> E["Entregable<br/>matriz de segregación de<br/>funciones con controles<br/>compensatorios en los puntos<br/>no segregables"]
+    C --> A1["Segregación de funciones"]
+    C --> A2["Privilegio excepcional"]
+    C --> A3["Confirmación independiente"]
+    C --> A4["Trazabilidad"]
+    A1 & A2 & A3 & A4 --> D{{"segregar custodia,<br/>autorización, ejecución,<br/>registro y conciliación, y<br/>gobernar toda excepción"}}
+    D --> E["Entregable<br/>matriz de segregación con<br/>accesos, límites, excepciones,<br/>confirmaciones y controles<br/>compensatorios"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-La segregación de funciones es el control antifraude fundamental y el más difícil en empresas pequeñas, donde una persona hace todo. Cuando no se puede segregar, la compensación es la revisión independiente por el dueño: conciliar el banco personalmente cada mes es un control efectivo.
+Los casos FTX/Alameda y Madoff muestran fallas distintas con una raíz de control común: concentración de custodia, decisión, registro o confirmación sin contrapeso independiente. En una empresa pequeña puede haber pocas personas, pero no debe haber una operación crítica sin segundo control: límites técnicos, doble aprobación, conciliación externa, alertas de excepción y revisión del directorio compensan la falta de dotación.
 
 ### 2. Cómo se traduce en la práctica
 
-Cuando una sola persona autoriza, ejecuta y registra pagos, la compensación efectiva es la revisión independiente del dueño: conciliar el banco personalmente cada mes es un control real. Confiar en la antigüedad de una persona como sustituto del control es la creencia que precede a la mayoría de los fraudes internos.
+FTX/Alameda y Madoff muestran por qué la concentración no se corrige con confianza personal. Un equipo pequeño puede compensar con límites de sistema, doble firma, confirmación directa, alertas automáticas y revisión del directorio. La excepción debe ser más visible que la operación ordinaria: aprobador independiente, motivo, monto, vencimiento y prueba posterior.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -95,7 +95,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Matriz de segregación de funciones con controles compensatorios en los puntos no segregables.
+Matriz de segregación con accesos, límites, excepciones, confirmaciones y controles compensatorios.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -107,8 +107,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] los puntos no segregables tienen control compensatorio
-- [ ] existe revisión independiente de conciliaciones
+- [ ] ninguna operación crítica reúne custodia, autorización, ejecución, registro y conciliación en un mismo actor
+- [ ] cada excepción tiene aprobador independiente, límite, alerta, caducidad y evidencia de revisión
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -117,8 +117,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Dejar que una sola persona autorice, ejecute y concilie pagos.
-- Confiar en la antigüedad de una persona como sustituto del control.
+- Otorgar a una persona o relacionada privilegios que el sistema no registra ni limita.
+- Aceptar antigüedad, reputación o autoridad jerárquica como sustituto de confirmación independiente.
 
 **Característicos de la parte 19:**
 
@@ -139,32 +139,25 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Autoriza, ejecuta y concilia los pagos la misma persona?
-2. ¿Qué control compensatorio aplicas donde no puedes segregar?
-3. ¿Cuándo revisaste personalmente una conciliación bancaria completa?
+1. ¿Quién puede mover activos y también alterar el registro o el límite?
+2. ¿Qué privilegio excepcional existe, quién lo aprobó y cuándo caduca?
+3. ¿Qué confirmación llega directamente a alguien ajeno a la ejecución?
 
 ## 🔗 Fuentes oficiales
 
-**Unidad de Análisis Financiero — Sujetos obligados · Ley 19.913**  
-<https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — FTX y Alameda: condena y sentencia de Samuel Bankman-Fried**  
+<https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes> · verificado 2026-09-28
 
-- *Qué contiene:* Enumera los sectores obligados a reportar, las obligaciones que se activan —designar oficial de cumplimiento, mantener registros, reportar ROS y ROE— y los umbrales aplicables.
-- *Cómo leerla:* Busca tu actividad en la lista literal antes de asumir que no te aplica: inmobiliarias, casas de cambio, corredores y varias actividades con manejo de efectivo entran sin ser instituciones financieras.
-- *Uso en esta clase:* aporta el marco de «Sujetos obligados · Ley 19.913» para definir la segregación posible y los controles compensatorios donde no la haya.
+- *Qué contiene:* Resume la condena dictada tras juicio y la sentencia de marzo de 2024, incluidos hechos acreditados sobre fondos de clientes, privilegios de Alameda, información financiera y ocultamiento a clientes, inversionistas y prestamistas.
+- *Cómo leerla:* Úsala para estudiar segregación de fondos, partes relacionadas, autorización, tesorería y evidencia de gobierno. No copies tipos penales ni reglas estadounidenses a Chile: contrasta cada obligación local con contrato, actividad y norma chilena aplicable.
+- *Uso en esta clase:* aporta el marco de «FTX y Alameda: condena y sentencia de Samuel Bankman-Fried» para segregar custodia, autorización, ejecución, registro y conciliación, y gobernar toda excepción.
 
-**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+**U.S. Securities and Exchange Commission — Reformas posteriores a Madoff sobre custodia y verificación independiente**  
+<https://www.sec.gov/spotlight/secpostmadoffreforms.htm> · verificado 2026-09-28
 
-- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
-- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir la segregación posible y los controles compensatorios donde no la haya.
-
-**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
-
-- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
-- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir la segregación posible y los controles compensatorios donde no la haya.
+- *Qué contiene:* Explica controles adoptados después del caso Madoff, entre ellos custodia independiente, exámenes sorpresa, revisión por terceros y confirmación de que los activos informados existen.
+- *Cómo leerla:* Toma los principios de independencia, confirmación y separación de custodia como aprendizaje de control. Sus exigencias concretas pertenecen al marco estadounidense y no deben presentarse como obligaciones chilenas sin una norma local aplicable.
+- *Uso en esta clase:* aporta el marco de «Reformas posteriores a Madoff sobre custodia y verificación independiente» para segregar custodia, autorización, ejecución, registro y conciliación, y gobernar toda excepción.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

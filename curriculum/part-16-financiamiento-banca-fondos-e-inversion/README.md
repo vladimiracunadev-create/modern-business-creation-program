@@ -76,7 +76,7 @@ flowchart TB
 | 10 | 220 | [Venture capital y rondas](class-10-venture-capital-y-rondas/README.md) | determinar si el perfil del negocio es compatible con capital de riesgo |
 | 11 | 221 | [SAFE, notas convertibles y equity](class-11-safe-notas-convertibles-y-equity/README.md) | definir qué instrumento se usa y modelar la dilución en la conversión |
 | 12 | 222 | [Valoración empresarial básica](class-12-valoracion-empresarial-basica/README.md) | estimar el valor de la empresa e identificar qué lo deprime |
-| 13 | 223 | [Data room y due diligence de inversión](class-13-data-room-y-due-diligence-de-inversion/README.md) | preparar el data room y corregir hallazgos antes de abrir el proceso |
+| 13 | 223 | [Data room y due diligence de inversión](class-13-data-room-y-due-diligence-de-inversion/README.md) | abrir o continuar una inversión solo después de verificar producto, entidad, fondos, rendimiento y gobierno con evidencia independiente |
 | 14 | 224 | [Costo de dilución y estrategia de financiamiento](class-14-costo-de-dilucion-y-estrategia-de-financiamiento/README.md) | planificar la secuencia de financiamiento y qué hito habilita cada ronda |
 
 ## 🔤 Glosario de la parte
@@ -93,6 +93,7 @@ flowchart TB
 | **Comportamiento de pago** | Historial que condiciona el acceso al crédito. |
 | **Compromiso de permanencia** | Obligación asociada al beneficio recibido. |
 | **Conciliación de recaudación** | Cuadratura entre ventas, abonos y comisiones. |
+| **Confirmación externa** | Evidencia obtenida directamente de regulador, banco, custodio, auditor o contraparte. |
 | **Confirming** | Pago a proveedores gestionado por una entidad financiera. |
 | **Contrapartida** | Aporte del beneficiario, en dinero o valorizado. |
 | **Control** | Grado de decisión que se conserva al no diluirse. |
@@ -106,7 +107,7 @@ flowchart TB
 | **Descuento por tamaño y dependencia** | Ajuste por riesgo de empresa pequeña o dependiente del fundador. |
 | **Descuento y valuation cap** | Mecanismos que fijan el precio de conversión. |
 | **Dilución** | Reducción del porcentaje de los accionistas existentes. |
-| **Due diligence** | Proceso de verificación previo a la inversión. |
+| **Due diligence** | Verificación independiente de producto, entidad, modelo, fondos y gobierno. |
 | **Estrategia de financiamiento** | Secuencia planificada de instrumentos y montos. |
 | **Evaluación bancaria** | Análisis de capacidad de pago y comportamiento. |
 | **Expectativa de retorno** | Múltiplo que el fondo necesita para su propia rentabilidad. |
@@ -115,7 +116,6 @@ flowchart TB
 | **FOGAPE** | Fondo de garantía estatal para pequeños empresarios. |
 | **Garantía** | Respaldo exigido para el otorgamiento. |
 | **Garantía estatal** | Respaldo que reduce el riesgo del banco. |
-| **Hallazgo** | Problema detectado que afecta precio o condiciones. |
 | **Innovación** | Desarrollo de solución nueva con riesgo técnico o de mercado. |
 | **Instrumento** | Programa específico con objetivo y reglas propias. |
 | **Inversionista ángel** | Persona que invierte capital propio en etapa temprana. |
@@ -125,6 +125,7 @@ flowchart TB
 | **Múltiplo** | Factor aplicado sobre ventas o ebitda según el sector. |
 | **Nota convertible** | Préstamo que convierte en participación bajo condiciones. |
 | **Plazo de abono** | Tiempo hasta que el dinero está disponible. |
+| **Procedencia del rendimiento** | Actividad y flujo verificables que explican cómo se genera el retorno. |
 | **Punto de no dilución** | Monto a partir del cual conviene otra fuente. |
 | **Red** | Acceso a inversionistas, clientes y talento. |
 | **Reinversión** | Utilidad destinada a financiar crecimiento. |
@@ -137,7 +138,6 @@ flowchart TB
 | **Valoración** | Estimación del valor económico de la empresa. |
 | **Valorización pre-money** | Valor de la empresa antes de la inversión. |
 | **Venture capital** | Fondo que invierte en empresas de alto crecimiento. |
-| **Índice** | Estructura del data room que permite encontrar cada documento. |
 
 ## 🔗 Cómo se conecta
 

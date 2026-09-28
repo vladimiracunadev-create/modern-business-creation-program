@@ -68,7 +68,7 @@ flowchart TB
 | 01 | 281 | [Mapa de amenazas y escenarios de crisis](class-01-mapa-de-amenazas-y-escenarios-de-crisis/README.md) | identificar las amenazas concretas del negocio y su tiempo tolerable de indisponibilidad |
 | 02 | 282 | [Business Continuity Plan](class-02-business-continuity-plan/README.md) | definir qué procesos se restablecen primero y con qué recursos |
 | 03 | 283 | [Disaster Recovery para tecnología](class-03-disaster-recovery-para-tecnologia/README.md) | definir el orden de recuperación tecnológica y probarlo |
-| 04 | 284 | [Gestión de crisis reputacional](class-04-gestion-de-crisis-reputacional/README.md) | definir vocería, mensaje y canales antes de que ocurra la crisis |
+| 04 | 284 | [Gestión de crisis reputacional](class-04-gestion-de-crisis-reputacional/README.md) | definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis |
 | 05 | 285 | [Fuga de caja y plan de 30 días](class-05-fuga-de-caja-y-plan-de-30-dias/README.md) | ejecutar el plan de estabilización de caja con prioridades definidas |
 | 06 | 286 | [Cliente o proveedor crítico en insolvencia](class-06-cliente-o-proveedor-critico-en-insolvencia/README.md) | definir cómo se monitorea el riesgo de contraparte y cómo se reduce la exposición |
 | 07 | 287 | [Renegociación de deuda](class-07-renegociacion-de-deuda/README.md) | preparar y ejecutar la renegociación con propuesta fundada |
@@ -77,7 +77,7 @@ flowchart TB
 | 10 | 290 | [Protección de documentación y evidencia](class-10-proteccion-de-documentacion-y-evidencia/README.md) | identificar la documentación crítica y asegurar su custodia y disponibilidad |
 | 11 | 291 | [Plan de reducción de costos sin destruir capacidad](class-11-plan-de-reduccion-de-costos-sin-destruir-capacidad/README.md) | definir la secuencia de reducción de costos preservando capacidad de recuperación |
 | 12 | 292 | [Comunicaciones con trabajadores y clientes](class-12-comunicaciones-con-trabajadores-y-clientes/README.md) | definir qué se comunica, a quién, cuándo y con qué cadencia |
-| 13 | 293 | [Post-mortem y aprendizaje organizacional](class-13-post-mortem-y-aprendizaje-organizacional/README.md) | definir cómo se analizan los eventos adversos y cómo se incorporan los aprendizajes |
+| 13 | 293 | [Post-mortem y aprendizaje organizacional](class-13-post-mortem-y-aprendizaje-organizacional/README.md) | convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes |
 | 14 | 294 | [Plan de recuperación y vuelta a crecimiento](class-14-plan-de-recuperacion-y-vuelta-a-crecimiento/README.md) | definir los hitos de estabilización y la secuencia de recuperación |
 
 ## 🔤 Glosario de la parte
@@ -85,43 +85,45 @@ flowchart TB
 | Concepto | Definición operacional |
 |---|---|
 | **Amenaza** | Evento externo o interno que puede interrumpir la operación. |
-| **Aprendizaje organizacional** | Incorporación del hallazgo a procesos y decisiones. |
+| **Aprendizaje organizacional** | Incorporación verificable del hallazgo a procesos y decisiones. |
 | **BCP** | Plan de continuidad del negocio. |
 | **BIA** | Análisis de impacto que prioriza procesos críticos. |
 | **Cadena de custodia** | Registro que preserva el valor probatorio. |
 | **Cadencia** | Frecuencia comprometida de actualización. |
 | **Capacidad de recuperación** | Posibilidad de volver a crecer después del ajuste. |
 | **Castigo** | Reconocimiento contable de la pérdida. |
-| **Causa raíz** | Origen real del problema, distinto del síntoma. |
+| **Causa empresarial** | Falla de producto, liquidez, gobierno, control o comunicación que puede coexistir sin equivaler a delito. |
 | **Cobranza** | Gestión de recuperación de deuda vencida. |
 | **Comunicación a clientes** | Información sobre continuidad del servicio. |
 | **Comunicación de crisis interna** | Información al equipo sobre la situación y las medidas. |
 | **Costo discrecional** | Gasto postergable sin afectar la operación. |
 | **Costo estructural** | Gasto que sostiene la capacidad de generar ingreso. |
-| **Crisis reputacional** | Evento que daña la confianza de clientes o del entorno. |
-| **Cultura sin culpa** | Enfoque que busca causas sistémicas y no responsables individuales. |
+| **Crisis de confianza** | Evento que acelera retiros, reclamos o pérdida de contrapartes. |
 | **Custodia** | Resguardo con acceso controlado y respaldo. |
 | **Documentación crítica** | Información sin la cual no se puede acreditar derechos. |
 | **DRP** | Plan de recuperación tecnológica. |
 | **Ensayo** | Ejercicio que verifica que el plan funciona. |
+| **Escalamiento** | Activación de dirección, asesores, autoridades y continuidad según umbral. |
 | **Escenario de crisis** | Descripción concreta de la materialización de una amenaza. |
+| **Estado procesal** | Calidad jurídica de una afirmación: investigación, acusación, declaración de culpabilidad, sentencia, resolución civil o recurso. |
 | **Exposición** | Monto en riesgo frente a esa contraparte. |
 | **Fuga de caja** | Salida de efectivo superior a la entrada de forma sostenida. |
+| **Hecho confirmado** | Dato validado que puede comunicarse sin especulación. |
 | **Hito de estabilización** | Condición que indica que la crisis está contenida. |
 | **Impacto operacional** | Efecto sobre la capacidad de entregar. |
 | **Incobrable** | Deuda cuya recuperación se estima improbable. |
 | **Insolvencia de contraparte** | Incapacidad de un cliente o proveedor de cumplir. |
 | **Ley 20.720** | Ley de reorganización y liquidación de empresas y personas. |
 | **Liquidación** | Procedimiento de realización de activos y pago. |
-| **Mensaje central** | Posición única sostenida en todos los canales. |
 | **Mérito ejecutivo** | Condición que permite cobrar judicialmente sin juicio declarativo previo. |
 | **Negociación de plazos** | Acuerdo con proveedores y acreedores. |
 | **Plan de 30 días** | Conjunto de acciones inmediatas de estabilización. |
 | **Plan de recuperación** | Secuencia para volver a la operación y al crecimiento. |
 | **Posición negociadora** | Fuerza relativa de las partes en la negociación. |
-| **Post-mortem** | Análisis estructurado de un evento adverso. |
+| **Post-mortem** | Análisis estructurado de hechos, decisiones, controles y consecuencias. |
 | **Prioridad de pago** | Orden que protege la continuidad y el cumplimiento legal. |
 | **Proceso crítico** | Aquel cuya interrupción produce el mayor daño. |
+| **Protección de afectados** | Medidas para detener daño, preservar derechos y habilitar canales de atención. |
 | **Prueba de recuperación** | Ejercicio de restauración completo. |
 | **Quita** | Reducción del monto adeudado. |
 | **Reconstrucción de capacidad** | Recuperación de recursos recortados durante la crisis. |
@@ -136,10 +138,8 @@ flowchart TB
 | **Señal temprana** | Comportamiento que anticipa el problema. |
 | **Sitio alternativo** | Infraestructura de respaldo para operar. |
 | **Tiempo de indisponibilidad tolerable** | Plazo máximo antes de daño irreversible. |
-| **Tiempo de respuesta** | Rapidez con que la empresa se pronuncia. |
 | **Veedor y liquidador** | Profesionales que intervienen en cada procedimiento. |
 | **Verificación de crédito** | Revisión periódica de la salud del cliente. |
-| **Vocería** | Persona designada para comunicar. |
 
 ## 🔗 Cómo se conecta
 

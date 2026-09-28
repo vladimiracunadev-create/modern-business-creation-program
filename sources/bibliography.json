@@ -150,7 +150,6 @@
         "curriculum/part-08-contabilidad-y-estados-financieros/class-06-balance-general",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-07-estado-de-resultados",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-08-estado-de-flujo-de-efectivo",
-        "curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-10-cuentas-por-cobrar-y-provisiones",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-11-cuentas-por-pagar-y-cierre-mensual",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-13-activos-fijos-depreciacion-e-intangibles",
@@ -166,7 +165,6 @@
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-09-rotacion-ticket-y-merma-para-comercio",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-10-ciclo-de-conversion-de-efectivo",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-11-deuda-buena-deuda-mala-y-costo-de-capital",
-        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-12-escenarios-base-estres-y-supervivencia",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-13-dashboard-financiero-del-fundador",
         "curriculum/part-10-contratos-y-arquitectura-legal-operativa",
         "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-01-anatomia-de-un-contrato-comercial",
@@ -256,8 +254,6 @@
         "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-12-iva-retenciones-y-doble-tributacion",
         "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-14-filial-partner-o-venta-remota",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-03-ley-20-393-y-responsabilidad-penal-de-la-persona-juridica",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-04-ley-21-595-de-delitos-economicos",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-05-modelo-de-prevencion-de-delitos",
@@ -265,7 +261,6 @@
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-07-uaf-ley-19-913-y-sujetos-obligados",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-08-kyc-pep-beneficiario-final-y-debida-diligencia",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-09-anticorrupcion-regalos-y-conflictos",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-11-compliance-tributario-y-ley-21-713",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-12-ciberseguridad-y-obligaciones-sectoriales",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-14-auditoria-interna-y-plan-anual-de-cumplimiento",
@@ -286,14 +281,12 @@
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-01-mapa-de-amenazas-y-escenarios-de-crisis",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-02-business-continuity-plan",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-03-disaster-recovery-para-tecnologia",
-        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-06-cliente-o-proveedor-critico-en-insolvencia",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-07-renegociacion-de-deuda",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-08-cobranza-y-gestion-de-incobrables",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-09-ley-20-720-reorganizacion-y-liquidacion",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-11-plan-de-reduccion-de-costos-sin-destruir-capacidad",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-12-comunicaciones-con-trabajadores-y-clientes",
-        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-14-plan-de-recuperacion-y-vuelta-a-crecimiento",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-05-due-diligence-vendedor",
@@ -436,7 +429,6 @@
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-09-rotacion-ticket-y-merma-para-comercio",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-10-ciclo-de-conversion-de-efectivo",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-11-deuda-buena-deuda-mala-y-costo-de-capital",
-        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-12-escenarios-base-estres-y-supervivencia",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-13-dashboard-financiero-del-fundador",
         "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital",
         "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-01-arquitectura-tecnologica-minima-viable",
@@ -501,7 +493,6 @@
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-12-ley-16-744-y-seguro-de-accidentes",
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-13-decreto-44-y-gestion-preventiva-de-riesgos",
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-14-termino-de-contrato-y-documentacion-de-salida",
-        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-06-canal-de-denuncias-e-investigaciones",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-05-hiring-plan-y-workforce-planning",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-10-adquisicion-de-competidores-o-capacidades",
@@ -509,12 +500,10 @@
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-01-mapa-de-amenazas-y-escenarios-de-crisis",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-02-business-continuity-plan",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-03-disaster-recovery-para-tecnologia",
-        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-05-fuga-de-caja-y-plan-de-30-dias",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-10-proteccion-de-documentacion-y-evidencia",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-11-plan-de-reduccion-de-costos-sin-destruir-capacidad",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-12-comunicaciones-con-trabajadores-y-clientes",
-        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-14-plan-de-recuperacion-y-vuelta-a-crecimiento",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible",
@@ -1024,7 +1013,6 @@
         "curriculum/part-08-contabilidad-y-estados-financieros/class-06-balance-general",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-07-estado-de-resultados",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-08-estado-de-flujo-de-efectivo",
-        "curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-14-cierre-anual-y-carpeta-de-respaldo",
         "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-03-credito-comercial-y-capital-de-trabajo",
         "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
@@ -1128,7 +1116,6 @@
         "curriculum/part-08-contabilidad-y-estados-financieros/class-06-balance-general",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-07-estado-de-resultados",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-08-estado-de-flujo-de-efectivo",
-        "curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-12-existencias-y-costo-de-ventas",
         "curriculum/part-08-contabilidad-y-estados-financieros/class-13-activos-fijos-depreciacion-e-intangibles",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria",
@@ -1141,7 +1128,6 @@
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-08-mrr-arr-churn-y-nrr-para-suscripciones",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-09-rotacion-ticket-y-merma-para-comercio",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-10-ciclo-de-conversion-de-efectivo",
-        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-12-escenarios-base-estres-y-supervivencia",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-13-dashboard-financiero-del-fundador",
         "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas",
         "curriculum/part-10-contratos-y-arquitectura-legal-operativa",
@@ -1154,9 +1140,6 @@
         "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-08-factura-de-exportacion-y-tratamiento-tributario",
         "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-12-iva-retenciones-y-doble-tributacion",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-11-compliance-tributario-y-ley-21-713",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-14-auditoria-interna-y-plan-anual-de-cumplimiento",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado",
@@ -1357,6 +1340,169 @@
       "last_checked": "2026-09-01"
     },
     {
+      "id": "cmf-alertas",
+      "manifest_id": "CMF_ALERTAS",
+      "type": "reference",
+      "authors": [
+        "Comisión para el Mercado Financiero"
+      ],
+      "title": "Alertas sobre entidades y plataformas de inversión no supervisadas",
+      "locator": "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html",
+      "authority": "Comisión para el Mercado Financiero",
+      "accessed": "2026-09-28",
+      "used_in": [
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion"
+      ],
+      "status": "verificada",
+      "que_contiene": "Publica alertas sobre personas o entidades que podrían captar fondos o prestar servicios financieros o de inversión sin la autorización o inscripción exigible, y orienta a verificar identidad y supervisión antes de operar.",
+      "como_leerla": "Úsala como una comprobación de debida diligencia y no como sentencia: que una entidad aparezca en una alerta exige detenerse, confirmar autorización y pedir evidencia; la ausencia de alerta tampoco prueba legitimidad ni solvencia.",
+      "nota": "Verificación chilena de autorización, registro y alertas de inversión.",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "id": "doj-celsius",
+      "manifest_id": "DOJ_CELSIUS",
+      "type": "reference",
+      "authors": [
+        "United States Attorney's Office, Southern District of New York"
+      ],
+      "title": "Celsius: declaración de culpabilidad y sentencia del fundador",
+      "locator": "https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation",
+      "authority": "Departamento de Justicia de Estados Unidos",
+      "accessed": "2026-09-28",
+      "used_in": [
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-12-escenarios-base-estres-y-supervivencia",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Registra que Alexander Mashinsky se declaró culpable en diciembre de 2024 y fue sentenciado en mayo de 2025, y describe hallazgos sobre sostenibilidad de rendimientos, liquidez, uso de depósitos y comunicación de riesgos.",
+      "como_leerla": "Distingue los hechos reconocidos en la declaración de culpabilidad y considerados en la sentencia de las reglas aplicables a una empresa chilena. El aprendizaje empresarial es probar la fuente del rendimiento, el calce de liquidez y la evidencia detrás de cada comunicación.",
+      "nota": "Fuente penal oficial sobre Celsius; no reemplaza el análisis regulatorio chileno.",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "id": "doj-ftx",
+      "manifest_id": "DOJ_FTX",
+      "type": "reference",
+      "authors": [
+        "United States Department of Justice"
+      ],
+      "title": "FTX y Alameda: condena y sentencia de Samuel Bankman-Fried",
+      "locator": "https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes",
+      "authority": "Departamento de Justicia de Estados Unidos",
+      "accessed": "2026-09-28",
+      "used_in": [
+        "curriculum/part-05-diseno-societario-y-gobierno-inicial/class-12-conflictos-de-interes-y-partes-relacionadas",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-14-reglas-de-caja-y-reservas",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Resume la condena dictada tras juicio y la sentencia de marzo de 2024, incluidos hechos acreditados sobre fondos de clientes, privilegios de Alameda, información financiera y ocultamiento a clientes, inversionistas y prestamistas.",
+      "como_leerla": "Úsala para estudiar segregación de fondos, partes relacionadas, autorización, tesorería y evidencia de gobierno. No copies tipos penales ni reglas estadounidenses a Chile: contrasta cada obligación local con contrato, actividad y norma chilena aplicable.",
+      "nota": "Fuente penal oficial sobre FTX/Alameda y estado procesal concluido en sentencia.",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "id": "doj-onecoin",
+      "manifest_id": "DOJ_ONECOIN",
+      "type": "reference",
+      "authors": [
+        "United States Attorney's Office, Southern District of New York"
+      ],
+      "title": "OneCoin: sentencia del cofundador Karl Sebastian Greenwood",
+      "locator": "https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison",
+      "authority": "Departamento de Justicia de Estados Unidos",
+      "accessed": "2026-09-28",
+      "used_in": [
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Documenta la sentencia de septiembre de 2023 de un cofundador y describe la comercialización multinivel de un producto presentado como criptomoneda, mientras la otra cofundadora permanecía prófuga a la fecha de la fuente.",
+      "como_leerla": "Separa el estado procesal de cada persona. Para debida diligencia, verifica existencia y funcionamiento del producto, infraestructura, posibilidad real de transar, modelo comercial, gobierno y evidencia independiente antes de evaluar promesas de rentabilidad.",
+      "nota": "Fuente penal oficial sobre OneCoin con estados procesales diferenciados.",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "id": "doj-terra",
+      "manifest_id": "DOJ_TERRA",
+      "type": "reference",
+      "authors": [
+        "United States Attorney's Office, Southern District of New York"
+      ],
+      "title": "Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon",
+      "locator": "https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud",
+      "authority": "Departamento de Justicia de Estados Unidos",
+      "accessed": "2026-09-28",
+      "used_in": [
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-12-escenarios-base-estres-y-supervivencia",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Registra la declaración de culpabilidad de agosto de 2025 y la sentencia de diciembre de 2025, y describe hechos sobre el funcionamiento comunicado de UST, intervenciones no reveladas y respuesta posterior a la pérdida de estabilidad.",
+      "como_leerla": "Úsala para someter a estrés el mecanismo del producto, sus dependencias, incentivos, liquidez y comunicación. La sentencia estadounidense acredita conducta en ese proceso; no crea por sí sola una regla jurídica aplicable en Chile.",
+      "nota": "Fuente penal oficial sobre Terraform, TerraUSD/UST y LUNA.",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "id": "fiscalia-ac-inversions",
+      "manifest_id": "FISCALIA_AC_INVERSIONS",
+      "type": "reference",
+      "authors": [
+        "Fiscalía de Chile"
+      ],
+      "title": "AC Inversions: reformalización y peritajes contables de la investigación",
+      "locator": "https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo",
+      "authority": "Ministerio Público de Chile",
+      "accessed": "2026-09-28",
+      "used_in": [
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Informa la reformalización de febrero de 2018 y los resultados entonces atribuidos por la Fiscalía a peritajes contables sobre captación y perjuicio en la investigación por estafa, infracción a la Ley de Bancos y lavado de activos.",
+      "como_leerla": "Es una fuente de investigación y reformalización, no una sentencia. Sirve para diseñar verificaciones chilenas sobre captación, contratos, cuentas receptoras, autorización para operar, procedencia del rendimiento y peritaje contable sin anticipar conclusiones penales.",
+      "nota": "Fuente oficial chilena sobre una etapa investigativa del caso AC Inversions.",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "id": "sec-madoff-controls",
+      "manifest_id": "SEC_MADOFF_CONTROLS",
+      "type": "reference",
+      "authors": [
+        "U.S. Securities and Exchange Commission"
+      ],
+      "title": "Reformas posteriores a Madoff sobre custodia y verificación independiente",
+      "locator": "https://www.sec.gov/spotlight/secpostmadoffreforms.htm",
+      "authority": "U.S. Securities and Exchange Commission",
+      "accessed": "2026-09-28",
+      "used_in": [
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-09-conciliacion-bancaria",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-12-auditoria-externa-y-control-de-gestion",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica controles adoptados después del caso Madoff, entre ellos custodia independiente, exámenes sorpresa, revisión por terceros y confirmación de que los activos informados existen.",
+      "como_leerla": "Toma los principios de independencia, confirmación y separación de custodia como aprendizaje de control. Sus exigencias concretas pertenecen al marco estadounidense y no deben presentarse como obligaciones chilenas sin una norma local aplicable.",
+      "nota": "Controles oficiales derivados del caso Madoff; alcance regulatorio estadounidense.",
+      "last_checked": "2026-09-28"
+    },
+    {
       "id": "uaf",
       "manifest_id": "UAF",
       "type": "reference",
@@ -1370,11 +1516,8 @@
       "used_in": [
         "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-13-cuenta-bancaria-empresarial-y-debida-diligencia-bancaria",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-07-uaf-ley-19-913-y-sujetos-obligados",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-08-kyc-pep-beneficiario-final-y-debida-diligencia",
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-10-fraude-interno-y-segregacion-de-funciones",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-14-auditoria-interna-y-plan-anual-de-cumplimiento",
         "curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-09-fintech-regulada-y-servicios-financieros-tecnologicos",
         "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-08-disenar-contratos-y-mapa-de-compliance"

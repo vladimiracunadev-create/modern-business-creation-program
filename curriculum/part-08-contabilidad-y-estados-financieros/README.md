@@ -70,7 +70,7 @@ flowchart TB
 | 06 | 104 | [Balance general](class-06-balance-general/README.md) | evaluar la posición financiera real detrás de las cifras del balance |
 | 07 | 105 | [Estado de resultados](class-07-estado-de-resultados/README.md) | determinar si el problema está en el margen del producto o en la estructura de gastos |
 | 08 | 106 | [Estado de flujo de efectivo](class-08-estado-de-flujo-de-efectivo/README.md) | determinar si la operación genera efectivo por sí misma |
-| 09 | 107 | [Conciliación bancaria](class-09-conciliacion-bancaria/README.md) | establecer la conciliación bancaria como control mensual obligatorio |
+| 09 | 107 | [Conciliación bancaria](class-09-conciliacion-bancaria/README.md) | establecer conciliaciones independientes por cuenta, propietario económico y entidad relacionada |
 | 10 | 108 | [Cuentas por cobrar y provisiones](class-10-cuentas-por-cobrar-y-provisiones/README.md) | definir política de crédito, seguimiento de antigüedad y criterio de provisión |
 | 11 | 109 | [Cuentas por pagar y cierre mensual](class-11-cuentas-por-pagar-y-cierre-mensual/README.md) | definir el checklist y el calendario del cierre mensual |
 | 12 | 110 | [Existencias y costo de ventas](class-12-existencias-y-costo-de-ventas/README.md) | definir método de valorización y frecuencia de conteo físico |
@@ -94,8 +94,8 @@ flowchart TB
 | **Checklist de cierre** | Lista de verificaciones que debe completarse cada mes. |
 | **Cierre anual** | Proceso que consolida el ejercicio y prepara la declaración. |
 | **Cierre mensual** | Proceso que deja el período contable completo y revisado. |
-| **Conciliación bancaria** | Comparación entre el mayor de banco y la cartola. |
-| **Corte** | Fecha hasta la cual se concilia. |
+| **Conciliación bancaria** | Comparación entre el mayor de banco y la cartola obtenida de la fuente independiente. |
+| **Confirmación externa** | Evidencia recibida directamente del banco, custodio o contraparte. |
 | **Corte de documentos** | Regla que asigna documentos al período correcto. |
 | **Costo de ventas** | Costo de las existencias efectivamente vendidas. |
 | **Cuadratura** | Coincidencia entre el auxiliar y el saldo de la cuenta de control. |

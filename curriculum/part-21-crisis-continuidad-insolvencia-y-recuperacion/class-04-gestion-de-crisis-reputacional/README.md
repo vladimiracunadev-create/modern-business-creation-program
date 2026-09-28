@@ -3,12 +3,12 @@
 > **Parte 21 · Crisis, continuidad, insolvencia y recuperación** — clase 4 de 14
 
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir vocería, mensaje y canales antes de que ocurra la crisis<br>
-**Entregable:** protocolo de crisis reputacional con vocería, mensajes base, canales y criterios de escalamiento
+**Decisión que habilita:** definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis<br>
+**Entregable:** protocolo de crisis con tablero de hechos, vocería, mensajes, canales, continuidad, preservación de evidencia y umbrales
 
 ## 🎯 Propósito
 
-Preparar vocería, mensaje y canales antes de la crisis reputacional, porque el silencio se interpreta como confirmación.
+Responder a una crisis de confianza con hechos confirmados, protección de afectados, continuidad, evidencia y escalamiento.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir vocería, mensaje y canales antes de que ocurra la crisis— y justificar la decisión por escrito.
+3. **Decidir** —definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -24,22 +24,22 @@ Al finalizar esta clase podrás:
 
 | Concepto | Comprensión verificable |
 |---|---|
-| **Crisis reputacional** | Evento que daña la confianza de clientes o del entorno. |
-| **Vocería** | Persona designada para comunicar. |
-| **Mensaje central** | Posición única sostenida en todos los canales. |
-| **Tiempo de respuesta** | Rapidez con que la empresa se pronuncia. |
+| **Crisis de confianza** | Evento que acelera retiros, reclamos o pérdida de contrapartes. |
+| **Hecho confirmado** | Dato validado que puede comunicarse sin especulación. |
+| **Protección de afectados** | Medidas para detener daño, preservar derechos y habilitar canales de atención. |
+| **Escalamiento** | Activación de dirección, asesores, autoridades y continuidad según umbral. |
 
 ## 🗺️ Flujo de razonamiento
 
 ```mermaid
 flowchart TB
     C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Crisis reputacional"]
-    C --> A2["Vocería"]
-    C --> A3["Mensaje central"]
-    C --> A4["Tiempo de respuesta"]
-    A1 & A2 & A3 & A4 --> D{{"definir vocería, mensaje y<br/>canales antes de que ocurra la<br/>crisis"}}
-    D --> E["Entregable<br/>protocolo de crisis<br/>reputacional con vocería,<br/>mensajes base, canales y<br/>criterios de escalamiento"]
+    C --> A1["Crisis de confianza"]
+    C --> A2["Hecho confirmado"]
+    C --> A3["Protección de afectados"]
+    C --> A4["Escalamiento"]
+    A1 & A2 & A3 & A4 --> D{{"definir vocería, hechos<br/>comunicables, protección de<br/>afectados y escalamiento antes<br/>de la crisis"}}
+    D --> E["Entregable<br/>protocolo de crisis con<br/>tablero de hechos, vocería,<br/>mensajes, canales,<br/>continuidad, preservación de<br/>evidencia y umbrales"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-En una crisis reputacional el silencio se interpreta como confirmación y la improvisación multiplica el daño. Tener vocería designada, mensaje preparado y canales definidos permite responder en horas. El mensaje debe reconocer hechos, indicar acciones y comprometer plazos, sin especular.
+Celsius y Terra muestran que una crisis de producto o liquidez también es una crisis de comunicación. La respuesta no puede ocultar incertidumbre ni prometer seguridad sin respaldo: debe distinguir hechos confirmados, hipótesis y decisiones; informar disponibilidad y restricciones; preservar evidencia; proteger a clientes y trabajadores; y coordinar continuidad, asesoría y autoridades. La comunicación no reemplaza la solución financiera, pero una afirmación infundada puede agravarla.
 
 ### 2. Cómo se traduce en la práctica
 
-Responder en horas exige tener designada la vocería y mensajes base por tipo de escenario. El mensaje debe reconocer hechos, indicar acciones y comprometer plazos, sin especular sobre causas no confirmadas: la especulación que después resulta falsa duplica el daño original.
+Celsius y Terra enseñan que comunicar solvencia, liquidez o estabilidad sin evidencia vigente puede amplificar la crisis. El primer mensaje debe decir qué se sabe, qué no, qué medida protege a los afectados, qué canal funciona y cuándo será la próxima actualización. En paralelo se preservan registros, se activa continuidad y se evalúan deberes regulatorios con asesoría local.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Protocolo de crisis reputacional con vocería, mensajes base, canales y criterios de escalamiento.
+Protocolo de crisis con tablero de hechos, vocería, mensajes, canales, continuidad, preservación de evidencia y umbrales.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] la vocería está designada con respaldo
-- [ ] existen mensajes base por tipo de escenario
+- [ ] cada mensaje separa hechos, incertidumbres, medidas y próxima actualización
+- [ ] los umbrales activan responsables, continuidad, preservación de evidencia y evaluación regulatoria
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +115,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Improvisar la comunicación y contradecirse entre canales.
-- Especular sobre causas antes de tener información confirmada.
+- Asegurar solvencia, liquidez o estabilidad sin evidencia actual y revisada.
+- Confundir estrategia reputacional con ocultamiento de incertidumbre o demora en proteger afectados.
 
 **Característicos de la parte 21:**
 
@@ -137,25 +137,25 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Quién habla por la empresa en una crisis y quién es el respaldo?
-2. ¿Tienes mensajes base para tus dos escenarios más probables?
-3. ¿Qué harías si el hecho se conoce antes de que tengas información confirmada?
+1. ¿Qué afirmación puedes respaldar hoy con evidencia revisada?
+2. ¿Qué medida inmediata reduce el daño a clientes y trabajadores?
+3. ¿Qué umbral activa autoridades, continuidad y preservación reforzada de evidencia?
 
 ## 🔗 Fuentes oficiales
 
-**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — Celsius: declaración de culpabilidad y sentencia del fundador**  
+<https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation> · verificado 2026-09-28
 
-- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
-- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir vocería, mensaje y canales antes de que ocurra la crisis.
+- *Qué contiene:* Registra que Alexander Mashinsky se declaró culpable en diciembre de 2024 y fue sentenciado en mayo de 2025, y describe hallazgos sobre sostenibilidad de rendimientos, liquidez, uso de depósitos y comunicación de riesgos.
+- *Cómo leerla:* Distingue los hechos reconocidos en la declaración de culpabilidad y considerados en la sentencia de las reglas aplicables a una empresa chilena. El aprendizaje empresarial es probar la fuente del rendimiento, el calce de liquidez y la evidencia detrás de cada comunicación.
+- *Uso en esta clase:* aporta el marco de «Celsius: declaración de culpabilidad y sentencia del fundador» para definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis.
 
-**Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
-<https://www.dt.gob.cl/> · verificado 2026-09-01
+**Departamento de Justicia de Estados Unidos — Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon**  
+<https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> · verificado 2026-09-28
 
-- *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
-- *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
-- *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir vocería, mensaje y canales antes de que ocurra la crisis.
+- *Qué contiene:* Registra la declaración de culpabilidad de agosto de 2025 y la sentencia de diciembre de 2025, y describe hechos sobre el funcionamiento comunicado de UST, intervenciones no reveladas y respuesta posterior a la pérdida de estabilidad.
+- *Cómo leerla:* Úsala para someter a estrés el mecanismo del producto, sus dependencias, incentivos, liquidez y comunicación. La sentencia estadounidense acredita conducta en ese proceso; no crea por sí sola una regla jurídica aplicable en Chile.
+- *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
