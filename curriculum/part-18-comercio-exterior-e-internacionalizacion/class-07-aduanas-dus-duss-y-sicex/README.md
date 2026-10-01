@@ -145,7 +145,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Sistema Integrado de Comercio Exterior — Ventanilla única de comercio exterior**  
-<https://www.sicexchile.cl/> · verificado 2026-08-19
+<https://www.sicexchile.cl/> · verificado 2026-10-01
 
 - *Qué contiene:* Integra en una sola plataforma los trámites de los servicios que intervienen en una operación de comercio exterior, con el estado de cada visación.
 - *Cómo leerla:* Úsala para descubrir qué servicios intervienen en tu producto antes de embarcar. La mercancía detenida en puerto esperando una visación es el costo típico de no haber hecho esta consulta a tiempo.

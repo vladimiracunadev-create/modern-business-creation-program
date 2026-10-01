@@ -83,7 +83,7 @@ Detalle completo en [`STATUS.md`](STATUS.md).
 <!-- fuentes:inicio -->
 ## 🔗 Fuentes y revalidación
 
-![Fuentes revalidadas](https://img.shields.io/badge/fuentes%20revalidadas-2026--09--01-blue)
+![Fuentes revalidadas](https://img.shields.io/badge/fuentes%20revalidadas-2026--10--01-blue)
 
 Toda afirmación del programa se apoya en una entrada del registro
 [`sources/bibliography.json`](sources/bibliography.json), que declara para cada fuente su
@@ -96,62 +96,62 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 
 | Fuente | Organismo | Citas | Estado | Resolvió |
 |---|---|---:|:---:|---|
-| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 247 | ✅ | 2026-09-01 |
-| [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 103 | ✅ | 2026-09-01 |
-| [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 62 | ✅ | 2026-09-01 |
-| [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 52 | ✅ | 2026-09-01 |
-| [Relaciones laborales y obligaciones del empleador](https://www.dt.gob.cl/) | Dirección del Trabajo | 44 | ✅ | 2026-09-01 |
+| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 247 | ✅ | 2026-10-01 |
+| [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 103 | ✅ | 2026-10-01 |
+| [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 62 | ✅ | 2026-10-01 |
+| [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 52 | ✅ | 2026-10-01 |
+| [Relaciones laborales y obligaciones del empleador](https://www.dt.gob.cl/) | Dirección del Trabajo | 44 | ✅ | 2026-10-01 |
 | [Constitución de empresas](https://www.chileatiende.gob.cl/fichas/21409-tu-empresa) | Registro de Empresas y Sociedades / ChileAtiende | 32 | ⚠️ | 2026-08-19 |
 | [Fomento para micro y pequeñas empresas](https://www.sercotec.cl/) | Servicio de Cooperación Técnica | 32 | ⚠️ | 2026-08-19 |
-| [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 25 | ✅ | 2026-09-01 |
+| [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 25 | ✅ | 2026-10-01 |
 | [Autorización sanitaria de alimentos](https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos) | ChileAtiende · Autoridad Sanitaria Regional | 24 | ⚠️ | 2026-08-19 |
-| [Registro de Prestadores de Servicios Financieros · Ley 21.521](https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html) | Comisión para el Mercado Financiero | 15 | ✅ | 2026-09-01 |
-| [Programas, estudios de mercado y promoción](https://www.prochile.gob.cl/) | ProChile | 15 | ✅ | 2026-09-01 |
-| [Marcas, patentes y diseños industriales](https://www.inapi.cl/) | Instituto Nacional de Propiedad Industrial | 14 | ✅ | 2026-09-01 |
-| [Regímenes tributarios · Operación Renta 2026](https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/) | Servicio de Impuestos Internos | 14 | ✅ | 2026-09-01 |
+| [Registro de Prestadores de Servicios Financieros · Ley 21.521](https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html) | Comisión para el Mercado Financiero | 15 | ✅ | 2026-10-01 |
+| [Programas, estudios de mercado y promoción](https://www.prochile.gob.cl/) | ProChile | 15 | ✅ | 2026-10-01 |
+| [Marcas, patentes y diseños industriales](https://www.inapi.cl/) | Instituto Nacional de Propiedad Industrial | 14 | ✅ | 2026-10-01 |
+| [Regímenes tributarios · Operación Renta 2026](https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/) | Servicio de Impuestos Internos | 14 | ✅ | 2026-10-01 |
 | [Importación, exportación y clasificación arancelaria](https://www.aduana.cl/) | Servicio Nacional de Aduanas | 9 | ⚠️ | 2026-08-19 |
-| [FTX y Alameda: condena y sentencia de Samuel Bankman-Fried](https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes) | Departamento de Justicia de Estados Unidos | 7 | ✅ | 2026-09-28 |
-| [Sujetos obligados · Ley 19.913](https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar) | Unidad de Análisis Financiero | 7 | ✅ | 2026-09-01 |
+| [FTX y Alameda: condena y sentencia de Samuel Bankman-Fried](https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes) | Departamento de Justicia de Estados Unidos | 7 | ✅ | 2026-10-01 |
+| [Sujetos obligados · Ley 19.913](https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar) | Unidad de Análisis Financiero | 7 | ✅ | 2026-10-01 |
 | [Exportación de servicios](https://www.prochile.gob.cl/exportadores/exportacion-de-servicios) | ProChile | 6 | ⚠️ | 2026-08-07 |
-| [OTEC, franquicia tributaria y cursos](https://sence.gob.cl/) | Servicio Nacional de Capacitación y Empleo | 6 | ✅ | 2026-09-01 |
-| [Registro de prestadores de servicios turísticos](https://www.sernatur.cl/) | Servicio Nacional de Turismo | 6 | ✅ | 2026-09-01 |
-| [Instalaciones eléctricas y de gas](https://www.sec.cl/) | Superintendencia de Electricidad y Combustibles | 6 | ✅ | 2026-09-01 |
-| [Reformas posteriores a Madoff sobre custodia y verificación independiente](https://www.sec.gov/spotlight/secpostmadoffreforms.htm) | U.S. Securities and Exchange Commission | 6 | ✅ | 2026-09-28 |
-| [Celsius: declaración de culpabilidad y sentencia del fundador](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-09-28 |
-| [Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon](https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-09-28 |
-| [Registro de Compras y Ventas](https://www.sii.cl/destacados/f29/registrocompraventas.htm) | Servicio de Impuestos Internos | 5 | ✅ | 2026-09-01 |
-| [Sistema de Evaluación de Impacto Ambiental](https://www.sea.gob.cl/) | Servicio de Evaluación Ambiental | 4 | ✅ | 2026-09-01 |
-| [Ventanilla única de comercio exterior](https://www.sicexchile.cl/) | Sistema Integrado de Comercio Exterior | 4 | ⚠️ | 2026-08-19 |
-| [Aceleración de startups](https://startupchile.org/) | Start-Up Chile · CORFO | 4 | ✅ | 2026-09-01 |
-| [Concesiones y permisos de telecomunicaciones](https://www.subtel.gob.cl/) | Subsecretaría de Telecomunicaciones | 4 | ✅ | 2026-09-01 |
-| [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-09-28 |
-| [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-09-28 |
-| [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-09-01 |
-| [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-09-01 |
-| [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-09-01 |
-| [Fiscalización y sanción ambiental](https://portal.sma.gob.cl/) | Superintendencia del Medio Ambiente | 2 | ✅ | 2026-09-01 |
-| [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-09-01 |
-| [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-09-28 |
-| [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-09-01 |
+| [OTEC, franquicia tributaria y cursos](https://sence.gob.cl/) | Servicio Nacional de Capacitación y Empleo | 6 | ✅ | 2026-10-01 |
+| [Registro de prestadores de servicios turísticos](https://www.sernatur.cl/) | Servicio Nacional de Turismo | 6 | ✅ | 2026-10-01 |
+| [Instalaciones eléctricas y de gas](https://www.sec.cl/) | Superintendencia de Electricidad y Combustibles | 6 | ✅ | 2026-10-01 |
+| [Reformas posteriores a Madoff sobre custodia y verificación independiente](https://www.sec.gov/spotlight/secpostmadoffreforms.htm) | U.S. Securities and Exchange Commission | 6 | ⚠️ | 2026-09-28 |
+| [Celsius: declaración de culpabilidad y sentencia del fundador](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-10-01 |
+| [Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon](https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-10-01 |
+| [Registro de Compras y Ventas](https://www.sii.cl/destacados/f29/registrocompraventas.htm) | Servicio de Impuestos Internos | 5 | ✅ | 2026-10-01 |
+| [Sistema de Evaluación de Impacto Ambiental](https://www.sea.gob.cl/) | Servicio de Evaluación Ambiental | 4 | ✅ | 2026-10-01 |
+| [Ventanilla única de comercio exterior](https://www.sicexchile.cl/) | Sistema Integrado de Comercio Exterior | 4 | ✅ | 2026-10-01 |
+| [Aceleración de startups](https://startupchile.org/) | Start-Up Chile · CORFO | 4 | ✅ | 2026-10-01 |
+| [Concesiones y permisos de telecomunicaciones](https://www.subtel.gob.cl/) | Subsecretaría de Telecomunicaciones | 4 | ✅ | 2026-10-01 |
+| [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-10-01 |
+| [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-10-01 |
+| [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-10-01 |
+| [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-10-01 |
+| [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-10-01 |
+| [Fiscalización y sanción ambiental](https://portal.sma.gob.cl/) | Superintendencia del Medio Ambiente | 2 | ✅ | 2026-10-01 |
+| [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-10-01 |
+| [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-10-01 |
+| [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-10-01 |
 
 ⚠️ **6 fuente(s) no resolvieron en la última pasada:**
 
-- **Registro de Empresas y Sociedades / ChileAtiende — Constitución de empresas** · `2026-09-01: HTTP 403`  
+- **Registro de Empresas y Sociedades / ChileAtiende — Constitución de empresas** · `2026-10-01: HTTP 403`  
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
-- **Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas** · `2026-09-01: HTTP 301`  
+- **Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas** · `2026-10-01: HTTP 301`  
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
-- **ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos** · `2026-09-01: HTTP 403`  
+- **ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos** · `2026-10-01: HTTP 403`  
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
-- **Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria** · `2026-09-01: HTTP 403`  
+- **Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria** · `2026-10-01: HTTP 403`  
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
-- **ProChile — Exportación de servicios** · `2026-09-01: HTTP 404`  
+- **ProChile — Exportación de servicios** · `2026-10-01: HTTP 404`  
   Sigue citada y conserva su última fecha buena (2026-08-07). No se ha borrado.
-- **Sistema Integrado de Comercio Exterior — Ventanilla única de comercio exterior** · `2026-09-01: red: timed out`  
-  Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
+- **U.S. Securities and Exchange Commission — Reformas posteriores a Madoff sobre custodia y verificación independiente** · `2026-10-01: HTTP 403`  
+  Sigue citada y conserva su última fecha buena (2026-09-28). No se ha borrado.
 
 El registro guarda además **2 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
 
-Última revalidación: **2026-09-01** · 31/37 fuentes citadas resolvieron ·
+Última revalidación: **2026-10-01** · 31/37 fuentes citadas resolvieron ·
 336/336 bloques de fuentes distintos, uno por clase.
 
 La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al

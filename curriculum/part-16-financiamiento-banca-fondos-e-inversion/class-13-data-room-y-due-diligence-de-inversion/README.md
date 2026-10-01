@@ -144,21 +144,21 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Carpeta Tributaria Electrónica**  
-<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-09-01
+<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-10-01
 
 - *Qué contiene:* Permite generar el expediente que acredita la situación tributaria de la empresa: inicio de actividades, régimen, declaraciones presentadas y timbraje.
 - *Cómo leerla:* Es el documento que pedirán banco, inversionista y comprador. Genera una hoy aunque no la necesites: lo que muestre es exactamente lo que verá un tercero al evaluarte.
 - *Uso en esta clase:* aporta el marco de «Carpeta Tributaria Electrónica» para abrir o continuar una inversión solo después de verificar producto, entidad, fondos, rendimiento y gobierno con evidencia independiente.
 
 **Comisión para el Mercado Financiero — Alertas sobre entidades y plataformas de inversión no supervisadas**  
-<https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html> · verificado 2026-09-28
+<https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html> · verificado 2026-10-01
 
 - *Qué contiene:* Publica alertas sobre personas o entidades que podrían captar fondos o prestar servicios financieros o de inversión sin la autorización o inscripción exigible, y orienta a verificar identidad y supervisión antes de operar.
 - *Cómo leerla:* Úsala como una comprobación de debida diligencia y no como sentencia: que una entidad aparezca en una alerta exige detenerse, confirmar autorización y pedir evidencia; la ausencia de alerta tampoco prueba legitimidad ni solvencia.
 - *Uso en esta clase:* aporta el marco de «Alertas sobre entidades y plataformas de inversión no supervisadas» para abrir o continuar una inversión solo después de verificar producto, entidad, fondos, rendimiento y gobierno con evidencia independiente.
 
 **Departamento de Justicia de Estados Unidos — OneCoin: sentencia del cofundador Karl Sebastian Greenwood**  
-<https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> · verificado 2026-09-28
+<https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> · verificado 2026-10-01
 
 - *Qué contiene:* Documenta la sentencia de septiembre de 2023 de un cofundador y describe la comercialización multinivel de un producto presentado como criptomoneda, mientras la otra cofundadora permanecía prófuga a la fecha de la fuente.
 - *Cómo leerla:* Separa el estado procesal de cada persona. Para debida diligencia, verifica existencia y funcionamiento del producto, infraestructura, posibilidad real de transar, modelo comercial, gobierno y evidencia independiente antes de evaluar promesas de rentabilidad.
@@ -172,7 +172,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Uso en esta clase:* aporta el marco de «Reformas posteriores a Madoff sobre custodia y verificación independiente» para abrir o continuar una inversión solo después de verificar producto, entidad, fondos, rendimiento y gobierno con evidencia independiente.
 
 **Ministerio Público de Chile — AC Inversions: reformalización y peritajes contables de la investigación**  
-<https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo> · verificado 2026-09-28
+<https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo> · verificado 2026-10-01
 
 - *Qué contiene:* Informa la reformalización de febrero de 2018 y los resultados entonces atribuidos por la Fiscalía a peritajes contables sobre captación y perjuicio en la investigación por estafa, infracción a la Ley de Bancos y lavado de activos.
 - *Cómo leerla:* Es una fuente de investigación y reformalización, no una sentencia. Sirve para diseñar verificaciones chilenas sobre captación, contratos, cuentas receptoras, autorización para operar, procedencia del rendimiento y peritaje contable sin anticipar conclusiones penales.

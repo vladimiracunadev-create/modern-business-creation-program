@@ -145,21 +145,21 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Instituto Nacional de Estadísticas — Estadística oficial de población, empleo y actividad**  
-<https://www.ine.gob.cl/> · verificado 2026-09-01
+<https://www.ine.gob.cl/> · verificado 2026-10-01
 
 - *Qué contiene:* Produce la estadística oficial del país: población y hogares por comuna, empleo, remuneraciones, IPC e índices sectoriales de actividad.
 - *Cómo leerla:* Es la base de cualquier dimensionamiento bottom-up serio en Chile. Baja el dato por comuna cuando el negocio sea local; los promedios nacionales rara vez describen el mercado al que realmente puedes llegar.
 - *Uso en esta clase:* aporta el marco de «Estadística oficial de población, empleo y actividad» para definir qué fuentes se usarán y con qué frecuencia se revalidan.
 
 **Banco Central de Chile — Estadísticas macroeconómicas, tipo de cambio y UF**  
-<https://www.bcentral.cl/> · verificado 2026-09-01
+<https://www.bcentral.cl/> · verificado 2026-10-01
 
 - *Qué contiene:* Publica las series oficiales de tipo de cambio, UF, UTM, tasas de interés, cuentas nacionales y balanza de pagos, además de la normativa cambiaria aplicable a operaciones con el exterior.
 - *Cómo leerla:* Toma de aquí toda serie que uses en una proyección y guarda la fecha de descarga. Si la empresa cobra o paga en moneda extranjera, la serie de tipo de cambio es el insumo para medir la exposición, no una referencia informativa.
 - *Uso en esta clase:* aporta el marco de «Estadísticas macroeconómicas, tipo de cambio y UF» para definir qué fuentes se usarán y con qué frecuencia se revalidan.
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-10-01
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.

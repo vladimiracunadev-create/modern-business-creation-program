@@ -152,14 +152,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Uso en esta clase:* aporta el marco de «Importación, exportación y clasificación arancelaria» para ejecutar el flujo documental de exportación asegurando la recuperación del IVA.
 
 **Sistema Integrado de Comercio Exterior — Ventanilla única de comercio exterior**  
-<https://www.sicexchile.cl/> · verificado 2026-08-19
+<https://www.sicexchile.cl/> · verificado 2026-10-01
 
 - *Qué contiene:* Integra en una sola plataforma los trámites de los servicios que intervienen en una operación de comercio exterior, con el estado de cada visación.
 - *Cómo leerla:* Úsala para descubrir qué servicios intervienen en tu producto antes de embarcar. La mercancía detenida en puerto esperando una visación es el costo típico de no haber hecho esta consulta a tiempo.
 - *Uso en esta clase:* aporta el marco de «Ventanilla única de comercio exterior» para ejecutar el flujo documental de exportación asegurando la recuperación del IVA.
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-10-01
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
