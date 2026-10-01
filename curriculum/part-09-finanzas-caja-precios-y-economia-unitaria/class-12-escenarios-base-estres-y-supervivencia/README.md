@@ -3,12 +3,12 @@
 > **Parte 09 · Finanzas, caja, precios y economía unitaria** — clase 12 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez<br>
-**Entregable:** escenarios base, estrés y supervivencia con fuente de rendimientos, retiros, liquidez, gatillos y palancas
+**Decisión que habilita:** definir escenarios, gatillos y palancas después de probar la sostenibilidad económica y de liquidez<br>
+**Entregable:** proyección conservadora, base y expansiva, más estrés o supervivencia cuando aplique, con procedencia y fórmula de cada cifra
 
 ## 🎯 Propósito
 
-Probar que rendimiento, liquidez y promesa de producto siguen siendo sostenibles bajo estrés y tienen palancas ejecutables.
+Construir escenarios conservador, base y expansivo que conecten operación, costos, caja y capital, añadiendo estrés cuando aplique.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez— y justificar la decisión por escrito.
+3. **Decidir** —definir escenarios, gatillos y palancas después de probar la sostenibilidad económica y de liquidez— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -38,8 +38,8 @@ flowchart TB
     C --> A2["Escenario de estrés"]
     C --> A3["Escenario de supervivencia"]
     C --> A4["Prueba de sostenibilidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir gatillos y palancas<br/>después de probar la<br/>sostenibilidad económica y de<br/>liquidez"}}
-    D --> E["Entregable<br/>escenarios base, estrés y<br/>supervivencia con fuente de<br/>rendimientos, retiros,<br/>liquidez, gatillos y palancas"]
+    A1 & A2 & A3 & A4 --> D{{"definir escenarios, gatillos y<br/>palancas después de probar la<br/>sostenibilidad económica y de<br/>liquidez"}}
+    D --> E["Entregable<br/>proyección conservadora, base<br/>y expansiva, más estrés o<br/>supervivencia cuando aplique,<br/>con procedencia y fórmula de<br/>cada cifra"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Los escenarios deben probar simultáneamente ingresos, liquidez, retiros y la fuente económica de cualquier rendimiento prometido. Celsius aporta una lección sobre tasas, liquidez y comunicación de riesgos; Terra/UST/LUNA, sobre productos cuya estabilidad depende de supuestos que pueden romperse de forma conjunta. Las fuentes citadas corresponden a sentencias estadounidenses, no a reglas trasladables por sí solas a Chile. Una rentabilidad elevada activa verificación reforzada, pero no demuestra automáticamente un delito.
+Toda empresa construye como mínimo escenarios conservador, base y expansivo; cuando la liquidez o una promesa de rendimiento lo exigen, añade estrés y supervivencia. Cada escenario reconcilia volumen, precio, ventas, ingresos, costos variables, costos fijos, margen, inversión inicial, CAPEX, OPEX, capital de trabajo, caja, break-even, runway y necesidad de capital. Cada cifra se marca como dato histórico, supuesto o cálculo derivado. En productos financieros, Celsius y Terra muestran además por qué deben estresarse simultáneamente retiros, activos y confianza, sin trasladar sentencias extranjeras como reglas chilenas.
 
 ### 2. Cómo se traduce en la práctica
 
-Celsius y Terra muestran por rutas distintas que el escenario útil combina deterioro de activos, retiros, concentración, pérdida de confianza y costo de sostener la promesa. El modelo debe explicar quién paga el rendimiento, qué activo lo produce, cuándo se realiza la caja y qué ocurre si todos los supuestos adversos se correlacionan. La señal abre una investigación; la evidencia determina la conclusión.
+Cambiar solo ventas produce escenarios decorativos. Volumen y precio mueven costos variables, utilización, escalones semifijos, capital de trabajo y caja; cada salida se deriva con fórmula. En productos con promesas de rendimiento, Celsius y Terra añaden la exigencia de estresar retiros, activos y confianza de forma conjunta, sin convertir una señal en conclusión.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Escenarios base, estrés y supervivencia con fuente de rendimientos, retiros, liquidez, gatillos y palancas.
+Proyección conservadora, base y expansiva, más estrés o supervivencia cuando aplique, con procedencia y fórmula de cada cifra.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] cada rendimiento se reconcilia con una fuente económica y un riesgo explícitos
-- [ ] el estrés combina retiros, deterioro de activos y pérdida de confianza con palancas ejecutables
+- [ ] los tres escenarios reconcilian operación, costos, inversión, caja y capital requerido
+- [ ] cada cifra se clasifica como histórica, supuesto o derivada y conserva fuente o fórmula
+- [ ] los gatillos y palancas son ejecutables y tienen responsable
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +116,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Modelar el rendimiento prometido sin explicar quién lo genera y bajo qué riesgo.
-- Tratar la insolvencia o una rentabilidad alta como prueba automática de fraude.
+- Cambiar solo ventas entre escenarios y dejar costos, capacidad y capital de trabajo iguales.
+- Presentar un cálculo derivado como dato histórico o un supuesto como hecho.
 
 **Característicos de la parte 09:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Qué actividad y flujo de caja producen realmente cada rendimiento ofrecido?
-2. ¿Cuántos retiros simultáneos soporta la empresa sin vender activos con pérdida?
-3. ¿Qué gatillo detiene nuevas promesas y activa comunicación de riesgo?
+1. ¿Qué cifras son históricas, cuáles supuestos y cuáles cálculos derivados?
+2. ¿Cómo cambian capacidad, capital de trabajo, caja y capital requerido entre los tres escenarios?
+3. ¿Qué gatillo activa una palanca concreta y quién es responsable?
 
 ## 🔗 Fuentes oficiales
 
@@ -148,14 +149,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Registra que Alexander Mashinsky se declaró culpable en diciembre de 2024 y fue sentenciado en mayo de 2025, y describe hallazgos sobre sostenibilidad de rendimientos, liquidez, uso de depósitos y comunicación de riesgos.
 - *Cómo leerla:* Distingue los hechos reconocidos en la declaración de culpabilidad y considerados en la sentencia de las reglas aplicables a una empresa chilena. El aprendizaje empresarial es probar la fuente del rendimiento, el calce de liquidez y la evidencia detrás de cada comunicación.
-- *Uso en esta clase:* aporta el marco de «Celsius: declaración de culpabilidad y sentencia del fundador» para definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez.
+- *Uso en esta clase:* aporta el marco de «Celsius: declaración de culpabilidad y sentencia del fundador» para definir escenarios, gatillos y palancas después de probar la sostenibilidad económica y de liquidez.
 
 **Departamento de Justicia de Estados Unidos — Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon**  
 <https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> · verificado 2026-09-28
 
 - *Qué contiene:* Registra la declaración de culpabilidad de agosto de 2025 y la sentencia de diciembre de 2025, y describe hechos sobre el funcionamiento comunicado de UST, intervenciones no reveladas y respuesta posterior a la pérdida de estabilidad.
 - *Cómo leerla:* Úsala para someter a estrés el mecanismo del producto, sus dependencias, incentivos, liquidez y comunicación. La sentencia estadounidense acredita conducta en ese proceso; no crea por sí sola una regla jurídica aplicable en Chile.
-- *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez.
+- *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para definir escenarios, gatillos y palancas después de probar la sostenibilidad económica y de liquidez.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

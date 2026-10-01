@@ -7,6 +7,14 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ### Cambiado
 
+- Se conectan estudio de mercado, conocimiento del cliente, estructura de costos, modelo de
+  negocios, alianzas y proyección mediante un único expediente progresivo de viabilidad, sin
+  crear partes ni clases nuevas.
+- Las plantillas de mercado, entrevistas, Canvas, costos, caja y economía unitaria distinguen
+  evidencia, hipótesis, interpretación, fuente, fecha, confianza, riesgo y escenario cuando
+  corresponde; incluyen un ejemplo financiero verificable en tres escenarios.
+- Se amplían las clases existentes que ya enseñaban estas materias y el capstone las integra en
+  una decisión de inversión; seis pruebas nuevas evitan que la conexión vuelva a fragmentarse.
 - Se adopta un modelo de licencias por material: MIT para código y CC BY-NC-SA 4.0 para el
   contenido educativo, las plantillas y las metodologías originales.
 - Se documentan el uso comercial, las marcas, los componentes de terceros y el historial de la

@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** dimensionar el mercado con supuestos que un tercero pueda auditar<br>
-**Entregable:** modelo TAM/SAM/SOM bottom-up con cada supuesto vinculado a su fuente
+**Entregable:** modelo TAM/SAM/SOM bottom-up con fuente, método, fecha, limitación, sensibilidad y confianza por supuesto
 
 ## 🎯 Propósito
 
-Producir una estimación de mercado que un evaluador pueda auditar, construida de abajo hacia arriba desde clientes posibles y ticket, no como porcentaje de una cifra global.
+Producir una estimación TAM, SAM y SOM auditable, con método, limitaciones, sensibilidad y confianza explícitos.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["SOM"]
     C --> A4["Estimación bottom-up"]
     A1 & A2 & A3 & A4 --> D{{"dimensionar el mercado con<br/>supuestos que un tercero pueda<br/>auditar"}}
-    D --> E["Entregable<br/>modelo TAM/SAM/SOM bottom-up<br/>con cada supuesto vinculado a<br/>su fuente"]
+    D --> E["Entregable<br/>modelo TAM/SAM/SOM bottom-up<br/>con fuente, método, fecha,<br/>limitación, sensibilidad y<br/>confianza por supuesto"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-La estimación bottom-up es la única defendible ante un evaluador: número de empresas o personas en el segmento por tasa de adopción realista por ticket. La estimación top-down —un porcentaje de un mercado global— indica que no se estudió el mercado propio.
+La estimación bottom-up es la única defendible ante un evaluador: número de empresas o personas en el segmento por tasa de adopción realista por ticket. La estimación top-down —un porcentaje de un mercado global— solo sirve como contraste. Cada nivel debe explicar método, fecha, supuestos, limitaciones y sensibilidad; el SOM además debe reconciliarse con canal, capacidad y horizonte, no con una cuota deseada.
 
 ### 2. Cómo se traduce en la práctica
 
-La estimación top-down —«el 1 % de un mercado de miles de millones»— es señal de que no se estudió el mercado propio y descalifica el resto de la presentación. La versión defendible parte de cuántas empresas o personas hay en el segmento, según INE o SII, por una tasa de adopción justificada por el ticket real.
+La versión defendible parte de cuántas empresas o personas hay en el segmento, según INE o SII, por una tasa de adopción y un ticket justificados. Una cifra top-down solo contrasta orden de magnitud. El SOM se limita además por canal, capacidad y horizonte, y la sensibilidad muestra qué supuesto mueve de verdad la conclusión.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Modelo tam/sam/som bottom-up con cada supuesto vinculado a su fuente.
+Modelo tam/sam/som bottom-up con fuente, método, fecha, limitación, sensibilidad y confianza por supuesto.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] el cálculo es bottom-up y cada supuesto tiene fuente
-- [ ] el SOM es coherente con la capacidad comercial declarada
+- [ ] el cálculo es bottom-up y cada supuesto tiene fuente, método y fecha
+- [ ] las limitaciones y la sensibilidad están declaradas
+- [ ] el SOM es coherente con canal, capacidad y horizonte
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -137,18 +138,25 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Tu cálculo es bottom-up y cada supuesto tiene fuente identificable?
-2. ¿El SOM es coherente con la capacidad comercial que tienes hoy?
-3. ¿Qué parte del SAM tu canal actual no puede alcanzar aunque exista?
+1. ¿Cada supuesto tiene fuente, método, fecha, limitación y nivel de confianza?
+2. ¿El SOM es coherente con tu canal, capacidad y horizonte?
+3. ¿Qué supuesto cambia más el resultado y qué evidencia permitiría reducir su incertidumbre?
 
 ## 🔗 Fuentes oficiales
 
-**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+**Instituto Nacional de Estadísticas — Estadística oficial de población, empleo y actividad**  
+<https://www.ine.gob.cl/> · verificado 2026-09-01
 
-- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
-- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para dimensionar el mercado con supuestos que un tercero pueda auditar.
+- *Qué contiene:* Produce la estadística oficial del país: población y hogares por comuna, empleo, remuneraciones, IPC e índices sectoriales de actividad.
+- *Cómo leerla:* Es la base de cualquier dimensionamiento bottom-up serio en Chile. Baja el dato por comuna cuando el negocio sea local; los promedios nacionales rara vez describen el mercado al que realmente puedes llegar.
+- *Uso en esta clase:* aporta el marco de «Estadística oficial de población, empleo y actividad» para dimensionar el mercado con supuestos que un tercero pueda auditar.
+
+**Banco Central de Chile — Estadísticas macroeconómicas, tipo de cambio y UF**  
+<https://www.bcentral.cl/> · verificado 2026-09-01
+
+- *Qué contiene:* Publica las series oficiales de tipo de cambio, UF, UTM, tasas de interés, cuentas nacionales y balanza de pagos, además de la normativa cambiaria aplicable a operaciones con el exterior.
+- *Cómo leerla:* Toma de aquí toda serie que uses en una proyección y guarda la fecha de descarga. Si la empresa cobra o paga en moneda extranjera, la serie de tipo de cambio es el insumo para medir la exposición, no una referencia informativa.
+- *Uso en esta clase:* aporta el marco de «Estadísticas macroeconómicas, tipo de cambio y UF» para dimensionar el mercado con supuestos que un tercero pueda auditar.
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
 <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01

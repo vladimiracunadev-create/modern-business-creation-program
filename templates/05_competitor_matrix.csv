@@ -1,1 +1,1 @@
-competidor,segmento,oferta,precio,canal,fortaleza,debilidad,alternativa_cliente,fuente,fecha_revision
+actor,tipo_directo_indirecto_sustituto_statu_quo,segmento,oferta,precio,canal,criterio_compra_cliente,benchmark,metodo_benchmark,fortaleza,debilidad,barrera_entrada,senal_crecimiento_contraccion,alternativa_cliente,fuente,fecha_dato,fecha_revision,nivel_confianza,limitacion

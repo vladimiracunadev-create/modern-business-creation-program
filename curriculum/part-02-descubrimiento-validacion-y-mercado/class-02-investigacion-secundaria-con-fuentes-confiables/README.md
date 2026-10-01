@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** definir qué fuentes se usarán y con qué frecuencia se revalidan<br>
-**Entregable:** tabla de datos de mercado con fuente, URL, fecha de consulta y fecha de corte del dato
+**Entregable:** tabla de datos y tendencias de mercado con fuente, URL, fecha de consulta, fecha de corte, método, limitación y confianza
 
 ## 🎯 Propósito
 
-Construir la base de datos de mercado con fuentes primarias trazables, porque una cifra sin origen ni fecha no se puede defender ante un banco, un inversionista ni un comité.
+Construir una base de datos y tendencias de mercado con fuentes primarias trazables, método, limitación y confianza declarados.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Fecha de corte"]
     C --> A4["Trazabilidad"]
     A1 & A2 & A3 & A4 --> D{{"definir qué fuentes se usarán<br/>y con qué frecuencia se<br/>revalidan"}}
-    D --> E["Entregable<br/>tabla de datos de mercado con<br/>fuente, URL, fecha de consulta<br/>y fecha de corte del dato"]
+    D --> E["Entregable<br/>tabla de datos y tendencias de<br/>mercado con fuente, URL, fecha<br/>de consulta, fecha de corte,<br/>método, limitación y confianza"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-En Chile la investigación secundaria seria se apoya en INE, Banco Central, estadísticas del SII por rubro y registros sectoriales. Cada cifra usada en una decisión debe tener fuente, fecha y método; una cifra sin trazabilidad no se puede defender ante un banco, un inversionista ni un comité.
+En Chile la investigación secundaria seria se apoya en INE, Banco Central, estadísticas del SII por rubro y registros sectoriales. Cada cifra usada en una decisión debe tener fuente, fecha, método y limitación; una cifra sin trazabilidad no se puede defender ante un banco, un inversionista ni un comité. Las tendencias se registran como series o señales observables, con nivel de confianza y preguntas todavía abiertas, no como adjetivos sobre el mercado.
 
 ### 2. Cómo se traduce en la práctica
 
-En Chile la investigación seria se apoya en el INE para población y empleo, el Banco Central para series macro y tipo de cambio, y las estadísticas del SII por rubro y tamaño. La regla es bajar el dato a la comuna cuando el negocio sea local: los promedios nacionales rara vez describen el mercado alcanzable.
+En Chile la investigación seria se apoya en el INE para población y empleo, el Banco Central para series macro y las estadísticas del SII por rubro y tamaño. La regla es bajar el dato a la comuna cuando el negocio sea local y conservar fecha de corte, método, limitación y señal observable: un promedio nacional o una tendencia sin serie rara vez describe el mercado alcanzable.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Tabla de datos de mercado con fuente, url, fecha de consulta y fecha de corte del dato.
+Tabla de datos y tendencias de mercado con fuente, url, fecha de consulta, fecha de corte, método, limitación y confianza.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,7 +105,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] cada cifra tiene fuente primaria identificable y fecha
+- [ ] cada cifra tiene fuente primaria identificable, fecha y método
+- [ ] cada tendencia declara señal observable, limitación y nivel de confianza
 - [ ] los datos dinámicos están marcados para revalidación
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
@@ -137,18 +138,25 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Cuál es la fuente primaria, la fecha de consulta y la fecha de corte de cada cifra que usas?
-2. ¿Qué dato tuyo proviene en realidad de una nota de prensa que cita a un tercero?
-3. ¿Qué cifras de tu modelo son dinámicas y cuándo toca revalidarlas?
+1. ¿Cuál es la fuente primaria, fecha, método y limitación de cada cifra que usas?
+2. ¿Qué señal observable sostiene cada tendencia y qué otra explicación podría producirla?
+3. ¿Qué cifras son dinámicas, qué confianza les asignas y cuándo toca revalidarlas?
 
 ## 🔗 Fuentes oficiales
 
-**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+**Instituto Nacional de Estadísticas — Estadística oficial de población, empleo y actividad**  
+<https://www.ine.gob.cl/> · verificado 2026-09-01
 
-- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
-- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir qué fuentes se usarán y con qué frecuencia se revalidan.
+- *Qué contiene:* Produce la estadística oficial del país: población y hogares por comuna, empleo, remuneraciones, IPC e índices sectoriales de actividad.
+- *Cómo leerla:* Es la base de cualquier dimensionamiento bottom-up serio en Chile. Baja el dato por comuna cuando el negocio sea local; los promedios nacionales rara vez describen el mercado al que realmente puedes llegar.
+- *Uso en esta clase:* aporta el marco de «Estadística oficial de población, empleo y actividad» para definir qué fuentes se usarán y con qué frecuencia se revalidan.
+
+**Banco Central de Chile — Estadísticas macroeconómicas, tipo de cambio y UF**  
+<https://www.bcentral.cl/> · verificado 2026-09-01
+
+- *Qué contiene:* Publica las series oficiales de tipo de cambio, UF, UTM, tasas de interés, cuentas nacionales y balanza de pagos, además de la normativa cambiaria aplicable a operaciones con el exterior.
+- *Cómo leerla:* Toma de aquí toda serie que uses en una proyección y guarda la fecha de descarga. Si la empresa cobra o paga en moneda extranjera, la serie de tipo de cambio es el insumo para medir la exposición, no una referencia informativa.
+- *Uso en esta clase:* aporta el marco de «Estadísticas macroeconómicas, tipo de cambio y UF» para definir qué fuentes se usarán y con qué frecuencia se revalidan.
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
 <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01

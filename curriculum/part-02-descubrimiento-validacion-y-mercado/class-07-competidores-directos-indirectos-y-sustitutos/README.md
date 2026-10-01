@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** identificar contra qué compite realmente la oferta en la decisión del cliente<br>
-**Entregable:** matriz competitiva con directos, indirectos, sustitutos y statu quo, por criterio de decisión
+**Entregable:** matriz de competidores y benchmarks con directos, indirectos, sustitutos, statu quo, barreras y señales
 
 ## 🎯 Propósito
 
-Identificar contra qué compite realmente la oferta en la decisión del cliente, incluyendo la alternativa de no comprar nada.
+Comparar directos, indirectos, sustitutos y statu quo con criterios del cliente, benchmarks comparables y evidencia fechada.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Sustituto"]
     C --> A4["Matriz competitiva"]
     A1 & A2 & A3 & A4 --> D{{"identificar contra qué compite<br/>realmente la oferta en la<br/>decisión del cliente"}}
-    D --> E["Entregable<br/>matriz competitiva con<br/>directos, indirectos,<br/>sustitutos y statu quo, por<br/>criterio de decisión"]
+    D --> E["Entregable<br/>matriz de competidores y<br/>benchmarks con directos,<br/>indirectos, sustitutos, statu<br/>quo, barreras y señales"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El competidor más frecuente en una empresa nueva es el statu quo. Una matriz competitiva útil compara por los criterios que el cliente declara en la decisión y no por los atributos que la empresa quiere destacar, e incluye explícitamente la alternativa de no comprar.
+El competidor más frecuente en una empresa nueva es el statu quo. Una matriz competitiva útil compara por los criterios que el cliente declara en la decisión y no por los atributos que la empresa quiere destacar. Los benchmarks solo son válidos si se explica por qué el referente es comparable; la misma matriz registra barreras de entrada, fuente, fecha y señales de crecimiento o contracción para no confundir una fotografía con la estructura del mercado.
 
 ### 2. Cómo se traduce en la práctica
 
-Una matriz competitiva útil compara por los criterios que el cliente declara al decidir, no por los atributos que la empresa quiere destacar. Y debe incluir el statu quo como columna: en empresas nuevas el competidor más frecuente es que todo siga igual, y ese competidor no tiene costo de cambio.
+Una matriz útil compara por criterios que el cliente declara y debe incluir el statu quo. Los benchmarks no son adornos: se explica qué dimensión es comparable y cuál no. Barreras y señales de crecimiento o contracción llevan fuente y fecha, porque una fotografía competitiva sin contexto temporal se vuelve falsa con rapidez.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Matriz competitiva con directos, indirectos, sustitutos y statu quo, por criterio de decisión.
+Matriz de competidores y benchmarks con directos, indirectos, sustitutos, statu quo, barreras y señales.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] la matriz incluye el statu quo como columna
+- [ ] la matriz incluye directos, indirectos, sustitutos y statu quo
 - [ ] los criterios de comparación provienen de clientes reales
+- [ ] cada benchmark, barrera y señal declara fuente, fecha y limitación
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Listar solo competidores del mismo rubro e ignorar la planilla de cálculo.
-- Comparar por atributos técnicos que el cliente no evalúa.
+- Usar un benchmark sin justificar comparabilidad, fuente ni fecha.
 
 **Característicos de la parte 02:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Incluiste el statu quo y el trabajo manual como alternativas en tu matriz?
-2. ¿Los criterios de comparación salieron de clientes reales o los elegiste tú?
-3. ¿En qué criterio eres claramente inferior y cómo lo compensas?
+1. ¿Incluiste directos, indirectos, sustitutos, statu quo y trabajo manual?
+2. ¿Por qué cada benchmark es comparable y cuál es su limitación?
+3. ¿Qué barrera o señal tiene fuente y fecha, y cuál sigue siendo una hipótesis?
 
 ## 🔗 Fuentes oficiales
 

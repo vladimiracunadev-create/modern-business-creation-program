@@ -20,10 +20,10 @@ La parte cierra con el portafolio, donde vive el error más común de la pyme ch
 
 Al terminar esta parte podrás:
 
-1. **Elegir un modelo de ingreso coherente con el problema, el cliente y la capacidad de la empresa**.
+1. **Elegir y versionar un modelo de ingreso coherente con la evidencia del problema y del cliente**.
 2. **Estimar la economía unitaria implícita de cada modelo**.
 3. **Anticipar la carga operativa y regulatoria que trae cada modelo**.
-4. **Diseñar un portafolio de líneas que no concentre todo el riesgo en un cliente o canal**.
+4. **Actualizar el Canvas cuando la evidencia contradice un bloque y conservar la trazabilidad del cambio**.
 
 ## 🗺️ Mapa de la parte
 
@@ -141,7 +141,7 @@ flowchart TB
 
 ## 🔗 Cómo se conecta
 
-Recibe la evidencia de la parte 02 y entrega a la parte 09 el modelo cuya economía unitaria hay que calcular. Los modelos B2C activan la parte 11 completa; los de plataforma y suscripción, además, sus reglas de contrato de adhesión.
+Recibe las secciones 01 y 02 del Expediente de viabilidad y abre la sección 04 Modelo como un Canvas versionado. La parte 09 prueba su economía y puede obligar a cambiar bloques; los modelos B2C activan la parte 11 y los de plataforma y suscripción, además, sus reglas de contrato de adhesión.
 
 ## 📖 Pauta bibliográfica
 

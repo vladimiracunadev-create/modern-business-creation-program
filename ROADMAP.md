@@ -23,6 +23,7 @@ material complementario.
 
 ## En curso — v1.2
 
+- [x] Conectar mercado, cliente, costos, modelo, aliados y proyección en un expediente de viabilidad progresivo, basado en evidencia y sin añadir clases.
 - [ ] Revalidar contra fuente oficial las clases marcadas `DINAMICO` (partes 11, 15 y 16) y registrar la fecha de verificación por clase.
 - [ ] Ampliar cada caso de `case-studies/` con economía unitaria numérica y calendario de habilitación.
 - [ ] Añadir ejemplos numéricos trabajados en las partes 08 y 09 (contabilidad y finanzas).

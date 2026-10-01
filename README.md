@@ -64,16 +64,16 @@ responsable y qué evidencia debe quedar**.
 |---|---|
 | Currículo | ✅ 336/336 clases generadas desde manifiesto |
 | Contenido por clase | ✅ propósito, conceptos, desarrollo en tres bloques, taller, reto, errores y preguntas propias |
-| Profundidad | ✅ 1.143–1.798 palabras por clase (mediana 1.290), 436.795 palabras totales |
+| Profundidad | ✅ 1.143–2.551 palabras por clase (mediana 1.294), 441.788 palabras totales |
 | Diagramas | ✅ 360 diagramas mermaid: uno por clase y uno por parte |
 | Conceptos definidos | ✅ 1.344 definiciones operacionales · glosario maestro de 1.251 términos |
 | Preguntas de comprobación | ✅ 1.008 (3 por clase) |
 | Marco normativo | ✅ 24 paquetes de parte con narrativa, normas, autoridades, riesgos y bibliografía |
 | Manuales transversales | ✅ 20 documentos en `docs/` |
 | Casos sectoriales | ✅ 20 líneas de negocio 2026 |
-| Plantillas operativas | ✅ 24 artefactos editables |
+| Plantillas operativas | ✅ 24 artefactos editables, incluido el expediente progresivo de viabilidad |
 | Fuentes oficiales | ✅ registro con localizador, uso y fecha por fuente — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
-| Manual en PDF | ✅ 1.551 páginas + 24 PDF por parte |
+| Manual en PDF | ✅ 1.560 páginas + 24 PDF por parte |
 | Sitio HTML | ✅ 427 páginas con buscador, diagramas y tema claro/oscuro |
 | CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
 | Licencias | ✅ MIT para código · CC BY-NC-SA 4.0 para contenido original |
@@ -90,13 +90,13 @@ Toda afirmación del programa se apoya en una entrada del registro
 localizador, el organismo que responde por ella y la fecha en que se comprobó. Por eso **cada clase
 muestra la fecha de su propia fuente** y no una fecha global del programa.
 
-Estas son las **35 fuentes citadas** por las 336 clases y las 24 partes,
+Estas son las **37 fuentes citadas** por las 336 clases y las 24 partes,
 ordenadas por peso en el material. Las primeras son las que gobiernan el programa: la normativa
 consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor parte de las citas.
 
 | Fuente | Organismo | Citas | Estado | Resolvió |
 |---|---|---:|:---:|---|
-| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 249 | ✅ | 2026-09-01 |
+| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 247 | ✅ | 2026-09-01 |
 | [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 103 | ✅ | 2026-09-01 |
 | [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 62 | ✅ | 2026-09-01 |
 | [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 52 | ✅ | 2026-09-01 |
@@ -126,6 +126,8 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 | [Concesiones y permisos de telecomunicaciones](https://www.subtel.gob.cl/) | Subsecretaría de Telecomunicaciones | 4 | ✅ | 2026-09-01 |
 | [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-09-28 |
 | [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-09-28 |
+| [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-09-01 |
+| [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-09-01 |
 | [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-09-01 |
 | [Fiscalización y sanción ambiental](https://portal.sma.gob.cl/) | Superintendencia del Medio Ambiente | 2 | ✅ | 2026-09-01 |
 | [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-09-01 |
@@ -147,9 +149,9 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 - **Sistema Integrado de Comercio Exterior — Ventanilla única de comercio exterior** · `2026-09-01: red: timed out`  
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
 
-El registro guarda además **4 fuentes catalogadas que ninguna clase cita todavía** (Banco Central de Chile · Instituto Nacional de Estadísticas · Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
+El registro guarda además **2 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
 
-Última revalidación: **2026-09-01** · 29/35 fuentes citadas resolvieron ·
+Última revalidación: **2026-09-01** · 31/37 fuentes citadas resolvieron ·
 336/336 bloques de fuentes distintos, uno por clase.
 
 La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al
@@ -257,7 +259,7 @@ Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla ti
 
 | Formato | Contenido | Enlace |
 |---|---|---|
-| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.551 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.560 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
 | PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
 | Sitio HTML | 427 páginas con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
 
@@ -356,7 +358,7 @@ sitio **y el manual en PDF releído desde el archivo emitido**. Nada llega a `ma
 
 | ⚙️ Workflow | Qué cubre |
 |---|---|
-| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 25 pruebas estructurales, build del sitio con sus 26.400 enlaces y compilación del manual |
+| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 31 pruebas estructurales, build del sitio con sus 26.400 enlaces y compilación del manual |
 | 🔒 [security.yml](.github/workflows/security.yml) | secretos (`gitleaks`), análisis estático de los scripts (`bandit`), dependencias fijadas a versión exacta y auditadas con `pip-audit` |
 | 🚀 [deploy-pages.yml](.github/workflows/deploy-pages.yml) | compila el manual integral y los 24 PDF por parte, genera el sitio, verifica que las 25 descargas llegaron y despliega a GitHub Pages |
 
@@ -372,7 +374,7 @@ python scripts/validar_encoding.py          # todo UTF-8, sin BOM ni mojibake
 python scripts/generar_manual.py --partes   # manual integral + 24 PDF por parte
 python scripts/generar_manual.py --verificar  # relee el PDF: portada, versión y extensión
 python scripts/generar_sitio.py             # sitio HTML en site/ y copia de las descargas
-python -m unittest discover -s tests -v     # 25 pruebas estructurales
+python -m unittest discover -s tests -v     # 31 pruebas estructurales
 npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 ```
 
@@ -394,7 +396,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 🔗 contenido con **fuente citada, explicada y fechada**: cada una dice qué contiene y cómo leerla;
 - 🗺️ **360 diagramas** que muestran el flujo de decisión, no ilustraciones decorativas;
 - 🔍 material **honesto sobre sus límites**: distingue lo verificado de lo dinámico y marca qué revalidar;
-- 📖 material **abierto y offline-friendly**: manual de 1.551 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
+- 📖 material **abierto y offline-friendly**: manual de 1.560 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
 
 </td>
 <td valign="top" width="50%">

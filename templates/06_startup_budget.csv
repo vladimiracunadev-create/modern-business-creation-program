@@ -1,1 +1,1 @@
-categoria,item,unidades,costo_unitario,mes_pago,obligatorio,proveedor,notas
+categoria,item,unidades,costo_unitario,total,mes_pago,comportamiento_fijo_variable_semifijo,trazabilidad_directo_indirecto,naturaleza_capex_opex,tipo_historico_supuesto_derivado,obligatorio,proveedor,fuente_o_formula,fecha_dato,nivel_confianza,notas

@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** verificar si los nueve bloques del modelo son consistentes entre sí<br>
-**Entregable:** canvas completo con al menos tres inconsistencias detectadas y su resolución
+**Entregable:** canvas versionado con registro de evidencia por bloque y al menos tres inconsistencias resueltas
 
 ## 🎯 Propósito
 
-Usar el canvas como prueba de coherencia y no como cuadro decorativo: si el canal no alcanza al segmento o los costos no soportan el ingreso, el modelo está roto y debe verse.
+Usar el Canvas como prueba versionada de coherencia, vinculando cada bloque relevante con evidencia, riesgo y próximo experimento.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Recurso clave"]
     C --> A4["Coherencia del canvas"]
     A1 & A2 & A3 & A4 --> D{{"verificar si los nueve bloques<br/>del modelo son consistentes<br/>entre sí"}}
-    D --> E["Entregable<br/>canvas completo con al menos<br/>tres inconsistencias<br/>detectadas y su resolución"]
+    D --> E["Entregable<br/>canvas versionado con registro<br/>de evidencia por bloque y al<br/>menos tres inconsistencias<br/>resueltas"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El canvas no vale como cuadro decorativo sino como prueba de coherencia: si el canal no alcanza al segmento, si la estructura de costos no soporta la fuente de ingreso o si la actividad clave exige un recurso que no se tiene, el modelo está roto y el canvas debe mostrarlo.
+El canvas no vale como cuadro decorativo sino como prueba de coherencia: si el canal no alcanza al segmento, si la estructura de costos no soporta la fuente de ingreso o si la actividad clave exige un recurso que no se tiene, el modelo está roto. Cada afirmación relevante debe registrar hipótesis, evidencia, fuente, nivel de confianza, riesgo y próximo experimento; cuando cambia la evidencia se crea una nueva versión y se documenta qué bloques cambiaron.
 
 ### 2. Cómo se traduce en la práctica
 
-El bloque que más inconsistencias revela es el de recursos clave. Cuando aparecen ahí activos que la empresa no tiene ni puede conseguir —una licencia, un permiso sectorial, un equipo que no existe— el modelo describe una empresa distinta de la que se está creando.
+El registro de evidencia evita que el Canvas quede congelado. Cuando una entrevista, prueba de precio o cálculo de costos contradice un bloque, se conserva la versión anterior, se registra fuente y confianza y se actualizan los bloques dependientes. La evolución importa tanto como la fotografía vigente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Canvas completo con al menos tres inconsistencias detectadas y su resolución.
+Canvas versionado con registro de evidencia por bloque y al menos tres inconsistencias resueltas.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -106,7 +106,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## ✅ Criterio de aceptación
 
 - [ ] los nueve bloques están completos con contenido específico
-- [ ] se documentan las inconsistencias detectadas y su resolución
+- [ ] cada afirmación relevante declara hipótesis, evidencia, fuente, confianza, riesgo y experimento
+- [ ] los cambios de evidencia quedan reflejados en una nueva versión
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Llenar los nueve bloques sin revisar la consistencia entre ellos.
-- Poner en recursos clave activos que la empresa no tiene ni puede conseguir.
+- Mantener el canvas intacto después de que la evidencia contradice un bloque.
 
 **Característicos de la parte 03:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Qué recurso clave de tu canvas todavía no tienes y cómo lo conseguirás?
-2. ¿El canal que declaraste alcanza efectivamente al segmento que declaraste?
-3. ¿La estructura de costos soporta la fuente de ingreso al volumen previsto?
+1. ¿Qué evidencia y fuente sostienen cada afirmación relevante del Canvas?
+2. ¿Qué bloque tiene menor confianza y mayor riesgo si resulta falso?
+3. ¿Qué cambió desde la versión anterior y cuál es el próximo experimento?
 
 ## 🔗 Fuentes oficiales
 

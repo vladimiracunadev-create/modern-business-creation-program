@@ -3,12 +3,12 @@
 > **Parte 24 · Capstone: construir una empresa de comienzo a fin** — clase 3 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir modelo de negocio y estrategia coherentes con la validación<br>
-**Entregable:** canvas del caso con estrategia declarada, métrica norte y análisis de coherencia interna
+**Decisión que habilita:** definir modelo de negocio, estrategia y aliados coherentes con la validación<br>
+**Entregable:** secciones 04 y 05 del expediente con Canvas versionado, métrica norte, coherencia interna y mapa de aliados priorizado
 
 ## 🎯 Propósito
 
-Definir modelo de negocio y estrategia coherentes con la evidencia obtenida y con la capacidad declarada del caso.
+Versionar el modelo contra la evidencia y priorizar aliados sin confundirlos con proveedores o canales ordinarios.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir modelo de negocio y estrategia coherentes con la validación— y justificar la decisión por escrito.
+3. **Decidir** —definir modelo de negocio, estrategia y aliados coherentes con la validación— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -38,8 +38,8 @@ flowchart TB
     C --> A2["Estrategia"]
     C --> A3["Coherencia interna"]
     C --> A4["Métrica norte"]
-    A1 & A2 & A3 & A4 --> D{{"definir modelo de negocio y<br/>estrategia coherentes con la<br/>validación"}}
-    D --> E["Entregable<br/>canvas del caso con estrategia<br/>declarada, métrica norte y<br/>análisis de coherencia interna"]
+    A1 & A2 & A3 & A4 --> D{{"definir modelo de negocio,<br/>estrategia y aliados<br/>coherentes con la validación"}}
+    D --> E["Entregable<br/>secciones 04 y 05 del<br/>expediente con Canvas<br/>versionado, métrica norte,<br/>coherencia interna y mapa de<br/>aliados priorizado"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El modelo y la estrategia del caso deben ser coherentes con la evidencia de validación y con la capacidad declarada. La evaluación revisa esa coherencia: un modelo de suscripción sin evidencia de retención, o una estrategia de diferenciación sin fuente de ventaja, no se sostienen.
+El modelo y la estrategia del caso deben ser coherentes con la evidencia de validación y con la capacidad declarada. La sección 04 registra por bloque hipótesis, evidencia, fuente, confianza, riesgo y experimento; la sección 05 comienza con un mapa de aliados y distingue proveedor, canal, partner, socio estratégico y joint venture. Ambas quedan provisionales hasta que costos y proyección comprueben que la estructura se sostiene.
 
 ### 2. Cómo se traduce en la práctica
 
-Un modelo de suscripción sin evidencia de retención, o una estrategia de diferenciación sin fuente de ventaja identificada, no se sostienen ante preguntas. La evaluación busca justamente esa desconexión entre lo que la evidencia respalda y lo que el modelo asume.
+El Canvas registra hipótesis, evidencia, fuente, confianza, riesgo y experimento por bloque. El mapa de aliados clasifica cada relación y prioriza por aporte, dependencia, criticidad, sustitución e incentivos. Ambas secciones son provisionales: costos y proyección pueden obligar a cambiar el modelo o descartar una alianza atractiva pero insostenible.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Canvas del caso con estrategia declarada, métrica norte y análisis de coherencia interna.
+Secciones 04 y 05 del expediente con canvas versionado, métrica norte, coherencia interna y mapa de aliados priorizado.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] el modelo es coherente con la evidencia de validación
+- [ ] cada bloque relevante del modelo conserva evidencia, fuente, confianza, riesgo y experimento
 - [ ] la métrica norte está declarada y es medible
+- [ ] cada aliado está clasificado y priorizado con responsable y próximo paso
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Elegir modelo de ingreso incompatible con el comportamiento observado del cliente.
-- Declarar una ventaja competitiva sin plan para construirla.
+- Llamar socio estratégico a un proveedor sin aporte conjunto ni alineación de incentivos.
 
 **Característicos de la parte 24:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Tu modelo de ingreso es coherente con el comportamiento que observaste?
-2. ¿Cuál es tu métrica norte y por qué mide valor entregado?
-3. ¿Qué ventaja competitiva declaras y cómo la construirías?
+1. ¿Qué bloque del modelo tiene mayor riesgo y menor confianza?
+2. ¿Qué evidencia cambió la versión actual del Canvas?
+3. ¿Qué aliado es crítico y por qué no es solo proveedor o canal?
 
 ## 🔗 Fuentes oficiales
 
@@ -148,21 +149,21 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Describe el régimen simplificado de la Ley 20.659: qué tipos societarios admite el formulario electrónico, quiénes deben firmar, qué documentos entrega el sistema y cómo se hacen después las modificaciones.
 - *Cómo leerla:* Entra por el tipo societario que ya elegiste, no al revés. La ficha dice qué campos pide el formulario; si tu estatuto necesita una cláusula que el formulario no soporta, la respuesta es la ruta notarial.
-- *Uso en esta clase:* aporta el marco de «Constitución de empresas» para definir modelo de negocio y estrategia coherentes con la validación.
+- *Uso en esta clase:* aporta el marco de «Constitución de empresas» para definir modelo de negocio, estrategia y aliados coherentes con la validación.
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
 <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir modelo de negocio y estrategia coherentes con la validación.
+- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir modelo de negocio, estrategia y aliados coherentes con la validación.
 
 **Servicio de Impuestos Internos — Regímenes tributarios · Operación Renta 2026**  
 <https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-09-01
 
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
-- *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para definir modelo de negocio y estrategia coherentes con la validación.
+- *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para definir modelo de negocio, estrategia y aliados coherentes con la validación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

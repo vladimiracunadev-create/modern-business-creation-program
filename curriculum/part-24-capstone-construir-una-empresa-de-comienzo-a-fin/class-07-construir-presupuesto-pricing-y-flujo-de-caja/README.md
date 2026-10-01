@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** construir el modelo financiero completo y coherente del caso<br>
-**Entregable:** modelo financiero del caso con presupuesto, pricing, flujo de caja y punto de equilibrio
+**Entregable:** secciones 03 y 06 del expediente con planilla de costos, presupuesto, pricing, flujo, equilibrio y tres escenarios
 
 ## 🎯 Propósito
 
-Construir el modelo financiero completo del caso, verificando que las cifras sean consistentes entre todos los documentos.
+Completar costos y proyección con tres escenarios trazables y reconciliarlos con mercado, Canvas, forecast y caja.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Flujo de caja"]
     C --> A4["Punto de equilibrio"]
     A1 & A2 & A3 & A4 --> D{{"construir el modelo financiero<br/>completo y coherente del caso"}}
-    D --> E["Entregable<br/>modelo financiero del caso con<br/>presupuesto, pricing, flujo de<br/>caja y punto de equilibrio"]
+    D --> E["Entregable<br/>secciones 03 y 06 del<br/>expediente con planilla de<br/>costos, presupuesto, pricing,<br/>flujo, equilibrio y tres<br/>escenarios"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El bloque financiero del capstone integra presupuesto de arranque, política de precios, flujo de caja proyectado y punto de equilibrio. La evaluación revisa la coherencia numérica entre documentos: las mismas ventas y los mismos costos deben aparecer en todos.
+Este bloque completa las secciones 03 Costos y 06 Proyección del expediente y obliga a revisar el Canvas. La planilla integra costos fijos, variables y semifijos; directos e indirectos; CAPEX y OPEX; costo unitario, contribución, capacidad, utilización, punto de equilibrio y sensibilidad. Los escenarios conservador, base y expansivo reconcilian volumen, precio, ventas, ingresos, margen, inversión inicial, capital de trabajo, caja, runway y capital requerido, distinguiendo datos históricos, supuestos y cálculos derivados.
 
 ### 2. Cómo se traduce en la práctica
 
-La evaluación revisa esa coherencia antes que la ambición: las mismas ventas deben aparecer en el modelo, en el flujo y en el punto de equilibrio. Y proyectar ventas sin proyectar el desfase de cobro produce un flujo optimista que no resiste la primera pregunta.
+La evaluación revisa coherencia antes que ambición. Cada cifra se identifica como histórica, supuesto o derivada; volumen por precio coincide con ventas, los costos responden al volumen y a la capacidad, y el desfase de cobro alimenta caja y capital de trabajo. La proyección muestra break-even, runway y capital requerido y obliga a revisar el Canvas cuando la economía no sostiene un bloque.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Modelo financiero del caso con presupuesto, pricing, flujo de caja y punto de equilibrio.
+Secciones 03 y 06 del expediente con planilla de costos, presupuesto, pricing, flujo, equilibrio y tres escenarios.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] las cifras son consistentes entre todos los documentos
-- [ ] el flujo incluye desfase de cobro y provisión de impuestos
+- [ ] las cifras son consistentes entre mercado, Canvas, forecast y flujo
+- [ ] cada cifra conserva fuente o fórmula y tipo de procedencia
+- [ ] los tres escenarios incluyen capacidad, caja, break-even, runway cuando aplica y capital requerido
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Presentar documentos financieros con cifras inconsistentes entre sí.
-- Proyectar ventas sin proyectar el desfase de cobro.
+- Usar cifras sin clasificarlas como históricas, supuestas o derivadas.
 
 **Característicos de la parte 24:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Coinciden las ventas de tu modelo con las de tu flujo de caja?
-2. ¿Incluiste el desfase de cobro y la provisión de impuestos?
-3. ¿Con qué método fijaste el precio y podrías defenderlo?
+1. ¿Coinciden mercado, forecast, Canvas, planilla de costos y flujo?
+2. ¿Qué cifra es histórica, supuesta o derivada y dónde está su fuente o fórmula?
+3. ¿Cuánto capital exige cada escenario y qué supuesto cambia más el resultado?
 
 ## 🔗 Fuentes oficiales
 

@@ -22,7 +22,7 @@ Al terminar esta parte podrás:
 
 1. **Diseñar la estructura organizacional que corresponde a la etapa actual y no a la aspiracional**.
 2. **Delegar con decisión, límite y métrica en vez de delegar tareas**.
-3. **Estandarizar los procesos críticos antes de replicarlos en una segunda unidad**.
+3. **Priorizar aliados por aporte, dependencia, criticidad, sustitución, incentivos y riesgo**.
 4. **Controlar que el crecimiento no destruya la caja**.
 
 ## 🗺️ Mapa de la parte
@@ -72,7 +72,7 @@ flowchart TB
 | 06 | 272 | [Procesos que deben estandarizarse antes de crecer](class-06-procesos-que-deben-estandarizarse-antes-de-crecer/README.md) | identificar qué procesos deben estandarizarse antes de crecer |
 | 07 | 273 | [Multi-sucursal y expansión geográfica](class-07-multi-sucursal-y-expansion-geografica/README.md) | decidir si abrir una nueva ubicación y qué debe estar resuelto antes |
 | 08 | 274 | [Franquiciar un negocio](class-08-franquiciar-un-negocio/README.md) | determinar si el negocio está en condiciones de franquiciarse |
-| 09 | 275 | [Alianzas estratégicas y joint ventures](class-09-alianzas-estrategicas-y-joint-ventures/README.md) | definir aportes, gobierno y mecanismo de salida antes de iniciar la alianza |
+| 09 | 275 | [Alianzas estratégicas y joint ventures](class-09-alianzas-estrategicas-y-joint-ventures/README.md) | priorizar aliados y definir aportes, gobierno y salida solo para la relación que justifica una alianza |
 | 10 | 276 | [Adquisición de competidores o capacidades](class-10-adquisicion-de-competidores-o-capacidades/README.md) | determinar si adquirir y cómo se cubren las contingencias detectadas |
 | 11 | 277 | [Consejo asesor y directorio](class-11-consejo-asesor-y-directorio/README.md) | decidir si corresponde consejo asesor o directorio y con qué agenda |
 | 12 | 278 | [Auditoría externa y control de gestión](class-12-auditoria-externa-y-control-de-gestion/README.md) | determinar el alcance de auditoría y las confirmaciones independientes exigidas según custodia, relacionadas y riesgo |
@@ -142,7 +142,7 @@ flowchart TB
 
 ## 🔗 Cómo se conecta
 
-Ejecuta el roadmap de la parte 04 dentro del límite financiero de la parte 09. Multiplica las obligaciones de las partes 12 y 17 en cada nueva unidad, y su gobierno prepara la transferibilidad que evalúa la parte 22.
+Ejecuta el roadmap de la parte 04 dentro del límite financiero de la parte 09 y completa la sección 05 Aliados del Expediente de viabilidad. Multiplica las obligaciones de las partes 12 y 17 en cada nueva unidad, y su gobierno prepara la transferibilidad que evalúa la parte 22.
 
 ## 📖 Pauta bibliográfica
 

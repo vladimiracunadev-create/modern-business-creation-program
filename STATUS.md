@@ -12,8 +12,8 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Partes | 24 |
 | Clases | 336 |
 | Clases por parte | 14 |
-| Palabras totales del currículo | 436.795 |
-| Palabras por clase | 1.143–1.798 (mediana 1.290) |
+| Palabras totales del currículo | 441.788 |
+| Palabras por clase | 1.143–2.551 (mediana 1.294) |
 | Diagramas mermaid | 360 (uno por clase + uno por parte) |
 | Conceptos con definición operacional | 1.344 |
 | Términos del glosario maestro | 1.251 |
@@ -25,9 +25,9 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Manuales transversales (`docs/`) | 20 |
 | Casos de líneas de negocio (`case-studies/`) | 20 |
 | Plantillas operativas (`templates/`) | 24 |
-| Fuentes en el registro | 32 (28 citadas · 30 verificadas · 2 pendientes) |
+| Fuentes en el registro | 39 (37 citadas · 33 verificadas · 6 pendientes) |
 | Cuerpos normativos mapeados | 53 |
-| Revalidación de fuentes | por fuente (`accessed` en `sources/bibliography.json`); última pasada 2026-08-19 |
+| Revalidación de fuentes | por fuente (`accessed` en `sources/bibliography.json`); última pasada 2026-09-01 |
 
 ## Publicación
 
@@ -35,7 +35,7 @@ sección final; el CI vuelve a comprobarlas en cada push.
 |---|---:|
 | Páginas del sitio HTML | 427 |
 | Enlaces internos verificados en el sitio | 26.400+ |
-| Manual integral en PDF | 1.551 páginas · ~4,0 MB |
+| Manual integral en PDF | 1.560 páginas · ~4,0 MB |
 | PDF por parte | 24 · ~63 páginas cada uno |
 | Workflows de CI | 4 |
 | Dependencias de terceros | 2, fijadas a versión exacta |
@@ -59,7 +59,7 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | `scripts/generar_sitio.py` | que las 427 páginas compilen y que ninguno de sus enlaces internos rompa |
 | `scripts/generar_manual.py` | que el manual compile y que la portada y el número de páginas sean los esperados |
 | `markdownlint-cli2` | Markdown estructuralmente válido en todo el repositorio |
-| `python -m unittest discover -s tests` | 25 pruebas: currículo, manifiestos, pedagogía, fuentes, cobertura de etapas y sincronía del README |
+| `python -m unittest discover -s tests` | 31 pruebas: currículo, manifiestos, pedagogía, fuentes, etapas, sincronía e integración del expediente de viabilidad |
 | `gitleaks` | ausencia de secretos en el árbol de archivos |
 | `bandit` | análisis estático de los scripts de Python |
 | `pip-audit` | vulnerabilidades conocidas en las dependencias fijadas |

@@ -1,1 +1,1 @@
-semana,saldo_inicial,cobros,otros_ingresos,nomina,proveedores,impuestos,deuda,capex,otros_egresos,saldo_final
+semana,saldo_inicial,cobros,otros_ingresos,nomina,proveedores,impuestos,deuda,capex,otros_egresos,saldo_final,escenario,volumen,precio,ventas_devengadas,costo_variable,costo_fijo,costo_semifijo,capital_trabajo,tipo_dato,fuente_o_formula,fecha_dato,nivel_confianza,supuesto

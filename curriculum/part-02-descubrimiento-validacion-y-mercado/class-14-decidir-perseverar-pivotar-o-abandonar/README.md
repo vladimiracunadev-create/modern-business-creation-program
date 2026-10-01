@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** decidir con criterio preestablecido si se persevera, se pivota o se abandona<br>
-**Entregable:** acta de decisión con evidencia, criterio aplicado y decisión, firmada y fechada
+**Entregable:** secciones 01 Mercado y 02 Cliente del expediente, más acta de decisión con evidencia, criterio aplicado y fecha
 
 ## 🎯 Propósito
 
-Tomar la decisión de continuar, cambiar o detener contra criterios escritos antes de conocer el resultado, que es la única forma de que la decisión sea real.
+Sintetizar mercado y cliente en el expediente y decidir continuar, cambiar o detener contra criterios escritos de antemano.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Abandonar"]
     C --> A4["Kill criteria"]
     A1 & A2 & A3 & A4 --> D{{"decidir con criterio<br/>preestablecido si se<br/>persevera, se pivota o se<br/>abandona"}}
-    D --> E["Entregable<br/>acta de decisión con<br/>evidencia, criterio aplicado y<br/>decisión, firmada y fechada"]
+    D --> E["Entregable<br/>secciones 01 Mercado y 02<br/>Cliente del expediente, más<br/>acta de decisión con<br/>evidencia, criterio aplicado y<br/>fecha"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-La decisión de continuar debe tomarse contra criterios escritos antes de conocer el resultado. Sin kill criteria, todo resultado se reinterpreta como señal alentadora y la empresa financia indefinidamente una hipótesis muerta con el capital que necesitaba para la siguiente.
+La decisión de continuar debe tomarse contra criterios escritos antes de conocer el resultado. Antes del acta, el aprendizaje de la parte se sintetiza en las secciones 01 Mercado y 02 Cliente del Expediente de viabilidad: un informe ejecutivo de una o dos páginas y un mapa de empatía trazable. Sin esa síntesis, el equipo puede cumplir actividades aisladas y aun así no responder si existe mercado, cliente y problema real.
 
 ### 2. Cómo se traduce en la práctica
 
-Sin kill criteria toda evidencia se reinterpreta como señal alentadora y la empresa financia indefinidamente una hipótesis muerta con el capital que necesitaba para la siguiente. La decisión debe quedar en un acta con fecha, evidencia y criterio aplicado, porque el sesgo retrospectivo borra los criterios originales.
+La síntesis obliga a responder si existe mercado, cliente y problema real en vez de exhibir actividades sueltas. El informe ejecutivo y el mapa de empatía conservan fuentes, supuestos, confianza y preguntas abiertas; recién entonces el acta aplica el kill criterion. Así un resultado negativo también produce una decisión útil y trazable.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Acta de decisión con evidencia, criterio aplicado y decisión, firmada y fechada.
+Secciones 01 mercado y 02 cliente del expediente, más acta de decisión con evidencia, criterio aplicado y fecha.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -106,6 +106,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## ✅ Criterio de aceptación
 
 - [ ] el criterio de decisión estaba escrito antes del resultado
+- [ ] el informe de mercado identifica fuentes, supuestos, confianza y preguntas abiertas
+- [ ] el mapa del cliente separa evidencia, hipótesis e interpretación
 - [ ] la decisión queda documentada con su evidencia
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
@@ -116,7 +118,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Reinterpretar el criterio después de conocer el resultado.
-- Pivotar tantas veces que se pierde todo el aprendizaje acumulado.
+- Presentar cifras sin fuente o convertir la interpretación del equipo en evidencia del cliente.
 
 **Característicos de la parte 02:**
 
@@ -137,9 +139,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿El criterio de decisión estaba escrito antes de conocer el resultado?
-2. ¿Cuántas veces has pivotado y qué aprendizaje conservaste de cada vez?
-3. ¿Qué condición te haría abandonar esta apuesta y quién puede invocarla?
+1. ¿Tus secciones 01 y 02 permiten decidir sin abrir todos los anexos?
+2. ¿Qué afirmación es evidencia, cuál hipótesis y cuál interpretación?
+3. ¿Qué condición preestablecida obliga a perseverar, pivotar o abandonar?
 
 ## 🔗 Fuentes oficiales
 

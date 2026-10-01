@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** elegir la línea de negocio y declarar el alcance del caso<br>
-**Entregable:** documento de tesis del capstone con línea elegida, alcance, supuestos declarados y criterios de éxito
+**Entregable:** Expediente de viabilidad iniciado con tesis, alcance, supuestos, capital máximo y criterios de éxito o abandono
 
 ## 🎯 Propósito
 
-Elegir una línea de negocio con fuentes accesibles y declarar el alcance del caso, para que el capstone sea verificable y no especulativo.
+Abrir un único Expediente de viabilidad versionado y elegir una línea con alcance, fuentes y límites verificables.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Alcance del caso"]
     C --> A4["Supuesto declarado"]
     A1 & A2 & A3 & A4 --> D{{"elegir la línea de negocio y<br/>declarar el alcance del caso"}}
-    D --> E["Entregable<br/>documento de tesis del<br/>capstone con línea elegida,<br/>alcance, supuestos declarados<br/>y criterios de éxito"]
+    D --> E["Entregable<br/>Expediente de viabilidad<br/>iniciado con tesis, alcance,<br/>supuestos, capital máximo y<br/>criterios de éxito o abandono"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El capstone se construye sobre un caso único que atraviesa todas las partes del programa. Elegir una línea con carga regulatoria conocida y datos accesibles hace el ejercicio verificable; elegir una demasiado exótica lo convierte en especulación sin fuentes.
+El capstone se construye sobre un caso único y un Expediente de viabilidad versionado, no sobre entregables desconectados. La tesis abre el expediente y declara alcance, capital máximo a arriesgar y kill criteria; sus seis secciones —mercado, cliente, costos, modelo, aliados y proyección— se completan y revisan a medida que aparece evidencia. Elegir una línea con datos accesibles hace verificable el ejercicio; una demasiado exótica lo convierte en especulación sin fuentes.
 
 ### 2. Cómo se traduce en la práctica
 
-Una línea con carga regulatoria conocida y datos públicos permite contrastar cada afirmación; una demasiado exótica convierte el ejercicio en ficción bien redactada. Y dejar el alcance abierto impide cerrar el caso: la geografía, la escala y el horizonte deben fijarse desde el inicio.
+El expediente conserva la tesis y enlaza los anexos de mercado, cliente, costos, modelo, aliados y proyección. Una línea con datos públicos permite contrastar cada afirmación; una demasiado exótica convierte el ejercicio en ficción. Desde el inicio se fijan geografía, escala, horizonte, capital máximo y kill criteria para que la evidencia futura pueda cambiar una decisión real.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Documento de tesis del capstone con línea elegida, alcance, supuestos declarados y criterios de éxito.
+Expediente de viabilidad iniciado con tesis, alcance, supuestos, capital máximo y criterios de éxito o abandono.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -107,6 +107,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - [ ] la línea elegida tiene fuentes oficiales verificables
 - [ ] el alcance y los supuestos están declarados por escrito
+- [ ] el expediente identifica sus seis secciones, responsable, versión y fecha de corte
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Elegir una línea sin fuentes accesibles para verificar su regulación.
-- Dejar el alcance abierto y no poder cerrar el caso.
+- Crear documentos independientes sin una conclusión versionada que los conecte.
 
 **Característicos de la parte 24:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Qué fuentes oficiales existen para verificar la regulación de tu línea?
+1. ¿Tu expediente tiene responsable, versión, fecha de corte y seis secciones enlazadas?
 2. ¿Qué alcance —comuna, escala, horizonte— declaras para el caso?
-3. ¿Qué supuestos asumes desde ya como no verificados?
+3. ¿Qué capital máximo y qué condición obligan a detener la apuesta?
 
 ## 🔗 Fuentes oficiales
 

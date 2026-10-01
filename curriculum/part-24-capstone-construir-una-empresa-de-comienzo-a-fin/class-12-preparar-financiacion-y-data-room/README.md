@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** determinar la necesidad de financiamiento y preparar el data room del caso<br>
-**Entregable:** plan de financiamiento del caso con monto derivado del flujo, instrumento, uso de fondos y data room
+**Entregable:** plan de financiamiento con monto y momento por escenario, instrumento, uso de fondos y data room
 
 ## 🎯 Propósito
 
-Determinar la necesidad de financiamiento derivándola del flujo de caja, con uso de fondos desglosado por destino.
+Derivar monto, momento e instrumento de financiamiento desde los escenarios y la evidencia pendiente del expediente.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Data room del caso"]
     C --> A4["Uso de fondos"]
     A1 & A2 & A3 & A4 --> D{{"determinar la necesidad de<br/>financiamiento y preparar el<br/>data room del caso"}}
-    D --> E["Entregable<br/>plan de financiamiento del<br/>caso con monto derivado del<br/>flujo, instrumento, uso de<br/>fondos y data room"]
+    D --> E["Entregable<br/>plan de financiamiento con<br/>monto y momento por escenario,<br/>instrumento, uso de fondos y<br/>data room"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El bloque de financiamiento define cuánto capital necesita el caso, cuándo y para qué, y qué instrumento corresponde. La evaluación revisa que el monto se derive del flujo de caja y no de una cifra elegida, y que el uso de fondos sea específico.
+El bloque de financiamiento responde cuánto capital necesita el caso, cuándo y para qué. El monto no se elige: se deriva del déficit acumulado, capital de trabajo, CAPEX, caja mínima y runway de los escenarios conservador, base y expansivo. La decisión de instrumento considera qué supuesto podría destruir el negocio y qué evidencia falta antes de comprometer más capital.
 
 ### 2. Cómo se traduce en la práctica
 
-Solicitar un monto elegido en vez de derivado del flujo es la señal más clara de que el modelo financiero no se usó para decidir. Y un uso de fondos genérico impide evaluar si el monto alcanza para llegar al hito que se pretende habilitar.
+Solicitar un monto elegido en vez de derivado de caja, capital de trabajo, CAPEX y runway demuestra que la proyección no se usó para decidir. El escenario expansivo no se financia por entusiasmo: exige hitos del base, uso de fondos por período y una respuesta explícita sobre el supuesto que puede destruir el negocio antes de invertir más.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Plan de financiamiento del caso con monto derivado del flujo, instrumento, uso de fondos y data room.
+Plan de financiamiento con monto y momento por escenario, instrumento, uso de fondos y data room.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] el monto se deriva del flujo de caja proyectado
-- [ ] el uso de fondos está desglosado por destino
+- [ ] el monto se deriva de caja, capital de trabajo, CAPEX y runway por escenario
+- [ ] el uso de fondos está desglosado por destino y período
+- [ ] el plan declara el supuesto destructivo y la evidencia pendiente antes de invertir más
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Solicitar un monto sin derivarlo del flujo de caja proyectado.
-- Presentar uso de fondos genérico sin desglose.
+- Financiar el escenario expansivo sin demostrar que el escenario base cruzó sus hitos.
 
 **Característicos de la parte 24:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿De qué punto de tu flujo de caja sale el monto que solicitas?
-2. ¿Cómo se desglosa el uso de fondos por destino y por período?
-3. ¿Qué hito concreto quedaría habilitado con ese financiamiento?
+1. ¿Qué déficit, CAPEX, capital de trabajo y caja mínima forman el monto por escenario?
+2. ¿Qué hito habilita cada tramo de capital y qué evidencia debe existir antes?
+3. ¿Qué supuesto podría destruir el negocio aun después de financiarlo?
 
 ## 🔗 Fuentes oficiales
 

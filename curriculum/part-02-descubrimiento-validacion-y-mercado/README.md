@@ -21,9 +21,9 @@ El dimensionamiento cierra la parte y es donde más se miente sin querer. Estima
 Al terminar esta parte podrás:
 
 1. **Formular un problema empresarial en términos falsables**.
-2. **Producir evidencia de demanda antes de comprometer capital**.
-3. **Dimensionar TAM, SAM y SOM con supuestos rastreables a una fuente**.
-4. **Decidir con criterio explícito entre perseverar, pivotar o abandonar**.
+2. **Producir evidencia de demanda y un mapa de empatía sin atribuir al cliente hipótesis del equipo**.
+3. **Dimensionar TAM, SAM y SOM y comparar competencia con fuente, fecha, método y limitaciones**.
+4. **Emitir un informe ejecutivo y decidir con criterio explícito entre perseverar, pivotar o abandonar**.
 
 ## 🗺️ Mapa de la parte
 
@@ -140,7 +140,7 @@ flowchart TB
 
 ## 🔗 Cómo se conecta
 
-Alimenta directamente la parte 03, que traduce la evidencia en modelo de ingreso, y la parte 09, que convierte la disposición a pagar detectada aquí en precio y economía unitaria. Sin esta parte, la parte 24 no tiene caso que defender.
+Abre las secciones 01 Mercado y 02 Cliente del Expediente de viabilidad. Alimenta la parte 03, que traduce la evidencia en modelo de ingreso, y la parte 09, que convierte disposición a pagar y volumen alcanzable en precio y economía unitaria. Sin esta síntesis, la parte 24 no tiene caso que defender.
 
 ## 📖 Pauta bibliográfica
 

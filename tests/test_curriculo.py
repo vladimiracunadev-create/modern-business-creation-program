@@ -7,7 +7,9 @@ existentes y ausencia de texto de plantilla repetido entre clases.
 
 from __future__ import annotations
 
+import csv
 import json
+import math
 import re
 import unittest
 from collections import Counter
@@ -234,6 +236,137 @@ class ArbolTest(unittest.TestCase):
         versionados = re.findall(r"downloads/[\w-]*manual-v[\d.]+\.pdf", readme)
         self.assertEqual(versionados, [], f"enlaces versionados al manual: {versionados}")
         self.assertIn("downloads/manual.pdf", readme)
+
+
+class IntegracionViabilidadTest(unittest.TestCase):
+    """La integración debe vivir en artefactos reutilizados, no en clases nuevas."""
+
+    def test_expediente_reune_los_seis_dominios(self) -> None:
+        expediente = (RAIZ / "templates" / "01_idea_thesis.md").read_text(encoding="utf-8")
+        for seccion in (
+            "## 01 Mercado",
+            "## 02 Cliente",
+            "## 03 Costos",
+            "## 04 Modelo",
+            "## 05 Aliados",
+            "## 06 Proyección",
+        ):
+            with self.subTest(seccion=seccion):
+                self.assertIn(seccion, expediente)
+        for pregunta in (
+            "¿Existe mercado?",
+            "¿Existe un cliente identificable?",
+            "¿Hay evidencia de un problema real?",
+            "¿El modelo genera ingresos?",
+            "¿La estructura de costos permite sostenerlo?",
+            "¿Qué aliados son críticos?",
+            "¿Cuánto capital necesita?",
+            "¿Qué supuesto podría destruir el negocio?",
+            "¿Qué evidencia falta antes de invertir más?",
+        ):
+            with self.subTest(pregunta=pregunta):
+                self.assertIn(pregunta, expediente)
+
+    def test_cliente_separa_evidencia_hipotesis_e_interpretacion(self) -> None:
+        plantilla = (RAIZ / "templates" / "02_customer_interview.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("Evidencia del cliente", plantilla)
+        self.assertIn("Hipótesis del equipo", plantilla)
+        self.assertIn("Interpretación", plantilla)
+        for campo in (
+            "Qué intentaba lograr",
+            "Qué observó",
+            "Qué escuchó",
+            "Dolores observados",
+            "Ganancias esperadas",
+            "Disposición a pagar demostrada",
+            "Criterios de compra",
+            "Objeciones",
+        ):
+            self.assertIn(campo, plantilla)
+
+    def test_canvas_registra_evidencia_y_version(self) -> None:
+        plantilla = (RAIZ / "templates" / "03_business_model_canvas.md").read_text(
+            encoding="utf-8"
+        )
+        for campo in (
+            "Hipótesis",
+            "Evidencia",
+            "Fuente y fecha",
+            "Confianza",
+            "Riesgo si es falsa",
+            "Próximo experimento",
+            "Historial de versiones",
+        ):
+            self.assertIn(campo, plantilla)
+
+    def test_informe_de_mercado_cubre_sintesis_ejecutiva(self) -> None:
+        plantilla = (RAIZ / "templates" / "04_market_sizing.md").read_text(encoding="utf-8")
+        for campo in (
+            "TAM:",
+            "SAM:",
+            "SOM a 12–24 meses:",
+            "Tendencias relevantes:",
+            "Competidores directos:",
+            "Competidores indirectos:",
+            "Sustitutos y statu quo:",
+            "Benchmarks comparables",
+            "Barreras de entrada:",
+            "Señales de crecimiento o contracción:",
+            "Preguntas todavía no resueltas:",
+        ):
+            self.assertIn(campo, plantilla)
+        self.assertIn("Toda cifra debe tener fuente", plantilla)
+
+    def test_ejemplo_financiero_es_aritmeticamente_reproducible(self) -> None:
+        ruta = RAIZ / "templates" / "08_unit_economics.csv"
+        with ruta.open(encoding="utf-8", newline="") as archivo:
+            filas = list(csv.DictReader(archivo))
+        self.assertEqual([f["escenario"] for f in filas], ["conservador", "base", "expansivo"])
+        for fila in filas:
+            with self.subTest(escenario=fila["escenario"]):
+                volumen = int(fila["supuesto_volumen_unidades"])
+                precio = int(fila["supuesto_precio_unitario"])
+                variable_unitario = int(fila["supuesto_costo_directo_variable_unitario"])
+                fijo = int(fila["supuesto_costo_indirecto_fijo"])
+                semifijo = int(fila["supuesto_costo_indirecto_semifijo"])
+                capacidad = int(fila["supuesto_capacidad_unidades"])
+                variable_total = volumen * variable_unitario
+                indirecto_total = fijo + semifijo
+                contribucion_unitaria = precio - variable_unitario
+                contribucion_total = volumen * contribucion_unitaria
+                self.assertEqual(int(fila["calculo_ventas"]), volumen * precio)
+                self.assertEqual(int(fila["calculo_ingresos"]), volumen * precio)
+                self.assertEqual(int(fila["calculo_costo_directo_variable_total"]), variable_total)
+                self.assertEqual(int(fila["calculo_costo_indirecto_total"]), indirecto_total)
+                self.assertEqual(int(fila["calculo_opex"]), variable_total + indirecto_total)
+                self.assertEqual(int(fila["calculo_margen_contribucion_unitario"]), contribucion_unitaria)
+                self.assertEqual(int(fila["calculo_margen_contribucion_total"]), contribucion_total)
+                self.assertEqual(int(fila["calculo_margen_operacional"]), contribucion_total - indirecto_total)
+                self.assertEqual(
+                    int(fila["calculo_punto_equilibrio_unidades"]),
+                    math.ceil(indirecto_total / contribucion_unitaria),
+                )
+                self.assertAlmostEqual(float(fila["calculo_utilizacion"]), volumen / capacidad, places=4)
+
+    def test_clases_existentes_contienen_los_puentes(self) -> None:
+        clases = {}
+        for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                clases[entrada["n"]] = entrada
+        expectativas = {
+            28: "secciones 01 Mercado y 02 Cliente",
+            29: "registro de evidencia por bloque",
+            116: "planilla base de costos",
+            196: "tres escenarios financieros",
+            275: "mapa de aliados priorizado",
+            329: "secciones 03 y 06",
+            336: "Expediente de viabilidad completo",
+        }
+        for numero, fragmento in expectativas.items():
+            with self.subTest(clase=numero):
+                self.assertIn(fragmento, clases[numero]["entregable"])
 
 
 if __name__ == "__main__":

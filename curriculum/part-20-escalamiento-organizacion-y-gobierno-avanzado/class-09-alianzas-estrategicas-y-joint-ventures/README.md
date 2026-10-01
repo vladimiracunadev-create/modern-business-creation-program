@@ -3,12 +3,12 @@
 > **Parte 20 · Escalamiento, organización y gobierno avanzado** — clase 9 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir aportes, gobierno y mecanismo de salida antes de iniciar la alianza<br>
-**Entregable:** acuerdo de alianza con aportes, gobierno, reparto de resultados y mecanismo de salida
+**Decisión que habilita:** priorizar aliados y definir aportes, gobierno y salida solo para la relación que justifica una alianza<br>
+**Entregable:** mapa de aliados priorizado y, para la relación seleccionada, acuerdo con aportes, gobierno, reparto y salida
 
 ## 🎯 Propósito
 
-Definir aportes, gobierno y mecanismo de salida antes de iniciar la alianza, porque definir la salida es lo que permite que funcione.
+Distinguir relaciones operativas de alianzas reales, priorizar aliados y negociar solo la relación que justifica gobierno conjunto.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir aportes, gobierno y mecanismo de salida antes de iniciar la alianza— y justificar la decisión por escrito.
+3. **Decidir** —priorizar aliados y definir aportes, gobierno y salida solo para la relación que justifica una alianza— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -38,8 +38,8 @@ flowchart TB
     C --> A2["Joint venture"]
     C --> A3["Aporte de cada parte"]
     C --> A4["Salida de la alianza"]
-    A1 & A2 & A3 & A4 --> D{{"definir aportes, gobierno y<br/>mecanismo de salida antes de<br/>iniciar la alianza"}}
-    D --> E["Entregable<br/>acuerdo de alianza con<br/>aportes, gobierno, reparto de<br/>resultados y mecanismo de<br/>salida"]
+    A1 & A2 & A3 & A4 --> D{{"priorizar aliados y definir<br/>aportes, gobierno y salida<br/>solo para la relación que<br/>justifica una alianza"}}
+    D --> E["Entregable<br/>mapa de aliados priorizado y,<br/>para la relación seleccionada,<br/>acuerdo con aportes, gobierno,<br/>reparto y salida"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Las alianzas fracasan por falta de definición: qué aporta cada uno, cómo se decide, cómo se reparte y cómo se sale. Definir la salida al inicio es lo que permite que la alianza funcione, porque quita el temor de quedar atrapado en un acuerdo que dejó de servir.
+Antes de negociar se construye un mapa de aliados priorizado y se clasifica cada relación como proveedor, canal, partner comercial, partner tecnológico, partner institucional, socio estratégico o joint venture. Solo las relaciones con capacidad o recurso complementario, dependencia relevante, incentivos alineados y resultado conjunto justifican la palabra alianza. Para la priorizada se definen aportes, contraprestación, gobierno, propiedad, riesgo y salida; las demás conservan el contrato que corresponde a su categoría.
 
 ### 2. Cómo se traduce en la práctica
 
-Las alianzas fracasan por falta de definición: qué aporta cada uno, cómo se decide, cómo se reparte y cómo se sale. Acordar la salida al inicio quita el temor de quedar atrapado y hace posible comprometerse; postergarla convierte cualquier desacuerdo en un bloqueo sin válvula.
+El mapa compara capacidad, recurso, contraprestación, dependencia, criticidad, sustitución, incentivos y riesgo antes de redactar. Un proveedor o canal conserva su categoría si no existe resultado conjunto ni dependencia estratégica. Para el aliado priorizado se acuerdan gobierno, propiedad y salida; definir la salida al inicio permite comprometerse sin quedar atrapado.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Acuerdo de alianza con aportes, gobierno, reparto de resultados y mecanismo de salida.
+Mapa de aliados priorizado y, para la relación seleccionada, acuerdo con aportes, gobierno, reparto y salida.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] el acuerdo define gobierno y mecanismo de salida
-- [ ] la propiedad de lo desarrollado conjuntamente está asignada
+- [ ] cada relación está clasificada y priorizada por aporte, dependencia, criticidad, sustitución, incentivos y riesgo
+- [ ] cada fila tiene responsable y próximo paso
+- [ ] el acuerdo seleccionado define gobierno, propiedad y salida
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +116,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Iniciar la colaboración con un acuerdo de intenciones sin reglas de decisión.
-- No definir la propiedad de lo desarrollado conjuntamente.
+- Llamar alianza estratégica a cualquier proveedor o canal.
+- Negociar un acuerdo antes de evaluar dependencia, criticidad, sustitución e incentivos.
 
 **Característicos de la parte 20:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Qué aporta exactamente cada parte y qué espera obtener?
-2. ¿Cómo se toman las decisiones y qué pasa ante un desacuerdo?
-3. ¿A quién pertenece lo desarrollado conjuntamente si la alianza termina?
+1. ¿Qué categoría corresponde realmente a cada relación y por qué?
+2. ¿Qué aliado priorizas por aporte, criticidad, sustitución e incentivos?
+3. ¿Qué responsable y próximo paso llevan del mapa a un acuerdo verificable?
 
 ## 🔗 Fuentes oficiales
 
@@ -148,7 +149,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir aportes, gobierno y mecanismo de salida antes de iniciar la alianza.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para priorizar aliados y definir aportes, gobierno y salida solo para la relación que justifica una alianza.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

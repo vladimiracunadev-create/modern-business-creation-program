@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** decidir a quién entrevistar y qué evidencia de comportamiento se busca<br>
-**Entregable:** guion de entrevista y bitácora de diez entrevistas con hallazgos y citas textuales
+**Entregable:** guion, bitácora de diez entrevistas y mapa de empatía con evidencia, hipótesis e interpretación separadas
 
 ## 🎯 Propósito
 
-Aprender a entrevistar sobre hechos ocurridos y no sobre intenciones, porque las respuestas sobre lo que alguien haría en el futuro tienen valor predictivo casi nulo.
+Entrevistar sobre hechos y construir un mapa de empatía trazable que no confunda la voz del cliente con una hipótesis del equipo.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Evidencia de<br/>comportamiento"]
     C --> A4["Saturación"]
     A1 & A2 & A3 & A4 --> D{{"decidir a quién entrevistar y<br/>qué evidencia de<br/>comportamiento se busca"}}
-    D --> E["Entregable<br/>guion de entrevista y bitácora<br/>de diez entrevistas con<br/>hallazgos y citas textuales"]
+    D --> E["Entregable<br/>guion, bitácora de diez<br/>entrevistas y mapa de empatía<br/>con evidencia, hipótesis e<br/>interpretación separadas"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-La regla central es preguntar por hechos ocurridos y no por intenciones: qué hizo la última vez que enfrentó el problema, cuánto le costó, qué probó y por qué lo abandonó. Las respuestas sobre lo que la persona haría en el futuro tienen valor predictivo casi nulo.
+La regla central es preguntar por hechos ocurridos y no por intenciones: qué hizo la última vez que enfrentó el problema, cuánto le costó, qué probó y por qué lo abandonó. El mapa de empatía solo se completa desde citas, conductas o documentos: qué intenta lograr, observa, escucha, piensa, siente y hace; dolores, ganancias, alternativas, disposición a pagar, criterios y objeciones. Evidencia del cliente, hipótesis del equipo e interpretación se registran en columnas distintas para impedir que una inferencia se convierta en ficción empresarial.
 
 ### 2. Cómo se traduce en la práctica
 
-La contaminación más habitual es presentar la solución al inicio: a partir de ahí el entrevistado colabora en vez de informar. La estructura que funciona empieza por el último episodio real del problema y avanza hacia atrás, hasta que aparecen el costo y la alternativa que hoy usa.
+La contaminación más habitual es presentar la solución al inicio; la segunda es completar lo que el cliente observa, piensa o siente desde la imaginación del equipo. La estructura parte por el último episodio real y registra en columnas separadas la cita o conducta, la hipótesis y la interpretación. Los vacíos quedan como preguntas pendientes, no se rellenan para que el mapa parezca completo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Guion de entrevista y bitácora de diez entrevistas con hallazgos y citas textuales.
+Guion, bitácora de diez entrevistas y mapa de empatía con evidencia, hipótesis e interpretación separadas.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -106,7 +106,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## ✅ Criterio de aceptación
 
 - [ ] las preguntas indagan hechos pasados y no intenciones
-- [ ] las conclusiones citan evidencia textual de las entrevistas
+- [ ] cada afirmación del mapa remite a una cita, conducta o documento
+- [ ] evidencia, hipótesis e interpretación permanecen separadas
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Presentar la solución al inicio y contaminar toda la conversación.
-- Entrevistar solo a personas del entorno cercano del fundador.
+- Atribuir al cliente pensamientos o sentimientos que el equipo no observó ni escuchó.
 
 **Característicos de la parte 02:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Cuántas de tus preguntas indagan hechos pasados y cuántas piden opiniones sobre el futuro?
-2. ¿Qué cita textual de un entrevistado respalda tu conclusión principal?
-3. ¿A cuántas personas fuera de tu entorno cercano entrevistaste?
+1. ¿Qué cita, conducta o documento respalda cada afirmación de tu mapa de empatía?
+2. ¿Qué parte está marcada como hipótesis del equipo y cuál como interpretación?
+3. ¿Qué evidencia distingue opinión, intención y disposición a pagar demostrada?
 
 ## 🔗 Fuentes oficiales
 

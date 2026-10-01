@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** identificar la métrica clave y si existe alguna ventaja difícil de copiar<br>
-**Entregable:** lean canvas con métrica clave definida y evaluación honesta de la ventaja injusta
+**Entregable:** lean canvas versionado con métrica clave, evaluación de la ventaja y registro de evidencia por bloque
 
 ## 🎯 Propósito
 
-Enfrentar la casilla más incómoda del Lean Canvas —la ventaja injusta— y aceptar que al principio suele estar vacía, lo que es información y no fracaso.
+Enfrentar la ventaja injusta y mantener el Lean Canvas como hipótesis versionada, no como descripción definitiva del negocio.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Métrica clave"]
     C --> A4["Solución mínima"]
     A1 & A2 & A3 & A4 --> D{{"identificar la métrica clave y<br/>si existe alguna ventaja<br/>difícil de copiar"}}
-    D --> E["Entregable<br/>lean canvas con métrica clave<br/>definida y evaluación honesta<br/>de la ventaja injusta"]
+    D --> E["Entregable<br/>lean canvas versionado con<br/>métrica clave, evaluación de<br/>la ventaja y registro de<br/>evidencia por bloque"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El Lean Canvas sirve mejor que el BMC en etapa temprana porque obliga a nombrar problema, métrica clave y ventaja injusta. La casilla de ventaja injusta es la más incómoda y la más útil: casi siempre está vacía al principio, y reconocerlo evita construir un negocio trivialmente copiable.
+El Lean Canvas sirve mejor que el BMC en etapa temprana porque obliga a nombrar problema, métrica clave y ventaja injusta. La casilla de ventaja injusta es la más incómoda y la más útil: casi siempre está vacía al principio. Igual que el BMC, el Lean Canvas es un documento versionado: cada bloque conserva hipótesis, evidencia, fuente, confianza, riesgo y próximo experimento, y cambia cuando el resultado contradice la versión vigente.
 
 ### 2. Cómo se traduce en la práctica
 
-Reconocer que no hay ventaja difícil de copiar evita construir un negocio trivialmente replicable y obliga a decidir cuál se construirá: datos acumulados, integraciones que aumentan el costo de salida, marca registrada o contratos plurianuales. La parte 04 convierte esa elección en plan.
+Reconocer que no hay ventaja difícil de copiar evita construir un negocio trivialmente replicable. Cada bloque conserva evidencia, fuente, confianza, riesgo y experimento; si una prueba de problema, precio o canal falla, el Canvas cambia y la bitácora explica por qué. La parte 04 convierte la versión respaldada en plan.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Lean canvas con métrica clave definida y evaluación honesta de la ventaja injusta.
+Lean canvas versionado con métrica clave, evaluación de la ventaja y registro de evidencia por bloque.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -107,6 +107,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - [ ] hay una única métrica clave declarada
 - [ ] la ventaja injusta se evalúa con criterio de replicabilidad
+- [ ] cada bloque hipotético tiene fuente, confianza, riesgo y próximo experimento
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Escribir en ventaja injusta algo que cualquier competidor puede replicar en un mes.
-- Definir varias métricas clave y por lo tanto ninguna.
+- Tratar como confirmado un bloque que solo contiene una hipótesis del equipo.
 
 **Característicos de la parte 03:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Qué escribiste en ventaja injusta y cuánto tardaría un competidor en replicarlo?
-2. ¿Cuál es tu única métrica clave y por qué esa y no otra?
-3. ¿Tu solución mínima ataca los tres problemas principales o dispersa esfuerzo?
+1. ¿Qué bloque sigue siendo solo hipótesis y qué experimento lo prueba?
+2. ¿Qué evidencia cambió la última versión de tu Lean Canvas?
+3. ¿Cuánto tardaría un competidor en replicar la ventaja que declaras?
 
 ## 🔗 Fuentes oficiales
 

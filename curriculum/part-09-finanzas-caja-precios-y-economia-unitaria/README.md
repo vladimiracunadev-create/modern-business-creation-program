@@ -21,9 +21,9 @@ El precio merece atención propia porque es la variable con mayor efecto sobre e
 Al terminar esta parte podrás:
 
 1. **Construir y mantener un flujo de caja de 13 semanas con supuestos explícitos**.
-2. **Calcular punto de equilibrio, margen de contribución y economía unitaria del modelo**.
+2. **Clasificar costos y calcular costo unitario, capacidad, utilización, punto de equilibrio y margen de contribución**.
 3. **Fijar precio con un método defendible y no por comparación con el vecino**.
-4. **Definir reglas de caja mínima y umbrales de decisión antes de la urgencia**.
+4. **Proyectar escenarios conservador, base y expansivo distinguiendo datos, supuestos y cálculos**.
 
 ## 🗺️ Mapa de la parte
 
@@ -69,7 +69,7 @@ flowchart TB
 | 01 | 113 | [Presupuesto de arranque](class-01-presupuesto-de-arranque/README.md) | determinar cuánto capital se necesita hasta alcanzar operación estable |
 | 02 | 114 | [Flujo de caja de 13 semanas](class-02-flujo-de-caja-de-13-semanas/README.md) | instalar el flujo de 13 semanas como rutina semanal de gestión |
 | 03 | 115 | [Capital de trabajo](class-03-capital-de-trabajo/README.md) | determinar cuánta caja libera cada mejora en inventario, cobro o pago |
-| 04 | 116 | [Punto de equilibrio](class-04-punto-de-equilibrio/README.md) | conocer el volumen mínimo de ventas y el efecto de cada gasto fijo adicional |
+| 04 | 116 | [Punto de equilibrio](class-04-punto-de-equilibrio/README.md) | conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio |
 | 05 | 117 | [Margen bruto, contribución y EBITDA](class-05-margen-bruto-contribucion-y-ebitda/README.md) | evaluar si el resultado operacional se está convirtiendo en efectivo |
 | 06 | 118 | [Pricing basado en costos, valor y mercado](class-06-pricing-basado-en-costos-valor-y-mercado/README.md) | fijar precio y empaquetado con un método declarado y verificable |
 | 07 | 119 | [CAC, LTV y payback](class-07-cac-ltv-y-payback/README.md) | determinar si el costo de adquisición es recuperable en un plazo financiable |
@@ -77,7 +77,7 @@ flowchart TB
 | 09 | 121 | [Rotación, ticket y merma para comercio](class-09-rotacion-ticket-y-merma-para-comercio/README.md) | decidir la mezcla de productos según rotación y contribución, no solo margen |
 | 10 | 122 | [Ciclo de conversión de efectivo](class-10-ciclo-de-conversion-de-efectivo/README.md) | identificar qué palanca del ciclo se ataca primero y cuánta caja libera |
 | 11 | 123 | [Deuda buena, deuda mala y costo de capital](class-11-deuda-buena-deuda-mala-y-costo-de-capital/README.md) | determinar qué se financia con deuda, en qué plazo y a qué costo máximo aceptable |
-| 12 | 124 | [Escenarios base, estrés y supervivencia](class-12-escenarios-base-estres-y-supervivencia/README.md) | definir gatillos y palancas después de probar la sostenibilidad económica y de liquidez |
+| 12 | 124 | [Escenarios base, estrés y supervivencia](class-12-escenarios-base-estres-y-supervivencia/README.md) | definir escenarios, gatillos y palancas después de probar la sostenibilidad económica y de liquidez |
 | 13 | 125 | [Dashboard financiero del fundador](class-13-dashboard-financiero-del-fundador/README.md) | definir los pocos indicadores que la empresa revisará efectivamente |
 | 14 | 126 | [Reglas de caja y reservas](class-14-reglas-de-caja-y-reservas/README.md) | fijar reglas de segregación, caja mínima, reservas y disposición por categoría de fondos |
 
@@ -143,7 +143,7 @@ flowchart TB
 
 ## 🔗 Cómo se conecta
 
-Traduce a números el modelo de la parte 03 con los datos de la parte 08. Define el límite de crecimiento financiable que la parte 20 no puede exceder y produce las proyecciones que la parte 16 presenta al banco o al inversionista.
+Completa la sección 03 Costos y prepara la sección 06 Proyección del Expediente de viabilidad. Traduce a números el modelo de la parte 03 con los datos de la parte 08, define el límite de crecimiento que la parte 20 no puede exceder y produce las proyecciones que la parte 16 presenta a financiadores.
 
 ## 📖 Pauta bibliográfica
 

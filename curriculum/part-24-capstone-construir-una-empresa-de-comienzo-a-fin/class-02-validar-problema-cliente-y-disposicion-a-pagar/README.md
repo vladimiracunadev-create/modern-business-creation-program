@@ -3,12 +3,12 @@
 > **Parte 24 · Capstone: construir una empresa de comienzo a fin** — clase 2 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** producir evidencia de problema, cliente y disposición a pagar para el caso<br>
-**Entregable:** informe de validación con entrevistas, dimensionamiento, experimento y conclusión contra umbral
+**Decisión que habilita:** producir evidencia de mercado, problema, cliente y disposición a pagar para el caso<br>
+**Entregable:** secciones 01 y 02 del expediente con informe ejecutivo de mercado, mapa de empatía trazable, experimento y conclusión contra umbral
 
 ## 🎯 Propósito
 
-Producir evidencia primaria de problema, cliente y disposición a pagar, aplicando al caso las herramientas de la parte 02.
+Completar mercado y cliente con evidencia trazable, sin convertir investigación secundaria ni interpretación en validación.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —producir evidencia de problema, cliente y disposición a pagar para el caso— y justificar la decisión por escrito.
+3. **Decidir** —producir evidencia de mercado, problema, cliente y disposición a pagar para el caso— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -38,8 +38,8 @@ flowchart TB
     C --> A2["Evidencia primaria"]
     C --> A3["Umbral de validación"]
     C --> A4["Registro de aprendizaje"]
-    A1 & A2 & A3 & A4 --> D{{"producir evidencia de<br/>problema, cliente y<br/>disposición a pagar para el<br/>caso"}}
-    D --> E["Entregable<br/>informe de validación con<br/>entrevistas, dimensionamiento,<br/>experimento y conclusión<br/>contra umbral"]
+    A1 & A2 & A3 & A4 --> D{{"producir evidencia de mercado,<br/>problema, cliente y<br/>disposición a pagar para el<br/>caso"}}
+    D --> E["Entregable<br/>secciones 01 y 02 del<br/>expediente con informe<br/>ejecutivo de mercado, mapa de<br/>empatía trazable, experimento<br/>y conclusión contra umbral"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Esta etapa aplica las herramientas de descubrimiento al caso: entrevistas, análisis de alternativas actuales, dimensionamiento y experimento de demanda. Lo que se evalúa no es que el resultado sea positivo, sino que el método permita distinguir validación de deseo.
+Esta etapa completa las secciones 01 Mercado y 02 Cliente del expediente con investigación secundaria, entrevistas, alternativas actuales, TAM/SAM/SOM, competencia y experimento de demanda. Lo que se evalúa no es que el resultado sea positivo, sino que el método permita distinguir evidencia del cliente, hipótesis del equipo e interpretación, y que el informe ejecutivo declare fuentes, fechas, supuestos, confianza y preguntas abiertas.
 
 ### 2. Cómo se traduce en la práctica
 
-Lo que se evalúa no es que el resultado sea positivo sino que el método permita distinguir validación de deseo. Presentar solo investigación secundaria, o fijar el umbral después de conocer el dato, invalida el ejercicio aunque las conclusiones suenen razonables.
+El informe ejecutivo reúne definición, segmento, TAM/SAM/SOM, tendencias, competencia, benchmarks, barreras y preguntas abiertas. El mapa del cliente registra qué intenta lograr, observa, escucha, piensa, siente y hace desde citas y conductas. Lo que se evalúa es poder separar evidencia, hipótesis e interpretación aunque la conclusión sea negativa.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Informe de validación con entrevistas, dimensionamiento, experimento y conclusión contra umbral.
+Secciones 01 y 02 del expediente con informe ejecutivo de mercado, mapa de empatía trazable, experimento y conclusión contra umbral.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,7 +105,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] existe evidencia primaria documentada
+- [ ] existe evidencia primaria documentada y separada de hipótesis e interpretación
+- [ ] el informe de mercado no contiene cifras sin fuente o marca de supuesto
 - [ ] el umbral estaba definido antes de la recolección
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Presentar validación con evidencia secundaria únicamente.
-- Fijar el umbral después de conocer el resultado.
+- Convertir la interpretación del equipo en evidencia del cliente.
 
 **Característicos de la parte 24:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Qué evidencia primaria recolectaste y con cuántas personas?
-2. ¿El umbral estaba definido antes de recolectar?
-3. ¿Qué parte de tu conclusión se apoya solo en fuentes secundarias?
+1. ¿Cada cifra de mercado tiene fuente o está marcada como supuesto?
+2. ¿Qué evidencia respalda cada afirmación del mapa del cliente?
+3. ¿Qué umbral fijado de antemano determina la conclusión de las secciones 01 y 02?
 
 ## 🔗 Fuentes oficiales
 
@@ -148,21 +149,21 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Describe el régimen simplificado de la Ley 20.659: qué tipos societarios admite el formulario electrónico, quiénes deben firmar, qué documentos entrega el sistema y cómo se hacen después las modificaciones.
 - *Cómo leerla:* Entra por el tipo societario que ya elegiste, no al revés. La ficha dice qué campos pide el formulario; si tu estatuto necesita una cláusula que el formulario no soporta, la respuesta es la ruta notarial.
-- *Uso en esta clase:* aporta el marco de «Constitución de empresas» para producir evidencia de problema, cliente y disposición a pagar para el caso.
+- *Uso en esta clase:* aporta el marco de «Constitución de empresas» para producir evidencia de mercado, problema, cliente y disposición a pagar para el caso.
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
 <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para producir evidencia de problema, cliente y disposición a pagar para el caso.
+- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para producir evidencia de mercado, problema, cliente y disposición a pagar para el caso.
 
 **Servicio de Impuestos Internos — Regímenes tributarios · Operación Renta 2026**  
 <https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-09-01
 
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
-- *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para producir evidencia de problema, cliente y disposición a pagar para el caso.
+- *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para producir evidencia de mercado, problema, cliente y disposición a pagar para el caso.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

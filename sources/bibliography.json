@@ -43,7 +43,10 @@
       "locator": "https://www.bcentral.cl/",
       "authority": "Banco Central de Chile",
       "accessed": "2026-09-01",
-      "used_in": [],
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-02-investigacion-secundaria-con-fuentes-confiables",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-06-tamano-de-mercado-tam-sam-som"
+      ],
       "status": "verificada",
       "que_contiene": "Publica las series oficiales de tipo de cambio, UF, UTM, tasas de interés, cuentas nacionales y balanza de pagos, además de la normativa cambiaria aplicable a operaciones con el exterior.",
       "como_leerla": "Toma de aquí toda serie que uses en una proyección y guarda la fecha de descarga. Si la empresa cobra o paga en moneda extranjera, la serie de tipo de cambio es el insumo para medir la exposición, no una referencia informativa.",
@@ -80,11 +83,9 @@
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-14-mapa-personal-de-competencias-del-fundador",
         "curriculum/part-02-descubrimiento-validacion-y-mercado",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-01-formulacion-del-problema-empresarial",
-        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-02-investigacion-secundaria-con-fuentes-confiables",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-03-entrevistas-de-descubrimiento-sin-sesgos",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-04-segmentacion-y-perfil-de-cliente-ideal",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-05-jobs-to-be-done-y-resultados-esperados",
-        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-06-tamano-de-mercado-tam-sam-som",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-07-competidores-directos-indirectos-y-sustitutos",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-08-mapa-de-alternativas-actuales-del-cliente",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-10-hipotesis-criticas-del-negocio",
@@ -571,7 +572,10 @@
       "locator": "https://www.ine.gob.cl/",
       "authority": "Instituto Nacional de Estadísticas",
       "accessed": "2026-09-01",
-      "used_in": [],
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-02-investigacion-secundaria-con-fuentes-confiables",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-06-tamano-de-mercado-tam-sam-som"
+      ],
       "status": "verificada",
       "que_contiene": "Produce la estadística oficial del país: población y hogares por comuna, empleo, remuneraciones, IPC e índices sectoriales de actividad.",
       "como_leerla": "Es la base de cualquier dimensionamiento bottom-up serio en Chile. Baja el dato por comuna cuando el negocio sea local; los promedios nacionales rara vez describen el mercado al que realmente puedes llegar.",

@@ -10,40 +10,40 @@
 
 ## 🎯 De qué trata esta parte
 
-El capstone no es un resumen: es la prueba de que las decisiones del programa se sostienen juntas. Un mismo caso —una empresa elegida por quien estudia— atraviesa las veintidós partes anteriores y produce una carpeta empresarial completa. Lo que se evalúa no es la ambición del proyecto sino la coherencia: que las ventas del flujo de caja sean las mismas del modelo, que la estructura de cargos quepa en la caja proyectada, que los permisos listados correspondan a la actividad declarada ante el SII.
+El capstone no es un resumen: es la prueba de que las decisiones del programa se sostienen juntas. Un mismo caso —una empresa elegida por quien estudia— atraviesa las partes anteriores y mantiene un Expediente de viabilidad con seis secciones: 01 mercado, 02 cliente, 03 costos, 04 modelo, 05 aliados y 06 proyección. Los anexos no se copian ni se aíslan; cada sección registra la conclusión vigente y enlaza la evidencia que la sostiene.
 
-La exigencia de trazabilidad recorre todo el capstone. Cada afirmación regulatoria debe poder respaldarse con fuente y fecha de consulta, y cada supuesto no verificado debe declararse como tal. Reconocer un límite vale más que defender una afirmación sin respaldo, porque es exactamente lo que distingue a alguien capaz de operar una empresa real de alguien que memorizó un procedimiento.
+La exigencia de coherencia y trazabilidad recorre todo el capstone. Las ventas del flujo son las mismas del forecast, el precio se apoya en disposición a pagar y costos, los aliados críticos aparecen como recursos o canales cuando corresponde y el capital requerido sale de la caja proyectada. Cada afirmación regulatoria conserva fuente y fecha; cada cifra distingue dato histórico, supuesto y cálculo derivado; cada interpretación se separa de la evidencia original.
 
-La defensa final ante un comité simulado cierra el programa con preguntas adversariales: por qué este régimen y no otro, qué pasa si el cliente principal se va, con qué evidencia sostienes esa cifra, qué harías si el permiso demora el doble. Un caso bien construido responde con documentos; uno improvisado responde con intenciones.
+La defensa final comienza con nueve preguntas adversariales: si existe mercado y cliente, si el problema es real, si el modelo genera ingresos, si los costos lo sostienen, qué aliados son críticos, cuánto capital se necesita, qué supuesto destruye el negocio y qué evidencia falta antes de invertir más. Un caso bien construido responde desde el expediente hasta el anexo; uno improvisado responde con intenciones.
 
 ## 📚 Resultados de la parte
 
 Al terminar esta parte podrás:
 
-1. **Producir una carpeta empresarial completa y coherente entre sus partes**.
+1. **Producir un Expediente de viabilidad y una carpeta empresarial completa y coherente entre sus partes**.
 2. **Sostener las decisiones tomadas frente a preguntas adversariales**.
 3. **Identificar de forma explícita los supuestos que requieren validación profesional**.
-4. **Entregar un plan ejecutable con calendario de obligaciones y evidencia**.
+4. **Responder con evidencia las preguntas de mercado, cliente, costos, modelo, aliados, capital y riesgo**.
 
 ## 🗺️ Mapa de la parte
 
 ```mermaid
 flowchart TB
-    T["Tesis y línea elegida"] --> V["Validación con<br/>evidencia primaria"]
-    V --> M["Modelo y estrategia"]
-    M --> S["Sociedad y pacto<br/>de fundadores"]
-    S --> C["Constitución simulada<br/>y carpeta legal"]
-    C --> SII["Inicio SII, régimen<br/>y calendario tributario"]
-    SII --> F["Presupuesto, pricing<br/>y flujo de caja"]
-    F --> CO["Contratos y<br/>mapa de compliance"]
-    CO --> P["Mapa de permisos<br/>con secuencia y plazos"]
-    P --> O["Cargos, operación,<br/>ventas y tecnología"]
-    O --> FIN["Financiamiento<br/>y data room"]
-    FIN --> CR["Simulación de crisis<br/>y cierre ordenado"]
+    T["Tesis y línea elegida"] --> MKT["01 Mercado<br/>fuentes · TAM/SAM/SOM · competencia"]
+    MKT --> CLI["02 Cliente<br/>evidencia · empatía · disposición a pagar"]
+    CLI --> COS["03 Costos<br/>estructura · capacidad · equilibrio"]
+    COS --> MOD["04 Modelo<br/>Canvas versionado por evidencia"]
+    MOD --> ALI["05 Aliados<br/>clasificación · prioridad · incentivos"]
+    ALI --> PROY["06 Proyección<br/>conservador · base · expansivo"]
+    PROY --> LEG["Sociedad · SII<br/>contratos · permisos"]
+    LEG --> OPS["Personas · operación<br/>ventas · tecnología"]
+    OPS --> FIN["Capital requerido<br/>y data room"]
+    FIN --> CR["Crisis y supuesto<br/>que destruye el caso"]
     CR --> DEF{{"Defensa ante comité"}}
-    DEF --> Q1["¿Las cifras coinciden<br/>entre documentos?"]
-    DEF --> Q2["¿Cada norma citada<br/>tiene fuente y fecha?"]
-    DEF --> Q3["¿Qué supuestos<br/>se declaran sin verificar?"]
+    DEF --> Q1["¿Existe mercado, cliente<br/>y problema real?"]
+    DEF --> Q2["¿Modelo, costos y aliados<br/>sostienen la proyección?"]
+    DEF --> Q3["¿Qué evidencia falta<br/>antes de invertir más?"]
+    PROY -. nueva evidencia .-> MKT
 ```
 
 ## ⚖️ Marco aplicable
@@ -67,8 +67,8 @@ flowchart TB
 | # | Global | Clase | Decisión que habilita |
 |---:|---:|---|---|
 | 01 | 323 | [Elegir tesis y línea de negocio](class-01-elegir-tesis-y-linea-de-negocio/README.md) | elegir la línea de negocio y declarar el alcance del caso |
-| 02 | 324 | [Validar problema, cliente y disposición a pagar](class-02-validar-problema-cliente-y-disposicion-a-pagar/README.md) | producir evidencia de problema, cliente y disposición a pagar para el caso |
-| 03 | 325 | [Diseñar modelo de negocio y estrategia](class-03-disenar-modelo-de-negocio-y-estrategia/README.md) | definir modelo de negocio y estrategia coherentes con la validación |
+| 02 | 324 | [Validar problema, cliente y disposición a pagar](class-02-validar-problema-cliente-y-disposicion-a-pagar/README.md) | producir evidencia de mercado, problema, cliente y disposición a pagar para el caso |
+| 03 | 325 | [Diseñar modelo de negocio y estrategia](class-03-disenar-modelo-de-negocio-y-estrategia/README.md) | definir modelo de negocio, estrategia y aliados coherentes con la validación |
 | 04 | 326 | [Elegir sociedad y diseñar pacto de fundadores](class-04-elegir-sociedad-y-disenar-pacto-de-fundadores/README.md) | elegir la forma societaria y redactar el pacto de fundadores del caso |
 | 05 | 327 | [Simular constitución y carpeta legal](class-05-simular-constitucion-y-carpeta-legal/README.md) | ejecutar la simulación de constitución y armar la carpeta legal del caso |
 | 06 | 328 | [Diseñar inicio SII, régimen y calendario tributario](class-06-disenar-inicio-sii-regimen-y-calendario-tributario/README.md) | diseñar el inicio SII, el régimen y el calendario tributario del caso |
@@ -144,7 +144,7 @@ flowchart TB
 
 ## 🔗 Cómo se conecta
 
-Integra las 22 partes anteriores sobre los casos de la parte 23. Es el único punto del programa donde la coherencia entre documentos se evalúa de forma explícita.
+Integra las 22 partes anteriores sobre los casos de la parte 23 mediante un único Expediente de viabilidad. Es el punto donde mercado, cliente, costos, modelo, aliados y proyección se evalúan juntos y donde una evidencia nueva debe propagarse a todas las secciones afectadas.
 
 ## 📖 Pauta bibliográfica
 

@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** sostener el caso completo ante preguntas adversariales<br>
-**Entregable:** carpeta empresarial completa del caso más presentación de defensa con trazabilidad de fuentes
+**Entregable:** Expediente de viabilidad completo, anexos coherentes y presentación de defensa con trazabilidad de fuentes
 
 ## 🎯 Propósito
 
-Sostener el caso completo ante preguntas adversariales, con trazabilidad de fuentes y declaración honesta de los supuestos no verificados.
+Defender un Expediente de viabilidad coherente que responda las preguntas de inversión con evidencia, fuentes y límites declarados.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Trazabilidad a fuente"]
     C --> A4["Límite reconocido"]
     A1 & A2 & A3 & A4 --> D{{"sostener el caso completo ante<br/>preguntas adversariales"}}
-    D --> E["Entregable<br/>carpeta empresarial completa<br/>del caso más presentación de<br/>defensa con trazabilidad de<br/>fuentes"]
+    D --> E["Entregable<br/>Expediente de viabilidad<br/>completo, anexos coherentes y<br/>presentación de defensa con<br/>trazabilidad de fuentes"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-La defensa final evalúa tres cosas: que los documentos sean coherentes entre sí, que cada afirmación regulatoria tenga fuente y fecha, y que el estudiante distinga con honestidad lo que verificó de lo que supuso. Reconocer un límite vale más que defender una afirmación sin respaldo.
+La defensa final usa el Expediente de viabilidad como índice de la carpeta completa. Debe responder con evidencia si existe mercado, cliente y problema real; si el modelo genera ingresos y la estructura de costos lo sostiene; qué aliados son críticos; cuánto capital se necesita; qué supuesto puede destruir el negocio y qué evidencia falta antes de invertir más. Cada afirmación conserva fuente y fecha, cada cifra su procedencia o fórmula, y cada interpretación se distingue del hecho que la origina.
 
 ### 2. Cómo se traduce en la práctica
 
-La defensa evalúa tres cosas: coherencia numérica entre documentos, fuente y fecha de cada afirmación regulatoria, y capacidad de distinguir lo verificado de lo supuesto. Reconocer un límite vale más que defender una afirmación sin respaldo, porque eso es lo que distingue a quien puede operar una empresa real.
+El comité comienza por nueve respuestas: mercado, cliente, problema, ingresos, sostenibilidad de costos, aliados, capital, supuesto destructivo y evidencia pendiente. Después sigue cada respuesta hasta el anexo y comprueba fuente, fecha, fórmula y versión. Reconocer un límite vale más que defender una afirmación sin respaldo; ocultar una contradicción entre secciones invalida el conjunto.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Carpeta empresarial completa del caso más presentación de defensa con trazabilidad de fuentes.
+Expediente de viabilidad completo, anexos coherentes y presentación de defensa con trazabilidad de fuentes.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] cada afirmación regulatoria tiene fuente y fecha de verificación
-- [ ] los supuestos no verificados están declarados explícitamente
+- [ ] el expediente responde las nueve preguntas de viabilidad con evidencia trazable
+- [ ] mercado, cliente, costos, modelo, aliados y proyección son numéricamente coherentes
+- [ ] los supuestos no verificados y la evidencia pendiente están declarados explícitamente
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +116,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Defender afirmaciones regulatorias sin poder citar la fuente.
-- Presentar documentos con cifras que no coinciden entre sí.
+- Defender afirmaciones regulatorias o cifras sin poder citar fuente, fecha o fórmula.
+- Presentar seis secciones correctas por separado pero incompatibles entre sí.
 
 **Característicos de la parte 24:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Coinciden las cifras de todos tus documentos entre sí?
-2. ¿Puedes citar la fuente y la fecha de cada afirmación regulatoria del caso?
-3. ¿Qué supuestos declaras como no verificados y qué haría falta para verificarlos?
+1. ¿Puedes responder las nueve preguntas de viabilidad y llegar desde cada respuesta hasta su evidencia?
+2. ¿Coinciden mercado, modelo, costos, aliados y proyección en cifras y supuestos?
+3. ¿Qué evidencia falta antes de invertir más y quién es responsable de obtenerla?
 
 ## 🔗 Fuentes oficiales
 

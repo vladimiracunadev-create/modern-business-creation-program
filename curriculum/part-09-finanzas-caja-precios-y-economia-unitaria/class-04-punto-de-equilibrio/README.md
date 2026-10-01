@@ -3,12 +3,12 @@
 > **Parte 09 · Finanzas, caja, precios y economía unitaria** — clase 4 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** conocer el volumen mínimo de ventas y el efecto de cada gasto fijo adicional<br>
-**Entregable:** cálculo de punto de equilibrio con simulación del efecto de tres decisiones de gasto fijo
+**Decisión que habilita:** conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio<br>
+**Entregable:** planilla base de costos y punto de equilibrio con ejemplo numérico, capacidad, utilización y sensibilidad a volumen y precio
 
 ## 🎯 Propósito
 
-Conocer el volumen mínimo de ventas y, sobre todo, cuánto sube esa exigencia con cada gasto fijo nuevo que se compromete.
+Construir una planilla base que conecte clasificación de costos, capacidad, utilización, contribución, equilibrio y sensibilidad.
 
 ## 📚 Resultados de aprendizaje
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —conocer el volumen mínimo de ventas y el efecto de cada gasto fijo adicional— y justificar la decisión por escrito.
+3. **Decidir** —conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -38,8 +38,8 @@ flowchart TB
     C --> A2["Costo fijo"]
     C --> A3["Costo variable"]
     C --> A4["Margen de contribución"]
-    A1 & A2 & A3 & A4 --> D{{"conocer el volumen mínimo de<br/>ventas y el efecto de cada<br/>gasto fijo adicional"}}
-    D --> E["Entregable<br/>cálculo de punto de equilibrio<br/>con simulación del efecto de<br/>tres decisiones de gasto fijo"]
+    A1 & A2 & A3 & A4 --> D{{"conocer el volumen mínimo de<br/>ventas y el efecto de costo,<br/>capacidad, volumen y precio"}}
+    D --> E["Entregable<br/>planilla base de costos y<br/>punto de equilibrio con<br/>ejemplo numérico, capacidad,<br/>utilización y sensibilidad a<br/>volumen y precio"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El punto de equilibrio se calcula dividiendo costos fijos por margen de contribución unitario. Su utilidad práctica es doble: dice cuánto hay que vender para no perder y, sobre todo, cuánto sube esa exigencia con cada gasto fijo nuevo que se compromete.
+El punto de equilibrio se calcula dividiendo costos fijos y semifijos del rango relevante por margen de contribución unitario. La planilla debe clasificar cada partida en fijo, variable o semifijo; directo o indirecto; y CAPEX u OPEX, sin sumar dos veces categorías que describen dimensiones distintas. El resultado conecta costo unitario, capacidad, utilización y sensibilidad a volumen y precio para mostrar cuándo un salto de capacidad cambia el equilibrio.
 
 ### 2. Cómo se traduce en la práctica
 
-Esa segunda lectura es la útil para decidir: contratar a alguien o arrendar un local no es un gasto mensual, es un desplazamiento permanente del punto de equilibrio. Clasificar como fijo un costo que en realidad varía con el volumen distorsiona el cálculo en la dirección optimista.
+Fijo, variable o semifijo describe comportamiento; directo o indirecto, trazabilidad; CAPEX u OPEX, naturaleza económica. Son dimensiones distintas y no se suman entre sí. El ejemplo numérico obliga a reconciliar precio, costo unitario, capacidad y utilización, y muestra cuándo un escalón semifijo cambia el punto de equilibrio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Cálculo de punto de equilibrio con simulación del efecto de tres decisiones de gasto fijo.
+Planilla base de costos y punto de equilibrio con ejemplo numérico, capacidad, utilización y sensibilidad a volumen y precio.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +105,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] la clasificación fijo/variable está justificada
-- [ ] se muestra el efecto de decisiones de gasto sobre el equilibrio
+- [ ] cada partida distingue fijo, variable o semifijo; directo o indirecto; y CAPEX u OPEX
+- [ ] el costo unitario, margen de contribución, capacidad, utilización y equilibrio son reproducibles
+- [ ] la sensibilidad muestra al menos un cambio de volumen y uno de precio
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +116,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Clasificar como fijo un costo que en realidad varía con el volumen.
-- Comprometer gasto fijo sin recalcular el punto de equilibrio.
+- Sumar dos veces un costo por confundir clasificación de comportamiento con trazabilidad o naturaleza.
+- Proyectar volumen por encima de la capacidad sin incorporar el salto de costo semifijo.
 
 **Característicos de la parte 09:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Cuánto sube tu punto de equilibrio con la próxima contratación que estás evaluando?
-2. ¿Qué costos clasificados como fijos varían en realidad con el volumen?
-3. ¿Cuántos meses seguidos has estado bajo el punto de equilibrio?
+1. ¿Cada costo tiene las tres clasificaciones sin quedar contado dos veces?
+2. ¿Qué ocurre con el equilibrio cuando cambia precio, volumen o capacidad?
+3. ¿Puedes reproducir costo unitario y margen desde los datos de la planilla?
 
 ## 🔗 Fuentes oficiales
 
@@ -148,21 +149,21 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para conocer el volumen mínimo de ventas y el efecto de cada gasto fijo adicional.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio.
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
 <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para conocer el volumen mínimo de ventas y el efecto de cada gasto fijo adicional.
+- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio.
 
 **Corporación de Fomento de la Producción — Innovación, inversión y garantías**  
 <https://www.corfo.cl/> · verificado 2026-09-01
 
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
-- *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para conocer el volumen mínimo de ventas y el efecto de cada gasto fijo adicional.
+- *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

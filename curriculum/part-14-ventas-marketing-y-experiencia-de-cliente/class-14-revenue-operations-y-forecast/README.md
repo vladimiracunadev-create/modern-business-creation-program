@@ -4,11 +4,11 @@
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
 **Decisión que habilita:** instalar un forecast con medición de error y definiciones comunes entre áreas<br>
-**Entregable:** proceso de forecast con definiciones comunes, cadencia y medición del error histórico
+**Entregable:** forecast de volumen, precio, ingreso y cobro con cadencia, error histórico y traducción a tres escenarios financieros
 
 ## 🎯 Propósito
 
-Medir el error histórico del forecast y unificar definiciones entre áreas, porque un forecast sin precisión conocida no sirve para planificar.
+Convertir pipeline en volumen, precio, ingreso y fecha de cobro para alimentar escenarios financieros con error conocido.
 
 ## 📚 Resultados de aprendizaje
 
@@ -39,7 +39,7 @@ flowchart TB
     C --> A3["Sesgo del forecast"]
     C --> A4["Definición común"]
     A1 & A2 & A3 & A4 --> D{{"instalar un forecast con<br/>medición de error y<br/>definiciones comunes entre<br/>áreas"}}
-    D --> E["Entregable<br/>proceso de forecast con<br/>definiciones comunes, cadencia<br/>y medición del error histórico"]
+    D --> E["Entregable<br/>forecast de volumen, precio,<br/>ingreso y cobro con cadencia,<br/>error histórico y traducción a<br/>tres escenarios financieros"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,11 +49,11 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El forecast sirve si se mide su error histórico y se corrige el sesgo. Un forecast que sobreestima 30% de forma consistente es útil una vez conocido el sesgo; uno sin historia de precisión no permite planificar caja ni contrataciones.
+El forecast sirve si se mide su error histórico y se corrige el sesgo. Debe proyectar volumen, precio, fecha probable de cierre y fecha de cobro, no solo un total de ingresos. Su escenario base alimenta la proyección financiera; el error histórico y la distribución del pipeline fijan los rangos conservador y expansivo, de modo que ventas, caja, capacidad y contratación usen la misma demanda.
 
 ### 2. Cómo se traduce en la práctica
 
-Un forecast que sobreestima 30 % de forma consistente es útil una vez conocido el sesgo; uno sin historia de precisión no permite planificar caja ni contrataciones. Y usar definiciones distintas de oportunidad calificada entre marketing y ventas garantiza que los números nunca cuadren.
+Un forecast que sobreestima 30 % de forma consistente es útil si el sesgo se conoce. Expresar cada oportunidad como volumen por precio y fecha probable de cobro permite que finanzas derive el escenario base y use el error histórico para los rangos conservador y expansivo. Así ventas, caja, capacidad y contratación planifican sobre la misma demanda.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -93,7 +93,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Proceso de forecast con definiciones comunes, cadencia y medición del error histórico.
+Forecast de volumen, precio, ingreso y cobro con cadencia, error histórico y traducción a tres escenarios financieros.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -106,7 +106,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## ✅ Criterio de aceptación
 
 - [ ] el error del forecast se mide y se reporta
-- [ ] las definiciones de etapa son comunes a todas las áreas
+- [ ] volumen por precio reconcilia con ingresos y calendario de cobro
+- [ ] los rangos conservador, base y expansivo alimentan la proyección financiera
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +117,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Proyectar ingresos sin medir el error de proyecciones anteriores.
-- Usar definiciones distintas de oportunidad calificada entre marketing y ventas.
+- Entregar a finanzas un total que no se puede reconciliar con volumen, precio y fecha de cobro.
 
 **Característicos de la parte 14:**
 
@@ -137,9 +138,9 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Cuál fue el error de tus últimos cuatro forecast y en qué dirección?
-2. ¿Marketing y ventas usan la misma definición de oportunidad calificada?
-3. ¿Qué decisiones de caja o contratación dependen de tu forecast?
+1. ¿Volumen por precio reconcilia con el ingreso previsto y su fecha de cobro?
+2. ¿Cuál fue el error de tus últimos cuatro forecast y en qué dirección?
+3. ¿Cómo se traducen ese error y el pipeline en tres escenarios financieros?
 
 ## 🔗 Fuentes oficiales
 

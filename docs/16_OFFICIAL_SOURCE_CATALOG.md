@@ -7,8 +7,8 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 <!-- catalogo:inicio -->
 | Fuente | Tema | Localizador | Estado | Resolvió | Citas |
 |---|---|---|---|---:|---:|
-| Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-09-01 | 0 |
-| Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-09-01 | 249 |
+| Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-09-01 | 2 |
+| Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-09-01 | 247 |
 | ChileAtiende · Autoridad Sanitaria Regional | Autorización sanitaria de alimentos | <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> | ⚠️ pendiente | 2026-08-19 | 24 |
 | ChileCompra | Compras públicas y ventas al Estado | <https://www.chilecompra.cl/> | ✅ verificada | 2026-09-01 | 1 |
 | Comisión para el Mercado Financiero | Alertas sobre entidades y plataformas de inversión no supervisadas | <https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html> | ✅ verificada | 2026-09-28 | 1 |
@@ -20,7 +20,7 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Departamento de Justicia de Estados Unidos | OneCoin: sentencia del cofundador Karl Sebastian Greenwood | <https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> | ✅ verificada | 2026-09-28 | 3 |
 | Departamento de Justicia de Estados Unidos | Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon | <https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> | ✅ verificada | 2026-09-28 | 5 |
 | Dirección del Trabajo | Relaciones laborales y obligaciones del empleador | <https://www.dt.gob.cl/> | ✅ verificada | 2026-09-01 | 44 |
-| Instituto Nacional de Estadísticas | Estadística oficial de población, empleo y actividad | <https://www.ine.gob.cl/> | ✅ verificada | 2026-09-01 | 0 |
+| Instituto Nacional de Estadísticas | Estadística oficial de población, empleo y actividad | <https://www.ine.gob.cl/> | ✅ verificada | 2026-09-01 | 2 |
 | Instituto Nacional de Propiedad Industrial | Marcas, patentes y diseños industriales | <https://www.inapi.cl/> | ✅ verificada | 2026-09-01 | 14 |
 | Ministerio Público de Chile | AC Inversions: reformalización y peritajes contables de la investigación | <https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo> | ✅ verificada | 2026-09-28 | 3 |
 | ProChile | Exportación de servicios | <https://www.prochile.gob.cl/exportadores/exportacion-de-servicios> | ⚠️ pendiente | 2026-08-07 | 6 |

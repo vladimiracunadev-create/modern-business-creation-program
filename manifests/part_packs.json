@@ -28,12 +28,12 @@
   {
     "part": 2,
     "titulo": "Descubrimiento, validación y mercado",
-    "resumen": "El objetivo es reducir la incertidumbre antes de gastar dinero irreversible. Se aprende a formular el problema, investigar con fuentes confiables, entrevistar sin inducir la respuesta, dimensionar mercado con supuestos auditables y diseñar experimentos baratos que produzcan evidencia de demanda real.",
+    "resumen": "El objetivo es reducir la incertidumbre antes de gastar dinero irreversible. Se aprende a formular el problema, investigar con fuentes confiables, entrevistar sin inducir la respuesta, dimensionar mercado con supuestos auditables y sintetizar mercado y cliente en un expediente que separa evidencia, hipótesis e interpretación.",
     "resultados": [
       "formular un problema empresarial en términos falsables",
-      "producir evidencia de demanda antes de comprometer capital",
-      "dimensionar TAM, SAM y SOM con supuestos rastreables a una fuente",
-      "decidir con criterio explícito entre perseverar, pivotar o abandonar"
+      "producir evidencia de demanda y un mapa de empatía sin atribuir al cliente hipótesis del equipo",
+      "dimensionar TAM, SAM y SOM y comparar competencia con fuente, fecha, método y limitaciones",
+      "emitir un informe ejecutivo y decidir con criterio explícito entre perseverar, pivotar o abandonar"
     ],
     "marco": [
       "método de descubrimiento de clientes y experimentación acotada",
@@ -54,12 +54,12 @@
   {
     "part": 3,
     "titulo": "Modelos de negocio y líneas de ingreso",
-    "resumen": "Un modelo de negocio describe cómo se captura parte del valor creado. Esta parte recorre los modelos realmente usados en Chile —servicios, suscripción, e-commerce, retail, marketplace, licencias, agencia, manufactura, franquicia, publicidad— con su economía, su carga operativa y su exposición regulatoria.",
+    "resumen": "Un modelo de negocio describe cómo se captura parte del valor creado. Esta parte recorre los modelos realmente usados en Chile y convierte Canvas y Lean Canvas en registros versionados donde cada bloque relevante conserva hipótesis, evidencia, fuente, confianza, riesgo y próximo experimento.",
     "resultados": [
-      "elegir un modelo de ingreso coherente con el problema, el cliente y la capacidad de la empresa",
+      "elegir y versionar un modelo de ingreso coherente con la evidencia del problema y del cliente",
       "estimar la economía unitaria implícita de cada modelo",
       "anticipar la carga operativa y regulatoria que trae cada modelo",
-      "diseñar un portafolio de líneas que no concentre todo el riesgo en un cliente o canal"
+      "actualizar el Canvas cuando la evidencia contradice un bloque y conservar la trazabilidad del cambio"
     ],
     "marco": [
       "Business Model Canvas y Lean Canvas como instrumentos de diseño",
@@ -212,12 +212,12 @@
   {
     "part": 9,
     "titulo": "Finanzas, caja, precios y economía unitaria",
-    "resumen": "Las empresas quiebran por caja, no por falta de utilidad contable. Esta parte instala el presupuesto de arranque, el flujo de 13 semanas, el capital de trabajo, el punto de equilibrio, los métodos de pricing, la economía unitaria por modelo y las reglas de reserva.",
+    "resumen": "Las empresas quiebran por caja, no por falta de utilidad contable. Esta parte instala presupuesto, estructura de costos, flujo de 13 semanas, capital de trabajo, punto de equilibrio, pricing, economía unitaria y escenarios financieros trazables.",
     "resultados": [
       "construir y mantener un flujo de caja de 13 semanas con supuestos explícitos",
-      "calcular punto de equilibrio, margen de contribución y economía unitaria del modelo",
+      "clasificar costos y calcular costo unitario, capacidad, utilización, punto de equilibrio y margen de contribución",
       "fijar precio con un método defendible y no por comparación con el vecino",
-      "definir reglas de caja mínima y umbrales de decisión antes de la urgencia"
+      "proyectar escenarios conservador, base y expansivo distinguiendo datos, supuestos y cálculos"
     ],
     "marco": [
       "economía unitaria: CAC, LTV, payback, MRR, ARR, churn y NRR",
@@ -508,11 +508,11 @@
   {
     "part": 20,
     "titulo": "Escalamiento, organización y gobierno avanzado",
-    "resumen": "Crecer rompe lo que funcionaba. Esta parte trata la transición de fundador a organización: diseño organizacional por etapas, delegación con accountability, presupuesto por centros de responsabilidad, hiring plan, estandarización previa al crecimiento, multi-sucursal, franquicia, alianzas, adquisiciones, consejo asesor y control de gestión.",
+    "resumen": "Crecer rompe lo que funcionaba. Esta parte trata la transición de fundador a organización e incorpora un mapa priorizado que distingue proveedores, canales, partners, socios estratégicos y joint ventures antes de comprometer una alianza.",
     "resultados": [
       "diseñar la estructura organizacional que corresponde a la etapa actual y no a la aspiracional",
       "delegar con decisión, límite y métrica en vez de delegar tareas",
-      "estandarizar los procesos críticos antes de replicarlos en una segunda unidad",
+      "priorizar aliados por aporte, dependencia, criticidad, sustitución, incentivos y riesgo",
       "controlar que el crecimiento no destruya la caja"
     ],
     "marco": [
@@ -613,12 +613,12 @@
   {
     "part": 24,
     "titulo": "Capstone: construir una empresa de comienzo a fin",
-    "resumen": "El capstone integra todo el programa en un solo caso continuo: una empresa elegida por el estudiante que se lleva desde la tesis hasta la defensa final ante un comité, pasando por validación, modelo, sociedad, constitución, SII, finanzas, contratos, permisos, personas, operación, financiamiento y crisis.",
+    "resumen": "El capstone integra todo el programa en un solo caso continuo y un Expediente de viabilidad: mercado, cliente, costos, modelo, aliados y proyección se construyen, versionan y defienden como un sistema coherente.",
     "resultados": [
-      "producir una carpeta empresarial completa y coherente entre sus partes",
+      "producir un Expediente de viabilidad y una carpeta empresarial completa y coherente entre sus partes",
       "sostener las decisiones tomadas frente a preguntas adversariales",
       "identificar de forma explícita los supuestos que requieren validación profesional",
-      "entregar un plan ejecutable con calendario de obligaciones y evidencia"
+      "responder con evidencia las preguntas de mercado, cliente, costos, modelo, aliados, capital y riesgo"
     ],
     "marco": [
       "integración de todas las partes anteriores del programa",
