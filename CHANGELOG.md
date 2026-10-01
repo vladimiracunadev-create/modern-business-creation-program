@@ -22,6 +22,8 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 - El README, las contribuciones y el manual generado muestran el nuevo alcance de forma expresa.
 - `pypdf` se actualiza a 6.19.0 para corregir las alertas vigentes detectadas por `pip-audit`
   en el workflow de seguridad.
+- El workflow mensual de fuentes conserva la rama y emite una advertencia, en vez de fallar,
+  cuando la configuración del repositorio impide que GitHub Actions cree el PR automático.
 
 ## [1.2.0] — 2026-08-13
 

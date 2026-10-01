@@ -67,10 +67,16 @@ jobs:
           git add -A ':!informe-fuentes.md'
           git commit -m "chore(fuentes): revalidación mensual del registro (${fecha})"
           git push --force origin "$rama"
-          gh pr create --base main --head "$rama" \
+          if gh pr create --base main --head "$rama" \
             --title "Revalidación mensual de fuentes (${fecha})" \
-            --body-file informe-fuentes.md || \
-          gh pr edit "$rama" --body-file informe-fuentes.md
+            --body-file informe-fuentes.md; then
+            exit 0
+          fi
+          if gh pr edit "$rama" --body-file informe-fuentes.md; then
+            exit 0
+          fi
+          echo "::warning::La configuración del repositorio impide que Actions cree el PR."
+          echo "La rama $rama conserva la revalidación para apertura manual."
 
       # Se abre issue solo cuando algo dejó de resolver. Una fuente caída no se
       # borra del registro: queda `pendiente` y alguien tiene que mirarla.
