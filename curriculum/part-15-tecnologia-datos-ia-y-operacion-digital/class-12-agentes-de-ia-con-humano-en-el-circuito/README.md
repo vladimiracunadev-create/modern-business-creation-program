@@ -3,8 +3,8 @@
 > **Parte 15 · Tecnología, datos, IA y operación digital** — clase 12 de 14
 
 **Estado de evidencia:** `DINAMICO` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir qué puede ejecutar un agente y qué requiere aprobación humana<br>
-**Entregable:** diseño de agente con alcance de acción, credenciales, puntos de aprobación y registro de trazas
+**Decisión que habilita:** definir qué puede ejecutar un agente, qué requiere aprobación humana y quién conserva la responsabilidad<br>
+**Entregable:** diseño de agente con alcance de acción, credenciales, puntos de aprobación, responsable final y registro de trazas
 
 ## 🎯 Propósito
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir qué puede ejecutar un agente y qué requiere aprobación humana— y justificar la decisión por escrito.
+3. **Decidir** —definir qué puede ejecutar un agente, qué requiere aprobación humana y quién conserva la responsabilidad— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -38,8 +38,8 @@ flowchart TB
     C --> A2["Humano en el circuito"]
     C --> A3["Trazabilidad"]
     C --> A4["Alcance de acción"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué puede ejecutar un<br/>agente y qué requiere<br/>aprobación humana"}}
-    D --> E["Entregable<br/>diseño de agente con alcance<br/>de acción, credenciales,<br/>puntos de aprobación y<br/>registro de trazas"]
+    A1 & A2 & A3 & A4 --> D{{"definir qué puede ejecutar un<br/>agente, qué requiere<br/>aprobación humana y quién<br/>conserva la responsabilidad"}}
+    D --> E["Entregable<br/>diseño de agente con alcance<br/>de acción, credenciales,<br/>puntos de aprobación,<br/>responsable final y registro<br/>de trazas"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,7 +49,7 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Un agente que actúa sobre sistemas reales debe tener alcance limitado, credenciales propias con menor privilegio y aprobación humana para acciones irreversibles: pagos, envíos, publicaciones y borrados. La trazabilidad es lo que permite auditar y corregir cuando algo sale mal.
+Un agente que actúa sobre sistemas reales debe tener alcance limitado, credenciales propias con menor privilegio y aprobación humana para acciones irreversibles: pagos, envíos, publicaciones y borrados. En actividades reguladas, la revisión debe ubicarse antes del claim, de la decisión clínica, de la dispensación o de la comunicación al cliente; automatizar no cambia quién responde por el resultado. La trazabilidad es lo que permite auditar y corregir cuando algo sale mal.
 
 ### 2. Cómo se traduce en la práctica
 
@@ -64,6 +64,16 @@ Un agente con credenciales amplias por comodidad es un riesgo operativo que no s
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+## 🔬 Caso aplicado: MEDVi
+
+[MEDVi: empresa AI-native, red externa y control al crecer](../../../case-studies/21-medvi-empresa-ai-native-y-control.md#7-founder-bottleneck-y-matrices-de-tension)
+
+**Lente para esta clase:** evaluar la tensión automatización × supervisión y responder quién conserva la responsabilidad cuando la ejecución se automatiza o externaliza.
+
+El expediente separa hechos verificados, cifras reportadas, alegaciones periodísticas,
+actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
+categoría como prueba automática de otra.
 
 ## 🧪 Taller guiado
 
@@ -93,7 +103,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Diseño de agente con alcance de acción, credenciales, puntos de aprobación y registro de trazas.
+Diseño de agente con alcance de acción, credenciales, puntos de aprobación, responsable final y registro de trazas.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +115,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] las acciones irreversibles requieren aprobación humana
-- [ ] existe registro completo de trazas de ejecución
+- [ ] las acciones reguladas e irreversibles requieren aprobación humana identificada
+- [ ] existe registro completo de trazas, excepciones, correcciones y responsable final
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +125,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Dar al agente credenciales amplias por comodidad.
-- Permitir acciones irreversibles sin aprobación humana.
+- Medir productividad de la automatización sin medir errores, reclamos, excepciones y cumplimiento.
+- Permitir acciones reguladas o irreversibles sin aprobación humana competente.
 
 **Característicos de la parte 15:**
 
@@ -148,14 +158,28 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir qué puede ejecutar un agente y qué requiere aprobación humana.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir qué puede ejecutar un agente, qué requiere aprobación humana y quién conserva la responsabilidad.
 
-**Corporación de Fomento de la Producción — Innovación, inversión y garantías**  
-<https://www.corfo.cl/> · verificado 2026-09-01
+**The New York Times · republicado por GV Wire — A $1.8 Billion Company With Two Employees? AI Made It Possible**  
+<https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/> · verificado 2026-10-04
 
-- *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
-- *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
-- *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir qué puede ejecutar un agente y qué requiere aprobación humana.
+- *Qué contiene:* Perfil empresarial que declara acceso del New York Times a estados financieros y contrapartes, y documenta capital inicial, tiempo de construcción, ventas, margen, herramientas de IA, contratistas y proveedores externos.
+- *Cómo leerla:* Distingue cifras verificadas por el medio, afirmaciones del fundador y proyecciones. La meta de US$1.800 millones es una proyección de ventas, no valoración; dos empleados no significa dos ejecutores de toda la cadena.
+- *Uso en esta clase:* aporta el marco de «A $1.8 Billion Company With Two Employees? AI Made It Possible» para definir qué puede ejecutar un agente, qué requiere aprobación humana y quién conserva la responsabilidad.
+
+**U.S. Food and Drug Administration — MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455**  
+<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-10-04
+
+- *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
+- *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
+- *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para definir qué puede ejecutar un agente, qué requiere aprobación humana y quién conserva la responsabilidad.
+
+**U.S. Food and Drug Administration — FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss**  
+<https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss> · verificado 2026-10-04
+
+- *Qué contiene:* Describe riesgos y señales de alerta de versiones no aprobadas de GLP-1, incluidos claims de equivalencia, dosificación, almacenamiento, formas salinas, productos fraudulentos y reportes de eventos adversos.
+- *Cómo leerla:* Separa riesgos generales del mercado de una imputación a una empresa concreta. Usa la carta específica de MEDVi para atribuciones del caso y esta página para el contexto farmacéutico y de telehealth.
+- *Uso en esta clase:* aporta el marco de «FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss» para definir qué puede ejecutar un agente, qué requiere aprobación humana y quién conserva la responsabilidad.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

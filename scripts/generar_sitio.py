@@ -32,7 +32,7 @@ REPO = "https://github.com/vladimiracunadev-create/modern-business-creation-prog
 # Directorios cuyo Markdown se publica, en el orden en que aparecen en el menú.
 SECCIONES = [
     ("docs", "Manuales transversales"),
-    ("case-studies", "Casos de líneas de negocio"),
+    ("case-studies", "Casos empresariales y sectoriales"),
     ("templates", "Plantillas"),
     ("curriculum", "Currículo"),
 ]

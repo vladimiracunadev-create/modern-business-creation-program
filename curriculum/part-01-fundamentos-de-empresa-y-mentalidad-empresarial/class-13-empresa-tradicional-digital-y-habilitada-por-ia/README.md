@@ -3,8 +3,8 @@
 > **Parte 01 · Fundamentos de empresa y mentalidad empresarial** — clase 13 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** determinar qué procesos conviene digitalizar y cuáles admiten asistencia de modelos<br>
-**Entregable:** inventario de procesos con nivel actual y nivel objetivo de digitalización
+**Decisión que habilita:** determinar qué procesos conviene digitalizar, cuáles admiten IA y qué capacidades externas siguen siendo indispensables<br>
+**Entregable:** inventario de procesos con nivel de digitalización, uso de IA, proveedor externo, control humano y responsable final
 
 ## 🎯 Propósito
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —determinar qué procesos conviene digitalizar y cuáles admiten asistencia de modelos— y justificar la decisión por escrito.
+3. **Decidir** —determinar qué procesos conviene digitalizar, cuáles admiten IA y qué capacidades externas siguen siendo indispensables— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -24,10 +24,10 @@ Al finalizar esta clase podrás:
 
 | Concepto | Comprensión verificable |
 |---|---|
-| **Empresa tradicional** | Opera con procesos manuales y sistemas desconectados. |
-| **Empresa digital** | Opera con procesos integrados sobre software y datos. |
-| **Empresa habilitada por IA** | Incorpora modelos en el flujo de trabajo con revisión humana. |
-| **Humano en el circuito** | Control que revisa la salida del modelo antes de que produzca efecto. |
+| **Empresa tradicional** | Opera principalmente mediante personas, procesos manuales y sistemas desconectados. |
+| **Empresa digital** | Integra procesos, software y datos sin rediseñar necesariamente la organización alrededor de modelos. |
+| **Empresa AI-native** | Diseña desde el origen procesos, roles y economía para que la ia ejecute una parte central del trabajo bajo controles definidos. |
+| **Modelo MEDVi** | Combina una estructura interna mínima con ia, contratistas, proveedores clínicos, farmacias, agencias y plataformas externas. |
 
 ## 🗺️ Flujo de razonamiento
 
@@ -36,10 +36,10 @@ flowchart TB
     C["Contexto del caso<br/>actividad · escala · comuna"]
     C --> A1["Empresa tradicional"]
     C --> A2["Empresa digital"]
-    C --> A3["Empresa habilitada por IA"]
-    C --> A4["Humano en el circuito"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué procesos<br/>conviene digitalizar y cuáles<br/>admiten asistencia de modelos"}}
-    D --> E["Entregable<br/>inventario de procesos con<br/>nivel actual y nivel objetivo<br/>de digitalización"]
+    C --> A3["Empresa AI-native"]
+    C --> A4["Modelo MEDVi"]
+    A1 & A2 & A3 & A4 --> D{{"determinar qué procesos<br/>conviene digitalizar, cuáles<br/>admiten IA y qué capacidades<br/>externas siguen siendo<br/>indispensables"}}
+    D --> E["Entregable<br/>inventario de procesos con<br/>nivel de digitalización, uso<br/>de IA, proveedor externo,<br/>control humano y responsable<br/>final"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,7 +49,7 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Incorporar IA sin haber digitalizado el proceso produce automatización de un caos. El orden razonable es proceso, datos, digitalización y luego modelo. Además, cada uso de IA sobre datos de clientes activa obligaciones de la normativa de datos personales que hay que resolver antes y no después.
+La diferencia no está en comprar una herramienta. Una empresa tradicional coordina personas y documentos; una digital integra software y datos; una empresa habilitada por IA añade modelos a procesos existentes; y una AI-native diseña desde el inicio su operación, costos y decisiones alrededor de automatización. MEDVi lleva esa lógica al extremo, pero su escala depende también de una infraestructura empresarial externa extensa: la IA no prescribió, compuso ni despachó medicamentos.
 
 ### 2. Cómo se traduce en la práctica
 
@@ -64,6 +64,16 @@ Antes de conectar un modelo a un proceso hay que resolver una pregunta legal que
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+## 🔬 Caso aplicado: MEDVi
+
+[MEDVi: empresa AI-native, red externa y control al crecer](../../../case-studies/21-medvi-empresa-ai-native-y-control.md#2-empresa-tradicional-vs-digital-vs-ai-native-vs-medvi)
+
+**Lente para esta clase:** comparar estructura, costos, velocidad, automatización, dependencias, control, riesgo y responsabilidad sin reducir el caso a «dos personas hicieron todo».
+
+El expediente separa hechos verificados, cifras reportadas, alegaciones periodísticas,
+actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
+categoría como prueba automática de otra.
 
 ## 🧪 Taller guiado
 
@@ -93,7 +103,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Inventario de procesos con nivel actual y nivel objetivo de digitalización.
+Inventario de procesos con nivel de digitalización, uso de ia, proveedor externo, control humano y responsable final.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +115,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] cada proceso tiene nivel actual y objetivo declarados
-- [ ] los usos de IA con datos personales están identificados
+- [ ] cada proceso distingue ejecución interna, automatizada y externalizada
+- [ ] cada uso de IA declara supervisión, dependencia y responsable final
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +125,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Automatizar un proceso que primero debía rediseñarse.
-- Usar herramientas de ia con datos de clientes sin base contractual ni de licitud.
+- Confundir pocos empleados internos con ausencia de personas, proveedores o infraestructura externa.
+- Atribuir a la ia tareas clínicas, farmacéuticas o logísticas ejecutadas por terceros.
 
 **Característicos de la parte 01:**
 
@@ -148,21 +158,28 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar qué procesos conviene digitalizar y cuáles admiten asistencia de modelos.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar qué procesos conviene digitalizar, cuáles admiten IA y qué capacidades externas siguen siendo indispensables.
 
-**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
+**The New York Times · republicado por GV Wire — A $1.8 Billion Company With Two Employees? AI Made It Possible**  
+<https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/> · verificado 2026-10-04
 
-- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
-- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para determinar qué procesos conviene digitalizar y cuáles admiten asistencia de modelos.
+- *Qué contiene:* Perfil empresarial que declara acceso del New York Times a estados financieros y contrapartes, y documenta capital inicial, tiempo de construcción, ventas, margen, herramientas de IA, contratistas y proveedores externos.
+- *Cómo leerla:* Distingue cifras verificadas por el medio, afirmaciones del fundador y proyecciones. La meta de US$1.800 millones es una proyección de ventas, no valoración; dos empleados no significa dos ejecutores de toda la cadena.
+- *Uso en esta clase:* aporta el marco de «A $1.8 Billion Company With Two Employees? AI Made It Possible» para determinar qué procesos conviene digitalizar, cuáles admiten IA y qué capacidades externas siguen siendo indispensables.
 
-**Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas**  
-<https://www.sercotec.cl/> · verificado 2026-08-19
+**U.S. Food and Drug Administration — MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455**  
+<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-10-04
 
-- *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
-- *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
-- *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para determinar qué procesos conviene digitalizar y cuáles admiten asistencia de modelos.
+- *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
+- *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
+- *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para determinar qué procesos conviene digitalizar, cuáles admiten IA y qué capacidades externas siguen siendo indispensables.
+
+**MEDVi · versión corporativa — MEDVi statement in response to external speculation**  
+<https://home.medvi.org/communication> · verificado 2026-10-04
+
+- *Qué contiene:* Declaración corporativa del 8 de abril de 2026 sobre la carta FDA, un supuesto sitio de afiliado, publicidad con posibles médicos generados por IA, correcciones y estructura de proveedores clínicos y farmacias.
+- *Cómo leerla:* Trátala como la versión de MEDVi, no como verificación independiente. Contrasta cada afirmación con el destinatario y contenido de la carta FDA, archivos del sitio, contratos, responsables y evidencia de las medidas correctivas.
+- *Uso en esta clase:* aporta el marco de «MEDVi statement in response to external speculation» para determinar qué procesos conviene digitalizar, cuáles admiten IA y qué capacidades externas siguen siendo indispensables.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

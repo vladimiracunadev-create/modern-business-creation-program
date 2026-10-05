@@ -8,20 +8,22 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Fuente | Tema | Localizador | Estado | Resolvió | Citas |
 |---|---|---|---|---:|---:|
 | Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-09-01 | 2 |
-| Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-09-01 | 247 |
+| Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-09-01 | 248 |
 | ChileAtiende · Autoridad Sanitaria Regional | Autorización sanitaria de alimentos | <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> | ⚠️ pendiente | 2026-08-19 | 24 |
 | ChileCompra | Compras públicas y ventas al Estado | <https://www.chilecompra.cl/> | ✅ verificada | 2026-09-01 | 1 |
 | Comisión para el Mercado Financiero | Alertas sobre entidades y plataformas de inversión no supervisadas | <https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html> | ✅ verificada | 2026-09-28 | 1 |
 | Comisión para el Mercado Financiero | Registro de Prestadores de Servicios Financieros · Ley 21.521 | <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html> | ✅ verificada | 2026-09-01 | 15 |
 | Comisión para el Mercado Financiero | Sistema de Finanzas Abiertas | <https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html> | ✅ verificada | 2026-09-01 | 1 |
-| Corporación de Fomento de la Producción | Innovación, inversión y garantías | <https://www.corfo.cl/> | ✅ verificada | 2026-09-01 | 52 |
+| Corporación de Fomento de la Producción | Innovación, inversión y garantías | <https://www.corfo.cl/> | ✅ verificada | 2026-09-01 | 51 |
 | Departamento de Justicia de Estados Unidos | Celsius: declaración de culpabilidad y sentencia del fundador | <https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation> | ✅ verificada | 2026-09-28 | 5 |
 | Departamento de Justicia de Estados Unidos | FTX y Alameda: condena y sentencia de Samuel Bankman-Fried | <https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes> | ✅ verificada | 2026-09-28 | 7 |
 | Departamento de Justicia de Estados Unidos | OneCoin: sentencia del cofundador Karl Sebastian Greenwood | <https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> | ✅ verificada | 2026-09-28 | 3 |
 | Departamento de Justicia de Estados Unidos | Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon | <https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> | ✅ verificada | 2026-09-28 | 5 |
-| Dirección del Trabajo | Relaciones laborales y obligaciones del empleador | <https://www.dt.gob.cl/> | ✅ verificada | 2026-09-01 | 44 |
+| Dirección del Trabajo | Relaciones laborales y obligaciones del empleador | <https://www.dt.gob.cl/> | ✅ verificada | 2026-09-01 | 43 |
+| Futurism · investigación periodística | Look Out for AI-Generated Ozempic! | <https://futurism.com/medvi-ai-ozempic> | ✅ verificada | 2026-10-04 | 3 |
 | Instituto Nacional de Estadísticas | Estadística oficial de población, empleo y actividad | <https://www.ine.gob.cl/> | ✅ verificada | 2026-09-01 | 2 |
 | Instituto Nacional de Propiedad Industrial | Marcas, patentes y diseños industriales | <https://www.inapi.cl/> | ✅ verificada | 2026-09-01 | 14 |
+| MEDVi · versión corporativa | MEDVi statement in response to external speculation | <https://home.medvi.org/communication> | ✅ verificada | 2026-10-04 | 6 |
 | Ministerio Público de Chile | AC Inversions: reformalización y peritajes contables de la investigación | <https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo> | ✅ verificada | 2026-09-28 | 3 |
 | ProChile | Exportación de servicios | <https://www.prochile.gob.cl/exportadores/exportacion-de-servicios> | ⚠️ pendiente | 2026-08-07 | 6 |
 | ProChile | Programas, estudios de mercado y promoción | <https://www.prochile.gob.cl/> | ✅ verificada | 2026-09-01 | 15 |
@@ -30,11 +32,11 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Servicio Nacional de Capacitación y Empleo | OTEC, franquicia tributaria y cursos | <https://sence.gob.cl/> | ✅ verificada | 2026-09-01 | 6 |
 | Servicio Nacional de Turismo | Registro de prestadores de servicios turísticos | <https://www.sernatur.cl/> | ✅ verificada | 2026-09-01 | 6 |
 | Servicio Nacional del Consumidor | Ley 19.496, comercio electrónico y garantía legal | <https://www.sernac.cl/> | ✅ verificada | 2026-09-01 | 62 |
-| Servicio de Cooperación Técnica | Fomento para micro y pequeñas empresas | <https://www.sercotec.cl/> | ⚠️ pendiente | 2026-08-19 | 32 |
+| Servicio de Cooperación Técnica | Fomento para micro y pequeñas empresas | <https://www.sercotec.cl/> | ⚠️ pendiente | 2026-08-19 | 31 |
 | Servicio de Evaluación Ambiental | Sistema de Evaluación de Impacto Ambiental | <https://www.sea.gob.cl/> | ✅ verificada | 2026-09-01 | 4 |
-| Servicio de Impuestos Internos | Carpeta Tributaria Electrónica | <https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> | ✅ verificada | 2026-09-01 | 25 |
+| Servicio de Impuestos Internos | Carpeta Tributaria Electrónica | <https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> | ✅ verificada | 2026-09-01 | 24 |
 | Servicio de Impuestos Internos | Formulario 22 y Operación Renta | <https://www.sii.cl/ayudas/formularios/3094-form22-3097.html> | ✅ verificada | 2026-09-01 | 2 |
-| Servicio de Impuestos Internos | Nuevos contribuyentes, inicio de actividades y DTE | <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> | ✅ verificada | 2026-09-01 | 103 |
+| Servicio de Impuestos Internos | Nuevos contribuyentes, inicio de actividades y DTE | <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> | ✅ verificada | 2026-09-01 | 100 |
 | Servicio de Impuestos Internos | Registro de Compras y Ventas | <https://www.sii.cl/destacados/f29/registrocompraventas.htm> | ✅ verificada | 2026-09-01 | 5 |
 | Servicio de Impuestos Internos | Regímenes tributarios · Operación Renta 2026 | <https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> | ✅ verificada | 2026-09-01 | 14 |
 | Sistema Integrado de Comercio Exterior | Ventanilla única de comercio exterior | <https://www.sicexchile.cl/> | ⚠️ pendiente | 2026-08-19 | 4 |
@@ -44,6 +46,11 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Superintendencia de Insolvencia y Reemprendimiento | Ley 20.720 · reorganización y liquidación | <https://www.superir.gob.cl/> | ✅ verificada | 2026-09-01 | 0 |
 | Superintendencia de Seguridad Social | Seguridad y salud en el trabajo · Ley 16.744 | <https://www.suseso.cl/> | ✅ verificada | 2026-09-01 | 0 |
 | Superintendencia del Medio Ambiente | Fiscalización y sanción ambiental | <https://portal.sma.gob.cl/> | ✅ verificada | 2026-09-01 | 2 |
+| The New York Times · republicado por GV Wire | A $1.8 Billion Company With Two Employees? AI Made It Possible | <https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/> | ✅ verificada | 2026-10-04 | 6 |
+| U.S. Food and Drug Administration | Compounding and the FDA: Questions and Answers | <https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers> | ✅ verificada | 2026-10-04 | 2 |
+| U.S. Food and Drug Administration | Counterfeit Medicine | <https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine> | ✅ verificada | 2026-10-04 | 2 |
+| U.S. Food and Drug Administration | FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss | <https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss> | ✅ verificada | 2026-10-04 | 2 |
+| U.S. Food and Drug Administration | MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455 | <https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> | ✅ verificada | 2026-10-04 | 9 |
 | U.S. Securities and Exchange Commission | Reformas posteriores a Madoff sobre custodia y verificación independiente | <https://www.sec.gov/spotlight/secpostmadoffreforms.htm> | ✅ verificada | 2026-09-28 | 6 |
 | Unidad de Análisis Financiero | Sujetos obligados · Ley 19.913 | <https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar> | ✅ verificada | 2026-09-01 | 7 |
 

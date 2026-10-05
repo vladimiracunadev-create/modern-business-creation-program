@@ -64,17 +64,17 @@ responsable y qué evidencia debe quedar**.
 |---|---|
 | Currículo | ✅ 336/336 clases generadas desde manifiesto |
 | Contenido por clase | ✅ propósito, conceptos, desarrollo en tres bloques, taller, reto, errores y preguntas propias |
-| Profundidad | ✅ 1.143–2.551 palabras por clase (mediana 1.294), 441.788 palabras totales |
+| Profundidad | ✅ 1.143–2.590 palabras por clase (mediana 1.294), 445.725 palabras totales |
 | Diagramas | ✅ 360 diagramas mermaid: uno por clase y uno por parte |
 | Conceptos definidos | ✅ 1.344 definiciones operacionales · glosario maestro de 1.251 términos |
 | Preguntas de comprobación | ✅ 1.008 (3 por clase) |
 | Marco normativo | ✅ 24 paquetes de parte con narrativa, normas, autoridades, riesgos y bibliografía |
 | Manuales transversales | ✅ 20 documentos en `docs/` |
-| Casos sectoriales | ✅ 20 líneas de negocio 2026 |
+| Casos empresariales y sectoriales | ✅ 20 líneas de negocio + caso transversal MEDVi |
 | Plantillas operativas | ✅ 24 artefactos editables, incluido el expediente progresivo de viabilidad |
-| Fuentes oficiales | ✅ registro con localizador, uso y fecha por fuente — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
-| Manual en PDF | ✅ 1.560 páginas + 24 PDF por parte |
-| Sitio HTML | ✅ 427 páginas con buscador, diagramas y tema claro/oscuro |
+| Fuentes registradas | ✅ fuente primaria, corporativa o periodística identificada con localizador, uso y fecha — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
+| Manual en PDF | ✅ 1.569 páginas + 24 PDF por parte |
+| Sitio HTML | ✅ 428 páginas de contenido con buscador, diagramas y tema claro/oscuro |
 | CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
 | Licencias | ✅ MIT para código · CC BY-NC-SA 4.0 para contenido original |
 
@@ -90,32 +90,35 @@ Toda afirmación del programa se apoya en una entrada del registro
 localizador, el organismo que responde por ella y la fecha en que se comprobó. Por eso **cada clase
 muestra la fecha de su propia fuente** y no una fecha global del programa.
 
-Estas son las **37 fuentes citadas** por las 336 clases y las 24 partes,
+Estas son las **44 fuentes citadas** por las 336 clases y las 24 partes,
 ordenadas por peso en el material. Las primeras son las que gobiernan el programa: la normativa
 consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor parte de las citas.
 
 | Fuente | Organismo | Citas | Estado | Resolvió |
 |---|---|---:|:---:|---|
-| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 247 | ✅ | 2026-09-01 |
-| [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 103 | ✅ | 2026-09-01 |
+| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 248 | ✅ | 2026-09-01 |
+| [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 100 | ✅ | 2026-09-01 |
 | [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 62 | ✅ | 2026-09-01 |
-| [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 52 | ✅ | 2026-09-01 |
-| [Relaciones laborales y obligaciones del empleador](https://www.dt.gob.cl/) | Dirección del Trabajo | 44 | ✅ | 2026-09-01 |
+| [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 51 | ✅ | 2026-09-01 |
+| [Relaciones laborales y obligaciones del empleador](https://www.dt.gob.cl/) | Dirección del Trabajo | 43 | ✅ | 2026-09-01 |
 | [Constitución de empresas](https://www.chileatiende.gob.cl/fichas/21409-tu-empresa) | Registro de Empresas y Sociedades / ChileAtiende | 32 | ⚠️ | 2026-08-19 |
-| [Fomento para micro y pequeñas empresas](https://www.sercotec.cl/) | Servicio de Cooperación Técnica | 32 | ⚠️ | 2026-08-19 |
-| [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 25 | ✅ | 2026-09-01 |
+| [Fomento para micro y pequeñas empresas](https://www.sercotec.cl/) | Servicio de Cooperación Técnica | 31 | ⚠️ | 2026-08-19 |
 | [Autorización sanitaria de alimentos](https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos) | ChileAtiende · Autoridad Sanitaria Regional | 24 | ⚠️ | 2026-08-19 |
+| [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 24 | ✅ | 2026-09-01 |
 | [Registro de Prestadores de Servicios Financieros · Ley 21.521](https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html) | Comisión para el Mercado Financiero | 15 | ✅ | 2026-09-01 |
 | [Programas, estudios de mercado y promoción](https://www.prochile.gob.cl/) | ProChile | 15 | ✅ | 2026-09-01 |
 | [Marcas, patentes y diseños industriales](https://www.inapi.cl/) | Instituto Nacional de Propiedad Industrial | 14 | ✅ | 2026-09-01 |
 | [Regímenes tributarios · Operación Renta 2026](https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/) | Servicio de Impuestos Internos | 14 | ✅ | 2026-09-01 |
 | [Importación, exportación y clasificación arancelaria](https://www.aduana.cl/) | Servicio Nacional de Aduanas | 9 | ⚠️ | 2026-08-19 |
+| [MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026) | U.S. Food and Drug Administration | 9 | ✅ | 2026-10-04 |
 | [FTX y Alameda: condena y sentencia de Samuel Bankman-Fried](https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes) | Departamento de Justicia de Estados Unidos | 7 | ✅ | 2026-09-28 |
 | [Sujetos obligados · Ley 19.913](https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar) | Unidad de Análisis Financiero | 7 | ✅ | 2026-09-01 |
+| [MEDVi statement in response to external speculation](https://home.medvi.org/communication) | MEDVi · versión corporativa | 6 | ✅ | 2026-10-04 |
 | [Exportación de servicios](https://www.prochile.gob.cl/exportadores/exportacion-de-servicios) | ProChile | 6 | ⚠️ | 2026-08-07 |
 | [OTEC, franquicia tributaria y cursos](https://sence.gob.cl/) | Servicio Nacional de Capacitación y Empleo | 6 | ✅ | 2026-09-01 |
 | [Registro de prestadores de servicios turísticos](https://www.sernatur.cl/) | Servicio Nacional de Turismo | 6 | ✅ | 2026-09-01 |
 | [Instalaciones eléctricas y de gas](https://www.sec.cl/) | Superintendencia de Electricidad y Combustibles | 6 | ✅ | 2026-09-01 |
+| [A $1.8 Billion Company With Two Employees? AI Made It Possible](https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/) | The New York Times · republicado por GV Wire | 6 | ✅ | 2026-10-04 |
 | [Reformas posteriores a Madoff sobre custodia y verificación independiente](https://www.sec.gov/spotlight/secpostmadoffreforms.htm) | U.S. Securities and Exchange Commission | 6 | ✅ | 2026-09-28 |
 | [Celsius: declaración de culpabilidad y sentencia del fundador](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-09-28 |
 | [Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon](https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-09-28 |
@@ -125,11 +128,15 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 | [Aceleración de startups](https://startupchile.org/) | Start-Up Chile · CORFO | 4 | ✅ | 2026-09-01 |
 | [Concesiones y permisos de telecomunicaciones](https://www.subtel.gob.cl/) | Subsecretaría de Telecomunicaciones | 4 | ✅ | 2026-09-01 |
 | [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-09-28 |
+| [Look Out for AI-Generated Ozempic!](https://futurism.com/medvi-ai-ozempic) | Futurism · investigación periodística | 3 | ✅ | 2026-10-04 |
 | [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-09-28 |
 | [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-09-01 |
 | [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-09-01 |
 | [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-09-01 |
 | [Fiscalización y sanción ambiental](https://portal.sma.gob.cl/) | Superintendencia del Medio Ambiente | 2 | ✅ | 2026-09-01 |
+| [Compounding and the FDA: Questions and Answers](https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers) | U.S. Food and Drug Administration | 2 | ✅ | 2026-10-04 |
+| [Counterfeit Medicine](https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine) | U.S. Food and Drug Administration | 2 | ✅ | 2026-10-04 |
+| [FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss) | U.S. Food and Drug Administration | 2 | ✅ | 2026-10-04 |
 | [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-09-01 |
 | [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-09-28 |
 | [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-09-01 |
@@ -151,7 +158,7 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 
 El registro guarda además **2 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
 
-Última revalidación: **2026-09-01** · 31/37 fuentes citadas resolvieron ·
+Última revalidación: **2026-09-01** · 38/44 fuentes citadas resolvieron ·
 336/336 bloques de fuentes distintos, uno por clase.
 
 La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al
@@ -255,13 +262,25 @@ Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla ti
 
 <!-- partes:fin -->
 
+## 🔬 Caso transversal MEDVi
+
+[MEDVi: empresa AI-native, red externa y control al crecer](case-studies/21-medvi-empresa-ai-native-y-control.md)
+conecta nueve clases existentes sin alterar las 24 partes ni la numeración de las 336 clases. El
+expediente estudia velocidad, IA, outsourcing, proveedores, crecimiento y productividad junto con
+regulación, claims, supervisión humana, responsabilidad, crisis y reputación.
+
+El caso separa expresamente **hechos verificados, cifras reportadas, alegaciones, actuaciones
+regulatorias, respuesta de MEDVi, interpretación y lección empresarial**. Incluye precisión sobre
+medicamentos FDA-approved, genéricos aprobados, compounded y falsificados; una matriz de *founder
+bottleneck*; y una due diligence progresiva para una inversión hipotética de US$5 millones.
+
 ## 📕 Descargas
 
 | Formato | Contenido | Enlace |
 |---|---|---|
-| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.560 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.569 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
 | PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
-| Sitio HTML | 427 páginas con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
+| Sitio HTML | 428 páginas de contenido con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
 
 Los PDF se compilan desde el mismo Markdown que publica el sitio, así que nunca divergen del
 contenido del repositorio. Se regeneran en cada publicación con
@@ -279,6 +298,7 @@ Cada clase es una carpeta con un `README.md` autocontenido que siempre incluye, 
 ├── 🧩 Conceptos         ← 4 definiciones operacionales propias de la clase
 ├── 🗺️ Diagrama          ← flujo de razonamiento mermaid, construido con sus conceptos
 ├── 📖 Desarrollo        ← el fondo · cómo se traduce en la práctica · marco y actores
+├── 🔬 Caso aplicado     ← enlace contextual cuando una clase usa un expediente transversal
 ├── 🧪 Taller guiado     ← 7 líneas de negocio con su carga regulatoria + secuencia
 │   └── 📦 Entregable    ← artefacto concreto y revisable
 ├── 🏆 Reto verificable
@@ -321,9 +341,9 @@ Detalle en [`docs/00_MASTER_FLOW.md`](docs/00_MASTER_FLOW.md).
 | Carpeta | Contenido |
 |---|---|
 | [`docs/`](docs/) | 20 manuales: flujo maestro, tipos societarios, ciclo SII, matriz legal, permisos, laboral, consumidor y datos, financiamiento, fintech, comercio exterior, compliance, crisis, glosario y watchlist 2026 |
-| [`case-studies/`](case-studies/) | 20 líneas de negocio reales 2026 con su mapa regulatorio |
+| [`case-studies/`](case-studies/) | 20 líneas de negocio 2026 + caso empresarial transversal MEDVi con expediente de evidencia |
 | [`templates/`](templates/) | 24 artefactos operativos editables: canvas, flujo de caja de 13 semanas, cap table, checklist de constitución, matriz de permisos, registro de riesgos, mapa de datos, data room |
-| [`docs/19_GLOSSARY.md`](docs/19_GLOSSARY.md) | Glosario maestro: 1.251 términos con definición operacional y enlace a la clase donde se introduce |
+| [`docs/19_GLOSSARY.md`](docs/19_GLOSSARY.md) | Glosario maestro: 1.250 términos con definición operacional y enlace a la clase donde se introduce |
 | [`manifests/`](manifests/) | Fuentes de verdad: currículo, contenido y pedagogía por clase, paquetes y narrativa por parte, fuentes oficiales, normativa y líneas de negocio |
 | [`scripts/`](scripts/) | Generadores y validadores del repositorio |
 
@@ -358,7 +378,7 @@ sitio **y el manual en PDF releído desde el archivo emitido**. Nada llega a `ma
 
 | ⚙️ Workflow | Qué cubre |
 |---|---|
-| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 31 pruebas estructurales, build del sitio con sus 26.400 enlaces y compilación del manual |
+| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 36 pruebas estructurales, build del sitio y compilación del manual |
 | 🔒 [security.yml](.github/workflows/security.yml) | secretos (`gitleaks`), análisis estático de los scripts (`bandit`), dependencias fijadas a versión exacta y auditadas con `pip-audit` |
 | 🚀 [deploy-pages.yml](.github/workflows/deploy-pages.yml) | compila el manual integral y los 24 PDF por parte, genera el sitio, verifica que las 25 descargas llegaron y despliega a GitHub Pages |
 
@@ -374,7 +394,7 @@ python scripts/validar_encoding.py          # todo UTF-8, sin BOM ni mojibake
 python scripts/generar_manual.py --partes   # manual integral + 24 PDF por parte
 python scripts/generar_manual.py --verificar  # relee el PDF: portada, versión y extensión
 python scripts/generar_sitio.py             # sitio HTML en site/ y copia de las descargas
-python -m unittest discover -s tests -v     # 31 pruebas estructurales
+python -m unittest discover -s tests -v     # 36 pruebas estructurales
 npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 ```
 
@@ -396,7 +416,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 🔗 contenido con **fuente citada, explicada y fechada**: cada una dice qué contiene y cómo leerla;
 - 🗺️ **360 diagramas** que muestran el flujo de decisión, no ilustraciones decorativas;
 - 🔍 material **honesto sobre sus límites**: distingue lo verificado de lo dinámico y marca qué revalidar;
-- 📖 material **abierto y offline-friendly**: manual de 1.560 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
+- 📖 material **abierto y offline-friendly**: manual de 1.569 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
 
 </td>
 <td valign="top" width="50%">

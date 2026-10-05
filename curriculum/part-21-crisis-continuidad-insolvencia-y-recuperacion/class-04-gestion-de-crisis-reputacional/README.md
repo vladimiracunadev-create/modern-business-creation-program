@@ -3,8 +3,8 @@
 > **Parte 21 · Crisis, continuidad, insolvencia y recuperación** — clase 4 de 14
 
 **Estado de evidencia:** `VERIFICADO-FUENTE` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis<br>
-**Entregable:** protocolo de crisis con tablero de hechos, vocería, mensajes, canales, continuidad, preservación de evidencia y umbrales
+**Decisión que habilita:** definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis<br>
+**Entregable:** protocolo de crisis con tablero de hechos, alegaciones, actuación regulatoria, respuesta, vocería, canales, evidencia y umbrales
 
 ## 🎯 Propósito
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis— y justificar la decisión por escrito.
+3. **Decidir** —definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -38,8 +38,8 @@ flowchart TB
     C --> A2["Hecho confirmado"]
     C --> A3["Protección de afectados"]
     C --> A4["Escalamiento"]
-    A1 & A2 & A3 & A4 --> D{{"definir vocería, hechos<br/>comunicables, protección de<br/>afectados y escalamiento antes<br/>de la crisis"}}
-    D --> E["Entregable<br/>protocolo de crisis con<br/>tablero de hechos, vocería,<br/>mensajes, canales,<br/>continuidad, preservación de<br/>evidencia y umbrales"]
+    A1 & A2 & A3 & A4 --> D{{"definir vocería, clasificación<br/>de evidencia, protección de<br/>afectados y escalamiento antes<br/>de la crisis"}}
+    D --> E["Entregable<br/>protocolo de crisis con<br/>tablero de hechos,<br/>alegaciones, actuación<br/>regulatoria, respuesta,<br/>vocería, canales, evidencia y<br/>umbrales"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,7 +49,7 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Celsius y Terra muestran que una crisis de producto o liquidez también es una crisis de comunicación. La respuesta no puede ocultar incertidumbre ni prometer seguridad sin respaldo: debe distinguir hechos confirmados, hipótesis y decisiones; informar disponibilidad y restricciones; preservar evidencia; proteger a clientes y trabajadores; y coordinar continuidad, asesoría y autoridades. La comunicación no reemplaza la solución financiera, pero una afirmación infundada puede agravarla.
+Celsius, Terra y MEDVi muestran que una crisis de producto, regulación o confianza también es una crisis de clasificación de evidencia. La respuesta debe distinguir el documento del regulador, lo alegado por periodistas o terceros, la versión de la empresa, lo ya corregido y lo aún no resuelto; preservar anuncios, aprobaciones y registros; proteger a clientes; y coordinar continuidad, asesoría y autoridades. Comunicar que un tercero ejecutó la pieza no sustituye explicar el control ejercido sobre ese tercero.
 
 ### 2. Cómo se traduce en la práctica
 
@@ -64,6 +64,16 @@ Celsius y Terra enseñan que comunicar solvencia, liquidez o estabilidad sin evi
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+## 🔬 Caso aplicado: MEDVi
+
+[MEDVi: empresa AI-native, red externa y control al crecer](../../../case-studies/21-medvi-empresa-ai-native-y-control.md#9-crisis-reputacion-y-respuesta)
+
+**Lente para esta clase:** construir una respuesta que preserve evidencia, proteja afectados y no mezcle hecho, alegación, actuación regulatoria, respuesta corporativa e interpretación.
+
+El expediente separa hechos verificados, cifras reportadas, alegaciones periodísticas,
+actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
+categoría como prueba automática de otra.
 
 ## 🧪 Taller guiado
 
@@ -93,7 +103,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Protocolo de crisis con tablero de hechos, vocería, mensajes, canales, continuidad, preservación de evidencia y umbrales.
+Protocolo de crisis con tablero de hechos, alegaciones, actuación regulatoria, respuesta, vocería, canales, evidencia y umbrales.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +115,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] cada mensaje separa hechos, incertidumbres, medidas y próxima actualización
-- [ ] los umbrales activan responsables, continuidad, preservación de evidencia y evaluación regulatoria
+- [ ] cada mensaje separa hecho verificado, alegación, actuación regulatoria, respuesta e interpretación
+- [ ] los umbrales activan responsables, continuidad, preservación de evidencia, protección y evaluación regulatoria
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +125,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Asegurar solvencia, liquidez o estabilidad sin evidencia actual y revisada.
-- Confundir estrategia reputacional con ocultamiento de incertidumbre o demora en proteger afectados.
+- Responder a una carta regulatoria como si fuera solo un problema de reputación o relaciones públicas.
+- Atribuir el incidente a un afiliado sin reconstruir contrato, control, beneficio, aprobación y medidas correctivas.
 
 **Característicos de la parte 21:**
 
@@ -148,14 +158,35 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Registra que Alexander Mashinsky se declaró culpable en diciembre de 2024 y fue sentenciado en mayo de 2025, y describe hallazgos sobre sostenibilidad de rendimientos, liquidez, uso de depósitos y comunicación de riesgos.
 - *Cómo leerla:* Distingue los hechos reconocidos en la declaración de culpabilidad y considerados en la sentencia de las reglas aplicables a una empresa chilena. El aprendizaje empresarial es probar la fuente del rendimiento, el calce de liquidez y la evidencia detrás de cada comunicación.
-- *Uso en esta clase:* aporta el marco de «Celsius: declaración de culpabilidad y sentencia del fundador» para definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis.
+- *Uso en esta clase:* aporta el marco de «Celsius: declaración de culpabilidad y sentencia del fundador» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
 
 **Departamento de Justicia de Estados Unidos — Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon**  
 <https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> · verificado 2026-09-28
 
 - *Qué contiene:* Registra la declaración de culpabilidad de agosto de 2025 y la sentencia de diciembre de 2025, y describe hechos sobre el funcionamiento comunicado de UST, intervenciones no reveladas y respuesta posterior a la pérdida de estabilidad.
 - *Cómo leerla:* Úsala para someter a estrés el mecanismo del producto, sus dependencias, incentivos, liquidez y comunicación. La sentencia estadounidense acredita conducta en ese proceso; no crea por sí sola una regla jurídica aplicable en Chile.
-- *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis.
+- *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
+
+**U.S. Food and Drug Administration — MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455**  
+<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-10-04
+
+- *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
+- *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
+- *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
+
+**MEDVi · versión corporativa — MEDVi statement in response to external speculation**  
+<https://home.medvi.org/communication> · verificado 2026-10-04
+
+- *Qué contiene:* Declaración corporativa del 8 de abril de 2026 sobre la carta FDA, un supuesto sitio de afiliado, publicidad con posibles médicos generados por IA, correcciones y estructura de proveedores clínicos y farmacias.
+- *Cómo leerla:* Trátala como la versión de MEDVi, no como verificación independiente. Contrasta cada afirmación con el destinatario y contenido de la carta FDA, archivos del sitio, contratos, responsables y evidencia de las medidas correctivas.
+- *Uso en esta clase:* aporta el marco de «MEDVi statement in response to external speculation» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
+
+**Futurism · investigación periodística — Look Out for AI-Generated Ozempic!**  
+<https://futurism.com/medvi-ai-ozempic> · verificado 2026-10-04
+
+- *Qué contiene:* Investigación publicada el 29 de mayo de 2025 sobre imágenes de pacientes, anuncios, logos de medios, testimonios y profesionales presentados en el sitio de MEDVi, con metodología y ejemplos rastreados.
+- *Cómo leerla:* Atribuye cada hallazgo al medio y conserva la diferencia entre evidencia reproducida, inferencia periodística y acusación de terceros. Contrástala con la respuesta posterior de MEDVi y con la actuación primaria de FDA.
+- *Uso en esta clase:* aporta el marco de «Look Out for AI-Generated Ozempic!» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

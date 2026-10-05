@@ -23,6 +23,7 @@ material complementario.
 
 ## En curso — v1.2
 
+- [x] Integrar MEDVi como caso AI-native transversal con expediente de evidencia, precisión farmacéutica, founder bottleneck y due diligence progresiva, sin añadir ni renumerar clases.
 - [x] Conectar mercado, cliente, costos, modelo, aliados y proyección en un expediente de viabilidad progresivo, basado en evidencia y sin añadir clases.
 - [ ] Revalidar contra fuente oficial las clases marcadas `DINAMICO` (partes 11, 15 y 16) y registrar la fecha de verificación por clase.
 - [ ] Ampliar cada caso de `case-studies/` con economía unitaria numérica y calendario de habilitación.

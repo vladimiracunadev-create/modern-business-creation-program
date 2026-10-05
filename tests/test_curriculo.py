@@ -369,5 +369,85 @@ class IntegracionViabilidadTest(unittest.TestCase):
                 self.assertIn(fragmento, clases[numero]["entregable"])
 
 
+class IntegracionMedviTest(unittest.TestCase):
+    """Evita que el caso transversal pierda rigor o quede desconectado del currículo."""
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.ruta = RAIZ / "case-studies" / "21-medvi-empresa-ai-native-y-control.md"
+        cls.caso = cls.ruta.read_text(encoding="utf-8")
+        cls.clases = {}
+        for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                cls.clases[entrada["n"]] = entrada
+        cls.fuentes = json.loads(
+            (RAIZ / "sources" / "bibliography.json").read_text(encoding="utf-8")
+        )["entries"]
+
+    def test_expediente_separa_categorias_de_evidencia(self) -> None:
+        for categoria in (
+            "HECHO VERIFICADO",
+            "CIFRA REPORTADA",
+            "ALEGACIÓN",
+            "ACTUACIÓN REGULATORIA",
+            "RESPUESTA DE MEDVi",
+            "INTERPRETACIÓN",
+            "LECCIÓN EMPRESARIAL",
+        ):
+            with self.subTest(categoria=categoria):
+                self.assertIn(categoria, self.caso)
+
+    def test_expediente_distingue_categorias_farmaceuticas(self) -> None:
+        for categoria in (
+            "FDA-approved drug",
+            "Generic FDA-approved drug",
+            "Compounded drug",
+            "Counterfeit drug",
+        ):
+            with self.subTest(categoria=categoria):
+                self.assertIn(categoria, self.caso)
+        self.assertIn("no es por definición falsificado", self.caso)
+
+    def test_expediente_contiene_due_diligence_y_matrices(self) -> None:
+        self.assertIn("un fondo analiza invertir US$5 millones", self.caso)
+        self.assertIn("Founder bottleneck", self.caso)
+        for tension in (
+            "Velocidad × control",
+            "Automatización × supervisión",
+            "Crecimiento × compliance",
+            "Outsourcing × responsabilidad",
+            "Margen × riesgo",
+        ):
+            with self.subTest(tension=tension):
+                self.assertIn(tension, self.caso)
+
+    def test_clases_enlazan_el_caso_sin_alterar_la_numeracion(self) -> None:
+        esperadas = {13, 40, 155, 208, 223, 254, 267, 284, 296}
+        self.assertEqual(set(self.clases), set(range(1, TOTAL_CLASES + 1)))
+        enlazadas = {
+            numero
+            for numero, entrada in self.clases.items()
+            if entrada.get("caso_aplicado", {}).get("ruta")
+            == "case-studies/21-medvi-empresa-ai-native-y-control.md"
+        }
+        self.assertEqual(enlazadas, esperadas)
+
+    def test_fuentes_medvi_tienen_fecha_de_consulta(self) -> None:
+        esperadas = {
+            "FDA_MEDVI",
+            "FDA_COMPOUNDING",
+            "FDA_COUNTERFEIT",
+            "FDA_GL1",
+            "MEDVI_RESPONSE",
+            "NYT_MEDVI_PROFILE",
+            "FUTURISM_MEDVI",
+        }
+        registradas = {fuente["manifest_id"]: fuente for fuente in self.fuentes}
+        self.assertLessEqual(esperadas, set(registradas))
+        for identificador in esperadas:
+            with self.subTest(fuente=identificador):
+                self.assertEqual(registradas[identificador]["accessed"], "2026-10-04")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -12,20 +12,20 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Partes | 24 |
 | Clases | 336 |
 | Clases por parte | 14 |
-| Palabras totales del currículo | 441.788 |
-| Palabras por clase | 1.143–2.551 (mediana 1.294) |
+| Palabras totales del currículo | 445.725 |
+| Palabras por clase | 1.143–2.590 (mediana 1.294) |
 | Diagramas mermaid | 360 (uno por clase + uno por parte) |
 | Conceptos con definición operacional | 1.344 |
-| Términos del glosario maestro | 1.251 |
+| Términos del glosario maestro | 1.250 |
 | Preguntas de comprobación | 1.008 (3 por clase) |
 | Decisiones habilitadas (una por clase) | 336 |
 | Entregables definidos | 336 |
 | Criterios de aceptación específicos | 336 conjuntos |
 | Narrativas de parte | 24 |
 | Manuales transversales (`docs/`) | 20 |
-| Casos de líneas de negocio (`case-studies/`) | 20 |
+| Casos empresariales y sectoriales (`case-studies/`) | 21 (20 líneas de negocio + MEDVi transversal) |
 | Plantillas operativas (`templates/`) | 24 |
-| Fuentes en el registro | 39 (37 citadas · 33 verificadas · 6 pendientes) |
+| Fuentes en el registro | 46 (44 citadas · 40 verificadas · 6 pendientes) |
 | Cuerpos normativos mapeados | 53 |
 | Revalidación de fuentes | por fuente (`accessed` en `sources/bibliography.json`); última pasada 2026-09-01 |
 
@@ -33,9 +33,9 @@ sección final; el CI vuelve a comprobarlas en cada push.
 
 | Superficie | Valor |
 |---|---:|
-| Páginas del sitio HTML | 427 |
-| Enlaces internos verificados en el sitio | 26.400+ |
-| Manual integral en PDF | 1.560 páginas · ~4,0 MB |
+| Páginas del sitio HTML | 428 |
+| Enlaces internos verificados en el sitio | todos los enlaces relativos generados |
+| Manual integral en PDF | 1.569 páginas · ~4,1 MB |
 | PDF por parte | 24 · ~63 páginas cada uno |
 | Workflows de CI | 4 |
 | Dependencias de terceros | 2, fijadas a versión exacta |
@@ -56,10 +56,10 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | `scripts/generar_clases.py --check` | que ningún README de clase o parte, ni `CURRICULUM.md`, ni el glosario, ni el bloque de partes del README estén desincronizados respecto de su manifiesto, y que no queden carpetas huérfanas |
 | `scripts/validar_estructura.py` | coherencia de manifiestos, existencia de las 336 clases, las 13 secciones obligatorias por clase y las 9 de cada parte, presencia del diagrama, todos los enlaces relativos y que las fuentes sean https |
 | `scripts/validar_encoding.py` | UTF-8 sin BOM y sin mojibake, por round-trip cp1252 en vez de lista de secuencias |
-| `scripts/generar_sitio.py` | que las 427 páginas compilen y que ninguno de sus enlaces internos rompa |
+| `scripts/generar_sitio.py` | que las 428 páginas de contenido compilen y que ninguno de sus enlaces internos rompa |
 | `scripts/generar_manual.py` | que el manual compile y que la portada y el número de páginas sean los esperados |
 | `markdownlint-cli2` | Markdown estructuralmente válido en todo el repositorio |
-| `python -m unittest discover -s tests` | 31 pruebas: currículo, manifiestos, pedagogía, fuentes, etapas, sincronía e integración del expediente de viabilidad |
+| `python -m unittest discover -s tests` | 36 pruebas de currículo, manifiestos, pedagogía, fuentes, etapas, sincronía, expediente de viabilidad e integración MEDVi |
 | `gitleaks` | ausencia de secretos en el árbol de archivos |
 | `bandit` | análisis estático de los scripts de Python |
 | `pip-audit` | vulnerabilidades conocidas en las dependencias fijadas |

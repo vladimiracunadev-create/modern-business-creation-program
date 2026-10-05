@@ -3,8 +3,8 @@
 > **Parte 20 · Escalamiento, organización y gobierno avanzado** — clase 1 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** identificar qué decisiones deben dejar de pasar por el fundador<br>
-**Entregable:** inventario de decisiones con criterio documentado, límite y responsable distinto del fundador
+**Decisión que habilita:** identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador<br>
+**Entregable:** mapa de founder bottleneck con decisión, conocimiento, permiso, excepción, reemplazo y control por función
 
 ## 🎯 Propósito
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —identificar qué decisiones deben dejar de pasar por el fundador— y justificar la decisión por escrito.
+3. **Decidir** —identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -26,8 +26,8 @@ Al finalizar esta clase podrás:
 |---|---|
 | **Transición fundador-organización** | Paso de decisiones personales a decisiones institucionales. |
 | **Institucionalización** | Traslado del conocimiento a procesos y roles. |
-| **Cuello de botella del fundador** | Decisiones que se detienen porque solo el fundador las toma. |
-| **Delegación efectiva** | Transferencia de decisión con criterio y límite. |
+| **Founder bottleneck** | Concentración de conocimiento, decisiones, permisos y excepciones en una o dos personas. |
+| **Delegación efectiva** | Transferencia de decisión con criterio, límite, evidencia y responsable. |
 
 ## 🗺️ Flujo de razonamiento
 
@@ -36,10 +36,10 @@ flowchart TB
     C["Contexto del caso<br/>actividad · escala · comuna"]
     C --> A1["Transición<br/>fundador-organización"]
     C --> A2["Institucionalización"]
-    C --> A3["Cuello de botella del<br/>fundador"]
+    C --> A3["Founder bottleneck"]
     C --> A4["Delegación efectiva"]
-    A1 & A2 & A3 & A4 --> D{{"identificar qué decisiones<br/>deben dejar de pasar por el<br/>fundador"}}
-    D --> E["Entregable<br/>inventario de decisiones con<br/>criterio documentado, límite y<br/>responsable distinto del<br/>fundador"]
+    A1 & A2 & A3 & A4 --> D{{"identificar qué decisiones,<br/>permisos y conocimientos deben<br/>dejar de depender del fundador"}}
+    D --> E["Entregable<br/>mapa de founder bottleneck con<br/>decisión, conocimiento,<br/>permiso, excepción, reemplazo<br/>y control por función"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,7 +49,7 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-El primer límite de crecimiento suele ser el fundador: todas las decisiones pasan por él y el sistema se satura. Salir de ahí exige documentar criterios de decisión, no solo tareas, y aceptar que otros decidirán distinto de como él lo haría, dentro de límites definidos.
+Eliminar puestos mediante automatización puede aumentar simultáneamente velocidad y founder bottleneck: más conocimiento, permisos, excepciones, relaciones y responsabilidad terminan concentrados en una o dos personas. Salir de ahí exige documentar criterios de decisión, segregar accesos, formar reemplazos y crear controles que no dependan de que el fundador revise personalmente cada caso.
 
 ### 2. Cómo se traduce en la práctica
 
@@ -64,6 +64,16 @@ Delegar tareas sin delegar el criterio produce consultas permanentes que saturan
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+## 🔬 Caso aplicado: MEDVi
+
+[MEDVi: empresa AI-native, red externa y control al crecer](../../../case-studies/21-medvi-empresa-ai-native-y-control.md#7-founder-bottleneck-y-matrices-de-tension)
+
+**Lente para esta clase:** medir cómo una plantilla mínima puede concentrar conocimiento, decisiones, permisos, responsabilidad y riesgo en una o dos personas.
+
+El expediente separa hechos verificados, cifras reportadas, alegaciones periodísticas,
+actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
+categoría como prueba automática de otra.
 
 ## 🧪 Taller guiado
 
@@ -93,7 +103,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Inventario de decisiones con criterio documentado, límite y responsable distinto del fundador.
+Mapa de founder bottleneck con decisión, conocimiento, permiso, excepción, reemplazo y control por función.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -105,8 +115,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] cada decisión delegada tiene criterio y límite escrito
-- [ ] el inventario identifica las decisiones que hoy saturan al fundador
+- [ ] cada decisión y permiso crítico tiene criterio, límite, evidencia y segundo responsable
+- [ ] el mapa somete a prueba la ausencia simultánea del fundador y del proveedor principal
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -115,8 +125,8 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 **Propios de esta clase:**
 
-- Delegar tareas sin delegar el criterio de decisión.
-- Retomar la decisión delegada al primer error del responsable.
+- Confundir una plantilla interna mínima con una organización resiliente.
+- Automatizar tareas sin distribuir conocimiento, permisos, supervisión y autoridad de escalamiento.
 
 **Característicos de la parte 20:**
 
@@ -148,21 +158,28 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
-- *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para identificar qué decisiones deben dejar de pasar por el fundador.
-
-**Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
-
-- *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
-- *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
-- *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para identificar qué decisiones deben dejar de pasar por el fundador.
+- *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador.
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
 <https://www.bcn.cl/leychile/> · verificado 2026-09-01
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
-- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para identificar qué decisiones deben dejar de pasar por el fundador.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador.
+
+**The New York Times · republicado por GV Wire — A $1.8 Billion Company With Two Employees? AI Made It Possible**  
+<https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/> · verificado 2026-10-04
+
+- *Qué contiene:* Perfil empresarial que declara acceso del New York Times a estados financieros y contrapartes, y documenta capital inicial, tiempo de construcción, ventas, margen, herramientas de IA, contratistas y proveedores externos.
+- *Cómo leerla:* Distingue cifras verificadas por el medio, afirmaciones del fundador y proyecciones. La meta de US$1.800 millones es una proyección de ventas, no valoración; dos empleados no significa dos ejecutores de toda la cadena.
+- *Uso en esta clase:* aporta el marco de «A $1.8 Billion Company With Two Employees? AI Made It Possible» para identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador.
+
+**U.S. Food and Drug Administration — MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455**  
+<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-10-04
+
+- *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
+- *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
+- *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

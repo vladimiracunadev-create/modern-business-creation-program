@@ -77,7 +77,7 @@ flowchart TB
 | 09 | 205 | [Analítica y BI empresarial](class-09-analitica-y-bi-empresarial/README.md) | definir el conjunto de métricas oficiales con fórmula y fuente |
 | 10 | 206 | [Automatización de procesos](class-10-automatizacion-de-procesos/README.md) | definir el alcance de la automatización, sus excepciones y su monitoreo |
 | 11 | 207 | [IA generativa en operaciones](class-11-ia-generativa-en-operaciones/README.md) | definir casos de uso permitidos, datos autorizados y control de revisión |
-| 12 | 208 | [Agentes de IA con humano en el circuito](class-12-agentes-de-ia-con-humano-en-el-circuito/README.md) | definir qué puede ejecutar un agente y qué requiere aprobación humana |
+| 12 | 208 | [Agentes de IA con humano en el circuito](class-12-agentes-de-ia-con-humano-en-el-circuito/README.md) | definir qué puede ejecutar un agente, qué requiere aprobación humana y quién conserva la responsabilidad |
 | 13 | 209 | [Riesgo de proveedores tecnológicos y SaaS](class-13-riesgo-de-proveedores-tecnologicos-y-saas/README.md) | definir qué se evalúa antes de contratar un proveedor tecnológico |
 | 14 | 210 | [Gobierno tecnológico y costos FinOps](class-14-gobierno-tecnologico-y-costos-finops/README.md) | instalar la revisión periódica de costos y licencias tecnológicas |
 

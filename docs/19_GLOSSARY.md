@@ -273,6 +273,7 @@ clases adicionales vuelve a aparecer.
 | **Contingencia** | Obligación probable que aún no se ha materializado en el balance. | [010](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-10-formalidad-informalidad-y-costo-del-incumplimiento/README.md) +1 |
 | **Contrapartida** | Valor obtenido a cambio de una concesión. | [190](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-08-propuesta-negociacion-y-cierre/README.md) +1 |
 | **Contraprestación** | Precio, forma y plazo de pago. | [127](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-01-anatomia-de-un-contrato-comercial/README.md) |
+| **Contratista** | Persona o entidad independiente contratada para un resultado o capacidad delimitada. | [155](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar/README.md) |
 | **Contrato a nombre de la empresa** | Vínculo que no depende de la persona del fundador. | [295](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible/README.md) |
 | **Contrato de adhesión** | Aquel cuyas cláusulas redacta una parte sin negociación. | [145](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-05-terminos-y-condiciones-y-contratos-de-adhesion/README.md) |
 | **Contrato de alto impacto** | Aquel cuyo incumplimiento amenaza la continuidad. | [140](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-14-cuando-debe-intervenir-un-abogado/README.md) |
@@ -347,7 +348,6 @@ clases adicionales vuelve a aparecer.
 | **Cuadratura** | Coincidencia entre el auxiliar y el saldo de la cuenta de control. | [102](../curriculum/part-08-contabilidad-y-estados-financieros/class-04-libro-diario-mayor-y-auxiliares/README.md) |
 | **Cuello de botella** | Recurso que limita la capacidad de todo el sistema. | [177](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-09-capacidad-y-cuellos-de-botella/README.md) |
 | **Cuello de botella del embudo** | Etapa donde se pierde la mayor proporción. | [185](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-03-embudo-de-adquisicion/README.md) |
-| **Cuello de botella del fundador** | Decisiones que se detienen porque solo el fundador las toma. | [267](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion/README.md) |
 | **Cuenta corriente empresarial** | Cuenta bancaria a nombre de la persona jurídica. | [083](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-13-cuenta-bancaria-empresarial-y-debida-diligencia-bancaria/README.md) |
 | **Cuenta privilegiada** | Acceso con permisos administrativos. | [203](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-07-gestion-de-secretos-y-privilegios/README.md) |
 | **Cuenta puente** | Cuenta transitoria que debe quedar en cero al cierre. | [100](../curriculum/part-08-contabilidad-y-estados-financieros/class-02-plan-de-cuentas/README.md) |
@@ -393,7 +393,7 @@ clases adicionales vuelve a aparecer.
 | **Defensa en capas** | Controles superpuestos que reducen el riesgo acumulado. | [202](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-06-ciberseguridad-por-capas-para-pyme/README.md) |
 | **Definición común** | Criterio único de etapa y de dato entre áreas. | [196](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-14-revenue-operations-y-forecast/README.md) |
 | **Definición de métrica** | Fórmula y fuente acordadas. | [205](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-09-analitica-y-bi-empresarial/README.md) |
-| **Delegación efectiva** | Transferencia de decisión con criterio y límite. | [267](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion/README.md) |
+| **Delegación efectiva** | Transferencia de decisión con criterio, límite, evidencia y responsable. | [267](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion/README.md) |
 | **Delito base** | Figura penal que puede generar responsabilidad de la empresa. | [255](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-03-ley-20-393-y-responsabilidad-penal-de-la-persona-juridica/README.md) |
 | **Densidad de ruta** | Cantidad de entregas por kilómetro recorrido. | [320](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-12-logistica-de-ultima-milla/README.md) |
 | **Denuncia de accidente** | Obligación de reportar el accidente en plazo. | [166](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-12-ley-16-744-y-seguro-de-accidentes/README.md) |
@@ -496,11 +496,11 @@ clases adicionales vuelve a aparecer.
 | **Embudo** | Secuencia de etapas desde el primer contacto hasta la venta. | [185](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-03-embudo-de-adquisicion/README.md) |
 | **Empaquetado** | Forma en que se agrupan funciones o servicios en niveles de precio. | [118](../curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-06-pricing-basado-en-costos-valor-y-mercado/README.md) |
 | **Empresa** | Sistema que combina capital, personas y activos para entregar valor y sostenerse con sus ingresos. | [001](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-01-que-es-una-empresa-y-como-crea-valor/README.md) |
-| **Empresa digital** | Opera con procesos integrados sobre software y datos. | [013](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) |
-| **Empresa habilitada por IA** | Incorpora modelos en el flujo de trabajo con revisión humana. | [013](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) |
+| **Empresa AI-native** | Diseña desde el origen procesos, roles y economía para que la ia ejecute una parte central del trabajo bajo controles definidos. | [013](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) |
+| **Empresa digital** | Integra procesos, software y datos sin rediseñar necesariamente la organización alrededor de modelos. | [013](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) |
 | **Empresa jurídicamente lista** | Sociedad constituida, con rut, representación vigente y documentación completa. | [084](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-14-checklist-de-empresa-juridicamente-lista/README.md) |
 | **Empresa principal** | La que encarga la obra y responde subsidiaria o solidariamente. | [165](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-11-subcontratacion-y-servicios-transitorios/README.md) |
-| **Empresa tradicional** | Opera con procesos manuales y sistemas desconectados. | [013](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) |
+| **Empresa tradicional** | Opera principalmente mediante personas, procesos manuales y sistemas desconectados. | [013](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) |
 | **Empresa transferible** | Aquella que opera y vale con otro dueño. | [295](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible/README.md) |
 | **Encargado** | Quien trata datos por cuenta del responsable. | [147](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-07-preparacion-para-ley-21-719-desde-1-dic-2026/README.md) |
 | **Encargado de prevención** | Responsable designado con autonomía y recursos. | [255](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-03-ley-20-393-y-responsabilidad-penal-de-la-persona-juridica/README.md) |
@@ -559,7 +559,6 @@ clases adicionales vuelve a aparecer.
 | **Exportación de servicios de software** | Prestación a clientes en el extranjero. | [316](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-08-exportacion-de-servicios-de-software/README.md) |
 | **Exposición** | Monto en riesgo frente a esa contraparte. | [286](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-06-cliente-o-proveedor-critico-en-insolvencia/README.md) |
 | **Exposición neta** | Diferencia entre activos y pasivos en moneda extranjera. | [248](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-10-fx-y-riesgo-cambiario/README.md) |
-| **Externalización** | Contratación de un tercero para ejecutar una función. | [155](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar/README.md) |
 | **EXW y DDP** | Extremos de mínima y máxima obligación del vendedor. | [240](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-02-incoterms-y-responsabilidades/README.md) |
 | **Ética empresarial** | Criterio de decisión que se sostiene cuando nadie está mirando. | [009](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-09-etica-empresarial-y-licencia-social-para-operar/README.md) |
 
@@ -605,6 +604,7 @@ clases adicionales vuelve a aparecer.
 | **Formulario 29** | Declaración mensual de iva y retenciones. | [096](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-12-formulario-29-ppm-y-ciclo-mensual/README.md) |
 | **Formulario tipo** | Documento estandarizado que reemplaza la escritura. | [072](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-02-tu-empresa-en-un-dia-flujo-completo/README.md) |
 | **Foro** | Tribunal o arbitraje competente. | [249](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-11-contratos-internacionales/README.md) |
+| **Founder bottleneck** | Concentración de conocimiento, decisiones, permisos y excepciones en una o dos personas. | [267](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion/README.md) |
 | **Franquicia** | Cesión de un formato completo de negocio bajo marca y manual. | [039](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-11-franquicia-y-licenciamiento-de-formato/README.md) |
 | **Franquicia SENCE** | Beneficio tributario para capacitación de empresas. | [315](../curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-07-educacion-digital-y-capacitacion-empresarial/README.md) |
 | **Franquicia tributaria** | Beneficio que permite descontar capacitación del impuesto. | [236](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-12-otec-capacitacion-y-sence/README.md) |
@@ -664,11 +664,10 @@ clases adicionales vuelve a aparecer.
 | **Hito de estabilización** | Condición que indica que la crisis está contenida. | [294](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-14-plan-de-recuperacion-y-vuelta-a-crecimiento/README.md) |
 | **Homologación** | Proceso de aprobación previa de un proveedor. | [171](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-03-compras-y-homologacion-de-proveedores/README.md) |
 | **Homologación de alternativa** | Proveedor sustituto ya aprobado. | [179](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-11-continuidad-de-proveedores-criticos/README.md) |
-| **Honorarios** | Prestación independiente sin subordinación. | [155](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar/README.md) |
 | **Hora extraordinaria** | Tiempo trabajado sobre la jornada, con recargo legal. | [159](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-05-control-de-asistencia-horas-extra-y-descansos/README.md) |
 | **Horizonte** | Plazo en el que el factor se vuelve relevante. | [044](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-02-analisis-pestel/README.md) |
 | **Horizonte 1, 2 y 3** | Operación actual, expansión próxima y apuesta lejana. | [054](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-12-roadmap-estrategico-de-12-36-y-60-meses/README.md) |
-| **Humano en el circuito** | Control que revisa la salida del modelo antes de que produzca efecto. | [013](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) +1 |
+| **Humano en el circuito** | Punto obligatorio de aprobación antes de una acción con efecto. | [208](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-12-agentes-de-ia-con-humano-en-el-circuito/README.md) |
 | **Huso horario y idioma** | Factores que afectan coordinación y servicio. | [279](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-13-internacionalizacion-organizacional/README.md) |
 
 ### I
@@ -843,6 +842,7 @@ clases adicionales vuelve a aparecer.
 | **Modelo de negocio del caso** | Forma de crear, entregar y capturar valor. | [325](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-03-disenar-modelo-de-negocio-y-estrategia/README.md) |
 | **Modelo de prevención** | Sistema de organización y administración para prevenir delitos. | [255](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-03-ley-20-393-y-responsabilidad-penal-de-la-persona-juridica/README.md) |
 | **Modelo de prevención de delitos** | Sistema con identificación de riesgos, controles y supervisión. | [257](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-05-modelo-de-prevencion-de-delitos/README.md) |
+| **Modelo MEDVi** | Combina una estructura interna mínima con ia, contratistas, proveedores clínicos, farmacias, agencias y plataformas externas. | [013](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) |
 | **Modelo operativo** | Forma en que se coordinan las operaciones entre países. | [279](../curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-13-internacionalizacion-organizacional/README.md) |
 | **Modelo publicitario** | Monetización de la atención de una audiencia propia. | [040](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-12-publicidad-afiliacion-y-contenido/README.md) |
 | **Modificación** | Cambio de estatutos aprobado con el quórum exigido. | [081](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-11-modificaciones-saneamientos-y-rectificaciones/README.md) |
@@ -1011,6 +1011,7 @@ clases adicionales vuelve a aparecer.
 | **ProChile** | Institución de promoción de exportaciones. | [251](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-13-prochile-y-entrada-a-mercados/README.md) |
 | **Producto** | Objeto o software entregado, con costo marginal bajo y escalabilidad alta. | [005](../curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-05-producto-servicio-solucion-y-experiencia/README.md) |
 | **Profesional competente** | Arquitecto o ingeniero responsable ante la dom. | [231](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-07-construccion-lguc-y-oguc/README.md) |
+| **Profesional externo** | Especialista independiente que aporta juicio sujeto a habilitación, ética o responsabilidad profesional. | [155](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar/README.md) |
 | **Programa de trabajo preventivo** | Plan con actividades, responsables y plazos. | [167](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-13-decreto-44-y-gestion-preventiva-de-riesgos/README.md) |
 | **Propiedad intelectual** | Derecho registrado que impide la copia legal. | [049](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-07-switching-costs-marca-datos-y-propiedad-intelectual/README.md) |
 | **Propósito** | Razón por la que la empresa merece existir más allá del lucro. | [043](../curriculum/part-04-estrategia-y-ventaja-competitiva/class-01-mision-vision-proposito-y-tesis-estrategica/README.md) |
@@ -1021,7 +1022,7 @@ clases adicionales vuelve a aparecer.
 | **Protocolo de prevención** | Documento obligatorio con medidas preventivas. | [164](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-10-ley-karin-prevencion-denuncia-e-investigacion/README.md) |
 | **Protocolo familiar** | Acuerdo que regula la relación entre familia y empresa. | [303](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-09-sucesion-familiar-o-ejecutiva/README.md) |
 | **Prototipo** | Representación que permite evaluar sin operar. | [026](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-12-mvp-prototipo-y-concierge-test/README.md) |
-| **Proveedor** | Quien habitualmente desarrolla actividades de producción o comercialización. | [141](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-01-ley-del-consumidor-aplicada-al-negocio/README.md) |
+| **Proveedor** | Quien habitualmente desarrolla actividades de producción o comercialización. | [141](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-01-ley-del-consumidor-aplicada-al-negocio/README.md) +1 |
 | **Proveedor acreditado** | Entidad autorizada para emitir certificados de firma avanzada. | [078](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-08-firma-electronica-avanzada-y-firma-notarial/README.md) |
 | **Proveedor alternativo** | Segunda fuente aprobada para el mismo insumo. | [171](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-03-compras-y-homologacion-de-proveedores/README.md) |
 | **Proveedor crítico** | Aquel cuya falla detiene la operación. | [138](../curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-12-contratos-con-proveedores-criticos/README.md) +1 |
@@ -1069,14 +1070,13 @@ clases adicionales vuelve a aparecer.
 | **Recepción** | Verificación de lo recibido contra lo pedido. | [172](../curriculum/part-13-operaciones-compras-inventario-y-calidad/class-04-ordenes-de-compra-y-recepcion/README.md) |
 | **Recepción definitiva** | Aprobación municipal de la obra construida. | [226](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-02-uso-de-suelo-dom-y-compatibilidad-territorial/README.md) +1 |
 | **Reclamo** | Manifestación formal de insatisfacción. | [194](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-12-soporte-reclamos-y-voz-del-cliente/README.md) |
-| **Reclasificación** | Determinación de que un contrato civil encubre relación laboral. | [155](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar/README.md) |
 | **Reconstrucción de capacidad** | Recuperación de recursos recortados durante la crisis. | [294](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-14-plan-de-recuperacion-y-vuelta-a-crecimiento/README.md) |
 | **Rectificación** | Corrección de errores materiales. | [081](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-11-modificaciones-saneamientos-y-rectificaciones/README.md) |
 | **Recuperación de IVA** | Devolución del impuesto soportado en insumos. | [246](../curriculum/part-18-comercio-exterior-e-internacionalizacion/class-08-factura-de-exportacion-y-tratamiento-tributario/README.md) |
 | **Recurso clave** | Activo indispensable: equipo, licencia, dato, permiso o instalación. | [029](../curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-01-business-model-canvas/README.md) |
 | **Red** | Acceso a inversionistas, clientes y talento. | [218](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-08-start-up-chile-y-ecosistema-emprendedor/README.md) |
 | **Reducción de costos** | Disminución de gasto con criterio de preservación de capacidad. | [291](../curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-11-plan-de-reduccion-de-costos-sin-destruir-capacidad/README.md) |
-| **Redundancia** | Existencia de más de una persona capaz de ejecutar. | [296](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk/README.md) |
+| **Redundancia** | Existencia de más de una persona capaz de ejecutar y autorizar. | [296](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk/README.md) |
 | **Referido** | Cliente que llega recomendado por otro. | [195](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-13-referidos-partners-y-canales/README.md) |
 | **Regalo y hospitalidad** | Atención cuyo valor puede constituir influencia indebida. | [261](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-09-anticorrupcion-regalos-y-conflictos/README.md) |
 | **Región** | Ubicación geográfica de los datos. | [200](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-04-cloud-hosting-y-continuidad/README.md) |

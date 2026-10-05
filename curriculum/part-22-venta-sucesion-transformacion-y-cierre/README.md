@@ -72,7 +72,7 @@ flowchart TB
 | # | Global | Clase | Decisión que habilita |
 |---:|---:|---|---|
 | 01 | 295 | [Construir una empresa transferible](class-01-construir-una-empresa-transferible/README.md) | identificar qué falta para que la empresa opere sin su fundador |
-| 02 | 296 | [Dependencia del fundador y key-person risk](class-02-dependencia-del-fundador-y-key-person-risk/README.md) | identificar las personas críticas y reducir la dependencia de cada una |
+| 02 | 296 | [Dependencia del fundador y key-person risk](class-02-dependencia-del-fundador-y-key-person-risk/README.md) | identificar personas y proveedores críticos y reducir la dependencia de cada uno |
 | 03 | 297 | [Valoración para venta](class-03-valoracion-para-venta/README.md) | estimar el rango de valor esperable con resultado normalizado |
 | 04 | 298 | [Preparar un data room de M&A](class-04-preparar-un-data-room-de-m-a/README.md) | preparar el data room y definir la liberación por etapas |
 | 05 | 299 | [Due diligence vendedor](class-05-due-diligence-vendedor/README.md) | detectar y sanear las contingencias antes de abrir el proceso de venta |
@@ -135,7 +135,7 @@ flowchart TB
 | **Publicidad del acto** | Inscripción y publicación exigidas. |
 | **Rango de negociación** | Banda dentro de la cual es razonable acordar. |
 | **Ratificación** | Suscripción con las formalidades que la ley exige. |
-| **Redundancia** | Existencia de más de una persona capaz de ejecutar. |
+| **Redundancia** | Existencia de más de una persona capaz de ejecutar y autorizar. |
 | **Responsabilidad posterior** | Obligaciones que sobreviven al cierre. |
 | **Saneamiento previo** | Corrección de hallazgos antes de abrir el proceso. |
 | **Separación de roles** | Distinción entre propiedad, gobierno y gestión. |

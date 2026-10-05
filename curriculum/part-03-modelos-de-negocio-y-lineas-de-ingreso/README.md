@@ -74,7 +74,7 @@ flowchart TB
 | 09 | 037 | [Agencia y servicios administrados](class-09-agencia-y-servicios-administrados/README.md) | definir la mezcla entre proyecto y retainer y el límite de concentración aceptable |
 | 10 | 038 | [Manufactura y venta de productos](class-10-manufactura-y-venta-de-productos/README.md) | determinar lote, inventario objetivo y capital de trabajo que la producción exige |
 | 11 | 039 | [Franquicia y licenciamiento de formato](class-11-franquicia-y-licenciamiento-de-formato/README.md) | decidir si el negocio es replicable y bajo qué condiciones se franquicia |
-| 12 | 040 | [Publicidad, afiliación y contenido](class-12-publicidad-afiliacion-y-contenido/README.md) | definir la mezcla entre audiencia propia y prestada y el mecanismo de monetización |
+| 12 | 040 | [Publicidad, afiliación y contenido](class-12-publicidad-afiliacion-y-contenido/README.md) | definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados |
 | 13 | 041 | [Modelos freemium, usage-based y outcome-based](class-13-modelos-freemium-usage-based-y-outcome-based/README.md) | elegir el mecanismo de cobro coherente con el costo de servir y el riesgo asumido |
 | 14 | 042 | [Portafolio de líneas de negocio y concentración de riesgo](class-14-portafolio-de-lineas-de-negocio-y-concentracion-de-riesgo/README.md) | decidir cuántas líneas sostener y qué concentración máxima se acepta |
 

@@ -206,6 +206,20 @@ def render_clase(clase: dict, pack: dict, spec: dict, fuentes: dict,
     preguntas = "\n".join(f"{i}. {p}" for i, p in enumerate(spec["preguntas"], 1))
     profesionales = ", ".join(pack["profesionales"])
     autoridades = ", ".join(pack["autoridades"])
+    caso = spec.get("caso_aplicado")
+    bloque_caso = ""
+    if caso:
+        bloque_caso = f"""## 🔬 Caso aplicado: MEDVi
+
+[{caso['titulo']}](../../../{caso['ruta']}#{caso['ancla']})
+
+**Lente para esta clase:** {caso['lente']}
+
+El expediente separa hechos verificados, cifras reportadas, alegaciones periodísticas,
+actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
+categoría como prueba automática de otra.
+
+"""
 
     if anterior:
         celda_anterior = (
@@ -275,7 +289,7 @@ Al finalizar esta clase podrás:
 **Profesionales de apoyo:** {profesionales}. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
-## 🧪 Taller guiado
+{bloque_caso}## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
 una segunda línea de carga regulatoria distinta:

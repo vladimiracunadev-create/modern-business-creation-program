@@ -68,7 +68,7 @@ flowchart TB
 | 01 | 281 | [Mapa de amenazas y escenarios de crisis](class-01-mapa-de-amenazas-y-escenarios-de-crisis/README.md) | identificar las amenazas concretas del negocio y su tiempo tolerable de indisponibilidad |
 | 02 | 282 | [Business Continuity Plan](class-02-business-continuity-plan/README.md) | definir qué procesos se restablecen primero y con qué recursos |
 | 03 | 283 | [Disaster Recovery para tecnología](class-03-disaster-recovery-para-tecnologia/README.md) | definir el orden de recuperación tecnológica y probarlo |
-| 04 | 284 | [Gestión de crisis reputacional](class-04-gestion-de-crisis-reputacional/README.md) | definir vocería, hechos comunicables, protección de afectados y escalamiento antes de la crisis |
+| 04 | 284 | [Gestión de crisis reputacional](class-04-gestion-de-crisis-reputacional/README.md) | definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis |
 | 05 | 285 | [Fuga de caja y plan de 30 días](class-05-fuga-de-caja-y-plan-de-30-dias/README.md) | ejecutar el plan de estabilización de caja con prioridades definidas |
 | 06 | 286 | [Cliente o proveedor crítico en insolvencia](class-06-cliente-o-proveedor-critico-en-insolvencia/README.md) | definir cómo se monitorea el riesgo de contraparte y cómo se reduce la exposición |
 | 07 | 287 | [Renegociación de deuda](class-07-renegociacion-de-deuda/README.md) | preparar y ejecutar la renegociación con propuesta fundada |

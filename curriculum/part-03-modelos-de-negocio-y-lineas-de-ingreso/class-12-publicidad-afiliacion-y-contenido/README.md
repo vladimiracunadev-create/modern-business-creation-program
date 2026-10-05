@@ -3,8 +3,8 @@
 > **Parte 03 · Modelos de negocio y líneas de ingreso** — clase 12 de 14
 
 **Estado de evidencia:** `GUIA-PRACTICA` · **Jurisdicción:** Chile-first · **Fecha base normativa:** 07-08-2026<br>
-**Decisión que habilita:** definir la mezcla entre audiencia propia y prestada y el mecanismo de monetización<br>
-**Entregable:** plan de audiencia con canales propios versus prestados y proyección de monetización
+**Decisión que habilita:** definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados<br>
+**Entregable:** plan de audiencia con canales propios versus prestados, proyección de monetización y controles de claims y afiliados
 
 ## 🎯 Propósito
 
@@ -16,7 +16,7 @@ Al finalizar esta clase podrás:
 
 1. **Definir** con precisión los cuatro conceptos de la tabla siguiente y usarlos para describir un caso real.
 2. **Explicar** por qué esta materia condiciona decisiones de otras partes del programa.
-3. **Decidir** —definir la mezcla entre audiencia propia y prestada y el mecanismo de monetización— y justificar la decisión por escrito.
+3. **Decidir** —definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados— y justificar la decisión por escrito.
 4. **Producir** el entregable de la clase y contrastarlo contra su criterio de aceptación.
 5. **Distinguir** el dato estable del dato dinámico que exige revalidación en la fuente oficial.
 
@@ -38,8 +38,8 @@ flowchart TB
     C --> A2["Afiliación"]
     C --> A3["Audiencia propia"]
     C --> A4["Dependencia de plataforma"]
-    A1 & A2 & A3 & A4 --> D{{"definir la mezcla entre<br/>audiencia propia y prestada y<br/>el mecanismo de monetización"}}
-    D --> E["Entregable<br/>plan de audiencia con canales<br/>propios versus prestados y<br/>proyección de monetización"]
+    A1 & A2 & A3 & A4 --> D{{"definir la mezcla entre<br/>audiencia propia y prestada,<br/>el mecanismo de monetización y<br/>el gobierno de afiliados"}}
+    D --> E["Entregable<br/>plan de audiencia con canales<br/>propios versus prestados,<br/>proyección de monetización y<br/>controles de claims y<br/>afiliados"]
     E --> V{"¿Cumple el criterio<br/>de aceptación?"}
     V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
     V -->|no| C
@@ -49,7 +49,7 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Monetizar contenido exige volumen y consistencia antes de generar ingresos, y expone a un riesgo específico: la audiencia construida sobre una plataforma ajena puede desaparecer con un cambio de reglas. La conversión a canal propio es lo que convierte audiencia en activo. La publicidad y el contenido pagado deben identificarse como tales.
+Monetizar contenido exige volumen y consistencia antes de generar ingresos, y expone a un riesgo específico: la audiencia construida sobre una plataforma ajena puede desaparecer con un cambio de reglas. La conversión a canal propio es lo que convierte audiencia en activo. La publicidad y el contenido pagado deben identificarse como tales. Cuando una empresa usa afiliados o agencias, mantiene el deber de fijar claims permitidos, aprobar creatividades, monitorear publicaciones y cortar incumplimientos con evidencia.
 
 ### 2. Cómo se traduce en la práctica
 
@@ -64,6 +64,16 @@ Una comunidad construida íntegramente sobre una plataforma ajena puede desapare
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+## 🔬 Caso aplicado: MEDVi
+
+[MEDVi: empresa AI-native, red externa y control al crecer](../../../case-studies/21-medvi-empresa-ai-native-y-control.md#6-lo-negativo-y-los-controles-que-no-crecieron-al-mismo-ritmo)
+
+**Lente para esta clase:** distinguir velocidad creativa de gobierno de marketing y evaluar qué responsabilidad conserva la empresa cuando agencias o afiliados publican en su beneficio.
+
+El expediente separa hechos verificados, cifras reportadas, alegaciones periodísticas,
+actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
+categoría como prueba automática de otra.
 
 ## 🧪 Taller guiado
 
@@ -93,7 +103,7 @@ una segunda línea de carga regulatoria distinta:
 
 ### 📦 Entregable
 
-Plan de audiencia con canales propios versus prestados y proyección de monetización.
+Plan de audiencia con canales propios versus prestados, proyección de monetización y controles de claims y afiliados.
 
 Debe incluir decisión, supuestos, fuentes con fecha de consulta, responsable, riesgos
 identificados y próximos pasos.
@@ -106,7 +116,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## ✅ Criterio de aceptación
 
 - [ ] hay una meta explícita de conversión a canal propio
-- [ ] el contenido comercial se identifica según normativa de consumo
+- [ ] cada afiliado tiene claims autorizados, aprobación, monitoreo, trazabilidad y causal de terminación
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
 - [ ] hay un responsable asignado y evidencia reproducible del trabajo.
@@ -116,7 +126,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 **Propios de esta clase:**
 
 - Construir toda la audiencia en una plataforma que no se controla.
-- No identificar el contenido comercial y exponerse a publicidad engañosa.
+- Suponer que externalizar publicidad transfiere la responsabilidad por claims o piezas engañosas.
 
 **Característicos de la parte 03:**
 
@@ -148,7 +158,28 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
-- *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir la mezcla entre audiencia propia y prestada y el mecanismo de monetización.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
+
+**U.S. Food and Drug Administration — MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455**  
+<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-10-04
+
+- *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
+- *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
+- *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
+
+**Futurism · investigación periodística — Look Out for AI-Generated Ozempic!**  
+<https://futurism.com/medvi-ai-ozempic> · verificado 2026-10-04
+
+- *Qué contiene:* Investigación publicada el 29 de mayo de 2025 sobre imágenes de pacientes, anuncios, logos de medios, testimonios y profesionales presentados en el sitio de MEDVi, con metodología y ejemplos rastreados.
+- *Cómo leerla:* Atribuye cada hallazgo al medio y conserva la diferencia entre evidencia reproducida, inferencia periodística y acusación de terceros. Contrástala con la respuesta posterior de MEDVi y con la actuación primaria de FDA.
+- *Uso en esta clase:* aporta el marco de «Look Out for AI-Generated Ozempic!» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
+
+**MEDVi · versión corporativa — MEDVi statement in response to external speculation**  
+<https://home.medvi.org/communication> · verificado 2026-10-04
+
+- *Qué contiene:* Declaración corporativa del 8 de abril de 2026 sobre la carta FDA, un supuesto sitio de afiliado, publicidad con posibles médicos generados por IA, correcciones y estructura de proveedores clínicos y farmacias.
+- *Cómo leerla:* Trátala como la versión de MEDVi, no como verificación independiente. Contrasta cada afirmación con el destinatario y contenido de la carta FDA, archivos del sitio, contratos, responsables y evidencia de las medidas correctivas.
+- *Uso en esta clase:* aporta el marco de «MEDVi statement in response to external speculation» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -70,7 +70,7 @@ flowchart TB
 | # | Global | Clase | Decisión que habilita |
 |---:|---:|---|---|
 | 01 | 253 | [Mapa integral de riesgos](class-01-mapa-integral-de-riesgos/README.md) | identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control |
-| 02 | 254 | [Controles preventivos, detectivos y correctivos](class-02-controles-preventivos-detectivos-y-correctivos/README.md) | diseñar y probar controles que impidan, detecten y escalen desviaciones de fondos, autorización, evidencia y liquidez |
+| 02 | 254 | [Controles preventivos, detectivos y correctivos](class-02-controles-preventivos-detectivos-y-correctivos/README.md) | diseñar y probar controles que impidan, detecten y escalen desviaciones de fondos, autorización, claims, terceros y evidencia |
 | 03 | 255 | [Ley 20.393 y responsabilidad penal de la persona jurídica](class-03-ley-20-393-y-responsabilidad-penal-de-la-persona-juridica/README.md) | determinar la exposición de la empresa y si corresponde implementar un modelo de prevención |
 | 04 | 256 | [Ley 21.595 de Delitos Económicos](class-04-ley-21-595-de-delitos-economicos/README.md) | reevaluar la exposición de la empresa tras la ampliación del catálogo |
 | 05 | 257 | [Modelo de prevención de delitos](class-05-modelo-de-prevencion-de-delitos/README.md) | diseñar el modelo proporcional al tamaño y a las actividades de riesgo |

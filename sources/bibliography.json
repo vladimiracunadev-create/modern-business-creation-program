@@ -290,6 +290,7 @@
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-12-comunicaciones-con-trabajadores-y-clientes",
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-14-plan-de-recuperacion-y-vuelta-a-crecimiento",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-05-due-diligence-vendedor",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-06-asset-deal-versus-share-deal",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-07-negociacion-de-compraventa-empresarial",
@@ -440,7 +441,6 @@
         "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-08-datos-maestros-y-calidad-de-datos",
         "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-09-analitica-y-bi-empresarial",
         "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-10-automatizacion-de-procesos",
-        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-12-agentes-de-ia-con-humano-en-el-circuito",
         "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-14-gobierno-tecnologico-y-costos-finops",
         "curriculum/part-16-financiamiento-banca-fondos-e-inversion",
         "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-05-fogape-garantias-y-evaluacion-bancaria",
@@ -508,7 +508,6 @@
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-14-plan-de-recuperacion-y-vuelta-a-crecimiento",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible",
-        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-03-valoracion-para-venta",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-04-preparar-un-data-room-de-m-a",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-05-due-diligence-vendedor",
@@ -793,7 +792,6 @@
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-10-formalidad-informalidad-y-costo-del-incumplimiento",
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-11-ciclo-de-vida-completo-de-una-empresa",
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-12-tipos-de-mercado-b2c-b2b-b2g-c2c-y-plataformas",
-        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia",
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-14-mapa-personal-de-competencias-del-fundador",
         "curriculum/part-02-descubrimiento-validacion-y-mercado",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-03-entrevistas-de-descubrimiento-sin-sesgos",
@@ -1024,7 +1022,6 @@
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-10-proteccion-de-documentacion-y-evidencia",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible",
-        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-03-valoracion-para-venta",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-04-preparar-un-data-room-de-m-a",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-05-due-diligence-vendedor",
@@ -1084,7 +1081,6 @@
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-10-formalidad-informalidad-y-costo-del-incumplimiento",
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-11-ciclo-de-vida-completo-de-una-empresa",
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-12-tipos-de-mercado-b2c-b2b-b2g-c2c-y-plataformas",
-        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia",
         "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-14-mapa-personal-de-competencias-del-fundador",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-02-investigacion-secundaria-con-fuentes-confiables",
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-06-tamano-de-mercado-tam-sam-som",
@@ -1147,7 +1143,6 @@
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-11-compliance-tributario-y-ley-21-713",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-14-auditoria-interna-y-plan-anual-de-cumplimiento",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado",
-        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-02-diseno-organizacional-por-etapas",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-03-delegacion-y-accountability",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-04-presupuesto-por-centros-de-responsabilidad",
@@ -1156,7 +1151,6 @@
         "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-05-fuga-de-caja-y-plan-de-30-dias",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible",
-        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-03-valoracion-para-venta",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-06-asset-deal-versus-share-deal",
         "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-11-termino-de-giro-ante-sii",
@@ -1505,6 +1499,170 @@
       "como_leerla": "Toma los principios de independencia, confirmación y separación de custodia como aprendizaje de control. Sus exigencias concretas pertenecen al marco estadounidense y no deben presentarse como obligaciones chilenas sin una norma local aplicable.",
       "nota": "Controles oficiales derivados del caso Madoff; alcance regulatorio estadounidense.",
       "last_checked": "2026-09-28"
+    },
+    {
+      "id": "fda-medvi",
+      "manifest_id": "FDA_MEDVI",
+      "type": "reference",
+      "authors": [
+        "U.S. Food and Drug Administration"
+      ],
+      "title": "MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455",
+      "locator": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026",
+      "authority": "U.S. Food and Drug Administration",
+      "accessed": "2026-10-04",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-12-publicidad-afiliacion-y-contenido",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-12-agentes-de-ia-con-humano-en-el-circuito",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk"
+      ],
+      "status": "verificada",
+      "que_contiene": "Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.",
+      "como_leerla": "Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.",
+      "nota": "Actuación regulatoria primaria sobre MEDVi; una warning letter no se presenta como sentencia judicial.",
+      "last_checked": "2026-10-04"
+    },
+    {
+      "id": "fda-compounding",
+      "manifest_id": "FDA_COMPOUNDING",
+      "type": "reference",
+      "authors": [
+        "U.S. Food and Drug Administration"
+      ],
+      "title": "Compounding and the FDA: Questions and Answers",
+      "locator": "https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers",
+      "authority": "U.S. Food and Drug Administration",
+      "accessed": "2026-10-04",
+      "used_in": [
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica por qué algunos pacientes necesitan medicamentos compounded, que estos no son aprobados por FDA, en qué difieren de los genéricos aprobados y cómo se distribuye la supervisión de compounders.",
+      "como_leerla": "Usa sus categorías literalmente: compounded no significa counterfeit ni generic. Que un producto no esté aprobado implica que FDA no verificó antes de comercializar su seguridad, eficacia y calidad, no que sea automáticamente falso.",
+      "nota": "Definiciones regulatorias primarias para evitar equivalencias farmacéuticas incorrectas.",
+      "last_checked": "2026-10-04"
+    },
+    {
+      "id": "fda-counterfeit",
+      "manifest_id": "FDA_COUNTERFEIT",
+      "type": "reference",
+      "authors": [
+        "U.S. Food and Drug Administration"
+      ],
+      "title": "Counterfeit Medicine",
+      "locator": "https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine",
+      "authority": "U.S. Food and Drug Administration",
+      "accessed": "2026-10-04",
+      "used_in": [
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos"
+      ],
+      "status": "verificada",
+      "que_contiene": "Define los medicamentos counterfeit como productos falsos o falsificados que se hacen pasar por auténticos y pueden contener ingredientes equivocados, cantidades incorrectas, ningún principio activo u otras sustancias dañinas.",
+      "como_leerla": "Contrasta identidad y autenticidad del producto con su vía regulatoria. Un compounded puede ser legítimamente preparado sin aprobación previa; un counterfeit se presenta falsamente como auténtico. No intercambies ambas categorías.",
+      "nota": "Definición primaria de falsificación farmacéutica y señales de riesgo.",
+      "last_checked": "2026-10-04"
+    },
+    {
+      "id": "fda-glp1-unapproved",
+      "manifest_id": "FDA_GL1",
+      "type": "reference",
+      "authors": [
+        "U.S. Food and Drug Administration"
+      ],
+      "title": "FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss",
+      "locator": "https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss",
+      "authority": "U.S. Food and Drug Administration",
+      "accessed": "2026-10-04",
+      "used_in": [
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-12-agentes-de-ia-con-humano-en-el-circuito",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos"
+      ],
+      "status": "verificada",
+      "que_contiene": "Describe riesgos y señales de alerta de versiones no aprobadas de GLP-1, incluidos claims de equivalencia, dosificación, almacenamiento, formas salinas, productos fraudulentos y reportes de eventos adversos.",
+      "como_leerla": "Separa riesgos generales del mercado de una imputación a una empresa concreta. Usa la carta específica de MEDVi para atribuciones del caso y esta página para el contexto farmacéutico y de telehealth.",
+      "nota": "Contexto vigente de FDA sobre GLP-1 no aprobados; contenido actualizado al 1 de octubre de 2026.",
+      "last_checked": "2026-10-04"
+    },
+    {
+      "id": "medvi-response",
+      "manifest_id": "MEDVI_RESPONSE",
+      "type": "reference",
+      "authors": [
+        "MEDVi"
+      ],
+      "title": "MEDVi statement in response to external speculation",
+      "locator": "https://home.medvi.org/communication",
+      "authority": "MEDVi · versión corporativa",
+      "accessed": "2026-10-04",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-12-publicidad-afiliacion-y-contenido",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Declaración corporativa del 8 de abril de 2026 sobre la carta FDA, un supuesto sitio de afiliado, publicidad con posibles médicos generados por IA, correcciones y estructura de proveedores clínicos y farmacias.",
+      "como_leerla": "Trátala como la versión de MEDVi, no como verificación independiente. Contrasta cada afirmación con el destinatario y contenido de la carta FDA, archivos del sitio, contratos, responsables y evidencia de las medidas correctivas.",
+      "nota": "Fuente corporativa identificada expresamente como respuesta de la empresa.",
+      "last_checked": "2026-10-04"
+    },
+    {
+      "id": "nyt-medvi-profile",
+      "manifest_id": "NYT_MEDVI_PROFILE",
+      "type": "reference",
+      "authors": [
+        "Erin Griffith",
+        "Maggie Shannon"
+      ],
+      "title": "A $1.8 Billion Company With Two Employees? AI Made It Possible",
+      "locator": "https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/",
+      "authority": "The New York Times · republicado por GV Wire",
+      "accessed": "2026-10-04",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-13-empresa-tradicional-digital-y-habilitada-por-ia",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-12-agentes-de-ia-con-humano-en-el-circuito",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk"
+      ],
+      "status": "verificada",
+      "que_contiene": "Perfil empresarial que declara acceso del New York Times a estados financieros y contrapartes, y documenta capital inicial, tiempo de construcción, ventas, margen, herramientas de IA, contratistas y proveedores externos.",
+      "como_leerla": "Distingue cifras verificadas por el medio, afirmaciones del fundador y proyecciones. La meta de US$1.800 millones es una proyección de ventas, no valoración; dos empleados no significa dos ejecutores de toda la cadena.",
+      "nota": "Periodismo reconocido sobre el modelo operativo; la URL accesible reproduce el artículo del New York Times.",
+      "last_checked": "2026-10-04"
+    },
+    {
+      "id": "futurism-medvi",
+      "manifest_id": "FUTURISM_MEDVI",
+      "type": "reference",
+      "authors": [
+        "Maggie Harrison Dupré"
+      ],
+      "title": "Look Out for AI-Generated Ozempic!",
+      "locator": "https://futurism.com/medvi-ai-ozempic",
+      "authority": "Futurism · investigación periodística",
+      "accessed": "2026-10-04",
+      "used_in": [
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-12-publicidad-afiliacion-y-contenido",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Investigación publicada el 29 de mayo de 2025 sobre imágenes de pacientes, anuncios, logos de medios, testimonios y profesionales presentados en el sitio de MEDVi, con metodología y ejemplos rastreados.",
+      "como_leerla": "Atribuye cada hallazgo al medio y conserva la diferencia entre evidencia reproducida, inferencia periodística y acusación de terceros. Contrástala con la respuesta posterior de MEDVi y con la actuación primaria de FDA.",
+      "nota": "Fuente periodística de investigación; no sustituye un hallazgo regulatorio o judicial.",
+      "last_checked": "2026-10-04"
     },
     {
       "id": "uaf",

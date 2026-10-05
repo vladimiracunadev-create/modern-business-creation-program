@@ -64,7 +64,7 @@ flowchart TB
 
 | # | Global | Clase | Decisión que habilita |
 |---:|---:|---|---|
-| 01 | 267 | [De fundador a organización](class-01-de-fundador-a-organizacion/README.md) | identificar qué decisiones deben dejar de pasar por el fundador |
+| 01 | 267 | [De fundador a organización](class-01-de-fundador-a-organizacion/README.md) | identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador |
 | 02 | 268 | [Diseño organizacional por etapas](class-02-diseno-organizacional-por-etapas/README.md) | definir la estructura de roles que corresponde a la etapa actual |
 | 03 | 269 | [Delegación y accountability](class-03-delegacion-y-accountability/README.md) | definir resultados comprometidos, límites de decisión e instancias de rendición |
 | 04 | 270 | [Presupuesto por centros de responsabilidad](class-04-presupuesto-por-centros-de-responsabilidad/README.md) | definir los centros de responsabilidad y su rutina de análisis de desviaciones |
@@ -101,9 +101,8 @@ flowchart TB
 | **Costo de coordinación** | Carga de gestionar múltiples ubicaciones. |
 | **Costo total del cargo** | Remuneración, cotizaciones, equipamiento y tiempo de rampa. |
 | **Crecimiento rentable** | Aumento de ventas que no destruye caja ni margen. |
-| **Cuello de botella del fundador** | Decisiones que se detienen porque solo el fundador las toma. |
 | **Cumplimiento local** | Obligaciones laborales y tributarias del país destino. |
-| **Delegación efectiva** | Transferencia de decisión con criterio y límite. |
+| **Delegación efectiva** | Transferencia de decisión con criterio, límite, evidencia y responsable. |
 | **Desviación** | Diferencia entre lo presupuestado y lo real. |
 | **Directorio** | Órgano con facultades de administración y responsabilidad legal. |
 | **Diseño organizacional** | Estructura de roles, reportes y decisiones. |
@@ -112,6 +111,7 @@ flowchart TB
 | **Estandarización** | Definición de una forma única de ejecutar. |
 | **Etapa organizacional** | Fase que determina qué estructura corresponde. |
 | **Expansión geográfica** | Apertura de operación en una nueva zona. |
+| **Founder bottleneck** | Concentración de conocimiento, decisiones, permisos y excepciones en una o dos personas. |
 | **Franquiciar** | Ceder el formato del negocio a un tercero. |
 | **Gatillo de contratación** | Condición que habilita abrir el cargo. |
 | **Hiring plan** | Plan de contrataciones asociado al crecimiento. |

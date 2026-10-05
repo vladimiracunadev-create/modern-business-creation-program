@@ -81,7 +81,7 @@ flowchart LR
 | 10 | 010 | [Formalidad, informalidad y costo del incumplimiento](class-10-formalidad-informalidad-y-costo-del-incumplimiento/README.md) | cuantificar el costo del incumplimiento antes de decidir postergar la formalización |
 | 11 | 011 | [Ciclo de vida completo de una empresa](class-11-ciclo-de-vida-completo-de-una-empresa/README.md) | identificar la etapa real de la empresa y qué gate falta para avanzar |
 | 12 | 012 | [Tipos de mercado: B2C, B2B, B2G, C2C y plataformas](class-12-tipos-de-mercado-b2c-b2b-b2g-c2c-y-plataformas/README.md) | elegir a qué tipo de mercado se vende y aceptar la carga que trae |
-| 13 | 013 | [Empresa tradicional, digital y habilitada por IA](class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) | determinar qué procesos conviene digitalizar y cuáles admiten asistencia de modelos |
+| 13 | 013 | [Empresa tradicional, digital y habilitada por IA](class-13-empresa-tradicional-digital-y-habilitada-por-ia/README.md) | determinar qué procesos conviene digitalizar, cuáles admiten IA y qué capacidades externas siguen siendo indispensables |
 | 14 | 014 | [Mapa personal de competencias del fundador](class-14-mapa-personal-de-competencias-del-fundador/README.md) | decidir qué brechas se cubren aprendiendo, contratando o asociándose |
 
 ## 🔤 Glosario de la parte
@@ -108,16 +108,15 @@ flowchart LR
 | **Deseo** | Preferencia por una forma específica de solución. |
 | **Deuda organizacional** | Procesos y decisiones postergados que se cobran en la etapa siguiente. |
 | **Empresa** | Sistema que combina capital, personas y activos para entregar valor y sostenerse con sus ingresos. |
-| **Empresa digital** | Opera con procesos integrados sobre software y datos. |
-| **Empresa habilitada por IA** | Incorpora modelos en el flujo de trabajo con revisión humana. |
-| **Empresa tradicional** | Opera con procesos manuales y sistemas desconectados. |
+| **Empresa AI-native** | Diseña desde el origen procesos, roles y economía para que la ia ejecute una parte central del trabajo bajo controles definidos. |
+| **Empresa digital** | Integra procesos, software y datos sin rediseñar necesariamente la organización alrededor de modelos. |
+| **Empresa tradicional** | Opera principalmente mediante personas, procesos manuales y sistemas desconectados. |
 | **Etapa** | Fase del ciclo con problema dominante propio: validación, tracción, escala, madurez, salida. |
 | **Excedente del cliente** | Diferencia entre lo que el cliente valora y lo que paga; si es cero, no repite. |
 | **Experiencia** | Conjunto de interacciones que determinan si el cliente repite. |
 | **Gasto** | Recurso consumido para operar la empresa con independencia de las ventas. |
 | **Gate** | Condición que debe cumplirse para pasar a la etapa siguiente. |
 | **Grupo de interés** | Actor afectado por la operación aunque no sea cliente. |
-| **Humano en el circuito** | Control que revisa la salida del modelo antes de que produzca efecto. |
 | **Incertidumbre** | Situación donde no se conoce la distribución de resultados posibles. |
 | **Informalidad** | Operación económica sin cumplir obligaciones de registro, tributarias o laborales. |
 | **Ingreso** | Venta reconocida por servicios prestados o bienes entregados. |
@@ -125,6 +124,7 @@ flowchart LR
 | **Job to be done** | Progreso que el cliente intenta lograr al contratar una solución. |
 | **Key-person risk** | Concentración de conocimiento, relaciones o decisiones en una sola persona. |
 | **Licencia social** | Aceptación de la comunidad que permite operar sin fricción. |
+| **Modelo MEDVi** | Combina una estructura interna mínima con ia, contratistas, proveedores clínicos, farmacias, agencias y plataformas externas. |
 | **Necesidad** | Carencia funcional que el cliente reconoce aunque no sepa cómo resolverla. |
 | **Organización** | Estructura que produce resultados con personas y procesos distintos del fundador. |
 | **Pagador** | Quien libera el presupuesto. |

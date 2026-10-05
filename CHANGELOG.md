@@ -7,6 +7,16 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ### Cambiado
 
+- Se incorpora MEDVi como caso empresarial transversal para estudiar una empresa AI-native con
+  estructura interna mínima, IA, contratistas, proveedores clínicos, farmacias, plataformas y
+  socios comerciales, sin reducir la operación a «dos personas hicieron todo».
+- El expediente separa hechos, cifras reportadas, alegaciones, actuación regulatoria, respuesta
+  corporativa, interpretación y lección; distingue medicamentos aprobados, genéricos aprobados,
+  compounded y falsificados con fuentes FDA consultadas el 04-10-2026.
+- Nueve clases existentes enlazan el caso desde modelo empresarial, afiliados, contratación,
+  responsabilidad, due diligence, controles, founder bottleneck, crisis y riesgo de persona clave.
+- Se añade una due diligence progresiva de US$5 millones, matrices de tensión y pruebas de
+  regresión para conservar las fuentes, la precisión farmacéutica y los enlaces curriculares.
 - Se conectan estudio de mercado, conocimiento del cliente, estructura de costos, modelo de
   negocios, alianzas y proyección mediante un único expediente progresivo de viabilidad, sin
   crear partes ni clases nuevas.

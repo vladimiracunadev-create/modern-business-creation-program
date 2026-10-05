@@ -76,7 +76,7 @@ flowchart TB
 | 10 | 220 | [Venture capital y rondas](class-10-venture-capital-y-rondas/README.md) | determinar si el perfil del negocio es compatible con capital de riesgo |
 | 11 | 221 | [SAFE, notas convertibles y equity](class-11-safe-notas-convertibles-y-equity/README.md) | definir qué instrumento se usa y modelar la dilución en la conversión |
 | 12 | 222 | [Valoración empresarial básica](class-12-valoracion-empresarial-basica/README.md) | estimar el valor de la empresa e identificar qué lo deprime |
-| 13 | 223 | [Data room y due diligence de inversión](class-13-data-room-y-due-diligence-de-inversion/README.md) | abrir o continuar una inversión solo después de verificar producto, entidad, fondos, rendimiento y gobierno con evidencia independiente |
+| 13 | 223 | [Data room y due diligence de inversión](class-13-data-room-y-due-diligence-de-inversion/README.md) | abrir o continuar una inversión solo después de verificar producto, entidad, fondos, rendimiento, terceros, compliance y gobierno con evidencia independiente |
 | 14 | 224 | [Costo de dilución y estrategia de financiamiento](class-14-costo-de-dilucion-y-estrategia-de-financiamiento/README.md) | planificar la secuencia de financiamiento y qué hito habilita cada ronda |
 
 ## 🔤 Glosario de la parte

@@ -70,7 +70,7 @@ flowchart TB
 
 | # | Global | Clase | Decisión que habilita |
 |---:|---:|---|---|
-| 01 | 155 | [Cuándo contratar versus externalizar](class-01-cuando-contratar-versus-externalizar/README.md) | elegir la figura correcta según los hechos reales de la relación |
+| 01 | 155 | [Cuándo contratar versus externalizar](class-01-cuando-contratar-versus-externalizar/README.md) | elegir la figura correcta para cada capacidad y asignar control y responsabilidad sobre terceros |
 | 02 | 156 | [Contrato de trabajo y cláusulas esenciales](class-02-contrato-de-trabajo-y-clausulas-esenciales/README.md) | redactar contratos con cláusulas esenciales completas y funciones bien definidas |
 | 03 | 157 | [Registro y gestión en Mi DT](class-03-registro-y-gestion-en-mi-dt/README.md) | definir qué actos laborales se registran, quién los registra y con qué plazo |
 | 04 | 158 | [Jornada ordinaria de 42 horas en 2026](class-04-jornada-ordinaria-de-42-horas-en-2026/README.md) | adecuar contratos, turnos y dotación al tramo de jornada vigente |
@@ -94,6 +94,7 @@ flowchart TB
 | **Carta de aviso** | Comunicación con causal, hechos y fecha. |
 | **Causal de término** | Fundamento legal invocado para poner fin al contrato. |
 | **Cláusula esencial** | Estipulación obligatoria: partes, funciones, lugar, remuneración, jornada, plazo. |
+| **Contratista** | Persona o entidad independiente contratada para un resultado o capacidad delimitada. |
 | **Contrato de trabajo** | Acuerdo escrito con las cláusulas mínimas del código del trabajo. |
 | **Control de asistencia** | Registro obligatorio de entrada y salida. |
 | **Cotización adicional** | Tasa variable según siniestralidad de la empresa. |
@@ -109,13 +110,11 @@ flowchart TB
 | **DS 44** | Reglamento sobre gestión preventiva de riesgos laborales. |
 | **Empresa principal** | La que encarga la obra y responde subsidiaria o solidariamente. |
 | **EST** | Empresa de servicios transitorios, con reglas y causales propias. |
-| **Externalización** | Contratación de un tercero para ejecutar una función. |
 | **Feriado anual** | Días de vacaciones que corresponden por año de servicio. |
 | **Finiquito** | Documento que liquida las obligaciones pendientes. |
 | **Finiquito electrónico** | Suscripción del término de la relación por la plataforma. |
 | **Gratificación** | Participación en utilidades con modalidades legales. |
 | **Haber no imponible** | Asignación que no constituye remuneración: colación, movilización, viáticos. |
-| **Honorarios** | Prestación independiente sin subordinación. |
 | **Hora extraordinaria** | Tiempo trabajado sobre la jornada, con recargo legal. |
 | **Investigación** | Procedimiento reglado con plazos y debido proceso. |
 | **Jornada de 42 horas** | Límite vigente desde el 26 de abril de 2026. |
@@ -135,9 +134,10 @@ flowchart TB
 | **Plazo de escrituración** | Tiempo legal para poner el contrato por escrito. |
 | **Política interna** | Norma de la empresa complementaria al reglamento. |
 | **Previred** | Plataforma de declaración y pago de cotizaciones. |
+| **Profesional externo** | Especialista independiente que aporta juicio sujeto a habilitación, ética o responsabilidad profesional. |
 | **Programa de trabajo preventivo** | Plan con actividades, responsables y plazos. |
 | **Protocolo de prevención** | Documento obligatorio con medidas preventivas. |
-| **Reclasificación** | Determinación de que un contrato civil encubre relación laboral. |
+| **Proveedor** | Organización que suministra un producto o servicio bajo un contrato y nivel de servicio. |
 | **Registro de saldos** | Control de días devengados, usados y pendientes. |
 | **Registro electrónico** | Obligación de informar actos laborales en la plataforma. |
 | **Reglamento interno** | Documento obligatorio sobre orden, higiene y seguridad según dotación. |
