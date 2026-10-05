@@ -17,6 +17,9 @@ Versionado según [SemVer](https://semver.org/lang/es/).
   responsabilidad, due diligence, controles, founder bottleneck, crisis y riesgo de persona clave.
 - Se añade una due diligence progresiva de US$5 millones, matrices de tensión y pruebas de
   regresión para conservar las fuentes, la precisión farmacéutica y los enlaces curriculares.
+- El caso incorpora un panel ejecutivo, iconografía semántica y siete diagramas Mermaid para
+  visualizar modelo operativo, cronología, red externa, precisión farmacéutica, founder bottleneck,
+  due diligence y respuesta de crisis también en el sitio publicado.
 - Se conectan estudio de mercado, conocimiento del cliente, estructura de costos, modelo de
   negocios, alianzas y proyección mediante un único expediente progresivo de viabilidad, sin
   crear partes ni clases nuevas.

@@ -421,6 +421,12 @@ class IntegracionMedviTest(unittest.TestCase):
             with self.subTest(tension=tension):
                 self.assertIn(tension, self.caso)
 
+    def test_expediente_conserva_su_capa_visual(self) -> None:
+        self.assertGreaterEqual(self.caso.count("```mermaid"), 6)
+        for icono in ("🧭", "🤖", "🧩", "💊", "⚠️", "🎛️", "🔎", "🚨", "🛡️"):
+            with self.subTest(icono=icono):
+                self.assertIn(icono, self.caso)
+
     def test_clases_enlazan_el_caso_sin_alterar_la_numeracion(self) -> None:
         esperadas = {13, 40, 155, 208, 223, 254, 267, 284, 296}
         self.assertEqual(set(self.clases), set(range(1, TOTAL_CLASES + 1)))

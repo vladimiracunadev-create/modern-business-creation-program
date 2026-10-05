@@ -1,8 +1,8 @@
-# Caso 21 — MEDVi: empresa AI-native, red externa y control al crecer
+# 🧬 Caso 21 — MEDVi: empresa AI-native, red externa y control al crecer
 
-**Caso empresarial transversal · Estados Unidos · salud digital, GLP-1, IA, outsourcing,
-compliance, gobierno y crisis**
-**Fecha de corte:** 04-10-2026 · **Monto del ejercicio de inversión:** US$5 millones
+| 🌐 Alcance | 🏥 Industria | 🤖 Arquitectura | 📅 Corte | 💰 Ejercicio |
+|---|---|---|---|---|
+| Estados Unidos | Salud digital y GLP-1 | AI-native + red externa | 04-10-2026 | Inversión de US$5 millones |
 
 > [!IMPORTANT]
 > Este caso es material educativo. No recomienda medicamentos ni reemplaza asesoría médica,
@@ -10,7 +10,27 @@ compliance, gobierno y crisis**
 > como «una empresa que vendía medicamentos falsos». El objetivo es reconstruir qué se ejecutó,
 > quién lo ejecutó, qué control faltó y quién conservó la responsabilidad.
 
-## Cómo leer el expediente
+## 🧭 Mapa visual del caso
+
+```mermaid
+flowchart LR
+    A["💡 Oportunidad<br/>de mercado"] --> B["🤖 IA<br/>construcción y automatización"]
+    B --> C["🧩 Outsourcing<br/>capacidad externa"]
+    C --> D["📈 Escala<br/>clientes e ingresos"]
+    D --> E["⚖️ Control<br/>compliance y gobierno"]
+    E --> F["🛡️ Empresa<br/>sostenible"]
+    D -. "si el control no escala" .-> G["🚨 Crisis<br/>regulación y reputación"]
+```
+
+| ⚡ Construcción | 👥 Núcleo interno | 📊 Ventas 2025 | 🧾 Clientes 2025 | ⚠️ Señal regulatoria |
+|---:|---:|---:|---:|---|
+| ~2 meses reportados | 2 empleados reportados | US$401 millones reportados | 250.000 reportados | Warning Letter FDA, 20-02-2026 |
+
+> [!NOTE]
+> Las cifras del panel son **reportadas**, no equivalen automáticamente a estados financieros
+> públicos auditados. El valor del caso está en relacionar velocidad, red externa y control.
+
+## 🧾 Cómo leer el expediente
 
 Cada afirmación sensible debe conservar una de estas etiquetas:
 
@@ -28,9 +48,19 @@ La precisión importa. Una carta de advertencia no es una sentencia. Un medicame
 no es por definición falsificado. Una empresa con dos empleados puede movilizar cientos o miles de
 personas por medio de proveedores, profesionales, plataformas y socios.
 
-## 1. Reconstrucción del modelo empresarial
+## 🚀 1. Reconstrucción del modelo empresarial
 
-### Cronología con nivel de evidencia
+### 🗓️ Cronología con nivel de evidencia
+
+```mermaid
+flowchart LR
+    T1["2024<br/>oportunidad"] --> T2["Sep 2024<br/>lanzamiento"]
+    T2 --> T3["2025<br/>escala reportada"]
+    T3 --> T4["May 2025<br/>investigación"]
+    T4 --> T5["Dic 2025<br/>revisión FDA"]
+    T5 --> T6["Feb 2026<br/>Warning Letter"]
+    T6 --> T7["Abr 2026<br/>respuesta MEDVi"]
+```
 
 | Fecha | Evidencia | Qué puede afirmarse |
 |---|---|---|
@@ -50,7 +80,7 @@ Fuentes: [perfil del New York Times republicado por GV Wire](https://gvwire.com/
 y [comunicación oficial de MEDVi](https://home.medvi.org/communication), consultadas el
 04-10-2026.
 
-### Capital, velocidad y lanzamiento
+### 💵 Capital, velocidad y lanzamiento
 
 **CIFRA REPORTADA:** el fundador habría invertido US$20.000 en software y el primer mes de
 marketing. El mismo perfil atribuye dos meses al levantamiento inicial. Esta combinación permitió
@@ -62,7 +92,7 @@ servicios se pagan mediante tarifas, costo variable o participación contractual
 puede reducir activos y nómina propios al convertirlos en gasto variable de terceros; no los hace
 desaparecer.
 
-### Qué permitió la IA
+### 🤖 Qué permitió la IA
 
 El perfil empresarial atribuye a herramientas como ChatGPT, Claude, Grok, Midjourney, Runway y
 servicios de voz tareas de código, integración, copy, imágenes, video, atención y análisis de
@@ -84,7 +114,7 @@ La IA no permitió por sí sola:
 - sustituir licencias, contratos, farmacovigilancia o supervisión;
 - transferir la responsabilidad de un claim, una decisión o una omisión.
 
-### Qué permitió el outsourcing
+### 🧩 Qué permitió el outsourcing
 
 El outsourcing convirtió infraestructura fija en capacidad contratada. Según el perfil, CareValidate
 y OpenLoop aportaron tecnología, redes de médicos, farmacias, despacho, soporte y capacidades de
@@ -99,7 +129,7 @@ capacidad regulada, profesional, tecnológica y logística a terceros.
 
 <a id="2-empresa-tradicional-vs-digital-vs-ai-native-vs-medvi"></a>
 
-## 2. Empresa tradicional vs. digital vs. AI-native vs. MEDVi
+## 🏢 2. Empresa tradicional vs. digital vs. AI-native vs. MEDVi
 
 | Dimensión | Empresa tradicional | Empresa digital | Empresa AI-native | Modelo MEDVi observado |
 |---|---|---|---|---|
@@ -119,7 +149,23 @@ sistema de control.
 
 <a id="3-la-organizacion-real-no-son-solo-dos-personas"></a>
 
-## 3. La organización real: no son solo dos personas
+## 🕸️ 3. La organización real: no son solo dos personas
+
+```mermaid
+flowchart TB
+    M["🧭 MEDVi<br/>núcleo y marca"]
+    M --> AI["🤖 IA y automatización<br/>código · contenido · soporte"]
+    M --> CT["🧑‍💻 Contratistas<br/>ingeniería"]
+    M --> PL["🖥️ Plataformas<br/>telehealth · pagos · CRM"]
+    M --> PR["🩺 Profesionales externos<br/>médicos · abogados · contadores"]
+    M --> PH["💊 Farmacias<br/>compounding · dispensación"]
+    M --> MK["📣 Socios comerciales<br/>agencias · afiliados"]
+    PL --> PX["👤 Experiencia del paciente"]
+    PR --> PX
+    PH --> PX
+    MK --> PX
+    PX --> M
+```
 
 | Categoría | Definición operativa | Ejemplo en el caso | Pregunta de control |
 |---|---|---|---|
@@ -142,9 +188,9 @@ productividad extendida = resultado / (nómina + contratistas + tarifas de prove
 Comparar ventas por empleado sin el denominador extendido sobreestima lo que hizo la IA y oculta
 el trabajo de médicos, farmacéuticos, soporte, logística, agencias y software.
 
-## 4. Lo positivo del caso
+## ✅ 4. Lo positivo del caso
 
-### Capacidades observables
+### ⚡ Capacidades observables
 
 - **Velocidad de ejecución:** convertir una oportunidad de mercado en un checkout operativo en un
   plazo reportado de dos meses.
@@ -160,7 +206,7 @@ el trabajo de médicos, farmacéuticos, soporte, logística, agencias y software
 - **Adaptación:** pasar de herramientas legales y contables autoservicio a firmas profesionales,
   e incorporar soporte de proveedores cuando el volumen superó al fundador.
 
-### Qué podrían adoptar otras empresas legal y responsablemente
+### ♻️ Qué podrían adoptar otras empresas legal y responsablemente
 
 1. Prototipar procesos antes de contratar un área completa.
 2. Mantener núcleo interno pequeño cuando el trabajo está estandarizado y hay proveedores
@@ -172,7 +218,16 @@ el trabajo de médicos, farmacéuticos, soporte, logística, agencias y software
 6. Diseñar desde el primer día trazas, aprobación de claims, gestión de excepciones y continuidad.
 7. Medir productividad extendida y no solo ingresos por empleado.
 
-## 5. Precisión farmacéutica
+## 💊 5. Precisión farmacéutica
+
+```mermaid
+flowchart TB
+    A["💊 Medicamento"] --> B["✅ FDA-approved<br/>revisión previa aplicable"]
+    A --> C["🟦 Generic FDA-approved<br/>ANDA y equivalencia"]
+    A --> D["🧪 Compounded<br/>no aprobado previamente"]
+    A --> E["🚫 Counterfeit<br/>falso o falsificado"]
+    D -. "no equivale automáticamente a" .-> E
+```
 
 | Categoría | Qué significa | Qué no significa |
 |---|---|---|
@@ -197,7 +252,7 @@ compounder por compounder y paciente por paciente cuando corresponda.
 
 <a id="6-lo-negativo-y-los-controles-que-no-crecieron-al-mismo-ritmo"></a>
 
-## 6. Lo negativo y los controles que no crecieron al mismo ritmo
+## ⚠️ 6. Lo negativo y los controles que no crecieron al mismo ritmo
 
 | Riesgo observado | Evidencia o señal | Control que debió escalar con el volumen |
 |---|---|---|
@@ -216,7 +271,7 @@ médico prescribe o una farmacia compone, la empresa debe haber definido selecci
 límites, monitoreo, escalamiento y evidencia. Cada tercero conserva sus propios deberes, pero la
 orquestación no queda sin responsable.
 
-### Actuación regulatoria documentada
+### 🏛️ Actuación regulatoria documentada
 
 **HECHO VERIFICADO:** la carta FDA de 20-02-2026:
 
@@ -234,7 +289,7 @@ La carta declaró que sus observaciones no eran exhaustivas y dio oportunidad de
 búsqueda oficial realizada al 04-10-2026 no se identificó una *close-out letter* de FDA para MEDVi;
 por ello el expediente no afirma cierre regulatorio.
 
-### Respuesta de MEDVi
+### 🗣️ Respuesta de MEDVi
 
 **RESPUESTA DE MEDVi:** el 08-04-2026 la empresa sostuvo que:
 
@@ -253,11 +308,25 @@ de posición y acción declarada; no resuelve por sí sola esas preguntas.
 
 <a id="7-founder-bottleneck-y-matrices-de-tension"></a>
 
-## 7. Founder bottleneck y matrices de tensión
+## 🎛️ 7. Founder bottleneck y matrices de tensión
 
 **Founder bottleneck** es la concentración de conocimiento, decisiones, permisos, relaciones,
 excepciones y responsabilidad en una o dos personas. Automatizar puede reducir trabajo manual y,
 a la vez, intensificar esa concentración.
+
+```mermaid
+flowchart LR
+    V["⚡ Velocidad"] --> F["👤 Fundador"]
+    A["🤖 Automatización"] --> F
+    O["🧩 Outsourcing"] --> F
+    G["📈 Crecimiento"] --> F
+    F --> K["🧠 Conocimiento"]
+    F --> P["🔑 Permisos"]
+    F --> D["✅ Decisiones"]
+    F --> R["⚖️ Responsabilidad"]
+    K & P & D & R --> B["⛔ Founder bottleneck"]
+    B --> C["🛡️ Segundo responsable<br/>segregación · trazas · continuidad"]
+```
 
 | Velocidad | Control | Diagnóstico | Diseño responsable |
 |---|---|---|---|
@@ -274,7 +343,7 @@ a la vez, intensificar esa concentración.
 | **Margen × riesgo** | ¿El margen proviene de eficiencia o de controles omitidos? | Costos normalizados de calidad, compliance, devoluciones y contingencias | Valorar después de provisionar controles y pasivos probables |
 | **Velocidad × control** | ¿Qué control bloquea una campaña engañosa antes de publicarse? | Workflow de aprobación y archivo de versión | 100 % de claims farmacéuticos con sustento y aprobador identificado |
 
-### Prueba de ausencia
+### 🧪 Prueba de ausencia
 
 Simula 30 días sin el fundador y 14 días sin el proveedor clínico principal. La empresa aprueba solo
 si puede:
@@ -288,9 +357,9 @@ si puede:
 
 <a id="8-due-diligence-un-fondo-analiza-invertir-us5-millones"></a>
 
-## 8. Due diligence: un fondo analiza invertir US$5 millones
+## 🔎 8. Due diligence: un fondo analiza invertir US$5 millones
 
-### Regla pedagógica
+### 🎓 Regla pedagógica
 
 El docente entrega una ronda a la vez. El estudiante registra en cada etapa:
 
@@ -302,7 +371,19 @@ condiciones precedentes | covenants | controles | decisión: invertir / pausar /
 No se permite reescribir la evaluación anterior: se conserva el historial para observar cómo una
 nueva evidencia cambia la decisión.
 
-### Ronda 1 — solo indicadores positivos
+```mermaid
+flowchart LR
+    R1["1️⃣ Tracción<br/>solo positivos"] --> R2["2️⃣ Dependencias<br/>red externa"]
+    R2 --> R3["3️⃣ Riesgo<br/>marketing y FDA"]
+    R3 --> R4["4️⃣ Contraste<br/>respuesta y vacíos"]
+    R4 --> D{"💰 Decisión"}
+    D --> I["✅ Invertir"]
+    D --> P["⏸️ Pausar"]
+    D --> E["🔐 Escrow / hitos"]
+    D --> X["🚪 Retirarse"]
+```
+
+### 1️⃣ Ronda 1 — solo indicadores positivos
 
 Entrega inicial al comité:
 
@@ -327,7 +408,7 @@ Preguntas del estudiante:
 5. ¿Qué múltiplo usarías si la cifra 2026 es escenario y no resultado?
 6. ¿Qué uso de fondos justifica US$5 millones en una empresa rentable?
 
-### Ronda 2 — revelar dependencias
+### 2️⃣ Ronda 2 — revelar dependencias
 
 Nueva información:
 
@@ -345,7 +426,7 @@ Recalcular:
 - key-person risk y descuento de control;
 - condiciones precedentes: contratos, SLA, auditoría, seguros, continuidad y step-in rights.
 
-### Ronda 3 — revelar marketing y regulación
+### 3️⃣ Ronda 3 — revelar marketing y regulación
 
 Nueva información:
 
@@ -365,7 +446,7 @@ Recalcular:
 - descuento reputacional y riesgo de plataforma;
 - condición de inversión: cierre documentado de hallazgos críticos antes del desembolso.
 
-### Ronda 4 — revelar respuesta de MEDVi y preguntas abiertas
+### 4️⃣ Ronda 4 — revelar respuesta de MEDVi y preguntas abiertas
 
 Nueva información:
 
@@ -390,7 +471,7 @@ Documentos que el fondo debe pedir antes de decidir:
 9. plan de sustitución de proveedor y prueba de ausencia del fundador;
 10. actas o evidencia del órgano que aprueba productos, claims y expansión.
 
-### Opciones de decisión
+### 🧭 Opciones de decisión
 
 | Decisión | Cuándo sería defendible | Condiciones |
 |---|---|---|
@@ -399,7 +480,7 @@ Documentos que el fondo debe pedir antes de decidir:
 | **Invertir con escrow o milestone** | Si la expansión requiere capital pero el riesgo es corregible y medible | Capital liberado al cerrar claims, proveedores, continuidad y gobierno |
 | **Retirarse** | Si la tesis depende de prácticas no repetibles legalmente, evidencia inconsistente o concentración no corregible | Documentar motivos y condiciones que tendrían que cambiar para reconsiderar |
 
-### Rúbrica del ejercicio
+### 🧮 Rúbrica del ejercicio
 
 | Criterio | Insuficiente | Competente | Excelente |
 |---|---|---|---|
@@ -411,7 +492,7 @@ Documentos que el fondo debe pedir antes de decidir:
 
 <a id="9-crisis-reputacion-y-respuesta"></a>
 
-## 9. Crisis, reputación y respuesta
+## 🚨 9. Crisis, reputación y respuesta
 
 El comité debe producir un tablero de cinco columnas antes de emitir un comunicado:
 
@@ -423,6 +504,17 @@ El comité debe producir un tablero de cinco columnas antes de emitir un comunic
 
 Secuencia de respuesta responsable:
 
+```mermaid
+flowchart LR
+    S1["🛑 Detener"] --> S2["🗄️ Preservar evidencia"]
+    S2 --> S3["🔍 Verificar alcance"]
+    S3 --> S4["🩺 Proteger pacientes"]
+    S4 --> S5["🏛️ Informar"]
+    S5 --> S6["📣 Comunicar"]
+    S6 --> S7["🧪 Probar corrección"]
+    S7 --> S8["✅ Cerrar con evidencia"]
+```
+
 1. detener la pieza o flujo potencialmente dañino sin destruir evidencia;
 2. preservar versiones, prompts, logs, aprobaciones, contratos y comunicaciones;
 3. verificar identidad del cliente, profesional, farmacia y lote afectados;
@@ -432,65 +524,65 @@ Secuencia de respuesta responsable:
 7. probar que la corrección funciona y no solo que el contenido fue retirado;
 8. publicar un cierre verificable cuando exista.
 
-## 10. Pregunta central y cierre
+## 🧠 10. Pregunta central y cierre
 
-### ¿Qué hizo MEDVi extraordinariamente bien?
+### 🚀 ¿Qué hizo MEDVi extraordinariamente bien?
 
 Comprimió capital, tiempo y nómina propia; integró herramientas de IA y proveedores; capturó una
 ventana de mercado; convirtió capacidades externas en una operación de gran escala; y mostró la
 productividad que puede alcanzar un fundador técnicamente competente.
 
-### ¿Qué hizo mal o qué quedó insuficientemente controlado?
+### ⚠️ ¿Qué hizo mal o qué quedó insuficientemente controlado?
 
 La evidencia pública apunta a un crecimiento más rápido que el gobierno de claims, afiliados,
 contenido sintético, atención automatizada y responsabilidad sobre terceros. La carta FDA
 documenta problemas concretos de presentación y publicidad. Las demás controversias deben
 mantenerse como alegaciones atribuidas hasta contar con evidencia o decisión competente.
 
-### ¿Qué permitió realmente la IA?
+### 🤖 ¿Qué permitió realmente la IA?
 
 Código, integración, contenidos, experimentación, soporte y análisis a velocidad y costo muy bajos.
 No creó licencias, criterio clínico, calidad farmacéutica, cumplimiento ni responsabilidad.
 
-### ¿Qué permitió realmente el outsourcing?
+### 🧩 ¿Qué permitió realmente el outsourcing?
 
 Comprar una empresa extendida sin incorporarla a la nómina. Permitió escala, pero creó dependencia,
 asimetría de información y necesidad de supervisión contractual y operativa.
 
-### ¿Qué riesgos quedaron ocultos por la métrica “dos empleados”?
+### 🕳️ ¿Qué riesgos quedaron ocultos por la métrica “dos empleados”?
 
 El costo y trabajo de terceros, concentración del fundador, vendor lock-in, control de afiliados,
 calidad de claims, continuidad clínica y farmacéutica, acceso a evidencia y responsabilidad frente
 al cliente.
 
-### ¿Qué controles debieron crecer junto con la empresa?
+### 🛡️ ¿Qué controles debieron crecer junto con la empresa?
 
 Gobierno de producto y claims, aprobación humana, monitoreo de afiliados, QA del chatbot, due
 diligence de proveedores, trazabilidad por orden, farmacovigilancia, continuidad, segregación de
 permisos, comité de riesgo y capacidad de responder a autoridades.
 
-### ¿Qué es replicable?
+### ✅ ¿Qué es replicable?
 
 Prototipado rápido, integración de herramientas, estructura variable, foco del fundador,
 experimentación disciplinada y compra de capacidad especializada con evidencia.
 
-### ¿Qué no debería replicarse?
+### 🚫 ¿Qué no debería replicarse?
 
 Publicar antes de verificar claims, usar material sintético ambiguo, tratar la corrección posterior
 como control suficiente, presentar la nómina como toda la organización o delegar responsabilidad a
 un bot, agencia, afiliado o proveedor.
 
-### ¿Quién mantiene la responsabilidad cuando la ejecución está automatizada?
+### ⚖️ ¿Quién mantiene la responsabilidad cuando la ejecución está automatizada?
 
 La persona u órgano que decide desplegar el sistema y la empresa que obtiene el beneficio deben
 asignar y ejercer control. Los profesionales y proveedores conservan deberes propios. Una cadena con
 muchos ejecutores exige más claridad de responsabilidad, no menos.
 
-## Fuentes y fecha de consulta
+## 📚 Fuentes y fecha de consulta
 
 Todas las fuentes fueron consultadas el **04-10-2026**.
 
-### Fuentes primarias y corporativas
+### 🏛️ Fuentes primarias y corporativas
 
 - [FDA — MEDVi, LLC dba MEDVi, Warning Letter MARCS-CMS 721455](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026). Fuente primaria de destinatario, fecha, dominio revisado, claims, calificación y respuesta requerida.
 - [FDA — Compounding and the FDA: Questions and Answers](https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers). Fuente primaria para distinguir aprobado, genérico y compounded.
@@ -498,13 +590,13 @@ Todas las fuentes fueron consultadas el **04-10-2026**.
 - [FDA — Concerns with Unapproved GLP-1 Drugs Used for Weight Loss](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss). Contexto de riesgo, claims, dosificación, almacenamiento y mercado fraudulento; no se usa para atribuir a MEDVi hechos que la página no le atribuye.
 - [MEDVi — Official Communication, 8 April 2026](https://home.medvi.org/communication). Versión corporativa sobre FDA, afiliados, publicidad y proveedores; no es confirmación independiente.
 
-### Periodismo reconocido y contraste
+### 📰 Periodismo reconocido y contraste
 
 - [The New York Times — A $1.8 Billion Company With Two Employees? AI Made It Possible, republicado por GV Wire](https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/). Fuente del modelo, herramientas, proveedores y cifras; distingue revisión del medio, declaración del fundador y proyección.
 - [Futurism — Look Out for AI-Generated Ozempic!, 29 May 2025](https://futurism.com/medvi-ai-ozempic). Investigación sobre marketing; sus conclusiones se mantienen como hallazgos periodísticos atribuidos.
 - [Futurism — MEDVi responds after allegations, 9 April 2026](https://futurism.com/artificial-intelligence/ai-drug-marketer-medvi-responds). Contrasta la respuesta corporativa con la carta FDA y archivos web; no sustituye a la fuente regulatoria.
 
-## Preguntas de comité
+## 🎓 Preguntas de comité
 
 - ¿Qué afirmación del caso cambiaría más tu valoración si resultara falsa?
 - ¿Qué parte de los US$65 millones de beneficio debe provisionarse para controles y contingencias?
