@@ -161,21 +161,21 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
 
 **U.S. Food and Drug Administration — MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455**  
-<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-10-04
+<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-11-01
 
 - *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
 - *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
 - *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
 
 **Futurism · investigación periodística — Look Out for AI-Generated Ozempic!**  
-<https://futurism.com/medvi-ai-ozempic> · verificado 2026-10-04
+<https://futurism.com/medvi-ai-ozempic> · verificado 2026-11-01
 
 - *Qué contiene:* Investigación publicada el 29 de mayo de 2025 sobre imágenes de pacientes, anuncios, logos de medios, testimonios y profesionales presentados en el sitio de MEDVi, con metodología y ejemplos rastreados.
 - *Cómo leerla:* Atribuye cada hallazgo al medio y conserva la diferencia entre evidencia reproducida, inferencia periodística y acusación de terceros. Contrástala con la respuesta posterior de MEDVi y con la actuación primaria de FDA.
 - *Uso en esta clase:* aporta el marco de «Look Out for AI-Generated Ozempic!» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
 
 **MEDVi · versión corporativa — MEDVi statement in response to external speculation**  
-<https://home.medvi.org/communication> · verificado 2026-10-04
+<https://home.medvi.org/communication> · verificado 2026-11-01
 
 - *Qué contiene:* Declaración corporativa del 8 de abril de 2026 sobre la carta FDA, un supuesto sitio de afiliado, publicidad con posibles médicos generados por IA, correcciones y estructura de proveedores clínicos y farmacias.
 - *Cómo leerla:* Trátala como la versión de MEDVi, no como verificación independiente. Contrasta cada afirmación con el destinatario y contenido de la carta FDA, archivos del sitio, contratos, responsables y evidencia de las medidas correctivas.
