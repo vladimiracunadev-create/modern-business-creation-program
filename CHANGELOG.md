@@ -44,8 +44,8 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 - Se documentan el uso comercial, las marcas, los componentes de terceros y el historial de la
   transición, preservando las concesiones MIT de las revisiones publicadas hasta `c8a17b9`.
 - El README, las contribuciones y el manual generado muestran el nuevo alcance de forma expresa.
-- `pypdf` se actualiza a 6.19.0 para corregir las alertas vigentes detectadas por `pip-audit`
-  en el workflow de seguridad.
+- `pypdf` se actualiza a 6.21.4 (antes 6.19.0) para cerrar las 18 alertas que `pip-audit` volvió a
+  reportar en el workflow de seguridad.
 - El workflow mensual de fuentes conserva la rama y emite una advertencia, en vez de fallar,
   cuando la configuración del repositorio impide que GitHub Actions cree el PR automático.
 
