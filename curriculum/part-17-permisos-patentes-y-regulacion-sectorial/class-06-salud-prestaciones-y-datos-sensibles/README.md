@@ -62,6 +62,7 @@ La ficha clínica tiene reglas propias de acceso, conservación y entrega, y los
 - Código Sanitario y DS 977 Reglamento Sanitario de los Alimentos
 - Ley 19.300 sobre bases generales del medio ambiente
 - Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT
+- Ley 21.850, art. 29: franquicia SENCE de 0,7 %, tramos de 80, 50 y 15 % y exclusión de la autoinstrucción sin tutor ni evaluación
 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
@@ -146,14 +147,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos**  
-<https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> · verificado 2026-08-19
+<https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> · verificado 2026-11-05
 
 - *Qué contiene:* Detalla qué establecimientos requieren autorización sanitaria, qué antecedentes se presentan, qué condiciones de planta física se exigen y cuál es la vigencia del permiso.
 - *Cómo leerla:* Léela antes de firmar el arriendo, no después: las exigencias de planta física —separación de áreas, superficies lavables, agua potable— se resuelven en el diseño y se vuelven carísimas de corregir sobre un local ya construido.
 - *Uso en esta clase:* aporta el marco de «Autorización sanitaria de alimentos» para determinar las autorizaciones y las obligaciones de datos que aplican al servicio de salud.
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+<https://www.bcn.cl/leychile/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.

@@ -62,6 +62,7 @@ La inscripción es además requisito para acceder a programas de promoción y pa
 - Código Sanitario y DS 977 Reglamento Sanitario de los Alimentos
 - Ley 19.300 sobre bases generales del medio ambiente
 - Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT
+- Ley 21.850, art. 29: franquicia SENCE de 0,7 %, tramos de 80, 50 y 15 % y exclusión de la autoinstrucción sin tutor ni evaluación
 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
@@ -146,7 +147,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio Nacional de Turismo — Registro de prestadores de servicios turísticos**  
-<https://www.sernatur.cl/> · verificado 2026-09-01
+<https://www.sernatur.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Administra el registro obligatorio de prestadores de servicios turísticos, las categorías de servicio y las normas técnicas aplicables, en particular al turismo aventura.
 - *Cómo leerla:* Si tu actividad es turismo aventura, ve directo a las normas técnicas de seguridad: definen personal, equipamiento y procedimientos, y su incumplimiento es el riesgo mayor del modelo.

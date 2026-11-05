@@ -61,6 +61,7 @@ Usarlo como capital de trabajo produce la crisis más común y más evitable de 
 - Código Tributario (DL 830)
 - Ley 21.210 de modernización tributaria y Ley 21.713 de cumplimiento tributario
 - regímenes Pro Pyme General (14 D N°3), Pro Pyme Transparente (14 D N°8) y Semi Integrado (14 A)
+- Ley 21.850 (17-10-2026): tasa de Primera Categoría de 27 % a 23 % entre 2026 y 2029, fin de la restitución del crédito por IDPC y cruce de datos del SII
 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
@@ -145,14 +146,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Registro de Compras y Ventas**  
-<https://www.sii.cl/destacados/f29/registrocompraventas.htm> · verificado 2026-09-01
+<https://www.sii.cl/destacados/f29/registrocompraventas.htm> · verificado 2026-11-05
 
 - *Qué contiene:* Explica cómo el SII consolida los documentos tributarios electrónicos recibidos y emitidos, y cómo esa consolidación propone la declaración mensual de IVA.
 - *Cómo leerla:* Fíjate en los plazos de aceptación o reclamo de una factura recibida: la página los trata como un detalle operativo, pero dejarlos vencer equivale a aceptar la factura con efecto tributario y mérito ejecutivo.
 - *Uso en esta clase:* aporta el marco de «Registro de Compras y Ventas» para determinar la afectación a IVA de cada línea y separar el IVA recaudado de la caja operativa.
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+<https://www.bcn.cl/leychile/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.

@@ -22,20 +22,20 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Entregables definidos | 336 |
 | Criterios de aceptación específicos | 336 conjuntos |
 | Narrativas de parte | 24 |
-| Manuales transversales (`docs/`) | 20 |
+| Manuales transversales (`docs/`) | 21 |
 | Casos empresariales y sectoriales (`case-studies/`) | 21 (20 líneas de negocio + MEDVi transversal) |
 | Plantillas operativas (`templates/`) | 24 |
-| Fuentes en el registro | 46 (44 citadas · 40 verificadas · 6 pendientes) |
-| Cuerpos normativos mapeados | 53 |
-| Revalidación de fuentes | por fuente (`accessed` en `sources/bibliography.json`); última pasada 2026-09-01 |
+| Fuentes en el registro | 48 (46 citadas · 45 verificadas · 3 pendientes) |
+| Cuerpos normativos mapeados | 54 |
+| Revalidación de fuentes | por fuente (`accessed` en `sources/bibliography.json`); última pasada 2026-11-05 |
 
 ## Publicación
 
 | Superficie | Valor |
 |---|---:|
-| Páginas del sitio HTML | 428 |
+| Páginas del sitio HTML | 429 |
 | Enlaces internos verificados en el sitio | todos los enlaces relativos generados |
-| Manual integral en PDF | 1.569 páginas · ~4,1 MB |
+| Manual integral en PDF | 1.582 páginas · ~4,1 MB |
 | PDF por parte | 24 · ~63 páginas cada uno |
 | Workflows de CI | 4 |
 | Dependencias de terceros | 2, fijadas a versión exacta |
@@ -56,7 +56,7 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | `scripts/generar_clases.py --check` | que ningún README de clase o parte, ni `CURRICULUM.md`, ni el glosario, ni el bloque de partes del README estén desincronizados respecto de su manifiesto, y que no queden carpetas huérfanas |
 | `scripts/validar_estructura.py` | coherencia de manifiestos, existencia de las 336 clases, las 13 secciones obligatorias por clase y las 9 de cada parte, presencia del diagrama, todos los enlaces relativos y que las fuentes sean https |
 | `scripts/validar_encoding.py` | UTF-8 sin BOM y sin mojibake, por round-trip cp1252 en vez de lista de secuencias |
-| `scripts/generar_sitio.py` | que las 428 páginas de contenido compilen y que ninguno de sus enlaces internos rompa |
+| `scripts/generar_sitio.py` | que las 429 páginas de contenido compilen y que ninguno de sus enlaces internos rompa |
 | `scripts/generar_manual.py` | que el manual compile y que la portada y el número de páginas sean los esperados |
 | `markdownlint-cli2` | Markdown estructuralmente válido en todo el repositorio |
 | `python -m unittest discover -s tests` | 37 pruebas de currículo, manifiestos, pedagogía, fuentes, etapas, sincronía, expediente de viabilidad e integración MEDVi |
@@ -94,4 +94,5 @@ El CI verifica estructura, sincronía, codificación, enlaces y que los artefact
 fuente oficial. Las partes marcadas como `DINAMICO` cambian por definición, y el resto envejece
 con cada reforma.
 
-Última revisión manual de la base normativa: **2026-08-07**.
+Última revisión manual de la base normativa: **2026-08-07**; la Ley 21.850 se incorporó el
+**2026-11-05** (texto del Diario Oficial) con circulares del SII pendientes.

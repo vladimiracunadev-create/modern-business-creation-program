@@ -62,6 +62,7 @@ Revender conectividad o instalar redes para clientes puede exigir permiso o conc
 - Código Sanitario y DS 977 Reglamento Sanitario de los Alimentos
 - Ley 19.300 sobre bases generales del medio ambiente
 - Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT
+- Ley 21.850, art. 29: franquicia SENCE de 0,7 %, tramos de 80, 50 y 15 % y exclusión de la autoinstrucción sin tutor ni evaluación
 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
@@ -146,7 +147,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Subsecretaría de Telecomunicaciones — Concesiones y permisos de telecomunicaciones**  
-<https://www.subtel.gob.cl/> · verificado 2026-09-01
+<https://www.subtel.gob.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Detalla qué servicios de telecomunicaciones requieren concesión, permiso o licencia, y el procedimiento y plazos de cada figura.
 - *Cómo leerla:* Califica tu servicio por su naturaleza técnica, no por cómo lo llamas comercialmente. Revender conectividad o instalar redes para terceros suele exigir habilitación aunque el negocio se presente como servicio digital.

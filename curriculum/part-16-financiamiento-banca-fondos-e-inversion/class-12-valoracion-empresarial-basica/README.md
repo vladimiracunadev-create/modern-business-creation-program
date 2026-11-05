@@ -144,21 +144,21 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Corporación de Fomento de la Producción — Innovación, inversión y garantías**  
-<https://www.corfo.cl/> · verificado 2026-09-01
+<https://www.corfo.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para estimar el valor de la empresa e identificar qué lo deprime.
 
 **Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas**  
-<https://www.sercotec.cl/> · verificado 2026-08-19
+<https://www.sercotec.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para estimar el valor de la empresa e identificar qué lo deprime.
 
 **Start-Up Chile · CORFO — Aceleración de startups**  
-<https://startupchile.org/> · verificado 2026-09-01
+<https://startupchile.org/> · verificado 2026-11-05
 
 - *Qué contiene:* Describe los programas de aceleración, sus cohortes, el aporte que entregan y las contrapartidas exigidas en permanencia, reporte y actividades.
 - *Cómo leerla:* Evalúa el programa por la red y la validación que aporta, no por el monto. La contrapartida de permanencia tiene costo operativo real y debe compararse contra lo que la empresa necesita en su etapa.

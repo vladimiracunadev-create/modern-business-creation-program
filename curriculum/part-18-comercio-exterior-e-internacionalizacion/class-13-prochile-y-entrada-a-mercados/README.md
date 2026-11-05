@@ -61,6 +61,7 @@ Los estudios de mercado por país de ProChile entregan tamaño, canales, compete
 - DL 825 en materia de exportación de bienes y servicios y recuperación de IVA exportador
 - convenios para evitar la doble tributación suscritos por Chile
 - Incoterms de la Cámara de Comercio Internacional
+- Ley 21.850, art. 33 ter: crédito para servicios calificados como exportación por el Servicio Nacional de Aduanas, con tope de 75 UTM por trabajador
 
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
@@ -145,14 +146,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **ProChile — Programas, estudios de mercado y promoción**  
-<https://www.prochile.gob.cl/> · verificado 2026-09-01
+<https://www.prochile.gob.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para definir el mercado objetivo y la estrategia de entrada con apoyo institucional.
 
 **ProChile — Exportación de servicios**  
-<https://www.prochile.gob.cl/exportadores/exportacion-de-servicios> · verificado 2026-08-07
+<https://www.prochile.gob.cl/sectores-exportadores/servicios> · verificado 2026-11-05
 
 - *Qué contiene:* Explica qué se entiende por exportación de servicios, qué condiciones deben cumplirse para acceder al tratamiento tributario correspondiente y qué documentación de respaldo se exige.
 - *Cómo leerla:* Contrástala siempre con la resolución del SII aplicable: ProChile explica el concepto y el mercado, pero la calificación que habilita el tratamiento de IVA la resuelve la normativa tributaria.

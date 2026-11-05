@@ -145,7 +145,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Registro de Empresas y Sociedades / ChileAtiende — Constitución de empresas**  
-<https://www.chileatiende.gob.cl/fichas/21409-tu-empresa> · verificado 2026-08-19
+<https://www.chileatiende.gob.cl/fichas/21409-tu-empresa> · verificado 2026-11-05
 
 - *Qué contiene:* Describe el régimen simplificado de la Ley 20.659: qué tipos societarios admite el formulario electrónico, quiénes deben firmar, qué documentos entrega el sistema y cómo se hacen después las modificaciones.
 - *Cómo leerla:* Entra por el tipo societario que ya elegiste, no al revés. La ficha dice qué campos pide el formulario; si tu estatuto necesita una cláusula que el formulario no soporta, la respuesta es la ruta notarial.

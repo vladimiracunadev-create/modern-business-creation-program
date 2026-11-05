@@ -61,6 +61,7 @@ Arancel, IVA de importación, flete, seguro, almacenaje y honorarios del agente 
 - DL 825 en materia de exportación de bienes y servicios y recuperación de IVA exportador
 - convenios para evitar la doble tributación suscritos por Chile
 - Incoterms de la Cámara de Comercio Internacional
+- Ley 21.850, art. 33 ter: crédito para servicios calificados como exportación por el Servicio Nacional de Aduanas, con tope de 75 UTM por trabajador
 
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
@@ -145,14 +146,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria**  
-<https://www.aduana.cl/> · verificado 2026-08-19
+<https://www.aduana.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica el arancel aduanero con la clasificación del Sistema Armonizado, los regímenes de importación y exportación, la documentación exigida y las estadísticas de comercio exterior.
 - *Cómo leerla:* La partida arancelaria decide arancel, certificaciones y acuerdos aplicables. Ante duda, usa el mecanismo de consulta de clasificación en vez de decidir por parecido de nombre: el error se paga en diferencias y multas.
 - *Uso en esta clase:* aporta el marco de «Importación, exportación y clasificación arancelaria» para calcular el costo total de internación antes de comprometer una importación.
 
 **Sistema Integrado de Comercio Exterior — Ventanilla única de comercio exterior**  
-<https://www.sicexchile.cl/> · verificado 2026-08-19
+<https://www.sicexchile.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Integra en una sola plataforma los trámites de los servicios que intervienen en una operación de comercio exterior, con el estado de cada visación.
 - *Cómo leerla:* Úsala para descubrir qué servicios intervienen en tu producto antes de embarcar. La mercancía detenida en puerto esperando una visación es el costo típico de no haber hecho esta consulta a tiempo.

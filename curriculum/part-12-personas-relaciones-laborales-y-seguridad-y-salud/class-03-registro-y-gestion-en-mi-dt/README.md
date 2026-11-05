@@ -62,6 +62,7 @@ Registrar fuera de plazo deja constancia del retraso, de modo que el uso incorre
 - Ley 21.643 (Ley Karin) sobre acoso laboral, sexual y violencia en el trabajo
 - Ley 16.744 sobre accidentes del trabajo y enfermedades profesionales y DS 44 de gestión preventiva
 - Ley 20.123 sobre subcontratación y servicios transitorios
+- Ley 21.850, art. 33 ter de la Ley sobre Impuesto a la Renta: crédito por remuneraciones en servicios del conocimiento exportados, incompatible con otras franquicias basadas en remuneraciones
 
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
@@ -146,7 +147,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
-<https://www.dt.gob.cl/> · verificado 2026-09-01
+<https://www.dt.gob.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.

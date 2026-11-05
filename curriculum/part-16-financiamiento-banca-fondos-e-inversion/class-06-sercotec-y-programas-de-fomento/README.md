@@ -144,7 +144,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas**  
-<https://www.sercotec.cl/> · verificado 2026-08-19
+<https://www.sercotec.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.

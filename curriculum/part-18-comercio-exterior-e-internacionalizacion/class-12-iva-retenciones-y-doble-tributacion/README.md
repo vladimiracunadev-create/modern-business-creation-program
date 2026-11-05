@@ -61,6 +61,7 @@ Si existe convenio vigente con el país de origen del pago, la retención se red
 - DL 825 en materia de exportación de bienes y servicios y recuperación de IVA exportador
 - convenios para evitar la doble tributación suscritos por Chile
 - Incoterms de la Cámara de Comercio Internacional
+- Ley 21.850, art. 33 ter: crédito para servicios calificados como exportación por el Servicio Nacional de Aduanas, con tope de 75 UTM por trabajador
 
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
@@ -145,14 +146,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-11-05
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para determinar el tratamiento tributario de los flujos internacionales antes de facturar.
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+<https://www.bcn.cl/leychile/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.

@@ -69,12 +69,12 @@ responsable y qué evidencia debe quedar**.
 | Conceptos definidos | ✅ 1.344 definiciones operacionales · glosario maestro de 1.251 términos |
 | Preguntas de comprobación | ✅ 1.008 (3 por clase) |
 | Marco normativo | ✅ 24 paquetes de parte con narrativa, normas, autoridades, riesgos y bibliografía |
-| Manuales transversales | ✅ 20 documentos en `docs/` |
+| Manuales transversales | ✅ 21 documentos en `docs/` |
 | Casos empresariales y sectoriales | ✅ 20 líneas de negocio + caso transversal MEDVi |
 | Plantillas operativas | ✅ 24 artefactos editables, incluido el expediente progresivo de viabilidad |
 | Fuentes registradas | ✅ fuente primaria, corporativa o periodística identificada con localizador, uso y fecha — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
-| Manual en PDF | ✅ 1.569 páginas + 24 PDF por parte |
-| Sitio HTML | ✅ 428 páginas de contenido con buscador, diagramas y tema claro/oscuro |
+| Manual en PDF | ✅ 1.582 páginas + 24 PDF por parte |
+| Sitio HTML | ✅ 429 páginas de contenido con buscador, diagramas y tema claro/oscuro |
 | CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
 | Licencias | ✅ MIT para código · CC BY-NC-SA 4.0 para contenido original |
 
@@ -83,7 +83,7 @@ Detalle completo en [`STATUS.md`](STATUS.md).
 <!-- fuentes:inicio -->
 ## 🔗 Fuentes y revalidación
 
-![Fuentes revalidadas](https://img.shields.io/badge/fuentes%20revalidadas-2026--09--01-blue)
+![Fuentes revalidadas](https://img.shields.io/badge/fuentes%20revalidadas-2026--11--05-blue)
 
 Toda afirmación del programa se apoya en una entrada del registro
 [`sources/bibliography.json`](sources/bibliography.json), que declara para cada fuente su
@@ -96,73 +96,65 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 
 | Fuente | Organismo | Citas | Estado | Resolvió |
 |---|---|---:|:---:|---|
-| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 248 | ✅ | 2026-09-01 |
-| [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 100 | ✅ | 2026-09-01 |
-| [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 62 | ✅ | 2026-09-01 |
-| [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 51 | ✅ | 2026-09-01 |
-| [Relaciones laborales y obligaciones del empleador](https://www.dt.gob.cl/) | Dirección del Trabajo | 43 | ✅ | 2026-09-01 |
-| [Constitución de empresas](https://www.chileatiende.gob.cl/fichas/21409-tu-empresa) | Registro de Empresas y Sociedades / ChileAtiende | 32 | ⚠️ | 2026-08-19 |
-| [Fomento para micro y pequeñas empresas](https://www.sercotec.cl/) | Servicio de Cooperación Técnica | 31 | ⚠️ | 2026-08-19 |
-| [Autorización sanitaria de alimentos](https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos) | ChileAtiende · Autoridad Sanitaria Regional | 24 | ⚠️ | 2026-08-19 |
-| [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 24 | ✅ | 2026-09-01 |
-| [Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social](https://www.bcn.cl/leychile/navegar?idNorma=1229250) | Biblioteca del Congreso Nacional · LeyChile | 15 | ⚠️ | 2026-11-05 |
-| [Registro de Prestadores de Servicios Financieros · Ley 21.521](https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html) | Comisión para el Mercado Financiero | 15 | ✅ | 2026-09-01 |
+| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 248 | ✅ | 2026-11-05 |
+| [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 100 | ✅ | 2026-11-05 |
+| [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 62 | ✅ | 2026-11-05 |
+| [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 51 | ✅ | 2026-11-05 |
+| [Relaciones laborales y obligaciones del empleador](https://www.dt.gob.cl/) | Dirección del Trabajo | 43 | ✅ | 2026-11-05 |
+| [Constitución de empresas](https://www.chileatiende.gob.cl/fichas/21409-tu-empresa) | Registro de Empresas y Sociedades / ChileAtiende | 32 | ✅ | 2026-11-05 |
+| [Fomento para micro y pequeñas empresas](https://www.sercotec.cl/) | Servicio de Cooperación Técnica | 31 | ✅ | 2026-11-05 |
+| [Autorización sanitaria de alimentos](https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos) | ChileAtiende · Autoridad Sanitaria Regional | 24 | ✅ | 2026-11-05 |
+| [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 24 | ✅ | 2026-11-05 |
+| [Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social](https://www.bcn.cl/leychile/navegar?idNorma=1229250) | Biblioteca del Congreso Nacional · LeyChile | 15 | ✅ | 2026-11-05 |
+| [Registro de Prestadores de Servicios Financieros · Ley 21.521](https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html) | Comisión para el Mercado Financiero | 15 | ✅ | 2026-11-05 |
 | [Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)](https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf) | Diario Oficial de la República de Chile | 15 | ✅ | 2026-11-05 |
-| [Programas, estudios de mercado y promoción](https://www.prochile.gob.cl/) | ProChile | 15 | ✅ | 2026-09-01 |
-| [Marcas, patentes y diseños industriales](https://www.inapi.cl/) | Instituto Nacional de Propiedad Industrial | 14 | ✅ | 2026-09-01 |
-| [Regímenes tributarios · Operación Renta 2026](https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/) | Servicio de Impuestos Internos | 14 | ✅ | 2026-09-01 |
-| [Importación, exportación y clasificación arancelaria](https://www.aduana.cl/) | Servicio Nacional de Aduanas | 9 | ⚠️ | 2026-08-19 |
-| [MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026) | U.S. Food and Drug Administration | 9 | ✅ | 2026-10-04 |
-| [FTX y Alameda: condena y sentencia de Samuel Bankman-Fried](https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes) | Departamento de Justicia de Estados Unidos | 7 | ✅ | 2026-09-28 |
-| [Sujetos obligados · Ley 19.913](https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar) | Unidad de Análisis Financiero | 7 | ✅ | 2026-09-01 |
-| [MEDVi statement in response to external speculation](https://home.medvi.org/communication) | MEDVi · versión corporativa | 6 | ✅ | 2026-10-04 |
-| [Exportación de servicios](https://www.prochile.gob.cl/exportadores/exportacion-de-servicios) | ProChile | 6 | ⚠️ | 2026-08-07 |
-| [OTEC, franquicia tributaria y cursos](https://sence.gob.cl/) | Servicio Nacional de Capacitación y Empleo | 6 | ✅ | 2026-09-01 |
-| [Registro de prestadores de servicios turísticos](https://www.sernatur.cl/) | Servicio Nacional de Turismo | 6 | ✅ | 2026-09-01 |
-| [Instalaciones eléctricas y de gas](https://www.sec.cl/) | Superintendencia de Electricidad y Combustibles | 6 | ✅ | 2026-09-01 |
-| [A $1.8 Billion Company With Two Employees? AI Made It Possible](https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/) | The New York Times · republicado por GV Wire | 6 | ✅ | 2026-10-04 |
-| [Reformas posteriores a Madoff sobre custodia y verificación independiente](https://www.sec.gov/spotlight/secpostmadoffreforms.htm) | U.S. Securities and Exchange Commission | 6 | ✅ | 2026-09-28 |
-| [Celsius: declaración de culpabilidad y sentencia del fundador](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-09-28 |
-| [Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon](https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-09-28 |
-| [Registro de Compras y Ventas](https://www.sii.cl/destacados/f29/registrocompraventas.htm) | Servicio de Impuestos Internos | 5 | ✅ | 2026-09-01 |
-| [Sistema de Evaluación de Impacto Ambiental](https://www.sea.gob.cl/) | Servicio de Evaluación Ambiental | 4 | ✅ | 2026-09-01 |
-| [Ventanilla única de comercio exterior](https://www.sicexchile.cl/) | Sistema Integrado de Comercio Exterior | 4 | ⚠️ | 2026-08-19 |
-| [Aceleración de startups](https://startupchile.org/) | Start-Up Chile · CORFO | 4 | ✅ | 2026-09-01 |
-| [Concesiones y permisos de telecomunicaciones](https://www.subtel.gob.cl/) | Subsecretaría de Telecomunicaciones | 4 | ✅ | 2026-09-01 |
-| [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-09-28 |
-| [Look Out for AI-Generated Ozempic!](https://futurism.com/medvi-ai-ozempic) | Futurism · investigación periodística | 3 | ✅ | 2026-10-04 |
-| [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-09-28 |
-| [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-09-01 |
-| [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-09-01 |
-| [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-09-01 |
-| [Fiscalización y sanción ambiental](https://portal.sma.gob.cl/) | Superintendencia del Medio Ambiente | 2 | ✅ | 2026-09-01 |
-| [Compounding and the FDA: Questions and Answers](https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers) | U.S. Food and Drug Administration | 2 | ✅ | 2026-10-04 |
-| [Counterfeit Medicine](https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine) | U.S. Food and Drug Administration | 2 | ✅ | 2026-10-04 |
-| [FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss) | U.S. Food and Drug Administration | 2 | ✅ | 2026-10-04 |
-| [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-09-01 |
-| [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-09-28 |
-| [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-09-01 |
+| [Programas, estudios de mercado y promoción](https://www.prochile.gob.cl/) | ProChile | 15 | ✅ | 2026-11-05 |
+| [Marcas, patentes y diseños industriales](https://www.inapi.cl/) | Instituto Nacional de Propiedad Industrial | 14 | ✅ | 2026-11-05 |
+| [Regímenes tributarios · Operación Renta 2026](https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/) | Servicio de Impuestos Internos | 14 | ✅ | 2026-11-05 |
+| [Importación, exportación y clasificación arancelaria](https://www.aduana.cl/) | Servicio Nacional de Aduanas | 9 | ✅ | 2026-11-05 |
+| [MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026) | U.S. Food and Drug Administration | 9 | ✅ | 2026-11-05 |
+| [FTX y Alameda: condena y sentencia de Samuel Bankman-Fried](https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes) | Departamento de Justicia de Estados Unidos | 7 | ✅ | 2026-11-05 |
+| [Sujetos obligados · Ley 19.913](https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar) | Unidad de Análisis Financiero | 7 | ✅ | 2026-11-05 |
+| [MEDVi statement in response to external speculation](https://home.medvi.org/communication) | MEDVi · versión corporativa | 6 | ✅ | 2026-11-05 |
+| [Exportación de servicios](https://www.prochile.gob.cl/sectores-exportadores/servicios) | ProChile | 6 | ✅ | 2026-11-05 |
+| [OTEC, franquicia tributaria y cursos](https://sence.gob.cl/) | Servicio Nacional de Capacitación y Empleo | 6 | ✅ | 2026-11-05 |
+| [Registro de prestadores de servicios turísticos](https://www.sernatur.cl/) | Servicio Nacional de Turismo | 6 | ✅ | 2026-11-05 |
+| [Instalaciones eléctricas y de gas](https://www.sec.cl/) | Superintendencia de Electricidad y Combustibles | 6 | ✅ | 2026-11-05 |
+| [A $1.8 Billion Company With Two Employees? AI Made It Possible](https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/) | The New York Times · republicado por GV Wire | 6 | ⚠️ | 2026-10-04 |
+| [Reformas posteriores a Madoff sobre custodia y verificación independiente](https://www.sec.gov/spotlight/secpostmadoffreforms.htm) | U.S. Securities and Exchange Commission | 6 | ⚠️ | 2026-09-28 |
+| [Celsius: declaración de culpabilidad y sentencia del fundador](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-11-05 |
+| [Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon](https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-11-05 |
+| [Registro de Compras y Ventas](https://www.sii.cl/destacados/f29/registrocompraventas.htm) | Servicio de Impuestos Internos | 5 | ✅ | 2026-11-05 |
+| [Sistema de Evaluación de Impacto Ambiental](https://www.sea.gob.cl/) | Servicio de Evaluación Ambiental | 4 | ✅ | 2026-11-05 |
+| [Ventanilla única de comercio exterior](https://www.sicexchile.cl/) | Sistema Integrado de Comercio Exterior | 4 | ✅ | 2026-11-05 |
+| [Aceleración de startups](https://startupchile.org/) | Start-Up Chile · CORFO | 4 | ✅ | 2026-11-05 |
+| [Concesiones y permisos de telecomunicaciones](https://www.subtel.gob.cl/) | Subsecretaría de Telecomunicaciones | 4 | ✅ | 2026-11-05 |
+| [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-11-05 |
+| [Look Out for AI-Generated Ozempic!](https://futurism.com/medvi-ai-ozempic) | Futurism · investigación periodística | 3 | ✅ | 2026-11-05 |
+| [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-11-05 |
+| [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-11-05 |
+| [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-11-05 |
+| [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-11-05 |
+| [Fiscalización y sanción ambiental](https://portal.sma.gob.cl/) | Superintendencia del Medio Ambiente | 2 | ⚠️ | 2026-09-01 |
+| [Compounding and the FDA: Questions and Answers](https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
+| [Counterfeit Medicine](https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
+| [FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
+| [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-11-05 |
+| [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-11-05 |
+| [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-11-05 |
 
-⚠️ **7 fuente(s) no resolvieron en la última pasada:**
+⚠️ **3 fuente(s) no resolvieron en la última pasada:**
 
-- **Registro de Empresas y Sociedades / ChileAtiende — Constitución de empresas** · `2026-09-01: HTTP 403`  
-  Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
-- **Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas** · `2026-09-01: HTTP 301`  
-  Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
-- **ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos** · `2026-09-01: HTTP 403`  
-  Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
-- **Biblioteca del Congreso Nacional · LeyChile — Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social** · `sin detalle`  
-  Sigue citada y conserva su última fecha buena (2026-11-05). No se ha borrado.
-- **Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria** · `2026-09-01: HTTP 403`  
-  Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
-- **ProChile — Exportación de servicios** · `2026-09-01: HTTP 404`  
-  Sigue citada y conserva su última fecha buena (2026-08-07). No se ha borrado.
-- **Sistema Integrado de Comercio Exterior — Ventanilla única de comercio exterior** · `2026-09-01: red: timed out`  
-  Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
+- **The New York Times · republicado por GV Wire — A $1.8 Billion Company With Two Employees? AI Made It Possible** · `2026-11-05: HTTP 403`  
+  Sigue citada y conserva su última fecha buena (2026-10-04). No se ha borrado.
+- **U.S. Securities and Exchange Commission — Reformas posteriores a Madoff sobre custodia y verificación independiente** · `2026-11-05: HTTP 403`  
+  Sigue citada y conserva su última fecha buena (2026-09-28). No se ha borrado.
+- **Superintendencia del Medio Ambiente — Fiscalización y sanción ambiental** · `2026-11-05: red: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)`  
+  Sigue citada y conserva su última fecha buena (2026-09-01). No se ha borrado.
 
 El registro guarda además **2 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
 
-Última revalidación: **2026-09-01** · 39/46 fuentes citadas resolvieron ·
+Última revalidación: **2026-11-05** · 43/46 fuentes citadas resolvieron ·
 336/336 bloques de fuentes distintos, uno por clase.
 
 La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al
@@ -282,9 +274,9 @@ bottleneck*; y una due diligence progresiva para una inversión hipotética de U
 
 | Formato | Contenido | Enlace |
 |---|---|---|
-| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.569 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.582 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
 | PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
-| Sitio HTML | 428 páginas de contenido con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
+| Sitio HTML | 429 páginas de contenido con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
 
 Los PDF se compilan desde el mismo Markdown que publica el sitio, así que nunca divergen del
 contenido del repositorio. Se regeneran en cada publicación con
@@ -344,7 +336,7 @@ Detalle en [`docs/00_MASTER_FLOW.md`](docs/00_MASTER_FLOW.md).
 
 | Carpeta | Contenido |
 |---|---|
-| [`docs/`](docs/) | 20 manuales: flujo maestro, tipos societarios, ciclo SII, matriz legal, permisos, laboral, consumidor y datos, financiamiento, fintech, comercio exterior, compliance, crisis, glosario y watchlist 2026 |
+| [`docs/`](docs/) | 21 manuales: flujo maestro, tipos societarios, ciclo SII, matriz legal, permisos, laboral, consumidor y datos, financiamiento, fintech, comercio exterior, compliance, crisis, glosario, watchlist 2026 y guía de la Ley 21.850 |
 | [`case-studies/`](case-studies/) | 20 líneas de negocio 2026 + caso empresarial transversal MEDVi con expediente de evidencia |
 | [`templates/`](templates/) | 24 artefactos operativos editables: canvas, flujo de caja de 13 semanas, cap table, checklist de constitución, matriz de permisos, registro de riesgos, mapa de datos, data room |
 | [`docs/19_GLOSSARY.md`](docs/19_GLOSSARY.md) | Glosario maestro: 1.250 términos con definición operacional y enlace a la clase donde se introduce |
@@ -362,7 +354,9 @@ Detalle en [`docs/00_MASTER_FLOW.md`](docs/00_MASTER_FLOW.md).
 
 ## 📅 Contexto normativo 2026
 
-El programa está calibrado a la realidad chilena vigente a la **fecha base 07-08-2026**:
+El programa está calibrado a la realidad chilena vigente a la **fecha base 07-08-2026**, con la **Ley 21.850** incorporada el **05-11-2026**:
+
+- **Ley 21.850** de Reconstrucción Nacional (Diario Oficial, 17-10-2026): tasa de Primera Categoría escalonada 27 % → 25,5 % → 24 % → 23 % (2026-2029), fin de la restitución del crédito por IDPC desde 2027, crédito del art. 33 ter por exportación de servicios del conocimiento, franquicia SENCE de 0,7 %, cruce de datos del SII y facilidades de pago de deudas tributarias y municipales. Integrada en 15 clases; guía en [`docs/20`](docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md). Circulares del SII pendientes.
 
 - **Ley 21.719** de protección de datos personales: vigencia el **1 de diciembre de 2026**; la parte 11 trabaja la transición desde la Ley 19.628.
 - **Ley 21.561**: jornada ordinaria de **42 horas semanales desde el 26 de abril de 2026**, camino a 40 horas en 2028.
@@ -420,7 +414,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 🔗 contenido con **fuente citada, explicada y fechada**: cada una dice qué contiene y cómo leerla;
 - 🗺️ **360 diagramas** que muestran el flujo de decisión, no ilustraciones decorativas;
 - 🔍 material **honesto sobre sus límites**: distingue lo verificado de lo dinámico y marca qué revalidar;
-- 📖 material **abierto y offline-friendly**: manual de 1.569 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
+- 📖 material **abierto y offline-friendly**: manual de 1.582 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
 
 </td>
 <td valign="top" width="50%">
@@ -430,7 +424,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 🚫 un atajo para "crear tu empresa en un día": el trámite es una clase de 336, no el programa;
 - 🚫 **asesoría legal, tributaria, contable ni laboral** para un caso concreto;
 - 🚫 una fuente normativa: se cita y se enlaza la ley, no se reproduce ni se reemplaza;
-- 🚫 material atemporal: la fecha base es 07-08-2026 y las partes `DINAMICO` envejecen por diseño;
+- 🚫 material atemporal: la fecha base es 07-08-2026 (con la actualización puntual de la Ley 21.850 al 05-11-2026) y las partes `DINAMICO` envejecen por diseño;
 - 🚫 una promesa de que la empresa funcione: enseña a decidir con evidencia, no garantiza el resultado;
 - 🚫 contenido genérico traducido: las 336 clases están escritas para el ordenamiento chileno.
 

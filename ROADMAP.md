@@ -9,8 +9,8 @@ material complementario.
 - [x] 24 partes y 336 clases generadas desde `manifests/`, sin contenido duplicado entre clases.
 - [x] Contenido propio por clase: 4 conceptos operacionales, desarrollo, decisión habilitada, entregable, errores y criterios de aceptación.
 - [x] 24 paquetes de conocimiento por parte con marco normativo, autoridades, profesionales y riesgos.
-- [x] 20 manuales transversales, 20 casos sectoriales y 24 plantillas operativas.
-- [x] Catálogo de 28 fuentes oficiales con URL https y 53 cuerpos normativos mapeados.
+- [x] 21 manuales transversales, 20 casos sectoriales y 24 plantillas operativas.
+- [x] Registro de 48 fuentes con URL https y 54 cuerpos normativos mapeados.
 - [x] Sitio HTML estático de 421 páginas con buscador de clases y tema claro/oscuro, sin dependencias externas.
 - [x] CI con validación de estructura, enlaces, codificación, sincronía manifiesto–README, markdownlint, build del sitio y tests.
 - [x] Workflow de seguridad con gitleaks, bandit y pip-audit.
@@ -19,7 +19,7 @@ material complementario.
 - [x] Narrativa, mapa visual, glosario y bibliografía en cada una de las 24 partes.
 - [x] Fuentes oficiales con qué contienen y cómo leerlas, no solo el enlace.
 - [x] Glosario maestro de 1.251 términos generado desde los conceptos del currículo.
-- [x] Manual integral en PDF de 1.541 páginas y un PDF por parte, publicados como descarga.
+- [x] Manual integral en PDF de 1.582 páginas y un PDF por parte, publicados como descarga.
 
 ## En curso — v1.2
 

@@ -452,7 +452,11 @@ class IntegracionMedviTest(unittest.TestCase):
         self.assertLessEqual(esperadas, set(registradas))
         for identificador in esperadas:
             with self.subTest(fuente=identificador):
-                self.assertEqual(registradas[identificador]["accessed"], "2026-10-04")
+                # Una revalidación mensual avanza `accessed`; lo que no puede es
+                # quedar vacío, mal formado ni anterior a la consulta original.
+                fecha = registradas[identificador]["accessed"]
+                self.assertRegex(fecha, r"^\d{4}-\d{2}-\d{2}$")
+                self.assertGreaterEqual(fecha, "2026-10-04")
 
 
 

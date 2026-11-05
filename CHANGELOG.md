@@ -15,6 +15,12 @@ Versionado según [SemVer](https://semver.org/lang/es/).
   guía desde un bloque «Actualización normativa»; el generador lo renderiza desde `actualizacion`.
 - Se registran el texto del Diario Oficial y la ficha de LeyChile en el registro de fuentes y la
   ley en la matriz legal; la ficha BCN queda `pendiente` porque no cargó en la consulta automática.
+- El README ("Contexto normativo 2026"), STATUS, ROADMAP y el marco aplicable de las partes 7, 12,
+  17 y 18 incorporan la Ley 21.850; se corrigen cifras vencidas (páginas del manual y del sitio,
+  manuales, fuentes y cuerpos normativos).
+- Se revalida el registro de fuentes (2026-11-05: 45 de 48 resuelven; ProChile pasa a su URL vigente,
+  `sma`, `sec-madoff-controls` y `nyt-medvi-profile` siguen `pendiente` por certificado o bloqueo 403).
+  La prueba de MEDVi deja de fijar la fecha de consulta, que avanza con cada revalidación.
 - Las circulares y resoluciones del SII, el decreto de catálogo de servicios del conocimiento y la
   tasa Pro Pyme posterior a 2027 quedan marcados como pendientes, no como normas aplicables.
 

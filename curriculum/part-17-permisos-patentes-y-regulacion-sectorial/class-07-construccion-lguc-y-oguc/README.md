@@ -62,6 +62,7 @@ Ejecutar sin permiso confiando en regularizar después es una apuesta que puede 
 - Código Sanitario y DS 977 Reglamento Sanitario de los Alimentos
 - Ley 19.300 sobre bases generales del medio ambiente
 - Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT
+- Ley 21.850, art. 29: franquicia SENCE de 0,7 %, tramos de 80, 50 y 15 % y exclusión de la autoinstrucción sin tutor ni evaluación
 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
@@ -146,7 +147,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+<https://www.bcn.cl/leychile/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.

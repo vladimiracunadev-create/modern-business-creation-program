@@ -62,6 +62,7 @@ La franquicia permite a las empresas descontar la capacitación del impuesto, y 
 - Código Sanitario y DS 977 Reglamento Sanitario de los Alimentos
 - Ley 19.300 sobre bases generales del medio ambiente
 - Ley 20.667 y normativa sectorial de SEC, SUBTEL, SERNATUR, SENCE y MTT
+- Ley 21.850, art. 29: franquicia SENCE de 0,7 %, tramos de 80, 50 y 15 % y exclusión de la autoinstrucción sin tutor ni evaluación
 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
@@ -155,7 +156,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio Nacional de Capacitación y Empleo — OTEC, franquicia tributaria y cursos**  
-<https://sence.gob.cl/> · verificado 2026-09-01
+<https://sence.gob.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Regula el reconocimiento de organismos técnicos de capacitación, el registro de cursos y el uso de la franquicia tributaria que permite a las empresas descontar capacitación.
 - *Cómo leerla:* Separa dos decisiones que la página presenta juntas: ser OTEC reconocido y usar la franquicia. La segunda solo existe si tienes la primera, y arrastra exigencias estrictas de registro de asistencia y ejecución.

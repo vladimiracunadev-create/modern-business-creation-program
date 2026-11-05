@@ -61,6 +61,7 @@ Aplicar la exención sin cumplir los requisitos de calificación es una continge
 - DL 825 en materia de exportación de bienes y servicios y recuperación de IVA exportador
 - convenios para evitar la doble tributación suscritos por Chile
 - Incoterms de la Cámara de Comercio Internacional
+- Ley 21.850, art. 33 ter: crédito para servicios calificados como exportación por el Servicio Nacional de Aduanas, con tope de 75 UTM por trabajador
 
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
@@ -154,21 +155,21 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **ProChile — Exportación de servicios**  
-<https://www.prochile.gob.cl/exportadores/exportacion-de-servicios> · verificado 2026-08-07
+<https://www.prochile.gob.cl/sectores-exportadores/servicios> · verificado 2026-11-05
 
 - *Qué contiene:* Explica qué se entiende por exportación de servicios, qué condiciones deben cumplirse para acceder al tratamiento tributario correspondiente y qué documentación de respaldo se exige.
 - *Cómo leerla:* Contrástala siempre con la resolución del SII aplicable: ProChile explica el concepto y el mercado, pero la calificación que habilita el tratamiento de IVA la resuelve la normativa tributaria.
 - *Uso en esta clase:* aporta el marco de «Exportación de servicios» para determinar si el servicio califica como exportación y qué documentación exige.
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-11-05
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para determinar si el servicio califica como exportación y qué documentación exige.
 
 **Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria**  
-<https://www.aduana.cl/> · verificado 2026-08-19
+<https://www.aduana.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica el arancel aduanero con la clasificación del Sistema Armonizado, los regímenes de importación y exportación, la documentación exigida y las estadísticas de comercio exterior.
 - *Cómo leerla:* La partida arancelaria decide arancel, certificaciones y acuerdos aplicables. Ante duda, usa el mecanismo de consulta de clasificación en vez de decidir por parecido de nombre: el error se paga en diferencias y multas.

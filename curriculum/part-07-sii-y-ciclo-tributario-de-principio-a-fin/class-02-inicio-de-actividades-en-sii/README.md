@@ -61,6 +61,7 @@ Desde ese momento hay F29 mensual y calendario anual, con independencia de que h
 - Código Tributario (DL 830)
 - Ley 21.210 de modernización tributaria y Ley 21.713 de cumplimiento tributario
 - regímenes Pro Pyme General (14 D N°3), Pro Pyme Transparente (14 D N°8) y Semi Integrado (14 A)
+- Ley 21.850 (17-10-2026): tasa de Primera Categoría de 27 % a 23 % entre 2026 y 2029, fin de la restitución del crédito por IDPC y cruce de datos del SII
 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
@@ -145,7 +146,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-11-05
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.

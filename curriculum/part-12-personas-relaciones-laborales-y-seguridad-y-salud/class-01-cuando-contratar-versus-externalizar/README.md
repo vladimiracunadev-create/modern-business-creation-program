@@ -62,6 +62,7 @@ Horario, supervisión, exclusividad, herramientas y continuidad son los indicado
 - Ley 21.643 (Ley Karin) sobre acoso laboral, sexual y violencia en el trabajo
 - Ley 16.744 sobre accidentes del trabajo y enfermedades profesionales y DS 44 de gestión preventiva
 - Ley 20.123 sobre subcontratación y servicios transitorios
+- Ley 21.850, art. 33 ter de la Ley sobre Impuesto a la Renta: crédito por remuneraciones en servicios del conocimiento exportados, incompatible con otras franquicias basadas en remuneraciones
 
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
@@ -165,14 +166,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
-<https://www.dt.gob.cl/> · verificado 2026-09-01
+<https://www.dt.gob.cl/> · verificado 2026-11-05
 
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para elegir la figura correcta para cada capacidad y asignar control y responsabilidad sobre terceros.
 
 **Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
-<https://www.bcn.cl/leychile/> · verificado 2026-09-01
+<https://www.bcn.cl/leychile/> · verificado 2026-11-05
 
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
@@ -186,14 +187,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Uso en esta clase:* aporta el marco de «A $1.8 Billion Company With Two Employees? AI Made It Possible» para elegir la figura correcta para cada capacidad y asignar control y responsabilidad sobre terceros.
 
 **MEDVi · versión corporativa — MEDVi statement in response to external speculation**  
-<https://home.medvi.org/communication> · verificado 2026-10-04
+<https://home.medvi.org/communication> · verificado 2026-11-05
 
 - *Qué contiene:* Declaración corporativa del 8 de abril de 2026 sobre la carta FDA, un supuesto sitio de afiliado, publicidad con posibles médicos generados por IA, correcciones y estructura de proveedores clínicos y farmacias.
 - *Cómo leerla:* Trátala como la versión de MEDVi, no como verificación independiente. Contrasta cada afirmación con el destinatario y contenido de la carta FDA, archivos del sitio, contratos, responsables y evidencia de las medidas correctivas.
 - *Uso en esta clase:* aporta el marco de «MEDVi statement in response to external speculation» para elegir la figura correcta para cada capacidad y asignar control y responsabilidad sobre terceros.
 
 **U.S. Food and Drug Administration — MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455**  
-<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-10-04
+<https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> · verificado 2026-11-05
 
 - *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
 - *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.

@@ -61,6 +61,7 @@ Todo cambio de domicilio, giro, socios o representante debe avisarse dentro de p
 - Código Tributario (DL 830)
 - Ley 21.210 de modernización tributaria y Ley 21.713 de cumplimiento tributario
 - regímenes Pro Pyme General (14 D N°3), Pro Pyme Transparente (14 D N°8) y Semi Integrado (14 A)
+- Ley 21.850 (17-10-2026): tasa de Primera Categoría de 27 % a 23 % entre 2026 y 2029, fin de la restitución del crédito por IDPC y cruce de datos del SII
 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
@@ -154,14 +155,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Nuevos contribuyentes, inicio de actividades y DTE**  
-<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-09-01
+<https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> · verificado 2026-11-05
 
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para mantener actualizada la información ante el SII y planificar el cierre cuando corresponda.
 
 **Servicio de Impuestos Internos — Carpeta Tributaria Electrónica**  
-<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-09-01
+<https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> · verificado 2026-11-05
 
 - *Qué contiene:* Permite generar el expediente que acredita la situación tributaria de la empresa: inicio de actividades, régimen, declaraciones presentadas y timbraje.
 - *Cómo leerla:* Es el documento que pedirán banco, inversionista y comprador. Genera una hoy aunque no la necesites: lo que muestre es exactamente lo que verá un tercero al evaluarte.

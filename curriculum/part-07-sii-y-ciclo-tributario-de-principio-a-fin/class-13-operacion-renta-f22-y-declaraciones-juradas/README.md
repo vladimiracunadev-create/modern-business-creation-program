@@ -61,6 +61,7 @@ Las declaraciones juradas se presentan antes del F22 y sus inconsistencias gener
 - Código Tributario (DL 830)
 - Ley 21.210 de modernización tributaria y Ley 21.713 de cumplimiento tributario
 - regímenes Pro Pyme General (14 D N°3), Pro Pyme Transparente (14 D N°8) y Semi Integrado (14 A)
+- Ley 21.850 (17-10-2026): tasa de Primera Categoría de 27 % a 23 % entre 2026 y 2029, fin de la restitución del crédito por IDPC y cruce de datos del SII
 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
@@ -154,14 +155,14 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 ## 🔗 Fuentes oficiales
 
 **Servicio de Impuestos Internos — Formulario 22 y Operación Renta**  
-<https://www.sii.cl/ayudas/formularios/3094-form22-3097.html> · verificado 2026-09-01
+<https://www.sii.cl/ayudas/formularios/3094-form22-3097.html> · verificado 2026-11-05
 
 - *Qué contiene:* Publica el formulario anual de renta, sus instrucciones línea por línea y las declaraciones juradas que deben presentarse antes de él.
 - *Cómo leerla:* Empieza por el calendario de declaraciones juradas, no por el formulario: una jurada omitida genera observación y retiene la devolución aunque el F22 esté bien.
 - *Uso en esta clase:* aporta el marco de «Formulario 22 y Operación Renta» para preparar el cierre anual y las declaraciones juradas antes del período de Operación Renta.
 
 **Servicio de Impuestos Internos — Regímenes tributarios · Operación Renta 2026**  
-<https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-09-01
+<https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> · verificado 2026-11-05
 
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
