@@ -137,6 +137,7 @@ def fuentes_de_clase(spec: dict, pack: dict) -> list[str]:
     base = list(spec.get("fuentes") or pack["fuentes"][:3])
     if spec.get("actualizacion"):
         base += [i for i in FUENTES_LEY_21850 if i not in base]
+    base += [i for i in spec.get("fuentes_extra", []) if i not in base]
     return base
 
 

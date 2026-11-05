@@ -58,6 +58,10 @@ Crea además el crédito del art. 33 ter por remuneraciones en exportación de s
 rebaja la franquicia SENCE a 0,7 %. Guía con ejemplos y pendientes:
 [docs/20](20_LEY_21850_RECONSTRUCCION_NACIONAL.md).
 
+Para 2027 a 2030 la guía incluye el calendario consolidado: ajuste transitorio de PPM, PPM Pro Pyme de 0,23 %
+desde 2029, tasa Pro Pyme de 15 % en 2028 (Circular SII 53 de 2025) y cotización adicional del empleador de la
+Ley 21.735 hasta 6,4 % en agosto de 2030.
+
 Texto de referencia:
 https://www.bcn.cl/leychile/Navegar?idNorma=6368
 

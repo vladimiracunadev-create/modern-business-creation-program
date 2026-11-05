@@ -475,7 +475,7 @@ class LeyReconstruccionTest(unittest.TestCase):
                 cls.clases[entrada["n"]] = entrada
 
     def test_ley_21850_se_integra_sin_alterar_la_numeracion(self) -> None:
-        esperadas = {85, 89, 90, 91, 92, 97, 98, 155, 160, 236, 244, 246, 263, 285, 287}
+        esperadas = {85, 89, 90, 91, 92, 96, 97, 98, 155, 160, 161, 236, 244, 246, 263, 285, 287}
         self.assertEqual(set(self.clases), set(range(1, TOTAL_CLASES + 1)))
         integradas = {n for n, e in self.clases.items() if e.get("actualizacion")}
         self.assertEqual(integradas, esperadas)
@@ -483,7 +483,8 @@ class LeyReconstruccionTest(unittest.TestCase):
         for numero in integradas:
             with self.subTest(clase=numero):
                 self.assertIn("Actualización normativa: Ley 21.850", self.readme_de(numero))
-        for frase in ("0,7 %", "75 UTM", "25,5 %", "Pendiente de SII", "revisión humana"):
+        for frase in ("0,7 %", "75 UTM", "25,5 %", "Pendiente de SII", "revisión humana",
+                      "Calendario consolidado 2027–2030", "6,4 %", "Circular 53"):
             self.assertIn(frase, guia)
 
     def test_ley_21850_registra_fuentes_con_fecha(self) -> None:
@@ -501,6 +502,17 @@ class LeyReconstruccionTest(unittest.TestCase):
         utm, base = 70_000, 36_000_000 * 0.75
         self.assertEqual(min(base * 0.15, 75 * utm) * 4, 16_200_000)
         self.assertEqual(min(base * 0.20, 75 * utm) * 4, 21_000_000)
+
+    def test_calendario_2027_2030_es_aritmeticamente_reproducible(self) -> None:
+        """PPM transitorio del régimen general y costo de planilla de la guía."""
+        for anterior, nueva, reduccion in ((27.0, 25.5, 5.56), (25.5, 24.0, 5.88), (24.0, 23.0, 4.17)):
+            self.assertAlmostEqual((1 - nueva / anterior) * 100, reduccion, places=2)
+        self.assertAlmostEqual(2.0 * (1 - 0.0556), 1.8888, places=4)
+        self.assertEqual(round(30_000_000 * 0.018888), 566_640)
+        for tasa, costo in ((3.5, 350_000), (4.25, 425_000), (5.0, 500_000), (5.7, 570_000), (6.4, 640_000)):
+            self.assertEqual(round(10_000_000 * tasa / 100), costo)
+        for tasa, ppm in ((0.125, 25_000), (0.25, 50_000), (0.23, 46_000)):
+            self.assertEqual(round(20_000_000 * tasa / 100), ppm)
 
     def readme_de(self, numero: int) -> str:
         clase = next(c for c in self.curriculo if c["global_class"] == numero)

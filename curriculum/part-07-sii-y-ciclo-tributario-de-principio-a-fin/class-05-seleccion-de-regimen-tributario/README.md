@@ -182,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Cómo leerla:* Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.
 - *Uso en esta clase:* aporta el marco de «Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social» para elegir el régimen tributario con simulación comparada documentada.
 
+**Servicio de Impuestos Internos — Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme**  
+<https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf> · verificado 2026-11-05
+
+- *Qué contiene:* Instruye la rebaja transitoria del IDPC Pro Pyme a 12,5 % en 2025 a 2027 y a 15 % en 2028, la rebaja a la mitad de los PPM, el factor de crédito por año y el requisito de cotización de la Ley 21.735.
+- *Cómo leerla:* Parte por el cuadro de año comercial, cotización y tasa: la tasa rebajada depende de que la cotización del empleador siga el calendario. Anota qué parte aplica al régimen general y cuál solo al Pro Pyme del N.º 3 de la letra D) del art. 14.
+- *Uso en esta clase:* aporta el marco de «Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme» para elegir el régimen tributario con simulación comparada documentada.
+
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
 [catálogo de fuentes](../../../docs/16_OFFICIAL_SOURCE_CATALOG.md).

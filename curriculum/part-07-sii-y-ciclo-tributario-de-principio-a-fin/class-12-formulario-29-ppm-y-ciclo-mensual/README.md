@@ -67,6 +67,15 @@ El F29 consolida IVA, PPM y retenciones, y su gestión exige información al dí
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🆕 Actualización normativa: Ley 21.850
+
+[Guía de actualización, sección 11](../../../docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md#11-calendario-consolidado-20272030)
+
+**Lente para esta clase:** Calcula el PPM con las reglas transitorias: la tasa de diciembre reducida en 5,56 %, 5,88 % y 4,17 % en enero a marzo de 2027 a 2029, el recalculo de abril a marzo y el PPM Pro Pyme de 0,125 %, 0,25 % y 0,23 %.
+
+**Estado:** Transitorio con calendario 2027 a 2030; instrucciones del SII pendientes. Texto leído en el Diario Oficial del 17-10-2026; lo que
+dependa de circulares, resoluciones o decretos aún no verificados queda marcado como pendiente.
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -158,6 +167,27 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir el calendario mensual que asegura declarar y pagar en plazo.
+
+**Diario Oficial de la República de Chile — Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)**  
+<https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf> · verificado 2026-11-05
+
+- *Qué contiene:* Texto íntegro publicado el 17 de octubre de 2026, de 46 páginas, con los artículos permanentes y los transitorios de la ley, firmado electrónicamente con CVE 2888352.
+- *Cómo leerla:* Usa el texto como fuente de la redacción exacta: cita artículo y transitorio, no resúmenes de prensa. Cuando la ley delegue en circulares, resoluciones o decretos, registra esa dependencia como pendiente hasta ver la instrucción oficial.
+- *Uso en esta clase:* aporta el marco de «Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)» para definir el calendario mensual que asegura declarar y pagar en plazo.
+
+**Biblioteca del Congreso Nacional · LeyChile — Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1229250> · verificado 2026-11-05
+
+- *Qué contiene:* Ficha de LeyChile de la Ley 21.850 con su texto consolidado, historia de la norma y vigencias. Reúne la modificación de la Ley sobre Impuesto a la Renta, del Código Tributario y del estatuto de capacitación, más las normas transitorias.
+- *Cómo leerla:* Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.
+- *Uso en esta clase:* aporta el marco de «Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social» para definir el calendario mensual que asegura declarar y pagar en plazo.
+
+**Servicio de Impuestos Internos — Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme**  
+<https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf> · verificado 2026-11-05
+
+- *Qué contiene:* Instruye la rebaja transitoria del IDPC Pro Pyme a 12,5 % en 2025 a 2027 y a 15 % en 2028, la rebaja a la mitad de los PPM, el factor de crédito por año y el requisito de cotización de la Ley 21.735.
+- *Cómo leerla:* Parte por el cuadro de año comercial, cotización y tasa: la tasa rebajada depende de que la cotización del empleador siga el calendario. Anota qué parte aplica al régimen general y cuál solo al Pro Pyme del N.º 3 de la letra D) del art. 14.
+- *Uso en esta clase:* aporta el marco de «Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme» para definir el calendario mensual que asegura declarar y pagar en plazo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

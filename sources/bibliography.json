@@ -337,10 +337,12 @@
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-06-pro-pyme-general",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-07-pro-pyme-transparente",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-08-regimen-general-semi-integrado-y-otros-regimenes",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-12-formulario-29-ppm-y-ciclo-mensual",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-13-operacion-renta-f22-y-declaraciones-juradas",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-14-modificaciones-fiscalizacion-y-termino-de-giro",
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar",
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-06-remuneraciones-imponibles-y-no-imponibles",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-07-cotizaciones-previsionales-y-seguridad-social",
         "curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-12-otec-capacitacion-y-sence",
         "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-06-exportacion-de-servicios",
         "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-08-factura-de-exportacion-y-tratamiento-tributario",
@@ -371,10 +373,12 @@
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-06-pro-pyme-general",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-07-pro-pyme-transparente",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-08-regimen-general-semi-integrado-y-otros-regimenes",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-12-formulario-29-ppm-y-ciclo-mensual",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-13-operacion-renta-f22-y-declaraciones-juradas",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-14-modificaciones-fiscalizacion-y-termino-de-giro",
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar",
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-06-remuneraciones-imponibles-y-no-imponibles",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-07-cotizaciones-previsionales-y-seguridad-social",
         "curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-12-otec-capacitacion-y-sence",
         "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-06-exportacion-de-servicios",
         "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-08-factura-de-exportacion-y-tratamiento-tributario",
@@ -1292,6 +1296,48 @@
       "que_contiene": "Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.",
       "como_leerla": "Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.",
       "nota": "Pro Pyme General, Transparente, General y renta presunta.",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "sii-circular-53",
+      "manifest_id": "SII_CIRC53",
+      "type": "standard",
+      "authors": [
+        "Servicio de Impuestos Internos"
+      ],
+      "title": "Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme",
+      "locator": "https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf",
+      "authority": "Servicio de Impuestos Internos",
+      "accessed": "2026-11-05",
+      "used_in": [
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-05-seleccion-de-regimen-tributario",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-06-pro-pyme-general",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-12-formulario-29-ppm-y-ciclo-mensual"
+      ],
+      "status": "verificada",
+      "que_contiene": "Instruye la rebaja transitoria del IDPC Pro Pyme a 12,5 % en 2025 a 2027 y a 15 % en 2028, la rebaja a la mitad de los PPM, el factor de crédito por año y el requisito de cotización de la Ley 21.735.",
+      "como_leerla": "Parte por el cuadro de año comercial, cotización y tasa: la tasa rebajada depende de que la cotización del empleador siga el calendario. Anota qué parte aplica al régimen general y cuál solo al Pro Pyme del N.º 3 de la letra D) del art. 14.",
+      "nota": "Precede a la Ley 21.850: no incorpora sus cambios de 2027 a 2029.",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "chileatiende-cotizacion-empleador",
+      "manifest_id": "CHILEATIENDE_COT_EMP",
+      "type": "reference",
+      "authors": [
+        "ChileAtiende · Instituto de Previsión Social"
+      ],
+      "title": "Cotización adicional del empleador de la reforma de pensiones",
+      "locator": "https://www.chileatiende.gob.cl/fichas/130987",
+      "authority": "ChileAtiende · Instituto de Previsión Social",
+      "accessed": "2026-11-05",
+      "used_in": [
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-07-cotizaciones-previsionales-y-seguridad-social"
+      ],
+      "status": "verificada",
+      "que_contiene": "Calendario de la cotización adicional de cargo del empleador desde agosto de 2025 hasta 2033, con su reparto entre cuenta individual, cotización de rentabilidad protegida y Seguro Social.",
+      "como_leerla": "El porcentaje rige desde la remuneración de agosto de cada año y no desde la fecha de pago. Presupuesta el costo de planilla con el tramo vigente en cada mes y no con el porcentaje del año anterior.",
+      "nota": "Complementa la Ley 21.735; revisar el texto en BCN para cálculos de planilla.",
       "last_checked": "2026-11-05"
     },
     {

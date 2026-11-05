@@ -19,7 +19,7 @@ material complementario.
 - [x] Narrativa, mapa visual, glosario y bibliografía en cada una de las 24 partes.
 - [x] Fuentes oficiales con qué contienen y cómo leerlas, no solo el enlace.
 - [x] Glosario maestro de 1.251 términos generado desde los conceptos del currículo.
-- [x] Manual integral en PDF de 1.582 páginas y un PDF por parte, publicados como descarga.
+- [x] Manual integral en PDF de 1.585 páginas y un PDF por parte, publicados como descarga.
 
 ## En curso — v1.2
 

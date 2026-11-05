@@ -35,6 +35,10 @@ para exportación, la clase 244.
 | Regularización de deudas de derechos municipales | 10.º transitorio | Transitorio | solicitud dentro de 12 meses desde el 1-12-2026 (cálculo propio) | 10.º transitorio |
 | Impuesto único de 10 % sobre saldos FUR / STUT / retiros en exceso | 11.º y 12.º transitorio | Transitorio | opción dentro de 8 meses desde la publicación | 11.º transitorio |
 | Estatuto de invariabilidad tributaria | art. 26 | Futuro | desde 1-1-2027; proyectos desde USD 50 millones | art. 26 |
+| Ajuste de PPM al nuevo calendario de tasas | 7.º transitorio | Futuro | PPM de abril 2027 a marzo 2030 con la tasa de cada año | 7.º transitorio |
+| PPM Pro Pyme de 0,25 % a 0,23 % | art. 8 N.º 1 (art. 14 D N.º 3 letra k) | Futuro | 1-1-2029 | 7.º transitorio, último inciso |
+| Ganancia de capital por acciones con presencia bursátil | art. 8 N.º 2 y 4 (arts. 17 N.º 6 y 107) | Futuro | 1-1-2027 | 9.º transitorio N.º 3 |
+| Arriendo de viviendas económicas: impuesto único | art. 3 (DFL 2) y art. 10 | Futuro | 1-1-2027 | 9.º transitorio N.º 1; 8.º transitorio |
 
 > [!NOTE]
 > Los plazos marcados «cálculo propio» salen de contar días o meses sobre la fecha de publicación.
@@ -57,8 +61,12 @@ clase 89 conviene simular **cuatro años**, no uno.
 
 **Prerrequisito de lectura.** Los regímenes Pro Pyme conservan su propia regla: el art. 25 de la
 Ley 21.755 fija transitoriamente 12,5 % para 2025–2027 bajo condiciones. El 6.º transitorio de la
-Ley 21.850 declara que su escala rige «sin perjuicio» de esa norma. **Qué ocurre con la tasa Pro Pyme
-después de 2027 requiere revisión humana y la instrucción del SII.**
+Ley 21.850 declara que su escala rige «sin perjuicio» de esa norma. La Circular SII 53 (03-09-2025) instruye
+que la tasa Pro Pyme General es **12,5 % en 2025, 2026 y 2027 y 15 % en 2028**, siempre que la cotización
+adicional del empleador de la Ley 21.735 sea la prevista (1 %, 3,5 %, 4,25 % y 5 %); el SII entiende cumplido
+ese requisito hasta 2028. Para 2029 en adelante el art. 8 N.º 3 de la Ley 21.850 elimina la frase que fijaba
+25 % para Pro Pyme y deja una tasa de 23 %: **es una lectura del texto; confirma con la circular que el SII
+dicte sobre la Ley 21.850.**
 
 ## 3. Tributación de la empresa y de los propietarios (rebaja del IDPC y reintegración)
 
@@ -275,18 +283,86 @@ supuestos que requieren validación profesional.
 (c) separa norma vigente, futura y transitoria; (d) marca lo pendiente de SII; (e) no concluye sobre un caso
 real sin validación profesional.
 
-## 11. Cuestiones que requieren revisión humana
+## 11. Calendario consolidado 2027–2030
+
+Un cronograma para planificar caja y régimen. Lo que depende de circular o resolución del SII está marcado.
+
+| Fecha | Cambio | Fuente |
+|---|---|---|
+| 1-1-2027 | Fin de la restitución del crédito por IDPC, con restitución transitoria sobre los créditos de 2027 y 2028 | Ley 21.850, art. 9 y 5.º transitorio |
+| 1-1-2027 | Crédito del art. 33 quáter (enfermedades catastróficas), sujeto a decreto | Ley 21.850, art. 7 |
+| 1-1-2027 | Ganancia de capital por acciones con presencia bursátil: deja de tributar con impuesto único de 10 % | Ley 21.850, art. 8 N.º 2 y 4 |
+| 1-1-2027 | Impuesto único de 5 % al arriendo de viviendas económicas (DFL 2) | Ley 21.850, art. 3 y 18.º transitorio |
+| 1-1-2027 | Estatuto de invariabilidad tributaria (proyectos desde USD 50 millones) | Ley 21.850, art. 26 |
+| Enero–marzo 2027 | PPM del régimen general con la tasa de diciembre reducida en 5,56 % | 7.º transitorio |
+| Abril 2027 | Los PPM se calculan con la tasa del año de la ley (25,5 %) recalculada | 7.º transitorio |
+| Agosto 2027 | Cotización adicional del empleador sube a 4,25 % | Ley 21.735; ChileAtiende |
+| Enero–marzo 2028 | PPM del régimen general con la tasa de diciembre reducida en 5,88 % | 7.º transitorio |
+| 2028 | Pro Pyme General: IDPC de 15 % (12,5 % hasta 2027); sin rebaja transitoria de PPM | Circular SII 53 de 2025 |
+| Agosto 2028 | Cotización adicional del empleador: 5 % | Ley 21.735; ChileAtiende |
+| 31-12-2028 | Fin del período de créditos con restitución transitoria | Ley 21.850, 5.º transitorio |
+| 1-1-2029 | IDPC de 23 %; PPM Pro Pyme baja de 0,25 % a 0,23 % | 6.º transitorio; art. 8 N.º 1 |
+| Enero–marzo 2029 | PPM del régimen general con la tasa de diciembre reducida en 4,17 % | 7.º transitorio |
+| Agosto 2029 | Cotización adicional del empleador: 5,7 % | Ley 21.735; ChileAtiende |
+| Abril 2029 a marzo 2030 | Último tramo de PPM recalculado con la tasa del año | 7.º transitorio |
+| Agosto 2030 | Cotización adicional del empleador: 6,4 % | Ley 21.735; ChileAtiende |
+
+### Ejemplo: PPM del régimen general en el primer trimestre
+
+Una SpA del régimen general pagó en 2026 un PPM de **2,0 %** sobre ingresos brutos. Para enero a marzo de 2027
+el art. 7.º transitorio reduce la tasa de diciembre en 5,56 %: 2,0 % × (1 − 0,0556) = **1,8888 %**.
+Con ingresos del mes de $30.000.000 el PPM baja de $600.000 a $566.640, coherente con el paso de 27 % a 25,5 %
+(25,5 ÷ 27 = 0,9444). Los porcentajes 5,88 % (24 ÷ 25,5) y 4,17 % (23 ÷ 24) corresponden a 2028 y 2029.
+
+### Ejemplo: PPM Pro Pyme según año
+
+Con ingresos brutos mensuales de $20.000.000 y menos de 50.000 UF anuales el año anterior:
+2026 y 2027, **0,125 %** = $25.000; 2028, **0,25 %** = $50.000; desde 2029, **0,23 %** = $46.000. El tramo
+sobre 50.000 UF paga el doble. Sirve para reservar caja y no sorprenderse en 2028.
+
+## 12. Costo de planilla: cotización adicional del empleador (Ley 21.735)
+
+**Explicación simple.** Además del sueldo, la empresa aporta un porcentaje adicional a las pensiones de cada
+trabajador y ese porcentaje sube cada agosto hasta 2033.
+
+**Definición técnica.** Cotización adicional de cargo del empleador sobre la remuneración imponible, que se
+reparte entre cuenta individual, cotización de rentabilidad protegida (CRP) y Seguro Social (SIS y CEV).
+
+| Remuneración de | Total | Cuenta individual | CRP | SIS y CEV |
+|---|---|---|---|---|
+| Agosto 2026 | 3,5 % | 0,1 % | 0,9 % | 2,5 % |
+| Agosto 2027 | 4,25 % | 0,25 % | 1,5 % | 2,5 % |
+| Agosto 2028 | 5 % | 1 % | 1,5 % | 2,5 % |
+| Agosto 2029 | 5,7 % | 1,7 % | 1,5 % | 2,5 % |
+| Agosto 2030 | 6,4 % | 2,4 % | 1,5 % | 2,5 % |
+
+**Ejemplo numérico.** Planilla imponible mensual de $10.000.000. Costo adicional: 2026, $350.000; 2027, $425.000;
+2028, $500.000; 2029, $570.000; 2030, **$640.000**, es decir $290.000 más por mes que en 2026. Una empresa que
+presupuesta personas con un costo fijo está subestimando el costo desde agosto de 2027.
+
+**Vínculo con el crédito 33 ter.** La base del crédito son remuneraciones imponibles, no el costo total de
+contratación: el aumento de cotización encarece la planilla pero no aumenta el crédito.
+
+**Vínculo con Pro Pyme.** La Circular 53 exige que la cotización avance según el calendario para mantener la
+tasa rebajada de 12,5 % o 15 %; el SII la considera cumplida hasta 2028.
+
+**Taller.** Proyecta la planilla 2026 a 2030 con tres escenarios de dotación, suma el costo de la sección 12 y
+compáralo con el crédito 33 ter del caso de la sección 4.
+
+## 13. Cuestiones que requieren revisión humana
 
 1. Correspondencia entre «año tributario 2028/2029» y año comercial en el 5.º transitorio.
-2. Tasa del régimen Pro Pyme después de 2027 y su relación con el art. 20 modificado.
+2. Tasa Pro Pyme desde 2029: la lectura del texto (23 %) no tiene aún circular del SII sobre la Ley 21.850.
 3. Compatibilidad entre el crédito 33 ter y la franquicia SENCE.
 4. Contenido del decreto de catálogo de servicios del conocimiento y calificación de Aduanas para servicios concretos.
 5. Circulares y resoluciones del SII (aún no verificadas al 2026-11-05).
 6. Cómputo de los plazos de Tesorería y de municipios.
 7. Ficha BCN: no se pudo cargar su texto consolidado; se leyó el Diario Oficial.
 
-## 12. Fuentes
+## 14. Fuentes
 
+- SII, Circular 53 del 03-09-2025 (tasa Pro Pyme y PPM): <https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf>
+- ChileAtiende, calendario de la cotización del empleador: <https://www.chileatiende.gob.cl/fichas/130987>
 - Diario Oficial, Ley 21.850 (17-10-2026): <https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf>
 - BCN · LeyChile, Ley 21.850: <https://www.bcn.cl/leychile/navegar?idNorma=1229250>
 - Complementos: [SENCE](https://www.sence.cl/), [Tesorería General de la República](https://www.tgr.cl/),

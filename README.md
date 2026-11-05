@@ -73,7 +73,7 @@ responsable y qué evidencia debe quedar**.
 | Casos empresariales y sectoriales | ✅ 20 líneas de negocio + caso transversal MEDVi |
 | Plantillas operativas | ✅ 24 artefactos editables, incluido el expediente progresivo de viabilidad |
 | Fuentes registradas | ✅ fuente primaria, corporativa o periodística identificada con localizador, uso y fecha — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
-| Manual en PDF | ✅ 1.582 páginas + 24 PDF por parte |
+| Manual en PDF | ✅ 1.585 páginas + 24 PDF por parte |
 | Sitio HTML | ✅ 429 páginas de contenido con buscador, diagramas y tema claro/oscuro |
 | CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
 | Licencias | ✅ MIT para código · CC BY-NC-SA 4.0 para contenido original |
@@ -90,7 +90,7 @@ Toda afirmación del programa se apoya en una entrada del registro
 localizador, el organismo que responde por ella y la fecha en que se comprobó. Por eso **cada clase
 muestra la fecha de su propia fuente** y no una fecha global del programa.
 
-Estas son las **46 fuentes citadas** por las 336 clases y las 24 partes,
+Estas son las **48 fuentes citadas** por las 336 clases y las 24 partes,
 ordenadas por peso en el material. Las primeras son las que gobiernan el programa: la normativa
 consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor parte de las citas.
 
@@ -105,9 +105,9 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 | [Fomento para micro y pequeñas empresas](https://www.sercotec.cl/) | Servicio de Cooperación Técnica | 31 | ✅ | 2026-11-05 |
 | [Autorización sanitaria de alimentos](https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos) | ChileAtiende · Autoridad Sanitaria Regional | 24 | ✅ | 2026-11-05 |
 | [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 24 | ✅ | 2026-11-05 |
-| [Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social](https://www.bcn.cl/leychile/navegar?idNorma=1229250) | Biblioteca del Congreso Nacional · LeyChile | 15 | ✅ | 2026-11-05 |
+| [Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social](https://www.bcn.cl/leychile/navegar?idNorma=1229250) | Biblioteca del Congreso Nacional · LeyChile | 17 | ✅ | 2026-11-05 |
+| [Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)](https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf) | Diario Oficial de la República de Chile | 17 | ✅ | 2026-11-05 |
 | [Registro de Prestadores de Servicios Financieros · Ley 21.521](https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html) | Comisión para el Mercado Financiero | 15 | ✅ | 2026-11-05 |
-| [Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)](https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf) | Diario Oficial de la República de Chile | 15 | ✅ | 2026-11-05 |
 | [Programas, estudios de mercado y promoción](https://www.prochile.gob.cl/) | ProChile | 15 | ✅ | 2026-11-05 |
 | [Marcas, patentes y diseños industriales](https://www.inapi.cl/) | Instituto Nacional de Propiedad Industrial | 14 | ✅ | 2026-11-05 |
 | [Regímenes tributarios · Operación Renta 2026](https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/) | Servicio de Impuestos Internos | 14 | ✅ | 2026-11-05 |
@@ -132,6 +132,7 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 | [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-11-05 |
 | [Look Out for AI-Generated Ozempic!](https://futurism.com/medvi-ai-ozempic) | Futurism · investigación periodística | 3 | ✅ | 2026-11-05 |
 | [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-11-05 |
+| [Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme](https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf) | Servicio de Impuestos Internos | 3 | ✅ | 2026-11-05 |
 | [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-11-05 |
 | [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-11-05 |
 | [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-11-05 |
@@ -139,6 +140,7 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 | [Compounding and the FDA: Questions and Answers](https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
 | [Counterfeit Medicine](https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
 | [FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
+| [Cotización adicional del empleador de la reforma de pensiones](https://www.chileatiende.gob.cl/fichas/130987) | ChileAtiende · Instituto de Previsión Social | 1 | ✅ | 2026-11-05 |
 | [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-11-05 |
 | [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-11-05 |
 | [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-11-05 |
@@ -154,7 +156,7 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 
 El registro guarda además **2 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
 
-Última revalidación: **2026-11-05** · 43/46 fuentes citadas resolvieron ·
+Última revalidación: **2026-11-05** · 45/48 fuentes citadas resolvieron ·
 336/336 bloques de fuentes distintos, uno por clase.
 
 La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al
@@ -274,7 +276,7 @@ bottleneck*; y una due diligence progresiva para una inversión hipotética de U
 
 | Formato | Contenido | Enlace |
 |---|---|---|
-| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.582 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.585 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
 | PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
 | Sitio HTML | 429 páginas de contenido con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
 
@@ -356,7 +358,7 @@ Detalle en [`docs/00_MASTER_FLOW.md`](docs/00_MASTER_FLOW.md).
 
 El programa está calibrado a la realidad chilena vigente a la **fecha base 07-08-2026**, con la **Ley 21.850** incorporada el **05-11-2026**:
 
-- **Ley 21.850** de Reconstrucción Nacional (Diario Oficial, 17-10-2026): tasa de Primera Categoría escalonada 27 % → 25,5 % → 24 % → 23 % (2026-2029), fin de la restitución del crédito por IDPC desde 2027, crédito del art. 33 ter por exportación de servicios del conocimiento, franquicia SENCE de 0,7 %, cruce de datos del SII y facilidades de pago de deudas tributarias y municipales. Integrada en 15 clases; guía en [`docs/20`](docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md). Circulares del SII pendientes.
+- **Ley 21.850** de Reconstrucción Nacional (Diario Oficial, 17-10-2026): tasa de Primera Categoría escalonada 27 % → 25,5 % → 24 % → 23 % (2026-2029), fin de la restitución del crédito por IDPC desde 2027, crédito del art. 33 ter por exportación de servicios del conocimiento, franquicia SENCE de 0,7 %, cruce de datos del SII y facilidades de pago de deudas tributarias y municipales. Integrada en 15 clases; guía en [`docs/20`](docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md). Para 2027 a 2030 la guía suma el ajuste de PPM, la tasa Pro Pyme de 15 % en 2028 y la cotización adicional del empleador hasta 6,4 % (Ley 21.735). Circulares del SII sobre la Ley 21.850 pendientes.
 
 - **Ley 21.719** de protección de datos personales: vigencia el **1 de diciembre de 2026**; la parte 11 trabaja la transición desde la Ley 19.628.
 - **Ley 21.561**: jornada ordinaria de **42 horas semanales desde el 26 de abril de 2026**, camino a 40 horas en 2028.
@@ -414,7 +416,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 🔗 contenido con **fuente citada, explicada y fechada**: cada una dice qué contiene y cómo leerla;
 - 🗺️ **360 diagramas** que muestran el flujo de decisión, no ilustraciones decorativas;
 - 🔍 material **honesto sobre sus límites**: distingue lo verificado de lo dinámico y marca qué revalidar;
-- 📖 material **abierto y offline-friendly**: manual de 1.582 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
+- 📖 material **abierto y offline-friendly**: manual de 1.585 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
 
 </td>
 <td valign="top" width="50%">

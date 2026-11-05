@@ -25,7 +25,7 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Manuales transversales (`docs/`) | 21 |
 | Casos empresariales y sectoriales (`case-studies/`) | 21 (20 líneas de negocio + MEDVi transversal) |
 | Plantillas operativas (`templates/`) | 24 |
-| Fuentes en el registro | 48 (46 citadas · 45 verificadas · 3 pendientes) |
+| Fuentes en el registro | 50 (48 citadas · 47 verificadas · 3 pendientes) |
 | Cuerpos normativos mapeados | 54 |
 | Revalidación de fuentes | por fuente (`accessed` en `sources/bibliography.json`); última pasada 2026-11-05 |
 
@@ -35,7 +35,7 @@ sección final; el CI vuelve a comprobarlas en cada push.
 |---|---:|
 | Páginas del sitio HTML | 429 |
 | Enlaces internos verificados en el sitio | todos los enlaces relativos generados |
-| Manual integral en PDF | 1.582 páginas · ~4,1 MB |
+| Manual integral en PDF | 1.585 páginas · ~4,1 MB |
 | PDF por parte | 24 · ~63 páginas cada uno |
 | Workflows de CI | 4 |
 | Dependencias de terceros | 2, fijadas a versión exacta |

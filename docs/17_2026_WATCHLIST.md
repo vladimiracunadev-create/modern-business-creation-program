@@ -22,6 +22,10 @@ regularización municipal por 12 meses. **Pendiente:** circulares y resoluciones
 de servicios del conocimiento y tasa Pro Pyme posterior a 2027. Guía:
 [docs/20](20_LEY_21850_RECONSTRUCCION_NACIONAL.md).
 
+Hitos 2027 a 2030 por vigilar: 1-1-2027 fin de restitución y ganancia de capital bursátil; abril 2027 recalculo de PPM;
+agosto 2027 cotización del empleador en 4,25 %; 2028 Pro Pyme en 15 %; 1-1-2029 IDPC de 23 % y PPM Pro Pyme de
+0,23 %; agosto 2030 cotización de 6,4 %. Detalle y fuentes en la sección 11 de la guía.
+
 ## 4. Finanzas abiertas
 
 CMF postergó la entrada en vigor operacional del Sistema de Finanzas Abiertas a julio de 2027.

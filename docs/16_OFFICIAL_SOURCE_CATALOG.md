@@ -8,9 +8,10 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Fuente | Tema | Localizador | Estado | Resolvió | Citas |
 |---|---|---|---|---:|---:|
 | Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-11-05 | 2 |
-| Biblioteca del Congreso Nacional · LeyChile | Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social | <https://www.bcn.cl/leychile/navegar?idNorma=1229250> | ✅ verificada | 2026-11-05 | 15 |
+| Biblioteca del Congreso Nacional · LeyChile | Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social | <https://www.bcn.cl/leychile/navegar?idNorma=1229250> | ✅ verificada | 2026-11-05 | 17 |
 | Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-11-05 | 248 |
 | ChileAtiende · Autoridad Sanitaria Regional | Autorización sanitaria de alimentos | <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> | ✅ verificada | 2026-11-05 | 24 |
+| ChileAtiende · Instituto de Previsión Social | Cotización adicional del empleador de la reforma de pensiones | <https://www.chileatiende.gob.cl/fichas/130987> | ✅ verificada | 2026-11-05 | 1 |
 | ChileCompra | Compras públicas y ventas al Estado | <https://www.chilecompra.cl/> | ✅ verificada | 2026-11-05 | 1 |
 | Comisión para el Mercado Financiero | Alertas sobre entidades y plataformas de inversión no supervisadas | <https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html> | ✅ verificada | 2026-11-05 | 1 |
 | Comisión para el Mercado Financiero | Registro de Prestadores de Servicios Financieros · Ley 21.521 | <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html> | ✅ verificada | 2026-11-05 | 15 |
@@ -20,7 +21,7 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Departamento de Justicia de Estados Unidos | FTX y Alameda: condena y sentencia de Samuel Bankman-Fried | <https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes> | ✅ verificada | 2026-11-05 | 7 |
 | Departamento de Justicia de Estados Unidos | OneCoin: sentencia del cofundador Karl Sebastian Greenwood | <https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> | ✅ verificada | 2026-11-05 | 3 |
 | Departamento de Justicia de Estados Unidos | Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon | <https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> | ✅ verificada | 2026-11-05 | 5 |
-| Diario Oficial de la República de Chile | Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026) | <https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf> | ✅ verificada | 2026-11-05 | 15 |
+| Diario Oficial de la República de Chile | Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026) | <https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf> | ✅ verificada | 2026-11-05 | 17 |
 | Dirección del Trabajo | Relaciones laborales y obligaciones del empleador | <https://www.dt.gob.cl/> | ✅ verificada | 2026-11-05 | 43 |
 | Futurism · investigación periodística | Look Out for AI-Generated Ozempic! | <https://futurism.com/medvi-ai-ozempic> | ✅ verificada | 2026-11-05 | 3 |
 | Instituto Nacional de Estadísticas | Estadística oficial de población, empleo y actividad | <https://www.ine.gob.cl/> | ✅ verificada | 2026-11-05 | 2 |
@@ -37,6 +38,7 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Servicio de Cooperación Técnica | Fomento para micro y pequeñas empresas | <https://www.sercotec.cl/> | ✅ verificada | 2026-11-05 | 31 |
 | Servicio de Evaluación Ambiental | Sistema de Evaluación de Impacto Ambiental | <https://www.sea.gob.cl/> | ✅ verificada | 2026-11-05 | 4 |
 | Servicio de Impuestos Internos | Carpeta Tributaria Electrónica | <https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> | ✅ verificada | 2026-11-05 | 24 |
+| Servicio de Impuestos Internos | Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme | <https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf> | ✅ verificada | 2026-11-05 | 3 |
 | Servicio de Impuestos Internos | Formulario 22 y Operación Renta | <https://www.sii.cl/ayudas/formularios/3094-form22-3097.html> | ✅ verificada | 2026-11-05 | 2 |
 | Servicio de Impuestos Internos | Nuevos contribuyentes, inicio de actividades y DTE | <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> | ✅ verificada | 2026-11-05 | 100 |
 | Servicio de Impuestos Internos | Registro de Compras y Ventas | <https://www.sii.cl/destacados/f29/registrocompraventas.htm> | ✅ verificada | 2026-11-05 | 5 |

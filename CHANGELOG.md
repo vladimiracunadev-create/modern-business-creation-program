@@ -21,6 +21,10 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 - Se revalida el registro de fuentes (2026-11-05: 45 de 48 resuelven; ProChile pasa a su URL vigente,
   `sma`, `sec-madoff-controls` y `nyt-medvi-profile` siguen `pendiente` por certificado o bloqueo 403).
   La prueba de MEDVi deja de fijar la fecha de consulta, que avanza con cada revalidación.
+- Se incorpora el calendario 2027 a 2030: PPM transitorio del régimen general (7.º transitorio), PPM
+  Pro Pyme de 0,23 % desde 2029, tasa Pro Pyme de 15 % en 2028 (Circular SII 53 de 2025), ganancia de
+  capital bursátil, arriendo de viviendas económicas y la cotización adicional del empleador de la
+  Ley 21.735 hasta 6,4 % en agosto de 2030; las clases 96 y 161 enlazan los nuevos apartados.
 - Las circulares y resoluciones del SII, el decreto de catálogo de servicios del conocimiento y la
   tasa Pro Pyme posterior a 2027 quedan marcados como pendientes, no como normas aplicables.
 
