@@ -77,6 +77,15 @@ El expediente separa hechos verificados, cifras reportadas, alegaciones periodí
 actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
 categoría como prueba automática de otra.
 
+## 🆕 Actualización normativa: Ley 21.850
+
+[Guía de actualización, sección 5](../../../docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md#5-contratación-beneficios-tributarios-y-planificación-de-capacitación)
+
+**Lente para esta clase:** Antes de contratar, mide el efecto tributario: crédito 33 ter para servicios exportados, incompatibilidad con otras franquicias por remuneraciones y costo real de la planilla.
+
+**Estado:** Crédito 33 ter vigente desde el 1-11-2026; catálogo de servicios pendiente. Texto leído en el Diario Oficial del 17-10-2026; lo que
+dependa de circulares, resoluciones o decretos aún no verificados queda marcado como pendiente.
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -189,6 +198,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
 - *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
 - *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para elegir la figura correcta para cada capacidad y asignar control y responsabilidad sobre terceros.
+
+**Diario Oficial de la República de Chile — Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)**  
+<https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf> · verificado 2026-11-05
+
+- *Qué contiene:* Texto íntegro publicado el 17 de octubre de 2026, de 46 páginas, con los artículos permanentes y los transitorios de la ley, firmado electrónicamente con CVE 2888352.
+- *Cómo leerla:* Usa el texto como fuente de la redacción exacta: cita artículo y transitorio, no resúmenes de prensa. Cuando la ley delegue en circulares, resoluciones o decretos, registra esa dependencia como pendiente hasta ver la instrucción oficial.
+- *Uso en esta clase:* aporta el marco de «Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)» para elegir la figura correcta para cada capacidad y asignar control y responsabilidad sobre terceros.
+
+**Biblioteca del Congreso Nacional · LeyChile — Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1229250> · verificado 2026-11-05
+
+- *Qué contiene:* Ficha de LeyChile de la Ley 21.850 con su texto consolidado, historia de la norma y vigencias. Reúne la modificación de la Ley sobre Impuesto a la Renta, del Código Tributario y del estatuto de capacitación, más las normas transitorias.
+- *Cómo leerla:* Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.
+- *Uso en esta clase:* aporta el marco de «Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social» para elegir la figura correcta para cada capacidad y asignar control y responsabilidad sobre terceros.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

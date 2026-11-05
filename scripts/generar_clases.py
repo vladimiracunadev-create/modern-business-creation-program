@@ -123,6 +123,10 @@ def ruta_clase(clase: dict) -> Path:
     return carpeta / f"class-{clase['class']:02d}-{slug(clase['title'])}"
 
 
+# Fuentes primarias que respaldan todo bloque «Actualización normativa».
+FUENTES_LEY_21850 = ["LEY_21850_DO", "LEY_21850_BCN"]
+
+
 def fuentes_de_clase(spec: dict, pack: dict) -> list[str]:
     """Resuelve qué fuentes cita una clase: las propias o el trío de su parte.
 
@@ -130,7 +134,10 @@ def fuentes_de_clase(spec: dict, pack: dict) -> list[str]:
     `used_in` del registro: si las dos copias divergieran, el registro diría que
     una fuente se usa donde ya no se usa.
     """
-    return spec.get("fuentes") or pack["fuentes"][:3]
+    base = list(spec.get("fuentes") or pack["fuentes"][:3])
+    if spec.get("actualizacion"):
+        base += [i for i in FUENTES_LEY_21850 if i not in base]
+    return base
 
 
 def bloque_fuentes(ids: list[str], fuentes: dict, decision: str | None = None) -> str:
@@ -195,6 +202,7 @@ def render_clase(clase: dict, pack: dict, spec: dict, fuentes: dict,
     numero = clase["global_class"]
     total_parte = pack["_total_clases"]
     ids_fuentes = fuentes_de_clase(spec, pack)
+    actualizacion = spec.get("actualizacion")
 
     conceptos = "\n".join(
         f"| **{termino}** | {definicion.capitalize()}. |" for termino, definicion in spec["conceptos"]
@@ -218,6 +226,19 @@ def render_clase(clase: dict, pack: dict, spec: dict, fuentes: dict,
 El expediente separa hechos verificados, cifras reportadas, alegaciones periodísticas,
 actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
 categoría como prueba automática de otra.
+
+"""
+
+    bloque_actualizacion = ""
+    if actualizacion:
+        bloque_actualizacion = f"""## 🆕 Actualización normativa: Ley 21.850
+
+[Guía de actualización, {actualizacion['seccion']}](../../../docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md#{actualizacion['ancla']})
+
+**Lente para esta clase:** {actualizacion['lente']}
+
+**Estado:** {actualizacion['estado']} Texto leído en el Diario Oficial del 17-10-2026; lo que
+dependa de circulares, resoluciones o decretos aún no verificados queda marcado como pendiente.
 
 """
 
@@ -289,7 +310,7 @@ Al finalizar esta clase podrás:
 **Profesionales de apoyo:** {profesionales}. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
-{bloque_caso}## 🧪 Taller guiado
+{bloque_caso}{bloque_actualizacion}## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
 una segunda línea de carga regulatoria distinta:

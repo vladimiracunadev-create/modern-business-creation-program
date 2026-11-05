@@ -49,6 +49,15 @@ de Primera Categoría para empresas Pro Pyme en ejercicios 2025, 2026 y 2027,
 sujeta a las condiciones legales vinculadas a la cotización previsional indicada en esa ley.
 **Tratar esta tasa como dato dinámico y verificar antes del cierre/impuesto.**
 
+### Nota 2026 Ley 21.850
+
+La Ley 21.850 (Diario Oficial, 17-10-2026) fija la tasa de Primera Categoría en 27 % (año comercial 2026),
+25,5 % (2027), 24 % (2028) y 23 % desde 2029, sin perjuicio del art. 25 de la Ley 21.755. Desde el
+1-1-2027 elimina la restitución del crédito por IDPC, con porcentajes transitorios de 30 % y 20 %.
+Crea además el crédito del art. 33 ter por remuneraciones en exportación de servicios del conocimiento y
+rebaja la franquicia SENCE a 0,7 %. Guía con ejemplos y pendientes:
+[docs/20](20_LEY_21850_RECONSTRUCCION_NACIONAL.md).
+
 Texto de referencia:
 https://www.bcn.cl/leychile/Navegar?idNorma=6368
 

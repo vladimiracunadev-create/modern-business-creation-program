@@ -14,6 +14,14 @@ Desde 26-04-2026, jornada ordinaria general reducida de 44 a 42 horas en la tran
 Existe reducción transitoria de tasa indicada por Ley 21.755 para 2025-2027 bajo condiciones.
 Revalidar antes de cálculo de PPM/cierre.
 
+## 3 bis. Ley 21.850 (Reconstrucción Nacional)
+
+Publicada el 17-10-2026. Vigencias: tasas IDPC 27/25,5/24/23 % (2026-2029), fin de restitución desde
+1-1-2027, crédito art. 33 ter y SENCE 0,7 % desde 1-11-2026, facilidades de Tesorería por 180 días y
+regularización municipal por 12 meses. **Pendiente:** circulares y resoluciones del SII, decreto de catálogo
+de servicios del conocimiento y tasa Pro Pyme posterior a 2027. Guía:
+[docs/20](20_LEY_21850_RECONSTRUCCION_NACIONAL.md).
+
 ## 4. Finanzas abiertas
 
 CMF postergó la entrada en vigor operacional del Sistema de Finanzas Abiertas a julio de 2027.

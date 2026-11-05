@@ -455,5 +455,56 @@ class IntegracionMedviTest(unittest.TestCase):
                 self.assertEqual(registradas[identificador]["accessed"], "2026-10-04")
 
 
+
+class LeyReconstruccionTest(unittest.TestCase):
+    """Ley 21.850: se integra en clases existentes, sin cambiar la numeración."""
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.curriculo = cargar("curriculum.json")
+        cls.fuentes = json.loads(
+            (MANIFESTS.parent / "sources" / "bibliography.json").read_text(encoding="utf-8")
+        )["entries"]
+        cls.clases = {}
+        for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                cls.clases[entrada["n"]] = entrada
+
+    def test_ley_21850_se_integra_sin_alterar_la_numeracion(self) -> None:
+        esperadas = {85, 89, 90, 91, 92, 97, 98, 155, 160, 236, 244, 246, 263, 285, 287}
+        self.assertEqual(set(self.clases), set(range(1, TOTAL_CLASES + 1)))
+        integradas = {n for n, e in self.clases.items() if e.get("actualizacion")}
+        self.assertEqual(integradas, esperadas)
+        guia = (RAIZ / "docs" / "20_LEY_21850_RECONSTRUCCION_NACIONAL.md").read_text(encoding="utf-8")
+        for numero in integradas:
+            with self.subTest(clase=numero):
+                self.assertIn("Actualización normativa: Ley 21.850", self.readme_de(numero))
+        for frase in ("0,7 %", "75 UTM", "25,5 %", "Pendiente de SII", "revisión humana"):
+            self.assertIn(frase, guia)
+
+    def test_ley_21850_registra_fuentes_con_fecha(self) -> None:
+        registradas = {f["manifest_id"]: f for f in self.fuentes}
+        for identificador in ("LEY_21850_DO", "LEY_21850_BCN"):
+            with self.subTest(fuente=identificador):
+                self.assertEqual(registradas[identificador]["accessed"], "2026-11-05")
+
+    def test_ejemplo_ley_21850_es_aritmeticamente_reproducible(self) -> None:
+        """Carga total empresa más propietario de la guía, con la fórmula escrita en ella."""
+        for tasa, restitucion, total in ((27.0, 0.35, 44.45), (25.5, 0.30, 42.65),
+                                         (24.0, 0.20, 39.80), (23.0, 0.0, 35.0)):
+            neto = 35.0 - tasa * (1 - restitucion)
+            self.assertAlmostEqual(tasa + neto, total, places=2)
+        utm, base = 70_000, 36_000_000 * 0.75
+        self.assertEqual(min(base * 0.15, 75 * utm) * 4, 16_200_000)
+        self.assertEqual(min(base * 0.20, 75 * utm) * 4, 21_000_000)
+
+    def readme_de(self, numero: int) -> str:
+        clase = next(c for c in self.curriculo if c["global_class"] == numero)
+        for carpeta in CURRICULUM.glob(f"part-{clase['part']:02d}-*"):
+            for ruta in carpeta.glob(f"class-{clase['class']:02d}-*/README.md"):
+                return ruta.read_text(encoding="utf-8")
+        raise AssertionError(f"sin README para la clase {numero}")
+
+
 if __name__ == "__main__":
     unittest.main()

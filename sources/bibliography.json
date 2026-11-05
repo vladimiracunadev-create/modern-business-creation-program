@@ -322,6 +322,74 @@
       "last_checked": "2026-09-01"
     },
     {
+      "id": "ley-21850-bcn",
+      "manifest_id": "LEY_21850_BCN",
+      "type": "standard",
+      "authors": [
+        "Biblioteca del Congreso Nacional · LeyChile"
+      ],
+      "title": "Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1229250",
+      "authority": "Biblioteca del Congreso Nacional · LeyChile",
+      "accessed": "2026-11-05",
+      "used_in": [
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-01-arquitectura-tributaria-chilena-para-empresas",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-05-seleccion-de-regimen-tributario",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-06-pro-pyme-general",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-07-pro-pyme-transparente",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-08-regimen-general-semi-integrado-y-otros-regimenes",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-13-operacion-renta-f22-y-declaraciones-juradas",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-14-modificaciones-fiscalizacion-y-termino-de-giro",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-06-remuneraciones-imponibles-y-no-imponibles",
+        "curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-12-otec-capacitacion-y-sence",
+        "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-06-exportacion-de-servicios",
+        "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-08-factura-de-exportacion-y-tratamiento-tributario",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-11-compliance-tributario-y-ley-21-713",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-05-fuga-de-caja-y-plan-de-30-dias",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-07-renegociacion-de-deuda"
+      ],
+      "status": "pendiente",
+      "que_contiene": "Ficha de LeyChile de la Ley 21.850 con su texto consolidado, historia de la norma y vigencias. Reúne la modificación de la Ley sobre Impuesto a la Renta, del Código Tributario y del estatuto de capacitación, más las normas transitorias.",
+      "como_leerla": "Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.",
+      "nota": "La ficha no cargó en la consulta automática del 2026-11-05; el texto se leyó en el Diario Oficial.",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "ley-21850-do",
+      "manifest_id": "LEY_21850_DO",
+      "type": "standard",
+      "authors": [
+        "Diario Oficial de la República de Chile"
+      ],
+      "title": "Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)",
+      "locator": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf",
+      "authority": "Diario Oficial de la República de Chile",
+      "accessed": "2026-11-05",
+      "used_in": [
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-01-arquitectura-tributaria-chilena-para-empresas",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-05-seleccion-de-regimen-tributario",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-06-pro-pyme-general",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-07-pro-pyme-transparente",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-08-regimen-general-semi-integrado-y-otros-regimenes",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-13-operacion-renta-f22-y-declaraciones-juradas",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-14-modificaciones-fiscalizacion-y-termino-de-giro",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-06-remuneraciones-imponibles-y-no-imponibles",
+        "curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-12-otec-capacitacion-y-sence",
+        "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-06-exportacion-de-servicios",
+        "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-08-factura-de-exportacion-y-tratamiento-tributario",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-11-compliance-tributario-y-ley-21-713",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-05-fuga-de-caja-y-plan-de-30-dias",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-07-renegociacion-de-deuda"
+      ],
+      "status": "verificada",
+      "que_contiene": "Texto íntegro publicado el 17 de octubre de 2026, de 46 páginas, con los artículos permanentes y los transitorios de la ley, firmado electrónicamente con CVE 2888352.",
+      "como_leerla": "Usa el texto como fuente de la redacción exacta: cita artículo y transitorio, no resúmenes de prensa. Cuando la ley delegue en circulares, resoluciones o decretos, registra esa dependencia como pendiente hasta ver la instrucción oficial.",
+      "nota": "Texto primario leído completo para esta actualización.",
+      "last_checked": "2026-11-05"
+    },
+    {
       "id": "chilecompra",
       "manifest_id": "CHILECOMPRA",
       "type": "reference",

@@ -67,6 +67,15 @@ La Ley 21.713 fortaleció las facultades de fiscalización y los mecanismos anti
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🆕 Actualización normativa: Ley 21.850
+
+[Guía de actualización, sección 6](../../../docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md#6-obligaciones-sanciones-y-fiscalización)
+
+**Lente para esta clase:** Convierte la nueva fiscalización y el crédito condicionado en controles de cumplimiento: registro de trabajadores, evidencia de domicilio de trabajo y respaldo de la calificación de exportación.
+
+**Estado:** Controles según resolución del SII, pendiente. Texto leído en el Diario Oficial del 17-10-2026; lo que
+dependa de circulares, resoluciones o decretos aún no verificados queda marcado como pendiente.
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -158,6 +167,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para documentar la razón de negocios de cada estructura u operación relevante.
+
+**Diario Oficial de la República de Chile — Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)**  
+<https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf> · verificado 2026-11-05
+
+- *Qué contiene:* Texto íntegro publicado el 17 de octubre de 2026, de 46 páginas, con los artículos permanentes y los transitorios de la ley, firmado electrónicamente con CVE 2888352.
+- *Cómo leerla:* Usa el texto como fuente de la redacción exacta: cita artículo y transitorio, no resúmenes de prensa. Cuando la ley delegue en circulares, resoluciones o decretos, registra esa dependencia como pendiente hasta ver la instrucción oficial.
+- *Uso en esta clase:* aporta el marco de «Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)» para documentar la razón de negocios de cada estructura u operación relevante.
+
+**Biblioteca del Congreso Nacional · LeyChile — Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1229250> · verificado 2026-11-05
+
+- *Qué contiene:* Ficha de LeyChile de la Ley 21.850 con su texto consolidado, historia de la norma y vigencias. Reúne la modificación de la Ley sobre Impuesto a la Renta, del Código Tributario y del estatuto de capacitación, más las normas transitorias.
+- *Cómo leerla:* Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.
+- *Uso en esta clase:* aporta el marco de «Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social» para documentar la razón de negocios de cada estructura u operación relevante.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

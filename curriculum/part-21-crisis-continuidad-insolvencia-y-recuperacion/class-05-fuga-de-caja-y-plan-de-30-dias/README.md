@@ -65,6 +65,15 @@ Negociar antes conserva credibilidad; negociar después la elimina y encarece cu
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🆕 Actualización normativa: Ley 21.850
+
+[Guía de actualización, sección 7](../../../docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md#7-regularización-de-deudas-tributarias-y-municipales-beneficios-temporales)
+
+**Lente para esta clase:** Para una fuga de caja con deudas tributarias vencidas hasta 2025, evalúa condonación de intereses y multas en Tesorería y deudas municipales, con sus plazos y condiciones.
+
+**Estado:** Ventanas transitorias con término; confirma el plazo vigente. Texto leído en el Diario Oficial del 17-10-2026; lo que
+dependa de circulares, resoluciones o decretos aún no verificados queda marcado como pendiente.
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +165,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para ejecutar el plan de estabilización de caja con prioridades definidas.
+
+**Diario Oficial de la República de Chile — Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)**  
+<https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf> · verificado 2026-11-05
+
+- *Qué contiene:* Texto íntegro publicado el 17 de octubre de 2026, de 46 páginas, con los artículos permanentes y los transitorios de la ley, firmado electrónicamente con CVE 2888352.
+- *Cómo leerla:* Usa el texto como fuente de la redacción exacta: cita artículo y transitorio, no resúmenes de prensa. Cuando la ley delegue en circulares, resoluciones o decretos, registra esa dependencia como pendiente hasta ver la instrucción oficial.
+- *Uso en esta clase:* aporta el marco de «Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)» para ejecutar el plan de estabilización de caja con prioridades definidas.
+
+**Biblioteca del Congreso Nacional · LeyChile — Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1229250> · verificado 2026-11-05
+
+- *Qué contiene:* Ficha de LeyChile de la Ley 21.850 con su texto consolidado, historia de la norma y vigencias. Reúne la modificación de la Ley sobre Impuesto a la Renta, del Código Tributario y del estatuto de capacitación, más las normas transitorias.
+- *Cómo leerla:* Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.
+- *Uso en esta clase:* aporta el marco de «Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social» para ejecutar el plan de estabilización de caja con prioridades definidas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

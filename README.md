@@ -90,7 +90,7 @@ Toda afirmación del programa se apoya en una entrada del registro
 localizador, el organismo que responde por ella y la fecha en que se comprobó. Por eso **cada clase
 muestra la fecha de su propia fuente** y no una fecha global del programa.
 
-Estas son las **44 fuentes citadas** por las 336 clases y las 24 partes,
+Estas son las **46 fuentes citadas** por las 336 clases y las 24 partes,
 ordenadas por peso en el material. Las primeras son las que gobiernan el programa: la normativa
 consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor parte de las citas.
 
@@ -105,7 +105,9 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 | [Fomento para micro y pequeñas empresas](https://www.sercotec.cl/) | Servicio de Cooperación Técnica | 31 | ⚠️ | 2026-08-19 |
 | [Autorización sanitaria de alimentos](https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos) | ChileAtiende · Autoridad Sanitaria Regional | 24 | ⚠️ | 2026-08-19 |
 | [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 24 | ✅ | 2026-09-01 |
+| [Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social](https://www.bcn.cl/leychile/navegar?idNorma=1229250) | Biblioteca del Congreso Nacional · LeyChile | 15 | ⚠️ | 2026-11-05 |
 | [Registro de Prestadores de Servicios Financieros · Ley 21.521](https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html) | Comisión para el Mercado Financiero | 15 | ✅ | 2026-09-01 |
+| [Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)](https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf) | Diario Oficial de la República de Chile | 15 | ✅ | 2026-11-05 |
 | [Programas, estudios de mercado y promoción](https://www.prochile.gob.cl/) | ProChile | 15 | ✅ | 2026-09-01 |
 | [Marcas, patentes y diseños industriales](https://www.inapi.cl/) | Instituto Nacional de Propiedad Industrial | 14 | ✅ | 2026-09-01 |
 | [Regímenes tributarios · Operación Renta 2026](https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/) | Servicio de Impuestos Internos | 14 | ✅ | 2026-09-01 |
@@ -141,7 +143,7 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 | [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-09-28 |
 | [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-09-01 |
 
-⚠️ **6 fuente(s) no resolvieron en la última pasada:**
+⚠️ **7 fuente(s) no resolvieron en la última pasada:**
 
 - **Registro de Empresas y Sociedades / ChileAtiende — Constitución de empresas** · `2026-09-01: HTTP 403`  
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
@@ -149,6 +151,8 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
 - **ChileAtiende · Autoridad Sanitaria Regional — Autorización sanitaria de alimentos** · `2026-09-01: HTTP 403`  
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
+- **Biblioteca del Congreso Nacional · LeyChile — Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social** · `sin detalle`  
+  Sigue citada y conserva su última fecha buena (2026-11-05). No se ha borrado.
 - **Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria** · `2026-09-01: HTTP 403`  
   Sigue citada y conserva su última fecha buena (2026-08-19). No se ha borrado.
 - **ProChile — Exportación de servicios** · `2026-09-01: HTTP 404`  
@@ -158,7 +162,7 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 
 El registro guarda además **2 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
 
-Última revalidación: **2026-09-01** · 38/44 fuentes citadas resolvieron ·
+Última revalidación: **2026-09-01** · 39/46 fuentes citadas resolvieron ·
 336/336 bloques de fuentes distintos, uno por clase.
 
 La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al

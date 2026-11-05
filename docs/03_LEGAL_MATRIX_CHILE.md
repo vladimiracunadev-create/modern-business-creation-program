@@ -17,6 +17,7 @@
 | DL 830 / Código Tributario | Procedimientos, obligaciones, fiscalización e infracciones tributarias. | Tributario |
 | Ley 21.713 | Cumplimiento de obligaciones tributarias; revisar instrucciones SII vigentes. | Tributario |
 | Ley 21.755, art. 25 | Reducción transitoria de tasa IDPC Pro Pyme a 12,5% para 2025-2027 bajo condiciones legales. | Tributario |
+| Ley 21.850 | Reconstrucción Nacional: escala de IDPC 2026-2029, fin de restitución, crédito art. 33 ter por exportación de servicios, franquicia SENCE de 0,7 %, cruce de datos del SII y facilidades de pago; revisar instrucciones del SII. | Tributario |
 | DL 3.063 / texto refundido de Rentas Municipales | Patentes municipales y rentas locales. | Municipal |
 | Ley 19.496 | Protección de los Derechos de los Consumidores. | Consumidor |
 | Decreto 6/2021 Economía | Reglamento de Comercio Electrónico. | Consumidor |

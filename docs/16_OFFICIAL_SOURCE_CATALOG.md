@@ -8,6 +8,7 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Fuente | Tema | Localizador | Estado | Resolvió | Citas |
 |---|---|---|---|---:|---:|
 | Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-09-01 | 2 |
+| Biblioteca del Congreso Nacional · LeyChile | Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social | <https://www.bcn.cl/leychile/navegar?idNorma=1229250> | ⚠️ pendiente | 2026-11-05 | 15 |
 | Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-09-01 | 248 |
 | ChileAtiende · Autoridad Sanitaria Regional | Autorización sanitaria de alimentos | <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> | ⚠️ pendiente | 2026-08-19 | 24 |
 | ChileCompra | Compras públicas y ventas al Estado | <https://www.chilecompra.cl/> | ✅ verificada | 2026-09-01 | 1 |
@@ -19,6 +20,7 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Departamento de Justicia de Estados Unidos | FTX y Alameda: condena y sentencia de Samuel Bankman-Fried | <https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes> | ✅ verificada | 2026-09-28 | 7 |
 | Departamento de Justicia de Estados Unidos | OneCoin: sentencia del cofundador Karl Sebastian Greenwood | <https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> | ✅ verificada | 2026-09-28 | 3 |
 | Departamento de Justicia de Estados Unidos | Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon | <https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> | ✅ verificada | 2026-09-28 | 5 |
+| Diario Oficial de la República de Chile | Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026) | <https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf> | ✅ verificada | 2026-11-05 | 15 |
 | Dirección del Trabajo | Relaciones laborales y obligaciones del empleador | <https://www.dt.gob.cl/> | ✅ verificada | 2026-09-01 | 43 |
 | Futurism · investigación periodística | Look Out for AI-Generated Ozempic! | <https://futurism.com/medvi-ai-ozempic> | ✅ verificada | 2026-10-04 | 3 |
 | Instituto Nacional de Estadísticas | Estadística oficial de población, empleo y actividad | <https://www.ine.gob.cl/> | ✅ verificada | 2026-09-01 | 2 |
@@ -57,6 +59,7 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 ## Fuentes que no resolvieron en la última revalidación
 
 - **Servicio Nacional de Aduanas — Importación, exportación y clasificación arancelaria**: `2026-09-01: HTTP 403`
+- **Biblioteca del Congreso Nacional · LeyChile — Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social**: `sin detalle`
 - **ProChile — Exportación de servicios**: `2026-09-01: HTTP 404`
 - **Registro de Empresas y Sociedades / ChileAtiende — Constitución de empresas**: `2026-09-01: HTTP 403`
 - **Servicio de Cooperación Técnica — Fomento para micro y pequeñas empresas**: `2026-09-01: HTTP 301`

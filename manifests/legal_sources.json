@@ -60,6 +60,11 @@
     "domain": "Tributario"
   },
   {
+    "name": "Ley 21.850",
+    "scope": "Reconstrucción Nacional: escala de IDPC 2026-2029, fin de restitución, crédito art. 33 ter por exportación de servicios, franquicia SENCE de 0,7 %, cruce de datos del SII y facilidades de pago; revisar instrucciones del SII.",
+    "domain": "Tributario"
+  },
+  {
     "name": "DL 3.063 / texto refundido de Rentas Municipales",
     "scope": "Patentes municipales y rentas locales.",
     "domain": "Municipal"

@@ -7,6 +7,17 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ### Cambiado
 
+- Se integra la Ley 21.850 (Diario Oficial, 17-10-2026) sin crear clases ni alterar la numeración:
+  guía `docs/20_LEY_21850_RECONSTRUCCION_NACIONAL.md` con vigencias, ejemplos numéricos, casos,
+  taller, errores y pendientes de revisión humana.
+- Quince clases existentes (régimen, Pro Pyme, Operación Renta, fiscalización, contratación,
+  remuneraciones, SENCE, exportación de servicios, compliance tributario y crisis de caja) enlazan la
+  guía desde un bloque «Actualización normativa»; el generador lo renderiza desde `actualizacion`.
+- Se registran el texto del Diario Oficial y la ficha de LeyChile en el registro de fuentes y la
+  ley en la matriz legal; la ficha BCN queda `pendiente` porque no cargó en la consulta automática.
+- Las circulares y resoluciones del SII, el decreto de catálogo de servicios del conocimiento y la
+  tasa Pro Pyme posterior a 2027 quedan marcados como pendientes, no como normas aplicables.
+
 - Se incorpora MEDVi como caso empresarial transversal para estudiar una empresa AI-native con
   estructura interna mínima, IA, contratistas, proveedores clínicos, farmacias, plataformas y
   socios comerciales, sin reducir la operación a «dos personas hicieron todo».
