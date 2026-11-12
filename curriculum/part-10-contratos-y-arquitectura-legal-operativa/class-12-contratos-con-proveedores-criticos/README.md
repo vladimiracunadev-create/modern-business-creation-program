@@ -66,6 +66,24 @@ Con proveedores críticos el contrato debe incluir aviso extendido, obligación 
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
+
+[Guía de inteligencia económica y protección del conocimiento, sección 9](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#9-riesgos-de-las-relaciones-con-terceros)
+
+**Lente para esta clase:** Un proveedor crítico accede a información que no controlas: el contrato debe cubrir confidencialidad, subencargados, auditoría y salida, y no inducirlo a incumplir deberes con terceros.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Contrato escrito con confidencialidad y devolución de la información al terminar, aunque el proveedor sea conocido. |
+| **Pyme** | Matriz de proveedores con acceso a información sensible: qué ven, desde cuándo y quién en la empresa responde por ellos. |
+| **Gran empresa o multinacional** | Gestión de riesgo de terceros con evaluación inicial, auditoría periódica y cláusula de salida probada. |
+
+**Actividad sin crear sistemas:** Elige un proveedor con acceso a información sensible y completa qué ve, qué obligación escrita lo limita y cómo termina el acceso.
+
+**Términos:** Debida diligencia de terceros (*Third-Party Due Diligence*) · Subencargado (*Sub-processor*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -157,6 +175,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para identificar proveedores críticos y asegurar continuidad contractual.
+
+**Biblioteca del Congreso Nacional — Ley 20.169 — Regula la competencia desleal**  
+<https://www.bcn.cl/leychile/navegar?idNorma=258377> · verificado 2026-11-12
+
+- *Qué contiene:* Define el acto de competencia desleal como la conducta contraria a la buena fe o a las buenas costumbres que, por medios ilegítimos, persigue desviar clientela; enumera conductas particulares y las acciones de cesación, declaración, remoción de efectos e indemnización.
+- *Cómo leerla:* La enumeración del artículo 4 no es taxativa y no menciona expresamente la obtención de secretos, que se trata en la ley de propiedad industrial y en el Código Penal. Úsala para inducción a incumplir contratos, engaño y denigración, y para ejercer acciones civiles.
+- *Uso en esta clase:* aporta el marco de «Ley 20.169 — Regula la competencia desleal» para identificar proveedores críticos y asegurar continuidad contractual.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

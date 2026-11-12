@@ -67,6 +67,26 @@ Sin umbrales escritos cada quien decide qué es aceptable, y esa ambigüedad es 
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Protección de fundadores y ejecutivos
+
+[Guía de inteligencia económica y protección del conocimiento, sección 11](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#11-protección-de-fundadores-y-ejecutivos)
+
+**Lente para esta clase:** Regalos, invitaciones y favores crean deuda y son, a la vez, el primer paso de una aproximación: una política clara protege a la persona y a la empresa.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Regla simple: lo que no le contarías a tu socio no lo aceptas. |
+| **Pyme** | Política de regalos con tope, registro y a quién se consulta ante una oferta inusual. |
+| **Gran empresa o multinacional** | Política con aprobaciones por monto, registro central y canal de reporte de aproximaciones. |
+
+**Actividad sin crear sistemas:** Revisa tu política de regalos y agrega una pauta para ofertas personales inusuales (viajes, inversiones, citas).
+
+**Términos:** Trampa de seducción (*Honey Trap*) · Coerción y chantaje (*Coercion and Blackmail*)
+
+**Caso en desarrollo:** [NVIDIA: sospecha de espionaje y protección del conocimiento](../../../case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md#5-por-qué-este-caso-sirve-aunque-no-se-sepa-el-final). El caso muestra por qué una relación personal con alguien vinculado a un cliente exige política de declaración y canal de reporte antes de que haya incidente. Es una investigación **no concluida**: separa lo oficial, lo alegado y lo desconocido.
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -158,6 +178,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir la política de regalos, hospitalidad y declaración de conflictos.
+
+**NBC News — Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026)**  
+<https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628> · verificado 2026-11-12
+
+- *Qué contiene:* Informa la contratación, por los directores independientes, de un ex fiscal federal interino y su estudio para investigar los hechos, la declaración del directorio, la continuidad del ejecutivo y la caída bursátil, y distingue lo que NBC confirmó de lo que no.
+- *Cómo leerla:* Distingue con cuidado entre lo que el medio confirma, lo que atribuye a sus fuentes y lo que otros medios reportaron sin confirmación de NBC. La mención de una investigación del FBI proviene de declaraciones del presidente, no de una declaración del FBI.
+- *Uso en esta clase:* aporta el marco de «Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026)» para definir la política de regalos, hospitalidad y declaración de conflictos.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

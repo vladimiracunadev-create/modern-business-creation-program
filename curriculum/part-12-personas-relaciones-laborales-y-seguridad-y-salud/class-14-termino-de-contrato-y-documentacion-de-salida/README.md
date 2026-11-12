@@ -68,6 +68,24 @@ Los dos errores más caros son invocar una causal sin poder acreditar los hechos
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
+
+[Guía de inteligencia económica y protección del conocimiento, sección 10](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#10-contrainteligencia-empresarial)
+
+**Lente para esta clase:** La salida de una persona es el momento de mayor riesgo de fuga; un cierre ordenado protege a la empresa y evita sospechas infundadas sobre quien se va.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Lista de siete acciones del último día: devolver equipos, cerrar cuentas, cambiar claves compartidas y recordar el deber de reserva. |
+| **Pyme** | Procedimiento de salida con responsable, cierre de accesos el mismo día y entrevista que registra qué información conocía la persona. |
+| **Gran empresa o multinacional** | Salida coordinada entre personas, seguridad y tecnología, con revisión de accesos inusuales en las semanas previas a salidas críticas. |
+
+**Actividad sin crear sistemas:** Arma la lista del último día para un cargo crítico y define quién verifica cada punto y dónde queda constancia.
+
+**Términos:** Amenaza interna (*Insider Threat*) · Cierre de accesos (*Deprovisioning*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -159,6 +177,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para ejecutar el término con causal correcta y documentación completa.
+
+**Biblioteca del Congreso Nacional — Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=207436> · verificado 2026-11-12
+
+- *Qué contiene:* El artículo 154 ter obliga al empleador a mantener reserva de la información privada del trabajador; el artículo 160 enumera causales de término sin indemnización, entre ellas la falta de probidad y las negociaciones prohibidas por escrito dentro del giro del negocio.
+- *Cómo leerla:* El Código no enumera expresamente la revelación de secretos entre las letras del número 1 del artículo 160. Por eso conviene escribir el deber de reserva en el contrato y en el reglamento interno, y consultar a un abogado laboralista antes de invocar una causal.
+- *Uso en esta clase:* aporta el marco de «Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)» para ejecutar el término con causal correcta y documentación completa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

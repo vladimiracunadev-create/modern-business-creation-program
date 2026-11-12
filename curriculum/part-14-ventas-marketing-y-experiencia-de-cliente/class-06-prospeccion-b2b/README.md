@@ -65,6 +65,24 @@ Cien cuentas bien investigadas producen más que mil contactos genéricos, porqu
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Inteligencia humana (HUMINT) en el mundo corporativo
+
+[Guía de inteligencia económica y protección del conocimiento, sección 7](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#7-inteligencia-humana-humint-en-el-mundo-corporativo)
+
+**Lente para esta clase:** Prospectar implica conversar mucho y compartir poco: reconoce la elicitación y cuida qué cuentas de tu capacidad, clientes y precios antes de tener un contrato.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Prepara de antemano qué dirás de tu capacidad, clientes y precios en una primera reunión. |
+| **Pyme** | Guion de conversación con lo que se comparte, lo que se pregunta de vuelta y a quién se escala una petición inusual. |
+| **Gran empresa o multinacional** | Capacitación a ventas y desarrollo de negocios para reconocer aproximaciones, con reporte de las sospechosas. |
+
+**Actividad sin crear sistemas:** Anota cinco preguntas que te harían en una primera reunión y marca cuáles necesitas responder para cerrar el negocio.
+
+**Términos:** Elicitación (*Elicitation*) · Inteligencia humana (*HUMINT*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

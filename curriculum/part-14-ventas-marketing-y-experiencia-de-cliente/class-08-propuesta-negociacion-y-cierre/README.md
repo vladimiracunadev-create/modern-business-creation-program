@@ -65,6 +65,24 @@ Descontar sin obtener nada a cambio enseña al cliente que el precio inicial era
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Inteligencia humana (HUMINT) en el mundo corporativo
+
+[Guía de inteligencia económica y protección del conocimiento, sección 7](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#7-inteligencia-humana-humint-en-el-mundo-corporativo)
+
+**Lente para esta clase:** En una negociación la contraparte puede pedir más información de la necesaria para cotizar; la manipulación se detecta cuando el pedido supera la decisión que está en juego.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Define antes de negociar tu precio mínimo y qué información de costos nunca revelas. |
+| **Pyme** | Regla de que cada dato compartido se justifica por la decisión en juego y queda anotado en el expediente de la negociación. |
+| **Gran empresa o multinacional** | Equipos de negociación con roles, cláusulas de acceso limitado y revisión legal de la información entregada. |
+
+**Actividad sin crear sistemas:** Lista tres pedidos de información que una contraparte podría hacer y decide cuáles darías, por qué y con qué registro.
+
+**Términos:** Manipulación en negociación (*Negotiation Manipulation*) · Elicitación (*Elicitation*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

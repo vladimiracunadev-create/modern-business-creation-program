@@ -23,7 +23,7 @@ Al terminar esta parte podrás:
 1. **Cumplir las obligaciones de información, retracto y garantía legal en venta a consumidores**.
 2. **Levantar el mapa de datos personales y su base de licitud**.
 3. **Preparar la organización para la vigencia de la Ley 21.719**.
-4. **Proteger marca, obra y secreto empresarial con el instrumento correcto**.
+4. **Proteger marca, obra y secreto comercial con el instrumento correcto**.
 
 ## 🗺️ Mapa de la parte
 
@@ -143,7 +143,7 @@ flowchart TB
 | **Registro de solicitudes** | Evidencia de atención y resolución. |
 | **Responsable del tratamiento** | Quien decide fines y medios. |
 | **Retracto** | Derecho a desistir dentro del plazo legal en los casos que corresponde. |
-| **Secreto empresarial** | Información no divulgada con valor comercial y medidas de protección. |
+| **Secreto comercial** | Información no divulgada con valor comercial y medidas de protección. |
 | **Servicio esencial** | Actividad cuya interrupción afecta significativamente. |
 | **Servicio técnico** | Canal de atención para hacer efectiva la garantía. |
 | **Stock disponible** | Existencia real que respalda la oferta publicada. |

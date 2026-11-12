@@ -65,6 +65,24 @@ Compartir credenciales por mensajería es la práctica más extendida y la que p
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
+
+[Guía de inteligencia económica y protección del conocimiento, sección 10](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#10-contrainteligencia-empresarial)
+
+**Lente para esta clase:** Necesidad de conocer y mínimo privilegio son contrainteligencia práctica: cada permiso de más es una puerta que alguien podría usar o que un tercero podría explotar.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una hoja con quién accede a qué, revisada al contratar, al salir alguien y cada seis meses. |
+| **Pyme** | Revisión semestral de accesos por responsable de área, con cierre de los que no se justifican. |
+| **Gran empresa o multinacional** | Gobierno de identidades con revisión por rol, separación de funciones y alertas de accesos anómalos. |
+
+**Actividad sin crear sistemas:** Para tres cargos anota a qué información acceden hoy y a cuál necesitan acceder: la diferencia es tu brecha.
+
+**Términos:** Mínimo privilegio (*Least Privilege*) · Necesidad de conocer (*Need-to-Know*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

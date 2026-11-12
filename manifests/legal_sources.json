@@ -95,6 +95,16 @@
     "domain": "PI"
   },
   {
+    "name": "Código Penal, arts. 284 a 284 sexies",
+    "scope": "Delitos contra el secreto comercial: intromisión indebida, revelación por deber de reserva y aprovechamiento económico.",
+    "domain": "PI"
+  },
+  {
+    "name": "Ley 20.169",
+    "scope": "Competencia desleal: conductas y acciones civiles (cesación, declaración, remoción de efectos e indemnización).",
+    "domain": "Comercial"
+  },
+  {
     "name": "Ley 17.336",
     "scope": "Propiedad Intelectual y derecho de autor.",
     "domain": "PI"

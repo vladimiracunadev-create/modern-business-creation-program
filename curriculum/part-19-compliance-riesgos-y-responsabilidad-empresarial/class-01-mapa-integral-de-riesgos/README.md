@@ -67,6 +67,26 @@ Celsius y Terra permiten practicar riesgos correlacionados: un activo pierde val
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
+
+[Guía de inteligencia económica y protección del conocimiento, sección 10](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#10-contrainteligencia-empresarial)
+
+**Lente para esta clase:** El mapa de riesgos debe incluir el conocimiento que vale: qué información, quién la quiere y por dónde saldría. Es un mapa de activos y amenazas, no solo de procesos.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Hoja con cinco activos de conocimiento y quién podría quererlos. |
+| **Pyme** | Mapa anual de activos y amenazas con dueño por riesgo. |
+| **Gran empresa o multinacional** | Evaluación de amenazas por sector y geografía, integrada al comité de riesgos. |
+
+**Actividad sin crear sistemas:** Agrega a tu mapa de riesgos una columna «quién querría esta información y cómo la obtendría».
+
+**Términos:** Contrainteligencia (*Counterintelligence*) · Mapa de amenazas (*Threat Map*)
+
+**Caso en desarrollo:** [NVIDIA: sospecha de espionaje y protección del conocimiento](../../../case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md#5-por-qué-este-caso-sirve-aunque-no-se-sepa-el-final). Agrega al mapa la relación entre ejecutivo, cliente y tercero como ruta de acceso a información, sin esperar a que falle un sistema. Es una investigación **no concluida**: separa lo oficial, lo alegado y lo desconocido.
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -158,6 +178,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Registra la declaración de culpabilidad de agosto de 2025 y la sentencia de diciembre de 2025, y describe hechos sobre el funcionamiento comunicado de UST, intervenciones no reveladas y respuesta posterior a la pérdida de estabilidad.
 - *Cómo leerla:* Úsala para someter a estrés el mecanismo del producto, sus dependencias, incentivos, liquidez y comunicación. La sentencia estadounidense acredita conducta en ese proceso; no crea por sí sola una regla jurídica aplicable en Chile.
 - *Uso en esta clase:* aporta el marco de «Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon» para identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control.
+
+**Nextgov/FCW — Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)**  
+<https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/> · verificado 2026-11-12
+
+- *Qué contiene:* Analiza el apoyo de contrainteligencia del Estado a las empresas tecnológicas, recoge las posiciones de legisladores, funcionarios y ejecutivos, y subraya el rol de la cultura de reporte y de los equipos de seguridad para detectar aproximaciones antes del acceso.
+- *Cómo leerla:* Úsala para el enfoque defensivo y para ver qué apoyo estatal existe en Estados Unidos. Sus hechos sobre el caso son atribuciones y posiciones de parte; lo que no se informa figura como desconocido y no debe completarse con suposiciones.
+- *Uso en esta clase:* aporta el marco de «Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)» para identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -76,6 +76,24 @@ El expediente separa hechos verificados, cifras reportadas, alegaciones periodí
 actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
 categoría como prueba automática de otra.
 
+## 🛡️ Protección del conocimiento: Protección de fundadores y ejecutivos
+
+[Guía de inteligencia económica y protección del conocimiento, sección 11](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#11-protección-de-fundadores-y-ejecutivos)
+
+**Lente para esta clase:** Si todo el conocimiento está en una persona, esa persona es el objetivo: documentar y distribuir accesos reduce el daño de una presión, una renuncia o una enfermedad.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Documenta lo que solo tú sabes y deja una copia de accesos con alguien de confianza. |
+| **Pyme** | Plan para que dos personas puedan operar cada función crítica. |
+| **Gran empresa o multinacional** | Plan de sucesión y cobertura para cargos clave, con revisión de sus accesos y de su exposición. |
+
+**Actividad sin crear sistemas:** Anota tres cosas que solo sabe el fundador y define cómo se documentan en 30 días.
+
+**Términos:** Riesgo de persona clave (*Key-Person Risk*) · Protección ejecutiva (*Executive Protection*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

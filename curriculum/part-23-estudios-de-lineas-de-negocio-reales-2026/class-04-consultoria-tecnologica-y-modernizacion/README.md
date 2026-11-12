@@ -65,6 +65,24 @@ La ventaja competitiva está en la especialización vertical y en entregar resul
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
+
+[Guía de inteligencia económica y protección del conocimiento, sección 15](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#15-ejemplos-por-tipo-de-empresa)
+
+**Lente para esta clase:** Una consultoría vende conocimiento y conoce a varios clientes: el riesgo es que lo aprendido en uno se filtre a otro.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Cláusula con cada cliente sobre qué se reutiliza y qué no. |
+| **Pyme** | Separación de equipos por cliente y acuerdos que distinguen la metodología propia de la información del cliente. |
+| **Gran empresa o multinacional** | Muros de información y revisión de conflictos antes de aceptar proyectos. |
+
+**Actividad sin crear sistemas:** Define qué parte de tus entregables es metodología tuya y cuál es información del cliente que no puedes reutilizar.
+
+**Términos:** Muro de información (*Ethical Wall*) · Metodología propia (*Proprietary Methodology*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

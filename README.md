@@ -64,17 +64,17 @@ responsable y qué evidencia debe quedar**.
 |---|---|
 | Currículo | ✅ 336/336 clases generadas desde manifiesto |
 | Contenido por clase | ✅ propósito, conceptos, desarrollo en tres bloques, taller, reto, errores y preguntas propias |
-| Profundidad | ✅ 1.143–2.590 palabras por clase (mediana 1.294), 445.725 palabras totales |
+| Profundidad | ✅ 1.144–2.909 palabras por clase (mediana 1.313), 454.271 palabras totales |
 | Diagramas | ✅ 360 diagramas mermaid: uno por clase y uno por parte |
 | Conceptos definidos | ✅ 1.344 definiciones operacionales · glosario maestro de 1.251 términos |
 | Preguntas de comprobación | ✅ 1.008 (3 por clase) |
 | Marco normativo | ✅ 24 paquetes de parte con narrativa, normas, autoridades, riesgos y bibliografía |
-| Manuales transversales | ✅ 21 documentos en `docs/` |
+| Manuales transversales | ✅ 22 documentos en `docs/` |
 | Casos empresariales y sectoriales | ✅ 20 líneas de negocio + caso transversal MEDVi |
 | Plantillas operativas | ✅ 24 artefactos editables, incluido el expediente progresivo de viabilidad |
 | Fuentes registradas | ✅ fuente primaria, corporativa o periodística identificada con localizador, uso y fecha — cifras en [Fuentes y revalidación](#-fuentes-y-revalidación) |
-| Manual en PDF | ✅ 1.585 páginas + 24 PDF por parte |
-| Sitio HTML | ✅ 429 páginas de contenido con buscador, diagramas y tema claro/oscuro |
+| Manual en PDF | ✅ 1.606 páginas + 24 PDF por parte |
+| Sitio HTML | ✅ 431 páginas de contenido con buscador, diagramas y tema claro/oscuro |
 | CI | ✅ estructura, enlaces, codificación, sincronía, markdownlint, sitio, PDF y tests |
 | Licencias | ✅ MIT para código · CC BY-NC-SA 4.0 para contenido original |
 
@@ -90,7 +90,7 @@ Toda afirmación del programa se apoya en una entrada del registro
 localizador, el organismo que responde por ella y la fecha en que se comprobó. Por eso **cada clase
 muestra la fecha de su propia fuente** y no una fecha global del programa.
 
-Estas son las **48 fuentes citadas** por las 336 clases y las 24 partes,
+Estas son las **61 fuentes citadas** por las 336 clases y las 24 partes,
 ordenadas por peso en el material. Las primeras son las que gobiernan el programa: la normativa
 consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor parte de las citas.
 
@@ -122,30 +122,43 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 | [Instalaciones eléctricas y de gas](https://www.sec.cl/) | Superintendencia de Electricidad y Combustibles | 6 | ✅ | 2026-11-05 |
 | [A $1.8 Billion Company With Two Employees? AI Made It Possible](https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/) | The New York Times · republicado por GV Wire | 6 | ⚠️ | 2026-10-04 |
 | [Reformas posteriores a Madoff sobre custodia y verificación independiente](https://www.sec.gov/spotlight/secpostmadoffreforms.htm) | U.S. Securities and Exchange Commission | 6 | ⚠️ | 2026-09-28 |
+| [DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial](https://www.bcn.cl/leychile/navegar?idNorma=1179684) | Biblioteca del Congreso Nacional | 5 | ✅ | 2026-11-12 |
 | [Celsius: declaración de culpabilidad y sentencia del fundador](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-11-05 |
 | [Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon](https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-11-05 |
 | [Registro de Compras y Ventas](https://www.sii.cl/destacados/f29/registrocompraventas.htm) | Servicio de Impuestos Internos | 5 | ✅ | 2026-11-05 |
+| [Código Penal — Artículos 284 a 284 sexies (secreto comercial)](https://www.bcn.cl/leychile/navegar?idNorma=1984) | Biblioteca del Congreso Nacional | 4 | ✅ | 2026-11-12 |
 | [Sistema de Evaluación de Impacto Ambiental](https://www.sea.gob.cl/) | Servicio de Evaluación Ambiental | 4 | ✅ | 2026-11-05 |
 | [Ventanilla única de comercio exterior](https://www.sicexchile.cl/) | Sistema Integrado de Comercio Exterior | 4 | ✅ | 2026-11-05 |
 | [Aceleración de startups](https://startupchile.org/) | Start-Up Chile · CORFO | 4 | ✅ | 2026-11-05 |
 | [Concesiones y permisos de telecomunicaciones](https://www.subtel.gob.cl/) | Subsecretaría de Telecomunicaciones | 4 | ✅ | 2026-11-05 |
+| [Ley 21.459 — Delitos informáticos](https://www.bcn.cl/leychile/navegar?idNorma=1177743) | Biblioteca del Congreso Nacional | 3 | ✅ | 2026-11-12 |
+| [Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)](https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html) | CNBC | 3 | ✅ | 2026-11-12 |
 | [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-11-05 |
 | [Look Out for AI-Generated Ozempic!](https://futurism.com/medvi-ai-ozempic) | Futurism · investigación periodística | 3 | ✅ | 2026-11-05 |
 | [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-11-05 |
 | [Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme](https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf) | Servicio de Impuestos Internos | 3 | ✅ | 2026-11-05 |
 | [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-11-05 |
+| [Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)](https://www.bcn.cl/leychile/navegar?idNorma=207436) | Biblioteca del Congreso Nacional | 2 | ✅ | 2026-11-12 |
+| [Ley 20.169 — Regula la competencia desleal](https://www.bcn.cl/leychile/navegar?idNorma=258377) | Biblioteca del Congreso Nacional | 2 | ✅ | 2026-11-12 |
 | [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-11-05 |
+| [Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026)](https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628) | NBC News | 2 | ✅ | 2026-11-12 |
+| [Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)](https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/) | Nextgov/FCW | 2 | ✅ | 2026-11-12 |
 | [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-11-05 |
 | [Fiscalización y sanción ambiental](https://portal.sma.gob.cl/) | Superintendencia del Medio Ambiente | 2 | ⚠️ | 2026-09-01 |
 | [Compounding and the FDA: Questions and Answers](https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
 | [Counterfeit Medicine](https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
 | [FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
+| [Ley 21.595 — Ley de Delitos Económicos](https://www.bcn.cl/leychile/navegar?idNorma=1195119) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-12 |
 | [Cotización adicional del empleador de la reforma de pensiones](https://www.chileatiende.gob.cl/fichas/130987) | ChileAtiende · Instituto de Previsión Social | 1 | ✅ | 2026-11-05 |
 | [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-11-05 |
 | [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-11-05 |
 | [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-11-05 |
+| [Stealing Trade Secrets and Economic Espionage: An Overview of the Economic Espionage Act (R42681)](https://www.everycrsreport.com/reports/R42681.html) | Congressional Research Service | 1 | ✅ | 2026-11-12 |
+| [Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007)](https://www.justice.gov/archive/usao/gan/press/2007/02-02-07.pdf) | Departamento de Justicia de EE. UU. | 1 | ⚠️ | 2026-11-12 |
+| [Ex ejecutivo de Uber condenado a 18 meses por robo de secretos comerciales de Google (2020)](https://www.justice.gov/usao-ndca/pr/former-uber-executive-sentenced-18-months-jail-trade-secret-theft-google) | Departamento de Justicia de EE. UU. | 1 | ✅ | 2026-11-12 |
+| [Kolon Industries se declara culpable de conspirar para robar secretos de DuPont sobre Kevlar (2015)](https://www.justice.gov/usao-edva/pr/kolon-industries-inc-pleads-guilty-conspiring-steal-dupont-trade-secrets-involving) | Departamento de Justicia de EE. UU. | 1 | ✅ | 2026-11-12 |
 
-⚠️ **3 fuente(s) no resolvieron en la última pasada:**
+⚠️ **4 fuente(s) no resolvieron en la última pasada:**
 
 - **The New York Times · republicado por GV Wire — A $1.8 Billion Company With Two Employees? AI Made It Possible** · `2026-11-05: HTTP 403`  
   Sigue citada y conserva su última fecha buena (2026-10-04). No se ha borrado.
@@ -153,10 +166,12 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
   Sigue citada y conserva su última fecha buena (2026-09-28). No se ha borrado.
 - **Superintendencia del Medio Ambiente — Fiscalización y sanción ambiental** · `2026-11-05: red: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)`  
   Sigue citada y conserva su última fecha buena (2026-09-01). No se ha borrado.
+- **Departamento de Justicia de EE. UU. — Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007)** · `PDF archivado devolvió 403 o descarga al consultarlo; contenido contrastado solo por resultados de búsqueda`  
+  Sigue citada y conserva su última fecha buena (2026-11-12). No se ha borrado.
 
 El registro guarda además **2 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
 
-Última revalidación: **2026-11-05** · 45/48 fuentes citadas resolvieron ·
+Última revalidación: **2026-11-05** · 57/61 fuentes citadas resolvieron ·
 336/336 bloques de fuentes distintos, uno por clase.
 
 La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al
@@ -272,13 +287,30 @@ regulatorias, respuesta de MEDVi, interpretación y lección empresarial**. Incl
 medicamentos FDA-approved, genéricos aprobados, compounded y falsificados; una matriz de *founder
 bottleneck*; y una due diligence progresiva para una inversión hipotética de US$5 millones.
 
+## 🛡️ Inteligencia económica y protección del conocimiento
+
+La [guía de inteligencia económica y protección del conocimiento](docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md)
+enseña a reconocer y prevenir el espionaje empresarial desde la creación de la empresa hasta su
+internacionalización. Se integra en **38 clases existentes** mediante un bloque «Protección del
+conocimiento» —sin crear clases ni alterar la numeración de las 336— con tres niveles de medida
+(emprendedor, pyme, gran empresa), una actividad que no exige construir sistemas y terminología
+bilingüe. Cubre inteligencia competitiva frente a obtención indebida, ingeniería social, HUMINT,
+secretos comerciales, terceros, contrainteligencia, protección de ejecutivos y crisis, con la base
+legal chilena verificada contra la Biblioteca del Congreso Nacional (Ley 19.039, Código Penal arts.
+284 a 284 sexies, Leyes 21.595, 21.459 y 20.169).
+
+El [caso NVIDIA](case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md)
+es una **investigación no concluida**: el expediente separa información oficialmente conocida,
+sospecha o alegación, posición de las partes y lo que aún se desconoce, y no afirma que haya existido
+espionaje industrial.
+
 ## 📕 Descargas
 
 | Formato | Contenido | Enlace |
 |---|---|---|
-| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.585 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
+| Manual integral (PDF) | Las 336 clases, las 24 partes, el currículo y el glosario — 1.606 páginas | [descargar](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/manual.pdf) |
 | PDF por parte | Cada parte como documento independiente, ~63 páginas | [ver los 24](https://vladimiracunadev-create.github.io/modern-business-creation-program/downloads/partes/) |
-| Sitio HTML | 429 páginas de contenido con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
+| Sitio HTML | 431 páginas de contenido con buscador, diagramas y tema claro/oscuro | [abrir](https://vladimiracunadev-create.github.io/modern-business-creation-program/) |
 
 Los PDF se compilan desde el mismo Markdown que publica el sitio, así que nunca divergen del
 contenido del repositorio. Se regeneran en cada publicación con
@@ -338,8 +370,8 @@ Detalle en [`docs/00_MASTER_FLOW.md`](docs/00_MASTER_FLOW.md).
 
 | Carpeta | Contenido |
 |---|---|
-| [`docs/`](docs/) | 21 manuales: flujo maestro, tipos societarios, ciclo SII, matriz legal, permisos, laboral, consumidor y datos, financiamiento, fintech, comercio exterior, compliance, crisis, glosario, watchlist 2026 y guía de la Ley 21.850 |
-| [`case-studies/`](case-studies/) | 20 líneas de negocio 2026 + caso empresarial transversal MEDVi con expediente de evidencia |
+| [`docs/`](docs/) | 22 manuales: flujo maestro, tipos societarios, ciclo SII, matriz legal, permisos, laboral, consumidor y datos, financiamiento, fintech, comercio exterior, compliance, crisis, glosario, watchlist 2026, guía de la Ley 21.850 y guía de inteligencia económica y protección del conocimiento |
+| [`case-studies/`](case-studies/) | 20 líneas de negocio 2026 + casos empresariales transversales MEDVi y NVIDIA con expediente de evidencia |
 | [`templates/`](templates/) | 24 artefactos operativos editables: canvas, flujo de caja de 13 semanas, cap table, checklist de constitución, matriz de permisos, registro de riesgos, mapa de datos, data room |
 | [`docs/19_GLOSSARY.md`](docs/19_GLOSSARY.md) | Glosario maestro: 1.250 términos con definición operacional y enlace a la clase donde se introduce |
 | [`manifests/`](manifests/) | Fuentes de verdad: currículo, contenido y pedagogía por clase, paquetes y narrativa por parte, fuentes oficiales, normativa y líneas de negocio |
@@ -394,7 +426,7 @@ python scripts/validar_encoding.py          # todo UTF-8, sin BOM ni mojibake
 python scripts/generar_manual.py --partes   # manual integral + 24 PDF por parte
 python scripts/generar_manual.py --verificar  # relee el PDF: portada, versión y extensión
 python scripts/generar_sitio.py             # sitio HTML en site/ y copia de las descargas
-python -m unittest discover -s tests -v     # 37 pruebas estructurales
+python -m unittest discover -s tests -v     # 51 pruebas estructurales
 npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 ```
 
@@ -416,7 +448,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 🔗 contenido con **fuente citada, explicada y fechada**: cada una dice qué contiene y cómo leerla;
 - 🗺️ **360 diagramas** que muestran el flujo de decisión, no ilustraciones decorativas;
 - 🔍 material **honesto sobre sus límites**: distingue lo verificado de lo dinámico y marca qué revalidar;
-- 📖 material **abierto y offline-friendly**: manual de 1.585 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
+- 📖 material **abierto y offline-friendly**: manual de 1.606 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
 
 </td>
 <td valign="top" width="50%">

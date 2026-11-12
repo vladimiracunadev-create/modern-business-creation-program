@@ -67,6 +67,24 @@ Constituir filial antes de tener volumen genera costos fijos, obligaciones tribu
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
+
+[Guía de inteligencia económica y protección del conocimiento, sección 9](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#9-riesgos-de-las-relaciones-con-terceros)
+
+**Lente para esta clase:** Un socio o filial en otro país tiene menos incentivos a cuidar tu conocimiento y tú menos capacidad de reclamo: la protección contractual debe anticiparse.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Contrato con el agente local que fije confidencialidad, propiedad y jurisdicción antes de entregar nada. |
+| **Pyme** | Entrega al socio extranjero solo lo necesario para vender, con registro y derecho de verificación. |
+| **Gran empresa o multinacional** | Estructura con controles sobre la información que sale al exterior y revisión legal por jurisdicción. |
+
+**Actividad sin crear sistemas:** Define qué información necesita un socio extranjero para vender tu producto y cuál nunca debería recibir.
+
+**Términos:** Socio local (*Local Partner*) · Jurisdicción (*Jurisdiction*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

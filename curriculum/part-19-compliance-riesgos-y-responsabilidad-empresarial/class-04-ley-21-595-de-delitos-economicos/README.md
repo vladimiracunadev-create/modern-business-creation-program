@@ -67,6 +67,24 @@ La reforma amplió las figuras que generan responsabilidad de la persona jurídi
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Marco legal chileno: obligación, recomendación y medida voluntaria
+
+[Guía de inteligencia económica y protección del conocimiento, sección 12](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#12-marco-legal-chileno-obligación-recomendación-y-medida-voluntaria)
+
+**Lente para esta clase:** Los arts. 284, 284 bis y 284 ter del Código Penal son delitos económicos cuando se cometen desde una empresa o en beneficio de ella: el compliance debe incluirlos.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Conoce el límite penal: no entrar, no copiar ni usar secretos de otro. |
+| **Pyme** | Incluye en el mapa de riesgos la obtención o el uso de secretos de terceros, con respaldo de un abogado. |
+| **Gran empresa o multinacional** | Integra el riesgo de obtención indebida de secretos al modelo de prevención, con controles y canal de denuncias. |
+
+**Actividad sin crear sistemas:** Revisa si tu mapa de riesgos de delitos considera la obtención y el uso de secretos comerciales de terceros.
+
+**Términos:** Delito económico (*Economic Crime*) · Secreto comercial (*Trade Secret*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -151,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para reevaluar la exposición de la empresa tras la ampliación del catálogo.
+
+**Biblioteca del Congreso Nacional — Ley 21.595 — Ley de Delitos Económicos**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1195119> · verificado 2026-11-12
+
+- *Qué contiene:* Clasifica los delitos económicos en categorías y fija reglas de determinación de penas. Su artículo 2 incluye entre los de segunda categoría los artículos 284, 284 bis y 284 ter del Código Penal cuando se cometen en ejercicio de un cargo en una empresa o en su beneficio.
+- *Cómo leerla:* Úsala para saber cuándo la obtención o el uso de secretos comerciales deja de ser un problema individual y pasa a ser un riesgo para la empresa. Revisa en la versión vigente las categorías y las remisiones antes de aplicarla a un caso.
+- *Uso en esta clase:* aporta el marco de «Ley 21.595 — Ley de Delitos Económicos» para reevaluar la exposición de la empresa tras la ampliación del catálogo.
+
+**Biblioteca del Congreso Nacional — Código Penal — Artículos 284 a 284 sexies (secreto comercial)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1984> · verificado 2026-11-12
+
+- *Qué contiene:* Tipifica el acceso a un secreto comercial mediante intromisión indebida, su revelación por quien tenía un deber de confidencialidad profesional, contractual o laboral, su aprovechamiento económico, y excluye el uso de la experiencia y competencias legítimamente adquiridas.
+- *Cómo leerla:* Distingue quién se introduce (artículo 284), quién viola un deber (284 bis) y quién usa lo obtenido (284 ter). El artículo 284 quinquies protege al trabajador que ejerce su oficio; el 284 sexies remite a la ley de propiedad industrial para definir el secreto.
+- *Uso en esta clase:* aporta el marco de «Código Penal — Artículos 284 a 284 sexies (secreto comercial)» para reevaluar la exposición de la empresa tras la ampliación del catálogo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

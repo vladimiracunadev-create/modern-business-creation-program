@@ -65,6 +65,24 @@ Solvencia, cumplimiento previsional y capacidad de entrega son parte del criteri
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
+
+[Guía de inteligencia económica y protección del conocimiento, sección 9](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#9-riesgos-de-las-relaciones-con-terceros)
+
+**Lente para esta clase:** Homologar proveedores es un filtro inicial, no una garantía permanente: revisa quién los controla, qué conocen de ti y qué cambió desde la homologación.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Pregunta al proveedor quiénes son sus dueños y para quién más trabaja antes de entregarle información. |
+| **Pyme** | Revisión anual de proveedores con acceso, atenta a cambios de propietarios y a relaciones con competidores. |
+| **Gran empresa o multinacional** | Programa de homologación con revisión de propiedad, sanciones y conflictos, y reevaluación según criticidad. |
+
+**Actividad sin crear sistemas:** Revisa un proveedor homologado hace más de un año y anota qué cambió en propiedad, clientes y acceso.
+
+**Términos:** Homologación (*Vendor Qualification*) · Beneficiario final (*Ultimate Beneficial Owner*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

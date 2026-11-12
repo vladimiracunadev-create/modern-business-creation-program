@@ -65,6 +65,24 @@ El dominio registrado a nombre personal de un socio o de un proveedor es el erro
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Ingeniería social empresarial
+
+[Guía de inteligencia económica y protección del conocimiento, sección 6](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#6-ingeniería-social-empresarial)
+
+**Lente para esta clase:** Quien controla el correo y la identidad de la empresa controla la confianza: la ingeniería social apunta primero a cuentas, dominios y personas que aprueban.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Doble verificación para pagos y cambios de cuenta; llamar a un número conocido antes de actuar sobre un correo. |
+| **Pyme** | Regla de dos personas para pagos y cambios de datos bancarios, y política escrita que respalda a quien se niega a una excepción. |
+| **Gran empresa o multinacional** | Entrenamiento por rol, simulacros de suplantación de ejecutivos y canal de reporte de intentos. |
+
+**Actividad sin crear sistemas:** Escribe una política de una página: qué pedidos exigen verificación por otro canal y quién puede autorizar una excepción.
+
+**Términos:** Ingeniería social (*Social Engineering*) · Suplantación (*Impersonation*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +174,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir la administración de identidad y el ciclo de vida de los accesos.
+
+**Biblioteca del Congreso Nacional — Ley 21.459 — Delitos informáticos**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1177743> · verificado 2026-11-12
+
+- *Qué contiene:* Tipifica el ataque a la integridad de un sistema, el acceso ilícito, la interceptación ilícita, el ataque a datos, la falsificación y el fraude informáticos, la receptación de datos y las circunstancias agravantes, además de reglas de investigación.
+- *Cómo leerla:* El acceso ilícito exige superar barreras técnicas o excederse de la autorización; no cubre el uso indebido por quien accede con permiso. «Espionaje informático» es una categoría de estudio, no el nombre de un delito de esta ley.
+- *Uso en esta clase:* aporta el marco de «Ley 21.459 — Delitos informáticos» para definir la administración de identidad y el ciclo de vida de los accesos.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

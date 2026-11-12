@@ -65,6 +65,24 @@ Presentar una expansión comercial como proyecto de innovación es la causa más
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
+
+[Guía de inteligencia económica y protección del conocimiento, sección 15](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#15-ejemplos-por-tipo-de-empresa)
+
+**Lente para esta clase:** Postular a fondos exige describir la invención: decide qué divulgas, qué fechas dejas registradas y quién revisa el texto.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Registro fechado de la invención y revisión de qué texto se envía. |
+| **Pyme** | Plantilla de postulación con zonas reservadas y un revisor interno. |
+| **Gran empresa o multinacional** | Revisión legal de las postulaciones y política de publicación científica. |
+
+**Actividad sin crear sistemas:** Revisa una postulación y marca qué información, si se publicara, perjudicaría una patente o un secreto.
+
+**Términos:** Novedad (*Novelty*) · Divulgación previa (*Prior Disclosure*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

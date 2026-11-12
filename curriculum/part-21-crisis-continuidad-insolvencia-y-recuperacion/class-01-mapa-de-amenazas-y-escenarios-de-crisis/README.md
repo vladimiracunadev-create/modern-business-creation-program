@@ -65,6 +65,26 @@ Los mapas que solo listan catástrofes espectaculares dejan fuera lo que realmen
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Prevención y gestión de crisis
+
+[Guía de inteligencia económica y protección del conocimiento, sección 13](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#13-prevención-y-gestión-de-crisis)
+
+**Lente para esta clase:** La fuga o la aproximación hostil es un escenario de crisis: mapea su disparador, quién decide y qué se comunica en la primera hora.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Define a quién llamas primero y qué no dices públicamente. |
+| **Pyme** | Escenario de fuga en el plan de crisis con responsable, mensajes base y abogado de contacto. |
+| **Gran empresa o multinacional** | Gestión de crisis con comité, voceros entrenados y protocolo de coordinación con autoridades. |
+
+**Actividad sin crear sistemas:** Agrega al mapa de amenazas el escenario «filtración de información estratégica» con disparador, responsable y primera acción.
+
+**Términos:** Gestión de crisis (*Crisis Management*) · Escenario de crisis (*Crisis Scenario*)
+
+**Caso en desarrollo:** [NVIDIA: sospecha de espionaje y protección del conocimiento](../../../case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md#6-análisis-de-decisiones-el-directorio). Compara las decisiones del directorio (investigador independiente, comunicación, rol del ejecutivo) con el plan de crisis de una pyme. Es una investigación **no concluida**: separa lo oficial, lo alegado y lo desconocido.
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +176,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para identificar las amenazas concretas del negocio y su tiempo tolerable de indisponibilidad.
+
+**Nextgov/FCW — Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)**  
+<https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/> · verificado 2026-11-12
+
+- *Qué contiene:* Analiza el apoyo de contrainteligencia del Estado a las empresas tecnológicas, recoge las posiciones de legisladores, funcionarios y ejecutivos, y subraya el rol de la cultura de reporte y de los equipos de seguridad para detectar aproximaciones antes del acceso.
+- *Cómo leerla:* Úsala para el enfoque defensivo y para ver qué apoyo estatal existe en Estados Unidos. Sus hechos sobre el caso son atribuciones y posiciones de parte; lo que no se informa figura como desconocido y no debe completarse con suposiciones.
+- *Uso en esta clase:* aporta el marco de «Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)» para identificar las amenazas concretas del negocio y su tiempo tolerable de indisponibilidad.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -123,6 +123,10 @@ def ruta_clase(clase: dict) -> Path:
     return carpeta / f"class-{clase['class']:02d}-{slug(clase['title'])}"
 
 
+# Guía y caso a los que enlaza todo bloque «Protección del conocimiento».
+GUIA_PROTECCION = "docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md"
+CASO_PROTECCION = "case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md"
+
 # Fuentes primarias que respaldan todo bloque «Actualización normativa».
 FUENTES_LEY_21850 = ["LEY_21850_DO", "LEY_21850_BCN"]
 
@@ -243,6 +247,40 @@ dependa de circulares, resoluciones o decretos aún no verificados queda marcado
 
 """
 
+    bloque_proteccion = ""
+    proteccion = spec.get("proteccion")
+    if proteccion:
+        micro, pyme, grande = proteccion["niveles"]
+        terminos = " · ".join(f"{es} (*{en}*)" for es, en in proteccion["terminos"])
+        caso_nvidia = ""
+        if proteccion.get("caso"):
+            caso_nvidia = (
+                "\n**Caso en desarrollo:** "
+                "[NVIDIA: sospecha de espionaje y protección del conocimiento]"
+                f"(../../../{CASO_PROTECCION}#{proteccion['caso']['ancla']}). "
+                f"{proteccion['caso']['lente']} Es una investigación **no concluida**: "
+                "separa lo oficial, lo alegado y lo desconocido.\n"
+            )
+        bloque_proteccion = f"""## 🛡️ Protección del conocimiento: {proteccion['titulo']}
+
+[Guía de inteligencia económica y protección del conocimiento, sección {proteccion['seccion']}](../../../{GUIA_PROTECCION}#{proteccion['ancla']})
+
+**Lente para esta clase:** {proteccion['lente']}
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | {micro} |
+| **Pyme** | {pyme} |
+| **Gran empresa o multinacional** | {grande} |
+
+**Actividad sin crear sistemas:** {proteccion['ejercicio']}
+
+**Términos:** {terminos}
+{caso_nvidia}
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
+"""
+
     if anterior:
         celda_anterior = (
             f"[← {anterior['global_class']:03d} · {anterior['title']}]"
@@ -311,7 +349,7 @@ Al finalizar esta clase podrás:
 **Profesionales de apoyo:** {profesionales}. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
-{bloque_caso}{bloque_actualizacion}## 🧪 Taller guiado
+{bloque_caso}{bloque_actualizacion}{bloque_proteccion}## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
 una segunda línea de carga regulatoria distinta:

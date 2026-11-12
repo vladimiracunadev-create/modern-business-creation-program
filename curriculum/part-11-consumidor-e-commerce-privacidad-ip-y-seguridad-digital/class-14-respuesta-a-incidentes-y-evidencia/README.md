@@ -67,6 +67,24 @@ Con la Ley 21.719 aparece la obligación de notificar brechas de datos personale
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Prevención y gestión de crisis
+
+[Guía de inteligencia económica y protección del conocimiento, sección 13](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#13-prevención-y-gestión-de-crisis)
+
+**Lente para esta clase:** Una fuga de información es un incidente: contener, preservar la evidencia, evaluar la obligación de notificar y comunicar sin afirmar lo que no sabes.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Lista de tres pasos: aislar, anotar qué pasó y llamar a un asesor. |
+| **Pyme** | Plan de respuesta con roles y plantillas, accesible fuera de los sistemas afectados. |
+| **Gran empresa o multinacional** | Equipo de respuesta, relación con autoridades y simulacros periódicos. |
+
+**Actividad sin crear sistemas:** Simula el aviso de que un ex empleado envió información a un competidor y define las primeras seis acciones.
+
+**Términos:** Cadena de custodia (*Chain of Custody*) · Incidente (*Incident*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -151,6 +169,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el plan de respuesta a incidentes y los criterios de notificación.
+
+**Biblioteca del Congreso Nacional — Ley 21.459 — Delitos informáticos**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1177743> · verificado 2026-11-12
+
+- *Qué contiene:* Tipifica el ataque a la integridad de un sistema, el acceso ilícito, la interceptación ilícita, el ataque a datos, la falsificación y el fraude informáticos, la receptación de datos y las circunstancias agravantes, además de reglas de investigación.
+- *Cómo leerla:* El acceso ilícito exige superar barreras técnicas o excederse de la autorización; no cubre el uso indebido por quien accede con permiso. «Espionaje informático» es una categoría de estudio, no el nombre de un delito de esta ley.
+- *Uso en esta clase:* aporta el marco de «Ley 21.459 — Delitos informáticos» para definir el plan de respuesta a incidentes y los criterios de notificación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -1800,6 +1800,282 @@
       "como_leerla": "Busca tu actividad en la lista literal antes de asumir que no te aplica: inmobiliarias, casas de cambio, corredores y varias actividades con manejo de efectivo entran sin ser instituciones financieras.",
       "nota": "Quiénes deben reportar operaciones sospechosas y en efectivo.",
       "last_checked": "2026-11-05"
+    },
+    {
+      "id": "ley-20169-bcn",
+      "manifest_id": "LEY_20169_BCN",
+      "type": "reference",
+      "authors": [
+        "Biblioteca del Congreso Nacional"
+      ],
+      "title": "Ley 20.169 — Regula la competencia desleal",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=258377",
+      "authority": "Biblioteca del Congreso Nacional",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-07-competidores-directos-indirectos-y-sustitutos",
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-12-contratos-con-proveedores-criticos"
+      ],
+      "status": "verificada",
+      "que_contiene": "Define el acto de competencia desleal como la conducta contraria a la buena fe o a las buenas costumbres que, por medios ilegítimos, persigue desviar clientela; enumera conductas particulares y las acciones de cesación, declaración, remoción de efectos e indemnización.",
+      "como_leerla": "La enumeración del artículo 4 no es taxativa y no menciona expresamente la obtención de secretos, que se trata en la ley de propiedad industrial y en el Código Penal. Úsala para inducción a incumplir contratos, engaño y denigración, y para ejercer acciones civiles.",
+      "nota": "Competencia desleal: conductas y acciones. Última versión 04-07-2019.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "dfl4-propiedad-industrial-bcn",
+      "manifest_id": "DFL4_PROPIEDAD_INDUSTRIAL",
+      "type": "reference",
+      "authors": [
+        "Biblioteca del Congreso Nacional"
+      ],
+      "title": "DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1179684",
+      "authority": "Biblioteca del Congreso Nacional",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-07-switching-costs-marca-datos-y-propiedad-intelectual",
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-05-nda-y-confidencialidad",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-11-patentes-disenos-y-secretos-empresariales",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-09-alianzas-estrategicas-y-joint-ventures"
+      ],
+      "status": "verificada",
+      "que_contiene": "Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.",
+      "como_leerla": "Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.",
+      "nota": "Secreto comercial: definición, violación y acciones.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "codigo-penal-secreto-comercial-bcn",
+      "manifest_id": "CP_SECRETO_COMERCIAL",
+      "type": "reference",
+      "authors": [
+        "Biblioteca del Congreso Nacional"
+      ],
+      "title": "Código Penal — Artículos 284 a 284 sexies (secreto comercial)",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1984",
+      "authority": "Biblioteca del Congreso Nacional",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-05-nda-y-confidencialidad",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-11-patentes-disenos-y-secretos-empresariales",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-02-contrato-de-trabajo-y-clausulas-esenciales",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-04-ley-21-595-de-delitos-economicos"
+      ],
+      "status": "verificada",
+      "que_contiene": "Tipifica el acceso a un secreto comercial mediante intromisión indebida, su revelación por quien tenía un deber de confidencialidad profesional, contractual o laboral, su aprovechamiento económico, y excluye el uso de la experiencia y competencias legítimamente adquiridas.",
+      "como_leerla": "Distingue quién se introduce (artículo 284), quién viola un deber (284 bis) y quién usa lo obtenido (284 ter). El artículo 284 quinquies protege al trabajador que ejerce su oficio; el 284 sexies remite a la ley de propiedad industrial para definir el secreto.",
+      "nota": "Delitos contra el secreto comercial. Versión consultada: 20-08-2026.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "ley-21595-bcn",
+      "manifest_id": "LEY_21595_BCN",
+      "type": "reference",
+      "authors": [
+        "Biblioteca del Congreso Nacional"
+      ],
+      "title": "Ley 21.595 — Ley de Delitos Económicos",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1195119",
+      "authority": "Biblioteca del Congreso Nacional",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-04-ley-21-595-de-delitos-economicos"
+      ],
+      "status": "verificada",
+      "que_contiene": "Clasifica los delitos económicos en categorías y fija reglas de determinación de penas. Su artículo 2 incluye entre los de segunda categoría los artículos 284, 284 bis y 284 ter del Código Penal cuando se cometen en ejercicio de un cargo en una empresa o en su beneficio.",
+      "como_leerla": "Úsala para saber cuándo la obtención o el uso de secretos comerciales deja de ser un problema individual y pasa a ser un riesgo para la empresa. Revisa en la versión vigente las categorías y las remisiones antes de aplicarla a un caso.",
+      "nota": "Delitos económicos. Versión consultada: 29-09-2025.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "ley-21459-bcn",
+      "manifest_id": "LEY_21459_BCN",
+      "type": "reference",
+      "authors": [
+        "Biblioteca del Congreso Nacional"
+      ],
+      "title": "Ley 21.459 — Delitos informáticos",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1177743",
+      "authority": "Biblioteca del Congreso Nacional",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-14-respuesta-a-incidentes-y-evidencia",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-03-dominio-correo-identidad-y-accesos",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-06-ciberseguridad-por-capas-para-pyme"
+      ],
+      "status": "verificada",
+      "que_contiene": "Tipifica el ataque a la integridad de un sistema, el acceso ilícito, la interceptación ilícita, el ataque a datos, la falsificación y el fraude informáticos, la receptación de datos y las circunstancias agravantes, además de reglas de investigación.",
+      "como_leerla": "El acceso ilícito exige superar barreras técnicas o excederse de la autorización; no cubre el uso indebido por quien accede con permiso. «Espionaje informático» es una categoría de estudio, no el nombre de un delito de esta ley.",
+      "nota": "Acceso, interceptación y receptación de datos. Versión consultada: 01-04-2025.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "codigo-trabajo-reserva-bcn",
+      "manifest_id": "CT_RESERVA_BCN",
+      "type": "reference",
+      "authors": [
+        "Biblioteca del Congreso Nacional"
+      ],
+      "title": "Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=207436",
+      "authority": "Biblioteca del Congreso Nacional",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-02-contrato-de-trabajo-y-clausulas-esenciales",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-14-termino-de-contrato-y-documentacion-de-salida"
+      ],
+      "status": "verificada",
+      "que_contiene": "El artículo 154 ter obliga al empleador a mantener reserva de la información privada del trabajador; el artículo 160 enumera causales de término sin indemnización, entre ellas la falta de probidad y las negociaciones prohibidas por escrito dentro del giro del negocio.",
+      "como_leerla": "El Código no enumera expresamente la revelación de secretos entre las letras del número 1 del artículo 160. Por eso conviene escribir el deber de reserva en el contrato y en el reglamento interno, y consultar a un abogado laboralista antes de invocar una causal.",
+      "nota": "Reserva de datos del trabajador y causales de término. Versión consultada: 23-07-2026.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "crs-economic-espionage-act",
+      "manifest_id": "CRS_EEA",
+      "type": "reference",
+      "authors": [
+        "Congressional Research Service"
+      ],
+      "title": "Stealing Trade Secrets and Economic Espionage: An Overview of the Economic Espionage Act (R42681)",
+      "locator": "https://www.everycrsreport.com/reports/R42681.html",
+      "authority": "Congressional Research Service",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica la Economic Espionage Act de 1996 y su distinción entre el espionaje económico en beneficio de un Estado extranjero (18 U.S.C. § 1831) y el robo de secretos comerciales con fin comercial (§ 1832), con sanciones y reformas posteriores.",
+      "como_leerla": "Es derecho estadounidense: sirve para entender el vocabulario y la distinción conceptual, no como norma aplicable en Chile. La página es una copia pública del informe; su fecha de actualización figura en el encabezado.",
+      "nota": "Espionaje económico y robo de secretos comerciales en EE. UU.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "doj-coca-cola-secretos",
+      "manifest_id": "DOJ_COCA_COLA",
+      "type": "reference",
+      "authors": [
+        "Departamento de Justicia de EE. UU. — Distrito Norte de Georgia"
+      ],
+      "title": "Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007)",
+      "locator": "https://www.justice.gov/archive/usao/gan/press/2007/02-02-07.pdf",
+      "authority": "Departamento de Justicia de EE. UU.",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "pendiente",
+      "que_contiene": "Comunicado archivado de la fiscalía federal de Atlanta sobre el veredicto contra una ex asistente administrativa de Coca-Cola por conspirar para robar y vender secretos comerciales de la empresa, con la investigación encubierta del FBI.",
+      "como_leerla": "Es un caso de amenaza interna con acceso cotidiano. Los detalles de quién alertó a la empresa provienen de la cobertura de prensa del juicio y deben contrastarse con el comunicado, cuyo PDF archivado no se pudo abrir en esta consulta.",
+      "nota": "Caso histórico de amenaza interna.",
+      "last_checked": "2026-11-12",
+      "last_error": "PDF archivado devolvió 403 o descarga al consultarlo; contenido contrastado solo por resultados de búsqueda"
+    },
+    {
+      "id": "doj-kolon-dupont-kevlar",
+      "manifest_id": "DOJ_KOLON",
+      "type": "reference",
+      "authors": [
+        "Departamento de Justicia de EE. UU. — Distrito Este de Virginia"
+      ],
+      "title": "Kolon Industries se declara culpable de conspirar para robar secretos de DuPont sobre Kevlar (2015)",
+      "locator": "https://www.justice.gov/usao-edva/pr/kolon-industries-inc-pleads-guilty-conspiring-steal-dupont-trade-secrets-involving",
+      "authority": "Departamento de Justicia de EE. UU.",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Relata que entre junio de 2006 y febrero de 2009 una empresa conspiró con ex empleados de DuPont para obtener secretos de fabricación de Kevlar, y que fue sentenciada el 30-04-2015 a US$ 85 millones de multa y US$ 275 millones de restitución.",
+      "como_leerla": "Muestra que contratar a personas con conocimiento de otra empresa puede ser el canal de transferencia indebida. Es un acuerdo de culpabilidad de una empresa; no extiende responsabilidad a terceros que no aparecen en la declaración de hechos.",
+      "nota": "Caso histórico de contratación de ex empleados.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "doj-levandowski-waymo",
+      "manifest_id": "DOJ_LEVANDOWSKI",
+      "type": "reference",
+      "authors": [
+        "Departamento de Justicia de EE. UU. — Distrito Norte de California"
+      ],
+      "title": "Ex ejecutivo de Uber condenado a 18 meses por robo de secretos comerciales de Google (2020)",
+      "locator": "https://www.justice.gov/usao-ndca/pr/former-uber-executive-sentenced-18-months-jail-trade-secret-theft-google",
+      "authority": "Departamento de Justicia de EE. UU.",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Informa que el 04-08-2020 un ex ingeniero se declaró culpable y fue sentenciado a 18 meses por descargar en 2016 archivos del programa de autos autónomos de su empleador al prepararse para irse, con multa y restitución.",
+      "como_leerla": "Ilustra que la salida de personal es el momento de mayor riesgo de fuga. La condena corresponde a uno de los 33 cargos originales, por acuerdo de culpabilidad, y se refiere al hecho admitido, no al conjunto de la disputa entre las empresas.",
+      "nota": "Caso histórico de fuga al salir un empleado.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "cnbc-nvidia-huang",
+      "manifest_id": "CNBC_NVIDIA",
+      "type": "reference",
+      "authors": [
+        "CNBC"
+      ],
+      "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)",
+      "locator": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+      "authority": "CNBC",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-05-diseno-societario-y-gobierno-inicial/class-12-conflictos-de-interes-y-partes-relacionadas",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-13-riesgo-de-proveedores-tecnologicos-y-saas",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Reporta la comunicación del director ejecutivo al personal, la investigación independiente abierta por el directorio, las alegaciones atribuidas a agencias de inteligencia y a otros medios, la vinculación con un cliente llamado Megaspeed y la solicitud de tres comisiones del Congreso.",
+      "como_leerla": "Es prensa y el caso sigue abierto: úsala para fijar quién afirma qué y cuándo, no como prueba. Separa lo declarado por la empresa de lo atribuido a fuentes, y verifica los comunicados oficiales de NVIDIA a medida que avance la investigación.",
+      "nota": "Caso en desarrollo; consulta del 12-11-2026.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "nbc-nvidia-investigacion",
+      "manifest_id": "NBC_NVIDIA",
+      "type": "reference",
+      "authors": [
+        "NBC News"
+      ],
+      "title": "Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026)",
+      "locator": "https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628",
+      "authority": "NBC News",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-09-anticorrupcion-regalos-y-conflictos",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-04-gestion-de-crisis-reputacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Informa la contratación, por los directores independientes, de un ex fiscal federal interino y su estudio para investigar los hechos, la declaración del directorio, la continuidad del ejecutivo y la caída bursátil, y distingue lo que NBC confirmó de lo que no.",
+      "como_leerla": "Distingue con cuidado entre lo que el medio confirma, lo que atribuye a sus fuentes y lo que otros medios reportaron sin confirmación de NBC. La mención de una investigación del FBI proviene de declaraciones del presidente, no de una declaración del FBI.",
+      "nota": "Caso en desarrollo; consulta del 12-11-2026.",
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "nextgov-nvidia-contrainteligencia",
+      "manifest_id": "NEXTGOV_NVIDIA",
+      "type": "reference",
+      "authors": [
+        "Nextgov/FCW"
+      ],
+      "title": "Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)",
+      "locator": "https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/",
+      "authority": "Nextgov/FCW",
+      "accessed": "2026-11-12",
+      "used_in": [
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-01-mapa-de-amenazas-y-escenarios-de-crisis"
+      ],
+      "status": "verificada",
+      "que_contiene": "Analiza el apoyo de contrainteligencia del Estado a las empresas tecnológicas, recoge las posiciones de legisladores, funcionarios y ejecutivos, y subraya el rol de la cultura de reporte y de los equipos de seguridad para detectar aproximaciones antes del acceso.",
+      "como_leerla": "Úsala para el enfoque defensivo y para ver qué apoyo estatal existe en Estados Unidos. Sus hechos sobre el caso son atribuciones y posiciones de parte; lo que no se informa figura como desconocido y no debe completarse con suposiciones.",
+      "nota": "Análisis defensivo del caso; consulta del 12-11-2026.",
+      "last_checked": "2026-11-12"
     }
   ]
 }

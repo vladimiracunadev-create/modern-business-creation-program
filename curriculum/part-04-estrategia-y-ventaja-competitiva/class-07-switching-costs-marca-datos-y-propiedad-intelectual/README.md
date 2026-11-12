@@ -65,6 +65,24 @@ Integraciones que aumentan el costo de salida, datos que mejoran el servicio con
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Protección de secretos comerciales
+
+[Guía de inteligencia económica y protección del conocimiento, sección 8](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#8-protección-de-secretos-comerciales)
+
+**Lente para esta clase:** Switching costs, datos y propiedad intelectual solo son ventaja defendible si sabes qué conocimiento los sostiene y con qué medidas razonables lo reservas.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Anota los tres conocimientos sin los cuales un competidor te alcanzaría en seis meses y quién los conoce. |
+| **Pyme** | Inventario de una hoja del conocimiento que sostiene la ventaja, con dueño interno y medida de protección por activo. |
+| **Gran empresa o multinacional** | Clasificación corporativa de activos de conocimiento, ligada al análisis de riesgos y revisada con cada cambio estratégico. |
+
+**Actividad sin crear sistemas:** Dibuja tu ventaja competitiva y marca qué parte depende de información que, si se filtrara, un competidor podría replicar.
+
+**Términos:** Secreto comercial (*Trade Secret*) · Conocimiento crítico (*Critical Knowledge*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -149,6 +167,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Administra el registro de marcas, patentes, diseños e indicaciones geográficas, y ofrece el buscador público de solicitudes y registros vigentes por clase.
 - *Cómo leerla:* Empieza siempre por el buscador de anterioridades y por clases, no por el formulario de solicitud. Una marca disponible en tu clase puede estar tomada en la clase donde realmente operas, y eso solo se ve buscando por actividad.
 - *Uso en esta clase:* aporta el marco de «Marcas, patentes y diseños industriales» para decidir qué defensa se construye y con qué inversión.
+
+**Biblioteca del Congreso Nacional — DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1179684> · verificado 2026-11-12
+
+- *Qué contiene:* Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.
+- *Cómo leerla:* Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.
+- *Uso en esta clase:* aporta el marco de «DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial» para decidir qué defensa se construye y con qué inversión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

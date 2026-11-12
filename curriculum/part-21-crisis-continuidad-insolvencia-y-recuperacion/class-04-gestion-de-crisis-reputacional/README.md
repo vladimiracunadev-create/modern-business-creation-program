@@ -75,6 +75,26 @@ El expediente separa hechos verificados, cifras reportadas, alegaciones periodí
 actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
 categoría como prueba automática de otra.
 
+## 🛡️ Protección del conocimiento: Prevención y gestión de crisis
+
+[Guía de inteligencia económica y protección del conocimiento, sección 13](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#13-prevención-y-gestión-de-crisis)
+
+**Lente para esta clase:** Ante una acusación pública sin datos completos, la comunicación distingue lo oficial, lo alegado y lo desconocido: el expediente NVIDIA es el modelo.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un mensaje base: qué sabes, qué verificas y cuándo vuelves a informar. |
+| **Pyme** | Declaración con las tres categorías y un único vocero. |
+| **Gran empresa o multinacional** | Respuesta coordinada entre directorio, abogados externos, regulador y mercado, con una declaración que no anticipe conclusiones. |
+
+**Actividad sin crear sistemas:** Redacta una declaración de cinco líneas para una alegación sobre tu empresa que aún no puedes verificar.
+
+**Términos:** Investigación independiente (*Independent Investigation*) · Declaración pública (*Public Statement*)
+
+**Caso en desarrollo:** [NVIDIA: sospecha de espionaje y protección del conocimiento](../../../case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md#1-información-oficialmente-conocida). Clasifica las afirmaciones públicas en oficiales, alegadas y desconocidas y redacta una declaración que no anticipe conclusiones. Es una investigación **no concluida**: separa lo oficial, lo alegado y lo desconocido.
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -187,6 +207,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Investigación publicada el 29 de mayo de 2025 sobre imágenes de pacientes, anuncios, logos de medios, testimonios y profesionales presentados en el sitio de MEDVi, con metodología y ejemplos rastreados.
 - *Cómo leerla:* Atribuye cada hallazgo al medio y conserva la diferencia entre evidencia reproducida, inferencia periodística y acusación de terceros. Contrástala con la respuesta posterior de MEDVi y con la actuación primaria de FDA.
 - *Uso en esta clase:* aporta el marco de «Look Out for AI-Generated Ozempic!» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
+
+**CNBC — Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)**  
+<https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html> · verificado 2026-11-12
+
+- *Qué contiene:* Reporta la comunicación del director ejecutivo al personal, la investigación independiente abierta por el directorio, las alegaciones atribuidas a agencias de inteligencia y a otros medios, la vinculación con un cliente llamado Megaspeed y la solicitud de tres comisiones del Congreso.
+- *Cómo leerla:* Es prensa y el caso sigue abierto: úsala para fijar quién afirma qué y cuándo, no como prueba. Separa lo declarado por la empresa de lo atribuido a fuentes, y verifica los comunicados oficiales de NVIDIA a medida que avance la investigación.
+- *Uso en esta clase:* aporta el marco de «Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
+
+**NBC News — Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026)**  
+<https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628> · verificado 2026-11-12
+
+- *Qué contiene:* Informa la contratación, por los directores independientes, de un ex fiscal federal interino y su estudio para investigar los hechos, la declaración del directorio, la continuidad del ejecutivo y la caída bursátil, y distingue lo que NBC confirmó de lo que no.
+- *Cómo leerla:* Distingue con cuidado entre lo que el medio confirma, lo que atribuye a sus fuentes y lo que otros medios reportaron sin confirmación de NBC. La mención de una investigación del FBI proviene de declaraciones del presidente, no de una declaración del FBI.
+- *Uso en esta clase:* aporta el marco de «Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026)» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

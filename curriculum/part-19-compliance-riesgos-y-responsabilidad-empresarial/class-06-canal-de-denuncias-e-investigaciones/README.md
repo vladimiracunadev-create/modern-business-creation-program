@@ -67,6 +67,24 @@ Un canal que llega al jefe directo del posible denunciado no es un canal. Y no i
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
+
+[Guía de inteligencia económica y protección del conocimiento, sección 10](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#10-contrainteligencia-empresarial)
+
+**Lente para esta clase:** El canal de denuncias también recibe aproximaciones (pedidos extraños, regalos, interés insistente por información): sin un canal sin represalias no se detectan a tiempo.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Acuerdo entre socios sobre a quién se cuenta cualquier propuesta sospechosa. |
+| **Pyme** | Canal acordado, responsable designado y garantía de no represalia. |
+| **Gran empresa o multinacional** | Canal independiente con triaje, investigación y protección del denunciante. |
+
+**Actividad sin crear sistemas:** Define quién recibe un reporte de aproximación sospechosa, qué se registra y qué protege a quien reporta.
+
+**Términos:** Canal de reporte (*Reporting Channel*) · Denunciante (*Whistleblower*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

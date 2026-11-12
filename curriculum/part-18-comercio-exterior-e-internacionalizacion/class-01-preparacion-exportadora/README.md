@@ -67,6 +67,24 @@ Muchas empresas descubren tarde que la adecuación del producto —etiquetado, c
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
+
+[Guía de inteligencia económica y protección del conocimiento, sección 15](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#15-ejemplos-por-tipo-de-empresa)
+
+**Lente para esta clase:** Viajar a ferias, misiones y reuniones expone a conversaciones y dispositivos fuera de tu control: prepara qué muestras, qué comentas y a quién reportas.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Lleva solo lo necesario, define qué no comentarás e informa al otro socio de cualquier propuesta inusual. |
+| **Pyme** | Preparación previa de cada viaje con qué se muestra, qué se calla y a quién se informa al volver. |
+| **Gran empresa o multinacional** | Briefing de seguridad por destino, dispositivos de viaje sin información innecesaria y reunión posterior de balance. |
+
+**Actividad sin crear sistemas:** Prepara el viaje a una feria: lista de lo que muestras, lo que reservas y el reporte posterior.
+
+**Términos:** Briefing de viaje (*Travel Briefing*) · Misión comercial (*Trade Mission*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

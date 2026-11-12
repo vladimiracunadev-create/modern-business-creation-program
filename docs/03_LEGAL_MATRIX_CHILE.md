@@ -23,7 +23,9 @@
 | Decreto 6/2021 Economía | Reglamento de Comercio Electrónico. | Consumidor |
 | Ley 19.628 | Protección de la vida privada/datos personales, vigente hasta 30-11-2026 en su régimen actual. | Datos |
 | Ley 21.719 | Nueva regulación de protección de datos; entra en vigencia 01-12-2026. | Datos |
-| Ley 19.039 / DFL 4-2022 | Propiedad Industrial: marcas, patentes, diseños, etc. | PI |
+| Ley 19.039 / DFL 4-2022 | Propiedad Industrial: marcas, patentes, diseños y secretos comerciales (arts. 86 a 88). | PI |
+| Ley 20.169 | Competencia desleal: conductas y acciones civiles (cesación, declaración, remoción de efectos e indemnización). | Comercial |
+| Código Penal, arts. 284 a 284 sexies | Delitos contra el secreto comercial: intromisión indebida, revelación por deber de reserva y aprovechamiento económico. | PI |
 | Ley 17.336 | Propiedad Intelectual y derecho de autor. | PI |
 | Ley 19.799 | Documentos electrónicos y firma electrónica. | Digital |
 | DFL 1/2002 Trabajo | Código del Trabajo. | Laboral |

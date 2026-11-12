@@ -65,6 +65,24 @@ El mapa compara capacidad, recurso, contraprestación, dependencia, criticidad, 
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
+
+[Guía de inteligencia económica y protección del conocimiento, sección 9](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#9-riesgos-de-las-relaciones-con-terceros)
+
+**Lente para esta clase:** Una alianza obliga a compartir: sin límites claros, el aliado de hoy conoce lo que el competidor de mañana querría saber.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Define por escrito qué se comparte en la alianza y qué queda fuera, antes de la primera reunión técnica. |
+| **Pyme** | Acuerdo de alcance de la información compartida y un equipo limitado que atiende al socio. |
+| **Gran empresa o multinacional** | Equipos separados (salas limpias) para temas sensibles y revisión legal de la información compartida. |
+
+**Actividad sin crear sistemas:** Para una alianza posible escribe qué compartirías, qué no y qué cláusula te protege si termina mal.
+
+**Términos:** Sala limpia (*Clean Team*) · Empresa conjunta (*Joint Venture*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -150,6 +168,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para priorizar aliados y definir aportes, gobierno y salida solo para la relación que justifica una alianza.
+
+**Biblioteca del Congreso Nacional — DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1179684> · verificado 2026-11-12
+
+- *Qué contiene:* Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.
+- *Cómo leerla:* Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.
+- *Uso en esta clase:* aporta el marco de «DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial» para priorizar aliados y definir aportes, gobierno y salida solo para la relación que justifica una alianza.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

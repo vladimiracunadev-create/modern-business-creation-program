@@ -65,6 +65,24 @@ En una crisis, la documentación es lo que permite defender posiciones: contrato
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Prevención y gestión de crisis
+
+[Guía de inteligencia económica y protección del conocimiento, sección 13](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#13-prevención-y-gestión-de-crisis)
+
+**Lente para esta clase:** La evidencia de una fuga se pierde si se altera: preservar documentos, registros y comunicaciones desde el primer día sostiene cualquier acción posterior.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Copia y fecha los mensajes y archivos clave sin modificarlos. |
+| **Pyme** | Procedimiento de preservación con responsable y respaldos fuera de los equipos afectados. |
+| **Gran empresa o multinacional** | Retención legal, cadena de custodia y coordinación con peritos. |
+
+**Actividad sin crear sistemas:** Define qué evidencia preservarías si sospechas que un ex socio usa información tuya.
+
+**Términos:** Preservación de evidencia (*Evidence Preservation*) · Retención legal (*Legal Hold*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

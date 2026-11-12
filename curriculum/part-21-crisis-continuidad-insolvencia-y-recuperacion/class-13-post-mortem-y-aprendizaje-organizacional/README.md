@@ -65,6 +65,24 @@ La comparación de los seis casos se organiza por competencia —custodia, rendi
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Espionaje industrial: antecedentes y casos
+
+[Guía de inteligencia económica y protección del conocimiento, sección 5](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#5-espionaje-industrial-antecedentes-y-casos)
+
+**Lente para esta clase:** Un post-mortem de una fuga o de un espionaje sirve si separa hechos, hipótesis y lecciones: usa los casos de Coca-Cola, Kolon y Waymo para entrenar ese método.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Escribe una página: qué pasó, qué señal se ignoró y qué cambiarías. |
+| **Pyme** | Post-mortem sin culpables, con acciones y fecha de revisión. |
+| **Gran empresa o multinacional** | Revisión formal con comité y seguimiento de acciones. |
+
+**Actividad sin crear sistemas:** Toma uno de los casos históricos (guía, sección 5) y escribe el post-mortem: hechos, señales y control que lo habría detectado.
+
+**Términos:** Espionaje industrial (*Industrial Espionage*) · Lección aprendida (*Lesson Learned*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -184,6 +202,34 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Informa la reformalización de febrero de 2018 y los resultados entonces atribuidos por la Fiscalía a peritajes contables sobre captación y perjuicio en la investigación por estafa, infracción a la Ley de Bancos y lavado de activos.
 - *Cómo leerla:* Es una fuente de investigación y reformalización, no una sentencia. Sirve para diseñar verificaciones chilenas sobre captación, contratos, cuentas receptoras, autorización para operar, procedencia del rendimiento y peritaje contable sin anticipar conclusiones penales.
 - *Uso en esta clase:* aporta el marco de «AC Inversions: reformalización y peritajes contables de la investigación» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**Departamento de Justicia de EE. UU. — Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007)**  
+<https://www.justice.gov/archive/usao/gan/press/2007/02-02-07.pdf> · verificado 2026-11-12
+
+- *Qué contiene:* Comunicado archivado de la fiscalía federal de Atlanta sobre el veredicto contra una ex asistente administrativa de Coca-Cola por conspirar para robar y vender secretos comerciales de la empresa, con la investigación encubierta del FBI.
+- *Cómo leerla:* Es un caso de amenaza interna con acceso cotidiano. Los detalles de quién alertó a la empresa provienen de la cobertura de prensa del juicio y deben contrastarse con el comunicado, cuyo PDF archivado no se pudo abrir en esta consulta.
+- *Uso en esta clase:* aporta el marco de «Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007)» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**Departamento de Justicia de EE. UU. — Kolon Industries se declara culpable de conspirar para robar secretos de DuPont sobre Kevlar (2015)**  
+<https://www.justice.gov/usao-edva/pr/kolon-industries-inc-pleads-guilty-conspiring-steal-dupont-trade-secrets-involving> · verificado 2026-11-12
+
+- *Qué contiene:* Relata que entre junio de 2006 y febrero de 2009 una empresa conspiró con ex empleados de DuPont para obtener secretos de fabricación de Kevlar, y que fue sentenciada el 30-04-2015 a US$ 85 millones de multa y US$ 275 millones de restitución.
+- *Cómo leerla:* Muestra que contratar a personas con conocimiento de otra empresa puede ser el canal de transferencia indebida. Es un acuerdo de culpabilidad de una empresa; no extiende responsabilidad a terceros que no aparecen en la declaración de hechos.
+- *Uso en esta clase:* aporta el marco de «Kolon Industries se declara culpable de conspirar para robar secretos de DuPont sobre Kevlar (2015)» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**Departamento de Justicia de EE. UU. — Ex ejecutivo de Uber condenado a 18 meses por robo de secretos comerciales de Google (2020)**  
+<https://www.justice.gov/usao-ndca/pr/former-uber-executive-sentenced-18-months-jail-trade-secret-theft-google> · verificado 2026-11-12
+
+- *Qué contiene:* Informa que el 04-08-2020 un ex ingeniero se declaró culpable y fue sentenciado a 18 meses por descargar en 2016 archivos del programa de autos autónomos de su empleador al prepararse para irse, con multa y restitución.
+- *Cómo leerla:* Ilustra que la salida de personal es el momento de mayor riesgo de fuga. La condena corresponde a uno de los 33 cargos originales, por acuerdo de culpabilidad, y se refiere al hecho admitido, no al conjunto de la disputa entre las empresas.
+- *Uso en esta clase:* aporta el marco de «Ex ejecutivo de Uber condenado a 18 meses por robo de secretos comerciales de Google (2020)» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**Congressional Research Service — Stealing Trade Secrets and Economic Espionage: An Overview of the Economic Espionage Act (R42681)**  
+<https://www.everycrsreport.com/reports/R42681.html> · verificado 2026-11-12
+
+- *Qué contiene:* Explica la Economic Espionage Act de 1996 y su distinción entre el espionaje económico en beneficio de un Estado extranjero (18 U.S.C. § 1831) y el robo de secretos comerciales con fin comercial (§ 1832), con sanciones y reformas posteriores.
+- *Cómo leerla:* Es derecho estadounidense: sirve para entender el vocabulario y la distinción conceptual, no como norma aplicable en Chile. La página es una copia pública del informe; su fecha de actualización figura en el encabezado.
+- *Uso en esta clase:* aporta el marco de «Stealing Trade Secrets and Economic Espionage: An Overview of the Economic Espionage Act (R42681)» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

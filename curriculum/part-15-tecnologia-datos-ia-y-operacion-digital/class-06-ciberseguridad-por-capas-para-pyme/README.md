@@ -65,6 +65,24 @@ Multifactor en todos los accesos, actualizaciones al día, respaldos probados y 
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Ingeniería social empresarial
+
+[Guía de inteligencia económica y protección del conocimiento, sección 6](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#6-ingeniería-social-empresarial)
+
+**Lente para esta clase:** Las capas técnicas fallan cuando alguien entrega la clave: incluye en la defensa la capa humana, con reglas simples y respaldo para quien duda.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Cuatro hábitos: verificar, no compartir claves, reportar lo extraño y no apurarse por la urgencia ajena. |
+| **Pyme** | Inducción de ingreso y recordatorio trimestral con ejemplos de pretextos y mensajes fraudulentos. |
+| **Gran empresa o multinacional** | Programa de concientización con métricas de reporte y simulacros dirigidos a cargos de alto riesgo. |
+
+**Actividad sin crear sistemas:** Prepara tres ejemplos de mensajes de pretexting dirigidos a tu empresa y explica qué indicador los delataría.
+
+**Términos:** Pretexting (*Pretexting*) · Spear phishing (*Spear Phishing*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -149,6 +167,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para implementar los controles básicos que cubren la mayor parte del riesgo.
+
+**Biblioteca del Congreso Nacional — Ley 21.459 — Delitos informáticos**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1177743> · verificado 2026-11-12
+
+- *Qué contiene:* Tipifica el ataque a la integridad de un sistema, el acceso ilícito, la interceptación ilícita, el ataque a datos, la falsificación y el fraude informáticos, la receptación de datos y las circunstancias agravantes, además de reglas de investigación.
+- *Cómo leerla:* El acceso ilícito exige superar barreras técnicas o excederse de la autorización; no cubre el uso indebido por quien accede con permiso. «Espionaje informático» es una categoría de estudio, no el nombre de un delito de esta ley.
+- *Uso en esta clase:* aporta el marco de «Ley 21.459 — Delitos informáticos» para implementar los controles básicos que cubren la mayor parte del riesgo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

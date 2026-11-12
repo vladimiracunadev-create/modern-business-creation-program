@@ -65,6 +65,24 @@ En sectores con impacto territorial —minería, energía, construcción, residu
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Marco legal chileno: obligación, recomendación y medida voluntaria
+
+[Guía de inteligencia económica y protección del conocimiento, sección 12](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#12-marco-legal-chileno-obligación-recomendación-y-medida-voluntaria)
+
+**Lente para esta clase:** La ética empresarial fija el límite de la inteligencia competitiva: qué harías aunque no hubiera ley ni forma de que te descubrieran.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una regla escrita de lo que no harías por ganar un cliente. |
+| **Pyme** | Código de conducta de una página con ejemplos de conductas prohibidas. |
+| **Gran empresa o multinacional** | Código de ética con formación, canal de consultas y sanciones aplicadas. |
+
+**Actividad sin crear sistemas:** Escribe tres conductas que tu empresa no hará para obtener información de la competencia, aunque fueran legales.
+
+**Términos:** Licencia social (*Social License to Operate*) · Ética empresarial (*Business Ethics*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

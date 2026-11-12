@@ -26,6 +26,15 @@ Hitos 2027 a 2030 por vigilar: 1-1-2027 fin de restitución y ganancia de capita
 agosto 2027 cotización del empleador en 4,25 %; 2028 Pro Pyme en 15 %; 1-1-2029 IDPC de 23 % y PPM Pro Pyme de
 0,23 %; agosto 2030 cotización de 6,4 %. Detalle y fuentes en la sección 11 de la guía.
 
+## 3 ter. Espionaje industrial y protección del conocimiento
+
+Guía: [docs/21](21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md). Base legal verificada el 12-11-2026:
+Ley 19.039 (DFL 4/2022) arts. 86 a 88, Código Penal arts. 284 a 284 sexies (versión del 20-08-2026), Ley 21.595 art. 2,
+Ley 21.459 y Ley 20.169. **Por vigilar:** el caso [NVIDIA](../case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md)
+(investigación independiente del directorio, requerimiento del Congreso de EE. UU. y el estado de la indagación atribuida al FBI);
+el expediente se actualiza solo con comunicados oficiales y no se cierra sin resultado publicado. El paso a la Ley 21.719 (1-12-2026)
+condiciona qué datos personales de directivos puede pedir la empresa para gestionar conflictos de interés.
+
 ## 4. Finanzas abiertas
 
 CMF postergó la entrada en vigor operacional del Sistema de Finanzas Abiertas a julio de 2027.

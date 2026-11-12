@@ -49,7 +49,7 @@ flowchart TB
 
 ### 1. El fondo del asunto
 
-Un NDA vale por su definición de información confidencial y su plazo. Definiciones demasiado amplias son inaplicables; demasiado estrechas dejan fuera lo que importa. En secreto empresarial, además del NDA hay que acreditar medidas razonables de protección para que la ley proteja la información.
+Un NDA vale por su definición de información confidencial y su plazo. Definiciones demasiado amplias son inaplicables; demasiado estrechas dejan fuera lo que importa. En secreto comercial, además del NDA hay que acreditar medidas razonables de protección para que la ley proteja la información.
 
 ### 2. Cómo se traduce en la práctica
 
@@ -65,6 +65,24 @@ Una definición demasiado amplia es inaplicable y una demasiado estrecha deja fu
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+## 🛡️ Protección del conocimiento: Protección de secretos comerciales
+
+[Guía de inteligencia económica y protección del conocimiento, sección 8](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#8-protección-de-secretos-comerciales)
+
+**Lente para esta clase:** El NDA es una de las medidas razonables que exige el art. 86 de la Ley 19.039; vale más si va con control de accesos y registro de a quién se entregó cada cosa.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | NDA de una página para socios, freelancers e inversionistas, con lista de a quién se lo diste. |
+| **Pyme** | Modelo de NDA estándar, registro de información compartida y firma antes de la primera reunión técnica. |
+| **Gran empresa o multinacional** | Acuerdos marco con terceros, clasificación de información y trazabilidad de entregas por proyecto. |
+
+**Actividad sin crear sistemas:** Revisa tu último NDA y marca si define la información, el plazo posterior al término, la devolución y la medida de protección.
+
+**Términos:** Secreto comercial (*Trade Secret*) · Necesidad de conocer (*Need-to-Know*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
 ## 🧪 Taller guiado
 
@@ -157,6 +175,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir qué información se protege, por cuánto tiempo y con qué medidas.
+
+**Biblioteca del Congreso Nacional — DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1179684> · verificado 2026-11-12
+
+- *Qué contiene:* Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.
+- *Cómo leerla:* Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.
+- *Uso en esta clase:* aporta el marco de «DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial» para definir qué información se protege, por cuánto tiempo y con qué medidas.
+
+**Biblioteca del Congreso Nacional — Código Penal — Artículos 284 a 284 sexies (secreto comercial)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1984> · verificado 2026-11-12
+
+- *Qué contiene:* Tipifica el acceso a un secreto comercial mediante intromisión indebida, su revelación por quien tenía un deber de confidencialidad profesional, contractual o laboral, su aprovechamiento económico, y excluye el uso de la experiencia y competencias legítimamente adquiridas.
+- *Cómo leerla:* Distingue quién se introduce (artículo 284), quién viola un deber (284 bis) y quién usa lo obtenido (284 ter). El artículo 284 quinquies protege al trabajador que ejerce su oficio; el 284 sexies remite a la ley de propiedad industrial para definir el secreto.
+- *Uso en esta clase:* aporta el marco de «Código Penal — Artículos 284 a 284 sexies (secreto comercial)» para definir qué información se protege, por cuánto tiempo y con qué medidas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

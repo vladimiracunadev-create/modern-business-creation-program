@@ -65,6 +65,26 @@ Frente al cliente y frente a la autoridad de datos responde la empresa, no el pr
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
+
+[Guía de inteligencia económica y protección del conocimiento, sección 9](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#9-riesgos-de-las-relaciones-con-terceros)
+
+**Lente para esta clase:** Un SaaS o un cliente integrado es a la vez herramienta y canal de acceso: el riesgo incluye qué hace el proveedor con tus datos y quién lo controla.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Antes de subir información de clientes a una herramienta nueva, lee quién la opera y dónde la guarda. |
+| **Pyme** | Lista de herramientas externas que tocan datos sensibles, con dueño interno y decisión de mantener o retirar cada una. |
+| **Gran empresa o multinacional** | Evaluación de riesgo de proveedores tecnológicos con cláusulas de acceso, auditoría y salida, y revisión de cambios de propietario. |
+
+**Actividad sin crear sistemas:** Lista las herramientas externas que tocan tu información sensible y quién en la empresa autorizó cada una.
+
+**Términos:** Riesgo de terceros (*Third-Party Risk*) · Cadena de suministro (*Supply Chain*)
+
+**Caso en desarrollo:** [NVIDIA: sospecha de espionaje y protección del conocimiento](../../../case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md#2-sospecha-o-alegación). Un cliente que compra mucho también puede ser un canal de influencia: analiza qué control exigirías sobre su acceso a tu tecnología y qué ocurre si la sospecha es solo una alegación. Es una investigación **no concluida**: separa lo oficial, lo alegado y lo desconocido.
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -149,6 +169,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir qué se evalúa antes de contratar un proveedor tecnológico.
+
+**CNBC — Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)**  
+<https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html> · verificado 2026-11-12
+
+- *Qué contiene:* Reporta la comunicación del director ejecutivo al personal, la investigación independiente abierta por el directorio, las alegaciones atribuidas a agencias de inteligencia y a otros medios, la vinculación con un cliente llamado Megaspeed y la solicitud de tres comisiones del Congreso.
+- *Cómo leerla:* Es prensa y el caso sigue abierto: úsala para fijar quién afirma qué y cuándo, no como prueba. Separa lo declarado por la empresa de lo atribuido a fuentes, y verifica los comunicados oficiales de NVIDIA a medida que avance la investigación.
+- *Uso en esta clase:* aporta el marco de «Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)» para definir qué se evalúa antes de contratar un proveedor tecnológico.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

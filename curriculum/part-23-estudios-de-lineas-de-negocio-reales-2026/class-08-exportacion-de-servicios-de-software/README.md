@@ -65,6 +65,24 @@ El arbitraje salarial que sostenía este modelo se está cerrando: el talento ch
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
+
+[Guía de inteligencia económica y protección del conocimiento, sección 15](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#15-ejemplos-por-tipo-de-empresa)
+
+**Lente para esta clase:** Exportar servicios de software implica contratos con clientes extranjeros: define antes de empezar confidencialidad, propiedad de lo desarrollado y jurisdicción.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Plantilla de contrato en inglés con confidencialidad y propiedad del código. |
+| **Pyme** | Registro de qué información del cliente extranjero maneja cada persona. |
+| **Gran empresa o multinacional** | Revisión legal por jurisdicción y controles sobre la información que sale al exterior. |
+
+**Actividad sin crear sistemas:** Revisa un contrato de exportación de servicios y marca confidencialidad, propiedad y jurisdicción.
+
+**Términos:** Servicios del conocimiento (*Knowledge Services*) · Cláusula de confidencialidad (*Confidentiality Clause*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

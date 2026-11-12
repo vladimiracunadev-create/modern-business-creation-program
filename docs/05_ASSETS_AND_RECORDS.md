@@ -21,7 +21,7 @@
 - procesos/SOP;
 - contenido;
 - patentes/diseños;
-- secretos empresariales;
+- secretos comerciales;
 - relaciones contractuales;
 - reputación.
 

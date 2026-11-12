@@ -67,6 +67,24 @@ FTX/Alameda y Madoff muestran por qué la concentración no se corrige con confi
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
+
+[Guía de inteligencia económica y protección del conocimiento, sección 10](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#10-contrainteligencia-empresarial)
+
+**Lente para esta clase:** La segregación de funciones reduce el fraude y la fuga: nadie debería poder solicitar, aprobar y ocultar un movimiento de información o de dinero.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Quien paga no es quien aprueba y quien aprueba no es quien registra, aunque haya solo tres socios. |
+| **Pyme** | Matriz de funciones que se cruzan y controles compensatorios donde no hay personal para separarlas. |
+| **Gran empresa o multinacional** | Segregación de funciones en procesos críticos, con revisión periódica de las excepciones aprobadas. |
+
+**Actividad sin crear sistemas:** Identifica una función donde una persona decide, ejecuta y registra, y propone cómo separarla.
+
+**Términos:** Segregación de funciones (*Segregation of Duties*) · Amenaza interna (*Insider Threat*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

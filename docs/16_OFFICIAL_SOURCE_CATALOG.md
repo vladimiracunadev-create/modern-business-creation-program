@@ -8,15 +8,26 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Fuente | Tema | Localizador | Estado | Resolvió | Citas |
 |---|---|---|---|---:|---:|
 | Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-11-05 | 2 |
+| Biblioteca del Congreso Nacional | Código Penal — Artículos 284 a 284 sexies (secreto comercial) | <https://www.bcn.cl/leychile/navegar?idNorma=1984> | ✅ verificada | 2026-11-12 | 4 |
+| Biblioteca del Congreso Nacional | Código del Trabajo — Artículos 154 ter y 160 (reserva y causales) | <https://www.bcn.cl/leychile/navegar?idNorma=207436> | ✅ verificada | 2026-11-12 | 2 |
+| Biblioteca del Congreso Nacional | DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial | <https://www.bcn.cl/leychile/navegar?idNorma=1179684> | ✅ verificada | 2026-11-12 | 5 |
+| Biblioteca del Congreso Nacional | Ley 20.169 — Regula la competencia desleal | <https://www.bcn.cl/leychile/navegar?idNorma=258377> | ✅ verificada | 2026-11-12 | 2 |
+| Biblioteca del Congreso Nacional | Ley 21.459 — Delitos informáticos | <https://www.bcn.cl/leychile/navegar?idNorma=1177743> | ✅ verificada | 2026-11-12 | 3 |
+| Biblioteca del Congreso Nacional | Ley 21.595 — Ley de Delitos Económicos | <https://www.bcn.cl/leychile/navegar?idNorma=1195119> | ✅ verificada | 2026-11-12 | 1 |
 | Biblioteca del Congreso Nacional · LeyChile | Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social | <https://www.bcn.cl/leychile/navegar?idNorma=1229250> | ✅ verificada | 2026-11-05 | 17 |
 | Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-11-05 | 248 |
+| CNBC | Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026) | <https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html> | ✅ verificada | 2026-11-12 | 3 |
 | ChileAtiende · Autoridad Sanitaria Regional | Autorización sanitaria de alimentos | <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> | ✅ verificada | 2026-11-05 | 24 |
 | ChileAtiende · Instituto de Previsión Social | Cotización adicional del empleador de la reforma de pensiones | <https://www.chileatiende.gob.cl/fichas/130987> | ✅ verificada | 2026-11-05 | 1 |
 | ChileCompra | Compras públicas y ventas al Estado | <https://www.chilecompra.cl/> | ✅ verificada | 2026-11-05 | 1 |
 | Comisión para el Mercado Financiero | Alertas sobre entidades y plataformas de inversión no supervisadas | <https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html> | ✅ verificada | 2026-11-05 | 1 |
 | Comisión para el Mercado Financiero | Registro de Prestadores de Servicios Financieros · Ley 21.521 | <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html> | ✅ verificada | 2026-11-05 | 15 |
 | Comisión para el Mercado Financiero | Sistema de Finanzas Abiertas | <https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html> | ✅ verificada | 2026-11-05 | 1 |
+| Congressional Research Service | Stealing Trade Secrets and Economic Espionage: An Overview of the Economic Espionage Act (R42681) | <https://www.everycrsreport.com/reports/R42681.html> | ✅ verificada | 2026-11-12 | 1 |
 | Corporación de Fomento de la Producción | Innovación, inversión y garantías | <https://www.corfo.cl/> | ✅ verificada | 2026-11-05 | 51 |
+| Departamento de Justicia de EE. UU. | Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007) | <https://www.justice.gov/archive/usao/gan/press/2007/02-02-07.pdf> | ⚠️ pendiente | 2026-11-12 | 1 |
+| Departamento de Justicia de EE. UU. | Ex ejecutivo de Uber condenado a 18 meses por robo de secretos comerciales de Google (2020) | <https://www.justice.gov/usao-ndca/pr/former-uber-executive-sentenced-18-months-jail-trade-secret-theft-google> | ✅ verificada | 2026-11-12 | 1 |
+| Departamento de Justicia de EE. UU. | Kolon Industries se declara culpable de conspirar para robar secretos de DuPont sobre Kevlar (2015) | <https://www.justice.gov/usao-edva/pr/kolon-industries-inc-pleads-guilty-conspiring-steal-dupont-trade-secrets-involving> | ✅ verificada | 2026-11-12 | 1 |
 | Departamento de Justicia de Estados Unidos | Celsius: declaración de culpabilidad y sentencia del fundador | <https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation> | ✅ verificada | 2026-11-05 | 5 |
 | Departamento de Justicia de Estados Unidos | FTX y Alameda: condena y sentencia de Samuel Bankman-Fried | <https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes> | ✅ verificada | 2026-11-05 | 7 |
 | Departamento de Justicia de Estados Unidos | OneCoin: sentencia del cofundador Karl Sebastian Greenwood | <https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> | ✅ verificada | 2026-11-05 | 3 |
@@ -28,6 +39,8 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Instituto Nacional de Propiedad Industrial | Marcas, patentes y diseños industriales | <https://www.inapi.cl/> | ✅ verificada | 2026-11-05 | 14 |
 | MEDVi · versión corporativa | MEDVi statement in response to external speculation | <https://home.medvi.org/communication> | ✅ verificada | 2026-11-05 | 6 |
 | Ministerio Público de Chile | AC Inversions: reformalización y peritajes contables de la investigación | <https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo> | ✅ verificada | 2026-11-05 | 3 |
+| NBC News | Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026) | <https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628> | ✅ verificada | 2026-11-12 | 2 |
+| Nextgov/FCW | Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026) | <https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/> | ✅ verificada | 2026-11-12 | 2 |
 | ProChile | Exportación de servicios | <https://www.prochile.gob.cl/sectores-exportadores/servicios> | ✅ verificada | 2026-11-05 | 6 |
 | ProChile | Programas, estudios de mercado y promoción | <https://www.prochile.gob.cl/> | ✅ verificada | 2026-11-05 | 15 |
 | Registro de Empresas y Sociedades / ChileAtiende | Constitución de empresas | <https://www.chileatiende.gob.cl/fichas/21409-tu-empresa> | ✅ verificada | 2026-11-05 | 32 |
@@ -63,6 +76,7 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 - **Superintendencia del Medio Ambiente — Fiscalización y sanción ambiental**: `2026-11-05: red: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)`
 - **U.S. Securities and Exchange Commission — Reformas posteriores a Madoff sobre custodia y verificación independiente**: `2026-11-05: HTTP 403`
 - **The New York Times · republicado por GV Wire — A $1.8 Billion Company With Two Employees? AI Made It Possible**: `2026-11-05: HTTP 403`
+- **Departamento de Justicia de EE. UU. — Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007)**: `PDF archivado devolvió 403 o descarga al consultarlo; contenido contrastado solo por resultados de búsqueda`
 
 No se han eliminado del registro: siguen citadas y conservan la última fecha en que
 sí resolvieron. Hay que abrirlas a mano y corregir el localizador.

@@ -66,6 +66,26 @@ FTX/Alameda permite observar un extremo de concentración y privilegios entre re
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Protección de fundadores y ejecutivos
+
+[Guía de inteligencia económica y protección del conocimiento, sección 11](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#11-protección-de-fundadores-y-ejecutivos)
+
+**Lente para esta clase:** Un conflicto de interés no declarado es la puerta por la que una presión o un vínculo personal influyen en una decisión de la empresa.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Los socios declaran por escrito sus vínculos con clientes, proveedores y competidores. |
+| **Pyme** | Declaración al ingresar y cada año, con abstención en las decisiones donde la persona tenga interés. |
+| **Gran empresa o multinacional** | Registro de relaciones relevantes con revisión por comité y regla especial para cargos con acceso a información crítica. |
+
+**Actividad sin crear sistemas:** Escribe la declaración de una página que firmaría un directivo: qué vínculos declara y quién la revisa.
+
+**Términos:** Conflicto de interés (*Conflict of Interest*) · Parte relacionada (*Related Party*)
+
+**Caso en desarrollo:** [NVIDIA: sospecha de espionaje y protección del conocimiento](../../../case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md#7-lo-que-cambia-según-el-tamaño-de-la-empresa). Qué relaciones personales de un directivo con terceros deben declararse y cómo se evita que esa regla se convierta en vigilancia de su vida privada. Es una investigación **no concluida**: separa lo oficial, lo alegado y lo desconocido.
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -164,6 +184,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Resume la condena dictada tras juicio y la sentencia de marzo de 2024, incluidos hechos acreditados sobre fondos de clientes, privilegios de Alameda, información financiera y ocultamiento a clientes, inversionistas y prestamistas.
 - *Cómo leerla:* Úsala para estudiar segregación de fondos, partes relacionadas, autorización, tesorería y evidencia de gobierno. No copies tipos penales ni reglas estadounidenses a Chile: contrasta cada obligación local con contrato, actividad y norma chilena aplicable.
 - *Uso en esta clase:* aporta el marco de «FTX y Alameda: condena y sentencia de Samuel Bankman-Fried» para definir cómo se revelan, autorizan, registran y monitorean las operaciones con partes relacionadas.
+
+**CNBC — Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)**  
+<https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html> · verificado 2026-11-12
+
+- *Qué contiene:* Reporta la comunicación del director ejecutivo al personal, la investigación independiente abierta por el directorio, las alegaciones atribuidas a agencias de inteligencia y a otros medios, la vinculación con un cliente llamado Megaspeed y la solicitud de tres comisiones del Congreso.
+- *Cómo leerla:* Es prensa y el caso sigue abierto: úsala para fijar quién afirma qué y cuándo, no como prueba. Separa lo declarado por la empresa de lo atribuido a fuentes, y verifica los comunicados oficiales de NVIDIA a medida que avance la investigación.
+- *Uso en esta clase:* aporta el marco de «Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)» para definir cómo se revelan, autorizan, registran y monitorean las operaciones con partes relacionadas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

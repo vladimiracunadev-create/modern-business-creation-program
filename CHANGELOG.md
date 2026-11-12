@@ -5,6 +5,29 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ## [Sin publicar]
 
+### Añadido
+
+- Guía `docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md` sobre inteligencia
+  económica y competitiva lícita, espionaje industrial, ingeniería social, HUMINT, secretos
+  comerciales, terceros, contrainteligencia, protección de ejecutivos y crisis, con tres niveles de
+  empresa, ejemplos sectoriales, terminología bilingüe, evaluación, matriz de contenidos y marco
+  legal chileno separado en obligaciones, recomendaciones y medidas voluntarias.
+- Caso 22 (`case-studies/22-nvidia-…`): sospecha de inteligencia extranjera sobre un ejecutivo de
+  NVIDIA, tratada como investigación **no concluida** (corte 2026-11-12), que separa información
+  oficialmente conocida, sospecha o alegación, posición de parte y desconocido.
+- Bloque «Protección del conocimiento» en 38 clases existentes, renderizado por el generador desde
+  el campo `proteccion` de los manifiestos, sin crear clases ni alterar la numeración (336).
+- Trece fuentes en el registro (textos consolidados de la BCN, casos del Departamento de Justicia
+  de EE. UU., informe del CRS y prensa del caso NVIDIA); una queda `pendiente` por PDF no abierto.
+- La Ley 20.169 y los arts. 284 a 284 sexies del Código Penal entran a la matriz legal; el
+  watchlist incorpora el seguimiento del caso NVIDIA.
+- Diez pruebas de regresión (`ProteccionConocimientoTest`).
+
+### Corregido
+
+- «Secreto empresarial» pasa a «secreto comercial», la denominación vigente en la Ley 19.039 (DFL 4
+  de 2022) y en el Código Penal (clases 131 y 151, glosario, parte 11 y activos).
+
 ### Cambiado
 
 - Se integra la Ley 21.850 (Diario Oficial, 17-10-2026) sin crear clases ni alterar la numeración:

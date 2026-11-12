@@ -1196,7 +1196,7 @@ clases adicionales vuelve a aparecer.
 | **Saturación** | Punto en que las entrevistas dejan de aportar información nueva. | [017](../curriculum/part-02-descubrimiento-validacion-y-mercado/class-03-entrevistas-de-descubrimiento-sin-sesgos/README.md) |
 | **SEC** | Superintendencia de electricidad y combustibles. | [232](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-08-energia-e-instalaciones-fiscalizadas-por-sec/README.md) |
 | **Secreto** | Credencial, clave o token que da acceso a un sistema. | [203](../curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-07-gestion-de-secretos-y-privilegios/README.md) |
-| **Secreto empresarial** | Información no divulgada con valor comercial y medidas de protección. | [151](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-11-patentes-disenos-y-secretos-empresariales/README.md) |
+| **Secreto comercial** | Información no divulgada con valor comercial y medidas de protección. | [151](../curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-11-patentes-disenos-y-secretos-empresariales/README.md) |
 | **Secuencia** | Serie planificada de contactos por distintos canales. | [188](../curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-06-prospeccion-b2b/README.md) |
 | **Secuencia de contratación** | Orden en que se incorporan los cargos. | [332](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-10-disenar-estructura-de-cargos-y-responsabilidades/README.md) |
 | **Secuencia de habilitación** | Orden en que los permisos se condicionan. | [331](../curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-09-crear-mapa-de-permisos-sectoriales/README.md) |

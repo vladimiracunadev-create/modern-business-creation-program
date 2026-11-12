@@ -65,6 +65,24 @@ En Chile la investigación seria se apoya en el INE para población y empleo, el
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Fundamentos de inteligencia económica
+
+[Guía de inteligencia económica y protección del conocimiento, sección 3](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#3-fundamentos-de-inteligencia-económica)
+
+**Lente para esta clase:** Convierte la investigación secundaria en inteligencia: decide qué decisión informa, qué fuentes son abiertas y legítimas y cómo evaluar la fiabilidad de quien publica.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una hoja con la decisión, tres fuentes públicas y quién las publica; sin comprar bases ni contratar investigadores. |
+| **Pyme** | Un responsable que vigila competidores y regulación una vez al mes con fuentes abiertas y anota el origen de cada dato. |
+| **Gran empresa o multinacional** | Unidad de inteligencia económica con ciclo formal, política de fuentes lícitas y revisión legal de los métodos. |
+
+**Actividad sin crear sistemas:** Toma un competidor y escribe, para cada dato que usarías, de qué fuente pública proviene y por qué podrías explicárselo a ese competidor.
+
+**Términos:** Inteligencia competitiva (*Competitive Intelligence*) · Fuentes abiertas (*Open-Source Intelligence (OSINT)*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

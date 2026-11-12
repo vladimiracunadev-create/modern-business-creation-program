@@ -26,7 +26,7 @@ Al finalizar esta clase podrás:
 |---|---|
 | **Patente de invención** | Protección de una solución técnica nueva con altura inventiva. |
 | **Diseño industrial** | Protección de la apariencia de un producto. |
-| **Secreto empresarial** | Información no divulgada con valor comercial y medidas de protección. |
+| **Secreto comercial** | Información no divulgada con valor comercial y medidas de protección. |
 | **Divulgación previa** | Publicación anterior que impide obtener la patente. |
 
 ## 🗺️ Flujo de razonamiento
@@ -36,7 +36,7 @@ flowchart TB
     C["Contexto del caso<br/>actividad · escala · comuna"]
     C --> A1["Patente de invención"]
     C --> A2["Diseño industrial"]
-    C --> A3["Secreto empresarial"]
+    C --> A3["Secreto comercial"]
     C --> A4["Divulgación previa"]
     A1 & A2 & A3 & A4 --> D{{"elegir entre patentar,<br/>registrar diseño o proteger<br/>como secreto"}}
     D --> E["Entregable<br/>estrategia de protección de<br/>intangibles con instrumento<br/>elegido y justificación por<br/>activo"]
@@ -66,6 +66,24 @@ Patentar exige divulgar y otorga exclusividad temporal; el secreto no exige divu
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+## 🛡️ Protección del conocimiento: Protección de secretos comerciales
+
+[Guía de inteligencia económica y protección del conocimiento, sección 8](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#8-protección-de-secretos-comerciales)
+
+**Lente para esta clase:** Elegir entre patentar y reservar como secreto comercial es una decisión de inteligencia: patentar divulga y el secreto exige probar medidas razonables de reserva.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Decide qué se patenta, qué se reserva y qué se muestra en ferias, con un criterio escrito. |
+| **Pyme** | Política de qué se publica, quién lo aprueba y cómo se fecha la invención antes de mostrarla. |
+| **Gran empresa o multinacional** | Comité de propiedad intelectual con decisiones patentar o reservar y revisión de las publicaciones técnicas. |
+
+**Actividad sin crear sistemas:** Para dos activos tuyos escribe la decisión (patente, diseño o secreto) y la medida de reserva que la sostendría ante un tribunal.
+
+**Términos:** Secreto comercial (*Trade Secret*) · Medidas razonables (*Reasonable Measures*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
 ## 🧪 Taller guiado
 
@@ -158,6 +176,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para elegir entre patentar, registrar diseño o proteger como secreto.
+
+**Biblioteca del Congreso Nacional — DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1179684> · verificado 2026-11-12
+
+- *Qué contiene:* Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.
+- *Cómo leerla:* Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.
+- *Uso en esta clase:* aporta el marco de «DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial» para elegir entre patentar, registrar diseño o proteger como secreto.
+
+**Biblioteca del Congreso Nacional — Código Penal — Artículos 284 a 284 sexies (secreto comercial)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1984> · verificado 2026-11-12
+
+- *Qué contiene:* Tipifica el acceso a un secreto comercial mediante intromisión indebida, su revelación por quien tenía un deber de confidencialidad profesional, contractual o laboral, su aprovechamiento económico, y excluye el uso de la experiencia y competencias legítimamente adquiridas.
+- *Cómo leerla:* Distingue quién se introduce (artículo 284), quién viola un deber (284 bis) y quién usa lo obtenido (284 ter). El artículo 284 quinquies protege al trabajador que ejerce su oficio; el 284 sexies remite a la ley de propiedad industrial para definir el secreto.
+- *Uso en esta clase:* aporta el marco de «Código Penal — Artículos 284 a 284 sexies (secreto comercial)» para elegir entre patentar, registrar diseño o proteger como secreto.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

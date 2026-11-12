@@ -68,6 +68,24 @@ La falta de escrituración hace presumir como estipulaciones las que declara el 
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Protección de secretos comerciales
+
+[Guía de inteligencia económica y protección del conocimiento, sección 8](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#8-protección-de-secretos-comerciales)
+
+**Lente para esta clase:** El contrato de trabajo es donde la reserva de información pasa de intención a obligación: sin cláusula escrita y política interna, el deber queda difuso.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Cláusula de confidencialidad y de propiedad de lo creado en cada contrato, aunque sea con un solo trabajador. |
+| **Pyme** | Modelo de contrato y anexo de confidencialidad, entregados con una inducción sobre qué información es reservada. |
+| **Gran empresa o multinacional** | Matriz de cláusulas por cargo crítico, revisada por asesoría laboral y alineada con el reglamento interno. |
+
+**Actividad sin crear sistemas:** Redacta una cláusula de reserva que proteja secretos comerciales sin impedir que la persona use su experiencia (Código Penal, art. 284 quinquies).
+
+**Términos:** Deber de reserva (*Duty of Confidentiality*) · Propiedad intelectual (*Intellectual Property*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -159,6 +177,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para redactar contratos con cláusulas esenciales completas y funciones bien definidas.
+
+**Biblioteca del Congreso Nacional — Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=207436> · verificado 2026-11-12
+
+- *Qué contiene:* El artículo 154 ter obliga al empleador a mantener reserva de la información privada del trabajador; el artículo 160 enumera causales de término sin indemnización, entre ellas la falta de probidad y las negociaciones prohibidas por escrito dentro del giro del negocio.
+- *Cómo leerla:* El Código no enumera expresamente la revelación de secretos entre las letras del número 1 del artículo 160. Por eso conviene escribir el deber de reserva en el contrato y en el reglamento interno, y consultar a un abogado laboralista antes de invocar una causal.
+- *Uso en esta clase:* aporta el marco de «Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)» para redactar contratos con cláusulas esenciales completas y funciones bien definidas.
+
+**Biblioteca del Congreso Nacional — Código Penal — Artículos 284 a 284 sexies (secreto comercial)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1984> · verificado 2026-11-12
+
+- *Qué contiene:* Tipifica el acceso a un secreto comercial mediante intromisión indebida, su revelación por quien tenía un deber de confidencialidad profesional, contractual o laboral, su aprovechamiento económico, y excluye el uso de la experiencia y competencias legítimamente adquiridas.
+- *Cómo leerla:* Distingue quién se introduce (artículo 284), quién viola un deber (284 bis) y quién usa lo obtenido (284 ter). El artículo 284 quinquies protege al trabajador que ejerce su oficio; el 284 sexies remite a la ley de propiedad industrial para definir el secreto.
+- *Uso en esta clase:* aporta el marco de «Código Penal — Artículos 284 a 284 sexies (secreto comercial)» para redactar contratos con cláusulas esenciales completas y funciones bien definidas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -65,6 +65,24 @@ Una matriz útil compara por criterios que el cliente declara y debe incluir el 
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🛡️ Protección del conocimiento: Competencia lícita frente a inteligencia desleal
+
+[Guía de inteligencia económica y protección del conocimiento, sección 4](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#4-competencia-lícita-frente-a-inteligencia-desleal)
+
+**Lente para esta clase:** Al estudiar competidores, separa lo que puedes observar y preguntar con honestidad de lo que solo se obtiene ocultando quién eres o induciendo a otro a romper su deber.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Estudia a la competencia como un cliente que dice quién es y no pidas a ex empleados suyos nada que se comprometieron a reservar. |
+| **Pyme** | Una guía de dos páginas sobre cómo se investiga a la competencia: fuentes permitidas, prohibidas y a quién se consulta ante la duda. |
+| **Gran empresa o multinacional** | Código de conducta de inteligencia competitiva, formación a ventas y compras, y revisión legal de los proyectos de benchmarking. |
+
+**Actividad sin crear sistemas:** Aplica la prueba de las cinco preguntas (guía, sección 4) a tres prácticas de tu sector: una lícita, una dudosa y una desleal.
+
+**Términos:** Competencia desleal (*Unfair Competition*) · Obtención indebida (*Misappropriation*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -164,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para identificar contra qué compite realmente la oferta en la decisión del cliente.
+
+**Biblioteca del Congreso Nacional — Ley 20.169 — Regula la competencia desleal**  
+<https://www.bcn.cl/leychile/navegar?idNorma=258377> · verificado 2026-11-12
+
+- *Qué contiene:* Define el acto de competencia desleal como la conducta contraria a la buena fe o a las buenas costumbres que, por medios ilegítimos, persigue desviar clientela; enumera conductas particulares y las acciones de cesación, declaración, remoción de efectos e indemnización.
+- *Cómo leerla:* La enumeración del artículo 4 no es taxativa y no menciona expresamente la obtención de secretos, que se trata en la ley de propiedad industrial y en el Código Penal. Úsala para inducción a incumplir contratos, engaño y denigración, y para ejercer acciones civiles.
+- *Uso en esta clase:* aporta el marco de «Ley 20.169 — Regula la competencia desleal» para identificar contra qué compite realmente la oferta en la decisión del cliente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

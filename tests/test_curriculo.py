@@ -522,5 +522,144 @@ class LeyReconstruccionTest(unittest.TestCase):
         raise AssertionError(f"sin README para la clase {numero}")
 
 
+class ProteccionConocimientoTest(unittest.TestCase):
+    """Inteligencia económica y espionaje empresarial: integrado sin crear clases."""
+
+    CLASES = {
+        9, 16, 21, 38, 49, 68, 128, 131, 138, 151, 154, 156, 168, 171, 188, 190, 199, 202,
+        203, 209, 217, 223, 239, 252, 253, 256, 258, 261, 262, 275, 281, 284, 290, 293, 296,
+        309, 312, 316,
+    }
+    DOC = "docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md"
+    CASO = "case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md"
+
+    @staticmethod
+    def _ancla(encabezado: str) -> str:
+        texto = re.sub(r"[^\w\s-]", "", encabezado.strip().lower())
+        return re.sub(r"\s", "-", texto)
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.guia = (RAIZ / cls.DOC).read_text(encoding="utf-8")
+        cls.caso = (RAIZ / cls.CASO).read_text(encoding="utf-8")
+        cls.clases = {}
+        for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                cls.clases[entrada["n"]] = entrada
+        cls.fuentes = {
+            f["manifest_id"]: f
+            for f in json.loads(
+                (RAIZ / "sources" / "bibliography.json").read_text(encoding="utf-8")
+            )["entries"]
+        }
+        cls.anclas_guia = {
+            cls._ancla(h) for h in re.findall(r"^## (.+)$", cls.guia, flags=re.M)
+        }
+        cls.anclas_caso = {
+            cls._ancla(h) for h in re.findall(r"^## (.+)$", cls.caso, flags=re.M)
+        }
+
+    def test_no_se_crean_clases_ni_se_altera_la_numeracion(self) -> None:
+        self.assertEqual(set(self.clases), set(range(1, TOTAL_CLASES + 1)))
+        integradas = {n for n, e in self.clases.items() if e.get("proteccion")}
+        self.assertEqual(integradas, self.CLASES)
+
+    def test_cada_bloque_tiene_tres_niveles_y_enlaces_que_existen(self) -> None:
+        for numero in sorted(self.CLASES):
+            bloque = self.clases[numero]["proteccion"]
+            with self.subTest(clase=numero):
+                self.assertEqual(len(bloque["niveles"]), 3)
+                for nivel in bloque["niveles"]:
+                    self.assertGreaterEqual(len(nivel.split()), 8)
+                self.assertGreaterEqual(len(bloque["lente"].split()), 15)
+                self.assertGreaterEqual(len(bloque["ejercicio"].split()), 10)
+                self.assertGreaterEqual(len(bloque["terminos"]), 2)
+                self.assertIn(bloque["ancla"], self.anclas_guia)
+                if bloque.get("caso"):
+                    self.assertIn(bloque["caso"]["ancla"], self.anclas_caso)
+
+    def test_readme_de_cada_clase_integrada_trae_el_bloque(self) -> None:
+        curriculo = cargar("curriculum.json")
+        for clase in curriculo:
+            numero = clase["global_class"]
+            if numero not in self.CLASES:
+                continue
+            carpeta = next(
+                CURRICULUM.glob(f"part-{clase['part']:02d}-*/class-{clase['class']:02d}-*")
+            )
+            texto = (carpeta / "README.md").read_text(encoding="utf-8")
+            with self.subTest(clase=numero):
+                self.assertIn("## 🛡️ Protección del conocimiento", texto)
+                self.assertIn("Enfoque defensivo", texto)
+
+    def test_guia_cubre_las_veinte_secciones_y_los_tres_niveles(self) -> None:
+        encabezados = re.findall(r"^## (\d+)\. ", self.guia, flags=re.M)
+        self.assertEqual(encabezados, [str(i) for i in range(1, 21)])
+        for frase in (
+            "Emprendedor o microempresa", "Pyme", "Gran empresa o multinacional",
+            "Business Intelligence", "Competitive Intelligence", "Economic Intelligence",
+            "Industrial Espionage", "Trade Secret", "Social Engineering", "HUMINT",
+            "Honey Trap", "Elicitation", "Pretexting", "Insider Threat", "Counterintelligence",
+            "Obligaciones legales", "Recomendaciones", "Medidas voluntarias",
+            "Por qué no se crean clases",
+        ):
+            with self.subTest(frase=frase):
+                self.assertIn(frase, self.guia)
+
+    def test_guia_cita_los_articulos_verificados_en_bcn(self) -> None:
+        for frase in (
+            "art. 86", "tres requisitos copulativos", "284 quinquies", "284 sexies",
+            "Ley 21.595, art. 2", "Ley 21.459", "Ley 20.169", "154 ter",
+            "no menciona expresamente la obtención de secretos",
+        ):
+            with self.subTest(frase=frase):
+                self.assertIn(frase, self.guia)
+
+    def test_terminologia_vigente_es_secreto_comercial(self) -> None:
+        for numero, entrada in self.clases.items():
+            with self.subTest(clase=numero):
+                self.assertNotIn("ecreto empresarial", json.dumps(entrada, ensure_ascii=False))
+
+    def test_caso_nvidia_separa_conocido_alegado_y_pendiente(self) -> None:
+        for etiqueta in (
+            "INFORMACIÓN OFICIALMENTE CONOCIDA",
+            "SOSPECHA O ALEGACIÓN",
+            "NEGACIÓN O POSICIÓN DE PARTE",
+            "INVESTIGACIÓN NO CONCLUIDA",
+            "DESCONOCIDO",
+            "LECCIÓN EMPRESARIAL",
+        ):
+            with self.subTest(etiqueta=etiqueta):
+                self.assertIn(etiqueta, self.caso)
+        self.assertIn("No afirma que NVIDIA haya sufrido", self.caso)
+        self.assertIn("Ninguna de las fuentes citadas", self.caso)
+        self.assertIn("12-11-2026", self.caso)
+
+    def test_ejercicios_no_exigen_construir_sistemas(self) -> None:
+        self.assertIn("No requieren crear ningún sistema informático", self.caso)
+        self.assertIn(
+            "Ninguno exige construir un sistema informático", " ".join(self.guia.split())
+        )
+
+    def test_fuentes_nuevas_registradas_con_fecha_y_uso(self) -> None:
+        esperadas = {
+            "LEY_20169_BCN", "DFL4_PROPIEDAD_INDUSTRIAL", "CP_SECRETO_COMERCIAL",
+            "LEY_21595_BCN", "LEY_21459_BCN", "CT_RESERVA_BCN", "CRS_EEA", "DOJ_COCA_COLA",
+            "DOJ_KOLON", "DOJ_LEVANDOWSKI", "CNBC_NVIDIA", "NBC_NVIDIA", "NEXTGOV_NVIDIA",
+        }
+        self.assertLessEqual(esperadas, set(self.fuentes))
+        for identificador in esperadas:
+            with self.subTest(fuente=identificador):
+                fuente = self.fuentes[identificador]
+                self.assertEqual(fuente["accessed"], "2026-11-12")
+                self.assertTrue(fuente["used_in"])
+        self.assertEqual(self.fuentes["DOJ_COCA_COLA"]["status"], "pendiente")
+
+    def test_matriz_legal_registra_las_normas_nuevas(self) -> None:
+        nombres = {n["name"] for n in cargar("legal_sources.json")}
+        self.assertIn("Ley 20.169", nombres)
+        self.assertIn("Código Penal, arts. 284 a 284 sexies", nombres)
+
+
 if __name__ == "__main__":
     unittest.main()

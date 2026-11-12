@@ -75,6 +75,24 @@ El expediente separa hechos verificados, cifras reportadas, alegaciones periodí
 actuaciones regulatorias, respuesta de la empresa e interpretación pedagógica. No uses una
 categoría como prueba automática de otra.
 
+## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
+
+[Guía de inteligencia económica y protección del conocimiento, sección 9](../../../docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md#9-riesgos-de-las-relaciones-con-terceros)
+
+**Lente para esta clase:** Un inversionista pide información antes de comprometerse: entrégala por etapas, primero lo público, luego lo agregado y solo al final lo crítico, con NDA.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Presentación pública primero, NDA después y los números detallados solo cuando hay interés serio. |
+| **Pyme** | Data room por capas con registro de quién accedió a qué y cuándo. |
+| **Gran empresa o multinacional** | Data room con permisos por tema, registro de accesos y equipo limpio para la información sensible. |
+
+**Actividad sin crear sistemas:** Divide tus documentos en tres capas (públicos, agregados y críticos) y decide en qué momento entregas cada una.
+
+**Términos:** Data room (*Data Room*) · Entrega por etapas (*Staged Disclosure*)
+
+*Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -229,6 +247,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Investigación publicada el 29 de mayo de 2025 sobre imágenes de pacientes, anuncios, logos de medios, testimonios y profesionales presentados en el sitio de MEDVi, con metodología y ejemplos rastreados.
 - *Cómo leerla:* Atribuye cada hallazgo al medio y conserva la diferencia entre evidencia reproducida, inferencia periodística y acusación de terceros. Contrástala con la respuesta posterior de MEDVi y con la actuación primaria de FDA.
 - *Uso en esta clase:* aporta el marco de «Look Out for AI-Generated Ozempic!» para abrir o continuar una inversión solo después de verificar producto, entidad, fondos, rendimiento, terceros, compliance y gobierno con evidencia independiente.
+
+**Biblioteca del Congreso Nacional — DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1179684> · verificado 2026-11-12
+
+- *Qué contiene:* Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.
+- *Cómo leerla:* Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.
+- *Uso en esta clase:* aporta el marco de «DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial» para abrir o continuar una inversión solo después de verificar producto, entidad, fondos, rendimiento, terceros, compliance y gobierno con evidencia independiente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
