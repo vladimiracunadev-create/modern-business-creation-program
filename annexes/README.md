@@ -22,6 +22,8 @@ tributaria: confirma cada dato en la fuente citada y en el texto vigente de la l
 | 04 | [Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md) | Sociedades de personas | 5.060 |
 | 05 | [Sociedad en Comandita (simple y por acciones)](05-sociedad-en-comandita.md) | Sociedades de personas | 5.058 |
 | 06 | [Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md) | Sociedades de capital | 5.487 |
+| 07 | [Sociedad Anónima Cerrada (S.A.)](07-sociedad-anonima-cerrada.md) | Sociedades de capital | 5.176 |
+| 08 | [Sociedad Anónima Abierta (mercado de valores. CMF)](08-sociedad-anonima-abierta.md) | Sociedades de capital | 5.058 |
 
 ## Lo que dice y lo que no dice este material
 

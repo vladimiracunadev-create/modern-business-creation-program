@@ -603,5 +603,268 @@
     }
    }
   ]
+ },
+ {
+  "n": 7,
+  "slug": "sa-cerrada",
+  "titulo": "Sociedad Anónima Cerrada (S.A.)",
+  "grupo": "sociedades-capital",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "La anónima cerrada desde 1981",
+    "alt": "Línea de tiempo: 1981 Ley 18.046 y Ley 18.045, 1997 Ley 19.499 de saneamiento, 2013 Ley 20.659 permite constituirla en línea y 2025 Ley 21.757 sobre mujeres en directorios.",
+    "datos": {
+     "hitos": [
+      [
+       "1981",
+       "Leyes 18.046 y 18.045 ordenan la anónima y el mercado de valores"
+      ],
+      [
+       "1997",
+       "Ley 19.499: saneamiento de nulidades"
+      ],
+      [
+       "2013",
+       "Ley 20.659: la cerrada se constituye en línea"
+      ],
+      [
+       "2025",
+       "Ley 21.757: mujeres en directorios de abiertas"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "La cerrada es la anónima que no es abierta ni especial: un tipo residual."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Constituir una sociedad anónima cerrada",
+    "alt": "Flujo de cinco pasos: acordar estatuto y pacto, redactar la escritura con doce menciones, firmar, inscribir y publicar en sesenta días y constituir el directorio e iniciar actividades.",
+    "datos": {
+     "pasos": [
+      "Acordar estatuto, directorio y dividendos",
+      "Redactar la escritura con las 12 menciones del art. 4",
+      "Firmar todos los accionistas",
+      "Inscribir y publicar en 60 días, o incorporar al Registro",
+      "Directorio provisorio e inicio de actividades"
+     ],
+     "retorno": "No se admite prueba contra el tenor de la escritura: lo que no está escrito no vale"
+    }
+   },
+   {
+    "tipo": "capas",
+    "titulo": "Capital, acciones y derechos de un accionista",
+    "alt": "Cuatro capas: capital fijado en los estatutos, acciones nominativas de igual valor por serie, derecho a retiro y derechos de voto y dividendo.",
+    "datos": {
+     "capas": [
+      [
+       "Capital fijado en los estatutos",
+       "Suscrito y pagado en un máximo de tres años"
+      ],
+      [
+       "Acciones nominativas",
+       "Igual valor por serie; sin acciones de industria"
+      ],
+      [
+       "Derechos del accionista",
+       "Voto, dividendos, información y retiro"
+      ],
+      [
+       "Límites",
+       "Aceptar el estatuto y pagar los saldos insolutos"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "actores",
+    "titulo": "Quién decide qué en una anónima cerrada",
+    "alt": "Mapa con la junta de accionistas al centro y alrededor el directorio, el gerente, los auditores o inspectores, los accionistas minoritarios con el diez por ciento y los árbitros.",
+    "datos": {
+     "centro": "Junta de accionistas",
+     "actores": [
+      [
+       "Directorio (mínimo 3)",
+       "Administra y representa; deber de diligencia"
+      ],
+      [
+       "Gerente",
+       "Ejecuta y representa en juicio"
+      ],
+      [
+       "Accionistas con 10 %",
+       "Pueden pedir convocar a junta"
+      ],
+      [
+       "Auditores o inspectores",
+       "Fiscalizan la administración"
+      ],
+      [
+       "Árbitro",
+       "Resuelve diferencias según el estatuto"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "semaforo",
+    "titulo": "Cuánto dividendo mínimo rige por defecto",
+    "alt": "Semáforo sobre el dividendo mínimo: verde si el estatuto lo fija, amarillo si calla y rige el treinta por ciento, rojo si se quiere retener todo sin acuerdo unánime.",
+    "datos": {
+     "indicador": "Qué dice el estatuto sobre la política de dividendos",
+     "bandas": [
+      [
+       "verde",
+       "El estatuto fija un porcentaje y su excepción",
+       "Política clara: documenta los acuerdos anuales."
+      ],
+      [
+       "amarillo",
+       "El estatuto calla",
+       "Rige el mínimo supletorio del 30 % de las utilidades líquidas (art. 79)."
+      ],
+      [
+       "rojo",
+       "Se quiere retener todo sin acuerdo unánime",
+       "Riesgo de reclamo de accionistas: escribe la política o acuerda por unanimidad."
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "slug": "sa-abierta",
+  "titulo": "Sociedad Anónima Abierta (mercado de valores, CMF)",
+  "grupo": "sociedades-capital",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "La anónima abierta y su régimen de transparencia",
+    "alt": "Línea de tiempo: 1981 Leyes 18.046 y 18.045, con la inscripción en el Registro de Valores, y 2025 Ley 21.757 sobre mujeres en directorios.",
+    "datos": {
+     "hitos": [
+      [
+       "1981",
+       "Leyes 18.046 y 18.045: sociedad anónima y mercado de valores"
+      ],
+      [
+       "Reformas",
+       "Partes relacionadas, director independiente y comité"
+      ],
+      [
+       "2025",
+       "Ley 21.757: mujeres en directorios"
+      ],
+      [
+       "2027",
+       "Cambios en la tributación de ganancias de capital bursátiles"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "La abierta cambia flexibilidad por acceso a capital y transparencia ante el mercado."
+    }
+   },
+   {
+    "tipo": "embudo",
+    "titulo": "Umbrales que llevan a inscribir las acciones",
+    "alt": "Embudo con los umbrales legales: 500 accionistas o diez por ciento del capital en cien accionistas, o más de 2.000 accionistas durante doce meses, con inscripción dentro de sesenta días.",
+    "datos": {
+     "etapas": [
+      [
+       "Accionistas en el registro",
+       "cualquier número",
+       1.0
+      ],
+      [
+       "500 o más accionistas, o 10 % del capital en 100",
+       "art. 5 Ley 18.045",
+       0.6
+      ],
+      [
+       "Más de 2.000 accionistas por 12 meses",
+       "art. 2 Ley 18.046",
+       0.35
+      ],
+      [
+       "Inscripción dentro de 60 días",
+       "art. 6 Ley 18.045",
+       0.15
+      ]
+     ],
+     "cuello": 3
+    }
+   },
+   {
+    "tipo": "venn",
+    "titulo": "Las tres exigencias de transparencia de una abierta",
+    "alt": "Diagrama de Venn con tres círculos: información continua a la CMF, gobierno corporativo y trato de partes relacionadas, que se cruzan en una abierta bien gobernada.",
+    "datos": {
+     "circulos": [
+      "Información veraz, suficiente y oportuna",
+      "Directorio, independientes y comité",
+      "Partes relacionadas e información privilegiada"
+     ],
+     "centro": "Abierta bien gobernada",
+     "nota": "Sin las tres, el mercado pierde confianza y la sociedad se expone a sanciones."
+    }
+   },
+   {
+    "tipo": "actores",
+    "titulo": "Quién vigila a una sociedad abierta",
+    "alt": "Mapa con la sociedad abierta al centro y alrededor la CMF, la junta de accionistas, el comité de directores, los auditores externos y las bolsas de valores.",
+    "datos": {
+     "centro": "Sociedad anónima abierta",
+     "actores": [
+      [
+       "CMF",
+       "Fiscaliza y puede suspender juntas ilegales"
+      ],
+      [
+       "Junta de accionistas",
+       "Aprueba memoria, balance y dividendos"
+      ],
+      [
+       "Comité de directores",
+       "Revisa partes relacionadas y auditoría (si supera el umbral)"
+      ],
+      [
+       "Auditores externos",
+       "Opinan sobre los estados financieros"
+      ],
+      [
+       "Bolsas de valores",
+       "Reciben informes de operaciones de directores"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "balanza",
+    "titulo": "Abrirse a bolsa: lo que se gana y lo que se paga",
+    "alt": "Balanza que compara los beneficios de ser sociedad abierta, como acceso a capital y liquidez, con los costos, como cumplimiento, auditoría y pérdida de privacidad.",
+    "datos": {
+     "izq": [
+      "Lo que se gana",
+      [
+       "Acceso a capital en montos mayores",
+       "Liquidez para los accionistas",
+       "Reputación y disciplina de gobierno"
+      ]
+     ],
+     "der": [
+      "Lo que se paga",
+      [
+       "Información continua y auditoría",
+       "Reglas de partes relacionadas y de independencia",
+       "Menos privacidad y control más expuesto"
+      ]
+     ],
+     "criterio": "Abrirse solo conviene si el capital que se obtiene supera el costo permanente de cumplir."
+    }
+   }
+  ]
  }
 ]
