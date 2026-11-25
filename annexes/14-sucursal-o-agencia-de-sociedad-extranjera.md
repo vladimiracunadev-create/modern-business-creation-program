@@ -501,7 +501,255 @@ extranjero, que son los más lentos y costosos.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre los artículos 447 a 450 del Código de Comercio, leídos en Ley
+Chile (BCN).
+
+### Escenario 1: «solo abrimos una oficina de representación»
+
+**Situación.** Una empresa de software extranjera quiere abrir una oficina en Santiago con un gerente que firme contratos
+y cobre a clientes chilenos.
+
+**Análisis.** Una oficina que opera de forma estable con un agente que ejecuta operaciones en nombre de la entidad es,
+en la práctica, una **agencia** (arts. 447 y siguientes). Si el agente solo promociona sin celebrar contratos, el análisis
+puede ser distinto: no lo resuelvas por el nombre de la oficina, sino por lo que hace.
+
+**Decisión.** Describir las funciones por escrito y consultar a un abogado antes de elegir la figura.
+
+### Escenario 2: los documentos que llegan sin legalizar
+
+**Situación.** La casa matriz envía los estatutos y el certificado de vigencia por correo, sin legalizaciones.
+
+**Análisis.** El agente debe protocolizar en una notaría del domicilio de la agencia, en el idioma oficial del país de
+origen y traducidos al español si corresponde, los documentos emanados del país de constitución **debidamente legalizados**:
+antecedentes de constitución legal y certificado de vigencia, copia auténtica de los estatutos vigentes y un poder general
+al agente (art. 447).
+
+**Decisión.** Gestionar apostilla o legalización en origen y traducciones antes de viajar a la notaría.
+
+### Escenario 3: el poder que no dice lo que debe decir
+
+**Situación.** El poder otorga facultades amplias, pero no dice que el agente obra bajo la responsabilidad directa de la
+entidad.
+
+**Análisis.** El poder general debe constar la personería del mandante y expresar de forma clara y precisa que el agente obra
+en Chile **bajo la responsabilidad directa de la entidad**, con amplias facultades para ejecutar operaciones en su nombre y
+con las facultades del inciso segundo del art. 7 del Código de Procedimiento Civil (art. 447 N.º 3).
+
+**Decisión.** Reemplazar el poder por uno redactado con asesoría chilena.
+
+### Escenario 4: la escritura de declaraciones
+
+**Situación.** El agente quiere postergar la escritura pública «para cuando haya clientes».
+
+**Análisis.** La escritura de declaraciones debe otorgarse **en la misma fecha y ante el mismo notario** que la
+protocolización. En ella el agente declara, a nombre de la entidad: el nombre con que funcionará en Chile y su objeto; que
+conoce la legislación chilena; que sus bienes quedan afectos a las leyes chilenas para responder de las obligaciones en
+Chile; que se obliga a mantener en Chile **bienes de fácil realización**; el capital efectivo y la fecha y forma de ingreso
+a la caja de la agencia; y el domicilio de la agencia principal (art. 448).
+
+### Escenario 5: el extracto fuera de plazo
+
+**Situación.** Pasan 75 días desde la protocolización sin inscribir ni publicar.
+
+**Análisis.** El extracto certificado debe inscribirse en el Registro de Comercio del domicilio de la agencia principal y
+publicarse **una sola vez en el Diario Oficial dentro de los 60 días** desde la protocolización (art. 449). El plazo se
+superó.
+
+**Decisión.** Consultar a un abogado sobre cómo regularizar y qué consecuencias tiene el incumplimiento.
+
+### Escenario 6: cambio en el capital de la agencia
+
+**Situación.** La casa matriz decide aumentar el capital asignado a la agencia.
+
+**Análisis.** El agente debe cumplir las mismas formalidades respecto de cualquier modificación en los documentos o
+declaraciones, **salvo la del N.º 4 del art. 448** (la obligación de mantener bienes de fácil realización) (art. 450).
+
+**Decisión.** Planificar la modificación con la misma notaría y calendario de inscripción y publicación.
+
+### Escenario 7: el balance de la agencia
+
+**Situación.** La agencia cierra su ejercicio el 31 de diciembre.
+
+**Análisis.** El agente debe publicar el **balance anual de la agencia** en un diario del domicilio de esta dentro del
+**cuatrimestre siguiente** al cierre (art. 450), es decir, antes de fines de abril.
+
+### Escenario 8: ¿agencia o filial?
+
+**Situación.** Una empresa extranjera duda entre abrir una agencia o constituir una filial.
+
+**Análisis.** La agencia es la misma entidad extranjera actuando en Chile bajo su responsabilidad directa; la filial es una
+sociedad chilena con patrimonio separado. Si la prioridad es aislar el riesgo, la filial suele ser más adecuada; si la
+prioridad es operar rápido y bajo la misma persona jurídica, la agencia puede serlo.
+
+**Decisión.** Comparar por escrito responsabilidad, tributación, costos y trámites.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Operar sin completar la constitución | Apuro | Incumplimiento (arts. 447 a 449) | Completar formalidades | Sección 4 |
+| 2 | Documentos sin legalizar | Ahorro de trámites | Rechazo | Legalizar y traducir | Escenario 2 |
+| 3 | Poder insuficiente | Plantilla extranjera | No cumple art. 447 N.º 3 | Poder a medida | Escenario 3 |
+| 4 | No declarar bienes de fácil realización | Desconocimiento | Incumple art. 448 N.º 4 | Mantenerlos | Escenario 4 |
+| 5 | Capital sin definir | Descuido | Incumple art. 448 N.º 5 | Declarar monto y forma | Sección 5 |
+| 6 | Extracto fuera de 60 días | Calendario | Incumple art. 449 | Calendario de plazos | Escenario 5 |
+| 7 | No inscribir en el Registro de Comercio | Olvido | Incumple art. 449 | Inscribir | Sección 4 |
+| 8 | No modificar documentos cuando cambian | Falta de seguimiento | Incumple art. 450 | Procedimiento de cambios | Escenario 6 |
+| 9 | No publicar el balance | Desconocimiento | Incumple art. 450 | Calendario anual | Escenario 7 |
+| 10 | Suponer responsabilidad limitada | Confusión con filial | Responde la entidad | Evaluar filial | Escenario 8 |
+| 11 | Mezclar facturación de matriz y agencia | Desorden | Problemas tributarios | Contabilidad separada | Sección 8 |
+| 12 | Ignorar el impuesto sobre remesas | Falta de asesoría | Sorpresas fiscales | Planificar con contador | Sección 8 |
+| 13 | Contratar sin permiso laboral o de residencia | Informalidad | Sanciones | Revisar migración | Sección 9 |
+| 14 | Agente sin respaldo de la matriz | Falta de gobierno | Actos cuestionados | Acta o poder claro | Sección 6 |
+| 15 | No guardar los documentos protocolizados | Desorden | Dificultad para acreditar | Archivo con índice | Sección 4 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Agencia, filial y otras presencias
+
+| Criterio | Agencia | Filial (sociedad chilena) | Oficina de representación | Agente independiente |
+|---|---|---|---|---|
+| Persona jurídica | La misma entidad extranjera | Nueva sociedad chilena | La misma entidad, sin operar | Tercero |
+| Responsabilidad | Directa de la entidad (art. 447 N.º 3) | Limitada al patrimonio de la filial | Según el alcance de lo que haga | Del agente |
+| Trámites | Protocolización, escritura, inscripción y publicación (arts. 447 a 449) | Constitución según el tipo social | Según lo que haga | Contrato |
+| Balance | Publicación anual (art. 450) | Según su tipo | No aplica | No aplica |
+
+### C.2. Variantes de la agencia
+
+| Variante | Descripción | Cuándo sirve |
+|---|---|---|
+| Agencia principal | Domicilio de la agencia principal (arts. 448 N.º 6 y 449) | Primera presencia |
+| Agencias adicionales | Sucursales de la agencia | Expansión dentro de Chile |
+| Agencia con capital mayor | Mayor capital efectivo declarado (art. 448 N.º 5) | Operaciones de mayor escala |
+
+### C.3. Cómo estructurar el gobierno local
+
+| Opción | Descripción | Cuidado |
+|---|---|---|
+| Agente único con poder amplio | Un agente con poder general | Concentra el riesgo |
+| Agente con límites y comité de la matriz | Montos por sobre los cuales se requiere aprobación | Más control, más tiempo |
+| Agente más gerente local | Separación de representación y gestión | Aclarar facultades |
+
+### C.4. Ideas de cláusulas del poder (para llevar a un abogado)
+
+1. «Otorga poder general a [agente] para representarla en Chile con amplias facultades para ejecutar operaciones.»
+2. «El agente obra en Chile bajo la responsabilidad directa de [entidad].»
+3. «Se le otorgan las facultades del inciso segundo del art. 7 del Código de Procedimiento Civil.»
+4. «Se establecen los siguientes límites internos de monto: [detalle].»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Prefieres una filial | 03, 06 o 07 |
+| Dudas sobre el Registro en línea | 15 |
+| Tributación, remesas, IVA y documentos | 16 |
+| Patente y permisos locales | 17 |
+| Domicilio de la agencia | 18 |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+- [Parte 5, clase 13: juntas, actas, libros y trazabilidad de decisiones](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-13-juntas-actas-libros-y-trazabilidad-de-decisiones/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Poder y responsabilidad:** el art. 447 N.º 3 conecta la facultad del agente con la responsabilidad directa de la entidad.
+2. **Bienes en Chile y acreedores:** el art. 448 conecta la afectación de bienes con la protección de quienes contratan.
+3. **Publicidad y confianza:** los arts. 449 y 450 conectan la inscripción, el extracto y el balance con la transparencia.
+4. **Tributación y matriz:** la contabilidad de la agencia conecta con las remesas a la casa matriz.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 20 | Reunir y legalizar documentos en origen; traducir; redactar el poder | Matriz y abogado local | Documentos legalizados |
+| Días 21 a 30 | Protocolización y escritura de declaraciones en la misma fecha | Agente | Protocolización y escritura |
+| Días 31 a 60 | Inscripción y publicación del extracto (60 días desde la protocolización) | Abogado | Inscripción y aviso |
+| Días 61 a 90 | RUT, inicio de actividades, banco, libros y contabilidad | Contador | Certificados |
+
+### E.2. Calendario anual
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cierre del ejercicio | Balance de la agencia | Art. 450 |
+| Cuatrimestre siguiente | Publicar el balance en un diario del domicilio | Art. 450 |
+| Cada cambio en documentos o declaraciones | Repetir formalidades (salvo la del art. 448 N.º 4) | Art. 450 |
+| Mensual | IVA y retenciones según corresponda | Anexo 16 |
+| Anual | Renta y revisión de remesas | Anexo 16 |
+
+### E.3. Lista de control de la constitución
+
+| Ítem | Sí | No |
+|---|---|---|
+| Antecedentes de constitución y certificado de vigencia legalizados | | |
+| Copia auténtica de los estatutos vigentes | | |
+| Poder general con la cláusula de responsabilidad directa | | |
+| Traducción al español cuando corresponda | | |
+| Escritura de declaraciones en la misma fecha y notaría | | |
+| Extracto inscrito y publicado dentro de 60 días | | |
+
+### E.4. Modelo de declaraciones de la escritura (art. 448)
+
+| N.º | Declaración | Dato |
+|---:|---|---|
+| 1 | Nombre en Chile y objeto | |
+| 2 | Conocimiento de la legislación chilena | Sí |
+| 3 | Bienes afectos a las leyes chilenas | Sí |
+| 4 | Bienes de fácil realización en Chile | Descripción y monto |
+| 5 | Capital efectivo, fecha y forma de ingreso | |
+| 6 | Domicilio de la agencia principal | |
+
+## 18. Autoevaluación
+
+1. ¿Qué es una agencia de una sociedad extranjera?
+2. ¿Qué documentos se protocolizan?
+3. ¿Qué dice el poder del agente?
+4. ¿Qué declara la escritura?
+5. ¿Qué plazo hay para inscribir y publicar el extracto?
+6. ¿Qué se publica cada año?
+7. ¿Responde la entidad con todo su patrimonio?
+8. ¿Qué alternativa aísla mejor el riesgo?
+9. ¿Qué cambios exigen repetir formalidades?
+10. ¿Dónde se inscribe el extracto?
+
+**Respuestas.**
+
+1. La misma entidad extranjera actuando en Chile bajo su responsabilidad directa (art. 447 N.º 3).
+2. Constitución legal con certificado de vigencia, estatutos vigentes y poder general, legalizados (art. 447).
+3. Que el agente obra bajo la responsabilidad directa de la entidad, con amplias facultades (art. 447 N.º 3).
+4. Nombre y objeto, conocimiento de la ley, bienes afectos, bienes de fácil realización, capital y domicilio (art. 448).
+5. Sesenta días desde la protocolización (art. 449).
+6. El balance anual de la agencia, dentro del cuatrimestre siguiente al cierre (art. 450).
+7. Sí: la agencia no limita la responsabilidad de la entidad.
+8. Una filial constituida en Chile.
+9. Cualquier modificación de los documentos o declaraciones, salvo la del N.º 4 del art. 448 (art. 450).
+10. En el Registro de Comercio del domicilio de la agencia principal (art. 449).
+
+**Puntaje.** Ocho o más: dominas el tipo. Cuatro a siete: repasa las secciones 4 y 5. Menos de cuatro: relee el anexo.
+
+## 19. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Agencia | Presencia estable en Chile de una entidad extranjera, representada por un agente |
+| Agente | Persona que representa a la entidad extranjera en Chile |
+| Apostilla | Certificación que legaliza un documento público para su uso en otro país |
+| Bienes de fácil realización | Bienes que pueden convertirse en dinero con rapidez |
+| Capital efectivo | Capital realmente asignado a la agencia para operar |
+| Casa matriz | Entidad extranjera de la que depende la agencia |
+| Certificado de vigencia | Documento que acredita que la entidad existe y está vigente |
+| Filial | Sociedad chilena controlada por otra entidad |
+| Legalización | Procedimiento para que un documento extranjero tenga validez en Chile |
+| Protocolización | Incorporación de un documento al registro de un notario |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Una sucursal es una empresa chilena?**
 No. Es la entidad extranjera actuando en Chile mediante un agente; no es una persona jurídica nueva.
@@ -573,7 +821,59 @@ Sí, la sucursal se trata como empresa separada, incluso en sus operaciones con 
 **20. ¿Puedo empezar con sucursal y luego pasar a filial?**
 Sí, aportando el negocio a una sociedad chilena; las consecuencias tributarias deben evaluarse con anticipación.
 
-## 14. Fuentes y vigencia
+**21. ¿Qué es un poder general del agente?**
+Un poder que acredita la personería del mandante y le otorga amplias facultades para ejecutar operaciones, bajo la
+responsabilidad directa de la entidad (art. 447 N.º 3).
+
+**22. ¿En qué idioma se protocolizan los documentos?**
+En el idioma oficial del país de origen, traducidos al español si no están en ese idioma (art. 447).
+
+**23. ¿Cuándo se otorga la escritura de declaraciones?**
+En la misma fecha y ante el mismo notario que la protocolización (art. 448).
+
+**24. ¿Qué es el capital efectivo de la agencia?**
+El que la entidad declara tendrá en el país para el giro de sus operaciones, con la fecha y forma de ingreso a la caja
+(art. 448 N.º 5).
+
+**25. ¿Qué son los bienes de fácil realización?**
+Los que la entidad se obliga a mantener en Chile para atender las obligaciones que deban cumplirse en el país (art. 448 N.º 4).
+
+**26. ¿Dónde se publica el extracto?**
+Una sola vez en el Diario Oficial, y se inscribe en el Registro de Comercio del domicilio de la agencia principal, dentro
+de 60 días desde la protocolización (art. 449).
+
+**27. ¿Qué datos lleva el extracto?**
+Fecha y número de la protocolización y de la escritura, nombre de la entidad y el que usará en Chile, domicilio, capital de
+la agencia y nombre del agente (art. 449).
+
+**28. ¿Qué pasa si cambia el agente?**
+Hay que cumplir las formalidades respecto de cualquier modificación de los documentos o declaraciones (art. 450).
+
+**29. ¿Dónde se publica el balance?**
+En un diario del domicilio de la agencia, dentro del cuatrimestre siguiente al cierre del ejercicio (art. 450).
+
+**30. ¿Una agencia tiene responsabilidad limitada?**
+No: el agente obra bajo la responsabilidad directa de la entidad (art. 447 N.º 3).
+
+**31. ¿Puedo abrir una cuenta bancaria?**
+Normalmente sí, una vez cumplidas las formalidades y obtenido el RUT; cada banco tiene requisitos propios.
+
+**32. ¿Debo inscribirme en el SII?**
+Sí, para iniciar actividades y cumplir obligaciones tributarias; revisa el anexo 16.
+
+**33. ¿Qué pasa con las remesas a la casa matriz?**
+Tienen tratamiento tributario específico; el anexo menciona el impuesto adicional. Consulta a un asesor tributario.
+
+**34. ¿Puedo contratar trabajadores?**
+Sí, con las reglas laborales chilenas; consulta el manual laboral y a un abogado.
+
+**35. ¿Qué pasa si quiero cerrar la agencia?**
+Hay que planificar el término con contabilidad, obligaciones tributarias y laborales; consulta a un abogado.
+
+**36. ¿Cuándo debo pedir ayuda profesional?**
+Al legalizar documentos, redactar el poder, cumplir los plazos del extracto y planificar la tributación y las remesas.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

@@ -502,7 +502,263 @@ revés, salvo que se obliguen expresamente.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre los artículos 545 a 564 del Código Civil, texto leído en Ley
+Chile (BCN).
+
+### Escenario 1: la junta de vecinos que quiere «repartir las ganancias»
+
+**Situación.** Una asociación vecinal organiza una feria anual y obtiene un excedente de 3.000.000 de pesos. Algunos
+socios piden repartirlo.
+
+**Análisis.** Las rentas, utilidades, beneficios o excedentes de la asociación **no pueden distribuirse entre los
+asociados ni aun en caso de disolución** (art. 556). Pueden realizar actividades económicas que se relacionen con sus
+fines, pero las rentas solo se destinan a los fines de la asociación o a incrementar su patrimonio (art. 557-2).
+
+**Decisión.** Destinar el excedente a los fines (por ejemplo, equipamiento) y documentarlo en el balance y la memoria.
+
+### Escenario 2: el director que cobra un sueldo
+
+**Situación.** El presidente de una fundación quiere cobrar una remuneración por dirigir.
+
+**Análisis.** Los directores ejercen su cargo **gratuitamente**, con derecho a reembolso de gastos autorizados por el
+directorio y justificados. Salvo que los estatutos digan lo contrario, el directorio puede fijar una retribución adecuada a
+quienes presten **servicios distintos de sus funciones como directores**, y debe darse cuenta detallada de toda
+remuneración a la asamblea (o al directorio en fundaciones), incluidas las de personas relacionadas por parentesco,
+convivencia, interés o propiedad (art. 551-1).
+
+**Decisión.** Separar cargo directivo y servicio remunerado, aprobar con transparencia y reportar.
+
+### Escenario 3: el estatuto con un directorio de dos personas
+
+**Situación.** Se redacta un estatuto con un directorio de dos miembros.
+
+**Análisis.** La dirección y administración de una asociación recae en un directorio de **al menos tres miembros**, con
+mandato de **hasta cinco años** (art. 551).
+
+**Decisión.** Corregir el estatuto antes de depositarlo.
+
+### Escenario 4: el director condenado
+
+**Situación.** Un director es condenado por un delito durante su mandato.
+
+**Análisis.** No pueden integrar el directorio personas condenadas a pena aflictiva, y el director que durante el cargo
+fuere condenado por crimen o simple delito, o incurriere en otra inhabilidad o incompatibilidad, **cesa en sus
+funciones**; el directorio nombra un reemplazante por el tiempo restante (art. 551).
+
+### Escenario 5: la objeción del secretario municipal
+
+**Situación.** Se deposita el acta constitutiva y, a los 20 días, el secretario municipal objeta la constitución.
+
+**Análisis.** El secretario municipal puede objetar fundadamente dentro de **treinta días** desde el depósito si no se
+cumplieron los requisitos; no puede objetar cláusulas que reproduzcan los modelos aprobados por el Ministerio de Justicia.
+La organización en formación debe subsanar dentro de **treinta días** desde la notificación, y su órgano directivo se
+entiende facultado para modificar los estatutos con ese fin (art. 548). Si no objeta en plazo, se entiende que no objeta, y
+tras el trámite se envía al Servicio de Registro Civil para la inscripción; la personalidad jurídica rige **desde esa
+inscripción**.
+
+**Decisión.** Usar los estatutos modelo cuando sea posible y llevar un calendario de plazos.
+
+### Escenario 6: «actuamos como asociación» sin inscribirse
+
+**Situación.** Un grupo opera varios meses, firma contratos y no completa la inscripción.
+
+**Análisis.** No son personas jurídicas las corporaciones o fundaciones que no se hayan constituido conforme a las reglas
+del título (art. 546). Si una corporación no tiene existencia legal, **sus actos colectivos obligan a todos y cada uno de
+sus miembros solidariamente** (art. 549).
+
+**Decisión.** Completar la constitución antes de contratar.
+
+### Escenario 7: el socio expulsado
+
+**Situación.** Un socio es expulsado por una decisión del directorio sin audiencia.
+
+**Análisis.** La potestad disciplinaria se ejerce a través de una **comisión de ética, tribunal de honor u otro organismo
+similar**, mediante un procedimiento racional y justo, respetando derechos constitucionales, legales y estatutarios; el
+cargo en el órgano de administración es **incompatible** con el cargo en el órgano disciplinario (art. 553). Quien resulte
+perjudicado por los estatutos puede recurrir a la justicia en procedimiento breve y sumario (art. 548-4).
+
+**Decisión.** Crear el órgano disciplinario con separación de funciones y un procedimiento escrito.
+
+### Escenario 8: modificar los estatutos de una fundación
+
+**Situación.** El directorio de una fundación quiere ampliar sus fines.
+
+**Análisis.** Los estatutos de una fundación solo pueden modificarse por acuerdo del directorio, **previo informe
+favorable del Ministerio de Justicia**, siempre que resulte conveniente al interés fundacional; no cabe modificación si el
+fundador la prohibió (art. 558).
+
+**Decisión.** Verificar la prohibición del fundador y solicitar el informe antes de acordar.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Actuar sin inscripción | Apuro | Solidaridad de los miembros (art. 549) | Completar la constitución | Escenario 6 |
+| 2 | Repartir excedentes | Presión de socios | Contraviene el art. 556 | Destinar a los fines | Escenario 1 |
+| 3 | Directorio de menos de tres | Estatuto improvisado | Incumple el art. 551 | Ajustar estatuto | Escenario 3 |
+| 4 | No rendir cuenta a la asamblea | Descuido | Incumple el art. 551 | Rendición anual | Sección 6 |
+| 5 | No llevar actas fieles | Informalidad | Prueba débil (art. 557-3) | Libro idóneo | Sección 6 |
+| 6 | No mantener registros de asociados y directores | Olvido | Incumple el art. 557-3 | Registros actualizados | Sección 6 |
+| 7 | Sin contabilidad ni memoria | Creer que no aplica | Incumple el art. 557-1 | Contador y memoria anual | Sección 9 |
+| 8 | Sin auditoría cuando corresponde | Desconocer umbrales | Incumple el art. 557-1 | Verificar umbrales del Ministro de Justicia | Sección 9 |
+| 9 | Pagar remuneraciones sin cuenta | Opacidad | Infracción del art. 551-1 | Informar a la asamblea | Escenario 2 |
+| 10 | Expulsar sin procedimiento | Conflicto interno | Reclamo judicial (art. 548-4) | Órgano disciplinario | Escenario 7 |
+| 11 | Modificar estatutos sin el quórum | Apuro | Acuerdo cuestionable (art. 558) | Asamblea especial | Sección 4.5 |
+| 12 | Nombre que se confunde con otro | Poca verificación | Rechazo (art. 548-3) | Verificar nombres | Sección 4 |
+| 13 | Estatutos sin destino de bienes | Plantilla incompleta | Incumple el art. 548-2 | Indicar institución destinataria | Sección 5.4 |
+| 14 | Mezclar caja de la organización y personal | Informalidad | Malversación y responsabilidades (art. 555) | Cuenta propia | Sección 6.6 |
+| 15 | Creer que no pagan impuestos por ser sin fines de lucro | Confusión | Sorpresas tributarias | Análisis por ingreso | Sección 8 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Asociación frente a fundación
+
+| Criterio | Asociación | Fundación |
+|---|---|---|
+| Base | Reunión de personas en torno a objetivos de interés común (art. 545) | Afectación de bienes a un fin de interés general (art. 545) |
+| Gobierno | Asamblea y directorio de al menos tres | Directorio; sin asamblea de socios |
+| Reforma de estatutos | Asamblea citada especialmente | Directorio con informe favorable del Ministerio de Justicia (art. 558) |
+| Disolución voluntaria | Dos tercios de los asociados presentes (art. 558) | Por destrucción de los bienes destinados a su manutención, entre otras causas (art. 564) |
+| Reparto de excedentes | Prohibido (art. 556) | Prohibido en la lógica del título; los bienes se afectan al fin |
+
+### C.2. Alternativas a crear una persona jurídica
+
+| Alternativa | Qué es | Cuándo sirve | Límite |
+|---|---|---|---|
+| Convenio con una organización existente | Se canaliza la actividad por una organización ya constituida | Proyecto breve | Depende de un tercero |
+| Comunidad o grupo informal | Sin personalidad jurídica | Actividad mínima | Responsabilidad solidaria de los miembros si actúan como corporación sin existencia legal (art. 549) |
+| Sociedad civil o comercial | Persona jurídica con fines de lucro | Actividad económica con reparto | No es una organización sin fines de lucro |
+| Cooperativa | Ver anexo 09 | Servicios a los socios con reparto según uso | Reglas propias |
+
+### C.3. Diseño del gobierno
+
+| Opción | Descripción | Cuándo sirve |
+|---|---|---|
+| Directorio mínimo de tres | Cumple lo básico | Organizaciones pequeñas |
+| Directorio ampliado con comisiones | Finanzas, ética, programas | Organizaciones medianas |
+| Comisión de ética separada | Cumple el art. 553 | Todas las asociaciones |
+| Comité asesor | Sin poder decisorio | Cuando se busca experticia |
+
+### C.4. Ideas de cláusulas de estatutos
+
+1. «El patrimonio inicial se compone de [bienes] aportados en la forma [detalle].»
+2. «La asamblea ordinaria se reunirá una vez al año, y la extraordinaria cuando lo exijan las necesidades.»
+3. «Los directores ejercerán gratuitamente su cargo, con reembolso de gastos autorizados por el directorio.»
+4. «La comisión de ética tendrá a su cargo la potestad disciplinaria con un procedimiento racional y justo.»
+5. «En caso de extinción, los bienes pasarán a [institución sin fines de lucro].»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| La actividad necesita ingresos con reparto | 03, 06 u 11 |
+| La actividad es de servicios a los socios | 09 |
+| Trámite municipal | 17 |
+| Tributación y documentos | 16 |
+| Domicilio | 18 |
+| Constitución rápida de sociedades | 15 |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+- [Parte 5, clase 13: juntas, actas, libros y trazabilidad de decisiones](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-13-juntas-actas-libros-y-trazabilidad-de-decisiones/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **No reparto y destino de bienes:** los arts. 556 y 548-2 conectan el patrimonio con la institución destinataria.
+2. **Gobierno y gratuidad:** el art. 551-1 conecta la transparencia con la remuneración.
+3. **Disciplina y separación de funciones:** el art. 553 conecta el procedimiento con la incompatibilidad de cargos.
+4. **Fiscalización y evidencia:** los arts. 557 y 557-3 conectan al Ministerio de Justicia con las actas, cuentas y registros.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 15 | Definir fines, nombre, domicilio, patrimonio inicial y órganos | Fundadores | Borrador de estatutos |
+| Días 16 a 30 | Acto constitutivo ante ministro de fe; depósito en la secretaría municipal (30 días) | Fundadores | Acta y recibo del depósito |
+| Días 31 a 60 | Respuesta a objeciones, inscripción en el Registro Nacional | Directorio | Certificado de inscripción |
+| Días 61 a 90 | RUT, cuenta bancaria, libros, política de remuneraciones y comisión de ética | Tesorería | Libros y políticas |
+
+### E.2. Calendario anual
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Una vez al año | Asamblea ordinaria | Art. 550 |
+| Al cierre del ejercicio | Memoria y balance | Art. 557-1 |
+| Cada año | Revisar umbral de auditoría externa | Art. 557-1 |
+| Cada sesión | Actas en libro idóneo | Art. 557-3 |
+| Permanente | Actualizar registros de asociados, directores y autoridades | Art. 557-3 |
+| Cuando corresponda | Informar remuneraciones a la asamblea | Art. 551-1 |
+
+### E.3. Lista de control del directorio
+
+| Ítem | Sí | No |
+|---|---|---|
+| Tres directores o más, con mandato de hasta cinco años | | |
+| Sin directores condenados a pena aflictiva | | |
+| Libro de actas fiel | | |
+| Registros de asociados y autoridades al día | | |
+| Memoria y balance aprobados | | |
+| Remuneraciones informadas | | |
+| Comisión de ética separada del directorio | | |
+
+### E.4. Modelo de informe de remuneraciones a la asamblea
+
+| Persona | Vínculo | Servicio prestado | Monto | Aprobación del directorio | Fecha |
+|---|---|---|---:|---|---|
+| | | | | | |
+
+## 18. Autoevaluación
+
+1. ¿Qué diferencia hay entre asociación y fundación?
+2. ¿Cuántos directores mínimo tiene una asociación?
+3. ¿Pueden repartirse excedentes?
+4. ¿Cuándo adquiere personalidad jurídica?
+5. ¿Qué plazo tiene el depósito del acto constitutivo?
+6. ¿Pueden los directores cobrar por serlo?
+7. ¿Quién fiscaliza?
+8. ¿Qué mayoría disuelve una asociación voluntariamente?
+9. ¿Quién debe informar para modificar los estatutos de una fundación?
+10. ¿Qué pasa con los bienes al extinguirse?
+
+**Respuestas.**
+
+1. La asociación reúne personas; la fundación afecta bienes a un fin (art. 545).
+2. Tres (art. 551).
+3. No, ni en caso de disolución (art. 556).
+4. Desde la inscripción en el Registro Nacional (art. 548).
+5. Treinta días desde el otorgamiento (art. 548).
+6. No: ejercen gratuitamente, con reembolso de gastos y posibles retribuciones por servicios distintos (art. 551-1).
+7. El Ministerio de Justicia (art. 557).
+8. Dos tercios de los asociados que asistan a la asamblea (art. 558).
+9. El Ministerio de Justicia emite un informe favorable previo (art. 558).
+10. Pasan a la institución sin fines de lucro indicada en los estatutos (art. 548-2); si no se previó, al Estado con la
+    obligación de emplearlos en objetos análogos (art. 561).
+
+**Puntaje.** Ocho o más: dominas el tipo. Cuatro a siete: repasa las secciones 5 y 6. Menos de cuatro: relee el anexo.
+
+## 19. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Acto constitutivo | Escritura o documento ante ministro de fe que crea la organización |
+| Asamblea | Reunión de los miembros con derecho a voto |
+| Asociación | Persona jurídica formada por una reunión de personas en torno a objetivos comunes |
+| Comisión de ética | Órgano que ejerce la potestad disciplinaria |
+| Fundación | Persona jurídica formada por la afectación de bienes a un fin de interés general |
+| Ministro de fe | Notario, oficial del Registro Civil o funcionario municipal autorizado |
+| Persona jurídica en formación | Organización cuyo acto constitutivo ya se depositó, pero que aún no se inscribe |
+| Registro Nacional de Personas Jurídicas sin Fines de Lucro | Registro del Servicio de Registro Civil donde se inscribe la organización |
+| Retribución | Pago por servicios distintos de las funciones de director |
+| Secretario municipal | Funcionario ante quien se deposita el acto constitutivo |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Cuál es la diferencia entre asociación y fundación?**
 La asociación es una reunión de personas en torno a objetivos comunes; la fundación, la afectación de bienes
@@ -574,7 +830,69 @@ Sí, mediante una agrupación sin personalidad jurídica, pero quienes actúan r
 No existe en Chile una ley BIC publicada a la fecha de consulta. Es posible pactar propósito social en
 estatutos, pero sin régimen legal específico.
 
-## 14. Fuentes y vigencia
+**21. ¿Pueden las asociaciones realizar actividades económicas?**
+Sí, si se relacionan con sus fines; las rentas solo se destinan a esos fines o a incrementar el patrimonio (art. 557-2).
+
+**22. ¿Qué pasa con la responsabilidad de los miembros por las deudas?**
+Lo que pertenece a la corporación no pertenece a sus miembros, y las deudas no dan acción sobre los bienes propios de ellos;
+pueden obligarse en particular si lo expresan, y solo hay solidaridad si se estipula (art. 549).
+
+**23. ¿Cuándo se reúne la asamblea?**
+Ordinariamente una vez al año y extraordinariamente cuando lo exijan las necesidades (art. 550); sesiona con la mayoría de
+los miembros con voto deliberativo, salvo lo que digan los estatutos.
+
+**24. ¿Cómo toma acuerdos el directorio?**
+Sesiona con mayoría absoluta de sus miembros y acuerda por mayoría absoluta de los asistentes; el voto del que preside
+dirime el empate (art. 551).
+
+**25. ¿Quién representa a la asociación?**
+El presidente del directorio, judicial y extrajudicialmente (art. 551).
+
+**26. ¿Qué pasa si el representante se excede?**
+Los actos que exceden los límites de su ministerio obligan solo personalmente al representante (art. 552).
+
+**27. ¿Cómo se salva un director de la responsabilidad por un acuerdo?**
+Haciendo constar su oposición y dando cuenta en la próxima asamblea (art. 551-2); los directores responden solidariamente
+hasta de culpa leve por los perjuicios que causen.
+
+**28. ¿Qué delitos contra los fondos se contemplan?**
+Fraude, dilapidación y malversación, que se castigan según los estatutos sin perjuicio de las leyes comunes (art. 555).
+
+**29. ¿Qué puede pedir el Ministerio de Justicia?**
+Actas, cuentas, memorias, libros de contabilidad, de inventarios y de remuneraciones, y puede ordenar subsanar
+irregularidades (art. 557).
+
+**30. ¿Hay auditoría externa?**
+Cuando el patrimonio o los ingresos superen los límites que defina el Ministro de Justicia (art. 557-1).
+
+**31. ¿Qué es una persona jurídica «en formación»?**
+La que ya depositó el acto constitutivo pero aún no tiene la inscripción que le da personalidad (art. 548).
+
+**32. ¿Pueden dos asociaciones fusionarse?**
+La fusión con otra asociación debe aprobarse por dos tercios de los asociados que asistan (art. 558).
+
+**33. ¿Qué causales disuelven una asociación?**
+Vencimiento del plazo, acuerdo de la asamblea extraordinaria, sentencia judicial por infracción grave o fin cumplido o
+imposible, y otras previstas en estatutos y leyes (art. 559).
+
+**34. ¿Quién demanda la disolución judicial?**
+El Consejo de Defensa del Estado, a petición fundada del Ministerio de Justicia; en ciertos casos también la institución
+destinataria de los bienes (art. 559).
+
+**35. ¿Cuándo se extingue una fundación?**
+Por la destrucción de los bienes destinados a su manutención, entre otras causas (art. 564).
+
+**36. ¿Qué nombre puedo usar?**
+Uno que haga referencia a su naturaleza, objeto o finalidad y que no se confunda con otra persona jurídica u organización
+(art. 548-3).
+
+**37. ¿Se pueden objetar mis estatutos si uso el modelo?**
+No pueden objetarse las cláusulas que reproduzcan los modelos aprobados por el Ministerio de Justicia (art. 548).
+
+**38. ¿Cuándo debo pedir ayuda profesional?**
+Al redactar estatutos, ante conflictos disciplinarios, remuneraciones, tributación de ingresos y modificaciones de fundaciones.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

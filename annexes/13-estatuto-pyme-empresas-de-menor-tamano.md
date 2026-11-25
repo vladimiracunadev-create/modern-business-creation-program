@@ -505,7 +505,261 @@ operar sin cumplir.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre la Ley 20.416. Las cifras en UF se convierten con el valor de la
+UF de la fecha que corresponda; aquí se usa un valor ficticio de 38.000 pesos solo para ilustrar.
+
+### Escenario 1: ¿en qué categoría estoy?
+
+**Situación.** Una panadería facturó, sin IVA, 70.000.000 de pesos el año calendario anterior.
+
+**Análisis.** Con una UF ilustrativa de 38.000 pesos, 70.000.000 / 38.000 son unas 1.842 UF. El límite de la microempresa
+es de **2.400 UF** de ingresos anuales por ventas y servicios y otras actividades del giro, descontados el IVA y los
+impuestos específicos (art. 2). Queda dentro de la categoría micro. Si hubiese facturado 150.000.000 (unas 3.947 UF), sería
+pequeña (hasta 25.000 UF).
+
+**Lección.** La categoría se mide por los **ingresos del año calendario anterior**, no por el capital ni por la cantidad de
+trabajadores.
+
+### Escenario 2: empezó a operar en octubre
+
+**Situación.** Una empresa inició actividades en octubre del año anterior y vendió 4.000.000 de pesos en tres meses.
+
+**Análisis.** Si inició actividades el año calendario anterior, los límites se determinan **en proporción a los meses de
+actividad**, y las fracciones de mes cuentan como meses completos (art. 2). Octubre, noviembre y diciembre son tres meses:
+el límite proporcional de la microempresa sería 2.400 UF × 3/12 = 600 UF, comparado con sus ingresos de esos meses.
+
+### Escenario 3: la empresa con arriendos
+
+**Situación.** Una empresa de servicios gana el 45 % de sus ingresos de arrendar propiedades.
+
+**Análisis.** No pueden clasificarse como empresas de menor tamaño las que realicen **negocios inmobiliarios o actividades
+financieras**, salvo las necesarias para su actividad principal, **o** posean o exploten derechos sociales, acciones o
+participaciones, **siempre que los ingresos provenientes de esas actividades en conjunto superen el 35 %** de los ingresos
+del año comercial anterior (art. 2). Con 45 %, supera el umbral.
+
+**Decisión.** Reorganizar las actividades o aceptar que no accede a la categoría.
+
+### Escenario 4: el socio bursátil
+
+**Situación.** Una sociedad pequeña tiene un accionista que es una sociedad con acciones en bolsa, con 35 % del capital
+pagado.
+
+**Análisis.** No pueden clasificarse como empresas de menor tamaño aquellas en cuyo capital pagado participen, en **más de
+un 30 %**, sociedades con cotización bursátil o filiales de estas (art. 2).
+
+### Escenario 5: el permiso provisorio
+
+**Situación.** Un taller nuevo solicita su primer permiso de funcionamiento.
+
+**Análisis.** Los servicios públicos pueden otorgar permisos provisorios a las empresas de menor tamaño que lo soliciten por
+primera vez. Si no hubo ingresos el año anterior, se entiende que es de menor tamaño si su **capital efectivo no supera las
+5.000 UF**. Se otorgan **por una sola vez**, con vigencia **no superior a un año**, sujetos a las condiciones generales y
+objetivas de la autoridad, y deben otorgarse dentro de **60 días** desde que se presentan los antecedentes, prorrogables una
+vez por hasta **15 días** (art. 7).
+
+**Decisión.** Usar el permiso para empezar a operar, y aprovechar el año para completar los requisitos definitivos.
+
+### Escenario 6: la declaración voluntaria sanitaria
+
+**Situación.** Un local de alimentos con autorización sanitaria detecta que incumple una obligación y la declara a la
+autoridad.
+
+**Análisis.** El titular de una empresa de menor tamaño con autorización o informe sanitario favorable puede **declarar
+voluntariamente** el incumplimiento; solo se considera la **primera infracción de una naturaleza determinada**, y obliga a
+la autoridad a **eximir de las multas**. Si hay riesgo grave, se puede rebajar la multa hasta un 75 %, y la autoridad fija
+un plazo razonable para subsanar, salvo riesgo grave para la salud o seguridad (art. 8).
+
+### Escenario 7: la fiscalización con criterios desconocidos
+
+**Situación.** Un fiscalizador aplica una multa sin que existan manuales públicos del procedimiento.
+
+**Análisis.** Los servicios que fiscalicen empresas de menor tamaño deben mantener publicados los manuales o resoluciones
+internas del procedimiento y los criterios de inspección y sanción; el incumplimiento y la interpretación extensiva o
+abusiva dan lugar a la **nulidad de derecho público** del acto fiscalizador (art. 6).
+
+**Decisión.** Pedir por escrito los manuales aplicables y consultar a un abogado antes de reclamar.
+
+### Escenario 8: declaración jurada para microempresas
+
+**Situación.** Una microempresa de actividad sin riesgo grave necesita habilitación sanitaria.
+
+**Análisis.** Las microempresas cuyas actividades no presentan riesgo grave y que no deben someterse al sistema de evaluación
+ambiental se sujetan a un procedimiento de **declaración jurada** acompañada del pago de derechos; el comprobante basta como
+acreditación sanitaria ante la municipalidad (art. 8 N.º 2).
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Creer que es un tipo de sociedad | Confusión con la forma jurídica | Decisiones societarias erradas | Es una clasificación por tamaño | Sección 1 |
+| 2 | Confundirla con el régimen tributario Pro Pyme | Nombres parecidos | Errores de tributación | Revisar el anexo 16 | Sección 8 |
+| 3 | Medir por capital o trabajadores | Costumbre | Categoría equivocada | Medir ingresos del año anterior | Escenario 1 |
+| 4 | Incluir el IVA en los ingresos | Falta de asesoría | Sobreestimar tamaño | Descontar IVA e impuestos específicos | Escenario 1 |
+| 5 | Ignorar la proporcionalidad del primer año | Desconocimiento | Categoría errónea | Contar meses de actividad | Escenario 2 |
+| 6 | No ver las exclusiones del art. 2 | Lectura parcial | Pedir beneficios sin derecho | Revisar actividad y socios | Escenarios 3 y 4 |
+| 7 | Pedir permiso provisorio por segunda vez | Desconocimiento | Rechazo | Planificar el definitivo | Escenario 5 |
+| 8 | Dejar vencer el permiso provisorio | Descuido | Operar sin permiso | Calendario de vencimiento | Escenario 5 |
+| 9 | Declarar incumplimientos sin primera infracción | Confusión | No exime multa | Verificar la naturaleza | Escenario 6 |
+| 10 | No usar la declaración voluntaria | Miedo | Multas evitables | Evaluar con asesoría | Escenario 6 |
+| 11 | No exigir manuales de fiscalización | Desconocimiento | Perder un argumento | Pedirlos por escrito | Escenario 7 |
+| 12 | Creer que reduce las obligaciones | Confusión | Incumplimientos | Gradúa sanciones, no elimina deberes | Sección 1 |
+| 13 | No actualizar la categoría cada año | Olvido | Beneficios perdidos | Revisión anual | Sección 8 |
+| 14 | Usar beneficios sin acreditar la categoría | Informalidad | Reclamos | Guardar los antecedentes | Sección 3 |
+| 15 | No documentar la corrección a tiempo | Desorden | Pierde la rebaja de multas | Evidencia de subsanación | Sección 9 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Las tres categorías
+
+| Categoría | Ingresos anuales (sin IVA) | Observación |
+|---|---|---|
+| Micro | Hasta 2.400 UF | Acceso a declaración jurada sanitaria en ciertos casos |
+| Pequeña | Más de 2.400 y hasta 25.000 UF | |
+| Mediana | Más de 25.000 y hasta 100.000 UF | |
+
+El Presidente de la República puede, **dentro del rango máximo de 100.000 UF**, modificar la clasificación o establecer
+factores adicionales de categorización mediante decreto supremo, previa consulta al Consejo (art. 2).
+
+### C.2. Clasificación de la ley frente a otras clasificaciones
+
+| Clasificación | Para qué sirve |
+|---|---|
+| Ley 20.416 | Normas regulatorias especiales, permisos y fiscalización |
+| Régimen tributario (por ejemplo, Pro Pyme) | Cómo tributas ante el SII |
+| Criterios de programas públicos | Quién puede postular a un fondo |
+| Forma jurídica | Cómo se organiza y responde la empresa |
+
+Una misma empresa puede ser micro según la Ley 20.416, estar en un régimen tributario distinto y calificar bajo criterios
+propios en un programa público. La ley dice que las **clasificaciones de otras normas se mantienen vigentes** para sus
+propios efectos y que los organismos públicos pueden usar otros indicadores para focalizar programas (art. 2).
+
+### C.3. Cómo planificar el crecimiento entre categorías
+
+| Situación | Qué mirar |
+|---|---|
+| Estás cerca del límite de micro | Proyectar ingresos del año y revisar qué beneficios perderías o ganarías |
+| Vas a pasar a mediana | Revisar obligaciones y ventajas de cada régimen |
+| Planeas recibir un socio bursátil | Verificar el límite del 30 % |
+| Vas a diversificar a arriendos o finanzas | Verificar el límite del 35 % |
+
+### C.4. Ideas de documentos de respaldo
+
+1. Carpeta tributaria y declaraciones del año anterior para acreditar ingresos.
+2. Certificado de inicio de actividades si se aplica la proporcionalidad.
+3. Composición del capital pagado y de los socios.
+4. Detalle de ingresos por actividad para verificar el umbral del 35 %.
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Elegir la forma jurídica | 03, 04, 05, 06 u 11 |
+| Constituir en línea | 15 |
+| Régimen tributario y documentos | 16 |
+| Patente y permisos locales | 17 |
+| Domicilio | 18 |
+
+### D.2. Clases del programa
+
+- [Parte 16, clase 6: SERCOTEC y programas de fomento](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-06-sercotec-y-programas-de-fomento/README.md)
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Tamaño y permisos:** el art. 7 conecta la categoría con el acceso a permisos provisorios.
+2. **Tamaño y sanciones:** el art. 8 y las normas laborales del anexo conectan la categoría con rebajas de multas.
+3. **Fiscalización y transparencia:** el art. 6 conecta a la empresa con la publicidad de los criterios de los fiscalizadores.
+4. **Clasificación y fomento:** el art. 3 conecta al Ministerio de Economía con los instrumentos de apoyo.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 15 | Calcular ingresos del año anterior en UF y determinar la categoría | Contador | Cálculo firmado |
+| Días 16 a 45 | Verificar exclusiones (actividad y socios) | Dirección | Lista de verificación |
+| Días 46 a 75 | Identificar permisos y beneficios aplicables | Administrador | Matriz de permisos |
+| Días 76 a 90 | Calendario de vencimientos de permisos provisorios y plan de transición a los definitivos | Administrador | Calendario |
+
+### E.2. Calendario anual
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Inicio de año | Recalcular la categoría con los ingresos del año anterior | Art. 2 |
+| Al solicitar un permiso por primera vez | Pedir el provisorio, si corresponde | Art. 7 |
+| 60 a 75 días después de presentar antecedentes | Seguimiento del permiso provisorio | Art. 7 |
+| Antes del vencimiento de cada provisorio | Obtener el definitivo | Art. 7 |
+| Ante un incumplimiento sanitario | Evaluar la declaración voluntaria | Art. 8 |
+
+### E.3. Lista de verificación de elegibilidad
+
+| Ítem | Sí | No |
+|---|---|---|
+| Ingresos del año calendario anterior sin IVA dentro del rango | | |
+| Proporcionalidad si inició actividades el año anterior | | |
+| Menos del 35 % de ingresos inmobiliarios, financieros o por participaciones | | |
+| Menos del 30 % de capital en manos de sociedades bursátiles | | |
+| Antecedentes para acreditar la categoría | | |
+
+### E.4. Cálculo de la categoría
+
+| Concepto | Monto |
+|---|---:|
+| Ingresos anuales por ventas y servicios del año anterior | |
+| (−) IVA e impuestos específicos | |
+| = Ingresos netos | |
+| Valor de la UF de referencia | |
+| Ingresos en UF | |
+| Categoría (micro, pequeña, mediana) | |
+
+## 18. Autoevaluación
+
+1. ¿Cómo se define una microempresa?
+2. ¿Qué límite tiene una mediana empresa?
+3. ¿Se incluye el IVA en los ingresos?
+4. ¿Qué pasa si iniciaste actividades el año anterior?
+5. ¿Qué porcentaje de ingresos inmobiliarios o financieros excluye?
+6. ¿Cuánto capital bursátil excluye?
+7. ¿Cuánto dura un permiso provisorio?
+8. ¿Cuántas veces se puede obtener?
+9. ¿Qué plazo tiene la autoridad para otorgarlo?
+10. ¿Qué pasa si una fiscalización no sigue los manuales publicados?
+
+**Respuestas.**
+
+1. Ingresos anuales hasta 2.400 UF en el último año calendario (art. 2).
+2. 100.000 UF (art. 2).
+3. No: se descuentan el IVA y los impuestos específicos (art. 2).
+4. Los límites se determinan según la proporción de meses de actividad (art. 2).
+5. Más del 35 % de los ingresos (art. 2).
+6. Más del 30 % del capital pagado en manos de sociedades bursátiles o sus filiales (art. 2).
+7. Hasta un año (art. 7).
+8. Una sola vez (art. 7).
+9. 60 días, prorrogables una vez por hasta 15 días (art. 7).
+10. El acto fiscalizador puede ser nulo de derecho público (art. 6).
+
+**Puntaje.** Ocho o más: dominas el tipo. Cuatro a siete: repasa las secciones 3 y 8. Menos de cuatro: relee el anexo.
+
+## 19. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Capital efectivo | Concepto de la Ley sobre Impuesto a la Renta usado para medir el capital de una empresa nueva |
+| Consejo Nacional Consultivo de la Empresa de Menor Tamaño | Órgano que asesora al Ministerio de Economía |
+| Declaración jurada sanitaria | Procedimiento simplificado de habilitación para microempresas de bajo riesgo |
+| Declaración voluntaria de incumplimiento | Aviso a la autoridad sanitaria de una infracción propia, con exención de multa en ciertos casos |
+| Empresa de menor tamaño | Micro, pequeña o mediana empresa según los ingresos anuales |
+| Nulidad de derecho público | Invalidez de un acto de autoridad que infringe la ley |
+| Permiso provisorio | Autorización temporal, por una sola vez y hasta un año |
+| Proporcionalidad | Ajuste de los límites según los meses de actividad |
+| UF | Unidad de Fomento, unidad de cuenta reajustable |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Qué es una empresa de menor tamaño?**
 Una micro, pequeña o mediana empresa según los ingresos del último año calendario sin IVA: hasta 2.400 UF,
@@ -582,7 +836,60 @@ No. Gradúa las sanciones y ofrece plazos o sustituciones, pero las obligaciones
 **20. ¿Qué hago si superé los 100.000 UF?**
 Dejas de ser empresa de menor tamaño y no podrás usar estos beneficios; la clasificación se recalcula cada año.
 
-## 14. Fuentes y vigencia
+**21. ¿Quién fomenta a las empresas de menor tamaño?**
+El Ministerio de Economía, con una División de Empresas de Menor Tamaño en la Subsecretaría, que impulsa políticas y
+facilita el uso de los instrumentos de fomento (art. 3).
+
+**22. ¿Qué es el Consejo Nacional Consultivo?**
+Un órgano de asesoría al Ministerio, con representantes públicos, gremiales, académicos y municipales, que se reúne al menos
+cuatro veces al año (art. 4).
+
+**23. ¿Se pueden cambiar las categorías?**
+El Presidente puede modificarlas o agregar factores, dentro del máximo de 100.000 UF, mediante decreto supremo (art. 2).
+
+**24. ¿Qué pasa con las normas que afectan a mi empresa?**
+Los organismos que dicten normas generales deben publicar los antecedentes preparatorios con una estimación simple del
+impacto; su incumplimiento no afecta la validez del acto (art. 5).
+
+**25. ¿Puedo reclamar por una fiscalización abusiva?**
+La ley prevé la nulidad de derecho público ante incumplimiento de las normas de transparencia o interpretación extensiva o
+abusiva (art. 6); consulta a un abogado.
+
+**26. ¿Cuándo es válido un permiso provisorio?**
+Hasta un año, otorgado una sola vez (art. 7).
+
+**27. ¿Qué capital se considera para una empresa sin ingresos?**
+El capital efectivo definido por la Ley sobre Impuesto a la Renta, que no debe superar las 5.000 UF; si no declara capital
+efectivo, el enterado al declarar el inicio de actividades (art. 7).
+
+**28. ¿Qué es una declaración voluntaria?**
+Informar a la autoridad sanitaria un incumplimiento propio, lo que obliga a eximir de multas la primera infracción de esa
+naturaleza (art. 8).
+
+**29. ¿Y si hay riesgo grave?**
+Se puede rebajar la multa hasta en un 75 % y se fija plazo para subsanar, salvo riesgo grave para la salud o seguridad
+(art. 8).
+
+**30. ¿Las microempresas tienen un trámite sanitario simplificado?**
+Si su actividad no presenta riesgo grave y no debe someterse al sistema de evaluación ambiental, usan una declaración jurada
+(art. 8 N.º 2).
+
+**31. ¿Cambia mi forma jurídica por ser micro?**
+No: la categoría no es una forma jurídica ni un régimen tributario.
+
+**32. ¿Acredito mi categoría ante cada servicio?**
+Conviene guardar los antecedentes para hacerlo cuando se solicite un beneficio.
+
+**33. ¿Qué pasa si mis ingresos suben en el año?**
+La categoría se determina por el año calendario anterior; revisa cada año.
+
+**34. ¿La ley rebaja multas laborales?**
+Según el anexo, en micro y pequeñas empresas se pueden sustituir o rebajar si se corrige a tiempo; revisa el texto vigente.
+
+**35. ¿Cuándo debo pedir ayuda profesional?**
+Para calcular la categoría, verificar exclusiones, solicitar permisos provisorios y reclamar por fiscalizaciones.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|
