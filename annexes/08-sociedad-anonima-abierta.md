@@ -475,7 +475,323 @@ ordenar el gobierno interno.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre la Ley 18.046 y la Ley 18.045. No constituyen asesoría de
+inversión.
+
+### Escenario 1: la cerrada que cruza el umbral
+
+**Situación.** Una anónima cerrada de educación vendió acciones a empleados y a inversionistas privados. Hoy tiene
+2.350 accionistas inscritos y los ha tenido durante catorce meses.
+
+**Análisis.** Están obligadas a inscribir sus acciones en el Registro de Valores las sociedades que durante doce meses
+consecutivos hayan tenido inscritos en el registro de accionistas **más de 2.000** accionistas o el número superior
+que fije la CMF (art. 2 de la Ley 18.046). La inscripción debe efectuarse **dentro de sesenta días** desde que se
+cumpla alguno de los requisitos (art. 6 de la Ley 18.045). La sociedad ya incumple: el plazo corrió.
+
+**Pasos.** Contratar abogado de mercado de valores; preparar la solicitud de inscripción del emisor y de sus acciones
+(art. 5); actualizar estatutos para eliminar restricciones a la libre disposición (art. 14); adecuar el directorio al
+mínimo de cinco (art. 31); definir política de información y de partes relacionadas; comunicar las juntas a la CMF
+(art. 63).
+
+**Lección.** El conteo de accionistas es un indicador de gobierno que debe vigilarse trimestralmente.
+
+### Escenario 2: el director que vende antes del anuncio
+
+**Situación.** Un director sabe que la sociedad anunciará una pérdida inesperada la próxima semana. Vende todas sus
+acciones esta semana.
+
+**Análisis.** La información privilegiada es la no divulgada al mercado y capaz de influir en la cotización (art. 164 de
+la Ley 18.045). Quien la posee por su cargo debe guardar reserva y **no puede utilizarla** en beneficio propio o ajeno ni
+adquirir o enajenar los valores (art. 165). La ley presume que la poseen los directores, gerentes y ejecutivos
+principales (art. 166). Además, los directores deben informar a la CMF y a las bolsas toda adquisición o enajenación
+(art. 12).
+
+**Consecuencias.** Riesgo administrativo y penal, y reparación de perjuicios. Este anexo no analiza las sanciones
+concretas: requiere asesoría especializada.
+
+**Lección.** Antes de operar con valores de tu sociedad, consulta a tu abogado y respeta los períodos de restricción
+que fije la política interna.
+
+### Escenario 3: el director independiente y el comité
+
+**Situación.** Una sociedad con patrimonio bursátil de 2.000.000 de UF y 20 % de las acciones en manos de accionistas con
+menos del 10 % cada uno no tiene director independiente.
+
+**Análisis.** Debe designar al menos un director independiente y un comité de directores cuando tenga patrimonio
+bursátil igual o superior a 1.500.000 UF y al menos un 12,5 % de las acciones con voto en poder de accionistas que
+controlen o posean individualmente menos del 10 % (art. 50 bis). Si se alcanza durante el año, la obligación rige desde el
+año siguiente. No se considera independiente a quien en los últimos dieciocho meses haya tenido vínculos económicos,
+profesionales, crediticios o comerciales relevantes con la sociedad, su grupo o su controlador, entre otros supuestos.
+
+**Decisión.** Elegir a un candidato sin esos vínculos, documentar la verificación y constituir el comité.
+
+### Escenario 4: el préstamo a una empresa del controlador
+
+**Situación.** El controlador propone que la sociedad preste 8.000.000.000 de pesos a otra empresa suya, a una tasa
+ligeramente inferior a la de mercado.
+
+**Análisis.** Es una operación con parte relacionada (art. 146). Solo puede celebrarse si contribuye al interés social,
+se ajusta en precio, términos y condiciones a las de mercado y cumple el procedimiento: información inmediata del
+interés y aprobación previa por la mayoría absoluta del directorio, excluidos los directores involucrados (art. 147).
+Una tasa inferior a la de mercado, sin compensación, no cumple el estándar.
+
+**Decisión.** Rechazar o renegociar con tasa de mercado, garantías y estudio independiente, y documentar.
+
+### Escenario 5: la oportunidad comercial del gerente
+
+**Situación.** Una cadena de gimnasios recibe una oferta exclusiva para abrir sucursales en una nueva ciudad. El gerente
+general la deriva a una empresa propiedad de su cónyuge.
+
+**Análisis.** Ningún director, gerente, administrador, ejecutivo principal, controlador ni sus personas relacionadas
+puede aprovechar para sí las oportunidades comerciales de la sociedad de las que haya tenido conocimiento en su calidad
+de tal; solo pueden usarlas los accionistas si el directorio las desechó previamente o si pasó un año sin desarrollo
+(art. 148). La infracción da derecho a pedir el reembolso, a favor de la sociedad, de los beneficios y los perjuicios
+acreditados.
+
+**Decisión.** Informar al directorio, ofrecer la oportunidad a la sociedad y abstenerse de desviarla.
+
+### Escenario 6: la cancelación voluntaria del registro
+
+**Situación.** El controlador quiere que la sociedad deje de ser abierta para reducir costos.
+
+**Análisis.** Las abiertas solo pueden solicitar la cancelación de sus acciones en el Registro de Valores por acuerdo
+de **dos tercios** de las acciones con derecho a voto en junta extraordinaria; el accionista ausente o disidente tiene
+derecho a retiro (art. 2 de la Ley 18.046). En el retiro, el precio es el valor de mercado de la acción (art. 69).
+
+**Cifras ilustrativas.** Si el precio de mercado es de 1.200 pesos y hay disidentes con 2.000.000 de acciones, el costo
+de retiro es de 2.400.000.000.
+
+**Decisión.** Evaluar la caja necesaria, el efecto sobre los minoritarios y la reputación antes de proponerlo.
+
+### Escenario 7: la junta que la CMF puede suspender
+
+**Situación.** Una abierta cita a junta con menos de diez días de anticipación a la CMF y con un orden del día que
+incluye materias propias de junta extraordinaria sin señalarlas.
+
+**Análisis.** Las abiertas deben comunicar la celebración de toda junta a la CMF con una anticipación no inferior a diez
+días; la CMF puede suspender por resolución fundada la citación o la junta si fuere contraria a la ley, los reglamentos o
+los estatutos, y puede hacerse representar en la junta con voz (art. 63). Las materias de junta extraordinaria deben
+señalarse en la citación (art. 55).
+
+**Corrección.** Reprogramar la junta, corregir el aviso y comunicar a la CMF.
+
+### Escenario 8: la composición del directorio por sexo
+
+**Situación.** Un directorio de siete personas tiene cinco hombres y dos mujeres.
+
+**Análisis.** En abiertas y especiales fiscalizadas por la CMF, las personas de un mismo sexo no pueden exceder el 60 % del
+total de miembros; cinco de siete son el 71 %. La ley la describe como una proporción de representación sugerida con
+reporte: la sociedad debe reportar a la CMF las razones, que esta publica sin pronunciarse sobre su mérito (art. 31). La
+Ley 21.757 y el art. 31 bis agregaron mecanismos de verificación periódica.
+
+**Decisión.** Diseñar un plan de renovación, incorporar mecanismos estatutarios y reportar con fundamentos.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | No inscribir al superar umbrales | No monitorear | Incumplimiento (arts. 2 y 6) | Monitoreo trimestral | Escenario 1 |
+| 2 | Limitar la libre disposición de acciones | Estatuto de cerrada | Prohibido (art. 14) | Eliminar restricciones | Sección 5.2 |
+| 3 | Operar con información privilegiada | Desconocimiento | Responsabilidad grave | Política y capacitación | Escenario 2 |
+| 4 | No reportar compras o ventas de directores | Descuido | Infracción (art. 12 Ley 18.045) | Protocolo de reporte | Sección 5.4 |
+| 5 | Operaciones con relacionados sin procedimiento | Confianza | Responsabilidad solidaria (art. 147) | Procedimiento escrito | Escenario 4 |
+| 6 | Desviar oportunidades comerciales | Conflicto | Reembolso (art. 148) | Ofrecerlas a la sociedad | Escenario 5 |
+| 7 | No crear comité cuando corresponde | Falta de monitoreo | Incumple art. 50 bis | Umbrales anuales | Escenario 3 |
+| 8 | No comunicar la junta a la CMF | Informalidad | Suspensión posible (art. 63) | Calendario | Escenario 7 |
+| 9 | No publicar estados financieros a tiempo | Descuido | Incumple art. 76 | Calendario de publicación | Sección 6.7 |
+| 10 | Ignorar el dividendo mínimo de 30 % | Políticas de reinversión | Reclamos de accionistas | Acuerdo unánime o política | Sección 8.2 |
+| 11 | Directorio de menos de cinco | Informalidad | Incumple art. 31 | Completar | Sección 6.1 |
+| 12 | No reportar la razón de la composición por sexo | Descuido | Incumple art. 31 | Reporte fundado | Escenario 8 |
+| 13 | No evaluar el costo del retiro | Optimismo | Presión de caja | Provisión | Escenario 6 |
+| 14 | Falta de política de comunicación al mercado | Desconocimiento | Riesgo reputacional | Protocolo | Sección 9.1 |
+| 15 | No contar con asesoría especializada | Costo percibido | Errores caros | Contratar | Sección 12 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Cerrada, abierta o financiamiento privado
+
+| Criterio | Cerrada | Abierta | Ronda privada | Deuda |
+|---|---|---|---|---|
+| Acceso a capital | Limitado | Amplio | Medio | Según garantía |
+| Costo de cumplimiento | Medio | Alto | Bajo a medio | Bajo |
+| Control | Concentrado | Diluido | Negociado | Sin dilución |
+| Transparencia | Baja | Alta | Media | Baja |
+| Liquidez para accionistas | Baja | Alta | Media | No aplica |
+
+### C.2. Etapas de preparación para abrirse
+
+| Etapa | Tareas |
+|---|---|
+| Diagnóstico | Gobierno, estatutos, contratos con relacionados |
+| Ordenamiento | Directorio de cinco, políticas, auditoría |
+| Estructura | Asesores, modelo de información, comité |
+| Solicitud | Inscripción de emisor y valores |
+| Operación | Información continua y relación con inversionistas |
+
+### C.3. Opciones de gobierno corporativo adicionales
+
+| Medida | Descripción | Obligatoria |
+|---|---|---|
+| Director independiente y comité | Art. 50 bis | Si se superan umbrales |
+| Política de partes relacionadas | Procedimiento interno | Recomendada |
+| Código de conducta y canal de denuncias | Cumplimiento | Recomendada; ver Ley 20.393 |
+| Política de dividendos | Regla clara | Recomendada |
+
+### C.4. Ideas de políticas internas
+
+1. «Los directores y ejecutivos no operarán con acciones de la sociedad en las ventanas de restricción definidas por
+   el comité.»
+2. «Toda operación con parte relacionada requerirá informe independiente y aprobación previa del directorio.»
+3. «El área legal mantendrá un calendario de comunicaciones a la CMF y de juntas.»
+4. «Las oportunidades comerciales recibidas por ejecutivos serán derivadas al directorio.»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Entender la base de la anónima | 07 |
+| Viene de una SpA o comandita que crece | 05 y 06 |
+| Impuestos de dividendos y ganancias de capital | 16 |
+| Constitución en línea (solo cerradas) | 15 |
+| Domicilio y oficinas | 18 |
+| Operaciones con el exterior | 14 |
+| Cumplimiento y delitos económicos | Las clases de la parte 19 |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 5: sociedad anónima cerrada y abierta](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-05-sociedad-anonima-cerrada-y-abierta/README.md)
+- [Parte 5, clase 12: conflictos de interés y partes relacionadas](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-12-conflictos-de-interes-y-partes-relacionadas/README.md)
+- [Parte 19, clase 3: Ley 20.393 y responsabilidad penal de la persona jurídica](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-03-ley-20-393-y-responsabilidad-penal-de-la-persona-juridica/README.md)
+- [Parte 19, clase 4: Ley 21.595 de delitos económicos](../curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-04-ley-21-595-de-delitos-economicos/README.md)
+- [Parte 16, clase 10: venture capital y rondas](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-10-venture-capital-y-rondas/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Umbrales y registro:** los arts. 2 y 6 conectan el número de accionistas con la inscripción.
+2. **Libre disposición y estatuto:** el art. 14 conecta la apertura con la eliminación de restricciones.
+3. **Relacionados y directorio:** el art. 147 conecta la aprobación con la responsabilidad solidaria.
+4. **Información y mercado:** los arts. 164 a 166 conectan el cargo con la prohibición de operar.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días para prepararse
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 30 | Diagnóstico de umbrales, estatutos y relacionadas | Abogado y gerencia | Informe |
+| Días 31 a 60 | Plan de adecuación del directorio y políticas | Directorio | Plan aprobado |
+| Días 61 a 90 | Contrato con auditores y asesores; calendario CMF | Gerencia | Contratos y calendario |
+
+### E.2. Calendario de información y juntas
+
+| Hito | Plazo |
+|---|---|
+| Comunicar la junta a la CMF | Al menos diez días antes |
+| Publicar estados financieros en el sitio web | Al menos diez días antes de la junta |
+| Citación a junta | Con anticipación mínima de diez días |
+| Convocar la junta ordinaria | Dentro del cuatrimestre siguiente al balance |
+| Reportar operaciones de directores | Según norma de la CMF (consulta) |
+
+### E.3. Lista de control de independencia
+
+| Pregunta | Sí | No |
+|---|---|---|
+| ¿Vínculo económico, profesional, crediticio o comercial relevante en los últimos 18 meses? | | |
+| ¿Parentesco hasta el segundo grado con las personas del N.º 1? | | |
+| ¿Fue director o ejecutivo de organizaciones que recibieron aportes relevantes? | | |
+| ¿Fue socio o accionista del 10 % o más? | | |
+
+Si respondes «sí» a alguna, revisa con un abogado si el candidato puede considerarse independiente.
+
+### E.4. Modelo de registro de operaciones con partes relacionadas
+
+| Fecha | Contraparte | Relación | Monto | Condiciones de mercado verificadas | Aprobación | Directores excluidos |
+|---|---|---|---:|---|---|---|
+| | | | | | | |
+
+### E.5. Lista de revisión para el comité de directores
+
+1. Informe de auditores externos.
+2. Operaciones con partes relacionadas del período.
+3. Política de remuneraciones.
+4. Riesgos y controles.
+5. Cumplimiento de plazos de información.
+
+## 18. Autoevaluación
+
+1. ¿Cuándo debe una sociedad inscribirse en el Registro de Valores?
+2. ¿Qué plazo hay para inscribir?
+3. ¿Cuántos directores como mínimo?
+4. ¿Qué proporción máxima de un mismo sexo se sugiere?
+5. ¿Cuándo se exige comité de directores?
+6. ¿Qué es información privilegiada?
+7. ¿Qué exige una operación con parte relacionada?
+8. ¿Qué es una OPA?
+9. ¿Qué mayoría exige cancelar la inscripción?
+10. ¿Qué precio tiene el derecho a retiro en una abierta?
+11. ¿Se constituye en línea?
+12. ¿Qué dividendo mínimo rige?
+
+**Respuestas.**
+
+1. Si tuvo más de 2.000 accionistas inscritos durante doce meses, o cumple los umbrales del art. 5 de la Ley 18.045, o lo
+   decide voluntariamente.
+2. Sesenta días desde que se cumpla el requisito (art. 6 Ley 18.045).
+3. Cinco (art. 31).
+4. Hasta el 60 % (art. 31).
+5. Con patrimonio bursátil de al menos 1.500.000 UF y 12,5 % de acciones en manos de accionistas con menos del 10 % cada
+   uno (art. 50 bis).
+6. La no divulgada al mercado y capaz de influir en la cotización (art. 164 Ley 18.045).
+7. Interés social, condiciones de mercado y aprobación del directorio sin los involucrados (art. 147).
+8. Una oferta pública de adquisición de acciones de una abierta (art. 198 Ley 18.045).
+9. Dos tercios de las acciones con voto (art. 2 Ley 18.046).
+10. El valor de mercado (art. 69).
+11. No: la Ley 20.659 solo incluye a las cerradas.
+12. Al menos el 30 % de las utilidades líquidas, salvo acuerdo unánime distinto (art. 79).
+
+**Puntaje.** Diez o más: dominas el tipo. Seis a nueve: repasa las secciones 5 y 6. Menos de seis: relee el anexo.
+
+## 19. Calendario anual y glosario ampliado
+
+### H.1. Calendario anual de una anónima abierta
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada mes | Registro de Compras y Ventas; declarar y pagar | DL 825, art. 59 |
+| Según norma de la CMF | Información continua, periódica y esencial | Ley 18.045, arts. 9 y 10 |
+| Trimestral | Sesión de directorio y comité; revisión de partes relacionadas | Ley 18.046, arts. 50 bis y 147 |
+| Al producirse | Reporte de compras y ventas de directores, ejecutivos y accionistas del 10 % | Ley 18.045, art. 12 |
+| 31 de diciembre | Balance | Ley 18.046, art. 74 |
+| Al menos 10 días antes de la junta | Comunicación a la CMF y publicación de estados financieros | Arts. 63 y 76 |
+| Dentro del cuatrimestre siguiente | Junta ordinaria | Art. 58 |
+| Treinta días tras la junta | Dividendos mínimos exigibles | Art. 81 |
+| Cada año | Revisión de umbrales del comité y de composición por sexo | Arts. 31 y 50 bis |
+| Cada cuatro años | Verificación de la CMF sobre participación de mujeres | Art. 31 bis |
+
+### H.2. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Acuerdo de actuación conjunta | Convención entre accionistas para participar con idéntico interés en la gestión |
+| CMF | Comisión para el Mercado Financiero |
+| Comité de directores | Órgano del directorio exigido al superar ciertos umbrales |
+| Controlador | Quien tiene el poder de asegurar la mayoría de votos y elegir la mayoría de directores |
+| Director independiente | Director sin vínculos relevantes con la sociedad o su controlador |
+| Emisor | Entidad que ofrece valores al público |
+| Información esencial | La que un hombre juicioso consideraría importante para decidir |
+| Información privilegiada | Información no divulgada capaz de influir en la cotización |
+| Oferta pública | Dirigida al público en general o a ciertos sectores |
+| OPA | Oferta pública de adquisición de acciones |
+| Parte relacionada | Persona cuyo interés puede afectar una operación |
+| Patrimonio bursátil | Valor de mercado del patrimonio de la sociedad |
+| Registro de Valores | Registro público de emisores y valores a cargo de la CMF |
+| Valor de mercado | Precio de la acción en el mercado |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Cuándo una sociedad anónima es abierta?**
 Cuando inscribe sus acciones en el Registro de Valores, y debe hacerlo si durante doce meses consecutivos
@@ -550,7 +866,78 @@ cierto porcentaje en un plazo determinado (art. 198 Ley 18.045).
 En general no: los costos de cumplimiento y de información son altos. Evalúa alternativas como inversión
 privada o una SpA con series de acciones.
 
-## 14. Fuentes y vigencia
+**21. ¿Puedo invertir en acciones de una abierta sin ser accionista controlador?**
+Sí; las reglas de este anexo se refieren a la sociedad y a sus administradores, no a asesoría de inversión.
+
+**22. ¿Quién fiscaliza a las abiertas?**
+La Comisión para el Mercado Financiero (art. 2 de la Ley 18.046 y art. 2 de la Ley 18.045).
+
+**23. ¿Qué información debe entregar una emisora?**
+La que exigen la ley y las normas de carácter general de la CMF; al menos anualmente, incluyendo información sobre
+impactos ambientales y de cambio climático (art. 10 de la Ley 18.045).
+
+**24. ¿Qué es información esencial?**
+La que un hombre juicioso consideraría importante para sus decisiones de inversión (art. 9 de la Ley 18.045).
+
+**25. ¿Quién es controlador?**
+Quien, directa o indirectamente, puede asegurar la mayoría de votos en juntas y elegir a la mayoría de los directores, o
+influir decisivamente en la administración (art. 97).
+
+**26. ¿Qué es un acuerdo de actuación conjunta?**
+Una convención entre dos o más accionistas para participar con idéntico interés en la gestión u obtener el control; la ley
+presume ese acuerdo entre ciertas personas (art. 98).
+
+**27. ¿Cuándo debo reportar mis acciones?**
+Si tienes el 10 % o más del capital, o eres director, liquidador, ejecutivo principal, administrador o gerente,
+debes informar toda adquisición o enajenación a la CMF y a las bolsas (art. 12).
+
+**28. ¿Los accionistas pueden pactar la cesión de sus acciones?**
+Sí, pero esos pactos deben depositarse en la compañía y mencionarse en el Registro de Accionistas, o serán inoponibles a
+terceros (art. 14 de la Ley 18.046).
+
+**29. ¿Qué pasa si no pago el dividendo mínimo?**
+Es exigible a los treinta días de la junta y la copia certificada del acta es título ejecutivo (arts. 81 y 83).
+
+**30. ¿Qué es el dividendo opcional?**
+La posibilidad de recibir, en exceso del mínimo, el dividendo en dinero, en acciones liberadas o en acciones de otras
+abiertas (art. 82).
+
+**31. ¿Pueden las abiertas recomprar acciones?**
+Las sociedades con transacción bursátil pueden hacerlo bajo las condiciones de los arts. 27 A a 27 D, con acuerdo de
+dos tercios (art. 67 N.º 12).
+
+**32. ¿Quién preside las juntas?**
+Lo define el estatuto; la CMF puede hacerse representar en la junta con derecho a voz (art. 63).
+
+**33. ¿Qué es el derecho a retiro?**
+La facultad del accionista disidente de salir con pago del valor de mercado de sus acciones ante ciertos acuerdos
+(art. 69).
+
+**34. ¿Qué es una oportunidad comercial?**
+Un plan, proyecto, oportunidad u oferta exclusiva dirigida a la sociedad para desarrollar una actividad lucrativa en
+su giro o uno complementario (art. 148).
+
+**35. ¿Qué responsabilidad tiene el gerente?**
+Se le aplican las normas de los directores en lo compatible, entre ellas las de los arts. 35 a 37 y 41 a 46 (art. 50).
+
+**36. ¿Cuánto cuesta ser abierta?**
+Este anexo no fija costos: incluyen auditoría, información continua, asesores y relación con inversionistas. Evalúa con
+un presupuesto propio.
+
+**37. ¿Puedo volver a ser cerrada?**
+Solo cancelando la inscripción por acuerdo de dos tercios, con derecho a retiro (art. 2).
+
+**38. ¿Qué es el patrimonio bursátil?**
+El valor de mercado del patrimonio de la sociedad; se usa para el umbral del comité de directores (art. 50 bis).
+
+**39. ¿Las abiertas pueden tener pactos de accionistas?**
+Sí, pero con las reglas de depósito y oponibilidad del art. 14.
+
+**40. ¿Cuándo debo pedir ayuda profesional?**
+Antes de abrirte, en cada operación con relacionados, ante información privilegiada, para las juntas y para cualquier
+comunicación al mercado.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

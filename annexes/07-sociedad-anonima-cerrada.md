@@ -503,7 +503,359 @@ formalidad mayor que la de una SpA; su beneficio, reglas supletorias probadas y 
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre los artículos citados de la Ley 18.046.
+
+### Escenario 1: el director que arrienda un local a la sociedad
+
+**Situación.** Gonzalo, director de una anónima cerrada, es dueño de una bodega y propone arrendársela a la sociedad
+por 2.500.000 pesos mensuales. Los demás directores confían en él y no formalizan nada.
+
+**Análisis.** Una anónima cerrada solo puede celebrar actos o contratos que involucren **montos relevantes** en los que
+un director tenga interés cuando sean **conocidos y aprobados previamente por el directorio** y se ajusten a
+condiciones de equidad similares a las del mercado, salvo que el estatuto autorice otra cosa. El director con
+interés debe abstenerse y debe quedar constancia en el acta (art. 44). Sin aprobación previa, la operación incumple la
+ley y puede generar responsabilidad.
+
+**Pasos correctos.** Gonzalo informa su interés; el directorio, sin él, pide una tasación independiente, compara con el
+mercado, aprueba por mayoría absoluta de los asistentes con derecho a voto (art. 47) y deja constancia en el acta.
+
+**Lección.** Documentar la **equidad** (tasación, cotizaciones) vale tanto como aprobar.
+
+### Escenario 2: el minoritario que quiere una junta
+
+**Situación.** Tres accionistas que suman el 12 % de las acciones con derecho a voto sospechan de gastos irregulares y
+quieren una junta extraordinaria. El directorio no responde.
+
+**Análisis.** El directorio debe convocar a junta ordinaria o extraordinaria cuando lo soliciten accionistas que
+representen **al menos el 10 %** de las acciones emitidas con derecho a voto, expresando los asuntos a tratar (art. 58
+N.º 3). La citación se publica con una anticipación mínima de diez días (art. 59). Antes de la junta, los
+antecedentes (memoria, balance, inventario, actas, informes de auditores) están a disposición de los accionistas
+durante quince días (art. 54).
+
+**Pasos.** Enviar la solicitud por escrito (con constancia de recepción), precisar las materias, esperar el plazo
+razonable y, si no se convoca, consultar a un abogado sobre las vías judiciales o administrativas aplicables.
+
+### Escenario 3: la fusión y el derecho a retiro
+
+**Situación.** La junta extraordinaria aprueba fusionar la sociedad con otra. Dos accionistas votaron en contra.
+
+**Análisis.** La fusión da derecho a retiro al accionista disidente (art. 69). El precio, en las cerradas, es el **valor
+de libros** de la acción. Debe ejercerse dentro de **30 días** desde la junta (art. 70); la sociedad paga dentro de
+sesenta días desde la junta, y si se retrasa, el precio se reajusta (art. 71). El directorio puede convocar a una nueva
+junta para reconsiderar el acuerdo dentro de treinta días tras vencer el plazo de retiro (art. 71).
+
+**Cifras ilustrativas.** Si el patrimonio contable es de 480.000.000 y hay 10.000 acciones, el valor libro es de
+48.000 pesos por acción. Un disidente con 500 acciones recibiría 24.000.000.
+
+**Lección.** El derecho a retiro es un riesgo de caja que debe provisionarse antes de decidir una fusión.
+
+### Escenario 4: los dividendos que nadie definió
+
+**Situación.** La sociedad obtiene una utilidad líquida de 90.000.000 de pesos. El estatuto no regula dividendos. Los
+accionistas mayoritarios quieren reinvertir todo.
+
+**Análisis.** En las cerradas, la distribución mínima la fijan los estatutos; si nada dicen, se aplica el mínimo del
+**30 % de las utilidades líquidas** (art. 79), salvo acuerdo diferente adoptado por la unanimidad de las acciones
+emitidas. 30 % de 90.000.000 son 27.000.000. Los dividendos mínimos son exigibles a los treinta días de la junta (art.
+81) y una copia certificada del acta es título ejecutivo (art. 83).
+
+**Decisión.** Obtener la unanimidad para retener o fijar en el estatuto una política distinta. Si un accionista no
+consiente, la sociedad debe pagar el mínimo.
+
+### Escenario 5: el accionista único por once días
+
+**Situación.** Una sociedad con dos accionistas queda con uno solo tras una compra. El comprador no hace nada por
+once días.
+
+**Análisis.** La sociedad anónima se disuelve por reunirse, por un período ininterrumpido que exceda de 10 días,
+todas las acciones en manos de una sola persona (art. 103 N.º 2). Diferencia con la SpA, que no se disuelve por
+esa causa (art. 444 del Código de Comercio).
+
+**Decisión.** Antes de comprar el 100 %, planificar la transformación (por ejemplo, en SpA unipersonal o EIRL) o la
+incorporación de otro accionista dentro del plazo.
+
+### Escenario 6: el aporte en bienes sin peritaje
+
+**Situación.** Un accionista aporta un camión valorado por él en 40.000.000 de pesos, sin tasación.
+
+**Análisis.** Salvo acuerdo unánime de las acciones emitidas, los aportes no consistentes en dinero deben ser
+**estimados por peritos**, y en los aumentos de capital la junta debe aprobar aportes y estimaciones (art. 15). Los
+directores y el gerente que acepten una forma de pago distinta de la acordada responden solidariamente del valor de
+colocación (art. 15). La falta de cumplimiento no puede hacerse valer pasados dos años desde la escritura del aporte.
+
+**Corrección.** Obtener la tasación y aprobación de la junta o la unanimidad documentada.
+
+### Escenario 7: la aprobación del balance que no libera
+
+**Situación.** La junta aprueba el balance y la memoria. Un año después se descubre que el directorio autorizó pagos
+excesivos a una empresa relacionada.
+
+**Análisis.** Los directores responden solidariamente de los perjuicios por actuaciones dolosas o culpables; la
+aprobación de la memoria y el balance **no los libera** (art. 41). Y es nula cualquier estipulación que limite esa
+responsabilidad. Además, toda pérdida irrogada al patrimonio por infracción de la ley, los estatutos o las normas internas
+debe repararse (art. 133 bis).
+
+**Lección.** Auditoría interna y respaldo de decisiones valen más que una aprobación formal.
+
+### Escenario 8: el accionista moroso
+
+**Situación.** Un accionista suscribió 20.000 acciones y pagó la mitad. Pasado el plazo, no paga.
+
+**Análisis.** Los saldos insolutos se reajustan según la UF (art. 16). La sociedad puede vender en una Bolsa de Valores,
+por cuenta y riesgo del moroso, el número de acciones necesario para pagarse y los gastos (art. 17). El capital inicial
+debe quedar suscrito y pagado en un máximo de tres años; si no, queda reducido al monto efectivamente suscrito y pagado
+(art. 11).
+
+**Decisión.** Notificar, aplicar el procedimiento del art. 17 y evaluar la reducción de capital si no se regulariza.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Operaciones con directores sin aprobación previa | Confianza familiar | Incumplimiento y responsabilidad (art. 44) | Procedimiento y acta | Escenario 1 |
+| 2 | No fijar política de dividendos | Omisión | Mínimo de 30 % (art. 79) | Escribirla en el estatuto | Escenario 4 |
+| 3 | Directorio de menos de tres | Informalidad | Incumple art. 31 | Completar el directorio | Sección 6 |
+| 4 | No citar a junta ordinaria en el cuatrimestre | Descuido | Infracción de art. 58 | Calendario de juntas | Sección 6.5 |
+| 5 | No publicar la citación | Costo | Junta impugnable | Seguir art. 59 | Sección 6.5 |
+| 6 | Aportes en bienes sin peritaje | Prisa | Responsabilidad solidaria (art. 15) | Tasación y aprobación | Escenario 6 |
+| 7 | Reunir todas las acciones en una persona | Compra desordenada | Disolución (art. 103) | Planificar la transformación | Escenario 5 |
+| 8 | Ignorar el derecho a retiro | Falta de caja | Pagos obligatorios (arts. 69 a 71) | Provisión y reconsideración | Escenario 3 |
+| 9 | Actas sin firmas de ley | Informalidad | Acuerdos sin ejecución (art. 72) | Firmas del presidente, secretario y tres accionistas | Sección 6.5 |
+| 10 | Confundir cerrada y SpA | Desconocimiento | Formalidad no planificada | Comparar tipos | Sección 11 |
+| 11 | Mezclar derechos de series sin precisión | Complejidad | Conflictos | Redactar con abogado | Sección 5 |
+| 12 | Aceptar que la aprobación del balance libera | Confianza | Responsabilidad subsiste (art. 41) | Controles | Escenario 7 |
+| 13 | Directores sin información completa | Falta de cultura | Decisiones defectuosas (art. 39) | Reportes periódicos | Sección 6.2 |
+| 14 | No llevar registro de accionistas | Descuido | Participación en junta (art. 62) | Registro al día | Sección 5.5 |
+| 15 | No simular el efecto tributario | No consultó | Sorpresas en dividendos | Simulación a cuatro años | Anexo 16 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Anónima cerrada frente a otras formas
+
+| Criterio | Anónima cerrada | SpA | Limitada | Abierta |
+|---|---|---|---|---|
+| Órganos | Junta, directorio y gerente obligatorios | Libres | Libres | Más fiscalización |
+| Flexibilidad | Media | Muy alta | Media | Baja |
+| Dividendos supletorios | 30 % | Libre por estatuto | Escritura | 30 % |
+| Disolución por un accionista | Sí, tras 10 días | No | No aplica | Sí |
+| Transferencia | Restringible | Libre por estatuto | Modifica escritura | Libre |
+
+### C.2. Configuraciones de gobierno
+
+| Configuración | Descripción | Cuándo sirve |
+|---|---|---|
+| Directorio de tres con suplentes | Mínimo legal con respaldo | Empresas medianas |
+| Directorio ampliado con directores externos | Mayor control | Empresas familiares en profesionalización |
+| Directorio con comité de auditoría por estatuto | Control voluntario | Cuando hay financiamiento externo |
+| Gerente con poderes por monto | Separación entre directorio y gestión | Crecimiento |
+
+### C.3. Reglas de transferencia posibles en una cerrada
+
+| Mecanismo | Descripción |
+|---|---|
+| Derecho de preferencia | Los accionistas compran primero |
+| Aprobación previa del directorio | Control de ingreso de terceros (revisa su validez) |
+| Valoración pactada | Método para fijar el precio |
+| Prohibición temporal | Período sin ventas |
+
+### C.4. Cuándo cambiar de tipo
+
+| Señal | Alternativa |
+|---|---|
+| Quieres menos formalidad | SpA |
+| Un solo dueño | SpA unipersonal o EIRL |
+| Más de 500 accionistas o 2.000 por doce meses | Anónima abierta |
+| Socios estables sin acciones | Limitada |
+
+### C.5. Ideas de cláusulas
+
+1. «Los dividendos serán de [porcentaje] de las utilidades líquidas, salvo acuerdo unánime distinto.»
+2. «Las operaciones con directores o sus relacionados requerirán aprobación previa del directorio sin el director
+   interesado y valoración independiente.»
+3. «El directorio sesionará al menos [trimestralmente]; la citación será por correo electrónico y publicación.»
+4. «Las acciones de la serie B tendrán derecho a [veto] sobre [materias].»
+5. «Las diferencias se resolverán por árbitro arbitrador con [designación].»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Quieres una alternativa más flexible | 06 |
+| La sociedad se abrirá al mercado | 08 |
+| Constituyes en línea | 15 |
+| Eliges régimen y tratamiento de dividendos | 16 |
+| Dirección, oficina o local | 17 y 18 |
+| Eres pyme | 13 |
+| Hay fusión, división o transformación | Las clases de la parte 6 y 22 |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 5: sociedad anónima cerrada y abierta](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-05-sociedad-anonima-cerrada-y-abierta/README.md)
+- [Parte 5, clase 12: conflictos de interés y partes relacionadas](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-12-conflictos-de-interes-y-partes-relacionadas/README.md)
+- [Parte 5, clase 13: juntas, actas, libros y trazabilidad de decisiones](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-13-juntas-actas-libros-y-trazabilidad-de-decisiones/README.md)
+- [Parte 5, clase 14: gobierno mínimo viable desde el día uno](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-14-gobierno-minimo-viable-desde-el-dia-uno/README.md)
+- [Parte 6, clase 12: transformación, fusión y división](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-12-transformacion-fusion-y-division/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Directorio y responsabilidad:** el art. 41 conecta la diligencia con la responsabilidad solidaria.
+2. **Juntas y minorías:** el art. 58 conecta el 10 % con la convocatoria.
+3. **Derecho a retiro y caja:** los arts. 69 a 71 conectan las decisiones de la junta con pagos obligatorios.
+4. **Dividendos y política:** el art. 79 conecta el silencio estatutario con el mínimo de 30 %.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 15 | Diseñar estatuto, directorio y dividendos | Accionistas y abogado | Borrador |
+| Días 16 a 30 | Firmar; directorio provisorio; RUT | Accionistas | Certificado |
+| Días 31 a 60 | Primera sesión; gerente; poderes; libros | Directorio | Actas y libro |
+| Días 61 a 90 | Política de partes relacionadas; calendario de juntas | Directorio | Políticas aprobadas |
+
+### E.2. Calendario del primer año de gobierno
+
+| Mes | Tarea |
+|---|---|
+| 1 | Primera sesión de directorio; aprobar gerente y poderes |
+| 3 | Sesión trimestral con informe de gestión |
+| 4 | Junta ordinaria dentro del cuatrimestre tras el balance |
+| 6 | Sesión semestral y revisión de riesgos |
+| 9 | Revisión de política de dividendos y partes relacionadas |
+| 12 | Cierre contable y preparación de memoria |
+
+### E.3. Lista de control del acta de junta
+
+| Ítem | Sí | No |
+|---|---|---|
+| Citación con diez días de anticipación | | |
+| Quórum de primera o segunda citación | | |
+| Materias de junta extraordinaria señaladas en la citación | | |
+| Firmas del presidente, secretario y tres accionistas | | |
+| Constancia de votos y abstenciones | | |
+| Acuerdos con derecho a retiro identificados | | |
+
+### E.4. Modelo de acta de directorio
+
+| Campo | Contenido |
+|---|---|
+| Fecha y asistentes | |
+| Orden del día | |
+| Operaciones con partes relacionadas | |
+| Acuerdos y votos | |
+| Director con interés (abstención) | |
+| Firmas | |
+
+### E.5. Lista para una operación con un director
+
+1. Declaración escrita del interés.
+2. Valoración independiente.
+3. Aprobación previa sin el director involucrado.
+4. Constancia en el acta.
+5. Seguimiento de la ejecución.
+
+## 18. Autoevaluación
+
+1. ¿Cuántos directores como mínimo?
+2. ¿Cuánto dura el período máximo del directorio?
+3. ¿Qué dividendo mínimo rige si el estatuto calla?
+4. ¿Qué porcentaje permite pedir una junta?
+5. ¿Con qué anticipación se cita?
+6. ¿Qué mayoría exige una fusión?
+7. ¿Cuál es el precio del derecho a retiro en una cerrada?
+8. ¿Qué pasa si se reúnen todas las acciones en una persona por más de diez días?
+9. ¿Qué exigen las operaciones con directores?
+10. ¿Qué exigen los aportes en bienes?
+11. ¿Se puede constituir en línea?
+12. ¿La aprobación del balance libera a los directores?
+
+**Respuestas.**
+
+1. Tres (art. 31).
+2. Tres años (art. 31).
+3. El 30 % de las utilidades líquidas (art. 79), salvo acuerdo unánime distinto.
+4. Al menos el 10 % de las acciones con derecho a voto (art. 58).
+5. Un mínimo de diez días, con avisos publicados (art. 59).
+6. Dos tercios de las acciones con derecho a voto (art. 67).
+7. El valor de libros (art. 69).
+8. La sociedad se disuelve (art. 103 N.º 2).
+9. Aprobación previa del directorio, condiciones de equidad y constancia en el acta (art. 44).
+10. Peritaje o acuerdo unánime, y aprobación de la junta en aumentos (art. 15).
+11. Sí (art. 2 N.º 3 de la Ley 20.659).
+12. No (art. 41).
+
+**Puntaje.** Diez o más: dominas el tipo. Seis a nueve: repasa las secciones 6 y 7. Menos de seis: relee el anexo.
+
+## 19. Mapa de artículos de la Ley 18.046 útiles para una cerrada
+
+| Artículo | Contenido | Pregunta práctica |
+|---:|---|---|
+| 1 y 2 | Definición y clases de sociedades anónimas | ¿Qué es una cerrada? |
+| 3 a 6 A | Formación, escritura, extracto y nulidades | ¿Cómo se constituye y qué riesgo hay? |
+| 8 y 9 | Nombre y objeto | ¿Qué nombre y qué objeto puedo usar? |
+| 10 a 13 | Capital, acciones y prohibición de acciones de industria | ¿Cómo se fija el capital? |
+| 15 a 17 | Pago de acciones, reajuste y mora | ¿Qué pasa si no se paga? |
+| 22 | Aceptación de estatutos | ¿Qué implica comprar acciones? |
+| 31 a 33 | Directorio, suplentes y remuneración | ¿Quién administra? |
+| 39 a 41 | Funciones, representación y diligencia | ¿Qué deben hacer los directores? |
+| 44 | Operaciones con directores | ¿Cómo contrato con un director? |
+| 47 y 49 | Sesiones y gerente | ¿Cómo decide el directorio? |
+| 54 a 62 | Juntas, citación y quórum | ¿Cómo funcionan las juntas? |
+| 67 | Mayorías especiales | ¿Cuándo se necesitan dos tercios? |
+| 69 a 71 | Derecho a retiro | ¿Cuándo puedo salir? |
+| 72 y 74 | Actas y balance | ¿Qué debo documentar? |
+| 78 a 83 | Dividendos | ¿Cuánto debo repartir? |
+| 103 | Disolución | ¿Cuándo termina la sociedad? |
+| 125 | Arbitraje | ¿Cómo se resuelven las disputas? |
+| 133 bis | Reparación de pérdidas por infracciones | ¿Qué responsabilidad hay? |
+
+**Cómo usar el mapa.** Busca el artículo, léelo completo en la versión vigente de la Biblioteca del Congreso Nacional y
+compáralo con este anexo.
+
+## 20. Calendario anual y glosario ampliado
+
+### H.1. Calendario anual de una anónima cerrada
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada mes | Registro de Compras y Ventas; declarar y pagar | DL 825, art. 59 |
+| Cada trimestre | Sesión de directorio y revisión de partes relacionadas | Ley 18.046, arts. 44 y 47 |
+| 31 de diciembre (o fecha estatutaria) | Balance general | Art. 74 |
+| Dentro del cuatrimestre siguiente al balance | Junta ordinaria | Arts. 55 y 58 |
+| Quince días antes de la junta | Antecedentes a disposición de accionistas | Art. 54 |
+| Con diez días de anticipación | Citación publicada | Art. 59 |
+| Treinta días después de la junta | Pago de dividendos mínimos exigible | Art. 81 |
+| Mayo | Declaración de trabajadores por unidad | DL 3.063, art. 25 |
+| Julio y enero | Patente | DL 3.063, art. 29 |
+| Mes de la Operación Renta | Declaración anual | Calendario SII |
+| Cada tres años (o según estatuto) | Renovación del directorio | Art. 31 |
+
+### H.2. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Acción nominativa | Acción inscrita a nombre de su titular |
+| Acta | Registro de lo deliberado y acordado |
+| Auditores externos o inspectores de cuentas | Fiscalizadores de la administración |
+| Citación | Aviso de convocatoria a junta |
+| Derecho a retiro | Facultad del disidente de salir con pago de sus acciones |
+| Director suplente | Reemplaza al titular |
+| Dividendo mínimo obligatorio | Porcentaje de utilidades que debe distribuirse salvo acuerdo unánime |
+| Gerente | Ejecutivo designado por el directorio |
+| Junta extraordinaria | Reunión para materias reservadas |
+| Junta ordinaria | Reunión anual para memoria, balance, dividendos y directores |
+| Memoria | Informe razonado del directorio |
+| Parte relacionada | Persona con interés que puede afectar una operación |
+| Perito | Experto que estima aportes no dinerarios |
+| Quórum | Número mínimo para sesionar o decidir |
+| Valor de libros | Patrimonio contable por acción |
+
+## 21. Preguntas frecuentes
 
 **1. ¿Qué diferencia hay entre anónima cerrada y abierta?**
 La abierta inscribe sus acciones en el Registro de Valores y está fiscalizada por la CMF; la cerrada no
@@ -577,7 +929,77 @@ responsabilidad no se puede limitar por estatuto.
 **20. ¿Una SpA sin estatuto completo se rige por esta ley?**
 Supletoriamente, en lo que no se contraponga con su naturaleza (art. 424 del Código de Comercio).
 
-## 14. Fuentes y vigencia
+**21. ¿Puede un accionista ser director y gerente?**
+El texto establece incompatibilidades en el cargo de gerente (art. 49); consulta la versión vigente y el estatuto antes
+de acumular cargos.
+
+**22. ¿Los directores pueden delegar sus funciones?**
+No: las funciones de director no son delegables y se ejercen colectivamente (art. 39), aunque el directorio puede
+delegar parte de sus facultades en el gerente o en otros según el art. 40.
+
+**23. ¿Qué información puede pedir un director?**
+Tiene derecho a ser informado plena y documentadamente, en cualquier tiempo, por el gerente (art. 39).
+
+**24. ¿Se pueden pagar remuneraciones a los directores?**
+El estatuto determina si son remunerados y la junta ordinaria fija anualmente la cuantía (art. 33).
+
+**25. ¿Qué pasa si no hay quórum en primera citación?**
+La junta se constituye en segunda citación con las acciones presentes o representadas, dentro de 45 días (art. 61).
+
+**26. ¿Cuándo pueden votar los accionistas en una cerrada?**
+Pueden participar todos los que figuren como accionistas en el registro al iniciarse la junta (art. 62).
+
+**27. ¿Qué mayoría reforma los estatutos?**
+La que fijen los estatutos, no inferior en las cerradas a la mayoría absoluta de las acciones con voto (art. 67).
+
+**28. ¿Qué acuerdos requieren dos tercios?**
+Transformación, división, fusión, disolución anticipada, cambio de domicilio, disminución de capital, aportes no
+dinerarios y otras materias del art. 67.
+
+**29. ¿Puedo ceder mis acciones libremente?**
+La sociedad debe inscribir los traspasos que cumplan el Reglamento (art. 12); el estatuto y los pactos de una cerrada
+pueden contener restricciones.
+
+**30. ¿Qué pasa con las acciones de un accionista fallecido?**
+Se transmiten a sus herederos según el derecho sucesorio; consulta a un abogado y registra la transmisión.
+
+**31. ¿Cuándo se puede recomprar acciones?**
+Las reglas de los arts. 27 A a 27 D se refieren a sociedades con transacción bursátil; para una cerrada, la recompra
+debe revisarse con un abogado.
+
+**32. ¿Qué es un pacto de accionistas en una anónima?**
+Un acuerdo entre accionistas sobre voto, transferencia o gobierno; en las abiertas, los pactos de cesión deben
+depositarse en la sociedad; en las cerradas, conviene dejar constancia en el estatuto lo que deba valer frente a ella.
+
+**33. ¿Puedo tener un directorio de cinco?**
+Sí: el mínimo para cerradas es tres y el estatuto fija un número invariable (art. 31).
+
+**34. ¿Qué pasa si falta un director?**
+Los suplentes reemplazan y, si no hay, se aplican las reglas del estatuto y de la ley; consulta a un abogado.
+
+**35. ¿Quién preside la junta?**
+Lo define el estatuto y el reglamento; el acta se firma por quien presidió y por el secretario, además de tres
+accionistas (art. 72).
+
+**36. ¿Qué pasa si hay un error en el acta?**
+Se corrige por los mecanismos del Reglamento y de la ley; mantener una redacción clara y firmas completas evita
+problemas.
+
+**37. ¿Puedo transformar la cerrada en SpA?**
+Sí, por junta extraordinaria con dos tercios (art. 67 N.º 1), con derecho a retiro para los disidentes.
+
+**38. ¿Qué diferencia hay con una limitada en gobierno?**
+La anónima exige directorio y juntas; la limitada se rige por la escritura y por las reglas supletorias de la
+colectiva.
+
+**39. ¿Cuánto cuesta constituirla?**
+Por el Registro es gratuito; hay costos de notaría y asesoría (Anexo 15).
+
+**40. ¿Cuándo debo pedir ayuda profesional?**
+Al redactar el estatuto, en operaciones con directores, en juntas extraordinarias, derecho a retiro, aumentos de
+capital y transformaciones.
+
+## 22. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

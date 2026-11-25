@@ -509,7 +509,306 @@ formalismo de gobierno y la menor flexibilidad para captar inversión.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre el texto refundido de la Ley General de Cooperativas (DFL 5
+de 2003).
+
+### Escenario 1: la socia que renuncia y quiere sus cuotas
+
+**Situación.** Carmen renuncia a una cooperativa de trabajo con cuotas por 1.500.000 de pesos actualizadas. Pide su
+devolución inmediata.
+
+**Análisis.** Quien pierde la calidad de socio por renuncia o exclusión, y los herederos del socio fallecido, tienen
+derecho a la devolución del monto **actualizado** de sus cuotas, **condicionada** a que después del cierre del ejercicio
+precedente se hayan enterado aportes de capital por una suma al menos equivalente al monto de las devoluciones
+requeridas, y se efectúan en orden cronológico (art. 19). Si fue exclusión, el plazo no puede exceder de seis meses,
+salvo que la causal sea incumplimiento pecuniario o contractual del socio. La cooperativa debe además constituir cada
+año un fondo de provisión del 2 % de sus remanentes para devolver cuotas en casos excepcionales.
+
+**Resultado.** Carmen no recibe el dinero de inmediato: queda en la fila cronológica, sujeta a nuevos aportes.
+
+**Lección.** El capital variable protege a la cooperativa de retiros bruscos: informa esa regla antes de que alguien
+ingrese.
+
+### Escenario 2: el cambio de objeto y el derecho a retiro
+
+**Situación.** Una cooperativa de ahorro entre vecinos aprueba dedicarse además a vender combustibles. Un socio vota en
+contra.
+
+**Análisis.** La modificación sustancial del objeto, por ejemplo con actividades no relacionadas con el original, da al
+socio disidente derecho a retirarse, y la cooperativa no puede rechazar la renuncia (art. 19). El socio ejerce el
+derecho dentro de **30 días** desde el acuerdo, por escrito; el pago de las cuotas se efectúa dentro de **90 días** desde
+la solicitud, o en el plazo estatutario si fuere menor. El consejo puede convocar a una nueva junta para reconsiderar el
+acuerdo dentro de 30 días tras vencer el plazo de retiro.
+
+**Decisión.** Antes de cambiar el objeto, estimar cuántos socios podrían retirarse y provisionar el efecto en caja.
+
+### Escenario 3: el reparto del remanente
+
+**Situación.** Una cooperativa de consumo obtiene un remanente de 12.000.000 de pesos. Tiene pérdidas acumuladas de
+2.000.000. El estatuto fija intereses al capital de 500.000.
+
+**Análisis (art. 38).** Primero se absorben las pérdidas: quedan 10.000.000. La reserva legal es el 18 % del
+remanente anual: 18 % de 12.000.000 = 2.160.000 (salvo que aplique alguna de las excepciones del artículo). Quedan
+7.840.000. Se pagan los intereses al capital de 500.000: quedan 7.340.000 como **excedente**. Si 6.000.000 provienen de
+operaciones con socios y 1.340.000 de operaciones con terceros, los primeros se reparten a prorrata de las operaciones
+de cada socio y los segundos, a prorrata de las cuotas.
+
+**Lección.** Remanente y excedente son conceptos distintos; el orden importa.
+
+### Escenario 4: el socio que supera el 20 %
+
+**Situación.** Un socio fundador adquirió cuotas hasta alcanzar el 24 % del capital.
+
+**Análisis.** Ningún socio puede ser propietario de más del 20 % del capital de una cooperativa (10 % en las de ahorro y
+crédito) (art. 17). Su participación excede el límite y debe regularizarse por los medios del estatuto y del
+reglamento (rescate, transferencia a otros socios), con asesoría.
+
+### Escenario 5: quedan cuatro socios
+
+**Situación.** Una cooperativa de cinco socios pierde a uno por fallecimiento y a otro por renuncia: quedan tres.
+
+**Análisis.** Si el número de socios se reduce por debajo del mínimo de cinco, se concede un plazo de **seis meses**
+para completarlo; si no se logra, la cooperativa queda disuelta por el solo ministerio de la ley, y los directores o
+el gerente deben publicar el hecho en el Diario Oficial y subinscribir la disolución dentro de sesenta días; si no lo
+hacen, responden solidariamente de los perjuicios a terceros (art. 13).
+
+**Decisión.** Incorporar nuevos socios dentro de los seis meses y llevar el control mensual de la nómina.
+
+### Escenario 6: el consejo sin mujeres
+
+**Situación.** El 40 % de las socias son mujeres, pero el consejo de administración, elegido por mayoría simple, no tiene
+ninguna.
+
+**Análisis.** Los órganos colegiados deben asegurar la representatividad de todos sus socios y socias: siempre que la
+inscripción de candidatos lo permita, el porcentaje de cada género entre los asociados debe reflejarse
+proporcionalmente en el órgano colegiado, según el mecanismo de ponderación que fije el estatuto; el incumplimiento no
+afecta la validez de los actos, sin perjuicio de las sanciones de los arts. 58 y 58 bis (art. 24).
+
+**Decisión.** Modificar el estatuto para incluir el mecanismo de ponderación y promover candidaturas.
+
+### Escenario 7: los beneficios y los terceros
+
+**Situación.** Una cooperativa de servicios factura el 30 % de sus ventas a terceros no socios y quiere extender a un
+socio comercial las exenciones tributarias.
+
+**Análisis.** Las cooperativas pueden operar con terceros, pero **no pueden establecer con ellos combinaciones o
+acuerdos que los hagan participar directa o indirectamente de los beneficios tributarios o de otro orden** que la ley
+otorga a estas entidades (art. 4). Las cooperativas de consumo y de servicio deben pagar todos los impuestos por las
+operaciones con quienes no son socios (art. 49).
+
+**Decisión.** Separar contablemente las operaciones con terceros y consultar a un contador el tratamiento.
+
+### Escenario 8: el extracto defectuoso
+
+**Situación.** Tres años después de constituirse, se advierte que el extracto inscrito omitió el capital suscrito y
+pagado.
+
+**Análisis.** La nulidad derivada de omisiones del extracto o de disconformidades esenciales con la escritura no puede
+invocarse **después de dos años** desde el otorgamiento de la escritura, y esa prescripción corre contra toda persona
+y no admite suspensión; vencido el plazo, las disposiciones de la escritura prevalecen sobre las del extracto (art. 9).
+
+**Decisión.** Regularizar la inscripción por vía de modificación y documentar. Consultar a un abogado.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Usar «cooperativa» sin constituirse | Marketing | Clausura (arts. 56 y 57) | Constituirse | Sección 4.2 |
+| 2 | No llegar a cinco socios | Informalidad | Disolución por ley (art. 13) | Nómina mínima | Escenario 5 |
+| 3 | Socio sobre el 20 % | Concentración | Infracción (art. 17) | Regularizar | Escenario 4 |
+| 4 | Confundir remanente y excedente | Contabilidad | Reparto incorrecto (art. 38) | Orden legal | Escenario 3 |
+| 5 | No constituir la reserva legal | Omisión | Infracción | 18 % del remanente | Sección 8.3 |
+| 6 | Devolver cuotas sin aportes nuevos | Presión de socios | Incumple art. 19 | Fila cronológica | Escenario 1 |
+| 7 | No ofrecer retiro en los casos del art. 19 | Desconocimiento | Reclamos y sanciones | Procedimiento de retiro | Escenario 2 |
+| 8 | Dar beneficios a terceros | Alianza comercial | Prohibido (art. 4) | Separar operaciones | Escenario 7 |
+| 9 | Poderes de más del 5 % | Control | Infracción (art. 22) | Respetar el límite | Sección 6.2 |
+| 10 | Apoderados prohibidos | Informalidad | Poder inválido | Revisar art. 22 | Sección 6.2 |
+| 11 | No reflejar el género en los órganos | Falta de mecanismo | Sanciones (arts. 58 y 58 bis) | Mecanismo estatutario | Escenario 6 |
+| 12 | No llevar libro de actas fiel | Descuido | Prueba débil | Libro idóneo | Sección 6.4 |
+| 13 | Estatutos incompletos | Copiar modelos | Nulidad (art. 9) | Menciones del art. 6 | Sección 4.1 |
+| 14 | No inscribir ni publicar en 60 días | Olvido | Nulidad o comunidad (arts. 9 y 10) | Controlar plazos | Sección 4.3 |
+| 15 | Aplicar exenciones sin asesoría | Optimismo | Reclamos tributarios | Consulta al contador | Sección 8.2 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Tipos de cooperativa que aparecen en el texto
+
+| Tipo | Nota |
+|---|---|
+| De trabajo | Socios trabajadores; excepción de reserva legal en ciertos casos (art. 38) |
+| De consumo | Pagan todos los impuestos por operaciones con no socios (art. 49) |
+| De servicios | Misma regla para operaciones con no socios |
+| De vivienda (abiertas) | Objeto único y reserva no repartible del 70 % del remanente (art. 38) |
+| De ahorro y crédito | Objeto único; supervisión de la CMF; límite del 10 % de capital (art. 17) |
+| Campesinas y de pescadores | Excepción de reserva legal (art. 38) |
+| De garantía recíproca | Anexo 10 |
+
+### C.2. Cooperativa frente a otras formas
+
+| Criterio | Cooperativa | Sociedad limitada | SpA | Asociación |
+|---|---|---|---|---|
+| Voto | Un socio, un voto | Por socio salvo pacto | Por acción | Por socio |
+| Reparto | Según uso | Según capital | Según acciones | No reparte |
+| Capital | Variable | Fijo | Fijo | No aplica |
+| Fiscalización | Departamento de Cooperativas | No | No | Ministerio de Justicia |
+
+### C.3. Opciones de gobierno
+
+| Opción | Descripción | Cuándo sirve |
+|---|---|---|
+| Consejo de administración con gerente | Estructura completa | Cooperativas medianas |
+| Gerente administrador (20 socios o menos) | Sin consejo | Cooperativas pequeñas |
+| Delegados | Juntas por delegados (más de 2.000 socios o varios lugares) | Cooperativas grandes |
+| Consejeros laborales | Trabajadores en el consejo | Cooperativas con empleados |
+
+### C.4. Ideas de cláusulas estatutarias
+
+1. «Para ser admitido se requiere [requisito] y suscribir [número] de cuotas.»
+2. «El consejo calificará el ingreso de socios sin discriminar por razones políticas, religiosas o sociales.»
+3. «La devolución de cuotas se efectuará en orden cronológico, sujeta a nuevos aportes, dentro de [plazo].»
+4. «Los órganos colegiados aplicarán el siguiente mecanismo de ponderación por género: [detalle].»
+5. «Los excedentes de operaciones con socios se distribuirán a prorrata de dichas operaciones.»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Quieres una cooperativa de garantía recíproca | 10 |
+| Quieres un fin sin reparto | 12 |
+| Evalúas una sociedad | 03 y 06 |
+| IVA y renta | 16 |
+| Patente y exención | 17 |
+| Domicilio y oficina | 18 |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+- [Parte 16, clase 6: SERCOTEC y programas de fomento](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-06-sercotec-y-programas-de-fomento/README.md)
+- [Parte 16, clase 5: FOGAPE, garantías y evaluación bancaria](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-05-fogape-garantias-y-evaluacion-bancaria/README.md)
+- [Parte 5, clase 13: juntas, actas, libros y trazabilidad de decisiones](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-13-juntas-actas-libros-y-trazabilidad-de-decisiones/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Voto y capital:** un voto por persona conecta la gobernanza con el límite del 20 %.
+2. **Capital variable y devolución:** el art. 19 conecta el retiro de socios con nuevos aportes.
+3. **Excedentes y operaciones:** el art. 38 conecta el reparto con el uso de la cooperativa.
+4. **Terceros y beneficios:** el art. 4 conecta la operación comercial con las exenciones.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 15 | Reunir socios, definir objeto y estudio socioeconómico si corresponde | Comité organizador | Acta de fundadores |
+| Días 16 a 45 | Junta constitutiva, escritura y extracto (60 días) | Socios y abogado | Escritura y extracto |
+| Días 46 a 60 | RUT, cuenta bancaria y libros | Gerente | Certificados |
+| Días 61 a 90 | Políticas de ingreso, retiro y excedentes; educación cooperativa | Consejo | Políticas aprobadas |
+
+### E.2. Calendario anual de una cooperativa
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada mes | Verificar nómina mínima de cinco socios | Art. 13 |
+| 31 de diciembre | Balance anual | Art. 34 |
+| Primer semestre | Junta general ordinaria | Art. 6 letra f |
+| Con 5 a 15 días de aviso | Citación a junta | Art. 23 |
+| Tras el balance | Determinar remanente, reserva legal y excedente | Art. 38 |
+| Cada año | Fondo de provisión del 2 % | Art. 19 |
+| Cada año | Revisar mecanismo de representatividad por género | Art. 24 |
+
+### E.3. Lista de control del consejo
+
+| Ítem | Sí | No |
+|---|---|---|
+| 60 % del consejo elegido por socios usuarios | | |
+| Mecanismo de ponderación por género | | |
+| Libro de actas idóneo y firmado | | |
+| Seguimiento de la devolución de cuotas | | |
+| Control del límite del 20 % | | |
+
+### E.4. Modelo de cálculo del remanente
+
+| Concepto | Monto |
+|---|---:|
+| Remanente del ejercicio | |
+| (−) Pérdidas acumuladas | |
+| (−) Reserva legal (18 % del remanente) | |
+| (−) Intereses al capital | |
+| = Excedente | |
+| De operaciones con socios (a prorrata de operaciones) | |
+| De operaciones con terceros (a prorrata de cuotas) | |
+
+### E.5. Lista para una devolución de cuotas
+
+1. Registrar la fecha de la causal.
+2. Verificar aportes nuevos del ejercicio.
+3. Aplicar el orden cronológico.
+4. Calcular el monto actualizado.
+5. Pagar y dejar constancia.
+
+## 18. Autoevaluación
+
+1. ¿Cuántos socios mínimos?
+2. ¿Cuántos votos tiene cada socio?
+3. ¿Qué límite de capital por socio hay?
+4. ¿Qué es el remanente?
+5. ¿Qué es la reserva legal?
+6. ¿Qué plazo hay para el retiro del disidente?
+7. ¿Qué pasa si baja de cinco socios?
+8. ¿Qué exigen los consejos respecto de los socios usuarios?
+9. ¿Qué impuestos pagan las de consumo por operaciones con no socios?
+10. ¿Qué requisitos de constitución hay?
+11. ¿Se constituye en línea?
+12. ¿Cuál es el plazo para anular por extracto defectuoso?
+
+**Respuestas.**
+
+1. Cinco (art. 13).
+2. Uno (arts. 1 y 22).
+3. 20 % (10 % en ahorro y crédito) (art. 17).
+4. El saldo favorable del ejercicio (art. 38).
+5. El fondo del 18 % del remanente, irrepartible mientras dure la cooperativa, con excepciones (art. 38).
+6. Treinta días desde el acuerdo (art. 19).
+7. Seis meses para completarlos; si no, disolución por ley (art. 13).
+8. Al menos el 60 % de los consejeros debe ser elegido por socios usuarios (art. 24).
+9. Todos los impuestos (art. 49).
+10. Junta constitutiva con acta en escritura, estatuto con menciones mínimas, extracto inscrito y publicado en 60 días
+    (arts. 6 y 7).
+11. No.
+12. Dos años desde la escritura (art. 9).
+
+**Puntaje.** Diez o más: dominas el tipo. Seis a nueve: repasa las secciones 5 y 6. Menos de seis: relee el anexo.
+
+## 19. Calendario y glosario ampliado
+
+### H.1. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Ayuda mutua | Principio que inspira a las cooperativas |
+| Capital variable | Capital que cambia con el ingreso y retiro de socios |
+| Consejero laboral | Trabajador elegido en el consejo, con fuero |
+| Consejo de administración | Órgano que administra y representa |
+| Cuota de participación | Unidad de aporte de capital nominativa y sin privilegios |
+| Delegado | Socio elegido para representar a otros en la junta |
+| Departamento de Cooperativas | Organismo del Ministerio de Economía que fiscaliza |
+| Excedente | Saldo final a distribuir entre los socios |
+| Federación | Agrupación de cooperativas |
+| Fondo de provisión | Fondo del 2 % del remanente para devolver cuotas |
+| Gerente administrador | Reemplaza al consejo en cooperativas de 20 socios o menos |
+| Inspector de cuentas | Reemplaza a la junta de vigilancia en cooperativas pequeñas |
+| Junta de Vigilancia | Órgano de fiscalización interna |
+| Remanente | Saldo favorable del ejercicio |
+| Reserva legal | Fondo del 18 % del remanente |
+| Socio disidente | Quien se opuso a un acuerdo que da derecho a retiro |
+| Socio usuario | Socio que utiliza los servicios de la cooperativa |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Cuántos socios necesita una cooperativa?**
 Un mínimo de cinco; si baja de ese número, tiene seis meses para completarlo o se disuelve por ley (art. 13).
@@ -579,7 +878,76 @@ Hasta 50 UTM, con aumento por reiteración y por patrimonio de la cooperativa (a
 El Departamento de Cooperativas del Ministerio de Economía, y organismos especiales según el giro; las de
 ahorro y crédito supervisadas, la CMF.
 
-## 14. Fuentes y vigencia
+**21. ¿Puede una persona jurídica ser socia?**
+Sí: pueden ser socios las personas naturales y las personas jurídicas de derecho público o privado (art. 13).
+
+**22. ¿Puedo pertenecer a más de una cooperativa?**
+Sí, salvo que los estatutos lo prohíban; pero quien es socio de más de una de igual finalidad solo puede ocupar cargos
+directivos en una (art. 14).
+
+**23. ¿Pueden suceder los herederos en la calidad de socio?**
+Siempre que sea compatible con el objeto, los estatutos pueden autorizar que los herederos continúen como comunidad
+indivisa con un procurador común (art. 14).
+
+**24. ¿Puede la cooperativa limitar el ingreso de socios?**
+Puede suspender transitoriamente el ingreso si los recursos son insuficientes, pero no puede limitarlo por razones
+políticas, religiosas o sociales (art. 16).
+
+**25. ¿Qué responde un socio nuevo por deudas anteriores?**
+Responde con sus aportes de las obligaciones contraídas antes de su ingreso; toda estipulación en contrario es nula
+(art. 18).
+
+**26. ¿Pueden las cuotas tener privilegios?**
+No: se prohíbe crear cuotas de participación privilegiadas o de organización (art. 33).
+
+**27. ¿Cómo se cobra una cuota impaga?**
+Con la copia del acta del consejo que acuerda el cobro y el documento de suscripción, que son título ejecutivo (art. 36).
+
+**28. ¿Qué es un fondo de reserva voluntaria?**
+Una reserva que puede constituirse con parte del remanente según el estatuto, antes de determinar el excedente (art. 38).
+
+**29. ¿Qué pasa con el excedente no retirado?**
+La reserva legal se incrementa con los excedentes no retirados dentro de cinco años desde el acuerdo de pago (art. 38).
+
+**30. ¿Pueden emitir valores de oferta pública?**
+La junta general puede autorizar la emisión según la Ley de Mercado de Valores (art. 35).
+
+**31. ¿Cómo se liquida?**
+Por una comisión de tres personas elegidas por la junta (art. 47) y debe agregar «en liquidación» a su razón social
+(art. 48).
+
+**32. ¿Qué pasa con los bienes recibidos por donaciones al disolverse?**
+Se destinan al objeto que señalen los estatutos o a instituciones de la ley (art. 40).
+
+**33. ¿Pueden fusionarse?**
+Sí, por creación o incorporación, aprobadas en junta general con balances auditados (art. 45).
+
+**34. ¿Pueden transformarse en sociedad?**
+Sí, por junta especialmente citada y con balance auditado (art. 46).
+
+**35. ¿Qué multas hay?**
+Hasta 50 UTM por cooperativa, con aumentos por reiteración y por patrimonio (art. 58 bis).
+
+**36. ¿Cómo se citan las juntas?**
+Con aviso en un medio de comunicación con no más de quince ni menos de cinco días de anticipación y citación a cada socio
+con quince días (art. 23).
+
+**37. ¿Puedo votar por poder?**
+Con carta poder simple, con las prohibiciones y el límite del 5 % del art. 22, salvo que los estatutos exijan
+asistencia personal.
+
+**38. ¿Qué es la educación cooperativa?**
+Una característica fundamental que la ley exige desarrollar (art. 1).
+
+**39. ¿La cooperativa puede ser socia de otras sociedades?**
+Con aprobación de la junta cuando se trate de ser socia de colectivas o gestora de comanditas o generar responsabilidad
+por terceros, salvo filiales (art. 23 letra ñ).
+
+**40. ¿Cuándo debo pedir ayuda profesional?**
+Al redactar el estatuto, para el estudio socioeconómico, ante devoluciones de cuotas, cambios de objeto y cuestiones
+tributarias.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|
