@@ -1137,5 +1137,250 @@
     }
    }
   ]
+ },
+ {
+  "n": 11,
+  "slug": "sociedad-civil",
+  "titulo": "Sociedad Civil (Código Civil)",
+  "grupo": "otras",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "La sociedad civil en el derecho chileno",
+    "alt": "Línea de tiempo: Código Civil con el título de la sociedad, 1923 Ley 3.918 permite sociedades civiles con responsabilidad limitada, 2000 texto refundido del Código Civil y 2013 Ley 20.659 que lista solo tipos comerciales.",
+    "datos": {
+     "hitos": [
+      [
+       "Siglo XIX",
+       "Código Civil regula el contrato de sociedad"
+      ],
+      [
+       "1923",
+       "Ley 3.918: civiles y comerciales pueden limitar la responsabilidad"
+      ],
+      [
+       "2000",
+       "DFL 1: texto refundido del Código Civil"
+      ],
+      [
+       "2013",
+       "Ley 20.659 lista tipos comerciales"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "Es el tipo base del contrato de sociedad: civil, comercial o mixta."
+    }
+   },
+   {
+    "tipo": "escalera",
+    "titulo": "De acordar a operar una sociedad civil",
+    "alt": "Escalera de cuatro peldaños: acordar aportes y reparto, escribir el contrato con administración y salida, obtener RUT e iniciar actividades y llevar contabilidad y documentos.",
+    "datos": {
+     "niveles": [
+      [
+       "Acordar aportes y reparto",
+       "Qué pone cada uno y cómo se divide"
+      ],
+      [
+       "Escribir el contrato",
+       "Administración, decisión y salida"
+      ],
+      [
+       "RUT e inicio de actividades",
+       "Con el SII y permisos"
+      ],
+      [
+       "Contabilidad y documentos",
+       "Según el régimen elegido"
+      ]
+     ],
+     "eje": "Cada peldaño reduce un conflicto futuro"
+    }
+   },
+   {
+    "tipo": "barras",
+    "titulo": "Cómo se reparte una deuda sin solidaridad",
+    "alt": "Gráfico de barras que muestra cómo una deuda de nueve millones se divide a prorrata entre tres socios con intereses del cincuenta, treinta y veinte por ciento.",
+    "datos": {
+     "serie": [
+      [
+       "Socio A (50 %)",
+       4500
+      ],
+      [
+       "Socio B (30 %)",
+       2700
+      ],
+      [
+       "Socio C (20 %)",
+       1800
+      ]
+     ],
+     "unidad": " mil",
+     "destacar": 0,
+     "eje": "Reparto de una deuda de 9.000 miles de pesos (ilustrativo)",
+     "nota": "Sin pacto de solidaridad, cada socio responde por su cuota (art. 2095)."
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "¿Quién obliga a la sociedad?",
+    "alt": "Árbol de decisión: si un socio contrata a nombre de la sociedad con poder o dentro de sus facultades obliga a la sociedad, y si contrata a su nombre solo se obliga él.",
+    "datos": {
+     "q": "¿El socio contrató expresamente a nombre de la sociedad?",
+     "si": {
+      "q": "¿Actuó dentro de sus facultades o con poder especial?",
+      "si": "Obliga a la sociedad (art. 2079)",
+      "no": "Responde él solo (art. 2079)"
+     },
+     "no": "En duda se entiende que contrató a título personal (art. 2094)"
+    }
+   },
+   {
+    "tipo": "matriz",
+    "titulo": "Sociedad civil o comercial: cómo elegir",
+    "alt": "Matriz que cruza el riesgo de la actividad con la necesidad de inversión para elegir entre sociedad civil, limitada y SpA.",
+    "datos": {
+     "x": "Riesgo de deudas o de daños a terceros",
+     "y": "Necesidad de inversión o de acciones",
+     "cuadrantes": [
+      [
+       "Riesgo bajo, inversión alta",
+       "SpA con series de acciones."
+      ],
+      [
+       "Riesgo alto, inversión alta",
+       "SpA con seguros y pacto de accionistas."
+      ],
+      [
+       "Riesgo bajo, inversión baja",
+       "Sociedad civil con contrato claro."
+      ],
+      [
+       "Riesgo alto, inversión baja",
+       "Sociedad limitada o SpA: limita tu responsabilidad."
+      ]
+     ],
+     "punto": [
+      0.15,
+      0.2,
+      "Civil"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "slug": "corporaciones",
+  "titulo": "Corporaciones, asociaciones y fundaciones",
+  "grupo": "otras",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "De la reforma de 2011 al registro nacional",
+    "alt": "Línea de tiempo: Título XXXIII del Código Civil, 2000 texto refundido, 2011 Ley 20.500 crea el Registro Nacional de Personas Jurídicas sin Fines de Lucro y fiscalización del Ministerio de Justicia.",
+    "datos": {
+     "hitos": [
+      [
+       "Siglo XIX",
+       "Código Civil define corporaciones y fundaciones"
+      ],
+      [
+       "2000",
+       "DFL 1: texto refundido"
+      ],
+      [
+       "4 feb 2011",
+       "Se promulga la Ley 20.500"
+      ],
+      [
+       "16 feb 2011",
+       "Se publica: registro nacional y depósito municipal"
+      ]
+     ],
+     "hito": 2,
+     "bajada": "Hoy se constituyen por acto privado, depósito municipal y registro, y las fiscaliza el Ministerio de Justicia."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Constituir una asociación o fundación",
+    "alt": "Flujo de cinco pasos: redactar el acto y los estatutos, otorgarlo ante un ministro de fe, depositar copia en la secretaría municipal, esperar el plazo de objeción y quedar inscrita en el Registro Nacional.",
+    "datos": {
+     "pasos": [
+      "Redactar acto y estatutos (o usar el modelo tipo)",
+      "Otorgarlo ante notario, Registro Civil o funcionario municipal",
+      "Depositar copia en la secretaría municipal en 30 días",
+      "Plazo de 30 días para objeciones",
+      "Inscripción en el Registro Nacional por el Registro Civil"
+     ],
+     "retorno": "Sin constitución legal, los miembros responden solidariamente por los actos colectivos"
+    }
+   },
+   {
+    "tipo": "ciclo",
+    "titulo": "El excedente de una organización sin fines de lucro",
+    "alt": "Ciclo de cinco pasos: obtener ingresos, financiar el fin, medir el excedente, reinvertir en el fin y rendir cuentas, con la prohibición de repartir utilidades al centro.",
+    "datos": {
+     "pasos": [
+      "Obtener ingresos: cuotas, donaciones, servicios",
+      "Financiar el fin y la operación",
+      "Medir el excedente del período",
+      "Reinvertirlo en el fin",
+      "Rendir cuentas a la asamblea y al Ministerio"
+     ],
+     "centro": "Sin reparto de utilidades (art. 556)"
+    }
+   },
+   {
+    "tipo": "actores",
+    "titulo": "Cómo se gobierna una asociación",
+    "alt": "Mapa con la asamblea al centro y alrededor el directorio de al menos tres miembros, el presidente, la comisión de ética, los asociados y el Ministerio de Justicia que fiscaliza.",
+    "datos": {
+     "centro": "Asamblea de asociados",
+     "actores": [
+      [
+       "Directorio (mínimo 3)",
+       "Administra; mandato de hasta 5 años"
+      ],
+      [
+       "Presidente",
+       "Preside el directorio y representa"
+      ],
+      [
+       "Comisión de ética",
+       "Disciplina; incompatible con la administración"
+      ],
+      [
+       "Asociados",
+       "Pueden pedir información sobre cuentas y programas"
+      ],
+      [
+       "Ministerio de Justicia",
+       "Fiscaliza actas, cuentas y libros"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "¿Fundación, cooperativa o sociedad?",
+    "alt": "Árbol de decisión: si se quiere repartir resultados se elige una sociedad o cooperativa según el reparto sea por capital o por uso, y si no se quiere repartir se elige asociación o fundación.",
+    "datos": {
+     "q": "¿Los miembros quieren recibir parte de los resultados?",
+     "si": {
+      "q": "¿El reparto será según el uso que hagan de la organización?",
+      "si": "Cooperativa (Anexo 09)",
+      "no": "Sociedad: SpA o limitada (Anexos 06 y 03)"
+     },
+     "no": {
+      "q": "¿Nace de personas reunidas o de bienes afectos a un fin?",
+      "si": "Asociación o corporación",
+      "no": "Fundación"
+     }
+    }
+   }
+  ]
  }
 ]
