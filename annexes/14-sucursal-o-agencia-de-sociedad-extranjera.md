@@ -441,6 +441,12 @@ extracto vienen de la ley (art. 449).
 Llegar con estas diez preguntas a la primera reunión ahorra semanas, porque obliga a decidir las materias de
 fondo antes de reunir papeles.
 
+Una última recomendación práctica: **guarda un expediente único** con el original y la traducción de cada
+documento, las fechas de legalización, el número de protocolización, la copia del extracto con sus timbres de
+inscripción y publicación, y cada modificación posterior. Cuando un banco, un cliente grande o el propio SII
+pida acreditar la existencia y los poderes de la agencia, ese expediente evita repetir trámites en el
+extranjero, que son los más lentos y costosos.
+
 ## 11. Cuándo conviene y cuándo no
 
 ### 11.1. Comparación
