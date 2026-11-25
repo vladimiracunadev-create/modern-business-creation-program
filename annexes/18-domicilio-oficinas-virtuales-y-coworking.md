@@ -8,7 +8,7 @@
 
 <!-- anexos:nav-inicio -->
 
-**Navegación:** [← 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md) · [Índice de anexos](README.md) · —
+**Navegación:** [← 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md) · [Índice de anexos](README.md) · [19. Pactos de socios y gobierno entre fundadores: qué acordar antes de que haya un conflicto →](19-pactos-de-socios-y-gobierno-entre-fundadores.md)
 
 ## En 60 segundos
 
@@ -1124,6 +1124,6 @@ proveedores; no fija precios y sus cifras son ilustrativas.
 - [Anexo 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md): patente y zonificación.
 - [Anexo 01. Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md): si usas tu casa como persona natural.
 
-**Navegación:** [← 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md) · [Índice de anexos](README.md) · —
+**Navegación:** [← 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md) · [Índice de anexos](README.md) · [19. Pactos de socios y gobierno entre fundadores: qué acordar antes de que haya un conflicto →](19-pactos-de-socios-y-gobierno-entre-fundadores.md)
 
 <!-- anexos:cierre-fin -->

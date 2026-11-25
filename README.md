@@ -340,14 +340,16 @@ Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla ti
 
 <!-- partes:fin -->
 
-## 📚 Anexos: tipos de empresa, Empresa en un Día, SII y municipalidades
+## 📚 Anexos: tipos de empresa, trámites y decisiones estratégicas
 
-Los [anexos](annexes/README.md) son lecturas de profundidad que acompañan a las clases: **18 anexos de más de
-5.000 palabras cada uno**, con figuras SVG propias, fuentes oficiales con enlace, una lista de verificación
-«antes de construir» y preguntas frecuentes. Los 14 primeros describen un tipo de empresa o régimen (historia,
-leyes, constitución, capital, gobierno, responsabilidad, tributación y cuándo llamar a un profesional); los
-cuatro últimos explican el Registro de Empresas y Sociedades («Empresa en un Día»), el Servicio de Impuestos
-Internos, las municipalidades y el domicilio (oficinas virtuales, coworking, casa y local). Son material educativo, no asesoría legal; cada anexo declara su fecha de
+Los [anexos](annexes/README.md) son lecturas de profundidad que acompañan a las clases: **21 anexos de entre 8.000 y
+11.000 palabras los más extensos y de más de 5.000 los demás**, con figuras SVG propias, fuentes oficiales con enlace,
+una lista de verificación «antes de construir», escenarios resueltos, catálogo de errores, plantillas, autoevaluación y
+preguntas frecuentes. Los 14 primeros describen un tipo de empresa o régimen (historia, leyes, constitución, capital,
+gobierno, responsabilidad, tributación y cuándo llamar a un profesional); del 15 al 18 explican el Registro de Empresas y
+Sociedades («Empresa en un Día»), el Servicio de Impuestos Internos, las municipalidades y el domicilio (oficinas
+virtuales, coworking, casa y local); y del 19 al 21 tratan decisiones estratégicas: pactos de socios, cambios de
+estructura (transformar, fusionar, dividir, vender y cerrar) e insolvencia (Ley 20.720). Son material educativo, no asesoría legal; cada anexo declara su fecha de
 consulta y sus límites.
 
 <!-- anexos:tabla-inicio -->
@@ -371,6 +373,9 @@ consulta y sus límites.
 | 16 | [Servicio de Impuestos Internos (SII): lo que una empresa debe saber](annexes/16-servicio-de-impuestos-internos-sii.md) | Servicio de Impuestos Internos: RUT, inicio de actividades, documentos electrónicos, IVA, Registro de Compras y Ventas, ciclo mensual y anual y término de giro. |
 | 17 | [Municipalidades: patente comercial, zonificación y permisos locales](annexes/17-municipalidades-patentes-y-permisos-locales.md) | Municipalidades: patente comercial, zonificación, patente provisoria y sanciones, con el orden correcto de los permisos para abrir un local. |
 | 18 | [Domicilio, oficinas virtuales, coworking y otras formas de ubicar tu empresa](annexes/18-domicilio-oficinas-virtuales-y-coworking.md) | Cada forma de ubicar tu empresa explicada: casa habitación, microempresa familiar, local propio o arrendado, comodato, oficina virtual, coworking, sucursales, y cómo se acredita el domicilio ante el SII. |
+| 19 | [Pactos de socios y gobierno entre fundadores: qué acordar antes de que haya un conflicto](annexes/19-pactos-de-socios-y-gobierno-entre-fundadores.md) | Cómo acordar entre fundadores, antes del primer conflicto, aportes, roles, vesting, mayorías, entrada y salida de socios, valoración y resolución de bloqueos, y qué dice la ley cuando no se pacta nada. |
+| 20 | [Cambios de estructura: modificar, transformar, fusionar, dividir, vender y cerrar una empresa](annexes/20-cambios-de-estructura-fusion-division-venta-y-cierre.md) | Las operaciones con que una empresa cambia su forma o su dueño: modificar estatutos, transformar, fusionar, dividir, migrar de sistema registral, vender acciones o activos y terminar el giro, con plazos, efectos laborales y tributarios. |
+| 21 | [Insolvencia: reorganización, liquidación y cómo actuar a tiempo (Ley 20.720)](annexes/21-insolvencia-reorganizacion-y-liquidacion.md) | Qué hacer cuando una empresa no puede pagar sus deudas: reorganización judicial y extrajudicial, liquidación voluntaria y forzosa, orden de pago de los créditos, revocación de actos y alternativas, según la Ley 20.720. |
 <!-- anexos:tabla-fin -->
 
 ## 🔬 Caso transversal MEDVi

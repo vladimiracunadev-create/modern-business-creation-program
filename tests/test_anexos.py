@@ -113,11 +113,12 @@ class AnexosTest(unittest.TestCase):
             with self.subTest(anexo=anexo["slug"]):
                 self.assertTrue(all(a != b for a, b in zip(tipos, tipos[1:])), tipos)
 
-    def test_estan_los_18_anexos_previstos(self) -> None:
-        """01 a 14 son tipos de empresa; 15 a 18 son Empresa en un Día, SII, municipalidades y domicilio."""
-        self.assertEqual({self.numero(p) for p in self.archivos}, set(range(1, 19)))
+    def test_estan_los_21_anexos_previstos(self) -> None:
+        """01 a 14 son tipos de empresa; 15 a 18, trámites e instituciones; 19 a 21, decisiones estratégicas."""
+        self.assertEqual({self.numero(p) for p in self.archivos}, set(range(1, 22)))
         palabras_clave = {
             15: "empresa-en-un-dia", 16: "servicio-de-impuestos-internos", 17: "municipalidades", 18: "domicilio-oficinas-virtuales",
+            19: "pactos-de-socios", 20: "cambios-de-estructura", 21: "insolvencia",
         }
         for numero, clave in palabras_clave.items():
             with self.subTest(anexo=numero):

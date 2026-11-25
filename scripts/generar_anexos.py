@@ -25,12 +25,13 @@ SALIDA = RAIZ / "annexes" / "img"
 
 ACENTOS_GRUPO = {
     "personas": "#2E8B57", "sociedades-personas": "#2563EB", "sociedades-capital": "#7C3AED",
-    "especial": "#C2410C", "otras": "#0F766E", "tramites": "#374151",
+    "especial": "#C2410C", "otras": "#0F766E", "tramites": "#374151", "estrategia": "#B45309",
 }
 GRUPOS = {
     "personas": "Sin sociedad", "sociedades-personas": "Sociedades de personas",
     "sociedades-capital": "Sociedades de capital", "especial": "Régimen especial",
     "otras": "Otras formas", "tramites": "Trámites e instituciones",
+    "estrategia": "Decisiones estratégicas",
 }
 
 FILAS_MATRIZ = [
@@ -58,6 +59,9 @@ RUTAS = [
     ("Ya elegí el tipo y quiero constituirla", "15, 16 y 17"),
     ("Soy pyme y busco trámites más simples", "13, 17 y 16"),
     ("Necesito una dirección: oficina virtual, coworking, casa o local", "18, luego 16 y 17"),
+    ("Tengo socios y quiero acordar reglas antes de un conflicto", "19, con 03, 06 o 07"),
+    ("Quiero transformar, fusionar, dividir, vender o cerrar mi empresa", "20, luego 16 y 15"),
+    ("No puedo pagar mis deudas y necesito entender mis opciones", "21 y la guía de crisis; abogado de insolvencia"),
 ]
 
 NAV_INICIO = "<!-- anexos:nav-inicio -->"

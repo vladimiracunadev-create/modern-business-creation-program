@@ -2598,5 +2598,477 @@
     "si usas tu casa como persona natural"
    ]
   ]
+ },
+ {
+  "n": 19,
+  "slug": "pactos-de-socios",
+  "titulo": "Pactos de socios y gobierno entre fundadores: qué acordar antes de que haya un conflicto",
+  "grupo": "estrategia",
+  "figuras": [
+   {
+    "tipo": "capas",
+    "titulo": "Dónde se escriben los acuerdos entre socios",
+    "alt": "Cuatro capas: estatuto público, pacto privado entre socios, reglamento interno y decisiones operativas del día a día.",
+    "datos": {
+     "capas": [
+      [
+       "Estatuto o contrato social",
+       "Lo que obliga a todos y es público: objeto, capital, administración y mayorías"
+      ],
+      [
+       "Pacto de socios",
+       "Lo que acuerdan entre sí: vesting, salida, valoración y conflictos"
+      ],
+      [
+       "Reglamento interno",
+       "Cómo funciona el día a día: reportes, límites de gasto y reuniones"
+      ],
+      [
+       "Decisiones operativas",
+       "Lo que se resuelve a diario dentro de las reglas anteriores"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "barras",
+    "titulo": "Cuánto se diluye un fundador con cada ronda",
+    "alt": "Barras con la participación de un fundador: 100 % al constituir, 80 % tras la ronda semilla, 72 % con el pool de opciones y 57,6 % tras la segunda ronda (ejemplo ilustrativo).",
+    "datos": {
+     "serie": [
+      [
+       "Constitución",
+       100
+      ],
+      [
+       "Ronda semilla (20 %)",
+       80
+      ],
+      [
+       "Pool de opciones (10 %)",
+       72
+      ],
+      [
+       "Segunda ronda (20 %)",
+       57.6
+      ]
+     ],
+     "unidad": " %",
+     "destacar": 3,
+     "eje": "Participación del fundador (ilustrativo)",
+     "nota": "Cada ronda reduce el porcentaje; lo que importa es que el valor de la empresa suba más de lo que te diluyes."
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "Qué hacer ante un bloqueo entre socios",
+    "alt": "Árbol de decisión: si la conversación directa no resuelve, se pasa a mediación; si no, a arbitraje o a un mecanismo de salida pactado.",
+    "datos": {
+     "q": "¿La conversación directa con plazo corto resolvió el bloqueo?",
+     "si": "Registrar el acuerdo por escrito y seguir",
+     "no": {
+      "q": "¿La mediación con un tercero acordado lo resolvió?",
+      "si": "Formalizar el acuerdo y actualizar el pacto",
+      "no": "Arbitraje o mecanismo de salida: comprar, vender o subasta entre socios"
+     }
+    }
+   },
+   {
+    "tipo": "semaforo",
+    "titulo": "Qué tan sano está el gobierno entre tus socios",
+    "alt": "Semáforo del gobierno societario: verde con pacto y mecanismos acordados, amarillo con pacto incompleto, rojo con acuerdos verbales.",
+    "datos": {
+     "indicador": "Claridad de los acuerdos entre socios",
+     "bandas": [
+      [
+       "verde",
+       "Pacto firmado con vesting, salida, valoración y desempate",
+       "Cada evento previsible tiene un procedimiento."
+      ],
+      [
+       "amarillo",
+       "Pacto parcial o sin revisión desde hace más de un año",
+       "Faltan cláusulas clave o están desactualizadas."
+      ],
+      [
+       "rojo",
+       "Solo acuerdos verbales y reglas supletorias de la ley",
+       "Un conflicto lo resolverá la ley o un juez, no ustedes."
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "escalera",
+    "titulo": "Cómo se avanza hacia un gobierno claro entre socios",
+    "alt": "Escalera de cuatro peldaños: conversar expectativas, firmar una hoja de términos, redactar pacto y estatuto con abogado, registrar y revisar cada año.",
+    "datos": {
+     "niveles": [
+      [
+       "Conversar expectativas",
+       "Cada socio responde por escrito las diez preguntas"
+      ],
+      [
+       "Hoja de términos",
+       "Una página con los acuerdos principales"
+      ],
+      [
+       "Pacto y estatuto",
+       "Redactados y armonizados por un abogado"
+      ],
+      [
+       "Registro y revisión",
+       "Registrar lo que corresponda y revisar cada año"
+      ]
+     ],
+     "eje": "Cada peldaño reduce el costo de un conflicto futuro"
+    }
+   }
+  ],
+  "descripcion": "Cómo acordar entre fundadores, antes del primer conflicto, aportes, roles, vesting, mayorías, entrada y salida de socios, valoración y resolución de bloqueos, y qué dice la ley cuando no se pacta nada.",
+  "resumen": [
+   "Sin pacto rigen las reglas supletorias del Código Civil y el estatuto, que rara vez calzan con lo que los fundadores creen haber acordado.",
+   "Por defecto decide la mayoría, los cambios sustanciales requieren unanimidad y la muerte de un socio disuelve la sociedad salvo cláusula de continuación (arts. 2054 y 2103).",
+   "En la SpA el estatuto puede fijar libremente derechos, administración y pactos (art. 424 del Código de Comercio).",
+   "Los pactos sobre cesión de acciones deben depositarse o registrarse en ciertas sociedades para ser oponibles (Ley 18.046, art. 14; Ley 20.659, art. 13 bis).",
+   "Las cláusulas que más se echan de menos son vesting, valoración de salida y mecanismo de desempate."
+  ],
+  "relacionados": [
+   [
+    3,
+    "sociedad limitada y su contrato social"
+   ],
+   [
+    6,
+    "SpA: la libertad de pactos"
+   ],
+   [
+    7,
+    "anónima cerrada y sus pactos"
+   ],
+   [
+    11,
+    "reglas supletorias de la sociedad civil"
+   ],
+   [
+    15,
+    "registro de accionistas y poderes en línea"
+   ],
+   [
+    20,
+    "cuando hay que salir, vender o transformar"
+   ]
+  ]
+ },
+ {
+  "n": 20,
+  "slug": "cambios-de-estructura",
+  "titulo": "Cambios de estructura: modificar, transformar, fusionar, dividir, vender y cerrar una empresa",
+  "grupo": "estrategia",
+  "figuras": [
+   {
+    "tipo": "arbol",
+    "titulo": "Qué cambio de estructura necesitas",
+    "alt": "Árbol de decisión que distingue entre cambiar solo los estatutos, cambiar el tipo social, unir o separar sociedades, vender y terminar.",
+    "datos": {
+     "q": "¿Quieres mantener la misma sociedad con otro contenido o con otro tipo social?",
+     "si": {
+      "q": "¿Cambia solo alguna cláusula (nombre, objeto, capital, administración)?",
+      "si": "Modificación del estatuto, con la forma legal del tipo social",
+      "no": "Transformación a otro tipo social, con análisis tributario"
+     },
+     "no": {
+      "q": "¿Quieres unir o separar sociedades?",
+      "si": "Fusión (por creación o incorporación) o división",
+      "no": "Venta de acciones o de activos, o término de giro y disolución"
+     }
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Cómo migrar entre el sistema tradicional y el Registro",
+    "alt": "Flujo de migración: aprobar el acuerdo, pedir el certificado, firmar el formulario dentro de 30 días, anotación marginal en cinco días hábiles y caducidad a los 35 días.",
+    "datos": {
+     "pasos": [
+      "Aprobar la migración por todos los socios o mayoría absoluta de acciones",
+      "Pedir el certificado para migración al Conservador",
+      "Firmar el formulario de migración dentro de 30 días",
+      "El Registro envía el certificado digital al Conservador",
+      "Anotación marginal en cinco días hábiles"
+     ],
+     "retorno": "Si pasan 35 días sin comunicar la incorporación, el certificado caduca y hay que reiniciar"
+    }
+   },
+   {
+    "tipo": "semaforo",
+    "titulo": "Qué tan ordenado está tu cierre",
+    "alt": "Semáforo del cierre de una empresa: verde con término de giro, balance y certificado de tributos; amarillo con trámites pendientes; rojo con cierre de hecho.",
+    "datos": {
+     "indicador": "Orden del cierre de la empresa",
+     "bandas": [
+      [
+       "verde",
+       "Término de giro avisado, balance presentado, impuesto pagado y certificado obtenido",
+       "Puedes disolver la sociedad con tranquilidad."
+      ],
+      [
+       "amarillo",
+       "Algunos trámites pendientes o sin evidencia",
+       "Regulariza antes de disolver (art. 70)."
+      ],
+      [
+       "rojo",
+       "Dejaste de operar sin avisar al SII ni cerrar contratos",
+       "Siguen corriendo obligaciones y multas."
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "tiempo",
+    "titulo": "Los plazos que más se olvidan en un cambio de estructura",
+    "alt": "Línea de tiempo con los plazos de 30 días para subir el acta, 35 días de caducidad del certificado, 60 días de migración obligatoria y dos meses para el término de giro.",
+    "datos": {
+     "hitos": [
+      [
+       "30 días",
+       "Copia digital del acta en el Registro (art. 14)"
+      ],
+      [
+       "35 días",
+       "Caducidad del certificado para migración (art. 18)"
+      ],
+      [
+       "60 días",
+       "Migración obligatoria al régimen general (art. 19)"
+      ],
+      [
+       "2 meses",
+       "Pago del impuesto en el término de giro (Código Tributario, art. 69)"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "Un calendario con responsables evita que un plazo corto invalide semanas de trabajo."
+    }
+   },
+   {
+    "tipo": "escalera",
+    "titulo": "Cómo se avanza en un cambio de estructura",
+    "alt": "Escalera de cuatro peldaños: definir el objetivo, acordar y documentar, firmar y registrar, y actualizar SII, patente, banco y contratos.",
+    "datos": {
+     "niveles": [
+      [
+       "Definir el objetivo",
+       "Elegir la operación y sus alternativas"
+      ],
+      [
+       "Acordar y documentar",
+       "Acuerdos, balances y borradores revisados"
+      ],
+      [
+       "Firmar y registrar",
+       "Formulario o escritura, inscripciones y copias en plazo"
+      ],
+      [
+       "Actualizar y archivar",
+       "SII, patente, banco, contratos y trabajadores"
+      ]
+     ],
+     "eje": "Cada peldaño evita un error del siguiente"
+    }
+   }
+  ],
+  "descripcion": "Las operaciones con que una empresa cambia su forma o su dueño: modificar estatutos, transformar, fusionar, dividir, migrar de sistema registral, vender acciones o activos y terminar el giro, con plazos, efectos laborales y tributarios.",
+  "resumen": [
+   "En el Registro de Empresas, modificar, transformar, fusionar, dividir, terminar y disolver se hace con la sola suscripción del formulario (Ley 20.659, art. 14).",
+   "La copia digital del acta debe subirse dentro de 30 días corridos; el certificado de migración caduca a los 35 días (arts. 14 y 18).",
+   "Los cambios de dominio de la empresa no alteran los derechos de los trabajadores, que continúan con el nuevo empleador (Código del Trabajo, art. 4).",
+   "Para disolver una sociedad se exige un certificado del SII de tributos al día; el término de giro se paga en dos meses (Código Tributario, arts. 69 y 70).",
+   "Quien compra un negocio es fiador de las obligaciones tributarias del vendedor correspondientes a lo adquirido (art. 71)."
+  ],
+  "relacionados": [
+   [
+    15,
+    "formularios, migración y saneamiento en línea"
+   ],
+   [
+    16,
+    "término de giro y certificado de tributos"
+   ],
+   [
+    19,
+    "valoración, salida y venta entre socios"
+   ],
+   [
+    21,
+    "si el cierre ocurre con deudas"
+   ],
+   [
+    3,
+    "transformación de una limitada"
+   ],
+   [
+    6,
+    "transformación a SpA"
+   ]
+  ]
+ },
+ {
+  "n": 21,
+  "slug": "insolvencia-reorganizacion-y-liquidacion",
+  "titulo": "Insolvencia: reorganización, liquidación y cómo actuar a tiempo (Ley 20.720)",
+  "grupo": "estrategia",
+  "figuras": [
+   {
+    "tipo": "balanza",
+    "titulo": "Reorganizar o liquidar: qué pesa en cada decisión",
+    "alt": "Balanza entre reorganización, que busca un acuerdo para seguir operando, y liquidación, que vende los bienes y paga según la prelación.",
+    "datos": {
+     "izq": [
+      "Reorganización judicial",
+      [
+       "Protección financiera de 60 días, prorrogable",
+       "La empresa propone un acuerdo a sus acreedores",
+       "Dos tercios de los presentes y del pasivo de la clase"
+      ]
+     ],
+     "der": [
+      "Liquidación",
+      [
+       "Un liquidador incauta y vende los bienes",
+       "Se paga según la prelación de créditos",
+       "Puede continuar la actividad si la junta lo acuerda"
+      ]
+     ],
+     "criterio": "Si el negocio es viable y hay tiempo, la reorganización conserva más valor; si no, la liquidación ordena el pago."
+    }
+   },
+   {
+    "tipo": "semaforo",
+    "titulo": "Qué tan cerca estás de un procedimiento concursal",
+    "alt": "Semáforo de señales de insolvencia: verde con caja y plan, amarillo con atrasos y poca caja, rojo con títulos ejecutivos vencidos y ejecuciones iniciadas.",
+    "datos": {
+     "indicador": "Cercanía de un procedimiento concursal",
+     "bandas": [
+      [
+       "verde",
+       "Caja proyectada a 13 semanas y pagos al día",
+       "Hay margen para decidir con calma."
+      ],
+      [
+       "amarillo",
+       "Atrasos con proveedores, cotizaciones o impuestos, y caja bajo 13 semanas",
+       "Es el momento de pedir asesoría y negociar."
+      ],
+      [
+       "rojo",
+       "Títulos ejecutivos vencidos y dos o más ejecuciones iniciadas",
+       "Se acerca la causal de liquidación forzosa (art. 117)."
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "tiempo",
+    "titulo": "Los plazos de la protección financiera concursal",
+    "alt": "Línea de tiempo: resolución en cinco días, protección de 60 días, primera prórroga de hasta 60 días con más del 30 % del pasivo y segunda de 60 días con más del 50 %.",
+    "datos": {
+     "hitos": [
+      [
+       "Día 0",
+       "Se presenta la solicitud; resolución dentro del quinto día (arts. 54 y 57)"
+      ],
+      [
+       "Día 60",
+       "Vence la protección inicial desde la notificación"
+      ],
+      [
+       "Hasta día 120",
+       "Primera prórroga con apoyo de más del 30 % del pasivo (art. 58)"
+      ],
+      [
+       "Hasta día 180",
+       "Segunda prórroga con apoyo de más del 50 % (art. 58)"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "La protección impide la liquidación y las ejecuciones mientras el deudor negocia el acuerdo."
+    }
+   },
+   {
+    "tipo": "barras",
+    "titulo": "Cómo se reparte una liquidación entre las clases de acreedores",
+    "alt": "Barras de un ejemplo ilustrativo: de 40 millones, 22 van a créditos de primera clase y 18 al conjunto de acreedores valistas, que recuperan el 20 % de sus créditos.",
+    "datos": {
+     "serie": [
+      [
+       "Gastos del procedimiento",
+       4
+      ],
+      [
+       "Remuneraciones y cotizaciones",
+       12
+      ],
+      [
+       "Impuestos de retención",
+       6
+      ],
+      [
+       "Acreedores valistas",
+       18
+      ]
+     ],
+     "unidad": " millones",
+     "destacar": 3,
+     "eje": "Reparto de 40 millones de pesos (ilustrativo)",
+     "nota": "Los valistas, con 90 millones de créditos, recuperan 18 millones: el 20 %."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Cómo avanzar ante una crisis de pagos",
+    "alt": "Flujo de decisión: congelar decisiones irreversibles, conocer la caja, mapear acreedores, consultar a un abogado de insolvencia, evaluar vías y ejecutar con registro.",
+    "datos": {
+     "pasos": [
+      "Congelar decisiones irreversibles y conocer la caja",
+      "Mapear acreedores, garantías y relacionados",
+      "Consultar a un abogado de insolvencia y a un contador",
+      "Comparar vías: acuerdo privado, reorganización, venta o liquidación",
+      "Ejecutar con registro de decisiones y comunicación"
+     ],
+     "retorno": "Revisar el plan cada semana mientras dure la crisis"
+    }
+   }
+  ],
+  "descripcion": "Qué hacer cuando una empresa no puede pagar sus deudas: reorganización judicial y extrajudicial, liquidación voluntaria y forzosa, orden de pago de los créditos, revocación de actos y alternativas, según la Ley 20.720.",
+  "resumen": [
+   "La Ley 20.720 regula la reorganización y la liquidación de empresas y personas; la reorganización busca un acuerdo para seguir operando.",
+   "La protección financiera dura 60 días desde la notificación, prorrogable con apoyo de más del 30 % y del 50 % del pasivo (arts. 57 y 58).",
+   "Un acreedor puede pedir la liquidación si hay un título ejecutivo vencido, o dos o más con dos ejecuciones iniciadas, o la empresa no es habida (art. 117).",
+   "En la liquidación se paga primero a los créditos de primera clase (costas, remuneraciones, cotizaciones, impuestos de retención, con límites) y los valistas cobran a prorrata.",
+   "Pagos anticipados, garantías para deudas antiguas y actos perjudiciales de hasta uno o dos años antes pueden revocarse (arts. 287 a 289)."
+  ],
+  "relacionados": [
+   [
+    20,
+    "cierre y disolución cuando no hay deudas"
+   ],
+   [
+    19,
+    "conflictos y salida entre socios"
+   ],
+   [
+    9,
+    "cooperativas y su régimen propio"
+   ],
+   [
+    16,
+    "término de giro y obligaciones tributarias"
+   ],
+   [
+    3,
+    "responsabilidad limitada y avales de los socios"
+   ]
+  ]
  }
 ]

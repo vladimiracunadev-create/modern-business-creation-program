@@ -16,7 +16,8 @@ material complementario.
 - [x] Workflow de seguridad con gitleaks, bandit y pip-audit.
 - [x] Capa pedagógica: propósito, desarrollo aplicado y preguntas de comprobación en las 336 clases.
 - [x] 336 modelos mentales SVG (uno distinto por clase) y 24 diagramas mermaid por parte, validados en CI.
-- [x] 18 anexos de profundidad (14 tipos y regímenes, Empresa en un Día, SII, municipalidades y domicilio) con figuras, fuentes y preguntas frecuentes.
+- [x] 21 anexos de profundidad (14 tipos y regímenes; Empresa en un Día, SII, municipalidades y domicilio; pactos de socios, cambios de estructura e insolvencia) con figuras, fuentes y preguntas frecuentes.
+- [x] Manuales transversales `docs/05`, `08` a `14` y `18` ampliados a más de 5.000 palabras cada uno.
 - [x] Narrativa, mapa visual, glosario y bibliografía en cada una de las 24 partes.
 - [x] Fuentes oficiales con qué contienen y cómo leerlas, no solo el enlace.
 - [x] Glosario maestro de 1.251 términos generado desde los conceptos del currículo.

@@ -7,6 +7,19 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ### Añadido
 
+- **Anexos estratégicos 19 a 21** (más de 5.000 palabras cada uno, 15 figuras SVG, fuentes con enlace y 20 preguntas
+  frecuentes): pactos de socios y gobierno entre fundadores (19), cambios de estructura: modificar, transformar,
+  fusionar, dividir, vender y cerrar (20) e insolvencia, reorganización y liquidación según la Ley 20.720 (21). Se
+  redactaron sobre los artículos leídos del Código Civil, el Código de Comercio, el Código Tributario, el Código del
+  Trabajo y las leyes 20.659 y 20.720; lo no leído se declara en cada anexo.
+- **Ampliación de los anexos 01 a 17**: seis secciones nuevas (escenarios resueltos, catálogo de errores, alternativas y
+  variantes de diseño, vinculación con otros anexos y con las clases, plantillas y listas de trabajo, autoevaluación),
+  glosario ampliado y más preguntas frecuentes; los anexos extendidos quedan entre 8.000 y 10.000 palabras.
+- **Manuales transversales ampliados** a más de 5.000 palabras cada uno, con diagramas, casos, catálogo de errores,
+  plantillas, preguntas frecuentes y glosario: `docs/05_ASSETS_AND_RECORDS.md`, `08_EMPLOYMENT_FLOW_CHILE.md`,
+  `09_CONSUMER_ECOMMERCE_PRIVACY.md`, `10_FINANCING_AND_STATE_SUPPORT.md`, `11_FINTECH_DIGITAL_ASSETS.md`,
+  `12_EXPORT_IMPORT_FLOW.md`, `13_COMPLIANCE_RISK.md`, `14_CRISIS_INSOLVENCY_CLOSURE.md` y
+  `18_WHEN_TO_CALL_A_PROFESSIONAL.md` (que además explica cuándo es válido hacerlo uno mismo o con IA).
 - **17 anexos de profundidad** en `annexes/` (más de 5.000 palabras cada uno, 82 figuras SVG, fuentes con
   enlace oficial, lista «antes de construir» y 20 preguntas frecuentes): persona natural con giro (01), EIRL (02),
   sociedad limitada (03), colectiva comercial (04), comandita simple y por acciones (05), SpA (06), anónima

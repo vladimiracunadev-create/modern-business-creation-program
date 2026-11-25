@@ -27,6 +27,9 @@ fuente citada y en el texto vigente de la ley.
 | Ya elegí el tipo y quiero constituirla | 15, 16 y 17 |
 | Soy pyme y busco trámites más simples | 13, 17 y 16 |
 | Necesito una dirección: oficina virtual, coworking, casa o local | 18, luego 16 y 17 |
+| Tengo socios y quiero acordar reglas antes de un conflicto | 19, con 03, 06 o 07 |
+| Quiero transformar, fusionar, dividir, vender o cerrar mi empresa | 20, luego 16 y 15 |
+| No puedo pagar mis deudas y necesito entender mis opciones | 21 y la guía de crisis; abogado de insolvencia |
 
 ## Índice
 
@@ -49,7 +52,10 @@ fuente citada y en el texto vigente de la ley.
 | 15 | [Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md) | Empresa en un Día: el Registro de Empresas y Sociedades de la Ley 20.659, con formulario, firma electrónica, RUT automático y registros de accionistas y poderes. | Trámites e instituciones | 7.688 |
 | 16 | [Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) | Servicio de Impuestos Internos: RUT, inicio de actividades, documentos electrónicos, IVA, Registro de Compras y Ventas, ciclo mensual y anual y término de giro. | Trámites e instituciones | 7.618 |
 | 17 | [Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md) | Municipalidades: patente comercial, zonificación, patente provisoria y sanciones, con el orden correcto de los permisos para abrir un local. | Trámites e instituciones | 7.759 |
-| 18 | [Domicilio, oficinas virtuales, coworking y otras formas de ubicar tu empresa](18-domicilio-oficinas-virtuales-y-coworking.md) | Cada forma de ubicar tu empresa explicada: casa habitación, microempresa familiar, local propio o arrendado, comodato, oficina virtual, coworking, sucursales, y cómo se acredita el domicilio ante el SII. | Trámites e instituciones | 10.261 |
+| 18 | [Domicilio, oficinas virtuales, coworking y otras formas de ubicar tu empresa](18-domicilio-oficinas-virtuales-y-coworking.md) | Cada forma de ubicar tu empresa explicada: casa habitación, microempresa familiar, local propio o arrendado, comodato, oficina virtual, coworking, sucursales, y cómo se acredita el domicilio ante el SII. | Trámites e instituciones | 10.311 |
+| 19 | [Pactos de socios y gobierno entre fundadores: qué acordar antes de que haya un conflicto](19-pactos-de-socios-y-gobierno-entre-fundadores.md) | Cómo acordar entre fundadores, antes del primer conflicto, aportes, roles, vesting, mayorías, entrada y salida de socios, valoración y resolución de bloqueos, y qué dice la ley cuando no se pacta nada. | Decisiones estratégicas | 5.871 |
+| 20 | [Cambios de estructura: modificar, transformar, fusionar, dividir, vender y cerrar una empresa](20-cambios-de-estructura-fusion-division-venta-y-cierre.md) | Las operaciones con que una empresa cambia su forma o su dueño: modificar estatutos, transformar, fusionar, dividir, migrar de sistema registral, vender acciones o activos y terminar el giro, con plazos, efectos laborales y tributarios. | Decisiones estratégicas | 5.689 |
+| 21 | [Insolvencia: reorganización, liquidación y cómo actuar a tiempo (Ley 20.720)](21-insolvencia-reorganizacion-y-liquidacion.md) | Qué hacer cuando una empresa no puede pagar sus deudas: reorganización judicial y extrajudicial, liquidación voluntaria y forzosa, orden de pago de los créditos, revocación de actos y alternativas, según la Ley 20.720. | Decisiones estratégicas | 5.407 |
 
 ## Matriz comparativa de las formas jurídicas
 
