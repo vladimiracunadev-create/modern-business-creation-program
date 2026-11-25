@@ -15,7 +15,7 @@ material complementario.
 - [x] CI con validación de estructura, enlaces, codificación, sincronía manifiesto–README, markdownlint, build del sitio y tests.
 - [x] Workflow de seguridad con gitleaks, bandit y pip-audit.
 - [x] Capa pedagógica: propósito, desarrollo aplicado y preguntas de comprobación en las 336 clases.
-- [x] 360 diagramas mermaid — uno por clase y uno por parte — validados en CI.
+- [x] 336 modelos mentales SVG (uno distinto por clase) y 24 diagramas mermaid por parte, validados en CI.
 - [x] Narrativa, mapa visual, glosario y bibliografía en cada una de las 24 partes.
 - [x] Fuentes oficiales con qué contienen y cómo leerlas, no solo el enlace.
 - [x] Glosario maestro de 1.251 términos generado desde los conceptos del currículo.

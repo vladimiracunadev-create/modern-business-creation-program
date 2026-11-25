@@ -106,8 +106,12 @@ jobs:
       - name: Verificar que los diagramas llegaron al HTML
         run: |
           con_diagrama=$(grep -rl 'class="mermaid"' site --include='*.html' | wc -l)
-          echo "Páginas con diagrama: $con_diagrama"
-          test "$con_diagrama" -ge 360
+          con_modelo=$(grep -rl 'modelo-mental.svg' site --include='*.html' | wc -l)
+          archivos_svg=$(find site -name 'modelo-mental.svg' | wc -l)
+          echo "Partes con mermaid: $con_diagrama; clases con modelo SVG: $con_modelo; archivos SVG: $archivos_svg"
+          test "$con_diagrama" -ge 24
+          test "$con_modelo" -ge 336
+          test "$archivos_svg" -ge 336
 
   manual:
     name: Manual en PDF

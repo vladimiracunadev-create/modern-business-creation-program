@@ -65,7 +65,7 @@ responsable y qué evidencia debe quedar**.
 | Currículo | ✅ 336/336 clases generadas desde manifiesto |
 | Contenido por clase | ✅ propósito, conceptos, desarrollo en tres bloques, taller, reto, errores y preguntas propias |
 | Profundidad | ✅ 1.144–3.064 palabras por clase (mediana 1.343), 467.439 palabras totales |
-| Diagramas | ✅ 360 diagramas mermaid (uno por clase y uno por parte) y 336 modelos mentales SVG, uno distinto por clase, con 14 arquetipos |
+| Diagramas | ✅ 336 modelos mentales SVG (uno distinto por clase, 14 arquetipos) y 24 diagramas mermaid por parte |
 | Conceptos definidos | ✅ 1.344 definiciones operacionales · glosario maestro de 1.251 términos |
 | Preguntas de comprobación | ✅ 1.008 (3 por clase) |
 | Marco normativo | ✅ 24 paquetes de parte con narrativa, normas, autoridades, riesgos y bibliografía |
@@ -529,7 +529,7 @@ npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 - 📚 un currículo **secuencial y completo** de 336 clases, de la idea a la venta o el cierre de la empresa;
 - 🇨🇱 material **Chile-first de verdad**: nombra la ley, el organismo y el trámite, no habla de "la regulación" en abstracto;
 - 🔗 contenido con **fuente citada, explicada y fechada**: cada una dice qué contiene y cómo leerla;
-- 🗺️ **360 diagramas** que muestran el flujo de decisión, no ilustraciones decorativas;
+- 🗺️ **360 diagramas** (336 modelos mentales SVG, uno por clase, y 24 mermaid por parte) que muestran el flujo de decisión, no ilustraciones decorativas;
 - 🔍 material **honesto sobre sus límites**: distingue lo verificado de lo dinámico y marca qué revalidar;
 - 📖 material **abierto y offline-friendly**: manual de 1.606 páginas en PDF, sitio en Pages y todo el Markdown en el repositorio.
 
