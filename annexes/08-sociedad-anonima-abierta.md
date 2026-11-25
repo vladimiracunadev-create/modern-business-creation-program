@@ -82,7 +82,7 @@ cuatro años si se han cumplido ciertas condiciones sobre esa participación.
 | Director independiente y comité | No | Si superan el umbral del art. 50 bis |
 | Información privilegiada | Normas generales | Título XXI Ley 18.045 |
 
-## 4. Cómo se llega a ser abierta
+## 4. Cómo se constituye
 
 ### 4.1. No se constituye así: se transforma o se inscribe
 
