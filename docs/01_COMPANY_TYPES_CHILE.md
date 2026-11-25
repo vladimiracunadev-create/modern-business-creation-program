@@ -48,3 +48,8 @@ permite EIRL, Ltda., SpA, S.A. cerrada, SAGR, SCC, SCS y SCA, además de modific
 transformaciones, fusiones, divisiones y disoluciones.
 
 Fuente: https://www.chileatiende.gob.cl/fichas/21409-tu-empresa
+
+## Profundizar
+
+Cada forma jurídica tiene un anexo de más de 5.000 palabras con historia, marco legal, constitución,
+gobierno, responsabilidad, tributación, preguntas frecuentes y fuentes: ver el [índice de anexos](../annexes/README.md).

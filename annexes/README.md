@@ -17,6 +17,7 @@ tributaria: confirma cada dato en la fuente citada y en el texto vigente de la l
 
 | N.º | Anexo | Grupo | Palabras |
 |---:|---|---|---:|
+| 01 | [Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md) | Sin sociedad | 5.045 |
 | 02 | [Empresa Individual de Responsabilidad Limitada (EIRL)](02-empresa-individual-de-responsabilidad-limitada-eirl.md) | Sin sociedad | 5.156 |
 | 03 | [Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md) | Sociedades de personas | 5.062 |
 | 04 | [Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md) | Sociedades de personas | 5.060 |
@@ -29,7 +30,10 @@ tributaria: confirma cada dato en la fuente citada y en el texto vigente de la l
 | 11 | [Sociedad Civil (Código Civil)](11-sociedad-civil.md) | Otras formas | 5.008 |
 | 12 | [Corporaciones. asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md) | Otras formas | 5.119 |
 | 13 | [Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](13-estatuto-pyme-empresas-de-menor-tamano.md) | Otras formas | 5.483 |
-| 14 | [Sucursal o agencia de sociedad extranjera](14-sucursal-o-agencia-de-sociedad-extranjera.md) | Otras formas | 4.996 |
+| 14 | [Sucursal o agencia de sociedad extranjera](14-sucursal-o-agencia-de-sociedad-extranjera.md) | Otras formas | 5.071 |
+| 15 | [Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md) | Trámites e instituciones | 5.156 |
+| 16 | [Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) | Trámites e instituciones | 5.047 |
+| 17 | [Municipalidades: patente comercial. zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md) | Trámites e instituciones | 5.023 |
 
 ## Lo que dice y lo que no dice este material
 

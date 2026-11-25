@@ -1,5 +1,94 @@
 [
  {
+  "n": 1,
+  "slug": "persona-natural",
+  "titulo": "Persona natural con giro y trabajador independiente",
+  "grupo": "personas",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "De la Ley de la Renta a las formas con responsabilidad limitada",
+    "alt": "Línea de tiempo: 1974 Ley de la Renta e IVA reconocen a quienes trabajan por cuenta propia, 2003 EIRL, 2010 Estatuto Pyme y 2013 constitución de sociedades en línea.",
+    "datos": {
+     "hitos": [
+      [
+       "1974",
+       "DL 824 y DL 825: renta e IVA para independientes y empresarios"
+      ],
+      [
+       "2003",
+       "Ley 19.857: nace la EIRL"
+      ],
+      [
+       "2010",
+       "Ley 20.416: Estatuto Pyme y microempresa"
+      ],
+      [
+       "2013",
+       "Ley 20.659: sociedades en línea"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "La persona natural es el primer paso de muchos negocios; el derecho ofrece formas con responsabilidad limitada para cuando crecen."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Formalizar una actividad como persona natural",
+    "alt": "Flujo de cinco pasos: definir la actividad y su categoría, declarar el inicio de actividades en dos meses, elegir documentos y códigos, tramitar patente y permisos y separar cuentas y contratar seguros.",
+    "datos": {
+     "pasos": [
+      "Definir actividad y categoría tributaria",
+      "Inicio de actividades dentro de 2 meses (art. 68)",
+      "Elegir documentos y códigos de actividad",
+      "Patente municipal y permisos sectoriales",
+      "Cuenta separada, registro y seguros"
+     ],
+     "retorno": "Cuando crece el riesgo o el tamaño, evalúa una EIRL o una sociedad"
+    }
+   },
+   {
+    "tipo": "capas",
+    "titulo": "Qué responde cuando el negocio debe",
+    "alt": "Cuatro capas de responsabilidad de una persona natural: bienes del negocio, ahorros y bienes personales, bienes futuros y excepciones de bienes no embargables.",
+    "datos": {
+     "capas": [
+      [
+       "Bienes del negocio",
+       "Herramientas, inventario y cuentas del negocio"
+      ],
+      [
+       "Bienes personales",
+       "Vehículo, ahorros e inmuebles embargables"
+      ],
+      [
+       "Bienes futuros",
+       "Ingresos y bienes que adquieras después (art. 2465)"
+      ],
+      [
+       "Excepción",
+       "Solo los bienes no embargables quedan fuera"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "¿Honorarios o factura?",
+    "alt": "Árbol de decisión: si ejerces una profesión liberal sin giro comercial emites boleta de honorarios en Segunda Categoría, y si vendes bienes o tienes giro comercial emites factura o boleta en Primera Categoría.",
+    "datos": {
+     "q": "¿Tu ingreso viene del ejercicio de una profesión u ocupación sin giro comercial?",
+     "si": "Boleta de honorarios: Segunda Categoría, con retención de tus clientes",
+     "no": {
+      "q": "¿Vendes bienes o tienes un giro de industria o comercio?",
+      "si": "Factura o boleta: Primera Categoría, IVA y régimen a elegir",
+      "no": "Consulta al SII y a tu contador cómo se clasifica tu actividad"
+     }
+    }
+   }
+  ]
+ },
+ {
   "n": 2,
   "slug": "eirl",
   "titulo": "Empresa Individual de Responsabilidad Limitada (EIRL)",
@@ -1629,6 +1718,334 @@
       "si": "Filial con pacto de socios",
       "no": "Sucursal puede bastar; simula el impuesto adicional"
      }
+    }
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "slug": "empresa-en-un-dia",
+  "titulo": "Empresa en un Día: el Registro de Empresas y Sociedades",
+  "grupo": "tramites",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "De la Ley 20.659 al formulario electrónico",
+    "alt": "Línea de tiempo: enero de 2013 promulgación de la Ley 20.659, febrero de 2013 publicación, reglamento y entrada en vigencia por etapas, y comanditas incorporadas dos años después.",
+    "datos": {
+     "hitos": [
+      [
+       "31 ene 2013",
+       "Se promulga la Ley 20.659"
+      ],
+      [
+       "8 feb 2013",
+       "Se publica en el Diario Oficial"
+      ],
+      [
+       "Reglamento",
+       "Fija formularios y fechas de acogida por tipo"
+      ],
+      [
+       "+2 años",
+       "Las comanditas pueden acogerse (art. 3 transitorio)"
+      ]
+     ],
+     "hito": 1,
+     "bajada": "El nombre popular alude a la rapidez posible; la ley fija plazos máximos, no una duración."
+    }
+   },
+   {
+    "tipo": "escalera",
+    "titulo": "Los peldaños del formulario de constitución",
+    "alt": "Escalera de cuatro peldaños: decidir el estatuto, completar el formulario, firmar todos dentro de sesenta días e incorporar al Registro con RUT.",
+    "datos": {
+     "niveles": [
+      [
+       "Decidir el estatuto",
+       "Tipo, nombre, objeto, capital, administración y pacto"
+      ],
+      [
+       "Completar el formulario",
+       "Campos obligatorios y dirección para el RUT"
+      ],
+      [
+       "Firmar todos en 60 días",
+       "Firma avanzada o ante notario"
+      ],
+      [
+       "Incorporación y RUT",
+       "El SII queda informado y asigna el RUT"
+      ]
+     ],
+     "eje": "Tras la primera firma, el formulario no se puede modificar"
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "Cómo firmar si no todos tienen firma avanzada",
+    "alt": "Árbol de decisión: si todos los socios tienen firma electrónica avanzada firman en línea, y si no, firman ante notario o designan un apoderado único con firma avanzada.",
+    "datos": {
+     "q": "¿Todos los socios tienen firma electrónica avanzada?",
+     "si": "Cada uno firma en línea dentro de los 60 días",
+     "no": {
+      "q": "¿Pueden designar un apoderado único con firma avanzada?",
+      "si": "El apoderado firma por todos (art. 9)",
+      "no": "Quien no tiene firma firma ante notario, que estampa la suya"
+     }
+    }
+   },
+   {
+    "tipo": "actores",
+    "titulo": "Los registros dentro del Registro",
+    "alt": "Mapa con el Registro de Empresas y Sociedades al centro y alrededor el registro de formularios, el registro de accionistas, el registro de poderes, el SII y los certificados de la Subsecretaría.",
+    "datos": {
+     "centro": "Registro de Empresas y Sociedades",
+     "actores": [
+      [
+       "Formularios",
+       "Estatuto y modificaciones; público y gratuito"
+      ],
+      [
+       "Registro de Accionistas",
+       "Cesiones y gravámenes; acceso restringido"
+      ],
+      [
+       "Registro de Poderes",
+       "Poderes y revocaciones; acceso público"
+      ],
+      [
+       "SII",
+       "Recibe la información y asigna el RUT"
+      ],
+      [
+       "Subsecretaría",
+       "Emite certificados con valor de instrumento público"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "slug": "sii",
+  "titulo": "Servicio de Impuestos Internos (SII): lo que una empresa debe saber",
+  "grupo": "tramites",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "De los papeles a la carpeta tributaria electrónica",
+    "alt": "Línea de tiempo: Código Tributario y Ley del IVA, digitalización de documentos y Registro de Compras y Ventas, 2013 Ley 20.659 integra el RUT, 2024 Ley 21.713 y 2026 Ley 21.850.",
+    "datos": {
+     "hitos": [
+      [
+       "Base legal",
+       "Código Tributario y DL 825 (IVA)"
+      ],
+      [
+       "Digitalización",
+       "Documentos electrónicos y Registro de Compras y Ventas"
+      ],
+      [
+       "2013",
+       "Ley 20.659: el SII queda informado y asigna el RUT"
+      ],
+      [
+       "2024-2026",
+       "Leyes 21.713, 21.755 y 21.850"
+      ]
+     ],
+     "hito": 2,
+     "bajada": "La relación con el SII es hoy electrónica, continua y cruzada con datos de terceros."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Dar de alta una empresa ante el SII",
+    "alt": "Flujo de cinco pasos: RUT, declaración de inicio de actividades dentro de dos meses, giros y régimen, documentos electrónicos y revisión mensual del Registro de Compras y Ventas.",
+    "datos": {
+     "pasos": [
+      "RUT (automático si te constituyes por el Registro)",
+      "Inicio de actividades dentro de 2 meses (art. 68)",
+      "Giros reales y régimen simulado",
+      "Documentos tributarios electrónicos",
+      "Revisión mensual del Registro de Compras y Ventas"
+     ],
+     "retorno": "Cada mes: declarar, pagar, archivar y conciliar con la contabilidad"
+    }
+   },
+   {
+    "tipo": "embudo",
+    "titulo": "Cómo se calcula el IVA del mes (ejemplo ilustrativo)",
+    "alt": "Embudo con el cálculo del IVA mensual: débito fiscal de un millón novecientos mil pesos, menos crédito fiscal de setecientos sesenta mil, igual a un millón ciento cuarenta mil de IVA a pagar.",
+    "datos": {
+     "etapas": [
+      [
+       "Ventas netas del mes",
+       "$10.000.000",
+       1.0
+      ],
+      [
+       "Débito fiscal (19 %)",
+       "$1.900.000",
+       0.7
+      ],
+      [
+       "Menos crédito fiscal (compras con factura registrada)",
+       "$760.000",
+       0.45
+      ],
+      [
+       "IVA a pagar",
+       "$1.140.000",
+       0.3
+      ]
+     ],
+     "cuello": 3
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "Cerrar una empresa ante el SII",
+    "alt": "Árbol de decisión para cerrar una empresa: si cesa actividades debe avisar el término de giro con balance, y si es sociedad que se disuelve necesita el certificado de estar al día.",
+    "datos": {
+     "q": "¿La empresa deja de realizar actividades afectas a impuestos?",
+     "si": {
+      "q": "¿Es una sociedad que se va a disolver?",
+      "si": "Término de giro con balance final y certificado del SII de estar al día (arts. 69 y 70)",
+      "no": "Término de giro con balance final y pago en 2 meses (art. 69)"
+     },
+     "no": "Sigue declarando: cerrar de hecho no termina las obligaciones"
+    }
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "slug": "municipalidades",
+  "titulo": "Municipalidades: patente comercial, zonificación y permisos locales",
+  "grupo": "tramites",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "Las normas municipales que tocan a una empresa",
+    "alt": "Línea de tiempo: 1979 Decreto Ley 3.063 sobre rentas municipales, 1996 texto refundido por el Decreto 2.385, 2010 Estatuto Pyme y 2011 Ley 20.494 que agiliza la patente.",
+    "datos": {
+     "hitos": [
+      [
+       "1979",
+       "DL 3.063: rentas municipales y patente"
+      ],
+      [
+       "1996",
+       "Decreto 2.385: texto refundido"
+      ],
+      [
+       "2010",
+       "Ley 20.416: exención o cuotas para pymes"
+      ],
+      [
+       "2011",
+       "Ley 20.494: patente inmediata y provisoria"
+      ]
+     ],
+     "hito": 3,
+     "bajada": "Hoy la ley obliga a otorgar la patente de inmediato si los permisos están completos."
+    }
+   },
+   {
+    "tipo": "escalera",
+    "titulo": "El orden de los permisos para abrir un local",
+    "alt": "Escalera de cinco peldaños: verificar zonificación, autorización sanitaria, otros permisos especiales, verificación de la Dirección de Obras y patente municipal.",
+    "datos": {
+     "niveles": [
+      [
+       "Zonificación",
+       "Uso de suelo según el Plan Regulador, antes de arrendar"
+      ],
+      [
+       "Autorización sanitaria",
+       "Acompañarla o acreditar que se solicitó"
+      ],
+      [
+       "Permisos de leyes especiales",
+       "Según la actividad"
+      ],
+      [
+       "Dirección de Obras",
+       "Verifica condiciones de funcionamiento si corresponde"
+      ],
+      [
+       "Patente municipal",
+       "Declaración de capital propio y pago"
+      ]
+     ],
+     "eje": "Cada peldaño habilita al siguiente"
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "¿Patente definitiva, provisoria o ninguna?",
+    "alt": "Árbol de decisión: si están todos los permisos y no se requiere verificación de la Dirección de Obras se otorga patente definitiva inmediata, y si faltan permisos pero hay zonificación y solicitud sanitaria se otorga patente provisoria.",
+    "datos": {
+     "q": "¿Cumples zonificación y tienes (o solicitaste) los permisos exigidos?",
+     "si": {
+      "q": "¿Tienes todos los permisos y no se requiere verificación de la Dirección de Obras?",
+      "si": "Patente definitiva inmediata (art. 26)",
+      "no": "Patente provisoria inmediata, con plazo para completar"
+     },
+     "no": "Sin patente: no puedes funcionar; corrige zonificación o permisos"
+    }
+   },
+   {
+    "tipo": "barras",
+    "titulo": "Cuánto cuesta una patente según la tasa comunal",
+    "alt": "Gráfico de barras que compara la patente anual de un capital propio de cuarenta millones de pesos con una tasa de 2,5 por mil, 3,75 por mil y 5 por mil: cien mil, ciento cincuenta mil y doscientos mil pesos.",
+    "datos": {
+     "serie": [
+      [
+       "Tasa 2,5 por mil",
+       100
+      ],
+      [
+       "Tasa 3,75 por mil",
+       150
+      ],
+      [
+       "Tasa 5 por mil",
+       200
+      ]
+     ],
+     "unidad": " mil $",
+     "destacar": 0,
+     "eje": "Patente anual en miles de pesos, capital propio de $40.000.000 (ilustrativo)",
+     "nota": "La tasa la fija cada comuna dentro del rango legal; hay mínimo de una UTM y máximo de 8.000 UTM."
+    }
+   },
+   {
+    "tipo": "semaforo",
+    "titulo": "Estados posibles de una patente",
+    "alt": "Semáforo con tres estados de una patente: definitiva y al día en verde, provisoria con plazo en amarillo, y en mora o caducada en rojo con riesgo de clausura.",
+    "datos": {
+     "indicador": "Situación de tu patente municipal",
+     "bandas": [
+      [
+       "verde",
+       "Definitiva y pagada en julio y enero",
+       "Operas con tranquilidad; calendariza los pagos y la declaración de mayo."
+      ],
+      [
+       "amarillo",
+       "Provisoria con permisos pendientes",
+       "Controla el plazo de dos años y presenta el plan de trabajo 60 días antes si necesitas extensión."
+      ],
+      [
+       "rojo",
+       "En mora, caducada o sin patente",
+       "Riesgo de clausura y multas: regulariza de inmediato."
+      ]
+     ]
     }
    }
   ]

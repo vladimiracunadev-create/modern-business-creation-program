@@ -342,11 +342,33 @@ Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla ti
 
 ## 📚 Anexos: tipos de empresa, Empresa en un Día, SII y municipalidades
 
-Los [anexos](annexes/README.md) son lecturas de profundidad que acompañan a las clases: cada uno tiene
-**más de 5.000 palabras**, figuras SVG propias, fuentes oficiales con enlace, una lista de verificación
-«antes de construir» y preguntas frecuentes. Cubren los tipos de empresa chilenos (EIRL, SpA,
-sociedades, cooperativas, entre otros), el trámite de Empresa en un Día, el Servicio de Impuestos
-Internos y las municipalidades. Son material educativo, no asesoría legal.
+Los [anexos](annexes/README.md) son lecturas de profundidad que acompañan a las clases: **17 anexos de más de
+5.000 palabras cada uno**, con figuras SVG propias, fuentes oficiales con enlace, una lista de verificación
+«antes de construir» y preguntas frecuentes. Los 14 primeros describen un tipo de empresa o régimen (historia,
+leyes, constitución, capital, gobierno, responsabilidad, tributación y cuándo llamar a un profesional); los
+tres últimos explican el Registro de Empresas y Sociedades («Empresa en un Día»), el Servicio de Impuestos
+Internos y las municipalidades. Son material educativo, no asesoría legal; cada anexo declara su fecha de
+consulta y sus límites.
+
+| N.º | Anexo |
+|---:|---|
+| 01 | [Persona natural con giro y trabajador independiente](annexes/01-persona-natural-con-giro-y-trabajador-independiente.md) |
+| 02 | [Empresa Individual de Responsabilidad Limitada (EIRL)](annexes/02-empresa-individual-de-responsabilidad-limitada-eirl.md) |
+| 03 | [Sociedad de Responsabilidad Limitada (Ltda.)](annexes/03-sociedad-de-responsabilidad-limitada-ltda.md) |
+| 04 | [Sociedad Colectiva Comercial](annexes/04-sociedad-colectiva-comercial.md) |
+| 05 | [Sociedad en Comandita (simple y por acciones)](annexes/05-sociedad-en-comandita.md) |
+| 06 | [Sociedad por Acciones (SpA)](annexes/06-sociedad-por-acciones-spa.md) |
+| 07 | [Sociedad Anónima Cerrada (S.A.)](annexes/07-sociedad-anonima-cerrada.md) |
+| 08 | [Sociedad Anónima Abierta (mercado de valores, CMF)](annexes/08-sociedad-anonima-abierta.md) |
+| 09 | [Cooperativa](annexes/09-cooperativa.md) |
+| 10 | [Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)](annexes/10-sociedad-de-garantia-reciproca-sagr.md) |
+| 11 | [Sociedad Civil (Código Civil)](annexes/11-sociedad-civil.md) |
+| 12 | [Corporaciones, asociaciones y fundaciones](annexes/12-corporaciones-asociaciones-y-fundaciones.md) |
+| 13 | [Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](annexes/13-estatuto-pyme-empresas-de-menor-tamano.md) |
+| 14 | [Sucursal o agencia de sociedad extranjera](annexes/14-sucursal-o-agencia-de-sociedad-extranjera.md) |
+| 15 | [Empresa en un Día: el Registro de Empresas y Sociedades](annexes/15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md) |
+| 16 | [Servicio de Impuestos Internos (SII): lo que una empresa debe saber](annexes/16-servicio-de-impuestos-internos-sii.md) |
+| 17 | [Municipalidades: patente comercial, zonificación y permisos locales](annexes/17-municipalidades-patentes-y-permisos-locales.md) |
 
 ## 🔬 Caso transversal MEDVi
 
@@ -501,7 +523,7 @@ sitio **y el manual en PDF releído desde el archivo emitido**. Nada llega a `ma
 
 | ⚙️ Workflow | Qué cubre |
 |---|---|
-| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 71 pruebas estructurales, build del sitio y compilación del manual |
+| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 83 pruebas estructurales, build del sitio y compilación del manual |
 | 🔒 [security.yml](.github/workflows/security.yml) | secretos (`gitleaks`), análisis estático de los scripts (`bandit`), dependencias fijadas a versión exacta y auditadas con `pip-audit` |
 | 🚀 [deploy-pages.yml](.github/workflows/deploy-pages.yml) | compila el manual integral y los 24 PDF por parte, genera el sitio, verifica que las 25 descargas llegaron y despliega a GitHub Pages |
 
@@ -517,7 +539,7 @@ python scripts/validar_encoding.py          # todo UTF-8, sin BOM ni mojibake
 python scripts/generar_manual.py --partes   # manual integral + 24 PDF por parte
 python scripts/generar_manual.py --verificar  # relee el PDF: portada, versión y extensión
 python scripts/generar_sitio.py             # sitio HTML en site/ y copia de las descargas
-python -m unittest discover -s tests -v     # 71 pruebas estructurales
+python -m unittest discover -s tests -v     # 83 pruebas estructurales
 npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 ```
 

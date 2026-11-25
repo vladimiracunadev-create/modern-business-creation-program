@@ -7,6 +7,24 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ### Añadido
 
+- **17 anexos de profundidad** en `annexes/` (más de 5.000 palabras cada uno, 82 figuras SVG, fuentes con
+  enlace oficial, lista «antes de construir» y 20 preguntas frecuentes): persona natural con giro (01), EIRL (02),
+  sociedad limitada (03), colectiva comercial (04), comandita simple y por acciones (05), SpA (06), anónima
+  cerrada (07) y abierta (08), cooperativa (09), sociedad de garantía recíproca (10), sociedad civil (11),
+  corporaciones, asociaciones y fundaciones (12), Estatuto Pyme (13), sucursal de sociedad extranjera (14),
+  Empresa en un Día / Registro de Empresas y Sociedades (15), Servicio de Impuestos Internos (16) y
+  municipalidades (17). Se redactaron sobre el texto de las leyes leído en la Biblioteca del Congreso Nacional
+  (fecha de consulta 2026-11-25). No existe en Chile una ley de sociedades BIC, por lo que no hay anexo sobre
+  ese tipo y una prueba impide afirmarla.
+- Acceso desde el README principal y desde `docs/01_COMPANY_TYPES_CHILE.md`; páginas propias en el sitio.
+- `scripts/generar_anexos.py` (con `--check` en CI) renderiza las figuras desde `manifests/anexos.json` y
+  `tests/test_anexos.py` (12 pruebas) exige profundidad, secciones, preguntas frecuentes, fuentes y figuras.
+
+### Corregido en el motor de figuras
+
+- Motor de SVG: texto de bajo contraste en los peldaños oscuros de la escalera, etiquetas del embudo que se
+  superponían y títulos que desbordaban su caja en el mapa de actores (afectaba también a algunas clases).
+
 - **Modelo mental SVG propio en cada una de las 336 clases** (`modelo-mental.svg`), generado desde
   `manifests/visuales/` con 14 arquetipos (matriz, embudo, ciclo, escalera, balanza, línea de
   tiempo, capas, árbol de decisión, mapa de actores, curva, semáforo, barras, flujo y

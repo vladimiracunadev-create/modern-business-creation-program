@@ -35,6 +35,16 @@ def _mezcla(hex_color: str, factor: float) -> str:
     return "#%02X%02X%02X" % tuple(round(255 + (c - 255) * factor) for c in (r, g, b))
 
 
+def _luminancia(hex_color: str) -> float:
+    r, g, b = (int(hex_color[i:i + 2], 16) / 255 for i in (1, 3, 5))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def _tinta_sobre(fondo: str) -> str:
+    """Texto oscuro sobre fondos claros y blanco sobre fondos oscuros (contraste legible)."""
+    return TINTA if _luminancia(fondo) > 0.52 else "#FFFFFF"
+
+
 def esc(texto: object) -> str:
     return escape(str(texto), quote=True)
 
@@ -144,11 +154,11 @@ def embudo(d, ac):
         salida.append(caja(x, y, ancho, alto_barra, _mezcla(ac, 0.25 + 0.6 * (i / max(n - 1, 1))), None, rx=8))
         nl = envolver(nombre, max(int((ancho - 16) / 7.6), 8))
         salida.append(texto_centrado_vertical(x + ancho / 2, y + alto_barra / 2 + 1, nl, tam=13 if len(nl) > 1 else 14, peso="700", color="#FFFFFF" if i > n / 2 else TINTA))
-        salida.append(texto(596, y + alto_barra / 2 + 5, valor, tam=14, ancla="start", peso="700", color=ac))
+        salida.append(texto(596, y + alto_barra / 2 + (0 if i else 5), valor, tam=14, ancla="start", peso="700", color=ac))
         if i:
             previa = etapas[i - 1][2]
             pasa = round(frac / previa * 100) if previa else 0
-            salida.append(texto(668, y + alto_barra / 2 + 5, f"pasa {pasa} %", tam=12, ancla="start", color=TENUE))
+            salida.append(texto(596, y + alto_barra / 2 + 21, f"pasa {pasa} %", tam=11, ancla="start", color=TENUE))
     if d.get("cuello") is not None:
         i = d["cuello"]
         y = top + i * (alto_barra + sep)
@@ -193,10 +203,12 @@ def escalera(d, ac):
     for i, (nombre, detalle) in enumerate(niveles):
         alto = 120 + i * (170 / max(n - 1, 1))
         x, y = 40 + i * ancho, 400 - alto
-        salida.append(caja(x, y, ancho - 8, alto, _mezcla(ac, 0.10 + 0.5 * i / max(n - 1, 1)), None, rx=10))
-        salida.append(texto(x + 14, y + 28, f"{i + 1}", tam=22, ancla="start", peso="800", color=ac))
-        salida.append(texto(x + 14, y + 52, envolver(nombre, int(ancho / 8.6)), tam=14, ancla="start", peso="700"))
-        salida.append(texto(x + 14, y + 52 + 18 * len(envolver(nombre, int(ancho / 8.6))) + 6, envolver(detalle, int(ancho / 7.4)), tam=12, ancla="start", color=TENUE))
+        relleno = _mezcla(ac, 0.10 + 0.5 * i / max(n - 1, 1))
+        tinta = _tinta_sobre(relleno)
+        salida.append(caja(x, y, ancho - 8, alto, relleno, None, rx=10))
+        salida.append(texto(x + 14, y + 28, f"{i + 1}", tam=22, ancla="start", peso="800", color=ac if tinta == TINTA else tinta))
+        salida.append(texto(x + 14, y + 52, envolver(nombre, int(ancho / 8.6)), tam=14, ancla="start", peso="700", color=tinta))
+        salida.append(texto(x + 14, y + 52 + 18 * len(envolver(nombre, int(ancho / 8.6))) + 6, envolver(detalle, int(ancho / 7.4)), tam=12, ancla="start", color=("#4B5563" if _luminancia(relleno) > 0.8 else "#1F2937") if tinta == TINTA else tinta))
     salida.append(linea(48, 412, ANCHO - 40, 412, ac, 2.4, True))
     salida.append(texto(ANCHO - 44, 430, d.get("eje", "madurez"), tam=11, ancla="end", color=TENUE))
     return "".join(salida)
@@ -325,10 +337,11 @@ def actores(d, ac):
     salida.append(texto_centrado_vertical(cx, cy, centro, tam=14, peso="800", color="#FFFFFF"))
     for (x, y), (nombre, relacion) in zip(puntos, lista):
         rl = envolver(relacion, 24)
-        ancho = 176
+        tam_nombre = 13.5 if len(nombre) <= 21 else 12
+        ancho = max(176, min(240, len(nombre) * (tam_nombre * 0.56) + 30))
         alto = 26 + len(rl) * 14
         salida.append(caja(x - ancho / 2, y - alto / 2, ancho, alto, "#FFFFFF", ac, rx=12, grosor=1.8))
-        salida.append(texto(x, y - alto / 2 + 19, nombre, tam=13.5, peso="800", color=ac))
+        salida.append(texto(x, y - alto / 2 + 19, nombre, tam=tam_nombre, peso="800", color=ac))
         salida.append(texto(x, y - alto / 2 + 35, rl, tam=11.5, color=TENUE))
     return "".join(salida)
 

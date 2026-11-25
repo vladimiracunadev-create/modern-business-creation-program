@@ -101,6 +101,16 @@ class AnexosTest(unittest.TestCase):
             with self.subTest(anexo=anexo["slug"]):
                 self.assertTrue(all(a != b for a, b in zip(tipos, tipos[1:])), tipos)
 
+    def test_estan_los_17_anexos_previstos(self) -> None:
+        """01 a 14 son tipos de empresa; 15 a 17 son Empresa en un Día, SII y municipalidades."""
+        self.assertEqual({self.numero(p) for p in self.archivos}, set(range(1, 18)))
+        palabras_clave = {
+            15: "empresa-en-un-dia", 16: "servicio-de-impuestos-internos", 17: "municipalidades",
+        }
+        for numero, clave in palabras_clave.items():
+            with self.subTest(anexo=numero):
+                self.assertTrue(any(clave in p.name for p in self.archivos if self.numero(p) == numero))
+
     def test_los_anexos_se_alcanzan_desde_el_readme_principal(self) -> None:
         readme = (RAIZ / "README.md").read_text(encoding="utf-8")
         self.assertIn("annexes/README.md", readme)
