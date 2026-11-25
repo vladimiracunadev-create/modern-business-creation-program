@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Umbral** | Valor que gatilla una acción. |
 | **Fuente del dato** | Sistema del que proviene cada indicador. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las cinco preguntas del dashboard del fundador
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Dashboard financiero"]
-    C --> A2["Frecuencia"]
-    C --> A3["Umbral"]
-    C --> A4["Fuente del dato"]
-    A1 & A2 & A3 & A4 --> D{{"definir los pocos indicadores<br/>que la empresa revisará<br/>efectivamente"}}
-    D --> E["Entregable<br/>dashboard financiero de una<br/>página con indicador, fuente,<br/>frecuencia y umbral de acción"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El dashboard del fundador cabe en una página y responde cinco preguntas: cuánta caja hay y para cuántas semanas, cuánto se vendió, con qué margen, cuánto se debe y cuánto le deben.
+
+![Esquema: Las cinco preguntas del dashboard del fundador](modelo-mental.svg)
+
+**Lectura guiada:** Cada satélite es una pregunta con una cifra. Más indicadores no producen más control: producen ruido. Si un indicador no cambia ninguna decisión, sobra.
+
+**Piénsalo así:** Es el tablero de un auto: velocidad, combustible y temperatura; no necesitas cuarenta indicadores para llegar a destino.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El dashboard del fundador cabe en una página y responde cinco preguntas: cuánt
 
 ### 2. Cómo se traduce en la práctica
 
-El dashboard del fundador cabe en una página y responde cinco preguntas: cuánta caja hay y para cuántas semanas, cuánto se vendió, con qué margen, cuánto se debe y cuánto le deben. Cuarenta indicadores no producen mejores decisiones: producen menos revisiones.
+Elige los cinco indicadores que usarás, define su frecuencia, el umbral de alerta y de dónde sale cada dato. Prefiere datos que se actualicen solos. Revisa el dashboard en una reunión corta cada semana y deja registro de las decisiones. Cada seis meses, elimina un indicador que no cambió ninguna decisión y revisa si falta alguno.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El dashboard del fundador cabe en una página y responde cinco preguntas: cuánt
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: un fundador recibe un reporte de 30 indicadores cada mes y no logra saber si la empresa tiene caja para el trimestre. Después: define una página semanal con cinco números, su umbral y la fuente del dato. En la primera semana ve que la caja alcanza para siete semanas y que dos clientes acumulan atrasos; llama a ambos y ajusta un pago. Ahora decide con datos de hoy y no con los del mes pasado (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight enseñan a elegir y leer los pocos indicadores financieros que realmente sirven para dirigir una empresa.
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz recomiendan concentrarse en las métricas que más importan según la etapa, en lugar de medir todo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir los pocos indicadores que la empresa revisará efectivamente.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para definir los pocos indicadores que la empresa revisará efectivamente.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para definir los pocos indicadores que la empresa revisará efectivamente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

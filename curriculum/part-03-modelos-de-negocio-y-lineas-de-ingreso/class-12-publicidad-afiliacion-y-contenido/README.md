@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Audiencia propia** | Canal que la empresa controla: base de correo, comunidad, sitio. |
 | **Dependencia de plataforma** | Riesgo de que un cambio de algoritmo elimine la distribución. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Audiencia propia frente a audiencia prestada
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Modelo publicitario"]
-    C --> A2["Afiliación"]
-    C --> A3["Audiencia propia"]
-    C --> A4["Dependencia de plataforma"]
-    A1 & A2 & A3 & A4 --> D{{"definir la mezcla entre<br/>audiencia propia y prestada,<br/>el mecanismo de monetización y<br/>el gobierno de afiliados"}}
-    D --> E["Entregable<br/>plan de audiencia con canales<br/>propios versus prestados,<br/>proyección de monetización y<br/>controles de claims y<br/>afiliados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Monetizar contenido exige volumen y consistencia antes de generar ingresos, y expone a un riesgo específico: la audiencia construida sobre una plataforma ajena puede desaparecer con un cambio de reglas.
+
+![Esquema: Audiencia propia frente a audiencia prestada](modelo-mental.svg)
+
+**Qué mirar primero:** Compara los dos platos. La audiencia prestada da alcance, la propia da control. La decisión no es una u otra, sino cuánto de cada una tienes y qué haces para pasar a la segunda.
+
+**Una analogía:** Es la diferencia entre arrendar un local en un centro comercial y ser dueño del terreno: el arriendo es útil, pero lo manda el administrador.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Monetizar contenido exige volumen y consistencia antes de generar ingresos, y ex
 
 ### 2. Cómo se traduce en la práctica
 
-Una comunidad construida íntegramente sobre una plataforma ajena puede desaparecer con un cambio de algoritmo o de reglas. La conversión a canal propio —base de correo, comunidad, sitio— es lo que transforma alcance en activo. Y el contenido comercial debe identificarse como tal: la publicidad no identificada es infracción a la Ley del Consumidor.
+Mide qué parte de tu audiencia puedes contactar sin intermediarios. Define el mecanismo de monetización (publicidad, afiliación, productos) y el gobierno de afiliados: qué pueden decir, qué evidencia exiges y cómo retiras una pieza. Toda afirmación publicitaria, propia o de un afiliado, debe poder comprobarse y no inducir a error.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Una comunidad construida íntegramente sobre una plataforma ajena puede desapare
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Creadora: «Tengo 80.000 seguidores en una red; la plataforma cambió su algoritmo y mis vistas cayeron 70 %». Asesora: «¿Tienes su correo?». Creadora: «No, solo seguidores». Asesora: «Empieza hoy una lista propia con un recurso gratuito y un boletín; y cuando recomiendes productos afiliados, declara la relación comercial y no prometas lo que no puedes comprobar». En seis meses logra 6.000 suscriptores propios (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): El artículo 28 de la Ley 19.496 sanciona la publicidad que induce a error y alcanza a mensajes emitidos por terceros en beneficio de la empresa, como los afiliados.
+- **MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455** (U.S. Food and Drug Administration): La carta de advertencia de la FDA a MEDVi ilustra que la empresa puede responder por publicidad hecha por terceros que la promocionan.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 
@@ -180,6 +185,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Declaración corporativa del 8 de abril de 2026 sobre la carta FDA, un supuesto sitio de afiliado, publicidad con posibles médicos generados por IA, correcciones y estructura de proveedores clínicos y farmacias.
 - *Cómo leerla:* Trátala como la versión de MEDVi, no como verificación independiente. Contrasta cada afirmación con el destinatario y contenido de la carta FDA, archivos del sitio, contratos, responsables y evidencia de las medidas correctivas.
 - *Uso en esta clase:* aporta el marco de «MEDVi statement in response to external speculation» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir la mezcla entre audiencia propia y prestada, el mecanismo de monetización y el gobierno de afiliados.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

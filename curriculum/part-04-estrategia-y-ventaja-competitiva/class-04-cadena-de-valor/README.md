@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Actividad de apoyo** | La que habilita a las primarias: personas, tecnología, compras, infraestructura. |
 | **Margen por eslabón** | Contribución que aporta cada actividad al valor final. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué actividades internalizar y cuáles contratar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cadena de valor"]
-    C --> A2["Actividad primaria"]
-    C --> A3["Actividad de apoyo"]
-    C --> A4["Margen por eslabón"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué eslabones se<br/>internalizan y cuáles se<br/>externalizan"}}
-    D --> E["Entregable<br/>cadena de valor con costo,<br/>contribución a la<br/>diferenciación y decisión de<br/>make or buy por eslabón"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Mapear la cadena de valor permite decidir qué actividades merecen inversión y cuáles conviene externalizar: la regla práctica es internalizar lo que sostiene la diferenciación.
+
+![Esquema: Qué actividades internalizar y cuáles contratar](modelo-mental.svg)
+
+**Qué mirar primero:** Sigue los pasos hasta el rombo. La pregunta central es si el eslabón es parte de por qué te eligen. Lo que es igual en todo el mercado rara vez justifica tu inversión.
+
+**Para recordarlo:** Es una cocina de restaurante: la salsa especial se prepara en casa, pero el pan puede venir de una panadería de confianza.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Mapear la cadena permite decidir qué actividades merecen inversión y cuáles c
 
 ### 2. Cómo se traduce en la práctica
 
-La externalización por ahorro de corto plazo del eslabón diferenciador es reversible en el papel e irreversible en la práctica: cuando la empresa quiere recuperarlo ya perdió el equipo, el conocimiento y la relación con el cliente. La parte 13 aporta el criterio de costo total de propiedad para decidirlo con números.
+Dibuja tu cadena de valor con actividades primarias y de apoyo. Para cada una, estima costo, margen y calidad percibida por el cliente. Marca las que sostienen tu diferencia: son las que se internalizan. Para las demás, compara con alternativas del mercado y exige contratos con indicadores y derecho de auditoría. Revisa cada año si una actividad externalizada se volvió crítica.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La externalización por ahorro de corto plazo del eslabón diferenciador es reve
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide así para una empresa de ropa deportiva. Uno: mapea diseño, compra de telas, confección, logística, venta y servicio. Dos: ¿cuál te diferencia? El diseño y la relación con clientes. Tres: internaliza el diseño y el servicio; externaliza la confección y la logística con contratos de calidad y auditorías. Cuatro: define cómo controlarás a los terceros, porque la responsabilidad frente al consumidor sigue siendo tuya.
+
+### 5. En qué se apoya
+
+- **Playing to Win** (Harvard Business Review Press): Lafley y Martin plantean que la estrategia implica elegir qué capacidades construir y cuáles no, para ganar donde se compite.
+- **Lean Thinking** (Free Press): Womack y Jones proponen mirar el flujo de valor completo para eliminar actividades que no aportan al cliente.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir qué eslabones se internalizan y cuáles se externalizan.
+
+**Harvard Business Review Press — Playing to Win**  
+<https://openlibrary.org/isbn/9781491528792> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea la estrategia como una cascada de elecciones: dónde jugar y cómo ganar. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Playing to Win» para definir qué eslabones se internalizan y cuáles se externalizan.
+
+**Free Press — Lean Thinking**  
+<https://openlibrary.org/isbn/9780684810355> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta los principios lean: valor, flujo, tracción y perfección. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Thinking» para definir qué eslabones se internalizan y cuáles se externalizan.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

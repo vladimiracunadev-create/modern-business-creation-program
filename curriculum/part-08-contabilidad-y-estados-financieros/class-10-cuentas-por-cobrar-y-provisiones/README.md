@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Provisión de incobrables** | Estimación de la parte que no se cobrará. |
 | **Política de crédito** | Reglas para otorgar plazo de pago a clientes. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué hacer según la antigüedad de lo que te deben
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cuentas por cobrar"]
-    C --> A2["Antigüedad de saldos"]
-    C --> A3["Provisión de incobrables"]
-    C --> A4["Política de crédito"]
-    A1 & A2 & A3 & A4 --> D{{"definir política de crédito,<br/>seguimiento de antigüedad y<br/>criterio de provisión"}}
-    D --> E["Entregable<br/>informe de antigüedad de<br/>cuentas por cobrar con<br/>política de crédito y criterio<br/>de provisión"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Vender a crédito es prestar dinero: sin política de crédito ni informe de antigüedad, la empresa descubre el problema cuando el cliente ya no responde.
+
+![Esquema: Qué hacer según la antigüedad de lo que te deben](modelo-mental.svg)
+
+**Cómo leerlo:** Cada banda es una regla. La antigüedad del saldo decide si basta un recordatorio o hay que provisionar y suspender el crédito. Los umbrales son un ejemplo.
+
+**Una analogía:** Es prestar dinero a un conocido: mientras más tiempo pasa sin que lo devuelva, menos probable es que lo haga y más cuesta pedírselo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Vender a crédito es prestar dinero. Sin política de crédito y sin informe de 
 
 ### 2. Cómo se traduce en la práctica
 
-Sin esos tres elementos la empresa descubre el problema cuando el cliente ya no responde. La provisión no es un tecnicismo contable: es dejar de tomar decisiones sobre un activo que en la práctica ya no existe, y su ausencia infla el patrimonio justo antes de una decisión de endeudamiento.
+Establece una política de crédito con límite por cliente, plazo y condiciones, y revisa mensualmente un informe de antigüedad de saldos. Define el criterio de provisión de incobrables y quién lo aprueba. Recuerda que provisionar no es perdonar la deuda: es reconocer que parte puede no cobrarse y proteger la información de tus resultados.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Sin esos tres elementos la empresa descubre el problema cuando el cliente ya no 
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿cuántos días de antigüedad tiene el saldo? Dos: ¿el cliente ha respondido a los recordatorios? Tres: ¿su deuda supera lo que tu empresa puede soportar? Una distribuidora aplica la regla: a los 31 días llama, a los 60 suspende pedidos nuevos y a los 90 provisiona el saldo y consulta con su abogado qué cobranza corresponde (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las normas de factura, mérito ejecutivo y cobranza, consultables en la Biblioteca del Congreso Nacional, fijan las herramientas legales para exigir el pago de lo vendido a crédito.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican el control de cuentas por cobrar, su antigüedad y su efecto en el flujo de caja.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir política de crédito, seguimiento de antigüedad y criterio de provisión.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para definir política de crédito, seguimiento de antigüedad y criterio de provisión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

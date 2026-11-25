@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Canon de entrada y regalía** | Pago inicial y pago recurrente del franquiciado. |
 | **Control de marca** | Mecanismo que asegura consistencia entre unidades. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuándo una empresa está lista para franquiciar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Franquicia"]
-    C --> A2["Manual de operación"]
-    C --> A3["Canon de entrada y regalía"]
-    C --> A4["Control de marca"]
-    A1 & A2 & A3 & A4 --> D{{"decidir si el negocio es<br/>replicable y bajo qué<br/>condiciones se franquicia"}}
-    D --> E["Entregable<br/>paquete de franquicia con<br/>manual, económica de la unidad<br/>tipo y contrato marco"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Franquiciar sin un manual operativo probado ni una unidad propia rentable no transfiere un sistema: transfiere un problema.
+
+![Esquema: Cuándo una empresa está lista para franquiciar](modelo-mental.svg)
+
+**Cómo leerlo:** Cada peldaño es una condición que debe cumplirse antes de subir. Saltarse uno traslada el riesgo al franquiciado y daña la marca que se quería expandir.
+
+**Una imagen cotidiana:** Es dar la receta de un plato que solo tú sabes hacer: sin la técnica escrita y probada, el resultado cambia en cada cocina.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En Chile la franquicia no tiene ley especial: se estructura por contrato, marca 
 
 ### 2. Cómo se traduce en la práctica
 
-En Chile la franquicia no tiene ley especial: se estructura por contrato, marca registrada y know-how documentado. La falla típica es franquiciar para resolver un problema de caja: el canon inicial alivia el mes y una red mal soportada destruye la marca en un año.
+Antes de franquiciar, verifica cuatro condiciones: una unidad propia rentable, un manual que un tercero pueda ejecutar, una marca registrada y un cálculo claro del retorno para el franquiciado. En Chile la franquicia no tiene ley especial: se estructura por contrato, marca y know-how, por lo que el contrato define canon de entrada, regalías, control de marca y término.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En Chile la franquicia no tiene ley especial: se estructura por contrato, marca 
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: un local de comida rápida con buen flujo decide franquiciar sin manual escrito y sin una segunda sucursal propia. Vende tres franquicias; dos fallan porque el producto sale distinto y los precios de insumos no estaban calculados. La corrección: parar, abrir una segunda unidad propia, escribir el manual, probarlo con un piloto y registrar la marca en INAPI antes de ofrecer la red (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The E-Myth Revisited** (HarperBusiness): Gerber propone construir cada unidad como un prototipo replicable de franquicia, con sistemas documentados que otros puedan operar.
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI es el organismo ante el cual se registra la marca, activo central del contrato de franquicia.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para decidir si el negocio es replicable y bajo qué condiciones se franquicia.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para decidir si el negocio es replicable y bajo qué condiciones se franquicia.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

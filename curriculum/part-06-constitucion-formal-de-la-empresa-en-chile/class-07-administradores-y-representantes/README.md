@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Duración del cargo** | Plazo por el que se designa. |
 | **Responsabilidad del administrador** | Deberes de cuidado y lealtad cuyo incumplimiento genera responsabilidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué tan reciente es el certificado de vigencia
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Administrador"]
-    C --> A2["Representante legal"]
-    C --> A3["Duración del cargo"]
-    C --> A4["Responsabilidad del<br/>administrador"]
-    A1 & A2 & A3 & A4 --> D{{"designar administración y<br/>representación con facultades<br/>y vigencia claras"}}
-    D --> E["Entregable<br/>acta de designación con<br/>facultades delimitadas y<br/>procedimiento de acreditación<br/>de vigencia"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La designación de administradores y representantes debe constar en el estatuto o en acta, con facultades delimitadas y vigencia acreditable.
+
+![Esquema: Qué tan reciente es el certificado de vigencia](modelo-mental.svg)
+
+**Lectura guiada:** El color indica cuánto confían bancos y contrapartes en el certificado según su antigüedad. Los umbrales son un ejemplo: cada institución fija el suyo.
+
+**Piénsalo así:** Es una cédula de identidad vencida: puede decir la verdad, pero nadie la acepta si no está vigente.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La designación de administradores y representantes debe constar en el estatuto 
 
 ### 2. Cómo se traduce en la práctica
 
-Bancos, SII y contrapartes exigirán certificado de vigencia del representante. Las designaciones vencidas o no renovadas bloquean operaciones en el peor momento, y las facultades sin límite exponen a la sociedad a actos que nadie autorizó pero que la obligan frente a terceros de buena fe.
+Designa administradores y representantes con facultades, montos y plazo en el estatuto o en un acta. Solicita un certificado de vigencia antes de cada operación relevante y verifica que refleje los cambios recientes. Si cambia el administrador, actualiza el Registro y notifica a bancos y contrapartes. Una designación ambigua o vencida puede invalidar un contrato.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Bancos, SII y contrapartes exigirán certificado de vigencia del representante. 
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa firma un contrato con un cliente grande presentando un certificado de vigencia de siete meses; el cliente descubre que el gerente que firmó ya no tenía poderes y cuestiona la validez. Después: la empresa obtiene un certificado de menos de 30 días antes de cada firma importante y guarda una copia con la matriz de poderes. El contrato es plenamente oponible y no hay disputas (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades emite los certificados de estatuto y de vigencia que acreditan quién representa a la sociedad.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código de Comercio y el Código Civil regulan el mandato y los efectos de los actos de los representantes de una sociedad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Difusión** | Obligación de entregar y dejar constancia de conocimiento. |
 | **Depósito** | Entrega del reglamento ante las autoridades correspondientes. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De la política escrita a la sanción aplicable
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Reglamento interno"]
-    C --> A2["Política interna"]
-    C --> A3["Difusión"]
-    C --> A4["Depósito"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si corresponde<br/>reglamento interno y<br/>mantenerlo actualizado y<br/>difundido"}}
-    D --> E["Entregable<br/>reglamento interno vigente con<br/>constancia de difusión y<br/>depósito"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El reglamento interno es obligatorio desde cierta dotación y debe difundirse y depositarse; su valor práctico es habilitar sanciones, pues sin un reglamento difundido, aplicar una medida disciplinaria es riesgoso.
+
+![Esquema: De la política escrita a la sanción aplicable](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño suma respaldo. Un reglamento que nadie conoce no sirve: la difusión y la recepción son las que lo vuelven útil frente a un conflicto.
+
+**Una imagen cotidiana:** Es el reglamento de un colegio: si nadie lo publicó, nadie puede ser sancionado por incumplirlo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El reglamento interno es obligatorio a partir de cierta dotación y debe difundi
 
 ### 2. Cómo se traduce en la práctica
 
-Es obligatorio a partir de cierta dotación y debe difundirse y depositarse ante las autoridades correspondientes. Un reglamento desactualizado que no incorpora los cambios legales recientes —Ley Karin, entre otros— deja a la empresa sin el instrumento justo cuando lo necesita.
+Determina si tu empresa está obligada a tener reglamento interno según su dotación. Si lo está, redáctalo con contenido mínimo, incluido el protocolo de prevención del acoso y la violencia, difúndelo con constancia escrita y deposítalo. Si no lo está, igual entrega las políticas y el protocolo al firmar el contrato. Actualízalo cuando cambie la ley.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Es obligatorio a partir de cierta dotación y debe difundirse y depositarse ante
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Jefa: «Quiero sancionar a un trabajador por usar los equipos para fines personales». Abogado: «¿Está en el reglamento interno y se lo entregaron?». Jefa: «Tenemos un reglamento, pero nunca lo difundimos». Abogado: «Entonces la sanción es difícil de sostener. Hay que difundirlo con constancia, y si corresponde, depositarlo; también debe incluir el protocolo de acoso y violencia» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Código del Trabajo (DFL 1 de 2002)** (Biblioteca del Congreso Nacional): El artículo 154 del Código del Trabajo define el contenido del reglamento interno, incluidos los cargos ante quienes plantear reclamos y el protocolo contra el acoso y la violencia.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa quiénes deben tener reglamento interno y cómo se difunde y se deposita.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: reclamos internos y política de comunicación laboral
 

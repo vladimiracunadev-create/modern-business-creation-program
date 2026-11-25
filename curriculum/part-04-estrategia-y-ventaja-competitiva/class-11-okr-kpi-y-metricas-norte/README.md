@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Métrica norte** | El número que mejor resume el valor entregado al cliente. |
 | **Métrica de vanidad** | Indicador que sube sin relación con el resultado del negocio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo vas con un resultado clave del trimestre
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["OKR"]
-    C --> A2["KPI"]
-    C --> A3["Métrica norte"]
-    C --> A4["Métrica de vanidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir la métrica norte y los<br/>resultados clave del período"}}
-    D --> E["Entregable<br/>set de OKR trimestrales con<br/>resultados clave medibles y<br/>métrica norte declarada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un OKR se cumple o no en un trimestre y un KPI se vigila siempre; la métrica norte debe ser una sola y medir valor entregado, no actividad interna.
+
+![Esquema: Cómo vas con un resultado clave del trimestre](modelo-mental.svg)
+
+**Lectura guiada:** Cada banda es una decisión sobre un resultado clave. Mira el avance frente a la meta y actúa según el color; no esperes al cierre del trimestre para descubrir el rojo.
+
+**Piénsalo así:** Es el tablero de un auto: no mira cuántas veces giró el motor, sino la velocidad, el combustible y la temperatura que importan para llegar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La distinción práctica es que un OKR se cumple o no en un trimestre y un KPI s
 
 ### 2. Cómo se traduce en la práctica
 
-La distinción práctica es que un OKR se cumple o no en un trimestre y un KPI se vigila siempre. La métrica norte debe ser una sola: «usuarios que completan la tarea» dice algo, «visitas al sitio» no. Con más de cinco objetivos simultáneos no hay prioridad, solo una lista de deseos.
+Escoge una métrica norte que mida valor para el cliente, por ejemplo usuarios activos que completan su tarea clave, y no actividad interna como el número de reuniones. Define dos o tres resultados clave por objetivo y revísalos cada semana. Evita las métricas de vanidad: aquellas que suben aunque el negocio no mejore.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La distinción práctica es que un OKR se cumple o no en un trimestre y un KPI s
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Define tu métrica norte (una sola) y dos resultados clave para el trimestre. Por ejemplo, métrica norte: clientes que completan su primer pedido en la semana de alta. Resultado clave 1: subir esa tasa de 40 % a 60 %. Resultado clave 2: bajar el tiempo de alta de 10 a 5 días. A mitad del trimestre estás en 48 % (amarillo, 80 % del avance esperado de esa fecha): escribe qué cambiarías esta semana. Los números son ilustrativos; usa los tuyos.
+
+### 5. En qué se apoya
+
+- **High Output Management** (Random House): Grove propuso vincular objetivos con resultados clave medibles, antecedente de los OKR actuales, y revisarlos con regularidad.
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz sostienen que en cada etapa conviene concentrarse en una métrica que más importa y no en muchas métricas simultáneas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir la métrica norte y los resultados clave del período.
+
+**Random House — High Output Management**  
+<https://openlibrary.org/isbn/9780330289634> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica ideas de producción a la gestión directiva: indicadores, reuniones uno a uno y apalancamiento del tiempo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «High Output Management» para definir la métrica norte y los resultados clave del período.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para definir la métrica norte y los resultados clave del período.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

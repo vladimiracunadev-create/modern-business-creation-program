@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Indemnización** | Pago que corresponde según causal y antigüedad. |
 | **Ratificación** | Suscripción con las formalidades que la ley exige. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Antes de firmar un finiquito
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Finiquito"]
-    C --> A2["Causal de término"]
-    C --> A3["Indemnización"]
-    C --> A4["Ratificación"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar el cierre laboral con<br/>causal correcta y formalidades<br/>completas"}}
-    D --> E["Entregable<br/>expediente de cierre laboral<br/>con cálculo de finiquitos,<br/>verificación de cotizaciones y<br/>suscripción formal"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El cierre laboral exige cotizaciones al día, causal correcta, cálculo completo de las indemnizaciones y un finiquito suscrito con las formalidades legales; uno mal formalizado no produce el efecto liberatorio esperado.
+
+![Esquema: Antes de firmar un finiquito](modelo-mental.svg)
+
+**Cómo leerlo:** Recorre el árbol por cada trabajador. El finiquito es el último paso y solo protege si los anteriores se cumplieron. Un error en la causal o en las cotizaciones lo debilita.
+
+**Para recordarlo:** Es un recibo de pago: solo vale como prueba si está completo, firmado en forma y corresponde al monto real.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El cierre laboral exige cotizaciones al día, causal correcta, cálculo completo
 
 ### 2. Cómo se traduce en la práctica
 
-Un finiquito mal formalizado no produce el efecto liberatorio y deja abierta la posibilidad de demanda posterior, con lo cual el cierre no cierra nada. Y comunicar términos sin cotizaciones íntegramente pagadas activa la Ley Bustos y sigue devengando remuneraciones.
+Verifica cotizaciones, causal, hechos y cálculo de feriado e indemnizaciones antes de firmar. Prepara la carta de aviso y el finiquito conforme a la ley, con la ratificación u otra formalidad que corresponda. Registra el término en los sistemas de la Dirección del Trabajo. Guarda copias. Ante un cierre por insolvencia, consulta a un abogado de insolvencia.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Un finiquito mal formalizado no produce el efecto liberatorio y deja abierta la 
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Prepara el cierre laboral de una empresa pequeña con tres trabajadores ficticios. Para cada uno, escribe la causal de término, los hechos, el estado de cotizaciones, el cálculo de feriado e indemnizaciones y la forma en que se firmará el finiquito. Marca los datos que no puedes llenar y por qué. Decide qué revisaría un abogado laboral. El ejercicio es ilustrativo y no reemplaza la asesoría legal.
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los requisitos del finiquito, su ratificación y los efectos de su suscripción.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código del Trabajo regula las causales de término y los efectos del finiquito; su texto se consulta en la BCN.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

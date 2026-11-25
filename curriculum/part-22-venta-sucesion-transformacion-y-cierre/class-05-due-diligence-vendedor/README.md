@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Saneamiento previo** | Corrección de hallazgos antes de abrir el proceso. |
 | **Divulgación** | Revelación de un problema conocido al comprador. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un hallazgo antes de que lo encuentre el comprador
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Due diligence vendedor"]
-    C --> A2["Contingencia"]
-    C --> A3["Saneamiento previo"]
-    C --> A4["Divulgación"]
-    A1 & A2 & A3 & A4 --> D{{"detectar y sanear las<br/>contingencias antes de abrir<br/>el proceso de venta"}}
-    D --> E["Entregable<br/>informe de due diligence<br/>vendedor con contingencias,<br/>plan de saneamiento y<br/>estrategia de divulgación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Hacer la debida diligencia antes que el comprador permite corregir lo corregible y divulgar lo que no: un hallazgo divulgado se negocia, uno descubierto por el comprador destruye la confianza.
+
+![Esquema: Un hallazgo antes de que lo encuentre el comprador](modelo-mental.svg)
+
+**Lectura guiada:** Aplica el árbol a cada contingencia detectada. Corregir es lo mejor; divulgar con cifras es lo siguiente; ocultar es lo peor, porque convierte un problema negociable en uno de fe.
+
+**Una imagen cotidiana:** Es mostrar una casa con una filtración: si la reparaste o la informaste, se negocia; si el comprador la descubre solo, desconfiará de todo lo demás.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Hacer la due diligence antes que el comprador permite corregir lo corregible y d
 
 ### 2. Cómo se traduce en la práctica
 
-Un hallazgo divulgado se negocia; uno descubierto por el comprador destruye la confianza y suele costar más que su valor económico. En Chile lo que más aparece es laboral y tributario, y ambas categorías admiten saneamiento si hay tiempo suficiente antes de abrir el proceso.
+Haz una debida diligencia como vendedor antes de abrir el proceso: laboral, tributaria, contractual, propiedad intelectual y regulatoria. Corrige lo que puedas, cuantifica y divulga lo que no y define qué garantías ofrecerás. Conserva la evidencia del saneamiento. Trabaja con asesores independientes. La transparencia, bien gestionada, es una ventaja negociadora.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Un hallazgo divulgado se negocia; uno descubierto por el comprador destruye la c
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa de servicios decide no mencionar una contingencia laboral de 30 millones por trabajadores mal clasificados. En la debida diligencia del comprador, un abogado la detecta. El comprador deja de confiar en la información, pide más garantías y rebaja el precio en 80 millones. La corrección: haber hecho una debida diligencia de vendedor, regularizado la situación y divulgado lo pendiente con una estimación (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica permite al vendedor revisar su situación tributaria con la misma información que verá el comprador.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los criterios de la relación laboral y las obligaciones del empleador, frecuente origen de contingencias detectadas en una compra.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

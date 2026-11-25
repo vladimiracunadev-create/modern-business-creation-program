@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Servicio administrado** | Operación continua de una función del cliente bajo sla. |
 | **Concentración de clientes** | Porcentaje de ingresos que depende de pocos clientes. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué parte de tu facturación depende de un cliente
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Agencia"]
-    C --> A2["Retainer"]
-    C --> A3["Servicio administrado"]
-    C --> A4["Concentración de clientes"]
-    A1 & A2 & A3 & A4 --> D{{"definir la mezcla entre<br/>proyecto y retainer y el<br/>límite de concentración<br/>aceptable"}}
-    D --> E["Entregable<br/>modelo de ingresos por cliente<br/>con índice de concentración y<br/>plan de diversificación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La agencia crece rápido y se estanca cuando el fundador deja de vender; el riesgo estructural es depender de pocos clientes.
+
+![Esquema: Qué parte de tu facturación depende de un cliente](modelo-mental.svg)
+
+**Qué mirar primero:** Mide cuánto representa tu mayor cliente en la facturación. El semáforo no prohíbe tener un cliente grande; te dice cuánto riesgo asumes y cuándo debes actuar.
+
+**Piénsalo así:** Es una mesa con una sola pata gruesa: aguanta mucho peso, pero si la pata se quiebra todo se cae.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La agencia crece rápido y se estanca cuando el fundador deja de vender. Migrar 
 
 ### 2. Cómo se traduce en la práctica
 
-Perder un cliente que representa el 40 % de los ingresos no es un mal trimestre: es un evento de continuidad. El retainer estabiliza pero exige capacidad de decir que no al trabajo fuera de alcance, y los servicios administrados sin SLA ni límite de responsabilidad trasladan a la agencia un riesgo que su margen no soporta.
+Mide la concentración por cliente cada trimestre y escribe tu límite máximo. Diseña la mezcla entre proyectos y retainers: el retainer da estabilidad, pero exige decir que no al trabajo fuera del alcance. Define quién vende cuando el fundador no puede y cómo transfieres las relaciones a la empresa. El crecimiento de una agencia depende de que las ventas no recaigan solo en su dueño.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Perder un cliente que representa el 40 % de los ingresos no es un mal trimestre:
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una agencia de diseño factura $60 millones al año; su mayor cliente aporta $27 millones (45 %). El cliente decide cambiar de proveedor y la agencia pierde casi la mitad de sus ingresos con un contrato pagado a 60 días. Había migrado a retainers para estabilizar la caja, pero no diversificó. Define una política: ningún cliente supera 30 % y se busca un segundo contrato de similar tamaño (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The E-Myth Revisited** (HarperBusiness): Gerber sostiene que una empresa debe sostenerse en sistemas y no en la persona fundadora, lo que incluye cómo se venden los servicios.
+- **Simple Numbers, Straight Talk, Big Profits!** (Greg Crabtree): Crabtree propone indicadores simples de rentabilidad para pequeñas empresas de servicios, que ayudan a ver si la mezcla de clientes es sana.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir la mezcla entre proyecto y retainer y el límite de concentración aceptable.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para definir la mezcla entre proyecto y retainer y el límite de concentración aceptable.
+
+**Greg Crabtree — Simple Numbers, Straight Talk, Big Profits!**  
+<https://openlibrary.org/isbn/9780989645232> · verificado 2026-11-25
+
+- *Qué contiene:* Propone indicadores simples para pequeñas empresas, como el costo laboral sobre el margen bruto. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Simple Numbers, Straight Talk, Big Profits!» para definir la mezcla entre proyecto y retainer y el límite de concentración aceptable.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

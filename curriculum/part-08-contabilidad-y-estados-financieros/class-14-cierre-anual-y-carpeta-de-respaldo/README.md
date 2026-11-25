@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Plazo de conservación** | Tiempo durante el cual deben mantenerse los respaldos. |
 | **Carpeta tributaria electrónica** | Documento del sii que acredita situación tributaria ante terceros. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué debe contener la carpeta de respaldo anual
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cierre anual"]
-    C --> A2["Carpeta de respaldo"]
-    C --> A3["Plazo de conservación"]
-    C --> A4["Carpeta tributaria<br/>electrónica"]
-    A1 & A2 & A3 & A4 --> D{{"definir la estructura y<br/>custodia de la carpeta de<br/>respaldo anual"}}
-    D --> E["Entregable<br/>índice de carpeta de respaldo<br/>anual con ubicación,<br/>responsable y plazo de<br/>conservación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El cierre anual bien hecho es el que permite responder una fiscalización sin buscar documentos: la carpeta debe poder reconstruirse por alguien distinto de quien la armó.
+
+![Esquema: Qué debe contener la carpeta de respaldo anual](modelo-mental.svg)
+
+**Qué mirar primero:** Cada satélite es una familia de documentos. Si falta alguna, la carpeta no sostiene el año completo y la fiscalización o la auditoría se vuelve una búsqueda.
+
+**Una analogía:** Es la caja de recuerdos de un viaje: si cada foto está en un lugar distinto, nadie puede reconstruir el itinerario cuando se lo piden.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El cierre anual bien hecho es el que permite responder una fiscalización sin bu
 
 ### 2. Cómo se traduce en la práctica
 
-Ese es el estándar que exige una fiscalización o una due diligence, y el que rara vez se cumple porque la carpeta se arma con la lógica de quien la vivió. Descartar respaldos antes del plazo legal de conservación es además una decisión irreversible que se descubre demasiado tarde.
+Arma la carpeta al cierre del año con una estructura fija: ventas, compras, bancos, remuneraciones, activos y declaraciones. Agrega un índice que indique dónde está cada cosa y quién lo custodia. Respeta los plazos de conservación que fija el Código Tributario. Descarga la carpeta tributaria electrónica del SII y compárala con tus registros internos antes de cerrar.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Ese es el estándar que exige una fiscalización o una due diligence, y el que r
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa recibe una citación del SII sobre un año anterior y el contador que armó los respaldos se fue sin dejar un índice. Pasan tres semanas buscando facturas y cartolas; faltan algunas y se rechaza el crédito fiscal asociado. La corrección: un índice anual de la carpeta, copias digitales con respaldo y un procedimiento de custodia que conoce más de una persona (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica del SII reúne la información de la empresa y sirve de contraste con la carpeta de respaldo interna.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Tributario fija los plazos de conservación de los libros y documentos de respaldo; su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

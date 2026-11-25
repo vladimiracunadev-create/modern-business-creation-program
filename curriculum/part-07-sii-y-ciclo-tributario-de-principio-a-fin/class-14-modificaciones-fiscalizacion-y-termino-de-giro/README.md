@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Término de giro** | Acto que cierra la vida tributaria de la empresa. |
 | **Prescripción** | Plazo tras el cual el sii no puede revisar ni cobrar. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Debes avisar un cambio al SII?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Modificación de datos"]
-    C --> A2["Fiscalización"]
-    C --> A3["Término de giro"]
-    C --> A4["Prescripción"]
-    A1 & A2 & A3 & A4 --> D{{"mantener actualizada la<br/>información ante el SII y<br/>planificar el cierre cuando<br/>corresponda"}}
-    D --> E["Entregable<br/>registro de avisos al SII con<br/>fechas y checklist de término<br/>de giro para el escenario de<br/>cierre"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Todo cambio relevante debe avisarse al SII dentro de plazo: domicilio, giro, socios y representante; el término de giro exige presentar la información del período final y pagar los impuestos pendientes.
+
+![Esquema: ¿Debes avisar un cambio al SII?](modelo-mental.svg)
+
+**Lectura guiada:** Recorre el árbol cada vez que ocurra un cambio. Lo que no se informa a tiempo se acumula y puede generar multas o desconocimiento de operaciones.
+
+**Para recordarlo:** Es actualizar tu dirección en el banco: si te mudas y no avisas, las cartas importantes llegan a una casa en la que ya no vives.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Todo cambio relevante debe avisarse al SII dentro de plazo: domicilio, giro, soc
 
 ### 2. Cómo se traduce en la práctica
 
-Todo cambio de domicilio, giro, socios o representante debe avisarse dentro de plazo. Y dejar de operar sin término de giro mantiene a la empresa como contribuyente activo, acumulando obligaciones mensuales incumplidas y multas que terminan recayendo sobre los socios.
+Crea un registro de cambios que debes informar: domicilio, giros, socios, representante, régimen. Define quién avisa y en qué plazo, y guarda los comprobantes. Si vas a cerrar la empresa, planifica el término de giro con tu contador: requiere presentar la información final y pagar impuestos pendientes. La fiscalización puede revisar períodos anteriores dentro de los plazos de prescripción.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Todo cambio de domicilio, giro, socios o representante debe avisarse dentro de p
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa cambia de oficina y de representante legal, no informa al SII y un año después recibe una citación que llega al domicilio antiguo; pierde el plazo para responder y debe pagar una multa. Después: define que todo cambio relevante se informa en 10 días y que una persona revisa la carpeta tributaria cada trimestre. Cuando decide cerrar el negocio, sabe qué información final presentar (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa cómo modificar los datos de un contribuyente y cómo presentar el término de giro.
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica permite verificar qué información tiene el SII de la empresa y detectar datos desactualizados.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

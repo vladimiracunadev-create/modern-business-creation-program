@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Tiempo de rampa** | Período hasta que la persona es productiva. |
 | **Gatillo de contratación** | Condición que habilita abrir el cargo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Antes de abrir un cargo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Hiring plan"]
-    C --> A2["Costo total del cargo"]
-    C --> A3["Tiempo de rampa"]
-    C --> A4["Gatillo de contratación"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué cargos se abren,<br/>en qué orden y con qué gatillo"}}
-    D --> E["Entregable<br/>hiring plan con secuencia de<br/>cargos, costo total, tiempo de<br/>rampa y gatillo de apertura"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Cada contratación debe tener un gatillo objetivo, como un nivel de venta, volumen o carga que la justifique; contratar por anticipación al crecimiento esperado es la forma más rápida de comprometer la caja.
+
+![Esquema: Antes de abrir un cargo](modelo-mental.svg)
+
+**Qué mirar primero:** Sigue el flujo con cada cargo. El primer rombo exige un hecho: un umbral cumplido y no una expectativa. El costo total del cargo suele ser mucho mayor que el sueldo.
+
+**Una imagen cotidiana:** Es agregar una máquina a una fábrica: la compras cuando el cuello de botella lo demuestra, no por si acaso.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Cada contratación debe tener un gatillo objetivo: un nivel de venta, de volumen
 
 ### 2. Cómo se traduce en la práctica
 
-Contratar en anticipación a un crecimiento esperado es la forma más rápida de comprometer caja contra ingresos que aún no existen. El costo total incluye cotizaciones, equipamiento, espacio y el tiempo de rampa hasta que la persona es productiva, que en cargos complejos son meses.
+Define un plan de contratación con cargos, orden y gatillos. Calcula el costo total de cada cargo e incluye el tiempo hasta alcanzar productividad. Prefiere cubrir picos con horas extras pactadas o contratos temporales adecuados mientras no se confirme el gatillo. Verifica las obligaciones laborales y las formas de contratación permitidas con tu asesor.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Contratar en anticipación a un crecimiento esperado es la forma más rápida de
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿qué hecho concreto justifica abrir el cargo, como pasar de 40 a 60 pedidos diarios? Dos: ¿cuál es el costo total, incluidas cotizaciones, equipo, capacitación y tiempo de rampa? Tres: ¿en cuánto tiempo aporta el cargo más de lo que cuesta? Una tienda decide contratar a una persona de atención solo cuando las consultas sin responder superen un umbral por dos semanas seguidas (ejemplo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa las modalidades de contratación y las obligaciones asociadas, que condicionan el costo total de cada cargo.
+- **High Output Management** (Random House): Grove trata la planificación de la dotación y la productividad del equipo como parte central de la gestión de una organización.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir qué cargos se abren, en qué orden y con qué gatillo.
+
+**Random House — High Output Management**  
+<https://openlibrary.org/isbn/9780330289634> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica ideas de producción a la gestión directiva: indicadores, reuniones uno a uno y apalancamiento del tiempo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «High Output Management» para definir qué cargos se abren, en qué orden y con qué gatillo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

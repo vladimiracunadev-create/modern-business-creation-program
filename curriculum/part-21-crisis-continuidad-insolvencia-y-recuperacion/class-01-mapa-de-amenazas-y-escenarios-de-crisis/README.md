@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Impacto operacional** | Efecto sobre la capacidad de entregar. |
 | **Tiempo de indisponibilidad tolerable** | Plazo máximo antes de daño irreversible. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Amenazas probables frente a las espectaculares
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Amenaza"]
-    C --> A2["Escenario de crisis"]
-    C --> A3["Impacto operacional"]
-    C --> A4["Tiempo de indisponibilidad<br/>tolerable"]
-    A1 & A2 & A3 & A4 --> D{{"identificar las amenazas<br/>concretas del negocio y su<br/>tiempo tolerable de<br/>indisponibilidad"}}
-    D --> E["Entregable<br/>mapa de amenazas con<br/>escenarios concretos, impacto<br/>operacional y tiempo tolerable<br/>por proceso"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El mapa de amenazas debe cubrir lo probable y no solo lo espectacular: la pérdida de un cliente concentrado, la salida de una persona clave, la falla de un proveedor único o un incidente informático.
+
+![Esquema: Amenazas probables frente a las espectaculares](modelo-mental.svg)
+
+**Lectura guiada:** Ubica cada amenaza según su probabilidad y cuánto tiempo puedes estar detenido. Las más cercanas al vértice superior derecho son las que exigen plan, responsable y ensayo hoy.
+
+**Piénsalo así:** Es el pronóstico para un viaje: más que el meteorito que podría caer, importa la lluvia que casi seguro llegará y qué harás cuando llegue.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El mapa de amenazas debe cubrir lo probable y no solo lo espectacular: pérdida 
 
 ### 2. Cómo se traduce en la práctica
 
-Los mapas que solo listan catástrofes espectaculares dejan fuera lo que realmente ocurre: la pérdida del cliente concentrado, la salida de la persona clave, el proveedor único que falla. Sin tiempo tolerable definido por proceso no se puede priorizar la respuesta ni dimensionar la inversión en continuidad.
+Lista las amenazas concretas: cliente concentrado, persona clave, proveedor único, falla tecnológica, incidente de seguridad, fraude, corte de servicios, reclamo regulatorio. Para cada una, estima probabilidad y el tiempo máximo que puedes estar detenido. Ordena y asigna un responsable y un plan a las más críticas. Revisa el mapa al menos una vez al año.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Los mapas que solo listan catástrofes espectaculares dejan fuera lo que realmen
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de ingeniería escribe sus amenazas. Las más llamativas son un incendio y un ataque informático. Pero al medir probabilidad y tiempo tolerable, descubre que la más peligrosa es la salida de un ingeniero que concentra el conocimiento de tres clientes, con probabilidad media y una tolerancia de pocas semanas. Documenta su método, entrena a un segundo responsable y negocia cláusulas de continuidad. La amenaza espectacular quedó cubierta por el seguro (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Black Swan** (Random House): Taleb advierte que las amenazas de mayor impacto suelen estar fuera del radar y propone reducir la fragilidad en vez de intentar predecirlas todas.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa las obligaciones laborales ante eventos que afectan la operación, que forman parte de las amenazas a considerar.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Prevención y gestión de crisis
 
@@ -207,6 +212,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Analiza el apoyo de contrainteligencia del Estado a las empresas tecnológicas, recoge las posiciones de legisladores, funcionarios y ejecutivos, y subraya el rol de la cultura de reporte y de los equipos de seguridad para detectar aproximaciones antes del acceso.
 - *Cómo leerla:* Úsala para el enfoque defensivo y para ver qué apoyo estatal existe en Estados Unidos. Sus hechos sobre el caso son atribuciones y posiciones de parte; lo que no se informa figura como desconocido y no debe completarse con suposiciones.
 - *Uso en esta clase:* aporta el marco de «Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)» para identificar las amenazas concretas del negocio y su tiempo tolerable de indisponibilidad.
+
+**Random House — The Black Swan**  
+<https://openlibrary.org/isbn/9780812979183> · verificado 2026-11-25
+
+- *Qué contiene:* Examina el impacto de los eventos improbables y los límites de la predicción. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Black Swan» para identificar las amenazas concretas del negocio y su tiempo tolerable de indisponibilidad.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cumplimiento local** | Obligaciones laborales y tributarias del país destino. |
 | **Modelo operativo** | Forma en que se coordinan las operaciones entre países. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué agrega operar en otro país
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Internacionalización<br/>organizacional"]
-    C --> A2["Huso horario y idioma"]
-    C --> A3["Cumplimiento local"]
-    C --> A4["Modelo operativo"]
-    A1 & A2 & A3 & A4 --> D{{"definir el modelo operativo<br/>internacional y sus<br/>obligaciones locales"}}
-    D --> E["Entregable<br/>plan de internacionalización<br/>organizacional con modelo<br/>operativo y obligaciones<br/>locales identificadas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Operar en otro país agrega obligaciones laborales, tributarias y contables locales que no se pueden gestionar remotamente sin asesoría en destino; contratar personas sin una entidad local es una fuente frecuente de riesgo.
+
+![Esquema: Qué agrega operar en otro país](modelo-mental.svg)
+
+**Cómo leerlo:** El centro es la operación y los satélites son las obligaciones que aparecen. Si el modelo operativo no las resuelve, el problema se acumula sin que nadie lo vea desde Chile.
+
+**Una imagen cotidiana:** Es abrir una sucursal en otro país: cambian las leyes, el idioma y los horarios, y lo que dependía de conocerse cara a cara deja de funcionar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Operar en otro país agrega obligaciones laborales, tributarias y contables loca
 
 ### 2. Cómo se traduce en la práctica
 
-Contratar personas en el extranjero sin entidad local ni figura resuelta tiene consecuencias que se descubren en la primera fiscalización o en la salida de un empleado. Gestionar la operación remotamente sin asesoría en destino es asumir un riesgo regulatorio en un ordenamiento que no se conoce.
+Antes de operar, define el modelo: contratación remota con proveedor local, entidad propia o partner. Consulta a asesores en destino sobre obligaciones laborales, tributarias y contables. Resuelve cómo trabajarán equipos en distintos husos horarios e idiomas. Documenta las responsabilidades y revisa periódicamente el cumplimiento local.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Contratar personas en el extranjero sin entidad local ni figura resuelta tiene c
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de software contrata a dos programadores en Colombia como contratistas independientes sin asesoría local; un año después, uno reclama relación laboral y la empresa enfrenta cotizaciones y multas locales. Después: usa un proveedor de empleo local para sus contrataciones, define un modelo operativo con soporte legal y contable en destino y un plan de horarios compartidos. El riesgo se transfirió y ordenó (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Programas, estudios de mercado y promoción** (ProChile): ProChile publica orientación sobre la internacionalización de las empresas y los apoyos disponibles en el destino.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Los convenios internacionales y las normas laborales y tributarias chilenas, consultables en la BCN, ayudan a distinguir qué obligaciones se aplican en Chile y cuáles en el país de destino.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

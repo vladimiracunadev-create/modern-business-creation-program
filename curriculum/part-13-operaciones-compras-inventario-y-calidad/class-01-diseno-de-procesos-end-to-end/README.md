@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Handoff** | Punto de traspaso entre áreas donde se pierde información. |
 | **SIPOC** | Mapa de proveedor, entrada, proceso, salida y cliente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un proceso de punta a punta, con un solo dueño
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Proceso end-to-end"]
-    C --> A2["Dueño de proceso"]
-    C --> A3["Handoff"]
-    C --> A4["SIPOC"]
-    A1 & A2 & A3 & A4 --> D{{"definir los procesos críticos,<br/>su dueño y sus puntos de<br/>traspaso"}}
-    D --> E["Entregable<br/>mapa SIPOC de los tres<br/>procesos críticos con dueño y<br/>handoffs identificados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los procesos fallan en los traspasos, no en las actividades; mapear de punta a punta revela cuántas veces la información cambia de manos y dónde se pierde.
+
+![Esquema: Un proceso de punta a punta, con un solo dueño](modelo-mental.svg)
+
+**Qué mirar primero:** Cada casilla es un tramo del proceso. Los traspasos entre casillas son donde se pierden datos y responsabilidad. Si nadie responde por el conjunto, nadie corrige los traspasos.
+
+**Piénsalo así:** Es una carrera de postas: los corredores pueden ser veloces, pero si el bastón se cae en el traspaso, se pierde la carrera.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los procesos fallan en los traspasos, no en las actividades. Mapear end-to-end r
 
 ### 2. Cómo se traduce en la práctica
 
-Mapear por área produce una colección de tramos optimizados que no se conectan. El mapa end-to-end revela cuántas veces cambia de manos la información y dónde se pierde, y asignar un dueño único a todo el flujo es lo que permite corregir sin negociar entre áreas cada vez.
+Mapea el flujo real, no el que está en el manual, hablando con quienes lo ejecutan. Cuenta los traspasos y localiza los que pierden información. Asigna un dueño único con autoridad sobre el proceso completo y una métrica. Mejora primero los traspasos: formatos únicos, confirmaciones y plazos de respuesta. Revisa el mapa cada vez que cambie un cliente o un proveedor.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Mapear por área produce una colección de tramos optimizados que no se conectan
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Elige un proceso crítico de tu empresa, por ejemplo «del pedido a la entrega». Dibuja los cinco tramos y marca cada traspaso entre áreas. Para cada traspaso, escribe qué información viaja, en qué medio y qué pasa si se pierde. Designa a una persona como dueña del proceso completo, con una métrica de desempeño, como el porcentaje de pedidos entregados sin retrabajo. Los datos del ejercicio son ilustrativos.
+
+### 5. En qué se apoya
+
+- **The Goal** (North River Press): Goldratt muestra cómo el desempeño de un sistema depende del flujo completo y de sus restricciones, más que de la eficiencia de cada tramo por separado.
+- **Lean Thinking** (Free Press): Womack y Jones proponen mapear el flujo de valor completo y eliminar las esperas y desperdicios entre actividades.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir los procesos críticos, su dueño y sus puntos de traspaso.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para definir los procesos críticos, su dueño y sus puntos de traspaso.
+
+**Free Press — Lean Thinking**  
+<https://openlibrary.org/isbn/9780684810355> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta los principios lean: valor, flujo, tracción y perfección. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Thinking» para definir los procesos críticos, su dueño y sus puntos de traspaso.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

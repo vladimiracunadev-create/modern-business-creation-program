@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **SOM** | Porción del sam capturable en un horizonte realista con la capacidad actual. |
 | **Estimación bottom-up** | Cálculo desde número de clientes posibles por ticket promedio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Del mercado total al que puedes alcanzar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["TAM"]
-    C --> A2["SAM"]
-    C --> A3["SOM"]
-    C --> A4["Estimación bottom-up"]
-    A1 & A2 & A3 & A4 --> D{{"dimensionar el mercado con<br/>supuestos que un tercero pueda<br/>auditar"}}
-    D --> E["Entregable<br/>modelo TAM/SAM/SOM bottom-up<br/>con fuente, método, fecha,<br/>limitación, sensibilidad y<br/>confianza por supuesto"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Dimensionar el mercado con supuestos auditables, de abajo hacia arriba, es la única estimación defendible: número de clientes por adopción realista por ticket.
+
+![Esquema: Del mercado total al que puedes alcanzar](modelo-mental.svg)
+
+**Lectura guiada:** Cada barra es una porción más pequeña del mercado. La última (SOM) es la que importa para el plan: lo que realmente puedes captar con tu equipo, tu canal y tu caja (cifras ilustrativas).
+
+**Una analogía:** Es una ciudad: la población total no es tu clientela; solo importan los vecinos de tu barrio que realmente caminan hasta tu tienda.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La estimación bottom-up es la única defendible ante un evaluador: número de e
 
 ### 2. Cómo se traduce en la práctica
 
-La versión defendible parte de cuántas empresas o personas hay en el segmento, según INE o SII, por una tasa de adopción y un ticket justificados. Una cifra top-down solo contrasta orden de magnitud. El SOM se limita además por canal, capacidad y horizonte, y la sensibilidad muestra qué supuesto mueve de verdad la conclusión.
+Construye el cálculo de abajo hacia arriba: número de empresas o personas del segmento, por tasa de adopción realista, por ticket anual. Escribe cada supuesto con su fuente y su fecha, usando cifras del INE, del SII o de registros sectoriales. Evita el top-down del tipo «si capturamos 1 % de un mercado enorme»: un evaluador no puede auditar ese porcentaje.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La versión defendible parte de cuántas empresas o personas hay en el segmento,
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa vende software de turnos para clínicas pequeñas. Existen 4.000 clínicas (TAM en unidades). De ellas, 1.200 tienen entre tres y diez profesionales y usan agenda digital (SAM). En el primer año puede visitar 300 y cerrar el 10 %, es decir, 30 clientes (SOM). Con un ticket de $40.000 al mes, el SOM equivale a $1,2 millones mensuales; cada supuesto se anota para que un tercero pueda rehacer la cuenta (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Estadística oficial de población, empleo y actividad** (Instituto Nacional de Estadísticas): El INE entrega estadísticas oficiales de empresas, empleo y actividad sobre las que se puede apoyar el recuento de unidades del segmento.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII publica información sobre contribuyentes y actividades económicas, útil para estimar cuántas empresas de un rubro existen en Chile.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

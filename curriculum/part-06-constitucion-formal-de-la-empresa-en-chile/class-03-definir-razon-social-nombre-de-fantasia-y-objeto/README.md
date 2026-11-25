@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Objeto social** | Actividades que la sociedad declara poder realizar. |
 | **Búsqueda de anterioridad** | Revisión previa de marcas registradas similares en inapi. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Nombre legal, nombre comercial y objeto: tres cosas distintas
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Razón social"]
-    C --> A2["Nombre de fantasía"]
-    C --> A3["Objeto social"]
-    C --> A4["Búsqueda de anterioridad"]
-    A1 & A2 & A3 & A4 --> D{{"definir razón social, nombre<br/>de fantasía y objeto<br/>verificando disponibilidad<br/>marcaria"}}
-    D --> E["Entregable<br/>propuesta de razón social,<br/>fantasía y objeto, con<br/>búsqueda de anterioridad en<br/>INAPI documentada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El objeto social debe ser lo bastante amplio para no bloquear líneas futuras y lo bastante claro para no levantar sospecha; el nombre de fantasía debe verificarse en INAPI antes de usarlo.
+
+![Esquema: Nombre legal, nombre comercial y objeto: tres cosas distintas](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa cumple un papel distinto. La razón social identifica ante la ley, el nombre de fantasía te presenta al cliente y el objeto fija lo que puedes hacer. Confundirlas genera problemas distintos.
+
+**Piénsalo así:** Es tu cédula, tu apodo y tu profesión: los tres te identifican, pero cada uno sirve para algo y se registra en un lugar diferente.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El objeto social debe ser suficientemente amplio para no bloquear líneas futura
 
 ### 2. Cómo se traduce en la práctica
 
-Registrar la sociedad no otorga derecho sobre el nombre comercial: son sistemas distintos. Una empresa puede constituirse con un nombre y descubrir después que la marca está registrada por un tercero en su clase, con el resultado de tener que rebrandear cuando ya construyó reconocimiento.
+Escribe tres nombres posibles y busca anterioridades en INAPI antes de decidir; verifica también dominios y redes. Redacta el objeto con una cláusula principal clara y una final amplia, evitando listas interminables que parezcan una sociedad instrumental. Guarda un registro de las verificaciones con fecha: servirá si más tarde surge una disputa de marca.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Registrar la sociedad no otorga derecho sobre el nombre comercial: son sistemas 
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: dos socios constituyen «Servicios Tecnológicos Cóndor SpA» con el objeto «servicios de reparación de computadores» y un año después quieren vender cursos de programación. La corrección: redactar un objeto más amplio desde el inicio, como «prestación de servicios tecnológicos y de capacitación, y toda actividad relacionada», y buscar la marca «Cóndor» en INAPI antes de imprimir el material. Descubren que ya existía una marca parecida y la cambian a tiempo (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades fija cómo se informan la razón social y el objeto al constituir una sociedad.
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI permite buscar marcas registradas y solicitadas, paso previo para verificar la disponibilidad de un nombre de fantasía.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

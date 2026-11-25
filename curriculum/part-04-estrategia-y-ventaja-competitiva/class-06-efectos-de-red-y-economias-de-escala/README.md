@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Masa crítica** | Volumen mínimo desde el que el efecto se vuelve autosostenido. |
 | **Efecto de red local** | El efecto opera por zona o vertical y no globalmente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El valor de una red según cuántos la usan
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Efecto de red"]
-    C --> A2["Economía de escala"]
-    C --> A3["Masa crítica"]
-    C --> A4["Efecto de red local"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si existe efecto de<br/>red real y a qué nivel opera"}}
-    D --> E["Entregable<br/>análisis de efecto de red con<br/>nivel de operación y masa<br/>crítica estimada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Muchos negocios que se declaran de red tienen en realidad efectos locales: un servicio a domicilio necesita densidad por comuna, no usuarios totales.
+
+![Esquema: El valor de una red según cuántos la usan](modelo-mental.svg)
+
+**Cómo leerlo:** La curva es lenta al principio, se acelera al llegar a una masa crítica y luego se aplana. Confundir un efecto local con uno global lleva a expandirse antes de tener masa en el primer lugar.
+
+**Una analogía:** Es una conversación: un teléfono solo no sirve; con diez conocidos sirve poco; con la ciudad entera, es imprescindible.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Muchos negocios que se declaran de red en realidad tienen efectos locales: un ma
 
 ### 2. Cómo se traduce en la práctica
 
-Muchos negocios que se declaran de red tienen en realidad efectos locales: un marketplace de servicios a domicilio necesita densidad por comuna, no usuarios totales. Confundir ambos lleva a expandir geográficamente antes de alcanzar masa crítica en ningún lugar, que es la forma más rápida de agotar capital.
+Pregunta si el valor para un usuario aumenta cuando se une otro y a qué nivel: ¿en todo el país o solo en su barrio? Mide la densidad por zona o vertical y define la masa crítica local. Distingue también economías de escala (costos que bajan con el volumen) de efectos de red (valor que sube con el uso). Invierte en lo que realmente opera en tu caso.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Muchos negocios que se declaran de red tienen en realidad efectos locales: un ma
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: un servicio de paseo de mascotas con 20.000 usuarios en todo Chile se declara «de red», pero en cada comuna tiene solo diez paseadores y los dueños no encuentran horarios. Expande a nuevas regiones sin resolver la densidad. La corrección: concentrarse en tres comunas hasta que un pedido encuentre paseador en menos de una hora y recién entonces ampliar. La red que importa es la de cada comuna, no la nacional (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Zero to One** (Virgin Books): Thiel incluye los efectos de red y las economías de escala entre las características de los negocios con ventaja duradera, y advierte que deben ser reales y no declarados.
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz describen métricas de mercados de dos lados que ayudan a medir si la densidad de oferta y demanda ya sostiene la red.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para determinar si existe efecto de red real y a qué nivel opera.
+
+**Virgin Books — Zero to One**  
+<https://openlibrary.org/isbn/9780753555187> · verificado 2026-11-25
+
+- *Qué contiene:* Reflexiona sobre construir empresas que crean algo nuevo y sobre el valor de una ventaja diferenciada.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Zero to One» para determinar si existe efecto de red real y a qué nivel opera.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para determinar si existe efecto de red real y a qué nivel opera.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

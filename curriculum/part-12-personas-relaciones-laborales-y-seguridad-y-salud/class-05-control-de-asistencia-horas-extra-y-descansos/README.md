@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Descanso** | Interrupciones y días de descanso obligatorios. |
 | **Pacto de horas extra** | Acuerdo escrito y temporal que las autoriza. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Procede pedir horas extra?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Control de asistencia"]
-    C --> A2["Hora extraordinaria"]
-    C --> A3["Descanso"]
-    C --> A4["Pacto de horas extra"]
-    A1 & A2 & A3 & A4 --> D{{"definir el sistema de control<br/>de asistencia y la política de<br/>horas extraordinarias"}}
-    D --> E["Entregable<br/>procedimiento de control de<br/>asistencia con pacto de horas<br/>extra y control de topes"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las horas extraordinarias requieren pacto escrito, tienen tope y recargo legal y solo proceden por necesidades temporales; un registro de asistencia incompleto invierte la carga probatoria en un juicio.
+
+![Esquema: ¿Procede pedir horas extra?](modelo-mental.svg)
+
+**Cómo leerlo:** Sigue el árbol cada vez que alguien necesite trabajar más. La necesidad debe ser temporal y el pacto, previo. Las horas extra permanentes esconden un problema de dotación.
+
+**Una imagen cotidiana:** Es pedir ayuda extra para una mudanza: se acuerda antes, se paga lo pactado y no se usa como forma de operar todo el año.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las horas extraordinarias requieren pacto escrito, tienen tope y recargo legal, 
 
 ### 2. Cómo se traduce en la práctica
 
-Sin registro se tiende a dar por cierto lo que declara el trabajador sobre jornada y horas extraordinarias. Y las horas extra requieren pacto escrito, tienen tope y proceden solo por necesidades temporales: operar con horas extra permanentes sin pacto es incumplimiento estructural, no una excepción.
+Define el sistema de control de asistencia, que sea confiable, y la política de horas extra, que debe incluir el pacto escrito, el tope y el recargo. Revisa mensualmente quién hace horas extra y por qué. Un registro incompleto o manipulado puede perjudicarte: ante un reclamo, quien no puede demostrar lo contrario enfrenta una carga probatoria difícil.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Sin registro se tiende a dar por cierto lo que declara el trabajador sobre jorna
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿la necesidad es temporal, como una campaña? Dos: ¿hay pacto escrito con cada trabajador? Tres: ¿el registro de asistencia refleja las horas efectivas? Una tienda en diciembre pacta horas extra por escrito con cinco trabajadores para la temporada, las registra con control electrónico y las paga con el recargo legal. En enero evalúa si necesita contratar a una persona más.
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los requisitos del control de asistencia y de las horas extraordinarias, incluido el pacto escrito y el recargo.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código del Trabajo regula la jornada, el descanso y las horas extraordinarias; su texto vigente se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

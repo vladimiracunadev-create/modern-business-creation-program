@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cadena de custodia** | Registro que preserva el valor probatorio. |
 | **Retención legal** | Obligación de conservar documentos por plazos definidos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La documentación que defiende a la empresa en una crisis
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Documentación crítica"]
-    C --> A2["Custodia"]
-    C --> A3["Cadena de custodia"]
-    C --> A4["Retención legal"]
-    A1 & A2 & A3 & A4 --> D{{"identificar la documentación<br/>crítica y asegurar su custodia<br/>y disponibilidad"}}
-    D --> E["Entregable<br/>inventario de documentación<br/>crítica con ubicación,<br/>respaldo, acceso y plazo de<br/>retención"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En una crisis la documentación es lo que permite defender posiciones: contratos, actas, respaldos tributarios, comunicaciones y evidencia laboral, respaldadas fuera de los sistemas afectados.
+
+![Esquema: La documentación que defiende a la empresa en una crisis](modelo-mental.svg)
+
+**Lectura guiada:** Cada capa es un tipo de evidencia. Si una falta o está en el sistema caído, la empresa no puede probar su posición. La cadena de custodia importa tanto como el documento.
+
+**Para recordarlo:** Es la caja fuerte con los títulos de una casa: nadie la mira en la rutina, pero en un conflicto es lo único que importa.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En una crisis, la documentación es lo que permite defender posiciones: contrato
 
 ### 2. Cómo se traduce en la práctica
 
-En una crisis, la documentación es lo que permite defender posiciones: contratos, actas, respaldos tributarios y evidencia laboral. Y la crisis puede coincidir con la salida de quien la administraba, de modo que el acceso concentrado en una persona es un riesgo adicional que se materializa justo entonces.
+Identifica la documentación crítica y dónde está. Mantén copias respaldadas fuera del sistema principal y con acceso controlado. Define quién la custodia y cómo se registra cada acceso. Cuando se anticipa un conflicto, activa una retención legal: no se borra nada. Prepara un índice para entregar con rapidez lo que pidan abogados, el SII o la Inspección.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En una crisis, la documentación es lo que permite defender posiciones: contrato
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa sufre un ataque que cifra sus servidores y descubre que sus contratos, correos y respaldos estaban en el mismo lugar. Un cliente reclama un incumplimiento y un trabajador discute su finiquito; sin evidencia, la empresa pierde ambos casos. La corrección: una carpeta de documentación crítica con copias fuera del sistema principal, un responsable de custodia, registro de accesos y una regla de retención legal cuando hay un conflicto (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica del SII ofrece un respaldo externo de la situación tributaria de la empresa, útil cuando los sistemas internos fallan.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo fiscaliza el cumplimiento laboral y solicita documentación que la empresa debe poder presentar aun en una crisis.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Prevención y gestión de crisis
 

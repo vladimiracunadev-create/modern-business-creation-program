@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Diferencia no identificada** | Descuadre sin explicación, que indica error o irregularidad. |
 | **Confirmación externa** | Evidencia recibida directamente del banco, custodio o contraparte. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuando la conciliación no cuadra
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Conciliación bancaria"]
-    C --> A2["Partida conciliatoria"]
-    C --> A3["Diferencia no identificada"]
-    C --> A4["Confirmación externa"]
-    A1 & A2 & A3 & A4 --> D{{"establecer conciliaciones<br/>independientes por cuenta,<br/>propietario económico y<br/>entidad relacionada"}}
-    D --> E["Entregable<br/>conciliación mensual de fondos<br/>propios y de terceros con<br/>confirmaciones externas,<br/>transferencias relacionadas y<br/>excepciones explicadas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La conciliación bancaria mensual debe cubrir por separado cuentas propias, fondos de terceros y saldos con relacionadas, usando cartolas o confirmaciones obtenidas directamente de la institución.
+
+![Esquema: Cuando la conciliación no cuadra](modelo-mental.svg)
+
+**Lectura guiada:** Recorre el árbol con cada diferencia. Una diferencia sin explicación o con evidencia entregada por quien se beneficia de ella no es una partida: es una alarma.
+
+**Una imagen cotidiana:** Es cuadrar una caja de supermercado: si faltan 5 mil pesos, no basta con decir que seguro se contaron mal, hay que revisar los comprobantes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La conciliación bancaria mensual debe cubrir por separado cuentas propias, fond
 
 ### 2. Cómo se traduce en la práctica
 
-El mayor contable, la cartola y el auxiliar de clientes responden preguntas distintas. La conciliación debe demostrar existencia, titularidad, disponibilidad y restricciones, además de reconstruir transferencias entre entidades. Quien ejecuta o registra no debe controlar la única fuente de evidencia; cuando la dotación es pequeña, el dueño o director revisa directamente la confirmación externa y firma las excepciones.
+Concilia cada cuenta por separado y por propietario económico, incluidos los fondos de terceros y los saldos con relacionadas. Usa cartolas o confirmaciones obtenidas directamente del banco y no de la persona que maneja los fondos. Define quién concilia y quién revisa, y fija un plazo para regularizar las partidas. Los casos FTX y Madoff muestran lo que ocurre sin verificación independiente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El mayor contable, la cartola y el auxiliar de clientes responden preguntas dist
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa maneja fondos de clientes y de la sociedad en la misma cuenta y concilia solo el saldo total. En un cierre, aparece una diferencia que un administrador explica con una cartola que él mismo imprimió. Al pedir una confirmación directa al banco, se descubre que parte del dinero de los clientes se había usado en un préstamo a una relacionada. Esto muestra por qué se concilian por separado y con evidencia independiente (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **FTX y Alameda: condena y sentencia de Samuel Bankman-Fried** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de FTX por fraude, caso en que fondos de clientes se utilizaron en una empresa vinculada sin controles independientes.
+- **Reformas posteriores a Madoff sobre custodia y verificación independiente** (U.S. Securities and Exchange Commission): La SEC describe reformas posteriores al caso Madoff sobre custodia y verificación independiente de los activos de clientes.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Representación legal** | Capacidad de obligar a la sociedad frente a terceros. |
 | **Actuación conjunta** | Exigencia de dos o más firmas para actos sobre cierto monto. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Quién puede firmar, y hasta cuánto
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Administración"]
-    C --> A2["Poder"]
-    C --> A3["Representación legal"]
-    C --> A4["Actuación conjunta"]
-    A1 & A2 & A3 & A4 --> D{{"definir quién representa a la<br/>sociedad, en qué materias y<br/>hasta qué monto"}}
-    D --> E["Entregable<br/>matriz de poderes con materia,<br/>monto, firma requerida y<br/>vigencia"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los poderes son el control interno más barato y el más descuidado: definir montos, materias y actuación conjunta evita que una sola persona comprometa a la sociedad en operaciones críticas.
+
+![Esquema: Quién puede firmar, y hasta cuánto](modelo-mental.svg)
+
+**Cómo leerlo:** Cada banda es un nivel de autorización según el monto. Las cifras son un ejemplo; ajusta los tramos al tamaño de tu empresa y a su riesgo.
+
+**Para recordarlo:** Es la llave de un edificio: unas puertas abre cualquiera del equipo, otras solo dos personas juntas y la bóveda requiere a la dirección.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los poderes son el control interno más barato y el más descuidado. Definir mon
 
 ### 2. Cómo se traduce en la práctica
 
-Otorgar poderes amplios e indefinidos por comodidad operativa deja a la sociedad expuesta a que una sola persona la comprometa en operaciones críticas. Y no revocar los poderes de quien deja la empresa es el error que aparece después, cuando ya se usó una facultad que debió haberse extinguido.
+Escribe una matriz de poderes con materias, montos y actuación conjunta. Otorga poderes solo por escritura pública cuando sea necesario y comunícalos a bancos y proveedores clave. Revisa periódicamente quién los tiene, revoca los de personas que se fueron y exige acta o respaldo para operaciones sobre ciertos montos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Otorgar poderes amplios e indefinidos por comodidad operativa deja a la sociedad
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Define los poderes de tu empresa en una tabla de cinco filas: quién puede abrir cuentas, firmar contratos con clientes, contratar personal, pagar proveedores y comprar activos. Para cada una, escribe el monto máximo, si firma solo o con otra persona y quién debe aprobar si lo supera. Comprueba que el banco y las escrituras de poderes reflejen lo que dice la tabla. Si una persona puede mover todo sola, rediseña los límites.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades permite constituir sociedades con la administración y los poderes definidos desde el inicio.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código de Comercio y el Código Civil regulan el mandato y la representación de las sociedades, que sustentan los poderes definidos por escritura.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

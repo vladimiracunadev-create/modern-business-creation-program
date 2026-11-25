@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Ecuación contable** | Activo igual a pasivo más patrimonio. |
 | **Asiento** | Registro completo y balanceado de un hecho económico. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De dónde salió y en qué se convirtió
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Partida doble"]
-    C --> A2["Debe y haber"]
-    C --> A3["Ecuación contable"]
-    C --> A4["Asiento"]
-    A1 & A2 & A3 & A4 --> D{{"registrar correctamente las<br/>operaciones típicas del<br/>negocio"}}
-    D --> E["Entregable<br/>libro de asientos tipo con las<br/>quince operaciones más<br/>frecuentes del negocio<br/>razonadas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La partida doble se entiende sin memorizar si se piensa en origen y destino: de dónde salió el recurso y en qué se convirtió.
+
+![Esquema: De dónde salió y en qué se convirtió](modelo-mental.svg)
+
+**Lectura guiada:** Cada plato recoge un lado de la operación y siempre pesan lo mismo. Con esa idea cualquier operación se razona, incluso las que no has visto antes.
+
+**Piénsalo así:** Es un trueque con dos libretas: en una anotas lo que sale de tu casa y en la otra lo que entra, y ambas deben decir lo mismo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La partida doble se entiende sin memorizar si se piensa en origen y destino de l
 
 ### 2. Cómo se traduce en la práctica
 
-Con esa lógica se detectan también los asientos que no tienen sentido económico, que es la habilidad realmente útil para quien dirige. El error clásico —registrar el pago de una deuda como gasto— es evidente cuando se pregunta qué recurso salió y en qué se convirtió.
+Para cada operación típica de tu negocio (venta, compra, pago, cobro, sueldo, aporte), escribe una frase con origen y destino y luego anota el asiento. Verifica que el total del debe sea igual al del haber. Si una operación no se deja explicar así, probablemente falta un documento o hay una confusión de conceptos. Usa software que impida asientos descuadrados.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Con esa lógica se detectan también los asientos que no tienen sentido económi
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Estudiante: «Los socios aportan 5 millones. ¿Qué anoto?». Profesora: «¿De dónde salió el dinero?». Estudiante: «De los socios; es un aporte». Profesora: «¿Y en qué se convirtió?». Estudiante: «En dinero en el banco». Profesora: «Entonces el banco aumenta y el patrimonio aumenta, por el mismo monto». Estudiante: «Entonces compro un computador de 1 millón al contado: el banco baja y el activo fijo sube». Profesora: «Eso mismo: cada movimiento tiene origen y destino» (diálogo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican la lógica contable a personas no financieras sin memorizar reglas, centrándose en qué representa cada cuenta y cómo se conectan.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa los registros contables obligatorios que se llevan con base en la partida doble.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para registrar correctamente las operaciones típicas del negocio.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para registrar correctamente las operaciones típicas del negocio.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

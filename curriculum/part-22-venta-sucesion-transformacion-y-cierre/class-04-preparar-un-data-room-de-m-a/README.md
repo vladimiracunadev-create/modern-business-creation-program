@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Información sensible** | Datos que se liberan por etapas del proceso. |
 | **Acuerdo de confidencialidad** | Condición previa al acceso. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un data room que se libera por etapas
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Data room de M&A"]
-    C --> A2["Índice de due diligence"]
-    C --> A3["Información sensible"]
-    C --> A4["Acuerdo de<br/>confidencialidad"]
-    A1 & A2 & A3 & A4 --> D{{"preparar el data room y<br/>definir la liberación por<br/>etapas"}}
-    D --> E["Entregable<br/>data room estructurado por<br/>materia con política de<br/>liberación por etapas y NDA<br/>previo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El data room de venta se organiza por materias (societario, financiero, tributario, laboral, contractual, propiedad intelectual, tecnológico y regulatorio) y se libera por etapas, según el avance y la confianza.
+
+![Esquema: Un data room que se libera por etapas](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño abre más información. La confidencialidad y los acuerdos de reserva son las llaves de cada etapa: lo más sensible solo se entrega al final, con un comprador serio.
+
+**Para recordarlo:** Es abrir las puertas de una casa en venta: primero el living, después las habitaciones y recién cuando hay una oferta seria, la caja fuerte.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El data room de venta se organiza por materias —societario, financiero, tribut
 
 ### 2. Cómo se traduce en la práctica
 
-Entregar todo de inmediato a un interesado no verificado es un riesgo real: los competidores disfrazados de compradores existen. Y abrir el proceso con documentación incompleta transmite descontrol, que es una señal que ningún argumento posterior corrige durante la negociación.
+Organiza el data room con un índice por materia y revisa cada documento antes de subirlo. Define las etapas de liberación y los acuerdos de confidencialidad. Controla los accesos y registra qué se entregó. Corrige lo que encuentres antes de que lo vea el comprador. Considera la protección de datos personales de trabajadores y clientes.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Entregar todo de inmediato a un interesado no verificado es un riesgo real: los 
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿qué información necesita el interesado para decidir si avanza? Entrégala con un acuerdo de confidencialidad. Dos: ¿qué información es sensible, como precios y clientes? Solo se libera en etapas finales. Tres: ¿quién controla el acceso? Un asesor de la empresa registra qué entrega a quién y cuándo. Una empresa publica su índice y libera estados financieros y estructura antes de sus contratos.
+
+### 5. En qué se apoya
+
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica del SII es un documento que el comprador suele pedir para verificar la situación tributaria.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los registros laborales que forman parte de la información que revisará un comprador.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

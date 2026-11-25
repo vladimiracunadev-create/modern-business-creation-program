@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Data room del caso** | Información preparada para el evaluador. |
 | **Uso de fondos** | Destino específico del capital solicitado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De qué se compone el monto que necesita el caso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Necesidad de<br/>financiamiento"]
-    C --> A2["Instrumento elegido"]
-    C --> A3["Data room del caso"]
-    C --> A4["Uso de fondos"]
-    A1 & A2 & A3 & A4 --> D{{"determinar la necesidad de<br/>financiamiento y preparar el<br/>data room del caso"}}
-    D --> E["Entregable<br/>plan de financiamiento con<br/>monto y momento por escenario,<br/>instrumento, uso de fondos y<br/>data room"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El bloque de financiamiento responde cuánto capital necesita el caso, cuándo y para qué: el monto no se elige, se deriva del déficit acumulado, el capital de trabajo, la inversión y la caja mínima.
+
+![Esquema: De qué se compone el monto que necesita el caso](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa es un componente del monto. Sumarlas con supuestos escritos entrega la necesidad real. Pedir más o menos que eso es decidir sin base.
+
+**Para recordarlo:** Es el presupuesto de un viaje largo: el monto sale de sumar pasajes, estadía, imprevistos y un colchón, no de un número que «suena bien».
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El bloque de financiamiento responde cuánto capital necesita el caso, cuándo y
 
 ### 2. Cómo se traduce en la práctica
 
-Solicitar un monto elegido en vez de derivado de caja, capital de trabajo, CAPEX y runway demuestra que la proyección no se usó para decidir. El escenario expansivo no se financia por entusiasmo: exige hitos del base, uso de fondos por período y una respuesta explícita sobre el supuesto que puede destruir el negocio antes de invertir más.
+Deriva el monto del flujo de caja: déficit acumulado máximo, capital de trabajo, CAPEX y caja mínima. Elige el instrumento (recursos propios, crédito, fomento, inversionistas) con el costo y las condiciones de cada uno. Prepara el data room del caso con un índice por materia y el uso de fondos. Verifica la elegibilidad antes de postular.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Solicitar un monto elegido en vez de derivado de caja, capital de trabajo, CAPEX
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: el caso pide 20 millones «para estar tranquilo» sin saber para qué. Después: calcula un déficit acumulado de 4,5 millones hasta el equilibrio, un capital de trabajo de 2 millones, una inversión de 3,5 millones y una caja mínima de 1,5 millones. Su necesidad es 11,5 millones, de los cuales aporta 5 y busca 6,5 con un instrumento de fomento o crédito. El uso de fondos queda detallado en el data room (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Innovación, inversión y garantías** (Corporación de Fomento de la Producción): CORFO publica los instrumentos de financiamiento, garantía e inversión para empresas con sus requisitos.
+- **Fomento para micro y pequeñas empresas** (Servicio de Cooperación Técnica): SERCOTEC publica los programas de fomento para micro y pequeñas empresas, una fuente posible de capital del caso.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

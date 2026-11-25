@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Convenio** | Tratado que reduce o elimina la doble tributación. |
 | **Certificado de residencia** | Documento que acredita residencia tributaria para aplicar el convenio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Se puede reducir la retención de impuestos sobre un pago del exterior?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Retención en la fuente"]
-    C --> A2["Doble tributación"]
-    C --> A3["Convenio"]
-    C --> A4["Certificado de residencia"]
-    A1 & A2 & A3 & A4 --> D{{"determinar el tratamiento<br/>tributario de los flujos<br/>internacionales antes de<br/>facturar"}}
-    D --> E["Entregable<br/>análisis de tributación<br/>internacional con retenciones<br/>aplicables, convenio vigente y<br/>documentación requerida"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Al recibir o pagar al extranjero puede aplicarse una retención en origen; si existe un convenio vigente con ese país, la tasa se reduce, pero solo si se presenta el certificado de residencia tributaria en tiempo.
+
+![Esquema: ¿Se puede reducir la retención de impuestos sobre un pago del exterior?](modelo-mental.svg)
+
+**Qué mirar primero:** Responde en orden. El convenio abre la posibilidad, pero el certificado la hace efectiva. Sin él, el beneficio no se aplica, aunque el convenio exista.
+
+**Para recordarlo:** Es un cupón de descuento: solo funciona si lo presentas en la caja antes de pagar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Al recibir pagos del extranjero puede aplicarse retención en origen. Si existe 
 
 ### 2. Cómo se traduce en la práctica
 
-Si existe convenio vigente con el país de origen del pago, la retención se reduce, pero solo si se presenta el certificado de residencia tributaria en tiempo y forma. Gestionarlo después del pago suele ser imposible, y la diferencia retenida no se recupera.
+Antes de facturar a un cliente del exterior, determina el tratamiento tributario del pago: IVA, retención y convenios. Obtén los certificados de residencia con anticipación y entrégalos antes de cada pago. Pacta en el contrato quién asume la retención y cómo se acredita. Consulta con un contador especializado: los convenios y plazos cambian por país.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Si existe convenio vigente con el país de origen del pago, la retención se red
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: ¿tu cliente está en un país con convenio vigente con Chile? Dos: ¿tienes o puedes obtener el certificado de residencia que exige el convenio? Tres: ¿la retención afecta el precio pactado? Una empresa de diseño chilena que factura a un cliente europeo obtiene su certificado de residencia antes del primer pago y pide que se aplique la tasa reducida; otra, sin certificado, soportó la retención completa.
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII publica información sobre los convenios para evitar la doble tributación y los certificados de residencia tributaria.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El DL 824 y los convenios internacionales, consultables en la Biblioteca del Congreso Nacional, fijan las reglas de retención y de doble tributación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

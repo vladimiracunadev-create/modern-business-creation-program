@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Deseo** | Preferencia por una forma específica de solución. |
 | **Job to be done** | Progreso que el cliente intenta lograr al contratar una solución. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Es un problema o una molestia?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Problema"]
-    C --> A2["Necesidad"]
-    C --> A3["Deseo"]
-    C --> A4["Job to be done"]
-    A1 & A2 & A3 & A4 --> D{{"seleccionar un problema con<br/>frecuencia, gravedad y costo<br/>suficientes para sostener un<br/>negocio"}}
-    D --> E["Entregable<br/>ficha de problema con<br/>frecuencia, costo por evento,<br/>alternativa actual y evidencia<br/>de origen"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un problema empresarial se distingue de una molestia porque se puede medir: cuántas veces ocurre, cuánto pierde el cliente y qué hace hoy para mitigarlo.
+
+![Esquema: ¿Es un problema o una molestia?](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica el problema que quieres resolver según cuántas veces ocurre y qué tanto daña. Si cae en la esquina de la molestia, necesitas otro problema o otro cliente.
+
+**Una imagen cotidiana:** Es la diferencia entre un zapato que aprieta un poco y una fractura: solo por una de las dos se paga una consulta.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un problema empresarial se distingue de una molestia porque tiene frecuencia, gr
 
 ### 2. Cómo se traduce en la práctica
 
-Un problema con frecuencia alta y costo bajo produce productos de volumen; uno de frecuencia baja y costo alto produce servicios de ticket alto. Confundirlos lleva a construir un modelo que no calza con el comportamiento del cliente: nadie contrata una consultoría para algo que ocurre a diario ni una suscripción para algo que ocurre una vez.
+Antes de construir nada, habla con quince personas que sufran el problema y pregunta por hechos del pasado: cuántas veces les ocurrió el último mes, qué perdieron y qué hacen hoy para evitarlo. Anota las respuestas con sus palabras. Si nadie ha pagado ni perdido tiempo real por resolverlo, probablemente sea una molestia y no un negocio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un problema con frecuencia alta y costo bajo produce productos de volumen; uno d
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Fundadora: «Creo que a los dueños de gimnasios les molesta cobrar mensualidades». Dueño: «Sí, un poco». Fundadora: «¿Cuántas veces al mes pasa?». Dueño: «Con unos veinte socios al mes tengo que perseguir el pago». Fundadora: «¿Qué te cuesta cada caso?». Dueño: «Unos treinta minutos y casi un tercio no paga; son unos 400 mil al mes». Con frecuencia, gravedad y costo, la molestia ya es un problema con precio posible (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **The Mom Test (2014)** (CreateSpace): Fitzpatrick enseña a preguntar por conductas pasadas y costos reales del cliente y no por opiniones sobre una idea, que es la forma de distinguir problema de molestia.
+- **Value Proposition Design** (Wiley): Osterwalder y sus coautores describen los dolores y las tareas del cliente como la base de una propuesta de valor, que debe partir de lo que realmente le cuesta.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para seleccionar un problema con frecuencia, gravedad y costo suficientes para sostener un negocio.
+
+**CreateSpace — The Mom Test (2014)**  
+<https://openlibrary.org/isbn/9781492180746> · verificado 2026-11-25
+
+- *Qué contiene:* Enseña a conversar con clientes sobre su vida y sus problemas reales para obtener información útil y no cortesías sobre una idea.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Mom Test (2014)» para seleccionar un problema con frecuencia, gravedad y costo suficientes para sostener un negocio.
+
+**Wiley — Value Proposition Design**  
+<https://openlibrary.org/isbn/9781118968055> · verificado 2026-11-25
+
+- *Qué contiene:* Método para ajustar una propuesta de valor a las tareas, los dolores y las ganancias del cliente.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Value Proposition Design» para seleccionar un problema con frecuencia, gravedad y costo suficientes para sostener un negocio.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

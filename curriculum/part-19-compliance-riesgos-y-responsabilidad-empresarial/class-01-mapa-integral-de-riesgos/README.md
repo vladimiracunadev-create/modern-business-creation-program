@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Riesgo de concentración** | Exposición excesiva a un activo, contraparte, relacionada o fuente de ingresos. |
 | **Riesgo residual** | Exposición que queda después de los controles. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dónde caen tus riesgos: probabilidad e impacto
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Riesgo de producto"]
-    C --> A2["Riesgo de liquidez"]
-    C --> A3["Riesgo de concentración"]
-    C --> A4["Riesgo residual"]
-    A1 & A2 & A3 & A4 --> D{{"identificar y priorizar<br/>riesgos de producto, liquidez,<br/>concentración y confianza con<br/>dueño y control"}}
-    D --> E["Entregable<br/>matriz de riesgos con<br/>dependencia crítica, gatillo,<br/>impacto, control, responsable<br/>y riesgo residual"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El mapa de riesgos debe conectar el producto con sus dependencias económicas, tecnológicas y de liquidez; cada riesgo necesita un dueño y un control, y el riesgo residual es lo que queda después de ellos.
+
+![Esquema: Dónde caen tus riesgos: probabilidad e impacto](modelo-mental.svg)
+
+**Qué mirar primero:** Ubica cada riesgo según su probabilidad y su impacto. Los del cuadrante superior derecho son los que exigen un control y un responsable hoy. Los demás se gestionan de forma proporcional.
+
+**Piénsalo así:** Es el pronóstico de una expedición: algunas amenazas son frecuentes pero leves, otras raras pero mortales; cada una pide un plan distinto.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El mapa debe conectar el producto con sus dependencias económicas, tecnológica
 
 ### 2. Cómo se traduce en la práctica
 
-Celsius y Terra permiten practicar riesgos correlacionados: un activo pierde valor, cae la liquidez, aumentan retiros y la comunicación acelera la pérdida de confianza. El mapa debe mostrar esa cadena, el indicador que la detecta y quién puede detener el producto o activar continuidad. La insolvencia puede ser consecuencia de múltiples causas y no decide por sí sola una calificación penal.
+Lista los riesgos de producto, liquidez, concentración, cumplimiento y confianza de tu empresa. Para cada uno, estima probabilidad e impacto, el control existente, el riesgo residual y un dueño. Revisa el mapa al menos cada seis meses y tras cualquier incidente. Un mapa sin dueños ni controles es una lista de preocupaciones.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Celsius y Terra permiten practicar riesgos correlacionados: un activo pierde val
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de transporte de pasajeros mapea sus riesgos. Descubre que su mayor riesgo no es un accidente (poco probable, pero cubierto por seguro y protocolos) sino la dependencia de un único cliente que representa el 60 % de sus ingresos: probabilidad media, impacto muy alto. Asigna un dueño, fija una meta de diversificación y revisa el riesgo cada trimestre. Los casos de Celsius y Terra muestran lo que ocurre cuando se pregunta tarde de dónde proviene el rendimiento (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Celsius: declaración de culpabilidad y sentencia del fundador** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de Celsius, caso que invita a preguntar de dónde proviene el rendimiento ofrecido y si los activos calzan con los retiros.
+- **The Black Swan** (Random House): Taleb advierte que los riesgos de mayor impacto suelen ser los poco probables y mal medidos, por lo que conviene buscarlos y limitar la exposición.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
 
@@ -209,6 +214,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Analiza el apoyo de contrainteligencia del Estado a las empresas tecnológicas, recoge las posiciones de legisladores, funcionarios y ejecutivos, y subraya el rol de la cultura de reporte y de los equipos de seguridad para detectar aproximaciones antes del acceso.
 - *Cómo leerla:* Úsala para el enfoque defensivo y para ver qué apoyo estatal existe en Estados Unidos. Sus hechos sobre el caso son atribuciones y posiciones de parte; lo que no se informa figura como desconocido y no debe completarse con suposiciones.
 - *Uso en esta clase:* aporta el marco de «Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)» para identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control.
+
+**Random House — The Black Swan**  
+<https://openlibrary.org/isbn/9780812979183> · verificado 2026-11-25
+
+- *Qué contiene:* Examina el impacto de los eventos improbables y los límites de la predicción. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Black Swan» para identificar y priorizar riesgos de producto, liquidez, concentración y confianza con dueño y control.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

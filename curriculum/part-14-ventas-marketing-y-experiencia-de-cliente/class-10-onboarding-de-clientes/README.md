@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Hito de activación** | Evento que indica que el cliente está usando efectivamente. |
 | **Traspaso comercial** | Entrega ordenada desde ventas a la operación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los primeros 30 días del cliente
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Onboarding"]
-    C --> A2["Time to value"]
-    C --> A3["Hito de activación"]
-    C --> A4["Traspaso comercial"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar el onboarding y<br/>definir el hito de activación"}}
-    D --> E["Entregable<br/>proceso de onboarding con<br/>hitos, responsables, time to<br/>value objetivo y traspaso<br/>documentado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La retención se decide en las primeras semanas: cuanto antes ve el cliente su primer resultado, menos probable es que se vaya.
+
+![Esquema: Los primeros 30 días del cliente](modelo-mental.svg)
+
+**Cómo leerlo:** La línea es el primer mes. El hito grande es la activación: el momento en que el cliente usa el producto y obtiene algo. Todo lo anterior existe para llegar a ese punto.
+
+**Una analogía:** Es el primer día en un gimnasio: si la primera semana nadie te muestra cómo usar las máquinas, no vuelves.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El onboarding determina la retención más que cualquier acción posterior. Redu
 
 ### 2. Cómo se traduce en la práctica
 
-Reducir el time to value es la palanca más efectiva contra el churn temprano. Y el traspaso desde ventas debe incluir lo prometido, no solo lo contratado: las expectativas creadas durante la venta son parte del alcance real, aunque no figuren en el contrato firmado.
+Define qué evento prueba que el cliente está en marcha, por ejemplo su primera factura emitida, y trabaja hacia atrás: qué debe estar listo, quién lo hace y en qué plazo. El traspaso desde ventas debe llevar escrito lo prometido y no solo lo contratado, porque las expectativas creadas en la venta son parte del alcance real.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ Reducir el time to value es la palanca más efectiva contra el churn temprano. Y
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Un software de facturación tarda 40 días en quedar operativo y pierde a 3 de cada 10 clientes antes del segundo mes. Al preparar plantillas y migrar los datos junto con el cliente, el primer resultado llega al día 12 y la pérdida temprana baja a 1 de cada 10 (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Customer Success (2016)** (Wiley): Mehta y sus coautores presentan el éxito del cliente como la disciplina que asegura que el cliente obtenga el resultado esperado, empezando por el onboarding.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +160,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para diseñar el onboarding y definir el hito de activación.
+
+**Wiley — Customer Success (2016)**  
+<https://openlibrary.org/isbn/9781119167969> · verificado 2026-11-25
+
+- *Qué contiene:* Define el éxito del cliente como disciplina de negocio recurrente: onboarding, salud de cuenta, retención y expansión.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Customer Success (2016)» para diseñar el onboarding y definir el hito de activación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

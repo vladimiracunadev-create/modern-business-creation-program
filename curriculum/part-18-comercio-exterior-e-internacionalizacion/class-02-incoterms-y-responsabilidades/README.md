@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **EXW y DDP** | Extremos de mínima y máxima obligación del vendedor. |
 | **Seguro de la carga** | Cobertura del riesgo durante el transporte. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dónde pasa el riesgo de vendedor a comprador
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Incoterm"]
-    C --> A2["Punto de transferencia de<br/>riesgo"]
-    C --> A3["EXW y DDP"]
-    C --> A4["Seguro de la carga"]
-    A1 & A2 & A3 & A4 --> D{{"elegir el Incoterm coherente<br/>con la capacidad logística de<br/>la empresa"}}
-    D --> E["Entregable<br/>análisis de Incoterms con<br/>obligaciones, costos y riesgos<br/>asumidos en cada alternativa"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El Incoterm define quién contrata el transporte, quién asume el riesgo y hasta dónde; elegir DDP sin capacidad de gestionar la aduana de destino traslada a la empresa un riesgo que no puede controlar.
+
+![Esquema: Dónde pasa el riesgo de vendedor a comprador](modelo-mental.svg)
+
+**Cómo leerlo:** La línea ordena los términos según hasta dónde llega la responsabilidad del vendedor. Cada paso a la derecha agrega costos, riesgos y obligaciones: elige el que puedas gestionar.
+
+**Una analogía:** Es una entrega de pizza: puedes dejarla en la puerta del local, entregarla al repartidor o llevarla tú hasta el comedor del cliente; cada opción cambia quién se hace cargo si se cae.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El Incoterm define quién contrata el transporte, quién asume el riesgo y hasta
 
 ### 2. Cómo se traduce en la práctica
 
-Pactar DDP sin capacidad de gestionar la aduana de destino traslada a la empresa un riesgo que no puede controlar ni cuantificar. Elegir EXW simplifica pero reduce el atractivo de la oferta; entre ambos extremos hay opciones que reparten riesgo de forma proporcional a la capacidad de cada parte.
+Elige el Incoterm según tu capacidad logística y tu experiencia con el destino. Define en el contrato quién contrata el transporte y el seguro y hasta dónde llega tu responsabilidad. Incluye todos los costos en el precio. Usa los términos de la versión vigente de los Incoterms y acláralo en el contrato, porque el nombre del término debe ir acompañado de la versión y del lugar.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,16 @@ Pactar DDP sin capacidad de gestionar la aduana de destino traslada a la empresa
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa vende una máquina por 50.000 dólares. Con EXW, el comprador organiza todo y la empresa solo prepara la mercancía. Con DDP, debe pagar flete (4.000), seguro (500), aduana y derechos de destino (6.000) y asumir el riesgo hasta la puerta del cliente. Si no conoce el proceso en destino, puede perder el margen de 10.000 dólares en un imprevisto. Con FOB, su riesgo termina al embarcar (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Importación, exportación y clasificación arancelaria** (Servicio Nacional de Aduanas): El Servicio Nacional de Aduanas informa las operaciones de exportación e importación y su documentación, que se relacionan con el término comercial acordado.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

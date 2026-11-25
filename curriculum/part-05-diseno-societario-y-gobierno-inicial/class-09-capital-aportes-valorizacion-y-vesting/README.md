@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Vesting** | Adquisición gradual de la participación según permanencia o hitos. |
 | **Cliff** | Período inicial durante el cual no se consolida nada. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo se consolida la participación de un fundador
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Aporte"]
-    C --> A2["Valorización"]
-    C --> A3["Vesting"]
-    C --> A4["Cliff"]
-    A1 & A2 & A3 & A4 --> D{{"definir cómo se aportan y<br/>valorizan las contribuciones y<br/>bajo qué vesting se consolidan"}}
-    D --> E["Entregable<br/>tabla de aportes con<br/>valorización, calendario de<br/>vesting y cliff, y mecanismo<br/>de recompra"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El vesting protege a la sociedad de que un fundador se retire temprano conservando una participación grande; en Chile se implementa por contrato en el pacto de accionistas.
+
+![Esquema: Cómo se consolida la participación de un fundador](modelo-mental.svg)
+
+**Lectura guiada:** La línea muestra cómo se consolida la participación con el tiempo. El primer hito, el cliff, protege a la empresa: antes de él, quien se va no se lleva nada.
+
+**Piénsalo así:** Es ganar derecho a vacaciones: no se reciben todas el primer día, se ganan mes a mes, con una espera inicial.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El vesting protege a la sociedad de que un fundador se retire temprano conservan
 
 ### 2. Cómo se traduce en la práctica
 
-En Chile el vesting se implementa contractualmente en el pacto de accionistas, con opciones de compra a valor nominal sobre la parte no consolidada. Los aportes no dinerarios, por su lado, exigen criterio de valorización defendible ante el SII: valorizar un intangible sin método genera contingencia tributaria.
+Define cómo se valorizan los aportes de los fundadores, incluido el trabajo, y el calendario de consolidación: duración, cliff y qué ocurre ante despido, salida voluntaria, muerte o venta de la empresa. En Chile se implementa por contrato, con opciones de compra o promesas a valor pactado. Revisa los efectos tributarios con tu contador antes de firmar.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ En Chile el vesting se implementa contractualmente en el pacto de accionistas, c
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Tres fundadores acuerdan un vesting de cuatro años con cliff de un año. A los nueve meses, uno se va por desacuerdos con una participación de 33 %; como no alcanzó el cliff, la sociedad recompra sus acciones a valor nominal según el pacto y puede reasignarlas a quien las necesita. Otro se va al mes 30 con 62,5 % consolidado y solo conserva esa parte (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Secrets of Sand Hill Road** (Portfolio): Kupor explica por qué los inversionistas piden vesting de los fundadores y cómo se estructuran el calendario y el cliff.
+- **Venture Deals** (Wiley): Feld y Mendelson describen los términos de una hoja de términos de capital de riesgo, entre ellos el vesting de las acciones de los fundadores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -157,6 +162,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir cómo se aportan y valorizan las contribuciones y bajo qué vesting se consolidan.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para definir cómo se aportan y valorizan las contribuciones y bajo qué vesting se consolidan.
+
+**Wiley — Venture Deals**  
+<https://openlibrary.org/isbn/9781118443613> · verificado 2026-11-25
+
+- *Qué contiene:* Explica los términos de una inversión de capital de riesgo: hoja de términos, valoración y derechos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Venture Deals» para definir cómo se aportan y valorizan las contribuciones y bajo qué vesting se consolidan.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

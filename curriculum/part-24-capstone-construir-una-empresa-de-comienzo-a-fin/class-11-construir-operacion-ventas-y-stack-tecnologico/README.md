@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Stack tecnológico** | Conjunto mínimo de sistemas. |
 | **Coherencia operativa** | Correspondencia entre promesa, proceso y capacidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo prometido, lo ejecutable y lo habilitado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Operación del caso"]
-    C --> A2["Motor comercial"]
-    C --> A3["Stack tecnológico"]
-    C --> A4["Coherencia operativa"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar la operación, el motor<br/>comercial y el stack<br/>tecnológico del caso"}}
-    D --> E["Entregable<br/>diseño<br/>operativo-comercial-tecnológico<br/>del caso con procesos, embudo<br/>y arquitectura de sistemas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Esta etapa integra operación, ventas y tecnología en un diseño coherente: lo que se promete comercialmente debe poder ejecutarse operativamente con los sistemas definidos.
+
+![Esquema: Lo prometido, lo ejecutable y lo habilitado](modelo-mental.svg)
+
+**Cómo leerlo:** Los tres círculos deben coincidir. Si ventas promete una entrega en 24 horas y la operación necesita 72, o si el sistema no registra lo que se vendió, la promesa se rompe.
+
+**Piénsalo así:** Es un restaurante donde el menú, la cocina y la caja deben hablar el mismo idioma: lo que se ofrece, lo que se puede cocinar y lo que se puede cobrar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Esta etapa integra operación, ventas y tecnología en un diseño coherente: lo 
 
 ### 2. Cómo se traduce en la práctica
 
-La evaluación busca las inconsistencias entre esos tres planos: niveles de servicio que el proceso no sostiene, un embudo que la operación no puede atender, o un stack desproporcionado para la etapa. La coherencia entre promesa, proceso y capacidad es el criterio.
+Diseña el proceso de punta a punta, desde la primera consulta hasta la postventa. Verifica que cada promesa comercial tenga un responsable y un recurso. Define el stack tecnológico mínimo, la fuente de verdad de cada dato y los respaldos. Aplica controles de seguridad básicos. Anota los supuestos de capacidad y la métrica de cumplimiento.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La evaluación busca las inconsistencias entre esos tres planos: niveles de serv
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿qué promete el motor comercial: plazos, precios, garantías? Dos: ¿puede la operación cumplirlo con sus recursos? Tres: ¿el stack mínimo (facturación, CRM, agenda, almacenamiento) registra y respalda cada paso? El caso promete atención en 48 horas, revisa su capacidad real y ajusta a 72 con una agenda en línea que muestra la disponibilidad (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Goal** (North River Press): Goldratt muestra que el desempeño del sistema depende de la restricción, por lo que las promesas comerciales deben ajustarse a la capacidad real.
+- **Lean Thinking** (Free Press): Womack y Jones proponen diseñar el flujo desde la perspectiva del valor para el cliente y eliminar lo que no lo agrega.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
 - *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para diseñar la operación, el motor comercial y el stack tecnológico del caso.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para diseñar la operación, el motor comercial y el stack tecnológico del caso.
+
+**Free Press — Lean Thinking**  
+<https://openlibrary.org/isbn/9780684810355> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta los principios lean: valor, flujo, tracción y perfección. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Thinking» para diseñar la operación, el motor comercial y el stack tecnológico del caso.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

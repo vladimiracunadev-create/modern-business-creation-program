@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **DIA y EIA** | Declaración o estudio, según la magnitud del impacto. |
 | **RCA** | Resolución de calificación ambiental y sus condiciones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Tu proyecto debe ingresar al SEIA?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SEIA"]
-    C --> A2["Tipología de proyecto"]
-    C --> A3["DIA y EIA"]
-    C --> A4["RCA"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el proyecto debe<br/>ingresar al SEIA y bajo qué<br/>modalidad"}}
-    D --> E["Entregable<br/>análisis de pertinencia de<br/>ingreso al SEIA con tipología,<br/>modalidad y plazos estimados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Ciertos proyectos deben ingresar al SEIA según su tipología y magnitud; ejecutar sin la resolución correspondiente expone a sanciones de la SMA, incluida la paralización.
+
+![Esquema: ¿Tu proyecto debe ingresar al SEIA?](modelo-mental.svg)
+
+**Cómo leerlo:** Recorre el árbol antes de iniciar obras. La obligación depende de qué es tu proyecto y de cuán grande es, no de la intención. Las condiciones de la resolución aprobatoria obligan durante la operación.
+
+**Piénsalo así:** Es pedir permiso de edificación para una casa y no para una torre: la regla depende de lo que construyes, no de lo que prefieres.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Ciertos proyectos deben ingresar al SEIA según su tipología y magnitud. Ejecut
 
 ### 2. Cómo se traduce en la práctica
 
-Ejecutar sin la resolución correspondiente expone a sanciones de la SMA, incluida la paralización. Y las condiciones de la RCA son obligaciones permanentes y fiscalizables durante toda la vida del proyecto: leerlas como requisitos de una sola vez produce incumplimientos años después de la aprobación.
+Antes de invertir, determina con un especialista si el proyecto está en una tipología del SEIA y en qué modalidad ingresa. Incluye el tiempo de evaluación en tu cronograma. Una vez aprobado, cumple las condiciones de la resolución, que la SMA fiscaliza. Considera también los permisos ambientales sectoriales y las normas de emisión que apliquen.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Ejecutar sin la resolución correspondiente expone a sanciones de la SMA, inclui
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa instala una planta de procesamiento sin evaluar si su tipología y magnitud exigían ingreso al SEIA. Cuando operaba, la SMA la fiscaliza por denuncia vecinal y ordena detener la operación hasta que ingrese y obtenga la resolución. La corrección: consultar antes a un especialista, determinar la modalidad (DIA o EIA) y construir los plazos de evaluación en el cronograma del proyecto (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Sistema de Evaluación de Impacto Ambiental** (Servicio de Evaluación Ambiental): El Servicio de Evaluación Ambiental administra el SEIA y publica las tipologías y los procedimientos para ingresar proyectos.
+- **Fiscalización y sanción ambiental** (Superintendencia del Medio Ambiente): La Superintendencia del Medio Ambiente fiscaliza el cumplimiento de las resoluciones y puede sancionar, incluso con la paralización de la actividad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

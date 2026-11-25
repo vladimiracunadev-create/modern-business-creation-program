@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Secreto comercial** | Información no divulgada con valor comercial y medidas de protección. |
 | **Divulgación previa** | Publicación anterior que impide obtener la patente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Patentar, registrar un diseño o guardar el secreto
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Patente de invención"]
-    C --> A2["Diseño industrial"]
-    C --> A3["Secreto comercial"]
-    C --> A4["Divulgación previa"]
-    A1 & A2 & A3 & A4 --> D{{"elegir entre patentar,<br/>registrar diseño o proteger<br/>como secreto"}}
-    D --> E["Entregable<br/>estrategia de protección de<br/>intangibles con instrumento<br/>elegido y justificación por<br/>activo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La elección entre patentar y mantener en secreto depende de si la invención se puede reproducir por ingeniería inversa y del costo de defenderla: patentar exige divulgar; el secreto exige acreditar medidas de protección.
+
+![Esquema: Patentar, registrar un diseño o guardar el secreto](modelo-mental.svg)
+
+**Qué mirar primero:** Ubica tu invención según qué tan fácil es copiarla al verla y cuánto costaría defender el derecho. El cuadrante sugiere la vía, que luego se valida con un especialista.
+
+**Una imagen cotidiana:** Es elegir entre poner una cerradura a la puerta o publicar la dirección con una orden de alejamiento: depende de qué tan fácil es copiar la llave y quién te defenderá.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La elección entre patentar y mantener en secreto depende de si la invención es
 
 ### 2. Cómo se traduce en la práctica
 
-Patentar exige divulgar y otorga exclusividad temporal; el secreto no exige divulgar pero obliga a acreditar medidas razonables de protección. La decisión es irreversible en un sentido: divulgar públicamente antes de solicitar la patente destruye la novedad y con ella el derecho.
+Antes de divulgar cualquier invención, revisa si la divulgación previa afecta su novedad. Evalúa con un especialista si patentar, registrar un diseño o proteger como secreto. Para el secreto comercial, documenta las medidas de protección: acceso limitado, acuerdos con empleados y proveedores y registros. Los derechos de propiedad industrial son territoriales y tienen plazos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Patentar exige divulgar y otorga exclusividad temporal; el secreto no exige divu
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿alguien podría reproducir tu producto al verlo o analizarlo? Si sí, el secreto no te protege. Dos: ¿es una invención nueva con altura inventiva o un diseño ornamental? Patente o diseño. Tres: ¿tienes los recursos para defender el derecho? Una empresa con una fórmula que no puede deducirse del producto final la mantiene como secreto, con acuerdos de confidencialidad y acceso limitado.
+
+### 5. En qué se apoya
+
+- **DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial** (Biblioteca del Congreso Nacional): El texto refundido de la Ley 19.039 regula patentes, diseños industriales y el secreto comercial, con requisitos distintos para cada uno.
+- **Código Penal — Artículos 284 a 284 sexies (secreto comercial)** (Biblioteca del Congreso Nacional): El Código Penal sanciona ciertas conductas contra el secreto comercial, lo que respalda la protección de la información reservada que se acredita con medidas razonables.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Protección de secretos comerciales
 

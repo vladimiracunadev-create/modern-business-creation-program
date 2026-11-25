@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Escenario de cierre** | Secuencia de término ordenado. |
 | **Resiliencia** | Capacidad de sostener la operación bajo estrés. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo resiste el caso a un escenario adverso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Simulación de crisis"]
-    C --> A2["Plan de contingencia"]
-    C --> A3["Escenario de cierre"]
-    C --> A4["Resiliencia"]
-    A1 & A2 & A3 & A4 --> D{{"someter el caso a escenarios<br/>adversos y diseñar el cierre<br/>ordenado"}}
-    D --> E["Entregable<br/>simulación de crisis del caso<br/>con escenarios, respuestas,<br/>plan de continuidad y<br/>secuencia de cierre"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El caso se somete a estrés con escenarios como la pérdida del cliente principal, un incidente informático, una fiscalización o una caída sostenida de ingresos, y se diseña además el escenario de un cierre ordenado.
+
+![Esquema: Cómo resiste el caso a un escenario adverso](modelo-mental.svg)
+
+**Lectura guiada:** Cada banda mide cuánto resiste el caso en un escenario adverso. El resultado no es una nota: es información para rediseñar. Un cierre ordenado también es parte de un buen diseño.
+
+**Una imagen cotidiana:** Es una prueba de choque de un auto: no se hace para aprobar o reprobar, sino para saber qué hay que reforzar antes de salir a la calle.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El caso se somete a estrés: pérdida del cliente principal, incidente informát
 
 ### 2. Cómo se traduce en la práctica
 
-Simular solo escenarios que el plan ya resuelve no aporta información. Al menos uno debe romperlo, para que aparezcan las palancas reales. Y omitir el diseño del cierre por considerarlo pesimista deja fuera una competencia que la parte 22 demuestra que es parte de operar.
+Define los escenarios de estrés relevantes para tu caso y modela su efecto en caja y operación. Para cada uno, escribe el plan de contingencia con responsables y gatillos. Diseña el cierre ordenado: término de giro, finiquitos, contratos, permisos y archivo. Registra en el expediente los resultados y lo que cambiaste en el modelo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Simular solo escenarios que el plan ya resuelve no aporta información. Al menos
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Somete tu caso a tres escenarios: pérdida del cliente que aporta el 40 % de los ingresos, un incidente informático de una semana y una caída sostenida de las ventas del 30 %. Para cada uno calcula cuántos meses resiste tu caja y qué decisiones tomarías (recortes, renegociación, financiamiento). Define el gatillo de cada acción. Diseña un escenario de cierre ordenado: pasos, costo y plazo. Los umbrales y cifras del ejercicio son ilustrativos.
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa el procedimiento de término de giro, parte del escenario de cierre ordenado.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los finiquitos y obligaciones laborales de un cierre.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

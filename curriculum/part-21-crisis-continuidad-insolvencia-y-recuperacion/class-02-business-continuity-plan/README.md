@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Proceso crítico** | Aquel cuya interrupción produce el mayor daño. |
 | **Ensayo** | Ejercicio que verifica que el plan funciona. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué se restablece primero cuando la operación se detiene
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["BCP"]
-    C --> A2["BIA"]
-    C --> A3["Proceso crítico"]
-    C --> A4["Ensayo"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué procesos se<br/>restablecen primero y con qué<br/>recursos"}}
-    D --> E["Entregable<br/>plan de continuidad con<br/>priorización de procesos,<br/>recursos mínimos, roles y<br/>calendario de ensayos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El plan de continuidad se construye sobre el análisis de impacto: primero se determina qué procesos deben restablecerse y en qué orden, y solo después se diseñan las respuestas; un plan nunca ensayado falla.
+
+![Esquema: Qué se restablece primero cuando la operación se detiene](modelo-mental.svg)
+
+**Cómo leerlo:** Cada peldaño es una prioridad. El análisis de impacto decide cuáles procesos son críticos; las respuestas se diseñan para esos y no para todos por igual.
+
+**Para recordarlo:** Es el plan de evacuación de un hospital: primero se salva a quien está en riesgo vital y después se organiza el resto.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El BCP se construye sobre el análisis de impacto: primero se determina qué pro
 
 ### 2. Cómo se traduce en la práctica
 
-Primero se determina qué procesos deben restablecerse y en qué orden; solo después se diseñan las respuestas. Las dependencias reales —accesos, proveedores, personas, información— aparecen únicamente al ensayar, y descubrirlas durante la crisis es exactamente lo que el plan pretendía evitar.
+Haz un análisis de impacto en el negocio: qué procesos son críticos, cuánto tiempo pueden detenerse y qué recursos requieren. Define el orden de restablecimiento y las alternativas (trabajo remoto, local alterno, proveedor de respaldo). Ensaya el plan al menos una vez al año con un escenario realista y registra lo que falló. Actualiza el plan cuando cambie la operación.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Primero se determina qué procesos deben restablecerse y en qué orden; solo des
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿qué procesos, si se detienen, causan el mayor daño y en cuánto tiempo? Dos: ¿qué recursos necesita cada uno (personas, sistemas, proveedores, local)? Tres: ¿en qué orden se restablecen? Una empresa de logística descubre que, tras un corte de sistemas, lo crítico es seguir despachando los pedidos urgentes en horas; los reportes de gestión pueden esperar una semana.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las normas laborales y comerciales, consultables en la Biblioteca del Congreso Nacional, definen obligaciones que continúan durante una interrupción de la operación.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los derechos y deberes laborales ante suspensiones temporales de la operación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

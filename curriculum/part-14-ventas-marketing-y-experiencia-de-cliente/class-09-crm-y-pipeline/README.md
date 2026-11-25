@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Higiene de datos** | Calidad y actualización de la información registrada. |
 | **Probabilidad por etapa** | Factor histórico de cierre según la etapa. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Higiene del pipeline por inactividad
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["CRM"]
-    C --> A2["Pipeline"]
-    C --> A3["Higiene de datos"]
-    C --> A4["Probabilidad por etapa"]
-    A1 & A2 & A3 & A4 --> D{{"definir las reglas de higiene<br/>del pipeline y su revisión<br/>periódica"}}
-    D --> E["Entregable<br/>pipeline con etapas definidas,<br/>reglas de higiene y<br/>probabilidades calibradas con<br/>histórico"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un pipeline sin higiene da falsa confianza: una oportunidad sin actividad reciente no puede seguir en una etapa avanzada.
+
+![Esquema: Higiene del pipeline por inactividad](modelo-mental.svg)
+
+**Lectura guiada:** Cada banda es una regla de higiene: según los días sin actividad, la oportunidad se mantiene, se revisa o baja. Los umbrales son un ejemplo; ajústalos al largo de tu ciclo de venta.
+
+**Una imagen cotidiana:** Es el inventario de una bodega: si nadie cuenta lo que hay, el sistema dice que tienes stock que ya no existe.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un CRM sin higiene de datos produce forecast peores que no tener CRM, porque dan
 
 ### 2. Cómo se traduce en la práctica
 
-La regla mínima es que una oportunidad sin actividad reciente no puede seguir en etapa avanzada, y que las probabilidades por etapa se calibren con el histórico real en vez de asignarse arbitrariamente. Mantener oportunidades muertas para inflar el forecast produce decisiones de contratación equivocadas.
+Define las etapas con hechos verificables, el campo obligatorio de cada una y la regla de salida por inactividad. Calibra las probabilidades por etapa con tus cierres de los últimos doce meses y no con los de un manual. Programa una revisión semanal corta y haz visibles las oportunidades sin próximo paso.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ La regla mínima es que una oportunidad sin actividad reciente no puede seguir e
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa reporta $300 millones en etapa avanzada con probabilidad de 60 % y proyecta $180 millones, pero nadie depura las oportunidades sin actividad. La corrección: aplicar la regla de 30 días sin movimiento. Salen $120 millones de la etapa avanzada y el pronóstico baja a $108 millones, mucho más cercano a lo que de verdad se cierra cada trimestre (cifras ilustrativas). Un pipeline limpio asusta más en la reunión, pero decide mejor.
+
+### 5. En qué se apoya
+
+- **Predictable Revenue (2011)** (PebbleStorm): Ross y Tyler insisten en medir el proceso comercial (volumen, conversión y ciclo) para poder pronosticar con datos y no con impresiones.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +160,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir las reglas de higiene del pipeline y su revisión periódica.
+
+**PebbleStorm — Predictable Revenue (2011)**  
+<https://openlibrary.org/isbn/9780984380213> · verificado 2026-11-25
+
+- *Qué contiene:* Describe la prospección saliente como un proceso con roles especializados, listas acotadas y métricas, para volver predecible la generación de ingresos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Predictable Revenue (2011)» para definir las reglas de higiene del pipeline y su revisión periódica.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

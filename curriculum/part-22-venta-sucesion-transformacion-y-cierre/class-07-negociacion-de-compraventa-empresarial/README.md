@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Precio y ajuste** | Monto y mecanismo de corrección al cierre. |
 | **Declaraciones y garantías** | Afirmaciones del vendedor que soportan el precio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las etapas de una compraventa de empresa
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Carta de intención"]
-    C --> A2["Exclusividad"]
-    C --> A3["Precio y ajuste"]
-    C --> A4["Declaraciones y garantías"]
-    A1 & A2 & A3 & A4 --> D{{"negociar las condiciones<br/>principales y el alcance de<br/>las garantías"}}
-    D --> E["Entregable<br/>carta de intención con precio,<br/>mecanismo de ajuste,<br/>exclusividad y marco de<br/>declaraciones y garantías"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La negociación se estructura en carta de intención, debida diligencia, contrato definitivo y cierre; las declaraciones y garantías son donde queda el riesgo posterior: su alcance, plazo y tope.
+
+![Esquema: Las etapas de una compraventa de empresa](modelo-mental.svg)
+
+**Qué mirar primero:** Cada casilla es un hito con efectos jurídicos. La carta de intención ordena el proceso, la debida diligencia aclara el riesgo y el contrato lo reparte. El cierre solo ocurre cuando todo está firmado.
+
+**Piénsalo así:** Es construir una casa por etapas: primero el plano, luego la revisión del terreno, el contrato con el constructor y la entrega final.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La negociación se estructura en carta de intención, due diligence, contrato de
 
 ### 2. Cómo se traduce en la práctica
 
-Ahí queda el riesgo posterior al cierre: sin tope ni plazo, el vendedor mantiene una exposición indefinida sobre hechos que ya no controla. Y conceder exclusividad prolongada sin hitos de avance verificables inmoviliza el proceso mientras el comprador decide sin costo.
+Define el calendario y las condiciones de cada etapa. En la carta de intención, pacta exclusividad, confidencialidad y plazos. En el contrato, negocia precio y ajustes, declaraciones y garantías con límites claros, indemnizaciones y condiciones de cierre. Cuenta con abogados con experiencia en operaciones de compraventa y con un asesor financiero.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Ahí queda el riesgo posterior al cierre: sin tope ni plazo, el vendedor mantien
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: dos socios venden su empresa con una carta de intención de dos páginas, sin exclusividad ni plazos; el comprador negocia con otro interesado y retira su oferta tras ocho semanas. Después: firman una carta con exclusividad de 45 días, una lista de condiciones y garantías acotadas a 18 meses con un tope del 20 % del precio. El cierre se produce en la fecha prevista (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Getting to Yes (3.ª ed., 2011)** (Penguin): Fisher y Ury proponen negociar sobre intereses y criterios objetivos, útil para repartir de manera equilibrada el riesgo en las garantías de una compraventa.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil y el Código de Comercio, consultables en la BCN, regulan la compraventa, las garantías y las indemnizaciones entre las partes.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para negociar las condiciones principales y el alcance de las garantías.
+
+**Penguin — Getting to Yes (3.ª ed., 2011)**  
+<https://openlibrary.org/isbn/9780143118756> · verificado 2026-11-25
+
+- *Qué contiene:* Expone la negociación basada en intereses: separar a las personas del problema, generar opciones de beneficio mutuo y usar criterios objetivos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Getting to Yes (3.ª ed., 2011)» para negociar las condiciones principales y el alcance de las garantías.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Aporte de cada parte** | Lo que cada uno pone y lo que espera obtener. |
 | **Salida de la alianza** | Mecanismo de término y reparto. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto compromiso exige cada tipo de relación
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Alianza estratégica"]
-    C --> A2["Joint venture"]
-    C --> A3["Aporte de cada parte"]
-    C --> A4["Salida de la alianza"]
-    A1 & A2 & A3 & A4 --> D{{"priorizar aliados y definir<br/>aportes, gobierno y salida<br/>solo para la relación que<br/>justifica una alianza"}}
-    D --> E["Entregable<br/>mapa de aliados priorizado y,<br/>para la relación seleccionada,<br/>acuerdo con aportes, gobierno,<br/>reparto y salida"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Antes de negociar se construye un mapa de aliados priorizado y se clasifica cada relación; solo la que justifica una alianza exige definir aportes, gobierno y salida.
+
+![Esquema: Cuánto compromiso exige cada tipo de relación](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño pide más compromiso y más gobierno. Muchas relaciones se quedan mejor como contratos simples; una alianza formal solo vale cuando la relación lo justifica.
+
+**Una imagen cotidiana:** Es pasar de conocer a un vecino a ser socios de una empresa: cada paso exige más confianza, más acuerdos escritos y más reglas de salida.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Antes de negociar se construye un mapa de aliados priorizado y se clasifica cada
 
 ### 2. Cómo se traduce en la práctica
 
-El mapa compara capacidad, recurso, contraprestación, dependencia, criticidad, sustitución, incentivos y riesgo antes de redactar. Un proveedor o canal conserva su categoría si no existe resultado conjunto ni dependencia estratégica. Para el aliado priorizado se acuerdan gobierno, propiedad y salida; definir la salida al inicio permite comprometerse sin quedar atrapado.
+Construye un mapa de aliados con la clasificación de cada relación según su aporte, dependencia y riesgo. Para la que justifica una alianza, define el aporte de cada parte, la gobernanza, la propiedad de los resultados y la salida. Usa un contrato proporcional a la relación. Revisa la alianza periódicamente y evita cláusulas de exclusividad sin contrapartida.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El mapa compara capacidad, recurso, contraprestación, dependencia, criticidad, 
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa firma una «alianza estratégica» con un proveedor de software, sin definir aportes, decisiones ni cómo salir. Dos años después, el proveedor cambia de dueño y la alianza se vuelve una dependencia sin salida. Después: clasifica sus relaciones, deja a este proveedor como contrato de servicio con cláusulas de continuidad y reserva la alianza formal para un partner con aportes recíprocos, gobierno y plan de salida (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Business Model Generation** (Wiley): Osterwalder y Pigneur incluyen las alianzas clave como un bloque del modelo de negocio y distinguen sus tipos y motivaciones.
+- **DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial** (Biblioteca del Congreso Nacional): El texto refundido de la Ley 19.039 regula los derechos de propiedad industrial que suelen aportarse a una alianza.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
 
@@ -175,6 +180,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.
 - *Cómo leerla:* Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.
 - *Uso en esta clase:* aporta el marco de «DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial» para priorizar aliados y definir aportes, gobierno y salida solo para la relación que justifica una alianza.
+
+**Wiley — Business Model Generation**  
+<https://openlibrary.org/isbn/9780470876411> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el lienzo del modelo de negocio de nueve bloques y patrones para describir, diseñar y comparar modelos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Business Model Generation» para priorizar aliados y definir aportes, gobierno y salida solo para la relación que justifica una alianza.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

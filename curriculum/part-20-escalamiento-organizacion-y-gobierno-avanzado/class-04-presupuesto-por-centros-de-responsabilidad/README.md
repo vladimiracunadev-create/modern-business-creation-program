@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Desviación** | Diferencia entre lo presupuestado y lo real. |
 | **Análisis de desviaciones** | Explicación de las diferencias y acción correctiva. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Presupuesto frente a resultado real por centro
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Centro de responsabilidad"]
-    C --> A2["Presupuesto"]
-    C --> A3["Desviación"]
-    C --> A4["Análisis de desviaciones"]
-    A1 & A2 & A3 & A4 --> D{{"definir los centros de<br/>responsabilidad y su rutina de<br/>análisis de desviaciones"}}
-    D --> E["Entregable<br/>presupuesto por centro de<br/>responsabilidad con rutina<br/>mensual de análisis de<br/>desviaciones"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Presupuestar por centro de responsabilidad convierte el control financiero en gestión: cada responsable ve su resultado y explica sus desviaciones; el valor está en el análisis y no en el presupuesto.
+
+![Esquema: Presupuesto frente a resultado real por centro](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra es la desviación de un centro. La mayor, en tecnología, indica dónde conversar primero. Una desviación no es un juicio: es una pregunta que el responsable debe poder contestar.
+
+**Para recordarlo:** Es el control de un viaje: no importa solo cuánto gastaste, sino por qué te saliste del plan y qué cambiarás.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Presupuestar por centro de responsabilidad convierte el control financiero en ge
 
 ### 2. Cómo se traduce en la práctica
 
-El valor está en el análisis, no en la exactitud del presupuesto: una desviación explicada y corregida vale más que una proyección precisa. Presupuestar de forma centralizada sin involucrar a los responsables produce números que nadie defiende ni se siente obligado a cumplir.
+Define los centros de responsabilidad, quién responde por cada uno y qué partidas controla. Construye el presupuesto con ellos y revisa mensualmente las desviaciones con una pregunta fija: qué pasó, por qué y qué haremos. Distingue las desviaciones de volumen, de precio y de eficiencia. Ajusta el presupuesto cuando el negocio cambie.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El valor está en el análisis, no en la exactitud del presupuesto: una desviaci
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa define cuatro centros de responsabilidad. En el mes, ventas supera su presupuesto en 8 %, administración en 3 %, operaciones queda 5 % bajo y tecnología se desvía 12 % por la compra de licencias no previstas. En la reunión mensual, la responsable de tecnología explica que se anticipó una compra y reordena el presupuesto del trimestre. Nadie se enoja: la desviación se entendió y se corrigió (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Balanced Scorecard** (Harvard Business School Press): Kaplan y Norton proponen vincular los indicadores y el control de gestión con la estrategia y asignar responsabilidades claras.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican el análisis de desviaciones y cómo usar los números para dirigir y no solo para informar.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir los centros de responsabilidad y su rutina de análisis de desviaciones.
+
+**Harvard Business School Press — The Balanced Scorecard**  
+<https://openlibrary.org/isbn/9781578514090> · verificado 2026-11-25
+
+- *Qué contiene:* Traduce la estrategia en indicadores financieros, de clientes, de procesos y de aprendizaje. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Balanced Scorecard» para definir los centros de responsabilidad y su rutina de análisis de desviaciones.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para definir los centros de responsabilidad y su rutina de análisis de desviaciones.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

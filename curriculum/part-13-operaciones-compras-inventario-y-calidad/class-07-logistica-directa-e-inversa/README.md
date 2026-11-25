@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Costo de la devolución** | Transporte, revisión, reacondicionamiento y pérdida de valor. |
 | **Última milla** | Tramo final de la entrega, el más caro por unidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto cuesta una devolución frente al margen del pedido
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Logística directa"]
-    C --> A2["Logística inversa"]
-    C --> A3["Costo de la devolución"]
-    C --> A4["Última milla"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar el flujo de<br/>devoluciones y su costo antes<br/>de prometer políticas de<br/>cambio"}}
-    D --> E["Entregable<br/>proceso de logística inversa<br/>con costo por devolución y<br/>criterios de aceptación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La logística inversa se subestima sistemáticamente en el comercio electrónico: recibir, revisar, reacondicionar y reponer un producto devuelto puede costar más que el margen del pedido.
+
+![Esquema: Cuánto cuesta una devolución frente al margen del pedido](modelo-mental.svg)
+
+**Qué mirar primero:** Cada barra resta un costo del margen original. La última muestra que, tras todas las etapas, la devolución puede dejar pérdida. Por eso la política de cambios debe diseñarse con su costo a la vista (cifras ilustrativas).
+
+**Una imagen cotidiana:** Es devolver un regalo con gastos de envío: al final, lo que parecía un trámite simple cuesta más que lo que se ganó.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La logística inversa se subestima sistemáticamente en e-commerce: recibir, rev
 
 ### 2. Cómo se traduce en la práctica
 
-En e-commerce la tasa de devolución es una variable estructural del modelo, no un incidente. Ofrecer devolución sin costo sin haber calculado su efecto en la contribución por pedido es una decisión comercial que se paga en margen, y no reacondicionar el producto devuelto pierde su valor completo.
+Mide cuánto cuesta cada etapa de una devolución: transporte, recepción, revisión, reacondicionado, reposición y pérdida de valor. Calcula la tasa de devolución por producto y la causa más común. Antes de prometer una política generosa de cambios, comprueba que tu margen la soporta y recuerda que la ley garantiza derechos que no puedes restringir, como la garantía legal y el retracto en los casos que corresponda.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En e-commerce la tasa de devolución es una variable estructural del modelo, no 
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda gana 9.000 pesos de margen por pedido. En una devolución paga 3.500 de transporte de vuelta, 3.000 de revisión y reacondicionado y el producto pierde 3.500 de valor por estar abierto. El resultado de esa operación es -1.000: la tienda pierde en cada devolución. Si el 15 % de los pedidos se devuelve, el margen total cae mucho más de lo previsto (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de los derechos de retracto y garantía legal del consumidor, que condicionan el diseño de la logística inversa del comercio electrónico.
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): La Ley 19.496 regula los derechos del consumidor ante productos defectuosos y la información que el proveedor debe entregar sobre su procedimiento de devolución.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para diseñar el flujo de devoluciones y su costo antes de prometer políticas de cambio.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para diseñar el flujo de devoluciones y su costo antes de prometer políticas de cambio.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

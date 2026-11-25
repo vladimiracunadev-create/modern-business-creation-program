@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Empresa AI-native** | Diseña desde el origen procesos, roles y economía para que la ia ejecute una parte central del trabajo bajo controles definidos. |
 | **Modelo MEDVi** | Combina una estructura interna mínima con ia, contratistas, proveedores clínicos, farmacias, agencias y plataformas externas. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De la empresa tradicional a la AI-native
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Empresa tradicional"]
-    C --> A2["Empresa digital"]
-    C --> A3["Empresa AI-native"]
-    C --> A4["Modelo MEDVi"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué procesos<br/>conviene digitalizar, cuáles<br/>admiten IA y qué capacidades<br/>externas siguen siendo<br/>indispensables"}}
-    D --> E["Entregable<br/>inventario de procesos con<br/>nivel de digitalización, uso<br/>de IA, proveedor externo,<br/>control humano y responsable<br/>final"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La diferencia entre empresa tradicional, digital, con IA y AI-native no está en la herramienta comprada sino en cómo se diseña el proceso y quién responde por el resultado.
+
+![Esquema: De la empresa tradicional a la AI-native](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa agrega una forma de trabajar sobre la anterior. Subir una capa sin tener la de abajo ordenada solo automatiza el desorden.
+
+**Piénsalo así:** Es pasar de escribir a mano a usar un procesador de texto y luego a pedir un borrador: cada salto ayuda, pero solo si sabes qué quieres decir.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La diferencia no está en comprar una herramienta. Una empresa tradicional coord
 
 ### 2. Cómo se traduce en la práctica
 
-Antes de conectar un modelo a un proceso hay que resolver una pregunta legal que suele llegar tarde: qué datos se le pueden entregar. Con la Ley 21.719 vigente desde el 15 de octubre de 2027, cargar datos de clientes en un servicio sin acuerdo de tratamiento puede constituir una cesión no autorizada.
+Antes de conectar un modelo a un proceso, responde tres preguntas: ¿el proceso está documentado y ordenado?, ¿qué datos personales o confidenciales recibirá el proveedor? y ¿quién revisa el resultado antes de que llegue al cliente? Si no tienes respuesta clara, digitaliza primero y automatiza después. Revisa también qué capacidades externas siguen siendo indispensables y qué dice la normativa sectorial.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Antes de conectar un modelo a un proceso hay que resolver una pregunta legal que
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una clínica registra citas en papel y llama a cada paciente. Después: digitaliza la agenda, envía recordatorios automáticos y usa un modelo de lenguaje para redactar respuestas que una persona revisa antes de enviar. Mantiene la responsabilidad clínica en profesionales y registra qué datos entrega al proveedor de IA. La herramienta acelera el proceso, pero no reemplaza el control (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **A $1.8 Billion Company With Two Employees? AI Made It Possible** (The New York Times · republicado por GV Wire): El perfil periodístico de MEDVi describe una empresa pequeña apoyada en IA y proveedores externos; sus cifras son atribuidas y se leen como relato, no como dato auditado.
+- **MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455** (U.S. Food and Drug Administration): La carta de advertencia de la FDA muestra que operar con proveedores y publicidad externos no traslada la responsabilidad regulatoria, lo que limita la idea de una empresa sin control propio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 

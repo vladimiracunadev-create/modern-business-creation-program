@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Métrica clave** | El número que resume si el modelo funciona. |
 | **Solución mínima** | Las tres funciones que atacan los tres problemas principales. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Tienes una ventaja injusta?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Lean Canvas"]
-    C --> A2["Ventaja injusta"]
-    C --> A3["Métrica clave"]
-    C --> A4["Solución mínima"]
-    A1 & A2 & A3 & A4 --> D{{"identificar la métrica clave y<br/>si existe alguna ventaja<br/>difícil de copiar"}}
-    D --> E["Entregable<br/>lean canvas versionado con<br/>métrica clave, evaluación de<br/>la ventaja y registro de<br/>evidencia por bloque"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El Lean Canvas obliga a nombrar problema, métrica clave y ventaja injusta; la última casilla es la más incómoda y la más útil porque casi siempre está vacía.
+
+![Esquema: ¿Tienes una ventaja injusta?](modelo-mental.svg)
+
+**Cómo leerlo:** Contesta las preguntas con honestidad. Una ventaja que se compra en seis meses no es ventaja; la que nace de un activo propio sí. Una casilla vacía no es un fracaso: es una tarea.
+
+**Para recordarlo:** Es el foso de un castillo: si cualquiera puede rellenarlo con una pala en una tarde, no defiende nada.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El Lean Canvas sirve mejor que el BMC en etapa temprana porque obliga a nombrar 
 
 ### 2. Cómo se traduce en la práctica
 
-Reconocer que no hay ventaja difícil de copiar evita construir un negocio trivialmente replicable. Cada bloque conserva evidencia, fuente, confianza, riesgo y experimento; si una prueba de problema, precio o canal falla, el Canvas cambia y la bitácora explica por qué. La parte 04 convierte la versión respaldada en plan.
+Escribe el lienzo completo y deja la ventaja injusta para el final. Prueba cada candidata con el árbol y con una persona ajena al equipo que intente imaginar cómo copiarla. Define también la métrica clave: un número que indique si el negocio avanza, como clientes activos o pedidos repetidos. Si la ventaja aún no existe, pon como tarea construirla y fija cómo medirás el avance.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Reconocer que no hay ventaja difícil de copiar evita construir un negocio trivi
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: escribe lo que dices que te hace distinto. Dos: pregúntate si un rival con dinero podría igualarlo en seis meses; si sí, no es ventaja. Tres: busca un activo que no se compra rápido, como datos exclusivos, relaciones de años o una marca registrada. Una empresa de software para taller mecánico concluye que su ventaja es una base de 8 años de historiales de reparación de sus clientes, algo que un recién llegado no puede replicar al instante (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Running Lean** (O'Reilly): Maurya creó el Lean Canvas para emprendedores y lo organiza alrededor del problema, la métrica clave y la ventaja injusta, la casilla más difícil de llenar.
+- **Zero to One** (Virgin Books): Thiel describe características de una ventaja duradera, como tecnología propia, efectos de red, economías de escala y marca, que sirven como lista de revisión.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para identificar la métrica clave y si existe alguna ventaja difícil de copiar.
+
+**O'Reilly — Running Lean**  
+<https://openlibrary.org/isbn/9781449331900> · verificado 2026-11-25
+
+- *Qué contiene:* Método para iterar un modelo de negocio con el lienzo lean y experimentos cortos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Running Lean» para identificar la métrica clave y si existe alguna ventaja difícil de copiar.
+
+**Virgin Books — Zero to One**  
+<https://openlibrary.org/isbn/9780753555187> · verificado 2026-11-25
+
+- *Qué contiene:* Reflexiona sobre construir empresas que crean algo nuevo y sobre el valor de una ventaja diferenciada.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Zero to One» para identificar la métrica clave y si existe alguna ventaja difícil de copiar.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

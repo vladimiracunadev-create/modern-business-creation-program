@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cláusula de ajuste** | Mecanismo de revisión de precio ante variación de insumos. |
 | **Exclusividad** | Compromiso de comprar o vender solo a la contraparte. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un suministro de 12 meses con ajuste de precio
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Contrato de suministro"]
-    C --> A2["Volumen mínimo"]
-    C --> A3["Cláusula de ajuste"]
-    C --> A4["Exclusividad"]
-    A1 & A2 & A3 & A4 --> D{{"definir volumen, mecanismo de<br/>ajuste de precio y<br/>consecuencias del<br/>incumplimiento"}}
-    D --> E["Entregable<br/>contrato de suministro con<br/>volumen, fórmula de ajuste,<br/>plazos de entrega y<br/>penalidades"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El suministro se juega en el mecanismo de ajuste de precio y en las consecuencias del incumplimiento de volumen: un precio fijo en un insumo volátil traslada todo el riesgo a una parte.
+
+![Esquema: Un suministro de 12 meses con ajuste de precio](modelo-mental.svg)
+
+**Qué mirar primero:** La línea muestra los puntos de control de un contrato anual. Los ajustes y las revisiones repartidos en el tiempo evitan que la volatilidad rompa la relación.
+
+**Para recordarlo:** Es un arriendo con reajuste: sin reajuste, una parte pierde cuando sube la inflación; con él, ambas comparten el riesgo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El suministro se juega en el mecanismo de ajuste de precio y en las consecuencia
 
 ### 2. Cómo se traduce en la práctica
 
-Pactar precio fijo a doce meses sobre un insumo volátil traslada todo el riesgo a una parte, y sin fórmula de ajuste la relación se renegocia bajo presión o se rompe. Aceptar exclusividad sin volumen mínimo garantizado es el error simétrico: se cede el mercado sin asegurar la compra.
+Define volumen mínimo, rango de tolerancia y consecuencias por incumplir. Pacta un mecanismo de ajuste de precio ligado a un índice público y con periodicidad clara. Considera si pactarás exclusividad y qué compensación implica. Incluye reglas de fuerza mayor y de continuidad. Recuerda que los plazos de pago del suministro están regulados por la normativa de pago a treinta días.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,16 @@ Pactar precio fijo a doce meses sobre un insumo volátil traslada todo el riesgo
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una panadería firma un suministro de harina a precio fijo por 12 meses de 800 pesos por kilo, por 20 toneladas al mes. A los cuatro meses, el precio de mercado sube a 1.000 pesos y el proveedor comienza a retrasar entregas o a pedir renegociaciones. Con un ajuste trimestral atado a un índice, ambos habrían absorbido parte de la variación y mantenido la relación (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 21.131 sobre pago a treinta días y el Código Civil, consultables en la Biblioteca del Congreso Nacional, fijan reglas de pago y de incumplimiento aplicables a los contratos de suministro.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

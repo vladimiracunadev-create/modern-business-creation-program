@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Tasa de finalización** | Porcentaje de estudiantes que completan. |
 | **Certificación** | Documento que acredita la formación entregada. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Capacitación para personas o para empresas
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Educación digital"]
-    C --> A2["Franquicia SENCE"]
-    C --> A3["Tasa de finalización"]
-    C --> A4["Certificación"]
-    A1 & A2 & A3 & A4 --> D{{"elegir entre modelo B2C y B2B<br/>y determinar si conviene el<br/>reconocimiento como OTEC"}}
-    D --> E["Entregable<br/>modelo de educación digital<br/>con segmento elegido,<br/>evaluación OTEC y proyección<br/>de finalización"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El modelo B2B de capacitación empresarial tiene tickets mayores y ciclos de venta más largos que el B2C, y puede acceder a la franquicia tributaria si se opera como OTEC reconocido.
+
+![Esquema: Capacitación para personas o para empresas](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica tu oferta según cuánto tarda en cerrarse una venta y cuánto vale cada cliente. La decisión B2C o B2B cambia el equipo, la caja necesaria y las normas aplicables.
+
+**Una imagen cotidiana:** Es vender entradas sueltas o abonos a una empresa para toda su gente: el segundo requiere más conversación, pero cada venta vale mucho más.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El modelo B2B de capacitación empresarial tiene tickets mayores y ciclos de ven
 
 ### 2. Cómo se traduce en la práctica
 
-El B2B tiene tickets mayores y ciclos más largos, y puede acceder a la franquicia tributaria si el organismo está reconocido por SENCE. El B2C depende de conversión y finalización: medir matrículas sin medir finalización oculta el problema que después destruye la reputación y la recompra.
+Evalúa tu modelo con números: ticket, ciclo de venta, tasa de finalización y costo de adquisición para B2C y B2B. Si vas a empresas, estudia el reconocimiento como OTEC y los requisitos de certificación y registro de cursos. Mide la tasa de finalización y el resultado de aprendizaje: son tu producto. En B2C, cumple las normas de consumo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El B2B tiene tickets mayores y ciclos más largos, y puede acceder a la franquic
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿quién paga, la persona o la empresa? Dos: ¿cuánto tarda la decisión y cuánta caja aguantas mientras tanto? Tres: ¿conviene operar como OTEC para que el cliente use la franquicia tributaria? Una plataforma de cursos de seguridad laboral decide vender a empresas medianas, obtiene el reconocimiento de OTEC y registra sus cursos para que sus clientes descuenten el gasto.
+
+### 5. En qué se apoya
+
+- **OTEC, franquicia tributaria y cursos** (Servicio Nacional de Capacitación y Empleo): El Servicio Nacional de Capacitación y Empleo informa los requisitos para operar como OTEC y el funcionamiento de la franquicia tributaria.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de las normas de consumo que aplican a la venta de cursos a personas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

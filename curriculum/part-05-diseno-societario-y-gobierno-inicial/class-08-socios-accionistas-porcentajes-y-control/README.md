@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Quórum** | Mayoría exigida para adoptar cada tipo de acuerdo. |
 | **Bloqueo** | Situación de empate que impide decidir. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Participación no es lo mismo que control
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Participación"]
-    C --> A2["Control"]
-    C --> A3["Quórum"]
-    C --> A4["Bloqueo"]
-    A1 & A2 & A3 & A4 --> D{{"definir el reparto de<br/>participación y los quórums<br/>que determinan el control real"}}
-    D --> E["Entregable<br/>tabla de capital con<br/>participación, quórums por<br/>tipo de acuerdo y mecanismo de<br/>desempate"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Participación y control no son lo mismo: con quórums calificados, un socio minoritario puede bloquear decisiones, y el reparto 50/50 sin desempate es la causa más frecuente de parálisis.
+
+![Esquema: Participación no es lo mismo que control](modelo-mental.svg)
+
+**Qué mirar primero:** Compara las participaciones con el quórum que exigen las decisiones importantes. Quien supera la diferencia entre 100 y el quórum puede bloquear aunque no pueda aprobar.
+
+**Una analogía:** Es como un jurado que exige unanimidad: un solo miembro puede impedir el veredicto, aunque los demás estén de acuerdo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Participación y control no son lo mismo: con quórums calificados un socio del 
 
 ### 2. Cómo se traduce en la práctica
 
-El reparto 50/50 sin mecanismo de desempate es la causa más frecuente de parálisis en sociedades de dos fundadores, y no se resuelve con buena voluntad sino con una cláusula: voto dirimente, tercero neutral o compra forzada. Escribirla al inicio cuesta una conversación incómoda; no escribirla cuesta la sociedad.
+Calcula por cada decisión importante quién puede aprobar y quién puede bloquear con la composición actual. Revisa los quórums de los estatutos y evita 50/50 sin mecanismo de desempate. Define reglas de resolución de bloqueos y quién decide en el día a día. Anótalas antes de que ocurra un desacuerdo, cuando todos aún tienen interés en acordar algo justo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ El reparto 50/50 sin mecanismo de desempate es la causa más frecuente de parál
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+En una sociedad con dos socios, A tiene 70 % y B 30 %. Los estatutos exigen 75 % para vender activos clave o cambiar el giro. A no puede aprobar nada sin B: 100 menos 75 es 25 %, y B tiene 30 %. Si B se niega, la sociedad queda paralizada en esas materias. Una cláusula de resolución de bloqueos, como mediación y luego compra entre socios, evita el estancamiento (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Secrets of Sand Hill Road** (Portfolio): Kupor describe cómo las participaciones, los derechos de veto y la gobernanza de una empresa se negocian junto con el capital y por qué importan más que el porcentaje.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código de Comercio y la ley de sociedades por acciones permiten fijar quórums y mayorías en los estatutos, que determinan quién puede bloquear.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el reparto de participación y los quórums que determinan el control real.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para definir el reparto de participación y los quórums que determinan el control real.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

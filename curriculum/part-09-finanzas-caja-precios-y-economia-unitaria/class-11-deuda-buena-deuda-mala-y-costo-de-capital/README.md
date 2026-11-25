@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Calce de plazos** | Correspondencia entre la duración del activo y la del pasivo. |
 | **Costo de capital** | Costo promedio de los recursos que financian la empresa. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Qué se financia con deuda y a qué plazo?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Deuda buena"]
-    C --> A2["Deuda mala"]
-    C --> A3["Calce de plazos"]
-    C --> A4["Costo de capital"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué se financia con<br/>deuda, en qué plazo y a qué<br/>costo máximo aceptable"}}
-    D --> E["Entregable<br/>política de endeudamiento con<br/>criterio de calce, costo<br/>máximo y límite de cobertura"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La regla del calce se viola con frecuencia: los activos de largo plazo se financian con pasivos de largo plazo, porque financiar una máquina con una línea renovable expone a la empresa a que el banco no renueve.
+
+![Esquema: ¿Qué se financia con deuda y a qué plazo?](modelo-mental.svg)
+
+**Cómo leerlo:** Recorre el árbol antes de pedir un crédito. La pregunta clave no es solo el costo, sino el plazo: un buen crédito con mal plazo puede ser peor que uno más caro con calce.
+
+**Una imagen cotidiana:** Es pagar una casa con una tarjeta de crédito: aunque los intereses fueran bajos, el plazo no corresponde y cualquier problema se vuelve crisis.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La regla del calce es simple y se viola con frecuencia: activos de largo plazo s
 
 ### 2. Cómo se traduce en la práctica
 
-Financiar una máquina con una línea renovable expone a la empresa a que el banco no renueve justo cuando más lo necesita. Y financiar pérdidas operacionales esperando que la operación mejore sola convierte un problema de modelo en un problema de solvencia, que ya no tiene solución operativa.
+Antes de pedir deuda, define qué financiarás, en qué plazo y a qué costo máximo aceptable. Calcula la cuota que tu flujo puede soportar con escenarios de estrés. Consulta los instrumentos de garantía y de fomento disponibles para empresas de tu tamaño. La deuda no es buena ni mala por sí misma: depende del calce y de la capacidad de pago.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Financiar una máquina con una línea renovable expone a la empresa a que el ban
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: ¿lo que vas a financiar rendirá por varios años? Una máquina, sí. Dos: ¿el plazo del crédito se acerca a su vida útil? Si pides una línea a un año, no. Tres: ¿el costo del crédito es menor al retorno esperado? Una panadería compra un horno con un crédito a cuatro años, calza el plazo y financia el capital de trabajo con una línea más corta renovable.
+
+### 5. En qué se apoya
+
+- **Innovación, inversión y garantías** (Corporación de Fomento de la Producción): CORFO publica programas de financiamiento, garantías e inversión para empresas, que pueden mejorar el plazo y el costo del crédito.
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers tratan el costo de capital y la estructura de financiamiento, y por qué conviene calzar los plazos de activos y pasivos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar qué se financia con deuda, en qué plazo y a qué costo máximo aceptable.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para determinar qué se financia con deuda, en qué plazo y a qué costo máximo aceptable.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

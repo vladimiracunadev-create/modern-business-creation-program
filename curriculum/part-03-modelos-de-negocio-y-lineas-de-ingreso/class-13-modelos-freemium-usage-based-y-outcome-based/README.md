@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Outcome-based** | Cobro vinculado al resultado obtenido por el cliente. |
 | **Costo de servir** | Costo de atender a un usuario, incluido el que no paga. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Conviene ofrecer una versión gratuita?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Freemium"]
-    C --> A2["Usage-based"]
-    C --> A3["Outcome-based"]
-    C --> A4["Costo de servir"]
-    A1 & A2 & A3 & A4 --> D{{"elegir el mecanismo de cobro<br/>coherente con el costo de<br/>servir y el riesgo asumido"}}
-    D --> E["Entregable<br/>modelo de cobro con costo de<br/>servir por nivel y definición<br/>contractual del resultado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El freemium solo funciona si el costo de servir al usuario gratuito es cercano a cero y existe un límite natural que gatilla el upgrade.
+
+![Esquema: ¿Conviene ofrecer una versión gratuita?](modelo-mental.svg)
+
+**Lectura guiada:** Ubica tu producto según cuánto cuesta atender a un usuario gratuito y qué tan claro es el momento en que necesita pagar. Cada cuadrante sugiere un modelo de cobro distinto.
+
+**Piénsalo así:** Es regalar muestras en una pastelería: funciona si la muestra es barata y quien la prueba tiene muchas razones para volver a comprar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Freemium solo funciona si el costo de servir al usuario gratuito es cercano a ce
 
 ### 2. Cómo se traduce en la práctica
 
-Freemium solo funciona si el costo de servir al usuario gratuito es cercano a cero y hay un límite natural que gatilla el upgrade; con costo de inferencia de modelos de IA esa condición ya no se cumple sola. El cobro por resultado alinea incentivos pero exige una definición contractual de resultado que sea medible e inobjetable.
+Calcula el costo de servir a un usuario gratuito y a uno de pago, incluidos soporte e infraestructura. Define el límite que gatilla el upgrade (volumen, funciones, equipo) y la conversión mínima para que el modelo cierre. Si cobras por uso o por resultado, verifica que el cliente entienda cómo se calcula el cobro y que el riesgo operacional quede repartido en el contrato.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Freemium solo funciona si el costo de servir al usuario gratuito es cercano a ce
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Tienes una herramienta de firma de documentos. Escribe el costo mensual de servir a un usuario gratuito (almacenamiento y soporte) y el límite natural que podrías poner, como cinco firmas al mes. Calcula cuántos usuarios gratuitos necesitas para que uno pague, con una conversión de 3 %: 33 gratuitos por cada pagador. Si cada gratuito te cuesta $400 al mes, financiar al grupo cuesta $13.200 y el plan debe superar ese valor. Decide qué modelo conviene y justifícalo (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Strategy and Tactics of Pricing** (Prentice Hall): Nagle y Holden tratan los modelos de precio y la segmentación por valor, que son la base para decidir qué se regala y qué se cobra.
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz describen métricas de conversión y retención de modelos freemium y de suscripción para saber si el plan gratuito se financia.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para elegir el mecanismo de cobro coherente con el costo de servir y el riesgo asumido.
+
+**Prentice Hall — The Strategy and Tactics of Pricing**  
+<https://openlibrary.org/isbn/9780132043588> · verificado 2026-11-25
+
+- *Qué contiene:* Tratado de fijación de precios basada en el valor percibido por el cliente. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Strategy and Tactics of Pricing» para elegir el mecanismo de cobro coherente con el costo de servir y el riesgo asumido.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para elegir el mecanismo de cobro coherente con el costo de servir y el riesgo asumido.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

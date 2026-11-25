@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Búsqueda de anterioridad** | Revisión de marcas previas similares. |
 | **Oposición** | Procedimiento por el que un tercero impugna la solicitud. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Antes de registrar una marca en INAPI
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Marca"]
-    C --> A2["Clase"]
-    C --> A3["Búsqueda de anterioridad"]
-    C --> A4["Oposición"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué signo se<br/>registra, en qué clases y con<br/>qué anterioridades"}}
-    D --> E["Entregable<br/>expediente de solicitud de<br/>marca con búsqueda de<br/>anterioridad y clases<br/>justificadas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El registro de marca en INAPI se solicita por clases y su protección es territorial; registrar en la clase equivocada deja desprotegido el uso real.
+
+![Esquema: Antes de registrar una marca en INAPI](modelo-mental.svg)
+
+**Cómo leerlo:** Responde en orden. Sin búsqueda de anterioridades no sabes si el nombre es libre; con ella, el siguiente filtro es si las clases cubren lo que realmente vendes.
+
+**Para recordarlo:** Es inscribir un terreno: no basta con tener el papel, importa que figure en el lugar y con los límites correctos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El registro de marca en INAPI se solicita por clases y su protección es territo
 
 ### 2. Cómo se traduce en la práctica
 
-La protección es territorial y por clases de la clasificación de Niza: registrar en una sola clase deja desprotegido el uso real cuando la operación abarca varias. La búsqueda de anterioridad antes de invertir evita el escenario más caro, que es rebrandear después de haber construido posicionamiento.
+Antes de invertir en identidad, busca en la base de INAPI marcas idénticas o parecidas en tus clases y en las cercanas. Define qué signo registras (palabra, logo) y en qué clases, según lo que realmente vendes o planeas vender. Solicita el registro, sigue el trámite y vigila oposiciones. La protección es territorial: si exportas, evalúa registrar en los países de destino.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ La protección es territorial y por clases de la clasificación de Niza: registr
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de cosmética natural invierte en etiquetas, diseño y publicidad con una marca que registró solo en la clase de productos de limpieza, porque asumió que era la más cercana. Al lanzar una línea de cremas, descubre que otra empresa tiene una marca similar registrada en cosmética y le exige dejar de usarla. Si hubiera buscado anterioridades y solicitado la clase correcta, habría evitado un rebranding (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI permite buscar anterioridades y solicitar el registro de marcas por clases en Chile.
+- **DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial** (Biblioteca del Congreso Nacional): El texto refundido de la Ley 19.039 regula los requisitos y los efectos del registro de marcas y la oposición de terceros.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -151,6 +156,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Administra el registro de marcas, patentes, diseños e indicaciones geográficas, y ofrece el buscador público de solicitudes y registros vigentes por clase.
 - *Cómo leerla:* Empieza siempre por el buscador de anterioridades y por clases, no por el formulario de solicitud. Una marca disponible en tu clase puede estar tomada en la clase donde realmente operas, y eso solo se ve buscando por actividad.
 - *Uso en esta clase:* aporta el marco de «Marcas, patentes y diseños industriales» para determinar qué signo se registra, en qué clases y con qué anterioridades.
+
+**Biblioteca del Congreso Nacional — DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1179684> · verificado 2026-11-12
+
+- *Qué contiene:* Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.
+- *Cómo leerla:* Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.
+- *Uso en esta clase:* aporta el marco de «DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial» para determinar qué signo se registra, en qué clases y con qué anterioridades.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Segregación patrimonial** | Separación jurídica, contable, bancaria y operativa entre patrimonios. |
 | **Regla de disposición** | Criterio de autorización para usar o transferir cada categoría de fondos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cada peso tiene un dueño y una regla
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Caja mínima"]
-    C --> A2["Fondos de terceros"]
-    C --> A3["Segregación patrimonial"]
-    C --> A4["Regla de disposición"]
-    A1 & A2 & A3 & A4 --> D{{"fijar reglas de segregación,<br/>caja mínima, reservas y<br/>disposición por categoría de<br/>fondos"}}
-    D --> E["Entregable<br/>política de tesorería con mapa<br/>de titularidad, cuentas<br/>separadas, autorizaciones,<br/>reservas y regla de retiros"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La política de tesorería debe distinguir caja propia, impuestos, garantías y fondos de terceros; estos últimos no se convierten en financiamiento por estar disponibles en una cuenta.
+
+![Esquema: Cada peso tiene un dueño y una regla](modelo-mental.svg)
+
+**Cómo leerlo:** Cada capa es dinero con un dueño y una regla de uso distintos. Mezclarlas en una sola cuenta hace invisible lo que se debe, y usar las de abajo para operar es riesgo grave.
+
+**Para recordarlo:** Es el dinero de un condominio: parte es del administrador, parte de los gastos comunes y parte de un fondo de reserva; mezclarlas es desorden y puede ser delito.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La política de tesorería debe distinguir caja propia, impuestos, garantías y 
 
 ### 2. Cómo se traduce en la práctica
 
-La separación debe existir al mismo tiempo en contrato, cuenta bancaria o custodio, plan de cuentas, permisos del sistema y conciliación. Etiquetar un saldo no impide usarlo; el control real limita técnicamente la transferencia, exige doble autorización, alerta la excepción y permite que otra persona confirme el saldo y su titularidad.
+Abre cuentas o subcuentas separadas para impuestos, garantías y fondos de terceros. Define una caja mínima para la operación y las reglas de disposición por categoría: quién puede mover cada fondo y con qué autorización. Concilia por separado y revisa mensualmente que los fondos de terceros estén íntegros. Los fondos de terceros se administran como depósito, no como financiamiento.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La separación debe existir al mismo tiempo en contrato, cuenta bancaria o custo
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una plataforma que retiene dinero de clientes por servicios todavía no prestados usa ese saldo para pagar sueldos y marketing mientras crece. Cuando un grupo de clientes pide devoluciones al mismo tiempo, no puede responder. La corrección: cuentas separadas por tipo de fondo, saldo mínimo de cada una, reglas escritas de disposición y conciliación independiente. El caso FTX muestra la gravedad de mezclar fondos propios y de clientes (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **FTX y Alameda: condena y sentencia de Samuel Bankman-Fried** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de FTX por el uso indebido de fondos de clientes, ejemplo extremo de la mezcla de fondos propios y ajenos.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa las obligaciones de enterar IVA y retenciones, que constituyen dinero del fisco que debe reservarse.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

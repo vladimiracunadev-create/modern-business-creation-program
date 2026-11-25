@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Documento fuente** | Respaldo que origina el registro. |
 | **Oportunidad** | Cualidad de que la información esté disponible cuando se decide. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Una contabilidad que sirva al fisco y a quien decide
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Sistema de información<br/>contable"]
-    C --> A2["Hecho económico"]
-    C --> A3["Documento fuente"]
-    C --> A4["Oportunidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir para qué decisiones<br/>debe servir la contabilidad<br/>además de cumplir"}}
-    D --> E["Entregable<br/>definición de requerimientos<br/>de información con reportes,<br/>frecuencia y destinatario"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La contabilidad tiene dos clientes, el fisco y quien decide; una que solo sirve para declarar llega tarde para gestionar.
+
+![Esquema: Una contabilidad que sirva al fisco y a quien decide](modelo-mental.svg)
+
+**Cómo leerlo:** Los tres círculos son tres usos de la misma información. Diseña el sistema desde el inicio para que el centro, donde coinciden, sea lo normal y no lo excepcional.
+
+**Una imagen cotidiana:** Es un mapa que sirve para pagar el peaje, para decidir la ruta y para mostrar a la policía por dónde pasaste: el mismo trazado, tres usos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La contabilidad tiene dos clientes: el fisco y el que decide. Una contabilidad q
 
 ### 2. Cómo se traduce en la práctica
 
-Definir desde el inicio centros de costo y clasificaciones útiles cuesta lo mismo que hacerlo mal, y evita reconstruir tres años de historia cuando por fin se necesita saber qué línea gana. La pregunta que ordena el diseño es qué decisiones debe permitir tomar, no qué formularios debe llenar.
+Antes de contratar o diseñar la contabilidad, escribe las cinco preguntas que quieres responder con ella: por ejemplo, margen por línea, deuda por cliente y caja de la semana siguiente. Define centros de costo y clasificaciones que las contesten y fija la fecha límite del cierre mensual. La oportunidad importa tanto como la exactitud: un dato exacto pero tardío no ayuda a decidir.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Definir desde el inicio centros de costo y clasificaciones útiles cuesta lo mis
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una pyme de transporte lleva la contabilidad con un solo objetivo: declarar el IVA. Los estados financieros llegan a los dos meses y el dueño no sabe qué ruta deja margen. Al rediseñar, el plan de cuentas separa ingresos y costos por ruta y cliente, y el cierre mensual se hace en cinco días. En tres meses descubre que dos rutas perdían dinero y las ajusta (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa las obligaciones contables y tributarias de los nuevos contribuyentes, que son el piso mínimo de cumplimiento.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight enseñan a usar los estados financieros para decidir y no solo para cumplir, que es el segundo cliente de la contabilidad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir para qué decisiones debe servir la contabilidad además de cumplir.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para definir para qué decisiones debe servir la contabilidad además de cumplir.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

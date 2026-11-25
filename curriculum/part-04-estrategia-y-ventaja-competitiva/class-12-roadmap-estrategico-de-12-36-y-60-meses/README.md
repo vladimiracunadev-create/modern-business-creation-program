@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Dependencia** | Condición que debe cumplirse antes de iniciar el hito siguiente. |
 | **Capacidad comprometida** | Recursos ya asignados que limitan lo que se puede agregar. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Tres horizontes con la capacidad de uno
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Roadmap estratégico"]
-    C --> A2["Horizonte 1, 2 y 3"]
-    C --> A3["Dependencia"]
-    C --> A4["Capacidad comprometida"]
-    A1 & A2 & A3 & A4 --> D{{"secuenciar las apuestas según<br/>dependencias y capacidad real"}}
-    D --> E["Entregable<br/>roadmap de 12, 36 y 60 meses<br/>con hitos, dependencias y<br/>capacidad asignada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un roadmap a 12, 36 y 60 meses sirve si distingue horizontes y declara dependencias; el error habitual es planificar tres horizontes con la capacidad de uno.
+
+![Esquema: Tres horizontes con la capacidad de uno](modelo-mental.svg)
+
+**Cómo leerlo:** El primer horizonte sostiene a los otros: sin caja y capacidad en la base, los de arriba no se financian. Declara qué debe estar listo antes de qué y cuánta capacidad real asignas a cada uno.
+
+**Para recordarlo:** Es un edificio por pisos: los pisos de arriba solo se construyen cuando los cimientos y las columnas del primero ya están firmes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un roadmap a 12, 36 y 60 meses es útil si distingue horizontes y declara depend
 
 ### 2. Cómo se traduce en la práctica
 
-Cuando eso ocurre, el horizonte 1 consume todo y los otros dos nunca comienzan, aunque figuren en el plan. Declarar la dependencia de cada hito —qué debe estar listo antes— es lo que convierte un roadmap en una secuencia ejecutable en vez de una lista de intenciones ordenada por fecha.
+Divide tus iniciativas en los tres horizontes y asigna a cada una capacidad real, en personas y en presupuesto. Escribe las dependencias: qué debe estar listo antes de qué. Revisa cada trimestre si lo planificado cabe en la capacidad que existe. Un roadmap debe poder cumplirse; si no, es una lista de deseos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Cuando eso ocurre, el horizonte 1 consume todo y los otros dos nunca comienzan, 
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de software tiene doce desarrolladores. Planea un producto nuevo (horizonte 2) y un laboratorio de IA (horizonte 3), pero el producto actual (horizonte 1) ya consume nueve personas. Sin ajustar, todo se retrasa y los clientes actuales se quejan. Decide asignar siete personas al horizonte 1, cuatro al 2 y una al 3, con hitos y dependencias escritas y revisión trimestral (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Good Strategy Bad Strategy** (Crown Business): Rumelt sostiene que una buena estrategia incluye acciones coherentes y secuenciadas que se ajustan a los recursos, no una lista de metas.
+- **The Balanced Scorecard** (Harvard Business School Press): Kaplan y Norton proponen traducir la estrategia en objetivos, indicadores e iniciativas relacionadas entre sí en el tiempo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para secuenciar las apuestas según dependencias y capacidad real.
+
+**Crown Business — Good Strategy Bad Strategy**  
+<https://openlibrary.org/isbn/9780307886231> · verificado 2026-11-25
+
+- *Qué contiene:* Distingue una buena estrategia por su diagnóstico, política rectora y acciones coherentes. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Good Strategy Bad Strategy» para secuenciar las apuestas según dependencias y capacidad real.
+
+**Harvard Business School Press — The Balanced Scorecard**  
+<https://openlibrary.org/isbn/9781578514090> · verificado 2026-11-25
+
+- *Qué contiene:* Traduce la estrategia en indicadores financieros, de clientes, de procesos y de aprendizaje. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Balanced Scorecard» para secuenciar las apuestas según dependencias y capacidad real.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Vencimiento** | Fecha en que la habilitación debe renovarse. |
 | **Evidencia de cumplimiento** | Documento que acredita el cumplimiento vigente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La matriz regulatoria como rutina viva
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Matriz regulatoria"]
-    C --> A2["Autoridad competente"]
-    C --> A3["Vencimiento"]
-    C --> A4["Evidencia de cumplimiento"]
-    A1 & A2 & A3 & A4 --> D{{"construir la matriz<br/>regulatoria completa de la<br/>actividad y mantenerla vigente"}}
-    D --> E["Entregable<br/>matriz regulatoria con<br/>permiso, autoridad, vigencia,<br/>responsable y ubicación de la<br/>evidencia"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La matriz regulatoria evita descubrir obligaciones por fiscalización: debe listar cada permiso, su autoridad, su vigencia, su responsable interno y dónde está la evidencia.
+
+![Esquema: La matriz regulatoria como rutina viva](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo se repite siempre. Un permiso vence, cambia la norma o cambia la actividad: la matriz solo sirve si se revisa y se actualiza, no si se guarda en una carpeta.
+
+**Para recordarlo:** Es el calendario de vencimientos de un auto: patente, revisión técnica, seguro y licencia; sin una lista, siempre se olvida uno.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La matriz regulatoria es el instrumento que evita descubrir obligaciones por fis
 
 ### 2. Cómo se traduce en la práctica
 
-Es el instrumento que evita descubrir obligaciones por fiscalización. Sin ella la renovación depende de que alguien recuerde, que funciona hasta que falla; y armarla una vez sin actualizarla ante cambios de actividad produce una falsa sensación de control.
+Construye la matriz con todas las obligaciones de tu actividad: patente, autorizaciones sanitarias, SEC, SUBTEL, SERNATUR, SENCE, medio ambiente y otras. Para cada una, escribe la autoridad, la fecha de vigencia, el responsable y dónde está la evidencia. Configura alertas y revisa la matriz cada trimestre. Actualízala cuando cambie la actividad o la norma.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,18 @@ Es el instrumento que evita descubrir obligaciones por fiscalización. Sin ella 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de alimentos con una planta y una tienda descubre en una fiscalización que su autorización sanitaria vencía hacía dos meses y que nadie sabía quién debía renovarla. Después crea una matriz con 14 permisos, cada uno con autoridad, vigencia, responsable y carpeta de evidencia, y una alerta a 60 días del vencimiento. En el año siguiente renueva todo sin sobresaltos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional informa los permisos sanitarios y su vigencia, parte de la matriz de cualquier empresa de alimentos o salud.
+- **Instalaciones eléctricas y de gas** (Superintendencia de Electricidad y Combustibles): La Superintendencia de Electricidad y Combustibles informa la declaración de instalaciones y su certificación, otro componente típico de la matriz.
+- **OTEC, franquicia tributaria y cursos** (Servicio Nacional de Capacitación y Empleo): SENCE informa el reconocimiento de OTEC y el registro de cursos, que se incorporan a la matriz de quienes ofrecen capacitación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

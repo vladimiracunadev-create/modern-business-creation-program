@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Instrumento** | Programa específico con objetivo y reglas propias. |
 | **Contrapartida** | Aporte del beneficiario, en dinero o valorizado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Tu proyecto es innovación o expansión comercial?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["CORFO"]
-    C --> A2["Innovación"]
-    C --> A3["Instrumento"]
-    C --> A4["Contrapartida"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el proyecto<br/>califica como innovación y si<br/>la contrapartida está<br/>disponible"}}
-    D --> E["Entregable<br/>evaluación de elegibilidad<br/>CORFO con instrumento,<br/>componente de innovación y<br/>contrapartida disponible"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los instrumentos de CORFO exigen un componente real de innovación y capacidad de ejecución; postular con un proyecto que en realidad es una expansión comercial produce rechazo.
+
+![Esquema: ¿Tu proyecto es innovación o expansión comercial?](modelo-mental.svg)
+
+**Qué mirar primero:** Clasifica tu proyecto en una banda antes de postular. La claridad sobre qué es nuevo y cuál es el riesgo técnico es lo que evalúan; la contrapartida debe estar disponible.
+
+**Piénsalo así:** Es pedir una beca de investigación para abrir una sucursal: puede ser buen negocio, pero no es lo que la beca financia.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los instrumentos de CORFO exigen un componente real de innovación y capacidad d
 
 ### 2. Cómo se traduce en la práctica
 
-Presentar una expansión comercial como proyecto de innovación es la causa más común de rechazo, porque el evaluador busca riesgo técnico o de mercado genuino. Y comprometer contrapartida que la empresa no tiene convierte una adjudicación en un problema de caja inmediato.
+Escribe qué es nuevo en tu proyecto, qué riesgo técnico o de mercado resuelve y cómo medirás los resultados. Verifica que el instrumento financie el tipo de gasto que planeas. Calcula la contrapartida y de dónde saldrá. Revisa cada convocatoria, porque las condiciones cambian. Un proyecto bien definido para el instrumento correcto aumenta mucho las probabilidades.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Presentar una expansión comercial como proyecto de innovación es la causa más
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de software postula a un instrumento de innovación con un proyecto para abrir oficinas en otra ciudad y comprar equipos; es rechazada. Después: separa lo que sí es innovación (un nuevo algoritmo con riesgo técnico y resultados medibles) y lo postula con un equipo, un plan de pruebas y la contrapartida asegurada; la expansión la financia con crédito. Obtiene el cofinanciamiento (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Innovación, inversión y garantías** (Corporación de Fomento de la Producción): CORFO publica los instrumentos para innovación, sus requisitos y las contrapartidas exigidas a las empresas.
+- **Business Model Generation** (Wiley): Osterwalder y Pigneur ayudan a describir con claridad qué es nuevo en el modelo de negocio, lo que sirve para sustentar el componente de innovación del proyecto.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
 
@@ -167,6 +172,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para determinar si el proyecto califica como innovación y si la contrapartida está disponible.
+
+**Wiley — Business Model Generation**  
+<https://openlibrary.org/isbn/9780470876411> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el lienzo del modelo de negocio de nueve bloques y patrones para describir, diseñar y comparar modelos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Business Model Generation» para determinar si el proyecto califica como innovación y si la contrapartida está disponible.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

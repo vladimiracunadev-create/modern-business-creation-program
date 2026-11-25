@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Garantía** | Compromiso sobre características o funcionamiento. |
 | **Indemnidad** | Obligación de mantener indemne a la contraparte frente a reclamos de terceros. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto puedes perder con y sin un tope
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Limitación de<br/>responsabilidad"]
-    C --> A2["Daño directo e indirecto"]
-    C --> A3["Garantía"]
-    C --> A4["Indemnidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir el tope de<br/>responsabilidad aceptable y<br/>las exclusiones necesarias"}}
-    D --> E["Entregable<br/>cláusula de responsabilidad<br/>con tope, exclusiones y matriz<br/>de exposición máxima por<br/>contrato"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El límite de responsabilidad es la cláusula más importante y la que más se firma sin negociar: la práctica habitual es limitarla al monto pagado en los últimos doce meses y excluir daños indirectos.
+
+![Esquema: Cuánto puedes perder con y sin un tope](modelo-mental.svg)
+
+**Lectura guiada:** La primera barra es la pérdida posible sin límite; las demás, un tope razonable y el valor del contrato. Un contrato donde la pérdida posible supera varias veces el precio es una apuesta contra la empresa.
+
+**Para recordarlo:** Es un seguro con deducible: aceptas asumir una parte, pero evitas que un accidente te destruya.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El límite de responsabilidad es la cláusula más importante y la que más se f
 
 ### 2. Cómo se traduce en la práctica
 
-La práctica habitual es limitar al monto pagado en los últimos doce meses y excluir daños indirectos y lucro cesante. Frente a consumidores, sin embargo, hay límites legales a lo que se puede excluir: una cláusula que pretenda ir más allá es ineficaz y agrava la exposición ante el SERNAC.
+Pide siempre un tope de responsabilidad, con la regla de monto pagado en un período y excluye daños indirectos y lucro cesante, con excepciones razonables para dolo y obligaciones legales. Revisa los seguros que cubran el riesgo residual. Para consumidores, la ley limita el alcance de algunas cláusulas y la garantía legal no puede excluirse. Pregunta a un abogado antes de firmar.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ La práctica habitual es limitar al monto pagado en los últimos doce meses y ex
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una consultora cobra 60 millones al año por un servicio. El contrato del cliente no limita su responsabilidad y excluye solo lo que el cliente quiera excluir. Un error en un informe produce una pérdida al cliente de 500 millones y este la reclama. Con una cláusula que limita la responsabilidad a lo pagado en 12 meses y excluye daños indirectos, la exposición máxima era 60 millones (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de la Ley del Consumidor sobre garantías y cláusulas abusivas, que limita lo que puede excluirse en contratos con consumidores.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil y el Código de Comercio regulan la responsabilidad contractual y los límites que pueden pactarse entre empresas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

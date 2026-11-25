@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Transferibilidad** | Capacidad de la empresa de seguir operando y valer con otro dueño. |
 | **Key-person risk** | Concentración de conocimiento, relaciones o decisiones en una sola persona. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Ingreso personal o activo que se puede vender
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Autoempleo"]
-    C --> A2["Organización"]
-    C --> A3["Transferibilidad"]
-    C --> A4["Key-person risk"]
-    A1 & A2 & A3 & A4 --> D{{"elegir conscientemente entre<br/>maximizar ingreso personal o<br/>construir un activo<br/>transferible"}}
-    D --> E["Entregable<br/>diagnóstico de dependencia:<br/>lista de actividades que hoy<br/>solo puede hacer el fundador"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Autoemplearse es una decisión legítima, pero produce un ingreso y no un activo; construir una organización cuesta margen hoy a cambio de valor mañana.
+
+![Esquema: Ingreso personal o activo que se puede vender](modelo-mental.svg)
+
+**Lectura guiada:** Cada plato muestra el resultado de una elección. No hay plato malo: el error es no saber cuál estás eligiendo y descubrirlo cuando quieres retirarte.
+
+**Para recordarlo:** Es la diferencia entre ser el cocinero de un restaurante y ser el dueño de la receta, la cocina y el equipo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Autoemplearse es una decisión legítima, pero produce un activo que no se puede
 
 ### 2. Cómo se traduce en la práctica
 
-El indicador más honesto es una pregunta de ausencia: ¿qué se detiene si el fundador no aparece durante tres semanas? Si la respuesta incluye ventas, decisiones de precio o relación con el cliente principal, la empresa aún no existe como sistema, por mucha facturación que tenga.
+Decide primero qué quieres de la empresa en diez años: ingreso personal, un activo que se pueda vender o un equipo que dirija. Luego revisa qué parte de tu conocimiento solo existe en tu cabeza y conviértela en procedimientos, y qué clientes te siguen a ti y no a la empresa. La transición cuesta margen: calcula cuánto antes de empezar para no abandonarla a medias.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El indicador más honesto es una pregunta de ausencia: ¿qué se detiene si el f
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Dos diseñadoras ganan lo mismo el primer año. Una sigue haciéndolo todo con sus manos; la otra documenta su método, contrata a una persona y cobra menos margen por proyecto mientras la forma. A los cinco años, la primera factura el mismo monto y no puede tomar vacaciones largas; la segunda dirige a un equipo de tres y recibe una oferta de compra por su cartera de clientes y su método (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The E-Myth Revisited** (HarperBusiness): Gerber sostiene que el fundador debe pasar de trabajar en el negocio a construir un sistema que funcione sin él, que es el paso de autoempleo a organización.
+- **Built to Sell** (Portfolio): Warrillow explica qué hace vendible a una empresa de servicios: que su valor esté en el sistema y no en el dueño, que es el criterio de transferibilidad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para elegir conscientemente entre maximizar ingreso personal o construir un activo transferible.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para elegir conscientemente entre maximizar ingreso personal o construir un activo transferible.
+
+**Portfolio — Built to Sell**  
+<https://openlibrary.org/isbn/9781591845829> · verificado 2026-11-25
+
+- *Qué contiene:* Propone hacer que una empresa de servicios sea vendible por su sistema y no por su dueño.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Built to Sell» para elegir conscientemente entre maximizar ingreso personal o construir un activo transferible.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

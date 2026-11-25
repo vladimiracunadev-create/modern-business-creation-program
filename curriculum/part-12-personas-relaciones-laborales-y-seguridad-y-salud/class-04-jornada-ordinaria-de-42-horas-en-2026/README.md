@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Jornada de 42 horas** | Límite vigente desde el 26 de abril de 2026. |
 | **Distribución de jornada** | Forma en que las horas se reparten en la semana. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La jornada baja por tramos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Jornada ordinaria"]
-    C --> A2["Ley 21.561"]
-    C --> A3["Jornada de 42 horas"]
-    C --> A4["Distribución de jornada"]
-    A1 & A2 & A3 & A4 --> D{{"adecuar contratos, turnos y<br/>dotación al tramo de jornada<br/>vigente"}}
-    D --> E["Entregable<br/>plan de adecuación de jornada<br/>con contratos, turnos y<br/>estimación de impacto en costo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La reducción de jornada es gradual: 44 horas desde 2024, 42 horas desde el 26 de abril de 2026 y 40 horas desde 2028; cada tramo exige revisar contratos, turnos, sistemas de control y dotación.
+
+![Esquema: La jornada baja por tramos](modelo-mental.svg)
+
+**Lectura guiada:** La línea muestra los tramos de la ley. El hito destacado es el vigente hoy. Cada cambio afecta el costo y la organización del trabajo, y debe prepararse antes de su fecha.
+
+**Para recordarlo:** Es bajar un escalón a la vez: si no miras el siguiente, tropiezas con la fecha.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La reducción de jornada es gradual: 44 horas desde 2024, 42 horas desde el 26 d
 
 ### 2. Cómo se traduce en la práctica
 
-La reducción es gradual por la Ley 21.561 y cada tramo obliga a revisar contratos, sistemas de control y dotación. Absorber la reducción con horas extra permanentes no es una adecuación sino un incumplimiento caro: las horas extraordinarias tienen tope legal y proceden solo por necesidades temporales.
+Comprueba en la Dirección del Trabajo y en la ley la jornada vigente y los tramos futuros. Revisa los contratos y su distribución semanal, los turnos, el sistema de control de asistencia y la dotación. Calcula el efecto en horas y costos y decide cómo adaptarás la operación. Comunica los cambios por escrito a los trabajadores y registra los anexos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ La reducción es gradual por la Ley 21.561 y cada tramo obliga a revisar contrat
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda con 20 trabajadores tenía turnos de 44 horas con un costo mensual de 20 millones en remuneraciones. Con 42 horas, 2 horas semanales menos por persona equivalen a cerca de 4,5 % del tiempo: para mantener la atención al público, debe reorganizar turnos o contratar horas adicionales. Evalúa tres alternativas, calcula su costo y define cuál usará antes de la fecha de cada tramo (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo publica los tramos de la jornada ordinaria establecidos por la Ley 21.561 y las instrucciones para su aplicación.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 21.561, consultable en la Biblioteca del Congreso Nacional, reduce gradualmente la jornada ordinaria de trabajo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

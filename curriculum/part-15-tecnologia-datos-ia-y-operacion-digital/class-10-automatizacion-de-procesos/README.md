@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Monitoreo** | Vigilancia de que la automatización sigue funcionando. |
 | **Punto de reversión** | Mecanismo para volver al proceso manual. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué pasa cuando una automatización falla
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Automatización de procesos"]
-    C --> A2["Excepción"]
-    C --> A3["Monitoreo"]
-    C --> A4["Punto de reversión"]
-    A1 & A2 & A3 & A4 --> D{{"definir el alcance de la<br/>automatización, sus<br/>excepciones y su monitoreo"}}
-    D --> E["Entregable<br/>documentación de cada<br/>automatización con<br/>excepciones, monitoreo y<br/>procedimiento manual de<br/>respaldo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Toda automatización necesita un plan de excepciones y un punto de reversión: cuando falla, alguien debe poder ejecutar el proceso manualmente sin depender de quien lo construyó.
+
+![Esquema: Qué pasa cuando una automatización falla](modelo-mental.svg)
+
+**Lectura guiada:** La línea muestra el camino de una falla. Sin alerta no se detecta, sin procedimiento manual no se corrige y sin reversión se agrava; cada hito debe existir antes de automatizar.
+
+**Para recordarlo:** Es un ascensor con escalera de emergencia: normalmente no la usas, pero sabes que existe si se detiene entre pisos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Toda automatización necesita plan de excepciones y punto de reversión: cuando 
 
 ### 2. Cómo se traduce en la práctica
 
-Cuando falla, alguien debe poder ejecutar el proceso manualmente sin depender de quien la construyó. Y sin monitoreo las automatizaciones fallan en silencio: el error se descubre semanas después, cuando ya afectó a clientes y no se puede reconstruir qué pasó.
+Antes de automatizar, define el alcance, las excepciones y cómo se ejecutará el proceso a mano si falla. Agrega monitoreo con alertas y un registro de lo ejecutado. Documenta el procedimiento y asegúrate de que al menos dos personas lo conozcan. Define el punto de reversión y revisa periódicamente las automatizaciones activas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Cuando falla, alguien debe poder ejecutar el proceso manualmente sin depender de
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Encargado: «La automatización de facturas dejó de enviar documentos hace tres días». Gerente: «¿Por qué nadie lo notó?». Encargado: «No tenía monitoreo y quien la construyó ya no trabaja aquí». Gerente: «Entonces nadie sabe cómo emitirlas a mano». Encargado: «Escribiré el procedimiento manual, agregaré una alerta si no salen documentos en 24 horas y un registro de cada ejecución» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Accelerate** (IT Revolution): Forsgren, Humble y Kim relacionan la automatización disciplinada y la capacidad de recuperación rápida de las fallas con mejores resultados en la entrega de software.
+- **Site Reliability Engineering** (O'Reilly): Beyer y sus coautores describen el monitoreo, las alertas y los planes de respuesta como parte esencial de operar sistemas automatizados.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir el alcance de la automatización, sus excepciones y su monitoreo.
+
+**IT Revolution — Accelerate**  
+<https://openlibrary.org/isbn/9781942788379> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta evidencia sobre qué prácticas de ingeniería se asocian con mejor desempeño en la entrega de software.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Accelerate» para definir el alcance de la automatización, sus excepciones y su monitoreo.
+
+**O'Reilly — Site Reliability Engineering**  
+<https://openlibrary.org/isbn/9781491929124> · verificado 2026-11-25
+
+- *Qué contiene:* Prácticas de confiabilidad de servicios de Google: objetivos de nivel de servicio, presupuesto de error y gestión de incidentes.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Site Reliability Engineering» para definir el alcance de la automatización, sus excepciones y su monitoreo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

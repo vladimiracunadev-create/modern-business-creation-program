@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Plazo de despacho** | Tiempo comprometido de entrega. |
 | **Derecho a retracto** | Facultad de desistir en los casos y plazos legales. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo publicado debe poder cumplirse con la operación real
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Precio informado"]
-    C --> A2["Stock disponible"]
-    C --> A3["Plazo de despacho"]
-    C --> A4["Derecho a retracto"]
-    A1 & A2 & A3 & A4 --> D{{"asegurar que lo publicado sea<br/>cumplible por la operación<br/>real"}}
-    D --> E["Entregable<br/>procedimiento de control de<br/>precio, stock y plazo<br/>publicado con responsable y<br/>frecuencia"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Publicar un precio o un stock que no se puede honrar genera responsabilidad, y la corrección posterior no siempre la evita: la operación debe poder sostener lo que se promete.
+
+![Esquema: Lo publicado debe poder cumplirse con la operación real](modelo-mental.svg)
+
+**Lectura guiada:** El centro es lo que publicas y los satélites son las áreas que deben cumplirlo. Si una falla, la promesa queda al descubierto frente al cliente y frente al SERNAC.
+
+**Una imagen cotidiana:** Es prometer una mesa en un restaurante sin revisar si hay lugar: puedes disculparte, pero el cliente ya llegó.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Publicar precio o stock que no se puede honrar genera responsabilidad, y la corr
 
 ### 2. Cómo se traduce en la práctica
 
-Publicar plazos de despacho promedio como si fueran garantizados y vender contra inventario no sincronizado producen cancelaciones que el consumidor no aceptó. La corrección posterior no siempre evita la responsabilidad, y el costo reputacional supera al legal en un negocio que depende de recompra.
+Antes de publicar, verifica que el precio y el stock estén sincronizados con el sistema y que el despacho prometido sea el que el operador realmente cumple. Define quién autoriza promociones y cómo se retiran. Documenta los errores y cómo se resolvieron. Capacita al equipo de atención con las mismas condiciones que muestra el sitio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Publicar plazos de despacho promedio como si fueran garantizados y vender contra
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una tienda en línea publica una promoción con un precio mal digitado y vende 40 unidades antes de corregirla; luego cancela los pedidos. Los clientes reclaman y el SERNAC pide información. La corrección: validar los precios antes de publicarlos, limitar la promoción por stock real y definir un protocolo para errores, con comunicación inmediata y alternativa. Lo ofrecido obliga y una cancelación unilateral puede ser infracción (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): El artículo 12 de la Ley 19.496 obliga a respetar los términos, condiciones y modalidades conforme a los cuales se ofreció o convino la entrega del bien o la prestación del servicio.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica criterios sobre información de precio y disponibilidad que se aplican a las ofertas en línea.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -151,6 +156,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para asegurar que lo publicado sea cumplible por la operación real.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para asegurar que lo publicado sea cumplible por la operación real.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

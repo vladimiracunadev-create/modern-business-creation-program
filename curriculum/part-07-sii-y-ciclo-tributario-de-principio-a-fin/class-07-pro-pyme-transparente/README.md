@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Requisito de propietarios** | Exige que los dueños sean contribuyentes de impuestos finales. |
 | **Atribución** | Asignación de la renta a los socios aunque no se haya retirado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Transparencia: ¿conviene que los dueños paguen directamente?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Pro Pyme Transparente"]
-    C --> A2["Transparencia"]
-    C --> A3["Requisito de propietarios"]
-    C --> A4["Atribución"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la transparencia<br/>conviene según los tramos de<br/>los socios y la política de<br/>reinversión"}}
-    D --> E["Entregable<br/>comparación de Pro Pyme<br/>General versus Transparente<br/>con tramos reales de los<br/>socios"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En el régimen transparente la empresa no paga impuesto de primera categoría y la renta se atribuye a los dueños, que tributan según su tramo.
+
+![Esquema: Transparencia: ¿conviene que los dueños paguen directamente?](modelo-mental.svg)
+
+**Qué mirar primero:** Cada plato describe una situación. La misma transparencia ayuda o daña según los tramos de los socios y la reinversión. Una decisión por moda puede costar caro.
+
+**Una imagen cotidiana:** Es pagar la cuenta de un restaurante entre amigos: a unos les conviene dividirla, a otros pagar por separado, según cuánto consumió cada uno.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En el régimen transparente la empresa no paga impuesto de primera categoría y 
 
 ### 2. Cómo se traduce en la práctica
 
-El régimen transparente atribuye la renta a los propietarios según su tramo, lo que favorece a socios con tasas bajas y perjudica a quien quiere reinvertir. Además exige que los dueños sean contribuyentes de impuestos finales: incorporar un socio persona jurídica hace perder la elegibilidad.
+Reúne los tramos personales de cada socio y tu política de reinversión. Simula la carga con y sin transparencia y evalúa el efecto en caja: la atribución obliga a pagar aunque no hayas retirado. Verifica los requisitos de propietarios del régimen y su compatibilidad con tus planes de inversionistas. Documenta la decisión y revísala anualmente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ El régimen transparente atribuye la renta a los propietarios según su tramo, l
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: dos socios con ingresos personales bajos eligen el régimen general por costumbre y retiran casi todo, pagando una carga alta. Después: comparan con simulaciones y descubren que la transparencia les ahorra una parte importante porque sus tramos son bajos. En cambio, un tercer socio de un tramo alto que reinvierte todo ve que el régimen transparente aumentaría su carga y mantiene el régimen anterior (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Regímenes tributarios · Operación Renta 2026** (Servicio de Impuestos Internos): El SII publica los requisitos del régimen Pro Pyme Transparente y su efecto de atribución de la renta a los dueños.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El texto vigente de la Ley de Impuesto a la Renta describe la atribución de rentas en los regímenes de transparencia tributaria y se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 
@@ -174,6 +179,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Ficha de LeyChile de la Ley 21.850 con su texto consolidado, historia de la norma y vigencias. Reúne la modificación de la Ley sobre Impuesto a la Renta, del Código Tributario y del estatuto de capacitación, más las normas transitorias.
 - *Cómo leerla:* Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.
 - *Uso en esta clase:* aporta el marco de «Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social» para determinar si la transparencia conviene según los tramos de los socios y la política de reinversión.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-11-05
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar si la transparencia conviene según los tramos de los socios y la política de reinversión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Verificación en terreno** | Visita o revisión del sii para confirmar la actividad. |
 | **Domicilio virtual** | Oficina compartida o coworking usado como domicilio tributario. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Cómo acreditas tu domicilio ante el SII?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Acreditación de domicilio"]
-    C --> A2["Título que habilita"]
-    C --> A3["Verificación en terreno"]
-    C --> A4["Domicilio virtual"]
-    A1 & A2 & A3 & A4 --> D{{"reunir el título que acredita<br/>el domicilio antes de declarar<br/>el inicio"}}
-    D --> E["Entregable<br/>documento de acreditación de<br/>domicilio vigente con<br/>autorización del titular si<br/>corresponde"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El SII exige acreditar el domicilio con un título que habilite su uso; el coworking o la oficina virtual sirven si el contrato lo permite expresamente y el proveedor entrega respaldo.
+
+![Esquema: ¿Cómo acreditas tu domicilio ante el SII?](modelo-mental.svg)
+
+**Qué mirar primero:** Responde en orden. Sin título no hay acreditación; con título que no menciona el uso tributario, hay que ajustarlo. Un domicilio no acreditado puede bloquear el inicio de actividades.
+
+**Una analogía:** Es mostrar un comprobante de domicilio al banco: no basta con decir dónde vives, hay que probar que el lugar es tuyo o que te lo cedieron.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El SII exige acreditar el domicilio con un título que habilite su uso. El cowor
 
 ### 2. Cómo se traduce en la práctica
 
-Escritura, contrato de arriendo, comodato o autorización del propietario son los títulos habituales. El coworking o la oficina virtual son aceptables solo si el contrato autoriza expresamente el uso como domicilio tributario y el proveedor entrega respaldo; muchos contratos estándar no lo permiten.
+Reúne el título antes de declarar el inicio de actividades y verifica que el contrato permita expresamente el uso tributario. Si es un domicilio virtual, pide al proveedor respaldo y confirmación de atención a fiscalizaciones. Mantén vigentes los contratos: si vencen y no se renuevan, el domicilio queda sin acreditación y el SII puede cuestionarlo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,16 @@ Escritura, contrato de arriendo, comodato o autorización del propietario son lo
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: ¿tienes un contrato o título sobre el lugar? Si no, consígelo. Dos: ¿dice que puede usarse como domicilio de la empresa? Si no, pide autorización escrita. Tres: ¿el proveedor entrega certificado y datos de contacto por si el SII verifica en terreno? Una emprendedora que usa una oficina virtual solicita el certificado de uso y lo guarda junto con el contrato.
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII detalla qué documentos acepta para acreditar el domicilio y cuándo puede verificarlo en terreno.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

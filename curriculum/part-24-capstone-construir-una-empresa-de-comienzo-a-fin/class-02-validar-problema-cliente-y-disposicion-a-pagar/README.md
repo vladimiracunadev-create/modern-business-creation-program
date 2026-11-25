@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Umbral de validación** | Criterio fijado antes de recolectar evidencia. |
 | **Registro de aprendizaje** | Bitácora de lo confirmado y lo refutado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo se mide la validación con evidencia primaria
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Validación"]
-    C --> A2["Evidencia primaria"]
-    C --> A3["Umbral de validación"]
-    C --> A4["Registro de aprendizaje"]
-    A1 & A2 & A3 & A4 --> D{{"producir evidencia de mercado,<br/>problema, cliente y<br/>disposición a pagar para el<br/>caso"}}
-    D --> E["Entregable<br/>secciones 01 y 02 del<br/>expediente con informe<br/>ejecutivo de mercado, mapa de<br/>empatía trazable, experimento<br/>y conclusión contra umbral"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Esta etapa completa las secciones de mercado y cliente del expediente con investigación secundaria, entrevistas, alternativas actuales, TAM/SAM/SOM, competencia y un experimento de demanda, con un umbral de validación declarado antes.
+
+![Esquema: Cómo se mide la validación con evidencia primaria](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra es un nivel de evidencia más exigente. La última, el pago de una seña, es la señal más fuerte. El umbral de validación se escribe antes de salir a probar (datos ilustrativos).
+
+**Una analogía:** Es una escalera de compromiso: muchos dicen que sí, algunos lo usan, pocos pagan; el negocio vive del último peldaño.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Esta etapa completa las secciones 01 Mercado y 02 Cliente del expediente con inv
 
 ### 2. Cómo se traduce en la práctica
 
-El informe ejecutivo reúne definición, segmento, TAM/SAM/SOM, tendencias, competencia, benchmarks, barreras y preguntas abiertas. El mapa del cliente registra qué intenta lograr, observa, escucha, piensa, siente y hace desde citas y conductas. Lo que se evalúa es poder separar evidencia, hipótesis e interpretación aunque la conclusión sea negativa.
+Declara el umbral de validación y qué harás si no se alcanza. Reúne investigación secundaria con fuentes y fechas, al menos quince entrevistas sobre hechos del pasado, un mapa de alternativas, el TAM/SAM/SOM bottom-up y un experimento de demanda con fricción. Registra cada aprendizaje en el expediente, con la evidencia y quién la recogió.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El informe ejecutivo reúne definición, segmento, TAM/SAM/SOM, tendencias, comp
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+El caso fija su umbral antes de empezar: «al menos 3 de cada 20 deben pagar una seña de $20.000 en tres semanas». Entrevista a 20 dueños de bicicletas eléctricas: 14 confirman fallas frecuentes, 9 gastan hoy en talleres distantes y 4 pagan la seña. Supera el umbral. Si hubieran pagado solo 2, habría registrado el aprendizaje y decidido pivotar o abandonar, como se definió desde el comienzo (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Mom Test (2014)** (CreateSpace): Fitzpatrick enseña a entrevistar sobre hechos pasados y a distinguir cortesías de evidencia real, base de la validación primaria.
+- **The Lean Startup (2011)** (Crown Business): Ries propone definir de antemano las métricas de aprendizaje y el criterio para perseverar o pivotar.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
 - *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para producir evidencia de mercado, problema, cliente y disposición a pagar para el caso.
+
+**CreateSpace — The Mom Test (2014)**  
+<https://openlibrary.org/isbn/9781492180746> · verificado 2026-11-25
+
+- *Qué contiene:* Enseña a conversar con clientes sobre su vida y sus problemas reales para obtener información útil y no cortesías sobre una idea.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Mom Test (2014)» para producir evidencia de mercado, problema, cliente y disposición a pagar para el caso.
+
+**Crown Business — The Lean Startup (2011)**  
+<https://openlibrary.org/isbn/9780307887894> · verificado 2026-11-25
+
+- *Qué contiene:* Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Lean Startup (2011)» para producir evidencia de mercado, problema, cliente y disposición a pagar para el caso.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

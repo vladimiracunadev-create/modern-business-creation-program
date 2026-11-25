@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Beneficiario final** | Persona natural que controla en última instancia. |
 | **Debida diligencia continua** | Actualización periódica de la información del cliente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Conocer al cliente es un proceso, no un formulario
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["KYC"]
-    C --> A2["PEP"]
-    C --> A3["Beneficiario final"]
-    C --> A4["Debida diligencia continua"]
-    A1 & A2 & A3 & A4 --> D{{"definir el procedimiento de<br/>conocimiento del cliente y su<br/>actualización"}}
-    D --> E["Entregable<br/>procedimiento KYC con<br/>identificación, beneficiario<br/>final, tratamiento de PEP y<br/>periodicidad de actualización"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La debida diligencia no es un formulario de una sola vez: exige identificar al cliente, entender el propósito de la relación, identificar al beneficiario final y monitorear las operaciones.
+
+![Esquema: Conocer al cliente es un proceso, no un formulario](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño suma información y reduce el riesgo. El último es el más olvidado: conocer al cliente al inicio no basta si luego sus operaciones dejan de calzar con su perfil.
+
+**Una analogía:** Es conocer a un vecino nuevo: al principio sabes su nombre, con el tiempo entiendes su rutina y notas cuándo algo cambia.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La debida diligencia no es un formulario de una sola vez: exige identificar al c
 
 ### 2. Cómo se traduce en la práctica
 
-Identificar solo a quien firma deja el proceso incompleto: la obligación es identificar a la persona natural que controla en última instancia. Y la debida diligencia es continua, no un formulario de una sola vez: la falta de actualización en relaciones prolongadas es infracción por sí misma.
+Define el procedimiento de conocimiento del cliente según el riesgo: documentos, verificación, beneficiario final y perfil esperado. Identifica las personas expuestas políticamente y aplica medidas reforzadas. Monitorea las operaciones, actualiza la información periódicamente y documenta las decisiones. En los sectores obligados, estas medidas son un deber legal.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Identificar solo a quien firma deja el proceso incompleto: la obligación es ide
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa que vende maquinaria a compradores en efectivo pide a un cliente nuevo su RUT, el propósito de la compra y quién es su dueño final. Descubre que la sociedad está controlada por una persona expuesta políticamente. Aplica una debida diligencia reforzada, pide documentos adicionales y establece un seguimiento. Meses después detecta compras muy superiores a su perfil, las evalúa y reporta según corresponda (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Sujetos obligados · Ley 19.913** (Unidad de Análisis Financiero): La UAF publica las guías sobre conocimiento del cliente, beneficiario final y personas expuestas políticamente para los sujetos obligados.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.913 regula los deberes de debida diligencia y reporte, y se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

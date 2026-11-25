@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Actualización** | Aplicación de parches de seguridad. |
 | **Concientización** | Formación de las personas frente a ingeniería social. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuatro controles que reducen la mayor parte del riesgo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Defensa en capas"]
-    C --> A2["Autenticación multifactor"]
-    C --> A3["Actualización"]
-    C --> A4["Concientización"]
-    A1 & A2 & A3 & A4 --> D{{"implementar los controles<br/>básicos que cubren la mayor<br/>parte del riesgo"}}
-    D --> E["Entregable<br/>plan de ciberhigiene con los<br/>controles básicos<br/>implementados y verificados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Para una pyme, la mayor parte del riesgo se reduce con cuatro controles: doble factor en todos los accesos, actualizaciones al día, respaldos probados y formación básica del equipo.
+
+![Esquema: Cuatro controles que reducen la mayor parte del riesgo](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa cubre una vía de ataque distinta. Ninguna es perfecta, pero juntas dejan fuera a la mayoría de los ataques oportunistas que afectan a empresas pequeñas.
+
+**Para recordarlo:** Es cerrar una casa: puerta con llave, ventanas con seguro, alarma y vecinos atentos; cada medida es modesta, pero juntas disuaden a la mayoría.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Para una pyme, la mayor parte del riesgo se reduce con cuatro controles: multifa
 
 ### 2. Cómo se traduce en la práctica
 
-Multifactor en todos los accesos, actualizaciones al día, respaldos probados y formación frente a ingeniería social son baratos y se omiten por comodidad hasta el primer fraude por correo. Tratar la seguridad como proyecto puntual y no como rutina es lo que hace que los controles se degraden en meses.
+Activa doble factor en correo, finanzas, nube y sistemas críticos. Programa actualizaciones automáticas y revisa los equipos olvidados. Prueba tus respaldos. Capacita a todo el equipo en el reconocimiento de correos y llamadas fraudulentas y comparte ejemplos reales. Define a quién se reporta un incidente. Son controles baratos que se mantienen en el tiempo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Multifactor en todos los accesos, actualizaciones al día, respaldos probados y 
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Haz el diagnóstico de tu empresa con cuatro preguntas: ¿cuántas cuentas con acceso a datos importantes tienen doble factor?, ¿cuántos equipos tienen actualizaciones pendientes?, ¿cuándo fue la última prueba de restauración? y ¿cuándo fue la última capacitación sobre correos fraudulentos? Asigna a cada una una nota de 0 a 10 y escribe la acción que mejoraría la peor. Fija una fecha para repetir el diagnóstico en tres meses. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Ley 21.459 — Delitos informáticos** (Biblioteca del Congreso Nacional): La Ley 21.459 tipifica los delitos informáticos, que son la figura legal de los ataques que estos controles buscan prevenir.
+- **Accelerate** (IT Revolution): Forsgren, Humble y Kim muestran evidencia de que prácticas técnicas como la automatización y los controles disciplinados se asocian a mejor desempeño operacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ingeniería social empresarial
 
@@ -174,6 +179,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Tipifica el ataque a la integridad de un sistema, el acceso ilícito, la interceptación ilícita, el ataque a datos, la falsificación y el fraude informáticos, la receptación de datos y las circunstancias agravantes, además de reglas de investigación.
 - *Cómo leerla:* El acceso ilícito exige superar barreras técnicas o excederse de la autorización; no cubre el uso indebido por quien accede con permiso. «Espionaje informático» es una categoría de estudio, no el nombre de un delito de esta ley.
 - *Uso en esta clase:* aporta el marco de «Ley 21.459 — Delitos informáticos» para implementar los controles básicos que cubren la mayor parte del riesgo.
+
+**IT Revolution — Accelerate**  
+<https://openlibrary.org/isbn/9781942788379> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta evidencia sobre qué prácticas de ingeniería se asocian con mejor desempeño en la entrega de software.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Accelerate» para implementar los controles básicos que cubren la mayor parte del riesgo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

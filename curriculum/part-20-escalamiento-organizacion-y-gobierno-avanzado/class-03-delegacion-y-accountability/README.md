@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Límite de decisión** | Monto o materia hasta donde el rol decide sin consultar. |
 | **Rendición de cuentas** | Instancia periódica de revisión del resultado comprometido. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Delegar bien: resultado claro y límite claro
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Accountability"]
-    C --> A2["RACI"]
-    C --> A3["Límite de decisión"]
-    C --> A4["Rendición de cuentas"]
-    A1 & A2 & A3 & A4 --> D{{"definir resultados<br/>comprometidos, límites de<br/>decisión e instancias de<br/>rendición"}}
-    D --> E["Entregable<br/>matriz RACI de los procesos<br/>críticos con límites de<br/>decisión e instancia de<br/>rendición de cuentas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Delegar sin límites produce sorpresas y delegar sin resultado comprometido produce actividad sin efecto: el par correcto es resultado comprometido más límite de decisión, revisado en una instancia periódica.
+
+![Esquema: Delegar bien: resultado claro y límite claro](modelo-mental.svg)
+
+**Lectura guiada:** Ubica una delegación tuya según la claridad de su resultado y de su límite. Solo el cuadrante superior derecho permite soltar el control sin perderlo.
+
+**Piénsalo así:** Es prestar el auto a un hijo: con destino y reglas claras, confías; sin ellas, esperas con el corazón en la mano.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Delegar sin límites produce sorpresas y delegar sin resultado comprometido prod
 
 ### 2. Cómo se traduce en la práctica
 
-Delegar sin límite produce sorpresas; delegar sin resultado produce actividad sin efecto; y delegar sin instancia periódica de rendición convierte la delegación en abandono. Los tres elementos deben estar presentes o la delegación falla de una de esas tres formas.
+Para cada delegación, define resultado, límites (montos, materias, excepciones) y rendición. Evita delegar tareas sueltas sin objetivo. Usa una matriz RACI cuando intervengan varias personas. Revisa los resultados en una instancia periódica y ajusta los límites según la evidencia. La confianza se construye con claridad y seguimiento, no con ausencia de control.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Delegar sin límite produce sorpresas; delegar sin resultado produce actividad s
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Elige una responsabilidad que quisieras delegar, como la gestión de reclamos. Escribe el resultado comprometido (por ejemplo, responder el 95 % en 24 horas), el límite de decisión (puede reembolsar hasta cierto monto) y la instancia de rendición (reunión semanal de 20 minutos). Dibuja el RACI de quién decide, quién ejecuta, quién es consultado y quién es informado. Prueba el esquema durante un mes. Las cifras son ilustrativas.
+
+### 5. En qué se apoya
+
+- **High Output Management** (Random House): Grove propone que la delegación se ajuste a la madurez de la persona y se acompañe con revisión periódica del resultado.
+- **Team of Teams** (Portfolio): McChrystal y sus coautores plantean organizaciones con autonomía acotada y transparencia, donde las decisiones se toman cerca de la información.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir resultados comprometidos, límites de decisión e instancias de rendición.
+
+**Random House — High Output Management**  
+<https://openlibrary.org/isbn/9780330289634> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica ideas de producción a la gestión directiva: indicadores, reuniones uno a uno y apalancamiento del tiempo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «High Output Management» para definir resultados comprometidos, límites de decisión e instancias de rendición.
+
+**Portfolio — Team of Teams**  
+<https://openlibrary.org/isbn/9781611763720> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea cómo organizar equipos que se adaptan en entornos complejos mediante transparencia y autonomía. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Team of Teams» para definir resultados comprometidos, límites de decisión e instancias de rendición.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

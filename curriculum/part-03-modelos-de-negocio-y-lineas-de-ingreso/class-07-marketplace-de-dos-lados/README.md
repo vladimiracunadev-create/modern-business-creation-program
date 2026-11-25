@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Take rate** | Porcentaje de la transacción que retiene la plataforma. |
 | **Desintermediación** | Riesgo de que las partes transaccionen fuera de la plataforma. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El huevo y la gallina de un marketplace
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Marketplace"]
-    C --> A2["Problema del huevo y la<br/>gallina"]
-    C --> A3["Take rate"]
-    C --> A4["Desintermediación"]
-    A1 & A2 & A3 & A4 --> D{{"elegir qué lado se subsidia<br/>primero y en qué nicho se<br/>busca liquidez"}}
-    D --> E["Entregable<br/>plan de arranque con lado<br/>subsidiado, nicho de liquidez,<br/>take rate y defensa<br/>antidesintermediación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un marketplace no escala por producto sino por densidad: se concentra en un nicho, un lado se subsidia primero y recién después se expande.
+
+![Esquema: El huevo y la gallina de un marketplace](modelo-mental.svg)
+
+**Lectura guiada:** El ciclo se refuerza cuando hay liquidez: más oferta atrae demanda y viceversa. Mientras la rueda no gire, cualquiera de los lados abandona. Por eso se parte en un lugar acotado.
+
+**Una imagen cotidiana:** Es una feria: no basta con tener puestos, tampoco con tener visitantes; hace falta que ambos coincidan en el mismo lugar y hora.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un marketplace no escala por producto sino por densidad de un lado del mercado. 
 
 ### 2. Cómo se traduce en la práctica
 
-Lanzar en todo el país produce presencia sin densidad en ningún lugar y quema capital sin construir defensa. La desintermediación, por su parte, no se combate con cláusulas sino con valor dentro de la transacción: pago protegido, garantía, resolución de disputas y reputación verificable.
+Elige el lado difícil de atraer y decide cómo subsidiarlo: pago garantizado, comisión cero o carga de la primera demanda. Fija un nicho geográfico o vertical y una métrica de liquidez, por ejemplo el porcentaje de solicitudes atendidas en menos de dos horas. Define el take rate (comisión) y las reglas para evitar la desintermediación, como beneficios solo dentro de la plataforma.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Lanzar en todo el país produce presencia sin densidad en ningún lugar y quema 
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una plataforma de servicios del hogar abre en todo Chile con 300 oferentes dispersos; un cliente busca gasfíter en Temuco y no encuentra a nadie disponible. Después: se concentra en dos comunas de Santiago, reúne 40 gasfíteres con agenda y garantiza respuesta en dos horas. Con densidad, los clientes encuentran servicio, repiten y recomiendan; recién ahí abre la tercera comuna (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz describen las métricas propias de los mercados de dos lados, como la liquidez y la oferta y demanda activas, para saber si el modelo avanza.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de las obligaciones de las plataformas frente al consumidor, que dependen de cuánto controlan la transacción.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para elegir qué lado se subsidia primero y en qué nicho se busca liquidez.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para elegir qué lado se subsidia primero y en qué nicho se busca liquidez.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

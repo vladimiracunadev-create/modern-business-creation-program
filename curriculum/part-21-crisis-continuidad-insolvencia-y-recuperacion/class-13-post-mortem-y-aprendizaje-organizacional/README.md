@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Causa empresarial** | Falla de producto, liquidez, gobierno, control o comunicación que puede coexistir sin equivaler a delito. |
 | **Aprendizaje organizacional** | Incorporación verificable del hallazgo a procesos y decisiones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que sí se puede enseñar de un caso, y lo que no
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Post-mortem"]
-    C --> A2["Estado procesal"]
-    C --> A3["Causa empresarial"]
-    C --> A4["Aprendizaje organizacional"]
-    A1 & A2 & A3 & A4 --> D{{"convertir un evento adverso en<br/>mejoras verificables sin<br/>exceder lo que acreditan las<br/>fuentes"}}
-    D --> E["Entregable<br/>post-mortem con cronología,<br/>estado de cada afirmación,<br/>causas empresariales,<br/>controles fallidos, acciones y<br/>responsable"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El aprendizaje comparado exige separar hechos acreditados, alegaciones y estado procesal, y distinguir la causa empresarial de la calificación jurídica, sin exceder lo que acreditan las fuentes.
+
+![Esquema: Lo que sí se puede enseñar de un caso, y lo que no](modelo-mental.svg)
+
+**Lectura guiada:** Los círculos muestran tres niveles de certeza. La lección verificable solo se apoya en lo acreditado; lo alegado o lo pendiente se rotula como tal y no se usa para concluir.
+
+**Piénsalo así:** Es la crónica de un partido: se cuenta el marcador, se informa lo que pidió el árbitro y se distingue de lo que opinan los hinchas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El aprendizaje comparado exige separar hechos acreditados, alegaciones y estado 
 
 ### 2. Cómo se traduce en la práctica
 
-La comparación de los seis casos se organiza por competencia —custodia, rendimiento, producto, captación, auditoría, gobierno y crisis—, no por morbo. Cada afirmación debe llevar fuente, fecha, jurisdicción y estado procesal. El cierre propone controles verificables y conserva tres límites: rentabilidad alta no prueba delito, insolvencia no equivale a fraude y una relacionada puede operar legítimamente con revelación, autorización y control.
+Para cada caso, construye una tabla con tres columnas: hechos acreditados con su fuente, alegaciones y estado procesal. Distingue la causa empresarial (qué control faltó) de la calificación jurídica (qué delito se imputa). Convierte las lecciones en mejoras verificables dentro de tu empresa, con responsable y fecha. Cita siempre las fuentes y su fecha.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La comparación de los seis casos se organiza por competencia —custodia, rendi
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: un equipo estudia el colapso de una plataforma y concluye «el fundador era un estafador y la causa fue la avaricia», mezclando hechos, opiniones y un proceso judicial en curso. Después: separan los hechos que consta en la sentencia, las alegaciones aún no probadas y el estado del proceso, y extraen lecciones de control: segregación de fondos, confirmaciones independientes y gobierno. La lección es más útil y más defendible (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **FTX y Alameda: condena y sentencia de Samuel Bankman-Fried** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de FTX, fuente de hechos acreditados sobre el caso.
+- **The Fifth Discipline** (Doubleday): Senge sostiene que las organizaciones aprenden cuando examinan sus modelos mentales y los efectos sistémicos de sus decisiones, base de un buen post-mortem.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Espionaje industrial: antecedentes y casos
 
@@ -256,6 +261,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Explica la Economic Espionage Act de 1996 y su distinción entre el espionaje económico en beneficio de un Estado extranjero (18 U.S.C. § 1831) y el robo de secretos comerciales con fin comercial (§ 1832), con sanciones y reformas posteriores.
 - *Cómo leerla:* Es derecho estadounidense: sirve para entender el vocabulario y la distinción conceptual, no como norma aplicable en Chile. La página es una copia pública del informe; su fecha de actualización figura en el encabezado.
 - *Uso en esta clase:* aporta el marco de «Stealing Trade Secrets and Economic Espionage: An Overview of the Economic Espionage Act (R42681)» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
+
+**Doubleday — The Fifth Discipline**  
+<https://openlibrary.org/isbn/9780385517829> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta las organizaciones que aprenden: pensamiento sistémico, modelos mentales y visión compartida. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Fifth Discipline» para convertir un evento adverso en mejoras verificables sin exceder lo que acreditan las fuentes.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Criticidad del activo** | Impacto de su falla sobre la operación. |
 | **Disponibilidad** | Porcentaje del tiempo en que el activo está operativo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El mantenimiento justo: ni demasiado ni demasiado poco
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Mantenimiento preventivo"]
-    C --> A2["Mantenimiento correctivo"]
-    C --> A3["Criticidad del activo"]
-    C --> A4["Disponibilidad"]
-    A1 & A2 & A3 & A4 --> D{{"priorizar el mantenimiento<br/>según criticidad y costo de la<br/>falla"}}
-    D --> E["Entregable<br/>plan de mantenimiento con<br/>criticidad por activo,<br/>frecuencia y costo de falla<br/>estimado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El mantenimiento preventivo cuesta menos que la falla en los activos críticos, pero exige planificación y detención programada; priorizar por criticidad evita mantener todo con la misma intensidad.
+
+![Esquema: El mantenimiento justo: ni demasiado ni demasiado poco](modelo-mental.svg)
+
+**Cómo leerlo:** A la izquierda hay poco mantenimiento y muchas fallas; a la derecha, demasiada mantención que cuesta más de lo que evita. El mínimo de la curva es la frecuencia que conviene a ese activo.
+
+**Una analogía:** Es el cambio de aceite de un auto: muy espaciado, se funde el motor; muy seguido, se gasta dinero sin necesidad.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El mantenimiento preventivo cuesta menos que la falla en activos críticos, pero
 
 ### 2. Cómo se traduce en la práctica
 
-El preventivo cuesta menos que la falla en activos críticos pero exige planificación y detención programada. El extremo opuesto también desperdicia: mantener todo con igual frecuencia consume recursos sin reducir el riesgo donde realmente importa, que es donde la falla detiene la operación.
+Clasifica tus activos por criticidad (qué pasa si fallan) y por costo de la falla. Para los críticos, define un plan preventivo con detenciones programadas. Para los de baja criticidad, acepta el mantenimiento correctivo. Mide la disponibilidad y los costos de cada tipo de mantención. Registra las fallas y ajusta la frecuencia con los datos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El preventivo cuesta menos que la falla en activos críticos pero exige planific
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una prensa crítica falla cada cuatro meses y cada falla cuesta 3 millones por detención y reparación (9 millones al año). Un mantenimiento preventivo mensual cuesta 250.000 pesos (3 millones al año) y evita casi todas las fallas. En cambio, una máquina auxiliar con costo de falla de 200.000 se mantiene solo una vez al año. La regla es priorizar por criticidad y costo de la falla (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Goal** (North River Press): Goldratt muestra que una hora perdida en el recurso que limita al sistema es una hora perdida para todo el sistema, argumento para priorizar su mantenimiento.
+- **Toyota Production System** (Productivity Press): Ohno describe cómo la estabilidad de máquinas y procesos es una condición del sistema de producción de Toyota.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para priorizar el mantenimiento según criticidad y costo de la falla.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para priorizar el mantenimiento según criticidad y costo de la falla.
+
+**Productivity Press — Toyota Production System**  
+<https://openlibrary.org/isbn/9781000056488> · verificado 2026-11-25
+
+- *Qué contiene:* Describe el sistema de producción de Toyota: eliminación de desperdicio y producción justo a tiempo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Toyota Production System» para priorizar el mantenimiento según criticidad y costo de la falla.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

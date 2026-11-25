@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Punto de dolor residual** | Lo que la alternativa actual no resuelve. |
 | **Gatillo de cambio** | Evento que hace insostenible seguir con la alternativa actual. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿La mejora compensa el costo de cambiar?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Alternativa actual"]
-    C --> A2["Costo de cambio"]
-    C --> A3["Punto de dolor residual"]
-    C --> A4["Gatillo de cambio"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la mejora<br/>ofrecida supera el costo de<br/>cambio del cliente"}}
-    D --> E["Entregable<br/>mapa de alternativa actual con<br/>costo de cambio estimado y<br/>gatillos de cambio<br/>identificados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Si el costo de cambiar es alto y el dolor residual del cliente es bajo, no hay venta aunque la solución sea objetivamente mejor que lo que usa hoy.
+
+![Esquema: ¿La mejora compensa el costo de cambiar?](modelo-mental.svg)
+
+**Qué mirar primero:** Compara las dos barras. La primera es la mejora que el cliente percibe; la segunda, todo lo que le costaría cambiar. Solo se vende cuando la primera supera con holgura a la segunda.
+
+**Para recordarlo:** Es mudarse de casa: aunque la nueva sea mejor, el trabajo, el riesgo y el costo de la mudanza frenan a quien está más o menos cómodo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Mapear la alternativa actual revela el precio de referencia real y la magnitud d
 
 ### 2. Cómo se traduce en la práctica
 
-Migrar datos, reentrenar personas y asumir el riesgo de que algo falle tienen un costo que el cliente sí calcula. Si el dolor residual de su alternativa es bajo y ese costo alto, no hay venta aunque tu solución sea objetivamente mejor. Lo que desbloquea la compra suele ser un gatillo externo, no un argumento.
+Entrevista a quienes usan la alternativa actual y pregunta qué le molesta todavía (dolor residual), qué intentaron para mejorarla y qué evento los haría cambiar. Estima el costo de cambiar con ellos: datos, capacitación, riesgo e incertidumbre. Diseña tu oferta para reducir ese costo, con migración, período de prueba o garantías, y no solo para mejorar el producto.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Migrar datos, reentrenar personas y asumir el riesgo de que algo falle tienen un
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un sistema de facturación nuevo ahorra 10 horas al mes, que el cliente valora en $200.000 al año. Pero cambiar le exige migrar tres años de datos, capacitar a dos personas y arriesgar un cierre mensual: lo estima en $300.000 y mucho estrés. Aunque el sistema sea mejor, el cambio no compensa. La empresa decide ofrecer migración gratuita y un mes de operación paralela, y baja el costo de cambio a $50.000 (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Value Proposition Design** (Wiley): Osterwalder y sus coautores distinguen los dolores y las ganancias del cliente y piden ajustar la oferta para aliviar los primeros y crear las segundas, considerando lo que el cliente ya usa.
+- **Thinking, Fast and Slow** (Macmillan): Kahneman muestra que las personas pesan las pérdidas más que las ganancias equivalentes, lo que ayuda a explicar la resistencia a cambiar de solución.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para determinar si la mejora ofrecida supera el costo de cambio del cliente.
+
+**Wiley — Value Proposition Design**  
+<https://openlibrary.org/isbn/9781118968055> · verificado 2026-11-25
+
+- *Qué contiene:* Método para ajustar una propuesta de valor a las tareas, los dolores y las ganancias del cliente.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Value Proposition Design» para determinar si la mejora ofrecida supera el costo de cambio del cliente.
+
+**Macmillan — Thinking, Fast and Slow**  
+<https://openlibrary.org/isbn/9781464166174> · verificado 2026-11-25
+
+- *Qué contiene:* Describe sesgos y heurísticas de la decisión humana a partir de dos modos de pensar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking, Fast and Slow» para determinar si la mejora ofrecida supera el costo de cambio del cliente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

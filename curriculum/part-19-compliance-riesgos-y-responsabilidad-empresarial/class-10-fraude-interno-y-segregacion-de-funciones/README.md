@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Confirmación independiente** | Validación realizada con evidencia ajena al ejecutor y al registro interno. |
 | **Trazabilidad** | Capacidad de reconstruir la operación, su autorización y su beneficiario. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cinco funciones que no deben concentrarse en una persona
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Segregación de funciones"]
-    C --> A2["Privilegio excepcional"]
-    C --> A3["Confirmación independiente"]
-    C --> A4["Trazabilidad"]
-    A1 & A2 & A3 & A4 --> D{{"segregar custodia,<br/>autorización, ejecución,<br/>registro y conciliación, y<br/>gobernar toda excepción"}}
-    D --> E["Entregable<br/>matriz de segregación con<br/>accesos, límites, excepciones,<br/>confirmaciones y controles<br/>compensatorios"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los casos FTX/Alameda y Madoff muestran fallas distintas con una raíz de control común: concentración de custodia, decisión, registro o confirmación sin un contrapeso independiente.
+
+![Esquema: Cinco funciones que no deben concentrarse en una persona](modelo-mental.svg)
+
+**Qué mirar primero:** El centro es una operación y los satélites son las funciones que la tocan. Si una persona concentra dos o más, no hay quien detecte un error o un fraude. En una empresa pequeña, el contrapeso puede ser el dueño u otra persona externa.
+
+**Para recordarlo:** Es una elección con un solo árbitro que además cuenta los votos: nadie podría confirmar que el resultado es correcto.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los casos FTX/Alameda y Madoff muestran fallas distintas con una raíz de contro
 
 ### 2. Cómo se traduce en la práctica
 
-FTX/Alameda y Madoff muestran por qué la concentración no se corrige con confianza personal. Un equipo pequeño puede compensar con límites de sistema, doble firma, confirmación directa, alertas automáticas y revisión del directorio. La excepción debe ser más visible que la operación ordinaria: aprobador independiente, motivo, monto, vencimiento y prueba posterior.
+Mapea las funciones de cada proceso crítico y divide las que no pueden estar juntas. Donde no se pueda por tamaño, agrega controles compensatorios: revisión del dueño, confirmaciones externas, informes mensuales. Registra toda excepción, quién la autorizó y por qué. Los casos FTX y Madoff muestran los costos de la concentración sin contrapeso independiente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ FTX/Alameda y Madoff muestran por qué la concentración no se corrige con confi
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: en una distribuidora, una persona recibe facturas, las aprueba, hace los pagos y registra la contabilidad. Durante dos años crea proveedores ficticios y desvía 25 millones. Nadie lo notó porque no había contrapeso. La corrección: separar las funciones (quien aprueba no paga; quien paga no registra; quien concilia es independiente), pedir confirmaciones externas y gobernar toda excepción por escrito (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **FTX y Alameda: condena y sentencia de Samuel Bankman-Fried** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de FTX, caso donde la custodia y las decisiones sobre fondos de clientes estaban concentradas.
+- **Reformas posteriores a Madoff sobre custodia y verificación independiente** (U.S. Securities and Exchange Commission): La SEC describe las reformas posteriores al caso Madoff sobre custodia y verificación independiente de los activos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
 

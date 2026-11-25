@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Descuento y valuation cap** | Mecanismos que fijan el precio de conversión. |
 | **Conversión** | Momento en que el instrumento se transforma en acciones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo se convierte un instrumento convertible
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SAFE"]
-    C --> A2["Nota convertible"]
-    C --> A3["Descuento y valuation cap"]
-    C --> A4["Conversión"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué instrumento se usa<br/>y modelar la dilución en la<br/>conversión"}}
-    D --> E["Entregable<br/>modelo de tabla de<br/>capitalización con conversión<br/>de todos los instrumentos<br/>vigentes"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los instrumentos convertibles postergan la valorización pero no la eliminan: se acumulan y se convierten juntos, a veces produciendo una dilución mucho mayor que la anticipada.
+
+![Esquema: Cómo se convierte un instrumento convertible](modelo-mental.svg)
+
+**Lectura guiada:** Sigue el flujo. El paso crítico es el cuarto: todos los instrumentos se convierten al mismo tiempo, y su efecto conjunto se ve recién cuando llega la ronda.
+
+**Piénsalo así:** Es pedir varios préstamos con cheque en blanco: cada uno parece manejable, pero el día de pagar se juntan todos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los instrumentos convertibles postergan la valorización pero no la eliminan: se
 
 ### 2. Cómo se traduce en la práctica
 
-Postergar la valorización no la elimina: la traslada a un momento donde varios instrumentos convierten a la vez, con descuentos y topes que pueden producir una dilución mucho mayor que la anticipada. Fijar un valuation cap sin modelar su efecto es firmar sin saber qué se entrega.
+Antes de firmar un instrumento convertible, modela la tabla de capitalización con distintos escenarios de valoración y de ronda. Comprende el descuento, el tope de valoración y qué ocurre con varios instrumentos simultáneos. Registra todos los instrumentos emitidos y su condición. Consulta a un abogado: los convertibles tienen efectos jurídicos y tributarios.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Postergar la valorización no la elimina: la traslada a un momento donde varios 
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Fundador: «Firmé tres instrumentos convertibles, cada uno por 100 millones con tope de valoración de 2.000 millones. En la siguiente ronda se convierten». Asesora: «¿Calculaste la dilución conjunta?». Fundador: «Cada uno diluye 5 %, así que 15 % en total». Asesora: «Sumados con el aumento de la ronda y el fondo de opciones, llegarás a casi 35 %. Hagamos la tabla antes de aceptar un cuarto instrumento» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Venture Deals** (Wiley): Feld y Mendelson explican los instrumentos convertibles, sus topes y descuentos y el efecto en la dilución al convertirse.
+- **Secrets of Sand Hill Road** (Portfolio): Kupor describe cómo los fundadores deben modelar la dilución de rondas sucesivas e instrumentos convertibles.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir qué instrumento se usa y modelar la dilución en la conversión.
+
+**Wiley — Venture Deals**  
+<https://openlibrary.org/isbn/9781118443613> · verificado 2026-11-25
+
+- *Qué contiene:* Explica los términos de una inversión de capital de riesgo: hoja de términos, valoración y derechos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Venture Deals» para definir qué instrumento se usa y modelar la dilución en la conversión.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para definir qué instrumento se usa y modelar la dilución en la conversión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

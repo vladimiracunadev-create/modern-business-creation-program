@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Solución** | Combinación de producto, servicio y proceso que resuelve el problema completo. |
 | **Experiencia** | Conjunto de interacciones que determinan si el cliente repite. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De servicio a medida a producto repetible
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Producto"]
-    C --> A2["Servicio"]
-    C --> A3["Solución"]
-    C --> A4["Experiencia"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué parte de la oferta<br/>es producto, qué parte es<br/>servicio y cómo evoluciona la<br/>mezcla"}}
-    D --> E["Entregable<br/>descomposición de la oferta en<br/>componentes con su costo<br/>marginal y su escalabilidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La mezcla entre producto y servicio determina costos, velocidad de crecimiento y equipo: muchas empresas parten como servicio para financiar su producto, pero no deben quedarse ahí.
+
+![Esquema: De servicio a medida a producto repetible](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño reduce las horas de experto por cliente y aumenta lo repetible. Ubica tu oferta hoy y define el siguiente peldaño, no el último.
+
+**Piénsalo así:** Es pasar de cocinar por encargo a tener un menú fijo y, después, una línea de platos envasados: cada paso exige más preparación y deja más margen.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La elección entre producto y servicio determina la estructura de costos, la vel
 
 ### 2. Cómo se traduce en la práctica
 
-Muchas empresas chilenas de software financian el desarrollo con consultoría, lo que es sensato como transición y peligroso como destino: el servicio paga la cuenta del mes y consume el tiempo que el producto necesita. La decisión que evita quedarse ahí es fijar de antemano qué señal disparará el traspaso de la mezcla.
+Elige tu oferta principal y cuenta cuántas horas de experto necesita cada cliente. Identifica qué partes se repiten en todos los casos y conviértelas primero en plantilla, luego en herramienta. Mantén el servicio mientras financia el desarrollo, pero ponle fecha de revisión: quedarse en servicio solo porque paga la cuenta del mes es el riesgo más común.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Muchas empresas chilenas de software financian el desarrollo con consultoría, l
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una agencia de datos hace cada informe desde cero para cada cliente, cobra por hora y su margen depende de que nadie se enferme. Después: define un informe estándar con plantilla, automatiza la limpieza de datos y vende tres paquetes con precio fijo. Las horas por cliente bajan a la mitad, puede atender más cuentas con el mismo equipo y empieza a ofrecer la herramienta como producto aparte (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Built to Sell** (Portfolio): Warrillow propone transformar un servicio en una oferta estandarizada y repetible, lo que mejora el margen y vuelve la empresa transferible.
+- **Business Model Generation** (Wiley): Osterwalder y Pigneur muestran cómo cambia el modelo de negocio, la estructura de costos y las fuentes de ingreso al pasar de un servicio a un producto.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para definir qué parte de la oferta es producto, qué parte es servicio y cómo evoluciona la mezcla.
+
+**Portfolio — Built to Sell**  
+<https://openlibrary.org/isbn/9781591845829> · verificado 2026-11-25
+
+- *Qué contiene:* Propone hacer que una empresa de servicios sea vendible por su sistema y no por su dueño.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Built to Sell» para definir qué parte de la oferta es producto, qué parte es servicio y cómo evoluciona la mezcla.
+
+**Wiley — Business Model Generation**  
+<https://openlibrary.org/isbn/9780470876411> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el lienzo del modelo de negocio de nueve bloques y patrones para describir, diseñar y comparar modelos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Business Model Generation» para definir qué parte de la oferta es producto, qué parte es servicio y cómo evoluciona la mezcla.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

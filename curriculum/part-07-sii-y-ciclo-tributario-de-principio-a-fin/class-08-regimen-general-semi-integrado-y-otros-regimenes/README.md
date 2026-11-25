@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Registros empresariales** | Rai, ddan, rex y sac que controlan rentas y créditos. |
 | **Renta presunta** | Régimen especial para ciertas actividades con base presunta. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Más complejidad contable, más exigencia de registros
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Régimen general semi<br/>integrado"]
-    C --> A2["Restitución"]
-    C --> A3["Registros empresariales"]
-    C --> A4["Renta presunta"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el caso obliga o<br/>conviene el régimen general y<br/>qué capacidad contable exige"}}
-    D --> E["Entregable<br/>evaluación del régimen general<br/>con requerimientos de<br/>contabilidad y registros<br/>empresariales"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El régimen semi integrado aplica a empresas que exceden los límites Pro Pyme o cuya estructura de propietarios lo exige; su complejidad está en los registros empresariales que determinan qué se puede retirar.
+
+![Esquema: Más complejidad contable, más exigencia de registros](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño exige más capacidad contable. Elegir uno que tu equipo no puede sostener produce errores, observaciones del SII y retiros mal tratados.
+
+**Una analogía:** Es pasar de una bicicleta a una moto y luego a un auto: más potencia, pero también más mantenimiento, licencias y seguros.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El semi integrado aplica a empresas que exceden los límites Pro Pyme o cuya est
 
 ### 2. Cómo se traduce en la práctica
 
-El semi integrado exige contabilidad completa y los registros empresariales RAI, DDAN, REX y SAC, que determinan qué se puede retirar y con qué crédito. Quedar en él por omisión, sin esa capacidad contable, produce pérdida de trazabilidad de créditos que se descubre en la Operación Renta.
+Antes de cambiar o continuar en un régimen, pregunta qué registros exige y si tu contabilidad actual puede sostenerlos. Verifica los límites de ingresos y los requisitos de propietarios que te obligan a un régimen. Si no tienes capacidad, planifica contratación o asesoría antes del cambio. Considera también las novedades legales que modifican tasas o requisitos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ El semi integrado exige contabilidad completa y los registros empresariales RAI,
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de ingeniería crece, supera el límite de ingresos Pro Pyme y debe pasar al régimen general semi integrado. Su contador interno llevaba una contabilidad simple y no tenía control de los registros de utilidades y retiros. En el primer año comete errores en el tratamiento de dos retiros y recibe observaciones. Contrata un contador especializado y programa capacitación antes de la siguiente Operación Renta (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Regímenes tributarios · Operación Renta 2026** (Servicio de Impuestos Internos): El SII publica el comparativo de regímenes y los requisitos del régimen general semi integrado.
+- **Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social** (Biblioteca del Congreso Nacional · LeyChile): La Ley 21.850 modifica elementos del sistema tributario que afectan a los regímenes, por lo que su texto debe revisarse al elegir o mantener un régimen.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

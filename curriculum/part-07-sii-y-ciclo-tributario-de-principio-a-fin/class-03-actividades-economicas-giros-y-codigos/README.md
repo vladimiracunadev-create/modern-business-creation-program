@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Giro secundario** | Actividad adicional declarada. |
 | **Afectación a IVA** | Condición del código que determina si la actividad está gravada. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué actividades cubre tu negocio y cómo tributan
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Código de actividad<br/>económica"]
-    C --> A2["Giro principal"]
-    C --> A3["Giro secundario"]
-    C --> A4["Afectación a IVA"]
-    A1 & A2 & A3 & A4 --> D{{"seleccionar los códigos de<br/>actividad que cubren el<br/>negocio actual y previsto"}}
-    D --> E["Entregable<br/>listado de códigos<br/>seleccionados con<br/>justificación y condición de<br/>afectación a IVA"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los códigos de actividad determinan si la actividad está afecta a IVA, qué documentos puedes emitir y cómo se clasifica tu empresa; un código faltante impide facturar esa línea.
+
+![Esquema: Qué actividades cubre tu negocio y cómo tributan](modelo-mental.svg)
+
+**Cómo leerlo:** Cada satélite es una consecuencia de los códigos elegidos. Revisa que todas las líneas de ingreso, actuales y previstas, tengan un código que las cubra.
+
+**Una imagen cotidiana:** Es el menú de un restaurante: si un plato no está en la carta, el sistema no te deja cobrarlo, aunque lo cocines bien.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los códigos determinan si la actividad está afecta a IVA, qué documentos se p
 
 ### 2. Cómo se traduce en la práctica
 
-Un código faltante impide facturar esa línea hasta agregarlo; uno mal elegido puede afectar indebidamente al IVA una actividad exenta o al revés. Elegir por similitud de nombre sin verificar la afectación es el error que aparece cuando ya se emitieron documentos y hay que rectificar.
+Selecciona códigos para el negocio actual y previsto, sin acumular actividades que no ejerzas. Consulta si tu rubro exige permisos sectoriales además del código. Verifica el tratamiento de IVA de cada línea, sobre todo si tienes actividades mixtas con ingresos afectos y exentos. Actualiza los giros cuando cambie el negocio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,16 @@ Un código faltante impide facturar esa línea hasta agregarlo; uno mal elegido 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Haz una lista de todos los ingresos que tendrá tu empresa en los próximos 12 meses: servicios, ventas de productos, arriendos, capacitaciones. Para cada uno, busca en el listado de actividades económicas del SII el código que lo cubre y anota si está afecto a IVA. Si alguna línea queda sin código, decide si la agregas ahora o la dejas para después de revisar con tu contador. Marca el giro principal y justifica por qué. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa cómo declarar los giros y los códigos de actividad económica al iniciar actividades y cómo modificarlos después.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

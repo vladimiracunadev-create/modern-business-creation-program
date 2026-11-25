@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Sesgo del forecast** | Desviación sistemática entre proyección y realidad. |
 | **Definición común** | Criterio único de etapa y de dato entre áreas. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El sesgo del forecast, trimestre a trimestre
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Revenue operations"]
-    C --> A2["Forecast"]
-    C --> A3["Sesgo del forecast"]
-    C --> A4["Definición común"]
-    A1 & A2 & A3 & A4 --> D{{"instalar un forecast con<br/>medición de error y<br/>definiciones comunes entre<br/>áreas"}}
-    D --> E["Entregable<br/>forecast de volumen, precio,<br/>ingreso y cobro con cadencia,<br/>error histórico y traducción a<br/>tres escenarios financieros"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un forecast sirve cuando se mide su error y se corrige su sesgo; con definiciones comunes entre áreas, todos planifican con la misma demanda.
+
+![Esquema: El sesgo del forecast, trimestre a trimestre](modelo-mental.svg)
+
+**Qué mirar primero:** Cada barra es el sesgo del trimestre: cuánto sobrestimó el pronóstico. La baja muestra el efecto de medir el error y de usar las mismas definiciones de etapa y de dato.
+
+**Una analogía:** Es el pronóstico del tiempo: no pide acertar siempre, pide saber cuánto suele equivocarse para decidir si llevas paraguas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El forecast sirve si se mide su error histórico y se corrige el sesgo. Debe pro
 
 ### 2. Cómo se traduce en la práctica
 
-Un forecast que sobreestima 30 % de forma consistente es útil si el sesgo se conoce. Expresar cada oportunidad como volumen por precio y fecha probable de cobro permite que finanzas derive el escenario base y use el error histórico para los rangos conservador y expansivo. Así ventas, caja, capacidad y contratación planifican sobre la misma demanda.
+Proyecta volumen, precio, fecha de cierre y fecha de cobro por oportunidad, no solo un total. Registra cada trimestre el pronóstico y el resultado real, calcula el error y el sesgo, y úsalos para fijar tres escenarios (conservador, base y expansivo). Acuerda con marketing, ventas y postventa una definición única de cada etapa.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ Un forecast que sobreestima 30 % de forma consistente es útil si el sesgo se co
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa proyecta $500 millones y cierra $410 millones: su sesgo es de +22 %. Corrige las probabilidades por etapa y exige fecha de cobro. Cuatro trimestres después el sesgo es de +3 % y caja, contratación y capacidad usan el mismo número (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Predictable Revenue (2011)** (PebbleStorm): Ross y Tyler defienden que los ingresos predecibles se construyen midiendo y ajustando un proceso comercial con definiciones estables.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -157,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para instalar un forecast con medición de error y definiciones comunes entre áreas.
+
+**PebbleStorm — Predictable Revenue (2011)**  
+<https://openlibrary.org/isbn/9780984380213> · verificado 2026-11-25
+
+- *Qué contiene:* Describe la prospección saliente como un proceso con roles especializados, listas acotadas y métricas, para volver predecible la generación de ingresos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Predictable Revenue (2011)» para instalar un forecast con medición de error y definiciones comunes entre áreas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

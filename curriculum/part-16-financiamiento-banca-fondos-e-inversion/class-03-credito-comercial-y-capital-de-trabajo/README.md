@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Covenant** | Condición que el deudor se obliga a mantener. |
 | **Garantía** | Respaldo exigido para el otorgamiento. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La carpeta que convence a un banco
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Línea de crédito"]
-    C --> A2["Carpeta bancaria"]
-    C --> A3["Covenant"]
-    C --> A4["Garantía"]
-    A1 & A2 & A3 & A4 --> D{{"preparar la carpeta bancaria y<br/>evaluar las condiciones antes<br/>de aceptar"}}
-    D --> E["Entregable<br/>carpeta bancaria completa con<br/>estados financieros, carpeta<br/>tributaria y análisis de<br/>covenants"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El banco evalúa capacidad de pago, comportamiento histórico y garantías; presentar estados financieros ordenados y carpeta tributaria al día cambia materialmente las condiciones ofrecidas.
+
+![Esquema: La carpeta que convence a un banco](modelo-mental.svg)
+
+**Cómo leerlo:** Cada capa es una prueba de que puedes devolver el crédito. Cuanto más completa la carpeta, menos incertidumbre percibe el banco y mejores condiciones ofrece.
+
+**Piénsalo así:** Es presentar un currículum para un trabajo importante: la experiencia, las referencias y los documentos al día hacen la diferencia.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El banco evalúa capacidad de pago, comportamiento histórico y garantías. Pres
 
 ### 2. Cómo se traduce en la práctica
 
-El banco evalúa capacidad de pago, comportamiento histórico y garantías, y presentar estados financieros ordenados con carpeta tributaria al día mejora la oferta. Los covenants deben leerse antes de firmar: incumplirlos puede hacer exigible toda la deuda de forma anticipada.
+Prepara la carpeta antes de pedir el crédito y revisa tu comportamiento de pago con proveedores y bancos. Compara varias ofertas por costo total, plazo, garantías y condiciones (covenants) que podrían limitar la gestión. Pide un plan de uso del crédito coherente con tu flujo de caja. Un crédito de capital de trabajo no debe financiar activos de largo plazo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El banco evalúa capacidad de pago, comportamiento histórico y garantías, y pr
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Prepara la carpeta bancaria de tu empresa. Reúne en una lista los últimos estados financieros, la carpeta tributaria electrónica, las declaraciones, un flujo proyectado de 13 semanas, el detalle de deudas y las garantías disponibles. Marca lo que falta o está desactualizado. Redacta en tres líneas para qué necesitas el crédito, cómo lo pagarás y qué ocurriría si las ventas bajan un 20 %. Compara dos ofertas por costo, plazo, garantías y covenants. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica del SII es un documento habitual en la evaluación crediticia y resume la situación tributaria de la empresa.
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La CMF publica información sobre los prestadores de servicios financieros, que ayuda a conocer a las entidades que otorgan financiamiento.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

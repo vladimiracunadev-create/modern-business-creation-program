@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Consistencia** | Repetición del mismo mensaje en todos los puntos de contacto. |
 | **Prueba social** | Evidencia de terceros que respalda la promesa. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La marca es una promesa sostenida por capas
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Marca"]
-    C --> A2["Mensaje"]
-    C --> A3["Consistencia"]
-    C --> A4["Prueba social"]
-    A1 & A2 & A3 & A4 --> D{{"definir el mensaje central y<br/>asegurar su consistencia y<br/>protección"}}
-    D --> E["Entregable<br/>guía de marca y mensaje con<br/>formulación, pruebas y estado<br/>de registro marcario"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Una marca no es un logo: es la promesa que el cliente puede comprobar, repetida el tiempo suficiente para que se instale.
+
+![Esquema: La marca es una promesa sostenida por capas](modelo-mental.svg)
+
+**Qué mirar primero:** Lee de arriba hacia abajo: cada capa sostiene a la anterior. Sin prueba, la promesa es solo publicidad; sin consistencia, nunca se instala; sin protección, otro puede aprovechar lo que construiste.
+
+**Una analogía:** Es como un edificio: el cliente ve la fachada, pero lo que la mantiene en pie son los cimientos que no se ven.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El mensaje debe usar las palabras del cliente y no la jerga interna. La consiste
 
 ### 2. Cómo se traduce en la práctica
 
-Cambiar el mensaje cada trimestre impide que se construya cualquier posicionamiento; la consistencia importa más que la creatividad. Y antes de invertir en marca hay que registrarla en INAPI en las clases donde se opera, porque el reconocimiento construido sobre un signo ajeno se pierde entero.
+Para decidir el mensaje, escucha cómo describen tu producto los clientes que más lo valoran y usa sus palabras, no las tuyas. Escribe una frase con el beneficio, para quién es y la prueba que lo respalda. Define dónde aparecerá (web, factura, venta, redes) y fija una regla: no se cambia mientras no haya evidencia de que no funciona. Antes de invertir en difundirla, revisa que el nombre esté disponible y sea registrable.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Cambiar el mensaje cada trimestre impide que se construya cualquier posicionamie
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una panadería cambia su mensaje cada trimestre («pan artesanal», «el más barato», «premium») y el cliente no sabe qué es. Después: fija «pan caliente a las 8:00», lo prueba con horario publicado y fotos del horneado diario, lo repite igual en el letrero, en redes y en la bolsa, y registra el nombre en INAPI. A los seis meses los clientes repiten la frase con sus propias palabras (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Obviously Awesome (2019)** (Ambient Press): Dunford propone partir de lo que el cliente ya valora para definir el posicionamiento y el mensaje, en lugar de partir de lo que la empresa quiere decir.
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI es el organismo ante el cual se registran las marcas en Chile; la protección del signo parte de ese registro.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: identidad y promesa verificable
 
@@ -189,6 +194,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
 - *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el mensaje central y asegurar su consistencia y protección.
+
+**Ambient Press — Obviously Awesome (2019)**  
+<https://openlibrary.org/isbn/9781999023003> · verificado 2026-11-25
+
+- *Qué contiene:* Propone un método para definir el posicionamiento de un producto partiendo de los clientes que mejor encajan y del valor que reconocen.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Obviously Awesome (2019)» para definir el mensaje central y asegurar su consistencia y protección.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

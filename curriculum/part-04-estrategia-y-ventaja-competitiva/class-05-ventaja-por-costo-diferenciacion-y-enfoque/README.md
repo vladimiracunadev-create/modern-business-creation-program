@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Enfoque** | Concentración en un segmento donde la empresa es la mejor opción. |
 | **Posición intermedia** | Riesgo de no ser ni el más barato ni el más valorado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las tres estrategias genéricas y la trampa del medio
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ventaja en costo"]
-    C --> A2["Diferenciación"]
-    C --> A3["Enfoque"]
-    C --> A4["Posición intermedia"]
-    A1 & A2 & A3 & A4 --> D{{"elegir una estrategia genérica<br/>y aceptar lo que implica<br/>renunciar"}}
-    D --> E["Entregable<br/>declaración de estrategia<br/>genérica con las tres<br/>renuncias que implica"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las tres estrategias genéricas no son etiquetas: implican estructuras de costo y de organización distintas e incompatibles, y la empresa que intenta todas termina sin ninguna.
+
+![Esquema: Las tres estrategias genéricas y la trampa del medio](modelo-mental.svg)
+
+**Lectura guiada:** Ubica tu empresa en uno de los cuadrantes y revisa si tu estructura de costos y tu organización lo respaldan. El centro es la trampa: no ser el más barato ni el más distinto.
+
+**Una imagen cotidiana:** Es elegir entre ser el taxi más barato o el chofer privado más exclusivo: ambos ganan, pero con vehículos, tarifas y servicio completamente distintos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las tres estrategias genéricas no son etiquetas: implican estructuras de costo 
 
 ### 2. Cómo se traduce en la práctica
 
-Costo, diferenciación y enfoque exigen estructuras de organización incompatibles entre sí. El síntoma de la posición intermedia es reconocible: la empresa declara diferenciación en su discurso y compite por precio en cada negociación concreta, con la estructura de costos de la primera y los ingresos de la segunda.
+Elige una estrategia y escribe lo que aceptas dejar de hacer. Si es costo, define qué procesos y volumen te permiten el precio más bajo. Si es diferenciación, define qué característica valoran tus clientes y cómo la comprobarán. Si es enfoque, nombra el nicho. Verifica que tus decisiones de precio, producto y organización no se contradigan entre sí.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Costo, diferenciación y enfoque exigen estructuras de organización incompatibl
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una cadena de ferreterías quiere competir al mismo tiempo en precio bajo, atención personalizada y gran surtido. Sus costos de personal suben, sus precios no bajan y los clientes no perciben nada especial. Reconoce que está en el medio y decide diferenciarse en asesoría técnica para constructores pequeños, con precios competitivos pero sin pelear el más bajo del mercado. Su estructura cambia: menos tiendas, más especialistas (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Competitive Strategy** (Free Press): Porter describe las estrategias genéricas de liderazgo en costos, diferenciación y enfoque, y advierte sobre quedarse en el medio sin una ventaja clara.
+- **Blue Ocean Strategy** (Harvard Business School Press): Kim y Mauborgne discuten cómo algunas empresas combinan diferenciación y costos bajos al redefinir los factores de competencia, un matiz a la regla del medio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para elegir una estrategia genérica y aceptar lo que implica renunciar.
+
+**Free Press — Competitive Strategy**  
+<https://openlibrary.org/isbn/9780029253601> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el análisis de las cinco fuerzas y las estrategias genéricas para estudiar una industria.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Competitive Strategy» para elegir una estrategia genérica y aceptar lo que implica renunciar.
+
+**Harvard Business School Press — Blue Ocean Strategy**  
+<https://openlibrary.org/isbn/9781591396192> · verificado 2026-11-25
+
+- *Qué contiene:* Propone crear espacios de mercado sin competencia redefiniendo el valor ofrecido y la estructura de costos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Blue Ocean Strategy» para elegir una estrategia genérica y aceptar lo que implica renunciar.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

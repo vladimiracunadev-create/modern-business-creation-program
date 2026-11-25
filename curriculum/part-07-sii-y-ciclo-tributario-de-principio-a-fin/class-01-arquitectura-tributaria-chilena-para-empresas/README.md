@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Integración** | Mecanismo por el que el impuesto de la empresa se imputa al de los dueños. |
 | **IVA** | Impuesto al valor agregado sobre ventas y servicios gravados. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los tres niveles donde se pagan impuestos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Impuesto de primera<br/>categoría"]
-    C --> A2["Impuestos finales"]
-    C --> A3["Integración"]
-    C --> A4["IVA"]
-    A1 & A2 & A3 & A4 --> D{{"comprender la estructura antes<br/>de elegir régimen y política<br/>de retiros"}}
-    D --> E["Entregable<br/>esquema de la carga tributaria<br/>total del caso, a nivel<br/>empresa y a nivel socio"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La arquitectura tributaria chilena grava la renta en la empresa y otra vez en el dueño cuando retira, con un mecanismo de integración que evita la doble tributación total.
+
+![Esquema: Los tres niveles donde se pagan impuestos](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa es un impuesto distinto con quien lo paga y cuándo. Entenderlas separadas evita confundir el dinero de la empresa con el del dueño y el del fisco.
+
+**Piénsalo así:** Es un viaje con tres peajes: el primero se paga en la carretera de la empresa, el segundo al salir hacia el bolsillo del dueño y el tercero está incluido en el precio de cada compra.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La arquitectura tributaria chilena grava la renta a nivel de empresa y nuevament
 
 ### 2. Cómo se traduce en la práctica
 
-Analizar solo el impuesto de la empresa lleva sistemáticamente a la elección equivocada. El régimen con menor tasa a nivel empresa puede producir mayor carga total si los socios están en tramos altos y retiran habitualmente. La comparación correcta suma ambos niveles sobre el mismo escenario.
+Dibuja una hoja con los tres niveles y completa con cifras de tu empresa: ventas con IVA, utilidad antes de impuestos y retiros planeados. Pregunta a tu contador cómo se reconocen entre sí el impuesto de la empresa y el de los dueños en el régimen que usas. Antes de elegir régimen o política de retiros, entiende esta estructura: es la base de las decisiones posteriores.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Analizar solo el impuesto de la empresa lleva sistemáticamente a la elección e
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Dueño: «La empresa ganó 100 y ya pagó impuesto; si retiro todo, ¿pago de nuevo?». Contador: «Pagas impuestos finales por lo que retiras, pero el impuesto que pagó la empresa se reconoce como crédito en el régimen que corresponda». Dueño: «Entonces si reinvierto, no retiro y no pago finales». Contador: «Exacto: por eso la política de retiros y el régimen deben decidirse juntos» (conversación ilustrativa, sin tasas).
+
+### 5. En qué se apoya
+
+- **Regímenes tributarios · Operación Renta 2026** (Servicio de Impuestos Internos): El SII publica los regímenes tributarios y su operación en la Operación Renta, base para entender cómo se grava la renta de la empresa y de sus dueños.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El DL 824 sobre Impuesto a la Renta y el DL 825 sobre IVA, disponibles en la Biblioteca del Congreso Nacional, fijan la estructura de estos impuestos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

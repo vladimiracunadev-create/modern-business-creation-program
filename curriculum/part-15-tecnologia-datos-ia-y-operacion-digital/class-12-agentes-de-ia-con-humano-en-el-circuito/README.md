@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Trazabilidad** | Registro de qué hizo el agente, con qué datos y con qué resultado. |
 | **Alcance de acción** | Conjunto de operaciones que el agente puede ejecutar. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto puede hacer un agente de IA por sí solo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Agente"]
-    C --> A2["Humano en el circuito"]
-    C --> A3["Trazabilidad"]
-    C --> A4["Alcance de acción"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué puede ejecutar un<br/>agente, qué requiere<br/>aprobación humana y quién<br/>conserva la responsabilidad"}}
-    D --> E["Entregable<br/>diseño de agente con alcance<br/>de acción, credenciales,<br/>puntos de aprobación,<br/>responsable final y registro<br/>de trazas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un agente que actúa sobre sistemas reales debe tener alcance limitado, credenciales propias con el menor privilegio y aprobación humana para acciones irreversibles, como pagos, envíos, publicaciones y borrados.
+
+![Esquema: Cuánto puede hacer un agente de IA por sí solo](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño es un nivel de autonomía. Sube uno solo cuando el anterior esté probado, y mantén siempre a una persona responsable del resultado.
+
+**Una analogía:** Es la autonomía de un practicante: al principio propone, luego prepara y recién cuando demuestra criterio se le permite firmar algo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un agente que actúa sobre sistemas reales debe tener alcance limitado, credenci
 
 ### 2. Cómo se traduce en la práctica
 
-Un agente con credenciales amplias por comodidad es un riesgo operativo que no se percibe hasta el primer error a escala. La trazabilidad —qué hizo, con qué datos, con qué resultado— es lo que permite auditar y corregir; sin ella, un comportamiento inesperado es imposible de reconstruir.
+Define el alcance del agente, sus credenciales (propias y con el menor privilegio), las acciones que requieren aprobación y el registro de lo que hace. Prueba en un entorno controlado y amplía el alcance gradualmente. Una empresa no puede trasladar su responsabilidad a un agente o a un proveedor: lo que el agente publica o ejecuta es de la empresa.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un agente con credenciales amplias por comodidad es un riesgo operativo que no s
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Define un agente que gestione correos de reclamos. Escribe qué puede hacer en cada nivel: sugerir una respuesta, dejar el borrador, enviar respuestas estándar a reclamos simples y reembolsar. Decide en qué nivel parte, qué le impedirías (por ejemplo, devoluciones de más de cierto monto) y qué registro guardarás de cada acción. Asigna a una persona como responsable. Los límites del ejercicio son ilustrativos.
+
+### 5. En qué se apoya
+
+- **MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455** (U.S. Food and Drug Administration): La carta de advertencia de la FDA a MEDVi muestra que la responsabilidad regulatoria permanece en la empresa aunque terceros o automatizaciones ejecuten parte de su operación.
+- **A $1.8 Billion Company With Two Employees? AI Made It Possible** (The New York Times · republicado por GV Wire): El perfil periodístico de MEDVi describe una operación pequeña apoyada en IA y proveedores externos; sus cifras son atribuidas y se leen como relato.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Método de valorización** | Criterio de costeo del inventario, por ejemplo fifo o promedio ponderado. |
 | **Diferencia de inventario** | Brecha entre el registro contable y el conteo físico. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El inventario justo: ni se acaba ni se acumula
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Existencias"]
-    C --> A2["Costo de ventas"]
-    C --> A3["Método de valorización"]
-    C --> A4["Diferencia de inventario"]
-    A1 & A2 & A3 & A4 --> D{{"definir método de valorización<br/>y frecuencia de conteo físico"}}
-    D --> E["Entregable<br/>política de inventario con<br/>método de valorización,<br/>frecuencia de conteo y<br/>tratamiento de diferencias"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El costo de ventas depende del método de valorización y define el margen bruto; la diferencia de inventario es un indicador operativo y de control interno.
+
+![Esquema: El inventario justo: ni se acaba ni se acumula](modelo-mental.svg)
+
+**Lectura guiada:** A la izquierda, con poco inventario, hay quiebres y ventas perdidas; a la derecha, mucho capital inmovilizado, merma y obsolescencia. El mínimo de la curva es el inventario objetivo.
+
+**Para recordarlo:** Es la despensa de una casa: si no hay nada, no puedes cocinar; si hay demasiado, se vence y ocupa espacio y plata.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El costo de ventas depende del método de valorización y define el margen bruto
 
 ### 2. Cómo se traduce en la práctica
 
-La diferencia de inventario es además un indicador de control interno: mermas, robos y errores de recepción o despacho aparecen ahí antes que en cualquier otro reporte. Cambiar de método de valorización para mejorar el resultado del período es una señal de alerta que un auditor detecta de inmediato.
+Define el método de valorización (por ejemplo, promedio ponderado) y aplícalo siempre igual. Realiza conteos físicos periódicos y analiza las diferencias: errores de recepción, mermas o robos. Calcula la rotación por producto y define un inventario objetivo y un punto de reorden con la demanda real. Un buen control mejora el margen y libera caja.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La diferencia de inventario es además un indicador de control interno: mermas, 
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda de repuestos mantiene 60 millones en inventario y rota cada 120 días; sus quiebres de stock hacen perder ventas por 4 millones al año. Calcula que un inventario de 40 millones con reposición semanal elimina los quiebres y libera 20 millones de caja. En un conteo detecta una diferencia de 3 %, equivalente a 1,2 millones, señal de errores de recepción y mermas que debe investigar (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Goal** (North River Press): Goldratt presenta cómo el inventario acumulado oculta problemas del sistema e inmoviliza dinero sin generar ventas.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa los requisitos de registro y valorización de existencias a efectos tributarios, que condicionan el método elegido.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir método de valorización y frecuencia de conteo físico.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para definir método de valorización y frecuencia de conteo físico.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

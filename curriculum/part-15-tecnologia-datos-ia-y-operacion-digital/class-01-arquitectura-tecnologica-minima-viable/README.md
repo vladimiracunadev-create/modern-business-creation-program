@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Integración** | Conexión que evita reingreso manual de datos. |
 | **Costo total** | Licencias, implementación, soporte y salida. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los sistemas mínimos de una pyme y su fuente de verdad
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Arquitectura mínima viable"]
-    C --> A2["Sistema de registro"]
-    C --> A3["Integración"]
-    C --> A4["Costo total"]
-    A1 & A2 & A3 & A4 --> D{{"definir el conjunto mínimo de<br/>sistemas y cuál es fuente de<br/>verdad para cada dato"}}
-    D --> E["Entregable<br/>mapa de arquitectura con<br/>sistemas, fuente de verdad por<br/>dato e integraciones<br/>necesarias"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La arquitectura mínima viable de una pyme suele reunir facturación electrónica, contabilidad, CRM, almacenamiento y comunicación, integrados entre sí y con una fuente de verdad definida para cada dato.
+
+![Esquema: Los sistemas mínimos de una pyme y su fuente de verdad](modelo-mental.svg)
+
+**Lectura guiada:** El centro es el dato y los satélites son los sistemas que lo tocan. Para cada dato debe haber un solo sistema de registro; los demás lo consultan o lo reciben, pero no lo reescriben.
+
+**Piénsalo así:** Es una cocina con cinco electrodomésticos básicos: con eso cocinas casi todo, y cada aparato adicional pide espacio, mantención y alguien que lo sepa usar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La arquitectura mínima viable de una pyme chilena suele ser facturación electr
 
 ### 2. Cómo se traduce en la práctica
 
-La arquitectura mínima de una pyme chilena suele ser facturación electrónica, contabilidad, CRM, almacenamiento y comunicación, integrados entre sí. Cada sistema adicional agrega costo de integración y de gobierno; la pregunta correcta no es qué software es mejor sino cuál es el mínimo que sostiene la operación.
+Lista los datos críticos de tu empresa (clientes, productos, facturas, empleados) y define en qué sistema vive cada uno. Integra los sistemas para que no se copie información a mano. Estima el costo total de cada sistema: licencia, integración, capacitación y mantención. Antes de agregar uno nuevo, comprueba que no duplica una función que ya tienes.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La arquitectura mínima de una pyme chilena suele ser facturación electrónica,
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de servicios tenía clientes en tres planillas, en el CRM y en el sistema de facturación, con datos distintos. Al definir que el CRM es la fuente de verdad de los clientes y que la facturación se alimenta de él, redujo los errores de facturación a cero en tres meses y eliminó una herramienta que pagaba sin usar. Cada sistema nuevo se evaluaba preguntando qué dato aportaría y de dónde lo tomaría (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Tributario y las leyes de facturación electrónica, consultables en la Biblioteca del Congreso Nacional, exigen sistemas que respalden los documentos y registros de la empresa.
+- **Innovación, inversión y garantías** (Corporación de Fomento de la Producción): CORFO publica programas de apoyo a la adopción tecnológica que pueden financiar parte de la arquitectura mínima de una pyme.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

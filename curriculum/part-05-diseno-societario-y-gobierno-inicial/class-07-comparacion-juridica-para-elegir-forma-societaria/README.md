@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Tributación del vehículo** | Régimen aplicable según tipo y estructura de propietarios. |
 | **Compatibilidad con inversionistas** | Facilidad para incorporar capital externo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuatro preguntas para elegir la forma societaria
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Criterio de elección"]
-    C --> A2["Costo de cambio"]
-    C --> A3["Tributación del vehículo"]
-    C --> A4["Compatibilidad con<br/>inversionistas"]
-    A1 & A2 & A3 & A4 --> D{{"elegir la forma societaria con<br/>criterio explícito y<br/>documentado"}}
-    D --> E["Entregable<br/>matriz de decisión societaria<br/>con los cuatro criterios<br/>ponderados y la elección<br/>justificada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La elección societaria se resuelve con cuatro preguntas explícitas: cuántos dueños, si entrará capital externo, cuánta exposición patrimonial se acepta y qué régimen tributario conviene a los socios.
+
+![Esquema: Cuatro preguntas para elegir la forma societaria](modelo-mental.svg)
+
+**Cómo leerlo:** Recorre las preguntas en orden y deja constancia de cada respuesta. La decisión final es consecuencia de las cuatro, no de una moda ni de la costumbre.
+
+**Una imagen cotidiana:** Es armar un viaje: primero decides cuántos van, cuánto pueden gastar y qué riesgo aceptan, y recién después eliges el medio de transporte.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La elección se resuelve con cuatro preguntas: cuántos dueños habrá, si entra
 
 ### 2. Cómo se traduce en la práctica
 
-Las cuatro preguntas son cuántos dueños habrá, si entrará capital externo, qué exposición patrimonial se acepta y qué tramo tributario tienen los socios. La cuarta es la que más se omite y la que más impacto tiene: la estructura de propietarios determina qué regímenes de la parte 07 quedan disponibles.
+Escribe las cuatro respuestas con fecha y los supuestos en que se apoyan. Compara las formas societarias por la facilidad de ingreso de socios, la responsabilidad, la tributación y el costo de cambio. Cuando cambie alguna respuesta, revisa si la forma sigue siendo adecuada. Consulta con un abogado y con un contador antes de constituir.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Las cuatro preguntas son cuántos dueños habrá, si entrará capital externo, q
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Contadora: «¿Cuántos serán los dueños?». Fundador: «Mi socia y yo, y quizás un inversionista el próximo año». Contadora: «Entonces una SpA. ¿Cuánto riesgo patrimonial aceptan?». Fundador: «Ninguno: no quiero arriesgar mi casa». Contadora: «Perfecto. Y en impuestos, el régimen Pro Pyme puede convenirles si reinvierten utilidades». Fundador: «Dejémoslo anotado con fecha, para saber por qué elegimos así» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades recoge los modelos de constitución de las sociedades más usadas, útil para comparar requisitos.
+- **Regímenes tributarios · Operación Renta 2026** (Servicio de Impuestos Internos): El SII publica los regímenes tributarios aplicables a cada tipo de contribuyente, que condicionan qué forma societaria conviene a los socios.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

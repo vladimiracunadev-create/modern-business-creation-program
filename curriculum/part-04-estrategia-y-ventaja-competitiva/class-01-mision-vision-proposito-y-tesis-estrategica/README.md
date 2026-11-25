@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Propósito** | Razón por la que la empresa merece existir más allá del lucro. |
 | **Tesis estratégica** | Apuesta explícita sobre cómo cambiará el mercado y por qué esta empresa gana. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De la aspiración a una apuesta que se puede refutar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Misión"]
-    C --> A2["Visión"]
-    C --> A3["Propósito"]
-    C --> A4["Tesis estratégica"]
-    A1 & A2 & A3 & A4 --> D{{"declarar la apuesta sobre el<br/>futuro del mercado que<br/>justifica la estrategia"}}
-    D --> E["Entregable<br/>documento de tesis estratégica<br/>con supuestos de mercado y<br/>señales de validación o<br/>refutación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La tesis estratégica es la pieza útil y la que casi siempre falta: un enunciado falsable sobre cómo evolucionará el mercado y por qué esta empresa está mejor situada.
+
+![Esquema: De la aspiración a una apuesta que se puede refutar](modelo-mental.svg)
+
+**Qué mirar primero:** Los tres primeros peldaños inspiran; el último decide. Si tu tesis no puede resultar falsa en un plazo, aún es una visión y no una apuesta.
+
+**Una imagen cotidiana:** Es la diferencia entre decir «quiero ser un gran navegante» y declarar «en cinco años los puertos del sur necesitarán mantención de botes y yo seré el único taller».
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La tesis estratégica es la pieza útil y la que casi siempre falta: un enunciad
 
 ### 2. Cómo se traduce en la práctica
 
-A diferencia de la visión, la tesis se contrasta con hechos y se actualiza. Para una empresa chilena en 2026 debe incorporar cambios con fecha cierta: la vigencia de la Ley 21.719 el 1 de diciembre, la jornada de 42 horas desde abril y el catálogo ampliado de la Ley 21.595. Son alteraciones del entorno ya calendarizadas.
+Escribe tu tesis en una frase con tres partes: cómo cambiará el mercado, por qué ahora y por qué tu empresa está mejor situada. Agrega una fecha y una señal observable que la confirmaría o la refutaría. Contrasta la tesis con evidencia externa y con alguien que la contradiga. Después, deriva de ella una o dos prioridades; lo que no se desprenda de la tesis queda fuera por ahora.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ A diferencia de la visión, la tesis se contrasta con hechos y se actualiza. Par
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Socia: «Nuestra visión es ser líder en logística sostenible». Fundador: «Es linda, pero ¿qué apostamos?». Socia: «Que en tres años las empresas del retail deberán medir su huella de despacho y pocos operadores podrán entregar el dato». Fundador: «Eso sí se puede refutar: si en 2028 nadie lo exige, nos equivocamos». Con esa tesis, deciden invertir primero en medición de huella y no en una flota nueva (diálogo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Zero to One** (Virgin Books): Thiel invita a formular una convicción propia y poco compartida sobre el futuro y a construir la empresa alrededor de esa apuesta.
+- **Good Strategy Bad Strategy** (Crown Business): Rumelt sostiene que una estrategia buena parte de un diagnóstico y no de una lista de aspiraciones, que es la distinción entre visión y tesis.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para declarar la apuesta sobre el futuro del mercado que justifica la estrategia.
+
+**Virgin Books — Zero to One**  
+<https://openlibrary.org/isbn/9780753555187> · verificado 2026-11-25
+
+- *Qué contiene:* Reflexiona sobre construir empresas que crean algo nuevo y sobre el valor de una ventaja diferenciada.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Zero to One» para declarar la apuesta sobre el futuro del mercado que justifica la estrategia.
+
+**Crown Business — Good Strategy Bad Strategy**  
+<https://openlibrary.org/isbn/9780307886231> · verificado 2026-11-25
+
+- *Qué contiene:* Distingue una buena estrategia por su diagnóstico, política rectora y acciones coherentes. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Good Strategy Bad Strategy» para declarar la apuesta sobre el futuro del mercado que justifica la estrategia.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

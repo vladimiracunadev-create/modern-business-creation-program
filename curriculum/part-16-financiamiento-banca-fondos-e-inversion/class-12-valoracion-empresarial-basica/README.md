@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Flujo descontado** | Valoración por proyección de flujos futuros. |
 | **Descuento por tamaño y dependencia** | Ajuste por riesgo de empresa pequeña o dependiente del fundador. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué sube y qué baja el valor de una empresa pequeña
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Valoración"]
-    C --> A2["Múltiplo"]
-    C --> A3["Flujo descontado"]
-    C --> A4["Descuento por tamaño y<br/>dependencia"]
-    A1 & A2 & A3 & A4 --> D{{"estimar el valor de la empresa<br/>e identificar qué lo deprime"}}
-    D --> E["Entregable<br/>valoración con método<br/>declarado y análisis de los<br/>factores que aplican descuento"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En empresas pequeñas la valoración por múltiplos es la referencia práctica, con descuentos importantes por dependencia del fundador, concentración de clientes y falta de información auditada.
+
+![Esquema: Qué sube y qué baja el valor de una empresa pequeña](modelo-mental.svg)
+
+**Cómo leerlo:** Cada plato reúne factores que mueven el múltiplo. Los de la izquierda son ajustes a la baja, y por lo general son los más fáciles de corregir si empiezas con tiempo.
+
+**Para recordarlo:** Es vender una casa: el barrio fija un precio de referencia, pero el estado de la cocina, los papeles al día y las filtraciones lo suben o lo bajan.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En empresas pequeñas la valoración por múltiplos es la referencia práctica, 
 
 ### 2. Cómo se traduce en la práctica
 
-En empresas pequeñas la valoración por múltiplos es la referencia práctica, con descuentos importantes por dependencia del fundador, concentración de clientes y falta de información auditada. Reducir esos tres aumenta el valor más que cualquier mejora marginal de EBITDA.
+Calcula un rango de valor con múltiplos del sector y ajusta por dependencia del fundador, concentración de clientes, recurrencia, crecimiento y calidad de la información. Compara con flujo descontado como contraste. Trabaja con anticipación en los factores que deprimen el valor: documenta procesos, diversifica clientes y ordena la información financiera.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En empresas pequeñas la valoración por múltiplos es la referencia práctica, 
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide cómo preparar tu empresa con tres preguntas. Uno: ¿qué parte de las ventas depende de mí? Si es mucha, formaliza relaciones con el equipo. Dos: ¿qué porcentaje de los ingresos viene de tu mayor cliente? Si es alto, diversifica. Tres: ¿tu información es completa y verificable? Una empresa con 40 % de ventas en un cliente y sin estados auditados recibe una oferta con un descuento importante (ejemplo ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Little Book of Valuation** (Wiley): Damodaran presenta la valoración por flujos descontados y por múltiplos y explica cómo se ajustan por riesgo y características de la empresa.
+- **Built to Sell** (Portfolio): Warrillow explica qué hace valiosa a una empresa de servicios para un comprador: ingresos recurrentes y una operación que no depende del dueño.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Describe los programas de aceleración, sus cohortes, el aporte que entregan y las contrapartidas exigidas en permanencia, reporte y actividades.
 - *Cómo leerla:* Evalúa el programa por la red y la validación que aporta, no por el monto. La contrapartida de permanencia tiene costo operativo real y debe compararse contra lo que la empresa necesita en su etapa.
 - *Uso en esta clase:* aporta el marco de «Aceleración de startups» para estimar el valor de la empresa e identificar qué lo deprime.
+
+**Wiley — The Little Book of Valuation**  
+<https://openlibrary.org/isbn/9781118004777> · verificado 2026-11-25
+
+- *Qué contiene:* Introduce la valoración de empresas por flujo descontado y por múltiplos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Little Book of Valuation» para estimar el valor de la empresa e identificar qué lo deprime.
+
+**Portfolio — Built to Sell**  
+<https://openlibrary.org/isbn/9781591845829> · verificado 2026-11-25
+
+- *Qué contiene:* Propone hacer que una empresa de servicios sea vendible por su sistema y no por su dueño.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Built to Sell» para estimar el valor de la empresa e identificar qué lo deprime.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

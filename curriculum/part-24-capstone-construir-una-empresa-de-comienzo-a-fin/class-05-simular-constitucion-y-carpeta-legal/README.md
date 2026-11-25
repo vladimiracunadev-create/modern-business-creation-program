@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Objeto social** | Actividades declaradas, alineadas con el plan. |
 | **Acreditación de domicilio** | Documento que habilita el domicilio declarado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Simular la constitución completa del caso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Carpeta legal"]
-    C --> A2["Simulación de constitución"]
-    C --> A3["Objeto social"]
-    C --> A4["Acreditación de domicilio"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar la simulación de<br/>constitución y armar la<br/>carpeta legal del caso"}}
-    D --> E["Entregable<br/>carpeta legal simulada con<br/>formulario completo, objeto,<br/>capital, poderes y<br/>acreditación de domicilio"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Aquí se simula la constitución completa, con formulario, objeto, capital, administración, domicilio y firmas; el valor del ejercicio está en descubrir las decisiones que hay que tomar antes de constituir.
+
+![Esquema: Simular la constitución completa del caso](modelo-mental.svg)
+
+**Cómo leerlo:** Cada casilla es una decisión que el formulario exige. Si no puedes llenar un campo, descubriste una decisión pendiente. Mejor hallarla en la simulación que con la sociedad ya constituida.
+
+**Una imagen cotidiana:** Es un ensayo general: los errores del ensayo no cuestan; los del estreno, sí.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Aquí se simula la constitución completa: formulario, objeto, capital, administ
 
 ### 2. Cómo se traduce en la práctica
 
-El valor del ejercicio está justamente ahí: razón social verificada, objeto suficientemente amplio, capital que se va a enterar, poderes con límites y domicilio acreditable. Improvisar cualquiera de esas en la pantalla del Registro produce una sociedad que habrá que modificar meses después.
+Simula el trámite como si fuera real: elige el tipo, un nombre verificado y un objeto amplio pero claro, el capital y la forma de entero, la administración, el domicilio y los mecanismos de firma de cada constituyente. Arma la carpeta legal con los documentos simulados y un registro de las decisiones y las preguntas pendientes. Verifica el nombre ante INAPI.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El valor del ejercicio está justamente ahí: razón social verificada, objeto s
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Estudiante: «Al llenar el formulario me di cuenta de que no sé qué domicilio usaré». Docente: «Ese es el valor del ejercicio. ¿Qué documento lo acredita?». Estudiante: «Un contrato de arriendo que aún no firmo». Docente: «Entonces anota en tu carpeta que la constitución depende de eso y fija una fecha. Y revisa si tu objeto social cubre las líneas que sumarás el próximo año» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades describe el flujo y los campos de constitución en línea que se simulan en este ejercicio.
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI permite verificar la disponibilidad de un nombre comercial y buscar anterioridades de marca antes de definirlo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

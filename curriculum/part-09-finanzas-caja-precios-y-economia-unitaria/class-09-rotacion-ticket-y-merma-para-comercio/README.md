@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Merma** | Pérdida de inventario por daño, vencimiento o hurto. |
 | **Margen por metro cuadrado** | Contribución en relación al espacio ocupado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué productos conviene priorizar en una tienda
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Rotación"]
-    C --> A2["Ticket promedio"]
-    C --> A3["Merma"]
-    C --> A4["Margen por metro cuadrado"]
-    A1 & A2 & A3 & A4 --> D{{"decidir la mezcla de productos<br/>según rotación y contribución,<br/>no solo margen"}}
-    D --> E["Entregable<br/>análisis de categorías con<br/>rotación, ticket, merma y<br/>contribución por metro<br/>cuadrado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En comercio el resultado se explica por rotación, ticket y merma más que por el margen del producto: uno de alto margen y baja rotación puede aportar menos que uno de margen bajo que gira muchas veces.
+
+![Esquema: Qué productos conviene priorizar en una tienda](modelo-mental.svg)
+
+**Qué mirar primero:** Ubica cada producto según su rotación y su margen. La contribución depende de ambos, y del espacio y capital que ocupa. Decide la mezcla por contribución, no solo por margen.
+
+**Piénsalo así:** Es un puesto de feria: lo que sirve no es solo el producto caro, sino el que se vende rápido y deja espacio para el siguiente.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En comercio el resultado se explica por rotación, ticket y merma más que por e
 
 ### 2. Cómo se traduce en la práctica
 
-Un producto de alto margen que gira dos veces al año aporta menos que uno de margen bajo que gira ocho. La merma, por su parte, consume silenciosamente el margen de toda la categoría cuando no se mide por separado y se atribuye genéricamente a error de registro.
+Calcula por producto la rotación, el ticket promedio, la merma y la contribución por metro cuadrado. Clasifícalos en la matriz y fija una regla de mezcla. Revisa cada mes la merma, que revela errores de recepción, vencimientos y robos. Para un punto físico, considera arriendo, patente, personal y rotación por metro cuadrado.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un producto de alto margen que gira dos veces al año aporta menos que uno de ma
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una ferretería tiene un taladro de alto margen que vende dos unidades al mes y ocupa mucho espacio, y clavos y tornillos de margen bajo que giran cada semana. Al calcular la contribución por metro cuadrado, los tornillos aportan tres veces más. Decide reducir el inventario de taladros, ampliar el espacio de los productos de alta rotación y revisar la merma en los de venta rápida (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Goal** (North River Press): Goldratt muestra cómo el inventario que no rota inmoviliza capital y oculta problemas del sistema, un argumento para priorizar la rotación.
+- **Simple Numbers, Straight Talk, Big Profits!** (Greg Crabtree): Crabtree propone indicadores simples de rentabilidad que ayudan a decidir la mezcla de productos y el uso del espacio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para decidir la mezcla de productos según rotación y contribución, no solo margen.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para decidir la mezcla de productos según rotación y contribución, no solo margen.
+
+**Greg Crabtree — Simple Numbers, Straight Talk, Big Profits!**  
+<https://openlibrary.org/isbn/9780989645232> · verificado 2026-11-25
+
+- *Qué contiene:* Propone indicadores simples para pequeñas empresas, como el costo laboral sobre el margen bruto. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Simple Numbers, Straight Talk, Big Profits!» para decidir la mezcla de productos según rotación y contribución, no solo margen.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Retainer de soporte** | Ingreso recurrente por mantención de los flujos. |
 | **Dependencia de plataforma** | Riesgo de que la herramienta base cambie sus reglas. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Proyecto único o retainer de soporte
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Agencia de automatización"]
-    C --> A2["Responsabilidad por la<br/>automatización"]
-    C --> A3["Retainer de soporte"]
-    C --> A4["Dependencia de plataforma"]
-    A1 & A2 & A3 & A4 --> D{{"definir el alcance de<br/>responsabilidad y el modelo de<br/>ingreso recurrente"}}
-    D --> E["Entregable<br/>modelo de agencia con<br/>estructura proyecto más<br/>retainer, límite de<br/>responsabilidad y plan de<br/>dependencia de plataforma"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El modelo de agencia de automatización tiene entrada rápida y barrera baja, por lo que la defensa está en el retainer de soporte y en el conocimiento del negocio del cliente, además de acotar la responsabilidad.
+
+![Esquema: Proyecto único o retainer de soporte](modelo-mental.svg)
+
+**Qué mirar primero:** Compara los dos platos. El proyecto da caja inmediata, pero la relación termina; el retainer da estabilidad y profundidad. Lo difícil es pasar de uno a otro sin que cambie el alcance.
+
+**Para recordarlo:** Es la diferencia entre construir una casa y administrarla: lo primero se cobra una vez; lo segundo se cuida y se paga todos los meses.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El modelo de agencia de automatización tiene entrada rápida y barrera baja, po
 
 ### 2. Cómo se traduce en la práctica
 
-La defensa está en el retainer de soporte y en el conocimiento del negocio del cliente, no en la técnica. El riesgo mayor es la responsabilidad: un flujo que factura mal o envía mal puede generar un perjuicio que supera varias veces el valor del proyecto que lo originó.
+Ofrece desde el comienzo un servicio de soporte con alcance definido: qué cubre, tiempos de respuesta y exclusiones. Pacta la responsabilidad por la automatización: límites, supuestos del cliente y manejo de datos. Evita depender de una sola plataforma sin plan de salida. Documenta lo que construyes para que el cliente no quede atrapado y confíe en ti.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La defensa está en el retainer de soporte y en el conocimiento del negocio del 
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una agencia automatiza los envíos de cotizaciones de una empresa de servicios y cobra un proyecto de 4 millones. Al terminar, el cliente solo vuelve cuando algo falla. Con un retainer mensual de 600.000 pesos por monitoreo, ajustes y una hora de mejoras, la agencia detecta una caída del sistema antes que el cliente y descubre dos nuevos procesos para automatizar. El ingreso recurrente cubre el 40 % de sus costos fijos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Built to Sell** (Portfolio): Warrillow explica el valor de convertir un servicio en un ingreso recurrente, que hace a la empresa más estable y más fácil de vender.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil y el Código de Comercio, consultables en la BCN, regulan la responsabilidad contractual que debe acotarse en el contrato de servicios.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el alcance de responsabilidad y el modelo de ingreso recurrente.
+
+**Portfolio — Built to Sell**  
+<https://openlibrary.org/isbn/9781591845829> · verificado 2026-11-25
+
+- *Qué contiene:* Propone hacer que una empresa de servicios sea vendible por su sistema y no por su dueño.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Built to Sell» para definir el alcance de responsabilidad y el modelo de ingreso recurrente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Trazabilidad a fuente** | Capacidad de respaldar cada afirmación regulatoria. |
 | **Límite reconocido** | Supuesto que el caso declara como no verificado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las preguntas con que un comité pondrá a prueba tu caso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Defensa"]
-    C --> A2["Coherencia integral"]
-    C --> A3["Trazabilidad a fuente"]
-    C --> A4["Límite reconocido"]
-    A1 & A2 & A3 & A4 --> D{{"sostener el caso completo ante<br/>preguntas adversariales"}}
-    D --> E["Entregable<br/>Expediente de viabilidad<br/>completo, anexos coherentes y<br/>presentación de defensa con<br/>trazabilidad de fuentes"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La defensa final usa el expediente de viabilidad como índice de la carpeta completa: debe responder con evidencia si existe mercado, cliente y problema real, si el modelo genera ingreso y si se cumple la ley, y reconocer los límites.
+
+![Esquema: Las preguntas con que un comité pondrá a prueba tu caso](modelo-mental.svg)
+
+**Cómo leerlo:** Cada satélite es una pregunta que un comité hará. Responder con una fuente, una fecha y un número es más convincente que una opinión. Reconocer un límite también es una forma de rigor.
+
+**Una analogía:** Es la defensa de una tesis: no se trata de no tener dudas, sino de saber cuáles son y de mostrar cómo las enfrentarías.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La defensa final usa el Expediente de viabilidad como índice de la carpeta comp
 
 ### 2. Cómo se traduce en la práctica
 
-El comité comienza por nueve respuestas: mercado, cliente, problema, ingresos, sostenibilidad de costos, aliados, capital, supuesto destructivo y evidencia pendiente. Después sigue cada respuesta hasta el anexo y comprueba fuente, fecha, fórmula y versión. Reconocer un límite vale más que defender una afirmación sin respaldo; ocultar una contradicción entre secciones invalida el conjunto.
+Prepara la defensa con el expediente como índice. Para cada pregunta probable, ten a mano la respuesta, la evidencia, la fuente y la fecha. Anticipa preguntas adversariales: si el mercado es real, si los números cierran, si cumple la ley, qué pasa si algo falla. Declara los supuestos y los límites, y qué harías para cerrarlos. Practica con alguien que te contradiga.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El comité comienza por nueve respuestas: mercado, cliente, problema, ingresos, 
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Comité: «Dice que hay demanda. ¿Qué evidencia tiene?». Estudiante: «Cuatro de veinte entrevistados pagaron una seña de $20.000; está en la sección de mercado con fecha y fuente». Comité: «¿Y si pierde a su mejor cliente?». Estudiante: «Mi caja resiste cinco meses; mi plan es reducir costos y diversificar». Comité: «¿Qué no pudo verificar?». Estudiante: «La tarifa de la patente en esta comuna: lo consulté con una estimación y declaré el supuesto» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades es una de las fuentes oficiales con que se respalda la estructura jurídica del caso.
+- **Thinking in Bets** (Portfolio): Duke recomienda separar lo que se sabe de lo que se supone y declarar la incertidumbre, que es la actitud de una buena defensa.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -178,6 +183,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para sostener el caso completo ante preguntas adversariales.
+
+**Portfolio — Thinking in Bets**  
+<https://openlibrary.org/isbn/9780735216358> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica la lógica de las apuestas a la decisión bajo incertidumbre: separar la calidad de la decisión del resultado.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking in Bets» para sostener el caso completo ante preguntas adversariales.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

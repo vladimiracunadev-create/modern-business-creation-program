@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Proceso candidato** | Actividad repetitiva, estable y de alto volumen. |
 | **Deuda de automatización** | Fragilidad acumulada por automatizar sin estandarizar. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El orden correcto antes de automatizar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Mejora continua"]
-    C --> A2["Automatización"]
-    C --> A3["Proceso candidato"]
-    C --> A4["Deuda de automatización"]
-    A1 & A2 & A3 & A4 --> D{{"seleccionar qué procesos se<br/>automatizan y en qué orden"}}
-    D --> E["Entregable<br/>cartera de automatización<br/>priorizada por volumen,<br/>estabilidad y ahorro estimado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Automatizar un proceso inestable multiplica los errores en vez de eliminarlos; el orden correcto es estandarizar, medir, simplificar y recién entonces automatizar.
+
+![Esquema: El orden correcto antes de automatizar](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño prepara al siguiente. Saltarse alguno hace que la automatización reproduzca el desorden a mayor velocidad.
+
+**Para recordarlo:** Es instalar una cinta transportadora en una cocina desordenada: lo único que lograrás es que los platos sucios lleguen más rápido.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Automatizar un proceso inestable multiplica los errores en vez de eliminarlos. E
 
 ### 2. Cómo se traduce en la práctica
 
-Automatizar un proceso inestable multiplica los errores en vez de eliminarlos. Y cada flujo automatizado es un activo que requiere responsable y monitoreo: sin ellos falla en silencio y el error se descubre semanas después por el reclamo de un cliente.
+Antes de automatizar, escribe el proceso, mídelo durante un mes y elimina pasos innecesarios. Evalúa el volumen, la estabilidad y el costo del error para elegir los procesos candidatos. Considera el costo de mantener la automatización: crea una deuda si nadie la actualiza. Define quién es responsable de ella y cómo se revisa.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Automatizar un proceso inestable multiplica los errores en vez de eliminarlos. Y
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa automatiza la emisión de órdenes de compra sin revisar el proceso. El sistema envía órdenes duplicadas a proveedores y en un mes acumula 40 errores. Después: estandariza cómo se pide, mide los errores actuales, elimina dos aprobaciones redundantes y entonces automatiza lo que quedó. Los errores bajan a 3 al mes y las personas liberan tiempo para revisar proveedores (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Lean Thinking** (Free Press): Womack y Jones proponen eliminar desperdicios y estabilizar el flujo antes de acelerarlo, el mismo orden que aquí se aplica a la automatización.
+- **Toyota Production System** (Productivity Press): Ohno describe la automatización con control humano y la estandarización como base del sistema de producción de Toyota.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para seleccionar qué procesos se automatizan y en qué orden.
+
+**Free Press — Lean Thinking**  
+<https://openlibrary.org/isbn/9780684810355> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta los principios lean: valor, flujo, tracción y perfección. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Thinking» para seleccionar qué procesos se automatizan y en qué orden.
+
+**Productivity Press — Toyota Production System**  
+<https://openlibrary.org/isbn/9781000056488> · verificado 2026-11-25
+
+- *Qué contiene:* Describe el sistema de producción de Toyota: eliminación de desperdicio y producción justo a tiempo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Toyota Production System» para seleccionar qué procesos se automatizan y en qué orden.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Ámbito de control** | Número de reportes directos manejable. |
 | **Rol versus persona** | Distinción entre lo que el cargo requiere y quién lo ocupa hoy. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué estructura corresponde a cada etapa
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Diseño organizacional"]
-    C --> A2["Etapa organizacional"]
-    C --> A3["Ámbito de control"]
-    C --> A4["Rol versus persona"]
-    A1 & A2 & A3 & A4 --> D{{"definir la estructura de roles<br/>que corresponde a la etapa<br/>actual"}}
-    D --> E["Entregable<br/>diseño organizacional por<br/>roles con responsabilidades,<br/>reportes y brechas de dotación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La estructura debe corresponder a la etapa: organigramas aspiracionales con cargos vacíos generan confusión de responsabilidades, y diseñar por roles y no por personas permite ver dónde hay sobrecarga.
+
+![Esquema: Qué estructura corresponde a cada etapa](modelo-mental.svg)
+
+**Qué mirar primero:** La línea muestra cómo cambia la estructura con el tamaño. Cada tramo exige más formalidad que el anterior, pero adelantarse cuesta tanto como llegar tarde.
+
+**Una analogía:** Es la ropa de un niño que crece: una talla de más estorba, una de menos aprieta; hay que cambiarla cuando corresponde.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La estructura debe corresponder a la etapa: organigramas aspiracionales con carg
 
 ### 2. Cómo se traduce en la práctica
 
-Los organigramas con cargos vacíos generan confusión de responsabilidades y expectativas que la caja no sostiene. Diseñar por roles y no por personas permite además ver dónde hay sobrecarga real y qué se contrata primero cuando haya recursos disponibles.
+Dibuja la estructura actual por roles, no por nombres, y marca dónde hay vacantes, sobrecarga o duplicidad. Define el rol de cada persona, su ámbito de control y a quién reporta. Evita crear cargos aspiracionales antes de que existan. Revisa la estructura cada seis meses y cuando cambie el tamaño o el negocio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Los organigramas con cargos vacíos generan confusión de responsabilidades y ex
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa de 18 personas adopta un organigrama de gran compañía con seis gerencias, tres de ellas vacías. Las personas no saben a quién reportan y sus tareas se superponen: un cargo de «gerente de operaciones» lo cubre el fundador, que además es gerente comercial. Al rediseñar por roles, define cuatro roles con responsables, ámbitos de control de cinco a ocho personas y un plan de contratación según gatillos (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Scaling Up** (Gazelles): Harnish propone herramientas de gestión y estructura adecuadas a cada etapa de crecimiento de una empresa.
+- **High Output Management** (Random House): Grove trata el ámbito de control y la organización de equipos para que la gestión sea efectiva a medida que crece la empresa.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: roles, sustitutos y comité de crisis dimensionado
 
@@ -187,6 +192,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir la estructura de roles que corresponde a la etapa actual.
+
+**Gazelles — Scaling Up**  
+<https://openlibrary.org/isbn/9780986019555> · verificado 2026-11-25
+
+- *Qué contiene:* Reúne herramientas de gestión para crecer: personas, estrategia, ejecución y caja. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Scaling Up» para definir la estructura de roles que corresponde a la etapa actual.
+
+**Random House — High Output Management**  
+<https://openlibrary.org/isbn/9780330289634> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica ideas de producción a la gestión directiva: indicadores, reuniones uno a uno y apalancamiento del tiempo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «High Output Management» para definir la estructura de roles que corresponde a la etapa actual.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Visación** | Autorización de un servicio previa al despacho. |
 | **Trazabilidad documental** | Seguimiento del estado de cada trámite. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las visaciones que pueden cruzarse en un despacho
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SICEX"]
-    C --> A2["Ventanilla única"]
-    C --> A3["Visación"]
-    C --> A4["Trazabilidad documental"]
-    A1 & A2 & A3 & A4 --> D{{"identificar las visaciones<br/>exigidas y su secuencia antes<br/>de despachar"}}
-    D --> E["Entregable<br/>mapa de trámites de comercio<br/>exterior con visaciones,<br/>servicios involucrados y<br/>secuencia"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** SICEX integra los trámites de distintos servicios en una plataforma única y reduce tiempos; conocer qué visaciones exige el producto y en qué orden se solicitan evita el retraso más común.
+
+![Esquema: Las visaciones que pueden cruzarse en un despacho](modelo-mental.svg)
+
+**Lectura guiada:** El centro es el despacho y los satélites son quienes intervienen. El orden importa: una visación solicitada tarde puede detener el embarque aunque el resto esté listo.
+
+**Piénsalo así:** Es el proceso de abordar un vuelo con documentos de varios países: cada control tiene su orden y un olvido te deja en tierra.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ SICEX integra los trámites de distintos servicios en una plataforma única, red
 
 ### 2. Cómo se traduce en la práctica
 
-Mercancía detenida en puerto esperando una visación que debió gestionarse antes es el costo típico de no haber hecho esta consulta. Conocer la secuencia permite además paralelizar trámites que no dependen entre sí, reduciendo el tiempo total del despacho.
+Para cada producto, lista las visaciones y certificados necesarios, la autoridad que los emite, el plazo y el costo. Planifica su solicitud con holgura respecto de la fecha de embarque. Conserva la trazabilidad de cada documento en la plataforma. Trabaja con un agente de aduana con experiencia en tu producto y destino.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Mercancía detenida en puerto esperando una visación que debió gestionarse ant
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de alimentos prepara el embarque y solo al llegar al puerto descubre que necesita un certificado sanitario que tarda cinco días; el buque parte sin ella y el cliente exige una compensación. Después: construye un calendario de visaciones por producto, identifica con anticipación cuáles necesita, y las solicita en la plataforma única con el agente de aduana. Los embarques salen en fecha (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ventanilla única de comercio exterior** (Sistema Integrado de Comercio Exterior): SICEX es la ventanilla única de comercio exterior que integra los trámites de distintos servicios del Estado para importar y exportar.
+- **Importación, exportación y clasificación arancelaria** (Servicio Nacional de Aduanas): El Servicio Nacional de Aduanas informa los procedimientos de despacho y los documentos exigidos en cada tipo de operación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

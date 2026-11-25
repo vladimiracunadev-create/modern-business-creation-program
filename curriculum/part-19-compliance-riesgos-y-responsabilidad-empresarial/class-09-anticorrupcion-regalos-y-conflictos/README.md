@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Facilitación** | Pago para agilizar un trámite, prohibido en la mayoría de los marcos. |
 | **Registro de conflictos** | Declaración periódica de intereses del personal. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuándo un regalo o una atención es un problema
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Anticorrupción"]
-    C --> A2["Regalo y hospitalidad"]
-    C --> A3["Facilitación"]
-    C --> A4["Registro de conflictos"]
-    A1 & A2 & A3 & A4 --> D{{"definir la política de<br/>regalos, hospitalidad y<br/>declaración de conflictos"}}
-    D --> E["Entregable<br/>política anticorrupción con<br/>umbrales, registro de regalos<br/>y declaración anual de<br/>conflictos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La política de regalos y hospitalidad debe fijar umbrales, exigir registro y prohibir cualquier atención vinculada a una decisión en curso; en relaciones con el Estado, el estándar debe ser más estricto.
+
+![Esquema: Cuándo un regalo o una atención es un problema](modelo-mental.svg)
+
+**Cómo leerlo:** Cada banda es una regla de decisión. El factor decisivo no es solo el valor, sino si hay una decisión pendiente y quién recibe: lo que parece cortesía puede ser un incentivo indebido.
+
+**Piénsalo así:** Es la diferencia entre invitar a un amigo a un café y entregar un sobre a quien debe aprobar tu permiso: por fuera parecen gestos amables, pero su función es distinta.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La política de regalos y hospitalidad debe fijar umbrales, exigir registro y pr
 
 ### 2. Cómo se traduce en la práctica
 
-Sin umbrales escritos cada quien decide qué es aceptable, y esa ambigüedad es exactamente lo que se sanciona. En relaciones con el Estado el estándar debe ser más estricto y toda interacción relevante debería quedar documentada, especialmente durante un proceso de licitación en curso.
+Fija umbrales por escrito, exige registro de regalos y atenciones y prohíbe expresamente los vinculados a decisiones en curso. Para el trato con el Estado, adopta un estándar más estricto. Establece cómo se declaran los conflictos de interés y quién los revisa. Capacita al equipo con ejemplos reales y facilita preguntar antes de decidir.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Sin umbrales escritos cada quien decide qué es aceptable, y esa ambigüedad es 
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Redacta una política de regalos de una página para tu empresa. Define un valor simbólico (por ejemplo, hasta una suma pequeña), un tramo que requiere aprobación y un caso en que siempre se rechaza (cuando hay una decisión pendiente o un funcionario). Escribe cómo se registran, quién aprueba y a quién se consulta ante dudas. Prueba tu política con tres situaciones: una invitación a almorzar de un proveedor, un regalo de fin de año y una atención a un funcionario municipal. Los umbrales son ilustrativos.
+
+### 5. En qué se apoya
+
+- **Compras públicas y ventas al Estado** (ChileCompra): ChileCompra publica las reglas y la ética de las compras públicas, que fijan un estándar más estricto para relaciones con organismos del Estado.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Penal y las leyes sobre probidad y cohecho, consultables en la Biblioteca del Congreso Nacional, sancionan los beneficios indebidos a funcionarios.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Protección de fundadores y ejecutivos
 

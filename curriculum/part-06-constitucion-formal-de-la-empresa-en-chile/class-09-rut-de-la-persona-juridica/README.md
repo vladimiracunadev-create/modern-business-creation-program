@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Representante ante el SII** | Persona habilitada para actuar tributariamente. |
 | **Clave tributaria** | Credencial de acceso a los sistemas del sii. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: RUT e inicio de actividades son dos actos distintos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["RUT de persona jurídica"]
-    C --> A2["Obtención automática"]
-    C --> A3["Representante ante el SII"]
-    C --> A4["Clave tributaria"]
-    A1 & A2 & A3 & A4 --> D{{"obtener el RUT y distinguirlo<br/>del inicio de actividades como<br/>paso siguiente"}}
-    D --> E["Entregable<br/>registro del RUT obtenido,<br/>representante ante SII<br/>designado y credenciales<br/>resguardadas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Al constituir por el Registro de Empresas y Sociedades el RUT se asigna automáticamente, pero eso no equivale a iniciar actividades: el RUT identifica y el inicio de actividades habilita.
+
+![Esquema: RUT e inicio de actividades son dos actos distintos](modelo-mental.svg)
+
+**Qué mirar primero:** La línea ordena los pasos. El hito destacado es el inicio de actividades, que es el que permite operar, emitir documentos y declarar impuestos.
+
+**Una imagen cotidiana:** Es tener el carnet de conducir y tener el auto con permiso de circulación: lo primero te identifica, lo segundo te permite manejar en la calle.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Al constituir por el Registro de Empresas y Sociedades el RUT se asigna automát
 
 ### 2. Cómo se traduce en la práctica
 
-Al constituir por el Registro de Empresas y Sociedades el RUT se asigna de forma automática, y esa facilidad refuerza la confusión. Comprometer entregas a clientes creyendo que ya se puede facturar es un error de secuencia con consecuencia comercial directa: el cliente no puede pagar sin documento tributario.
+Agenda el inicio de actividades inmediatamente después de recibir el RUT. Verifica quién será el representante ante el SII, solicita la clave tributaria y reúne los documentos de domicilio. Decide antes el régimen tributario y los códigos de actividad. Recuerda que ofrecer ventas sin poder emitir documentos puede generar incumplimientos y problemas con el cliente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Al constituir por el Registro de Empresas y Sociedades el RUT se asigna de forma
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa recién constituida cierra su primera venta y descubre que no puede emitir factura porque nunca inició actividades; cree que tener RUT bastaba. El cliente espera, ofrece pagar contra factura y la empresa pierde tres días. La corrección: incluir en su calendario de constitución el inicio de actividades con fecha, el representante ante el SII y la clave tributaria, antes de la primera venta (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa el procedimiento de inicio de actividades y la emisión de documentos tributarios para nuevos contribuyentes.
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades asigna el RUT al constituir la sociedad por el régimen simplificado.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

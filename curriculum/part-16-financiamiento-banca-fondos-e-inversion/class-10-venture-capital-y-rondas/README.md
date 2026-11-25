@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Dilución** | Reducción del porcentaje de los accionistas existentes. |
 | **Expectativa de retorno** | Múltiplo que el fondo necesita para su propia rentabilidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Por qué el capital de riesgo exige un crecimiento extraordinario
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Venture capital"]
-    C --> A2["Ronda"]
-    C --> A3["Dilución"]
-    C --> A4["Expectativa de retorno"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el perfil del<br/>negocio es compatible con<br/>capital de riesgo"}}
-    D --> E["Entregable<br/>evaluación de compatibilidad<br/>con VC incluyendo crecimiento<br/>requerido y escenarios de<br/>salida"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El capital de riesgo exige un perfil de crecimiento muy alto porque el modelo del fondo depende de pocos resultados extraordinarios; levantarlo en un negocio de crecimiento moderado alinea mal los incentivos.
+
+![Esquema: Por qué el capital de riesgo exige un crecimiento extraordinario](modelo-mental.svg)
+
+**Qué mirar primero:** Mira cómo se compone el retorno de un fondo: una apuesta enorme paga a todo el portafolio. Por eso un inversionista no se interesa en un negocio sano pero modesto, aunque sea rentable.
+
+**Una analogía:** Es una lotería de varias boletas donde el premio mayor financia a las demás: el fondo necesita que alguna le pague por mucho, y la tuya debe tener ese potencial.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El capital de riesgo exige un perfil de crecimiento muy alto porque el modelo de
 
 ### 2. Cómo se traduce en la práctica
 
-El modelo de un fondo depende de pocos resultados extraordinarios, de modo que levantar capital de riesgo en un negocio de crecimiento moderado desalinea incentivos y presiona hacia decisiones que destruyen una empresa viable. Levantar más de lo necesario eleva además la expectativa de salida a un nivel poco realista.
+Evalúa si tu negocio puede escalar a un mercado grande con márgenes altos y velocidad. Calcula qué retorno necesitaría un inversionista y si es realista. Si tu crecimiento es moderado, considera otros caminos: reinversión, crédito, fomento o ángeles. Antes de levantar una ronda, modela la dilución y conoce qué derechos entregarás.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El modelo de un fondo depende de pocos resultados extraordinarios, de modo que l
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un fondo invierte 1 millón en 10 empresas. Seis se pierden, tres devuelven 2 veces (6 millones en total) y una devuelve 20 veces (20 millones). El portafolio recupera 26 millones sobre 10 invertidos: 2,6 veces, gracias a la apuesta mayor. Si tu negocio solo puede crecer a un ritmo moderado y entregar 2 veces el capital en diez años, no sirve al modelo del fondo, aunque sea un negocio excelente (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Secrets of Sand Hill Road** (Portfolio): Kupor explica la economía de un fondo de capital de riesgo y por qué requiere pocos resultados extraordinarios para ser rentable.
+- **Venture Deals** (Wiley): Feld y Mendelson describen las rondas de inversión y los términos que reflejan las expectativas de retorno de los fondos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
 - *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
 - *Uso en esta clase:* aporta el marco de «Registro de Prestadores de Servicios Financieros · Ley 21.521» para determinar si el perfil del negocio es compatible con capital de riesgo.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para determinar si el perfil del negocio es compatible con capital de riesgo.
+
+**Wiley — Venture Deals**  
+<https://openlibrary.org/isbn/9781118443613> · verificado 2026-11-25
+
+- *Qué contiene:* Explica los términos de una inversión de capital de riesgo: hoja de términos, valoración y derechos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Venture Deals» para determinar si el perfil del negocio es compatible con capital de riesgo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Plan de cobertura** | Socio, contratación, asesoría o aprendizaje que cierra la brecha. |
 | **Zona de dilución** | Actividad que el fundador hace y que otro haría mejor y más barato. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Mapa de competencias y plan de cobertura
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Competencia del fundador"]
-    C --> A2["Brecha"]
-    C --> A3["Plan de cobertura"]
-    C --> A4["Zona de dilución"]
-    A1 & A2 & A3 & A4 --> D{{"decidir qué brechas se cubren<br/>aprendiendo, contratando o<br/>asociándose"}}
-    D --> E["Entregable<br/>matriz de competencias del<br/>fundador con brechas<br/>priorizadas y plan de<br/>cobertura"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El mapa de competencias no pide que el fundador aprenda todo, sino que sepa qué no sabe y decida cómo cubrirlo antes de que sea urgente.
+
+![Esquema: Mapa de competencias y plan de cobertura](modelo-mental.svg)
+
+**Lectura guiada:** Sigue los pasos de izquierda a derecha. El rombo es la decisión central: cada brecha se cubre aprendiendo, contratando o asociándose, según su costo, su urgencia y su impacto.
+
+**Para recordarlo:** Es armar un equipo de montaña: nadie lleva todo el equipo, pero todos saben qué falta y quién lo trae.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El mapa de competencias no busca que el fundador aprenda todo, sino que sepa qu�
 
 ### 2. Cómo se traduce en la práctica
 
-Las brechas más caras en empresas chilenas son, en ese orden, la tributaria, la laboral y la comercial. Las dos primeras se pueden delegar, pero no ignorar: un fundador que no entiende los conceptos mínimos no puede supervisar a quien contrató, y descubre el problema cuando ya es contingencia.
+Haz una lista de diez a quince capacidades que tu empresa necesita para operar el próximo año. Marca, con honestidad, cuáles dominas, cuáles no y qué pasaría si fallan. Prioriza por impacto y plazo, y elige la forma de cubrir cada brecha. Documenta quién responde si el fundador no está. Estas decisiones son la base del plan de contratación y asesoría.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ Las brechas más caras en empresas chilenas son, en ese orden, la tributaria, la
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide cómo cubrir cada brecha con tres preguntas. Primera: ¿es una competencia central que defino yo? Entonces aprendes. Segunda: ¿es recurrente pero no central, como la contabilidad? Entonces contratas o externalizas. Tercera: ¿es puntual y compleja, como un contrato internacional? Entonces te asocias o pagas asesoría por proyecto. Anota la elección, el responsable y la fecha de revisión; en empresas chilenas las brechas más caras suelen ser tributaria, laboral y comercial.
+
+### 5. En qué se apoya
+
+- **The Effective Executive** (Collins): Drucker propone que el directivo haga productivas las fortalezas propias y de su equipo y asigne a otros lo que no domina, que es la lógica del mapa de competencias.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +167,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para decidir qué brechas se cubren aprendiendo, contratando o asociándose.
+
+**Collins — The Effective Executive**  
+<https://openlibrary.org/isbn/9780060833459> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta prácticas de eficacia directiva: gestionar el tiempo, enfocarse en contribuciones y decidir. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Effective Executive» para decidir qué brechas se cubren aprendiendo, contratando o asociándose.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

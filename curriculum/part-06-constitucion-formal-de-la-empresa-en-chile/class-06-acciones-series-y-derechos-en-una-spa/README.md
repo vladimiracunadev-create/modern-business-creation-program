@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Derecho de voto** | Facultad de votar, que puede limitarse por serie. |
 | **Cláusula antidilución** | Protección del inversionista ante emisiones a menor valor. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué derechos recibe cada serie de acciones
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Serie de acciones"]
-    C --> A2["Preferencia"]
-    C --> A3["Derecho de voto"]
-    C --> A4["Cláusula antidilución"]
-    A1 & A2 & A3 & A4 --> D{{"definir la estructura de<br/>series y las preferencias que<br/>se otorgarán"}}
-    D --> E["Entregable<br/>diseño de estructura<br/>accionaria con series,<br/>derechos y simulación de un<br/>evento de liquidez"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La flexibilidad de la SpA permite crear series para inversionistas, fundadores y empleados con derechos distintos; cada preferencia debe quedar en los estatutos con precisión.
+
+![Esquema: Qué derechos recibe cada serie de acciones](modelo-mental.svg)
+
+**Qué mirar primero:** Cada cuadrante combina más o menos voto con más o menos preferencia económica. Ubica cada serie y verifica que tengas los derechos que necesitas y no regales ninguno sin querer.
+
+**Una analogía:** Es la distribución de entradas a un teatro: algunas con mejor vista, otras con mejor precio, y todas definidas antes de abrir las puertas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La flexibilidad de la SpA permite crear series para inversionistas, fundadores y
 
 ### 2. Cómo se traduce en la práctica
 
-Una preferencia mal redactada se vuelve inaplicable justo en el escenario que pretendía cubrir. Antes de crear series conviene simular una venta y una liquidación con la redacción propuesta, para ver quién cobra qué y en qué orden. La parte 16 muestra cómo la antidilución afecta a los fundadores.
+Define cuántas series necesitas, quién recibe cada una y qué derechos otorga: voto, dividendos, preferencia en liquidación, antidilución y venta conjunta. Redacta cada derecho con precisión y un ejemplo en el pacto, porque una preferencia mal escrita se vuelve conflicto cuando entra el primer inversionista. Revisa los estatutos con un abogado antes de emitir.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Una preferencia mal redactada se vuelve inaplicable justo en el escenario que pr
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide cada serie con tres preguntas. Uno: ¿quién necesita control? Los fundadores, con voto. Dos: ¿quién merece un trato económico especial? Un inversionista, con preferencia en la liquidación. Tres: ¿quién solo participa del valor? Los empleados, con acciones sin voto. Una startup define tres series y redacta cada preferencia con un ejemplo numérico en el estatuto para evitar interpretaciones distintas.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades recibe los estatutos de la SpA, donde deben constar las series y sus derechos.
+- **Secrets of Sand Hill Road** (Portfolio): Kupor explica las series preferentes, sus preferencias de liquidación y derechos de antidilución, y cómo las negocian los inversionistas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir la estructura de series y las preferencias que se otorgarán.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para definir la estructura de series y las preferencias que se otorgarán.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

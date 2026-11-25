@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Riesgo de viabilidad** | Que el modelo no genere margen suficiente. |
 | **Riesgo de factibilidad** | Que la empresa no pueda entregarlo de forma sostenible. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué supuesto probar primero
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Hipótesis crítica"]
-    C --> A2["Riesgo de deseabilidad"]
-    C --> A3["Riesgo de viabilidad"]
-    C --> A4["Riesgo de factibilidad"]
-    A1 & A2 & A3 & A4 --> D{{"priorizar qué supuestos se<br/>prueban primero y con qué<br/>presupuesto"}}
-    D --> E["Entregable<br/>lista de hipótesis críticas<br/>ordenada por impacto e<br/>incertidumbre, con experimento<br/>asociado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** No todos los supuestos merecen una prueba: se prueba primero lo que, si resulta falso, mata el negocio y sobre lo que menos se sabe.
+
+![Esquema: Qué supuesto probar primero](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica cada supuesto de tu plan según el daño que haría si fuera falso y qué tan poco sabes de él. El cuadrante superior derecho define tu primer experimento.
+
+**Una analogía:** Es revisar los cimientos antes que la pintura: lo que sostiene todo se verifica primero, aunque sea menos vistoso.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ No todos los supuestos merecen ser probados. La prioridad la fija el producto de
 
 ### 2. Cómo se traduce en la práctica
 
-El orden natural es probar primero lo fácil de probar, y es exactamente el equivocado: consume meses en confirmar detalles mientras el supuesto que sostiene todo sigue sin examinarse. En negocios regulados el riesgo de factibilidad suele ser el crítico y se posterga por incómodo.
+Haz una lista de diez supuestos y escribe, para cada uno, el daño si es falso y la evidencia que tienes. Elige los dos que quedan arriba a la derecha y diseña un experimento de una a dos semanas para cada uno, con presupuesto, umbral y fecha. Deja los demás en espera. Revisa la lista cuando aprendas algo: la prioridad cambia con la evidencia.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El orden natural es probar primero lo fácil de probar, y es exactamente el equi
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide el orden con tres preguntas. Uno: lista todos los supuestos del plan (deseabilidad, viabilidad, factibilidad). Dos: para cada uno, ¿qué ocurre si es falso? Si es mortal, sube; si es menor, baja. Tres: ¿qué evidencia tienes? Si es poca, sube. Con una pyme de catering: que los clientes paguen precio premium es mortal y poco sabido (primero); que el proveedor de cajas entregue a tiempo es importante pero ya conocido (se documenta).
+
+### 5. En qué se apoya
+
+- **The Lean Startup (2011)** (Crown Business): Ries propone identificar los supuestos de mayor riesgo del plan (los actos de fe) y probarlos primero con experimentos baratos.
+- **Running Lean** (O'Reilly): Maurya adapta esa idea al lienzo lean y propone priorizar los riesgos del modelo de negocio y probar primero los más peligrosos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para priorizar qué supuestos se prueban primero y con qué presupuesto.
+
+**Crown Business — The Lean Startup (2011)**  
+<https://openlibrary.org/isbn/9780307887894> · verificado 2026-11-25
+
+- *Qué contiene:* Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Lean Startup (2011)» para priorizar qué supuestos se prueban primero y con qué presupuesto.
+
+**O'Reilly — Running Lean**  
+<https://openlibrary.org/isbn/9781449331900> · verificado 2026-11-25
+
+- *Qué contiene:* Método para iterar un modelo de negocio con el lienzo lean y experimentos cortos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Running Lean» para priorizar qué supuestos se prueban primero y con qué presupuesto.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

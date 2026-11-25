@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Retracto** | Derecho a desistir dentro del plazo legal en los casos que corresponde. |
 | **Información precontractual** | Datos que deben estar disponibles antes de contratar. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El camino de compra de un sitio, paso a paso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Comercio electrónico"]
-    C --> A2["Confirmación de compra"]
-    C --> A3["Retracto"]
-    C --> A4["Información precontractual"]
-    A1 & A2 & A3 & A4 --> D{{"ajustar el flujo de compra del<br/>sitio a las obligaciones del<br/>reglamento"}}
-    D --> E["Entregable<br/>auditoría del flujo de compra<br/>contra los requisitos de<br/>información y confirmación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El Reglamento de Comercio Electrónico detalla cómo informar el precio total, la disponibilidad, el plazo de entrega, el procedimiento de devolución y los datos del proveedor.
+
+![Esquema: El camino de compra de un sitio, paso a paso](modelo-mental.svg)
+
+**Qué mirar primero:** Cada casilla es un paso del flujo de compra donde el sitio debe informar algo. Si uno falta, el consentimiento del consumidor puede considerarse mal formado.
+
+**Para recordarlo:** Es el itinerario de un tren: si falta una estación en el letrero, los pasajeros pueden alegar que nadie les informó dónde paraba.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El Reglamento de Comercio Electrónico detalla cómo debe informarse el precio t
 
 ### 2. Cómo se traduce en la práctica
 
-Mostrar el costo de despacho recién en el último paso del checkout es incumplimiento aunque después se muestre, porque el precio total debe estar disponible antes de contratar. Y la confirmación debe incluir condiciones completas, plazos y procedimiento de devolución, no solo el número de pedido.
+Ajusta el flujo para que el consumidor tenga acceso claro y comprensible a las condiciones antes de aceptar, con la posibilidad de guardarlas o imprimirlas. Muestra el precio final con impuestos y costos de despacho, y confirma la compra por un medio que el consumidor pueda conservar. Mantén los datos del proveedor y el canal de reclamo siempre visibles.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Mostrar el costo de despacho recién en el último paso del checkout es incumpli
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Recorre el flujo de compra de tu sitio como cliente nuevo y completa una tabla de cinco filas con lo que se muestra en cada paso: ¿el precio incluye todo?, ¿se ve la disponibilidad real?, ¿hay plazo de entrega?, ¿se informa quién vende y cómo contactarlo?, ¿se explica cómo devolver y retractarse? Marca con rojo lo que falta y corrige primero el precio total. Pide a un amigo que repita la prueba desde su celular.
+
+### 5. En qué se apoya
+
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): El artículo 12 A de la Ley 19.496 dispone que, en los contratos electrónicos, el consentimiento no se forma si el consumidor no tuvo acceso claro, comprensible e inequívoco a las condiciones generales y la posibilidad de almacenarlas o imprimirlas.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la guía de comercio electrónico con los contenidos que el sitio debe informar y cómo se fiscalizan.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -158,6 +163,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para ajustar el flujo de compra del sitio a las obligaciones del reglamento.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para ajustar el flujo de compra del sitio a las obligaciones del reglamento.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

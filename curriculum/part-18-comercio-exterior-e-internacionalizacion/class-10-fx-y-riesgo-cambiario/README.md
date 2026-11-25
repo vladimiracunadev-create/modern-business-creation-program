@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cobertura** | Instrumento que fija el tipo de cambio futuro. |
 | **Exposición neta** | Diferencia entre activos y pasivos en moneda extranjera. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La exposición cambiaria neta de una exportadora
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Riesgo cambiario"]
-    C --> A2["Calce de monedas"]
-    C --> A3["Cobertura"]
-    C --> A4["Exposición neta"]
-    A1 & A2 & A3 & A4 --> D{{"medir la exposición cambiaria<br/>neta y decidir cómo se<br/>gestiona"}}
-    D --> E["Entregable<br/>cálculo de exposición<br/>cambiaria neta con política de<br/>calce y criterio de cobertura"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El riesgo cambiario se gestiona primero por calce natural, con costos en la misma moneda de los ingresos, y solo después con instrumentos financieros; cubrir sin conocer la exposición neta puede generar pérdidas.
+
+![Esquema: La exposición cambiaria neta de una exportadora](modelo-mental.svg)
+
+**Lectura guiada:** Las dos primeras barras se compensan parcialmente; la tercera es lo que realmente queda expuesto a la variación del tipo de cambio. Cubre esa parte, no los ingresos totales.
+
+**Una analogía:** Es una balanza con pesas en ambos lados: solo importa la diferencia, que es lo que inclina el platillo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El riesgo cambiario se gestiona primero por calce natural —costos en la misma 
 
 ### 2. Cómo se traduce en la práctica
 
-El primer instrumento es el calce natural: costos en la misma moneda de los ingresos. Solo después tiene sentido la cobertura financiera, y siempre sobre la posición neta: cubrir una exposición que ya estaba compensada crea una posición contraria a la operación real.
+Calcula tu exposición neta por moneda y por plazo. Busca el calce natural: contratar insumos o financiamiento en la misma moneda de tus ingresos. Cubre solo la parte neta que no quieres asumir, con instrumentos que entiendas y costo conocido. Define una política escrita: qué porcentaje cubres y quién autoriza. No uses coberturas con fines especulativos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ El primer instrumento es el calce natural: costos en la misma moneda de los ingr
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa exporta por 100.000 dólares al año y paga 60.000 dólares en insumos importados: su exposición neta es de 40.000 dólares. Si el dólar cae 10 %, pierde cerca de 4.000 dólares equivalentes en pesos, no 10.000. Si cubriera los 100.000 completos, estaría tomando una posición contraria en 60.000 que no tenía y podría perder si el dólar sube. Primero busca calzar más costos en dólares (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers tratan la gestión del riesgo cambiario y el uso de coberturas como parte de las finanzas corporativas.
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La CMF supervisa a las entidades financieras que ofrecen instrumentos de cobertura, que conviene verificar antes de contratarlos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -158,6 +163,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para medir la exposición cambiaria neta y decidir cómo se gestiona.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para medir la exposición cambiaria neta y decidir cómo se gestiona.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

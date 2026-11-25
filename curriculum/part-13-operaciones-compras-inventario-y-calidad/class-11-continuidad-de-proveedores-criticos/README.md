@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Homologación de alternativa** | Proveedor sustituto ya aprobado. |
 | **Stock de seguridad** | Inventario que cubre el tiempo de reemplazo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto cubre tu stock de seguridad si falla un proveedor
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Proveedor crítico"]
-    C --> A2["Plan de contingencia"]
-    C --> A3["Homologación de<br/>alternativa"]
-    C --> A4["Stock de seguridad"]
-    A1 & A2 & A3 & A4 --> D{{"definir cómo se cubre la falla<br/>de cada proveedor crítico"}}
-    D --> E["Entregable<br/>plan de continuidad de<br/>suministro con alternativa,<br/>stock de seguridad y tiempo de<br/>reemplazo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La continuidad de proveedores críticos se resuelve con tres palancas: una segunda fuente homologada, un stock de seguridad calculado sobre el tiempo real de reemplazo y cláusulas de continuidad.
+
+![Esquema: Cuánto cubre tu stock de seguridad si falla un proveedor](modelo-mental.svg)
+
+**Lectura guiada:** Compara los días que te cubre tu stock con los días que tardarías en reemplazar al proveedor. Si el stock dura menos que el reemplazo, hay un tramo sin cobertura que debes cerrar.
+
+**Una imagen cotidiana:** Es la reserva de agua de un edificio: debe alcanzar para los días que toma reparar la cañería, no para los que uno quisiera.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La continuidad de proveedores críticos se resuelve con tres palancas: segunda f
 
 ### 2. Cómo se traduce en la práctica
 
-Ninguna basta por sí sola: el stock sin alternativa solo compra tiempo, y la cláusula sin stock no evita la interrupción. El stock además debe calcularse sobre el tiempo real de reemplazo en un escenario de interrupción, no sobre el plazo normal de reposición.
+Calcula el tiempo real de reemplazo de cada proveedor crítico, incluyendo homologación, pruebas y envío. Define el stock de seguridad para cubrir ese tiempo con un margen. Homologa una alternativa y negocia cláusulas de aviso, transición y entrega de información. Revisa cada año el plan y verifica que los plazos de pago se cumplan, porque la relación comercial también es una fuente de continuidad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Ninguna basta por sí sola: el stock sin alternativa solo compra tiempo, y la cl
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Jefa de operaciones: «Si nuestro proveedor de resinas deja de despachar, ¿cuánto tardamos en reemplazarlo?». Compras: «Unos 30 días con homologación incluida». Jefa: «¿Y nuestro stock?». Compras: «Cubre 12 días». Jefa: «Entonces hay 18 días sin cobertura. Subamos el stock a 20 días, aceleremos la homologación de un segundo proveedor y pidamos un aviso de 90 días en el contrato» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **The Black Swan** (Random House): Taleb sostiene que los sistemas deben diseñarse para resistir eventos improbables de gran impacto, idea que justifica la redundancia en proveedores críticos.
+- **Ley 21.131 — Establece pago a treinta días** (Biblioteca del Congreso Nacional): La Ley 21.131 fija el pago de facturas en treinta días corridos, regla que importa para mantener buena relación con los proveedores de los que depende la operación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: proveedores críticos en conflicto o en falla
 
@@ -189,6 +194,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Sustituye el artículo 2 de la Ley 19.983: el saldo de la factura se paga en treinta días corridos desde su recepción y un plazo mayor exige acuerdo escrito inscrito en el registro del Ministerio de Economía.
 - *Cómo leerla:* Úsala para conocer qué plazo se puede prometer a un proveedor y qué debe constar por escrito al renegociar pagos.
 - *Uso en esta clase:* aporta el marco de «Ley 21.131 — Establece pago a treinta días» para definir cómo se cubre la falla de cada proveedor crítico.
+
+**Random House — The Black Swan**  
+<https://openlibrary.org/isbn/9780812979183> · verificado 2026-11-25
+
+- *Qué contiene:* Examina el impacto de los eventos improbables y los límites de la predicción. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Black Swan» para definir cómo se cubre la falla de cada proveedor crítico.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

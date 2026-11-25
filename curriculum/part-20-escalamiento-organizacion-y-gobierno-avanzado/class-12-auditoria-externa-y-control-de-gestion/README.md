@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Independencia del auditor** | Ausencia de relaciones que comprometan juicio, alcance o reporte. |
 | **Carta de control interno** | Observaciones del auditor sobre debilidades y respuesta de la administración. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Qué alcance de auditoría necesita tu empresa?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Auditoría externa"]
-    C --> A2["Confirmación de terceros"]
-    C --> A3["Independencia del auditor"]
-    C --> A4["Carta de control interno"]
-    A1 & A2 & A3 & A4 --> D{{"determinar el alcance de<br/>auditoría y las confirmaciones<br/>independientes exigidas según<br/>custodia, relacionadas y<br/>riesgo"}}
-    D --> E["Entregable<br/>plan de auditoría y control de<br/>gestión con independencia,<br/>perímetro, confirmaciones,<br/>acceso al directorio y cierre<br/>de hallazgos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Madoff demuestra que la existencia de un informe no reemplaza la independencia, la competencia ni la confirmación de activos; FTX agrega la necesidad de entender el perímetro del grupo auditado.
+
+![Esquema: ¿Qué alcance de auditoría necesita tu empresa?](modelo-mental.svg)
+
+**Lectura guiada:** Responde según la naturaleza de tu empresa. Quien custodia fondos de terceros necesita confirmaciones independientes; quien tiene relacionadas debe entender qué entidades entran en el alcance.
+
+**Para recordarlo:** Es una revisión técnica de un auto: un informe sin que nadie mire el motor no demuestra nada.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Madoff demuestra que la mera existencia de un informe no reemplaza la independen
 
 ### 2. Cómo se traduce en la práctica
 
-Madoff obliga a mirar detrás del informe: quién audita, qué independencia y capacidad tiene, qué activos confirma directamente y qué restricciones encontró. FTX obliga a definir el perímetro completo de entidades y relacionadas. El auditor necesita canal directo con el directorio; la administración debe responder hallazgos, pero no controlar la evidencia ni filtrar la comunicación.
+Define el alcance de auditoría según custodia, relacionadas y riesgo. Verifica la independencia y la experiencia del auditor. Exige confirmaciones directas de bancos, custodios y clientes. Revisa la carta de control interno y da seguimiento a sus recomendaciones. Entiende el perímetro de las entidades auditadas: un informe sobre una parte no cubre al resto.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Madoff obliga a mirar detrás del informe: quién audita, qué independencia y c
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Para tu empresa, completa un cuadro de cuatro filas: qué fondos o activos de terceros custodias, qué operaciones tienes con relacionadas, qué riesgo de fraude identificas y qué confirmaciones externas obtendrías (banco, custodio, clientes). Decide el alcance de auditoría que te corresponde y quién la hará. Evalúa la independencia y la competencia del auditor y lee su carta de control interno. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Reformas posteriores a Madoff sobre custodia y verificación independiente** (U.S. Securities and Exchange Commission): La SEC describe reformas posteriores al caso Madoff sobre custodia y verificación independiente, que muestran el límite de un informe sin confirmación externa.
+- **FTX y Alameda: condena y sentencia de Samuel Bankman-Fried** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de FTX, caso que muestra la importancia de entender qué entidades entran en el perímetro de revisión.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

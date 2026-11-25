@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Curso registrado** | Programa aprobado con código y horas. |
 | **OTIC** | Organismo intermedio que administra la franquicia. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los pilares de operar como OTEC
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["OTEC"]
-    C --> A2["Franquicia tributaria"]
-    C --> A3["Curso registrado"]
-    C --> A4["OTIC"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si conviene operar<br/>como OTEC y qué exige el<br/>reconocimiento"}}
-    D --> E["Entregable<br/>evaluación del modelo OTEC con<br/>requisitos de reconocimiento,<br/>registro de cursos y control<br/>de asistencia"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Operar como OTEC exige reconocimiento de SENCE, certificación de calidad y cursos registrados; el atractivo del modelo está en la franquicia tributaria que permite a las empresas descontar parte del gasto en capacitación.
+
+![Esquema: Los pilares de operar como OTEC](modelo-mental.svg)
+
+**Lectura guiada:** Cada capa es un requisito para vender capacitación financiada por franquicia. Sin alguna de ellas, el cliente no puede descontar el gasto y deja de comprarte.
+
+**Una analogía:** Es ser proveedor de una institución pública: sin inscripción y certificados al día, no puedes facturar aunque tu servicio sea excelente.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Operar como OTEC exige reconocimiento de SENCE, certificación de calidad y curs
 
 ### 2. Cómo se traduce en la práctica
 
-La franquicia permite a las empresas descontar la capacitación del impuesto, y solo existe si el organismo está reconocido por SENCE con cursos registrados. Su contrapartida es un cumplimiento estricto de registro de asistencia y ejecución: incumplirlo hace perder la franquicia al cliente, no solo al proveedor.
+Evalúa si el modelo OTEC conviene a tu negocio: costo del reconocimiento y de la certificación, inversión en cursos registrados y demanda de empresas que usan la franquicia. Revisa los requisitos vigentes en SENCE y los efectos de cambios legales sobre la franquicia. Mantén la documentación y los registros al día para las auditorías.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ La franquicia permite a las empresas descontar la capacitación del impuesto, y 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa que da cursos de seguridad laboral cobra 2 millones por curso. Si está reconocida como OTEC y el curso está registrado, el cliente puede imputar el gasto a su franquicia tributaria, con un límite según su planilla, y en la práctica le cuesta menos. Sin el registro, el mismo curso le cuesta los 2 millones completos y la competencia lo vende más barato. Los montos y límites de la franquicia deben comprobarse en SENCE (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **OTEC, franquicia tributaria y cursos** (Servicio Nacional de Capacitación y Empleo): El Servicio Nacional de Capacitación y Empleo informa los requisitos de reconocimiento de OTEC, el registro de cursos y el funcionamiento de la franquicia tributaria.
+- **Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social** (Biblioteca del Congreso Nacional · LeyChile): La Ley 21.850 introduce modificaciones tributarias que pueden afectar los incentivos asociados a la capacitación, por lo que debe revisarse su texto al evaluar el modelo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

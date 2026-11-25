@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Due diligence** | Verificación previa de la empresa objetivo. |
 | **Integración post-adquisición** | Proceso que determina si la sinergia se materializa. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El valor de una adquisición se gana o se pierde en la integración
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Adquisición"]
-    C --> A2["Sinergia"]
-    C --> A3["Due diligence"]
-    C --> A4["Integración<br/>post-adquisición"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si adquirir y cómo<br/>se cubren las contingencias<br/>detectadas"}}
-    D --> E["Entregable<br/>plan de adquisición con due<br/>diligence, contingencias<br/>identificadas, cobertura<br/>contractual y plan de<br/>integración"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La mayor parte del valor de una adquisición se gana o se pierde en la integración y no en la negociación; en Chile, las contingencias más frecuentes son laborales y tributarias.
+
+![Esquema: El valor de una adquisición se gana o se pierde en la integración](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra resta algo de la sinergia prometida. El valor neto es lo que queda después de la integración y las contingencias. Si el precio pagado supera esa cifra, la compra destruye valor.
+
+**Una analogía:** Es comprar una casa con un plano ideal: el valor depende de lo que cueste arreglar lo que no estaba a la vista.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La mayor parte del valor de una adquisición se gana o se pierde en la integraci
 
 ### 2. Cómo se traduce en la práctica
 
-En Chile las contingencias más frecuentes en una compra son laborales y tributarias, y pueden superar el precio pagado si no se detectan y se cubren contractualmente. Cerrar sin plan de integración definido es la razón por la que la mayoría de las sinergias proyectadas nunca se materializan.
+Antes de adquirir, define la tesis y la sinergia esperada, y cuántas son realizables. Haz una debida diligencia laboral, tributaria, comercial y de contratos. Negocia garantías, retenciones de precio y declaraciones sobre contingencias. Planifica la integración: personas, sistemas, clientes y cultura, con responsable y plazos. Revisa si la operación requiere notificar a la autoridad de competencia.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En Chile las contingencias más frecuentes en una compra son laborales y tributa
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa paga 100 millones por un competidor pensando en una sinergia de 100 millones de ahorro. En la debida diligencia, se estima que solo 60 son realizables, 35 se consumirán en integración (sistemas, personas, clientes) y se descubren contingencias laborales y tributarias. El valor neto es 25 millones, de modo que el precio es excesivo. Negocia un precio menor, un depósito en garantía y una cláusula de contingencias (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers analizan las fusiones y adquisiciones, el origen de la sinergia y por qué muchas operaciones no crean el valor esperado.
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica del SII permite revisar la situación tributaria de la empresa objetivo en la debida diligencia.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: asuntos públicos y gobierno de la relación con autoridades
 
@@ -194,6 +199,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Define los sujetos pasivos (autoridades y funcionarios), obliga a registrar audiencias y reuniones y sanciona con multa a quien omite o falsea, al pedir una reunión, a nombre de quién gestiona y si recibe remuneración.
 - *Cómo leerla:* Úsala para ordenar las reuniones de la empresa con autoridades y para saber qué información debe entregar quien las solicita. Revisa en la norma si la autoridad concreta es sujeto pasivo.
 - *Uso en esta clase:* aporta el marco de «Ley 20.730 — Regula el lobby y las gestiones que representen intereses particulares» para determinar si adquirir y cómo se cubren las contingencias detectadas.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para determinar si adquirir y cómo se cubren las contingencias detectadas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

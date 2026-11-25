@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Compromiso de permanencia** | Obligación asociada al beneficio recibido. |
 | **Red** | Acceso a inversionistas, clientes y talento. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué aporta realmente una aceleradora
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Aceleradora"]
-    C --> A2["Cohorte"]
-    C --> A3["Compromiso de permanencia"]
-    C --> A4["Red"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el programa<br/>aporta lo que la empresa<br/>necesita en esta etapa"}}
-    D --> E["Entregable<br/>evaluación de programas de<br/>aceleración con aporte<br/>esperado, contrapartida y<br/>ajuste a la etapa"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El valor de una aceleradora está más en la red y la validación que en el monto; la contrapartida (permanencia, participación o reporte) debe evaluarse frente a lo que la empresa realmente necesita.
+
+![Esquema: Qué aporta realmente una aceleradora](modelo-mental.svg)
+
+**Lectura guiada:** Los tres círculos muestran lo que puede aportar un programa. Antes de postular, pregúntate cuál necesitas más y cuánto cuesta la contrapartida.
+
+**Para recordarlo:** Es matricularse en un taller de cocina: lo que pagas no es solo el curso, sino a quién conoces y cómo te corrigen.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El valor de una aceleradora está más en la red y la validación que en el mont
 
 ### 2. Cómo se traduce en la práctica
 
-El valor está más en la red y la validación que en el cheque. La contrapartida —permanencia, participación, actividades obligatorias— tiene costo operativo real y debe compararse contra el beneficio concreto: capital, acceso a mercado o credibilidad ante inversionistas.
+Define qué necesitas en esta etapa: clientes, mentoría, validación o capital. Investiga los resultados de las cohortes anteriores y habla con sus fundadores. Evalúa la contrapartida: tiempo de permanencia, porcentaje de participación o reportes. Considera la carga de trabajo que implica y el costo de oportunidad de no dedicar ese tiempo a vender.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El valor está más en la red y la validación que en el cheque. La contrapartid
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Para un programa de aceleración que revises, completa una tabla con tres columnas: qué ofrece (red, validación, capital), qué pide (permanencia, participación, reportes) y qué necesita tu empresa hoy. Asigna un valor de 1 a 5 a cada aporte según tu etapa. Si la red y la validación puntúan alto y la contrapartida es razonable, postula; si necesitas ventas y el programa ofrece solo capital pequeño, mejor busca otro camino. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Aceleración de startups** (Start-Up Chile · CORFO): Start-Up Chile publica las condiciones de sus programas de aceleración, sus beneficios y sus requisitos de permanencia y reporte.
+- **The Startup Owner's Manual** (K&S Ranch): Blank y Dorf proponen validar el negocio con clientes reales antes de escalar, que es uno de los aportes que se espera de una aceleradora.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para determinar si el programa aporta lo que la empresa necesita en esta etapa.
+
+**K&S Ranch — The Startup Owner's Manual**  
+<https://openlibrary.org/isbn/9780984999309> · verificado 2026-11-25
+
+- *Qué contiene:* Guía de desarrollo de clientes: validar hipótesis de negocio hablando con clientes antes de escalar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Startup Owner's Manual» para determinar si el programa aporta lo que la empresa necesita en esta etapa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

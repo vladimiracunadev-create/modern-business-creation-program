@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Expansión** | Aumento de ingreso dentro de la base existente. |
 | **Señal de riesgo** | Comportamiento que anticipa la salida del cliente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Salud de cuenta: tres señales a la vez
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Customer success"]
-    C --> A2["Salud de cuenta"]
-    C --> A3["Expansión"]
-    C --> A4["Señal de riesgo"]
-    A1 & A2 & A3 & A4 --> D{{"definir el indicador de salud<br/>de cuenta y las intervenciones<br/>por nivel de riesgo"}}
-    D --> E["Entregable<br/>modelo de salud de cuenta con<br/>señales de riesgo e<br/>intervenciones definidas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La renovación se gana durante el período: un indicador de salud de cuenta permite intervenir cuando todavía hay tiempo.
+
+![Esquema: Salud de cuenta: tres señales a la vez](modelo-mental.svg)
+
+**Qué mirar primero:** Una cuenta sana está en la intersección: usa el producto, obtiene el resultado que buscaba y mantiene relación con el equipo. Si falta una de las tres, hay una intervención definida.
+
+**Piénsalo así:** Es el control médico anual: no esperas al síntoma para mirar presión, peso y análisis.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La renovación se gana durante el período, no en el mes previo. Un indicador de
 
 ### 2. Cómo se traduce en la práctica
 
-La renovación se gana durante el período, no en el mes previo. Un indicador que combine uso real, resultado obtenido, incidencias y relación anticipa la fuga; medir solo satisfacción declarada no, porque los clientes que se van rara vez avisan que están insatisfechos.
+Elige tres o cuatro señales medibles (uso, resultado, incidencias, relación), asigna un peso a cada una y define qué se hace en cada nivel de riesgo y quién lo hace. Contrasta el indicador con las renovaciones reales: si las cuentas «verdes» se van, está mal calibrado. La expansión nace en cuentas sanas, no en cuentas a las que solo se les insiste.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ La renovación se gana durante el período, no en el mes previo. Un indicador qu
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una cuenta usa el producto a diario, pero no logró el ahorro que esperaba y su contacto cambió de empresa. El indicador pasa de verde a amarillo tres meses antes de la renovación y el equipo agenda una revisión de resultados con el nuevo contacto. Sin indicador, la primera señal habría sido el aviso de no renovación (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Customer Success (2016)** (Wiley): Mehta y sus coautores proponen seguir la salud del cliente con un conjunto de indicadores y actuar sobre ellos antes de la renovación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: comunicar antes de que el cliente pregunte
 
@@ -189,6 +193,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
 - *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el indicador de salud de cuenta y las intervenciones por nivel de riesgo.
+
+**Wiley — Customer Success (2016)**  
+<https://openlibrary.org/isbn/9781119167969> · verificado 2026-11-25
+
+- *Qué contiene:* Define el éxito del cliente como disciplina de negocio recurrente: onboarding, salud de cuenta, retención y expansión.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Customer Success (2016)» para definir el indicador de salud de cuenta y las intervenciones por nivel de riesgo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Punto de reorden** | Nivel de inventario que gatilla una nueva orden. |
 | **Responsabilidad por producto** | Obligación del fabricante por daños derivados del bien. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El ciclo de caja de una fábrica pequeña
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Costo de producción"]
-    C --> A2["Lote mínimo"]
-    C --> A3["Punto de reorden"]
-    C --> A4["Responsabilidad por<br/>producto"]
-    A1 & A2 & A3 & A4 --> D{{"determinar lote, inventario<br/>objetivo y capital de trabajo<br/>que la producción exige"}}
-    D --> E["Entregable<br/>costeo de producto con lote<br/>mínimo, punto de reorden y<br/>capital inmovilizado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Manufacturar inmoviliza caja en materia prima, producto en proceso y producto terminado, y suma responsabilidad por la calidad y seguridad frente al consumidor.
+
+![Esquema: El ciclo de caja de una fábrica pequeña](modelo-mental.svg)
+
+**Lectura guiada:** La línea muestra cuánto tarda el dinero en volver. Cada hito inmoviliza capital hasta el cobro. El lote mínimo suele ser la variable que decide cuánto se inmoviliza en el primer tramo.
+
+**Para recordarlo:** Es plantar trigo: siembras hoy, cosechas en meses y entretanto debes alimentar a tu familia con la caja que tienes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Manufacturar inmoviliza caja en materia prima, producto en proceso y terminado, 
 
 ### 2. Cómo se traduce en la práctica
 
-El lote mínimo suele decidir la viabilidad: obliga a comprometer capital antes de conocer la demanda real. Y fabricar agrega responsabilidad por calidad y seguridad frente al consumidor, con obligaciones de garantía legal que no dependen de lo que diga el manual del producto.
+Calcula el capital de trabajo que exige cada lote: materia prima, producto en proceso, terminado y cuentas por cobrar. Define el lote, el inventario objetivo y el punto de reorden con la demanda real. Y asume la responsabilidad por producto: informar riesgos, advertencias y cambiar o devolver un producto peligroso son obligaciones del proveedor.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El lote mínimo suele decidir la viabilidad: obliga a comprometer capital antes 
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa fabrica velas. Debe comprar cera por 3 millones (lote mínimo) y paga mano de obra y energía por otros 1,5 millones durante 40 días. Vende por 6 millones, pero cobra a los 90 días desde la compra. Necesita financiar 4,5 millones durante tres meses. Si el proveedor aceptara lotes de la mitad, el capital inmovilizado baja a 3 millones y el negocio es financiable sin deuda (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Goal** (North River Press): Goldratt presenta la teoría de las restricciones y la relación entre inventario, flujo y resultado, que explican por qué más inventario inmoviliza caja sin generar ventas.
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): La Ley 19.496 (arts. 45 a 49) obliga a informar los riesgos del producto, a ponerlos en conocimiento de la autoridad y a cambiar el bien o restituir el dinero cuando hay peligrosidad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
 
@@ -167,6 +172,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para determinar lote, inventario objetivo y capital de trabajo que la producción exige.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para determinar lote, inventario objetivo y capital de trabajo que la producción exige.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para determinar lote, inventario objetivo y capital de trabajo que la producción exige.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Múltiplo de mercado** | Factor observado en transacciones comparables. |
 | **Rango de negociación** | Banda dentro de la cual es razonable acordar. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De la utilidad contable al resultado normalizado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Valoración para venta"]
-    C --> A2["Ajuste normalizador"]
-    C --> A3["Múltiplo de mercado"]
-    C --> A4["Rango de negociación"]
-    A1 & A2 & A3 & A4 --> D{{"estimar el rango de valor<br/>esperable con resultado<br/>normalizado"}}
-    D --> E["Entregable<br/>valoración con resultado<br/>normalizado, ajustes<br/>documentados, múltiplo<br/>aplicado y rango de<br/>negociación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La valoración para venta parte del resultado normalizado: se retiran los gastos personales del dueño, se ajustan las remuneraciones a valor de mercado y se eliminan las partidas extraordinarias.
+
+![Esquema: De la utilidad contable al resultado normalizado](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra es un ajuste al resultado reportado. La última es la base sobre la que un comprador aplicará un múltiplo. Un buen normalizado es la mitad de una buena negociación.
+
+**Piénsalo así:** Es mostrar el sueldo real de un trabajador, no con el bono excepcional del año ni con los gastos personales de la empresa: lo que importa es lo que se repetirá.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La valoración para venta parte del resultado normalizado: se retiran gastos per
 
 ### 2. Cómo se traduce en la práctica
 
-Ese ejercicio suele cambiar sustancialmente la base sobre la que se aplica el múltiplo, y es lo primero que hará un comprador. Fijar un precio de reserva sin considerar los descuentos por tamaño y dependencia produce expectativas que ninguna oferta va a cumplir.
+Normaliza el resultado de los últimos tres años: retira gastos personales, ajusta las remuneraciones a valor de mercado y elimina partidas extraordinarias. Documenta cada ajuste con su respaldo. Usa múltiplos de transacciones comparables, con un rango de negociación, y considera descuentos por dependencia del fundador y concentración de clientes. Tu contador debe revisar los ajustes.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Ese ejercicio suele cambiar sustancialmente la base sobre la que se aplica el m�
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa reporta 40 millones de resultado. El dueño cargó 6 millones de gastos personales (vehículo, viajes) y se paga 14 millones al año, cuando un gerente costaría 18 millones (ajuste de -4). El resultado normalizado es 40 + 6 - 4 = 42 millones. Con un múltiplo de 4 veces, el rango de valor es 168 millones, no 160. Con descuentos por dependencia del fundador, el comprador podría ofrecer menos (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Little Book of Valuation** (Wiley): Damodaran explica la valoración por múltiplos y por flujos y cómo ajustar las cifras para que reflejen la capacidad de generar ingresos futuros.
+- **Built to Sell** (Portfolio): Warrillow describe los factores que aumentan o reducen el valor de una empresa para un comprador, como la dependencia del dueño.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para estimar el rango de valor esperable con resultado normalizado.
+
+**Wiley — The Little Book of Valuation**  
+<https://openlibrary.org/isbn/9781118004777> · verificado 2026-11-25
+
+- *Qué contiene:* Introduce la valoración de empresas por flujo descontado y por múltiplos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Little Book of Valuation» para estimar el rango de valor esperable con resultado normalizado.
+
+**Portfolio — Built to Sell**  
+<https://openlibrary.org/isbn/9781591845829> · verificado 2026-11-25
+
+- *Qué contiene:* Propone hacer que una empresa de servicios sea vendible por su sistema y no por su dueño.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Built to Sell» para estimar el rango de valor esperable con resultado normalizado.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

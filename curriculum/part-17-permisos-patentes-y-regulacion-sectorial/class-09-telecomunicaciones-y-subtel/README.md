@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Servicio limitado** | Categoría de servicio con requisitos propios. |
 | **Registro de proveedor** | Inscripción exigida para operar ciertos servicios. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Tu actividad necesita permiso de SUBTEL?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SUBTEL"]
-    C --> A2["Concesión o permiso"]
-    C --> A3["Servicio limitado"]
-    C --> A4["Registro de proveedor"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la actividad<br/>requiere habilitación de<br/>SUBTEL y de qué tipo"}}
-    D --> E["Entregable<br/>análisis de exigibilidad ante<br/>SUBTEL con tipo de<br/>habilitación, requisitos y<br/>plazos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Prestar servicios de telecomunicaciones, incluido internet a terceros, requiere permiso o concesión de SUBTEL según su naturaleza, y muchas empresas descubren la exigencia al revender conectividad.
+
+![Esquema: ¿Tu actividad necesita permiso de SUBTEL?](modelo-mental.svg)
+
+**Lectura guiada:** Responde con honestidad qué haces con la conectividad: usarla es distinto de ofrecerla a terceros. La zona gris suele estar en reventa y en servicios que incluyen internet como parte del paquete.
+
+**Piénsalo así:** Es la diferencia entre usar el agua de tu casa y venderla a los vecinos: lo segundo exige permisos y responsabilidades.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Prestar servicios de telecomunicaciones —incluido internet a terceros— requi
 
 ### 2. Cómo se traduce en la práctica
 
-Revender conectividad o instalar redes para clientes puede exigir permiso o concesión aunque el negocio se presente como servicio digital. Muchas empresas descubren la exigencia al escalar, cuando ya tienen clientes operando bajo una figura que no correspondía.
+Antes de ofrecer conectividad, consulta a SUBTEL qué tipo de habilitación necesitas. Documenta qué servicio prestas, a quién y con qué infraestructura. Considera además las normas de protección del consumidor y de datos personales. Operar sin la habilitación puede traer multas y la suspensión del servicio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ Revender conectividad o instalar redes para clientes puede exigir permiso o conc
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿le entregas conectividad a otras personas o empresas como parte de tu servicio? Dos: ¿usas espectro o infraestructura de red propia? Tres: ¿qué tipo de permiso o registro corresponde? Un coworking que ofrece internet incluido a sus arrendatarios consulta con SUBTEL y descubre que requiere un registro; una empresa de software que solo usa internet para operar no.
+
+### 5. En qué se apoya
+
+- **Concesiones y permisos de telecomunicaciones** (Subsecretaría de Telecomunicaciones): La Subsecretaría de Telecomunicaciones informa las concesiones, permisos y registros que se exigen según la naturaleza del servicio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

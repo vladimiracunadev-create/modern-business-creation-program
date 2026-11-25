@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Valorización pre-money** | Valor de la empresa antes de la inversión. |
 | **Term sheet** | Documento con las condiciones principales de la inversión. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué debes pedirle a un inversionista ángel además del cheque
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Inversionista ángel"]
-    C --> A2["Capital semilla"]
-    C --> A3["Valorización pre-money"]
-    C --> A4["Term sheet"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué se busca del<br/>inversionista además del<br/>capital y qué condiciones se<br/>aceptan"}}
-    D --> E["Entregable<br/>term sheet analizado con<br/>valorización, derechos<br/>otorgados y efecto en rondas<br/>futuras"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El ángel aporta capital, red y experiencia, y el peor error es elegirlo solo por el cheque; las condiciones del term sheet, como derechos de información, participación y antidilución, importan tanto como el monto.
+
+![Esquema: Qué debes pedirle a un inversionista ángel además del cheque](modelo-mental.svg)
+
+**Cómo leerlo:** Cada satélite es algo que recibes o que concedes. Una ronda es una relación de varios años: revisa no solo lo que entra, sino lo que prometes a cambio.
+
+**Una imagen cotidiana:** Es elegir a un socio de viaje: el dinero para el pasaje ayuda, pero importa más su experiencia en el camino y qué decisiones compartirán.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El ángel aporta capital, red y experiencia, y el peor error es elegirlo solo po
 
 ### 2. Cómo se traduce en la práctica
 
-Las condiciones —derechos de información, participación en decisiones, antidilución— importan más que la valorización, porque condicionan todo lo que venga después. Elegir solo por monto y velocidad es la decisión que más limita la capacidad de levantar capital la siguiente vez.
+Define qué buscas además del capital: red, experiencia sectorial, acceso a clientes. Conversa con otros emprendedores que hayan trabajado con ese ángel. Lee el term sheet completo y modela cómo quedan tus participaciones. Negocia los derechos de información, las materias que requieren aprobación y la antidilución. Cuenta con un abogado especializado antes de firmar.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Las condiciones —derechos de información, participación en decisiones, antid
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una fundadora acepta a un ángel que ofrece el mayor monto sin revisar el term sheet. Después descubre que exige aprobar cualquier gasto mayor a 2 millones, tiene derecho de veto sobre contrataciones clave y cláusula de antidilución agresiva. La corrección: comparar tres ofertas por monto, aporte de red y condiciones, y negociar límites razonables de aprobación y derechos de información (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Venture Deals** (Wiley): Feld y Mendelson explican los términos habituales de una hoja de términos de capital de riesgo, entre ellos valoración, antidilución y derechos del inversionista.
+- **Secrets of Sand Hill Road** (Portfolio): Kupor describe la relación entre fundadores e inversionistas y qué condiciones suelen negociarse en una ronda temprana.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir qué se busca del inversionista además del capital y qué condiciones se aceptan.
+
+**Wiley — Venture Deals**  
+<https://openlibrary.org/isbn/9781118443613> · verificado 2026-11-25
+
+- *Qué contiene:* Explica los términos de una inversión de capital de riesgo: hoja de términos, valoración y derechos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Venture Deals» para definir qué se busca del inversionista además del capital y qué condiciones se aceptan.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para definir qué se busca del inversionista además del capital y qué condiciones se aceptan.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

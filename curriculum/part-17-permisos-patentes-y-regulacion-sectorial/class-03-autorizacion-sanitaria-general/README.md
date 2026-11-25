@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Actividad calificada** | Clasificación por riesgo que determina exigencias. |
 | **Vigencia** | Plazo de la autorización y condiciones de renovación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los pasos de una autorización sanitaria
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Autorización sanitaria"]
-    C --> A2["Informe sanitario"]
-    C --> A3["Actividad calificada"]
-    C --> A4["Vigencia"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la actividad<br/>requiere autorización<br/>sanitaria y qué exige"}}
-    D --> E["Entregable<br/>análisis de exigibilidad<br/>sanitaria con requisitos,<br/>plazos y costo estimado del<br/>trámite"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La autorización sanitaria es exigible en alimentos, salud, residuos, productos químicos y actividades industriales, entre otras, y se tramita ante la SEREMI de Salud regional.
+
+![Esquema: Los pasos de una autorización sanitaria](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño es un paso del trámite. No empieces a producir o a atender antes de la autorización: operar sin ella expone a clausura y sanciones.
+
+**Una imagen cotidiana:** Es una licencia de conducir: primero se prueba que cumples los requisitos, y recién después puedes manejar en la calle.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La autorización sanitaria es exigible en alimentos, salud, residuos, productos 
 
 ### 2. Cómo se traduce en la práctica
 
-Es exigible en alimentos, salud, residuos, productos químicos y actividades industriales, entre otras, y se tramita ante la SEREMI de Salud regional. Los plazos reales superan lo estimado, de modo que iniciar el trámite después de comprometer arriendo y equipamiento produce meses de operación imposible.
+Consulta en la SEREMI de Salud de tu región si tu actividad requiere autorización y qué documentos exige. Diseña el local y el proceso considerando los requisitos desde el inicio. Solicita la autorización con anticipación y programa el tiempo de espera en tu presupuesto de arranque. Archiva la resolución y su vigencia y calendariza la renovación.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Es exigible en alimentos, salud, residuos, productos químicos y actividades ind
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Elige una actividad (por ejemplo, un taller de reparación de baterías) y escribe en una hoja los cinco peldaños. Para cada uno anota qué documento necesitarías, quién lo emite y cuánto crees que tardaría. Identifica cuál es el cuello de botella y qué decisión de diseño del local lo facilitaría. Calcula cuántas semanas estarías sin vender mientras esperas la autorización. Las estimaciones del ejercicio son ilustrativas.
+
+### 5. En qué se apoya
+
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): ChileAtiende y la autoridad sanitaria regional informan los trámites de autorización sanitaria y sus requisitos.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Sanitario, consultable en la Biblioteca del Congreso Nacional, es la base legal de las autorizaciones y de la fiscalización sanitaria.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

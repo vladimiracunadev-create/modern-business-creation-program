@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Territorio** | Asignación de cuentas por criterio geográfico o vertical. |
 | **Descalificación** | Decisión de no perseguir una oportunidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Quién merece tu tiempo comercial
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["ICP comercial"]
-    C --> A2["Señal de ajuste"]
-    C --> A3["Territorio"]
-    C --> A4["Descalificación"]
-    A1 & A2 & A3 & A4 --> D{{"definir a qué cuentas se<br/>dedica el tiempo comercial y a<br/>cuáles no"}}
-    D --> E["Entregable<br/>ICP comercial con señales de<br/>ajuste, criterios de<br/>descalificación y asignación<br/>de territorio"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Tu mejor cliente no es el que cierra más rápido, sino el que se queda y deja margen; el tiempo comercial es limitado y debe ir hacia él.
+
+![Esquema: Quién merece tu tiempo comercial](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica a tus últimos veinte clientes en los dos ejes. Si los que más retienen no son los que más rápido cerraron, tu tiempo comercial está mal asignado.
+
+**Una imagen cotidiana:** Es como regar un campo: no se riega todo por igual, se riega donde la cosecha se repite año tras año.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El ICP comercial se construye mirando los clientes que retienen y son rentables,
 
 ### 2. Cómo se traduce en la práctica
 
-Los clientes que cierran rápido suelen ser los que menos exigen y también los que menos valor obtienen, y por eso se van. Descalificar temprano es una capacidad, no una pérdida: cada oportunidad sin ajuste consume tiempo comercial que no vuelve y ensucia el forecast.
+Para construir el ICP parte por los datos y no por la intuición: lista tus clientes actuales, marca los que siguen activos después de 12 meses y dejan margen, y busca qué tienen en común (tamaño, rubro, área que decide, dolor que resolvías). Esos atributos observables son tus señales de ajuste. Luego escribe la regla de descalificación en una frase concreta, por ejemplo «no perseguimos cuentas sin un área de operaciones», y úsala en la primera conversación.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Los clientes que cierran rápido suelen ser los que menos exigen y también los 
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una consultora cerró 12 clientes en el año. Siete eran pequeños y cerraron en menos de dos semanas, pero cinco se fueron antes de seis meses. Tres eran medianos, tardaron dos meses en cerrar y siguen activos con el doble de facturación. El perfil ideal no es «cierra rápido»: es «empresa mediana con un área de operaciones y un dolor medible». Descalificar a las pequeñas liberó cerca de un tercio del tiempo comercial (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Crossing the Chasm (3.ª ed., 2014)** (HarperBusiness): Moore sostiene que conviene concentrar la entrada en un segmento acotado y ganarlo antes de ampliar; el ICP aplica esa lógica al tiempo comercial.
+- **Obviously Awesome (2019)** (Ambient Press): Dunford propone partir de los clientes que mejor encajan con el producto para definir el posicionamiento y a quién se le vende primero.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir a qué cuentas se dedica el tiempo comercial y a cuáles no.
+
+**HarperBusiness — Crossing the Chasm (3.ª ed., 2014)**  
+<https://openlibrary.org/isbn/9780062292988> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo una empresa con tecnología o servicio nuevo pasa de los primeros adoptantes al mercado mayoritario concentrándose en un segmento acotado antes de ampliar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Crossing the Chasm (3.ª ed., 2014)» para definir a qué cuentas se dedica el tiempo comercial y a cuáles no.
+
+**Ambient Press — Obviously Awesome (2019)**  
+<https://openlibrary.org/isbn/9781999023003> · verificado 2026-11-25
+
+- *Qué contiene:* Propone un método para definir el posicionamiento de un producto partiendo de los clientes que mejor encajan y del valor que reconocen.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Obviously Awesome (2019)» para definir a qué cuentas se dedica el tiempo comercial y a cuáles no.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

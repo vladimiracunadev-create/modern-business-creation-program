@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Adecuación de producto** | Cambios exigidos por normativa o preferencias del mercado destino. |
 | **Costo de entrada** | Inversión en certificaciones, adecuación y promoción. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Está tu empresa lista para exportar?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Preparación exportadora"]
-    C --> A2["Capacidad productiva"]
-    C --> A3["Adecuación de producto"]
-    C --> A4["Costo de entrada"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la empresa está<br/>en condiciones reales de<br/>exportar y a qué costo"}}
-    D --> E["Entregable<br/>diagnóstico de preparación<br/>exportadora con brechas de<br/>capacidad, adecuación y costo<br/>de entrada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Exportar exige capacidad productiva estable, un margen que soporte los costos adicionales y capacidad administrativa para gestionar la documentación; muchas empresas descubren tarde que su producto requiere adecuaciones.
+
+![Esquema: ¿Está tu empresa lista para exportar?](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño es una condición. Si falla uno, el siguiente no se sostiene: de nada sirve un pedido grande sin capacidad para cumplirlo ni un margen que pague el flete.
+
+**Una imagen cotidiana:** Es preparar una expedición: antes de partir, revisas el equipo, el presupuesto, el mapa y a quienes te acompañan.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Exportar exige capacidad productiva estable, margen que soporte los costos adici
 
 ### 2. Cómo se traduce en la práctica
 
-Muchas empresas descubren tarde que la adecuación del producto —etiquetado, certificaciones, formatos— cuesta más que el envío. Y comprometer volumen que la capacidad no sostiene daña la relación con un comprador extranjero de forma difícil de reparar, porque el mercado de referencias es pequeño.
+Haz un diagnóstico de preparación: capacidad, costos de entrada, adecuación del producto y capacidad administrativa. Estima el costo total de la primera exportación y el capital de trabajo que necesitarás hasta el cobro. Aprovecha los estudios y el apoyo de ProChile para elegir el mercado. No exportes por un pedido aislado: planifica la continuidad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Muchas empresas descubren tarde que la adecuación del producto —etiquetado, c
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿puedes producir un 30 % más sin descuidar a tus clientes actuales? Dos: ¿el margen alcanza para cubrir flete, seguros, certificaciones y financiamiento del cobro? Tres: ¿tu producto cumple la normativa y la preferencia del destino? Una empresa de conservas pequeña responde sí a la primera y no a la tercera, y decide adaptar su etiqueta y obtener la certificación antes de buscar compradores (ejemplo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Programas, estudios de mercado y promoción** (ProChile): ProChile publica programas, estudios de mercado y herramientas de promoción para diagnosticar y preparar a las empresas que quieren exportar.
+- **Exportación de servicios** (ProChile): ProChile informa los requisitos y apoyos para exportar servicios, que complementan el diagnóstico de preparación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
 

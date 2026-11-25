@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Días de cobro** | Plazo promedio efectivo de cobranza. |
 | **Días de pago** | Plazo promedio de pago a proveedores. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El dinero da una vuelta antes de volver
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Capital de trabajo"]
-    C --> A2["Días de inventario"]
-    C --> A3["Días de cobro"]
-    C --> A4["Días de pago"]
-    A1 & A2 & A3 & A4 --> D{{"determinar cuánta caja libera<br/>cada mejora en inventario,<br/>cobro o pago"}}
-    D --> E["Entregable<br/>cálculo de capital de trabajo<br/>con sensibilidad a cambios en<br/>días de inventario, cobro y<br/>pago"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El capital de trabajo requerido crece proporcionalmente a las ventas, por eso crecer consume caja; reducirlo actuando sobre inventario, cobro y pago libera dinero sin financiamiento externo.
+
+![Esquema: El dinero da una vuelta antes de volver](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo muestra la vuelta que da el dinero. Cada paso tarda días; mientras más largo el ciclo, más caja debes tener para sostenerlo. Acortarlo es como fabricar caja.
+
+**Una imagen cotidiana:** Es un tobogán de agua con bombeo: el agua sube, baja y vuelve; si baja lento, necesitas más agua para mantenerlo funcionando.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El capital de trabajo requerido crece proporcionalmente a las ventas: por eso el
 
 ### 2. Cómo se traduce en la práctica
 
-El capital de trabajo crece proporcionalmente a las ventas: por eso el crecimiento consume caja. Actuar sobre los días de inventario, cobro y pago libera dinero sin costo financiero, aunque alargar el pago a proveedores tiene un límite: pasado cierto punto daña el suministro y encarece la compra.
+Mide tus tres días: de inventario, de cobro y de pago, y calcula el ciclo y el capital de trabajo. Para cada mejora de un día, estima cuánto dinero libera. Prioriza las palancas más fáciles: acordar pagos más largos, incentivar cobros anticipados o reducir inventarios lentos. Antes de crecer, calcula cuánto capital de trabajo necesitará el nuevo volumen.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El capital de trabajo crece proporcionalmente a las ventas: por eso el crecimien
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una distribuidora mantiene inventario por 60 días, cobra a 45 y paga a 30. Su ciclo es de 75 días: por cada millón de venta mensual necesita financiar gran parte del costo durante dos meses y medio. Después: negocia pagar a 45 días, baja el inventario a 40 días y consigue cobrar a 35. El ciclo se acorta a 30 días y se liberan decenas de millones de caja sin pedir un crédito (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican el capital de trabajo y el efecto de los días de cobro, pago e inventario sobre la caja.
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers tratan la administración del capital de trabajo como parte de las decisiones financieras de corto plazo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para determinar cuánta caja libera cada mejora en inventario, cobro o pago.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para determinar cuánta caja libera cada mejora en inventario, cobro o pago.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para determinar cuánta caja libera cada mejora en inventario, cobro o pago.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

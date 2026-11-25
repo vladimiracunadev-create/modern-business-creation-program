@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Rumor** | Información no oficial que llena el vacío comunicacional. |
 | **Cadencia** | Frecuencia comprometida de actualización. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La cadencia de comunicación durante una crisis
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Comunicación de crisis<br/>interna"]
-    C --> A2["Comunicación a clientes"]
-    C --> A3["Rumor"]
-    C --> A4["Cadencia"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué se comunica, a<br/>quién, cuándo y con qué<br/>cadencia"}}
-    D --> E["Entregable<br/>plan de comunicación de crisis<br/>con audiencias, mensajes,<br/>canales y cadencia de<br/>actualización"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En una crisis el vacío de información se llena con rumores, siempre peores que la realidad; comunicar temprano, decir lo que no se sabe y comprometer una fecha de actualización sostiene la confianza.
+
+![Esquema: La cadencia de comunicación durante una crisis](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo es una promesa de cadencia. Lo importante no es tener todas las respuestas, sino volver a hablar cuando se dijo que se haría. Este modelo complementa el protocolo de audiencias de la guía de reputación.
+
+**Una analogía:** Es un reporte de tráfico: aunque no haya novedades, avisar «sigue igual» da tranquilidad a quien espera.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En una crisis el vacío de información se llena con rumores, siempre peores que
 
 ### 2. Cómo se traduce en la práctica
 
-El vacío de información se llena con rumores, siempre peores que la realidad. Comunicar a clientes antes que al equipo destruye la credibilidad interna en el momento en que más se necesita, porque el equipo se entera de su propia situación por un tercero.
+Define qué se comunica, a quién, cuándo y con qué cadencia. Escribe un mensaje base con lo que se sabe, lo que no y la fecha de la próxima actualización. Informa primero al equipo, luego a los clientes y proveedores afectados, con una sola versión de los hechos. Registra cada comunicación. Usa las plantillas de comunicación por audiencia del programa.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El vacío de información se llena con rumores, siempre peores que la realidad. 
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Gerente: «No sabemos aún la causa de la falla». Vocera: «Podemos decir qué sabemos: cuándo comenzó, a quién afecta y qué hacemos. Y que lo que no sabemos, lo informaremos mañana a las 10». Gerente: «¿Y si mañana no hay novedades?». Vocera: «Igual comunicamos: “seguimos investigando”. Si no, el rumor llenará el silencio. Primero informemos al equipo, luego a los clientes afectados» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): Los artículos 28 y 33 de la Ley 19.496 exigen que la información dada a los consumidores sea veraz y comprobable, también en una comunicación de crisis.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los derechos de información de los trabajadores en situaciones que afectan el empleo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: el orden de las audiencias y la cadencia
 

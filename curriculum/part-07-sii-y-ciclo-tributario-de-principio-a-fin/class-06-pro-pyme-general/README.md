@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Crédito por impuesto de primera categoría** | Imputación contra los impuestos finales de los socios. |
 | **Límite de ingresos** | Tope promedio de ingresos que condiciona la permanencia. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Pagar impuesto sobre lo cobrado, no solo sobre lo facturado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Pro Pyme General"]
-    C --> A2["Tributación en base a caja"]
-    C --> A3["Crédito por impuesto de<br/>primera categoría"]
-    C --> A4["Límite de ingresos"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si Pro Pyme General<br/>es el régimen adecuado para el<br/>caso"}}
-    D --> E["Entregable<br/>evaluación de Pro Pyme General<br/>con proyección a tres años y<br/>verificación del límite de<br/>ingresos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Pro Pyme General combina una tasa preferente en la empresa con tributación de los socios al retirar y opera en base a caja, lo que suele favorecer a empresas con cobro lento.
+
+![Esquema: Pagar impuesto sobre lo cobrado, no solo sobre lo facturado](modelo-mental.svg)
+
+**Cómo leerlo:** La primera barra es lo vendido; la segunda, lo realmente cobrado. En una base devengada se paga sobre la primera; en una base de caja, sobre lo cobrado, que ayuda cuando los clientes pagan tarde.
+
+**Para recordarlo:** Es pagar el arriendo de una tienda según lo vendido o según lo cobrado: si tus clientes pagan a 60 días, la segunda forma te cuida la caja.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Pro Pyme General combina una tasa preferente a nivel de empresa con tributación
 
 ### 2. Cómo se traduce en la práctica
 
-Reconocer ingresos y gastos cuando se perciben y se pagan alinea el impuesto con la caja disponible, que es exactamente el problema de la pyme que vende a 60 días. La contrapartida es el límite de ingresos: superarlo obliga a salir del régimen, y esa salida conviene planificarse antes de que ocurra.
+Calcula cuántos días tardas en cobrar, cuánto vendes y cuánto de lo vendido está pendiente cada mes. Evalúa cómo cambia el pago de impuestos en cada régimen y revisa los requisitos y límites de ingresos del Pro Pyme General. Considera la tasa transitoria vigente y consulta a tu contador antes de cambiar de régimen, porque hay plazos para hacerlo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Reconocer ingresos y gastos cuando se perciben y se pagan alinea el impuesto con
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa que cobra a 60 días elige un régimen sin evaluar la base y paga impuestos sobre ventas que aún no cobró, forzándola a pedir un préstamo para pagar el fisco. La corrección: simular el flujo mensual en ambos regímenes y comprobar que la base de caja del Pro Pyme General reduce el desfase entre vender y pagar. Aun así, revisa el límite de ingresos para no perder el régimen (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Regímenes tributarios · Operación Renta 2026** (Servicio de Impuestos Internos): El SII describe los requisitos y el funcionamiento del régimen Pro Pyme General, incluida su tributación en base a caja.
+- **Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme** (Servicio de Impuestos Internos): La Circular 53 de 2025 informa la tasa transitoria aplicable en el régimen Pro Pyme y sus efectos en el PPM.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Convención de Viena** | Normativa uniforme sobre compraventa internacional de mercaderías. |
 | **Ejecución de sentencia** | Posibilidad real de hacer cumplir el fallo en el país de la contraparte. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El foro que suena bien y el que se puede ejecutar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley aplicable"]
-    C --> A2["Foro"]
-    C --> A3["Convención de Viena"]
-    C --> A4["Ejecución de sentencia"]
-    A1 & A2 & A3 & A4 --> D{{"definir ley aplicable y foro<br/>considerando la ejecutabilidad<br/>real"}}
-    D --> E["Entregable<br/>cláusulas internacionales con<br/>ley aplicable, foro y análisis<br/>de ejecutabilidad en el país<br/>de la contraparte"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Ganar un juicio en Chile contra una empresa sin bienes en Chile puede ser inútil: en contratos internacionales importa más la ejecutabilidad que la elección teórica del foro.
+
+![Esquema: El foro que suena bien y el que se puede ejecutar](modelo-mental.svg)
+
+**Cómo leerlo:** Compara los dos platos con la pregunta de dónde están los bienes de tu contraparte. La mejor cláusula es la que puedes hacer cumplir donde importa.
+
+**Piénsalo así:** Es cobrar a alguien que vive en otro país: tener razón no basta si no hay manera de que el pago llegue.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Ganar un juicio en Chile contra una empresa sin bienes en Chile puede ser inúti
 
 ### 2. Cómo se traduce en la práctica
 
-Ganar un juicio en Chile contra una empresa sin bienes en Chile puede ser inútil. El arbitraje internacional suele preferirse porque sus laudos son más fácilmente ejecutables entre países. Y conviene revisar si aplica supletoriamente la Convención de Viena sobre compraventa internacional.
+Define la ley aplicable y el foro considerando dónde están los bienes del comprador y cómo se ejecutaría una sentencia o un laudo. Evalúa la Convención de Viena sobre compraventa internacional cuando corresponda. Para montos bajos, considera mecanismos de resolución simples y un buen seguro de crédito. Un abogado con experiencia internacional debe revisar los contratos relevantes.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Ganar un juicio en Chile contra una empresa sin bienes en Chile puede ser inúti
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Exportador: «Nuestro contrato dice que los conflictos se resuelven en Chile». Abogada: «¿Dónde tiene bienes su cliente?». Exportador: «Solo en su país». Abogada: «Una sentencia chilena habría que reconocerla allá, con costos y plazos inciertos. Un arbitraje con sede neutral podría darte un laudo ejecutable». Exportador: «Entonces cambiemos la cláusula en los próximos contratos» (diálogo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Biblioteca del Congreso Nacional publica los tratados y normas sobre compraventa internacional y arbitraje que Chile ha incorporado a su ordenamiento.
+- **Getting to Yes (3.ª ed., 2011)** (Penguin): Fisher y Ury sugieren preparar de antemano alternativas de acuerdo si la negociación falla, idea aplicable a elegir cómo se resolverán los conflictos futuros.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -151,6 +156,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir ley aplicable y foro considerando la ejecutabilidad real.
+
+**Penguin — Getting to Yes (3.ª ed., 2011)**  
+<https://openlibrary.org/isbn/9780143118756> · verificado 2026-11-25
+
+- *Qué contiene:* Expone la negociación basada en intereses: separar a las personas del problema, generar opciones de beneficio mutuo y usar criterios objetivos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Getting to Yes (3.ª ed., 2011)» para definir ley aplicable y foro considerando la ejecutabilidad real.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Distribución del remanente** | Reparto entre socios de lo que queda. |
 | **Publicidad del acto** | Inscripción y publicación exigidas. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo se disuelve una sociedad en orden
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Disolución"]
-    C --> A2["Liquidación societaria"]
-    C --> A3["Distribución del remanente"]
-    C --> A4["Publicidad del acto"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar la disolución con las<br/>formalidades y el orden<br/>correcto"}}
-    D --> E["Entregable<br/>plan de disolución con<br/>acuerdo, liquidación,<br/>distribución del remanente y<br/>trámites de publicidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La disolución exige acuerdo con el quórum estatutario, liquidación de activos y pasivos y cumplimiento de la publicidad registral; omitir la formalidad deja la sociedad existente para ciertos efectos.
+
+![Esquema: Cómo se disuelve una sociedad en orden](modelo-mental.svg)
+
+**Qué mirar primero:** Cada casilla es un paso obligatorio. El orden importa: primero se paga a los acreedores y solo después se reparte lo que quede entre los socios.
+
+**Una analogía:** Es cerrar una cuenta compartida: se pagan las deudas, se reparte el saldo y se avisa al banco para que no queden cargos pendientes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La disolución exige acuerdo con el quórum estatutario, liquidación de activos
 
 ### 2. Cómo se traduce en la práctica
 
-Distribuir el remanente antes de pagar todos los pasivos expone a los socios a responder con lo recibido. Y dejar de operar sin ejecutar la disolución formal mantiene la sociedad existente frente a terceros, con las obligaciones que eso implica y sin nadie a cargo de cumplirlas.
+Revisa los estatutos y el pacto de socios para el quórum de la disolución. Nombra un liquidador, haz un inventario y paga las deudas respetando las prioridades legales. Distribuye el remanente solo después. Cumple las formalidades en el Registro y ante el SII. Si la empresa es insolvente, considera las vías concursales en lugar de una disolución simple.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Distribuir el remanente antes de pagar todos los pasivos expone a los socios a r
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿el acuerdo de disolución cumple el quórum de los estatutos? Dos: ¿quién será el liquidador y cuál es el inventario de activos y pasivos? Tres: ¿se han cumplido las formalidades de publicidad? Dos socios cierran su consultora: acuerdan la disolución, nombran al liquidador, pagan a proveedores y al SII, reparten el saldo y actualizan el registro.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades informa los trámites de disolución y su publicidad para las sociedades constituidas por ese régimen.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las leyes de sociedades y la ley concursal, consultables en la BCN, regulan la disolución, la liquidación y el orden de pago a los acreedores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

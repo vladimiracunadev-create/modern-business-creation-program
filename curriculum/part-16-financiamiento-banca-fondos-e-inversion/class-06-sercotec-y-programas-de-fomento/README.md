@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cofinanciamiento** | Aporte propio exigido junto al subsidio. |
 | **Rendición** | Obligación de documentar el uso de los fondos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El camino de una postulación a un fondo de fomento
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SERCOTEC"]
-    C --> A2["Convocatoria"]
-    C --> A3["Cofinanciamiento"]
-    C --> A4["Rendición"]
-    A1 & A2 & A3 & A4 --> D{{"determinar a qué instrumentos<br/>la empresa es elegible y<br/>cuándo postular"}}
-    D --> E["Entregable<br/>mapa de instrumentos SERCOTEC<br/>aplicables con requisitos,<br/>plazos y exigencias de<br/>rendición"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los instrumentos de fomento se pierden por errores formales más que por la calidad del proyecto: postulaciones fuera de plazo, documentación incompleta o empresas que no cumplen el perfil.
+
+![Esquema: El camino de una postulación a un fondo de fomento](modelo-mental.svg)
+
+**Cómo leerlo:** La línea ordena el proceso. El hito destacado es el envío: no por ser el más difícil, sino porque es el que se pierde por demoras. Cada paso anterior prepara ese momento.
+
+**Una analogía:** Es entregar la tarea universitaria: un trabajo excelente fuera de plazo no vale nada, uno regular a tiempo suma.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los instrumentos de fomento se pierden por errores formales más que por calidad
 
 ### 2. Cómo se traduce en la práctica
 
-Los instrumentos de fomento se pierden por errores formales más que por calidad del proyecto: postulaciones fuera de plazo, documentación incompleta o perfil de empresa que no calza. Y la rendición exige respaldo documental estricto: sin él, el subsidio debe devolverse.
+Lee las bases completas y verifica que tu empresa cumpla el perfil. Crea una lista de verificación de documentos con sus fechas de vigencia y prepara todo con al menos una semana de anticipación. Planifica el cofinanciamiento y la rendición desde el comienzo: cada gasto debe estar respaldado y en la categoría permitida. Si no eres elegible, no postules: consume tiempo y credibilidad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ Los instrumentos de fomento se pierden por errores formales más que por calidad
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una pyme de alimentos prepara un proyecto sólido para un fondo de SERCOTEC, pero deja la postulación para el último día; el sistema se satura, falta un certificado de vigencia y su postulación queda fuera de bases. Otra empresa con un proyecto más simple había reunido todo dos semanas antes y obtuvo el cofinanciamiento. En la ejecución, rindió cada gasto con facturas y evidencia según las bases (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Fomento para micro y pequeñas empresas** (Servicio de Cooperación Técnica): SERCOTEC publica las convocatorias, los perfiles de elegibilidad y las reglas de rendición de sus programas de fomento a micro y pequeñas empresas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Responsabilidad solidaria** | Cada socio puede ser perseguido por el total de la deuda. |
 | **Administración estatutaria** | Reparto de facultades definido en el estatuto. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Quién responde cuánto en una sociedad antigua
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Sociedad colectiva"]
-    C --> A2["Sociedad en comandita"]
-    C --> A3["Responsabilidad solidaria"]
-    C --> A4["Administración estatutaria"]
-    A1 & A2 & A3 & A4 --> D{{"reconocer estas estructuras al<br/>evaluar una empresa<br/>preexistente"}}
-    D --> E["Entregable<br/>ficha comparativa de<br/>responsabilidad y<br/>administración en colectiva,<br/>comandita, SRL y SpA"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Estas figuras casi no se usan hoy para negocios nuevos, pero importan porque aparecen en estructuras antiguas que se heredan o se adquieren, y su responsabilidad solidaria ilimitada puede sorprender.
+
+![Esquema: Quién responde cuánto en una sociedad antigua](modelo-mental.svg)
+
+**Lectura guiada:** Mira quién responde con qué. Si en una sociedad que vas a heredar o comprar hay socios con responsabilidad solidaria, tu patrimonio puede quedar comprometido por deudas de la empresa.
+
+**Para recordarlo:** Es heredar una casa con hipoteca: lo que parece un activo puede venir con una deuda que también pasa a tus manos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Estas figuras casi no se usan hoy en Chile para negocios nuevos, pero conocerlas
 
 ### 2. Cómo se traduce en la práctica
 
-La sociedad colectiva hace responder a cada socio solidaria e ilimitadamente por el total de la deuda. Adquirir participación en una sin dimensionar ese efecto es asumir un pasivo sin techo, y es el tipo de hallazgo que aparece en una due diligence apresurada de la parte 22.
+Si evalúas una empresa preexistente, pide la escritura, sus modificaciones y la lista de socios con su tipo de responsabilidad. Identifica quién administra, quién responde solidariamente y qué deudas hay. Antes de heredar, comprar o entrar, considera la transformación a una forma de responsabilidad limitada y revisa quién puede objetar el cambio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,16 @@ La sociedad colectiva hace responder a cada socio solidaria e ilimitadamente por
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: un heredero recibe el 30 % de una sociedad colectiva familiar y la considera una inversión sin riesgo. La corrección: leer la escritura antes de aceptar. Descubre que, como socio colectivo, responde solidariamente por las deudas, incluidas obligaciones laborales anteriores a su ingreso, y decide transformar la sociedad en una SpA y renegociar con los acreedores con asesoría legal (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código de Comercio regula las sociedades colectivas y en comandita y la responsabilidad de sus socios; su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

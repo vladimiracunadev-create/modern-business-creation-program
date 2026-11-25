@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **ROS** | Reporte de operación sospechosa. |
 | **ROE** | Reporte de operaciones en efectivo sobre el umbral. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Tu empresa es sujeto obligado ante la UAF?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["UAF"]
-    C --> A2["Sujeto obligado"]
-    C --> A3["ROS"]
-    C --> A4["ROE"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la empresa es<br/>sujeto obligado y qué deberes<br/>activa"}}
-    D --> E["Entregable<br/>análisis de calificación como<br/>sujeto obligado con deberes<br/>aplicables y designaciones<br/>requeridas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 19.913 define los sectores obligados a reportar, entre ellos inmobiliarias, casas de cambio, notarios, corredores, casinos y ciertas actividades con manejo de efectivo; ser sujeto obligado activa un programa de cumplimiento.
+
+![Esquema: ¿Tu empresa es sujeto obligado ante la UAF?](modelo-mental.svg)
+
+**Qué mirar primero:** Recorre el árbol con tu actividad. Si figuras en el listado de la UAF, hay obligaciones concretas y plazos. Si no, tus clientes o tu banco pueden pedirte información aunque no seas sujeto obligado directo.
+
+**Una imagen cotidiana:** Es una lista de pasajeros que deben mostrar documentos en un control: si tu actividad está en la lista, debes seguir el procedimiento sin excepciones.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 19.913 define los sectores obligados a reportar: entre otros, inmobiliari
 
 ### 2. Cómo se traduce en la práctica
 
-Inmobiliarias, casas de cambio, notarios, corredores, casinos y varias actividades con manejo de efectivo entran sin ser instituciones financieras. Desconocer la condición no exime de la sanción, y las obligaciones se activan completas: oficial de cumplimiento, registros y reportes.
+Consulta el listado de sujetos obligados de la UAF y determina si tu actividad está incluida. Si lo estás, inscríbete, designa al responsable, define el procedimiento de reporte y capacita al personal. Guarda evidencia de tu funcionamiento. Si no lo estás, de todos modos aplica una debida diligencia razonable con clientes y proveedores.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Inmobiliarias, casas de cambio, notarios, corredores, casinos y varias actividad
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: revisa el listado de sujetos obligados de la UAF y verifica si tu actividad aparece. Dos: si aparece, inscríbete, designa un oficial de cumplimiento y establece un procedimiento de reporte de operaciones sospechosas y en efectivo. Tres: si no aparece, prepárate para atender solicitudes de debida diligencia de bancos o clientes. Una inmobiliaria descubre que es sujeto obligado y estructura su programa antes de su siguiente venta.
+
+### 5. En qué se apoya
+
+- **Sujetos obligados · Ley 19.913** (Unidad de Análisis Financiero): La Unidad de Análisis Financiero publica el listado de sujetos obligados y las instrucciones para su inscripción y para los reportes de operaciones sospechosas y en efectivo.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.913, consultable en la Biblioteca del Congreso Nacional, crea la UAF y define los deberes de los sujetos obligados.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Drag along** | Derecho del mayoritario a arrastrar al minoritario en una venta. |
 | **No competencia** | Obligación de no competir durante y después de la relación societaria. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Escenarios que un pacto resuelve por anticipado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Pacto de accionistas"]
-    C --> A2["Tag along"]
-    C --> A3["Drag along"]
-    C --> A4["No competencia"]
-    A1 & A2 & A3 & A4 --> D{{"definir las reglas de salida,<br/>transferencia y conducta entre<br/>socios"}}
-    D --> E["Entregable<br/>pacto de fundadores con<br/>vesting, tag along, drag<br/>along, no competencia y<br/>resolución de conflictos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El pacto de accionistas resuelve por anticipado los escenarios que destruyen sociedades: salida, muerte, incapacidad, incumplimiento, competencia y desacuerdo.
+
+![Esquema: Escenarios que un pacto resuelve por anticipado](modelo-mental.svg)
+
+**Qué mirar primero:** Cada satélite es una cláusula que previene un conflicto. Si un escenario no tiene cláusula, se resolverá cuando haya enojo y poca información.
+
+**Una imagen cotidiana:** Es un reglamento de convivencia: nadie lo lee cuando todo va bien, pero cuando surge el conflicto, es lo único que evita la pelea.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El pacto de accionistas resuelve por anticipado los escenarios que destruyen soc
 
 ### 2. Cómo se traduce en la práctica
 
-El pacto resuelve por anticipado los escenarios que destruyen sociedades: salida, muerte, incapacidad, incumplimiento, competencia y desacuerdo. Es un documento privado que complementa los estatutos, y copiar uno extranjero sin adaptarlo produce cláusulas inaplicables en Chile justo cuando se necesitan.
+Redacta el pacto con un abogado y cubre, como mínimo, salida, muerte, incapacidad, incumplimiento, competencia, valoración y bloqueo. Deja constancia de qué cláusulas son de los estatutos y cuáles son privadas entre socios. Revísalo cuando entre un nuevo accionista o cuando cambie tu plan de financiamiento. Usa las condiciones típicas de inversionistas como referencia.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ El pacto resuelve por anticipado los escenarios que destruyen sociedades: salida
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: dos socios fundan una empresa sin pacto porque se llevan bien. Cinco años después, uno quiere vender a un tercero y el otro se opone; el que se va abre una empresa competidora y se lleva a dos clientes. La corrección: firmar desde el inicio un pacto con derecho de preferencia, no competencia por dos años, arrastre y acompañamiento, y un mecanismo de resolución de bloqueos (caso ilustrativo). No es burocracia: es un seguro.
+
+### 5. En qué se apoya
+
+- **Venture Deals** (Wiley): Feld y Mendelson explican cláusulas habituales de acuerdos entre accionistas y con inversionistas, como derechos de arrastre y de acompañamiento.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código de Comercio y las leyes de sociedades fijan el marco de los estatutos; el pacto de accionistas es un contrato privado que los complementa.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir las reglas de salida, transferencia y conducta entre socios.
+
+**Wiley — Venture Deals**  
+<https://openlibrary.org/isbn/9781118443613> · verificado 2026-11-25
+
+- *Qué contiene:* Explica los términos de una inversión de capital de riesgo: hoja de términos, valoración y derechos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Venture Deals» para definir las reglas de salida, transferencia y conducta entre socios.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

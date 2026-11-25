@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Pacto de fundadores** | Reglas de vesting, salida y conflicto. |
 | **Gobierno inicial** | Ritmo y registro de decisiones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Forma societaria y pacto del caso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Forma societaria del caso"]
-    C --> A2["Estructura de capital"]
-    C --> A3["Pacto de fundadores"]
-    C --> A4["Gobierno inicial"]
-    A1 & A2 & A3 & A4 --> D{{"elegir la forma societaria y<br/>redactar el pacto de<br/>fundadores del caso"}}
-    D --> E["Entregable<br/>decisión societaria<br/>justificada con estructura de<br/>capital y pacto de fundadores<br/>del caso"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Esta etapa traduce el modelo en una estructura jurídica: tipo societario, capital, control y reglas entre socios; la evaluación revisa que la elección tenga una justificación explícita y un pacto que resuelva los conflictos probables.
+
+![Esquema: Forma societaria y pacto del caso](modelo-mental.svg)
+
+**Lectura guiada:** Recorre el árbol con las decisiones de tu caso. La forma societaria no es un trámite: define el control, el crecimiento posible y el costo de cambiar después. El pacto resuelve lo que los estatutos no.
+
+**Para recordarlo:** Es elegir el vehículo para un viaje largo: depende de cuántos van, qué carga llevan y por dónde pasarán.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Esta etapa traduce el modelo en una estructura jurídica: tipo societario, capit
 
 ### 2. Cómo se traduce en la práctica
 
-La justificación debe usar los cuatro criterios de la parte 05 y no la costumbre. Y el pacto debe cubrir vesting, salida, muerte, incumplimiento, competencia y mecanismo de resolución de conflictos: omitir cualquiera deja el escenario correspondiente sin regla.
+Justifica por escrito la forma societaria con las cuatro preguntas: dueños, capital externo, exposición patrimonial y régimen tributario. Define el capital, la forma de entero y el gobierno inicial. Redacta el pacto de fundadores con vesting, salida, no competencia, resolución de bloqueos y confidencialidad. Registra los supuestos y las decisiones en el expediente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La justificación debe usar los cuatro criterios de la parte 05 y no la costumbr
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿cuántos fundadores hay y cuánto aporta cada uno? Dos: ¿planeas inversión externa? Tres: ¿qué ocurre si un fundador se va, no cumple o discrepa? La estudiante con una socia que aportará el taller elige una SpA con acciones iguales, vesting de cuatro años con cliff de un año, derecho de preferencia y un mecanismo de desempate, y escribe por qué eligió cada cláusula.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades informa los tipos societarios disponibles y sus requisitos de constitución.
+- **Secrets of Sand Hill Road** (Portfolio): Kupor explica el vesting y los términos que los inversionistas esperan ver en el pacto de fundadores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para elegir la forma societaria y redactar el pacto de fundadores del caso.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para elegir la forma societaria y redactar el pacto de fundadores del caso.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

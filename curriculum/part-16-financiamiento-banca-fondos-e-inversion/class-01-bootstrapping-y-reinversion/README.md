@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Costo de oportunidad** | Retorno alternativo del capital reinvertido. |
 | **Control** | Grado de decisión que se conserva al no diluirse. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Crecer con caja propia o con capital externo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Bootstrapping"]
-    C --> A2["Reinversión"]
-    C --> A3["Costo de oportunidad"]
-    C --> A4["Control"]
-    A1 & A2 & A3 & A4 --> D{{"decidir si el crecimiento se<br/>financia con caja propia o con<br/>capital externo"}}
-    D --> E["Entregable<br/>análisis de crecimiento con<br/>caja propia versus capital<br/>externo, con efecto en control<br/>y velocidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Financiarse con la propia operación conserva el control y obliga a disciplina de márgenes, pero limita la velocidad; la decisión depende de si el mercado premia llegar primero.
+
+![Esquema: Crecer con caja propia o con capital externo](modelo-mental.svg)
+
+**Qué mirar primero:** Compara los dos platos. Ninguno es mejor en abstracto: el correcto depende de tu mercado, tu margen y lo que quieras ser. Lo costoso es elegir uno por moda o por miedo.
+
+**Una imagen cotidiana:** Es la diferencia entre construir una casa con tus ahorros, ladrillo a ladrillo, o con un crédito que te permite terminarla rápido pero te obliga a pagar y a rendir cuentas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Financiarse con la propia operación conserva control y obliga a disciplina de m
 
 ### 2. Cómo se traduce en la práctica
 
-Financiarse con la operación conserva control y obliga a disciplina de márgenes, pero limita la velocidad. Descartar el capital externo por principio sin evaluar si existe una ventana que se cierra es tan arriesgado como levantarlo sin necesidad: ambas decisiones deben justificarse con el mercado, no con la identidad.
+Calcula cuánto puedes crecer con tu caja propia: utilidad retenida, capital de trabajo disponible y ritmo posible. Compara con lo que ganarías de llegar antes al mercado. Estima el costo de oportunidad: lo que pierdes por ir más lento frente a lo que cedes en control. Decide con números y evalúa los instrumentos de fomento antes de pensar en inversionistas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Financiarse con la operación conserva control y obliga a disciplina de márgene
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Fundadora: «Mi competidor levantó capital y abrió tres ciudades; ¿yo debería hacerlo?». Mentor: «¿Tu mercado premia llegar primero?». Fundadora: «No: los clientes compran por confianza, y se construye lento». Mentor: «Entonces reinvierte tus utilidades, mantén el control y abre una ciudad cuando la anterior sea rentable. El capital sirve cuando la velocidad cambia el resultado» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Secrets of Sand Hill Road** (Portfolio): Kupor explica qué implica levantar capital de riesgo, entre ello la dilución, las expectativas de retorno y la pérdida de control, para evaluar si conviene.
+- **Fomento para micro y pequeñas empresas** (Servicio de Cooperación Técnica): SERCOTEC publica programas de fomento que permiten financiar parte del crecimiento sin ceder participación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para decidir si el crecimiento se financia con caja propia o con capital externo.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para decidir si el crecimiento se financia con caja propia o con capital externo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Recepción definitiva** | Aprobación final de la obra ejecutada. |
 | **Profesional competente** | Arquitecto o ingeniero responsable ante la dom. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Obras: del permiso a la recepción definitiva
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["LGUC y OGUC"]
-    C --> A2["Permiso de edificación"]
-    C --> A3["Recepción definitiva"]
-    C --> A4["Profesional competente"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué permisos exige<br/>la obra y quién es el<br/>profesional responsable"}}
-    D --> E["Entregable<br/>plan de permisos de obra con<br/>hitos, profesional responsable<br/>y plazos estimados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Construir o remodelar exige un permiso de edificación previo y una recepción definitiva posterior; operar sin recepción impide obtener la patente y expone a sanciones.
+
+![Esquema: Obras: del permiso a la recepción definitiva](modelo-mental.svg)
+
+**Cómo leerlo:** Cada casilla debe cumplirse en orden. Saltarse el permiso para ahorrar tiempo suele terminar en regularizaciones caras o en la imposibilidad de operar.
+
+**Una imagen cotidiana:** Es la secuencia de un título universitario: sin las etapas aprobadas, no puedes recibirte, por buena que sea tu práctica final.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Construir o remodelar exige permiso de edificación previo y recepción definiti
 
 ### 2. Cómo se traduce en la práctica
 
-Ejecutar sin permiso confiando en regularizar después es una apuesta que puede no tener retorno: si la obra infringe normas urbanísticas, la regularización simplemente no procede. Y operar sin recepción definitiva impide obtener la patente, de modo que el local queda terminado e inutilizable.
+Antes de construir o remodelar, define si necesitas permiso de edificación y quién será el profesional competente responsable. Ejecuta la obra según el permiso y solicita la recepción definitiva al terminar. Guarda los planos y certificados. Si el inmueble ya tiene obras sin permiso, evalúa las vías de regularización con un especialista antes de comprometerte.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ Ejecutar sin permiso confiando en regularizar después es una apuesta que puede 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Un restaurante amplía su cocina sin permiso para llegar a una temporada alta. Al solicitar la patente, la municipalidad detecta la ampliación sin recepción y rechaza el trámite; debe regularizar con planos, profesionales y multas durante 5 meses con el local cerrado. La competencia que tramitó el permiso de edificación y esperó la recepción abrió con la patente en regla (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley General de Urbanismo y Construcciones y su Ordenanza General regulan los permisos de edificación y la recepción de las obras, y se consultan en la BCN.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

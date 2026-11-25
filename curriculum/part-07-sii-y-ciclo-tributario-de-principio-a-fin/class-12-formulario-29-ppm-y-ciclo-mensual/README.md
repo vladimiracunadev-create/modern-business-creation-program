@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Fecha de vencimiento** | Día del mes en que vence según medio de pago y tipo de contribuyente. |
 | **Multa e interés** | Recargo por declaración o pago fuera de plazo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El ritmo mensual del F29
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Formulario 29"]
-    C --> A2["PPM"]
-    C --> A3["Fecha de vencimiento"]
-    C --> A4["Multa e interés"]
-    A1 & A2 & A3 & A4 --> D{{"definir el calendario mensual<br/>que asegura declarar y pagar<br/>en plazo"}}
-    D --> E["Entregable<br/>calendario tributario mensual<br/>con responsable, fecha de<br/>cierre contable y fecha de<br/>vencimiento"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El F29 es el ritmo mensual de la empresa: consolida IVA, PPM y retenciones, y exige tener la contabilidad al día antes del vencimiento y no después.
+
+![Esquema: El ritmo mensual del F29](modelo-mental.svg)
+
+**Cómo leerlo:** La línea ordena el mes. Lo que no está cerrado antes del vencimiento se declara con estimaciones o con errores. El hito final es el único que no se puede mover.
+
+**Una analogía:** Es el pago de las cuentas básicas de la casa: si no tienes la fecha anotada y el dinero reservado, la multa llega aunque seas buena persona.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El F29 es el ritmo mensual de la empresa: consolida IVA, PPM y retenciones. Su g
 
 ### 2. Cómo se traduce en la práctica
 
-El F29 consolida IVA, PPM y retenciones, y su gestión exige información al día. Cerrar la contabilidad después del vencimiento obliga a declarar con estimaciones y rectificar, con costo administrativo recurrente. El PPM, además, debe estar provisionado en el flujo o descuadra la caja del mes.
+Define un calendario mensual con fechas internas anteriores al vencimiento. Mantén las conciliaciones al día y reserva el IVA y el PPM en una cuenta aparte. Si hay dificultades de caja, consulta con tu contador alternativas antes del vencimiento; declarar sin pagar evita una multa, pero acumula reajustes e intereses.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ El F29 consolida IVA, PPM y retenciones, y su gestión exige información al dí
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Arma el calendario de un mes de tu empresa. Escribe las fechas de cierre contable, de revisión del registro, de cuadratura de IVA, PPM y retenciones y de vencimiento del F29. Asigna a cada una un responsable y un plazo de aviso. Calcula cuánto IVA y PPM esperarías pagar y en qué cuenta reservarías el dinero. Pregunta a tu contador qué ocurre si no puedes pagar la fecha y cuáles opciones existen. Las fechas del ejercicio son ilustrativas.
+
+### 5. En qué se apoya
+
+- **Registro de Compras y Ventas** (Servicio de Impuestos Internos): El SII propone la base del F29 a partir del Registro de Compras y Ventas, con el IVA a pagar por período.
+- **The Checklist Manifesto** (Metropolitan Books): Gawande muestra cómo las listas de verificación y los calendarios simples evitan omisiones en tareas recurrentes y críticas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 
@@ -188,6 +193,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Instruye la rebaja transitoria del IDPC Pro Pyme a 12,5 % en 2025 a 2027 y a 15 % en 2028, la rebaja a la mitad de los PPM, el factor de crédito por año y el requisito de cotización de la Ley 21.735.
 - *Cómo leerla:* Parte por el cuadro de año comercial, cotización y tasa: la tasa rebajada depende de que la cotización del empleador siga el calendario. Anota qué parte aplica al régimen general y cuál solo al Pro Pyme del N.º 3 de la letra D) del art. 14.
 - *Uso en esta clase:* aporta el marco de «Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme» para definir el calendario mensual que asegura declarar y pagar en plazo.
+
+**Metropolitan Books — The Checklist Manifesto**  
+<https://openlibrary.org/isbn/9780312430009> · verificado 2026-11-25
+
+- *Qué contiene:* Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Checklist Manifesto» para definir el calendario mensual que asegura declarar y pagar en plazo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

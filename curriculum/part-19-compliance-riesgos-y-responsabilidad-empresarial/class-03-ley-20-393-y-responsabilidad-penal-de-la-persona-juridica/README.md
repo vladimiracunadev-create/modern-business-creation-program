@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Encargado de prevención** | Responsable designado con autonomía y recursos. |
 | **Delito base** | Figura penal que puede generar responsabilidad de la empresa. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Puede la empresa responder penalmente por el delito de una persona?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley 20.393"]
-    C --> A2["Modelo de prevención"]
-    C --> A3["Encargado de prevención"]
-    C --> A4["Delito base"]
-    A1 & A2 & A3 & A4 --> D{{"determinar la exposición de la<br/>empresa y si corresponde<br/>implementar un modelo de<br/>prevención"}}
-    D --> E["Entregable<br/>diagnóstico de exposición bajo<br/>Ley 20.393 con delitos base<br/>aplicables al giro"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 20.393 permite condenar a la empresa por delitos cometidos en su interés o provecho cuando hubo incumplimiento de sus deberes de dirección y supervisión; un modelo de prevención implementado es la defensa principal.
+
+![Esquema: ¿Puede la empresa responder penalmente por el delito de una persona?](modelo-mental.svg)
+
+**Cómo leerlo:** Recorre el árbol con la pregunta de si el delito benefició a la empresa y si ella supervisó con diligencia. El modelo de prevención no elimina el delito, pero muestra que la empresa cumplió con su deber.
+
+**Una imagen cotidiana:** Es el dueño de un taller cuyo empleado causa un accidente por saltarse las normas: si el dueño nunca capacitó ni supervisó, la responsabilidad le llega a él.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 20.393 permite condenar a la empresa por delitos cometidos en su interés
 
 ### 2. Cómo se traduce en la práctica
 
-La ley permite condenar a la empresa por delitos cometidos en su interés cuando hubo incumplimiento de los deberes de dirección y supervisión. Asumir que solo aplica a grandes empresas es un error de lectura; lo que determina la exposición es la actividad y los delitos base que puede activar.
+Revisa qué delitos del catálogo se relacionan con tu actividad y estima tu exposición. Define si corresponde implementar un modelo de prevención proporcional a tu tamaño. Designa a un encargado con autonomía, capacita al equipo y deja evidencia de la operación del modelo. Consulta con un abogado penalista económico: la responsabilidad penal tiene consecuencias graves.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,16 @@ La ley permite condenar a la empresa por delitos cometidos en su interés cuando
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿qué delitos del catálogo podrían ocurrir en tu actividad (cohecho, lavado de activos, fraude)? Dos: ¿hay un beneficio para la empresa en ellos? Tres: ¿tienes un modelo de prevención con encargado, controles y evidencia de su operación? Una pyme de importación sin modelo se da cuenta de que un agente cometió cohecho para acelerar un trámite y que, ante una investigación, no tendría cómo demostrar que supervisó.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 20.393 regula la responsabilidad penal de las personas jurídicas y el modelo de prevención, y se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

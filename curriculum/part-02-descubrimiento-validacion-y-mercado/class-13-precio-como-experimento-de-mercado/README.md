@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Ancla** | Primer número que condiciona la percepción de todo el resto. |
 | **Elasticidad** | Sensibilidad de la demanda ante un cambio de precio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El precio como experimento: ¿dónde está el máximo?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Precio de referencia"]
-    C --> A2["Disposición a pagar"]
-    C --> A3["Ancla"]
-    C --> A4["Elasticidad"]
-    A1 & A2 & A3 & A4 --> D{{"fijar el precio inicial con un<br/>método declarado y un plan de<br/>prueba"}}
-    D --> E["Entregable<br/>experimento de precio con al<br/>menos dos niveles y registro<br/>de tasa de conversión"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El precio es la variable de negocio con mayor efecto sobre el resultado y la que más se decide por imitación; probarlo como experimento entrega más información que cualquier análisis.
+
+![Esquema: El precio como experimento: ¿dónde está el máximo?](modelo-mental.svg)
+
+**Cómo leerlo:** A precios bajos vendes mucho pero ganas poco por unidad; a precios altos ocurre al revés. El máximo del ingreso está entre ambos y solo se descubre probando niveles distintos.
+
+**Una imagen cotidiana:** Es afinar una guitarra: no sabes cuánto apretar la cuerda hasta que pruebas y escuchas el sonido.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El precio es la variable de negocio con mayor efecto sobre el resultado y la que
 
 ### 2. Cómo se traduce en la práctica
 
-Copiar el precio del competidor equivale a heredar su estructura de costos sin conocerla. Probar dos o tres niveles con distinta ancla y distinto empaquetado entrega más información sobre el valor percibido que cualquier encuesta, y ese aprendizaje se conserva cuando se fija el precio definitivo en la parte 09.
+Define el método con que fijarás el precio inicial: costos más margen, valor para el cliente o referencia del mercado. Prueba al menos tres niveles o tres empaquetados distintos con grupos comparables y registra qué compra cada uno. Considera el ancla: lo primero que el cliente ve condiciona lo que le parece caro. Decide con margen y valor de vida, no solo con volumen.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Copiar el precio del competidor equivale a heredar su estructura de costos sin c
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una escuela de idiomas prueba tres precios mensuales durante tres semanas con grupos similares. A $20.000 se inscriben 100 personas (ingreso $2,0 millones); a $30.000, 80 (ingreso $2,4 millones); a $40.000, 45 (ingreso $1,8 millones). El máximo está en $30.000. Antes de decidir también revisa el costo por alumno y el valor de vida del cliente, no solo el ingreso (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Strategy and Tactics of Pricing** (Prentice Hall): Nagle y Holden tratan la fijación de precios como una decisión basada en el valor percibido por el cliente y no solo en los costos de la empresa.
+- **Thinking, Fast and Slow** (Macmillan): Kahneman describe el efecto ancla, según el cual un número inicial condiciona los juicios posteriores, relevante al presentar precios.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para fijar el precio inicial con un método declarado y un plan de prueba.
+
+**Prentice Hall — The Strategy and Tactics of Pricing**  
+<https://openlibrary.org/isbn/9780132043588> · verificado 2026-11-25
+
+- *Qué contiene:* Tratado de fijación de precios basada en el valor percibido por el cliente. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Strategy and Tactics of Pricing» para fijar el precio inicial con un método declarado y un plan de prueba.
+
+**Macmillan — Thinking, Fast and Slow**  
+<https://openlibrary.org/isbn/9781464166174> · verificado 2026-11-25
+
+- *Qué contiene:* Describe sesgos y heurísticas de la decisión humana a partir de dos modos de pensar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking, Fast and Slow» para fijar el precio inicial con un método declarado y un plan de prueba.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

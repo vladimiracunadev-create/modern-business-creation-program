@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Costo variable** | Costo que varía proporcionalmente al volumen. |
 | **Margen de contribución** | Precio menos costo variable unitario. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Desde qué nivel de ventas empiezas a ganar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Punto de equilibrio"]
-    C --> A2["Costo fijo"]
-    C --> A3["Costo variable"]
-    C --> A4["Margen de contribución"]
-    A1 & A2 & A3 & A4 --> D{{"conocer el volumen mínimo de<br/>ventas y el efecto de costo,<br/>capacidad, volumen y precio"}}
-    D --> E["Entregable<br/>planilla base de costos y<br/>punto de equilibrio con<br/>ejemplo numérico, capacidad,<br/>utilización y sensibilidad a<br/>volumen y precio"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El punto de equilibrio se calcula dividiendo los costos fijos del rango relevante por el margen de contribución unitario, y exige clasificar cada partida en fija, variable o semifija.
+
+![Esquema: Desde qué nivel de ventas empiezas a ganar](modelo-mental.svg)
+
+**Lectura guiada:** Los costos parten de un nivel fijo y suben con las unidades; los ingresos parten de cero y suben más rápido. Donde se cruzan está el volumen mínimo para no perder dinero.
+
+**Una analogía:** Es una fila de personas llenando una piscina con un hueco: hasta que el flujo de agua supera lo que se pierde por el hueco, el nivel no sube.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El punto de equilibrio se calcula dividiendo costos fijos y semifijos del rango 
 
 ### 2. Cómo se traduce en la práctica
 
-Fijo, variable o semifijo describe comportamiento; directo o indirecto, trazabilidad; CAPEX u OPEX, naturaleza económica. Son dimensiones distintas y no se suman entre sí. El ejemplo numérico obliga a reconciliar precio, costo unitario, capacidad y utilización, y muestra cuándo un escalón semifijo cambia el punto de equilibrio.
+Clasifica todos tus costos en fijos, variables y semifijos, y calcula el margen de contribución por unidad o por línea. Divide los costos fijos por ese margen para obtener el equilibrio. Prueba qué ocurre con cambios de precio, costo, arriendo o capacidad. Recuerda que el cálculo vale para un rango de actividad: si cambia la estructura, debes recalcularlo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Fijo, variable o semifijo describe comportamiento; directo o indirecto, trazabil
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa vende un producto a $10.000, con costo variable de $6.000: margen de contribución de $4.000 por unidad. Sus costos fijos mensuales son $2.000.000. El punto de equilibrio es 2.000.000 dividido por 4.000, es decir, 500 unidades al mes. Si sube el arriendo en $400.000, el equilibrio sube a 600 unidades; si logra subir el precio a $11.000, el margen es $5.000 y el equilibrio baja a 400 unidades (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican los costos fijos y variables y el cálculo del punto de equilibrio como base de las decisiones de precio y volumen.
+- **Simple Numbers, Straight Talk, Big Profits!** (Greg Crabtree): Crabtree propone indicadores simples que ayudan a saber cuánto debe vender una pequeña empresa para sostener su estructura.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio.
+
+**Greg Crabtree — Simple Numbers, Straight Talk, Big Profits!**  
+<https://openlibrary.org/isbn/9780989645232> · verificado 2026-11-25
+
+- *Qué contiene:* Propone indicadores simples para pequeñas empresas, como el costo laboral sobre el margen bruto. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Simple Numbers, Straight Talk, Big Profits!» para conocer el volumen mínimo de ventas y el efecto de costo, capacidad, volumen y precio.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

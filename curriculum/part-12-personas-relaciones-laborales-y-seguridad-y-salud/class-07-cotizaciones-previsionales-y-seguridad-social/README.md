@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Declaración y no pago** | Situación en que se declara sin pagar, con consecuencias. |
 | **Ley Bustos** | Impedimento de poner término al contrato sin cotizaciones pagadas. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cotizaciones: del cumplimiento a la nulidad del despido
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cotización previsional"]
-    C --> A2["Previred"]
-    C --> A3["Declaración y no pago"]
-    C --> A4["Ley Bustos"]
-    A1 & A2 & A3 & A4 --> D{{"asegurar el pago íntegro y<br/>oportuno de cotizaciones como<br/>obligación prioritaria"}}
-    D --> E["Entregable<br/>control mensual de<br/>cotizaciones con verificación<br/>de pago y certificado de<br/>cumplimiento"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las cotizaciones son de cargo del trabajador y de retención del empleador: no pagarlas es apropiarse de dinero ajeno, y la ley impide despedir válidamente sin las cotizaciones al día.
+
+![Esquema: Cotizaciones: del cumplimiento a la nulidad del despido](modelo-mental.svg)
+
+**Lectura guiada:** Cada banda es un grado de incumplimiento. El verde es el único estado aceptable. El rojo tiene consecuencias en caja, en lo laboral y puede tenerlas en lo penal.
+
+**Piénsalo así:** Es quedarte con el cambio que no era tuyo: al principio parece una ayuda, pero el dueño del dinero vendrá a reclamarlo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las cotizaciones son de cargo del trabajador y de retención del empleador: no p
 
 ### 2. Cómo se traduce en la práctica
 
-Declarar sin pagar alivia la caja del mes y genera intereses, pero sobre todo activa la Ley Bustos: sin cotizaciones íntegramente pagadas no se puede poner término válido al contrato, y la relación sigue devengando remuneraciones hasta la regularización.
+Paga íntegra y oportunamente las cotizaciones por el sistema electrónico y comprueba cada mes que todas las declaraciones estén pagadas. Si hay problemas de caja, no uses estos fondos para otros fines y consulta con un abogado. Revisa las novedades legales sobre la cotización adicional del empleador y los plazos de pago.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Declarar sin pagar alivia la caja del mes y genera intereses, pero sobre todo ac
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa en problemas de caja declara las cotizaciones pero no las paga durante cinco meses, pensando regularizarlas cuando tenga fondos. Cuando decide despedir a tres trabajadores, estos reclaman que el despido es nulo y la empresa debe pagar las cotizaciones con intereses y las remuneraciones de todo el período. La corrección: tratar las cotizaciones como obligación prioritaria y pagarlas antes que otros gastos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa las obligaciones previsionales del empleador y los efectos de no pagar las cotizaciones sobre el despido.
+- **Cotización adicional del empleador de la reforma de pensiones** (ChileAtiende · Instituto de Previsión Social): ChileAtiende publica la cotización adicional del empleador de la reforma de pensiones, que cambia el costo de las cotizaciones.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

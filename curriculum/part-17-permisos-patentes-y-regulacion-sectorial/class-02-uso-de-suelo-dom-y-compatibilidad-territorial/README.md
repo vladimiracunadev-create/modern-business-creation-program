@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Recepción definitiva** | Aprobación municipal de la obra construida. |
 | **Cambio de destino** | Trámite para modificar el uso autorizado del inmueble. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Antes de firmar el arriendo: ¿se puede ejercer allí?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Uso de suelo"]
-    C --> A2["Certificado de<br/>informaciones previas"]
-    C --> A3["Recepción definitiva"]
-    C --> A4["Cambio de destino"]
-    A1 & A2 & A3 & A4 --> D{{"verificar la compatibilidad<br/>territorial antes de<br/>comprometer un inmueble"}}
-    D --> E["Entregable<br/>certificado de informaciones<br/>previas del predio con<br/>análisis de compatibilidad de<br/>la actividad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El certificado de informaciones previas de la Dirección de Obras Municipales indica qué actividades admite el predio y es el primer documento que hay que pedir antes de comprometerse con un inmueble.
+
+![Esquema: Antes de firmar el arriendo: ¿se puede ejercer allí?](modelo-mental.svg)
+
+**Qué mirar primero:** Responde en orden con documentos y no con promesas del arrendador. El uso de suelo es la primera barrera; la recepción definitiva, la segunda. Si falla una, el negocio no puede abrir legalmente.
+
+**Para recordarlo:** Es comprobar el permiso de circulación antes de comprar un auto: sin él, no importa lo bueno que sea el motor.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El certificado de informaciones previas de la Dirección de Obras Municipales in
 
 ### 2. Cómo se traduce en la práctica
 
-Cuesta poco y responde la pregunta que decide todo el proyecto. Descubrir después que el predio no admite la actividad obliga a mudarse o a un cambio de destino largo y costoso, y confiar en la declaración verbal del propietario es la forma más común de llegar a ese escenario.
+Pide siempre por escrito el certificado de informaciones previas y la recepción definitiva del inmueble. Condiciona la firma del arriendo a la obtención de la patente o incluye una cláusula de término sin penalidad si el uso no es posible. Verifica también las exigencias de edificación y accesibilidad de tu actividad. Ejecutar sin uso compatible expone a clausura.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ Cuesta poco y responde la pregunta que decide todo el proyecto. Descubrir despu�
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: pide el certificado de informaciones previas a la DOM y verifica la zona y los usos permitidos. Dos: ¿el inmueble tiene recepción definitiva de las obras? Tres: si planeas modificar el destino, evalúa el costo con un arquitecto. Una clínica veterinaria que iba a arrendar una casa descubre que la zona es solo residencial y renuncia al contrato; un mes después encuentra un local con uso mixto.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley General de Urbanismo y Construcciones y su Ordenanza, consultables en la BCN, regulan los usos de suelo, los permisos y la recepción de las obras.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

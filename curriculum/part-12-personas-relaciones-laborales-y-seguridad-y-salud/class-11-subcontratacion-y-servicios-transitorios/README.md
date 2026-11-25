@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Derecho de información y retención** | Facultad de exigir acreditación y retener pagos. |
 | **EST** | Empresa de servicios transitorios, con reglas y causales propias. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Quién responde por las obligaciones de un contratista
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Subcontratación"]
-    C --> A2["Empresa principal"]
-    C --> A3["Derecho de información y<br/>retención"]
-    C --> A4["EST"]
-    A1 & A2 & A3 & A4 --> D{{"definir los controles que se<br/>exigirán a contratistas antes<br/>de cada pago"}}
-    D --> E["Entregable<br/>procedimiento de control de<br/>subcontratistas con<br/>certificados exigidos y<br/>retención por incumplimiento"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 20.123 hace responder a la empresa principal por las obligaciones laborales y previsionales del contratista; ejercer el derecho a la información transforma una responsabilidad de riesgo en una controlada.
+
+![Esquema: Quién responde por las obligaciones de un contratista](modelo-mental.svg)
+
+**Cómo leerlo:** El centro es la empresa principal y los satélites son quienes pueden involucrarla. El último, el certificado, es la herramienta con que se controla el riesgo antes de pagar.
+
+**Piénsalo así:** Es prestar tu casa a un invitado que contrata a otros: si no pagan a quienes trabajan en ella, el dueño puede ser quien responda.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 20.123 hace responder a la empresa principal por las obligaciones laboral
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 20.123 hace responder solidaria o subsidiariamente por las obligaciones laborales y previsionales del contratista. Exigir certificados de cumplimiento transforma la solidaria en subsidiaria; no exigirlos equivale a garantizar la deuda de un tercero sobre el que no se tiene control.
+Antes de contratar, solicita antecedentes del contratista y pide, antes de cada pago, certificados de cumplimiento laboral y previsional. Define en el contrato el derecho de información y el derecho de retención de pagos. Considera el uso de empresas de servicios transitorios solo en las causales permitidas. Documenta toda la fiscalización que haces.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ La Ley 20.123 hace responder solidaria o subsidiariamente por las obligaciones l
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una constructora contrata a un contratista de instalaciones y paga sus facturas sin revisar nada más. El contratista deja de pagar cotizaciones y sus 12 trabajadores reclaman ante la Inspección; la constructora responde de manera solidaria por los montos adeudados. Ahora exige cada mes certificados de cumplimiento laboral y previsional antes de pagar y retiene lo adeudado si falta alguno (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los derechos de información y retención de la empresa principal y la responsabilidad solidaria o subsidiaria en la subcontratación.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 20.123 regula el trabajo en régimen de subcontratación y las empresas de servicios transitorios; su texto se consulta en la BCN.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

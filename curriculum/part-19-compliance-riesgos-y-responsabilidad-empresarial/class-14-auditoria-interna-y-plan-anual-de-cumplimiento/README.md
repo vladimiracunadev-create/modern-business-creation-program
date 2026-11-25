@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Hallazgo** | Desviación detectada con su causa y efecto. |
 | **Seguimiento** | Verificación del cierre de los hallazgos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El ciclo de auditoría interna de una empresa pequeña
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Auditoría interna"]
-    C --> A2["Plan anual"]
-    C --> A3["Hallazgo"]
-    C --> A4["Seguimiento"]
-    A1 & A2 & A3 & A4 --> D{{"definir el plan anual de<br/>revisiones y el mecanismo de<br/>seguimiento de hallazgos"}}
-    D --> E["Entregable<br/>plan anual de cumplimiento con<br/>revisiones programadas,<br/>hallazgos y seguimiento de<br/>cierre"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En empresas pequeñas la auditoría interna puede ser una revisión trimestral hecha por un externo o por el dueño con una lista de verificación; lo que la hace efectiva no es la formalidad sino el seguimiento de los hallazgos.
+
+![Esquema: El ciclo de auditoría interna de una empresa pequeña](modelo-mental.svg)
+
+**Lectura guiada:** El ciclo no termina al detectar un hallazgo: sigue hasta que se cierra. Un hallazgo sin responsable ni fecha se repite el siguiente año con otro nombre.
+
+**Para recordarlo:** Es la revisión médica anual: lo valioso no es el examen, sino lo que haces con los resultados.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En empresas pequeñas la auditoría interna puede ser una revisión trimestral h
 
 ### 2. Cómo se traduce en la práctica
 
-En empresas pequeñas la auditoría interna puede ser una revisión trimestral con checklist hecha por un externo o por el dueño. Lo que la hace efectiva no es la formalidad sino el seguimiento; y concentrar las revisiones en lo fácil de auditar deja sin cubrir justamente lo riesgoso.
+Elabora un plan anual basado en tu mapa de riesgos y en las obligaciones aplicables (tributarias, laborales, de datos, UAF). Define quién revisa y con qué listas. Registra cada hallazgo con severidad, responsable y fecha, y revísalos en una reunión periódica. Informa a la dirección y verifica que lo cerrado realmente se corrigió.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ En empresas pequeñas la auditoría interna puede ser una revisión trimestral c
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa hace una auditoría anual con 18 hallazgos y un informe de 30 páginas que nadie lee; al año siguiente aparecen 15 de los mismos. Después: define un plan trimestral con cinco revisiones de riesgo, cada hallazgo con responsable y fecha y una reunión de seguimiento. En el año siguiente, solo aparecen 4 hallazgos repetidos y ninguno crítico (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Sujetos obligados · Ley 19.913** (Unidad de Análisis Financiero): La UAF exige a los sujetos obligados revisiones y evidencia de funcionamiento de su programa de cumplimiento, ejemplo de auditoría con seguimiento.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa las obligaciones tributarias cuyo cumplimiento puede incluirse en el plan anual de auditoría.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

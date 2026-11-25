@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Registro de decisiones** | Bitácora de decisiones con contexto y responsable. |
 | **Escalamiento** | Regla que define qué decisiones suben de nivel. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El ritmo de gobierno de una empresa de dos socios
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Gobierno mínimo viable"]
-    C --> A2["Ritmo de gestión"]
-    C --> A3["Registro de decisiones"]
-    C --> A4["Escalamiento"]
-    A1 & A2 & A3 & A4 --> D{{"definir el gobierno mínimo que<br/>la empresa sostendrá desde el<br/>primer mes"}}
-    D --> E["Entregable<br/>documento de gobierno mínimo<br/>con ritmo, materias, registro<br/>de decisiones y matriz de<br/>escalamiento"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El gobierno mínimo viable de una empresa de dos socios cabe en una página, y instalarlo desde el primer mes cuesta poco frente al costo de improvisarlo en una crisis.
+
+![Esquema: El ritmo de gobierno de una empresa de dos socios](modelo-mental.svg)
+
+**Qué mirar primero:** La línea muestra el ritmo de conversaciones formales. Cada nivel tiene un producto concreto, como un acta o una revisión, que deja constancia de las decisiones.
+
+**Para recordarlo:** Es la rutina de revisar un auto: cambios de aceite cada cierto tiempo y revisión anual; cuesta poco y evita las averías caras.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El gobierno mínimo viable de una empresa de dos socios cabe en una página: reu
 
 ### 2. Cómo se traduce en la práctica
 
-El gobierno mínimo viable de una empresa de dos socios cabe en una página: reunión mensual con estados financieros, acta breve, registro de decisiones y matriz de poderes. Instalarlo al inicio cuesta poco; instalarlo después de un conflicto ya no es posible porque cada regla se lee como acusación.
+Escribe en una página tu gobierno mínimo: quién se reúne, cuándo, qué revisa y qué documento queda. Define cómo se registran las decisiones y quién actualiza la matriz de poderes. Instálalo en el primer mes y agrega elementos solo cuando crezca la empresa. Este sistema suele ser la base de la sección de gobierno del expediente de la empresa.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,16 @@ El gobierno mínimo viable de una empresa de dos socios cabe en una página: reu
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide el ritmo con tres preguntas. Uno: ¿cuándo debemos mirar caja y resultados? Cada mes, con los estados financieros. Dos: ¿cuándo revisar metas, riesgos y poderes? Cada trimestre. Tres: ¿cuándo aprobar las cuentas y revisar estatutos y pacto? Cada año. Dos socios de una consultora fijan el primer jueves de cada mes, con un acta de media página y un registro de decisiones que quedan archivados.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades fija el punto de partida legal de la sociedad, sobre el cual se construye su gobierno mínimo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

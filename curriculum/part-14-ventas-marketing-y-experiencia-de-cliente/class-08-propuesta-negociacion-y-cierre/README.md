@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Contrapartida** | Valor obtenido a cambio de una concesión. |
 | **Cierre** | Acuerdo formalizado con documento y condiciones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Conceder sin regalar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Propuesta"]
-    C --> A2["Concesión"]
-    C --> A3["Contrapartida"]
-    C --> A4["Cierre"]
-    A1 & A2 & A3 & A4 --> D{{"definir la política de<br/>concesiones y qué se exige a<br/>cambio"}}
-    D --> E["Entregable<br/>plantilla de propuesta con<br/>alcance, exclusiones y matriz<br/>de concesiones con<br/>contrapartida"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un descuento sin nada a cambio le enseña al cliente que el precio era negociable desde el comienzo; una concesión con contrapartida protege el valor.
+
+![Esquema: Conceder sin regalar](modelo-mental.svg)
+
+**Qué mirar primero:** Compara los dos platos: a la izquierda, lo que ocurre cuando se cede gratis; a la derecha, cuando cada concesión trae su contrapartida.
+
+**Para recordarlo:** Es un trueque: si entregas algo y no pides nada, no negociaste, regalaste.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Toda concesión debe tener contrapartida: plazo, volumen, referencia, pago antic
 
 ### 2. Cómo se traduce en la práctica
 
-Descontar sin obtener nada a cambio enseña al cliente que el precio inicial era ficticio y compromete todas las negociaciones futuras con esa cuenta. Las exclusiones, por su parte, evitan quedar obligado a alcance no cotizado, que es la vía más común de convertir un proyecto rentable en pérdida.
+Antes de negociar define por escrito qué puedes conceder, en qué orden y qué pedirás a cambio de cada cosa. Incluye en la propuesta lo que queda fuera del alcance con la misma claridad que lo incluido: es lo que más evita disputas después. Cierra con un documento firmado que recoja alcance, precio, plazos y las contrapartidas acordadas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ Descontar sin obtener nada a cambio enseña al cliente que el precio inicial era
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+El cliente pide 10 % de descuento sobre $10 millones anuales. En vez de aceptar, la empresa ofrece 8 % si firma por dos años y paga el primero por adelantado. El cliente ahorra $800.000 al año; la empresa asegura $20 millones de ingreso y mejora su caja (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Getting to Yes (3.ª ed., 2011)** (Penguin): Fisher y Ury proponen negociar sobre intereses y no sobre posiciones y crear opciones de beneficio mutuo; la regla de la contrapartida es una forma operativa de aplicarlo al precio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Inteligencia humana (HUMINT) en el mundo corporativo
 
@@ -174,6 +178,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir la política de concesiones y qué se exige a cambio.
+
+**Penguin — Getting to Yes (3.ª ed., 2011)**  
+<https://openlibrary.org/isbn/9780143118756> · verificado 2026-11-25
+
+- *Qué contiene:* Expone la negociación basada en intereses: separar a las personas del problema, generar opciones de beneficio mutuo y usar criterios objetivos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Getting to Yes (3.ª ed., 2011)» para definir la política de concesiones y qué se exige a cambio.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

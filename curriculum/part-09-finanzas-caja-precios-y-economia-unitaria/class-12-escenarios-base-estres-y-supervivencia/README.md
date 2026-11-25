@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Escenario de supervivencia** | Mínimo con el que la empresa sigue existiendo. |
 | **Prueba de sostenibilidad** | Contraste entre la promesa del producto y las fuentes reales de caja y rendimiento. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánta caja queda a fin de año según el escenario
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Escenario base"]
-    C --> A2["Escenario de estrés"]
-    C --> A3["Escenario de supervivencia"]
-    C --> A4["Prueba de sostenibilidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir escenarios, gatillos y<br/>palancas después de probar la<br/>sostenibilidad económica y de<br/>liquidez"}}
-    D --> E["Entregable<br/>proyección conservadora, base<br/>y expansiva, más estrés o<br/>supervivencia cuando aplique,<br/>con procedencia y fórmula de<br/>cada cifra"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Toda empresa construye al menos escenarios conservador, base y expansivo; cuando la liquidez o una promesa de rendimiento lo exigen, añade estrés y supervivencia, y cada uno reconcilia volumen, precio, costos y caja.
+
+![Esquema: Cuánta caja queda a fin de año según el escenario](modelo-mental.svg)
+
+**Qué mirar primero:** Cada barra es una proyección de caja. Importa menos acertar el escenario que saber qué harás si ocurre el de estrés: con qué señales y con qué palancas.
+
+**Una analogía:** Es la planificación de una expedición: no sabes qué clima habrá, pero llevas carpa para el viento, comida para un día de más y un plan si el camino se cierra.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Toda empresa construye como mínimo escenarios conservador, base y expansivo; cu
 
 ### 2. Cómo se traduce en la práctica
 
-Cambiar solo ventas produce escenarios decorativos. Volumen y precio mueven costos variables, utilización, escalones semifijos, capital de trabajo y caja; cada salida se deriva con fórmula. En productos con promesas de rendimiento, Celsius y Terra añaden la exigencia de estresar retiros, activos y confianza de forma conjunta, sin convertir una señal en conclusión.
+Define las variables de cada escenario (volumen, precio, costos, plazos de cobro) y asegúrate de que reconcilien con tu caja. Fija gatillos observables y la respuesta asociada. Si ofreces un rendimiento o una promesa a terceros, prueba que se sostiene en el escenario de estrés: los casos de Celsius y Terra muestran lo que ocurre cuando no se prueba.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Cambiar solo ventas produce escenarios decorativos. Volumen y precio mueven cost
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Construye cuatro escenarios para tu empresa. Para el estrés, supón que tus ventas caen 30 % por tres meses y que un cliente grande paga con 60 días de retraso. Calcula la caja mínima que alcanzarías y en qué semana cruzas tu piso. Define el gatillo (por ejemplo, ventas bajo cierto nivel dos semanas seguidas) y tres palancas: recorte de gastos, renegociar pagos y línea de crédito. Los números son ilustrativos; usa los tuyos.
+
+### 5. En qué se apoya
+
+- **Celsius: declaración de culpabilidad y sentencia del fundador** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de Celsius, plataforma que ofrecía rendimientos y colapsó cuando no pudo sostener sus compromisos.
+- **Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de Terraform, cuyo ecosistema colapsó, ejemplo de lo que ocurre cuando un modelo no resiste un escenario adverso.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

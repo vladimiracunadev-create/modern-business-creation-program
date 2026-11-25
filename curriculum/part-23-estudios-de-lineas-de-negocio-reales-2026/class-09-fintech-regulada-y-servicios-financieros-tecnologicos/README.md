@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Registro de prestadores** | Inscripción ante la cmf para operar ciertos servicios. |
 | **Finanzas abiertas** | Sistema de intercambio de información financiera con consentimiento. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Tu servicio financiero requiere registro ante la CMF?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Fintech regulada"]
-    C --> A2["Ley 21.521"]
-    C --> A3["Registro de prestadores"]
-    C --> A4["Finanzas abiertas"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué servicios<br/>requieren registro ante la CMF<br/>y qué exigen"}}
-    D --> E["Entregable<br/>análisis regulatorio fintech<br/>con servicios calificados,<br/>requisitos de registro y<br/>capital exigido"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 21.521 estableció un marco de registro y autorización ante la CMF para servicios como asesoría e intermediación de instrumentos, plataformas de financiamiento colectivo y custodia; operar sin él es un riesgo grave.
+
+![Esquema: ¿Tu servicio financiero requiere registro ante la CMF?](modelo-mental.svg)
+
+**Lectura guiada:** Responde con honestidad qué servicio prestas. El registro no es un trámite posterior: es una condición para operar. Si usas datos financieros de clientes, revisa también el sistema de finanzas abiertas.
+
+**Piénsalo así:** Es abrir un banco sin licencia: aunque el servicio sea bueno, la actividad no puede ofrecerse hasta estar autorizada.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 21.521 estableció un marco de registro y autorización ante la CMF para 
 
 ### 2. Cómo se traduce en la práctica
 
-El nombre comercial no decide la calificación: la decide la actividad. Los requisitos de capital, gobierno corporativo, gestión de riesgos y ciberseguridad definen la viabilidad del modelo antes que el producto, y lanzarse primero para inscribirse después es infracción, no estrategia de velocidad.
+Antes de lanzar, determina con un abogado financiero qué servicios requieren registro o autorización ante la CMF y qué exigen: capital, gobierno, información y controles. Revisa si eres sujeto obligado ante la UAF y cómo aplicarás la debida diligencia. Si usas el sistema de finanzas abiertas, cumple sus reglas de consentimiento y seguridad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El nombre comercial no decide la calificación: la decide la actividad. Los requ
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una startup lanza una plataforma que conecta inversionistas con proyectos y cree que, por ser tecnología, no necesita registro. La CMF le informa que su actividad corresponde a una plataforma de financiamiento colectivo regulada y debe suspender hasta inscribirse. La corrección: revisar antes qué servicios exigen registro, planificar el proceso en el cronograma, y diseñar el gobierno y los controles de prevención de lavado y de protección de datos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La CMF mantiene el registro de prestadores de servicios financieros que la Ley 21.521 exige a ciertos servicios fintech.
+- **Sistema de Finanzas Abiertas** (Comisión para el Mercado Financiero): La CMF publica el Sistema de Finanzas Abiertas y sus reglas de acceso a datos con consentimiento.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

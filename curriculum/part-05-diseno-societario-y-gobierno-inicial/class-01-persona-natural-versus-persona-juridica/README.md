@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Responsabilidad limitada** | El socio arriesga hasta el monto de su aporte, salvo excepciones. |
 | **Levantamiento del velo** | Situación en que un tribunal desconoce la separación patrimonial por abuso. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Operar a tu nombre o a través de una sociedad
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Persona natural"]
-    C --> A2["Persona jurídica"]
-    C --> A3["Responsabilidad limitada"]
-    C --> A4["Levantamiento del velo"]
-    A1 & A2 & A3 & A4 --> D{{"decidir si la actividad se<br/>ejerce como persona natural o<br/>mediante persona jurídica"}}
-    D --> E["Entregable<br/>comparación fundamentada de<br/>ambas vías con exposición<br/>patrimonial y costo anual<br/>estimado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Operar como persona natural es simple y barato, pero expone todo el patrimonio personal; la responsabilidad limitada de una sociedad tiene un costo de formalidad que se paga con acceso a clientes, crédito y socios.
+
+![Esquema: Operar a tu nombre o a través de una sociedad](modelo-mental.svg)
+
+**Cómo leerlo:** Compara los dos platos: a la izquierda están la simplicidad y el riesgo personal; a la derecha, la protección patrimonial y la formalidad. No hay plato correcto: depende del riesgo de tu actividad.
+
+**Piénsalo así:** Es la diferencia entre viajar en bicicleta y en auto: la bicicleta es simple y barata, pero el auto te permite llevar más carga y viajar más lejos, con papeles y seguro.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Operar como persona natural con boleta de honorarios es simple y barato, pero ex
 
 ### 2. Cómo se traduce en la práctica
 
-La responsabilidad limitada no es absoluta: se pierde cuando hay confusión patrimonial, fraude o incumplimiento de deberes del administrador. Mezclar la cuenta personal con la de la empresa es la forma más común y más silenciosa de perder la protección que se pagó por obtener.
+Antes de elegir, haz una lista del riesgo que genera tu actividad (daños a terceros, contratos grandes, deudas) y de los clientes que exigen factura o personalidad jurídica. Compara el costo anual de formalizar (constitución, contabilidad, patente) con el riesgo que evitas. Recuerda que la responsabilidad limitada no es absoluta: la ley y los tribunales pueden alcanzar a quien la usa de forma abusiva.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ La responsabilidad limitada no es absoluta: se pierde cuando hay confusión patr
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una instaladora de paneles solares trabaja con boleta de honorarios y su primer contrato grande exige factura, seguros y garantías. Durante una obra se produce un incendio por un error de terceros y un cliente demanda por 80 millones. Como persona natural, responde con su casa y sus ahorros. Un colega que operaba mediante una sociedad respondió hasta el patrimonio de ella, salvo que se probara un uso abusivo de la forma jurídica (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades es la vía oficial para constituir una sociedad en Chile y obtener su existencia como persona jurídica.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII explica cómo iniciar actividades como persona natural o jurídica, lo que permite comparar costos y obligaciones de cada opción.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

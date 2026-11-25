@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Razón de negocios** | Justificación económica distinta del ahorro tributario. |
 | **Documentación de respaldo** | Evidencia que sustenta la operación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Una operación con razón de negocios y una solo por impuestos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley 21.713"]
-    C --> A2["Norma antielusiva"]
-    C --> A3["Razón de negocios"]
-    C --> A4["Documentación de respaldo"]
-    A1 & A2 & A3 & A4 --> D{{"documentar la razón de<br/>negocios de cada estructura u<br/>operación relevante"}}
-    D --> E["Entregable<br/>expediente de razón de<br/>negocios de las operaciones<br/>estructurales con evidencia<br/>contemporánea"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 21.713 fortaleció las facultades de fiscalización y los mecanismos antielusivos; cada reorganización u operación con partes relacionadas debe tener razón de negocios y respaldo documental.
+
+![Esquema: Una operación con razón de negocios y una solo por impuestos](modelo-mental.svg)
+
+**Lectura guiada:** Compara los dos platos. La misma operación puede estar en uno o en otro según su motivo y su documentación. El segundo plato es el que el SII examina con más atención.
+
+**Una imagen cotidiana:** Es la diferencia entre mudarse para estar cerca del trabajo y mudarse solo para cambiar el domicilio en un formulario: el motivo real se nota cuando alguien pregunta.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 21.713 fortaleció las facultades de fiscalización y los mecanismos anti
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 21.713 fortaleció las facultades de fiscalización y los mecanismos antielusivos. La consecuencia práctica es que cada reorganización u operación con partes relacionadas necesita una justificación económica distinta del ahorro tributario, acreditada con evidencia contemporánea al acto.
+Antes de reorganizar o de hacer operaciones entre relacionadas, escribe la razón de negocios con hechos y cifras: ahorro de costos, ingreso de un inversionista, orden societario. Guarda la documentación de respaldo y las valorizaciones. Consulta con un asesor tributario si el beneficio tributario es relevante. Ante una duda, la transparencia con la norma es mejor que la creatividad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ La Ley 21.713 fortaleció las facultades de fiscalización y los mecanismos anti
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Contador: «La fusión de las dos sociedades reduciría impuestos». Gerente: «¿Hay otras razones?». Contador: «También simplificaría la administración y la contratación de crédito». Gerente: «Entonces documentemos esas razones con cifras: costos de administración y condiciones bancarias. Si el único motivo fuera tributario, el SII podría desconocerla» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 21.713, consultable en la Biblioteca del Congreso Nacional, fortalece el cumplimiento tributario y las normas antielusivas.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa los deberes de documentación y los criterios de revisión de las operaciones relevantes, incluidas las entre partes relacionadas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

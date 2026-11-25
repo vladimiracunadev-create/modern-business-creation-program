@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Correlación** | Grado en que dos líneas caen juntas ante el mismo shock. |
 | **Costo de complejidad** | Carga operativa y de gestión que agrega cada línea adicional. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto depende tu ingreso de una sola línea
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Portafolio de líneas"]
-    C --> A2["Concentración"]
-    C --> A3["Correlación"]
-    C --> A4["Costo de complejidad"]
-    A1 & A2 & A3 & A4 --> D{{"decidir cuántas líneas<br/>sostener y qué concentración<br/>máxima se acepta"}}
-    D --> E["Entregable<br/>análisis de portafolio con<br/>participación, margen,<br/>correlación y costo de<br/>complejidad por línea"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Diversificar reduce el riesgo solo si las líneas no caen juntas: dos servicios vendidos al mismo sector por el mismo canal no diversifican nada.
+
+![Esquema: Cuánto depende tu ingreso de una sola línea](modelo-mental.svg)
+
+**Cómo leerlo:** Mira la concentración de las barras y pregúntate si las líneas dependen del mismo cliente, canal o ciclo. Una línea dominante es un riesgo, y varias correlacionadas también.
+
+**Para recordarlo:** Es como poner todos los huevos en tres canastos que cuelgan de la misma rama: si la rama cede, caen los tres.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Diversificar reduce riesgo solo si las líneas no caen juntas: dos servicios ven
 
 ### 2. Cómo se traduce en la práctica
 
-Dos servicios vendidos al mismo sector por el mismo canal no diversifican nada: caen juntos ante el mismo shock. Y cada línea adicional cobra un costo de complejidad —gestión, inventario, soporte, cumplimiento— que rara vez se contabiliza. La decisión correcta suele ser menos líneas y mejor operadas.
+Para cada línea, anota qué cliente, canal y ciclo comparte con las demás. Calcula la participación de cada una y la correlación aproximada de sus ciclos. Fija una concentración máxima por línea y por cliente. Antes de agregar una línea, estima su costo de complejidad (gestión, sistemas, personas) y decide si lo que diversifica compensa lo que complica.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Dos servicios vendidos al mismo sector por el mismo canal no diversifican nada: 
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa tiene tres líneas (mantención, repuestos y capacitación), todas vendidas a minería en la misma región; cuando una faena para, las tres caen a la vez. Después: agrega una línea para agroindustria con otro ciclo de ventas y limita la mayor línea a 40 % del ingreso. Cada línea nueva suma complejidad, pero ahora una caída no la arrastra completa (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Black Swan** (Random House): Taleb advierte sobre la concentración y la fragilidad ante eventos poco probables de gran impacto, argumento a favor de limitar la dependencia de una sola fuente.
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers explican que la diversificación reduce el riesgo solo en la medida en que los activos no se mueven juntos, es decir, según su correlación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para decidir cuántas líneas sostener y qué concentración máxima se acepta.
+
+**Random House — The Black Swan**  
+<https://openlibrary.org/isbn/9780812979183> · verificado 2026-11-25
+
+- *Qué contiene:* Examina el impacto de los eventos improbables y los límites de la predicción. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Black Swan» para decidir cuántas líneas sostener y qué concentración máxima se acepta.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para decidir cuántas líneas sostener y qué concentración máxima se acepta.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

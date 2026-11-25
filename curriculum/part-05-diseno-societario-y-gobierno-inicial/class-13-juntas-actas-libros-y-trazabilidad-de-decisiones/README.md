@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Libro societario** | Registro obligatorio de accionistas, actas y ciertos actos. |
 | **Trazabilidad** | Posibilidad de reconstruir quién decidió qué y cuándo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El ciclo de un acuerdo bien documentado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Junta"]
-    C --> A2["Acta"]
-    C --> A3["Libro societario"]
-    C --> A4["Trazabilidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir la rutina de juntas,<br/>actas y libros que la sociedad<br/>mantendrá"}}
-    D --> E["Entregable<br/>calendario societario anual<br/>con materias, quórums y modelo<br/>de acta"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las actas parecen burocracia hasta la primera due diligence, disputa entre socios o fiscalización: un acuerdo no documentado equivale a un acuerdo inexistente frente a un tercero.
+
+![Esquema: El ciclo de un acuerdo bien documentado](modelo-mental.svg)
+
+**Cómo leerlo:** El ciclo no termina en la reunión: continúa con el acta, el libro y el seguimiento. Si se corta antes, nadie sabe después qué se decidió ni por qué.
+
+**Piénsalo así:** Es la bitácora de un barco: nadie la lee en alta mar, pero en un juicio o un seguro es la prueba de qué ocurrió y quién decidió.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las actas parecen burocracia hasta la primera due diligence, disputa entre socio
 
 ### 2. Cómo se traduce en la práctica
 
-Las actas parecen burocracia hasta la primera due diligence, disputa entre socios o fiscalización. Mantener el registro de accionistas actualizado tras cada transferencia y el libro de actas al día es el costo mínimo de tener una sociedad que se pueda vender en la parte 22.
+Establece una rutina: calendario de juntas, plantilla de acta breve con fecha, asistentes, decisiones y responsables, y un libro de accionistas o socios al día. Guarda todo en una carpeta ordenada y define quién firma. Después de cada reunión, envía el acta a los participantes en un plazo fijo y haz seguimiento de los acuerdos en la siguiente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Las actas parecen burocracia hasta la primera due diligence, disputa entre socio
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Abogado del comprador: «Veo que en 2024 aprobaron un préstamo de un socio. ¿Dónde está el acta?». Gerente: «Lo hablamos en una reunión». Abogado: «Sin acta ni registro, para nosotros no existe y el crédito podría ser una contingencia». Gerente: «Tenemos los mensajes». Abogado: «No bastan». La empresa pierde dos semanas reconstruyendo y rebajan el precio de venta (diálogo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades es la fuente oficial de la constitución y las modificaciones de la sociedad, que debe coincidir con los libros y las actas.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las leyes de sociedades exigen llevar registros y actas de las decisiones societarias; su texto vigente se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

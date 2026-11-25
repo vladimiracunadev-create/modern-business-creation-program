@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Beneficiario final** | Persona natural que en última instancia controla la sociedad. |
 | **Perfil transaccional** | Volumen y tipo de movimientos declarados al banco. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los peldaños para abrir una cuenta empresarial
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cuenta corriente<br/>empresarial"]
-    C --> A2["Debida diligencia bancaria"]
-    C --> A3["Beneficiario final"]
-    C --> A4["Perfil transaccional"]
-    A1 & A2 & A3 & A4 --> D{{"preparar el expediente<br/>bancario completo antes de<br/>solicitar la cuenta"}}
-    D --> E["Entregable<br/>expediente bancario con<br/>carpeta societaria,<br/>beneficiario final y perfil<br/>transaccional declarado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Abrir una cuenta empresarial exige carpeta societaria, acreditación de domicilio, declaración de beneficiario final y perfil transaccional; los bancos pueden rechazar o cerrar cuentas por riesgo.
+
+![Esquema: Los peldaños para abrir una cuenta empresarial](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño es una exigencia del banco. Si te falta uno, el trámite se detiene o la cuenta se rechaza; completa todos antes de acudir.
+
+**Una imagen cotidiana:** Es entrar a un edificio con control de acceso: cada puerta pide un documento y no te deja pasar sin el anterior.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Abrir cuenta empresarial exige carpeta societaria, acreditación de domicilio, d
 
 ### 2. Cómo se traduce en la práctica
 
-Los bancos aplican la Ley 19.913 y exigen carpeta societaria, acreditación de domicilio, declaración de beneficiario final y perfil transaccional. Declarar un perfil que no corresponde al negocio real genera alertas posteriores; operar mientras tanto con la cuenta personal del socio confunde patrimonios y compromete la limitación de responsabilidad.
+Prepara el expediente bancario antes de solicitar la cuenta: documentos de la sociedad, acreditación del domicilio, identificación de quienes controlan más de cierta participación y una descripción de tus clientes, proveedores y montos esperados. Responde con honestidad: los bancos aplican las normas de prevención de lavado de activos y pueden cerrar cuentas ante incoherencias.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Los bancos aplican la Ley 19.913 y exigen carpeta societaria, acreditación de d
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa llega al banco con solo el RUT y una cédula, y el ejecutivo le pide documentos durante tres semanas; la primera venta queda sin cuenta para recibir el pago. Después: llega con carpeta societaria, certificado de vigencia, contrato de arriendo, declaración de beneficiario final y un perfil de movimientos esperados; la cuenta se abre en una semana. La preparación cambió el resultado (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Sujetos obligados · Ley 19.913** (Unidad de Análisis Financiero): La Unidad de Análisis Financiero publica las obligaciones de los sujetos obligados, entre ellos los bancos, de conocer a sus clientes y a los beneficiarios finales.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.913, que crea la UAF, establece los deberes de debida diligencia de los sujetos obligados y su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

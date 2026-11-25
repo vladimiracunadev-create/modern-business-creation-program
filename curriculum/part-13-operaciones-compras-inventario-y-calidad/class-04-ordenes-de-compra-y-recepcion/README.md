@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Tres vías** | Conciliación entre orden, recepción y factura. |
 | **Diferencia de recepción** | Discrepancia en cantidad, calidad o precio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El control de tres vías antes de pagar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Orden de compra"]
-    C --> A2["Recepción"]
-    C --> A3["Tres vías"]
-    C --> A4["Diferencia de recepción"]
-    A1 & A2 & A3 & A4 --> D{{"implementar el control de tres<br/>vías antes de autorizar<br/>cualquier pago"}}
-    D --> E["Entregable<br/>procedimiento de compra y<br/>recepción con conciliación de<br/>tres vías y tratamiento de<br/>diferencias"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El control de tres vías —orden, recepción y factura— es el control más eficaz contra el fraude y el error en compras; sin él, se pagan cantidades no recibidas o precios distintos a los pactados.
+
+![Esquema: El control de tres vías antes de pagar](modelo-mental.svg)
+
+**Qué mirar primero:** Los tres círculos deben coincidir en cantidad, precio y condiciones. Solo en el centro, donde coinciden, se autoriza el pago. Cualquier diferencia se investiga antes de pagar.
+
+**Una analogía:** Es cotejar el menú, la comida servida y la cuenta antes de pagar: si no coinciden, se reclama antes y no después.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El control de tres vías —orden, recepción y factura— es el control antifra
 
 ### 2. Cómo se traduce en la práctica
 
-Sin él se pagan cantidades no recibidas, precios distintos a los pactados y servicios no prestados, y el descuadre aparece meses después sin posibilidad de reconstruirlo. En empresas pequeñas es también el control antifraude más accesible, porque no requiere sistema sino disciplina.
+Establece que toda compra tenga una orden de compra aprobada, una recepción registrada y una factura que coincida. Separa funciones: quien pide no recibe ni paga. Define cómo se tratan las diferencias de recepción y quién las resuelve. Revisa mensualmente las facturas sin orden o sin recepción. El control reduce errores y protege contra fraudes internos y externos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Sin él se pagan cantidades no recibidas, precios distintos a los pactados y ser
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una pyme paga facturas sin cotejarlas con la orden ni con la recepción. En un año descubre que pagó 40 cajas que no recibió y que dos facturas traían un precio mayor al cotizado. La corrección: un control de tres vías, con la recepción registrada por una persona distinta de quien compra y quien paga, y con la aceptación o el reclamo de facturas en el Registro de Compras y Ventas dentro de plazo (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Registro de Compras y Ventas** (Servicio de Impuestos Internos): El Registro de Compras y Ventas del SII permite aceptar o reclamar las facturas recibidas, complemento de la verificación de tres vías.
+- **The Checklist Manifesto** (Metropolitan Books): Gawande muestra que las verificaciones simples en puntos clave del proceso evitan errores costosos, como pagar sin cotejar.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para implementar el control de tres vías antes de autorizar cualquier pago.
+
+**Servicio de Impuestos Internos — Registro de Compras y Ventas**  
+<https://www.sii.cl/destacados/f29/registrocompraventas.htm> · verificado 2026-11-05
+
+- *Qué contiene:* Explica cómo el SII consolida los documentos tributarios electrónicos recibidos y emitidos, y cómo esa consolidación propone la declaración mensual de IVA.
+- *Cómo leerla:* Fíjate en los plazos de aceptación o reclamo de una factura recibida: la página los trata como un detalle operativo, pero dejarlos vencer equivale a aceptar la factura con efecto tributario y mérito ejecutivo.
+- *Uso en esta clase:* aporta el marco de «Registro de Compras y Ventas» para implementar el control de tres vías antes de autorizar cualquier pago.
+
+**Metropolitan Books — The Checklist Manifesto**  
+<https://openlibrary.org/isbn/9780312430009> · verificado 2026-11-25
+
+- *Qué contiene:* Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Checklist Manifesto» para implementar el control de tres vías antes de autorizar cualquier pago.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

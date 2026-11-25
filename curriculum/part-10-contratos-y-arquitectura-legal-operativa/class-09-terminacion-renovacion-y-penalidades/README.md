@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Preaviso** | Plazo de anticipación para comunicar la terminación. |
 | **Penalidad** | Suma pactada por incumplimiento o salida anticipada. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El día que se renueva solo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Terminación anticipada"]
-    C --> A2["Renovación automática"]
-    C --> A3["Preaviso"]
-    C --> A4["Penalidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir cómo se sale de cada<br/>contrato y con qué<br/>anticipación"}}
-    D --> E["Entregable<br/>registro de contratos con<br/>fecha de renovación, preaviso<br/>requerido y penalidad de<br/>salida"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las cláusulas de salida definen si la empresa queda atrapada: una renovación automática con preaviso de noventa días exige un control de vencimientos que casi ninguna pyme tiene.
+
+![Esquema: El día que se renueva solo](modelo-mental.svg)
+
+**Cómo leerlo:** La línea muestra que el momento clave no es el vencimiento, sino la fecha del preaviso, que llega casi tres meses antes. Quien no la anota termina renovando sin querer.
+
+**Una imagen cotidiana:** Es una suscripción olvidada: nadie decide renovarla, simplemente se cobra de nuevo porque no se canceló a tiempo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las cláusulas de salida definen si la empresa queda atrapada. Una renovación a
 
 ### 2. Cómo se traduce en la práctica
 
-Renovar por olvido contratos caros que ya no sirven es un costo silencioso y recurrente. Las penalidades, por su parte, deben ser proporcionales al perjuicio previsible: las desproporcionadas pueden ser reducidas judicialmente, de modo que pactarlas altas da una falsa sensación de protección.
+Registra para cada contrato la fecha de término, el preaviso y la fecha límite de acción. Usa alertas en un repositorio o calendario con anticipación al preaviso. Negocia, cuando puedas, renovaciones explícitas en lugar de automáticas, o preavisos más cortos. Define las penalidades por terminación anticipada y verifica que sean proporcionales al daño.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Renovar por olvido contratos caros que ya no sirven es un costo silencioso y rec
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa contrató un software por 12 meses con renovación automática y preaviso de 90 días. Se olvidó de revisar en el día 275 y se renovó por otro año, con un costo de 9 millones por una herramienta que ya no usaba. Con una alerta en el calendario y una revisión de uso en el día 120, habría negociado un plan menor o la terminación (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil regula la terminación de los contratos, las cláusulas penales y la autonomía de las partes para pactar plazos y renovaciones.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de la Ley del Consumidor sobre contratos de adhesión y renovaciones automáticas con consumidores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir cómo se sale de cada contrato y con qué anticipación.
+
+**Servicio Nacional del Consumidor — Ley 19.496, comercio electrónico y garantía legal**  
+<https://www.sernac.cl/> · verificado 2026-11-05
+
+- *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
+- *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir cómo se sale de cada contrato y con qué anticipación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

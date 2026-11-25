@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Capital suscrito y pagado** | Comprometido versus efectivamente enterado. |
 | **Aporte no dinerario** | Bien o derecho aportado en lugar de dinero. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Capital suscrito, pagado y pendiente
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Capital social"]
-    C --> A2["Entero del capital"]
-    C --> A3["Capital suscrito y pagado"]
-    C --> A4["Aporte no dinerario"]
-    A1 & A2 & A3 & A4 --> D{{"definir monto de capital,<br/>forma de entero y plazo"}}
-    D --> E["Entregable<br/>plan de capital con monto,<br/>calendario de entero y<br/>valorización de aportes no<br/>dinerarios"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El capital declarado sin enterar es una obligación pendiente de los socios frente a la sociedad y sus acreedores; declarar un capital alto para aparentar solidez crea una deuda real.
+
+![Esquema: Capital suscrito, pagado y pendiente](modelo-mental.svg)
+
+**Cómo leerlo:** Compara la barra del capital comprometido con la del capital realmente pagado. La diferencia es lo que los socios deben aportar y lo que un acreedor podría exigir.
+
+**Una imagen cotidiana:** Es una promesa de donación: mientras no se entrega el dinero, no es patrimonio de la sociedad, pero sí es una deuda de quien prometió.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El capital declarado sin enterar es una obligación pendiente de los socios fren
 
 ### 2. Cómo se traduce en la práctica
 
-Declarar un capital alto para aparentar solidez crea una obligación exigible frente a la sociedad y sus acreedores. Y los aportes no dinerarios de ciertos bienes exigen transferencia formal e inscripción: aportar un vehículo o un inmueble sin ese acto deja el aporte incompleto.
+Define el monto de capital según las necesidades reales de la empresa y la capacidad de aporte de los socios, no según la apariencia de solidez. Decide la forma de entero (dinero, bienes) y el plazo. Si hay aportes no dinerarios, documenta su valorización. Registra los pagos y emite los títulos o anotaciones que correspondan, con apoyo de tu contador.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Declarar un capital alto para aparentar solidez crea una obligación exigible fr
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa se constituye con un capital de 10 millones, pero los socios pagan solo 3 millones y dejan 7 millones pendientes a 24 meses. Un proveedor que no recibe su pago exige a los socios aportar lo comprometido y la sociedad acepta que se entere de inmediato, sin posibilidad de aplazar. Si hubiera declarado 5 millones y pagado todo, habría tenido una estructura más sencilla y verídica (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades exige declarar el capital y la forma de enterarlo al constituir la sociedad.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa los efectos tributarios del capital inicial y de los aportes al iniciar actividades.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

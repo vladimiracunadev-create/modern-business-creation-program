@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Circunstancia** | Contexto que gatilla la contratación de la solución. |
 | **Fuerza de cambio** | Empuje del problema y atracción de la solución contra hábito y ansiedad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuándo un cliente «contrata» una solución
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Job to be done"]
-    C --> A2["Resultado esperado"]
-    C --> A3["Circunstancia"]
-    C --> A4["Fuerza de cambio"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué progreso contrata<br/>el cliente y con qué métrica<br/>lo juzga"}}
-    D --> E["Entregable<br/>declaración de JTBD con<br/>circunstancia, progreso,<br/>resultados esperados y fuerzas<br/>de cambio"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El cliente no compra un producto: contrata una solución para lograr un progreso en una circunstancia concreta, y sus competidores reales son todas las formas en que hoy lo consigue.
+
+![Esquema: Cuándo un cliente «contrata» una solución](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo muestra por qué se contrata una solución: algo cambia, lo actual empuja a buscar y el progreso se verifica después. Toda venta debe poder ubicarse en alguno de estos puntos.
+
+**Una imagen cotidiana:** Es como contratar a un taxi para llegar a una reunión: lo que compras es llegar a tiempo, y tu competidor puede ser el bus, la bicicleta o salir antes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El marco JTBD desplaza el foco desde el atributo del producto hacia el progreso 
 
 ### 2. Cómo se traduce en la práctica
 
-El competidor que aparece al aplicar este marco casi nunca es una empresa del rubro: es la planilla de cálculo, el trabajo manual, el contador que ya hace algo parecido o simplemente no hacer nada. Reconocerlo cambia el mensaje comercial y la definición del producto mínimo.
+Entrevista a tres clientes recientes y reconstruye la historia de su decisión: qué cambió, qué probaron antes, qué los empujó a actuar y qué habrían hecho si tu solución no existiera. Anota el progreso que esperaban y cómo lo juzgan. Esa lista define tus competidores reales y la métrica que debes mejorar: el cliente evalúa el resultado, no tus atributos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El competidor que aparece al aplicar este marco casi nunca es una empresa del ru
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa define a su cliente como «pymes de más de 20 empleados» y compite por atributos de su software de horarios. Después: descubre que sus mejores clientes lo contrataron cuando abrieron un segundo turno y la planilla dejó de funcionar. Su competidor era la planilla y el grupo de mensajería, no otro software. Cambia el mensaje a «cuando abras el segundo turno, tus horarios no se romperán» y su tasa de respuesta sube (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Value Proposition Design** (Wiley): Osterwalder y sus coautores organizan la propuesta de valor alrededor de las tareas que el cliente intenta realizar, sus dolores y sus ganancias, que es la base del enfoque de trabajos por resolver.
+- **The Innovator's Dilemma** (Harper Business): Christensen explica por qué los clientes eligen productos para lograr un progreso concreto y cómo los competidores aparecen donde la empresa no los esperaba.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para definir qué progreso contrata el cliente y con qué métrica lo juzga.
+
+**Wiley — Value Proposition Design**  
+<https://openlibrary.org/isbn/9781118968055> · verificado 2026-11-25
+
+- *Qué contiene:* Método para ajustar una propuesta de valor a las tareas, los dolores y las ganancias del cliente.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Value Proposition Design» para definir qué progreso contrata el cliente y con qué métrica lo juzga.
+
+**Harper Business — The Innovator's Dilemma**  
+<https://openlibrary.org/isbn/9780066620695> · verificado 2026-11-25
+
+- *Qué contiene:* Explica por qué empresas bien gestionadas pueden perder frente a tecnologías o modelos disruptivos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Innovator's Dilemma» para definir qué progreso contrata el cliente y con qué métrica lo juzga.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

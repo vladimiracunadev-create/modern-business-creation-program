@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Migración** | Paso de una sociedad del régimen simplificado al general o viceversa. |
 | **Publicidad registral** | Inscripción y publicación que hacen oponible la sociedad frente a terceros. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Constituir en línea o por la ruta notarial
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Régimen simplificado"]
-    C --> A2["Ruta notarial"]
-    C --> A3["Migración"]
-    C --> A4["Publicidad registral"]
-    A1 & A2 & A3 & A4 --> D{{"elegir la vía de constitución<br/>según complejidad estatutaria<br/>y tipo de aportes"}}
-    D --> E["Entregable<br/>comparación de ambas vías para<br/>el caso, con costo, plazo y<br/>limitaciones de cada una"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El régimen simplificado permite constituir en línea, sin notaría y a un costo cercano a cero, pero la ruta tradicional sigue siendo necesaria para estructuras complejas y aportes de inmuebles.
+
+![Esquema: Constituir en línea o por la ruta notarial](modelo-mental.svg)
+
+**Lectura guiada:** Compara los dos platos: la izquierda es la vía rápida para estructuras estándar; la derecha, la vía para lo que no cabe en un formulario. Decide antes de empezar, porque cambiar a mitad de camino hace perder tiempo.
+
+**Una imagen cotidiana:** Es elegir entre un traje de talla estándar y uno hecho a medida: el primero está listo hoy, el segundo calza exacto pero se hace con tiempo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El régimen simplificado permite constituir en línea, sin notaría y con costo 
 
 ### 2. Cómo se traduce en la práctica
 
-El régimen simplificado de la Ley 20.659 permite constituir en línea con costo cercano a cero, pero solo admite lo que el formulario soporta. Aportar un inmueble o pactar cláusulas especiales obliga a la ruta notarial con escritura, inscripción y publicación; descubrirlo a mitad del trámite obliga a empezar de nuevo.
+Antes de iniciar, lista lo que necesitas en tus estatutos: tipo de aporte, series de acciones, cláusulas especiales, cantidad de socios y quórums. Compáralo con lo que admite el formulario del Registro de Empresas y Sociedades. Si todo cabe, constituye en línea; si algo no cabe, prepara la escritura con un abogado. Guarda ambas alternativas por escrito para no perder tiempo si cambia el plan.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El régimen simplificado de la Ley 20.659 permite constituir en línea con costo
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de software con dos socios, aportes en dinero y estatutos estándar constituye una SpA en línea en una tarde. Otra, con una familia que aporta un terreno como capital y quiere cláusulas especiales de sucesión, descubre que el formulario no admite esos aportes y debe ir a una notaría con escritura pública. Ambas eligieron razonablemente, pero la segunda perdió tres días por no revisar antes qué admitía el formulario (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades es el portal oficial donde se constituyen en línea las sociedades admitidas por el régimen simplificado.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 20.659 regula el régimen simplificado de constitución, modificación y disolución de sociedades; su texto vigente se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

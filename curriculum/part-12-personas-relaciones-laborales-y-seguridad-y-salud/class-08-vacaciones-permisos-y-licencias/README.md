@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Licencia médica** | Reposo autorizado con subsidio y reglas propias. |
 | **Registro de saldos** | Control de días devengados, usados y pendientes. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El pasivo de vacaciones que se acumula en silencio
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Feriado anual"]
-    C --> A2["Permiso legal"]
-    C --> A3["Licencia médica"]
-    C --> A4["Registro de saldos"]
-    A1 & A2 & A3 & A4 --> D{{"controlar el devengo y uso de<br/>feriados, permisos y licencias"}}
-    D --> E["Entregable<br/>registro de feriados y<br/>permisos con saldos y pasivo<br/>acumulado estimado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El feriado se devenga y acumula, y su saldo no controlado se convierte en un pasivo que aparece completo en el finiquito; llevar el registro de saldos y planificar su uso evita concentrar ausencias y cobrar de golpe.
+
+![Esquema: El pasivo de vacaciones que se acumula en silencio](modelo-mental.svg)
+
+**Cómo leerlo:** La curva muestra el pasivo creciendo con el tiempo si nadie toma vacaciones ni se controla el saldo. Se vuelve visible el día que el trabajador se va y el finiquito lo reconoce completo.
+
+**Para recordarlo:** Es una cuenta de luz que no se paga: mes a mes parece pequeña y un día llega con todos los intereses.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El feriado se devenga y acumula, y su saldo no controlado se convierte en un pas
 
 ### 2. Cómo se traduce en la práctica
 
-Llevar el registro y planificar el uso evita además concentrar ausencias en los mismos períodos. Los permisos que la ley establece como irrenunciables no admiten negociación: negarlos genera contingencia sin obtener nada a cambio, porque el derecho subsiste.
+Registra los saldos de feriado de cada trabajador y calcula el pasivo mensual. Planifica las vacaciones al inicio del año para evitar concentraciones y cuida que el uso del feriado sea efectivo. Controla permisos legales y licencias médicas con registros claros. Informa a cada persona su saldo periódicamente y provisiona el pasivo en la contabilidad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Llevar el registro y planificar el uso evita además concentrar ausencias en los
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un trabajador con un sueldo de 800.000 pesos no ha tomado vacaciones en tres años y acumula 45 días hábiles de feriado. Al renunciar, el finiquito reconoce esos días: cerca de 1,7 millones que la empresa no había provisionado. Si hubiera planificado cada año 15 días de vacaciones y registrado los saldos, no habría un pasivo oculto ni ausencias concentradas (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo publica las reglas del feriado anual, los permisos legales y el tratamiento de las licencias médicas.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código del Trabajo regula el feriado anual y su compensación en dinero al término del contrato; su texto vigente se consulta en la BCN.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

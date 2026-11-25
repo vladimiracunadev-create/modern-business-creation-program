@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Pago anticipado** | Cobro previo al embarque. |
 | **Riesgo de contraparte** | Probabilidad de que el comprador no pague. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué medio de pago internacional elegir según el riesgo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Carta de crédito"]
-    C --> A2["Cobranza documentaria"]
-    C --> A3["Pago anticipado"]
-    C --> A4["Riesgo de contraparte"]
-    A1 & A2 & A3 & A4 --> D{{"elegir el medio de pago<br/>internacional según el riesgo<br/>de la contraparte"}}
-    D --> E["Entregable<br/>análisis de medios de pago con<br/>riesgo asumido, costo y<br/>requisitos documentales"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El medio de pago define quién asume el riesgo: la carta de crédito protege al exportador pero es cara y exige documentación exacta, ya que cualquier discrepancia permite al banco rechazar el pago.
+
+![Esquema: Qué medio de pago internacional elegir según el riesgo](modelo-mental.svg)
+
+**Qué mirar primero:** Ubica a tu comprador según la confianza que te inspira y cuánto costo aceptas. Con compradores nuevos, el pago anticipado o la carta de crédito protegen; con clientes de largo plazo, una cuenta abierta reduce costos.
+
+**Una imagen cotidiana:** Es la forma en que entregas la llave de tu casa: a un desconocido, solo contra pago y con garantía; a un amigo de años, confiando.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El medio de pago define quién asume el riesgo. La carta de crédito protege al 
 
 ### 2. Cómo se traduce en la práctica
 
-La carta de crédito protege al exportador pero es cara y exige documentación exacta: cualquier discrepancia permite al banco rechazar el pago, lo que convierte la protección en un problema. Para clientes nuevos en mercados de alto riesgo, el pago anticipado parcial es la protección más simple y efectiva.
+Evalúa el riesgo del comprador y del país antes de definir el medio de pago. Compara los costos de cada alternativa y la documentación que exigen. Si usas carta de crédito, asegura que tus documentos cumplan exactamente las condiciones. Considera un seguro de crédito de exportación. Los medios de pago que involucran entidades financieras deben operar con entidades supervisadas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ La carta de crédito protege al exportador pero es cara y exige documentación e
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿qué tanto conoces al comprador y su historial de pago? Dos: ¿qué costo toleras en tu margen? Tres: ¿puedes cumplir con exactitud los documentos de una carta de crédito? Una empresa exporta por primera vez a un comprador nuevo con carta de crédito y la próxima vez, con la historia de pago, cambia a una cuenta abierta con un seguro de crédito para el riesgo.
+
+### 5. En qué se apoya
+
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La CMF mantiene el registro de prestadores de servicios financieros, útil para verificar a las entidades que intervienen en un pago internacional.
+- **Importación, exportación y clasificación arancelaria** (Servicio Nacional de Aduanas): El Servicio Nacional de Aduanas informa la documentación de las operaciones de comercio exterior, que debe coincidir con la que exige el medio de pago.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

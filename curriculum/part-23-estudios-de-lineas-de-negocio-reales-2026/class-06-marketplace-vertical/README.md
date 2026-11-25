@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Take rate** | Porcentaje retenido de cada transacción. |
 | **Responsabilidad de la plataforma** | Exposición por lo que ocurre en las transacciones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que un marketplace vertical resuelve mejor que un generalista
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Marketplace vertical"]
-    C --> A2["Liquidez"]
-    C --> A3["Take rate"]
-    C --> A4["Responsabilidad de la<br/>plataforma"]
-    A1 & A2 & A3 & A4 --> D{{"definir el nicho de arranque y<br/>el mecanismo de liquidez"}}
-    D --> E["Entregable<br/>modelo de marketplace vertical<br/>con nicho, estrategia de<br/>liquidez, take rate y marco de<br/>responsabilidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El marketplace vertical compite con menor escala pero mayor especialización: puede resolver verificación, pago, garantía y estándares del sector mejor que un generalista, siempre que logre liquidez en su nicho.
+
+![Esquema: Lo que un marketplace vertical resuelve mejor que un generalista](modelo-mental.svg)
+
+**Lectura guiada:** Los tres círculos son lo que el nicho valora y un generalista hace a medias. Donde coinciden está la razón de existir. Sin liquidez en el nicho, la especialización no basta.
+
+**Para recordarlo:** Es una librería especializada frente a un hipermercado: vende menos, pero quien busca ese tema confía más y encuentra lo que necesita.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El marketplace vertical compite con menor escala pero mayor especialización: pu
 
 ### 2. Cómo se traduce en la práctica
 
-La ventaja frente a un generalista es la especialización: verificación, garantía, estándares del sector y resolución de disputas específicas. Esa ventaja solo se materializa con densidad suficiente, y expandir antes de lograrla convierte el diferencial en un catálogo vacío.
+Elige un nicho concreto y la forma de lograr liquidez en él: foco geográfico, subsidios de oferta o primeras demandas. Define las reglas de verificación, pago, garantía y resolución de conflictos. Determina tu responsabilidad como plataforma según cuánto controlas la transacción. Controla la desintermediación con beneficios que solo se obtienen dentro de la plataforma.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La ventaja frente a un generalista es la especialización: verificación, garant
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Un marketplace de maestros de construcción verifica los antecedentes y los trabajos previos de cada oferente, retiene el pago hasta que el cliente aprueba la obra y define estándares de calidad. En dos comunas logra que el 70 % de las solicitudes reciba una oferta en dos horas. Un marketplace generalista tiene más oferentes, pero no verifica ni garantiza; los clientes prefieren al especializado para obras grandes, aunque comisione más (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz describen las métricas de liquidez y de oferta y demanda de los mercados de dos lados.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica los criterios sobre la responsabilidad de las plataformas ante el consumidor, que dependen de cuánto controlan la transacción.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el nicho de arranque y el mecanismo de liquidez.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para definir el nicho de arranque y el mecanismo de liquidez.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

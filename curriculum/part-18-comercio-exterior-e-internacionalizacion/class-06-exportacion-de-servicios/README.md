@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Exención de IVA** | Tratamiento aplicable a servicios calificados como exportación. |
 | **Documentación de respaldo** | Evidencia de que el beneficiario está en el extranjero. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué tan respaldada está tu exportación de servicios
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Exportación de servicios"]
-    C --> A2["Calificación"]
-    C --> A3["Exención de IVA"]
-    C --> A4["Documentación de respaldo"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el servicio<br/>califica como exportación y<br/>qué documentación exige"}}
-    D --> E["Entregable<br/>análisis de calificación del<br/>servicio con requisitos,<br/>documentación de respaldo y<br/>tratamiento de IVA"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La exportación de servicios, como desarrollo de software, consultoría o diseño, puede acceder a la exención de IVA cuando cumple las condiciones y calificaciones aplicables; la clave es documentar que el servicio efectivamente se exportó.
+
+![Esquema: Qué tan respaldada está tu exportación de servicios](modelo-mental.svg)
+
+**Qué mirar primero:** Cada banda mide cuánta evidencia tienes. La exención no se presume: se prueba con documentos coherentes. Con evidencia débil, la ventaja tributaria es frágil.
+
+**Una analogía:** Es demostrar que viajaste: no basta con decir que fuiste, hay que mostrar pasajes, sellos y facturas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La exportación de servicios —desarrollo de software, consultoría, diseño—
 
 ### 2. Cómo se traduce en la práctica
 
-Aplicar la exención sin cumplir los requisitos de calificación es una contingencia que aparece en la primera fiscalización, con impuesto, intereses y multas retroactivos. La documentación de respaldo debe definirse por operación y guardarse, no reconstruirse cuando llega el requerimiento.
+Antes de exportar un servicio, verifica con tu contador si califica y qué calificación requiere. Redacta el contrato indicando quién es el cliente, dónde se utiliza el servicio y cómo se paga. Guarda la factura, la evidencia de prestación y el comprobante de pago desde el exterior. Considera las novedades legales que afectan el tratamiento tributario de estos servicios.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Aplicar la exención sin cumplir los requisitos de calificación es una continge
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una consultora presta servicios a una empresa de otro país y factura sin IVA sin tener contrato escrito ni prueba de quién utiliza el servicio. El SII le cuestiona la exención y debe pagar el IVA con reajustes de un año de facturación. La corrección: contrato claro con el cliente en el exterior, descripción del servicio y de dónde se utiliza, factura correcta, comprobante del pago internacional y calificación previa cuando corresponda (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII publica la información tributaria de las exportaciones de servicios y los requisitos para la exención del IVA.
+- **Exportación de servicios** (ProChile): ProChile publica la guía y los requisitos de exportación de servicios, incluido el manual de exportación de servicios vigente.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Confirming** | Pago a proveedores gestionado por una entidad financiera. |
 | **Costo efectivo** | Tasa real incluyendo comisiones y plazos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Leasing, factoring, confirming o crédito?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Leasing"]
-    C --> A2["Factoring"]
-    C --> A3["Confirming"]
-    C --> A4["Costo efectivo"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué instrumento<br/>corresponde y a qué costo<br/>efectivo"}}
-    D --> E["Entregable<br/>comparación de instrumentos<br/>con costo efectivo anualizado<br/>y efecto en margen"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El factoring resuelve un problema de calce temporal, pero usado de forma estructural erosiona el margen: se paga una tasa mensual sobre toda la facturación, por lo que conviene comparar el costo efectivo anualizado.
+
+![Esquema: ¿Leasing, factoring, confirming o crédito?](modelo-mental.svg)
+
+**Qué mirar primero:** Recorre el árbol según la necesidad. La pregunta de fondo es qué estás financiando y por cuánto tiempo. El instrumento correcto mantiene el calce; el incorrecto lo rompe.
+
+**Para recordarlo:** Es elegir el medio de transporte: para un viaje largo con carga pesada se arrienda un camión; para llegar a un pago pendiente, se adelanta el dinero.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El factoring resuelve un problema de calce temporal, pero usado de forma estruct
 
 ### 2. Cómo se traduce en la práctica
 
-El factoring resuelve un problema de calce temporal, pero usado de forma estructural se paga una tasa mensual sobre toda la facturación y consume el margen del negocio. Comparar el costo efectivo contra el margen revela si la operación soporta ese financiamiento o si está trabajando para la financiera.
+Calcula el costo efectivo anualizado de cada alternativa, incluyendo comisiones y gastos. Compara con el margen que financias. Usa factoring o confirming para descalces temporales, no como solución permanente. Verifica que la entidad que te financia esté registrada y supervisada según corresponda y que el contrato describa claramente costos y garantías.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El factoring resuelve un problema de calce temporal, pero usado de forma estruct
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿lo que necesitas es un equipo de largo plazo? Leasing. Dos: ¿hay facturas por cobrar a 60 días que necesitas hoy? Factoring, pero compara tasas mensuales con costo anual. Tres: ¿es una necesidad permanente de caja? Entonces el problema es estructural: revisa tu ciclo de conversión, no solo el financiamiento. Una pyme que usó factoring todos los meses descubrió que su costo anual superaba el margen del producto (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La CMF mantiene un registro de prestadores de servicios financieros que permite verificar a las entidades que ofrecen estos instrumentos.
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers explican cómo comparar el costo de distintas fuentes de financiamiento y la importancia de calzar plazos de activos y pasivos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
 - *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
 - *Uso en esta clase:* aporta el marco de «Registro de Prestadores de Servicios Financieros · Ley 21.521» para determinar qué instrumento corresponde y a qué costo efectivo.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para determinar qué instrumento corresponde y a qué costo efectivo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

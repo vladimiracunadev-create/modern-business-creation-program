@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Voz del cliente** | Información estructurada proveniente de reclamos y consultas. |
 | **Causa raíz** | Origen operativo del reclamo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El reclamo como ciclo de mejora
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Reclamo"]
-    C --> A2["Tiempo de resolución"]
-    C --> A3["Voz del cliente"]
-    C --> A4["Causa raíz"]
-    A1 & A2 & A3 & A4 --> D{{"definir cómo se registran,<br/>resuelven y analizan los<br/>reclamos"}}
-    D --> E["Entregable<br/>sistema de reclamos con<br/>clasificación por causa raíz,<br/>plazos e informe periódico de<br/>voz del cliente"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un reclamo bien registrado no es solo un problema que se resuelve: es el diagnóstico más barato de lo que falla en la operación.
+
+![Esquema: El reclamo como ciclo de mejora](modelo-mental.svg)
+
+**Lectura guiada:** El ciclo no termina en la respuesta: continúa con la causa raíz y la corrección. Si se corta antes, el mismo reclamo vuelve.
+
+**Para recordarlo:** Es un detector de humo: no apaga el incendio, pero te avisa dónde mirar antes de que se extienda.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los reclamos son la fuente de mejora más barata y la más ignorada. Clasificarl
 
 ### 2. Cómo se traduce en la práctica
 
-Es la fuente de mejora más barata que existe y la más ignorada, porque cada reclamo se resuelve de forma aislada y nadie mira el patrón. En venta a consumidores, además, el registro y la atención oportuna son la evidencia que protege ante una fiscalización del SERNAC.
+Define un canal único, un plazo de respuesta y una lista corta de causas raíz (producto, despacho, información, cobro, atención). Registra cada reclamo con fecha, causa y solución, y revisa cada mes las tres causas más repetidas. En venta a consumidores, ese registro y la atención oportuna son evidencia ante el SERNAC.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Es la fuente de mejora más barata que existe y la más ignorada, porque cada re
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una tienda recibe 40 reclamos al mes y contrata a dos personas más para atenderlos, sin mirar qué los origina. La corrección: clasificarlos por causa raíz. De los 40 reclamos, 22 son retrasos del mismo operador logístico; cambiarlo elimina el 55 % de los reclamos de una vez y evita ese gasto en personal (cifras ilustrativas). Atender más rápido un problema repetido solo lo vuelve más caro.
+
+### 5. En qué se apoya
+
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): La Ley 19.496 reconoce el derecho a la reparación (art. 3, letra e) y obliga a dar facilidades a la fiscalización del SERNAC (art. 58); un registro ordenado demuestra que los reclamos se atendieron.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica criterios aplicados de atención y garantía legal que sirven de referencia para diseñar el procedimiento.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: reclamos como activo y controversias públicas
 

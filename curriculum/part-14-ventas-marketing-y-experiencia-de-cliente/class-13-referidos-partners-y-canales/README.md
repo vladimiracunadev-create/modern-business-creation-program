@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Canal indirecto** | Venta a través de un tercero. |
 | **Conflicto de canal** | Competencia entre el canal directo y el indirecto. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Red de referidos, partners y canales
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Referido"]
-    C --> A2["Partner"]
-    C --> A3["Canal indirecto"]
-    C --> A4["Conflicto de canal"]
-    A1 & A2 & A3 & A4 --> D{{"definir el programa de<br/>referidos y las reglas del<br/>canal indirecto"}}
-    D --> E["Entregable<br/>programa de referidos y<br/>partners con reglas de<br/>registro de oportunidad y<br/>esquema de comisión"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los referidos y los partners son el canal más barato y el menos gestionado: funcionan cuando hay reglas claras y no por simple buena voluntad.
+
+![Esquema: Red de referidos, partners y canales](modelo-mental.svg)
+
+**Cómo leerlo:** Cada satélite es una vía de llegada a clientes y el texto dice qué necesita para funcionar. El choque entre canal directo e indirecto es lo que más rompe estos programas.
+
+**Una imagen cotidiana:** Es una red de caminos: cada conexión lleva clientes, pero sin señales dos caminos se cruzan y ocurre un choque.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los referidos son el canal de menor CAC y el menos gestionado: rara vez se pide 
 
 ### 2. Cómo se traduce en la práctica
 
-Los referidos son el canal de menor costo de adquisición y el menos gestionado: rara vez se piden de forma sistemática. Y los programas de partners fracasan casi siempre por lo mismo: sin reglas escritas de registro de oportunidad, el canal directo y el indirecto compiten por la misma cuenta.
+Pide el referido cuando el cliente acaba de obtener su resultado, con una solicitud específica: a quién conoce que tenga el mismo problema. Para los partners escribe el registro de oportunidades, la comisión, la exclusividad y el traspaso al cliente. Todo mensaje que el partner publique sobre tu producto debe poder comprobarse.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Los referidos son el canal de menor costo de adquisición y el menos gestionado:
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Tu empresa vende software de gestión y un partner contable te trae una oportunidad. Ponle reglas a este escenario ilustrativo: la comisión es 10 % del primer año y el registro de la oportunidad dura 90 días. Pregunta 1: tu vendedor directo contacta a la misma empresa al día 40, ¿a quién corresponde? Pregunta 2: el partner publica «nuestro software ahorra 30 %» sin prueba, ¿qué haces y con qué cláusula? Escribe tu respuesta en tres líneas por pregunta y contrástala con las reglas que redactaste en el desarrollo práctico.
+
+### 5. En qué se apoya
+
+- **Traction (2015)** (Portfolio): Weinberg y Mares incluyen el desarrollo de negocios y las alianzas entre los canales de tracción que conviene probar.
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): El artículo 28 de la Ley 19.496 alcanza a cualquier mensaje publicitario que induzca a error, también al emitido por un tercero en beneficio de la empresa.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: partners y canales que hablan por tu marca
 
@@ -187,6 +192,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
 - *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el programa de referidos y las reglas del canal indirecto.
+
+**Portfolio — Traction (2015)**  
+<https://openlibrary.org/isbn/9781591848363> · verificado 2026-11-25
+
+- *Qué contiene:* Catálogo de canales de adquisición de clientes y un método para probarlos con experimentos pequeños y concentrar el esfuerzo en el que funciona.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Traction (2015)» para definir el programa de referidos y las reglas del canal indirecto.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

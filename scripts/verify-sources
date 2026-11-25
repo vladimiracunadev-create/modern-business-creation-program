@@ -115,10 +115,19 @@ def uso_real() -> dict[str, list[str]]:
     }
     parte_de_clase = {c["global_class"]: c["part"] for c in curriculo}
 
+    # El fundamento de un modelo mental (manifests/visuales/) también cita fuentes.
+    visuales = {}
+    if (MANIFESTS / "visuales").exists():
+        for archivo in sorted((MANIFESTS / "visuales").glob("*.json")):
+            for v in cargar_json(archivo):
+                visuales[v["n"]] = v
+
     usos: dict[str, list[str]] = {}
     for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
         for entrada in cargar_json(archivo):
             numero = entrada["n"]
+            if numero in visuales:
+                entrada = {**entrada, "visual": visuales[numero]}
             for fid in fuentes_de_clase(entrada, packs[parte_de_clase[numero]]):
                 usos.setdefault(fid, []).append(ruta_clase[numero])
     for pack in packs.values():

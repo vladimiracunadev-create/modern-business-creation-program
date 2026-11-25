@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Serie** | Categoría de acciones con derechos diferenciados. |
 | **Aumento de capital** | Emisión de nuevas acciones que puede diluir a los existentes. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La estructura de capital de una SpA
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SpA"]
-    C --> A2["Acción"]
-    C --> A3["Serie"]
-    C --> A4["Aumento de capital"]
-    A1 & A2 & A3 & A4 --> D{{"definir estructura de capital,<br/>series y reglas estatutarias<br/>de la SpA"}}
-    D --> E["Entregable<br/>borrador de estatutos con<br/>capital, series,<br/>administración y quórums<br/>declarados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La SpA es hoy el vehículo estándar para empresas con proyección de crecimiento: admite accionista único, series con derechos distintos y facilita la entrada de inversionistas.
+
+![Esquema: La estructura de capital de una SpA](modelo-mental.svg)
+
+**Cómo leerlo:** Cada capa es una parte del capital con una función distinta. Define cuántas acciones asignas a cada una y qué derechos otorga antes de que lleguen los inversionistas.
+
+**Una analogía:** Es repartir los asientos de un auditorio: algunos con vista preferente, otros para el equipo y algunos reservados para quienes lleguen después.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La SpA (Código de Comercio arts. 424-446, Ley 20.190) es hoy el vehículo está
 
 ### 2. Cómo se traduce en la práctica
 
-Los estatutos tipo del formulario resuelven el trámite y dejan sin definir quórums, reglas de transferencia y mecanismos de desempate. Esos vacíos no se notan mientras todo funciona y se vuelven imposibles de negociar cuando aparece el primer desacuerdo entre accionistas.
+Antes de constituir, decide el capital, el número de acciones, las series y quién tendrá qué derechos. Redacta los estatutos para que permitan aumentos de capital sin requerir unanimidad y reserva un grupo de acciones para el equipo. Anota cómo se valorizan los aportes y cómo se verá la dilución con cada ronda. Los estatutos son la base legal; el pacto de accionistas complementa lo que no cabe en ellos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Los estatutos tipo del formulario resuelven el trámite y dejan sin definir quó
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Dos fundadores constituyen una SpA con 1.000 acciones: 450 cada uno y 100 reservadas para opciones del equipo. Luego un inversionista aporta 100 millones por una serie preferente con 20 % de la propiedad. Se emiten 250 acciones nuevas (1.000 / 0,8 × 0,2): los fundadores bajan a 36 % cada uno y las reservas a 8 %. Las cifras muestran cómo cada aumento diluye a los anteriores (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Los artículos 424 a 446 del Código de Comercio y la Ley 20.190 regulan la sociedad por acciones, incluida su libertad estatutaria; el texto vigente se consulta en la Biblioteca del Congreso Nacional.
+- **Secrets of Sand Hill Road** (Portfolio): Kupor explica cómo se estructuran rondas, series preferentes y dilución desde la mirada del emprendedor que levanta capital.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -157,6 +162,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir estructura de capital, series y reglas estatutarias de la SpA.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para definir estructura de capital, series y reglas estatutarias de la SpA.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

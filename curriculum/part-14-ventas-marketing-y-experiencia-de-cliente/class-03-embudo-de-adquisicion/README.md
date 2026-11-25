@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cuello de botella del embudo** | Etapa donde se pierde la mayor proporción. |
 | **Velocidad** | Tiempo promedio entre etapas. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dónde se pierde el cliente: el embudo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Embudo"]
-    C --> A2["Tasa de conversión"]
-    C --> A3["Cuello de botella del<br/>embudo"]
-    C --> A4["Velocidad"]
-    A1 & A2 & A3 & A4 --> D{{"identificar en qué etapa se<br/>pierde la mayor proporción y<br/>actuar ahí"}}
-    D --> E["Entregable<br/>embudo con tasas de conversión<br/>y velocidad por etapa, con<br/>cuello de botella identificado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Antes de traer más gente al embudo, averigua en qué etapa se pierde la mayor parte: el esfuerzo rinde más donde el cuello es más angosto.
+
+![Esquema: Dónde se pierde el cliente: el embudo](modelo-mental.svg)
+
+**Lectura guiada:** Cada barra es una etapa y el porcentaje a la derecha dice cuántos pasan a la siguiente. El recuadro rojo marca el cuello de botella: ahí está la mejora más barata (datos ilustrativos).
+
+**Piénsalo así:** Es una cañería con un tramo estrecho: subir la presión al comienzo solo hace que el agua se derrame.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Medir conversión por etapa permite saber si el problema es de volumen, de calif
 
 ### 2. Cómo se traduce en la práctica
 
-Aumentar contactos cuando el problema está en el cierre solo aumenta el desperdicio. Y la velocidad del embudo determina cuánta caja se necesita para sostener el crecimiento: un ciclo de venta de seis meses exige financiar seis meses de esfuerzo comercial antes del primer cobro.
+Define cada etapa con un hecho observable (qué prueba que alguien pasó de interesado a reunión), mide cuántos entran y cuántos pasan cada mes y calcula el tiempo promedio entre etapas. Esa velocidad te dice cuánta caja necesitas mientras creces: un ciclo de 60 días exige financiar dos meses de costos antes de cobrar.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Aumentar contactos cuando el problema está en el cierre solo aumenta el desperd
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Con los datos ilustrativos del gráfico, duplicar el tráfico a 2.000 visitas daría 8 clientes en vez de 4. Subir el cierre de propuestas de 9 % a 18 % daría también 8 clientes sin gastar un peso adicional en tráfico. Revisar la etapa de cierre cuesta una tarde; duplicar el tráfico, un presupuesto.
+
+### 5. En qué se apoya
+
+- **The Lean Startup (2011)** (Crown Business): Ries propone medir con indicadores accionables por etapa y no con métricas de vanidad, para saber si lo que se hace mueve el resultado.
+- **Traction (2015)** (Portfolio): Weinberg y Mares proponen probar varios canales de adquisición y concentrar el esfuerzo en el que muestra resultados.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para identificar en qué etapa se pierde la mayor proporción y actuar ahí.
+
+**Crown Business — The Lean Startup (2011)**  
+<https://openlibrary.org/isbn/9780307887894> · verificado 2026-11-25
+
+- *Qué contiene:* Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Lean Startup (2011)» para identificar en qué etapa se pierde la mayor proporción y actuar ahí.
+
+**Portfolio — Traction (2015)**  
+<https://openlibrary.org/isbn/9781591848363> · verificado 2026-11-25
+
+- *Qué contiene:* Catálogo de canales de adquisición de clientes y un método para probarlos con experimentos pequeños y concentrar el esfuerzo en el que funciona.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Traction (2015)» para identificar en qué etapa se pierde la mayor proporción y actuar ahí.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

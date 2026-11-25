@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Coherencia interna** | Consistencia entre modelo, estrategia y capacidad. |
 | **Métrica norte** | Indicador que resume el valor entregado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un modelo de negocio coherente con la evidencia
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Modelo de negocio del caso"]
-    C --> A2["Estrategia"]
-    C --> A3["Coherencia interna"]
-    C --> A4["Métrica norte"]
-    A1 & A2 & A3 & A4 --> D{{"definir modelo de negocio,<br/>estrategia y aliados<br/>coherentes con la validación"}}
-    D --> E["Entregable<br/>secciones 04 y 05 del<br/>expediente con Canvas<br/>versionado, métrica norte,<br/>coherencia interna y mapa de<br/>aliados priorizado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El modelo y la estrategia del caso deben ser coherentes con la evidencia de validación y con la capacidad declarada; por cada bloque se registran hipótesis, evidencia, fuente y confianza.
+
+![Esquema: Un modelo de negocio coherente con la evidencia](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa se apoya en la anterior. Si el modelo afirma algo que la evidencia no respalda, la coherencia se rompe. La métrica norte debe medir valor entregado al cliente, no actividad interna.
+
+**Piénsalo así:** Es construir una casa sobre cimientos medidos: cada piso depende de lo que resiste el de abajo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El modelo y la estrategia del caso deben ser coherentes con la evidencia de vali
 
 ### 2. Cómo se traduce en la práctica
 
-El Canvas registra hipótesis, evidencia, fuente, confianza, riesgo y experimento por bloque. El mapa de aliados clasifica cada relación y prioriza por aporte, dependencia, criticidad, sustitución e incentivos. Ambas secciones son provisionales: costos y proyección pueden obligar a cambiar el modelo o descartar una alianza atractiva pero insostenible.
+Construye el canvas con base en la validación y revisa su coherencia: cada bloque debe estar respaldado o declarado como supuesto. Define la estrategia: dónde jugar, cómo ganar, qué ventaja y qué defensas. Mapea los aliados con su rol. Elige una métrica norte y la definición de éxito del primer año. Lo que no puedas respaldar, declara que es hipótesis.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El Canvas registra hipótesis, evidencia, fuente, confianza, riesgo y experiment
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Completa el modelo de tu caso en una tabla con una fila por bloque del canvas. Para cada bloque, escribe la hipótesis, la evidencia que la apoya, la fuente, tu nivel de confianza y qué cambiarías si resultara falsa. Marca con rojo cada bloque sin evidencia. Elige tu métrica norte y justifica por qué mide valor entregado. Revisa si el canal alcanza al segmento y si la estructura de costos soporta las fuentes de ingreso. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Business Model Generation** (Wiley): Osterwalder y Pigneur presentan el lienzo del modelo de negocio como una herramienta para describir y revisar la coherencia entre sus bloques.
+- **Playing to Win** (Harvard Business Review Press): Lafley y Martin plantean la estrategia como una cascada de elecciones coherentes: dónde jugar y cómo ganar.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
 - *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para definir modelo de negocio, estrategia y aliados coherentes con la validación.
+
+**Wiley — Business Model Generation**  
+<https://openlibrary.org/isbn/9780470876411> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el lienzo del modelo de negocio de nueve bloques y patrones para describir, diseñar y comparar modelos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Business Model Generation» para definir modelo de negocio, estrategia y aliados coherentes con la validación.
+
+**Harvard Business Review Press — Playing to Win**  
+<https://openlibrary.org/isbn/9781491528792> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea la estrategia como una cascada de elecciones: dónde jugar y cómo ganar. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Playing to Win» para definir modelo de negocio, estrategia y aliados coherentes con la validación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

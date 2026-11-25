@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Estrategia de financiamiento** | Secuencia planificada de instrumentos y montos. |
 | **Punto de no dilución** | Monto a partir del cual conviene otra fuente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dilución en porcentaje frente a valor absoluto
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Dilución"]
-    C --> A2["Valor absoluto"]
-    C --> A3["Estrategia de<br/>financiamiento"]
-    C --> A4["Punto de no dilución"]
-    A1 & A2 & A3 & A4 --> D{{"planificar la secuencia de<br/>financiamiento y qué hito<br/>habilita cada ronda"}}
-    D --> E["Entregable<br/>plan de financiamiento con<br/>secuencia de instrumentos,<br/>hitos habilitados y dilución<br/>proyectada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La dilución se evalúa en valor absoluto y no en porcentaje: un 10 % de una empresa que vale diez veces más es mejor que un 40 % de la anterior; lo que destruye valor es levantar capital sin un hito que lo justifique.
+
+![Esquema: Dilución en porcentaje frente a valor absoluto](modelo-mental.svg)
+
+**Lectura guiada:** Compara el valor de tu participación, no el porcentaje. La segunda barra muestra que ceder 40 % puede multiplicar el valor si el capital habilita un crecimiento real.
+
+**Una analogía:** Es compartir una torta: si la torta crece diez veces, tu porción menor puede ser más grande que la entera de antes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La dilución se evalúa en valor absoluto y no en porcentaje: un 10% de una empr
 
 ### 2. Cómo se traduce en la práctica
 
-Un 10 % de una empresa que vale diez veces más es mejor que un 40 % de la anterior; el porcentaje solo no informa. Lo que sí destruye valor es levantar capital sin plan, ronda tras ronda, sin que cada una habilite un hito que justifique una valorización mayor en la siguiente.
+Planifica la secuencia de financiamiento: qué hito habilita cada ronda (ventas, producto, equipo) y cuánto capital necesitas para alcanzarlo. Modela la dilución y el valor absoluto de tu participación. Evita rondas sin un hito claro. Define el punto a partir del cual no necesitas más capital externo y considera el efecto de las opciones para el equipo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un 10 % de una empresa que vale diez veces más es mejor que un 40 % de la anter
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un fundador tiene el 100 % de una empresa valorada en 1. Levanta capital cediendo 40 % y, con ese dinero, la empresa pasa a valer 10: su 60 % vale 6, seis veces más que antes. En cambio, si hubiera cedido 40 % sin que el capital cambiara el valor (1), su participación valdría 0,6 y habría perdido sin ganar nada. Lo que cuenta es el hito que habilita la ronda (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Secrets of Sand Hill Road** (Portfolio): Kupor explica cómo se planifican las rondas sucesivas y por qué la dilución debe evaluarse junto con el valor que crea el capital.
+- **The Little Book of Valuation** (Wiley): Damodaran enseña que el valor de la empresa y de la participación depende de los flujos que genera, no del porcentaje que se posee.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Describe los programas de aceleración, sus cohortes, el aporte que entregan y las contrapartidas exigidas en permanencia, reporte y actividades.
 - *Cómo leerla:* Evalúa el programa por la red y la validación que aporta, no por el monto. La contrapartida de permanencia tiene costo operativo real y debe compararse contra lo que la empresa necesita en su etapa.
 - *Uso en esta clase:* aporta el marco de «Aceleración de startups» para planificar la secuencia de financiamiento y qué hito habilita cada ronda.
+
+**Portfolio — Secrets of Sand Hill Road**  
+<https://openlibrary.org/isbn/9780593083581> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Secrets of Sand Hill Road» para planificar la secuencia de financiamiento y qué hito habilita cada ronda.
+
+**Wiley — The Little Book of Valuation**  
+<https://openlibrary.org/isbn/9781118004777> · verificado 2026-11-25
+
+- *Qué contiene:* Introduce la valoración de empresas por flujo descontado y por múltiplos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Little Book of Valuation» para planificar la secuencia de financiamiento y qué hito habilita cada ronda.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

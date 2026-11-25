@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Sesgo de confirmación** | Tendencia a buscar solo evidencia que apoya lo que ya se cree. |
 | **Alcance** | Segmento y contexto donde la hipótesis se afirma verdadera. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Una hipótesis que puede resultar falsa
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Hipótesis falsable"]
-    C --> A2["Métrica de refutación"]
-    C --> A3["Sesgo de confirmación"]
-    C --> A4["Alcance"]
-    A1 & A2 & A3 & A4 --> D{{"convertir la intuición del<br/>fundador en un enunciado que<br/>puede resultar falso"}}
-    D --> E["Entregable<br/>hoja de hipótesis con<br/>enunciado, segmento, métrica,<br/>umbral y método de refutación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Una buena hipótesis nombra a quién afecta, qué hace, cuántas veces y cuál resultado la refutaría; sin umbral, cualquier dato se interpreta como éxito.
+
+![Esquema: Una hipótesis que puede resultar falsa](modelo-mental.svg)
+
+**Cómo leerlo:** Lee la pirámide de arriba hacia abajo y completa cada capa con un dato. Si alguna capa queda vacía, tienes una opinión y no una hipótesis.
+
+**Una imagen cotidiana:** Es la diferencia entre decir «creo que lloverá» y «si a las 18:00 hay más de 60 % de humedad, llevaré paraguas»: la segunda se puede comprobar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Formular el problema como hipótesis falsable convierte una opinión en un exper
 
 ### 2. Cómo se traduce en la práctica
 
-El umbral es la parte que se salta y la que decide todo. Fijado después de ver el resultado, cualquier dato se lee como alentador. Fijado antes —«al menos 8 de 20 entrevistados deben haber pagado por resolverlo el último año»— la hipótesis puede efectivamente morir, que es de lo que se trata.
+Escribe tu hipótesis en una oración con cuatro datos: segmento, comportamiento, frecuencia y umbral. Antes de salir a probarla, anota qué resultado la refutaría y qué harás si ocurre. Luego pide a otra persona que la lea: si puede imaginar un dato que la contradiga, está bien formulada; si no, vuelve a escribirla. Evita palabras que no se pueden medir, como «muchos» o «frecuentemente».
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El umbral es la parte que se salta y la que decide todo. Fijado después de ver 
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una fundadora cree que a los talleres mecánicos les cuesta cobrar. Su hipótesis falsable queda así: «Al menos 6 de 10 talleres con más de tres mecánicos tienen cada mes más de cinco clientes que pagan con retraso». Si de diez entrevistas solo tres cumplen, la hipótesis se rechaza. Sin ese umbral, tres de diez también habrían parecido «interesante» y habría seguido invirtiendo (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Lean Startup (2011)** (Crown Business): Ries propone tratar el plan de negocio como un conjunto de hipótesis que se prueban con experimentos y métricas definidas de antemano.
+- **The Startup Owner's Manual** (K&S Ranch): Blank y Dorf piden formular hipótesis de negocio sobre clientes y salir a contrastarlas con evidencia, en lugar de construir primero y validar después.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para convertir la intuición del fundador en un enunciado que puede resultar falso.
+
+**Crown Business — The Lean Startup (2011)**  
+<https://openlibrary.org/isbn/9780307887894> · verificado 2026-11-25
+
+- *Qué contiene:* Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Lean Startup (2011)» para convertir la intuición del fundador en un enunciado que puede resultar falso.
+
+**K&S Ranch — The Startup Owner's Manual**  
+<https://openlibrary.org/isbn/9780984999309> · verificado 2026-11-25
+
+- *Qué contiene:* Guía de desarrollo de clientes: validar hipótesis de negocio hablando con clientes antes de escalar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Startup Owner's Manual» para convertir la intuición del fundador en un enunciado que puede resultar falso.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

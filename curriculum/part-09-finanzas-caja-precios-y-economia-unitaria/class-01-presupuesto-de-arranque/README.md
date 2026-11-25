@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Colchón** | Reserva para desviaciones del plan. |
 | **Punto de caja mínima** | Saldo bajo el cual la empresa entra en riesgo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué debe incluir un presupuesto de arranque realista
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Presupuesto de arranque"]
-    C --> A2["Gasto preoperativo"]
-    C --> A3["Colchón"]
-    C --> A4["Punto de caja mínima"]
-    A1 & A2 & A3 & A4 --> D{{"determinar cuánto capital se<br/>necesita hasta alcanzar<br/>operación estable"}}
-    D --> E["Entregable<br/>presupuesto de arranque con<br/>preoperativos, capital de<br/>trabajo, colchón y punto de<br/>caja mínima"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El presupuesto de arranque falla casi siempre por dos omisiones: los costos de habilitación regulatoria y el capital de trabajo del primer ciclo de cobro.
+
+![Esquema: Qué debe incluir un presupuesto de arranque realista](modelo-mental.svg)
+
+**Lectura guiada:** Cada capa es un tipo de gasto que suele olvidarse. Las dos de abajo son las que más se omiten y las que más ahogan a una empresa nueva.
+
+**Piénsalo así:** Es preparar un viaje: el pasaje y el hotel son obvios, pero se olvidan los traslados, los imprevistos y los días en que no hay ingresos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El presupuesto de arranque falla casi siempre por dos omisiones: los costos de h
 
 ### 2. Cómo se traduce en la práctica
 
-Las dos omisiones típicas son los costos de habilitación regulatoria —patente, permisos sectoriales, garantías de arriendo— y el capital de trabajo del primer ciclo. Un presupuesto realista incluye constitución, permisos, primer inventario y tres meses de operación sin ingresos, más un colchón declarado.
+Lista todo lo que necesitas pagar desde la constitución hasta que la operación se sostenga sola: constitución, permisos, equipamiento, inventario inicial, sueldos y arriendos durante los meses sin ventas suficientes. Estima el capital de trabajo del primer ciclo de cobro y agrega un colchón. Define la caja mínima por debajo de la cual detienes gastos y reemplanteas. Contrasta tu presupuesto con el de empresas del rubro.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ Las dos omisiones típicas son los costos de habilitación regulatoria —patent
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una cafetería presupuesta 18 millones para equipos y arriendo. Al abrir descubre que la autorización sanitaria y las adecuaciones del local costaron 4 millones más, y que sus primeros proveedores exigían pago a siete días mientras sus clientes pagaban al instante pero en volumen bajo. En el segundo mes no puede pagar sueldos. Con un presupuesto que incluyera permisos, capital de trabajo y un colchón del 15 %, habría llegado a su punto de equilibrio (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Fomento para micro y pequeñas empresas** (Servicio de Cooperación Técnica): SERCOTEC publica programas de fomento y requisitos para micro y pequeñas empresas que ayudan a financiar parte de la inversión inicial.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

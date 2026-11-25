@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Secuencia** | Serie planificada de contactos por distintos canales. |
 | **Tasa de respuesta** | Proporción de contactos que responden. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Prospección: lista acotada y regla de salida
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Prospección"]
-    C --> A2["Lista de cuentas objetivo"]
-    C --> A3["Secuencia"]
-    C --> A4["Tasa de respuesta"]
-    A1 & A2 & A3 & A4 --> D{{"definir la lista objetivo y la<br/>secuencia de contacto"}}
-    D --> E["Entregable<br/>lista de cuentas objetivo con<br/>secuencia de contacto y<br/>mensaje específico por<br/>segmento"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Cien cuentas bien investigadas rinden más que mil contactos genéricos: la prospección es un proceso acotado, con mensaje propio y regla de salida.
+
+![Esquema: Prospección: lista acotada y regla de salida](modelo-mental.svg)
+
+**Lectura guiada:** Sigue el flujo de izquierda a derecha; el rombo es la decisión. La línea punteada recuerda que, sin respuesta, la cuenta sale de la secuencia y se revisa la lista.
+
+**Una analogía:** Es pescar con arpón y no con red de arrastre: eliges la pieza, te acercas y apuntas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La prospección B2B funciona con listas acotadas y mensajes específicos: cien c
 
 ### 2. Cómo se traduce en la práctica
 
-Cien cuentas bien investigadas producen más que mil contactos genéricos, porque el mensaje puede referirse al problema concreto de esa empresa. El contacto no solicitado debe además ofrecer mecanismo de exclusión y respetar las solicitudes de baja: incumplirlo genera reclamos y expone a la empresa.
+Fija la lista antes de empezar y no la amplíes hasta terminar la secuencia: así podrás medir la tasa de respuesta. Cada contacto debe aportar algo nuevo respecto del anterior, ofrecer una forma simple de salir de la lista y respetar las reglas de comunicaciones comerciales y de datos personales. Registra quién fue contactado, por qué canal y cuándo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Cien cuentas bien investigadas producen más que mil contactos genéricos, porqu
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide así, en orden. Uno: ¿puedes nombrar a quién decide en esta cuenta? Si no, sale de la lista. Dos: ¿hay un hecho público reciente que justifique escribirle ahora, como una ampliación o una oferta de empleo? Si no, espera. Tres: ¿tu mensaje cabe en cuatro líneas y se entiende sin adjuntos? Si no, reescríbelo. Cuatro: ¿ofrece una forma simple de salir de la lista? Si no, agrégala. Con 80 clínicas, la secuencia es correo, mensaje por red a los tres días y llamada al día siete; responde cerca del 14 % (dato ilustrativo) y quien no responde sale por 90 días.
+
+### 5. En qué se apoya
+
+- **Predictable Revenue (2011)** (PebbleStorm): Ross y Tyler describen la prospección saliente como un proceso con roles y métricas propias y no como la iniciativa individual de cada vendedor.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de las reglas de información y de contacto comercial a consumidores, que condicionan cómo se diseña la secuencia.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Inteligencia humana (HUMINT) en el mundo corporativo
 
@@ -167,6 +172,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir la lista objetivo y la secuencia de contacto.
+
+**PebbleStorm — Predictable Revenue (2011)**  
+<https://openlibrary.org/isbn/9780984380213> · verificado 2026-11-25
+
+- *Qué contiene:* Describe la prospección saliente como un proceso con roles especializados, listas acotadas y métricas, para volver predecible la generación de ingresos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Predictable Revenue (2011)» para definir la lista objetivo y la secuencia de contacto.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

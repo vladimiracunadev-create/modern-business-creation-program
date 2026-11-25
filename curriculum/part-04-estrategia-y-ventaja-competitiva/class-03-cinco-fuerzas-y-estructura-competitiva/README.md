@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Amenaza de sustitutos** | Riesgo de que otra forma de resolver el job desplace a la industria. |
 | **Rivalidad** | Intensidad de la competencia entre los actores existentes. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dónde queda el margen en tu industria
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Poder de negociación"]
-    C --> A2["Barrera de entrada"]
-    C --> A3["Amenaza de sustitutos"]
-    C --> A4["Rivalidad"]
-    A1 & A2 & A3 & A4 --> D{{"decidir si la estructura de la<br/>industria admite el margen que<br/>el negocio necesita"}}
-    D --> E["Entregable<br/>análisis de cinco fuerzas con<br/>evidencia por fuerza y<br/>conclusión sobre margen<br/>sostenible"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El análisis de la estructura de una industria explica dónde queda el margen: con proveedores concentrados, clientes grandes y sin barreras de entrada, el margen es mínimo por bien gestionada que esté la empresa.
+
+![Esquema: Dónde queda el margen en tu industria](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra mide la presión de una de las cinco fuerzas. Las más altas son las que se llevan el margen. Antes de apostar a un sector, pregunta quién se queda con la ganancia.
+
+**Piénsalo así:** Es una torta repartida entre varios invitados: no importa cuán bien la cocines si los que se sientan a la mesa se llevan la mayor parte.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El análisis de estructura explica dónde queda el margen en la cadena. Una indu
 
 ### 2. Cómo se traduce en la práctica
 
-Proveedores concentrados, clientes grandes y ausencia de barreras de entrada dejan margen mínimo por bien gestionada que esté la empresa. Ese diagnóstico se hace con evidencia —cuántos proveedores reales hay, qué porcentaje de tus ventas es un solo cliente, cuánto cuesta entrar— y no con impresiones.
+Para cada fuerza, escribe tres hechos observables, como el número de proveedores, cuánto representa el mayor cliente y qué barreras existen. Puntúa de 1 a 5 y suma tu lectura de dónde queda el margen. Si tres fuerzas están en 4 o 5, la industria admite poco margen: solo entra si tienes una ventaja que cambie la estructura o un nicho protegido.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Proveedores concentrados, clientes grandes y ausencia de barreras de entrada dej
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa estudia entrar al transporte de carga para una gran cadena de supermercados. Evalúa de 1 a 5: proveedores de combustible y camiones, 5; clientes, 4 (una cadena concentra la demanda); rivalidad, 4; sustitutos, 3; nuevos entrantes, 2. El margen operativo típico del sector es de 5 %, y con una flota nueva el retorno no cubre su costo de capital. Decide no entrar y buscar un nicho de carga especializada con menos presión (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Competitive Strategy** (Free Press): Porter presenta el análisis de las cinco fuerzas como herramienta para entender la rentabilidad estructural de una industria.
+- **Blue Ocean Strategy** (Harvard Business School Press): Kim y Mauborgne proponen crear un espacio sin competencia directa cuando la estructura de la industria deja poco margen.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para decidir si la estructura de la industria admite el margen que el negocio necesita.
+
+**Free Press — Competitive Strategy**  
+<https://openlibrary.org/isbn/9780029253601> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el análisis de las cinco fuerzas y las estrategias genéricas para estudiar una industria.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Competitive Strategy» para decidir si la estructura de la industria admite el margen que el negocio necesita.
+
+**Harvard Business School Press — Blue Ocean Strategy**  
+<https://openlibrary.org/isbn/9781591396192> · verificado 2026-11-25
+
+- *Qué contiene:* Propone crear espacios de mercado sin competencia redefiniendo el valor ofrecido y la estructura de costos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Blue Ocean Strategy» para decidir si la estructura de la industria admite el margen que el negocio necesita.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

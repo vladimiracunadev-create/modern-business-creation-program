@@ -7,37 +7,44 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 <!-- catalogo:inicio -->
 | Fuente | Tema | Localizador | Estado | Resolvió | Citas |
 |---|---|---|---|---:|---:|
-| Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-11-05 | 2 |
+| Ambient Press | Obviously Awesome (2019) | <https://openlibrary.org/isbn/9781999023003> | ✅ verificada | 2026-11-25 | 3 |
+| Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-11-05 | 3 |
 | Biblioteca del Congreso Nacional | Código Penal — Artículos 284 a 284 sexies (secreto comercial) | <https://www.bcn.cl/leychile/navegar?idNorma=1984> | ✅ verificada | 2026-11-12 | 4 |
 | Biblioteca del Congreso Nacional | Código Penal — Calumnia e injuria (arts. 412 a 431) | <https://www.bcn.cl/leychile/navegar?idNorma=1984> | ✅ verificada | 2026-11-25 | 1 |
 | Biblioteca del Congreso Nacional | Código del Trabajo (DFL 1 de 2002) | <https://www.bcn.cl/leychile/navegar?idNorma=207436> | ✅ verificada | 2026-11-25 | 5 |
 | Biblioteca del Congreso Nacional | Código del Trabajo — Artículos 154 ter y 160 (reserva y causales) | <https://www.bcn.cl/leychile/navegar?idNorma=207436> | ✅ verificada | 2026-11-12 | 2 |
-| Biblioteca del Congreso Nacional | DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial | <https://www.bcn.cl/leychile/navegar?idNorma=1179684> | ✅ verificada | 2026-11-12 | 5 |
+| Biblioteca del Congreso Nacional | DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial | <https://www.bcn.cl/leychile/navegar?idNorma=1179684> | ✅ verificada | 2026-11-12 | 7 |
 | Biblioteca del Congreso Nacional | Ley 16.744 — Seguro social contra riesgos de accidentes del trabajo y enfermedades profesionales | <https://www.bcn.cl/leychile/navegar?idNorma=28650> | ✅ verificada | 2026-11-25 | 1 |
 | Biblioteca del Congreso Nacional | Ley 18.045 — Ley de Mercado de Valores | <https://www.bcn.cl/leychile/navegar?idNorma=29472> | ✅ verificada | 2026-11-25 | 1 |
-| Biblioteca del Congreso Nacional | Ley 19.496 — Protección de los derechos de los consumidores | <https://www.bcn.cl/leychile/navegar?idNorma=61438> | ✅ verificada | 2026-11-25 | 11 |
+| Biblioteca del Congreso Nacional | Ley 19.496 — Protección de los derechos de los consumidores | <https://www.bcn.cl/leychile/navegar?idNorma=61438> | ✅ verificada | 2026-11-25 | 19 |
 | Biblioteca del Congreso Nacional | Ley 19.733 — Libertades de opinión e información y ejercicio del periodismo | <https://www.bcn.cl/leychile/navegar?idNorma=186049> | ✅ verificada | 2026-11-25 | 1 |
 | Biblioteca del Congreso Nacional | Ley 20.169 — Regula la competencia desleal | <https://www.bcn.cl/leychile/navegar?idNorma=258377> | ✅ verificada | 2026-11-12 | 2 |
 | Biblioteca del Congreso Nacional | Ley 20.720 — Reorganización y liquidación de empresas y personas | <https://www.bcn.cl/leychile/navegar?idNorma=1058072> | ✅ verificada | 2026-11-25 | 1 |
 | Biblioteca del Congreso Nacional | Ley 20.730 — Regula el lobby y las gestiones que representen intereses particulares | <https://www.bcn.cl/leychile/navegar?idNorma=1060115> | ✅ verificada | 2026-11-25 | 1 |
 | Biblioteca del Congreso Nacional | Ley 21.131 — Establece pago a treinta días | <https://www.bcn.cl/leychile/navegar?idNorma=1127890> | ✅ verificada | 2026-11-25 | 4 |
-| Biblioteca del Congreso Nacional | Ley 21.459 — Delitos informáticos | <https://www.bcn.cl/leychile/navegar?idNorma=1177743> | ✅ verificada | 2026-11-12 | 3 |
-| Biblioteca del Congreso Nacional | Ley 21.595 — Ley de Delitos Económicos | <https://www.bcn.cl/leychile/navegar?idNorma=1195119> | ✅ verificada | 2026-11-12 | 1 |
+| Biblioteca del Congreso Nacional | Ley 21.459 — Delitos informáticos | <https://www.bcn.cl/leychile/navegar?idNorma=1177743> | ✅ verificada | 2026-11-12 | 4 |
+| Biblioteca del Congreso Nacional | Ley 21.595 — Ley de Delitos Económicos | <https://www.bcn.cl/leychile/navegar?idNorma=1195119> | ✅ verificada | 2026-11-12 | 2 |
 | Biblioteca del Congreso Nacional | Ley 21.643 — Prevención, investigación y sanción del acoso laboral, sexual y la violencia en el trabajo | <https://www.bcn.cl/leychile/navegar?idNorma=1200096> | ✅ verificada | 2026-11-25 | 3 |
-| Biblioteca del Congreso Nacional | Ley 21.663 — Ley Marco de Ciberseguridad | <https://www.bcn.cl/leychile/navegar?idNorma=1202434> | ✅ verificada | 2026-11-25 | 2 |
-| Biblioteca del Congreso Nacional | Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales | <https://www.bcn.cl/leychile/navegar?idNorma=1209272> | ✅ verificada | 2026-11-25 | 1 |
-| Biblioteca del Congreso Nacional | Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia) | <https://www.bcn.cl/leychile/navegar?idNorma=1230520> | ✅ verificada | 2026-11-25 | 2 |
+| Biblioteca del Congreso Nacional | Ley 21.663 — Ley Marco de Ciberseguridad | <https://www.bcn.cl/leychile/navegar?idNorma=1202434> | ✅ verificada | 2026-11-25 | 3 |
+| Biblioteca del Congreso Nacional | Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales | <https://www.bcn.cl/leychile/navegar?idNorma=1209272> | ✅ verificada | 2026-11-25 | 11 |
+| Biblioteca del Congreso Nacional | Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia) | <https://www.bcn.cl/leychile/navegar?idNorma=1230520> | ✅ verificada | 2026-11-25 | 3 |
 | Biblioteca del Congreso Nacional · LeyChile | Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social | <https://www.bcn.cl/leychile/navegar?idNorma=1229250> | ✅ verificada | 2026-11-05 | 17 |
-| Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-11-05 | 248 |
+| Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-11-05 | 250 |
+| Blue Hole Press | Kanban | <https://openlibrary.org/isbn/9780984521401> | ✅ verificada | 2026-11-25 | 1 |
 | CNBC | Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026) | <https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html> | ✅ verificada | 2026-11-12 | 3 |
+| Cambridge University Press | Out of the Crisis | <https://openlibrary.org/isbn/9780521305532> | ✅ verificada | 2026-11-25 | 3 |
 | ChileAtiende · Autoridad Sanitaria Regional | Autorización sanitaria de alimentos | <https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos> | ✅ verificada | 2026-11-05 | 24 |
 | ChileAtiende · Instituto de Previsión Social | Cotización adicional del empleador de la reforma de pensiones | <https://www.chileatiende.gob.cl/fichas/130987> | ✅ verificada | 2026-11-05 | 1 |
-| ChileCompra | Compras públicas y ventas al Estado | <https://www.chilecompra.cl/> | ✅ verificada | 2026-11-05 | 1 |
+| ChileCompra | Compras públicas y ventas al Estado | <https://www.chilecompra.cl/> | ✅ verificada | 2026-11-05 | 2 |
+| Collins | The Effective Executive | <https://openlibrary.org/isbn/9780060833459> | ✅ verificada | 2026-11-25 | 1 |
 | Comisión para el Mercado Financiero | Alertas sobre entidades y plataformas de inversión no supervisadas | <https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html> | ✅ verificada | 2026-11-05 | 1 |
 | Comisión para el Mercado Financiero | Registro de Prestadores de Servicios Financieros · Ley 21.521 | <https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html> | ✅ verificada | 2026-11-05 | 15 |
 | Comisión para el Mercado Financiero | Sistema de Finanzas Abiertas | <https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html> | ✅ verificada | 2026-11-05 | 1 |
 | Congressional Research Service | Stealing Trade Secrets and Economic Espionage: An Overview of the Economic Espionage Act (R42681) | <https://www.everycrsreport.com/reports/R42681.html> | ✅ verificada | 2026-11-12 | 1 |
 | Corporación de Fomento de la Producción | Innovación, inversión y garantías | <https://www.corfo.cl/> | ✅ verificada | 2026-11-05 | 51 |
+| CreateSpace | The Mom Test (2014) | <https://openlibrary.org/isbn/9781492180746> | ✅ verificada | 2026-11-25 | 4 |
+| Crown Business | Good Strategy Bad Strategy | <https://openlibrary.org/isbn/9780307886231> | ✅ verificada | 2026-11-25 | 3 |
+| Crown Business | The Lean Startup (2011) | <https://openlibrary.org/isbn/9780307887894> | ✅ verificada | 2026-11-25 | 8 |
 | Departamento de Justicia de EE. UU. | Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007) | <https://www.justice.gov/archive/usao/gan/press/2007/02-02-07.pdf> | ⚠️ pendiente | 2026-11-12 | 1 |
 | Departamento de Justicia de EE. UU. | Ex ejecutivo de Uber condenado a 18 meses por robo de secretos comerciales de Google (2020) | <https://www.justice.gov/usao-ndca/pr/former-uber-executive-sentenced-18-months-jail-trade-secret-theft-google> | ✅ verificada | 2026-11-12 | 1 |
 | Departamento de Justicia de EE. UU. | Kolon Industries se declara culpable de conspirar para robar secretos de DuPont sobre Kevlar (2015) | <https://www.justice.gov/usao-edva/pr/kolon-industries-inc-pleads-guilty-conspiring-steal-dupont-trade-secrets-involving> | ✅ verificada | 2026-11-12 | 1 |
@@ -46,35 +53,73 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | Departamento de Justicia de Estados Unidos | OneCoin: sentencia del cofundador Karl Sebastian Greenwood | <https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison> | ✅ verificada | 2026-11-05 | 3 |
 | Departamento de Justicia de Estados Unidos | Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon | <https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud> | ✅ verificada | 2026-11-05 | 5 |
 | Diario Oficial de la República de Chile | Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026) | <https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf> | ✅ verificada | 2026-11-05 | 17 |
-| Dirección del Trabajo | Relaciones laborales y obligaciones del empleador | <https://www.dt.gob.cl/> | ✅ verificada | 2026-11-05 | 43 |
+| Dirección del Trabajo | Relaciones laborales y obligaciones del empleador | <https://www.dt.gob.cl/> | ✅ verificada | 2026-11-05 | 44 |
+| Doubleday | The Fifth Discipline | <https://openlibrary.org/isbn/9780385517829> | ✅ verificada | 2026-11-25 | 2 |
+| Free Press | Competitive Strategy | <https://openlibrary.org/isbn/9780029253601> | ✅ verificada | 2026-11-25 | 3 |
+| Free Press | Lean Thinking | <https://openlibrary.org/isbn/9780684810355> | ✅ verificada | 2026-11-25 | 7 |
 | Futurism · investigación periodística | Look Out for AI-Generated Ozempic! | <https://futurism.com/medvi-ai-ozempic> | ✅ verificada | 2026-11-05 | 3 |
+| Gazelles | Scaling Up | <https://openlibrary.org/isbn/9780986019555> | ✅ verificada | 2026-11-25 | 3 |
+| Greg Crabtree | Simple Numbers, Straight Talk, Big Profits! | <https://openlibrary.org/isbn/9780989645232> | ✅ verificada | 2026-11-25 | 8 |
+| Harper Business | The Innovator's Dilemma | <https://openlibrary.org/isbn/9780066620695> | ✅ verificada | 2026-11-25 | 1 |
+| HarperBusiness | Crossing the Chasm (3.ª ed., 2014) | <https://openlibrary.org/isbn/9780062292988> | ✅ verificada | 2026-11-25 | 4 |
+| HarperBusiness | The E-Myth Revisited | <https://openlibrary.org/isbn/9780061446788> | ✅ verificada | 2026-11-25 | 9 |
+| HarperBusiness | The Hard Thing About Hard Things | <https://openlibrary.org/isbn/9780062273215> | ✅ verificada | 2026-11-25 | 5 |
+| Harvard Business Review Press | Financial Intelligence | <https://openlibrary.org/isbn/9781591397649> | ✅ verificada | 2026-11-25 | 25 |
+| Harvard Business Review Press | Playing to Win | <https://openlibrary.org/isbn/9781491528792> | ✅ verificada | 2026-11-25 | 3 |
+| Harvard Business School Press | Blue Ocean Strategy | <https://openlibrary.org/isbn/9781591396192> | ✅ verificada | 2026-11-25 | 4 |
+| Harvard Business School Press | The Balanced Scorecard | <https://openlibrary.org/isbn/9781578514090> | ✅ verificada | 2026-11-25 | 3 |
+| IT Revolution | Accelerate | <https://openlibrary.org/isbn/9781942788379> | ✅ verificada | 2026-11-25 | 3 |
+| IT Revolution | The DevOps Handbook | <https://openlibrary.org/isbn/9781942788003> | ✅ verificada | 2026-11-25 | 1 |
+| IT Revolution | The Phoenix Project | <https://openlibrary.org/isbn/9781950508921> | ✅ verificada | 2026-11-25 | 1 |
 | Instituto Nacional de Estadísticas | Estadística oficial de población, empleo y actividad | <https://www.ine.gob.cl/> | ✅ verificada | 2026-11-05 | 2 |
 | Instituto Nacional de Propiedad Industrial | Marcas, patentes y diseños industriales | <https://www.inapi.cl/> | ✅ verificada | 2026-11-05 | 14 |
+| K&S Ranch | The Startup Owner's Manual | <https://openlibrary.org/isbn/9780984999309> | ✅ verificada | 2026-11-25 | 6 |
 | MEDVi · versión corporativa | MEDVi statement in response to external speculation | <https://home.medvi.org/communication> | ✅ verificada | 2026-11-05 | 6 |
+| Macmillan | Thinking, Fast and Slow | <https://openlibrary.org/isbn/9781464166174> | ✅ verificada | 2026-11-25 | 4 |
+| McGraw-Hill | Principles of Corporate Finance | <https://openlibrary.org/isbn/9780071140539> | ✅ verificada | 2026-11-25 | 9 |
+| McGraw-Hill | SPIN Selling (1988) | <https://openlibrary.org/isbn/9780070511132> | ✅ verificada | 2026-11-25 | 1 |
+| Metropolitan Books | The Checklist Manifesto | <https://openlibrary.org/isbn/9780312430009> | ✅ verificada | 2026-11-25 | 8 |
 | Ministerio Público de Chile | AC Inversions: reformalización y peritajes contables de la investigación | <https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo> | ✅ verificada | 2026-11-05 | 3 |
 | NBC News | Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026) | <https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628> | ✅ verificada | 2026-11-12 | 2 |
 | Nextgov/FCW | Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026) | <https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/> | ✅ verificada | 2026-11-12 | 2 |
+| North River Press | The Goal | <https://openlibrary.org/isbn/9781622313945> | ✅ verificada | 2026-11-25 | 9 |
+| O'Reilly | Designing Data-Intensive Applications | <https://openlibrary.org/isbn/9781449373320> | ✅ verificada | 2026-11-25 | 1 |
+| O'Reilly | Lean Analytics | <https://openlibrary.org/isbn/9781449335717> | ✅ verificada | 2026-11-25 | 13 |
+| O'Reilly | Running Lean | <https://openlibrary.org/isbn/9781449331900> | ✅ verificada | 2026-11-25 | 4 |
+| O'Reilly | Site Reliability Engineering | <https://openlibrary.org/isbn/9781491929124> | ✅ verificada | 2026-11-25 | 7 |
+| PebbleStorm | Predictable Revenue (2011) | <https://openlibrary.org/isbn/9780984380213> | ✅ verificada | 2026-11-25 | 3 |
+| Penguin | Getting to Yes (3.ª ed., 2011) | <https://openlibrary.org/isbn/9780143118756> | ✅ verificada | 2026-11-25 | 6 |
+| Portfolio | Built to Sell | <https://openlibrary.org/isbn/9781591845829> | ✅ verificada | 2026-11-25 | 6 |
+| Portfolio | Secrets of Sand Hill Road | <https://openlibrary.org/isbn/9780593083581> | ✅ verificada | 2026-11-25 | 10 |
+| Portfolio | Team of Teams | <https://openlibrary.org/isbn/9781611763720> | ✅ verificada | 2026-11-25 | 1 |
+| Portfolio | The Personal MBA | <https://openlibrary.org/isbn/9780670919536> | ✅ verificada | 2026-11-25 | 2 |
+| Portfolio | Thinking in Bets | <https://openlibrary.org/isbn/9780735216358> | ✅ verificada | 2026-11-25 | 6 |
+| Portfolio | Traction (2015) | <https://openlibrary.org/isbn/9781591848363> | ✅ verificada | 2026-11-25 | 4 |
+| Prentice Hall | The Strategy and Tactics of Pricing | <https://openlibrary.org/isbn/9780132043588> | ✅ verificada | 2026-11-25 | 4 |
 | ProChile | Exportación de servicios | <https://www.prochile.gob.cl/sectores-exportadores/servicios> | ✅ verificada | 2026-11-05 | 6 |
 | ProChile | Programas, estudios de mercado y promoción | <https://www.prochile.gob.cl/> | ✅ verificada | 2026-11-05 | 15 |
+| Productivity Press | Toyota Production System | <https://openlibrary.org/isbn/9781000056488> | ✅ verificada | 2026-11-25 | 2 |
+| Random House | High Output Management | <https://openlibrary.org/isbn/9780330289634> | ✅ verificada | 2026-11-25 | 5 |
+| Random House | The Black Swan | <https://openlibrary.org/isbn/9780812979183> | ✅ verificada | 2026-11-25 | 6 |
 | Registro de Empresas y Sociedades / ChileAtiende | Constitución de empresas | <https://www.chileatiende.gob.cl/fichas/21409-tu-empresa> | ✅ verificada | 2026-11-05 | 32 |
 | Servicio Nacional de Aduanas | Importación, exportación y clasificación arancelaria | <https://www.aduana.cl/> | ✅ verificada | 2026-11-05 | 9 |
 | Servicio Nacional de Capacitación y Empleo | OTEC, franquicia tributaria y cursos | <https://sence.gob.cl/> | ✅ verificada | 2026-11-05 | 6 |
 | Servicio Nacional de Turismo | Registro de prestadores de servicios turísticos | <https://www.sernatur.cl/> | ✅ verificada | 2026-11-05 | 6 |
-| Servicio Nacional del Consumidor | Ley 19.496, comercio electrónico y garantía legal | <https://www.sernac.cl/> | ✅ verificada | 2026-11-05 | 62 |
+| Servicio Nacional del Consumidor | Ley 19.496, comercio electrónico y garantía legal | <https://www.sernac.cl/> | ✅ verificada | 2026-11-05 | 63 |
 | Servicio de Cooperación Técnica | Fomento para micro y pequeñas empresas | <https://www.sercotec.cl/> | ✅ verificada | 2026-11-05 | 31 |
 | Servicio de Evaluación Ambiental | Sistema de Evaluación de Impacto Ambiental | <https://www.sea.gob.cl/> | ✅ verificada | 2026-11-05 | 4 |
 | Servicio de Impuestos Internos | Carpeta Tributaria Electrónica | <https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm> | ✅ verificada | 2026-11-05 | 24 |
 | Servicio de Impuestos Internos | Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme | <https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf> | ✅ verificada | 2026-11-05 | 3 |
 | Servicio de Impuestos Internos | Formulario 22 y Operación Renta | <https://www.sii.cl/ayudas/formularios/3094-form22-3097.html> | ✅ verificada | 2026-11-05 | 2 |
 | Servicio de Impuestos Internos | Nuevos contribuyentes, inicio de actividades y DTE | <https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html> | ✅ verificada | 2026-11-05 | 100 |
-| Servicio de Impuestos Internos | Registro de Compras y Ventas | <https://www.sii.cl/destacados/f29/registrocompraventas.htm> | ✅ verificada | 2026-11-05 | 5 |
+| Servicio de Impuestos Internos | Registro de Compras y Ventas | <https://www.sii.cl/destacados/f29/registrocompraventas.htm> | ✅ verificada | 2026-11-05 | 6 |
 | Servicio de Impuestos Internos | Regímenes tributarios · Operación Renta 2026 | <https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/> | ✅ verificada | 2026-11-05 | 14 |
 | Sistema Integrado de Comercio Exterior | Ventanilla única de comercio exterior | <https://www.sicexchile.cl/> | ✅ verificada | 2026-11-05 | 4 |
 | Start-Up Chile · CORFO | Aceleración de startups | <https://startupchile.org/> | ✅ verificada | 2026-11-05 | 4 |
 | Subsecretaría de Telecomunicaciones | Concesiones y permisos de telecomunicaciones | <https://www.subtel.gob.cl/> | ✅ verificada | 2026-11-05 | 4 |
 | Superintendencia de Electricidad y Combustibles | Instalaciones eléctricas y de gas | <https://www.sec.cl/> | ✅ verificada | 2026-11-05 | 6 |
 | Superintendencia de Insolvencia y Reemprendimiento | Ley 20.720 · reorganización y liquidación | <https://www.superir.gob.cl/> | ✅ verificada | 2026-11-05 | 0 |
-| Superintendencia de Seguridad Social | Seguridad y salud en el trabajo · Ley 16.744 | <https://www.suseso.cl/> | ✅ verificada | 2026-11-05 | 0 |
+| Superintendencia de Seguridad Social | Seguridad y salud en el trabajo · Ley 16.744 | <https://www.suseso.cl/> | ✅ verificada | 2026-11-05 | 2 |
 | Superintendencia del Medio Ambiente | Fiscalización y sanción ambiental | <https://portal.sma.gob.cl/> | ⚠️ pendiente | 2026-09-01 | 2 |
 | The New York Times · republicado por GV Wire | A $1.8 Billion Company With Two Employees? AI Made It Possible | <https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/> | ⚠️ pendiente | 2026-10-04 | 6 |
 | U.S. Food and Drug Administration | Compounding and the FDA: Questions and Answers | <https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers> | ✅ verificada | 2026-11-05 | 2 |
@@ -83,6 +128,12 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 | U.S. Food and Drug Administration | MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455 | <https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> | ✅ verificada | 2026-11-05 | 9 |
 | U.S. Securities and Exchange Commission | Reformas posteriores a Madoff sobre custodia y verificación independiente | <https://www.sec.gov/spotlight/secpostmadoffreforms.htm> | ⚠️ pendiente | 2026-09-28 | 6 |
 | Unidad de Análisis Financiero | Sujetos obligados · Ley 19.913 | <https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar> | ✅ verificada | 2026-11-05 | 7 |
+| Virgin Books | Zero to One | <https://openlibrary.org/isbn/9780753555187> | ✅ verificada | 2026-11-25 | 3 |
+| Wiley | Business Model Generation | <https://openlibrary.org/isbn/9780470876411> | ✅ verificada | 2026-11-25 | 7 |
+| Wiley | Customer Success (2016) | <https://openlibrary.org/isbn/9781119167969> | ✅ verificada | 2026-11-25 | 2 |
+| Wiley | The Little Book of Valuation | <https://openlibrary.org/isbn/9781118004777> | ✅ verificada | 2026-11-25 | 4 |
+| Wiley | Value Proposition Design | <https://openlibrary.org/isbn/9781118968055> | ✅ verificada | 2026-11-25 | 6 |
+| Wiley | Venture Deals | <https://openlibrary.org/isbn/9781118443613> | ✅ verificada | 2026-11-25 | 6 |
 
 ## Fuentes que no resolvieron en la última revalidación
 

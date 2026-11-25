@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Revisión preventiva** | Análisis antes de firmar. |
 | **Costo de no consultar** | Contingencia esperada por firmar sin revisión. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Cuándo corresponde consultar a un abogado?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Umbral de intervención"]
-    C --> A2["Contrato de alto impacto"]
-    C --> A3["Revisión preventiva"]
-    C --> A4["Costo de no consultar"]
-    A1 & A2 & A3 & A4 --> D{{"fijar los umbrales que obligan<br/>a revisión legal antes de<br/>firmar"}}
-    D --> E["Entregable<br/>política de revisión legal con<br/>umbrales por monto, materia y<br/>contraparte"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La regla práctica es definir umbrales por escrito: sobre cierto monto, con cierta contraparte o en ciertas materias, la revisión legal es obligatoria.
+
+![Esquema: ¿Cuándo corresponde consultar a un abogado?](modelo-mental.svg)
+
+**Lectura guiada:** Recorre el árbol con cada contrato. Las dos primeras preguntas definen los umbrales; si ninguna se activa, una plantilla aprobada basta. La regla evita decidir caso a caso bajo presión.
+
+**Una analogía:** Es el semáforo de una intersección: no esperas a ver un auto para decidir si frenas, la regla ya está pensada.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La regla práctica es definir umbrales por escrito: sobre cierto monto, con cier
 
 ### 2. Cómo se traduce en la práctica
 
-Los umbrales razonables combinan monto y materia: propiedad intelectual, laboral, datos personales, exclusividad y responsabilidad ilimitada deberían exigir revisión con independencia del valor. Consultar al abogado después de firmar convierte la asesoría en un informe sobre un problema que ya existe.
+Escribe tus umbrales y comunícalos a quienes firman. Cuenta con un abogado de confianza para consultas rápidas y otro especialista para temas complejos. Calcula el costo de no consultar: una revisión de unas horas suele costar mucho menos que una disputa. Revisa y actualiza las plantillas cada año con los aprendizajes de los conflictos que hayas tenido.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Los umbrales razonables combinan monto y materia: propiedad intelectual, laboral
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: define el monto sobre el cual todo contrato pasa por un abogado, por ejemplo cinco millones. Dos: lista las materias sensibles: propiedad intelectual, laboral, datos personales y exclusividad. Tres: aprueba plantillas para los contratos simples. Una agencia define que un contrato de 3 millones con cláusula de exclusividad pasa igualmente por revisión, y que los de 2 millones sin materias sensibles usan su plantilla (ejemplo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Biblioteca del Congreso Nacional publica el texto vigente de las normas, que es el punto de partida del trabajo del abogado y de quien firma.
+- **Thinking in Bets** (Portfolio): Duke recomienda fijar reglas de decisión antes de enfrentar el momento de presión, para decidir mejor cuándo pedir una segunda opinión.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para fijar los umbrales que obligan a revisión legal antes de firmar.
+
+**Portfolio — Thinking in Bets**  
+<https://openlibrary.org/isbn/9780735216358> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica la lógica de las apuestas a la decisión bajo incertidumbre: separar la calidad de la decisión del resultado.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking in Bets» para fijar los umbrales que obligan a revisión legal antes de firmar.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

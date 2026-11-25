@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Tarifa efectiva** | Ingreso real por hora incluyendo horas no facturadas. |
 | **Transferencia de conocimiento** | Entrega que permite al cliente operar sin el consultor. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Del alcance al traspaso de conocimiento
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Consultoría tecnológica"]
-    C --> A2["Alcance del proyecto"]
-    C --> A3["Tarifa efectiva"]
-    C --> A4["Transferencia de<br/>conocimiento"]
-    A1 & A2 & A3 & A4 --> D{{"definir alcance, control de<br/>cambios y modelo de tarifa del<br/>servicio"}}
-    D --> E["Entregable<br/>modelo de consultoría con<br/>alcance tipo, procedimiento de<br/>control de cambios y cálculo<br/>de tarifa efectiva"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La consultoría tecnológica compite con integradores grandes y con equipos internos; su ventaja está en la especialización vertical y en entregar resultados con plazos y alcance bien controlados.
+
+![Esquema: Del alcance al traspaso de conocimiento](modelo-mental.svg)
+
+**Cómo leerlo:** Sigue el flujo del proyecto. El rombo es el punto donde se pierde la rentabilidad: un cambio de alcance sin cotizar convierte una tarifa acordada en horas regaladas.
+
+**Una analogía:** Es una remodelación: si cada «ya que estamos» se hace sin presupuesto, el costo final no se parece al de la cotización.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La consultoría tecnológica compite con integradores grandes y con equipos inte
 
 ### 2. Cómo se traduce en la práctica
 
-La ventaja competitiva está en la especialización vertical y en entregar resultados en plazos cortos, no en competir con integradores grandes. Y no incluir transferencia de conocimiento genera una dependencia que el cliente termina resintiendo, lo que acorta la relación en vez de alargarla.
+Define el alcance con entregables, supuestos y exclusiones. Establece el procedimiento de control de cambios y un modelo de tarifa que proteja tu margen. Calcula la tarifa efectiva tras las horas no facturables. Incluye en el servicio la transferencia de conocimiento, que fortalece la relación y evita la dependencia. Cumple las obligaciones tributarias del servicio y, si vendes a consumidores, las de información.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La ventaja competitiva está en la especialización vertical y en entregar resul
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿el alcance está escrito con entregables y exclusiones? Dos: ¿cómo se aprueba un cambio y a qué precio? Tres: ¿qué tarifa conviene: por hora, por entregable o mixta? Una consultora que moderniza sistemas contables para clínicas pactó entregables por hitos y una tarifa por hora para los cambios; la tarifa efectiva se mantuvo y el cliente recibió documentación para operar sin ella.
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa el tratamiento tributario de los servicios profesionales y tecnológicos y los documentos que deben emitirse.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica los criterios de información y de cláusulas contractuales aplicables cuando el servicio se presta a consumidores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
 

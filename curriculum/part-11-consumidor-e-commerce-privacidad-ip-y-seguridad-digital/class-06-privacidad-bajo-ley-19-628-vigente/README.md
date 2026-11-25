@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Consentimiento** | Autorización libre, informada y específica del titular. |
 | **Dato sensible** | Categoría con protección reforzada: salud, origen, creencias, entre otros. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que ya exige hoy el tratamiento de datos personales
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Dato personal"]
-    C --> A2["Tratamiento"]
-    C --> A3["Consentimiento"]
-    C --> A4["Dato sensible"]
-    A1 & A2 & A3 & A4 --> D{{"levantar qué datos personales<br/>trata la empresa y con qué<br/>autorización"}}
-    D --> E["Entregable<br/>inventario inicial de<br/>tratamientos con finalidad,<br/>origen y base de autorización"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 19.628 rige mientras la Ley 21.719 no entre en vigencia; su estándar es más bajo, pero ya exige finalidad determinada, consentimiento y resguardo, y conviene construir con el estándar futuro.
+
+![Esquema: Lo que ya exige hoy el tratamiento de datos personales](modelo-mental.svg)
+
+**Lectura guiada:** Cada capa es una exigencia presente. Si las construyes ya con el estándar de la ley nueva, no tendrás que rehacer el trabajo cuando esta entre en vigencia.
+
+**Para recordarlo:** Es construir una casa con las normas de mañana: cuesta un poco más hoy, pero evitas demoler después.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 19.628 rige mientras la Ley 21.719 no entra plenamente en vigencia. Su es
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 19.628 rige mientras la 21.719 no entra plenamente en vigencia, y su estándar es más bajo. Construir el tratamiento con el estándar futuro evita hacer dos veces el mismo trabajo, porque la finalidad determinada, el registro de tratamientos y la base de licitud serán exigibles desde el 15 de octubre de 2027.
+Haz una lista de los datos personales que tratas, su finalidad, la autorización y quién accede. Elimina los que no necesitas. Redacta avisos de privacidad claros y establece medidas de seguridad proporcionales. Revisa con especial cuidado los datos sensibles. Construye el tratamiento con el estándar de la ley nueva para no rehacer el trabajo después.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ La Ley 19.628 rige mientras la 21.719 no entra plenamente en vigencia, y su est�
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿para qué recoges cada dato y se lo dijiste a la persona? Dos: ¿tienes su consentimiento o un fundamento legal claro? Tres: ¿quién tiene acceso y cómo lo proteges? Una tienda de ropa que pide cédula, dirección y fecha de nacimiento a cada cliente decide recoger solo lo necesario para el despacho y explicar para qué usará el correo.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.628, consultable en la Biblioteca del Congreso Nacional, regula el tratamiento de datos personales hasta que entren en vigencia las modificaciones de la Ley 21.719.
+- **Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales** (Biblioteca del Congreso Nacional): La Ley 21.719 reemplaza el texto de la Ley 19.628 con principios, derechos reforzados y una autoridad fiscalizadora, y sirve como estándar de diseño desde ahora.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -151,6 +156,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para levantar qué datos personales trata la empresa y con qué autorización.
+
+**Biblioteca del Congreso Nacional — Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1209272> · verificado 2026-11-25
+
+- *Qué contiene:* Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.
+- *Cómo leerla:* Úsala como estándar de diseño del protocolo de incidentes. La vigencia de sus modificaciones se fijó en el 15-10-2027 por la Ley 21.855: comprueba la fecha en la ficha de la BCN antes de planificar.
+- *Uso en esta clase:* aporta el marco de «Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales» para levantar qué datos personales trata la empresa y con qué autorización.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

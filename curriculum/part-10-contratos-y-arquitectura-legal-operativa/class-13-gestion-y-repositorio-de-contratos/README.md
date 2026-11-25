@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Alerta de vencimiento** | Aviso anticipado antes de la fecha crítica. |
 | **Versión vigente** | Documento firmado con sus anexos y modificaciones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El ciclo de vida de un contrato bien gestionado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Repositorio de contratos"]
-    C --> A2["Metadatos"]
-    C --> A3["Alerta de vencimiento"]
-    C --> A4["Versión vigente"]
-    A1 & A2 & A3 & A4 --> D{{"definir dónde viven los<br/>contratos y quién controla<br/>vencimientos"}}
-    D --> E["Entregable<br/>repositorio de contratos con<br/>metadatos completos y alertas<br/>de vencimiento configuradas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El repositorio de contratos es la diferencia entre saber a qué está obligada la empresa y descubrirlo cuando alguien reclama; con metadatos y alertas, el control deja de depender de la memoria.
+
+![Esquema: El ciclo de vida de un contrato bien gestionado](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo muestra que gestionar un contrato no termina con la firma: sigue con el archivo, las alertas y la decisión de cada vencimiento.
+
+**Una imagen cotidiana:** Es un calendario de cumpleaños: no necesitas recordar todas las fechas, solo asegurarte de que el sistema te avise a tiempo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El repositorio de contratos es la diferencia entre saber a qué está obligada l
 
 ### 2. Cómo se traduce en la práctica
 
-El repositorio debe guardar la versión vigente con sus anexos y modificaciones, no solo el documento original firmado. Archivar el contrato sin sus anexos es tan inútil como no archivarlo: lo que se discute en un conflicto casi siempre está en la modificación posterior.
+Define dónde viven los contratos (una carpeta o sistema único), con quién tiene acceso y cómo se nombran las versiones. Registra metadatos básicos: partes, objeto, fechas, montos, preaviso y responsable. Configura alertas y revisa mensualmente los vencimientos. Un repositorio simple y mantenido supera a uno sofisticado pero abandonado.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ El repositorio debe guardar la versión vigente con sus anexos y modificaciones,
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: los contratos de una empresa están repartidos en correos y escritorios; al auditarla, nadie encuentra la versión firmada de dos contratos y uno ya estaba vencido. Después: usa una carpeta única con un índice de metadatos (partes, fecha, monto, vencimiento, responsable) y alertas a 120 y 60 días. En el primer año evita tres renovaciones automáticas no deseadas y responde a una auditoría en un día (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Checklist Manifesto** (Metropolitan Books): Gawande muestra cómo las listas y rutinas simples evitan errores en procesos repetitivos, como el control de vencimientos de contratos.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las normas civiles y comerciales, consultables en la Biblioteca del Congreso Nacional, fundan la obligatoriedad de lo pactado, que el repositorio permite conocer.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -157,6 +162,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir dónde viven los contratos y quién controla vencimientos.
+
+**Metropolitan Books — The Checklist Manifesto**  
+<https://openlibrary.org/isbn/9780312430009> · verificado 2026-11-25
+
+- *Qué contiene:* Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Checklist Manifesto» para definir dónde viven los contratos y quién controla vencimientos.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

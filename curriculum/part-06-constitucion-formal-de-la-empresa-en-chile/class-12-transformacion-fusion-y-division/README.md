@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **División** | Separación del patrimonio en dos o más sociedades. |
 | **Efecto tributario** | Consecuencias de la reorganización ante el sii. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Reorganizar la sociedad compensa?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Transformación"]
-    C --> A2["Fusión"]
-    C --> A3["División"]
-    C --> A4["Efecto tributario"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la<br/>reorganización se justifica y<br/>cómo se estructura<br/>tributariamente"}}
-    D --> E["Entregable<br/>esquema de reorganización con<br/>efecto tributario, razón de<br/>negocios y aviso al SII<br/>requerido"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las reorganizaciones societarias tienen efectos tributarios que pueden ser neutros o costosos según cómo se estructuren, y el SII verifica que exista una razón de negocios legítima.
+
+![Esquema: ¿Reorganizar la sociedad compensa?](modelo-mental.svg)
+
+**Qué mirar primero:** Recorre el árbol antes de transformar, fusionar o dividir. Sin razón de negocios no hay base; con ella, el siguiente filtro es el efecto tributario, que debe estar estudiado antes de ejecutar.
+
+**Para recordarlo:** Es mudarse de casa: tiene sentido si necesitas más espacio, pero si solo es por moda, pagas el flete y los problemas de la mudanza.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las reorganizaciones societarias tienen efectos tributarios que pueden ser neutr
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 21.713 reforzó las facultades de fiscalización y la exigencia de que exista una razón económica distinta del ahorro tributario. Esa justificación debe documentarse al momento de ejecutar la operación, no reconstruirse años después cuando llega el requerimiento.
+Antes de iniciar, escribe la razón de negocios con hechos: ahorro de costos, entrada de un inversionista, orden de la propiedad. Encarga el análisis tributario y compara alternativas. Informa al SII cuando corresponda, documenta las decisiones en actas y revisa el efecto en contratos, permisos y trabajadores. Una reorganización mal estructurada puede ser más costosa que no hacerla.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La Ley 21.713 reforzó las facultades de fiscalización y la exigencia de que ex
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Un grupo de tres empresas del mismo dueño decide fusionarlas en una sola para simplificar la administración y reducir costos contables, una razón de negocios real. Antes de ejecutar, su asesor calcula el efecto tributario y estructura la operación para que sea neutra. Un competidor hizo una fusión solo por aprovechar pérdidas acumuladas, sin razón de negocios clara, y el SII la cuestionó (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa los deberes de aviso y las reglas tributarias de las reorganizaciones empresariales.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Tributario y las leyes de sociedades regulan los efectos de las transformaciones, fusiones y divisiones; su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

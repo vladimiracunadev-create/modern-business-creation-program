@@ -297,6 +297,15 @@ def convertir(markdown: str, est: dict, nivel_titulo: str = "h1") -> list:
             indice += 1
             continue
 
+        if despojada.startswith("![") and despojada.endswith("modelo-mental.svg)"):
+            # El PDF no incorpora imágenes: el esquema gráfico vive en el sitio y el repositorio,
+            # y su lectura se imprime justo debajo en «Cómo leerlo».
+            flujo.append(Paragraph(
+                "<b>Modelo mental</b> — esquema gráfico. La versión ilustrada está en el "
+                "repositorio y en el sitio del programa.", est["meta"]))
+            indice += 1
+            continue
+
         if despojada.startswith(">"):
             cita: list[str] = []
             while indice < len(lineas) and lineas[indice].strip().startswith(">"):

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Estacionalidad** | Concentración de demanda en períodos del año. |
 | **Seguridad de la actividad** | Normas técnicas y cobertura de riesgos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La estacionalidad de un negocio de experiencias
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Turismo de experiencias"]
-    C --> A2["Registro SERNATUR"]
-    C --> A3["Estacionalidad"]
-    C --> A4["Seguridad de la actividad"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar el modelo considerando<br/>estacionalidad y cumplimiento<br/>de normas de seguridad"}}
-    D --> E["Entregable<br/>modelo de turismo de<br/>experiencias con proyección<br/>estacional, registro SERNATUR<br/>y protocolo de seguridad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El turismo de experiencias tiene alta estacionalidad, lo que exige una estructura de costos flexible y una estrategia para los meses bajos; las actividades de turismo aventura tienen normas técnicas de seguridad.
+
+![Esquema: La estacionalidad de un negocio de experiencias](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra es la actividad de una estación. La más baja marca el desafío: si los costos fijos se mantienen igual, el invierno consume lo que ganó el verano.
+
+**Piénsalo así:** Es una heladería: en verano vende sin parar, pero debe pensar qué hará en invierno para no cerrar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El turismo de experiencias tiene alta estacionalidad, lo que exige estructura de
 
 ### 2. Cómo se traduce en la práctica
 
-La estacionalidad exige estructura de costos flexible y una estrategia para los meses bajos, o el resultado anual se consume en el período sin demanda. En turismo aventura las normas técnicas de seguridad son además el riesgo mayor del modelo, muy por encima del comercial.
+Mide tus ingresos por mes durante varios años y proyecta los costos fijos y variables por estación. Diseña una estructura flexible con personal por temporada, y productos para los meses bajos. Inscríbete en el registro de prestadores y cumple las normas técnicas y de seguridad de tus actividades. Mantén protocolos, seguros e información clara a los clientes.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La estacionalidad exige estructura de costos flexible y una estrategia para los 
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de excursiones mantiene un equipo fijo de diez personas todo el año; en invierno sus ingresos caen a una cuarta parte y consume las utilidades del verano. Después: contrata a cuatro personas fijas y a seis por temporada, vende paquetes corporativos y escolares en meses bajos, diseña actividades de menor riesgo para el invierno y cumple las normas técnicas de seguridad. Su caja se estabiliza (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Registro de prestadores de servicios turísticos** (Servicio Nacional de Turismo): El Servicio Nacional de Turismo mantiene el registro de prestadores y publica las normas técnicas de actividades de turismo aventura.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de las normas de información y de cancelación aplicables a los servicios turísticos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

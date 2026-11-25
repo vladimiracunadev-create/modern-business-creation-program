@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Abandonar** | Cerrar la apuesta según criterio definido previamente. |
 | **Kill criteria** | Condición fijada de antemano que obliga a detener. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Perseverar, pivotar o abandonar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Perseverar"]
-    C --> A2["Pivotar"]
-    C --> A3["Abandonar"]
-    C --> A4["Kill criteria"]
-    A1 & A2 & A3 & A4 --> D{{"decidir con criterio<br/>preestablecido si se<br/>persevera, se pivota o se<br/>abandona"}}
-    D --> E["Entregable<br/>secciones 01 Mercado y 02<br/>Cliente del expediente, más<br/>acta de decisión con<br/>evidencia, criterio aplicado y<br/>fecha"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La decisión de continuar se toma contra criterios escritos antes de conocer el resultado; decidir después casi siempre confirma lo que el equipo ya quería.
+
+![Esquema: Perseverar, pivotar o abandonar](modelo-mental.svg)
+
+**Qué mirar primero:** Recorre el árbol con la evidencia en mano. La primera pregunta mira los criterios previos; la segunda, el aprendizaje. Si ninguna respuesta es sí, la decisión honesta es cerrar con un acta.
+
+**Una analogía:** Es revisar el mapa en una bifurcación: no decides por cuánto caminaste sino por lo que ves adelante.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La decisión de continuar debe tomarse contra criterios escritos antes de conoce
 
 ### 2. Cómo se traduce en la práctica
 
-La síntesis obliga a responder si existe mercado, cliente y problema real en vez de exhibir actividades sueltas. El informe ejecutivo y el mapa de empatía conservan fuentes, supuestos, confianza y preguntas abiertas; recién entonces el acta aplica el kill criterion. Así un resultado negativo también produce una decisión útil y trazable.
+Antes de cada experimento escribe tres cosas: qué resultado significa éxito, qué significa pivote y qué significa abandono. Al terminar, compara con lo escrito y levanta un acta con la decisión, la evidencia y quién la tomó. Sintetiza lo aprendido en las secciones de mercado y cliente del expediente del programa. Cerrar bien una idea libera recursos para la siguiente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La síntesis obliga a responder si existe mercado, cliente y problema real en ve
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: un equipo lleva siete meses probando una idea y cada reunión encuentra una razón para seguir, porque nunca escribió cuándo pararía. La corrección: fijar criterios antes de cada experimento. Por ejemplo, «si menos de 5 de 40 interesados pagan la seña en tres semanas, no persistimos». Al ver 2 de 40, el equipo lo registra, analiza qué aprendió, pivota el segmento y reinicia con nuevos criterios (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Lean Startup (2011)** (Crown Business): Ries propone una decisión periódica de perseverar o pivotar basada en datos y llama pivote al cambio de rumbo estructurado, con una nueva hipótesis.
+- **Thinking in Bets** (Portfolio): Duke recomienda fijar con antelación los criterios de salida para evitar que el compromiso previo distorsione la decisión posterior.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -165,6 +170,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para decidir con criterio preestablecido si se persevera, se pivota o se abandona.
+
+**Crown Business — The Lean Startup (2011)**  
+<https://openlibrary.org/isbn/9780307887894> · verificado 2026-11-25
+
+- *Qué contiene:* Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Lean Startup (2011)» para decidir con criterio preestablecido si se persevera, se pivota o se abandona.
+
+**Portfolio — Thinking in Bets**  
+<https://openlibrary.org/isbn/9780735216358> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica la lógica de las apuestas a la decisión bajo incertidumbre: separar la calidad de la decisión del resultado.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking in Bets» para decidir con criterio preestablecido si se persevera, se pivota o se abandona.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

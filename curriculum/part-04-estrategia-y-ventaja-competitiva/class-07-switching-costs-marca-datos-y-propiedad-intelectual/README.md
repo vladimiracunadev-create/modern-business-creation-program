@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Dato propietario** | Información acumulada que mejora el servicio y no es replicable. |
 | **Propiedad intelectual** | Derecho registrado que impide la copia legal. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Defensas que se construyen a propósito
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Switching cost"]
-    C --> A2["Marca"]
-    C --> A3["Dato propietario"]
-    C --> A4["Propiedad intelectual"]
-    A1 & A2 & A3 & A4 --> D{{"decidir qué defensa se<br/>construye y con qué inversión"}}
-    D --> E["Entregable<br/>plan de foso competitivo con<br/>la defensa elegida, inversión<br/>y plazo de construcción"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las defensas duraderas se construyen deliberadamente: integraciones que aumentan el costo de salida, datos que mejoran el servicio con el uso, marca registrada y contratos plurianuales.
+
+![Esquema: Defensas que se construyen a propósito](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa agrega una barrera. Ninguna aparece sola: requieren decisiones e inversión. Ordénalas por cuánto cuesta construirlas y cuánto protegen.
+
+**Piénsalo así:** Es fortificar una casa: puerta firme, cerradura, alarma y vecinos que miran; cada capa suma, ninguna basta por sí sola.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las defensas duraderas se construyen deliberadamente: integraciones que aumentan
 
 ### 2. Cómo se traduce en la práctica
 
-Integraciones que aumentan el costo de salida, datos que mejoran el servicio con el uso, marca registrada y contratos plurianuales son construcciones que llevan tiempo y presupuesto. La marca no registrada en INAPI, en particular, no es una defensa sino una vulnerabilidad: cualquiera puede registrarla y exigir que dejes de usarla.
+Elige dos defensas para construir este año y estima su costo y plazo. Para la marca, verifica el registro y la clase correspondiente. Para los datos, define cómo los recoges, para qué los usas y qué derechos tienen los clientes. Para el costo de cambio, evita atrapar a clientes con prácticas abusivas: las integraciones útiles retienen porque agregan valor.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Integraciones que aumentan el costo de salida, datos que mejoran el servicio con
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de software para contadores compite por precio y los clientes cambian por pequeños descuentos. Después: integra su producto con el sistema de facturación de cada cliente (costo de salida), acumula años de datos históricos que mejoran sus alertas, registra la marca en INAPI y ofrece contratos de dos años con precio fijo. Los clientes que se van bajan de 18 % a 6 % al año (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI es el organismo que registra marcas, patentes y diseños en Chile, base para proteger la identidad y las innovaciones de la empresa.
+- **DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial** (Biblioteca del Congreso Nacional): El texto refundido de la Ley 19.039 regula los derechos de propiedad industrial y la forma de protegerlos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Protección de secretos comerciales
 

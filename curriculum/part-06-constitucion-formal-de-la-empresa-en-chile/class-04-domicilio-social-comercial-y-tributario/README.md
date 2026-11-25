@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Domicilio tributario** | El registrado ante el sii, que debe poder acreditarse. |
 | **Acreditación** | Documento que prueba el derecho a usar el domicilio declarado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Tres domicilios, tres efectos distintos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Domicilio social"]
-    C --> A2["Domicilio comercial"]
-    C --> A3["Domicilio tributario"]
-    C --> A4["Acreditación"]
-    A1 & A2 & A3 & A4 --> D{{"definir los tres domicilios y<br/>asegurar la documentación que<br/>los acredita"}}
-    D --> E["Entregable<br/>ficha de domicilios con<br/>documento de acreditación y<br/>municipio competente<br/>identificado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los tres domicilios pueden coincidir o no, pero cada uno tiene consecuencias distintas: el social fija el tribunal, el comercial el municipio de la patente y el tributario debe acreditarse ante el SII.
+
+![Esquema: Tres domicilios, tres efectos distintos](modelo-mental.svg)
+
+**Lectura guiada:** Cada satélite es un domicilio con su efecto. Si no coinciden, cada uno debe estar respaldado por un documento propio; si coinciden, basta uno, pero debe ser vigente.
+
+**Para recordarlo:** Es tener la dirección de tu casa, la de tu oficina y la que figura en tus papeles: cada una sirve para algo distinto y cada una necesita su comprobante.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los tres domicilios pueden coincidir o no, pero cada uno tiene consecuencias dis
 
 ### 2. Cómo se traduce en la práctica
 
-El domicilio social fija tribunal competente, el comercial determina el municipio de la patente y el tributario debe acreditarse con un título que habilite su uso. Declarar un domicilio que no se puede acreditar bloquea el inicio de actividades y deja la sociedad constituida pero incapaz de facturar.
+Decide cuáles de los tres domicilios coinciden y reúne el documento que acredita cada uno: título de propiedad, contrato de arriendo o autorización. Verifica con la municipalidad si el uso de suelo permite tu actividad. Anota las fechas de vencimiento de los contratos y de las autorizaciones; un domicilio sin acreditación vigente bloquea el inicio de actividades y la patente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El domicilio social fija tribunal competente, el comercial determina el municipi
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Fundadora: «Mi oficina está en un coworking, pero quiero usar mi casa como domicilio tributario». Contador: «El SII pedirá un documento que acredite el uso, como un contrato o la autorización del propietario». Fundadora: «¿Y la patente?». Contador: «Se tramita en la comuna donde ejerces la actividad, según el domicilio comercial». Fundadora: «Entonces necesito dos documentos distintos». Contador: «Sí, y mantenerlos vigentes» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa cómo acreditar el domicilio tributario al iniciar actividades y qué documentos acepta.
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades exige indicar el domicilio social en el estatuto, que fija la competencia territorial.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

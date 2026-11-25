@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **B2G** | Venta al estado a través de chilecompra y licitaciones. |
 | **Plataforma** | Modelo que intermedia entre dos lados y monetiza la transacción. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué mercado eliges y qué carga trae
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["B2C"]
-    C --> A2["B2B"]
-    C --> A3["B2G"]
-    C --> A4["Plataforma"]
-    A1 & A2 & A3 & A4 --> D{{"elegir a qué tipo de mercado<br/>se vende y aceptar la carga<br/>que trae"}}
-    D --> E["Entregable<br/>comparación del mismo producto<br/>vendido en dos tipos de<br/>mercado, con ciclo y<br/>regulación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El tipo de mercado define el ciclo de venta, el capital de trabajo y el bloque regulatorio que deberás cumplir antes de vender el primer producto.
+
+![Esquema: Qué mercado eliges y qué carga trae](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica el mercado al que quieres vender según cuánto tarda en cerrar una venta y cuánta regulación trae. Cada cuadrante exige un tipo distinto de caja, equipo y asesoría.
+
+**Una analogía:** Es elegir en qué cancha jugar: las reglas, los tiempos y el tamaño del equipo no son los mismos en fútbol, en tenis o en rugby.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El tipo de mercado determina el ciclo de venta, el capital de trabajo requerido 
 
 ### 2. Cómo se traduce en la práctica
 
-Vender al Estado por ChileCompra exige inscripción, garantías y capacidad de financiar plazos de pago que no se negocian; vender a consumidor activa la Ley 19.496 completa. La misma oferta puede ser viable en un mercado e inviable en otro por razones de caja, no de demanda.
+Antes de elegir mercado, haz tres preguntas: ¿cuánto tarda en cerrar una venta típica?, ¿cuánta caja debo financiar hasta el primer cobro? y ¿qué normas aplican desde el primer día? B2C activa la Ley del Consumidor completa; B2G exige inscripción y garantías propias; las plataformas asumen responsabilidades según cuánto controlan la transacción. Elige donde puedas sostener el ciclo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Vender al Estado por ChileCompra exige inscripción, garantías y capacidad de f
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Tienes un software de gestión de bodegas. Ubícalo en el mapa en tres versiones: vendido a personas, a empresas medianas y al Estado. Para cada versión escribe cuántos meses tarda en cerrarse la primera venta, quién firma y qué normas deberás cumplir (consumidor, contratos, compras públicas). Después estima cuánta caja necesitarás para sostener el ciclo. Elige la versión que tu caja pueda financiar y registra por qué descartaste las otras.
+
+### 5. En qué se apoya
+
+- **The Startup Owner's Manual** (K&S Ranch): Blank y Dorf distinguen tipos de mercado (existente, nuevo y resegmentado) y explican que cada uno exige una estrategia de ventas y una inversión distintas.
+- **Compras públicas y ventas al Estado** (ChileCompra): ChileCompra reúne las reglas para vender al Estado, que ilustran cómo el tipo de comprador cambia el ciclo de venta y las obligaciones del proveedor.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para elegir a qué tipo de mercado se vende y aceptar la carga que trae.
+
+**K&S Ranch — The Startup Owner's Manual**  
+<https://openlibrary.org/isbn/9780984999309> · verificado 2026-11-25
+
+- *Qué contiene:* Guía de desarrollo de clientes: validar hipótesis de negocio hablando con clientes antes de escalar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Startup Owner's Manual» para elegir a qué tipo de mercado se vende y aceptar la carga que trae.
+
+**ChileCompra — Compras públicas y ventas al Estado**  
+<https://www.chilecompra.cl/> · verificado 2026-11-05
+
+- *Qué contiene:* Opera el mercado público: registro de proveedores, licitaciones, convenios marco, garantías exigidas y plazos de pago del Estado.
+- *Cómo leerla:* Antes de mirar oportunidades, revisa garantías y plazos de pago: vender al Estado exige capital de trabajo propio, y ese requisito descarta más empresas que la competencia técnica.
+- *Uso en esta clase:* aporta el marco de «Compras públicas y ventas al Estado» para elegir a qué tipo de mercado se vende y aceptar la carga que trae.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

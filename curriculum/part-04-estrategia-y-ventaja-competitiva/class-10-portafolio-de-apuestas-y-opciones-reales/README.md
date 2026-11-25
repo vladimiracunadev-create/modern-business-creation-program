@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Costo de la opción** | Gasto necesario para mantener abierta la posibilidad. |
 | **Ejercicio** | Decisión de invertir en serio cuando la incertidumbre bajó. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuándo ejercer una opción y cuándo dejarla expirar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Opción real"]
-    C --> A2["Portafolio de apuestas"]
-    C --> A3["Costo de la opción"]
-    C --> A4["Ejercicio"]
-    A1 & A2 & A3 & A4 --> D{{"decidir qué apuestas se<br/>mantienen como opción y cuáles<br/>se ejercen"}}
-    D --> E["Entregable<br/>portafolio de apuestas con<br/>costo de opción, condición de<br/>ejercicio y condición de<br/>abandono"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Ante alta incertidumbre conviene comprar opciones en vez de comprometer todo el capital: un piloto, una alianza o un desarrollo acotado, con la evidencia que gatilla el ejercicio definida de antemano.
+
+![Esquema: Cuándo ejercer una opción y cuándo dejarla expirar](modelo-mental.svg)
+
+**Qué mirar primero:** Recorre el árbol con cada apuesta pequeña. La disciplina está en escribir el gatillo y el plazo antes de empezar, de modo que la decisión no dependa del entusiasmo del momento.
+
+**Una analogía:** Es reservar una mesa en un restaurante: pagas poco por asegurar el lugar y decides luego si vas, según cómo amanezca el día.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Ante alta incertidumbre conviene comprar opciones en vez de comprometer todo el 
 
 ### 2. Cómo se traduce en la práctica
 
-Un piloto, una alianza o un desarrollo acotado compran el derecho a invertir más tarde con mejor información. La disciplina está en el cierre: sin condición de abandono escrita, las opciones se mantienen abiertas indefinidamente y su costo de mantenimiento se vuelve invisible mientras drena recursos.
+Lista tus apuestas con incertidumbre alta y para cada una escribe cuánto cuesta la opción, cuándo vence y qué evidencia gatilla el ejercicio. Reserva un presupuesto total para opciones y cuida que ninguna pueda comprometer la supervivencia de la empresa. Revisa el portafolio cada trimestre y cierra las que vencieron sin gatillo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un piloto, una alianza o un desarrollo acotado compran el derecho a invertir má
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Una empresa de alimentos quiere probar un producto nuevo para exportar. En vez de montar una línea nueva, paga un piloto de 50 millones con un distribuidor en un país. Define el gatillo: pedidos recurrentes por 120 millones en seis meses. Si se cumple, invierte 400 millones en la línea; si no, el piloto vence y el aprendizaje queda registrado. La pérdida máxima fue acotada y el potencial, abierto (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers tratan las opciones reales como el valor de la flexibilidad de esperar, ampliar o abandonar un proyecto según cómo evolucione la incertidumbre.
+- **Thinking in Bets** (Portfolio): Duke recomienda definir antes de decidir qué información cambiaría la decisión, y tratar las iniciativas como apuestas con costo acotado.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para decidir qué apuestas se mantienen como opción y cuáles se ejercen.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para decidir qué apuestas se mantienen como opción y cuáles se ejercen.
+
+**Portfolio — Thinking in Bets**  
+<https://openlibrary.org/isbn/9780735216358> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica la lógica de las apuestas a la decisión bajo incertidumbre: separar la calidad de la decisión del resultado.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking in Bets» para decidir qué apuestas se mantienen como opción y cuáles se ejercen.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

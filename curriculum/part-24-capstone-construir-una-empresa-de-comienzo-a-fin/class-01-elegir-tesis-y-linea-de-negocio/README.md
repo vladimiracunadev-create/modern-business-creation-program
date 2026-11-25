@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Alcance del caso** | Límites del ejercicio: geografía, escala y línea. |
 | **Supuesto declarado** | Afirmación que el caso asume y que debe verificarse. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué línea de negocio elegir para el capstone
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Tesis del capstone"]
-    C --> A2["Criterio de elección"]
-    C --> A3["Alcance del caso"]
-    C --> A4["Supuesto declarado"]
-    A1 & A2 & A3 & A4 --> D{{"elegir la línea de negocio y<br/>declarar el alcance del caso"}}
-    D --> E["Entregable<br/>Expediente de viabilidad<br/>iniciado con tesis, alcance,<br/>supuestos, capital máximo y<br/>criterios de éxito o abandono"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El capstone se construye sobre un caso único y un expediente de viabilidad versionado, no sobre entregables desconectados; la tesis abre el expediente y declara el alcance, el capital máximo y los supuestos.
+
+![Esquema: Qué línea de negocio elegir para el capstone](modelo-mental.svg)
+
+**Lectura guiada:** Ubica las líneas de negocio que consideras según tu capacidad real y el atractivo de la oportunidad. Elegir una no es negar las demás: es declarar por qué esa merece el esfuerzo.
+
+**Una imagen cotidiana:** Es escoger el tema de una tesis universitaria: debe interesarte, ser abordable con lo que tienes y ser lo bastante relevante como para defenderlo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El capstone se construye sobre un caso único y un Expediente de viabilidad vers
 
 ### 2. Cómo se traduce en la práctica
 
-El expediente conserva la tesis y enlaza los anexos de mercado, cliente, costos, modelo, aliados y proyección. Una línea con datos públicos permite contrastar cada afirmación; una demasiado exótica convierte el ejercicio en ficción. Desde el inicio se fijan geografía, escala, horizonte, capital máximo y kill criteria para que la evidencia futura pueda cambiar una decisión real.
+Escribe tres candidatas y evalúalas con criterios explícitos: problema, mercado, margen, capacidad, capital y regulación. Elige una y redacta la tesis: qué problema resuelves, para quién, con qué recursos y cuál es el capital máximo. Declara los supuestos como supuestos. Abre el expediente de viabilidad: todas las etapas siguientes se anotan en él con fuente y fecha.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El expediente conserva la tesis y enlaza los anexos de mercado, cliente, costos,
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una estudiante evalúa tres ideas: una cafetería, un servicio de mantención de bicicletas eléctricas y una plataforma para talleres. La plataforma es muy atractiva, pero exige capital y programación que no tiene; la cafetería es cómoda, pero la zona está saturada. El servicio de bicicletas eléctricas combina un mercado en crecimiento, su experiencia mecánica y un capital máximo de 12 millones. Declara su tesis, el alcance, el capital máximo y sus supuestos, y abre el expediente (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Personal MBA** (Portfolio): Kaufman resume los conceptos básicos de gestión, útiles para evaluar con criterios comparables qué negocio conviene construir.
+- **Good Strategy Bad Strategy** (Crown Business): Rumelt sostiene que una estrategia sólida parte de un diagnóstico claro del problema y de los recursos disponibles, no de una aspiración.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -157,6 +162,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para elegir la línea de negocio y declarar el alcance del caso.
+
+**Portfolio — The Personal MBA**  
+<https://openlibrary.org/isbn/9780670919536> · verificado 2026-11-25
+
+- *Qué contiene:* Resume conceptos esenciales de gestión de empresas: valor, marketing, ventas, finanzas y sistemas. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Personal MBA» para elegir la línea de negocio y declarar el alcance del caso.
+
+**Crown Business — Good Strategy Bad Strategy**  
+<https://openlibrary.org/isbn/9780307886231> · verificado 2026-11-25
+
+- *Qué contiene:* Distingue una buena estrategia por su diagnóstico, política rectora y acciones coherentes. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Good Strategy Bad Strategy» para elegir la línea de negocio y declarar el alcance del caso.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

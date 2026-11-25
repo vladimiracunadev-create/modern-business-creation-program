@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Límite de crecimiento financiable** | Tasa máxima sostenible con los recursos disponibles. |
 | **Calidad del crecimiento** | Proporción del crecimiento que proviene de clientes rentables. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El límite de crecimiento que tu caja puede financiar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Crecimiento rentable"]
-    C --> A2["Consumo de caja del<br/>crecimiento"]
-    C --> A3["Límite de crecimiento<br/>financiable"]
-    C --> A4["Calidad del crecimiento"]
-    A1 & A2 & A3 & A4 --> D{{"determinar el límite de<br/>crecimiento financiable y<br/>ajustar el plan comercial"}}
-    D --> E["Entregable<br/>cálculo del crecimiento<br/>financiable con capital de<br/>trabajo requerido y<br/>comparación con el plan<br/>comercial"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Existe una tasa máxima de crecimiento que la empresa puede financiar con su propia generación; superarla exige financiamiento externo o produce una crisis de caja.
+
+![Esquema: El límite de crecimiento que tu caja puede financiar](modelo-mental.svg)
+
+**Qué mirar primero:** Mientras la caja que genera la empresa supera a la que consume el crecimiento, el crecimiento se financia solo. El punto donde se cruzan es el límite: más allá, crecer cuesta más de lo que se genera.
+
+**Una analogía:** Es una bicicleta cuesta arriba: puedes pedalear más fuerte hasta cierto punto, pero luego necesitas ayuda para seguir subiendo sin caerte.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Existe una tasa máxima de crecimiento que la empresa puede financiar con su pro
 
 ### 2. Cómo se traduce en la práctica
 
-Superarlo exige capital externo o produce crisis de caja: no hay tercera opción. Aceptar clientes grandes con plazos de pago que la empresa no puede financiar es la versión concreta de este problema, y suele presentarse como una buena noticia comercial.
+Calcula tu límite de crecimiento financiable: caja generada dividida por la inversión en capital de trabajo y activos necesarios por cada peso de venta adicional. Compara con tu plan comercial. Si lo superas, decide si reduces el ritmo, mejoras el ciclo de caja o buscas financiamiento. La calidad del crecimiento importa: crecer sin margen y sin caja no es crecer bien.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Superarlo exige capital externo o produce crisis de caja: no hay tercera opción
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa vende 100 millones al año, genera una caja operativa de 12 millones y necesita invertir 40 centavos de capital de trabajo por cada peso adicional de venta. Con 12 millones disponibles, puede financiar un crecimiento de 30 millones de ventas (30 %): 12 / 0,4. Si planea crecer 50 %, le faltarán 8 millones: debe conseguir financiamiento, mejorar el ciclo de cobro o moderar el plan (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican por qué el crecimiento consume capital de trabajo y cómo un negocio rentable puede quedarse sin caja.
+- **Scaling Up** (Gazelles): Harnish trata el crecimiento rentable y el control de la caja como parte de la gestión de una empresa que escala.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar el límite de crecimiento financiable y ajustar el plan comercial.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para determinar el límite de crecimiento financiable y ajustar el plan comercial.
+
+**Gazelles — Scaling Up**  
+<https://openlibrary.org/isbn/9780986019555> · verificado 2026-11-25
+
+- *Qué contiene:* Reúne herramientas de gestión para crecer: personas, estrategia, ejecución y caja. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Scaling Up» para determinar el límite de crecimiento financiable y ajustar el plan comercial.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

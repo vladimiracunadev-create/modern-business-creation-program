@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Capital propio tributario** | Base sobre la que se calcula el monto de la patente. |
 | **Renovación** | Pago semestral que mantiene vigente la habilitación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De la solicitud a la patente municipal
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Patente municipal"]
-    C --> A2["Patente provisoria"]
-    C --> A3["Capital propio tributario"]
-    C --> A4["Renovación"]
-    A1 & A2 & A3 & A4 --> D{{"determinar el municipio<br/>competente, los requisitos y<br/>el monto estimado de la<br/>patente"}}
-    D --> E["Entregable<br/>expediente de patente<br/>municipal con requisitos del<br/>municipio, uso de suelo y<br/>monto estimado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La patente municipal se solicita en la comuna del domicilio comercial y exige acreditar un uso de suelo compatible, además de los permisos sectoriales cuando corresponda.
+
+![Esquema: De la solicitud a la patente municipal](modelo-mental.svg)
+
+**Cómo leerlo:** Cada casilla es un requisito previo del siguiente. El error frecuente es empezar por el final: arrendar y habilitar un local antes de comprobar que el suelo y los permisos permiten la actividad.
+
+**Piénsalo así:** Es matricularse en una universidad: no puedes inscribir ramos antes de haber sido admitido, ni ser admitido sin los documentos de la etapa anterior.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La patente municipal se solicita en la comuna del domicilio comercial y exige ac
 
 ### 2. Cómo se traduce en la práctica
 
-Se solicita en la comuna del domicilio comercial y exige uso de suelo compatible más los permisos sectoriales cuando corresponda. Su monto se calcula sobre el capital propio con topes legales y se paga semestralmente: olvidar la renovación acumula deuda municipal que después bloquea otros trámites.
+Antes de comprometer un local, consulta en el municipio el uso de suelo y los requisitos de la actividad. Reúne los permisos sectoriales que correspondan y estima la patente, que se calcula sobre el capital propio tributario. Solicita la patente provisoria cuando la ley lo permita y calendariza la renovación. Opera con la patente definitiva o provisoria vigente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ Se solicita en la comuna del domicilio comercial y exige uso de suelo compatible
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una panadería arrienda un local, lo remodela y recién entonces solicita la patente; el municipio informa que el uso de suelo de esa zona no admite elaboración de alimentos. La inversión ya estaba hecha y debe buscar otro lugar. Otra empresa, antes de firmar el arriendo, pidió el certificado de informaciones previas, la autorización sanitaria preliminar y el monto estimado de la patente, y abrió sin sobresaltos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El DL 3.063 sobre rentas municipales regula la patente municipal y su cálculo; su texto vigente se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

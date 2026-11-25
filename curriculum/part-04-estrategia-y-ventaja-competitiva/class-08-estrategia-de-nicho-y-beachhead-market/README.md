@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Dominancia** | Participación suficiente para ser la opción por defecto del segmento. |
 | **Expansión adyacente** | Paso al segmento contiguo apoyado en la posición ganada. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dominar un nicho y expandirse por adyacencia
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Beachhead"]
-    C --> A2["Nicho"]
-    C --> A3["Dominancia"]
-    C --> A4["Expansión adyacente"]
-    A1 & A2 & A3 & A4 --> D{{"elegir el segmento inicial<br/>donde la empresa puede ser la<br/>opción por defecto"}}
-    D --> E["Entregable<br/>definición de beachhead con<br/>tamaño, criterio de dominancia<br/>y ruta de expansión adyacente"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La estrategia de beachhead elige un segmento lo bastante pequeño para dominarlo con los recursos actuales y lo bastante grande para sostener la operación.
+
+![Esquema: Dominar un nicho y expandirse por adyacencia](modelo-mental.svg)
+
+**Lectura guiada:** La línea muestra cómo se avanza: primero un nicho que se domina, luego segmentos vecinos con el prestigio ganado. El hito destacado es la dominancia, que produce las referencias.
+
+**Para recordarlo:** Es un desembarco: se toma una cabeza de playa, se asegura y desde ahí se avanza, en lugar de intentar tomar todo el continente a la vez.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La estrategia de beachhead consiste en elegir un segmento lo bastante pequeño p
 
 ### 2. Cómo se traduce en la práctica
 
-La dominancia produce referencias, casos y aprendizaje que abaratan el paso al segmento adyacente. El error simétrico también existe: quedarse en el beachhead más allá de lo necesario y confundir un nicho cómodo con una estrategia, cuando la expansión adyacente ya estaba disponible.
+Define el nicho con tres criterios: tamaño suficiente para sostener la empresa, necesidad homogénea y acceso a través de un canal concreto. Mide tu participación en él y decide qué porcentaje consideras dominancia. Planea las expansiones adyacentes según el parecido de producto, cliente o canal, y fija una condición para avanzar, como un porcentaje de participación o de casos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ La dominancia produce referencias, casos y aprendizaje que abaratan el paso al s
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa de software para bodegas de vino parte con 40 bodegas boutique de un valle (nicho). Con 25 clientes (62 % del nicho), consigue referencias y reduce su costo de venta de $800.000 a $350.000 por cliente. Luego pasa a bodegas medianas del valle vecino y después a cervecerías. Cada salto aprovecha casos y producto ya probados (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Crossing the Chasm (3.ª ed., 2014)** (HarperBusiness): Moore propone concentrarse en un nicho inicial para dominarlo, usarlo como cabeza de playa y avanzar luego a segmentos adyacentes.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +160,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para elegir el segmento inicial donde la empresa puede ser la opción por defecto.
+
+**HarperBusiness — Crossing the Chasm (3.ª ed., 2014)**  
+<https://openlibrary.org/isbn/9780062292988> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo una empresa con tecnología o servicio nuevo pasa de los primeros adoptantes al mercado mayoritario concentrándose en un segmento acotado antes de ampliar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Crossing the Chasm (3.ª ed., 2014)» para elegir el segmento inicial donde la empresa puede ser la opción por defecto.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Precio de mercado** | Referencia dada por alternativas disponibles. |
 | **Empaquetado** | Forma en que se agrupan funciones o servicios en niveles de precio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Piso, referencia y techo de un precio
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Precio basado en costo"]
-    C --> A2["Precio basado en valor"]
-    C --> A3["Precio de mercado"]
-    C --> A4["Empaquetado"]
-    A1 & A2 & A3 & A4 --> D{{"fijar precio y empaquetado con<br/>un método declarado y<br/>verificable"}}
-    D --> E["Entregable<br/>política de precios con<br/>método, piso de costo, techo<br/>de valor y estructura de<br/>empaquetado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El costo define el piso, el valor define el techo y el mercado define la referencia; fijar precio solo por costo deja valor sobre la mesa y solo por valor, sin verificar el costo, puede dar pérdidas.
+
+![Esquema: Piso, referencia y techo de un precio](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño es un límite. Tu precio vive entre el costo y el valor; el mercado indica dónde se ubican otros. El empaquetado cambia lo que el cliente compara.
+
+**Para recordarlo:** Es la tarifa de un taxi: el piso es la bencina y el chofer, el techo es lo que el pasajero gana llegando a tiempo, y la referencia, lo que cobran los otros taxis.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El costo define el piso, el valor define el techo y el mercado define la referen
 
 ### 2. Cómo se traduce en la práctica
 
-El empaquetado suele mover más el resultado que el precio mismo, porque permite capturar disposiciones a pagar distintas sin cambiar el producto. Y la política de descuentos debe exigir contrapartida: plazo, volumen, referencia o pago anticipado. Descontar sin nada a cambio enseña que el precio inicial era ficticio.
+Calcula tu piso con el costo total por unidad, estima el techo con entrevistas al cliente sobre lo que gana o evita, y reúne las referencias del mercado. Define el precio y los paquetes con un método declarado y verificable, y pruébalo con un experimento. Revisa las reglas de publicidad e información de precios: lo ofrecido obliga.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El empaquetado suele mover más el resultado que el precio mismo, porque permite
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Fundador: «Mi costo por servicio es 40 mil y los otros cobran 60 mil. Pondré 65». Asesora: «¿Cuánto vale para el cliente?». Fundador: «Evita una multa de 500 mil». Asesora: «Entonces el techo es mucho más alto que 65. Puedes ofrecer un paquete anual de 150 mil con revisión incluida». Fundador: «Pero primero verifico el costo, para no perder en el paquete» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **The Strategy and Tactics of Pricing** (Prentice Hall): Nagle y Holden proponen fijar precios a partir del valor percibido por el cliente, con el costo como piso y la competencia como referencia.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican el cálculo de costos y márgenes que fija el piso de cualquier precio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para fijar precio y empaquetado con un método declarado y verificable.
+
+**Prentice Hall — The Strategy and Tactics of Pricing**  
+<https://openlibrary.org/isbn/9780132043588> · verificado 2026-11-25
+
+- *Qué contiene:* Tratado de fijación de precios basada en el valor percibido por el cliente. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Strategy and Tactics of Pricing» para fijar precio y empaquetado con un método declarado y verificable.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para fijar precio y empaquetado con un método declarado y verificable.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

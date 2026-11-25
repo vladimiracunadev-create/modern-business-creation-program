@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **No represalia** | Garantía de que denunciar no genera perjuicio. |
 | **Investigación interna** | Procedimiento reglado de esclarecimiento. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El camino de una denuncia con garantías
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Canal de denuncias"]
-    C --> A2["Confidencialidad"]
-    C --> A3["No represalia"]
-    C --> A4["Investigación interna"]
-    A1 & A2 & A3 & A4 --> D{{"implementar el canal y el<br/>procedimiento de investigación<br/>con garantías reales"}}
-    D --> E["Entregable<br/>procedimiento de canal de<br/>denuncias con<br/>confidencialidad, plazos,<br/>investigador independiente y<br/>registro"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El canal de denuncias sirve solo si las personas confían en él, lo que exige confidencialidad real, independencia del investigador y evidencia de que las denuncias anteriores se gestionaron.
+
+![Esquema: El camino de una denuncia con garantías](modelo-mental.svg)
+
+**Cómo leerlo:** Cada paso protege a una parte distinta. Si uno falla, el canal pierde credibilidad: una denuncia mal tratada desalienta a las siguientes y el problema crece fuera de la empresa.
+
+**Para recordarlo:** Es un buzón de reclamos de un hospital: si nadie responde ni se ven cambios, la gente deja de usarlo y recurre a otros medios.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El canal de denuncias sirve solo si las personas confían en él. Eso exige conf
 
 ### 2. Cómo se traduce en la práctica
 
-Un canal que llega al jefe directo del posible denunciado no es un canal. Y no informar el resultado del proceso destruye la confianza más rápido que no tenerlo, porque quien denunció concluye que el mecanismo no sirve y lo comunica al resto de la organización.
+Define el canal, quién lo recibe, qué garantías tiene el denunciante y cómo se evita el conflicto de interés. Establece plazos para acusar recibo, investigar y responder. Registra cada denuncia y su resultado, y comunica periódicamente cómo se gestionan, sin revelar identidades. Para acoso y violencia laboral, aplica el procedimiento legal específico.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Un canal que llega al jefe directo del posible denunciado no es un canal. Y no i
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa instala un canal de denuncias con un correo que lee la gerencia, donde se denuncia al propio gerente de operaciones. El denunciante no recibe respuesta, es identificado y sufre represalias. Después acude a la Inspección del Trabajo. La corrección: un canal con acceso restringido, un investigador independiente de la línea denunciada, reglas de no represalia y una respuesta formal al denunciante (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Código del Trabajo (DFL 1 de 2002)** (Biblioteca del Congreso Nacional): El artículo 211-C del Código del Trabajo regula la investigación de denuncias de acoso y violencia en el trabajo, reservada y oyendo a ambas partes.
+- **Ley 21.643 — Prevención, investigación y sanción del acoso laboral, sexual y la violencia en el trabajo** (Biblioteca del Congreso Nacional): La Ley 21.643 exige un protocolo de prevención y procedimientos de denuncia e investigación que el canal debe respetar.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
 

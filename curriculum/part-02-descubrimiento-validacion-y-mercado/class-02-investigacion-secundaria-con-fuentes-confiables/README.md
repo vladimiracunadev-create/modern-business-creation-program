@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Fecha de corte** | Momento al que corresponde el dato y a partir del cual envejece. |
 | **Trazabilidad** | Posibilidad de reconstruir de dónde salió cada cifra. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué tan fresca es la fuente que vas a usar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Fuente primaria"]
-    C --> A2["Fuente secundaria"]
-    C --> A3["Fecha de corte"]
-    C --> A4["Trazabilidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué fuentes se usarán<br/>y con qué frecuencia se<br/>revalidan"}}
-    D --> E["Entregable<br/>tabla de datos y tendencias de<br/>mercado con fuente, URL, fecha<br/>de consulta, fecha de corte,<br/>método, limitación y confianza"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Toda cifra que sostiene una decisión debe tener fuente, fecha, método y limitación; una cifra sin fecha de corte no es un dato sino una impresión.
+
+![Esquema: Qué tan fresca es la fuente que vas a usar](modelo-mental.svg)
+
+**Qué mirar primero:** Mide la antigüedad de la cifra frente a la fecha en que decides. Los umbrales son un ejemplo: en mercados que cambian rápido, el verde debería ser más corto.
+
+**Una analogía:** Es el pronóstico del tiempo de ayer: puede haber sido bueno, pero hoy no te dice si llevar paraguas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En Chile la investigación secundaria seria se apoya en INE, Banco Central, esta
 
 ### 2. Cómo se traduce en la práctica
 
-En Chile la investigación seria se apoya en el INE para población y empleo, el Banco Central para series macro y las estadísticas del SII por rubro y tamaño. La regla es bajar el dato a la comuna cuando el negocio sea local y conservar fecha de corte, método, limitación y señal observable: un promedio nacional o una tendencia sin serie rara vez describe el mercado alcanzable.
+Antes de usar una cifra, responde cuatro preguntas y escribe las respuestas junto al dato: quién la produjo, cuándo, con qué método y qué no mide. Prefiere fuentes primarias (INE, Banco Central, SII) y deja la fuente secundaria solo como pista. Define cada cuánto revalidarás los datos que sostienen decisiones: en mercados dinámicos, cada trimestre.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En Chile la investigación seria se apoya en el INE para población y empleo, el
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: un fundador proyecta su mercado con una cifra de un informe que encontró en un blog, sin fecha ni método. La corrección: rastrear el dato hasta la fuente primaria, que resulta ser una encuesta de hace cinco años. Busca series recientes del INE y del Banco Central, anota el año y la metodología de cada una y descubre que el segmento se redujo a la mitad (caso ilustrativo). El error no estaba en la cuenta sino en la fuente.
+
+### 5. En qué se apoya
+
+- **Estadística oficial de población, empleo y actividad** (Instituto Nacional de Estadísticas): El INE publica estadísticas oficiales de población, empleo y actividad, que son la base primaria para dimensionar segmentos en Chile.
+- **Estadísticas macroeconómicas, tipo de cambio y UF** (Banco Central de Chile): El Banco Central publica series macroeconómicas con metodología y fecha, útiles para contrastar cifras secundarias.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Fundamentos de inteligencia económica
 

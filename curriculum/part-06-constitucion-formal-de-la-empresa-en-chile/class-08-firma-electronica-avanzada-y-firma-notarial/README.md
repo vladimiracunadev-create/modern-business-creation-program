@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Proveedor acreditado** | Entidad autorizada para emitir certificados de firma avanzada. |
 | **Firma ante notario** | Alternativa presencial cuando no hay firma electrónica. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Cómo firmará cada constituyente?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Firma electrónica avanzada"]
-    C --> A2["Firma electrónica simple"]
-    C --> A3["Proveedor acreditado"]
-    C --> A4["Firma ante notario"]
-    A1 & A2 & A3 & A4 --> D{{"resolver el mecanismo de firma<br/>de cada constituyente antes de<br/>iniciar el trámite"}}
-    D --> E["Entregable<br/>checklist de firma por<br/>constituyente con proveedor,<br/>plazo y alternativa notarial"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 19.799 equipara la firma electrónica avanzada a la manuscrita; para constituir por el régimen simplificado todos firman de esa forma o comparecen ante notario.
+
+![Esquema: ¿Cómo firmará cada constituyente?](modelo-mental.svg)
+
+**Cómo leerlo:** Contesta por cada constituyente. Si uno no tiene firma avanzada ni puede ir a notaría, el trámite se detiene hasta que lo resuelva, y eso puede tomar días.
+
+**Para recordarlo:** Es llegar a un viaje con pasajes: si alguno no tiene su boleto, nadie sube al bus hasta que lo consiga.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 19.799 equipara la firma electrónica avanzada a la manuscrita. Para cons
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 19.799 equipara la firma electrónica avanzada a la manuscrita, pero obtener el certificado con un proveedor acreditado toma días y exige verificación de identidad. Cuando un socio vive fuera de Chile o no puede completar la verificación, la alternativa notarial debe estar identificada de antemano.
+Pregunta a cada constituyente cómo firmará antes de iniciar el trámite. Si necesitan firma electrónica avanzada, solicita el certificado a un proveedor acreditado y considera el tiempo de emisión. Si optan por la notaría, define fecha y documentos necesarios. Guarda copia de los certificados de firma, porque pueden pedirse en auditorías o disputas posteriores.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La Ley 19.799 equipara la firma electrónica avanzada a la manuscrita, pero obte
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿cuántos constituyentes hay y quién tiene firma avanzada? Dos: ¿los que no la tienen pueden ir a una notaría en esta semana? Si sí, firman allí. Tres: si no, ¿cuánto demora un proveedor acreditado en emitir el certificado? Tres socios, uno de ellos en el extranjero, deciden obtener la firma avanzada del socio ausente con un proveedor acreditado y constituir en línea en lugar de otorgar un poder notarial.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.799 regula los documentos electrónicos y la firma electrónica, y equipara la firma avanzada a la manuscrita; su texto se consulta en la Biblioteca del Congreso Nacional.
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades indica los mecanismos de firma admitidos para constituir una sociedad en línea.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

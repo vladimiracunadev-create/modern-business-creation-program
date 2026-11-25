@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Competencia núcleo** | Capacidad que sostiene la diferenciación. |
 | **Dependencia creada** | Riesgo de quedar atado al proveedor elegido. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Hacerlo tú o comprarlo: el costo completo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Make or buy"]
-    C --> A2["Costo total de propiedad"]
-    C --> A3["Competencia núcleo"]
-    C --> A4["Dependencia creada"]
-    A1 & A2 & A3 & A4 --> D{{"decidir qué se produce<br/>internamente y qué se compra,<br/>con criterio total"}}
-    D --> E["Entregable<br/>análisis make or buy con costo<br/>total de propiedad y<br/>evaluación de dependencia<br/>creada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La decisión de hacer o comprar no se resuelve comparando un precio con un costo directo: hay que incluir gestión, calidad, riesgo de suministro y capacidad ociosa.
+
+![Esquema: Hacerlo tú o comprarlo: el costo completo](modelo-mental.svg)
+
+**Qué mirar primero:** Pesa los dos platos con el costo total en cada uno. La regla estratégica es no externalizar lo que sostiene tu diferencia, aunque el precio externo parezca atractivo.
+
+**Para recordarlo:** Es decidir si cocinas en casa o pides comida: depende de cuánto valoras el sabor propio, tu tiempo, el costo real y qué harías si el repartidor no llega.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La decisión no se resuelve comparando precio contra costo directo: hay que incl
 
 ### 2. Cómo se traduce en la práctica
 
-Comparar precio de compra contra costo directo interno ignora la mitad de la ecuación. La regla estratégica se superpone a la aritmética: no externalizar lo que sostiene la diferenciación, aunque comprarlo sea más barato hoy, porque recuperar esa capacidad después es mucho más caro que mantenerla.
+Calcula el costo total de propiedad de cada alternativa: precio, gestión, inspección, transporte, inventario, riesgo y capacidad ociosa. Evalúa la dependencia que creas y el plan si el proveedor falla. Define qué capacidades son núcleo para tu empresa y protégelas. Revisa la decisión cuando cambien volúmenes, costos o el mercado de proveedores.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Comparar precio de compra contra costo directo interno ignora la mitad de la ecu
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿esta actividad es la que me diferencia ante el cliente? Si sí, la hago yo. Dos: ¿cuál es el costo total de cada opción, incluida gestión, calidad y riesgo? Tres: ¿qué ocurre si el proveedor falla? Una empresa de cosmética fabrica su fórmula, que es su diferencia, y compra los envases a terceros con contratos de continuidad.
+
+### 5. En qué se apoya
+
+- **Playing to Win** (Harvard Business Review Press): Lafley y Martin proponen definir las capacidades que se necesitan para ganar y decidir con claridad cuáles se desarrollan internamente.
+- **Lean Thinking** (Free Press): Womack y Jones tratan el flujo de valor completo, base para comparar el costo total de hacer o comprar una actividad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para decidir qué se produce internamente y qué se compra, con criterio total.
+
+**Harvard Business Review Press — Playing to Win**  
+<https://openlibrary.org/isbn/9781491528792> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea la estrategia como una cascada de elecciones: dónde jugar y cómo ganar. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Playing to Win» para decidir qué se produce internamente y qué se compra, con criterio total.
+
+**Free Press — Lean Thinking**  
+<https://openlibrary.org/isbn/9780684810355> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta los principios lean: valor, flujo, tracción y perfección. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Thinking» para decidir qué se produce internamente y qué se compra, con criterio total.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

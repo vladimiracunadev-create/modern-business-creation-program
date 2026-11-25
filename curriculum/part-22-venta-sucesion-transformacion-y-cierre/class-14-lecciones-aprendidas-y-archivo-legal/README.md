@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Lecciones aprendidas** | Análisis de lo que funcionó y lo que no. |
 | **Responsabilidad posterior** | Obligaciones que sobreviven al cierre. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué se conserva después del cierre, y por cuánto tiempo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Archivo legal"]
-    C --> A2["Plazo de conservación"]
-    C --> A3["Lecciones aprendidas"]
-    C --> A4["Responsabilidad posterior"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué se conserva, por<br/>cuánto tiempo y quién responde"}}
-    D --> E["Entregable<br/>archivo legal post-cierre con<br/>inventario, plazos de<br/>conservación, custodio<br/>designado y documento de<br/>lecciones aprendidas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El cierre no extingue todas las responsabilidades: subsisten plazos de prescripción tributaria y laboral durante los cuales puede haber requerimientos, por lo que el archivo legal debe conservarse y poder consultarse.
+
+![Esquema: Qué se conserva después del cierre, y por cuánto tiempo](modelo-mental.svg)
+
+**Lectura guiada:** El ciclo se mantiene mientras corran los plazos. Quien cierra y no deja un archivo ni un responsable no podrá defenderse si años después llega un requerimiento.
+
+**Una analogía:** Es guardar la factura de un electrodoméstico mientras dure la garantía: lo más probable es que nunca la necesites, pero si la necesitas, solo ella te defiende.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El cierre no extingue todas las responsabilidades: subsisten plazos de prescripc
 
 ### 2. Cómo se traduce en la práctica
 
-Subsisten plazos tributarios y laborales durante los cuales puede haber requerimientos, y responderlos sin documentación es imposible. Destruir respaldos antes del vencimiento es una decisión irreversible cuyo costo aparece años después, cuando ya no hay forma de reconstruir nada.
+Define qué documentos conservarás (societarios, tributarios, laborales, contratos) y por cuánto tiempo según los plazos legales. Guarda copias respaldadas, designa un responsable y registra dónde están. Escribe las lecciones aprendidas del ciclo de la empresa y compártelas con los socios. Destruye los documentos solo al vencer los plazos, dejando constancia de la destrucción.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Subsisten plazos tributarios y laborales durante los cuales puede haber requerim
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Ex socio: «Cerramos hace dos años y el SII nos pide documentos de un período anterior». Contador: «Los plazos de prescripción siguen corriendo y el archivo lo guardamos en una carpeta con respaldo». Ex socio: «Menos mal que alguien tenía la clave». Contador: «Por eso dejamos un responsable y un índice; sin ellos, habría que reconstruir todo con costos mayores» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica permite recuperar parte de la información tributaria de la empresa aun después de su cierre.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los plazos de conservación de los registros laborales, relevantes ante reclamos posteriores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Determinación de la pena** | Sistema de penas y multas aplicable. |
 | **Deber de dirección y supervisión** | Obligación cuyo incumplimiento habilita la responsabilidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuándo un delito económico alcanza a la empresa
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley 21.595"]
-    C --> A2["Ampliación del catálogo"]
-    C --> A3["Determinación de la pena"]
-    C --> A4["Deber de dirección y<br/>supervisión"]
-    A1 & A2 & A3 & A4 --> D{{"reevaluar la exposición de la<br/>empresa tras la ampliación del<br/>catálogo"}}
-    D --> E["Entregable<br/>actualización del diagnóstico<br/>de exposición penal con el<br/>catálogo ampliado y brechas de<br/>control"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 21.595 amplió significativamente el catálogo de delitos que pueden generar responsabilidad de la persona jurídica y endureció las sanciones, extendiendo el riesgo a empresas de todos los tamaños.
+
+![Esquema: Cuándo un delito económico alcanza a la empresa](modelo-mental.svg)
+
+**Qué mirar primero:** Cuando coinciden las tres condiciones, aparece el riesgo para la empresa. Cada círculo puede gestionarse: conocer el catálogo, controlar los beneficios indebidos y supervisar con diligencia.
+
+**Una analogía:** Es una cadena de causas: basta con quitar un eslabón, como una supervisión diligente, para romper la responsabilidad.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 21.595 amplió significativamente el catálogo de delitos que pueden gene
 
 ### 2. Cómo se traduce en la práctica
 
-La reforma amplió las figuras que generan responsabilidad de la persona jurídica y endureció las sanciones, convirtiendo el compliance de un tema de grandes corporaciones en una necesidad general. Mantener un diagnóstico anterior a la reforma equivale a no tener diagnóstico.
+Revisa el catálogo de delitos económicos y selecciona los que podrían ocurrir en tu actividad: delitos contra el patrimonio, la información reservada, el medio ambiente o la libre competencia. Evalúa quiénes ejercen cargos con poder de decisión y qué beneficios podrían buscar para la empresa. Refuerza la supervisión y actualiza tu modelo de prevención. La ley extiende el riesgo a todas las empresas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ La reforma amplió las figuras que generan responsabilidad de la persona jurídi
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Gerente: «Pensamos que esto era solo para grandes empresas». Abogada: «La ley de delitos económicos amplió el catálogo, incluye delitos que podrían ocurrir en una pyme, como la apropiación indebida o el uso de información reservada, y considera el ejercicio de un cargo en la empresa». Gerente: «¿Qué hacemos?». Abogada: «Reevaluar la exposición, asegurar controles y dejar evidencia de supervisión» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Ley 21.595 — Ley de Delitos Económicos** (Biblioteca del Congreso Nacional): La Ley 21.595 clasifica los delitos económicos y su artículo 2 incluye entre los de segunda categoría ciertos delitos cometidos en ejercicio de un cargo en una empresa o en su beneficio.
+- **Código Penal — Artículos 284 a 284 sexies (secreto comercial)** (Biblioteca del Congreso Nacional): Los artículos 284 y siguientes del Código Penal, que tratan el secreto comercial, son un ejemplo de delitos que pueden alcanzar a la empresa según esa ley.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Marco legal chileno: obligación, recomendación y medida voluntaria
 

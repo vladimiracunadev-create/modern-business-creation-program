@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Revisión técnica y documentación** | Requisitos del vehículo y del conductor. |
 | **Responsabilidad por la carga** | Obligación frente a pérdida o daño. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Transporte propio o contratado: quién responde por la carga
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Transporte remunerado"]
-    C --> A2["Registro de transportistas"]
-    C --> A3["Revisión técnica y<br/>documentación"]
-    C --> A4["Responsabilidad por la<br/>carga"]
-    A1 & A2 & A3 & A4 --> D{{"determinar los requisitos del<br/>transporte propio o contratado<br/>y quién responde por la carga"}}
-    D --> E["Entregable<br/>matriz de requisitos de<br/>transporte con documentación<br/>exigida y asignación de<br/>responsabilidad por la carga"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El transporte remunerado tiene exigencias de registro, documentación del vehículo y licencia del conductor según el servicio; externalizar el transporte no elimina la responsabilidad frente al cliente por la carga.
+
+![Esquema: Transporte propio o contratado: quién responde por la carga](modelo-mental.svg)
+
+**Qué mirar primero:** Cada plato muestra un modelo de transporte. En ambos, tu cliente espera que la carga llegue; la diferencia está en cuánto controlas y en cómo repartes el riesgo en el contrato.
+
+**Una imagen cotidiana:** Es llevar a unos niños al colegio: si lo haces tú o contratas un transporte, los padres igual te harán responsable si ocurre algo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El transporte remunerado tiene exigencias de registro, documentación del vehíc
 
 ### 2. Cómo se traduce en la práctica
 
-Externalizar el transporte no elimina la responsabilidad frente al cliente por pérdida o daño, ni la responsabilidad laboral si el vínculo con el conductor configura subordinación. Contratar transportistas sin verificar documentación y seguros traslada a la empresa un riesgo que no controló.
+Determina si tu servicio requiere registro como transportista y qué documentos exige cada vehículo y conductor. Si contratas, solicita antecedentes, seguros y pactos de responsabilidad. Define en el contrato quién responde por daños, robo y retrasos. Guarda copia de la documentación y del seguimiento de cada despacho.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ Externalizar el transporte no elimina la responsabilidad frente al cliente por p
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de distribución contrata un transportista informal con un vehículo sin documentación; una carga se pierde en un accidente y el cliente le reclama a ella, que no tiene cómo recuperar el costo. Después: exige a los transportistas inscripción, revisión técnica y seguro, pacta una cláusula de responsabilidad por la carga y revisa la documentación cada trimestre. Un siniestro posterior queda cubierto por el seguro del proveedor (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley de Tránsito y las normas del Código de Comercio sobre contrato de transporte, consultables en la BCN, fijan requisitos y responsabilidades del transportista.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

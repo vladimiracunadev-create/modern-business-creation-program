@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cuenta puente** | Cuenta transitoria que debe quedar en cero al cierre. |
 | **Granularidad** | Nivel de detalle que permite analizar sin volverse inmanejable. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto detalle necesita tu plan de cuentas
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Plan de cuentas"]
-    C --> A2["Centro de costo"]
-    C --> A3["Cuenta puente"]
-    C --> A4["Granularidad"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar el plan de cuentas y<br/>las dimensiones de análisis<br/>que la empresa necesita"}}
-    D --> E["Entregable<br/>plan de cuentas con centros de<br/>costo y las tres preguntas de<br/>negocio que debe responder"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un plan de cuentas bien diseñado responde preguntas de negocio sin abrir facturas; demasiado detalle lo vuelve impracticable y muy poco, inútil.
+
+![Esquema: Cuánto detalle necesita tu plan de cuentas](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa añade una dimensión de análisis. Agrega solo las que cambian una decisión: más capas significan más trabajo de registro y más riesgo de errores.
+
+**Una analogía:** Es el nivel de zoom de un mapa: con poco zoom no ves las calles; con demasiado, no ves la ciudad.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un plan de cuentas bien diseñado permite responder preguntas de negocio sin abr
 
 ### 2. Cómo se traduce en la práctica
 
-Un plan bien diseñado responde preguntas de negocio sin abrir facturas: margen por línea, gasto por centro, costo de servir por tipo de cliente. Uno genérico obliga a un análisis manual permanente que nadie sostiene más de dos meses.
+Parte de las preguntas de negocio y diseña hacia atrás las cuentas y dimensiones. Escribe el plan en una hoja, probándolo con diez operaciones reales: si alguna no cabe o cabe en dos lugares, hay que ajustar. Evita las cuentas puente permanentes y revisa el plan una vez al año. El plan es parte de la carpeta de respaldo ante el SII.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un plan bien diseñado responde preguntas de negocio sin abrir facturas: margen 
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide cada dimensión con una pregunta. Uno: ¿necesito saber el margen por línea? Si sí, crea la línea de negocio. Dos: ¿necesito saber qué área gasta más? Si sí, crea centros de costo. Tres: ¿tomaré decisiones por cliente? Solo en negocios con pocos clientes grandes. Una empresa de capacitación define tres líneas y cuatro centros de costo, y descarta el detalle por alumno porque no cambiaría ninguna decisión.
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII indica qué libros y registros debe llevar un contribuyente, que el plan de cuentas debe poder sustentar.
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica muestra cómo el SII ve a la empresa, y es un buen contraste para comprobar que el plan de cuentas permite explicar sus cifras.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

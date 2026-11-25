@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Rectificación** | Corrección de errores materiales. |
 | **Oponibilidad** | Efecto del acto frente a terceros una vez cumplida la publicidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El costo de descubrir tarde un vicio de constitución
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Modificación"]
-    C --> A2["Saneamiento"]
-    C --> A3["Rectificación"]
-    C --> A4["Oponibilidad"]
-    A1 & A2 & A3 & A4 --> D{{"verificar la corrección formal<br/>de la constitución y<br/>planificar modificaciones<br/>futuras"}}
-    D --> E["Entregable<br/>revisión formal de la<br/>constitución con hallazgos y<br/>plan de saneamiento si<br/>corresponde"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los vicios formales de constitución son frecuentes y se detectan tarde, típicamente en una due diligence o al pedir un crédito, cuando corregirlos es más lento y caro.
+
+![Esquema: El costo de descubrir tarde un vicio de constitución](modelo-mental.svg)
+
+**Cómo leerlo:** La curva sube con el tiempo porque cada operación realizada sobre una base defectuosa amplía lo que hay que sanear. El punto marca el momento en que un tercero lo detecta.
+
+**Piénsalo así:** Es una grieta en los cimientos: si la reparas al construir, es una tarde; si aparece con el edificio terminado, es una obra mayor.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los vicios formales de constitución son frecuentes y se detectan tarde, típica
 
 ### 2. Cómo se traduce en la práctica
 
-Los vicios formales son frecuentes y la ley admite saneamiento, pero exige tiempo y costo justo cuando hay una operación en curso. Una revisión temprana convierte un problema barato de resolver en un trámite; una tardía lo convierte en una condición suspensiva de la operación que se estaba cerrando.
+Al terminar la constitución, revisa con una lista de verificación los nombres, RUT, capital, objeto, administración y domicilio contra los documentos originales. Si encuentras un error, corrígelo de inmediato. Planifica las modificaciones futuras (aumentos de capital, nuevos socios) con anticipación y comprueba que se reflejen en el Registro y en los libros.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Los vicios formales son frecuentes y la ley admite saneamiento, pero exige tiemp
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa constituyó con un error en el nombre de un socio y lo detectó dos años después, durante una auditoría previa a una ronda de inversión. Para sanear debe hacer una modificación con las firmas de todos, actualizar contratos y bancos, y reemitir documentos: 6 semanas y 1,5 millones en honorarios. Una revisión de una hora al constituir lo habría evitado (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades permite modificar y rectificar los datos de una sociedad, y registra el estatuto actualizado.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las leyes de sociedades y la Ley 20.659 regulan las modificaciones y los saneamientos de vicios de constitución.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

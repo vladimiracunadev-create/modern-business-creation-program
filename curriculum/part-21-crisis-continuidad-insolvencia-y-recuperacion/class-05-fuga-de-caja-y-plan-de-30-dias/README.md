@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Prioridad de pago** | Orden que protege la continuidad y el cumplimiento legal. |
 | **Negociación de plazos** | Acuerdo con proveedores y acreedores. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los primeros pasos ante una fuga de caja
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Fuga de caja"]
-    C --> A2["Plan de 30 días"]
-    C --> A3["Prioridad de pago"]
-    C --> A4["Negociación de plazos"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar el plan de<br/>estabilización de caja con<br/>prioridades definidas"}}
-    D --> E["Entregable<br/>plan de 30 días con posición<br/>de caja diaria, congelamiento<br/>de salidas y calendario de<br/>negociaciones"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Ante una fuga de caja el orden es medir con exactitud la posición, congelar salidas no críticas, priorizar remuneraciones y cotizaciones, acelerar la cobranza y negociar plazos antes de incumplir.
+
+![Esquema: Los primeros pasos ante una fuga de caja](modelo-mental.svg)
+
+**Cómo leerlo:** Sigue el flujo sin saltarte pasos: medir primero evita decidir con cifras equivocadas; negociar antes de incumplir cuida la confianza y las opciones de reorganización.
+
+**Piénsalo así:** Es una emergencia de agua: primero cierras la llave general, luego ves de dónde sale y reparas lo urgente antes de ordenar el resto.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Ante fuga de caja el orden es: medir con exactitud la posición, congelar salida
 
 ### 2. Cómo se traduce en la práctica
 
-Negociar antes conserva credibilidad; negociar después la elimina y encarece cualquier acuerdo. Y dejar de pagar cotizaciones para aliviar la caja del mes es la peor decisión disponible: además de apropiarse de dinero del trabajador, impide poner término válido a cualquier contrato.
+Construye hoy el flujo de caja de 13 semanas, con lo comprometido separado de lo probable. Define qué gastos se congelan y quién decide. Prioriza remuneraciones, cotizaciones e impuestos. Negocia con cada proveedor por separado y por escrito. Comunica a trabajadores, clientes y proveedores con la misma verdad. Si la situación persiste, consulta a un abogado de insolvencia.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Negociar antes conserva credibilidad; negociar después la elimina y encarece cu
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Gerente: «No alcanza para todo este mes». Contadora: «Primero midamos exactamente cuánto hay y cuánto se debe pagar cada semana». Gerente: «¿Qué es lo primero que pagamos?». Contadora: «Sueldos y cotizaciones; luego impuestos de la semana y proveedores críticos. Congelamos gastos no esenciales, aceleramos las cobranzas y llamamos a los proveedores antes de que venzan las facturas, con una propuesta de calendario» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **The Hard Thing About Hard Things** (HarperBusiness): Horowitz relata cómo se conduce una empresa en crisis, con decisiones rápidas y comunicación honesta con el equipo.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican la lectura del flujo de caja y el capital de trabajo, herramientas básicas de un plan de estabilización.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 
@@ -226,6 +231,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Obliga a las entidades inscritas en el Registro de Valores a divulgar información esencial veraz, suficiente y oportuna (arts. 9 y 10).
 - *Cómo leerla:* Úsala solo si la empresa tiene valores inscritos; una empresa privada no está sujeta a este deber de divulgación por esta ley.
 - *Uso en esta clase:* aporta el marco de «Ley 18.045 — Ley de Mercado de Valores» para ejecutar el plan de estabilización de caja con prioridades definidas.
+
+**HarperBusiness — The Hard Thing About Hard Things**  
+<https://openlibrary.org/isbn/9780062273215> · verificado 2026-11-25
+
+- *Qué contiene:* Relata decisiones difíciles de gestión al dirigir una empresa, incluidas las crisis. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Hard Thing About Hard Things» para ejecutar el plan de estabilización de caja con prioridades definidas.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para ejecutar el plan de estabilización de caja con prioridades definidas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

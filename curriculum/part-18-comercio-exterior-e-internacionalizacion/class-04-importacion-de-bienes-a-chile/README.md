@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Agente de aduana** | Profesional que tramita ante el servicio. |
 | **Costo de internación** | Arancel, iva, transporte, almacenaje y gastos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El costo real de traer un producto a Chile
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Importación"]
-    C --> A2["Declaración de ingreso"]
-    C --> A3["Agente de aduana"]
-    C --> A4["Costo de internación"]
-    A1 & A2 & A3 & A4 --> D{{"calcular el costo total de<br/>internación antes de<br/>comprometer una importación"}}
-    D --> E["Entregable<br/>costeo completo de importación<br/>con todos los conceptos y<br/>visaciones exigidas por<br/>producto"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El costo real de importar incluye arancel, IVA de importación, flete, seguro, almacenaje y honorarios del agente; calcular el precio de venta sobre el valor FOB es el error clásico que destruye márgenes.
+
+![Esquema: El costo real de traer un producto a Chile](modelo-mental.svg)
+
+**Lectura guiada:** Cada barra suma un costo al valor FOB. El IVA de importación, aunque recuperable, exige caja anticipada. El costo de internación es lo que importa para fijar el precio.
+
+**Para recordarlo:** Es pagar un pasaje y olvidar impuestos de embarque, maletas y traslados: el precio final es mucho mayor que el del pasaje.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El costo real de importar incluye arancel, IVA de importación, flete, seguro, a
 
 ### 2. Cómo se traduce en la práctica
 
-Arancel, IVA de importación, flete, seguro, almacenaje y honorarios del agente forman el costo real. Además, ciertos productos requieren visaciones sanitarias o certificaciones previas al ingreso: gestionarlas después del embarque significa mercancía detenida acumulando almacenaje.
+Calcula el costo total de internación por unidad antes de comprometer la importación: FOB, flete, seguro, arancel, honorarios, almacenaje y otros gastos. Fija el precio sobre ese costo. Considera el IVA de importación en tu flujo de caja. Cuenta con un agente de aduana y revisa los acuerdos comerciales que puedan reducir el arancel.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Arancel, IVA de importación, flete, seguro, almacenaje y honorarios del agente 
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda importa un producto con valor FOB de 100.000 pesos por unidad. Suma flete y seguro (12.000), arancel (6.000) y agente y almacenaje (4.000): el costo de internación es 122.000, sin considerar el IVA de importación de 22 %, que deberá financiar hasta recuperarlo. Si fija su precio de venta sobre los 100.000 con 30 % de margen, vende a 130.000 y gana solo 8.000 por unidad en vez de 30.000 (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Importación, exportación y clasificación arancelaria** (Servicio Nacional de Aduanas): El Servicio Nacional de Aduanas informa los derechos, el IVA y los procedimientos que conforman el costo de internación de una importación.
+- **Ventanilla única de comercio exterior** (Sistema Integrado de Comercio Exterior): SICEX integra los trámites de comercio exterior y ayuda a conocer los requisitos y costos que acompañan cada operación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Protección de afectados** | Medidas para detener daño, preservar derechos y habilitar canales de atención. |
 | **Escalamiento** | Activación de dirección, asesores, autoridades y continuidad según umbral. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cinco categorías que no se mezclan en un mensaje de crisis
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Crisis de confianza"]
-    C --> A2["Hecho confirmado"]
-    C --> A3["Protección de afectados"]
-    C --> A4["Escalamiento"]
-    A1 & A2 & A3 & A4 --> D{{"definir vocería, clasificación<br/>de evidencia, protección de<br/>afectados y escalamiento antes<br/>de la crisis"}}
-    D --> E["Entregable<br/>protocolo de crisis con<br/>tablero de hechos,<br/>alegaciones, actuación<br/>regulatoria, respuesta,<br/>vocería, canales, evidencia y<br/>umbrales"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Una crisis de producto, regulación o confianza también es una crisis de clasificación de evidencia: la respuesta debe distinguir el documento del regulador, lo alegado por terceros, la versión de la empresa, lo corregido y lo no resuelto.
+
+![Esquema: Cinco categorías que no se mezclan en un mensaje de crisis](modelo-mental.svg)
+
+**Lectura guiada:** Cada categoría tiene su propia regla de uso. Mezclarlas, como presentar una alegación como un hecho, convierte un mensaje en un riesgo adicional. Este modelo complementa la guía de reputación y crisis del programa.
+
+**Una analogía:** Es el parte de un partido: el marcador es un hecho, lo que opina el comentarista es interpretación y la decisión del árbitro es una actuación, y no se confunden en la crónica.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Celsius, Terra y MEDVi muestran que una crisis de producto, regulación o confia
 
 ### 2. Cómo se traduce en la práctica
 
-Celsius y Terra enseñan que comunicar solvencia, liquidez o estabilidad sin evidencia vigente puede amplificar la crisis. El primer mensaje debe decir qué se sabe, qué no, qué medida protege a los afectados, qué canal funciona y cuándo será la próxima actualización. En paralelo se preservan registros, se activa continuidad y se evalúan deberes regulatorios con asesoría local.
+Antes de comunicar, clasifica cada afirmación en una de las cinco categorías y cita la fuente. Define quién habla, quién aprueba y cómo se protege a los afectados. Prepara el protocolo antes de la crisis y ensáyalo. Para el detalle de vocería, severidad y plantillas, usa la guía de reputación y crisis del programa.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Celsius y Terra enseñan que comunicar solvencia, liquidez o estabilidad sin evi
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: ante una publicación que afirma que sus productos son falsificados, una empresa responde que «es falso y que los medios mienten», sin revisar los hechos. Días después, el regulador envía una carta con observaciones sobre parte de sus afirmaciones. La corrección: separar lo verificado, lo que se está revisando, lo que dijo la autoridad y lo que la empresa hará, y mantener un registro. Los casos MEDVi y Celsius enseñan a ordenar la evidencia antes de hablar (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455** (U.S. Food and Drug Administration): La carta de advertencia de la FDA a MEDVi es un ejemplo de actuación de una autoridad que la empresa debe distinguir de las alegaciones de terceros y de su propia respuesta.
+- **MEDVi statement in response to external speculation** (MEDVi · versión corporativa): La declaración de MEDVi es la versión corporativa de los hechos, que debe leerse como respuesta de la empresa y no como hecho verificado por terceros.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 

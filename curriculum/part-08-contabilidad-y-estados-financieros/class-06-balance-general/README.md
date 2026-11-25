@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Endeudamiento** | Proporción de pasivos sobre patrimonio. |
 | **Calidad del activo** | Grado en que los activos registrados son realizables. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Qué dice realmente tu balance?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Balance general"]
-    C --> A2["Liquidez"]
-    C --> A3["Endeudamiento"]
-    C --> A4["Calidad del activo"]
-    A1 & A2 & A3 & A4 --> D{{"evaluar la posición financiera<br/>real detrás de las cifras del<br/>balance"}}
-    D --> E["Entregable<br/>análisis de balance con<br/>liquidez, endeudamiento y<br/>ajustes de calidad de activos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Leer un balance significa preguntar si los activos son reales y cobrables, si las obligaciones están completas y si el patrimonio refleja algo.
+
+![Esquema: ¿Qué dice realmente tu balance?](modelo-mental.svg)
+
+**Lectura guiada:** Ubica tu empresa por liquidez y endeudamiento. Pero antes, verifica que las cifras sean reales: cuentas por cobrar antiguas sin provisión y activos sin uso inflan una posición que no existe.
+
+**Una analogía:** Es un chequeo médico: no basta con mirar el peso en la balanza, importa si los análisis muestran que el cuerpo funciona.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Leer un balance significa preguntar tres cosas: si los activos son reales y cobr
 
 ### 2. Cómo se traduce en la práctica
 
-Las distorsiones más comunes son cuentas por cobrar antiguas sin provisión y activos totalmente depreciados que siguen en libros. Ambas inflan el patrimonio contable y hacen que la empresa se vea mejor de lo que está, justo cuando se necesita evaluar si conviene endeudarse.
+Antes de usar un balance, haz tres revisiones: ¿los activos existen y se pueden cobrar o vender?, ¿están todas las obligaciones, incluidas las provisiones y las deudas tributarias y laborales? y ¿el patrimonio refleja capital aportado y utilidades, o ajustes dudosos? Calcula liquidez y endeudamiento y compáralos con los de tu sector antes de pedir crédito o invertir.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Las distorsiones más comunes son cuentas por cobrar antiguas sin provisión y a
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: un dueño ve un balance con un patrimonio positivo de 60 millones y cree que su posición es sólida. La corrección: revisar los activos. Descubre 40 millones en cuentas por cobrar de más de un año, sin provisión, y un equipo sin uso valorizado en 15 millones. Con esos ajustes, el patrimonio real se acerca a 5 millones y el banco lo habría visto antes que él (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight enseñan a leer el balance, evaluar su liquidez y endeudamiento y detectar activos y pasivos mal reflejados.
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica ofrece una vista externa de la empresa que sirve de contraste con el balance interno.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para evaluar la posición financiera real detrás de las cifras del balance.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para evaluar la posición financiera real detrás de las cifras del balance.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

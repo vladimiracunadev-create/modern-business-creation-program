@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Firma electrónica avanzada** | Firma con certificado que da valor jurídico equivalente a la manuscrita. |
 | **Anotación** | Registro de actos posteriores sobre la sociedad constituida. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Constituir una sociedad en línea, paso a paso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Tu Empresa en un Día"]
-    C --> A2["Formulario tipo"]
-    C --> A3["Firma electrónica avanzada"]
-    C --> A4["Anotación"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar o simular la<br/>constitución completa y<br/>obtener el estatuto<br/>actualizado"}}
-    D --> E["Entregable<br/>expediente de constitución<br/>simulada con formulario<br/>completo y checklist de firmas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El flujo completo es elegir el tipo societario, completar el formulario, firmar con firma electrónica avanzada o ante notario y obtener el certificado de estatuto actualizado.
+
+![Esquema: Constituir una sociedad en línea, paso a paso](modelo-mental.svg)
+
+**Cómo leerlo:** Cada casilla es un paso obligatorio. Si uno de los constituyentes no puede firmar de la forma exigida, el trámite se detiene; por eso conviene resolver la firma antes de empezar.
+
+**Una analogía:** Es armar un mueble de caja plana: si sigues el orden, queda firme en una tarde; si te saltas un paso, pierdes horas desarmando.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El flujo completo es: elegir tipo societario, completar el formulario, firmar to
 
 ### 2. Cómo se traduce en la práctica
 
-El paso que más detiene el trámite no es el formulario sino la firma: todos los constituyentes deben tener firma electrónica avanzada o comparecer ante notario. Conseguir el certificado toma días, de modo que la gestión debe iniciarse antes de abrir la plataforma y no cuando ya está todo completado.
+Prepara antes de iniciar: datos personales de todos los constituyentes, nombre elegido y verificado, objeto social, capital y forma de pago, domicilio y administración. Cuando termine el trámite, descarga el certificado de estatuto actualizado y archívalo. Ese certificado prueba la existencia y las reglas de la sociedad ante terceros y es la base del expediente societario.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El paso que más detiene el trámite no es el formulario sino la firma: todos lo
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Simula el trámite con una SpA ficticia de dos socios. Escribe, en una hoja, el tipo societario elegido y por qué, el nombre y objeto que usarías, el capital y la forma de entero y los datos de cada constituyente. Verifica que ambos tengan firma electrónica avanzada o que puedan ir a una notaría. Anota qué documento obtendrás al final y a quién lo entregarías primero. Si no puedes llenar un campo, descubriste una decisión pendiente.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades describe el flujo completo de constitución en línea y los documentos que entrega al término, entre ellos el certificado de estatuto actualizado.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.799 sobre documentos y firma electrónica regula la validez de la firma que permite completar el trámite en línea.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Describe el régimen simplificado de la Ley 20.659: qué tipos societarios admite el formulario electrónico, quiénes deben firmar, qué documentos entrega el sistema y cómo se hacen después las modificaciones.
 - *Cómo leerla:* Entra por el tipo societario que ya elegiste, no al revés. La ficha dice qué campos pide el formulario; si tu estatuto necesita una cláusula que el formulario no soporta, la respuesta es la ruta notarial.
 - *Uso en esta clase:* aporta el marco de «Constitución de empresas» para ejecutar o simular la constitución completa y obtener el estatuto actualizado.
+
+**Biblioteca del Congreso Nacional · LeyChile — Normativa oficial consolidada**  
+<https://www.bcn.cl/leychile/> · verificado 2026-11-05
+
+- *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
+- *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
+- *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para ejecutar o simular la constitución completa y obtener el estatuto actualizado.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

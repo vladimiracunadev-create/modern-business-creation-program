@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Facturación en moneda extranjera** | Implicancias cambiarias y contables. |
 | **Talento y competencia global** | Presión salarial por competencia internacional. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que sostiene una exportación de servicios de software
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Exportación de servicios<br/>de software"]
-    C --> A2["Calificación de<br/>exportación"]
-    C --> A3["Facturación en moneda<br/>extranjera"]
-    C --> A4["Talento y competencia<br/>global"]
-    A1 & A2 & A3 & A4 --> D{{"definir el modelo de<br/>exportación y la estrategia de<br/>retención de talento"}}
-    D --> E["Entregable<br/>modelo de exportación de<br/>servicios con calificación<br/>tributaria, tratamiento de FX<br/>y estrategia de retención"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Exportar servicios de software desde Chile aprovecha la diferencia de costos y un huso horario compatible con América; el desafío estructural es retener talento que puede ser contratado directamente por empresas del exterior.
+
+![Esquema: Lo que sostiene una exportación de servicios de software](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa sostiene a la anterior. Las tres primeras ordenan el negocio; la última es la que decide si el equipo se queda. Sin talento, no hay servicio que exportar.
+
+**Una analogía:** Es una selección de fútbol que exporta jugadores: si los mejores se van a otra liga sin razones para quedarse, el equipo pierde su fuerza.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Exportar servicios de software desde Chile aprovecha diferencia de costos y zona
 
 ### 2. Cómo se traduce en la práctica
 
-El arbitraje salarial que sostenía este modelo se está cerrando: el talento chileno puede ser contratado directamente desde el exterior. Construir sobre esa diferencia sin una propuesta de retención propia es apostar a que una tendencia se detenga sola.
+Define el modelo: servicio por proyecto, equipo dedicado o producto. Redacta contratos con alcance, propiedad intelectual y pagos. Verifica con tu contador si el servicio califica como exportación y qué documentos exige. Diseña una estrategia de retención: compensación competitiva, desarrollo profesional y cultura. Gestiona el riesgo cambiario con calce natural.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El arbitraje salarial que sostenía este modelo se está cerrando: el talento ch
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una consultora exporta desarrollo a un cliente de Estados Unidos con un contrato genérico, factura en pesos y pierde dos programadores que reciben ofertas directas del cliente. Después: ajusta el contrato con propiedad intelectual y no captación, factura en moneda extranjera y obtiene la calificación necesaria, e incorpora bonos por permanencia y un plan de carrera. Retiene al equipo y aumenta el margen (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Exportación de servicios** (ProChile): ProChile publica la guía de exportación de servicios con requisitos y apoyos para empresas de software.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa el tratamiento tributario de las exportaciones de servicios y la documentación de respaldo de la exención del IVA.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cotización adicional** | Tasa variable según siniestralidad de la empresa. |
 | **Denuncia de accidente** | Obligación de reportar el accidente en plazo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las primeras horas tras un accidente grave
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley 16.744"]
-    C --> A2["Organismo administrador"]
-    C --> A3["Cotización adicional"]
-    C --> A4["Denuncia de accidente"]
-    A1 & A2 & A3 & A4 --> D{{"asegurar afiliación,<br/>prevención y procedimiento de<br/>denuncia de accidentes"}}
-    D --> E["Entregable<br/>procedimiento de accidentes<br/>con denuncia, investigación y<br/>registro de siniestralidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La afiliación al seguro es obligatoria y la cotización adicional depende de la siniestralidad, lo que convierte la prevención en un ahorro directo; no denunciar un accidente en plazo genera multas.
+
+![Esquema: Las primeras horas tras un accidente grave](modelo-mental.svg)
+
+**Qué mirar primero:** La línea muestra el orden de acciones tras un accidente grave o fatal. Cada hito es obligatorio, y la reanudación de la faena depende de la fiscalización.
+
+**Para recordarlo:** Es el procedimiento de una ambulancia: primero se atiende, luego se avisa y recién después se averigua cómo ocurrió.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La afiliación al seguro es obligatoria y la cotización adicional depende de la
 
 ### 2. Cómo se traduce en la práctica
 
-La tasa varía según siniestralidad, de modo que la gestión preventiva tiene retorno medible. No denunciar accidentes menores en plazo genera multas, complica la cobertura del trabajador y deja a la empresa sin trazabilidad para analizar causas y evitar la repetición.
+Verifica que todos tus trabajadores estén afiliados a un organismo administrador. Define un protocolo de accidentes graves y fatales: socorro, suspensión de faenas, aviso inmediato a la Inspección del Trabajo y a la SEREMI de Salud y denuncia al organismo. Capacita a los supervisores. Usa la siniestralidad como indicador: menos accidentes bajan la cotización adicional.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ La tasa varía según siniestralidad, de modo que la gestión preventiva tiene r
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un trabajador de una bodega sufre una caída grave a las 10:00. A las 10:05 se le presta socorro; a las 10:15 se suspende la faena y se avisa a la Inspección y a la SEREMI; a las 11:00 se denuncia al organismo administrador. La multa por no informar de inmediato un accidente grave va de 50 a 150 UTM (según la ley). La empresa reanuda solo tras corregir las deficiencias que detectó la fiscalización (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 16.744 — Seguro social contra riesgos de accidentes del trabajo y enfermedades profesionales** (Biblioteca del Congreso Nacional): El artículo 76 de la Ley 16.744 obliga a denunciar los accidentes, a informar de inmediato los fatales y graves a la Inspección del Trabajo y a la SEREMI de Salud y a suspender las faenas, con multa de 50 a 150 UTM.
+- **Seguridad y salud en el trabajo · Ley 16.744** (Superintendencia de Seguridad Social): La Superintendencia de Seguridad Social imparte las instrucciones sobre cómo cumplir las obligaciones de denuncia y supervigila a los organismos administradores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: accidente grave: primero la persona, después la comunicación
 
@@ -190,6 +195,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Su artículo 76 obliga a denunciar los accidentes al organismo administrador, a informar de inmediato los fatales y graves a la Inspección del Trabajo y a la SEREMI de Salud y a suspender las faenas afectadas, con multa por incumplimiento.
 - *Cómo leerla:* Úsala para ordenar las primeras horas de un accidente grave: primero la persona, después los avisos exigidos y la comunicación. Las instrucciones de forma las imparte la Superintendencia de Seguridad Social.
 - *Uso en esta clase:* aporta el marco de «Ley 16.744 — Seguro social contra riesgos de accidentes del trabajo y enfermedades profesionales» para asegurar afiliación, prevención y procedimiento de denuncia de accidentes.
+
+**Superintendencia de Seguridad Social — Seguridad y salud en el trabajo · Ley 16.744**  
+<https://www.suseso.cl/> · verificado 2026-11-05
+
+- *Qué contiene:* Regula y fiscaliza el seguro de la Ley 16.744: obligaciones preventivas del empleador, cotización adicional por siniestralidad, calificación de accidentes y prestaciones.
+- *Cómo leerla:* Busca el compendio de normas del seguro cuando necesites saber qué debe documentar tu empresa. La cotización adicional es la traducción económica de tu gestión preventiva: ahí se ve si la matriz de riesgos sirve o es papel.
+- *Uso en esta clase:* aporta el marco de «Seguridad y salud en el trabajo · Ley 16.744» para asegurar afiliación, prevención y procedimiento de denuncia de accidentes.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

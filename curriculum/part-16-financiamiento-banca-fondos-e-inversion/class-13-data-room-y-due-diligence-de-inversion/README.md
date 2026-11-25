@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Procedencia del rendimiento** | Actividad y flujo verificables que explican cómo se genera el retorno. |
 | **Confirmación externa** | Evidencia obtenida directamente de regulador, banco, custodio, auditor o contraparte. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué se verifica antes de invertir, con evidencia independiente
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Data room"]
-    C --> A2["Due diligence"]
-    C --> A3["Procedencia del<br/>rendimiento"]
-    C --> A4["Confirmación externa"]
-    A1 & A2 & A3 & A4 --> D{{"abrir o continuar una<br/>inversión solo después de<br/>verificar producto, entidad,<br/>fondos, rendimiento, terceros,<br/>compliance y gobierno con<br/>evidencia independiente"}}
-    D --> E["Entregable<br/>data room con índice y matriz<br/>de debida diligencia que<br/>vincule cada afirmación<br/>crítica con evidencia<br/>independiente, hallazgo,<br/>condición y decisión"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La debida diligencia no se satisface con presentaciones, cifras emitidas por el propio gestor ni crecimiento puntual: exige verificar producto, entidad, fondos, rendimiento, terceros, cumplimiento y gobierno con evidencia independiente.
+
+![Esquema: Qué se verifica antes de invertir, con evidencia independiente](modelo-mental.svg)
+
+**Qué mirar primero:** Cada satélite es una dimensión que verificar. La evidencia debe provenir de fuentes independientes: una cifra que solo informa quien se beneficia de ella no es una prueba.
+
+**Una imagen cotidiana:** Es revisar un auto usado con un mecánico de confianza y no solo con el folleto del vendedor: se mira el motor, los papeles, el historial y se desconfía del precio demasiado bueno.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La debida diligencia no se satisface con presentaciones, cifras emitidas por el 
 
 ### 2. Cómo se traduce en la práctica
 
-OneCoin, Madoff y AC Inversions aportan preguntas complementarias: ¿existe y funciona el producto?, ¿los activos y operaciones se confirman fuera del gestor?, ¿la captación y las cuentas receptoras corresponden a una entidad habilitada?, ¿la fuente del rendimiento se reproduce con evidencia? Los pagos anteriores, la reputación o una presentación sofisticada no sustituyen esas respuestas.
+Arma un índice de data room y una lista de verificación por dimensión. Exige confirmación externa de fondos, informes de terceros y acceso a la infraestructura. Desconfía de rendimientos sin explicación, de custodios internos y de presiones para decidir rápido. Revisa los registros y las alertas de la CMF. Abre o continúa una inversión solo después de comprobar con evidencia independiente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,18 @@ OneCoin, Madoff y AC Inversions aportan preguntas complementarias: ¿existe y fu
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una persona invierte en una plataforma que promete rendimientos altos y estables porque ve una presentación impecable y estados mostrados por el propio gestor. La corrección: pedir confirmación externa de los fondos, verificar el producto, comprobar quién custodia los activos, revisar si la entidad está supervisada y consultar alertas de los reguladores. Los casos de OneCoin, Madoff y AC Inversions muestran lo que ocurre cuando falta esa verificación (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **OneCoin: sentencia del cofundador Karl Sebastian Greenwood** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la sentencia del cofundador de OneCoin, caso en que se vendió un producto que no existía como se presentaba.
+- **Reformas posteriores a Madoff sobre custodia y verificación independiente** (U.S. Securities and Exchange Commission): La SEC describe reformas posteriores al caso Madoff sobre custodia y verificación independiente de activos de clientes.
+- **Alertas sobre entidades y plataformas de inversión no supervisadas** (Comisión para el Mercado Financiero): La CMF publica alertas sobre entidades y plataformas de inversión no supervisadas, fuente que debe consultarse antes de invertir.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 

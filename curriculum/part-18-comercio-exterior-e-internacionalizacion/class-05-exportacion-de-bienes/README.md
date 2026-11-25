@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **IVA exportador** | Mecanismo de recuperación del iva soportado. |
 | **Certificado de origen** | Documento que acredita origen para acuerdos comerciales. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El flujo documental de una exportación de bienes
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Exportación"]
-    C --> A2["DUS"]
-    C --> A3["IVA exportador"]
-    C --> A4["Certificado de origen"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar el flujo documental<br/>de exportación asegurando la<br/>recuperación del IVA"}}
-    D --> E["Entregable<br/>flujo de exportación<br/>documentado con DUS,<br/>certificado de origen y<br/>solicitud de IVA exportador"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La exportación de bienes permite recuperar el IVA soportado en las compras asociadas, lo que cambia materialmente el margen, pero ese beneficio exige documentación completa y correcta.
+
+![Esquema: El flujo documental de una exportación de bienes](modelo-mental.svg)
+
+**Cómo leerlo:** Cada casilla genera un documento que respalda el siguiente. Si hay una discrepancia entre ellos, la recuperación del IVA puede retrasarse o rechazarse.
+
+**Una imagen cotidiana:** Es armar un expediente de postulación: cada papel debe coincidir con los demás; si un dato no calza, el trámite se detiene.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La exportación de bienes permite recuperar el IVA soportado en las compras asoc
 
 ### 2. Cómo se traduce en la práctica
 
-El beneficio exige documentación completa y correcta: sin ella la recuperación se retrasa o se pierde, afectando directamente la caja. El certificado de origen, por su parte, es lo que permite al comprador aprovechar el acuerdo comercial: omitirlo le hace pagar arancel evitable y encarece tu oferta.
+Define el procedimiento documental de tu exportación y quién es responsable de cada paso. Revisa la coherencia entre contrato, DUS, factura, embarque y certificados antes de enviar. Registra los plazos del retorno de divisas y la solicitud de devolución del IVA. Considera el apoyo de un agente de aduana y de tu contador.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ El beneficio exige documentación completa y correcta: sin ella la recuperación
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Exportadora: «Ya embarcamos, ¿cuándo recuperamos el IVA?». Contadora: «Cuando el DUS, la factura de exportación y el conocimiento de embarque digan lo mismo». Exportadora: «Pero la factura trae un peso distinto». Contadora: «Eso es una discrepancia; hay que corregirla antes de solicitar la devolución, o el SII puede cuestionarla». Exportadora: «Entonces revisemos todos los documentos antes de embarcar la próxima vez» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Importación, exportación y clasificación arancelaria** (Servicio Nacional de Aduanas): El Servicio Nacional de Aduanas regula la declaración de salida y la documentación de las exportaciones.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa el tratamiento tributario de las exportaciones y los requisitos para recuperar el IVA asociado.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

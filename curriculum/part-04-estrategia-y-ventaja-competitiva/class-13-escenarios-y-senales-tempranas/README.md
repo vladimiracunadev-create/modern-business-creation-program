@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Plan de contingencia** | Respuesta preparada para un escenario específico. |
 | **Punto de no retorno** | Momento a partir del cual la respuesta ya no es efectiva. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dos incertidumbres críticas, cuatro futuros posibles
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Escenario"]
-    C --> A2["Señal temprana"]
-    C --> A3["Plan de contingencia"]
-    C --> A4["Punto de no retorno"]
-    A1 & A2 & A3 & A4 --> D{{"definir escenarios relevantes,<br/>sus señales y la respuesta<br/>preparada"}}
-    D --> E["Entregable<br/>tres escenarios con señales<br/>tempranas, responsable de<br/>vigilancia y respuesta<br/>preparada"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los escenarios no predicen: preparan. Su valor está en definir señales tempranas observables y la respuesta asociada, para reaccionar al primer indicio.
+
+![Esquema: Dos incertidumbres críticas, cuatro futuros posibles](modelo-mental.svg)
+
+**Qué mirar primero:** Cada cuadrante es un futuro posible según cómo se resuelvan dos incertidumbres. Para cada uno anota la señal que avisaría de su llegada y la acción que ya tendrías preparada.
+
+**Una imagen cotidiana:** Es preparar el equipaje para un viaje con clima incierto: no sabes qué día lloverá, pero llevas ropa para los cuatro casos más probables.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los escenarios no predicen: preparan. Su valor está en definir señales tempran
 
 ### 2. Cómo se traduce en la práctica
 
-Los escenarios no predicen: preparan. Un escenario sin señal y sin responsable de vigilancia es un ejercicio de ansiedad; con ambos, la empresa reacciona al primer indicio en lugar de cuando el escenario ya se consumó. La parte 21 convierte estos escenarios en planes de contingencia ejecutables.
+Elige dos incertidumbres que tengan alto impacto en tu negocio y sean realmente inciertas. Construye los cuatro escenarios y dales nombre. Para cada uno, define dos señales tempranas observables, un punto de no retorno y una respuesta preparada. Revisa las señales cada trimestre y registra cuáles ya se cumplieron.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Los escenarios no predicen: preparan. Un escenario sin señal y sin responsable 
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de educación en línea planifica solo para un futuro, de crecimiento rápido y regulación laxa; cuando una norma exige acreditar contenidos, se queda sin plan. Después: define cuatro escenarios, escribe señales (borradores de normas, cifras de adopción) y respuestas preparadas, como reservar un presupuesto de cumplimiento y un plan de contratación por tramos. Al aparecer el primer borrador, ya sabe qué hacer (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Fifth Discipline** (Doubleday): Senge trata el pensamiento sistémico y los modelos mentales y menciona la planificación por escenarios como forma de cuestionar supuestos de la organización.
+- **The Black Swan** (Random House): Taleb advierte que los eventos de gran impacto son difíciles de predecir, razón por la cual conviene prepararse para varios futuros y no para uno.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir escenarios relevantes, sus señales y la respuesta preparada.
+
+**Doubleday — The Fifth Discipline**  
+<https://openlibrary.org/isbn/9780385517829> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta las organizaciones que aprenden: pensamiento sistémico, modelos mentales y visión compartida. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Fifth Discipline» para definir escenarios relevantes, sus señales y la respuesta preparada.
+
+**Random House — The Black Swan**  
+<https://openlibrary.org/isbn/9780812979183> · verificado 2026-11-25
+
+- *Qué contiene:* Examina el impacto de los eventos improbables y los límites de la predicción. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Black Swan» para definir escenarios relevantes, sus señales y la respuesta preparada.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Salida ineludible** | Pago que no admite postergación: remuneraciones, impuestos, arriendo. |
 | **Rolling forecast** | Actualización semanal que desplaza el horizonte. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las 13 semanas: de lo comprometido a lo estimado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Flujo de 13 semanas"]
-    C --> A2["Entrada comprometida"]
-    C --> A3["Salida ineludible"]
-    C --> A4["Rolling forecast"]
-    A1 & A2 & A3 & A4 --> D{{"instalar el flujo de 13<br/>semanas como rutina semanal de<br/>gestión"}}
-    D --> E["Entregable<br/>flujo de caja de 13 semanas<br/>con entradas comprometidas<br/>separadas de probables"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El flujo de 13 semanas es la herramienta de supervivencia: horizonte suficiente para reaccionar y detalle suficiente para ser accionable, actualizado cada semana.
+
+![Esquema: Las 13 semanas: de lo comprometido a lo estimado](modelo-mental.svg)
+
+**Cómo leerlo:** La línea muestra el horizonte. Las primeras semanas son casi ciertas; las últimas, estimaciones. El hito final es la rutina: cada semana se corre el horizonte y se comparan los supuestos con la realidad.
+
+**Para recordarlo:** Es un pronóstico del tiempo: confías más en el de mañana que en el de la próxima semana, pero lo actualizas todos los días.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El flujo de 13 semanas es la herramienta de supervivencia: horizonte suficiente 
 
 ### 2. Cómo se traduce en la práctica
 
-Su valor depende de dos disciplinas: separar entradas comprometidas de probables, y actualizar con lo efectivamente ocurrido en vez de con lo que se esperaba. Proyectar cobros por fecha de factura y no por comportamiento real del cliente produce un flujo optimista que nadie usa después de dos semanas.
+Instala el flujo como rutina semanal: un responsable lo actualiza los lunes con los datos reales de la semana anterior y compara con lo proyectado. Registra las diferencias y ajusta los supuestos. Separa siempre lo comprometido de lo probable y revisa las semanas críticas con anticipación para negociar plazos antes de quedarte sin caja.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Su valor depende de dos disciplinas: separar entradas comprometidas de probables
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Arma el flujo de tus próximas 13 semanas. Escribe en filas las entradas (cobros comprometidos, ventas probables) y las salidas ineludibles (sueldos, impuestos, arriendos, proveedores). Marca con colores lo comprometido y lo probable. Calcula la caja al final de cada semana. Si en alguna semana el saldo es menor que tu caja mínima, escribe dos acciones para evitarlo. Las cifras del ejercicio son ilustrativas: usa las de tu empresa.
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican la lectura del flujo de efectivo y su proyección como herramienta de gestión de la caja.
+- **Simple Numbers, Straight Talk, Big Profits!** (Greg Crabtree): Crabtree propone controlar la caja y los indicadores simples de la empresa con revisiones frecuentes y disciplinadas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para instalar el flujo de 13 semanas como rutina semanal de gestión.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para instalar el flujo de 13 semanas como rutina semanal de gestión.
+
+**Greg Crabtree — Simple Numbers, Straight Talk, Big Profits!**  
+<https://openlibrary.org/isbn/9780989645232> · verificado 2026-11-25
+
+- *Qué contiene:* Propone indicadores simples para pequeñas empresas, como el costo laboral sobre el margen bruto. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Simple Numbers, Straight Talk, Big Profits!» para instalar el flujo de 13 semanas como rutina semanal de gestión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

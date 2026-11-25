@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Calendario tributario** | Fechas periódicas de cumplimiento. |
 | **Provisión de impuestos** | Reserva de caja para obligaciones tributarias. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El calendario tributario del caso, mes a mes y año a año
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Inicio de actividades del<br/>caso"]
-    C --> A2["Régimen tributario"]
-    C --> A3["Calendario tributario"]
-    C --> A4["Provisión de impuestos"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar el inicio SII, el<br/>régimen y el calendario<br/>tributario del caso"}}
-    D --> E["Entregable<br/>diseño tributario del caso con<br/>códigos, simulación de<br/>regímenes y calendario de<br/>obligaciones"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Esta etapa define el diseño tributario del caso: códigos de actividad, régimen elegido con simulación comparada y calendario de obligaciones mensuales y anuales; la provisión de impuestos protege la caja.
+
+![Esquema: El calendario tributario del caso, mes a mes y año a año](modelo-mental.svg)
+
+**Qué mirar primero:** La línea ordena las obligaciones del caso. Lo mensual es un ritmo; lo anual, un cierre. Cada punto tiene un responsable y una fecha, y la provisión liga lo tributario con lo financiero.
+
+**Una analogía:** Es el calendario de pagos de una casa: cuentas básicas, cuotas y el impuesto anual, todo anotado para no depender de la memoria.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Esta etapa define el diseño tributario del caso: códigos de actividad, régime
 
 ### 2. Cómo se traduce en la práctica
 
-La elección de régimen debe respaldarse con la simulación que incluye impuestos finales de los socios, no con una preferencia. Y la provisión de impuestos debe estar incorporada al flujo de caja: tratarla como un gasto que llegará después es la falla que el capstone busca detectar.
+Define los códigos de actividad, el régimen con una simulación comparada documentada y el domicilio acreditado. Construye el calendario de obligaciones mensuales y anuales con responsables. Establece la provisión de impuestos en el flujo de caja. Verifica las tasas y requisitos vigentes en el SII, porque pueden cambiar. Anota todo en el expediente con fecha y fuente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La elección de régimen debe respaldarse con la simulación que incluye impuest
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: el caso define su inicio de actividades y régimen sin simulación, y después descubre que su IVA mensual absorbe una parte importante de su caja. Después: elige códigos y giros correctos, simula el régimen con tres escenarios de ingresos, crea un calendario con fechas internas anteriores al vencimiento y provisiona el IVA y el PPM semanalmente en una cuenta separada (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa el inicio de actividades, la emisión de documentos y las obligaciones de los nuevos contribuyentes.
+- **Regímenes tributarios · Operación Renta 2026** (Servicio de Impuestos Internos): El SII publica el comparativo de regímenes y la Operación Renta, base de la simulación del régimen del caso.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

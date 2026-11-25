@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Operación Renta** | Proceso anual de declaración y fiscalización. |
 | **Observación** | Inconsistencia detectada por el sii que debe resolverse. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los pasos para llegar sin sustos a la Operación Renta
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Formulario 22"]
-    C --> A2["Declaración jurada"]
-    C --> A3["Operación Renta"]
-    C --> A4["Observación"]
-    A1 & A2 & A3 & A4 --> D{{"preparar el cierre anual y las<br/>declaraciones juradas antes<br/>del período de Operación Renta"}}
-    D --> E["Entregable<br/>calendario de Operación Renta<br/>con declaraciones juradas<br/>aplicables y responsable"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Operación Renta es donde se paga el costo de un año contable desordenado: las declaraciones juradas deben presentarse antes del F22 y sus inconsistencias retienen devoluciones.
+
+![Esquema: Los pasos para llegar sin sustos a la Operación Renta](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño depende del anterior. Saltarse el cierre o las declaraciones juradas hace que el F22 se construya sobre datos incompletos.
+
+**Piénsalo así:** Es entregar la tarea al final del semestre: si fuiste anotando durante el año, es una tarde; si no, es una semana de angustia.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Operación Renta es donde se paga el costo de un año contable desordenado. L
 
 ### 2. Cómo se traduce en la práctica
 
-Las declaraciones juradas se presentan antes del F22 y sus inconsistencias generan observaciones que retienen devoluciones. Preparar la información durante el proceso, y no antes, convierte un trámite en una emergencia anual con costo de asesoría adicional.
+Programa el cierre contable anual al menos dos meses antes de la Operación Renta. Reúne la información de las declaraciones juradas, concilia cuentas y revisa que los datos coincidan con el Registro de Compras y Ventas. Presenta las declaraciones juradas antes del F22 y revisa las observaciones del SII el mismo día que lleguen. Las novedades legales pueden cambiar tasas y formularios cada año.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Las declaraciones juradas se presentan antes del F22 y sus inconsistencias gener
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa presenta su F22 en el último día con las declaraciones juradas pendientes y un cierre que no cuadra con los registros del año. El SII observa la declaración y retiene la devolución de impuestos por tres meses. La corrección: cerrar la contabilidad en enero, presentar las declaraciones juradas en su plazo y cuadrar el F22 con ellas antes de enviarlo (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Formulario 22 y Operación Renta** (Servicio de Impuestos Internos): El SII describe el Formulario 22 y la Operación Renta, con los plazos y requisitos de las declaraciones y su tramitación.
+- **Regímenes tributarios · Operación Renta 2026** (Servicio de Impuestos Internos): El SII publica el comparativo de regímenes y las instrucciones de la Operación Renta vigente.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

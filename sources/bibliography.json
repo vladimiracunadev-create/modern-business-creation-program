@@ -44,7 +44,8 @@
       "accessed": "2026-11-05",
       "used_in": [
         "curriculum/part-02-descubrimiento-validacion-y-mercado/class-02-investigacion-secundaria-con-fuentes-confiables",
-        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-06-tamano-de-mercado-tam-sam-som"
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-06-tamano-de-mercado-tam-sam-som",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-02-analisis-pestel"
       ],
       "status": "verificada",
       "que_contiene": "Publica las series oficiales de tipo de cambio, UF, UTM, tasas de interés, cuentas nacionales y balanza de pagos, además de la normativa cambiaria aplicable a operaciones con el exterior.",
@@ -130,6 +131,7 @@
         "curriculum/part-05-diseno-societario-y-gobierno-inicial/class-13-juntas-actas-libros-y-trazabilidad-de-decisiones",
         "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile",
         "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-01-ruta-tradicional-versus-registro-de-empresas-y-sociedades",
+        "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-02-tu-empresa-en-un-dia-flujo-completo",
         "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-06-acciones-series-y-derechos-en-una-spa",
         "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-07-administradores-y-representantes",
         "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-08-firma-electronica-avanzada-y-firma-notarial",
@@ -139,6 +141,7 @@
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-01-arquitectura-tributaria-chilena-para-empresas",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-05-seleccion-de-regimen-tributario",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-07-pro-pyme-transparente",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-08-regimen-general-semi-integrado-y-otros-regimenes",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-09-iva-debito-credito-y-hechos-gravados",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-11-registro-de-compras-y-ventas",
@@ -404,6 +407,7 @@
       "authority": "ChileCompra",
       "accessed": "2026-11-05",
       "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-12-tipos-de-mercado-b2c-b2b-b2g-c2c-y-plataformas",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-09-anticorrupcion-regalos-y-conflictos"
       ],
       "status": "verificada",
@@ -565,6 +569,7 @@
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-12-ley-16-744-y-seguro-de-accidentes",
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-13-decreto-44-y-gestion-preventiva-de-riesgos",
         "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-14-termino-de-contrato-y-documentacion-de-salida",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-03-compras-y-homologacion-de-proveedores",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-06-canal-de-denuncias-e-investigaciones",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-05-hiring-plan-y-workforce-planning",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-10-adquisicion-de-competidores-o-capacidades",
@@ -956,6 +961,7 @@
         "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-13-modelos-freemium-usage-based-y-outcome-based",
         "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-14-portafolio-de-lineas-de-negocio-y-concentracion-de-riesgo",
         "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-08-limitacion-de-responsabilidad-y-garantias",
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-09-terminacion-renovacion-y-penalidades",
         "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital",
         "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-01-ley-del-consumidor-aplicada-al-negocio",
         "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-02-reglamento-de-comercio-electronico",
@@ -1257,6 +1263,7 @@
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-09-iva-debito-credito-y-hechos-gravados",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-11-registro-de-compras-y-ventas",
         "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-12-formulario-29-ppm-y-ciclo-mensual",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-04-ordenes-de-compra-y-recepcion",
         "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-06-disenar-inicio-sii-regimen-y-calendario-tributario"
       ],
       "status": "verificada",
@@ -1438,7 +1445,10 @@
       "locator": "https://www.suseso.cl/",
       "authority": "Superintendencia de Seguridad Social",
       "accessed": "2026-11-05",
-      "used_in": [],
+      "used_in": [
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-12-ley-16-744-y-seguro-de-accidentes",
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-13-decreto-44-y-gestion-preventiva-de-riesgos"
+      ],
       "status": "verificada",
       "que_contiene": "Regula y fiscaliza el seguro de la Ley 16.744: obligaciones preventivas del empleador, cotización adicional por siniestralidad, calificación de accidentes y prestaciones.",
       "como_leerla": "Busca el compendio de normas del seguro cuando necesites saber qué debe documentar tu empresa. La cotización adicional es la traducción económica de tu gestión preventiva: ahí se ve si la matriz de riesgos sirve o es papel.",
@@ -1834,8 +1844,10 @@
       "authority": "Biblioteca del Congreso Nacional",
       "accessed": "2026-11-12",
       "used_in": [
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-08-licencias-royalties-y-propiedad-intelectual",
         "curriculum/part-04-estrategia-y-ventaja-competitiva/class-07-switching-costs-marca-datos-y-propiedad-intelectual",
         "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-05-nda-y-confidencialidad",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-10-registro-de-marca-en-inapi",
         "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-11-patentes-disenos-y-secretos-empresariales",
         "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-13-data-room-y-due-diligence-de-inversion",
         "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-09-alianzas-estrategicas-y-joint-ventures"
@@ -1881,7 +1893,8 @@
       "authority": "Biblioteca del Congreso Nacional",
       "accessed": "2026-11-12",
       "used_in": [
-        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-04-ley-21-595-de-delitos-economicos"
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-04-ley-21-595-de-delitos-economicos",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-05-modelo-de-prevencion-de-delitos"
       ],
       "status": "verificada",
       "que_contiene": "Clasifica los delitos económicos en categorías y fija reglas de determinación de penas. Su artículo 2 incluye entre los de segunda categoría los artículos 284, 284 bis y 284 ter del Código Penal cuando se cometen en ejercicio de un cargo en una empresa o en su beneficio.",
@@ -1903,7 +1916,8 @@
       "used_in": [
         "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-14-respuesta-a-incidentes-y-evidencia",
         "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-03-dominio-correo-identidad-y-accesos",
-        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-06-ciberseguridad-por-capas-para-pyme"
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-06-ciberseguridad-por-capas-para-pyme",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-07-gestion-de-secretos-y-privilegios"
       ],
       "status": "verificada",
       "que_contiene": "Tipifica el ataque a la integridad de un sistema, el acceso ilícito, la interceptación ilícita, el ataque a datos, la falsificación y el fraude informáticos, la receptación de datos y las circunstancias agravantes, además de reglas de investigación.",
@@ -2089,6 +2103,14 @@
       "authority": "Biblioteca del Congreso Nacional",
       "accessed": "2026-11-25",
       "used_in": [
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-10-manufactura-y-venta-de-productos",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-12-publicidad-afiliacion-y-contenido",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-01-ley-del-consumidor-aplicada-al-negocio",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-02-reglamento-de-comercio-electronico",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-03-informacion-de-precio-stock-despacho-y-retracto",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-04-garantia-legal-y-postventa",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-05-terminos-y-condiciones-y-contratos-de-adhesion",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-07-logistica-directa-e-inversa",
         "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-08-gestion-de-calidad-y-no-conformidades",
         "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-02-marca-posicionamiento-y-mensaje",
         "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-05-publicidad-digital-y-atribucion",
@@ -2288,6 +2310,7 @@
       "authority": "Biblioteca del Congreso Nacional",
       "accessed": "2026-11-25",
       "used_in": [
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-13-ley-marco-de-ciberseguridad-y-ciberhigiene-empresarial",
         "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-14-respuesta-a-incidentes-y-evidencia",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-12-ciberseguridad-y-obligaciones-sectoriales"
       ],
@@ -2309,7 +2332,17 @@
       "authority": "Biblioteca del Congreso Nacional",
       "accessed": "2026-11-25",
       "used_in": [
-        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-14-respuesta-a-incidentes-y-evidencia"
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-06-privacidad-bajo-ley-19-628-vigente",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-07-preparacion-para-ley-21-719-desde-1-dic-2026",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-08-mapa-de-datos-y-bases-de-licitud",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-09-derechos-de-titulares-y-gobierno-de-datos",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-14-respuesta-a-incidentes-y-evidencia",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-04-cloud-hosting-y-continuidad",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-08-datos-maestros-y-calidad-de-datos",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-11-ia-generativa-en-operaciones",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-13-riesgo-de-proveedores-tecnologicos-y-saas",
+        "curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-06-salud-prestaciones-y-datos-sensibles",
+        "curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-01-saas-b2b-con-ia"
       ],
       "status": "verificada",
       "que_contiene": "Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.",
@@ -2329,6 +2362,7 @@
       "authority": "Biblioteca del Congreso Nacional",
       "accessed": "2026-11-25",
       "used_in": [
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-07-preparacion-para-ley-21-719-desde-1-dic-2026",
         "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-14-respuesta-a-incidentes-y-evidencia",
         "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-12-ciberseguridad-y-obligaciones-sectoriales"
       ],
@@ -2356,6 +2390,1311 @@
       "que_contiene": "Define la calumnia como la imputación de un delito determinado pero falso (art. 412) y la injuria como toda expresión en deshonra, descrédito o menosprecio (art. 416), con penas mayores cuando se propaga por escrito y con publicidad (arts. 413 y 418).",
       "como_leerla": "Úsalo para entender cuándo una publicación falsa sobre la empresa puede ser calumnia o injuria; la decisión de acudir a la vía penal la toma un abogado.",
       "nota": "Texto consolidado leído el 25-11-2026.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "moore-crossing-the-chasm",
+      "manifest_id": "MOORE_CHASM",
+      "type": "book",
+      "authors": [
+        "Geoffrey A. Moore"
+      ],
+      "title": "Crossing the Chasm (3.ª ed., 2014)",
+      "isbn13": "9780062292988",
+      "locator": "https://openlibrary.org/isbn/9780062292988",
+      "authority": "HarperBusiness",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-08-estrategia-de-nicho-y-beachhead-market",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-01-icp-y-segmentacion-comercial",
+        "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-13-prochile-y-entrada-a-mercados",
+        "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-14-filial-partner-o-venta-remota"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica cómo una empresa con tecnología o servicio nuevo pasa de los primeros adoptantes al mercado mayoritario concentrándose en un segmento acotado antes de ampliar.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "dunford-obviously-awesome",
+      "manifest_id": "DUNFORD_OA",
+      "type": "book",
+      "authors": [
+        "April Dunford"
+      ],
+      "title": "Obviously Awesome (2019)",
+      "isbn13": "9781999023003",
+      "locator": "https://openlibrary.org/isbn/9781999023003",
+      "authority": "Ambient Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-09-posicionamiento-estrategico",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-01-icp-y-segmentacion-comercial",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-02-marca-posicionamiento-y-mensaje"
+      ],
+      "status": "verificada",
+      "que_contiene": "Propone un método para definir el posicionamiento de un producto partiendo de los clientes que mejor encajan y del valor que reconocen.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "weinberg-mares-traction",
+      "manifest_id": "WEINBERG_TRACTION",
+      "type": "book",
+      "authors": [
+        "Gabriel Weinberg",
+        "Justin Mares"
+      ],
+      "title": "Traction (2015)",
+      "isbn13": "9781591848363",
+      "locator": "https://openlibrary.org/isbn/9781591848363",
+      "authority": "Portfolio",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-03-embudo-de-adquisicion",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-04-marketing-de-contenidos",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-05-publicidad-digital-y-atribucion",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-13-referidos-partners-y-canales"
+      ],
+      "status": "verificada",
+      "que_contiene": "Catálogo de canales de adquisición de clientes y un método para probarlos con experimentos pequeños y concentrar el esfuerzo en el que funciona.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "ross-tyler-predictable-revenue",
+      "manifest_id": "ROSS_PR",
+      "type": "book",
+      "authors": [
+        "Aaron Ross",
+        "Marylou Tyler"
+      ],
+      "title": "Predictable Revenue (2011)",
+      "isbn13": "9780984380213",
+      "locator": "https://openlibrary.org/isbn/9780984380213",
+      "authority": "PebbleStorm",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-06-prospeccion-b2b",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-09-crm-y-pipeline",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-14-revenue-operations-y-forecast"
+      ],
+      "status": "verificada",
+      "que_contiene": "Describe la prospección saliente como un proceso con roles especializados, listas acotadas y métricas, para volver predecible la generación de ingresos.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "rackham-spin-selling",
+      "manifest_id": "RACKHAM_SPIN",
+      "type": "book",
+      "authors": [
+        "Neil Rackham"
+      ],
+      "title": "SPIN Selling (1988)",
+      "isbn13": "9780070511132",
+      "locator": "https://openlibrary.org/isbn/9780070511132",
+      "authority": "McGraw-Hill",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-07-discovery-comercial-y-calificacion"
+      ],
+      "status": "verificada",
+      "que_contiene": "Presenta los resultados de un estudio amplio de llamadas de venta y propone una secuencia de preguntas (situación, problema, implicancia, necesidad) para ventas complejas.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "fitzpatrick-the-mom-test",
+      "manifest_id": "FITZ_MOMTEST",
+      "type": "book",
+      "authors": [
+        "Rob Fitzpatrick"
+      ],
+      "title": "The Mom Test (2014)",
+      "isbn13": "9781492180746",
+      "locator": "https://openlibrary.org/isbn/9781492180746",
+      "authority": "CreateSpace",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-03-problema-necesidad-deseo-y-trabajo-por-resolver",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-03-entrevistas-de-descubrimiento-sin-sesgos",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-07-discovery-comercial-y-calificacion",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-02-validar-problema-cliente-y-disposicion-a-pagar"
+      ],
+      "status": "verificada",
+      "que_contiene": "Enseña a conversar con clientes sobre su vida y sus problemas reales para obtener información útil y no cortesías sobre una idea.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "fisher-ury-patton-getting-to-yes",
+      "manifest_id": "FISHER_YES",
+      "type": "book",
+      "authors": [
+        "Roger Fisher",
+        "William Ury",
+        "Bruce Patton"
+      ],
+      "title": "Getting to Yes (3.ª ed., 2011)",
+      "isbn13": "9780143118756",
+      "locator": "https://openlibrary.org/isbn/9780143118756",
+      "authority": "Penguin",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-01-anatomia-de-un-contrato-comercial",
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-03-contrato-de-prestacion-de-servicios",
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-10-jurisdiccion-arbitraje-y-solucion-de-controversias",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-08-propuesta-negociacion-y-cierre",
+        "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-11-contratos-internacionales",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-07-negociacion-de-compraventa-empresarial"
+      ],
+      "status": "verificada",
+      "que_contiene": "Expone la negociación basada en intereses: separar a las personas del problema, generar opciones de beneficio mutuo y usar criterios objetivos.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "mehta-steinman-murphy-customer-success",
+      "manifest_id": "MEHTA_CS",
+      "type": "book",
+      "authors": [
+        "Nick Mehta",
+        "Dan Steinman",
+        "Lincoln Murphy"
+      ],
+      "title": "Customer Success (2016)",
+      "isbn13": "9781119167969",
+      "locator": "https://openlibrary.org/isbn/9781119167969",
+      "authority": "Wiley",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-10-onboarding-de-clientes",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-11-customer-success-y-expansion"
+      ],
+      "status": "verificada",
+      "que_contiene": "Define el éxito del cliente como disciplina de negocio recurrente: onboarding, salud de cuenta, retención y expansión.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "ries-the-lean-startup",
+      "manifest_id": "RIES_LEAN",
+      "type": "book",
+      "authors": [
+        "Eric Ries"
+      ],
+      "title": "The Lean Startup (2011)",
+      "isbn13": "9780307887894",
+      "locator": "https://openlibrary.org/isbn/9780307887894",
+      "authority": "Crown Business",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-01-formulacion-del-problema-empresarial",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-10-hipotesis-criticas-del-negocio",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-11-experimentos-de-demanda-antes-de-invertir",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-12-mvp-prototipo-y-concierge-test",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-14-decidir-perseverar-pivotar-o-abandonar",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-07-cac-ltv-y-payback",
+        "curriculum/part-14-ventas-marketing-y-experiencia-de-cliente/class-03-embudo-de-adquisicion",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-02-validar-problema-cliente-y-disposicion-a-pagar"
+      ],
+      "status": "verificada",
+      "que_contiene": "Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "osterwalder-business-model-generation",
+      "manifest_id": "OSTERWALDER_BMG",
+      "type": "book",
+      "authors": [
+        "Alexander Osterwalder",
+        "Yves Pigneur"
+      ],
+      "title": "Business Model Generation",
+      "isbn13": "9780470876411",
+      "locator": "https://openlibrary.org/isbn/9780470876411",
+      "authority": "Wiley",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-01-que-es-una-empresa-y-como-crea-valor",
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-05-producto-servicio-solucion-y-experiencia",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-01-business-model-canvas",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-02-comprar-construir-o-integrar-software",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-07-corfo-y-financiamiento-para-innovacion",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-09-alianzas-estrategicas-y-joint-ventures",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-03-disenar-modelo-de-negocio-y-estrategia"
+      ],
+      "status": "verificada",
+      "que_contiene": "Presenta el lienzo del modelo de negocio de nueve bloques y patrones para describir, diseñar y comparar modelos.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "osterwalder-value-proposition-design",
+      "manifest_id": "OSTERWALDER_VPD",
+      "type": "book",
+      "authors": [
+        "Alexander Osterwalder",
+        "Yves Pigneur",
+        "Gregory Bernarda",
+        "Alan Smith"
+      ],
+      "title": "Value Proposition Design",
+      "isbn13": "9781118968055",
+      "locator": "https://openlibrary.org/isbn/9781118968055",
+      "authority": "Wiley",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-03-problema-necesidad-deseo-y-trabajo-por-resolver",
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-04-cliente-usuario-pagador-y-beneficiario",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-04-segmentacion-y-perfil-de-cliente-ideal",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-05-jobs-to-be-done-y-resultados-esperados",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-08-mapa-de-alternativas-actuales-del-cliente",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-09-propuesta-de-valor-y-diferenciacion"
+      ],
+      "status": "verificada",
+      "que_contiene": "Método para ajustar una propuesta de valor a las tareas, los dolores y las ganancias del cliente.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "kaufman-the-personal-mba",
+      "manifest_id": "KAUFMAN_PMBA",
+      "type": "book",
+      "authors": [
+        "Josh Kaufman"
+      ],
+      "title": "The Personal MBA",
+      "isbn13": "9780670919536",
+      "locator": "https://openlibrary.org/isbn/9780670919536",
+      "authority": "Portfolio",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-01-que-es-una-empresa-y-como-crea-valor",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-01-elegir-tesis-y-linea-de-negocio"
+      ],
+      "status": "verificada",
+      "que_contiene": "Resume conceptos esenciales de gestión de empresas: valor, marketing, ventas, finanzas y sistemas. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "blank-the-startup-owner-s-manual",
+      "manifest_id": "BLANK_OWNER",
+      "type": "book",
+      "authors": [
+        "Steve Blank",
+        "Bob Dorf"
+      ],
+      "title": "The Startup Owner's Manual",
+      "isbn13": "9780984999309",
+      "locator": "https://openlibrary.org/isbn/9780984999309",
+      "authority": "K&S Ranch",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-04-cliente-usuario-pagador-y-beneficiario",
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-12-tipos-de-mercado-b2c-b2b-b2g-c2c-y-plataformas",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-01-formulacion-del-problema-empresarial",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-03-entrevistas-de-descubrimiento-sin-sesgos",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-04-segmentacion-y-perfil-de-cliente-ideal",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-08-start-up-chile-y-ecosistema-emprendedor"
+      ],
+      "status": "verificada",
+      "que_contiene": "Guía de desarrollo de clientes: validar hipótesis de negocio hablando con clientes antes de escalar.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "christensen-the-innovator-s-dilemma",
+      "manifest_id": "CHRISTENSEN_DILEMMA",
+      "type": "book",
+      "authors": [
+        "Clayton M. Christensen"
+      ],
+      "title": "The Innovator's Dilemma",
+      "isbn13": "9780066620695",
+      "locator": "https://openlibrary.org/isbn/9780066620695",
+      "authority": "Harper Business",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-05-jobs-to-be-done-y-resultados-esperados"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica por qué empresas bien gestionadas pueden perder frente a tecnologías o modelos disruptivos. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "kim-blue-ocean-strategy",
+      "manifest_id": "KIM_BLUEOCEAN",
+      "type": "book",
+      "authors": [
+        "W. Chan Kim",
+        "Renée Mauborgne"
+      ],
+      "title": "Blue Ocean Strategy",
+      "isbn13": "9781591396192",
+      "locator": "https://openlibrary.org/isbn/9781591396192",
+      "authority": "Harvard Business School Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-07-competidores-directos-indirectos-y-sustitutos",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-03-cinco-fuerzas-y-estructura-competitiva",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-05-ventaja-por-costo-diferenciacion-y-enfoque",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-09-posicionamiento-estrategico"
+      ],
+      "status": "verificada",
+      "que_contiene": "Propone crear espacios de mercado sin competencia redefiniendo el valor ofrecido y la estructura de costos.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "porter-competitive-strategy",
+      "manifest_id": "PORTER_STRATEGY",
+      "type": "book",
+      "authors": [
+        "Michael E. Porter"
+      ],
+      "title": "Competitive Strategy",
+      "isbn13": "9780029253601",
+      "locator": "https://openlibrary.org/isbn/9780029253601",
+      "authority": "Free Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-07-competidores-directos-indirectos-y-sustitutos",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-03-cinco-fuerzas-y-estructura-competitiva",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-05-ventaja-por-costo-diferenciacion-y-enfoque"
+      ],
+      "status": "verificada",
+      "que_contiene": "Presenta el análisis de las cinco fuerzas y las estrategias genéricas para estudiar una industria.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "lafley-playing-to-win",
+      "manifest_id": "LAFLEY_WIN",
+      "type": "book",
+      "authors": [
+        "A. G. Lafley",
+        "Roger L. Martin"
+      ],
+      "title": "Playing to Win",
+      "isbn13": "9781491528792",
+      "locator": "https://openlibrary.org/isbn/9781491528792",
+      "authority": "Harvard Business Review Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-04-cadena-de-valor",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-10-make-or-buy",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-03-disenar-modelo-de-negocio-y-estrategia"
+      ],
+      "status": "verificada",
+      "que_contiene": "Plantea la estrategia como una cascada de elecciones: dónde jugar y cómo ganar. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "thiel-zero-to-one",
+      "manifest_id": "THIEL_ZERO",
+      "type": "book",
+      "authors": [
+        "Peter Thiel",
+        "Blake Masters"
+      ],
+      "title": "Zero to One",
+      "isbn13": "9780753555187",
+      "locator": "https://openlibrary.org/isbn/9780753555187",
+      "authority": "Virgin Books",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-02-lean-canvas",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-01-mision-vision-proposito-y-tesis-estrategica",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-06-efectos-de-red-y-economias-de-escala"
+      ],
+      "status": "verificada",
+      "que_contiene": "Reflexiona sobre construir empresas que crean algo nuevo y sobre el valor de una ventaja diferenciada.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "kahneman-thinking-fast-and-slow",
+      "manifest_id": "KAHNEMAN_TFS",
+      "type": "book",
+      "authors": [
+        "Daniel Kahneman"
+      ],
+      "title": "Thinking, Fast and Slow",
+      "isbn13": "9781464166174",
+      "locator": "https://openlibrary.org/isbn/9781464166174",
+      "authority": "Macmillan",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-08-mapa-de-alternativas-actuales-del-cliente",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-13-precio-como-experimento-de-mercado",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-14-revision-estrategica-y-kill-criteria",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-11-ia-generativa-en-operaciones"
+      ],
+      "status": "verificada",
+      "que_contiene": "Describe sesgos y heurísticas de la decisión humana a partir de dos modos de pensar.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "duke-thinking-in-bets",
+      "manifest_id": "DUKE_BETS",
+      "type": "book",
+      "authors": [
+        "Annie Duke"
+      ],
+      "title": "Thinking in Bets",
+      "isbn13": "9780735216358",
+      "locator": "https://openlibrary.org/isbn/9780735216358",
+      "authority": "Portfolio",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-08-riesgo-incertidumbre-y-toma-de-decisiones",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-14-decidir-perseverar-pivotar-o-abandonar",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-10-portafolio-de-apuestas-y-opciones-reales",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-14-revision-estrategica-y-kill-criteria",
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-14-cuando-debe-intervenir-un-abogado",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-14-defensa-final-ante-comite-empresarial"
+      ],
+      "status": "verificada",
+      "que_contiene": "Aplica la lógica de las apuestas a la decisión bajo incertidumbre: separar la calidad de la decisión del resultado.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "gawande-the-checklist-manifesto",
+      "manifest_id": "GAWANDE_CHECKLIST",
+      "type": "book",
+      "authors": [
+        "Atul Gawande"
+      ],
+      "title": "The Checklist Manifesto",
+      "isbn13": "9780312430009",
+      "locator": "https://openlibrary.org/isbn/9780312430009",
+      "authority": "Metropolitan Books",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-14-checklist-de-empresa-juridicamente-lista",
+        "curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-12-formulario-29-ppm-y-ciclo-mensual",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-11-cuentas-por-pagar-y-cierre-mensual",
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-13-gestion-y-repositorio-de-contratos",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-02-sop-y-controles-operacionales",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-04-ordenes-de-compra-y-recepcion",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-02-controles-preventivos-detectivos-y-correctivos",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-06-procesos-que-deben-estandarizarse-antes-de-crecer"
+      ],
+      "status": "verificada",
+      "que_contiene": "Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "berman-financial-intelligence",
+      "manifest_id": "BERMAN_FINANCE",
+      "type": "book",
+      "authors": [
+        "Karen Berman",
+        "Joe Knight"
+      ],
+      "title": "Financial Intelligence",
+      "isbn13": "9781591397649",
+      "locator": "https://openlibrary.org/isbn/9781591397649",
+      "authority": "Harvard Business Review Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-06-ingresos-costos-gastos-inversion-y-utilidad",
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-07-activos-pasivos-patrimonio-y-capital-de-trabajo",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-03-modelo-de-servicios-profesionales",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-05-comercio-electronico-d2c",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-01-contabilidad-como-sistema-de-informacion",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-03-partida-doble-sin-memorizar",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-05-devengo-versus-caja",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-06-balance-general",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-07-estado-de-resultados",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-08-estado-de-flujo-de-efectivo",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-10-cuentas-por-cobrar-y-provisiones",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-02-flujo-de-caja-de-13-semanas",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-03-capital-de-trabajo",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-04-punto-de-equilibrio",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-05-margen-bruto-contribucion-y-ebitda",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-06-pricing-basado-en-costos-valor-y-mercado",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-08-mrr-arr-churn-y-nrr-para-suscripciones",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-10-ciclo-de-conversion-de-efectivo",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-13-dashboard-financiero-del-fundador",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-14-gobierno-tecnologico-y-costos-finops",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-02-cuenta-bancaria-medios-de-pago-y-conciliacion",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-04-presupuesto-por-centros-de-responsabilidad",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-14-evitar-que-el-crecimiento-destruya-la-caja",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-05-fuga-de-caja-y-plan-de-30-dias",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-07-construir-presupuesto-pricing-y-flujo-de-caja"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "crabtree-simple-numbers-straight-talk-big-profits",
+      "manifest_id": "CRABTREE_NUMBERS",
+      "type": "book",
+      "authors": [
+        "Greg Crabtree"
+      ],
+      "title": "Simple Numbers, Straight Talk, Big Profits!",
+      "isbn13": "9780989645232",
+      "locator": "https://openlibrary.org/isbn/9780989645232",
+      "authority": "Greg Crabtree",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-06-ingresos-costos-gastos-inversion-y-utilidad",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-03-modelo-de-servicios-profesionales",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-09-agencia-y-servicios-administrados",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-07-estado-de-resultados",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-08-estado-de-flujo-de-efectivo",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-02-flujo-de-caja-de-13-semanas",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-04-punto-de-equilibrio",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-09-rotacion-ticket-y-merma-para-comercio"
+      ],
+      "status": "verificada",
+      "que_contiene": "Propone indicadores simples para pequeñas empresas, como el costo laboral sobre el margen bruto. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "goldratt-the-goal",
+      "manifest_id": "GOLDRATT_GOAL",
+      "type": "book",
+      "authors": [
+        "Eliyahu M. Goldratt",
+        "Jeff Cox"
+      ],
+      "title": "The Goal",
+      "isbn13": "9781622313945",
+      "locator": "https://openlibrary.org/isbn/9781622313945",
+      "authority": "North River Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-10-manufactura-y-venta-de-productos",
+        "curriculum/part-08-contabilidad-y-estados-financieros/class-12-existencias-y-costo-de-ventas",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-09-rotacion-ticket-y-merma-para-comercio",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-01-diseno-de-procesos-end-to-end",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-05-inventario-conteos-y-trazabilidad",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-09-capacidad-y-cuellos-de-botella",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-12-mantenimiento-y-activos-operativos",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-13-indicadores-otif-fill-rate-y-lead-time",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-11-construir-operacion-ventas-y-stack-tecnologico"
+      ],
+      "status": "verificada",
+      "que_contiene": "Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "grove-high-output-management",
+      "manifest_id": "GROVE_HOM",
+      "type": "book",
+      "authors": [
+        "Andrew S. Grove"
+      ],
+      "title": "High Output Management",
+      "isbn13": "9780330289634",
+      "locator": "https://openlibrary.org/isbn/9780330289634",
+      "authority": "Random House",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-11-okr-kpi-y-metricas-norte",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-02-diseno-organizacional-por-etapas",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-03-delegacion-y-accountability",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-05-hiring-plan-y-workforce-planning",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-10-disenar-estructura-de-cargos-y-responsabilidades"
+      ],
+      "status": "verificada",
+      "que_contiene": "Aplica ideas de producción a la gestión directiva: indicadores, reuniones uno a uno y apalancamiento del tiempo.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "feld-venture-deals",
+      "manifest_id": "FELD_DEALS",
+      "type": "book",
+      "authors": [
+        "Brad Feld",
+        "Jason Mendelson"
+      ],
+      "title": "Venture Deals",
+      "isbn13": "9781118443613",
+      "locator": "https://openlibrary.org/isbn/9781118443613",
+      "authority": "Wiley",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-05-diseno-societario-y-gobierno-inicial/class-09-capital-aportes-valorizacion-y-vesting",
+        "curriculum/part-05-diseno-societario-y-gobierno-inicial/class-11-pactos-de-accionistas-y-acuerdos-de-fundadores",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-09-angeles-y-capital-semilla-privado",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-10-venture-capital-y-rondas",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-11-safe-notas-convertibles-y-equity",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-08-transicion-earn-out-y-no-competencia"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica los términos de una inversión de capital de riesgo: hoja de términos, valoración y derechos.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "horowitz-the-hard-thing-about-hard-things",
+      "manifest_id": "HOROWITZ_HARD",
+      "type": "book",
+      "authors": [
+        "Ben Horowitz"
+      ],
+      "title": "The Hard Thing About Hard Things",
+      "isbn13": "9780062273215",
+      "locator": "https://openlibrary.org/isbn/9780062273215",
+      "authority": "HarperBusiness",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-14-termino-de-contrato-y-documentacion-de-salida",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-11-consejo-asesor-y-directorio",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-05-fuga-de-caja-y-plan-de-30-dias",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-11-plan-de-reduccion-de-costos-sin-destruir-capacidad"
+      ],
+      "status": "verificada",
+      "que_contiene": "Relata decisiones difíciles de gestión al dirigir una empresa, incluidas las crisis. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "kupor-secrets-of-sand-hill-road",
+      "manifest_id": "KUPOR_SANDHILL",
+      "type": "book",
+      "authors": [
+        "Scott Kupor"
+      ],
+      "title": "Secrets of Sand Hill Road",
+      "isbn13": "9780593083581",
+      "locator": "https://openlibrary.org/isbn/9780593083581",
+      "authority": "Portfolio",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-05-diseno-societario-y-gobierno-inicial/class-04-sociedad-por-acciones-spa",
+        "curriculum/part-05-diseno-societario-y-gobierno-inicial/class-08-socios-accionistas-porcentajes-y-control",
+        "curriculum/part-05-diseno-societario-y-gobierno-inicial/class-09-capital-aportes-valorizacion-y-vesting",
+        "curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-06-acciones-series-y-derechos-en-una-spa",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-01-bootstrapping-y-reinversion",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-09-angeles-y-capital-semilla-privado",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-10-venture-capital-y-rondas",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-11-safe-notas-convertibles-y-equity",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-14-costo-de-dilucion-y-estrategia-de-financiamiento",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-04-elegir-sociedad-y-disenar-pacto-de-fundadores"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica cómo funciona el capital de riesgo desde la perspectiva de quien levanta capital. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "gerber-the-e-myth-revisited",
+      "manifest_id": "GERBER_EMYTH",
+      "type": "book",
+      "authors": [
+        "Michael E. Gerber"
+      ],
+      "title": "The E-Myth Revisited",
+      "isbn13": "9780061446788",
+      "locator": "https://openlibrary.org/isbn/9780061446788",
+      "authority": "HarperBusiness",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-02-emprender-autoemplearse-y-construir-una-organizacion",
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-11-ciclo-de-vida-completo-de-una-empresa",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-09-agencia-y-servicios-administrados",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-11-franquicia-y-licenciamiento-de-formato",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-01-de-fundador-a-organizacion",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-06-procesos-que-deben-estandarizarse-antes-de-crecer",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-08-franquiciar-un-negocio",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-02-dependencia-del-fundador-y-key-person-risk",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-09-sucesion-familiar-o-ejecutiva"
+      ],
+      "status": "verificada",
+      "que_contiene": "Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "warrillow-built-to-sell",
+      "manifest_id": "WARRILLOW_SELL",
+      "type": "book",
+      "authors": [
+        "John Warrillow"
+      ],
+      "title": "Built to Sell",
+      "isbn13": "9781591845829",
+      "locator": "https://openlibrary.org/isbn/9781591845829",
+      "authority": "Portfolio",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-02-emprender-autoemplearse-y-construir-una-organizacion",
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-05-producto-servicio-solucion-y-experiencia",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-12-valoracion-empresarial-basica",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-01-construir-una-empresa-transferible",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-03-valoracion-para-venta",
+        "curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-02-agencia-de-automatizacion-e-ia-aplicada"
+      ],
+      "status": "verificada",
+      "que_contiene": "Propone hacer que una empresa de servicios sea vendible por su sistema y no por su dueño.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "harnish-scaling-up",
+      "manifest_id": "HARNISH_SCALING",
+      "type": "book",
+      "authors": [
+        "Verne Harnish"
+      ],
+      "title": "Scaling Up",
+      "isbn13": "9780986019555",
+      "locator": "https://openlibrary.org/isbn/9780986019555",
+      "authority": "Gazelles",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-11-ciclo-de-vida-completo-de-una-empresa",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-02-diseno-organizacional-por-etapas",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-14-evitar-que-el-crecimiento-destruya-la-caja"
+      ],
+      "status": "verificada",
+      "que_contiene": "Reúne herramientas de gestión para crecer: personas, estrategia, ejecución y caja. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "nagle-the-strategy-and-tactics-of-pricing",
+      "manifest_id": "NAGLE_PRICING",
+      "type": "book",
+      "authors": [
+        "Thomas T. Nagle",
+        "Reed K. Holden"
+      ],
+      "title": "The Strategy and Tactics of Pricing",
+      "isbn13": "9780132043588",
+      "locator": "https://openlibrary.org/isbn/9780132043588",
+      "authority": "Prentice Hall",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-13-precio-como-experimento-de-mercado",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-13-modelos-freemium-usage-based-y-outcome-based",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-06-pricing-basado-en-costos-valor-y-mercado",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-07-construir-presupuesto-pricing-y-flujo-de-caja"
+      ],
+      "status": "verificada",
+      "que_contiene": "Tratado de fijación de precios basada en el valor percibido por el cliente. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "kaplan-the-balanced-scorecard",
+      "manifest_id": "KAPLAN_BSC",
+      "type": "book",
+      "authors": [
+        "Robert S. Kaplan",
+        "David P. Norton"
+      ],
+      "title": "The Balanced Scorecard",
+      "isbn13": "9781578514090",
+      "locator": "https://openlibrary.org/isbn/9781578514090",
+      "authority": "Harvard Business School Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-12-roadmap-estrategico-de-12-36-y-60-meses",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-09-analitica-y-bi-empresarial",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-04-presupuesto-por-centros-de-responsabilidad"
+      ],
+      "status": "verificada",
+      "que_contiene": "Traduce la estrategia en indicadores financieros, de clientes, de procesos y de aprendizaje. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "womack-lean-thinking",
+      "manifest_id": "WOMACK_LEAN",
+      "type": "book",
+      "authors": [
+        "James P. Womack",
+        "Daniel T. Jones"
+      ],
+      "title": "Lean Thinking",
+      "isbn13": "9780684810355",
+      "locator": "https://openlibrary.org/isbn/9780684810355",
+      "authority": "Free Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-06-retail-fisico-y-omnicanal",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-04-cadena-de-valor",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-01-diseno-de-procesos-end-to-end",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-06-bodega-picking-y-despacho",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-10-make-or-buy",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-14-mejora-continua-y-automatizacion",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-11-construir-operacion-ventas-y-stack-tecnologico"
+      ],
+      "status": "verificada",
+      "que_contiene": "Presenta los principios lean: valor, flujo, tracción y perfección. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "deming-out-of-the-crisis",
+      "manifest_id": "DEMING_CRISIS",
+      "type": "book",
+      "authors": [
+        "W. Edwards Deming"
+      ],
+      "title": "Out of the Crisis",
+      "isbn13": "9780521305532",
+      "locator": "https://openlibrary.org/isbn/9780521305532",
+      "authority": "Cambridge University Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-02-sop-y-controles-operacionales",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-08-gestion-de-calidad-y-no-conformidades",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-13-indicadores-otif-fill-rate-y-lead-time"
+      ],
+      "status": "verificada",
+      "que_contiene": "Expone los catorce puntos de Deming y la calidad como responsabilidad de la dirección, con foco en variación y sistema.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "ohno-toyota-production-system",
+      "manifest_id": "OHNO_TPS",
+      "type": "book",
+      "authors": [
+        "Taiichi Ohno"
+      ],
+      "title": "Toyota Production System",
+      "isbn13": "9781000056488",
+      "locator": "https://openlibrary.org/isbn/9781000056488",
+      "authority": "Productivity Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-12-mantenimiento-y-activos-operativos",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-14-mejora-continua-y-automatizacion"
+      ],
+      "status": "verificada",
+      "que_contiene": "Describe el sistema de producción de Toyota: eliminación de desperdicio y producción justo a tiempo.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "kim-the-phoenix-project",
+      "manifest_id": "KIM_PHOENIX",
+      "type": "book",
+      "authors": [
+        "Gene Kim",
+        "Kevin Behr",
+        "George Spafford"
+      ],
+      "title": "The Phoenix Project",
+      "isbn13": "9781950508921",
+      "locator": "https://openlibrary.org/isbn/9781950508921",
+      "authority": "IT Revolution",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-05-backups-y-recuperacion"
+      ],
+      "status": "verificada",
+      "que_contiene": "Novela sobre operaciones de tecnología, flujo de trabajo y los orígenes de DevOps. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "beyer-site-reliability-engineering",
+      "manifest_id": "BEYER_SRE",
+      "type": "book",
+      "authors": [
+        "Betsy Beyer",
+        "Chris Jones",
+        "Jennifer Petoff",
+        "Niall Richard Murphy"
+      ],
+      "title": "Site Reliability Engineering",
+      "isbn13": "9781491929124",
+      "locator": "https://openlibrary.org/isbn/9781491929124",
+      "authority": "O'Reilly",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-10-contratos-y-arquitectura-legal-operativa/class-07-sla-soporte-y-niveles-de-servicio",
+        "curriculum/part-11-consumidor-e-commerce-privacidad-ip-y-seguridad-digital/class-14-respuesta-a-incidentes-y-evidencia",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-05-backups-y-recuperacion",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-10-automatizacion-de-procesos",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-14-gobierno-tecnologico-y-costos-finops",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-03-disaster-recovery-para-tecnologia",
+        "curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-03-ciberseguridad-administrada-para-pymes"
+      ],
+      "status": "verificada",
+      "que_contiene": "Prácticas de confiabilidad de servicios de Google: objetivos de nivel de servicio, presupuesto de error y gestión de incidentes.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "forsgren-accelerate",
+      "manifest_id": "FORSGREN_ACCEL",
+      "type": "book",
+      "authors": [
+        "Nicole Forsgren",
+        "Jez Humble",
+        "Gene Kim"
+      ],
+      "title": "Accelerate",
+      "isbn13": "9781942788379",
+      "locator": "https://openlibrary.org/isbn/9781942788379",
+      "authority": "IT Revolution",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-06-ciberseguridad-por-capas-para-pyme",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-07-gestion-de-secretos-y-privilegios",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-10-automatizacion-de-procesos"
+      ],
+      "status": "verificada",
+      "que_contiene": "Presenta evidencia sobre qué prácticas de ingeniería se asocian con mejor desempeño en la entrega de software.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "kleppmann-designing-data-intensive-applications",
+      "manifest_id": "KLEPPMANN_DDIA",
+      "type": "book",
+      "authors": [
+        "Martin Kleppmann"
+      ],
+      "title": "Designing Data-Intensive Applications",
+      "isbn13": "9781449373320",
+      "locator": "https://openlibrary.org/isbn/9781449373320",
+      "authority": "O'Reilly",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-04-cloud-hosting-y-continuidad"
+      ],
+      "status": "verificada",
+      "que_contiene": "Explica los principios de sistemas de datos confiables, escalables y mantenibles. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "croll-lean-analytics",
+      "manifest_id": "CROLL_LEANANALYTICS",
+      "type": "book",
+      "authors": [
+        "Alistair Croll",
+        "Benjamin Yoskovitz"
+      ],
+      "title": "Lean Analytics",
+      "isbn13": "9781449335717",
+      "locator": "https://openlibrary.org/isbn/9781449335717",
+      "authority": "O'Reilly",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-04-suscripcion-y-saas",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-07-marketplace-de-dos-lados",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-13-modelos-freemium-usage-based-y-outcome-based",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-06-efectos-de-red-y-economias-de-escala",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-11-okr-kpi-y-metricas-norte",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-07-cac-ltv-y-payback",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-08-mrr-arr-churn-y-nrr-para-suscripciones",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-13-dashboard-financiero-del-fundador",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-08-datos-maestros-y-calidad-de-datos",
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-09-analitica-y-bi-empresarial",
+        "curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-01-saas-b2b-con-ia",
+        "curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-05-e-commerce-d2c-de-productos-fisicos",
+        "curriculum/part-23-estudios-de-lineas-de-negocio-reales-2026/class-06-marketplace-vertical"
+      ],
+      "status": "verificada",
+      "que_contiene": "Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "mcchrystal-team-of-teams",
+      "manifest_id": "MCCHRYSTAL_TEAM",
+      "type": "book",
+      "authors": [
+        "Stanley McChrystal",
+        "Tantum Collins",
+        "David Silverman",
+        "Chris Fussell"
+      ],
+      "title": "Team of Teams",
+      "isbn13": "9781611763720",
+      "locator": "https://openlibrary.org/isbn/9781611763720",
+      "authority": "Portfolio",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-03-delegacion-y-accountability"
+      ],
+      "status": "verificada",
+      "que_contiene": "Plantea cómo organizar equipos que se adaptan en entornos complejos mediante transparencia y autonomía. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "brealey-principles-of-corporate-finance",
+      "manifest_id": "BREALEY_FINANCE",
+      "type": "book",
+      "authors": [
+        "Richard A. Brealey",
+        "Stewart C. Myers"
+      ],
+      "title": "Principles of Corporate Finance",
+      "isbn13": "9780071140539",
+      "locator": "https://openlibrary.org/isbn/9780071140539",
+      "authority": "McGraw-Hill",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-07-activos-pasivos-patrimonio-y-capital-de-trabajo",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-14-portafolio-de-lineas-de-negocio-y-concentracion-de-riesgo",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-10-portafolio-de-apuestas-y-opciones-reales",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-03-capital-de-trabajo",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-10-ciclo-de-conversion-de-efectivo",
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-11-deuda-buena-deuda-mala-y-costo-de-capital",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-04-leasing-factoring-y-confirming",
+        "curriculum/part-18-comercio-exterior-e-internacionalizacion/class-10-fx-y-riesgo-cambiario",
+        "curriculum/part-20-escalamiento-organizacion-y-gobierno-avanzado/class-10-adquisicion-de-competidores-o-capacidades"
+      ],
+      "status": "verificada",
+      "que_contiene": "Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "damodaran-the-little-book-of-valuation",
+      "manifest_id": "DAMODARAN_VALUATION",
+      "type": "book",
+      "authors": [
+        "Aswath Damodaran"
+      ],
+      "title": "The Little Book of Valuation",
+      "isbn13": "9781118004777",
+      "locator": "https://openlibrary.org/isbn/9781118004777",
+      "authority": "Wiley",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-09-finanzas-caja-precios-y-economia-unitaria/class-05-margen-bruto-contribucion-y-ebitda",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-12-valoracion-empresarial-basica",
+        "curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-14-costo-de-dilucion-y-estrategia-de-financiamiento",
+        "curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-03-valoracion-para-venta"
+      ],
+      "status": "verificada",
+      "que_contiene": "Introduce la valoración de empresas por flujo descontado y por múltiplos. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "maurya-running-lean",
+      "manifest_id": "MAURYA_RUNNING",
+      "type": "book",
+      "authors": [
+        "Ash Maurya"
+      ],
+      "title": "Running Lean",
+      "isbn13": "9781449331900",
+      "locator": "https://openlibrary.org/isbn/9781449331900",
+      "authority": "O'Reilly",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-10-hipotesis-criticas-del-negocio",
+        "curriculum/part-02-descubrimiento-validacion-y-mercado/class-12-mvp-prototipo-y-concierge-test",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-01-business-model-canvas",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-02-lean-canvas"
+      ],
+      "status": "verificada",
+      "que_contiene": "Método para iterar un modelo de negocio con el lienzo lean y experimentos cortos. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "senge-the-fifth-discipline",
+      "manifest_id": "SENGE_FIFTH",
+      "type": "book",
+      "authors": [
+        "Peter M. Senge"
+      ],
+      "title": "The Fifth Discipline",
+      "isbn13": "9780385517829",
+      "locator": "https://openlibrary.org/isbn/9780385517829",
+      "authority": "Doubleday",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-13-escenarios-y-senales-tempranas",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-13-post-mortem-y-aprendizaje-organizacional"
+      ],
+      "status": "verificada",
+      "que_contiene": "Presenta las organizaciones que aprenden: pensamiento sistémico, modelos mentales y visión compartida. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "anderson-kanban",
+      "manifest_id": "ANDERSON_KANBAN",
+      "type": "book",
+      "authors": [
+        "David J. Anderson"
+      ],
+      "title": "Kanban",
+      "isbn13": "9780984521401",
+      "locator": "https://openlibrary.org/isbn/9780984521401",
+      "authority": "Blue Hole Press",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-09-capacidad-y-cuellos-de-botella"
+      ],
+      "status": "verificada",
+      "que_contiene": "Presenta el método Kanban: visualizar el trabajo, limitar lo que está en curso y gestionar el flujo.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "kim-the-devops-handbook",
+      "manifest_id": "KIM_DEVOPS",
+      "type": "book",
+      "authors": [
+        "Gene Kim",
+        "Jez Humble",
+        "Patrick Debois",
+        "John Willis"
+      ],
+      "title": "The DevOps Handbook",
+      "isbn13": "9781942788003",
+      "locator": "https://openlibrary.org/isbn/9781942788003",
+      "authority": "IT Revolution",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-15-tecnologia-datos-ia-y-operacion-digital/class-02-comprar-construir-o-integrar-software"
+      ],
+      "status": "verificada",
+      "que_contiene": "Reúne principios y prácticas de DevOps: flujo, retroalimentación y aprendizaje continuo. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "taleb-the-black-swan",
+      "manifest_id": "TALEB_BLACKSWAN",
+      "type": "book",
+      "authors": [
+        "Nassim Nicholas Taleb"
+      ],
+      "title": "The Black Swan",
+      "isbn13": "9780812979183",
+      "locator": "https://openlibrary.org/isbn/9780812979183",
+      "authority": "Random House",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-08-riesgo-incertidumbre-y-toma-de-decisiones",
+        "curriculum/part-03-modelos-de-negocio-y-lineas-de-ingreso/class-14-portafolio-de-lineas-de-negocio-y-concentracion-de-riesgo",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-13-escenarios-y-senales-tempranas",
+        "curriculum/part-13-operaciones-compras-inventario-y-calidad/class-11-continuidad-de-proveedores-criticos",
+        "curriculum/part-19-compliance-riesgos-y-responsabilidad-empresarial/class-01-mapa-integral-de-riesgos",
+        "curriculum/part-21-crisis-continuidad-insolvencia-y-recuperacion/class-01-mapa-de-amenazas-y-escenarios-de-crisis"
+      ],
+      "status": "verificada",
+      "que_contiene": "Examina el impacto de los eventos improbables y los límites de la predicción. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "rumelt-good-strategy-bad-strategy",
+      "manifest_id": "RUMELT_STRATEGY",
+      "type": "book",
+      "authors": [
+        "Richard P. Rumelt"
+      ],
+      "title": "Good Strategy Bad Strategy",
+      "isbn13": "9780307886231",
+      "locator": "https://openlibrary.org/isbn/9780307886231",
+      "authority": "Crown Business",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-01-mision-vision-proposito-y-tesis-estrategica",
+        "curriculum/part-04-estrategia-y-ventaja-competitiva/class-12-roadmap-estrategico-de-12-36-y-60-meses",
+        "curriculum/part-24-capstone-construir-una-empresa-de-comienzo-a-fin/class-01-elegir-tesis-y-linea-de-negocio"
+      ],
+      "status": "verificada",
+      "que_contiene": "Distingue una buena estrategia por su diagnóstico, política rectora y acciones coherentes. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
+      "last_checked": "2026-11-25"
+    },
+    {
+      "id": "drucker-the-effective-executive",
+      "manifest_id": "DRUCKER_EFFECTIVE",
+      "type": "book",
+      "authors": [
+        "Peter F. Drucker"
+      ],
+      "title": "The Effective Executive",
+      "isbn13": "9780060833459",
+      "locator": "https://openlibrary.org/isbn/9780060833459",
+      "authority": "Collins",
+      "accessed": "2026-11-25",
+      "used_in": [
+        "curriculum/part-01-fundamentos-de-empresa-y-mentalidad-empresarial/class-14-mapa-personal-de-competencias-del-fundador"
+      ],
+      "status": "verificada",
+      "que_contiene": "Presenta prácticas de eficacia directiva: gestionar el tiempo, enfocarse en contribuciones y decidir. Se usa como lectura de apoyo conceptual y no como fuente normativa.",
+      "como_leerla": "Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.",
+      "nota": "Existencia, título, autoría y edición comprobados en Open Library el 2026-11-25. El programa no cita páginas ni capítulos: es lectura de apoyo conceptual.",
       "last_checked": "2026-11-25"
     }
   ]

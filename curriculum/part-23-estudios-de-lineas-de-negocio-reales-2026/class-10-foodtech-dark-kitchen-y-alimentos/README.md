@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Comisión de plataforma** | Porcentaje que retiene el canal de delivery. |
 | **Costo de materia prima** | Insumo con alta variabilidad de precio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que queda de un pedido tras la plataforma de delivery
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Dark kitchen"]
-    C --> A2["Resolución sanitaria"]
-    C --> A3["Comisión de plataforma"]
-    C --> A4["Costo de materia prima"]
-    A1 & A2 & A3 & A4 --> D{{"validar el margen después de<br/>comisión de plataforma y<br/>asegurar el cumplimiento<br/>sanitario"}}
-    D --> E["Entregable<br/>modelo de foodtech con margen<br/>post-comisión, cumplimiento<br/>sanitario y plan de canal<br/>propio"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El modelo de dark kitchen reduce el costo del local pero traslada margen a las plataformas de delivery, cuyas comisiones pueden superar el 25 %; la viabilidad exige que el precio soporte esa comisión y que se cumpla la normativa sanitaria.
+
+![Esquema: Lo que queda de un pedido tras la plataforma de delivery](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra resta un costo del precio. La primera gran caída es la comisión. Lo que queda al final debe cubrir sueldos, arriendo y utilidad (cifras ilustrativas).
+
+**Para recordarlo:** Es un restaurante que paga un alto porcentaje por cada mesa que le asigna el portero del edificio: si el precio no lo considera, el negocio se queda sin ganancia.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El modelo de dark kitchen reduce costo de local pero traslada margen a las plata
 
 ### 2. Cómo se traduce en la práctica
 
-Las comisiones de delivery pueden superar el 25 % y se llevan justamente el margen que el modelo sin local pretendía capturar. Depender exclusivamente de esas plataformas entrega además el control de la relación con el cliente, que es el activo que permitiría negociar.
+Calcula el margen después de la comisión de plataforma, de la materia prima, del empaque y de los costos de producción. Fija precios para absorber la comisión y diseña canales propios para la recompra. Obtén la resolución sanitaria y la trazabilidad de lote antes de abrir. Cumple las normas de información al consumidor en cada pedido.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Las comisiones de delivery pueden superar el 25 % y se llevan justamente el marg
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una cocina vende un pedido de $10.000 a través de una plataforma que cobra 25 %: queda $7.500. Su materia prima y empaque cuestan $3.200, de modo que quedan $4.300 para pagar preparación, arriendo, gas y administración. Si estos gastos suman $2.500 por pedido, la utilidad es $1.800. Una caída del precio promedio del 10 % dejaría la utilidad en $1.050. Por eso usa su canal propio para clientes recurrentes y mantiene su resolución sanitaria al día (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional informa la resolución sanitaria y los requisitos para locales y cocinas de alimentos.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de la Ley del Consumidor para las ventas en línea y a domicilio, incluidas las plataformas de delivery.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

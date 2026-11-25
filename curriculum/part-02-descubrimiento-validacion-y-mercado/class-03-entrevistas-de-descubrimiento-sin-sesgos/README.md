@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Evidencia de comportamiento** | Lo que la persona ya hizo, gastó o intentó. |
 | **Saturación** | Punto en que las entrevistas dejan de aportar información nueva. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Preguntas que inducen y preguntas que revelan
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Entrevista de<br/>descubrimiento"]
-    C --> A2["Pregunta inductiva"]
-    C --> A3["Evidencia de<br/>comportamiento"]
-    C --> A4["Saturación"]
-    A1 & A2 & A3 & A4 --> D{{"decidir a quién entrevistar y<br/>qué evidencia de<br/>comportamiento se busca"}}
-    D --> E["Entregable<br/>guion, bitácora de diez<br/>entrevistas y mapa de empatía<br/>con evidencia, hipótesis e<br/>interpretación separadas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La regla central de una entrevista de descubrimiento es preguntar por hechos ocurridos y no por intenciones: lo que la persona hizo vale más que lo que dice que haría.
+
+![Esquema: Preguntas que inducen y preguntas que revelan](modelo-mental.svg)
+
+**Lectura guiada:** A la izquierda están las preguntas que producen cortesías y a la derecha las que producen datos. Revisa tu guion y mueve cada pregunta al plato correcto antes de salir a entrevistar.
+
+**Piénsalo así:** Es la diferencia entre preguntarle a alguien si hará ejercicio el próximo año y mirar si compró zapatillas el último mes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La regla central es preguntar por hechos ocurridos y no por intenciones: qué hi
 
 ### 2. Cómo se traduce en la práctica
 
-La contaminación más habitual es presentar la solución al inicio; la segunda es completar lo que el cliente observa, piensa o siente desde la imaginación del equipo. La estructura parte por el último episodio real y registra en columnas separadas la cita o conducta, la hipótesis y la interpretación. Los vacíos quedan como preguntas pendientes, no se rellenan para que el mapa parezca completo.
+Prepara un guion de ocho preguntas sobre el pasado: la última vez que ocurrió el problema, qué hicieron, cuánto costó, qué soluciones probaron y por qué las dejaron. Entrevista hasta que las respuestas se repitan (saturación), normalmente entre doce y veinte personas. Anota frases textuales y marca separado lo que dijeron de lo que interpretas. Evita mostrar tu idea hasta el final.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La contaminación más habitual es presentar la solución al inicio; la segunda 
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Entrevistadora: «¿Te gustaría una app para controlar tus gastos?». Persona: «Sí, claro, sería genial». Cambia la pregunta. Entrevistadora: «¿Cómo controlaste tus gastos el último mes?». Persona: «Anoté en una planilla las primeras dos semanas y después me cansé». Entrevistadora: «¿Qué te cansó?». Persona: «Pasar cada boleta a mano; probé dos apps y las borré». La segunda conversación muestra qué hace, qué probó y qué abandonó (diálogo ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Mom Test (2014)** (CreateSpace): Fitzpatrick propone preguntar por la vida y los comportamientos pasados de la persona y no por la idea del emprendedor, para que la información sea útil aunque la persona sea amable.
+- **The Startup Owner's Manual** (K&S Ranch): Blank y Dorf piden salir del edificio y conversar con clientes para validar hipótesis, con preguntas abiertas sobre sus problemas actuales.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para decidir a quién entrevistar y qué evidencia de comportamiento se busca.
+
+**CreateSpace — The Mom Test (2014)**  
+<https://openlibrary.org/isbn/9781492180746> · verificado 2026-11-25
+
+- *Qué contiene:* Enseña a conversar con clientes sobre su vida y sus problemas reales para obtener información útil y no cortesías sobre una idea.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Mom Test (2014)» para decidir a quién entrevistar y qué evidencia de comportamiento se busca.
+
+**K&S Ranch — The Startup Owner's Manual**  
+<https://openlibrary.org/isbn/9780984999309> · verificado 2026-11-25
+
+- *Qué contiene:* Guía de desarrollo de clientes: validar hipótesis de negocio hablando con clientes antes de escalar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Startup Owner's Manual» para decidir a quién entrevistar y qué evidencia de comportamiento se busca.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

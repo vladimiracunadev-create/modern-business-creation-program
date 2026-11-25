@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Acceso privilegiado** | Credenciales del cliente que el proveedor administra. |
 | **Evidencia de servicio** | Registro que acredita lo ejecutado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Quiénes intervienen en un servicio de ciberseguridad administrada
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["MSSP"]
-    C --> A2["SLA de respuesta"]
-    C --> A3["Acceso privilegiado"]
-    C --> A4["Evidencia de servicio"]
-    A1 & A2 & A3 & A4 --> D{{"definir el alcance del<br/>servicio, el manejo de accesos<br/>privilegiados y el límite de<br/>responsabilidad"}}
-    D --> E["Entregable<br/>modelo de servicio de<br/>seguridad administrada con<br/>SLA, control de accesos<br/>privilegiados y límite de<br/>responsabilidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El servicio de ciberseguridad administrada para pymes tiene demanda creciente por el traslado contractual de exigencias desde clientes regulados; su riesgo central es el acceso privilegiado a los sistemas de los clientes.
+
+![Esquema: Quiénes intervienen en un servicio de ciberseguridad administrada](modelo-mental.svg)
+
+**Lectura guiada:** El centro es el servicio y los satélites son quienes lo condicionan. El acceso privilegiado es a la vez el motor y el mayor riesgo: quien administra la seguridad de otros se vuelve un objetivo.
+
+**Una imagen cotidiana:** Es el guardia de un edificio con la llave maestra: su valor y su riesgo vienen de lo mismo, de que puede entrar a todas partes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El servicio de ciberseguridad administrada para pymes tiene demanda creciente po
 
 ### 2. Cómo se traduce en la práctica
 
-Comprometer tiempos de respuesta que la dotación no puede sostener produce incumplimientos contractuales desde el primer incidente nocturno. Y administrar accesos privilegiados de clientes sin controles internos formales convierte al proveedor en el vector de riesgo que se supone debe cerrar.
+Define el alcance del servicio, el SLA de respuesta, las exclusiones y el límite de responsabilidad. Trata los accesos privilegiados con el máximo cuidado: cuentas individuales, doble factor, registro y revisión periódica. Entrega al cliente evidencia mensual de lo hecho. Revisa tus propios controles y los de tus proveedores. Considera seguros de responsabilidad y ciberseguridad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Comprometer tiempos de respuesta que la dotación no puede sostener produce incu
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Diseña un servicio de seguridad para pymes. Escribe en una hoja qué cubre (monitoreo, respaldos, respuesta a incidentes), qué accesos necesitas y cómo los proteges (cuentas individuales, doble factor, registro de actividad), cuál será tu compromiso de tiempo de respuesta y qué evidencia entregarás cada mes. Define el límite de tu responsabilidad y qué hace el cliente. Anota qué ocurriría si un empleado tuyo perdiera una credencial. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 21.663 y la Ley 21.459, consultables en la BCN, fijan obligaciones y delitos relevantes para quien presta servicios de seguridad y administra accesos a sistemas de terceros.
+- **Site Reliability Engineering** (O'Reilly): Beyer y sus coautores describen cómo operar servicios con respuesta a incidentes y evidencia de lo realizado, prácticas aplicables a un servicio administrado.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el alcance del servicio, el manejo de accesos privilegiados y el límite de responsabilidad.
+
+**O'Reilly — Site Reliability Engineering**  
+<https://openlibrary.org/isbn/9781491929124> · verificado 2026-11-25
+
+- *Qué contiene:* Prácticas de confiabilidad de servicios de Google: objetivos de nivel de servicio, presupuesto de error y gestión de incidentes.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Site Reliability Engineering» para definir el alcance del servicio, el manejo de accesos privilegiados y el límite de responsabilidad.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

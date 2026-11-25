@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Pagador** | Quien libera el presupuesto. |
 | **Beneficiario** | Quien recibe el resultado aunque no participe en la decisión. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Quién decide, quién usa, quién paga y quién se beneficia
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cliente"]
-    C --> A2["Usuario"]
-    C --> A3["Pagador"]
-    C --> A4["Beneficiario"]
-    A1 & A2 & A3 & A4 --> D{{"mapear quién decide, quién<br/>usa, quién paga y quién se<br/>beneficia en el proceso de<br/>compra"}}
-    D --> E["Entregable<br/>mapa de roles de compra con el<br/>criterio de decisión de cada<br/>uno"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En venta a personas, los cuatro roles suelen coincidir; en venta a empresas casi nunca, y cada uno exige un mensaje distinto.
+
+![Esquema: Quién decide, quién usa, quién paga y quién se beneficia](modelo-mental.svg)
+
+**Qué mirar primero:** El centro es la venta y los satélites son las personas que la afectan. Si no puedes poner un nombre en cada rol, aún no sabes a quién vender ni qué decir.
+
+**Una analogía:** Es una película con varios espectadores: el que elige, el que paga la entrada y el que se sienta a mirarla rara vez son la misma persona.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En B2C los cuatro roles suelen coincidir; en B2B casi nunca. Vender al usuario s
 
 ### 2. Cómo se traduce en la práctica
 
-En empresas medianas chilenas el pagador rara vez es el usuario, y el proceso de aprobación suele ser más rígido que el presupuesto. Preguntar por el proceso de decisión —quién firma, con qué documento, en qué instancia— entrega mejor información que preguntar por el monto disponible.
+Para mapear una venta, pide en la primera reunión que te cuenten cómo se compró la última herramienta parecida: quién la pidió, quién la probó, quién firmó y quién la usa. Dibuja los cuatro roles, anota qué necesita cada uno para decir sí y ajusta el material comercial. Vender solo al usuario produce entusiasmo sin orden de compra; vender solo al pagador produce contratos que no se renuevan.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En empresas medianas chilenas el pagador rara vez es el usuario, y el proceso de
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Imagina que vendes un software de turnos a una cadena de clínicas. Escribe el nombre del cargo que cumple cada rol: quién decide, quién lo usará todos los días, quién aprueba el gasto y quién se beneficia (¿los pacientes?). Luego redacta una frase para cada uno: al usuario le dices que se demora menos, al pagador que reduce horas extras y al decisor que baja el riesgo de errores. Si dos roles te quedan sin nombre, consigue una entrevista con alguien que lo ocupe.
+
+### 5. En qué se apoya
+
+- **The Startup Owner's Manual** (K&S Ranch): Blank y Dorf describen arquetipos de cliente en una venta (usuario, influyente, recomendador, comprador económico y decisor) y piden mapearlos antes de vender.
+- **Value Proposition Design** (Wiley): Osterwalder y sus coautores proponen definir por separado el perfil de cada segmento de cliente, porque sus tareas, dolores y ganancias no coinciden.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para mapear quién decide, quién usa, quién paga y quién se beneficia en el proceso de compra.
+
+**K&S Ranch — The Startup Owner's Manual**  
+<https://openlibrary.org/isbn/9780984999309> · verificado 2026-11-25
+
+- *Qué contiene:* Guía de desarrollo de clientes: validar hipótesis de negocio hablando con clientes antes de escalar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Startup Owner's Manual» para mapear quién decide, quién usa, quién paga y quién se beneficia en el proceso de compra.
+
+**Wiley — Value Proposition Design**  
+<https://openlibrary.org/isbn/9781118968055> · verificado 2026-11-25
+
+- *Qué contiene:* Método para ajustar una propuesta de valor a las tareas, los dolores y las ganancias del cliente.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Value Proposition Design» para mapear quién decide, quién usa, quién paga y quién se beneficia en el proceso de compra.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

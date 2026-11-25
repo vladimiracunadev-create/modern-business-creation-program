@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Crédito fiscal** | Iva soportado en las compras que da derecho a rebaja. |
 | **Exención** | Operación que la ley libera del impuesto. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El IVA que cobras no es tu caja
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Hecho gravado"]
-    C --> A2["Débito fiscal"]
-    C --> A3["Crédito fiscal"]
-    C --> A4["Exención"]
-    A1 & A2 & A3 & A4 --> D{{"determinar la afectación a IVA<br/>de cada línea y separar el IVA<br/>recaudado de la caja operativa"}}
-    D --> E["Entregable<br/>análisis de afectación a IVA<br/>por línea con proyección<br/>mensual de débito y crédito"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El IVA no es un costo de la empresa sino dinero recaudado para el fisco: la diferencia entre débito y crédito se entera mensualmente, y tratarlo como capital de trabajo es una causa frecuente de crisis de caja.
+
+![Esquema: El IVA que cobras no es tu caja](modelo-mental.svg)
+
+**Cómo leerlo:** La primera barra incluye el IVA que cobraste; la segunda muestra lo que realmente es tuyo. Gastar la primera es gastar dinero ajeno que debes entregar al mes siguiente (cifras ilustrativas).
+
+**Piénsalo así:** Es el dinero de una colecta en una caja: está en tu mano, pero no es tuyo, y alguien lo reclamará a fin de mes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El IVA no es un costo de la empresa sino dinero recaudado para el fisco: la dife
 
 ### 2. Cómo se traduce en la práctica
 
-Usarlo como capital de trabajo produce la crisis más común y más evitable de la pyme chilena, porque la obligación del F29 llega igual el día 12 o 20. La regla práctica es separar el IVA recaudado en cuanto se cobra, tratándolo como un pasivo con fecha y no como saldo disponible.
+Separa en tu contabilidad el IVA del resto de la caja y calcula cada semana cuánto deberás enterar el mes siguiente. Determina qué líneas de ingreso están afectas, exentas o mixtas. Reserva en una cuenta distinta el IVA por pagar y evita usarlo como capital de trabajo, sobre todo si cobras a plazo y pagas al contado.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Usarlo como capital de trabajo produce la crisis más común y más evitable de 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda vende por 119.000 con IVA de 19.000 (19 %). Compró insumos por 59.500 con IVA de 9.500 de crédito. Al mes siguiente debe enterar 9.500 (débito 19.000 menos crédito 9.500). Si en el intertanto usó el IVA cobrado para pagar arriendo y sueldos, tiene que conseguir ese dinero para pagarle al fisco. Una cuenta aparte para el IVA evita ese descalce (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Registro de Compras y Ventas** (Servicio de Impuestos Internos): El Registro de Compras y Ventas del SII muestra los documentos que originan débito y crédito fiscal y propone la declaración mensual de IVA.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El DL 825 sobre IVA define los hechos gravados, el débito y el crédito fiscal; su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

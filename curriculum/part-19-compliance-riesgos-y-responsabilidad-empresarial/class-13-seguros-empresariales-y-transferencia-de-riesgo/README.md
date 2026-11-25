@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Exclusión** | Situación que la póliza no cubre. |
 | **Deducible** | Monto que asume el asegurado en cada siniestro. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué mira un seguro antes de pagar un siniestro
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Seguro empresarial"]
-    C --> A2["Cobertura"]
-    C --> A3["Exclusión"]
-    C --> A4["Deducible"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué riesgos se<br/>transfieren a seguro y<br/>verificar sus exclusiones"}}
-    D --> E["Entregable<br/>programa de seguros con<br/>riesgos cubiertos, exclusiones<br/>relevantes, deducibles y sumas<br/>aseguradas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las exclusiones son la parte importante de la póliza y la menos leída: muchas empresas descubren en el siniestro que su cobertura excluía justamente la causa ocurrida, por lo que el seguro debe partir del mapa de riesgos.
+
+![Esquema: Qué mira un seguro antes de pagar un siniestro](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa condiciona la anterior. Una cobertura amplia con muchas exclusiones puede ser menos útil que una más modesta que realmente cubre tu riesgo. Lee primero lo que no cubre.
+
+**Piénsalo así:** Es un paraguas con agujeros: parece que te protege, hasta que llueve justo por donde está el agujero.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las exclusiones son la parte importante de la póliza y la menos leída. Muchas 
 
 ### 2. Cómo se traduce en la práctica
 
-Muchas empresas descubren en el siniestro que su cobertura excluía justamente la causa ocurrida. Y asegurar por sumas desactualizadas respecto del valor de reposición produce indemnizaciones que no permiten reponer, que es una forma cara de estar mal asegurado.
+Parte del mapa de riesgos y decide cuáles transferir a seguro y cuáles asumir. Pide a un corredor independiente que compare coberturas, exclusiones, límites y deducibles. Lee las exclusiones y verifica que no excluyan tus riesgos más probables. Conoce las obligaciones de aviso y de evidencia en el siniestro. Considera seguros cibernéticos y de responsabilidad civil.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,16 @@ Muchas empresas descubren en el siniestro que su cobertura excluía justamente l
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa de alimentos contrata un seguro de 200 millones contra incendio. Un corte eléctrico daña su cámara de frío y pierde 30 millones en mercadería; la póliza excluía daños por variación de tensión, y el seguro no paga. Con un deducible de 5 % y un límite de 200 millones, un incendio de 100 millones habría pagado 95 millones, pero la pérdida más probable estaba fuera de la cobertura (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La CMF supervisa a las compañías de seguros y a los corredores y publica información sobre las entidades autorizadas a operar en el mercado asegurador.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: aviso al seguro y evidencia de la crisis
 

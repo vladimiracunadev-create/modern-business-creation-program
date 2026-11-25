@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Exactitud de inventario** | Porcentaje de coincidencia entre registro y físico. |
 | **Lote y vencimiento** | Control obligatorio en rubros regulados. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El conteo cíclico que no detiene la operación
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Conteo cíclico"]
-    C --> A2["Trazabilidad"]
-    C --> A3["Exactitud de inventario"]
-    C --> A4["Lote y vencimiento"]
-    A1 & A2 & A3 & A4 --> D{{"definir la política de conteos<br/>y el nivel de trazabilidad<br/>exigido por el rubro"}}
-    D --> E["Entregable<br/>política de inventario con<br/>calendario de conteos cíclicos<br/>y esquema de trazabilidad de<br/>lote"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El conteo cíclico frecuente por categoría detecta problemas antes que el inventario anual completo y no detiene la operación; en alimentos, medicamentos y químicos, la trazabilidad de lote es obligatoria.
+
+![Esquema: El conteo cíclico que no detiene la operación](modelo-mental.svg)
+
+**Lectura guiada:** El ciclo recorre las categorías en el año. Cada vuelta mide la exactitud y busca la causa de las diferencias, de modo que el inventario se corrige antes de que el error se acumule.
+
+**Piénsalo así:** Es revisar una habitación a la vez en lugar de ordenar la casa entera una vez al año: nunca paras todo y siempre hay algo más limpio.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El conteo cíclico frecuente por categoría detecta problemas antes que el inven
 
 ### 2. Cómo se traduce en la práctica
 
-El conteo cíclico detecta problemas antes y no detiene la operación. En alimentos, medicamentos y químicos la trazabilidad de lote es obligatoria y debe permitir un retiro de producto en horas: si el sistema no lo permite, el incumplimiento se descubre exactamente cuando hay que ejecutar el retiro.
+Define la frecuencia de conteo por categoría según rotación y valor. Mide la exactitud del inventario y registra la causa de cada diferencia. Para productos con vencimiento o sanitarios, exige trazabilidad de lote y registra su entrada y salida. Entrena a quienes cuentan y mantén la separación de funciones entre quien cuenta y quien registra.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El conteo cíclico detecta problemas antes y no detiene la operación. En alimen
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una bodega con 2.000 productos define tres categorías de rotación. Cuenta la categoría A (200 productos) cada mes, la B cada trimestre y la C cada semestre. En el primer mes detecta una exactitud de 91 % en la categoría A: las diferencias provienen de recepciones sin registrar. Corrige el proceso de recepción y en tres meses la exactitud sube a 98 % sin detener la operación (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional informa los requisitos de trazabilidad y control de alimentos, que obligan a registrar lotes y vencimientos.
+- **The Goal** (North River Press): Goldratt muestra cómo el inventario inexacto o excesivo oculta problemas del sistema y distorsiona las decisiones de capacidad y compra.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Detalla qué establecimientos requieren autorización sanitaria, qué antecedentes se presentan, qué condiciones de planta física se exigen y cuál es la vigencia del permiso.
 - *Cómo leerla:* Léela antes de firmar el arriendo, no después: las exigencias de planta física —separación de áreas, superficies lavables, agua potable— se resuelven en el diseño y se vuelven carísimas de corregir sobre un local ya construido.
 - *Uso en esta clase:* aporta el marco de «Autorización sanitaria de alimentos» para definir la política de conteos y el nivel de trazabilidad exigido por el rubro.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para definir la política de conteos y el nivel de trazabilidad exigido por el rubro.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Misión comercial** | Actividad de contacto con compradores potenciales. |
 | **Adecuación cultural** | Ajuste de la oferta a las prácticas del mercado destino. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un camino para entrar a un mercado con apoyo institucional
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["ProChile"]
-    C --> A2["Estudio de mercado"]
-    C --> A3["Misión comercial"]
-    C --> A4["Adecuación cultural"]
-    A1 & A2 & A3 & A4 --> D{{"definir el mercado objetivo y<br/>la estrategia de entrada con<br/>apoyo institucional"}}
-    D --> E["Entregable<br/>plan de entrada a mercado con<br/>estudio, actividades de<br/>promoción e instrumentos de<br/>apoyo identificados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** ProChile ofrece estudios de mercado, agendas de negocios, ferias y cofinanciamiento de promoción; su valor mayor está en la información y el contacto validado, que reducen el costo de aprendizaje.
+
+![Esquema: Un camino para entrar a un mercado con apoyo institucional](modelo-mental.svg)
+
+**Lectura guiada:** La línea ordena el camino de un primer mercado. El hito destacado es la agenda de negocios, el paso que pasa de la información a conversaciones reales con compradores.
+
+**Una imagen cotidiana:** Es llegar a una ciudad nueva con un guía local: no te evita caminar, pero te ahorra perderte.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ ProChile ofrece estudios de mercado, agendas de negocios, ferias y cofinanciamie
 
 ### 2. Cómo se traduce en la práctica
 
-Los estudios de mercado por país de ProChile entregan tamaño, canales, competencia y requisitos de entrada verificados, que es exactamente el insumo de una estimación bottom-up seria. Participar en un evento sin plan de seguimiento produce contactos que se enfrían en semanas.
+Define el mercado objetivo con datos y elige uno primero. Solicita los estudios y las agendas de negocios de ProChile y evalúa los cofinanciamientos disponibles. Adapta el producto, el precio y la comunicación al destino. Mide qué conversaciones se transforman en cotizaciones y pedidos antes de ampliar la inversión.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Los estudios de mercado por país de ProChile entregan tamaño, canales, compete
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de ropa viaja a una feria internacional sin investigar el mercado, imprime cientos de catálogos y no logra contactos útiles; gasta casi todo el presupuesto de promoción en un viaje. Después: usa un estudio de mercado de ProChile, solicita una agenda de reuniones con compradores calificados y vuelve con tres cotizaciones concretas. La adecuación cultural, como tallas y estaciones, también la prepara con anticipación (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Programas, estudios de mercado y promoción** (ProChile): ProChile publica los programas, estudios de mercado, agendas y herramientas de promoción para la entrada a mercados.
+- **Crossing the Chasm (3.ª ed., 2014)** (HarperBusiness): Moore recomienda concentrarse en un segmento acotado de mercado antes de ampliar, idea que se aplica a elegir un primer mercado de exportación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -158,6 +163,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Explica qué se entiende por exportación de servicios, qué condiciones deben cumplirse para acceder al tratamiento tributario correspondiente y qué documentación de respaldo se exige.
 - *Cómo leerla:* Contrástala siempre con la resolución del SII aplicable: ProChile explica el concepto y el mercado, pero la calificación que habilita el tratamiento de IVA la resuelve la normativa tributaria.
 - *Uso en esta clase:* aporta el marco de «Exportación de servicios» para definir el mercado objetivo y la estrategia de entrada con apoyo institucional.
+
+**HarperBusiness — Crossing the Chasm (3.ª ed., 2014)**  
+<https://openlibrary.org/isbn/9780062292988> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo una empresa con tecnología o servicio nuevo pasa de los primeros adoptantes al mercado mayoritario concentrándose en un segmento acotado antes de ampliar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Crossing the Chasm (3.ª ed., 2014)» para definir el mercado objetivo y la estrategia de entrada con apoyo institucional.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

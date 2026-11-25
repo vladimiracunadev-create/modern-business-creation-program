@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Gasto** | Recurso consumido para operar la empresa con independencia de las ventas. |
 | **Inversión** | Desembolso que genera un activo con capacidad de producir ingreso futuro. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Costo, gasto o inversión?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ingreso"]
-    C --> A2["Costo"]
-    C --> A3["Gasto"]
-    C --> A4["Inversión"]
-    A1 & A2 & A3 & A4 --> D{{"clasificar correctamente cada<br/>salida de dinero antes de<br/>proyectar rentabilidad"}}
-    D --> E["Entregable<br/>clasificación de las veinte<br/>salidas de dinero más grandes<br/>en costo, gasto o inversión"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Clasificar bien cada salida de dinero decide el margen, el punto de equilibrio y la conclusión de si conviene crecer.
+
+![Esquema: ¿Costo, gasto o inversión?](modelo-mental.svg)
+
+**Cómo leerlo:** Recorre el árbol con cada pago relevante. La primera pregunta separa inversión de lo demás; la segunda distingue costo variable de gasto fijo. Una mala respuesta cambia todas las cifras posteriores.
+
+**Para recordarlo:** Es ordenar un cajón de herramientas: si el martillo queda en el cajón de los clavos, cada vez que lo necesites lo buscarás en el lugar equivocado.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La confusión más cara del fundador es tratar toda salida de dinero como gasto.
 
 ### 2. Cómo se traduce en la práctica
 
-El caso que más se equivoca es el sueldo del fundador. Tratarlo como utilidad hace parecer rentable un negocio que no lo es, y esa distorsión se arrastra a la valoración cuando llega el momento de vender: un comprador normalizará ese sueldo a valor de mercado y el resultado caerá.
+Haz una lista de todo lo que salió de la caja el último mes y clasifica cada línea con el árbol. Suma por categoría: el margen bruto es ingreso menos costos variables; el resultado operativo es ese margen menos gastos fijos. Si un costo variable estaba escondido entre los fijos, tu negocio escala menos de lo que crees. Revisa la clasificación con tu contador cuando haya dudas tributarias.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El caso que más se equivoca es el sueldo del fundador. Tratarlo como utilidad h
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Para decidir cómo clasificar el pago a una agencia de diseño, hazte las preguntas en orden. Uno: ¿lo que entrega durará más de un año, como un sitio web? Entonces es inversión. Dos: si no, ¿cambia con las ventas, como la comisión por cada pedido? Entonces es costo variable. Tres: si no cambia con las ventas, como la suscripción mensual del diseñador, es gasto fijo. Con esa clasificación sabes cuánto debes vender para cubrirlo.
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican a personas no financieras la diferencia entre costos, gastos y activos y cómo afecta cada una al margen y al flujo de caja.
+- **Simple Numbers, Straight Talk, Big Profits!** (Greg Crabtree): Crabtree propone indicadores simples para pequeñas empresas basados en separar bien los costos del margen, de modo que el dueño decida con números claros.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para clasificar correctamente cada salida de dinero antes de proyectar rentabilidad.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para clasificar correctamente cada salida de dinero antes de proyectar rentabilidad.
+
+**Greg Crabtree — Simple Numbers, Straight Talk, Big Profits!**  
+<https://openlibrary.org/isbn/9780989645232> · verificado 2026-11-25
+
+- *Qué contiene:* Propone indicadores simples para pequeñas empresas, como el costo laboral sobre el margen bruto. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Simple Numbers, Straight Talk, Big Profits!» para clasificar correctamente cada salida de dinero antes de proyectar rentabilidad.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

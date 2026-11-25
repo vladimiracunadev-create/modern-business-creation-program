@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Ley aplicable** | Ordenamiento que rige la interpretación del contrato. |
 | **Escalamiento** | Secuencia pactada de negociación, mediación y litigio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Escalar una disputa sin ir directo a un juicio
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Jurisdicción"]
-    C --> A2["Arbitraje"]
-    C --> A3["Ley aplicable"]
-    C --> A4["Escalamiento"]
-    A1 & A2 & A3 & A4 --> D{{"elegir el mecanismo de<br/>resolución proporcional al<br/>valor y riesgo del contrato"}}
-    D --> E["Entregable<br/>cláusula de resolución de<br/>controversias con escalamiento<br/>y justificación del mecanismo<br/>elegido"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El arbitraje es más rápido y confidencial pero más caro por adelantado, lo que puede volverlo inaccesible para quien tiene menos recursos; el mecanismo debe ser proporcional al valor y riesgo del contrato.
+
+![Esquema: Escalar una disputa sin ir directo a un juicio](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño es un nivel de disputa. Pacta un camino escalonado: la mayoría de los conflictos se resuelven en los primeros peldaños si el contrato los exige antes de acudir a un juicio.
+
+**Una analogía:** Es la secuencia de un conflicto familiar: primero se conversa, luego interviene alguien de confianza y solo al final se acude a una autoridad.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El arbitraje es más rápido y confidencial pero más caro por adelantado, lo qu
 
 ### 2. Cómo se traduce en la práctica
 
-El arbitraje es más rápido y confidencial pero caro por adelantado, lo que puede volverlo inaccesible para quien tiene menos recursos. Pactarlo en contratos de monto bajo equivale, en la práctica, a renunciar a reclamar: el costo del procedimiento supera lo que se discute.
+Elige la jurisdicción, la ley aplicable y el mecanismo de solución según el monto y la importancia del contrato. Para montos pequeños, evita arbitrajes costosos. Incluye pasos previos: conversación, escalamiento y mediación con plazos. Verifica que la cláusula sea clara sobre el lugar, el idioma y los costos. Un abogado debe revisar las cláusulas de contratos de alto valor.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ El arbitraje es más rápido y confidencial pero caro por adelantado, lo que pue
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Proveedor: «No pagan la factura de 4 millones y nuestro contrato exige arbitraje». Abogada: «El arbitraje puede costar más que lo reclamado. Revisemos si hay una etapa previa». Proveedor: «Sí, hay escalamiento a gerencias en 15 días y luego mediación». Abogada: «Úsalos primero: el costo es menor y puedes mantener la relación. Para contratos futuros de este monto, pactemos tribunales ordinarios» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código de Procedimiento Civil y las normas sobre arbitraje, consultables en la Biblioteca del Congreso Nacional, regulan los mecanismos de solución de controversias entre empresas.
+- **Getting to Yes (3.ª ed., 2011)** (Penguin): Fisher y Ury proponen resolver los conflictos a partir de intereses y criterios objetivos antes de recurrir a procedimientos adversariales.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para elegir el mecanismo de resolución proporcional al valor y riesgo del contrato.
+
+**Penguin — Getting to Yes (3.ª ed., 2011)**  
+<https://openlibrary.org/isbn/9780143118756> · verificado 2026-11-25
+
+- *Qué contiene:* Expone la negociación basada en intereses: separar a las personas del problema, generar opciones de beneficio mutuo y usar criterios objetivos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Getting to Yes (3.ª ed., 2011)» para elegir el mecanismo de resolución proporcional al valor y riesgo del contrato.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

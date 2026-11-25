@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Costo discrecional** | Gasto postergable sin afectar la operación. |
 | **Capacidad de recuperación** | Posibilidad de volver a crecer después del ajuste. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: En qué orden recortar sin destruir la capacidad de recuperación
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Reducción de costos"]
-    C --> A2["Costo estructural"]
-    C --> A3["Costo discrecional"]
-    C --> A4["Capacidad de recuperación"]
-    A1 & A2 & A3 & A4 --> D{{"definir la secuencia de<br/>reducción de costos<br/>preservando capacidad de<br/>recuperación"}}
-    D --> E["Entregable<br/>plan de reducción con<br/>clasificación de costos,<br/>secuencia de corte y<br/>evaluación de efecto en<br/>capacidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El recorte indiscriminado destruye la capacidad de recuperación: se corta marketing, se pierde pipeline, se pierde venta y se corta más; la secuencia correcta empieza por lo discrecional.
+
+![Esquema: En qué orden recortar sin destruir la capacidad de recuperación](modelo-mental.svg)
+
+**Cómo leerlo:** Cada peldaño es más costoso en capacidad que el anterior. Recorrerlos en orden permite ahorrar lo necesario sin cortar lo que la empresa necesitará para volver a crecer.
+
+**Una imagen cotidiana:** Es aligerar una mochila en una subida: primero lo que no necesitas, luego lo que puedes reemplazar y solo al final lo que cargas por necesidad.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El recorte indiscriminado destruye la capacidad de recuperación: se corta marke
 
 ### 2. Cómo se traduce en la práctica
 
-El recorte porcentual parejo es el más fácil de decidir y el más destructivo: corta marketing, se pierde pipeline, se pierde venta y se corta más. Cortar la capacidad comercial al inicio de una crisis de caja convierte un problema de liquidez en una espiral de ingresos decrecientes.
+Clasifica los costos en discrecionales, variables renegociables, estructurales y de personas. Calcula el ahorro potencial y el impacto de cada uno. Recorta en orden y evita las medidas que reducen la capacidad de generar ingresos. Si hay ajuste de dotación, consulta con un abogado laboral y comunica con cuidado: la causal, la forma y el mensaje importan.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El recorte porcentual parejo es el más fácil de decidir y el más destructivo:
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa necesita reducir 15 % de sus costos. Su primera idea es despedir a seis vendedores. Al recorrer la secuencia, recorta 5 puntos con gastos discrecionales y suscripciones sin uso, renegocia contratos y obtiene 6 puntos más, reduce un arriendo duplicado y aporta 3 puntos. Solo el 1 % restante lo logra con ajustes de jornada acordados. Preserva el equipo comercial y recupera ventas antes que sus competidores (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Código del Trabajo (DFL 1 de 2002)** (Biblioteca del Congreso Nacional): Los artículos 161 y 162 del Código del Trabajo regulan el término por necesidades de la empresa y su comunicación escrita.
+- **The Hard Thing About Hard Things** (HarperBusiness): Horowitz describe decisiones de reducción de costos y de personal en una empresa en crisis y la importancia de comunicarlas con claridad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: reducir costos sin romper la confianza
 
@@ -189,6 +194,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Incluye el contenido del reglamento interno y el protocolo contra el acoso y la violencia (art. 154), el procedimiento de investigación de denuncias (art. 211-C), las causales de término y su comunicación (arts. 161 y 162), las prácticas antisindicales (arts. 289 y 291) y la prohibición de reemplazar a trabajadores en huelga (art. 345).
 - *Cómo leerla:* Úsalo para separar lo que el empleador debe hacer en un conflicto laboral de lo que solo conviene comunicar. Verifica siempre la versión vigente del artículo antes de citarlo.
 - *Uso en esta clase:* aporta el marco de «Código del Trabajo (DFL 1 de 2002)» para definir la secuencia de reducción de costos preservando capacidad de recuperación.
+
+**HarperBusiness — The Hard Thing About Hard Things**  
+<https://openlibrary.org/isbn/9780062273215> · verificado 2026-11-25
+
+- *Qué contiene:* Relata decisiones difíciles de gestión al dirigir una empresa, incluidas las crisis. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Hard Thing About Hard Things» para definir la secuencia de reducción de costos preservando capacidad de recuperación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Licencia de uso** | Autorización de uso sin transferir titularidad. |
 | **Obra por encargo** | Creación desarrollada a petición de un tercero. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿De quién es lo que se creó?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Titularidad"]
-    C --> A2["Cesión de derechos"]
-    C --> A3["Licencia de uso"]
-    C --> A4["Obra por encargo"]
-    A1 & A2 & A3 & A4 --> D{{"definir quién es titular de lo<br/>creado y qué se cede o<br/>licencia"}}
-    D --> E["Entregable<br/>cláusula de propiedad<br/>intelectual con alcance de<br/>cesión, licencias y derechos<br/>preexistentes"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En Chile la titularidad del software y de las obras por encargo depende del contrato y de la relación laboral: no se transfiere automáticamente por haber pagado.
+
+![Esquema: ¿De quién es lo que se creó?](modelo-mental.svg)
+
+**Cómo leerlo:** Recorre el árbol con cada entregable. Si la respuesta final es el autor conserva sus derechos, quien pagó solo tiene la licencia que se pactó, que puede ser limitada.
+
+**Una analogía:** Es encargar un retrato: el dueño del cuadro es quien lo compró, pero los derechos sobre la imagen pueden seguir siendo del pintor si nada se pactó.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En Chile la titularidad del software y de las obras creadas por encargo depende 
 
 ### 2. Cómo se traduce en la práctica
 
-Sin cláusula de cesión, el proveedor puede conservar derechos sobre lo que el cliente cree haber comprado, y eso aparece en la due diligence de la parte 22 como un hallazgo que afecta precio. El error inverso también existe: una redacción demasiado amplia cede el conocimiento previo del proveedor.
+En cada contrato de creación (software, diseño, contenido), define quién es titular, qué se cede, con qué alcance, plazo y territorio, y qué se licencia. Pide la entrega del código fuente y de la documentación. Para empleados y colaboradores, incluye cláusulas de cesión y confidencialidad. Registra lo que se pueda ante INAPI y guarda la evidencia de autoría.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Sin cláusula de cesión, el proveedor puede conservar derechos sobre lo que el 
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa paga 15 millones a una agencia para desarrollar su plataforma y asume que es dueña del código. Al querer cambiar de proveedor, la agencia le informa que el contrato solo otorgaba una licencia de uso y le cobra por entregar los fuentes. La corrección: pactar desde el inicio la cesión de derechos, la entrega del código y la documentación, y revisar el alcance de cualquier licencia de terceros (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI registra marcas, patentes y diseños industriales, derechos que se pueden ceder o licenciar mediante contratos.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 17.336 sobre propiedad intelectual regula los derechos de autor, su cesión y licencias; su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

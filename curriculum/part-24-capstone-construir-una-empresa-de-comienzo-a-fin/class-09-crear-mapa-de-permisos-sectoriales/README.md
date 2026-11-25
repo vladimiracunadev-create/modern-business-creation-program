@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Plazo de obtención** | Tiempo estimado de cada trámite. |
 | **Costo de habilitación** | Desembolso total para poder operar. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El orden de los permisos del caso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Mapa de permisos"]
-    C --> A2["Secuencia de habilitación"]
-    C --> A3["Plazo de obtención"]
-    C --> A4["Costo de habilitación"]
-    A1 & A2 & A3 & A4 --> D{{"construir el mapa de permisos<br/>sectoriales del caso con<br/>secuencia y plazos"}}
-    D --> E["Entregable<br/>mapa de permisos del caso con<br/>autoridad, requisito,<br/>secuencia, plazo y costo por<br/>permiso"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El mapa de permisos del caso debe ser específico, con municipio, actividad y sector; la evaluación revisa que la secuencia respete las dependencias reales: uso de suelo antes de la patente, y las autorizaciones sectoriales antes de abrir.
+
+![Esquema: El orden de los permisos del caso](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño es un permiso que habilita al siguiente. Cambiar el orden cuesta tiempo y dinero. Cada uno tiene un plazo y un costo que deben entrar en el cronograma y en el presupuesto de arranque.
+
+**Una imagen cotidiana:** Es el orden de los trámites de una mudanza: primero el contrato, luego los servicios y recién después los muebles.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El mapa de permisos del caso debe ser específico: municipio, actividad, sector.
 
 ### 2. Cómo se traduce en la práctica
 
-Uso de suelo antes de patente, resolución sanitaria antes de operar: la secuencia no es negociable y define el cronograma más que la obra. Listar permisos sin verificar cuáles condicionan a cuáles produce un plan que se rompe en la primera dependencia.
+Construye un mapa específico para tu caso: comuna, actividad y sector. Lista cada permiso con autoridad, requisitos, plazo, costo, dependencias y evidencia. Verifica la secuencia real y reserva el tiempo y el dinero en el presupuesto de arranque. Calendariza las renovaciones. Si algo no aplica, explica por qué.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Uso de suelo antes de patente, resolución sanitaria antes de operar: la secuenc
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+El caso arrendaría un local para su taller. Primero obtiene el certificado de informaciones previas, que confirma el uso de suelo; luego revisa si su actividad requiere autorizaciones sectoriales, como una instalación eléctrica declarada ante la SEC; solicita la patente con esos antecedentes y, al tener permisos, inicia actividades. Estima los plazos y costos de cada paso, y descubre que debe sumar tres semanas al cronograma antes de abrir (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional informa las autorizaciones sanitarias y sus requisitos, un ejemplo de permiso sectorial.
+- **Instalaciones eléctricas y de gas** (Superintendencia de Electricidad y Combustibles): La Superintendencia de Electricidad y Combustibles informa los requisitos de instalaciones declaradas y de instaladores autorizados.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

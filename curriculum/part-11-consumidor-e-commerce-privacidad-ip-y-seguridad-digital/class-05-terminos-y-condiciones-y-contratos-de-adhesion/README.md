@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Legibilidad** | Exigencia de redacción clara y accesible. |
 | **Aceptación informada** | Constancia de que el consumidor conoció las condiciones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué tan riesgosa es una cláusula de tus términos y condiciones
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Contrato de adhesión"]
-    C --> A2["Cláusula abusiva"]
-    C --> A3["Legibilidad"]
-    C --> A4["Aceptación informada"]
-    A1 & A2 & A3 & A4 --> D{{"redactar términos y<br/>condiciones válidos y<br/>ejecutables en Chile"}}
-    D --> E["Entregable<br/>términos y condiciones<br/>revisados con identificación<br/>de cláusulas de riesgo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los términos y condiciones son contratos de adhesión sujetos a control de contenido: cláusulas que limitan derechos irrenunciables, invierten la carga de la prueba o permiten modificaciones unilaterales sin aviso pueden ser ineficaces.
+
+![Esquema: Qué tan riesgosa es una cláusula de tus términos y condiciones](modelo-mental.svg)
+
+**Qué mirar primero:** Clasifica cada cláusula según su efecto sobre el consumidor. Las rojas no se defienden: se eliminan. Las amarillas se aclaran; las verdes se conservan.
+
+**Piénsalo así:** Es la letra chica de un contrato: si la lees tú y no la entiendes, tampoco lo hará un juez que la evalúe.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los términos y condiciones son contratos de adhesión y están sujetos a contro
 
 ### 2. Cómo se traduce en la práctica
 
-Cláusulas que limitan derechos irrenunciables, invierten la carga de la prueba o permiten modificación unilateral sin aviso pueden declararse nulas. Traducir términos de otra jurisdicción sin adaptarlos produce un documento que se ve completo y es inaplicable justo donde se necesita.
+Reescribe tus términos en lenguaje sencillo y revisa cada cláusula con la tabla de colores. Evita copiar textos de otros sitios: las leyes y los productos son distintos. Asegura la aceptación informada: el consumidor debe poder leer, guardar o imprimir las condiciones antes de comprar. Actualiza los términos cuando cambien la ley o tu oferta.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Cláusulas que limitan derechos irrenunciables, invierten la carga de la prueba 
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una tienda usa términos copiados de otro sitio que dicen que no hay garantía, que puede cambiar precios sin aviso y que cualquier disputa se resuelve en otra ciudad. Después: reescribe con lenguaje claro, garantiza lo que la ley exige, avisa cambios con anticipación y ofrece reclamos en línea. Su tasa de reclamos bajó y no tuvo problemas en una fiscalización posterior (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): La Ley 19.496 regula los contratos de adhesión y fija que las cláusulas que limitan derechos irrenunciables pueden carecer de efecto; el texto vigente se consulta en la BCN.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica criterios sobre cláusulas abusivas y términos y condiciones que ayudan a evaluar el contenido de un contrato de adhesión.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -158,6 +163,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para redactar términos y condiciones válidos y ejecutables en Chile.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para redactar términos y condiciones válidos y ejecutables en Chile.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

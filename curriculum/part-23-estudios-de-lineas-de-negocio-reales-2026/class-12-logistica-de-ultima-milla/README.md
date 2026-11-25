@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Costo por entrega** | Costo total dividido por entregas efectivas. |
 | **Relación laboral del repartidor** | Calificación de la figura contractual. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuántas entregas por ruta justifican el modelo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Última milla"]
-    C --> A2["Densidad de ruta"]
-    C --> A3["Costo por entrega"]
-    C --> A4["Relación laboral del<br/>repartidor"]
-    A1 & A2 & A3 & A4 --> D{{"validar la densidad necesaria<br/>y resolver la figura<br/>contractual de los<br/>repartidores"}}
-    D --> E["Entregable<br/>modelo de última milla con<br/>densidad requerida, costo por<br/>entrega y análisis de la<br/>relación laboral"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La rentabilidad de la última milla depende de la densidad: sin volumen concentrado, el costo por entrega hace inviable el modelo; la calificación de la relación con los repartidores es otro riesgo estructural.
+
+![Esquema: Cuántas entregas por ruta justifican el modelo](modelo-mental.svg)
+
+**Lectura guiada:** Cada banda es una decisión sobre una zona. Con baja densidad, aumentar el servicio solo aumenta pérdidas. La figura contractual de los repartidores debe resolverse antes de crecer.
+
+**Una analogía:** Es una ruta de bus con pocos pasajeros: cuando va casi vacía, cada viaje cuesta más de lo que recauda.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La rentabilidad de la última milla depende de la densidad: sin volumen concentr
 
 ### 2. Cómo se traduce en la práctica
 
-Sin volumen concentrado el costo por entrega hace inviable el modelo, de modo que expandir zona antes de lograr densidad multiplica pérdidas. Y la calificación de la relación con los repartidores es un riesgo laboral relevante en Chile que se materializa completo y retroactivo.
+Mide la densidad por zona y horario y calcula el costo por entrega. Concentra tus operaciones donde haya volumen y evita expandirte a zonas deficitarias. Resuelve la figura contractual de los repartidores con asesoría laboral: la ley mira los hechos y no el nombre del contrato. Cumple las obligaciones de seguridad y de seguro de quienes trabajan en la calle.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Sin volumen concentrado el costo por entrega hace inviable el modelo, de modo qu
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Calcula para una zona: entregas por hora, costo por hora del repartidor y costo por entrega. Si un repartidor cuesta 6.000 pesos la hora y hace tres entregas, cada entrega cuesta 2.000; con seis entregas, 1.000. Define el umbral mínimo de densidad para operar la zona. Después, escribe cómo se contrata a los repartidores y qué señales de subordinación (horarios, supervisión, exclusividad) existen en tu modelo. Los valores del ejercicio son ilustrativos.
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los criterios para calificar la relación entre una plataforma o empresa y quienes reparten.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código del Trabajo y las normas sobre trabajo en plataformas digitales, consultables en la BCN, regulan la relación con los repartidores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

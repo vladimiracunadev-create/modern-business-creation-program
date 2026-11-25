@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Modelo de ahorro compartido** | Cobro vinculado al ahorro efectivamente logrado. |
 | **Garantía de desempeño** | Compromiso sobre el rendimiento del sistema. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuándo se paga la inversión solar con el ahorro
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Eficiencia energética"]
-    C --> A2["Instalación declarada"]
-    C --> A3["Modelo de ahorro<br/>compartido"]
-    C --> A4["Garantía de desempeño"]
-    A1 & A2 & A3 & A4 --> D{{"definir el modelo de cobro y<br/>asegurar el cumplimiento<br/>técnico y normativo"}}
-    D --> E["Entregable<br/>modelo de negocio energético<br/>con cálculo de retorno para el<br/>cliente, cumplimiento SEC y<br/>modelo de cobro"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El negocio solar y de eficiencia energética requiere un instalador autorizado y la declaración ante la SEC, y su venta se apoya en el cálculo de retorno para el cliente; el modelo de ahorro compartido traslada parte del riesgo al proveedor.
+
+![Esquema: Cuándo se paga la inversión solar con el ahorro](modelo-mental.svg)
+
+**Qué mirar primero:** La línea de ahorro sube con los años hasta cruzar la inversión inicial. Ese cruce es lo que el cliente quiere ver antes de comprar. Cuanto más creíble el cálculo, mejor la venta.
+
+**Una imagen cotidiana:** Es comprar un electrodoméstico eficiente: pagas más hoy, pero la cuenta de luz baja cada mes hasta que, en algún momento, lo ahorrado supera lo pagado.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El negocio solar y de eficiencia energética requiere instalador autorizado y de
 
 ### 2. Cómo se traduce en la práctica
 
-El modelo de ahorro compartido alinea incentivos pero exige medición confiable acordada con el cliente y capacidad financiera para sostener la inversión inicial. Prometer ahorros sin metodología de medición pactada convierte cada facturación en una negociación.
+Calcula el retorno del cliente con su consumo real, la tarifa vigente y escenarios de cambio. Decide el modelo de cobro: venta, arriendo o ahorro compartido, y quién asume qué riesgo. Garantiza que la instalación la haga un instalador autorizado y se declare ante la SEC. Informa con veracidad los ahorros: la publicidad debe poder comprobarse.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El modelo de ahorro compartido alinea incentivos pero exige medición confiable 
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Cliente: «¿En cuánto tiempo recupero lo que pago por los paneles?». Vendedora: «Con su consumo y la tarifa actual, estimamos un retorno en unos cinco años, con un rango por variación de tarifas». Cliente: «¿Y si no ahorro lo prometido?». Vendedora: «Podemos ofrecer una garantía de desempeño o un modelo de ahorro compartido. Además, la instalación la hace un instalador autorizado y se declara en la SEC» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Instalaciones eléctricas y de gas** (Superintendencia de Electricidad y Combustibles): La Superintendencia de Electricidad y Combustibles informa los requisitos de instaladores autorizados y la declaración de instalaciones.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica los criterios de información y publicidad veraz aplicables a las ofertas de ahorro energético a consumidores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

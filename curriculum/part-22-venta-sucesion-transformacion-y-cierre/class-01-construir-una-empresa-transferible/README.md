@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Contrato a nombre de la empresa** | Vínculo que no depende de la persona del fundador. |
 | **Descuento por dependencia** | Reducción de valor por la dependencia del dueño actual. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que hace transferible a una empresa
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Empresa transferible"]
-    C --> A2["Activo intangible<br/>documentado"]
-    C --> A3["Contrato a nombre de la<br/>empresa"]
-    C --> A4["Descuento por dependencia"]
-    A1 & A2 & A3 & A4 --> D{{"identificar qué falta para que<br/>la empresa opere sin su<br/>fundador"}}
-    D --> E["Entregable<br/>diagnóstico de<br/>transferibilidad con brechas<br/>en contratos, procesos, equipo<br/>e información"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Una empresa transferible tiene contratos a su nombre, procesos documentados, un equipo con responsabilidades definidas e información financiera confiable; construir eso toma años, por lo que hay que empezar antes de querer vender.
+
+![Esquema: Lo que hace transferible a una empresa](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa quita una razón para que un comprador descuente el precio. Si falta una, el valor baja porque el riesgo de depender de una persona o de datos poco confiables aumenta.
+
+**Una imagen cotidiana:** Es una casa lista para mudarse: con papeles al día, instalaciones funcionando, llaves en regla y cuentas ordenadas; el comprador solo tiene que entrar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Una empresa transferible tiene contratos a su nombre, procesos documentados, equ
 
 ### 2. Cómo se traduce en la práctica
 
-Contratos a nombre de la empresa, procesos documentados, equipo con responsabilidades definidas e información financiera confiable son los cuatro pilares. Postergar la documentación hasta que aparezca un comprador significa negociar el precio con el descuento por dependencia ya aplicado.
+Haz una lista de qué parte de tu empresa depende de ti: contratos, relaciones, conocimiento, firmas y permisos. Convierte a nombre de la empresa los contratos, documenta los procesos, define roles y mejora la información financiera. Empieza años antes de vender: la transferibilidad es una propiedad que se construye, no un trámite de última hora.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Contratos a nombre de la empresa, procesos documentados, equipo con responsabili
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Dos agencias de diseño tienen ingresos similares. La primera tiene contratos a nombre del dueño, sus procesos viven en su cabeza y sus estados financieros se arman al final del año. La segunda tiene contratos con la empresa, un manual de proyectos, un equipo con jefaturas y cierres mensuales. Un comprador ofrece a la segunda un múltiplo mayor y una transición más corta; a la primera le exige que el dueño se quede tres años (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Built to Sell** (Portfolio): Warrillow explica qué hace vendible a una empresa de servicios: un sistema que funcione sin el dueño, ingresos recurrentes y clientes que no dependan de una persona.
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica del SII ofrece una vista objetiva de la situación tributaria que un comprador revisará para confiar en la información de la empresa.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para identificar qué falta para que la empresa opere sin su fundador.
+
+**Portfolio — Built to Sell**  
+<https://openlibrary.org/isbn/9781591845829> · verificado 2026-11-25
+
+- *Qué contiene:* Propone hacer que una empresa de servicios sea vendible por su sistema y no por su dueño.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Built to Sell» para identificar qué falta para que la empresa opere sin su fundador.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

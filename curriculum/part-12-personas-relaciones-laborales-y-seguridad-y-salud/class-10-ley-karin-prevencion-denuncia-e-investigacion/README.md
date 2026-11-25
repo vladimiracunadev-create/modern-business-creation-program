@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Canal de denuncia** | Medio confidencial para reportar. |
 | **Investigación** | Procedimiento reglado con plazos y debido proceso. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo se tramita una denuncia de acoso o violencia
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley 21.643"]
-    C --> A2["Protocolo de prevención"]
-    C --> A3["Canal de denuncia"]
-    C --> A4["Investigación"]
-    A1 & A2 & A3 & A4 --> D{{"implementar protocolo, canal y<br/>procedimiento de investigación<br/>conforme a la ley"}}
-    D --> E["Entregable<br/>protocolo Ley Karin con canal<br/>habilitado, procedimiento de<br/>investigación y registro de<br/>casos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley Karin obliga a todas las empresas con trabajadores a tener un protocolo de prevención, un canal de denuncia y un procedimiento de investigación con plazos.
+
+![Esquema: Cómo se tramita una denuncia de acoso o violencia](modelo-mental.svg)
+
+**Lectura guiada:** Cada casilla es un paso del procedimiento. El rombo decide si se investiga internamente o se deriva a la Inspección del Trabajo; en ambos casos hay plazos y medidas de resguardo.
+
+**Una analogía:** Es el protocolo de emergencia de un edificio: debe estar escrito, conocido y probado antes de que haya fuego.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley Karin obliga a todas las empresas con trabajadores a tener protocolo de p
 
 ### 2. Cómo se traduce en la práctica
 
-El incumplimiento del procedimiento genera responsabilidad aunque el hecho denunciado no se acredite, porque lo que se exige es el debido proceso con plazos. Tener el protocolo sin canal operativo ni personas capacitadas para investigar es el escenario más común y el que peor resultado produce.
+Implementa el protocolo de prevención, difúndelo y deja constancia de su entrega. Habilita un canal de denuncia accesible y reservado. Define el procedimiento: recepción, medidas de resguardo, decisión de investigar o derivar en tres días e investigación concluida en treinta días, escrita, reservada y oyendo a ambas partes. Capacita a quienes investiguen.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ El incumplimiento del procedimiento genera responsabilidad aunque el hecho denun
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Simula una denuncia en tu empresa. Escribe una línea de tiempo: día 1, recibes la denuncia y adoptas medidas de resguardo; día 3, decides si investigas internamente o derivas a la Inspección; hasta el día 30, concluyes la investigación si es interna. Define quién investiga, cómo se garantiza la reserva y cómo se informa a las partes. Anota las dudas que te surgieron. El ejercicio es ilustrativo y no reemplaza la asesoría de un abogado laboral.
+
+### 5. En qué se apoya
+
+- **Ley 21.643 — Prevención, investigación y sanción del acoso laboral, sexual y la violencia en el trabajo** (Biblioteca del Congreso Nacional): La Ley 21.643 exige un protocolo de prevención del acoso laboral, sexual y la violencia en el trabajo y modifica el procedimiento de investigación.
+- **Código del Trabajo (DFL 1 de 2002)** (Biblioteca del Congreso Nacional): El artículo 211-C del Código del Trabajo establece la investigación interna o su remisión a la Inspección en tres días y su conclusión en treinta días, por escrito, reservada y oyendo a ambas partes.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: denuncia, investigación y comunicación interna
 

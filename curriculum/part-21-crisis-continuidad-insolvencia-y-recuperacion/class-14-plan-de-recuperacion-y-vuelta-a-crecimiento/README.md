@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Reconstrucción de capacidad** | Recuperación de recursos recortados durante la crisis. |
 | **Reserva reconstituida** | Restablecimiento del colchón de caja. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La recuperación avanza por hitos de estabilización
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Plan de recuperación"]
-    C --> A2["Hito de estabilización"]
-    C --> A3["Reconstrucción de<br/>capacidad"]
-    C --> A4["Reserva reconstituida"]
-    A1 & A2 & A3 & A4 --> D{{"definir los hitos de<br/>estabilización y la secuencia<br/>de recuperación"}}
-    D --> E["Entregable<br/>plan de recuperación con hitos<br/>de estabilización, secuencia<br/>de reconstrucción y meta de<br/>reserva"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Salir de la crisis exige un plan tan explícito como el de contención: qué indica que está estabilizada, en qué orden se recupera la capacidad y cuándo se reconstituye la reserva.
+
+![Esquema: La recuperación avanza por hitos de estabilización](modelo-mental.svg)
+
+**Cómo leerlo:** La curva es lenta al comienzo, se acelera tras el hito de estabilización y se aplana al recuperarse. Volver a crecer antes del hito, sin reserva ni capacidad, puede repetir la crisis.
+
+**Para recordarlo:** Es la rehabilitación tras una lesión: no corres hasta que el músculo lo permite, y cada etapa tiene criterios claros para avanzar.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Salir de la crisis exige un plan tan explícito como el de contención: qué ind
 
 ### 2. Cómo se traduce en la práctica
 
-Reanudar el crecimiento con la reserva agotada deja a la empresa expuesta al siguiente golpe, que en una recuperación temprana es más probable de lo habitual. Y recuperar capacidad en el orden equivocado —primero estructura, después lo que genera ingreso— alarga la recuperación innecesariamente.
+Define los hitos de estabilización con números: caja, clientes, plazos de pago y reserva. Establece el orden en que recuperarás capacidad (equipo comercial, atención, producción) y cuándo reconstituirás la reserva. Revisa el plan mensualmente y comunica avances comprobables a clientes, trabajadores y proveedores. No declares victoria antes de los hitos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Reanudar el crecimiento con la reserva agotada deja a la empresa expuesta al sig
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa que sobrevivió a una caída de ventas de 40 % define tres hitos: caja positiva por tres semanas seguidas, 90 % de los clientes críticos retenidos y reserva de un mes de gastos reconstituida. Alcanza el primero a los dos meses, el segundo a los cinco y el tercero al octavo mes. Solo entonces vuelve a contratar. Una competidora que creció antes de estabilizarse volvió a quedar sin caja en el mes siguiente (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las leyes laborales, comerciales y concursales, consultables en la Biblioteca del Congreso Nacional, fijan las obligaciones que acompañan la recuperación de una empresa.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa las obligaciones del empleador en procesos de reincorporación y reconstrucción de la dotación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: recuperar confianza con acciones comprobables
 

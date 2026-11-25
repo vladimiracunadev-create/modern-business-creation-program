@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Sitio alternativo** | Infraestructura de respaldo para operar. |
 | **Prueba de recuperación** | Ejercicio de restauración completo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El orden en que se levantan los sistemas tras una caída
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["DRP"]
-    C --> A2["RTO y RPO"]
-    C --> A3["Sitio alternativo"]
-    C --> A4["Prueba de recuperación"]
-    A1 & A2 & A3 & A4 --> D{{"definir el orden de<br/>recuperación tecnológica y<br/>probarlo"}}
-    D --> E["Entregable<br/>plan de recuperación<br/>tecnológica con RTO, RPO,<br/>secuencia de restauración y<br/>registro de pruebas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El plan de recuperación tecnológica traduce el plan de continuidad a infraestructura: qué sistemas se levantan primero, desde qué copia y en cuánto tiempo; la prueba debe ser completa y no solo de archivos.
+
+![Esquema: El orden en que se levantan los sistemas tras una caída](modelo-mental.svg)
+
+**Qué mirar primero:** La línea es el orden de recuperación. El último hito es el que da valor a todos los anteriores: sin una prueba completa, el plan es una hipótesis.
+
+**Una imagen cotidiana:** Es reabrir un teatro tras un corte de luz: primero la energía, luego las luces, después el sonido y recién entonces dejas entrar al público.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El DRP traduce el BCP a infraestructura: qué sistemas se levantan primero, desd
 
 ### 2. Cómo se traduce en la práctica
 
-Definir objetivos ambiciosos que la infraestructura no puede cumplir produce un plan decorativo. Y probar solo la restauración de archivos no valida la continuidad: hay que verificar accesos, integraciones y que la operación pueda efectivamente seguir con lo restaurado.
+Define el orden de recuperación, los objetivos de tiempo y de pérdida de datos por sistema, y el sitio alternativo si corresponde. Prueba la recuperación completa, con usuarios reales y cronómetro, al menos anualmente. Documenta los pasos, las dependencias y los contactos. Si afecta a consumidores, considera que lo ofrecido debe seguir cumpliéndose.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Definir objetivos ambiciosos que la infraestructura no puede cumplir produce un 
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Diseña el orden de recuperación de los cinco sistemas más críticos de tu empresa. Para cada uno anota de qué depende, qué copia usarías, en cuánto tiempo debe estar operativo y quién lo levanta. Calcula cuánto tardaría la recuperación completa con un cronómetro imaginario y compárala con lo que tu negocio tolera. Detecta qué parte de tu plan no ha sido probada. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Site Reliability Engineering** (O'Reilly): Beyer y sus coautores describen la planificación y las pruebas de recuperación como parte de operar servicios confiables.
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): El artículo 12 de la Ley 19.496 obliga a respetar lo ofrecido al consumidor, lo que condiciona los tiempos de recuperación de un servicio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: comunicar durante una caída de sistemas
 
@@ -187,6 +192,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
 - *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el orden de recuperación tecnológica y probarlo.
+
+**O'Reilly — Site Reliability Engineering**  
+<https://openlibrary.org/isbn/9781491929124> · verificado 2026-11-25
+
+- *Qué contiene:* Prácticas de confiabilidad de servicios de Google: objetivos de nivel de servicio, presupuesto de error y gestión de incidentes.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Site Reliability Engineering» para definir el orden de recuperación tecnológica y probarlo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

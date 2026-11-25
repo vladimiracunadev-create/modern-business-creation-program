@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Portabilidad** | Capacidad de exportar datos en formato usable. |
 | **Evaluación de proveedor** | Revisión de seguridad, continuidad y cumplimiento. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué proveedor tecnológico exige más cuidado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Riesgo de proveedor"]
-    C --> A2["Cláusula de salida"]
-    C --> A3["Portabilidad"]
-    C --> A4["Evaluación de proveedor"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué se evalúa antes de<br/>contratar un proveedor<br/>tecnológico"}}
-    D --> E["Entregable<br/>ficha de evaluación de<br/>proveedores SaaS con<br/>seguridad, datos, continuidad<br/>y salida"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Contratar un SaaS traslada la operación pero no la responsabilidad: frente al cliente y frente a la autoridad de datos responde la empresa, de modo que antes de contratar hay que evaluar seguridad, ubicación de datos y salida.
+
+![Esquema: Qué proveedor tecnológico exige más cuidado](modelo-mental.svg)
+
+**Lectura guiada:** Ubica cada proveedor según la sensibilidad de los datos y la dependencia que generas. El cuadrante superior derecho exige evaluación formal antes de firmar.
+
+**Piénsalo así:** Es dejar tus llaves y documentos con una empresa de custodia: importa su seguridad, dónde guarda las cosas y qué pasa si cierra.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Contratar SaaS traslada operación pero no responsabilidad: frente al cliente y 
 
 ### 2. Cómo se traduce en la práctica
 
-Frente al cliente y frente a la autoridad de datos responde la empresa, no el proveedor. Descubrir al terminar que la exportación de datos no es usable —formatos propietarios, sin relaciones, sin históricos— es el escenario que convierte una migración planificada en una pérdida de información.
+Antes de contratar, evalúa seguridad, certificaciones, ubicación y subencargados de los datos, continuidad, portabilidad y salida, y obligación de notificar incidentes. Firma un acuerdo de tratamiento cuando el proveedor trate datos personales por tu cuenta. Documenta la evaluación y repítela cada año para los proveedores críticos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Frente al cliente y frente a la autoridad de datos responde la empresa, no el pr
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa contrata un CRM por su precio y sube allí su base de clientes sin evaluar nada; cuando el proveedor sufre una filtración, descubre que sus datos estaban en otra región y que su contrato no obligaba a avisar. Después: usa una lista de verificación con seguridad, ubicación de los datos, cláusula de salida, portabilidad y notificación de incidentes, y rechaza a dos proveedores que no cumplían (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales** (Biblioteca del Congreso Nacional): La Ley 21.719 distingue al responsable y al encargado del tratamiento y regula sus obligaciones, entre ellas las de seguridad y las de notificar vulneraciones.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Biblioteca del Congreso Nacional publica las normas de datos y ciberseguridad que condicionan el contrato con proveedores tecnológicos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
 
@@ -176,6 +181,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reporta la comunicación del director ejecutivo al personal, la investigación independiente abierta por el directorio, las alegaciones atribuidas a agencias de inteligencia y a otros medios, la vinculación con un cliente llamado Megaspeed y la solicitud de tres comisiones del Congreso.
 - *Cómo leerla:* Es prensa y el caso sigue abierto: úsala para fijar quién afirma qué y cuándo, no como prueba. Separa lo declarado por la empresa de lo atribuido a fuentes, y verifica los comunicados oficiales de NVIDIA a medida que avance la investigación.
 - *Uso en esta clase:* aporta el marco de «Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)» para definir qué se evalúa antes de contratar un proveedor tecnológico.
+
+**Biblioteca del Congreso Nacional — Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1209272> · verificado 2026-11-25
+
+- *Qué contiene:* Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.
+- *Cómo leerla:* Úsala como estándar de diseño del protocolo de incidentes. La vigencia de sus modificaciones se fijó en el 15-10-2027 por la Ley 21.855: comprueba la fecha en la ficha de la BCN antes de planificar.
+- *Uso en esta clase:* aporta el marco de «Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales» para definir qué se evalúa antes de contratar un proveedor tecnológico.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

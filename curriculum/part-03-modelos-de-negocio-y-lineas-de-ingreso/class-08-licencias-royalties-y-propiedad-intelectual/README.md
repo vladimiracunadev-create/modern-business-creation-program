@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Territorio y exclusividad** | Alcance geográfico y de mercado de la licencia. |
 | **Registro previo** | Inscripción del derecho que hace exigible la licencia frente a terceros. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Antes de licenciar, ¿existe el derecho?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Licencia"]
-    C --> A2["Royalty"]
-    C --> A3["Territorio y exclusividad"]
-    C --> A4["Registro previo"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué derecho existe,<br/>si está registrado y bajo qué<br/>condiciones se licencia"}}
-    D --> E["Entregable<br/>borrador de licencia con<br/>objeto, territorio,<br/>exclusividad, royalty y<br/>control de calidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Licenciar exige tener primero un derecho registrado o protegible: marca, patente, diseño industrial o software con autoría acreditada.
+
+![Esquema: Antes de licenciar, ¿existe el derecho?](modelo-mental.svg)
+
+**Cómo leerlo:** Sigue los pasos en orden. El primero es el que más se salta: confirmar que el derecho existe y que está a tu nombre antes de negociar territorios o regalías.
+
+**Una analogía:** Es arrendar una casa: antes de fijar el arriendo, comprueba que eres el dueño y que el título está inscrito.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Licenciar exige tener primero un derecho registrado o protegible: marca en INAPI
 
 ### 2. Cómo se traduce en la práctica
 
-En Chile la marca se protege por clases de la clasificación de Niza y la protección es territorial: registrar en la clase equivocada deja desprotegido el uso real. Toda licencia debe además pactar control de calidad, porque el uso descuidado del licenciatario daña una marca que sigue siendo del licenciante.
+Haz un inventario de activos de propiedad intelectual (marcas, diseños, software, know-how) y verifica cuáles están inscritos y a nombre de quién. Para cada licencia, define territorio, exclusividad, plazo, regalía, derechos de control de calidad y qué ocurre al término. Registra antes de revelar: una licencia sin registro solo obliga entre las partes y no permite perseguir a terceros.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En Chile la marca se protege por clases de la clasificación de Niza y la protec
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide así: uno, ¿el activo es una marca, una patente, un diseño o un software? Dos, ¿está registrado o tiene autoría acreditada? Si no, regístralo primero. Tres, ¿en qué territorios y con qué exclusividad se licencia? Cuatro, ¿qué regalía y qué plazo? Una cervecera artesanal que quiere licenciar su marca descubre que aún no está inscrita en INAPI: inscribe, y solo entonces ofrece la licencia a un distribuidor regional.
+
+### 5. En qué se apoya
+
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI es el organismo ante el que se registran marcas, patentes y diseños industriales en Chile, paso previo para licenciar con eficacia.
+- **DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial** (Biblioteca del Congreso Nacional): El texto refundido de la Ley 19.039 regula qué derechos de propiedad industrial se pueden registrar, que es el punto de partida de cualquier licencia.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar qué derecho existe, si está registrado y bajo qué condiciones se licencia.
+
+**Biblioteca del Congreso Nacional — DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1179684> · verificado 2026-11-12
+
+- *Qué contiene:* Fija el texto vigente de la ley de propiedad industrial. Sus artículos 86 a 88 definen el secreto comercial por tres requisitos copulativos, describen qué constituye su violación y remiten a las acciones de observancia del Título X.
+- *Cómo leerla:* Lee primero el artículo 86: sin las medidas razonables de reserva que exige, la información puede no calificar como secreto comercial. El artículo 87 exige ánimo de provecho propio o ajeno, o de perjudicar al poseedor; no basta con haber accedido.
+- *Uso en esta clase:* aporta el marco de «DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial» para determinar qué derecho existe, si está registrado y bajo qué condiciones se licencia.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

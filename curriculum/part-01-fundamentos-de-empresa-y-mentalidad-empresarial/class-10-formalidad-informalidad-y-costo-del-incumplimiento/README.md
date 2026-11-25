@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Barrera de formalización** | Costo y complejidad percibidos que retrasan la formalización. |
 | **Contingencia** | Obligación probable que aún no se ha materializado en el balance. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El costo de postergar la formalidad
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Informalidad"]
-    C --> A2["Costo del incumplimiento"]
-    C --> A3["Barrera de formalización"]
-    C --> A4["Contingencia"]
-    A1 & A2 & A3 & A4 --> D{{"cuantificar el costo del<br/>incumplimiento antes de<br/>decidir postergar la<br/>formalización"}}
-    D --> E["Entregable<br/>estimación de contingencia<br/>acumulada por cada obligación<br/>no cumplida"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La informalidad se sostiene mientras la empresa es pequeña e invisible y se vuelve cara justo cuando el negocio empieza a funcionar.
+
+![Esquema: El costo de postergar la formalidad](modelo-mental.svg)
+
+**Qué mirar primero:** La curva sube lentamente al principio y se acelera después del primer evento que exige formalidad. El punto marca ese momento; en la zona sombreada el costo de regularizar supera lo que se ahorró.
+
+**Para recordarlo:** Es una deuda con interés compuesto: al principio parece insignificante y después pesa más que el capital original.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La informalidad se sostiene mientras la empresa es pequeña e invisible, y colap
 
 ### 2. Cómo se traduce en la práctica
 
-La informalidad colapsa justo cuando el negocio empieza a funcionar: el primer cliente grande exige factura, el primer trabajador reclama, la primera fiscalización llega. Para entonces la contingencia acumulada —impuestos, cotizaciones, multas e intereses— suele superar varias veces el ahorro obtenido.
+Antes de decidir postergar la formalización, calcula cuatro números: lo que ahorras al mes, lo que te costaría regularizar hoy, lo que acumularías en un año y qué oportunidades pierdes por no poder facturar. Si el segundo y el tercero crecen más rápido que el primero, formaliza ya. Si necesitas apoyo, revisa los programas de fomento para micro y pequeñas empresas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La informalidad colapsa justo cuando el negocio empieza a funcionar: el primer c
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa de reparaciones opera dos años sin facturar para ahorrarse 19 % de IVA y cotizaciones; ahorra 12 millones. Cuando una constructora le pide factura para contratarla, debe regularizar: impuestos adeudados con reajustes y multas, cotizaciones atrasadas y el pago de un abogado. El costo total llega a 30 millones y la constructora elige a otro proveedor mientras tanto (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa cómo iniciar actividades y emitir documentos tributarios electrónicos, que es el paso que habilita vender a empresas que exigen factura.
+- **Fomento para micro y pequeñas empresas** (Servicio de Cooperación Técnica): SERCOTEC publica programas de fomento para micro y pequeñas empresas, que suelen exigir estar formalizadas para postular.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -7,6 +7,18 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ### Añadido
 
+- **Modelo mental SVG propio en cada una de las 336 clases** (`modelo-mental.svg`), generado desde
+  `manifests/visuales/` con 14 arquetipos (matriz, embudo, ciclo, escalera, balanza, línea de
+  tiempo, capas, árbol de decisión, mapa de actores, curva, semáforo, barras, flujo y
+  diagrama de Venn). Clases consecutivas nunca comparten arquetipo, y cada SVG es accesible
+  y autocontenido.
+- **Pedagogía variable por clase**: idea en una frase, cómo leer el esquema, analogía, ejemplo
+  trabajado en siete formatos (caso, numérico, diálogo, error, antes/después, decisión,
+  simulación), desarrollo práctico sin repetir el fondo del asunto y bloque «En qué se apoya».
+- 127 fuentes en el registro (libros con ISBN-13 válido verificado en Open Library; sin páginas
+  citadas). Ningún libro queda sin citar. Los ejemplos numéricos son ilustrativos.
+- Pruebas: 71 (antes 61), incluida la variación de arquetipos y formatos entre clases contiguas.
+
 - Guía `docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md` (21 secciones): reputación inicial, asuntos
   públicos, reclamos y controversias, política de comunicación, matriz de severidad S0–S4, roles,
   sustitutos, comité de crisis por tamaño y vocería, control de daños en 72 horas, fallas

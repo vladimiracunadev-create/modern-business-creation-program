@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Impuesto de término de giro** | Gravamen sobre rentas acumuladas al cierre. |
 | **Certificado de término de giro** | Documento que acredita el cierre tributario. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El término de giro ante el SII
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Término de giro"]
-    C --> A2["Plazo legal"]
-    C --> A3["Impuesto de término de<br/>giro"]
-    C --> A4["Certificado de término de<br/>giro"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar el término de giro en<br/>plazo y con la información<br/>completa"}}
-    D --> E["Entregable<br/>expediente de término de giro<br/>con declaraciones al día,<br/>cálculo de impuesto final y<br/>certificado obtenido"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El término de giro exige presentar las declaraciones pendientes, pagar los impuestos del período final y tributar las rentas acumuladas; no hacerlo mantiene a la empresa como contribuyente activo.
+
+![Esquema: El término de giro ante el SII](modelo-mental.svg)
+
+**Lectura guiada:** La línea ordena los pasos. El hito destacado es la solicitud: se presenta con todo al día y en el plazo legal. Después del certificado, la empresa deja de tener obligaciones tributarias periódicas.
+
+**Piénsalo así:** Es dar de baja una línea telefónica: si no lo haces, sigue llegando la cuenta aunque ya no uses el servicio.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El término de giro exige presentar declaraciones pendientes, pagar impuestos de
 
 ### 2. Cómo se traduce en la práctica
 
-El término exige presentar declaraciones pendientes, pagar impuestos del período final y tributar las rentas acumuladas. No hacerlo mantiene a la empresa como contribuyente activo, acumulando obligaciones mensuales incumplidas y multas que terminan afectando a los socios personalmente.
+Antes de cerrar, ordena las declaraciones y los pagos pendientes con tu contador. Calcula los impuestos del período final y de las rentas acumuladas. Presenta el término de giro en el plazo legal y con la información completa. Guarda el certificado. El término de giro es independiente de la disolución societaria: ambos deben hacerse.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ El término exige presentar declaraciones pendientes, pagar impuestos del perío
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: dos socios dejan de operar su empresa y creen que basta con disolverla ante el Registro. Tres años después, el SII la sigue considerando contribuyente activo, con declaraciones mensuales sin presentar y multas acumuladas. Deben regularizar el período completo y pagar. La corrección: ejecutar el término de giro con el contador, con las declaraciones y los impuestos al día, y guardar el certificado (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa el procedimiento y el plazo del término de giro y los impuestos que corresponde declarar y pagar.
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica permite verificar que no queden declaraciones pendientes antes de solicitar el término.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

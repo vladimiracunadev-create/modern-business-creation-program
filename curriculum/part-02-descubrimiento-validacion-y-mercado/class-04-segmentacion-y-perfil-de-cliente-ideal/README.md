@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Criterio de exclusión** | Atributo que descarta a un prospecto aunque parezca atractivo. |
 | **Segmento accesible** | Grupo al que la empresa efectivamente puede llegar con su canal. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: A qué segmento vas primero
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Segmentación"]
-    C --> A2["ICP"]
-    C --> A3["Criterio de exclusión"]
-    C --> A4["Segmento accesible"]
-    A1 & A2 & A3 & A4 --> D{{"definir a qué segmento se<br/>dirige la empresa y a cuáles<br/>renuncia explícitamente"}}
-    D --> E["Entregable<br/>ficha de ICP con atributos<br/>verificables, criterios de<br/>exclusión y canal de acceso"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un perfil de cliente ideal útil se escribe con atributos verificables antes de la venta y con una lista explícita de segmentos a los que se renuncia.
+
+![Esquema: A qué segmento vas primero](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica cada segmento posible según su atractivo y la facilidad de llegar a él. Elegir un cuadrante también es decidir de cuáles te despides por ahora.
+
+**Para recordarlo:** Es elegir la primera estación de un tren: no se llega a todas a la vez, pero la primera define el recorrido.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un ICP útil se escribe con atributos verificables antes de la venta: tamaño, r
 
 ### 2. Cómo se traduce en la práctica
 
-Un ICP escrito con adjetivos —empresas modernas, clientes exigentes— no filtra nada. Uno útil se escribe con atributos observables antes de vender: rubro, tamaño, sistema que ya usa, evento que gatilla la compra. La parte 14 lo refina mirando qué clientes efectivamente retienen y son rentables.
+Para escribir el perfil, usa atributos que puedas ver antes de la venta: tamaño, rubro, sistema que usan, evento que gatilla la compra y quién decide. Evita adjetivos como «empresas modernas». Valida el perfil con los cinco clientes que más valoran tu producto y con los cinco que se fueron: lo que los distingue define las señales de ajuste y de exclusión.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un ICP escrito con adjetivos —empresas modernas, clientes exigentes— no filt
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Tu empresa vende software de reservas. Lista tres segmentos: peluquerías, clínicas dentales y restaurantes de barrio. Para cada uno, escribe cuánto dolor tienen por reservas perdidas, cuánto podrían pagar al mes y por qué canal los alcanzarías. Ubícalos en la matriz y elige uno. Después escribe una línea de exclusión: «No vendemos a cadenas de más de diez locales hasta tener el segundo cliente». Si una cadena llama, esa línea decide por ti.
+
+### 5. En qué se apoya
+
+- **Value Proposition Design** (Wiley): Osterwalder y sus coautores proponen describir el perfil del cliente por segmento, con sus tareas, dolores y ganancias, antes de diseñar la oferta.
+- **The Startup Owner's Manual** (K&S Ranch): Blank y Dorf piden definir arquetipos y segmentos de cliente a partir de la evidencia recogida en conversaciones y no de supuestos del equipo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para definir a qué segmento se dirige la empresa y a cuáles renuncia explícitamente.
+
+**Wiley — Value Proposition Design**  
+<https://openlibrary.org/isbn/9781118968055> · verificado 2026-11-25
+
+- *Qué contiene:* Método para ajustar una propuesta de valor a las tareas, los dolores y las ganancias del cliente.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Value Proposition Design» para definir a qué segmento se dirige la empresa y a cuáles renuncia explícitamente.
+
+**K&S Ranch — The Startup Owner's Manual**  
+<https://openlibrary.org/isbn/9780984999309> · verificado 2026-11-25
+
+- *Qué contiene:* Guía de desarrollo de clientes: validar hipótesis de negocio hablando con clientes antes de escalar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Startup Owner's Manual» para definir a qué segmento se dirige la empresa y a cuáles renuncia explícitamente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Utilización** | Proporción de la capacidad efectivamente usada. |
 | **Subordinación** | Alineación del resto del proceso al ritmo del cuello de botella. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La etapa que limita toda la producción
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Capacidad"]
-    C --> A2["Cuello de botella"]
-    C --> A3["Utilización"]
-    C --> A4["Subordinación"]
-    A1 & A2 & A3 & A4 --> D{{"identificar la restricción<br/>real del sistema antes de<br/>invertir en capacidad"}}
-    D --> E["Entregable<br/>análisis de capacidad con<br/>cuello de botella identificado<br/>y plan de subordinación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Mejorar un recurso que no es el cuello de botella no aumenta la capacidad del sistema, solo acumula inventario en proceso; identificar la restricción y subordinarle el resto es la intervención más rentable.
+
+![Esquema: La etapa que limita toda la producción](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra es la capacidad de una etapa. La más baja, la pintura, limita a toda la línea. Duplicar el corte no cambiaría nada: se llenaría la bodega de piezas sin pintar.
+
+**Piénsalo así:** Es un embudo: por más agua que viertas arriba, sale solo lo que permite el cuello angosto.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Mejorar un recurso que no es el cuello de botella no aumenta la capacidad del si
 
 ### 2. Cómo se traduce en la práctica
 
-Es la intervención de mayor retorno y la que menos inversión requiere, porque suele resolverse subordinando el resto del proceso al ritmo de la restricción. Medir eficiencia por recurso en vez de producción del sistema es lo que lleva a invertir sistemáticamente en el lugar equivocado.
+Mide la capacidad real de cada etapa y busca la que acumula trabajo en espera. Esa es la restricción: protégela de interrupciones, asegúrale insumos y subordina el ritmo del resto a su ritmo. Antes de invertir en capacidad, verifica que sea en el cuello. Una vez que lo mejores, aparece otro: repite el análisis periódicamente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Es la intervención de mayor retorno y la que menos inversión requiere, porque 
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Con las capacidades del gráfico, la fábrica produce 40 unidades diarias, aunque el corte pueda hacer 100. Si invierte 5 millones en una nueva cortadora, sigue produciendo 40. Si invierte los mismos 5 millones en una segunda cabina de pintura que lleve esa etapa a 80, la línea sube a 60 (limitada ahora por el armado) y gana 50 % más de producción (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Goal** (North River Press): Goldratt presenta la teoría de las restricciones: identificar el cuello de botella, aprovecharlo al máximo y subordinar todo lo demás.
+- **Kanban** (Blue Hole Press): Anderson propone limitar el trabajo en curso y visualizar el flujo para hacer evidentes los cuellos de botella.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para identificar la restricción real del sistema antes de invertir en capacidad.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para identificar la restricción real del sistema antes de invertir en capacidad.
+
+**Blue Hole Press — Kanban**  
+<https://openlibrary.org/isbn/9780984521401> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el método Kanban: visualizar el trabajo, limitar lo que está en curso y gestionar el flujo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Kanban» para identificar la restricción real del sistema antes de invertir en capacidad.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

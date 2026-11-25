@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Medida de control** | Acción para eliminar o reducir el riesgo. |
 | **Programa de trabajo preventivo** | Plan con actividades, responsables y plazos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La gestión preventiva documentada
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["DS 44"]
-    C --> A2["Matriz de riesgos"]
-    C --> A3["Medida de control"]
-    C --> A4["Programa de trabajo<br/>preventivo"]
-    A1 & A2 & A3 & A4 --> D{{"implementar la gestión<br/>preventiva documentada que<br/>exige la normativa"}}
-    D --> E["Entregable<br/>matriz de riesgos por puesto<br/>con medidas de control y<br/>programa preventivo anual"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El DS 44 exige una gestión preventiva documentada: identificar peligros, evaluar riesgos, definir medidas de control y verificar su implementación, también en empresas pequeñas con exigencias proporcionales.
+
+![Esquema: La gestión preventiva documentada](modelo-mental.svg)
+
+**Lectura guiada:** El ciclo no se cierra con la medida: continúa con la verificación y la mejora. Lo que no está documentado, para una fiscalización, no se hizo.
+
+**Una imagen cotidiana:** Es el mantenimiento de un auto: no se trata de arreglarlo una vez, sino de revisarlo, anotarlo y volver a revisarlo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El DS 44 exige gestión preventiva documentada: identificar peligros, evaluar ri
 
 ### 2. Cómo se traduce en la práctica
 
-Aplica también a empresas pequeñas con exigencias proporcionales. Un accidente sin matriz de riesgos previa agrava significativamente la responsabilidad del empleador, y documentar medidas de control que nadie implementa ni verifica produce el peor de los dos mundos: costo administrativo sin protección.
+Recorre cada puesto de trabajo e identifica peligros y riesgos. Evalúa su gravedad y probabilidad y define medidas de control: eliminar, sustituir, controlar, proteger. Asigna responsables y fechas, verifica su aplicación y registra los resultados. Aplica el DS 44 de manera proporcional al tamaño de tu empresa. Revisa la matriz cuando cambien procesos o equipos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Aplica también a empresas pequeñas con exigencias proporcionales. Un accidente
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: un taller conoce sus riesgos «de memoria», sin documentos; tras un accidente leve, la fiscalización le pide la matriz de riesgos y el programa preventivo y no tiene nada que mostrar. Después: construye una matriz con peligros, riesgos y medidas, asigna responsables y fechas y verifica cada trimestre. Los accidentes bajan y, en la siguiente inspección, presenta sus registros sin problema (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Seguridad y salud en el trabajo · Ley 16.744** (Superintendencia de Seguridad Social): La Superintendencia de Seguridad Social publica instrucciones sobre el seguro laboral y la gestión preventiva de riesgos.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo fiscaliza el cumplimiento de la normativa de seguridad y salud en el trabajo y solicita la documentación preventiva.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -159,6 +164,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para implementar la gestión preventiva documentada que exige la normativa.
+
+**Superintendencia de Seguridad Social — Seguridad y salud en el trabajo · Ley 16.744**  
+<https://www.suseso.cl/> · verificado 2026-11-05
+
+- *Qué contiene:* Regula y fiscaliza el seguro de la Ley 16.744: obligaciones preventivas del empleador, cotización adicional por siniestralidad, calificación de accidentes y prestaciones.
+- *Cómo leerla:* Busca el compendio de normas del seguro cuando necesites saber qué debe documentar tu empresa. La cotización adicional es la traducción económica de tu gestión preventiva: ahí se ve si la matriz de riesgos sirve o es papel.
+- *Uso en esta clase:* aporta el marco de «Seguridad y salud en el trabajo · Ley 16.744» para implementar la gestión preventiva documentada que exige la normativa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

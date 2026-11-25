@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Incobrable** | Deuda cuya recuperación se estima improbable. |
 | **Castigo** | Reconocimiento contable de la pérdida. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Una cobranza ordenada, de la gestión amable a la vía judicial
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cobranza"]
-    C --> A2["Mérito ejecutivo"]
-    C --> A3["Incobrable"]
-    C --> A4["Castigo"]
-    A1 & A2 & A3 & A4 --> D{{"definir la política de<br/>cobranza y los criterios de<br/>castigo"}}
-    D --> E["Entregable<br/>procedimiento de cobranza por<br/>tramos de antigüedad con<br/>criterios de acción y de<br/>castigo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La factura electrónica cedible con acuse de recibo tiene mérito ejecutivo bajo la Ley 19.983, lo que acelera la cobranza judicial; la gestión temprana y sistemática recupera mucho más que la tardía.
+
+![Esquema: Una cobranza ordenada, de la gestión amable a la vía judicial](modelo-mental.svg)
+
+**Cómo leerlo:** La línea escalona la cobranza. Cada paso aumenta la presión y reduce la relación. El de la vía judicial solo es rápido si la documentación respalda el mérito ejecutivo.
+
+**Una analogía:** Es el aviso de un semáforo: primero amarillo, luego rojo y solo si no obedecen, la sanción.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La factura electrónica cedible con acuse de recibo tiene mérito ejecutivo bajo
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 19.983 permite cobrar judicialmente sin juicio declarativo previo cuando la factura cumple los requisitos, lo que acelera enormemente la recuperación. Iniciar la gestión formal recién a los noventa días reduce de forma drástica la probabilidad de cobrar: cada mes de atraso vale menos.
+Establece una política escrita de cobranza con plazos, responsables y criterios de escalamiento. Guarda la documentación que da mérito ejecutivo a tus facturas. Registra todos los contactos y compromisos. Define el criterio de castigo de incobrables y la provisión. Consulta con un abogado antes de iniciar acciones judiciales y evalúa el costo frente al monto.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ La Ley 19.983 permite cobrar judicialmente sin juicio declarativo previo cuando 
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Define la política de cobranza de tu empresa en una hoja. Elige los días de cada paso y qué se hace en cada uno. Escribe qué documentos necesitas guardar para poder ir a la vía judicial (factura con acuse de recibo, orden de compra, guía de despacho). Define cuándo castigas una deuda como incobrable y quién lo aprueba. Prueba tu política con tres clientes con atraso de 20, 45 y 80 días. Los plazos del ejercicio son ilustrativos.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.983, consultable en la Biblioteca del Congreso Nacional, regula la transferencia de facturas y su mérito ejecutivo para la cobranza.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

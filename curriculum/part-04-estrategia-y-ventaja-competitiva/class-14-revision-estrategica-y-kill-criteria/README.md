@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Costo hundido** | Inversión pasada irrecuperable que no debe influir en la decisión. |
 | **Reasignación** | Traslado de recursos desde una apuesta detenida a otra. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Revisión estratégica con criterios de salida
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Revisión estratégica"]
-    C --> A2["Kill criteria"]
-    C --> A3["Costo hundido"]
-    C --> A4["Reasignación"]
-    A1 & A2 & A3 & A4 --> D{{"decidir qué iniciativas<br/>continúan, cuáles se ajustan y<br/>cuáles se detienen"}}
-    D --> E["Entregable<br/>acta de revisión estratégica<br/>con decisión por iniciativa y<br/>reasignación de recursos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Sin criterios de salida escritos, las iniciativas mueren por agotamiento y no por decisión, consumiendo capital y credibilidad.
+
+![Esquema: Revisión estratégica con criterios de salida](modelo-mental.svg)
+
+**Lectura guiada:** Sigue el flujo con cada iniciativa. Compara con lo escrito antes de empezar y termina siempre con una decisión explícita. Detener una iniciativa a tiempo es una forma de ejecutar la estrategia.
+
+**Una analogía:** Es podar un árbol: se cortan ramas que no dan fruto para que el árbol dedique su energía a las que sí.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Sin kill criteria escritos, las iniciativas mueren por agotamiento y no por deci
 
 ### 2. Cómo se traduce en la práctica
 
-Sin kill criteria escritos las iniciativas mueren por agotamiento en vez de por decisión, consumiendo capital y credibilidad. El costo hundido es el argumento que hay que rechazar explícitamente: lo ya invertido es irrecuperable y no debe influir en si conviene seguir invirtiendo.
+Fija las fechas de revisión para todo el año y los criterios de continuidad de cada iniciativa antes de comenzarla. Cada revisión termina con una decisión escrita y con el destino de los recursos liberados. Cuida el tono: el equipo debe sentir que detener una iniciativa es un resultado válido y no un fracaso personal.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Sin kill criteria escritos las iniciativas mueren por agotamiento en vez de por 
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa mantiene siete iniciativas abiertas durante dos años porque nadie quiere cerrar ninguna y tres no han mostrado resultados. La corrección: una revisión trimestral con criterios escritos al inicio. Al evaluar con evidencia, detiene dos, ajusta una y reasigna 30 % de la capacidad a las que avanzan. Reconoce el costo hundido, pero no lo usa como argumento para seguir (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Thinking in Bets** (Portfolio): Duke explica que persistir por lo ya invertido es un error común y propone preparar criterios de salida antes del compromiso para renunciar a tiempo.
+- **Thinking, Fast and Slow** (Macmillan): Kahneman describe la aversión a la pérdida y la falacia del costo hundido, que explican por qué cuesta cerrar iniciativas que no funcionan.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para decidir qué iniciativas continúan, cuáles se ajustan y cuáles se detienen.
+
+**Portfolio — Thinking in Bets**  
+<https://openlibrary.org/isbn/9780735216358> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica la lógica de las apuestas a la decisión bajo incertidumbre: separar la calidad de la decisión del resultado.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking in Bets» para decidir qué iniciativas continúan, cuáles se ajustan y cuáles se detienen.
+
+**Macmillan — Thinking, Fast and Slow**  
+<https://openlibrary.org/isbn/9781464166174> · verificado 2026-11-25
+
+- *Qué contiene:* Describe sesgos y heurísticas de la decisión humana a partir de dos modos de pensar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking, Fast and Slow» para decidir qué iniciativas continúan, cuáles se ajustan y cuáles se detienen.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

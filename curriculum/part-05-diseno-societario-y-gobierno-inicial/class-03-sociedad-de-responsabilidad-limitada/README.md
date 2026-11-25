@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Intuito personae** | Carácter personal de la sociedad, que dificulta el ingreso de terceros. |
 | **Modificación estatutaria** | Cambio que requiere escritura y publicidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Compensa la rigidez de una SRL?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Sociedad de<br/>responsabilidad limitada"]
-    C --> A2["Cesión de derechos"]
-    C --> A3["Intuito personae"]
-    C --> A4["Modificación estatutaria"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la estabilidad<br/>de socios justifica la rigidez<br/>de la SRL"}}
-    D --> E["Entregable<br/>evaluación de SRL para el<br/>caso, con costo y<br/>procedimiento de una<br/>modificación estatutaria"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La SRL sigue siendo común en empresas familiares y de socios estables; su rigidez es su característica: la cesión de derechos requiere acuerdo y modificar la escritura.
+
+![Esquema: ¿Compensa la rigidez de una SRL?](modelo-mental.svg)
+
+**Lectura guiada:** Ubica tu empresa según la estabilidad de sus socios y su necesidad de capital. En la esquina inferior derecha la rigidez protege; en la superior, estorba.
+
+**Una imagen cotidiana:** Es un matrimonio con régimen estricto: protege mucho al principio, pero separarse o sumar a alguien exige que todos estén de acuerdo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La SRL sigue siendo común en empresas familiares y de socios estables. Su rigid
 
 ### 2. Cómo se traduce en la práctica
 
-La cesión de derechos en una SRL requiere acuerdo unánime, lo que protege contra socios no deseados y hace costosa cualquier entrada de capital externo. Es una buena elección para empresas familiares con socios estables y una mala elección para cualquier proyecto que planee levantar inversión.
+Lista las situaciones previsibles: entrada o salida de un socio, herencia, desacuerdo, aumento de capital. Para cada una, verifica qué exige tu forma societaria. En una SRL revisa la escritura social, la forma de cesión de derechos y los quórums de modificación. Si la lista muestra más trabas que protecciones, considera una transformación a SpA antes de que aparezca el primer conflicto.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ La cesión de derechos en una SRL requiere acuerdo unánime, lo que protege cont
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Dos hermanos y un primo tienen una ferretería. Escribe qué pasa si uno quiere vender su parte: en una SRL, la cesión de derechos exige modificar la escritura con el acuerdo de los socios, lo que protege de un tercero indeseado pero lo ata si el primo no quiere. Ahora imagina que quieren que entre un inversionista. Anota tres obstáculos de la SRL y dos ventajas de una SpA, y decide si la estabilidad de los socios justifica la rigidez.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades permite constituir y modificar sociedades, incluida la transformación de una SRL en otra forma.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 3.918 regula las sociedades de responsabilidad limitada y sus reglas de cesión de derechos y modificación de la escritura social.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

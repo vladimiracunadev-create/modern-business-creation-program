@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Nota de crédito** | Documento que anula o rebaja una operación previa. |
 | **Facturador gratuito** | Sistema del sii para emisión sin software propio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El ciclo de un documento tributario electrónico
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["DTE"]
-    C --> A2["Folios"]
-    C --> A3["Nota de crédito"]
-    C --> A4["Facturador gratuito"]
-    A1 & A2 & A3 & A4 --> D{{"definir el sistema de emisión<br/>y el procedimiento de<br/>corrección de documentos"}}
-    D --> E["Entregable<br/>procedimiento de emisión y<br/>corrección de DTE con<br/>responsable y plazos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La emisión electrónica es obligatoria y determina el registro automático en el Registro de Compras y Ventas; los errores más caros son emitir al RUT equivocado y corregir tarde.
+
+![Esquema: El ciclo de un documento tributario electrónico](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo muestra cómo un documento viaja de emisor a receptor y vuelve al registro. Una corrección fuera de plazo o a la persona equivocada rompe el ciclo.
+
+**Para recordarlo:** Es una carta certificada: si pones mal la dirección, nadie la recibe y tienes que reenviarla con costo y retraso.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La emisión electrónica es obligatoria y determina el registro automático en e
 
 ### 2. Cómo se traduce en la práctica
 
-Emitir al RUT equivocado y corregir fuera de plazo es el error más caro y más frecuente. La nota de crédito tiene reglas y plazos propios, y operar sin control de folios puede dejar a la empresa impedida de emitir justo cuando necesita facturar el cierre de mes.
+Define el sistema de emisión (el facturador gratuito del SII o un software) y las reglas para verificar RUT, giro y datos antes de emitir. Establece quién autoriza notas de crédito y en qué plazo. Revisa el folio disponible y los documentos rechazados. Una corrección a tiempo evita observaciones y problemas de crédito fiscal para el cliente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,16 @@ Emitir al RUT equivocado y corregir fuera de plazo es el error más caro y más 
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Contadora: «Emitiste la factura al RUT de la sociedad anterior del cliente». Dueño: «Pero el nombre era el mismo». Contadora: «El SII registró el documento a ese RUT y nuestro cliente no puede usarlo como crédito». Dueño: «¿Se arregla?». Contadora: «Con una nota de crédito y una nueva factura, dentro de los plazos; cuanto más tarde, más difícil». Pierde tres semanas de cobro (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII explica cómo emitir documentos tributarios electrónicos, incluido el facturador gratuito, y cómo corregirlos con notas de crédito.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

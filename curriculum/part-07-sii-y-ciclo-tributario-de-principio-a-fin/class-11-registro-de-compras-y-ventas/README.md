@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Conciliación** | Comparación entre el rcv y la contabilidad propia. |
 | **Acuse de recibo** | Confirmación de recepción de mercadería o servicio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué hacer con una factura que recibes
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Registro de Compras y<br/>Ventas"]
-    C --> A2["Aceptación o reclamo"]
-    C --> A3["Conciliación"]
-    C --> A4["Acuse de recibo"]
-    A1 & A2 & A3 & A4 --> D{{"definir la rutina de revisión,<br/>aceptación o reclamo de<br/>documentos recibidos"}}
-    D --> E["Entregable<br/>procedimiento mensual de<br/>conciliación del RCV con la<br/>contabilidad y control de<br/>plazos de reclamo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El Registro de Compras y Ventas propone la declaración de IVA con los documentos electrónicos, pero la responsabilidad sigue siendo del contribuyente; reclamar una factura improcedente tiene plazo y dejarlo pasar equivale a aceptarla.
+
+![Esquema: Qué hacer con una factura que recibes](modelo-mental.svg)
+
+**Lectura guiada:** Sigue el flujo con cada documento recibido. El rombo es el punto de control: sin comparar contra la orden y la entrega, aceptas por omisión lo que quizás no debías pagar.
+
+**Una imagen cotidiana:** Es revisar la cuenta del restaurante antes de pagar: si no reclamas lo que no consumiste, el mozo entiende que estás de acuerdo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El RCV propone la declaración de IVA a partir de los documentos electrónicos, 
 
 ### 2. Cómo se traduce en la práctica
 
-El RCV propone la declaración pero la responsabilidad sigue siendo del contribuyente. Dejar vencer el plazo para reclamar una factura improcedente equivale a aceptarla, con efecto tributario y mérito ejecutivo asociado: el proveedor puede cobrarla judicialmente sin juicio declarativo previo.
+Establece una rutina semanal para revisar los documentos recibidos en el Registro de Compras y Ventas y define quién acepta o reclama. Compara cada documento con la orden y la recepción. Concilia el registro con la contabilidad antes del cierre del mes. Los reclamos tienen plazo legal, por lo que la rutina debe ser más frecuente que el vencimiento.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ El RCV propone la declaración pero la responsabilidad sigue siendo del contribu
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿la factura coincide con una orden de compra y una entrega recibida? Dos: ¿los montos y el IVA son correctos? Tres: ¿estás dentro del plazo para reclamar? Una pyme que recibe una factura por servicios que no contrató la reclama en el registro dentro del plazo y avisa a su contador; otra, que la dejó pasar, tuvo que pagarla y discutir después.
+
+### 5. En qué se apoya
+
+- **Registro de Compras y Ventas** (Servicio de Impuestos Internos): El Registro de Compras y Ventas del SII permite aceptar o reclamar los documentos recibidos y es la base de la declaración mensual de IVA.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.983 sobre mérito ejecutivo de la factura regula el plazo para reclamar su contenido y los efectos de no hacerlo; su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

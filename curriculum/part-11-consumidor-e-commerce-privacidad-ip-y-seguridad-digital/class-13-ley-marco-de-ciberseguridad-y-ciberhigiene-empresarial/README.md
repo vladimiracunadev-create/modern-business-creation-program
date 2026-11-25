@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Operador de importancia vital** | Entidad calificada con obligaciones reforzadas. |
 | **Ciberhigiene** | Conjunto de prácticas básicas que reducen la mayoría del riesgo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánta obligación directa trae la ley de ciberseguridad
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley 21.663"]
-    C --> A2["Servicio esencial"]
-    C --> A3["Operador de importancia<br/>vital"]
-    C --> A4["Ciberhigiene"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la empresa tiene<br/>obligaciones directas o<br/>derivadas de sus clientes"}}
-    D --> E["Entregable<br/>diagnóstico de ciberhigiene<br/>con controles básicos<br/>implementados y brechas<br/>priorizadas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 21.663 crea la Agencia Nacional de Ciberseguridad y establece obligaciones para servicios esenciales y operadores de importancia vital; aunque una pyme no esté calificada, sus clientes regulados pueden exigirle controles por contrato.
+
+![Esquema: Cuánta obligación directa trae la ley de ciberseguridad](modelo-mental.svg)
+
+**Cómo leerlo:** Cada peldaño es un grado de obligación. Averigua en cuál estás tú y, si no estás obligada directamente, si alguno de tus clientes sí lo está.
+
+**Piénsalo así:** Es el reglamento de un edificio: aplica directamente a los residentes, y a los visitantes y proveedores se les exige que cumplan lo mismo si entran.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 21.663 crea la ANCI y establece obligaciones para servicios esenciales y 
 
 ### 2. Cómo se traduce en la práctica
 
-Aunque no sea operador de importancia vital, sus clientes regulados exigirán controles, auditorías y notificación de incidentes por cláusula contractual. Anticipar la ciberhigiene básica convierte el cumplimiento en argumento comercial en vez de en obstáculo descubierto durante una negociación.
+Verifica si tu empresa presta un servicio esencial o ha sido calificada como operador de importancia vital. Si no, revisa las exigencias de seguridad de tus clientes regulados. Aplica la ciberhigiene básica: copias de seguridad, accesos con doble factor, actualizaciones y capacitación. Documenta tus controles: serán la prueba ante clientes y autoridades.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Aunque no sea operador de importancia vital, sus clientes regulados exigirán co
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Proveedor de software: «Una clínica nos pidió acreditar controles de seguridad». Asesora: «La clínica presta un servicio esencial y debe cumplir la ley; por contrato, le exige a sus proveedores medidas de ciberhigiene». Proveedor: «¿Debemos reportar incidentes a la Agencia?». Asesora: «Quizás no directamente, pero sí avisar a la clínica con rapidez y tener un plan de respuesta» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Ley 21.663 — Ley Marco de Ciberseguridad** (Biblioteca del Congreso Nacional): La Ley 21.663 define los servicios esenciales y los operadores de importancia vital y las obligaciones de reporte de incidentes, según el texto consultado en la BCN.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Biblioteca del Congreso Nacional publica el texto vigente de la ley y su historia, y es la fuente para comprobar quién queda obligado.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -151,6 +156,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar si la empresa tiene obligaciones directas o derivadas de sus clientes.
+
+**Biblioteca del Congreso Nacional — Ley 21.663 — Ley Marco de Ciberseguridad**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1202434> · verificado 2026-11-25
+
+- *Qué contiene:* Define las instituciones comprendidas (servicios esenciales y operadores de importancia vital), el deber de reportar ciberincidentes al CSIRT Nacional con alerta a las tres horas, actualización a las setenta y dos y informe final a los quince días corridos (art. 9) y el concepto de incidente de efecto significativo (art. 27).
+- *Cómo leerla:* Úsala para saber si la empresa es una institución comprendida antes de que ocurra el incidente. Los reglamentos y las instrucciones de la Agencia cambian los detalles; consúltalos en su sitio.
+- *Uso en esta clase:* aporta el marco de «Ley 21.663 — Ley Marco de Ciberseguridad» para determinar si la empresa tiene obligaciones directas o derivadas de sus clientes.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

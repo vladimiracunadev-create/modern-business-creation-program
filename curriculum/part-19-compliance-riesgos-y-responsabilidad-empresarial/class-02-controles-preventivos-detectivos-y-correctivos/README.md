@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Escalamiento** | Regla que define cuándo detener, informar y elevar una decisión. |
 | **Respuesta de crisis** | Acciones para contener daño, preservar evidencia y comunicar hechos confirmados. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Defensa en capas: impedir, detectar, corregir y escalar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Control preventivo"]
-    C --> A2["Control detectivo"]
-    C --> A3["Escalamiento"]
-    C --> A4["Respuesta de crisis"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar y probar controles que<br/>impidan, detecten y escalen<br/>desviaciones de fondos,<br/>autorización, claims, terceros<br/>y evidencia"}}
-    D --> E["Entregable<br/>expediente de control con mapa<br/>de responsabilidades,<br/>terceros, claims,<br/>aprobaciones, evidencia,<br/>señales, controles,<br/>escalamiento y crisis"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un control debe diseñarse y probarse para impedir, detectar y escalar desviaciones en fondos, autorizaciones, afirmaciones comerciales, terceros y evidencia; sin prueba, es una intención.
+
+![Esquema: Defensa en capas: impedir, detectar, corregir y escalar](modelo-mental.svg)
+
+**Lectura guiada:** Cada capa responde a una pregunta distinta. Ninguna es suficiente sola: si falla la preventiva, la detectiva debe verlo; si falla la detectiva, el escalamiento debe activarse.
+
+**Para recordarlo:** Es la seguridad de un edificio: cerraduras, cámaras, alarma y un plan de evacuación; cada una cubre lo que las otras no alcanzan.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El taller usa tres empresas sintéticas y el caso documentado MEDVi. En este úl
 
 ### 2. Cómo se traduce en la práctica
 
-Para Custodia Sur, reconstruye propietarios y transferencias; para Renta Clara, exige confirmaciones y prueba la procedencia del rendimiento; para Estable Uno, modela liquidez, gatillos y comunicación. No uses nombres, montos ni datos de víctimas reales. En cada caso separa señal de hallazgo y conclusión, y especifica control preventivo, detectivo, evidencia, responsable y umbral de escalamiento.
+Para cada proceso crítico, define controles de las cuatro capas, un dueño y una frecuencia. Pruébalos con casos reales o simulados y registra los resultados. Aprende de los casos documentados: MEDVi, FTX, Celsius, Terra, OneCoin y Madoff muestran fallas distintas con un hilo común: controles ausentes o que dependían de la misma persona.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Para Custodia Sur, reconstruye propietarios y transferencias; para Renta Clara, 
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Elige un proceso crítico de tu empresa, por ejemplo el pago a proveedores. Escribe un control para cada capa: uno preventivo (dos firmas sobre cierto monto), uno detectivo (conciliación semanal), uno correctivo (revisión de causa y ajuste) y un escalamiento (a quién se avisa y en cuánto tiempo). Prueba uno: pide a alguien que intente saltarse el control preventivo y anota qué ocurrió. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **The Checklist Manifesto** (Metropolitan Books): Gawande muestra que las verificaciones simples en puntos críticos reducen errores graves, base del diseño de controles preventivos y detectivos.
+- **FTX y Alameda: condena y sentencia de Samuel Bankman-Fried** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de FTX por el uso indebido de fondos de clientes, caso que ilustra la ausencia de controles independientes.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 
@@ -231,6 +236,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Declaración corporativa del 8 de abril de 2026 sobre la carta FDA, un supuesto sitio de afiliado, publicidad con posibles médicos generados por IA, correcciones y estructura de proveedores clínicos y farmacias.
 - *Cómo leerla:* Trátala como la versión de MEDVi, no como verificación independiente. Contrasta cada afirmación con el destinatario y contenido de la carta FDA, archivos del sitio, contratos, responsables y evidencia de las medidas correctivas.
 - *Uso en esta clase:* aporta el marco de «MEDVi statement in response to external speculation» para diseñar y probar controles que impidan, detecten y escalen desviaciones de fondos, autorización, claims, terceros y evidencia.
+
+**Metropolitan Books — The Checklist Manifesto**  
+<https://openlibrary.org/isbn/9780312430009> · verificado 2026-11-25
+
+- *Qué contiene:* Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Checklist Manifesto» para diseñar y probar controles que impidan, detecten y escalen desviaciones de fondos, autorización, claims, terceros y evidencia.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

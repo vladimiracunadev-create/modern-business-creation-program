@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Dolor cuantificado** | Costo del problema expresado en dinero o tiempo. |
 | **Proceso de decisión del cliente** | Pasos internos que la compra debe recorrer. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Calificar antes de proponer
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Discovery comercial"]
-    C --> A2["Calificación"]
-    C --> A3["Dolor cuantificado"]
-    C --> A4["Proceso de decisión del<br/>cliente"]
-    A1 & A2 & A3 & A4 --> D{{"calificar la oportunidad antes<br/>de invertir esfuerzo en la<br/>propuesta"}}
-    D --> E["Entregable<br/>guion de discovery con<br/>criterios de calificación y<br/>mapa del proceso de decisión<br/>del cliente"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Calificar es preguntar por el dolor y por el proceso de decisión antes de escribir una propuesta; el presupuesto suele aparecer cuando el caso es bueno.
+
+![Esquema: Calificar antes de proponer](modelo-mental.svg)
+
+**Cómo leerlo:** Responde las preguntas en orden. Solo si hay dolor cuantificado y proceso conocido se invierte en la propuesta; en cualquier otro caso hay un paso previo.
+
+**Piénsalo así:** Es el diagnóstico médico: nadie receta antes de saber qué duele, cuánto y desde cuándo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La calificación falla cuando se pregunta por presupuesto y no por proceso de de
 
 ### 2. Cómo se traduce en la práctica
 
-En muchas empresas chilenas el presupuesto se crea si el caso es bueno, pero el proceso de aprobación es inamovible: quién firma, con qué documento, en qué instancia y con cuánta anticipación. Conocerlo temprano evita forecast optimistas que nunca cierran y contrataciones basadas en ellos.
+Haz preguntas abiertas sobre la situación actual, el costo del problema y lo que ya intentaron; deja que el cliente haga el cálculo. Luego pregunta cómo se aprueba una compra de este tipo, quién participa y qué fecha lo exige. Anota las respuestas con las palabras del cliente: serán la base de la propuesta y del forecast.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ En muchas empresas chilenas el presupuesto se crea si el caso es bueno, pero el 
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Vendedora: «Me pidieron cotización del software. Antes de enviarla, ¿qué le cuesta hoy perder pedidos?». Cliente: «Unos 3 millones al mes, calculo». Vendedora: «¿Y cómo se aprueba una compra de este tamaño?». Cliente: «Sobre 5 millones pasa por un comité trimestral; el próximo es el 15». Vendedora: «Entonces preparo el caso de negocio para esa sesión y no un precio por correo». En cuatro preguntas hay dolor cuantificado, proceso y fecha de decisión: la propuesta se escribe para el comité y no para el buzón (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **SPIN Selling (1988)** (McGraw-Hill): Rackham estudió miles de llamadas de venta y propone preguntar por situación, problema, implicancia y beneficio de resolverlo antes de ofrecer una solución.
+- **The Mom Test (2014)** (CreateSpace): Fitzpatrick propone conversaciones con clientes centradas en su vida y sus problemas reales, no en la idea de quien vende.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para calificar la oportunidad antes de invertir esfuerzo en la propuesta.
+
+**McGraw-Hill — SPIN Selling (1988)**  
+<https://openlibrary.org/isbn/9780070511132> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta los resultados de un estudio amplio de llamadas de venta y propone una secuencia de preguntas (situación, problema, implicancia, necesidad) para ventas complejas.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «SPIN Selling (1988)» para calificar la oportunidad antes de invertir esfuerzo en la propuesta.
+
+**CreateSpace — The Mom Test (2014)**  
+<https://openlibrary.org/isbn/9781492180746> · verificado 2026-11-25
+
+- *Qué contiene:* Enseña a conversar con clientes sobre su vida y sus problemas reales para obtener información útil y no cortesías sobre una idea.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Mom Test (2014)» para calificar la oportunidad antes de invertir esfuerzo en la propuesta.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

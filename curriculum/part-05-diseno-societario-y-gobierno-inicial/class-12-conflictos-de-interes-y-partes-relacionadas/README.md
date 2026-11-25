@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Operación con parte relacionada** | Transacción que requiere aprobación, revelación y condiciones de mercado. |
 | **Deber de lealtad** | Obligación del administrador de anteponer el interés social. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo se maneja una operación con una parte relacionada
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Conflicto de interés"]
-    C --> A2["Parte relacionada"]
-    C --> A3["Operación con parte<br/>relacionada"]
-    C --> A4["Deber de lealtad"]
-    A1 & A2 & A3 & A4 --> D{{"definir cómo se revelan,<br/>autorizan, registran y<br/>monitorean las operaciones con<br/>partes relacionadas"}}
-    D --> E["Entregable<br/>política de partes<br/>relacionadas con registro,<br/>abstención, autorización,<br/>límites y criterio de precio<br/>de mercado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las operaciones con partes relacionadas no son ilícitas por definición: requieren identificación, revelación, abstención del interesado, autorización competente, condiciones de mercado y monitoreo.
+
+![Esquema: Cómo se maneja una operación con una parte relacionada](modelo-mental.svg)
+
+**Lectura guiada:** Sigue el flujo con cada operación vinculada a socios, directores o sus familiares. El rombo exige comparar con el mercado; sin esa comprobación, la autorización es una formalidad.
+
+**Una analogía:** Es como un árbitro con un familiar en la cancha: puede arbitrar, pero debe declararlo, abstenerse en las jugadas que lo afectan y dejar que otro decida.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las operaciones con partes relacionadas no son ilícitas por definición: requie
 
 ### 2. Cómo se traduce en la práctica
 
-FTX/Alameda permite observar un extremo de concentración y privilegios entre relacionadas, pero la competencia transferible es más amplia: construir un inventario completo, exigir propósito empresarial y condiciones comparables, impedir que el interesado apruebe, limitar exposición y reportar excepciones. La política debe operar antes de la transacción y no reconstruirse cuando aparece una crisis.
+Crea una lista de partes relacionadas de tu empresa (socios, directores, familiares, sociedades vinculadas). Exige que toda operación con ellas se informe antes, se compare con el mercado y se apruebe por quienes no tienen interés. Registra las decisiones y revisa cada año los saldos y las condiciones. Un ejemplo extremo, en el caso FTX, muestra el costo de no tener controles.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ FTX/Alameda permite observar un extremo de concentración y privilegios entre re
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa contrata el arriendo de su bodega a la sociedad de la madre de un socio, sin contrato ni tasación; después se discute si el precio era justo. Después: el socio declara el vínculo, se abstiene, un tercero tasa el arriendo en condiciones de mercado, se aprueba en acta y se revisa cada año. La operación es la misma, pero ahora es defendible ante un inversionista o un fiscalizador (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **FTX y Alameda: condena y sentencia de Samuel Bankman-Fried** (Departamento de Justicia de Estados Unidos): El Departamento de Justicia de EE. UU. informa la condena del fundador de FTX por fraude, caso en que fondos de clientes se usaron en una empresa vinculada, ejemplo extremo de falta de controles sobre partes relacionadas.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa sobre los deberes tributarios de los contribuyentes, entre ellos documentar adecuadamente las operaciones, incluidas las realizadas entre relacionados.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Protección de fundadores y ejecutivos
 

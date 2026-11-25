@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Finiquito** | Documento que liquida las obligaciones pendientes. |
 | **Documentación de salida** | Conjunto de entregas y devoluciones al término. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Antes de despedir: ¿qué verificas?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Causal de término"]
-    C --> A2["Carta de aviso"]
-    C --> A3["Finiquito"]
-    C --> A4["Documentación de salida"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar el término con causal<br/>correcta y documentación<br/>completa"}}
-    D --> E["Entregable<br/>checklist de término con<br/>causal fundada, carta,<br/>verificación de cotizaciones y<br/>finiquito"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El término del contrato exige causal correcta, carta con hechos precisos, cotizaciones al día y finiquito conforme a la ley; los errores más caros son invocar una causal sin fundamento y no tener las cotizaciones al día.
+
+![Esquema: Antes de despedir: ¿qué verificas?](modelo-mental.svg)
+
+**Cómo leerlo:** Recorre el árbol antes de cada desvinculación. Las dos preguntas protegen a la empresa de las dos fallas más costosas: la causal sin sustento y la documentación incompleta.
+
+**Una analogía:** Es el control previo al despegue de un avión: no se omite aunque haya prisa, porque lo que se evita es mucho más costoso que la demora.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El término de contrato exige causal correcta, carta con hechos precisos, cotiza
 
 ### 2. Cómo se traduce en la práctica
 
-Los dos errores más caros son invocar una causal sin poder acreditar los hechos y comunicar el despido con cotizaciones impagas. El segundo activa la Ley Bustos y puede obligar a seguir pagando remuneraciones hasta regularizar, con un costo que multiplica varias veces la indemnización original.
+Antes de despedir, consulta con un abogado laboral, revisa la causal con evidencia y comprueba el estado de las cotizaciones. Redacta la carta con hechos precisos y envíala dentro del plazo legal, con copia a la Inspección cuando corresponda. Prepara el finiquito y la documentación de salida. En conflictos colectivos, evita decisiones que parezcan represalias.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Los dos errores más caros son invocar una causal sin poder acreditar los hechos
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: ¿cuál es la causal y qué hechos concretos la prueban? Dos: ¿las cotizaciones están pagadas? Tres: ¿la carta de aviso y el finiquito cumplen los requisitos? Una empresa decide despedir por necesidades de la empresa, reúne la justificación económica, paga las cotizaciones atrasadas, comunica por escrito dentro del plazo legal y suscribe el finiquito con ministro de fe cuando corresponde.
+
+### 5. En qué se apoya
+
+- **Código del Trabajo (DFL 1 de 2002)** (Biblioteca del Congreso Nacional): Los artículos 161 y 162 del Código del Trabajo regulan la causal de necesidades de la empresa y la comunicación escrita del término del contrato.
+- **The Hard Thing About Hard Things** (HarperBusiness): Horowitz relata decisiones difíciles de despido y reestructuración y la importancia de comunicarlas con claridad y respeto.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
 
@@ -217,6 +222,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Incluye el contenido del reglamento interno y el protocolo contra el acoso y la violencia (art. 154), el procedimiento de investigación de denuncias (art. 211-C), las causales de término y su comunicación (arts. 161 y 162), las prácticas antisindicales (arts. 289 y 291) y la prohibición de reemplazar a trabajadores en huelga (art. 345).
 - *Cómo leerla:* Úsalo para separar lo que el empleador debe hacer en un conflicto laboral de lo que solo conviene comunicar. Verifica siempre la versión vigente del artículo antes de citarlo.
 - *Uso en esta clase:* aporta el marco de «Código del Trabajo (DFL 1 de 2002)» para ejecutar el término con causal correcta y documentación completa.
+
+**HarperBusiness — The Hard Thing About Hard Things**  
+<https://openlibrary.org/isbn/9780062273215> · verificado 2026-11-25
+
+- *Qué contiene:* Relata decisiones difíciles de gestión al dirigir una empresa, incluidas las crisis. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Hard Thing About Hard Things» para ejecutar el término con causal correcta y documentación completa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

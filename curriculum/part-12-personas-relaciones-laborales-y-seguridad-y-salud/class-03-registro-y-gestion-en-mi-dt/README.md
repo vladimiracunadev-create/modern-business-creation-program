@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Finiquito electrónico** | Suscripción del término de la relación por la plataforma. |
 | **Trazabilidad** | Registro que acredita el cumplimiento ante fiscalización. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El recorrido laboral registrado en Mi DT
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Mi DT"]
-    C --> A2["Registro electrónico"]
-    C --> A3["Finiquito electrónico"]
-    C --> A4["Trazabilidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué actos laborales se<br/>registran, quién los registra<br/>y con qué plazo"}}
-    D --> E["Entregable<br/>procedimiento de gestión en Mi<br/>DT con responsable, actos<br/>registrables y plazos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Mi DT centraliza el registro de contratos, anexos, finiquitos y control de asistencia; usarla correctamente reduce el riesgo de fiscalización porque genera la evidencia de cumplimiento en el momento.
+
+![Esquema: El recorrido laboral registrado en Mi DT](modelo-mental.svg)
+
+**Qué mirar primero:** Cada paso es un acto laboral que debe quedar registrado. El centro es lo que obtienes: una evidencia que no depende de la memoria ni del orden de un archivo.
+
+**Piénsalo así:** Es la bitácora electrónica de un piloto: cada evento queda anotado en el momento y es la prueba si algo se cuestiona.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Mi DT centraliza registro de contratos, anexos, finiquitos y control de asistenc
 
 ### 2. Cómo se traduce en la práctica
 
-Registrar fuera de plazo deja constancia del retraso, de modo que el uso incorrecto de la plataforma documenta el incumplimiento en vez de prevenirlo. Dejar el acceso en manos de una sola persona sin respaldo es además un riesgo operativo cuando esa persona no está disponible.
+Define qué actos se registran, quién los realiza y con qué plazo, y asegura que existan los accesos necesarios para al menos dos personas. Registra los actos cuando ocurren, no al final del mes. Guarda los respaldos y verifica periódicamente que las cifras de Mi DT coincidan con las de remuneraciones. Una fiscalización comienza por lo registrado.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ Registrar fuera de plazo deja constancia del retraso, de modo que el uso incorre
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Elabora una tabla de seis filas con los actos laborales de tu empresa (contratación, anexo, cambio de jornada, término, finiquito, registro de asistencia). Para cada uno escribe quién lo registra en Mi DT, en qué plazo y dónde guardas el respaldo. Revisa si alguna fila quedó sin responsable. Después, elige un trabajador cualquiera e intenta reconstruir su historia laboral solo con lo registrado. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo describe Mi DT y los trámites laborales que se registran electrónicamente, entre ellos contratos, anexos y finiquitos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

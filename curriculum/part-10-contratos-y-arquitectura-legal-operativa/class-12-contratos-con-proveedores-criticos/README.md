@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Plan de salida** | Procedimiento para reemplazarlo sin interrumpir el servicio. |
 | **Auditoría de proveedor** | Derecho contractual de verificar cumplimiento. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué proveedores te pueden dejar sin operar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Proveedor crítico"]
-    C --> A2["Dependencia"]
-    C --> A3["Plan de salida"]
-    C --> A4["Auditoría de proveedor"]
-    A1 & A2 & A3 & A4 --> D{{"identificar proveedores<br/>críticos y asegurar<br/>continuidad contractual"}}
-    D --> E["Entregable<br/>mapa de proveedores críticos<br/>con cláusulas de continuidad y<br/>plan de salida por proveedor"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Con proveedores críticos el contrato debe incluir continuidad: plazos de aviso extendidos, transición ordenada, entrega de datos en un formato usable y derecho de auditoría.
+
+![Esquema: Qué proveedores te pueden dejar sin operar](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica a cada proveedor según su impacto y cuán difícil es reemplazarlo. El cuadrante crítico exige cláusulas especiales; los demás, solo una gestión razonable.
+
+**Para recordarlo:** Es el pilar de una casa: si falla, el techo cae; por eso se refuerza y se revisa más que cualquier otra pieza.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Con proveedores críticos el contrato debe incluir continuidad: plazos de aviso 
 
 ### 2. Cómo se traduce en la práctica
 
-Con proveedores críticos el contrato debe incluir aviso extendido, obligación de transición ordenada, entrega de datos en formato usable y derecho de auditoría. Contratar un SaaS crítico sin cláusula de exportación de datos es descubrir al terminar que la información propia no es recuperable.
+Identifica los proveedores críticos y mide tu dependencia: porcentaje de compras, existencia de alternativas y datos que guardan. Incluye en el contrato aviso previo extendido, transición ordenada, devolución de datos en formato usable y derecho de auditoría. Verifica que no existan conductas de competencia desleal ni exclusividades que limiten tu capacidad de cambiar.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Con proveedores críticos el contrato debe incluir aviso extendido, obligación 
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Haz una lista de tus diez principales proveedores y ubícalos en la matriz. Para cada uno del cuadrante crítico, escribe qué ocurre si desaparece mañana, cuánto tiempo tardarías en reemplazarlo y qué cláusulas necesitas: aviso de 90 días, transición, entrega de datos y auditoría. Identifica uno cuyo contrato hoy no cubra esos puntos y define la fecha para renegociarlo. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Ley 20.169 — Regula la competencia desleal** (Biblioteca del Congreso Nacional): La Ley 20.169 regula la competencia desleal, que sirve de referencia para evaluar exclusividades y conductas que limiten la libertad de cambiar de proveedor.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil y el Código de Comercio permiten pactar cláusulas de continuidad, transición y auditoría en contratos entre empresas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
 

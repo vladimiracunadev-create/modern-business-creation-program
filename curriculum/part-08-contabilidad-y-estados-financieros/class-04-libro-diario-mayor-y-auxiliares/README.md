@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Auxiliar** | Detalle por cliente, proveedor o activo dentro de una cuenta. |
 | **Cuadratura** | Coincidencia entre el auxiliar y el saldo de la cuenta de control. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Del documento al libro, y de vuelta a cuadrar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Libro diario"]
-    C --> A2["Libro mayor"]
-    C --> A3["Auxiliar"]
-    C --> A4["Cuadratura"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué auxiliares se<br/>llevarán y con qué frecuencia<br/>se cuadran"}}
-    D --> E["Entregable<br/>estructura de libros y<br/>auxiliares con procedimiento y<br/>frecuencia de cuadratura"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los auxiliares son donde vive la información útil, como qué cliente debe qué y desde cuándo, y que cuadren con el mayor es el control básico de la contabilidad.
+
+![Esquema: Del documento al libro, y de vuelta a cuadrar](modelo-mental.svg)
+
+**Cómo leerlo:** Cada casilla es una etapa de registro. El rombo es el control: un auxiliar que no cuadra con el mayor indica errores de imputación o documentos mal registrados.
+
+**Para recordarlo:** Es cuadrar la caja al final del día: el total del dinero debe coincidir con lo que dicen los comprobantes, y si no, hay que buscar la diferencia.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los auxiliares son donde vive la información útil: qué cliente debe qué y de
 
 ### 2. Cómo se traduce en la práctica
 
-El descuadre entre auxiliar y cuenta de control indica errores de imputación que crecen mes a mes si no se corrigen. Postergar la cuadratura hasta el cierre anual convierte un ajuste de minutos en una investigación de días sobre movimientos de hace once meses.
+Define qué auxiliares llevarás (clientes, proveedores, activos fijos, inventarios) y con qué frecuencia se cuadran con el mayor, idealmente cada mes antes del cierre. Registra las diferencias y su causa. Asigna a una persona distinta de quien registra la revisión de la cuadratura, para tener un control independiente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El descuadre entre auxiliar y cuenta de control indica errores de imputación qu
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Elige tres clientes de tu negocio con saldo pendiente y anota, en una hoja, cuánto debe cada uno según tu registro. Suma los tres y compara con el saldo de la cuenta de clientes del mayor (puedes inventar la cifra). Si no coinciden, escribe tres causas posibles, como una factura imputada a otro cliente, un pago sin aplicar o una nota de crédito no registrada. Define cada cuánto cuadrarás los auxiliares. El ejercicio usa cifras ilustrativas.
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa los libros contables que deben llevarse y la necesidad de respaldar sus registros con los documentos fuente.
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica permite contrastar los saldos y documentos que informa el SII con el registro interno.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

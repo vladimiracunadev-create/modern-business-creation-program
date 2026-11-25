@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Costo de coordinación** | Carga de gestionar múltiples ubicaciones. |
 | **Adaptación local** | Ajuste a condiciones regulatorias y de mercado de la nueva comuna o región. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que se descubre al abrir la segunda sucursal
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Expansión geográfica"]
-    C --> A2["Economía de la unidad"]
-    C --> A3["Costo de coordinación"]
-    C --> A4["Adaptación local"]
-    A1 & A2 & A3 & A4 --> D{{"decidir si abrir una nueva<br/>ubicación y qué debe estar<br/>resuelto antes"}}
-    D --> E["Entregable<br/>caso de negocio de la nueva<br/>unidad con economía propia,<br/>permisos locales y costo de<br/>coordinación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La segunda sucursal es la más difícil porque revela todo lo que dependía de la presencia del fundador; además, cada comuna tiene su propia patente, uso de suelo y, a veces, exigencias sanitarias distintas.
+
+![Esquema: Lo que se descubre al abrir la segunda sucursal](modelo-mental.svg)
+
+**Cómo leerlo:** El centro es la nueva sede y los satélites son lo que debe estar resuelto antes de abrirla. Si falla alguno, el problema aparece de inmediato y con costos fijos ya comprometidos.
+
+**Piénsalo así:** Es tener un segundo hijo: lo que funcionaba con uno solo, con la atención de los padres en todo, deja de funcionar, y se descubre qué rutinas no eran tan sólidas como parecían.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La segunda sucursal es la más difícil porque revela todo lo que dependía de l
 
 ### 2. Cómo se traduce en la práctica
 
-Cada comuna tiene su patente, su uso de suelo y a veces exigencias sanitarias distintas: la habilitación se rehace completa. Y la segunda sucursal revela todo lo que dependía de la presencia del fundador en la primera, que es la razón por la que suele ser la más difícil de todas.
+Antes de abrir, verifica que la primera unidad sea rentable por sí sola y que sus procesos estén estandarizados. Identifica los requisitos locales: patente, uso de suelo, sanitarios. Define quién gestiona la sede y con qué límites. Calcula el costo de coordinación. Haz un piloto de poca inversión si puedes. Abre la tercera sucursal solo cuando la segunda sea estable.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ Cada comuna tiene su patente, su uso de suelo y a veces exigencias sanitarias di
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una cadena de lavanderías abre su segunda sucursal en otra comuna. La primera rentabilizaba por la presencia del dueño; en la segunda, el responsable no tiene límites de decisión y las consultas se acumulan. Además, la municipalidad pide un uso de suelo distinto del que supuso y retrasa la patente dos meses. La sucursal pierde 6 millones hasta estabilizarse. La tercera apertura se hizo con una lista previa de requisitos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El DL 3.063 sobre rentas municipales y la normativa de urbanismo, consultables en la BCN, fijan requisitos propios de cada comuna para operar una sucursal.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

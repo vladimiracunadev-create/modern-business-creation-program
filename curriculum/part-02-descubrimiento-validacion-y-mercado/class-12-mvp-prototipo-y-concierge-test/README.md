@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Concierge test** | Entrega manual del servicio para validar antes de automatizar. |
 | **Deuda de aprendizaje** | Conocimiento no adquirido por saltarse la etapa manual. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Concierge test: primero a mano, después con software
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["MVP"]
-    C --> A2["Prototipo"]
-    C --> A3["Concierge test"]
-    C --> A4["Deuda de aprendizaje"]
-    A1 & A2 & A3 & A4 --> D{{"decidir qué se entrega<br/>manualmente y qué se<br/>automatiza en la primera<br/>versión"}}
-    D --> E["Entregable<br/>definición de MVP con lo que<br/>sí incluye, lo que no incluye<br/>y lo que se hará manual"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El concierge test entrega a mano lo que después será software: su valor no es ahorrar desarrollo sino descubrir las excepciones reales del proceso.
+
+![Esquema: Concierge test: primero a mano, después con software](modelo-mental.svg)
+
+**Lectura guiada:** Sigue los pasos de izquierda a derecha. El rombo es la decisión: solo se automatiza lo que se repite y compensa su costo. Si no, se vuelve atrás y se ajusta la oferta.
+
+**Para recordarlo:** Es cocinar para tus primeros clientes en la cocina de tu casa: antes de comprar un horno industrial, aprendes qué piden y qué platos se repiten.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El concierge test es la forma más barata de validar servicios: se entrega manua
 
 ### 2. Cómo se traduce en la práctica
 
-El concierge test —entregar el servicio manualmente— no ahorra desarrollo: descubre las excepciones reales del proceso, que son justo lo que hace fracasar una automatización prematura. Quien salta esa etapa construye software para un proceso que todavía no conoce.
+Elige un cliente dispuesto a probar y entrega el servicio con herramientas simples, sin programar. Registra por escrito cada excepción, cada pregunta y el tiempo que toma. Repite con tres a cinco clientes y revisa cuáles tareas aparecen siempre. Esas son candidatas a automatizar; las demás se mantienen manuales o se eliminan. Decláralo al cliente: honestidad sobre cómo se presta el servicio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El concierge test —entregar el servicio manualmente— no ahorra desarrollo: d
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Fundador: «¿Cómo entregamos el informe a los primeros tres clientes?». Socia: «A mano: yo lo armo con sus datos y se lo mando». Fundador: «¿Y qué descubrimos?». Socia: «Que dos de tres tienen datos distintos en cada mes y que el tercero pide un gráfico que no habíamos pensado». Fundador: «Si lo hubiéramos programado primero, habríamos construido el formato equivocado». Después de cuatro semanas deciden automatizar solo las dos tareas que se repetían en los tres casos (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **The Lean Startup (2011)** (Crown Business): Ries describe el producto mínimo viable y el concierge como formas de aprender del cliente con el menor esfuerzo posible, antes de construir la solución completa.
+- **Running Lean** (O'Reilly): Maurya propone iterar el modelo de negocio con experimentos cortos y un producto mínimo, aprendiendo de cada cliente real.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica estudios de mercado por país y sector, agendas de negocios, ferias, y los programas de cofinanciamiento de actividades de promoción.
 - *Cómo leerla:* Los estudios de mercado por país son el mejor uso gratuito: entregan tamaño, canales, competencia y requisitos de entrada verificados, que es justo lo que una estimación bottom-up necesita.
 - *Uso en esta clase:* aporta el marco de «Programas, estudios de mercado y promoción» para decidir qué se entrega manualmente y qué se automatiza en la primera versión.
+
+**Crown Business — The Lean Startup (2011)**  
+<https://openlibrary.org/isbn/9780307887894> · verificado 2026-11-25
+
+- *Qué contiene:* Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Lean Startup (2011)» para decidir qué se entrega manualmente y qué se automatiza en la primera versión.
+
+**O'Reilly — Running Lean**  
+<https://openlibrary.org/isbn/9781449331900> · verificado 2026-11-25
+
+- *Qué contiene:* Método para iterar un modelo de negocio con el lienzo lean y experimentos cortos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Running Lean» para decidir qué se entrega manualmente y qué se automatiza en la primera versión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

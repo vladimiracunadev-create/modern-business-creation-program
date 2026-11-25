@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Separación de roles** | Distinción entre propiedad, gobierno y gestión. |
 | **Plan de formación** | Preparación del sucesor. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Propiedad, gobierno y gestión no son lo mismo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Sucesión"]
-    C --> A2["Protocolo familiar"]
-    C --> A3["Separación de roles"]
-    C --> A4["Plan de formación"]
-    A1 & A2 & A3 & A4 --> D{{"definir las reglas de sucesión<br/>y la separación entre<br/>propiedad y gestión"}}
-    D --> E["Entregable<br/>protocolo de sucesión con<br/>separación de roles, reglas de<br/>incorporación familiar y plan<br/>de formación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La sucesión falla cuando se confunden propiedad, gobierno y gestión: ser dueño no implica ser gerente, y el protocolo familiar define reglas de entrada, permanencia, remuneración y salida de los familiares.
+
+![Esquema: Propiedad, gobierno y gestión no son lo mismo](modelo-mental.svg)
+
+**Cómo leerlo:** Los tres círculos son tres roles que a veces recaen en las mismas personas. La salud de la empresa depende de que cada uno tenga reglas y responsables, y de que la gestión se confíe por mérito.
+
+**Una imagen cotidiana:** Es una familia con un bote: unos son dueños, otros deciden el rumbo y otros reman; si todos quieren dirigir, el bote no avanza.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La sucesión falla cuando se confunden propiedad, gobierno y gestión: ser dueñ
 
 ### 2. Cómo se traduce en la práctica
 
-El protocolo familiar define reglas de entrada, permanencia, remuneración y salida de familiares, y es mucho más fácil de acordar antes de que existan conflictos o herederos con expectativas divergentes. Asignar la gerencia por línea sucesoria en vez de por competencia es la causa clásica de deterioro en la segunda generación.
+Define qué es propiedad, gobierno y gestión en tu empresa y quién ejerce cada rol. Redacta un protocolo familiar: reglas de entrada y salida de familiares, remuneración, evaluación y resolución de conflictos. Prepara un plan de formación para los sucesores y una fecha de transición. Si la sucesión es ejecutiva, evalúa candidatos internos y externos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ El protocolo familiar define reglas de entrada, permanencia, remuneración y sal
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa familiar con dos hermanos y una hija en la gestión. Cuando el fundador se retira, ambos hermanos esperan ser gerentes y la hija, que ha dirigido por años, pide la gerencia general. Sin reglas, discuten. Tras acordar un protocolo, la propiedad se reparte por igual, el gobierno lo ejerce un directorio con un miembro independiente y la gestión se asigna por mérito con formación y evaluación (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil regula la herencia, las sociedades y los acuerdos entre socios y familiares, que son el marco legal de un protocolo de sucesión.
+- **The E-Myth Revisited** (HarperBusiness): Gerber sostiene que una empresa debe tener roles y sistemas definidos para que no dependa de las personas que la fundaron.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir las reglas de sucesión y la separación entre propiedad y gestión.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para definir las reglas de sucesión y la separación entre propiedad y gestión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Rotulado** | Información obligatoria en el envase. |
 | **Trazabilidad de lote** | Capacidad de seguir el producto desde el insumo hasta el consumidor. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El recorrido de un alimento y sus controles
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["DS 977"]
-    C --> A2["Buenas prácticas de<br/>manufactura"]
-    C --> A3["Rotulado"]
-    C --> A4["Trazabilidad de lote"]
-    A1 & A2 & A3 & A4 --> D{{"determinar qué exigencias del<br/>reglamento aplican al producto<br/>y al proceso"}}
-    D --> E["Entregable<br/>matriz de cumplimiento del DS<br/>977 aplicada al producto con<br/>rotulado y trazabilidad<br/>definidos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El DS 977 regula la elaboración, envasado, rotulado, transporte y venta de alimentos; sus exigencias más frecuentes en fiscalización son el rotulado, la cadena de frío y la trazabilidad.
+
+![Esquema: El recorrido de un alimento y sus controles](modelo-mental.svg)
+
+**Cómo leerlo:** La línea sigue al alimento de la elaboración a la venta. El hito destacado es el transporte: es donde más se rompe la cadena de frío y donde más cuesta demostrar lo ocurrido.
+
+**Una analogía:** Es un relevo con un huevo en una cuchara: cada traspaso es una oportunidad de que se caiga, y quien lo deja caer es quien lo tenía.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El DS 977 regula elaboración, envasado, rotulado, transporte y venta de aliment
 
 ### 2. Cómo se traduce en la práctica
 
-Son las dos materias que más aparecen en fiscalización. Un incumplimiento de rotulado obliga a retirar producto ya distribuido con el costo completo a cargo de la empresa, y diseñar el envase antes de verificar los requisitos garantiza tener que rehacerlo.
+Revisa qué exigencias del DS 977 aplican a tu producto y a tu proceso: rotulado, materias primas, envases, manipulación, transporte y venta. Define el sistema de lotes y los registros de temperatura. Capacita a quienes manipulan alimentos. Prepara los antecedentes para una fiscalización y el procedimiento de retiro de un lote si fuera necesario.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Son las dos materias que más aparecen en fiscalización. Un incumplimiento de r
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa de lácteos artesanales vende a tiendas con un vehículo sin refrigeración y sin registro de temperatura. Un cliente se enferma, la SEREMI revisa y no hay forma de demostrar que la cadena de frío se mantuvo ni de rastrear el lote; la empresa debe retirar todo el producto. La corrección: transporte refrigerado con registro de temperatura, rotulado completo y un sistema de lotes que permita rastrear cada venta (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional informa los requisitos del Reglamento Sanitario de los Alimentos y los trámites asociados.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El DS 977 de Salud, consultable en la Biblioteca del Congreso Nacional, fija las condiciones de elaboración, rotulado, transporte y venta de alimentos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

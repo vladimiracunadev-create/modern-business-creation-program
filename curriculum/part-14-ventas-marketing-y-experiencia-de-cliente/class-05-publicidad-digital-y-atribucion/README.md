@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Ventana de atribución** | Período dentro del cual se atribuye la conversión. |
 | **Canal saturado** | Aquel cuyo costo sube sin aumentar resultados. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuando más inversión encarece al cliente
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Atribución"]
-    C --> A2["CAC por canal"]
-    C --> A3["Ventana de atribución"]
-    C --> A4["Canal saturado"]
-    A1 & A2 & A3 & A4 --> D{{"decidir dónde invertir según<br/>el CAC por canal y su<br/>saturación"}}
-    D --> E["Entregable<br/>análisis de canales con CAC,<br/>volumen y señal de saturación<br/>por canal"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Cada canal tiene un punto en que gastar más solo encarece al cliente nuevo: ahí se diversifica en vez de aumentar el presupuesto.
+
+![Esquema: Cuando más inversión encarece al cliente](modelo-mental.svg)
+
+**Qué mirar primero:** A medida que se invierte más, el costo por cliente sube. Mientras la curva es plana conviene escalar; en la zona roja cada peso adicional compra menos.
+
+**Una imagen cotidiana:** Es pescar en un estanque: los primeros lances sacan muchos peces; con el estanque ya pescado, cada pez cuesta más horas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Sin atribución, la inversión publicitaria se decide por intuición. Ningún mo
 
 ### 2. Cómo se traduce en la práctica
 
-Ningún modelo de atribución es exacto, pero cualquiera consistente permite comparar canales entre sí. La señal de saturación es que el CAC sube mientras el volumen se mantiene: ahí conviene diversificar en vez de aumentar presupuesto, que es la reacción instintiva y equivocada.
+Mide todos los canales con el mismo método de atribución, aunque sea imperfecto, y compara su CAC y su volumen mes a mes. Elige una ventana de atribución acorde con tu ciclo de compra: una venta B2B de 60 días no se puede atribuir a una ventana de 7. Revisa además la publicidad contra la Ley del Consumidor: toda afirmación debe poder comprobarse.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Ningún modelo de atribución es exacto, pero cualquiera consistente permite com
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un canal trae 100 clientes con $2 millones (CAC de $20.000). Con $4 millones trae 150, no 200: el CAC promedio sube a $26.700, pero los 50 clientes adicionales costaron $40.000 cada uno. Lo que decide es el costo del cliente marginal, no el promedio (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Traction (2015)** (Portfolio): Weinberg y Mares recomiendan probar canales en pequeño y concentrarse en el que funciona, considerando que cada canal tiene un límite de escala.
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): Los artículos 28 y 33 de la Ley 19.496 exigen que la publicidad no induzca a error y que la información sea comprobable.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: publicidad veraz y terceros que hablan por tu marca
 
@@ -187,6 +192,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
 - *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para decidir dónde invertir según el CAC por canal y su saturación.
+
+**Portfolio — Traction (2015)**  
+<https://openlibrary.org/isbn/9781591848363> · verificado 2026-11-25
+
+- *Qué contiene:* Catálogo de canales de adquisición de clientes y un método para probarlos con experimentos pequeños y concentrar el esfuerzo en el que funciona.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Traction (2015)» para decidir dónde invertir según el CAC por canal y su saturación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

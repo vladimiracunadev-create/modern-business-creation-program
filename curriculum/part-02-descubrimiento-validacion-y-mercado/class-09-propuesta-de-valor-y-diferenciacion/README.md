@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Paridad** | Atributo necesario para competir pero que no diferencia. |
 | **Prueba** | Evidencia que hace creíble la promesa. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Para quién, qué resultado y por qué creerte
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Propuesta de valor"]
-    C --> A2["Diferenciación"]
-    C --> A3["Paridad"]
-    C --> A4["Prueba"]
-    A1 & A2 & A3 & A4 --> D{{"definir la promesa central y<br/>la prueba que la sostiene"}}
-    D --> E["Entregable<br/>propuesta de valor en una<br/>frase con tres pruebas<br/>verificables"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Una propuesta de valor necesita tres piezas, y la que más se olvida es la prueba: sin caso, dato, garantía o referencia, la promesa se lee como publicidad.
+
+![Esquema: Para quién, qué resultado y por qué creerte](modelo-mental.svg)
+
+**Lectura guiada:** Las tres piezas deben coincidir en el centro. Si falta una, la propuesta cojea: sin segmento es genérica, sin resultado es vaga y sin prueba es una promesa más.
+
+**Una imagen cotidiana:** Es una receta con tres ingredientes: para quién cocinas, qué plato sirves y qué muestras para que te crean que sabe bien.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Una propuesta de valor necesita tres piezas: para quién, qué resultado y por q
 
 ### 2. Cómo se traduce en la práctica
 
-Sin prueba —un caso con cifras, una garantía, una referencia verificable— la promesa se percibe como publicidad y obliga a competir por precio. Además, en venta a consumidor la promesa es exigible: prometer lo que la operación no puede sostener deja de ser un problema de marketing y pasa a ser una infracción a la Ley 19.496.
+Redacta tu propuesta en una oración con las tres piezas y revisa que cada una se pueda comprobar. Si no tienes prueba aún, ofrece una garantía acotada, un piloto o un caso en curso, y declara el límite. Contrasta el texto con tus propias entrevistas: las palabras deben ser las del cliente. Recuerda que la publicidad debe poder demostrarse, según la normativa de consumo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Sin prueba —un caso con cifras, una garantía, una referencia verificable— l
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa dice «Aumentamos tus ventas con inteligencia artificial». No hay segmento, no hay resultado medible ni prueba. La corrección: «Para tiendas online con menos de 200 pedidos al mes, reducimos el abandono del carrito en 15 % en 60 días; lo hicimos con tres tiendas y puedes hablar con sus dueños». Ahora hay segmento, resultado y prueba verificable (ejemplo ilustrativo). Además, toda afirmación debe poder comprobarse.
+
+### 5. En qué se apoya
+
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de las reglas de información y publicidad al consumidor, según las cuales las afirmaciones comerciales deben ser veraces y comprobables.
+- **Value Proposition Design** (Wiley): Osterwalder y sus coautores piden que la propuesta de valor responda a tareas, dolores y ganancias concretas del cliente, con evidencia de que la entrega.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir la promesa central y la prueba que la sostiene.
+
+**Wiley — Value Proposition Design**  
+<https://openlibrary.org/isbn/9781118968055> · verificado 2026-11-25
+
+- *Qué contiene:* Método para ajustar una propuesta de valor a las tareas, los dolores y las ganancias del cliente.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Value Proposition Design» para definir la promesa central y la prueba que la sostiene.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

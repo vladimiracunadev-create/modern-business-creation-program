@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Palanca de reducción** | Acción concreta que acorta el ciclo. |
 | **Efecto sobre caja** | Dinero liberado por cada día de reducción del ciclo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los días que se compra el dinero entre el pago y el cobro
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ciclo de conversión de<br/>efectivo"]
-    C --> A2["Ciclo negativo"]
-    C --> A3["Palanca de reducción"]
-    C --> A4["Efecto sobre caja"]
-    A1 & A2 & A3 & A4 --> D{{"identificar qué palanca del<br/>ciclo se ataca primero y<br/>cuánta caja libera"}}
-    D --> E["Entregable<br/>cálculo del ciclo actual con<br/>plan de reducción y caja<br/>liberada estimada por palanca"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El ciclo de conversión de efectivo traduce la operación en días de caja: reducirlo diez días en una empresa que vende 100 millones al año libera aproximadamente diez días de venta, sin costo financiero.
+
+![Esquema: Los días que se compra el dinero entre el pago y el cobro](modelo-mental.svg)
+
+**Lectura guiada:** Las tres primeras barras son las palancas y la cuarta es el resultado. Reducir inventario o cobro y alargar el pago acorta el ciclo. Cada día vale dinero.
+
+**Para recordarlo:** Es el tiempo que tarda un préstamo que te haces a ti mismo: mientras más largo el ciclo, más tiempo tu dinero está prestado a la operación.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El ciclo de conversión traduce la operación en días de caja. Reducirlo diez d
 
 ### 2. Cómo se traduce en la práctica
 
-Reducir el ciclo diez días en una empresa que vende cien millones al año libera aproximadamente el equivalente a diez días de venta, sin costo financiero y sin pedir permiso a nadie. Intentarlo solo presionando a proveedores es la vía menos efectiva y la que más daña relaciones.
+Mide tus días de inventario, cobro y pago y calcula el ciclo. Elige la palanca más fácil de mover en el próximo mes: renegociar plazos, ofrecer descuentos por pronto pago, bajar el inventario lento. Calcula cuánta caja libera cada día ganado y fija una meta. Un ciclo negativo, en que cobras antes de pagar, financia el crecimiento.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Reducir el ciclo diez días en una empresa que vende cien millones al año liber
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Con los días del gráfico, el ciclo es 40 + 45 − 30 = 55 días. Una empresa que vende 100 millones al año vende cerca de 274.000 pesos al día. Si reduce el cobro de 45 a 35 días, libera 10 días de venta, cerca de 2,7 millones. Si además acuerda pagar a 40 en lugar de 30, libera otros 2,7 millones. Con cambios de gestión se liberan más de 5 millones de caja (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican el ciclo de efectivo y cómo cada componente afecta la caja.
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers describen la gestión del capital de trabajo y el ciclo de conversión de efectivo como parte de las decisiones de corto plazo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para identificar qué palanca del ciclo se ataca primero y cuánta caja libera.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para identificar qué palanca del ciclo se ataca primero y cuánta caja libera.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para identificar qué palanca del ciclo se ataca primero y cuánta caja libera.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

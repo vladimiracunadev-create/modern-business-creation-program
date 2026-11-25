@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Licencia de código abierto** | Permiso con obligaciones específicas según el tipo. |
 | **Cumplimiento de licencias** | Verificación de que el uso respeta las condiciones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dos familias de licencias de código abierto
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Derecho de autor"]
-    C --> A2["Licencia de software"]
-    C --> A3["Licencia de código abierto"]
-    C --> A4["Cumplimiento de licencias"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué licencias se<br/>aceptan y cómo se verifica el<br/>cumplimiento"}}
-    D --> E["Entregable<br/>inventario de componentes de<br/>terceros con licencia y<br/>evaluación de compatibilidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Usar componentes de código abierto tiene obligaciones: atribución, entrega del código fuente o compatibilidad de licencias; incorporar un componente con copyleft fuerte en un producto cerrado puede obligar a liberarlo.
+
+![Esquema: Dos familias de licencias de código abierto](modelo-mental.svg)
+
+**Lectura guiada:** Cada plato describe lo que implica una familia de licencias. La decisión no es evitar el código abierto, sino saber qué condiciones aceptas antes de integrarlo.
+
+**Una analogía:** Es usar una receta prestada: algunas piden solo citar al autor, otras exigen que compartas tu versión con quien la pida.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Usar componentes de código abierto tiene obligaciones: atribución, entrega de 
 
 ### 2. Cómo se traduce en la práctica
 
-Incorporar un componente con licencia copyleft fuerte en un producto propietario puede obligar a liberar el producto completo. Ese hallazgo, descubierto durante una due diligence, detiene operaciones; descubierto durante el desarrollo, se resuelve cambiando el componente.
+Crea una política con las licencias permitidas, las que requieren revisión y las prohibidas. Mantén un inventario de componentes de terceros con su licencia y versión. Revisa las obligaciones de atribución y de entrega de código. Para el software propio, define la titularidad y la licencia con la que lo distribuyes. La ley de propiedad intelectual protege el software como obra.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Incorporar un componente con licencia copyleft fuerte en un producto propietario
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una startup incorpora una biblioteca con copyleft fuerte en su producto cerrado y descubre, durante la due diligence de una ronda, que debería liberar parte de su código; el inversionista pide corregirlo y el lanzamiento se retrasa un trimestre. Después: define una política de licencias aceptadas, un inventario de componentes y una revisión previa. En la siguiente ronda, la auditoría de código no encuentra observaciones (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 17.336 sobre propiedad intelectual protege el software como obra y regula las licencias; su texto se consulta en la Biblioteca del Congreso Nacional.
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI registra derechos de propiedad industrial, que complementan la protección del software como derecho de autor.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

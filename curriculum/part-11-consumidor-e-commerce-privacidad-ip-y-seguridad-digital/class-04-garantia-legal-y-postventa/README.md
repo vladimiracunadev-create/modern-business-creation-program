@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Servicio técnico** | Canal de atención para hacer efectiva la garantía. |
 | **Registro de reclamos** | Bitácora de casos y su resolución. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo se tramita una garantía legal
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Garantía legal"]
-    C --> A2["Garantía voluntaria"]
-    C --> A3["Servicio técnico"]
-    C --> A4["Registro de reclamos"]
-    A1 & A2 & A3 & A4 --> D{{"definir el procedimiento de<br/>postventa que cumple la<br/>garantía legal"}}
-    D --> E["Entregable<br/>procedimiento de garantía y<br/>postventa con plazos, canal y<br/>registro de casos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La garantía legal opera por el solo ministerio de la ley y es el consumidor quien elige entre las alternativas que la norma establece; una política de postventa que restrinja esa elección es ineficaz.
+
+![Esquema: Cómo se tramita una garantía legal](modelo-mental.svg)
+
+**Cómo leerlo:** El ciclo muestra que la decisión central no es de la empresa: el consumidor escoge. Después del cumplimiento, la causa de la falla debe volver al área de producto y compras.
+
+**Una analogía:** Es la devolución en una tienda con boleta: no se trata de convencer al cliente, sino de cumplir lo que la ley le permite pedir.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La garantía legal opera por el solo ministerio de la ley y el consumidor elige 
 
 ### 2. Cómo se traduce en la práctica
 
-Una política que intente restringir esa elección es ineficaz y agrava la exposición. Y el registro de reclamos con su resolución es la evidencia que protege en una fiscalización: resolver informalmente sin registrar deja a la empresa sin poder acreditar que atendió.
+Redacta el procedimiento de postventa: dónde se recibe el reclamo, quién responde, en qué plazo y cómo se registra. No limites por política lo que la ley garantiza. Distingue la garantía legal de la voluntaria y comunica con claridad el alcance de cada una. Analiza mensualmente las causas de las fallas para corregirlas en origen.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Una política que intente restringir esa elección es ineficaz y agrava la expos
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Cliente: «Mi aspiradora falló a los dos meses; quiero que me devuelvan el dinero». Empleada: «Nuestra política es solo reparación». Cliente: «La ley me da elegir entre reparación, cambio o devolución». Encargada: «Tiene razón; registremos el reclamo y gestionemos lo que elija». La empresa evita una denuncia, ajusta su política escrita y aprende que dos de cada diez fallas eran del mismo lote (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la guía de garantía legal y los derechos del consumidor ante productos defectuosos.
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): La Ley 19.496 reconoce el derecho a la reparación e indemnización adecuada (art. 3, letra e) y regula las infracciones por fallas de calidad y seguridad (art. 23).
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -158,6 +163,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el procedimiento de postventa que cumple la garantía legal.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el procedimiento de postventa que cumple la garantía legal.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

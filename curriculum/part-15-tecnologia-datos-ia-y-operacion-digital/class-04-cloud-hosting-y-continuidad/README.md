@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Región** | Ubicación geográfica de los datos. |
 | **Bloqueo de proveedor** | Dificultad de migrar por dependencia técnica. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La comodidad de la nube y el costo de irse
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cloud"]
-    C --> A2["Disponibilidad"]
-    C --> A3["Región"]
-    C --> A4["Bloqueo de proveedor"]
-    A1 & A2 & A3 & A4 --> D{{"elegir infraestructura<br/>considerando disponibilidad,<br/>ubicación de datos y costo de<br/>salida"}}
-    D --> E["Entregable<br/>decisión de infraestructura<br/>con disponibilidad<br/>comprometida, región y<br/>evaluación de costo de salida"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La ubicación de los datos importa por normativa y latencia; la dependencia del proveedor se acumula silenciosamente con cada servicio propietario que se adopta.
+
+![Esquema: La comodidad de la nube y el costo de irse](modelo-mental.svg)
+
+**Lectura guiada:** Compara los dos platos. Lo que ganas es visible desde el primer día; lo que se acumula, solo cuando quieres cambiar de proveedor o cuando una autoridad pregunta dónde están tus datos.
+
+**Una analogía:** Es mudarse a un departamento amoblado: es cómodo hoy, pero cada mueble que no es tuyo hace más difícil irse mañana.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La ubicación de los datos importa por normativa y por latencia. La dependencia 
 
 ### 2. Cómo se traduce en la práctica
 
-La ubicación importa por normativa y por latencia, y con la Ley 21.719 las transferencias internacionales de datos personales tienen exigencias propias. La dependencia del proveedor se acumula silenciosamente con cada servicio propietario adoptado: evaluar el costo de salida al entrar es lo que mantiene la opción abierta.
+Antes de elegir infraestructura, define tus requisitos de disponibilidad, la región donde pueden estar los datos y el costo de salida. Prefiere estándares abiertos y formatos exportables. Documenta cada servicio propietario que uses y su alternativa. Revisa los contratos: plazos, penalidades y devolución de datos. Evalúa cada año si la dependencia sigue siendo aceptable.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La ubicación importa por normativa y por latencia, y con la Ley 21.719 las tran
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de reservas adopta servicios exclusivos de un proveedor y, tres años después, quiere cambiarse por un alza de precios; descubre que reconstruir su arquitectura costaría más que seguir pagando. Después: define en cada nueva contratación cómo exportaría sus datos y qué alternativas existen, elige estándares abiertos donde puede y documenta la región de sus datos. Cambia de proveedor un servicio secundario en pocas semanas (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales** (Biblioteca del Congreso Nacional): La Ley 21.719 regula las transferencias y el tratamiento de datos personales, relevantes para decidir la ubicación de los datos en servicios en la nube.
+- **Designing Data-Intensive Applications** (O'Reilly): Kleppmann explica los compromisos de diseño de sistemas de datos confiables y mantenibles, que ayudan a evaluar qué dependencia técnica se asume al elegir un servicio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para elegir infraestructura considerando disponibilidad, ubicación de datos y costo de salida.
+
+**Biblioteca del Congreso Nacional — Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1209272> · verificado 2026-11-25
+
+- *Qué contiene:* Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.
+- *Cómo leerla:* Úsala como estándar de diseño del protocolo de incidentes. La vigencia de sus modificaciones se fijó en el 15-10-2027 por la Ley 21.855: comprueba la fecha en la ficha de la BCN antes de planificar.
+- *Uso en esta clase:* aporta el marco de «Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales» para elegir infraestructura considerando disponibilidad, ubicación de datos y costo de salida.
+
+**O'Reilly — Designing Data-Intensive Applications**  
+<https://openlibrary.org/isbn/9781449373320> · verificado 2026-11-25
+
+- *Qué contiene:* Explica los principios de sistemas de datos confiables, escalables y mantenibles. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Designing Data-Intensive Applications» para elegir infraestructura considerando disponibilidad, ubicación de datos y costo de salida.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

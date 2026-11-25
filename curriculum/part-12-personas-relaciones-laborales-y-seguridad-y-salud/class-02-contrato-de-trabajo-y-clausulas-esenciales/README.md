@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Anexo** | Documento que modifica o complementa el contrato. |
 | **Plazo de escrituración** | Tiempo legal para poner el contrato por escrito. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las cláusulas mínimas de un contrato de trabajo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Contrato de trabajo"]
-    C --> A2["Cláusula esencial"]
-    C --> A3["Anexo"]
-    C --> A4["Plazo de escrituración"]
-    A1 & A2 & A3 & A4 --> D{{"redactar contratos con<br/>cláusulas esenciales completas<br/>y funciones bien definidas"}}
-    D --> E["Entregable<br/>modelo de contrato de trabajo<br/>con cláusulas esenciales y<br/>anexos tipo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El contrato debe escriturarse dentro del plazo legal y contener las cláusulas mínimas; si falta la escrituración, la ley presume como estipulaciones las que declare el trabajador.
+
+![Esquema: Las cláusulas mínimas de un contrato de trabajo](modelo-mental.svg)
+
+**Cómo leerlo:** Cada capa es un grupo de cláusulas que no puede faltar. Las funciones bien definidas son la que más se descuida y la que más conflictos produce.
+
+**Una analogía:** Es un plano de construcción: si no está firmado y completo, quien lo interpreta será quien tenga más interés en leerlo a su favor.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El contrato debe escriturarse dentro del plazo legal y contener las cláusulas m
 
 ### 2. Cómo se traduce en la práctica
 
-La falta de escrituración hace presumir como estipulaciones las que declara el trabajador, lo que traslada la carga probatoria completa al empleador. Y describir las funciones de forma vaga impide exigir cumplimiento después: la polifuncionalidad se pacta con precisión, no con ambigüedad.
+Usa una plantilla revisada por un abogado laboral con las cláusulas esenciales completas. Escribe las funciones de forma precisa pero flexible, define la jornada y el sistema de control, la remuneración detallada y la confidencialidad. Escritura y firma dentro del plazo legal y entrega una copia al trabajador. Cambios posteriores se hacen por anexo escrito.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ La falta de escrituración hace presumir como estipulaciones las que declara el 
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una pyme contrata a un vendedor con un acuerdo verbal y escribe el contrato tres meses después. Cuando el trabajador reclama que se le prometió una comisión mayor, no hay documento y se presume lo que él declara. La corrección: escriturar dentro del plazo legal con funciones, jornada, remuneración y comisiones claras, y registrar el contrato en Mi DT. Además, la cláusula de confidencialidad debe ser razonable y proporcional (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los requisitos del contrato de trabajo, el plazo de escrituración y los efectos de no cumplirlo.
+- **Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)** (Biblioteca del Congreso Nacional): Los artículos 154 ter y 160 del Código del Trabajo tratan la reserva de información y sus efectos, relevantes para las cláusulas de confidencialidad del contrato.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Protección de secretos comerciales
 

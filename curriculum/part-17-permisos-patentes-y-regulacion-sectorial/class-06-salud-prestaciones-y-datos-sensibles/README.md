@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Ficha clínica** | Documento con reglas propias de acceso y conservación. |
 | **Consentimiento informado** | Autorización específica para prestaciones y tratamiento de datos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un servicio de salud cumple tres cosas a la vez
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Prestador de salud"]
-    C --> A2["Dato sensible de salud"]
-    C --> A3["Ficha clínica"]
-    C --> A4["Consentimiento informado"]
-    A1 & A2 & A3 & A4 --> D{{"determinar las autorizaciones<br/>y las obligaciones de datos<br/>que aplican al servicio de<br/>salud"}}
-    D --> E["Entregable<br/>matriz de cumplimiento para<br/>prestador de salud con<br/>autorizaciones y tratamiento<br/>de datos sensibles"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los negocios de salud combinan la autorización sanitaria del establecimiento con obligaciones reforzadas de protección de datos; la ficha clínica tiene reglas específicas de acceso, conservación y reserva.
+
+![Esquema: Un servicio de salud cumple tres cosas a la vez](modelo-mental.svg)
+
+**Lectura guiada:** Los tres círculos deben coincidir en cada paciente atendido. Faltar a uno, aunque se cumplan los otros dos, expone a sanciones y a reclamos.
+
+**Para recordarlo:** Es un restaurante con permiso, cocina limpia y un menú que informa alérgenos: si falta una de las tres, el riesgo recae en el cliente.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los negocios de salud combinan autorización sanitaria del establecimiento con o
 
 ### 2. Cómo se traduce en la práctica
 
-La ficha clínica tiene reglas propias de acceso, conservación y entrega, y los datos de salud son categoría especial con protección reforzada bajo la Ley 21.719. Tratarlos con el mismo estándar que datos comunes es el error que más exposición genera en este rubro.
+Verifica la autorización sanitaria que corresponde a tu establecimiento y a cada prestación. Aplica un régimen reforzado para los datos de salud: acceso por necesidad, registro de accesos, medidas de seguridad y plazos de conservación. Usa formularios de consentimiento informado claros. Los datos de salud son sensibles y exigen especial cuidado según la normativa de datos personales.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ La ficha clínica tiene reglas propias de acceso, conservación y entrega, y los
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una clínica pequeña tiene la autorización sanitaria, pero guarda las fichas en carpetas abiertas y las comparte por mensajería con otros profesionales. Un paciente reclama por la filtración de sus datos. Después: restringe el acceso a las fichas, define quién puede verlas y por qué medio se comparten, usa formularios de consentimiento claros y registra los accesos. El reclamo se resuelve y baja el riesgo de nuevos casos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional informa las autorizaciones sanitarias de los establecimientos, base del cumplimiento de los servicios de salud.
+- **Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales** (Biblioteca del Congreso Nacional): La Ley 21.719 reconoce a los datos de salud el carácter de sensibles y establece reglas reforzadas para su tratamiento.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -159,6 +164,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar las autorizaciones y las obligaciones de datos que aplican al servicio de salud.
+
+**Biblioteca del Congreso Nacional — Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1209272> · verificado 2026-11-25
+
+- *Qué contiene:* Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.
+- *Cómo leerla:* Úsala como estándar de diseño del protocolo de incidentes. La vigencia de sus modificaciones se fijó en el 15-10-2027 por la Ley 21.855: comprueba la fecha en la ficha de la BCN antes de planificar.
+- *Uso en esta clase:* aporta el marco de «Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales» para determinar las autorizaciones y las obligaciones de datos que aplican al servicio de salud.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

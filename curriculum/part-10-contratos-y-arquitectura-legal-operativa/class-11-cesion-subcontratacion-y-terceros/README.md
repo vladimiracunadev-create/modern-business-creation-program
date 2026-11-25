@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Consentimiento previo** | Requisito de autorización para ceder o subcontratar. |
 | **Responsabilidad solidaria** | Obligación de responder junto al subcontratista. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Quién responde cuando se subcontrata
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cesión del contrato"]
-    C --> A2["Subcontratación"]
-    C --> A3["Consentimiento previo"]
-    C --> A4["Responsabilidad solidaria"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué se puede ceder o<br/>subcontratar y con qué<br/>controles"}}
-    D --> E["Entregable<br/>cláusula de cesión y<br/>subcontratación con controles<br/>de cumplimiento del<br/>subcontratista"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La subcontratación no traslada la responsabilidad frente al cliente: el contratista sigue respondiendo y, en materia laboral, la ley establece responsabilidad solidaria o subsidiaria del mandante.
+
+![Esquema: Quién responde cuando se subcontrata](modelo-mental.svg)
+
+**Lectura guiada:** El centro es tu contrato y los satélites son quienes quedan conectados a él. Cada subcontratación añade un eslabón que también puede reclamar o responder.
+
+**Piénsalo así:** Es una cadena de montaña: si un eslabón falla, los demás también caen, aunque sea el último el que se soltó.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La subcontratación no traslada la responsabilidad frente al cliente: el contrat
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 20.123 hace responder a la empresa principal por las obligaciones laborales y previsionales del contratista. Ejercer el derecho de información —exigir certificados de cumplimiento antes de cada pago— transforma la responsabilidad solidaria en subsidiaria; no ejercerlo equivale a asumir la deuda ajena.
+Define qué actividades puedes subcontratar, con qué autorización del cliente y bajo qué condiciones. Exige certificados de cumplimiento de obligaciones laborales y previsionales, seguros y cláusulas de indemnidad. Verifica que el contrato permita la cesión o la subcontratación solo con consentimiento previo. En materia laboral, consulta con un abogado las reglas de la Ley 20.123.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ La Ley 20.123 hace responder a la empresa principal por las obligaciones laboral
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa de mantención subcontrata a otra la parte eléctrica de un contrato y no revisa el cumplimiento laboral del subcontratista. Cuando este no paga cotizaciones y sus trabajadores reclaman, la empresa debe responder frente al cliente y también, de forma solidaria o subsidiaria, frente a los trabajadores. La corrección: exigir certificados de cumplimiento, derecho de retención de pagos y consentimiento previo del cliente para subcontratar (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los deberes del mandante y del contratista en la subcontratación, incluida la responsabilidad por las obligaciones laborales y previsionales.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 20.123 regula el trabajo en régimen de subcontratación; su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

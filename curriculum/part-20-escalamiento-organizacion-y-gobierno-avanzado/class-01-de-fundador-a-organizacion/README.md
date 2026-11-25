@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Founder bottleneck** | Concentración de conocimiento, decisiones, permisos y excepciones en una o dos personas. |
 | **Delegación efectiva** | Transferencia de decisión con criterio, límite, evidencia y responsable. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De hacerlo todo a que la organización funcione sin ti
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Transición<br/>fundador-organización"]
-    C --> A2["Institucionalización"]
-    C --> A3["Founder bottleneck"]
-    C --> A4["Delegación efectiva"]
-    A1 & A2 & A3 & A4 --> D{{"identificar qué decisiones,<br/>permisos y conocimientos deben<br/>dejar de depender del fundador"}}
-    D --> E["Entregable<br/>mapa de founder bottleneck con<br/>decisión, conocimiento,<br/>permiso, excepción, reemplazo<br/>y control por función"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Eliminar puestos con automatización puede aumentar la velocidad y, a la vez, el cuello de botella del fundador: más conocimiento, permisos y excepciones terminan concentrados en una sola persona.
+
+![Esquema: De hacerlo todo a que la organización funcione sin ti](modelo-mental.svg)
+
+**Cómo leerlo:** Cada peldaño reduce la dependencia del fundador. El salto más difícil es el tercero: delegar decisiones y no solo tareas, con límites claros y rendición de cuentas.
+
+**Una imagen cotidiana:** Es pasar de cocinar tú todos los platos a dirigir una cocina: al principio cuesta soltar, pero es la única forma de servir a más comensales.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Eliminar puestos mediante automatización puede aumentar simultáneamente veloci
 
 ### 2. Cómo se traduce en la práctica
 
-Delegar tareas sin delegar el criterio produce consultas permanentes que saturan igual. Y retomar la decisión delegada al primer error del responsable enseña a la organización que la delegación era aparente, con lo cual todo vuelve al punto de partida y nadie vuelve a intentarlo.
+Lista las decisiones, los permisos, los conocimientos y las relaciones que hoy dependen de ti. Para cada una, define si pasa a un rol, a un proceso o se elimina. Escribe límites de decisión por monto y materia. Mide cuántas decisiones esperan por ti cada semana y busca reducirlas. Si una relación es clave, preséntala formalmente al equipo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Delegar tareas sin delegar el criterio produce consultas permanentes que saturan
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de servicios crece de 5 a 25 personas con el fundador aprobando cada cotización, cada compra y cada excepción. Responde mensajes hasta las 11 de la noche y el equipo espera su decisión para avanzar. Define límites de aprobación por rol, documenta tres procesos y delega la gestión de clientes medianos a una jefa de cuentas. En seis meses, su aprobación ya no es necesaria en el 80 % de los casos y las ventas suben (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The E-Myth Revisited** (HarperBusiness): Gerber sostiene que el fundador debe construir un sistema y una organización que funcionen sin su intervención constante.
+- **The Hard Thing About Hard Things** (HarperBusiness): Horowitz describe cómo el paso de fundador a gerente de una organización exige aprender a delegar y a gestionar personas, no solo tareas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 
@@ -180,6 +185,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
 - *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
 - *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador.
+
+**HarperBusiness — The Hard Thing About Hard Things**  
+<https://openlibrary.org/isbn/9780062273215> · verificado 2026-11-25
+
+- *Qué contiene:* Relata decisiones difíciles de gestión al dirigir una empresa, incluidas las crisis. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Hard Thing About Hard Things» para identificar qué decisiones, permisos y conocimientos deben dejar de depender del fundador.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

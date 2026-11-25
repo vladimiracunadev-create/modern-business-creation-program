@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Quita** | Reducción del monto adeudado. |
 | **Posición negociadora** | Fuerza relativa de las partes en la negociación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Llegar a renegociar con o sin información
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Renegociación"]
-    C --> A2["Reprogramación"]
-    C --> A3["Quita"]
-    C --> A4["Posición negociadora"]
-    A1 & A2 & A3 & A4 --> D{{"preparar y ejecutar la<br/>renegociación con propuesta<br/>fundada"}}
-    D --> E["Entregable<br/>propuesta de renegociación con<br/>flujo proyectado, capacidad de<br/>pago demostrada y calendario<br/>ofrecido"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El acreedor prefiere cobrar tarde a no cobrar, lo que da margen de negociación si se llega con información y con una propuesta creíble; presentarse con estados financieros y un flujo proyectado cambia el resultado.
+
+![Esquema: Llegar a renegociar con o sin información](modelo-mental.svg)
+
+**Lectura guiada:** Compara los dos platos. En la renegociación, la credibilidad es el activo principal: lo que ofreces debe poder cumplirse con el flujo que muestras.
+
+**Una imagen cotidiana:** Es pedir una prórroga en el banco: con tu situación documentada y una propuesta realista, escuchan; con excusas, solo ven riesgo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El acreedor prefiere cobrar tarde a no cobrar, lo que da margen de negociación 
 
 ### 2. Cómo se traduce en la práctica
 
-Llegar con información y una oferta creíble es lo que distingue una renegociación exitosa de una petición de plazo. Y comprometer un calendario que el flujo no soporta produce un segundo incumplimiento que ya no admite tercera negociación: la credibilidad se gasta una sola vez.
+Antes de renegociar, reúne estados financieros, flujo proyectado, detalle de deudas y garantías. Define cuánto puedes pagar con realismo y propón un calendario creíble. Negocia con cada acreedor por separado y por escrito, con el mismo criterio de priorización. No ofrezcas lo que no puedes cumplir: un segundo incumplimiento destruye la confianza.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Llegar con información y una oferta creíble es lo que distingue una renegociac
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa debe 60 millones a un banco y su flujo solo le permite pagar 2 millones al mes. Propone reprogramar a 36 meses con cuotas de 1,8 millones tras un período de gracia de tres meses y entrega estados financieros y un flujo de 13 semanas. El banco evalúa que recuperaría 100 % de su crédito en 3 años, mientras que en una liquidación recuperaría mucho menos. Acepta la reprogramación con una garantía adicional (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La CMF mantiene información sobre las entidades financieras que otorgan crédito y son contraparte habitual de una renegociación.
+- **Ley 21.131 — Establece pago a treinta días** (Biblioteca del Congreso Nacional): La Ley 21.131 fija los plazos de pago a proveedores, referencia al negociar calendarios con acreedores comerciales.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

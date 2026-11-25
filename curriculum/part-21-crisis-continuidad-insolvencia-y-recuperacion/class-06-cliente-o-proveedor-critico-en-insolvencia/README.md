@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Señal temprana** | Comportamiento que anticipa el problema. |
 | **Verificación de crédito** | Revisión periódica de la salud del cliente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Señales de que un cliente o proveedor crítico se debilita
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Insolvencia de contraparte"]
-    C --> A2["Exposición"]
-    C --> A3["Señal temprana"]
-    C --> A4["Verificación de crédito"]
-    A1 & A2 & A3 & A4 --> D{{"definir cómo se monitorea el<br/>riesgo de contraparte y cómo<br/>se reduce la exposición"}}
-    D --> E["Entregable<br/>monitoreo de riesgo de<br/>contraparte con señales,<br/>límites de exposición y plan<br/>de reducción"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las señales tempranas de insolvencia de un cliente son observables: atrasos crecientes, promesas incumplidas, cambios de interlocutor, pedidos mayores con plazos más largos; detectarlas permite reducir la exposición.
+
+![Esquema: Señales de que un cliente o proveedor crítico se debilita](modelo-mental.svg)
+
+**Qué mirar primero:** Cuenta las señales de cada contraparte crítica. A medida que aumentan, también aumenta la necesidad de actuar antes de que el problema te alcance.
+
+**Para recordarlo:** Es el cielo antes de la tormenta: no sabes si lloverá, pero las nubes oscuras te dicen que es hora de buscar un paraguas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las señales tempranas de insolvencia de un cliente son observables: atrasos cre
 
 ### 2. Cómo se traduce en la práctica
 
-Atrasos crecientes, promesas incumplidas, cambios de interlocutor y pedidos mayores con plazos más largos son señales observables. Aumentar el crédito a un cliente que ya muestra atrasos es la reacción exactamente contraria a la que corresponde, y es la más frecuente por presión comercial.
+Define las señales tempranas por tipo de contraparte y quién las vigila. Fija límites de crédito y de exposición por cliente y proveedor crítico. Verifica la solvencia con informes y comportamiento de pago. Ten alternativas homologadas de proveedores y planes de contingencia. Revisa la regla de los plazos de pago pactados y legales.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Atrasos crecientes, promesas incumplidas, cambios de interlocutor y pedidos mayo
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa vende 40 millones al mes a un cliente que empieza a pagar con atrasos, cambia de contacto y pide un pedido mayor a 90 días; la empresa acepta por no perder la venta y, a los tres meses, el cliente cae en insolvencia con 120 millones sin pagar. Después: monitorea señales, limita la exposición, exige pago contra entrega con pedidos grandes y verifica el crédito del cliente antes de ampliar plazos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 21.131 — Establece pago a treinta días** (Biblioteca del Congreso Nacional): La Ley 21.131 fija el pago de facturas en treinta días corridos, referencia para detectar atrasos anormales de una contraparte.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las normas sobre factura, cobranza y reorganización, consultables en la BCN, fijan las herramientas legales disponibles ante la insolvencia de una contraparte.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: cuando un cliente o proveedor crítico falla
 

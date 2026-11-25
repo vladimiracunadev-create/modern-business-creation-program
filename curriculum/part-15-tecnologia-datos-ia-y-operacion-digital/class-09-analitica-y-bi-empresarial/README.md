@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Definición de métrica** | Fórmula y fuente acordadas. |
 | **Autoservicio** | Capacidad de los usuarios de obtener información sin intermediarios. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De una cifra discutida a una métrica oficial
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Analítica"]
-    C --> A2["Indicador"]
-    C --> A3["Definición de métrica"]
-    C --> A4["Autoservicio"]
-    A1 & A2 & A3 & A4 --> D{{"definir el conjunto de<br/>métricas oficiales con fórmula<br/>y fuente"}}
-    D --> E["Entregable<br/>catálogo de métricas con<br/>fórmula, fuente, frecuencia y<br/>responsable"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El requisito previo de la analítica es que todos calculen igual: una métrica sin definición documentada genera discusiones sobre el número en lugar de decisiones sobre el problema.
+
+![Esquema: De una cifra discutida a una métrica oficial](modelo-mental.svg)
+
+**Qué mirar primero:** Sigue el flujo con cada métrica. Lo central es el tercer paso: una única versión publicada. El tablero sirve solo cuando todos hablan del mismo número.
+
+**Piénsalo así:** Es un reglamento de un deporte: sin reglas comunes, cada equipo juega su partido y nadie sabe quién ganó.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El requisito previo de la analítica es que todos calculen igual: una métrica s
 
 ### 2. Cómo se traduce en la práctica
 
-Una métrica sin definición documentada genera reuniones dedicadas a explicar por qué dos áreas tienen números distintos. Empezar con pocos indicadores bien definidos vale más que un tablero extenso sin gobernanza, que nadie usa después del primer desacuerdo.
+Comienza con cinco a diez métricas oficiales. Para cada una escribe nombre, fórmula, fuente, frecuencia, responsable y umbral. Publícalas en un lugar único y evita calcular por separado en cada área. Cuando alguien proponga una nueva, pregunta qué decisión cambiaría. Revisa las definiciones cada año o cuando cambie el negocio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Una métrica sin definición documentada genera reuniones dedicadas a explicar p
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+En una empresa, ventas dice que tuvo 120 clientes activos y finanzas, 95. La diferencia es que ventas cuenta a cualquier cliente con cotización y finanzas, a los que compraron en 90 días. Pasan dos reuniones discutiendo el número. Al definir «cliente activo» (compra en los últimos 90 días) y publicar la fórmula y la fuente, las áreas discuten ahora por qué cayó y qué hacer (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz recomiendan concentrarse en las métricas que importan según la etapa y definirlas con claridad para que orienten decisiones.
+- **The Balanced Scorecard** (Harvard Business School Press): Kaplan y Norton proponen un conjunto balanceado de indicadores vinculados a la estrategia, con definiciones y responsables claros.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir el conjunto de métricas oficiales con fórmula y fuente.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para definir el conjunto de métricas oficiales con fórmula y fuente.
+
+**Harvard Business School Press — The Balanced Scorecard**  
+<https://openlibrary.org/isbn/9781578514090> · verificado 2026-11-25
+
+- *Qué contiene:* Traduce la estrategia en indicadores financieros, de clientes, de procesos y de aprendizaje. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Balanced Scorecard» para definir el conjunto de métricas oficiales con fórmula y fuente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

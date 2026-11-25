@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Independencia** | Condición del miembro sin vínculo económico relevante. |
 | **Agenda de gobierno** | Materias que el órgano revisa periódicamente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Consejo asesor o directorio
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Consejo asesor"]
-    C --> A2["Directorio"]
-    C --> A3["Independencia"]
-    C --> A4["Agenda de gobierno"]
-    A1 & A2 & A3 & A4 --> D{{"decidir si corresponde consejo<br/>asesor o directorio y con qué<br/>agenda"}}
-    D --> E["Entregable<br/>diseño del órgano de gobierno<br/>con composición, agenda,<br/>frecuencia e información que<br/>recibirá"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El consejo asesor es el paso previo al directorio: aporta criterio externo sin responsabilidad legal ni costo alto; su utilidad depende de que reciba información real y se reúna con agenda.
+
+![Esquema: Consejo asesor o directorio](modelo-mental.svg)
+
+**Qué mirar primero:** Compara los dos platos. Un consejo sin información real y sin agenda es una reunión social; un directorio sin preparación es una formalidad costosa. Elige según tu etapa y necesidades.
+
+**Piénsalo así:** Es la diferencia entre pedir consejo a un mentor y tener un comité con poder de decisión: el primero orienta, el segundo gobierna.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El consejo asesor es el paso previo al directorio: aporta criterio externo sin r
 
 ### 2. Cómo se traduce en la práctica
 
-El consejo asesor aporta criterio externo sin responsabilidad legal ni costo alto, y es el paso previo natural. Su utilidad depende de que reciba información real: un órgano al que solo se le presentan buenas noticias no aporta criterio, aporta validación.
+Define el objetivo del órgano y quiénes lo integrarán según la experiencia que necesitas. Establece la agenda, la frecuencia, las actas y los datos que recibirá. Si hay un directorio, aclara sus responsabilidades legales, su independencia y el tratamiento de los conflictos de interés. Evalúa periódicamente su aporte y renueva a sus integrantes.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El consejo asesor aporta criterio externo sin responsabilidad legal ni costo alt
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿qué te falta para decidir mejor, experiencia, contactos o control? Dos: ¿tienes socios o inversionistas que exigen gobierno formal? Tres: ¿puedes sostener el costo y la formalidad de un directorio? Una pyme de ocho años que busca criterio externo crea un consejo asesor de tres personas con una reunión trimestral, una agenda de cinco puntos y los estados financieros reales.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La ley de sociedades anónimas y el Código de Comercio, consultables en la BCN, regulan las funciones y responsabilidades de los directores.
+- **The Hard Thing About Hard Things** (HarperBusiness): Horowitz relata la relación entre quien dirige una empresa y su directorio y la importancia de informar con claridad y honestidad a quienes gobiernan.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para decidir si corresponde consejo asesor o directorio y con qué agenda.
+
+**HarperBusiness — The Hard Thing About Hard Things**  
+<https://openlibrary.org/isbn/9780062273215> · verificado 2026-11-25
+
+- *Qué contiene:* Relata decisiones difíciles de gestión al dirigir una empresa, incluidas las crisis. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Hard Thing About Hard Things» para decidir si corresponde consejo asesor o directorio y con qué agenda.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

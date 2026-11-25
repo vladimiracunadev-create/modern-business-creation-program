@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Corte de documentos** | Regla que asigna documentos al período correcto. |
 | **Checklist de cierre** | Lista de verificaciones que debe completarse cada mes. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El cierre mensual como proceso repetible
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cuentas por pagar"]
-    C --> A2["Cierre mensual"]
-    C --> A3["Corte de documentos"]
-    C --> A4["Checklist de cierre"]
-    A1 & A2 & A3 & A4 --> D{{"definir el checklist y el<br/>calendario del cierre mensual"}}
-    D --> E["Entregable<br/>checklist de cierre mensual<br/>con responsable, plazo y<br/>evidencia por punto"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un cierre mensual con lista de verificación convierte la contabilidad en un proceso repetible; sin ella, cada mes es una improvisación.
+
+![Esquema: El cierre mensual como proceso repetible](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo se repite todos los meses. Cada paso tiene un responsable y una fecha; si uno se retrasa, el cierre se atrasa y la información llega tarde.
+
+**Piénsalo así:** Es la rutina de cerrar un local: bajas la cortina, cuentas la caja, revisas los pendientes y dejas todo listo para abrir mañana.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un cierre mensual con checklist convierte la contabilidad en un proceso repetibl
 
 ### 2. Cómo se traduce en la práctica
 
-El checklist debe cubrir conciliaciones hechas, provisiones registradas, corte de documentos aplicado y revisión de cuentas puente. La tentación de registrar facturas en el mes que conviene al resultado es real y es exactamente lo que el corte de documentos impide cuando está definido por escrito.
+Define la lista de verificación del cierre con cada tarea, su responsable y su fecha. Aplica un corte estricto: lo que llega tarde se registra en el mes siguiente. Revisa que las cuentas puente estén en cero y que las provisiones estén registradas. Mide cuántos días toma el cierre y reduce ese tiempo cada trimestre.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El checklist debe cubrir conciliaciones hechas, provisiones registradas, corte d
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Diseña el calendario de cierre de tu empresa. Fija el día en que cortas los documentos, el de las conciliaciones, el de las provisiones y el de entrega de informe. Asigna un responsable por paso y un reemplazo. Escribe cinco controles que revisarás cada mes (por ejemplo, que no queden cuentas puente con saldo). Estima cuántos días hábiles te tomará y qué decisión tomarías con ese informe. Las fechas son un ejercicio ilustrativo.
+
+### 5. En qué se apoya
+
+- **The Checklist Manifesto** (Metropolitan Books): Gawande muestra que las listas de verificación reducen errores en procesos repetitivos y críticos, y el cierre contable es uno de ellos.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las normas tributarias y contables, consultables en la Biblioteca del Congreso Nacional, exigen mantener registros al día y respaldados.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el checklist y el calendario del cierre mensual.
+
+**Metropolitan Books — The Checklist Manifesto**  
+<https://openlibrary.org/isbn/9780312430009> · verificado 2026-11-25
+
+- *Qué contiene:* Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Checklist Manifesto» para definir el checklist y el calendario del cierre mensual.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Recurso clave** | Activo indispensable: equipo, licencia, dato, permiso o instalación. |
 | **Coherencia del canvas** | Que los nueve bloques se sostengan entre sí. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los nueve bloques deben contarse la misma historia
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Business Model Canvas"]
-    C --> A2["Actividad clave"]
-    C --> A3["Recurso clave"]
-    C --> A4["Coherencia del canvas"]
-    A1 & A2 & A3 & A4 --> D{{"verificar si los nueve bloques<br/>del modelo son consistentes<br/>entre sí"}}
-    D --> E["Entregable<br/>canvas versionado con registro<br/>de evidencia por bloque y al<br/>menos tres inconsistencias<br/>resueltas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El canvas no vale como cuadro decorativo sino como prueba de coherencia: cada bloque debe sostener a los demás.
+
+![Esquema: Los nueve bloques deben contarse la misma historia](modelo-mental.svg)
+
+**Lectura guiada:** Las tres áreas deben cruzarse en el centro. Si un bloque de un círculo contradice a otro (por ejemplo, un canal que no alcanza al segmento), el modelo no cierra aunque cada bloque suene razonable.
+
+**Piénsalo así:** Es un engranaje de tres ruedas: si una no calza con las otras, la máquina no avanza aunque todas giren.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El canvas no vale como cuadro decorativo sino como prueba de coherencia: si el c
 
 ### 2. Cómo se traduce en la práctica
 
-El registro de evidencia evita que el Canvas quede congelado. Cuando una entrevista, prueba de precio o cálculo de costos contradice un bloque, se conserva la versión anterior, se registra fuente y confianza y se actualizan los bloques dependientes. La evolución importa tanto como la fotografía vigente.
+Llena los nueve bloques en una hoja con lápiz, no en software. Después recorre las parejas críticas y pregúntate si cierran: ¿el canal llega al segmento?, ¿la fuente de ingreso paga la estructura de costos?, ¿la actividad clave necesita un recurso que no tienes? Subraya cada incoherencia y decide qué bloque cambias. Repite la prueba cada vez que cambie un bloque.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El registro de evidencia evita que el Canvas quede congelado. Cuando una entrevi
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de cursos para operarios mineros llena su canvas: segmento (operarios), canal (redes sociales), propuesta (cursos online) e ingreso (suscripción mensual personal). Al revisar la coherencia descubre dos fallas: el segmento usa poco redes sociales en su turno y quien paga es el empleador, no el operario. Reordena el modelo hacia ventas a jefaturas de capacitación con pago por faena y el canal pasa a ser visitas y ferias (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Business Model Generation** (Wiley): Osterwalder y Pigneur presentan los nueve bloques del lienzo como un lenguaje común para describir y comparar modelos de negocio y detectar incoherencias.
+- **Running Lean** (O'Reilly): Maurya adapta el lienzo a las etapas tempranas y lo usa como un conjunto de hipótesis que se prueban, no como un plan terminado.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para verificar si los nueve bloques del modelo son consistentes entre sí.
+
+**Wiley — Business Model Generation**  
+<https://openlibrary.org/isbn/9780470876411> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el lienzo del modelo de negocio de nueve bloques y patrones para describir, diseñar y comparar modelos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Business Model Generation» para verificar si los nueve bloques del modelo son consistentes entre sí.
+
+**O'Reilly — Running Lean**  
+<https://openlibrary.org/isbn/9781449331900> · verificado 2026-11-25
+
+- *Qué contiene:* Método para iterar un modelo de negocio con el lienzo lean y experimentos cortos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Running Lean» para verificar si los nueve bloques del modelo son consistentes entre sí.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

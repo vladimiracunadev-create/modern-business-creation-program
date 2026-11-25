@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Flujo de caja** | Proyección con supuestos explícitos. |
 | **Punto de equilibrio** | Volumen mínimo de ventas. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El punto de equilibrio del caso con su precio y sus costos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Presupuesto del caso"]
-    C --> A2["Pricing"]
-    C --> A3["Flujo de caja"]
-    C --> A4["Punto de equilibrio"]
-    A1 & A2 & A3 & A4 --> D{{"construir el modelo financiero<br/>completo y coherente del caso"}}
-    D --> E["Entregable<br/>secciones 03 y 06 del<br/>expediente con planilla de<br/>costos, presupuesto, pricing,<br/>flujo, equilibrio y tres<br/>escenarios"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Este bloque completa las secciones de costos y proyección del expediente: integra costos fijos, variables y semifijos, directos e indirectos, con un precio defendido y un flujo de caja coherente con el canvas.
+
+![Esquema: El punto de equilibrio del caso con su precio y sus costos](modelo-mental.svg)
+
+**Lectura guiada:** Los costos parten de un nivel fijo y suben con el volumen; los ingresos parten de cero. El cruce es el volumen mínimo del caso. El flujo de caja dice cuánto tardas en llegar a él.
+
+**Piénsalo así:** Es la fecha en que una obra empieza a rendir: antes hay pérdida, después ganancia, y el flujo de caja dice si aguantas hasta ese día.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Este bloque completa las secciones 03 Costos y 06 Proyección del expediente y o
 
 ### 2. Cómo se traduce en la práctica
 
-La evaluación revisa coherencia antes que ambición. Cada cifra se identifica como histórica, supuesto o derivada; volumen por precio coincide con ventas, los costos responden al volumen y a la capacidad, y el desfase de cobro alimenta caja y capital de trabajo. La proyección muestra break-even, runway y capital requerido y obliga a revisar el Canvas cuando la economía no sostiene un bloque.
+Construye la planilla de costos fijos, variables y semifijos del caso, con supuestos y fuentes. Calcula el punto de equilibrio y el flujo de caja de 13 semanas y de 12 meses, con escenarios conservador, base y expansivo. Defiende el precio con el valor para el cliente, el costo y el mercado. Revisa el canvas: si el modelo financiero lo contradice, corrige el canvas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La evaluación revisa coherencia antes que ambición. Cada cifra se identifica c
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+El servicio de mantención de bicicletas eléctricas cobra $35.000 por servicio con un costo variable de $14.000 (repuestos y comisión): margen de contribución $21.000. Sus costos fijos son $1.260.000 al mes (arriendo, herramientas, seguro y su sueldo). El punto de equilibrio es 60 servicios al mes. Si llega a 60 en el mes 7 y el capital de trabajo cubre los meses de pérdida, el flujo es viable; si no, debe reducir los costos fijos o subir el precio (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican los costos fijos y variables, el punto de equilibrio y la lectura del flujo de caja.
+- **The Strategy and Tactics of Pricing** (Prentice Hall): Nagle y Holden proponen fijar precios con base en el valor percibido por el cliente, además del costo y de la competencia.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -164,6 +169,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Compara los regímenes vigentes: requisitos de ingreso y permanencia, tipo de propietarios admitidos, forma de determinar la base imponible y cómo se imputa el crédito contra los impuestos finales de los dueños.
 - *Cómo leerla:* Lee primero la columna de requisitos de propietarios: descarta regímenes antes de comparar tasas. Las tasas cambian por ley y por período transitorio, así que anota la fecha de consulta junto a cada cifra que uses.
 - *Uso en esta clase:* aporta el marco de «Regímenes tributarios · Operación Renta 2026» para construir el modelo financiero completo y coherente del caso.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para construir el modelo financiero completo y coherente del caso.
+
+**Prentice Hall — The Strategy and Tactics of Pricing**  
+<https://openlibrary.org/isbn/9780132043588> · verificado 2026-11-25
+
+- *Qué contiene:* Tratado de fijación de precios basada en el valor percibido por el cliente. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Strategy and Tactics of Pricing» para construir el modelo financiero completo y coherente del caso.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

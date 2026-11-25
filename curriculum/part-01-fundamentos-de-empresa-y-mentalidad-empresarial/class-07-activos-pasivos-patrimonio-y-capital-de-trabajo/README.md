@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Patrimonio** | Diferencia entre activos y pasivos; lo que queda para los dueños. |
 | **Capital de trabajo** | Activo corriente menos pasivo corriente; la caja que la operación inmoviliza. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuando pagas antes de cobrar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Activo"]
-    C --> A2["Pasivo"]
-    C --> A3["Patrimonio"]
-    C --> A4["Capital de trabajo"]
-    A1 & A2 & A3 & A4 --> D{{"determinar cuánta caja<br/>inmoviliza la operación por<br/>cada peso adicional de venta"}}
-    D --> E["Entregable<br/>cálculo de capital de trabajo<br/>actual y proyectado a un<br/>crecimiento de 50%"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Una empresa rentable puede quedarse sin dinero si cobra a sesenta días y paga a treinta: cada peso de crecimiento consume caja antes de volver.
+
+![Esquema: Cuando pagas antes de cobrar](modelo-mental.svg)
+
+**Qué mirar primero:** La línea muestra cuándo sale y cuándo entra el dinero. El tramo entre el primer pago y el cobro es la caja que la empresa debe financiar por su cuenta.
+
+**Una imagen cotidiana:** Es llenar una piscina con una manguera mientras otra la vacía: crecer sin mirar el desfase hace que el nivel baje aunque haya mucha agua pasando.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El capital de trabajo explica por qué una empresa rentable puede quedarse sin d
 
 ### 2. Cómo se traduce en la práctica
 
-La ecuación es mecánica: si cobras a 60 días y pagas a 30, cada peso de crecimiento inmoviliza caja durante un mes. Crecer 50 % sin financiar ese capital de trabajo adicional produce exactamente la crisis que se atribuye a mala suerte. La parte 09 lo formaliza con el ciclo de conversión de efectivo.
+Calcula tres números: los días que tardas en cobrar, los días que tardas en pagar y los días que tienes inventario. El capital de trabajo es el costo diario de operar multiplicado por esos días netos. Antes de aceptar un pedido grande, calcula cuánto financiamiento adicional requiere y de dónde saldrá. Negociar cobro más corto o pago más largo mejora la caja sin vender más.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La ecuación es mecánica: si cobras a 60 días y pagas a 30, cada peso de creci
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa vende 10 millones al mes con un margen de 30 %. Paga a proveedores a los 30 días y cobra a los 60. El desfase es de 30 días, es decir, necesita financiar cerca de 7 millones de costos antes de recibir el primer pago. Si duplica sus ventas a 20 millones, necesita 14 millones de capital de trabajo: ganó más, pero tiene menos caja disponible (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican el capital de trabajo y el ciclo del efectivo, y por qué una empresa con utilidades puede quedarse sin caja.
+- **Principles of Corporate Finance** (McGraw-Hill): Brealey y Myers tratan la gestión del capital de trabajo como parte de las decisiones financieras de corto plazo de cualquier empresa.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para determinar cuánta caja inmoviliza la operación por cada peso adicional de venta.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para determinar cuánta caja inmoviliza la operación por cada peso adicional de venta.
+
+**McGraw-Hill — Principles of Corporate Finance**  
+<https://openlibrary.org/isbn/9780071140539> · verificado 2026-11-25
+
+- *Qué contiene:* Texto de finanzas corporativas: valor presente, riesgo, costo de capital y decisiones de inversión. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Principles of Corporate Finance» para determinar cuánta caja inmoviliza la operación por cada peso adicional de venta.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

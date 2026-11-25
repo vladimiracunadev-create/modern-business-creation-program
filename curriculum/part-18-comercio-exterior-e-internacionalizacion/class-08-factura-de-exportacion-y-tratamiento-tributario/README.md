@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Recuperación de IVA** | Devolución del impuesto soportado en insumos. |
 | **Plazo de retorno** | Tiempo dentro del cual deben cumplirse obligaciones asociadas. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La factura de exportación debe coincidir con todo lo demás
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Factura de exportación"]
-    C --> A2["Valor FOB"]
-    C --> A3["Recuperación de IVA"]
-    C --> A4["Plazo de retorno"]
-    A1 & A2 & A3 & A4 --> D{{"emitir la documentación<br/>tributaria de exportación de<br/>forma coherente y completa"}}
-    D --> E["Entregable<br/>procedimiento de emisión de<br/>factura de exportación con<br/>control de coherencia<br/>documental"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La factura de exportación tiene reglas propias de emisión y es la base de la recuperación del IVA exportador; debe ser coherente con el DUS y con la documentación de embarque.
+
+![Esquema: La factura de exportación debe coincidir con todo lo demás](modelo-mental.svg)
+
+**Cómo leerlo:** Los tres documentos deben coincidir en valores, cantidades y descripción. En el centro está lo que el SII busca para devolver el IVA: coherencia entre lo declarado, lo embarcado y lo facturado.
+
+**Para recordarlo:** Es cuadrar tres relatos del mismo viaje: si en cada uno el destino o la hora cambian, nadie creerá que es la misma historia.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La factura de exportación tiene reglas propias de emisión y es la base de la r
 
 ### 2. Cómo se traduce en la práctica
 
-Las diferencias entre factura, documento aduanero y documentación de embarque llaman la atención en fiscalización y detienen la recuperación del IVA. Un control de coherencia antes de presentar es más barato que la rectificación posterior, que además reinicia los plazos.
+Antes de embarcar, revisa que la factura de exportación, el DUS y los documentos de embarque coincidan en valor FOB, cantidades, descripciones e Incoterm. Si hay ajustes posteriores, corrígelos de forma ordenada con notas y documentos de respaldo. Verifica el plazo de retorno de divisas y de solicitud de devolución del IVA. Guarda todo con trazabilidad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Las diferencias entre factura, documento aduanero y documentación de embarque l
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de vinos factura 120.000 dólares, pero el DUS declara 118.500 por un descuento posterior y el conocimiento de embarque indica 1.020 cajas en vez de 1.000. El SII solicita aclaraciones y la devolución del IVA se retrasa tres meses. En un caso siguiente, la empresa verifica que los tres documentos tengan el mismo valor FOB, cantidad y descripción antes de enviar la solicitud, y la devolución se hace en el plazo habitual (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII publica las reglas de emisión de la factura de exportación y el procedimiento de recuperación del IVA exportador.
+- **Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social** (Biblioteca del Congreso Nacional · LeyChile): La Ley 21.850 contiene modificaciones tributarias cuyo efecto sobre las exportaciones debe verificarse en su texto antes de aplicar un régimen.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

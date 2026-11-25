@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Instalador autorizado** | Profesional con licencia habilitante. |
 | **Certificación** | Documento que acredita la conformidad de la instalación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Quiénes intervienen en una instalación eléctrica o de gas
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SEC"]
-    C --> A2["Instalación declarada"]
-    C --> A3["Instalador autorizado"]
-    C --> A4["Certificación"]
-    A1 & A2 & A3 & A4 --> D{{"asegurar que las instalaciones<br/>estén ejecutadas y declaradas<br/>conforme a la normativa"}}
-    D --> E["Entregable<br/>registro de instalaciones con<br/>instalador autorizado,<br/>declaración SEC y certificados<br/>vigentes"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las instalaciones eléctricas y de gas deben ser ejecutadas por un instalador autorizado y declaradas ante la SEC; la declaración es requisito para el empalme y suele exigirse por seguros y por clientes grandes.
+
+![Esquema: Quiénes intervienen en una instalación eléctrica o de gas](modelo-mental.svg)
+
+**Qué mirar primero:** El centro es una instalación segura y declarada; los satélites son quienes dependen de que lo esté. Si falta la declaración, se detiene el empalme y puede quedar sin cobertura un incendio.
+
+**Una analogía:** Es la receta médica de un medicamento: la prescribe quien está autorizado y la valida quien dispensa; sin ambos, el sistema no funciona.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las instalaciones eléctricas y de gas deben ser ejecutadas por instalador autor
 
 ### 2. Cómo se traduce en la práctica
 
-La declaración es requisito para el empalme y suele exigirse por seguros y por la propia municipalidad. Una instalación no declarada puede invalidar la cobertura del seguro ante un siniestro, que es exactamente el momento en que se descubre que el ahorro inicial no compensaba.
+Contrata solo instaladores autorizados por la SEC y exige la declaración de la instalación antes de recibir la obra. Guarda los certificados y planos y cuida que se actualicen ante modificaciones. Revisa si tu aseguradora o tus clientes piden la declaración. Una instalación sin declarar es un riesgo de seguridad y de responsabilidad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ La declaración es requisito para el empalme y suele exigirse por seguros y por 
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Gerente: «Contratamos al electricista más barato para la bodega nueva». Jefa de seguros: «¿Tiene autorización de la SEC y declarará la instalación?». Gerente: «No lo sé». Jefa: «Sin declaración, la distribuidora no hará el empalme y, si hay un incendio, el seguro podría rechazar el siniestro». Gerente: «Entonces cambiemos de contratista y pidamos el certificado de declaración antes de pagar» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Instalaciones eléctricas y de gas** (Superintendencia de Electricidad y Combustibles): La Superintendencia de Electricidad y Combustibles informa los requisitos de instaladores autorizados y la declaración de las instalaciones eléctricas y de gas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

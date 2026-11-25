@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Reporte de incidentes** | Obligación de informar en plazos definidos. |
 | **Evaluación de proveedores** | Revisión de seguridad de terceros. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánta evidencia tienes frente a la exigencia de un cliente regulado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Obligación sectorial de<br/>ciberseguridad"]
-    C --> A2["Traslado contractual"]
-    C --> A3["Reporte de incidentes"]
-    C --> A4["Evaluación de proveedores"]
-    A1 & A2 & A3 & A4 --> D{{"identificar las obligaciones<br/>de ciberseguridad directas y<br/>las trasladadas por clientes"}}
-    D --> E["Entregable<br/>inventario de obligaciones de<br/>ciberseguridad por origen con<br/>brechas y plan de cierre"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Aunque la empresa no sea operador de importancia vital, sus clientes regulados le trasladarán exigencias por contrato: controles, auditorías, notificación de incidentes y cláusulas de responsabilidad.
+
+![Esquema: Cuánta evidencia tienes frente a la exigencia de un cliente regulado](modelo-mental.svg)
+
+**Cómo leerlo:** El semáforo mide qué tanto puedes demostrar. La obligación contractual puede ser tan exigente como la legal; la evidencia es lo que convierte tu seguridad en una ventaja comercial.
+
+**Una analogía:** Es el certificado de revisión técnica de un auto: no basta con que funcione, tienes que poder mostrarlo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Aunque la empresa no sea operador de importancia vital, sus clientes regulados l
 
 ### 2. Cómo se traduce en la práctica
 
-Los clientes regulados trasladan exigencias de controles, auditorías y notificación de incidentes por cláusula. Descubrirlas durante la negociación de un contrato importante deja a la empresa eligiendo entre aceptar obligaciones que no puede cumplir o perder la operación.
+Averigua si tu empresa es directamente obligada por la Ley Marco de Ciberseguridad y qué traslada cada cliente por contrato. Responde los cuestionarios con evidencia, no con intenciones. Documenta tus controles y tu plan de respuesta, y negocia plazos de notificación realistas. Evalúa también a tus propios proveedores.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Los clientes regulados trasladan exigencias de controles, auditorías y notifica
 **Autoridades o contrapartes involucradas:** Ministerio Público, UAF, SII, CMF, Dirección del Trabajo.
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de software para clínicas recibe de su cliente un cuestionario de seguridad con 60 preguntas y la obligación de avisar incidentes en 24 horas. Cumple cuatro de cada cinco, pero no tiene evidencia escrita de ninguno. Reúne políticas, registros de copias y capacitaciones y define un procedimiento de notificación. Obtiene la renovación del contrato y usa el informe como argumento comercial con otros clientes (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 21.663 — Ley Marco de Ciberseguridad** (Biblioteca del Congreso Nacional): La Ley 21.663 define las instituciones obligadas y el reporte de incidentes, que sus proveedores deben apoyar por contrato.
+- **Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)** (Biblioteca del Congreso Nacional): La Ley 21.855 modifica la entrada en vigencia de la Ley 21.719 sobre datos personales, que complementa las obligaciones de seguridad que se traspasan por contrato.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: ciberincidentes: quién avisa a quién y en cuánto tiempo
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Apuesta reversible** | Decisión que puede deshacerse a bajo costo. |
 | **Ruina** | Escenario del que la empresa no puede recuperarse aunque el valor esperado sea positivo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué decisiones se toman rápido y cuáles se rechazan
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Riesgo"]
-    C --> A2["Incertidumbre"]
-    C --> A3["Apuesta reversible"]
-    C --> A4["Ruina"]
-    A1 & A2 & A3 & A4 --> D{{"clasificar cada decisión por<br/>reversibilidad y por<br/>exposición a ruina antes de<br/>decidir"}}
-    D --> E["Entregable<br/>registro de decisiones con<br/>reversibilidad, exposición<br/>máxima y criterio de reversión"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Se deciden rápido las cosas reversibles y se piensan despacio las irreversibles, y se rechaza toda apuesta cuya pérdida pueda destruir la empresa.
+
+![Esquema: Qué decisiones se toman rápido y cuáles se rechazan](modelo-mental.svg)
+
+**Lectura guiada:** Cada banda es una regla de decisión. Pon cada decisión importante en una banda antes de discutirla: lo que cae en rojo no se negocia, y lo que cae en verde no debe frenarse por exceso de análisis.
+
+**Una analogía:** Es cruzar un río: si el agua llega a los tobillos pruebas el paso; si llega al cuello, no importa cuántas veces hayas cruzado antes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La regla operativa es tratar rápido las decisiones reversibles y lento las irre
 
 ### 2. Cómo se traduce en la práctica
 
-El caso concreto más frecuente es el contrato con responsabilidad ilimitada de un cliente grande. Puede ser rentable en promedio y aun así inaceptable, porque una sola materialización supera el patrimonio de la empresa. La parte 10 entrega el instrumento: tope de responsabilidad y exclusión de daños indirectos.
+Escribe las tres bandas en una hoja y, durante un mes, clasifica por ellas todas las decisiones de más de cierto monto. Define de antemano qué significa ruina para tu empresa (por ejemplo, perder más de seis meses de caja). Las decisiones verdes se delegan; las amarillas se documentan; las rojas se rechazan o se rediseñan para reducir la exposición.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El caso concreto más frecuente es el contrato con responsabilidad ilimitada de 
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una pyme firma un contrato con una cláusula de responsabilidad ilimitada porque el cliente es grande y la utilidad esperada es buena. La corrección: ponerlo en la banda roja. Aunque en promedio el contrato deje ganancias, un solo incidente puede superar el patrimonio de la empresa. Se negocia un tope de responsabilidad o se rechaza; en cambio, cambiar el proveedor de embalaje, una decisión reversible, se prueba durante un mes sin comité (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Thinking in Bets** (Portfolio): Duke propone evaluar la calidad de una decisión por la información y el razonamiento disponibles y no solo por su resultado, y tratar las decisiones como apuestas con probabilidades.
+- **The Black Swan** (Random House): Taleb sostiene que los eventos improbables de gran impacto dominan los resultados, por lo que evitar la ruina importa más que optimizar el promedio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para clasificar cada decisión por reversibilidad y por exposición a ruina antes de decidir.
+
+**Portfolio — Thinking in Bets**  
+<https://openlibrary.org/isbn/9780735216358> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica la lógica de las apuestas a la decisión bajo incertidumbre: separar la calidad de la decisión del resultado.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking in Bets» para clasificar cada decisión por reversibilidad y por exposición a ruina antes de decidir.
+
+**Random House — The Black Swan**  
+<https://openlibrary.org/isbn/9780812979183> · verificado 2026-11-25
+
+- *Qué contiene:* Examina el impacto de los eventos improbables y los límites de la predicción. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Black Swan» para clasificar cada decisión por reversibilidad y por exposición a ruina antes de decidir.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

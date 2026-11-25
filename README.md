@@ -65,7 +65,7 @@ responsable y qué evidencia debe quedar**.
 | Currículo | ✅ 336/336 clases generadas desde manifiesto |
 | Contenido por clase | ✅ propósito, conceptos, desarrollo en tres bloques, taller, reto, errores y preguntas propias |
 | Profundidad | ✅ 1.144–3.064 palabras por clase (mediana 1.343), 467.439 palabras totales |
-| Diagramas | ✅ 360 diagramas mermaid: uno por clase y uno por parte |
+| Diagramas | ✅ 360 diagramas mermaid (uno por clase y uno por parte) y 336 modelos mentales SVG, uno distinto por clase, con 14 arquetipos |
 | Conceptos definidos | ✅ 1.344 definiciones operacionales · glosario maestro de 1.251 términos |
 | Preguntas de comprobación | ✅ 1.008 (3 por clase) |
 | Marco normativo | ✅ 24 paquetes de parte con narrativa, normas, autoridades, riesgos y bibliografía |
@@ -90,86 +90,138 @@ Toda afirmación del programa se apoya en una entrada del registro
 localizador, el organismo que responde por ella y la fecha en que se comprobó. Por eso **cada clase
 muestra la fecha de su propia fuente** y no una fecha global del programa.
 
-Estas son las **74 fuentes citadas** por las 336 clases y las 24 partes,
+Estas son las **126 fuentes citadas** por las 336 clases y las 24 partes,
 ordenadas por peso en el material. Las primeras son las que gobiernan el programa: la normativa
 consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor parte de las citas.
 
 | Fuente | Organismo | Citas | Estado | Resolvió |
 |---|---|---:|:---:|---|
-| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 248 | ✅ | 2026-11-05 |
+| [Normativa oficial consolidada](https://www.bcn.cl/leychile/) | Biblioteca del Congreso Nacional · LeyChile | 250 | ✅ | 2026-11-05 |
 | [Nuevos contribuyentes, inicio de actividades y DTE](https://www.sii.cl/ayudas/nuevos_contribuyentes/boleta-vys-facturador.html) | Servicio de Impuestos Internos | 100 | ✅ | 2026-11-05 |
-| [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 62 | ✅ | 2026-11-05 |
+| [Ley 19.496, comercio electrónico y garantía legal](https://www.sernac.cl/) | Servicio Nacional del Consumidor | 63 | ✅ | 2026-11-05 |
 | [Innovación, inversión y garantías](https://www.corfo.cl/) | Corporación de Fomento de la Producción | 51 | ✅ | 2026-11-05 |
-| [Relaciones laborales y obligaciones del empleador](https://www.dt.gob.cl/) | Dirección del Trabajo | 43 | ✅ | 2026-11-05 |
+| [Relaciones laborales y obligaciones del empleador](https://www.dt.gob.cl/) | Dirección del Trabajo | 44 | ✅ | 2026-11-05 |
 | [Constitución de empresas](https://www.chileatiende.gob.cl/fichas/21409-tu-empresa) | Registro de Empresas y Sociedades / ChileAtiende | 32 | ✅ | 2026-11-05 |
 | [Fomento para micro y pequeñas empresas](https://www.sercotec.cl/) | Servicio de Cooperación Técnica | 31 | ✅ | 2026-11-05 |
+| [Financial Intelligence](https://openlibrary.org/isbn/9781591397649) | Harvard Business Review Press | 25 | ✅ | 2026-11-25 |
 | [Autorización sanitaria de alimentos](https://www.chileatiende.gob.cl/fichas/172-autorizacion-sanitaria-de-alimentos) | ChileAtiende · Autoridad Sanitaria Regional | 24 | ✅ | 2026-11-05 |
 | [Carpeta Tributaria Electrónica](https://zeus.sii.cl/dii_doc/carpeta_tributaria/html/generar_carpeta.htm) | Servicio de Impuestos Internos | 24 | ✅ | 2026-11-05 |
+| [Ley 19.496 — Protección de los derechos de los consumidores](https://www.bcn.cl/leychile/navegar?idNorma=61438) | Biblioteca del Congreso Nacional | 19 | ✅ | 2026-11-25 |
 | [Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social](https://www.bcn.cl/leychile/navegar?idNorma=1229250) | Biblioteca del Congreso Nacional · LeyChile | 17 | ✅ | 2026-11-05 |
 | [Ley 21.850 publicada en el Diario Oficial N.º 44.576-B (17-10-2026)](https://www.diariooficial.interior.gob.cl/publicaciones/2026/10/17/44576-B/01/2888352.pdf) | Diario Oficial de la República de Chile | 17 | ✅ | 2026-11-05 |
 | [Registro de Prestadores de Servicios Financieros · Ley 21.521](https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html) | Comisión para el Mercado Financiero | 15 | ✅ | 2026-11-05 |
 | [Programas, estudios de mercado y promoción](https://www.prochile.gob.cl/) | ProChile | 15 | ✅ | 2026-11-05 |
 | [Marcas, patentes y diseños industriales](https://www.inapi.cl/) | Instituto Nacional de Propiedad Industrial | 14 | ✅ | 2026-11-05 |
 | [Regímenes tributarios · Operación Renta 2026](https://www.sii.cl/destacados/renta/2026/intermediarios/regimenes_tributarios/) | Servicio de Impuestos Internos | 14 | ✅ | 2026-11-05 |
-| [Ley 19.496 — Protección de los derechos de los consumidores](https://www.bcn.cl/leychile/navegar?idNorma=61438) | Biblioteca del Congreso Nacional | 11 | ✅ | 2026-11-25 |
+| [Lean Analytics](https://openlibrary.org/isbn/9781449335717) | O'Reilly | 13 | ✅ | 2026-11-25 |
+| [Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales](https://www.bcn.cl/leychile/navegar?idNorma=1209272) | Biblioteca del Congreso Nacional | 11 | ✅ | 2026-11-25 |
+| [Secrets of Sand Hill Road](https://openlibrary.org/isbn/9780593083581) | Portfolio | 10 | ✅ | 2026-11-25 |
+| [The E-Myth Revisited](https://openlibrary.org/isbn/9780061446788) | HarperBusiness | 9 | ✅ | 2026-11-25 |
+| [Principles of Corporate Finance](https://openlibrary.org/isbn/9780071140539) | McGraw-Hill | 9 | ✅ | 2026-11-25 |
+| [The Goal](https://openlibrary.org/isbn/9781622313945) | North River Press | 9 | ✅ | 2026-11-25 |
 | [Importación, exportación y clasificación arancelaria](https://www.aduana.cl/) | Servicio Nacional de Aduanas | 9 | ✅ | 2026-11-05 |
 | [MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026) | U.S. Food and Drug Administration | 9 | ✅ | 2026-11-05 |
+| [The Lean Startup (2011)](https://openlibrary.org/isbn/9780307887894) | Crown Business | 8 | ✅ | 2026-11-25 |
+| [Simple Numbers, Straight Talk, Big Profits!](https://openlibrary.org/isbn/9780989645232) | Greg Crabtree | 8 | ✅ | 2026-11-25 |
+| [The Checklist Manifesto](https://openlibrary.org/isbn/9780312430009) | Metropolitan Books | 8 | ✅ | 2026-11-25 |
+| [DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial](https://www.bcn.cl/leychile/navegar?idNorma=1179684) | Biblioteca del Congreso Nacional | 7 | ✅ | 2026-11-12 |
 | [FTX y Alameda: condena y sentencia de Samuel Bankman-Fried](https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes) | Departamento de Justicia de Estados Unidos | 7 | ✅ | 2026-11-05 |
+| [Lean Thinking](https://openlibrary.org/isbn/9780684810355) | Free Press | 7 | ✅ | 2026-11-25 |
+| [Site Reliability Engineering](https://openlibrary.org/isbn/9781491929124) | O'Reilly | 7 | ✅ | 2026-11-25 |
 | [Sujetos obligados · Ley 19.913](https://www.uaf.cl/es-cl/sujetos-obligados/sector-privado/quienes-deben-reportar) | Unidad de Análisis Financiero | 7 | ✅ | 2026-11-05 |
+| [Business Model Generation](https://openlibrary.org/isbn/9780470876411) | Wiley | 7 | ✅ | 2026-11-25 |
+| [The Startup Owner's Manual](https://openlibrary.org/isbn/9780984999309) | K&S Ranch | 6 | ✅ | 2026-11-25 |
 | [MEDVi statement in response to external speculation](https://home.medvi.org/communication) | MEDVi · versión corporativa | 6 | ✅ | 2026-11-05 |
+| [Getting to Yes (3.ª ed., 2011)](https://openlibrary.org/isbn/9780143118756) | Penguin | 6 | ✅ | 2026-11-25 |
+| [Built to Sell](https://openlibrary.org/isbn/9781591845829) | Portfolio | 6 | ✅ | 2026-11-25 |
+| [Thinking in Bets](https://openlibrary.org/isbn/9780735216358) | Portfolio | 6 | ✅ | 2026-11-25 |
 | [Exportación de servicios](https://www.prochile.gob.cl/sectores-exportadores/servicios) | ProChile | 6 | ✅ | 2026-11-05 |
+| [The Black Swan](https://openlibrary.org/isbn/9780812979183) | Random House | 6 | ✅ | 2026-11-25 |
 | [OTEC, franquicia tributaria y cursos](https://sence.gob.cl/) | Servicio Nacional de Capacitación y Empleo | 6 | ✅ | 2026-11-05 |
 | [Registro de prestadores de servicios turísticos](https://www.sernatur.cl/) | Servicio Nacional de Turismo | 6 | ✅ | 2026-11-05 |
+| [Registro de Compras y Ventas](https://www.sii.cl/destacados/f29/registrocompraventas.htm) | Servicio de Impuestos Internos | 6 | ✅ | 2026-11-05 |
 | [Instalaciones eléctricas y de gas](https://www.sec.cl/) | Superintendencia de Electricidad y Combustibles | 6 | ✅ | 2026-11-05 |
 | [A $1.8 Billion Company With Two Employees? AI Made It Possible](https://gvwire.com/2026/04/05/a-1-8-billion-company-with-two-employees-ai-made-it-possible/) | The New York Times · republicado por GV Wire | 6 | ⚠️ | 2026-10-04 |
 | [Reformas posteriores a Madoff sobre custodia y verificación independiente](https://www.sec.gov/spotlight/secpostmadoffreforms.htm) | U.S. Securities and Exchange Commission | 6 | ⚠️ | 2026-09-28 |
+| [Value Proposition Design](https://openlibrary.org/isbn/9781118968055) | Wiley | 6 | ✅ | 2026-11-25 |
+| [Venture Deals](https://openlibrary.org/isbn/9781118443613) | Wiley | 6 | ✅ | 2026-11-25 |
 | [Código del Trabajo (DFL 1 de 2002)](https://www.bcn.cl/leychile/navegar?idNorma=207436) | Biblioteca del Congreso Nacional | 5 | ✅ | 2026-11-25 |
-| [DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial](https://www.bcn.cl/leychile/navegar?idNorma=1179684) | Biblioteca del Congreso Nacional | 5 | ✅ | 2026-11-12 |
 | [Celsius: declaración de culpabilidad y sentencia del fundador](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-11-05 |
 | [Terraform, UST y LUNA: declaración de culpabilidad y sentencia de Do Kwon](https://www.justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud) | Departamento de Justicia de Estados Unidos | 5 | ✅ | 2026-11-05 |
-| [Registro de Compras y Ventas](https://www.sii.cl/destacados/f29/registrocompraventas.htm) | Servicio de Impuestos Internos | 5 | ✅ | 2026-11-05 |
+| [The Hard Thing About Hard Things](https://openlibrary.org/isbn/9780062273215) | HarperBusiness | 5 | ✅ | 2026-11-25 |
+| [High Output Management](https://openlibrary.org/isbn/9780330289634) | Random House | 5 | ✅ | 2026-11-25 |
 | [Código Penal — Artículos 284 a 284 sexies (secreto comercial)](https://www.bcn.cl/leychile/navegar?idNorma=1984) | Biblioteca del Congreso Nacional | 4 | ✅ | 2026-11-12 |
 | [Ley 21.131 — Establece pago a treinta días](https://www.bcn.cl/leychile/navegar?idNorma=1127890) | Biblioteca del Congreso Nacional | 4 | ✅ | 2026-11-25 |
+| [Ley 21.459 — Delitos informáticos](https://www.bcn.cl/leychile/navegar?idNorma=1177743) | Biblioteca del Congreso Nacional | 4 | ✅ | 2026-11-12 |
+| [The Mom Test (2014)](https://openlibrary.org/isbn/9781492180746) | CreateSpace | 4 | ✅ | 2026-11-25 |
+| [Crossing the Chasm (3.ª ed., 2014)](https://openlibrary.org/isbn/9780062292988) | HarperBusiness | 4 | ✅ | 2026-11-25 |
+| [Blue Ocean Strategy](https://openlibrary.org/isbn/9781591396192) | Harvard Business School Press | 4 | ✅ | 2026-11-25 |
+| [Thinking, Fast and Slow](https://openlibrary.org/isbn/9781464166174) | Macmillan | 4 | ✅ | 2026-11-25 |
+| [Running Lean](https://openlibrary.org/isbn/9781449331900) | O'Reilly | 4 | ✅ | 2026-11-25 |
+| [Traction (2015)](https://openlibrary.org/isbn/9781591848363) | Portfolio | 4 | ✅ | 2026-11-25 |
+| [The Strategy and Tactics of Pricing](https://openlibrary.org/isbn/9780132043588) | Prentice Hall | 4 | ✅ | 2026-11-25 |
 | [Sistema de Evaluación de Impacto Ambiental](https://www.sea.gob.cl/) | Servicio de Evaluación Ambiental | 4 | ✅ | 2026-11-05 |
 | [Ventanilla única de comercio exterior](https://www.sicexchile.cl/) | Sistema Integrado de Comercio Exterior | 4 | ✅ | 2026-11-05 |
 | [Aceleración de startups](https://startupchile.org/) | Start-Up Chile · CORFO | 4 | ✅ | 2026-11-05 |
 | [Concesiones y permisos de telecomunicaciones](https://www.subtel.gob.cl/) | Subsecretaría de Telecomunicaciones | 4 | ✅ | 2026-11-05 |
-| [Ley 21.459 — Delitos informáticos](https://www.bcn.cl/leychile/navegar?idNorma=1177743) | Biblioteca del Congreso Nacional | 3 | ✅ | 2026-11-12 |
+| [The Little Book of Valuation](https://openlibrary.org/isbn/9781118004777) | Wiley | 4 | ✅ | 2026-11-25 |
+| [Obviously Awesome (2019)](https://openlibrary.org/isbn/9781999023003) | Ambient Press | 3 | ✅ | 2026-11-25 |
+| [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 3 | ✅ | 2026-11-05 |
 | [Ley 21.643 — Prevención, investigación y sanción del acoso laboral, sexual y la violencia en el trabajo](https://www.bcn.cl/leychile/navegar?idNorma=1200096) | Biblioteca del Congreso Nacional | 3 | ✅ | 2026-11-25 |
+| [Ley 21.663 — Ley Marco de Ciberseguridad](https://www.bcn.cl/leychile/navegar?idNorma=1202434) | Biblioteca del Congreso Nacional | 3 | ✅ | 2026-11-25 |
+| [Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)](https://www.bcn.cl/leychile/navegar?idNorma=1230520) | Biblioteca del Congreso Nacional | 3 | ✅ | 2026-11-25 |
 | [Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026)](https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html) | CNBC | 3 | ✅ | 2026-11-12 |
+| [Out of the Crisis](https://openlibrary.org/isbn/9780521305532) | Cambridge University Press | 3 | ✅ | 2026-11-25 |
+| [Good Strategy Bad Strategy](https://openlibrary.org/isbn/9780307886231) | Crown Business | 3 | ✅ | 2026-11-25 |
 | [OneCoin: sentencia del cofundador Karl Sebastian Greenwood](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) | Departamento de Justicia de Estados Unidos | 3 | ✅ | 2026-11-05 |
+| [Competitive Strategy](https://openlibrary.org/isbn/9780029253601) | Free Press | 3 | ✅ | 2026-11-25 |
 | [Look Out for AI-Generated Ozempic!](https://futurism.com/medvi-ai-ozempic) | Futurism · investigación periodística | 3 | ✅ | 2026-11-05 |
+| [Scaling Up](https://openlibrary.org/isbn/9780986019555) | Gazelles | 3 | ✅ | 2026-11-25 |
+| [Playing to Win](https://openlibrary.org/isbn/9781491528792) | Harvard Business Review Press | 3 | ✅ | 2026-11-25 |
+| [The Balanced Scorecard](https://openlibrary.org/isbn/9781578514090) | Harvard Business School Press | 3 | ✅ | 2026-11-25 |
+| [Accelerate](https://openlibrary.org/isbn/9781942788379) | IT Revolution | 3 | ✅ | 2026-11-25 |
 | [AC Inversions: reformalización y peritajes contables de la investigación](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/caso-ac-inversions-fiscalia-de-alta-complejidad-reformalizo) | Ministerio Público de Chile | 3 | ✅ | 2026-11-05 |
+| [Predictable Revenue (2011)](https://openlibrary.org/isbn/9780984380213) | PebbleStorm | 3 | ✅ | 2026-11-25 |
 | [Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme](https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf) | Servicio de Impuestos Internos | 3 | ✅ | 2026-11-05 |
-| [Estadísticas macroeconómicas, tipo de cambio y UF](https://www.bcentral.cl/) | Banco Central de Chile | 2 | ✅ | 2026-11-05 |
+| [Zero to One](https://openlibrary.org/isbn/9780753555187) | Virgin Books | 3 | ✅ | 2026-11-25 |
 | [Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)](https://www.bcn.cl/leychile/navegar?idNorma=207436) | Biblioteca del Congreso Nacional | 2 | ✅ | 2026-11-12 |
 | [Ley 20.169 — Regula la competencia desleal](https://www.bcn.cl/leychile/navegar?idNorma=258377) | Biblioteca del Congreso Nacional | 2 | ✅ | 2026-11-12 |
-| [Ley 21.663 — Ley Marco de Ciberseguridad](https://www.bcn.cl/leychile/navegar?idNorma=1202434) | Biblioteca del Congreso Nacional | 2 | ✅ | 2026-11-25 |
-| [Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)](https://www.bcn.cl/leychile/navegar?idNorma=1230520) | Biblioteca del Congreso Nacional | 2 | ✅ | 2026-11-25 |
+| [Ley 21.595 — Ley de Delitos Económicos](https://www.bcn.cl/leychile/navegar?idNorma=1195119) | Biblioteca del Congreso Nacional | 2 | ✅ | 2026-11-12 |
+| [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 2 | ✅ | 2026-11-05 |
+| [The Fifth Discipline](https://openlibrary.org/isbn/9780385517829) | Doubleday | 2 | ✅ | 2026-11-25 |
 | [Estadística oficial de población, empleo y actividad](https://www.ine.gob.cl/) | Instituto Nacional de Estadísticas | 2 | ✅ | 2026-11-05 |
 | [Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026)](https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628) | NBC News | 2 | ✅ | 2026-11-12 |
 | [Nvidia spying allegations test Washington's defenses against tech espionage (11-11-2026)](https://www.nextgov.com/cybersecurity/2026/11/nvidia-spying-allegations-test-washingtons-defenses-against-tech-espionage/417170/) | Nextgov/FCW | 2 | ✅ | 2026-11-12 |
+| [The Personal MBA](https://openlibrary.org/isbn/9780670919536) | Portfolio | 2 | ✅ | 2026-11-25 |
+| [Toyota Production System](https://openlibrary.org/isbn/9781000056488) | Productivity Press | 2 | ✅ | 2026-11-25 |
 | [Formulario 22 y Operación Renta](https://www.sii.cl/ayudas/formularios/3094-form22-3097.html) | Servicio de Impuestos Internos | 2 | ✅ | 2026-11-05 |
+| [Seguridad y salud en el trabajo · Ley 16.744](https://www.suseso.cl/) | Superintendencia de Seguridad Social | 2 | ✅ | 2026-11-05 |
 | [Fiscalización y sanción ambiental](https://portal.sma.gob.cl/) | Superintendencia del Medio Ambiente | 2 | ⚠️ | 2026-09-01 |
 | [Compounding and the FDA: Questions and Answers](https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
 | [Counterfeit Medicine](https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
 | [FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss) | U.S. Food and Drug Administration | 2 | ✅ | 2026-11-05 |
+| [Customer Success (2016)](https://openlibrary.org/isbn/9781119167969) | Wiley | 2 | ✅ | 2026-11-25 |
 | [Código Penal — Calumnia e injuria (arts. 412 a 431)](https://www.bcn.cl/leychile/navegar?idNorma=1984) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-25 |
 | [Ley 16.744 — Seguro social contra riesgos de accidentes del trabajo y enfermedades profesionales](https://www.bcn.cl/leychile/navegar?idNorma=28650) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-25 |
 | [Ley 18.045 — Ley de Mercado de Valores](https://www.bcn.cl/leychile/navegar?idNorma=29472) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-25 |
 | [Ley 19.733 — Libertades de opinión e información y ejercicio del periodismo](https://www.bcn.cl/leychile/navegar?idNorma=186049) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-25 |
 | [Ley 20.720 — Reorganización y liquidación de empresas y personas](https://www.bcn.cl/leychile/navegar?idNorma=1058072) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-25 |
 | [Ley 20.730 — Regula el lobby y las gestiones que representen intereses particulares](https://www.bcn.cl/leychile/navegar?idNorma=1060115) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-25 |
-| [Ley 21.595 — Ley de Delitos Económicos](https://www.bcn.cl/leychile/navegar?idNorma=1195119) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-12 |
-| [Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales](https://www.bcn.cl/leychile/navegar?idNorma=1209272) | Biblioteca del Congreso Nacional | 1 | ✅ | 2026-11-25 |
+| [Kanban](https://openlibrary.org/isbn/9780984521401) | Blue Hole Press | 1 | ✅ | 2026-11-25 |
 | [Cotización adicional del empleador de la reforma de pensiones](https://www.chileatiende.gob.cl/fichas/130987) | ChileAtiende · Instituto de Previsión Social | 1 | ✅ | 2026-11-05 |
-| [Compras públicas y ventas al Estado](https://www.chilecompra.cl/) | ChileCompra | 1 | ✅ | 2026-11-05 |
+| [The Effective Executive](https://openlibrary.org/isbn/9780060833459) | Collins | 1 | ✅ | 2026-11-25 |
 | [Alertas sobre entidades y plataformas de inversión no supervisadas](https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48784.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-11-05 |
 | [Sistema de Finanzas Abiertas](https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html) | Comisión para el Mercado Financiero | 1 | ✅ | 2026-11-05 |
 | [Stealing Trade Secrets and Economic Espionage: An Overview of the Economic Espionage Act (R42681)](https://www.everycrsreport.com/reports/R42681.html) | Congressional Research Service | 1 | ✅ | 2026-11-12 |
 | [Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007)](https://www.justice.gov/archive/usao/gan/press/2007/02-02-07.pdf) | Departamento de Justicia de EE. UU. | 1 | ⚠️ | 2026-11-12 |
 | [Ex ejecutivo de Uber condenado a 18 meses por robo de secretos comerciales de Google (2020)](https://www.justice.gov/usao-ndca/pr/former-uber-executive-sentenced-18-months-jail-trade-secret-theft-google) | Departamento de Justicia de EE. UU. | 1 | ✅ | 2026-11-12 |
 | [Kolon Industries se declara culpable de conspirar para robar secretos de DuPont sobre Kevlar (2015)](https://www.justice.gov/usao-edva/pr/kolon-industries-inc-pleads-guilty-conspiring-steal-dupont-trade-secrets-involving) | Departamento de Justicia de EE. UU. | 1 | ✅ | 2026-11-12 |
+| [The Innovator's Dilemma](https://openlibrary.org/isbn/9780066620695) | Harper Business | 1 | ✅ | 2026-11-25 |
+| [The DevOps Handbook](https://openlibrary.org/isbn/9781942788003) | IT Revolution | 1 | ✅ | 2026-11-25 |
+| [The Phoenix Project](https://openlibrary.org/isbn/9781950508921) | IT Revolution | 1 | ✅ | 2026-11-25 |
+| [SPIN Selling (1988)](https://openlibrary.org/isbn/9780070511132) | McGraw-Hill | 1 | ✅ | 2026-11-25 |
+| [Designing Data-Intensive Applications](https://openlibrary.org/isbn/9781449373320) | O'Reilly | 1 | ✅ | 2026-11-25 |
+| [Team of Teams](https://openlibrary.org/isbn/9781611763720) | Portfolio | 1 | ✅ | 2026-11-25 |
 
 ⚠️ **4 fuente(s) no resolvieron en la última pasada:**
 
@@ -182,9 +234,9 @@ consolidada de la BCN y la doctrina del SII sostienen por sí solas la mayor par
 - **Departamento de Justicia de EE. UU. — Condena de una ex asistente de Coca-Cola por conspirar para robar secretos comerciales (2007)** · `PDF archivado devolvió 403 o descarga al consultarlo; contenido contrastado solo por resultados de búsqueda`  
   Sigue citada y conserva su última fecha buena (2026-11-12). No se ha borrado.
 
-El registro guarda además **2 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento · Superintendencia de Seguridad Social). Se conservan con el motivo declarado en vez de eliminarlas.
+El registro guarda además **1 fuentes catalogadas que ninguna clase cita todavía** (Superintendencia de Insolvencia y Reemprendimiento). Se conservan con el motivo declarado en vez de eliminarlas.
 
-Última revalidación: **2026-11-05** · 70/74 fuentes citadas resolvieron ·
+Última revalidación: **2026-11-05** · 122/126 fuentes citadas resolvieron ·
 336/336 bloques de fuentes distintos, uno por clase.
 
 La comprobación en red la ejecuta [`scripts/refresh-sources`](scripts/refresh-sources) una vez al
@@ -441,7 +493,7 @@ sitio **y el manual en PDF releído desde el archivo emitido**. Nada llega a `ma
 
 | ⚙️ Workflow | Qué cubre |
 |---|---|
-| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 61 pruebas estructurales, build del sitio y compilación del manual |
+| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 71 pruebas estructurales, build del sitio y compilación del manual |
 | 🔒 [security.yml](.github/workflows/security.yml) | secretos (`gitleaks`), análisis estático de los scripts (`bandit`), dependencias fijadas a versión exacta y auditadas con `pip-audit` |
 | 🚀 [deploy-pages.yml](.github/workflows/deploy-pages.yml) | compila el manual integral y los 24 PDF por parte, genera el sitio, verifica que las 25 descargas llegaron y despliega a GitHub Pages |
 
@@ -457,7 +509,7 @@ python scripts/validar_encoding.py          # todo UTF-8, sin BOM ni mojibake
 python scripts/generar_manual.py --partes   # manual integral + 24 PDF por parte
 python scripts/generar_manual.py --verificar  # relee el PDF: portada, versión y extensión
 python scripts/generar_sitio.py             # sitio HTML en site/ y copia de las descargas
-python -m unittest discover -s tests -v     # 61 pruebas estructurales
+python -m unittest discover -s tests -v     # 71 pruebas estructurales
 npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 ```
 

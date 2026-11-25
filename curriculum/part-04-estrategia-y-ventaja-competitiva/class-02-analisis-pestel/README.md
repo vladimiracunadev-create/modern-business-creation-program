@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Horizonte** | Plazo en el que el factor se vuelve relevante. |
 | **Señal** | Indicador observable de que el factor se está materializando. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué del entorno exige prepararse, y cuándo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["PESTEL"]
-    C --> A2["Factor accionable"]
-    C --> A3["Horizonte"]
-    C --> A4["Señal"]
-    A1 & A2 & A3 & A4 --> D{{"identificar qué factores del<br/>entorno exigen preparación y<br/>en qué plazo"}}
-    D --> E["Entregable<br/>PESTEL con horizonte, impacto<br/>y señal observable por factor,<br/>priorizado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un análisis del entorno sirve solo si cada factor tiene un horizonte, un impacto estimado y una señal observable que avise cuándo actuar.
+
+![Esquema: Qué del entorno exige prepararse, y cuándo](modelo-mental.svg)
+
+**Lectura guiada:** Cada satélite es un frente del entorno. Para cada uno anota cuándo te afectaría, cuánto y qué señal verías antes. Lo que no tiene horizonte ni señal es ruido.
+
+**Una analogía:** Es mirar el cielo antes de salir: no puedes controlar el clima, pero puedes decidir si llevas paraguas, cuándo sales y por dónde.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un PESTEL sirve solo si cada factor tiene horizonte, impacto estimado y señal o
 
 ### 2. Cómo se traduce en la práctica
 
-Un PESTEL sin esos tres campos es una lista de temas de actualidad. Los factores legales con fecha cierta son los más fáciles de trabajar porque el horizonte ya está dado: basta contar hacia atrás desde la vigencia para saber cuándo debe estar lista la adecuación.
+Para cada factor, define el horizonte (corto, medio o largo), el impacto estimado en ingresos, costos o riesgo y la señal que avisa que ya comenzó. Comprueba siempre las fechas de vigencia de normas en la fuente oficial, porque pueden cambiar por ley. Revisa el análisis cada seis meses y reduce los factores a los pocos que realmente exigen preparación.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un PESTEL sin esos tres campos es una lista de temas de actualidad. Los factores
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Elige tu empresa y completa el análisis en una tabla de seis filas. Para el factor legal, escribe una norma que te afecte, su fecha de vigencia comprobada en la fuente oficial, el impacto estimado (alto, medio o bajo) y la señal que indicaría que debes empezar a prepararte, como la publicación de un reglamento. Haz lo mismo con el factor económico, usando una serie del Banco Central. Después elige los dos factores con mayor impacto y menor plazo, y define una acción para cada uno.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Biblioteca del Congreso Nacional publica el texto vigente y la historia de las leyes, fuente para verificar fechas y contenido del factor legal.
+- **Estadísticas macroeconómicas, tipo de cambio y UF** (Banco Central de Chile): El Banco Central de Chile publica series de tipo de cambio, inflación y actividad, base para fundamentar el factor económico.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para identificar qué factores del entorno exigen preparación y en qué plazo.
+
+**Banco Central de Chile — Estadísticas macroeconómicas, tipo de cambio y UF**  
+<https://www.bcentral.cl/> · verificado 2026-11-05
+
+- *Qué contiene:* Publica las series oficiales de tipo de cambio, UF, UTM, tasas de interés, cuentas nacionales y balanza de pagos, además de la normativa cambiaria aplicable a operaciones con el exterior.
+- *Cómo leerla:* Toma de aquí toda serie que uses en una proyección y guarda la fecha de descarga. Si la empresa cobra o paga en moneda extranjera, la serie de tipo de cambio es el insumo para medir la exposición, no una referencia informativa.
+- *Uso en esta clase:* aporta el marco de «Estadísticas macroeconómicas, tipo de cambio y UF» para identificar qué factores del entorno exigen preparación y en qué plazo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

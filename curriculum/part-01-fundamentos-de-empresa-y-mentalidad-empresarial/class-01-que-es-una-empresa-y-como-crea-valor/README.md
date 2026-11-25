@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Captura de valor** | Porción del valor creado que la empresa retiene como margen. |
 | **Excedente del cliente** | Diferencia entre lo que el cliente valora y lo que paga; si es cero, no repite. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Crear valor y quedarse con una parte
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Empresa"]
-    C --> A2["Propuesta de valor"]
-    C --> A3["Captura de valor"]
-    C --> A4["Excedente del cliente"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué valor entrega la<br/>empresa, a quién y cuánto de<br/>ese valor puede retener"}}
-    D --> E["Entregable<br/>one-pager de tesis con<br/>problema, cliente, valor<br/>entregado, precio estimado y<br/>costo estimado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Una empresa funciona cuando el cliente recibe más valor que el precio que paga y, a la vez, el precio supera lo que cuesta producir.
+
+![Esquema: Crear valor y quedarse con una parte](modelo-mental.svg)
+
+**Qué mirar primero:** Compara las tres barras. La distancia entre la primera y la segunda es lo que gana el cliente; la distancia entre la segunda y la tercera es lo que gana la empresa. El negocio vive entre las dos.
+
+**Piénsalo así:** Es una cuerda entre dos personas: si tiras demasiado hacia un lado, la otra suelta y la cuerda no sirve a nadie.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Una empresa crea valor cuando el resultado que entrega vale para el cliente más
 
 ### 2. Cómo se traduce en la práctica
 
-La prueba práctica es incómoda: describe tu empresa sin nombrar lo que hace y solo por el resultado que produce en el cliente. Si no puedes, todavía estás describiendo una actividad, no un negocio. Esa reformulación es la que después permite fijar precio por valor y no por costo.
+Para aplicarlo, escribe tres números por oferta: lo que el cliente evita perder o gana (en dinero o tiempo), el precio que cobras y el costo real de entregarla. Si no puedes estimar el primero, aún no entiendes su problema. Si el tercero supera al segundo, tienes ventas pero no negocio. Revisa los tres cuando cambie un costo, un competidor o el cliente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La prueba práctica es incómoda: describe tu empresa sin nombrar lo que hace y 
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un taller de bicicletas entrega una reparación que al cliente le ahorra 100 en traslados y tiempo. Cobra 70 y su costo es 40. El cliente gana 30, el taller gana 30 y ambos tienen razones para repetir. Si el taller sube el precio a 110, el cliente pierde 10 y se va; si lo baja a 35, vende mucho pero pierde 5 en cada reparación (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **The Personal MBA** (Portfolio): Kaufman ordena los conceptos básicos de gestión empezando por la creación de valor, que es la condición previa a cualquier venta, marketing o finanzas.
+- **Business Model Generation** (Wiley): Osterwalder y Pigneur separan en su lienzo la propuesta de valor de las fuentes de ingreso y de la estructura de costos, que es la misma distinción entre crear y capturar valor.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para definir qué valor entrega la empresa, a quién y cuánto de ese valor puede retener.
+
+**Portfolio — The Personal MBA**  
+<https://openlibrary.org/isbn/9780670919536> · verificado 2026-11-25
+
+- *Qué contiene:* Resume conceptos esenciales de gestión de empresas: valor, marketing, ventas, finanzas y sistemas. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Personal MBA» para definir qué valor entrega la empresa, a quién y cuánto de ese valor puede retener.
+
+**Wiley — Business Model Generation**  
+<https://openlibrary.org/isbn/9780470876411> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el lienzo del modelo de negocio de nueve bloques y patrones para describir, diseñar y comparar modelos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Business Model Generation» para definir qué valor entrega la empresa, a quién y cuánto de ese valor puede retener.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

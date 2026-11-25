@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Integrar** | Conectar soluciones existentes. |
 | **Costo de mantención** | Esfuerzo continuo de sostener lo construido. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Comprar, construir o integrar?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Comprar"]
-    C --> A2["Construir"]
-    C --> A3["Integrar"]
-    C --> A4["Costo de mantención"]
-    A1 & A2 & A3 & A4 --> D{{"decidir qué se compra, qué se<br/>construye y qué se integra"}}
-    D --> E["Entregable<br/>análisis de decisión por<br/>sistema con costo de<br/>mantención estimado a tres<br/>años"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Construir a medida se justifica cuando el proceso es la diferenciación y no existe una solución adecuada; en todo lo demás, comprar e integrar es más barato considerando mantención, seguridad y evolución.
+
+![Esquema: ¿Comprar, construir o integrar?](modelo-mental.svg)
+
+**Cómo leerlo:** Responde en orden. La primera pregunta protege tu foco: no inviertas en construir lo que no te diferencia. La segunda evita reinventar lo que ya existe.
+
+**Para recordarlo:** Es decidir entre fabricar tus muebles o comprarlos: solo conviene fabricar si el diseño es tu negocio y nadie vende algo parecido.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Construir a medida se justifica cuando el proceso es la diferenciación y no exi
 
 ### 2. Cómo se traduce en la práctica
 
-Construir a medida se justifica cuando el proceso es la diferenciación y no existe solución adecuada; en todo lo demás comprar e integrar sale más barato considerando mantención, seguridad y evolución. El software propio no termina cuando se entrega: empieza a costar ahí.
+Para cada necesidad, calcula el costo total de cada opción durante tres años: licencias, desarrollo, integración, mantención, seguridad y personal. Evalúa el riesgo de depender de un proveedor o de una sola persona que conozca el sistema. Construye solo lo que te diferencia y documenta lo construido: el conocimiento no debe vivir en una cabeza.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Construir a medida se justifica cuando el proceso es la diferenciación y no exi
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿el proceso es parte de lo que te hace único? Una empresa de logística que se diferencia por su algoritmo de rutas lo construye. Dos: ¿hay una solución del mercado suficiente? Para facturación, contabilidad y CRM, sí: compra. Tres: ¿quién mantendrá lo construido? Define responsable, presupuesto y seguridad antes de empezar a desarrollar.
+
+### 5. En qué se apoya
+
+- **Business Model Generation** (Wiley): Osterwalder y Pigneur distinguen las actividades y recursos clave de un modelo de negocio, útiles para decidir cuáles conviene desarrollar internamente.
+- **The DevOps Handbook** (IT Revolution): Kim y sus coautores explican el costo de mantener sistemas a medida y la importancia de la automatización y la mantención continua.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para decidir qué se compra, qué se construye y qué se integra.
+
+**Wiley — Business Model Generation**  
+<https://openlibrary.org/isbn/9780470876411> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el lienzo del modelo de negocio de nueve bloques y patrones para describir, diseñar y comparar modelos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Business Model Generation» para decidir qué se compra, qué se construye y qué se integra.
+
+**IT Revolution — The DevOps Handbook**  
+<https://openlibrary.org/isbn/9781942788003> · verificado 2026-11-25
+
+- *Qué contiene:* Reúne principios y prácticas de DevOps: flujo, retroalimentación y aprendizaje continuo. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The DevOps Handbook» para decidir qué se compra, qué se construye y qué se integra.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

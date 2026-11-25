@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Eliminación o entrega de datos** | Cumplimiento de obligaciones sobre datos personales al cerrar. |
 | **Cierre de cuentas** | Término de relaciones bancarias y de servicios. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que casi siempre se olvida al cerrar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cierre de permisos"]
-    C --> A2["Cancelación de patente"]
-    C --> A3["Eliminación o entrega de<br/>datos"]
-    C --> A4["Cierre de cuentas"]
-    A1 & A2 & A3 & A4 --> D{{"ejecutar el cierre completo de<br/>habilitaciones, contratos,<br/>datos y cuentas"}}
-    D --> E["Entregable<br/>checklist de cierre operativo<br/>con permisos, contratos, datos<br/>personales y cuentas, con<br/>constancia por ítem"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El cierre completo incluye lo que casi siempre se olvida: cancelar la patente municipal, cerrar permisos sectoriales, terminar los contratos con proveedores, cerrar las cuentas bancarias y resolver qué se hace con los datos.
+
+![Esquema: Lo que casi siempre se olvida al cerrar](modelo-mental.svg)
+
+**Qué mirar primero:** Cada satélite es un frente que, si queda abierto, sigue generando costos u obligaciones. La lista es la mejor herramienta: nadie recuerda todo bajo la presión del cierre.
+
+**Una imagen cotidiana:** Es mudarse de casa: no basta con retirar los muebles, hay que dar de baja el agua, la luz y el internet, y devolver las llaves.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El cierre completo incluye lo que casi siempre se olvida: cancelar la patente mu
 
 ### 2. Cómo se traduce en la práctica
 
-Cancelar la patente municipal, terminar permisos sectoriales, cerrar contratos con proveedores y resolver el destino de los datos personales tratados. Cada pendiente sigue produciendo deuda o riesgo después de que la empresa dejó de operar, sin que nadie lo esté vigilando.
+Haz una lista con todos los permisos, contratos, cuentas, sistemas y suscripciones. Para cada uno, define quién lo cierra, cuándo y qué comprobante guardarás. Decide qué haces con los datos personales: eliminarlos de forma segura o entregarlos al nuevo dueño, conforme a la normativa. Cierra las cuentas bancarias al final, cuando todo esté pagado.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Cancelar la patente municipal, terminar permisos sectoriales, cerrar contratos c
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una tienda cierra y deja de operar, pero no cancela su patente ni sus contratos de arriendo y de software. Seis meses después recibe cobros por patente, por el arriendo y por licencias. Además, mantiene datos de clientes en un sistema sin custodia. Después: usa una lista de cierre con cada permiso, contrato, cuenta y sistema, con responsable y fecha, y entrega o elimina los datos con respaldo de la decisión (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa los trámites de término de giro y de cancelación de documentos y registros tributarios al cerrar una empresa.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las normas municipales y de datos personales, consultables en la BCN, regulan la cancelación de patentes y el tratamiento de los datos al cerrar una actividad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

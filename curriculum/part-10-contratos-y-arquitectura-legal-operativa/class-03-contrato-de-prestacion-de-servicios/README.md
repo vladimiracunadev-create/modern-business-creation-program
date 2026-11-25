@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Obligación de resultado** | Compromiso de entregar un resultado determinado. |
 | **Orden de cambio** | Documento que modifica alcance, plazo o precio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Medios o resultado: qué estás prometiendo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Contrato de servicios"]
-    C --> A2["Obligación de medios"]
-    C --> A3["Obligación de resultado"]
-    C --> A4["Orden de cambio"]
-    A1 & A2 & A3 & A4 --> D{{"definir el estándar de la<br/>obligación y el mecanismo de<br/>control de cambios"}}
-    D --> E["Entregable<br/>contrato de servicios con<br/>estándar de obligación,<br/>entregables, hitos y<br/>procedimiento de cambios"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La distinción entre obligación de medios y de resultado determina cuándo hay incumplimiento: en servicios profesionales conviene pactar medios con entregables y en desarrollos a medida, resultado con control de cambios.
+
+![Esquema: Medios o resultado: qué estás prometiendo](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica tu servicio según qué tan definido está el resultado y quién controla el proceso. El cuadrante indica qué tipo de obligación asumir y qué cláusulas necesitas.
+
+**Piénsalo así:** Es la diferencia entre un médico que se compromete a tratar y un constructor que se compromete a entregar la casa terminada.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La distinción entre obligación de medios y de resultado determina cuándo hay 
 
 ### 2. Cómo se traduce en la práctica
 
-En servicios profesionales conviene pactar medios con entregables definidos; en desarrollos a medida el cliente exigirá resultado. Aceptar obligación de resultado sobre variables que no se controlan —integraciones de terceros, datos del cliente— es asumir un riesgo que no se puede gestionar.
+Escribe, para cada servicio, si la obligación es de medios o de resultado y qué criterio permite decir que se cumplió. Incluye un mecanismo de control de cambios con precio y plazo. Define las exclusiones y los supuestos del cliente (información, accesos, aprobaciones). Evita compromisos de resultado en materias que no controlas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ En servicios profesionales conviene pactar medios con entregables definidos; en 
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿el resultado se puede describir con criterios medibles? Dos: ¿quién controla las decisiones que afectan el resultado? Tres: ¿qué pasa si el cliente cambia el alcance? Una consultora de ingeniería pacta entregables definidos y horas para el estudio, y para el diseño detallado acepta un resultado con una orden de cambio que ajusta precio y plazo cada vez que el cliente modifica los requisitos.
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil regula las obligaciones y sus clases, y la doctrina distingue las de medios y de resultado; su texto se consulta en la Biblioteca del Congreso Nacional.
+- **Getting to Yes (3.ª ed., 2011)** (Penguin): Fisher y Ury proponen separar los intereses de las partes de sus posiciones, útil para pactar con claridad qué se promete y qué se comparte como riesgo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el estándar de la obligación y el mecanismo de control de cambios.
+
+**Penguin — Getting to Yes (3.ª ed., 2011)**  
+<https://openlibrary.org/isbn/9780143118756> · verificado 2026-11-25
+
+- *Qué contiene:* Expone la negociación basada en intereses: separar a las personas del problema, generar opciones de beneficio mutuo y usar criterios objetivos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Getting to Yes (3.ª ed., 2011)» para definir el estándar de la obligación y el mecanismo de control de cambios.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Garantía en productos usados** | Obligaciones aplicables según el estado informado. |
 | **Trazabilidad de origen** | Acreditación de la procedencia del producto. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El recorrido de un producto de segunda mano
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Economía circular"]
-    C --> A2["Reventa"]
-    C --> A3["Garantía en productos<br/>usados"]
-    C --> A4["Trazabilidad de origen"]
-    A1 & A2 & A3 & A4 --> D{{"definir el estándar de<br/>trazabilidad de origen y la<br/>información al consumidor"}}
-    D --> E["Entregable<br/>modelo de economía circular<br/>con procedimiento de<br/>trazabilidad de origen y<br/>política de información y<br/>garantía"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La reventa y el reacondicionamiento tienen demanda creciente, pero exigen resolver dos temas: la trazabilidad del origen, para no comercializar bienes de procedencia irregular, y la información y garantía que se ofrece al consumidor.
+
+![Esquema: El recorrido de un producto de segunda mano](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo recorre la vida de un producto usado. El primer paso protege a la empresa y a terceros; los siguientes protegen al consumidor. Si falla el origen, el resto no se sostiene.
+
+**Para recordarlo:** Es una casa de remate: el valor del negocio depende de saber de dónde viene cada objeto y de explicarle al comprador qué compra y con qué respaldo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La reventa y el reacondicionamiento tienen demanda creciente, pero exigen resolv
 
 ### 2. Cómo se traduce en la práctica
 
-Adquirir stock sin acreditar procedencia expone a comercializar bienes de origen irregular. Y la información sobre el estado del producto determina el alcance de la garantía: informar de forma insuficiente traslada a la empresa una responsabilidad que podía haber acotado.
+Define el estándar de trazabilidad de origen: documentos de compra, verificación de identidad del vendedor y registros. Informa al consumidor con claridad el estado, las reparaciones y la garantía. Considera que la garantía legal puede aplicarse a productos usados en las condiciones que la ley establece. Controla la reparación con estándares de calidad y seguridad.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Adquirir stock sin acreditar procedencia expone a comercializar bienes de origen
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿puedes acreditar de dónde viene cada producto? Si no, no lo compres. Dos: ¿qué información sobre estado, reparaciones y uso entregarás? Tres: ¿qué garantía ofrecerás? Un negocio de celulares reacondicionados registra el origen de cada equipo, revisa su historial, informa su estado y su batería y ofrece una garantía por escrito, lo que le permite vender sin sobresaltos.
+
+### 5. En qué se apoya
+
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de la garantía legal y de la información al consumidor, aplicables también a productos usados o reacondicionados.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): Las normas penales sobre receptación y las de consumo, consultables en la BCN, justifican verificar el origen de los bienes que se revenden.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

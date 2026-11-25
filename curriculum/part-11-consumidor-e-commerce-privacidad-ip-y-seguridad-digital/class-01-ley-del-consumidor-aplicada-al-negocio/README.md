@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Deber de información** | Obligación de informar de forma veraz y oportuna. |
 | **Publicidad engañosa** | Comunicación que induce a error sobre características relevantes. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Vender a empresas o vender a consumidores
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Consumidor"]
-    C --> A2["Proveedor"]
-    C --> A3["Deber de información"]
-    C --> A4["Publicidad engañosa"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la empresa vende<br/>a consumidores y qué<br/>obligaciones activa"}}
-    D --> E["Entregable<br/>diagnóstico de cumplimiento de<br/>la Ley del Consumidor aplicado<br/>al negocio"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 19.496 aplica a toda venta a consumidor final, sin importar el tamaño de la empresa, y sus obligaciones más fiscalizadas son informar el precio, respetar lo ofrecido y no engañar.
+
+![Esquema: Vender a empresas o vender a consumidores](modelo-mental.svg)
+
+**Cómo leerlo:** Compara los dos platos. El de la derecha es el que activa el estatuto de consumo. Una microempresa que vende a personas tiene las mismas obligaciones básicas que una gran empresa.
+
+**Piénsalo así:** Es la diferencia entre vender en un mercado de mayoristas y atender un mostrador: en el segundo, la ley protege a quien compra y exige más de quien vende.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 19.496 aplica a toda venta a consumidor final, sin importar el tamaño de
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 19.496 aplica a toda venta a consumidor final. Las infracciones más frecuentes en fiscalización no nacen de mala fe sino de una operación que no puede sostener lo que la comunicación promete: información de precio, condiciones de la oferta, cumplimiento de lo publicitado y atención de reclamos.
+Escribe a quién vende tu empresa y por qué canal. Si hay consumidor final, revisa cuatro obligaciones: información veraz del precio y condiciones, respeto de lo ofrecido, publicidad que no engañe y atención de reclamos y garantías. Lista dónde cumples hoy y dónde no. Las mayores sanciones se concentran en información, publicidad y garantía.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ La Ley 19.496 aplica a toda venta a consumidor final. Las infracciones más frec
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Un taller de ropa cambia su estrategia: pasa de vender 200 prendas por pedido a tiendas a abrir una venta en línea a personas. Sus condiciones de despacho ahora deben informar precio final, plazos y cómo devolver; la política de «no se aceptan cambios» que usaba con tiendas no es válida con consumidores. Al ajustar, evita una denuncia por cláusulas que limitaban derechos irrenunciables (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 19.496 — Protección de los derechos de los consumidores** (Biblioteca del Congreso Nacional): La Ley 19.496 obliga a respetar lo ofrecido (art. 12), prohíbe la publicidad que induce a error (art. 28) y exige que la información sea comprobable (art. 33), obligaciones que alcanzan a todo proveedor.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación aplicada de la ley y los criterios con que fiscaliza a los proveedores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -158,6 +163,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar si la empresa vende a consumidores y qué obligaciones activa.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para determinar si la empresa vende a consumidores y qué obligaciones activa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

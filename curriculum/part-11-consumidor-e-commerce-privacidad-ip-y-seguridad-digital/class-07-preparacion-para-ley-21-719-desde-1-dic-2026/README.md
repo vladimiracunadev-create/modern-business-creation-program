@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Encargado** | Quien trata datos por cuenta del responsable. |
 | **Agencia de Protección de Datos** | Autoridad con potestad fiscalizadora y sancionatoria. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El camino hasta la nueva ley de datos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley 21.719"]
-    C --> A2["Responsable del<br/>tratamiento"]
-    C --> A3["Encargado"]
-    C --> A4["Agencia de Protección de<br/>Datos"]
-    A1 & A2 & A3 & A4 --> D{{"planificar la adecuación de la<br/>empresa antes de la entrada en<br/>vigencia"}}
-    D --> E["Entregable<br/>plan de adecuación a la Ley<br/>21.719 con brechas,<br/>responsables y fechas<br/>anteriores a la vigencia"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 21.719 introduce principios, bases de licitud, derechos reforzados, obligación de reportar vulneraciones y sanciones, además de una autoridad fiscalizadora; prepararse es un proyecto operativo más que legal.
+
+![Esquema: El camino hasta la nueva ley de datos](modelo-mental.svg)
+
+**Cómo leerlo:** La línea fija el camino. La fecha final la determina la ley y puede cambiar; por eso el primer paso es empezar hoy con lo que no depende de ella: conocer tus datos.
+
+**Una imagen cotidiana:** Es prepararse para un examen con fecha tentativa: estudias desde ahora, porque la materia es la misma aunque cambie el día.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 21.719 introduce principios, bases de licitud, derechos ARCOP reforzados,
 
 ### 2. Cómo se traduce en la práctica
 
-La ley introduce principios, bases de licitud, derechos reforzados, obligación de notificar brechas y una autoridad con potestad sancionatoria. Adecuar solo los documentos legales sin modificar sistemas, contratos con encargados y procesos de atención deja a la empresa formalmente conforme y materialmente incumplidora.
+Comprueba la fecha de vigencia en la Biblioteca del Congreso Nacional y fija tus hitos hacia atrás. Haz primero el mapa de datos, luego los contratos con encargados, el procedimiento de derechos y el protocolo de vulneraciones. Define quién será el responsable interno. No esperes a la vigencia para empezar: gran parte del trabajo es independiente de la fecha.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ La ley introduce principios, bases de licitud, derechos reforzados, obligación 
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Gerente: «Leí que la ley partía el 1 de diciembre de 2026». Asesora: «Una ley posterior movió la vigencia al 15 de octubre de 2027». Gerente: «Entonces tenemos tiempo». Asesora: «Más plazo, pero la preparación es la misma: mapa de datos, contratos con proveedores y un procedimiento para atender derechos. Si empezamos ahora, lo haremos por etapas y sin urgencia» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)** (Biblioteca del Congreso Nacional): La Ley 21.855 sustituyó la fecha de vigencia de la Ley 21.719 por el 15 de octubre de 2027 y ajustó la designación del Consejo de la Agencia.
+- **Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales** (Biblioteca del Congreso Nacional): La Ley 21.719 contiene los principios, derechos, deberes y sanciones del nuevo régimen; su texto se consulta en la BCN y es la guía de la adecuación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -151,6 +156,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para planificar la adecuación de la empresa antes de la entrada en vigencia.
+
+**Biblioteca del Congreso Nacional — Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1230520> · verificado 2026-11-25
+
+- *Qué contiene:* Sustituye la fecha de vigencia de la Ley 21.719 por el 15 de octubre de 2027, eleva a cinco los consejeros de la Agencia y ajusta su designación (Diario Oficial 44606).
+- *Cómo leerla:* Úsala para corregir cualquier material que fije la vigencia de la Ley 21.719 el 1-12-2026. Es una ley breve: léela completa.
+- *Uso en esta clase:* aporta el marco de «Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)» para planificar la adecuación de la empresa antes de la entrada en vigencia.
+
+**Biblioteca del Congreso Nacional — Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1209272> · verificado 2026-11-25
+
+- *Qué contiene:* Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.
+- *Cómo leerla:* Úsala como estándar de diseño del protocolo de incidentes. La vigencia de sus modificaciones se fijó en el 15-10-2027 por la Ley 21.855: comprueba la fecha en la ficha de la BCN antes de planificar.
+- *Uso en esta clase:* aporta el marco de «Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales» para planificar la adecuación de la empresa antes de la entrada en vigencia.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

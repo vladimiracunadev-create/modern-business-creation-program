@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Punto de diferencia** | Atributo que distingue dentro de esa categoría. |
 | **Prueba de posicionamiento** | Evidencia que hace creíble la afirmación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Contra quién eliges compararte
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Posicionamiento"]
-    C --> A2["Marco de referencia"]
-    C --> A3["Punto de diferencia"]
-    C --> A4["Prueba de posicionamiento"]
-    A1 & A2 & A3 & A4 --> D{{"elegir la categoría de<br/>comparación y el punto de<br/>diferencia dentro de ella"}}
-    D --> E["Entregable<br/>declaración de posicionamiento<br/>con marco de referencia,<br/>diferencia y prueba"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El posicionamiento se define eligiendo primero el marco de referencia: decir que se es la alternativa más ágil solo significa algo si está claro frente a qué categoría.
+
+![Esquema: Contra quién eliges compararte](modelo-mental.svg)
+
+**Cómo leerlo:** Cada plato muestra el efecto de una elección de marco. Un marco bien elegido permite que tu diferencia aparezca; uno mal elegido te pone a competir donde no tienes ventaja.
+
+**Una imagen cotidiana:** Es decir «soy el más rápido»: contra los autos, pierdes; contra los ciclistas de ciudad, ganas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El posicionamiento se define eligiendo primero el marco de referencia. Decir que
 
 ### 2. Cómo se traduce en la práctica
 
-Decir que se es «la alternativa más ágil» solo significa algo si está claro frente a qué categoría. Si tu marco es el software empresarial global, pierdes en todos los atributos evaluados; si es la planilla que el cliente usa hoy, ganas en casi todos. El marco es una decisión, no un hecho.
+Escribe cuatro posibles categorías de comparación y para cada una responde quiénes serían tus competidores y qué diferencia te daría ventaja. Elige la categoría donde esa diferencia es más relevante para el cliente. Verifica el posicionamiento con tres clientes y con tres personas que no te conocen: si no pueden repetir en sus palabras frente a qué eres mejor, ajusta el marco.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Decir que se es «la alternativa más ágil» solo significa algo si está claro
 **Autoridades o contrapartes involucradas:** FNE en materias de competencia, CMF para sociedades supervisadas.
 **Profesionales de apoyo:** fundador o directorio, consultor de estrategia, control de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa de software de gestión se presenta como «el sistema más ágil» sin decir frente a qué. Los clientes lo comparan con los grandes sistemas internacionales y la ven pequeña. La corrección: elegir el marco «herramientas de gestión para talleres de menos de 10 personas», donde su rapidez de puesta en marcha en un día sí es diferencia. Ahora el cliente lo compara con planillas y cuadernos, y gana (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Obviously Awesome (2019)** (Ambient Press): Dunford propone elegir la categoría de mercado y las alternativas contra las que el cliente compara antes de definir el valor diferencial.
+- **Blue Ocean Strategy** (Harvard Business School Press): Kim y Mauborgne muestran cómo redefinir los factores de comparación puede crear un espacio donde la competencia deja de ser decisiva.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para elegir la categoría de comparación y el punto de diferencia dentro de ella.
+
+**Ambient Press — Obviously Awesome (2019)**  
+<https://openlibrary.org/isbn/9781999023003> · verificado 2026-11-25
+
+- *Qué contiene:* Propone un método para definir el posicionamiento de un producto partiendo de los clientes que mejor encajan y del valor que reconocen.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Obviously Awesome (2019)» para elegir la categoría de comparación y el punto de diferencia dentro de ella.
+
+**Harvard Business School Press — Blue Ocean Strategy**  
+<https://openlibrary.org/isbn/9781591396192> · verificado 2026-11-25
+
+- *Qué contiene:* Propone crear espacios de mercado sin competencia redefiniendo el valor ofrecido y la estructura de costos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Blue Ocean Strategy» para elegir la categoría de comparación y el punto de diferencia dentro de ella.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

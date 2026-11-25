@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **No competencia** | Obligación del vendedor de no competir por un plazo. |
 | **Alineación de incentivos** | Coherencia entre el earn-out y el control efectivo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La transición y el earn-out después de la venta
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Transición"]
-    C --> A2["Earn-out"]
-    C --> A3["No competencia"]
-    C --> A4["Alineación de incentivos"]
-    A1 & A2 & A3 & A4 --> D{{"definir el período de<br/>transición y las condiciones<br/>del earn-out"}}
-    D --> E["Entregable<br/>acuerdo de transición con<br/>alcance, plazo, métrica del<br/>earn-out y cláusulas de<br/>protección"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El earn-out alinea intereses pero genera conflictos cuando el vendedor deja de controlar las decisiones que determinan el resultado medido; si se pacta, debe definir con precisión la métrica, el período y las reglas de gestión.
+
+![Esquema: La transición y el earn-out después de la venta](modelo-mental.svg)
+
+**Lectura guiada:** La línea muestra los tramos posteriores al cierre. El hito destacado es el de las mediciones: ahí se cobra el earn-out y ahí aparecen las discrepancias entre comprador y vendedor.
+
+**Para recordarlo:** Es un pago en cuotas condicionado a que la casa que vendiste mantenga su valor: tiene sentido si ambos acuerdan cómo se cuidará mientras tanto.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El earn-out alinea intereses pero genera conflictos cuando el vendedor deja de c
 
 ### 2. Cómo se traduce en la práctica
 
-El earn-out alinea intereses y genera conflictos cuando el vendedor deja de controlar las decisiones que determinan el resultado medido. Si se pacta, debe definir con precisión la métrica, quién la calcula, con qué información y qué decisiones del comprador podrían afectarla.
+Define el período de transición, las tareas del vendedor y su remuneración. Si pactas earn-out, escribe la métrica con exactitud, el período, las reglas de gestión que el comprador debe respetar y cómo se resuelven las discrepancias. Define la no competencia: alcance, plazo y territorio razonables. Consulta con abogados para que sea exigible.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ El earn-out alinea intereses y genera conflictos cuando el vendedor deja de cont
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa se vende en 200 millones: 140 al cierre y 60 como earn-out si el ingreso supera los 120 millones anuales durante dos años. El comprador cambia el equipo comercial y reduce un canal; los ingresos llegan a 105 millones y el vendedor no cobra los 60 millones. El conflicto se evitaba definiendo la métrica, reglas de gestión que protegieran el canal y un mecanismo de revisión independiente (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Venture Deals** (Wiley): Feld y Mendelson tratan cómo los términos de una operación alinean o desalinean los incentivos de las partes, ideas aplicables a diseñar un earn-out.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil regula las obligaciones condicionales y la libertad contractual en que se funda un earn-out y una cláusula de no competencia.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -150,6 +155,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el período de transición y las condiciones del earn-out.
+
+**Wiley — Venture Deals**  
+<https://openlibrary.org/isbn/9781118443613> · verificado 2026-11-25
+
+- *Qué contiene:* Explica los términos de una inversión de capital de riesgo: hoja de términos, valoración y derechos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Venture Deals» para definir el período de transición y las condiciones del earn-out.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

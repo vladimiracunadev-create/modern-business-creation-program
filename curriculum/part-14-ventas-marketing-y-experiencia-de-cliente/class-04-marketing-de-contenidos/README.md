@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Distribución** | Mecanismo por el que el contenido llega a la audiencia. |
 | **Activo de contenido** | Material que sigue generando resultados con el tiempo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Campaña frente a activo de contenido
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Contenido"]
-    C --> A2["Intención de búsqueda"]
-    C --> A3["Distribución"]
-    C --> A4["Activo de contenido"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué contenido se<br/>produce y cómo se distribuye"}}
-    D --> E["Entregable<br/>plan de contenidos con<br/>intención de búsqueda,<br/>formato, distribución y<br/>métrica por pieza"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El contenido es una inversión que se acumula: cuesta hoy y rinde durante meses, a diferencia de una campaña que rinde solo mientras se paga.
+
+![Esquema: Campaña frente a activo de contenido](modelo-mental.svg)
+
+**Cómo leerlo:** La línea punteada es una campaña: da un pico y cae. La línea sólida es una guía bien distribuida: parte lento y sigue sumando. El punto marca cuándo el activo ya rinde más que la campaña.
+
+**Para recordarlo:** Es plantar un árbol frente a comprar fruta: la fruta llega hoy y se acaba; el árbol demora, pero da cosecha cada año.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El contenido funciona como inversión, no como campaña: los resultados llegan c
 
 ### 2. Cómo se traduce en la práctica
 
-Producir sin plan de distribución es el error más frecuente y el más caro en horas. En Chile el contenido que mejor convierte suele ser el que resuelve problemas normativos y operativos concretos, porque hay poca oferta de material específico y mucha demanda de claridad.
+Elige los temas desde las consultas reales que recibe tu equipo: son las intenciones de búsqueda más honestas. Antes de escribir cada pieza decide dónde se distribuirá (lista de correos, buscadores, redes, ventas) y qué acción esperas del lector; una guía sin distribución es un archivo, no un activo. Cada trimestre revisa qué piezas siguen trayendo contactos y actualiza las que envejecieron, sobre todo las que tratan normas.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ Producir sin plan de distribución es el error más frecuente y el más caro en 
 **Autoridades o contrapartes involucradas:** SERNAC en publicidad y ofertas, SUBTEL y SERNAC en contacto no solicitado.
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de contabilidad publica la guía «Cómo cambiar de régimen tributario», que responde una duda real de sus clientes, y la distribuye en su lista y en buscadores. A los dos meses trae 10 consultas al mes; al año sigue trayendo 25 sin gasto adicional (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Traction (2015)** (Portfolio): Weinberg y Mares incluyen el marketing de contenidos entre los canales de tracción y recomiendan probarlo con un experimento acotado antes de comprometer recursos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +160,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir qué contenido se produce y cómo se distribuye.
+
+**Portfolio — Traction (2015)**  
+<https://openlibrary.org/isbn/9781591848363> · verificado 2026-11-25
+
+- *Qué contiene:* Catálogo de canales de adquisición de clientes y un método para probarlos con experimentos pequeños y concentrar el esfuerzo en el que funciona.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Traction (2015)» para definir qué contenido se produce y cómo se distribuye.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

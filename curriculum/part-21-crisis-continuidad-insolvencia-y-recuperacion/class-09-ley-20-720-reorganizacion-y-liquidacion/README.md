@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Liquidación** | Procedimiento de realización de activos y pago. |
 | **Veedor y liquidador** | Profesionales que intervienen en cada procedimiento. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Reorganizar o liquidar? Conocer las opciones a tiempo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ley 20.720"]
-    C --> A2["Reorganización"]
-    C --> A3["Liquidación"]
-    C --> A4["Veedor y liquidador"]
-    A1 & A2 & A3 & A4 --> D{{"conocer las alternativas<br/>concursales antes de estar en<br/>cesación de pagos"}}
-    D --> E["Entregable<br/>análisis de alternativas bajo<br/>Ley 20.720 con requisitos,<br/>plazos y efectos de cada<br/>procedimiento"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La Ley 20.720 permite a una empresa viable reorganizarse con protección financiera concursal mientras negocia con sus acreedores; la condición es llegar a tiempo, antes de agotar todas las alternativas.
+
+![Esquema: ¿Reorganizar o liquidar? Conocer las opciones a tiempo](modelo-mental.svg)
+
+**Qué mirar primero:** Recorre el árbol con honestidad. La viabilidad es la primera pregunta; la segunda es el tiempo. La protección concursal no resuelve un negocio inviable, pero da respiro a uno viable.
+
+**Piénsalo así:** Es consultar a un médico al primer síntoma y no cuando ya hay que operar: las alternativas disponibles dependen de cuándo llegues.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La Ley 20.720 permite a una empresa viable reorganizarse con protección financi
 
 ### 2. Cómo se traduce en la práctica
 
-La reorganización permite acordar con acreedores bajo protección financiera concursal, pero exige llegar con caja para sostener el procedimiento. Una empresa que agotó su liquidez y su crédito rara vez puede reorganizarse, y descartar la vía por desconocimiento lleva directo a la liquidación.
+Consulta a un abogado de insolvencia al aparecer las primeras señales, antes de la cesación de pagos. Reúne los antecedentes: estados financieros, listado de acreedores, activos y flujo. Evalúa la reorganización judicial, que la empresa deudora solicita ante el tribunal, y sus efectos, entre ellos la protección financiera concursal. Prepara un plan de comunicación para cada audiencia.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La reorganización permite acordar con acreedores bajo protección financiera co
 **Autoridades o contrapartes involucradas:** Superintendencia de Insolvencia y Reemprendimiento, Tribunales civiles, Dirección del Trabajo.
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: ¿tu negocio genera caja si se reduce la deuda a un calendario posible? Dos: ¿qué opciones de negociación directa agotaste? Tres: ¿qué efectos tendría solicitar una reorganización? Una empresa de manufactura con ventas sostenidas y deudas que superan su flujo consulta a tiempo, solicita la reorganización y, durante la protección concursal, negocia con sus acreedores sin ejecuciones ni liquidación.
+
+### 5. En qué se apoya
+
+- **Ley 20.720 — Reorganización y liquidación de empresas y personas** (Biblioteca del Congreso Nacional): El artículo 54 de la Ley 20.720 permite a la empresa deudora iniciar el procedimiento de reorganización ante su tribunal; la protección financiera concursal impide solicitar su liquidación o iniciar ejecuciones.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Biblioteca del Congreso Nacional publica el texto vigente de la ley concursal, base para conocer las alternativas antes de la cesación de pagos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: reorganización: la decisión y su señal pública
 

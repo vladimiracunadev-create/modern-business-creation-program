@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Zonificación** | Agrupación por rotación o compatibilidad. |
 | **Verificación de despacho** | Control previo a la salida. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo se organiza una bodega para que el picking sea corto
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Picking"]
-    C --> A2["Layout de bodega"]
-    C --> A3["Zonificación"]
-    C --> A4["Verificación de despacho"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar el layout y los<br/>controles de preparación y<br/>despacho"}}
-    D --> E["Entregable<br/>diseño de bodega con<br/>zonificación por rotación y<br/>procedimiento de verificación<br/>de despacho"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El costo de bodega se explica por la distancia recorrida y los errores de picking; zonificar por rotación reduce ambos, y la verificación previa al despacho es el último control barato.
+
+![Esquema: Cómo se organiza una bodega para que el picking sea corto](modelo-mental.svg)
+
+**Cómo leerlo:** El centro es la bodega y los satélites son sus zonas. Lo que más rota debe quedar más cerca del despacho; el último control antes de salir evita el costo de un error ya entregado.
+
+**Para recordarlo:** Es una cocina bien dispuesta: lo que usas siempre está al alcance de la mano y lo que usas poco, en el estante superior.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El costo de bodega se explica por distancia recorrida y por errores de picking. 
 
 ### 2. Cómo se traduce en la práctica
 
-Zonificar por rotación reduce ambos. La verificación previa al despacho es el último control barato: un error detectado en bodega cuesta minutos, el mismo error detectado por el cliente cuesta el flete de vuelta, la reposición y parte de la relación comercial.
+Clasifica tus productos por rotación y reubícalos por zonas. Diseña el recorrido de picking para minimizar distancia y cruces. Define la verificación de despacho: lectura de códigos o doble revisión. Mide errores por cada cien pedidos y distancia por orden. Revisa el layout cada vez que cambie el mix de productos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Zonificar por rotación reduce ambos. La verificación previa al despacho es el 
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una bodega de repuestos tenía sus productos más vendidos al fondo y cada picking recorría 400 metros; además, 3 de cada 100 pedidos salían con el producto equivocado. Al reubicar el 20 % de productos de mayor rotación cerca del despacho y verificar cada pedido con código de barras, el recorrido bajó a 150 metros y los errores a menos de 1 de cada 100 (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Lean Thinking** (Free Press): Womack y Jones proponen eliminar movimientos y esperas que no agregan valor, principio aplicable al diseño del recorrido de una bodega.
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional establece condiciones de almacenamiento para alimentos que condicionan la zonificación de la bodega en ese rubro.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para diseñar el layout y los controles de preparación y despacho.
+
+**Free Press — Lean Thinking**  
+<https://openlibrary.org/isbn/9780684810355> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta los principios lean: valor, flujo, tracción y perfección. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Thinking» para diseñar el layout y los controles de preparación y despacho.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Directorio** | Órgano colegiado de administración obligatorio en la sa. |
 | **Junta de accionistas** | Órgano soberano que aprueba estados financieros y elige directorio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánta formalidad de gobierno exige cada forma
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Sociedad anónima cerrada"]
-    C --> A2["Sociedad anónima abierta"]
-    C --> A3["Directorio"]
-    C --> A4["Junta de accionistas"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el caso requiere<br/>la formalidad de una SA"}}
-    D --> E["Entregable<br/>comparación SA cerrada versus<br/>SpA con costo anual de<br/>gobierno y obligaciones de<br/>reporte"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La sociedad anónima impone una estructura de gobierno formal, con directorio, juntas y memoria, que agrega costo y disciplina; la abierta suma supervisión de la CMF y obligaciones de información al mercado.
+
+![Esquema: Cuánta formalidad de gobierno exige cada forma](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño agrega obligaciones. Sube solo cuando el tamaño, los inversionistas o la ley lo justifiquen, y evita adoptar una formalidad que tu empresa no puede sostener.
+
+**Piénsalo así:** Es pasar de una reunión familiar a una asamblea con reglamento: más orden y garantías, pero también más trámites y responsabilidades.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La SA impone una estructura de gobierno formal —directorio, juntas, memoria—
 
 ### 2. Cómo se traduce en la práctica
 
-La SA impone una estructura de gobierno que agrega costo y disciplina; la SA abierta suma supervisión de la CMF y obligaciones de información al mercado. Constituir una SA por prestigio y luego no celebrar juntas ni llevar registros produce una sociedad formalmente irregular y difícil de vender.
+Pregúntate si tu empresa necesita directorio, juntas y memoria por tamaño, por inversionistas o por ley. Si no, usa los estatutos y el pacto de accionistas para incorporar la disciplina que necesitas sin asumir una forma más pesada. Si planeas abrirte al mercado, anticipa con asesoría los requisitos de inscripción, supervisión y revelación de información.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ La SA impone una estructura de gobierno que agrega costo y disciplina; la SA abi
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa de tecnología con diez accionistas, constituida como SpA, decide por mensajes y no tiene actas; un nuevo inversionista exige gobierno formal. Después: adopta directorio de tres personas, juntas con acta, memoria anual y política de información, y mantiene su forma de SpA con estatutos que replican esas reglas. Ganó disciplina sin asumir la carga de una sociedad abierta, que solo conviene al abrirse al mercado (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 18.046 regula las sociedades anónimas, su directorio, juntas y memoria, y sus diferencias entre abiertas y cerradas; su texto se consulta en la Biblioteca del Congreso Nacional.
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La Comisión para el Mercado Financiero supervisa a las entidades fiscalizadas del mercado; ilustra el tipo de supervisión que acompaña a una empresa que accede al mercado de valores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

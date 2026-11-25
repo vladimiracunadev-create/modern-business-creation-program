@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Licencia ociosa** | Suscripción pagada y no usada. |
 | **Presupuesto tecnológico** | Asignación anual con criterio de priorización. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dónde se va el gasto tecnológico
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Gobierno tecnológico"]
-    C --> A2["FinOps"]
-    C --> A3["Licencia ociosa"]
-    C --> A4["Presupuesto tecnológico"]
-    A1 & A2 & A3 & A4 --> D{{"instalar la revisión periódica<br/>de costos y licencias<br/>tecnológicas"}}
-    D --> E["Entregable<br/>inventario de servicios y<br/>licencias con costo, uso real<br/>y decisión de mantención o<br/>baja"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El costo tecnológico crece por acumulación: suscripciones que nadie da de baja, ambientes encendidos sin uso y licencias de personas que ya no están; una revisión trimestral de inventario y consumo recupera gasto sin afectar la operación.
+
+![Esquema: Dónde se va el gasto tecnológico](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra es una parte del gasto. Solo la primera genera valor. Las demás son oportunidades de ahorro que aparecen al inventariar licencias, ambientes y suscripciones.
+
+**Para recordarlo:** Es la cuenta del gimnasio y las suscripciones que olvidaste: cada una es pequeña, pero juntas pesan en el presupuesto.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El costo tecnológico crece por acumulación: suscripciones que nadie da de baja
 
 ### 2. Cómo se traduce en la práctica
 
-Suscripciones que nadie da de baja, ambientes encendidos sin uso y licencias de personas que ya salieron son el patrón habitual. Una revisión trimestral recupera típicamente entre 15 % y 30 % del gasto sin afectar la operación, y es de las pocas mejoras que no exigen negociar con nadie.
+Inventaría todas las licencias, suscripciones e infraestructura, con su costo, su responsable y su uso. Da de baja lo que nadie usa y apaga los ambientes inactivos. Establece un presupuesto tecnológico y una revisión trimestral con el responsable de cada gasto. Incluye en el proceso de salida de una persona el retiro de sus licencias. El gobierno tecnológico es una rutina, no un proyecto.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Suscripciones que nadie da de baja, ambientes encendidos sin uso y licencias de 
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa gasta 10 millones al mes en tecnología. Al revisar descubre que el 45 % no se usa: 2 millones en licencias de personas que se fueron, 1,5 millones en ambientes de pruebas encendidos las 24 horas y 1 millón en suscripciones olvidadas. Cancelando y ajustando recupera 4,5 millones al mes, sin que ningún usuario lo note, y define una revisión cada trimestre (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Site Reliability Engineering** (O'Reilly): Beyer y sus coautores muestran que la gestión disciplinada de los servicios, incluido su uso de recursos, es parte de operar con eficiencia.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight enseñan a revisar el gasto y su relación con el valor que genera, base de la revisión de costos tecnológicos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para instalar la revisión periódica de costos y licencias tecnológicas.
+
+**O'Reilly — Site Reliability Engineering**  
+<https://openlibrary.org/isbn/9781491929124> · verificado 2026-11-25
+
+- *Qué contiene:* Prácticas de confiabilidad de servicios de Google: objetivos de nivel de servicio, presupuesto de error y gestión de incidentes.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Site Reliability Engineering» para instalar la revisión periódica de costos y licencias tecnológicas.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para instalar la revisión periódica de costos y licencias tecnológicas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

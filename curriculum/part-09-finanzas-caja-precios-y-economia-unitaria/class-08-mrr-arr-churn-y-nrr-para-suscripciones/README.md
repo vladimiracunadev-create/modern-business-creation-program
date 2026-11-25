@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Churn** | Tasa de pérdida de clientes o ingresos. |
 | **NRR** | Retención neta de ingresos incluyendo expansión y contracción. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué te dice la retención neta de ingresos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["MRR"]
-    C --> A2["ARR"]
-    C --> A3["Churn"]
-    C --> A4["NRR"]
-    A1 & A2 & A3 & A4 --> D{{"medir la retención neta y<br/>decidir si invertir en<br/>adquisición o en retención"}}
-    D --> E["Entregable<br/>panel de suscripción con MRR,<br/>churn bruto, expansión,<br/>contracción y NRR"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un NRR superior a 100 % significa que la base crece sin captar clientes nuevos, que es la condición que hace escalable un negocio de suscripción; bajo 90 %, el crecimiento depende de captar.
+
+![Esquema: Qué te dice la retención neta de ingresos](modelo-mental.svg)
+
+**Cómo leerlo:** El color indica dónde invertir: retención o adquisición. Con rojo, gastar más en captar es llenar un balde con hoyo; con verde, cada cliente que entra sigue creciendo.
+
+**Una analogía:** Es una bicicleta con rueda ponchada: si no la reparas, por más que pedalees avanzas poco.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un NRR superior a 100% significa que la base existente crece sin adquisición nu
 
 ### 2. Cómo se traduce en la práctica
 
-Reportar crecimiento de clientes sin reportar churn oculta el problema central del modelo. Y medir el churn de clientes sin medir el de ingresos esconde el caso más peligroso: perder pocos clientes pero justamente los grandes, con base estable y facturación en caída.
+Calcula cada mes el ingreso recurrente (MRR y ARR), el churn de clientes y de ingresos y el NRR por cohorte. Define un umbral de decisión: si el NRR es menor de 90 %, atiende la retención antes de invertir más en captar. Explora qué hace distinto a los clientes que se quedan y que expanden su gasto, y repite eso.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Reportar crecimiento de clientes sin reportar churn oculta el problema central d
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa de software con NRR de 85 % duplica su gasto de marketing para crecer. Cada mes capta 100 clientes pero pierde 40 y ve que su base se estanca. La corrección: reasignar la mitad del presupuesto a onboarding, soporte y un plan anual con ventajas. En dos trimestres el NRR sube a 98 % y la captación empieza a crecer la base de verdad (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz describen las métricas de ingresos recurrentes y retención de los modelos de suscripción y su uso para decidir dónde invertir.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican cómo interpretar las tendencias de ingresos y márgenes para evitar decisiones basadas en impresiones.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para medir la retención neta y decidir si invertir en adquisición o en retención.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para medir la retención neta y decidir si invertir en adquisición o en retención.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para medir la retención neta y decidir si invertir en adquisición o en retención.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

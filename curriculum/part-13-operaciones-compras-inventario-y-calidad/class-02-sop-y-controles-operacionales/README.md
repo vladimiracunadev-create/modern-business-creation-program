@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Punto de control** | Momento donde se detecta el error antes de que avance. |
 | **Versión vigente** | Edición actual del procedimiento, con fecha y responsable. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que debe tener un procedimiento para ser útil
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SOP"]
-    C --> A2["Control operacional"]
-    C --> A3["Punto de control"]
-    C --> A4["Versión vigente"]
-    A1 & A2 & A3 & A4 --> D{{"documentar los procedimientos<br/>críticos con controles<br/>incorporados"}}
-    D --> E["Entregable<br/>SOP de los procesos críticos<br/>con puntos de control y<br/>criterios de aceptación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un procedimiento útil se escribe para quien no estuvo cuando se decidió: pasos concretos, criterios de aceptación y qué hacer ante excepciones, con los controles dentro del proceso y no al final.
+
+![Esquema: Lo que debe tener un procedimiento para ser útil](modelo-mental.svg)
+
+**Lectura guiada:** Cada capa responde una pregunta que quien ejecuta se hará. Si falta una, la persona improvisa, y la improvisación es la principal fuente de variabilidad.
+
+**Para recordarlo:** Es una receta bien escrita: indica ingredientes, pasos, cómo saber que está lista y qué hacer si la masa no sube.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un SOP útil se escribe para quien no estuvo cuando se decidió: pasos concretos
 
 ### 2. Cómo se traduce en la práctica
 
-Detectar el error en la entrega al cliente ya es tarde y caro: el control debe estar donde el error se produce. Y los SOP que describen lo que debería pasar en vez de lo que realmente se hace no sirven para entrenar ni para mejorar, porque nadie los reconoce como su trabajo.
+Elige tus tres procesos más críticos y escribe un procedimiento para cada uno con pasos, criterios, excepciones y controles. Pruébalo con alguien que no lo conozca. Identifica puntos de control tempranos, donde un error es barato de corregir. Asigna una versión vigente con fecha y responsable, y retira las anteriores. Revísalos cuando algo falle.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Detectar el error en la entrega al cliente ya es tarde y caro: el control debe e
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: el procedimiento de empaque de una tienda dice «embalar con cuidado y despachar». Cada persona lo hace distinto y un 6 % de los pedidos llega dañado. Después: un SOP de una página con fotos, un criterio (caja correcta, protección y etiqueta) y un control antes de cerrar la caja. Los pedidos dañados bajan a 1 % y el nuevo trabajador aprende en una mañana (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Checklist Manifesto** (Metropolitan Books): Gawande muestra cómo listas y procedimientos simples reducen errores evitables en tareas complejas, principio que sustenta un buen SOP.
+- **Out of the Crisis** (Cambridge University Press): Deming sostiene que la calidad se construye en el proceso y no en la inspección final, que es la lógica de incorporar controles dentro del procedimiento.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para documentar los procedimientos críticos con controles incorporados.
+
+**Metropolitan Books — The Checklist Manifesto**  
+<https://openlibrary.org/isbn/9780312430009> · verificado 2026-11-25
+
+- *Qué contiene:* Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Checklist Manifesto» para documentar los procedimientos críticos con controles incorporados.
+
+**Cambridge University Press — Out of the Crisis**  
+<https://openlibrary.org/isbn/9780521305532> · verificado 2026-11-25
+
+- *Qué contiene:* Expone los catorce puntos de Deming y la calidad como responsabilidad de la dirección, con foco en variación y sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Out of the Crisis» para documentar los procedimientos críticos con controles incorporados.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

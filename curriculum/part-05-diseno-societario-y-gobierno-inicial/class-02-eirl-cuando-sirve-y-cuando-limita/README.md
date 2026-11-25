@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Objeto único** | La eirl debe declarar un giro determinado. |
 | **Transformación** | Conversión de la eirl en otro tipo societario. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿EIRL, SpA o seguir como persona natural?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["EIRL"]
-    C --> A2["Titular"]
-    C --> A3["Objeto único"]
-    C --> A4["Transformación"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la EIRL sirve al<br/>caso o si conviene partir<br/>directamente en SpA"}}
-    D --> E["Entregable<br/>análisis de conveniencia EIRL<br/>versus SpA para el caso,<br/>incluyendo escenario de<br/>entrada de socios"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La EIRL permite limitar la responsabilidad sin socios, pero tiene un techo estructural: no admite más de un titular y obliga a transformarse apenas aparece un socio.
+
+![Esquema: ¿EIRL, SpA o seguir como persona natural?](modelo-mental.svg)
+
+**Qué mirar primero:** Responde las preguntas en orden. La primera separa a quienes tendrán socios de quienes no; la segunda mide cuánto necesitas proteger tu patrimonio. Revisa la respuesta cada vez que cambie tu plan de crecimiento.
+
+**Para recordarlo:** Es elegir una mochila: la pequeña sirve para el paseo de un día, pero si piensas sumar compañeros y equipo, conviene la grande desde el comienzo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La EIRL (Ley 19.857) permite limitar responsabilidad sin socios, pero tiene un t
 
 ### 2. Cómo se traduce en la práctica
 
-Ese techo obliga a transformar la sociedad apenas aparece un socio o un inversionista, con costo y tiempo. Por eso hoy la SpA de accionista único suele ser preferible incluso para un fundador solo: cuesta lo mismo constituirla y no obliga a rehacer la estructura cuando el negocio funciona.
+Escribe tres escenarios posibles de tu empresa a dos años: sola, con un socio y con un inversionista. Compara qué forma funciona en los tres y cuánto costaría cambiar. Revisa los requisitos de cada sociedad en el Registro de Empresas y Sociedades y las normas de la EIRL, que limitan el número de titulares. Si dudas, el costo de partir en una SpA suele ser menor que el de transformar después.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Ese techo obliga a transformar la sociedad apenas aparece un socio o un inversio
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, Conservador de Bienes Raíces, CMF para sociedades anónimas abiertas.
 **Profesionales de apoyo:** abogado corporativo, notario, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres pasos. Uno: ¿habrá socios o inversionistas en los próximos dos años? Si sí, parte con una SpA y evita transformar después. Dos: si no, ¿tu actividad genera riesgos? Si sí, una EIRL o una SpA unipersonal limita tu responsabilidad. Tres: si no, ¿vendes a clientes que exigen factura? Una diseñadora que trabajará sola en un rubro de bajo riesgo se queda como persona natural; una desarrolladora con una socia prevista, parte como SpA.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades publica los formularios y requisitos de constitución de las formas societarias admitidas, entre ellas la EIRL y la SpA.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Ley 19.857 regula la empresa individual de responsabilidad limitada y su límite de un solo titular; su texto se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

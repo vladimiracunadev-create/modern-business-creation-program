@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Manual de franquicia** | Documento que transfiere el sistema completo. |
 | **Control de calidad de red** | Mecanismo que asegura consistencia entre unidades. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Tres condiciones para poder franquiciar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Franquiciar"]
-    C --> A2["Unidad piloto"]
-    C --> A3["Manual de franquicia"]
-    C --> A4["Control de calidad de red"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el negocio está<br/>en condiciones de<br/>franquiciarse"}}
-    D --> E["Entregable<br/>paquete de franquicia con<br/>manual, economía de unidad<br/>tipo, soporte comprometido y<br/>control de calidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Franquiciar requiere marca registrada, manual completo, unidad piloto rentable y capacidad de soporte a los franquiciados; la falla más común es franquiciar por necesidad de caja.
+
+![Esquema: Tres condiciones para poder franquiciar](modelo-mental.svg)
+
+**Qué mirar primero:** Las tres condiciones deben coincidir. El canon inicial parece una solución de caja, pero crea obligaciones de soporte; si el negocio no está listo, se traslada el problema al franquiciado.
+
+**Para recordarlo:** Es dar la receta de una torta: solo conviene si el pastel sale bien en cualquier cocina y si estás dispuesto a ayudar cuando no suba.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Franquiciar requiere marca registrada, manual completo, unidad piloto rentable y
 
 ### 2. Cómo se traduce en la práctica
 
-Franquiciar para resolver un problema de caja es la falla típica: el canon inicial alivia el mes y una red mal soportada destruye la marca en un año. Comprometer un soporte que la empresa no puede entregar genera además conflictos contractuales con los primeros franquiciados.
+Evalúa tus tres condiciones y la capacidad de apoyo continuo: capacitación, abastecimiento, control de calidad y supervisión de la red. Define el contrato de franquicia, que en Chile se estructura por acuerdo, marca y know-how, y los controles de calidad. Calcula el retorno del franquiciado con supuestos conservadores. No franquicies por necesidad de caja.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Franquiciar para resolver un problema de caja es la falla típica: el canon inic
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Dueño: «Necesito caja; quiero vender franquicias de mi cafetería». Asesora: «¿Tu marca está registrada, tienes un manual y una unidad que gana dinero sin ti?». Dueño: «Mi marca se está registrando y mi local rinde, pero el manual no existe». Asesora: «Entonces no están listos. Si cobras un canon inicial sin un modelo replicable, los franquiciados perderán dinero y la marca se dañará. Resuelve la caja con otra vía» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Marcas, patentes y diseños industriales** (Instituto Nacional de Propiedad Industrial): INAPI registra las marcas, activo central de cualquier franquicia, y permite verificar su titularidad y vigencia.
+- **The E-Myth Revisited** (HarperBusiness): Gerber propone construir cada negocio como un prototipo de franquicia con sistemas probados que otros puedan operar.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🤝 Reputación y confianza: aliados y reputación compartida
 
@@ -182,6 +187,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar si el negocio está en condiciones de franquiciarse.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para determinar si el negocio está en condiciones de franquiciarse.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

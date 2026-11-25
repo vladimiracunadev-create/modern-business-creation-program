@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Contrato marco** | Acuerdo general bajo el cual se emiten órdenes específicas. |
 | **Aceptación tácita** | Conducta que implica aceptación aunque no haya firma. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Contrato marco o cotización con orden de compra
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Cotización"]
-    C --> A2["Orden de compra"]
-    C --> A3["Contrato marco"]
-    C --> A4["Aceptación tácita"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué operaciones van<br/>con contrato marco y cuáles<br/>con cotización y orden"}}
-    D --> E["Entregable<br/>plantilla de cotización con<br/>condiciones generales y<br/>criterio de cuándo se exige<br/>contrato marco"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En la práctica chilena buena parte de la operación comercial se documenta con cotización más orden de compra, y eso funciona mientras la cotización incluya condiciones completas.
+
+![Esquema: Contrato marco o cotización con orden de compra](modelo-mental.svg)
+
+**Lectura guiada:** Compara los dos platos. Ninguno es mejor en abstracto: depende de la repetición de la relación, el monto y el riesgo. Lo grave es no saber cuál estás usando.
+
+**Una analogía:** Es la diferencia entre un pasaje suelto y un abono mensual: el primero es flexible; el segundo fija reglas para todos los viajes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En la práctica chilena buena parte de la operación comercial se documenta con 
 
 ### 2. Cómo se traduce en la práctica
 
-En la práctica chilena buena parte de la operación se documenta sin contrato firmado, y eso funciona mientras la cotización incluya alcance, exclusiones, vigencia, plazos y límite de responsabilidad. Si no los incluye, aplica el régimen supletorio del Código Civil, que rara vez favorece al proveedor.
+Define qué operaciones irán con contrato marco, cuáles con cotización y cuáles con ambos. Haz que tus cotizaciones incluyan precio, plazo, forma de pago, alcance, exclusiones, responsabilidad y vigencia. Revisa las órdenes de compra de grandes clientes: sus condiciones generales pueden imponerse si no las rechazas por escrito. Guarda cada cotización con su orden.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,16 @@ En la práctica chilena buena parte de la operación se documenta sin contrato f
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de eventos recibe una orden de compra de un cliente que cita su cotización, pero esta omitió quién paga los daños al equipamiento. Cuando se rompen dos parlantes, hay una discusión de 3 millones sin cláusula que la resuelva. Un contrato marco con condiciones generales y la cotización como anexo habría fijado la regla desde el inicio (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código de Comercio regula la formación del consentimiento y la aceptación de las ofertas, que fundamenta el valor de una cotización aceptada con una orden de compra.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Deuda organizacional** | Procesos y decisiones postergados que se cobran en la etapa siguiente. |
 | **Salida** | Evento de venta, sucesión, transformación o cierre. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Las etapas de una empresa y la puerta de cada una
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Etapa"]
-    C --> A2["Gate"]
-    C --> A3["Deuda organizacional"]
-    C --> A4["Salida"]
-    A1 & A2 & A3 & A4 --> D{{"identificar la etapa real de<br/>la empresa y qué gate falta<br/>para avanzar"}}
-    D --> E["Entregable<br/>diagnóstico de etapa con el<br/>gate pendiente y su evidencia<br/>de cierre"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Cada etapa tiene su problema dominante: aplicar la receta de una etapa en otra destruye valor, y reconocer la etapa real es la primera decisión de gestión.
+
+![Esquema: Las etapas de una empresa y la puerta de cada una](modelo-mental.svg)
+
+**Lectura guiada:** La línea es la vida de la empresa. Ubica dónde estás hoy y lee qué puerta falta para avanzar; no copies las prácticas de una etapa posterior.
+
+**Una imagen cotidiana:** Es como las edades de una persona: no se le exige a un niño lo mismo que a un adulto, ni se le trata como niño a quien ya trabaja.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Cada etapa tiene un problema dominante distinto y aplicar la receta de una etapa
 
 ### 2. Cómo se traduce en la práctica
 
-Procesos pesados matan a una empresa que todavía busca demanda; su ausencia mata a una que ya la encontró. El síntoma de aplicar la receta equivocada es reconocible: reuniones de comité en una empresa sin clientes, o improvisación heroica en una con cincuenta trabajadores.
+Escribe en qué etapa estás con una frase de evidencia: «validación: cinco clientes pagaron, solo dos repitieron». Luego lista la puerta que falta y el costo de no cumplirla. Antes de contratar, comprar un sistema o abrir una sucursal, pregúntate si corresponde a tu etapa o a la que quisieras tener. Revisa tu etapa cada trimestre.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Procesos pesados matan a una empresa que todavía busca demanda; su ausencia mat
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa con tres clientes decide implementar un comité de riesgos, tres niveles de aprobación y un software de gestión de proyectos. Gasta energía en procesos que aún no necesita y deja de visitar clientes. Otra, con 80 empleados, sigue decidiendo todo por mensajes del fundador y cada error se repite. La primera necesitaba validar, la segunda necesitaba procesos; ambas aplicaron la receta equivocada (casos ilustrativos).
+
+### 5. En qué se apoya
+
+- **The E-Myth Revisited** (HarperBusiness): Gerber describe etapas de la vida de una empresa (infancia, adolescencia y madurez) con problemas distintos en cada una.
+- **Scaling Up** (Gazelles): Harnish propone herramientas de gestión adecuadas a la etapa de crecimiento de la empresa y advierte sobre los puntos en que lo que funcionaba deja de funcionar.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica las convocatorias vigentes con sus bases: perfil de empresa elegible, monto del subsidio, cofinanciamiento exigido, gastos financiables y obligaciones de rendición.
 - *Cómo leerla:* Lee las bases desde el final: la sección de rendición decide si podrás quedarte con el subsidio. Muchos proyectos se adjudican y después devuelven fondos por no poder acreditar el gasto en la forma exigida.
 - *Uso en esta clase:* aporta el marco de «Fomento para micro y pequeñas empresas» para identificar la etapa real de la empresa y qué gate falta para avanzar.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para identificar la etapa real de la empresa y qué gate falta para avanzar.
+
+**Gazelles — Scaling Up**  
+<https://openlibrary.org/isbn/9780986019555> · verificado 2026-11-25
+
+- *Qué contiene:* Reúne herramientas de gestión para crecer: personas, estrategia, ejecución y caja. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Scaling Up» para identificar la etapa real de la empresa y qué gate falta para avanzar.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

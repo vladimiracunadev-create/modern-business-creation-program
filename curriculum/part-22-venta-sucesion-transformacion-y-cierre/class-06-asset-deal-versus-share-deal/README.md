@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Sucesión de pasivos** | Transmisión de obligaciones al comprador. |
 | **Efecto tributario** | Carga impositiva de cada estructura. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Comprar la sociedad o comprar los bienes
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Asset deal"]
-    C --> A2["Share deal"]
-    C --> A3["Sucesión de pasivos"]
-    C --> A4["Efecto tributario"]
-    A1 & A2 & A3 & A4 --> D{{"elegir la estructura de la<br/>transacción con criterio<br/>tributario y de riesgo"}}
-    D --> E["Entregable<br/>comparación asset deal versus<br/>share deal con efecto<br/>tributario, riesgo y<br/>aceptabilidad para la<br/>contraparte"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** En un share deal el comprador adquiere la sociedad con todo su pasivo, incluidas las contingencias ocultas; en un asset deal adquiere bienes determinados, aunque en materia laboral puede haber continuidad de obligaciones.
+
+![Esquema: Comprar la sociedad o comprar los bienes](modelo-mental.svg)
+
+**Cómo leerlo:** Compara los dos platos. Lo que uno gana en simplicidad, el otro lo gana en control del riesgo. La mejor estructura es la que reparte el riesgo y el costo según lo que cada parte puede asumir.
+
+**Una analogía:** Es comprar un restaurante entero con todo su historial o solo la cocina y el local: en el primero heredas deudas y acuerdos; en el segundo eliges qué te llevas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ En un share deal el comprador adquiere la sociedad con todo su pasivo, incluidas
 
 ### 2. Cómo se traduce en la práctica
 
-En un share deal el comprador adquiere la sociedad con todo su pasivo, incluidas las contingencias ocultas, y por eso exigirá garantías amplias. En un asset deal adquiere bienes determinados, aunque en materia laboral la continuidad puede operar igual: asumir que el asset deal la elimina es un error frecuente.
+Antes de decidir la estructura, compara por escrito el efecto tributario para el vendedor y el comprador, el riesgo de pasivos ocultos, la facilidad de ceder contratos y permisos y la continuidad laboral. Consulta con asesores tributarios y legales. Considera una combinación con garantías, retenciones de precio e indemnizaciones.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ En un share deal el comprador adquiere la sociedad con todo su pasivo, incluidas
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Comprador: «Quiero comprar la sociedad entera para mantener los contratos y permisos». Asesora: «¿Revisaste sus contingencias?». Comprador: «Sí, hay una discrepancia con el SII». Asesora: «En un share deal la heredas; en un asset deal podrías dejarla afuera, pero deberás ceder los contratos uno a uno». Comprador: «Entonces compraré activos y negociaré una indemnización por lo que no pueda separar» (diálogo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa el tratamiento tributario de la venta de acciones y de activos, base para comparar las estructuras.
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los efectos laborales de la transferencia de una empresa o de sus activos, y la continuidad de las obligaciones del empleador.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

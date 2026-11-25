@@ -104,6 +104,9 @@ def convertir_enlaces(texto: str, carpeta: Path) -> str:
             return match.group(0)
         ruta, _, ancla = destino.partition("#")
         sufijo = f"#{ancla}" if ancla else ""
+        if ruta.endswith(".svg") and (carpeta / ruta).exists():
+            # Los modelos mentales de cada clase se copian junto a su página.
+            return match.group(0)
         if ruta.endswith(".md"):
             # Los README se publican como index.html de su carpeta, igual que en
             # el generador: enlazarlos como README.html daría 404.
@@ -626,6 +629,13 @@ def main() -> int:
         shutil.rmtree(SALIDA)
     SALIDA.mkdir(parents=True)
     (SALIDA / ".nojekyll").write_text("", encoding="utf-8")
+
+    # Modelos mentales (SVG) de las clases: viven junto al README y se publican
+    # en la misma carpeta del sitio, porque la página los enlaza de forma relativa.
+    for svg in sorted((RAIZ / "curriculum").glob("part-*/class-*/modelo-mental.svg")):
+        copia = SALIDA / svg.relative_to(RAIZ)
+        copia.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(svg, copia)
 
     # El manual en PDF se compila aparte con scripts/generar_manual.py y vive en
     # output/; aquí solo se copia a las descargas del sitio si ya está generado.

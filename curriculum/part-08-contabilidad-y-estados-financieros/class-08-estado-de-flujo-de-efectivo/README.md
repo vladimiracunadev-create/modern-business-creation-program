@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Flujo de inversión** | Efectivo usado en adquirir o vender activos. |
 | **Flujo de financiamiento** | Efectivo de deuda, aportes y retiros. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Utilidad no es lo mismo que efectivo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Flujo de efectivo"]
-    C --> A2["Flujo operacional"]
-    C --> A3["Flujo de inversión"]
-    C --> A4["Flujo de financiamiento"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la operación<br/>genera efectivo por sí misma"}}
-    D --> E["Entregable<br/>estado de flujo de efectivo<br/>con las tres categorías y<br/>conclusión sobre<br/>sostenibilidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El estado de flujo de efectivo es el que no se puede maquillar: muestra si la operación genera o consume efectivo, y una empresa con utilidad y flujo operacional negativo está financiando su crecimiento con deuda.
+
+![Esquema: Utilidad no es lo mismo que efectivo](modelo-mental.svg)
+
+**Qué mirar primero:** Compara las dos barras. La diferencia entre ellas es el dinero que quedó en cuentas por cobrar, inventario o inversiones. Una brecha creciente es una señal de alerta.
+
+**Para recordarlo:** Es el contraste entre lo que dice tu boleta de sueldo y lo que tienes en la cuenta a fin de mes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El estado de flujo es el que no se puede maquillar: muestra si la operación gen
 
 ### 2. Cómo se traduce en la práctica
 
-Una empresa con utilidad y flujo operacional negativo sostenido está financiando su crecimiento con deuda o con capital, y eso tiene un límite conocido. Separar bien las tres categorías evita el autoengaño de contar como flujo operacional lo que en realidad es un préstamo recibido.
+Construye el estado de flujo por actividades: operacional, de inversión y de financiamiento. Pregunta si la operación genera efectivo por sí sola o depende de deuda. Compara cada trimestre la utilidad con el flujo operacional y explica la diferencia. Úsalo junto con el flujo de caja proyectado de 13 semanas para anticipar los problemas de liquidez.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Una empresa con utilidad y flujo operacional negativo sostenido está financiand
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa muestra una utilidad de 30 millones y celebra, pero su flujo operacional es de 8 millones porque aumentó sus cuentas por cobrar y su inventario; para pagar sueldos usa un crédito. Después: con el estado de flujo claro, acorta el plazo de cobro, reduce el inventario lento y mejora el flujo operacional a 22 millones sin cambiar sus ventas. El problema estaba en la caja, no en el margen (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican el estado de flujo de efectivo y por qué la utilidad no coincide con el efectivo, sobre todo en empresas que crecen.
+- **Simple Numbers, Straight Talk, Big Profits!** (Greg Crabtree): Crabtree propone mirar la caja y los indicadores simples de rentabilidad para dirigir pequeñas empresas con claridad.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar si la operación genera efectivo por sí misma.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para determinar si la operación genera efectivo por sí misma.
+
+**Greg Crabtree — Simple Numbers, Straight Talk, Big Profits!**  
+<https://openlibrary.org/isbn/9780989645232> · verificado 2026-11-25
+
+- *Qué contiene:* Propone indicadores simples para pequeñas empresas, como el costo laboral sobre el margen bruto. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Simple Numbers, Straight Talk, Big Profits!» para determinar si la operación genera efectivo por sí misma.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

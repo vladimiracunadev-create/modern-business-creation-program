@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Figura contractual** | Forma jurídica de cada vínculo. |
 | **Secuencia de contratación** | Orden en que se incorporan los cargos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El costo de la dotación y su peso en la caja
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Estructura de cargos"]
-    C --> A2["Costo de dotación"]
-    C --> A3["Figura contractual"]
-    C --> A4["Secuencia de contratación"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar la estructura de<br/>cargos, su figura contractual<br/>y su secuencia"}}
-    D --> E["Entregable<br/>estructura organizacional del<br/>caso con cargos, figura<br/>contractual, costo total y<br/>secuencia de incorporación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El diseño organizacional del caso debe corresponder a su etapa y a la caja proyectada; la evaluación revisa que la figura contractual de cada rol sea la correcta según los hechos y que la secuencia de contratación tenga gatillos.
+
+![Esquema: El costo de la dotación y su peso en la caja](modelo-mental.svg)
+
+**Lectura guiada:** Cada barra suma un costo del cargo. El total es lo que realmente pesa en la caja, y define cuándo conviene contratar. La figura contractual correcta evita reclamos y costos posteriores.
+
+**Una analogía:** Es el costo de mantener un auto: no es solo la bencina, también son seguros, patentes, mantención y el tiempo que se pierde cuando falla.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El diseño organizacional del caso debe corresponder a la etapa y a la caja proy
 
 ### 2. Cómo se traduce en la práctica
 
-La figura debe corresponder a los hechos: asignar honorarios a roles que tendrán horario y supervisión es exactamente lo que la parte 12 advierte. Y diseñar la estructura objetivo en vez de la que la caja soporta produce un plan que la primera liquidación desmiente.
+Define la estructura de cargos por roles y no por personas, con gatillo y costo total de cada uno. Verifica la figura contractual: contrato de trabajo, honorarios o servicio externo, según los hechos de cada relación. Planifica la secuencia de contratación según la caja proyectada. Anota el costo de la dotación en el flujo de caja del expediente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La figura debe corresponder a los hechos: asignar honorarios a roles que tendrá
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+El caso quiere contratar un técnico con sueldo líquido de 700.000 pesos. Al calcular el costo total (cotizaciones y costos del empleador 160.000 y equipo y capacitación 120.000), el cargo cuesta 980.000 al mes. Define el gatillo: contratará cuando supere 70 servicios al mes durante dos meses. Hasta entonces, cubre los picos con horas extra pactadas. Su ayudante, que cumple horario bajo supervisión, tendrá contrato de trabajo (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los criterios de calificación de la relación laboral y las obligaciones del empleador.
+- **High Output Management** (Random House): Grove trata la planificación de la dotación y la productividad como parte de la gestión de una organización pequeña y creciente.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para diseñar la estructura de cargos, su figura contractual y su secuencia.
+
+**Random House — High Output Management**  
+<https://openlibrary.org/isbn/9780330289634> · verificado 2026-11-25
+
+- *Qué contiene:* Aplica ideas de producción a la gestión directiva: indicadores, reuniones uno a uno y apalancamiento del tiempo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «High Output Management» para diseñar la estructura de cargos, su figura contractual y su secuencia.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

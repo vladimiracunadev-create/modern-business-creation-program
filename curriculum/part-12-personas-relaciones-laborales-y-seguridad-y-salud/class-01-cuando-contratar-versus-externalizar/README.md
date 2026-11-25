@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Proveedor** | Organización que suministra un producto o servicio bajo un contrato y nivel de servicio. |
 | **Profesional externo** | Especialista independiente que aporta juicio sujeto a habilitación, ética o responsabilidad profesional. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Es contratista o es trabajador?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Vínculo de subordinación"]
-    C --> A2["Contratista"]
-    C --> A3["Proveedor"]
-    C --> A4["Profesional externo"]
-    A1 & A2 & A3 & A4 --> D{{"elegir la figura correcta para<br/>cada capacidad y asignar<br/>control y responsabilidad<br/>sobre terceros"}}
-    D --> E["Entregable<br/>mapa de capacidades que<br/>distingue empleados,<br/>contratistas, proveedores,<br/>profesionales externos,<br/>plataformas, infraestructura y<br/>socios comerciales"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La calificación de una relación no depende del nombre del contrato sino de los hechos: horario, supervisión, exclusividad, herramientas y continuidad.
+
+![Esquema: ¿Es contratista o es trabajador?](modelo-mental.svg)
+
+**Lectura guiada:** Recorre el árbol con cada persona que colabora contigo. Las señales de subordinación se acumulan: una sola no decide, pero varias juntas hacen que un juez mire la realidad y no el papel.
+
+**Una imagen cotidiana:** Es como un pato: no importa cómo lo llames en el contrato, si camina, nada y hace ruido como un pato, la ley lo tratará como pato.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La calificación de la relación no depende del nombre del contrato sino de los 
 
 ### 2. Cómo se traduce en la práctica
 
-Horario, supervisión, exclusividad, herramientas y continuidad son los indicadores que un tribunal evaluará. Un contrato a honorarios con subordinación se reclasifica como laboral, con cobro retroactivo de cotizaciones, indemnizaciones y multas, y ese pasivo aparece completo en la due diligence de la parte 22.
+Antes de contratar a un tercero, revisa cinco señales: horario fijado por ti, supervisión directa, exclusividad, uso de tus herramientas y continuidad. Si varias coinciden, usa un contrato de trabajo. Para independientes reales, documenta entregables, plazos y libertad de organización. Una empresa pequeña puede externalizar capacidades, pero debe mantener control y responsabilidad sobre lo que externaliza.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Horario, supervisión, exclusividad, herramientas y continuidad son los indicado
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una agencia contrata a una diseñadora con boleta de honorarios, pero le fija horario de 9 a 18, la supervisa un jefe, le entrega computador y correo corporativo y trabaja solo para ella hace dos años. Al terminar la relación, la diseñadora reclama y un tribunal reconoce una relación laboral, con las cotizaciones, el feriado y las indemnizaciones pendientes. La agencia pagó más de lo que habría costado contratarla desde el inicio (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo publica dictámenes sobre la calificación de las relaciones de trabajo, que consideran los hechos y no el nombre del contrato.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código del Trabajo define el contrato individual de trabajo y presume la relación laboral cuando hay prestación de servicios con subordinación y dependencia.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 

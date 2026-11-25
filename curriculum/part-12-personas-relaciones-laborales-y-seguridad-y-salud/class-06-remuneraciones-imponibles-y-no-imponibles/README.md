@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Gratificación** | Participación en utilidades con modalidades legales. |
 | **Liquidación** | Documento que detalla haberes y descuentos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Haberes imponibles y no imponibles
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Remuneración imponible"]
-    C --> A2["Haber no imponible"]
-    C --> A3["Gratificación"]
-    C --> A4["Liquidación"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar la estructura de<br/>remuneración con haberes<br/>correctamente clasificados"}}
-    D --> E["Entregable<br/>estructura de remuneración con<br/>clasificación de haberes y<br/>cálculo de costo empresa"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La estructura de la remuneración determina el costo para la empresa y los derechos del trabajador; usar haberes no imponibles desproporcionados para reducir cotizaciones es una práctica que la Dirección del Trabajo cuestiona.
+
+![Esquema: Haberes imponibles y no imponibles](modelo-mental.svg)
+
+**Qué mirar primero:** Cada plato describe una categoría. La clasificación no es una opción de ahorro: depende de qué es realmente cada pago, y una mala clasificación se paga después con intereses.
+
+**Una analogía:** Es etiquetar frascos en una cocina: si pones sal en el frasco del azúcar, el error aparecerá en el plato.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La estructura de la remuneración determina el costo empresa y los derechos del 
 
 ### 2. Cómo se traduce en la práctica
 
-Inflar haberes no imponibles —colación, movilización— para reducir cotizaciones es una práctica que la Dirección del Trabajo y las instituciones previsionales fiscalizan y reliquidan con efecto retroactivo. Y omitir la gratificación legal del cálculo subestima el costo real de cada contratación.
+Lista cada haber que pagas y justifica por qué es imponible o no imponible según su naturaleza. Evita montos desproporcionados en haberes no imponibles. Calcula el costo empresa de cada trabajador y revisa la liquidación: debe permitir entender qué se paga y por qué. Actualiza la estructura si cambia la ley o un dictamen.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,17 @@ Inflar haberes no imponibles —colación, movilización— para reducir cotizac
 **Autoridades o contrapartes involucradas:** Dirección del Trabajo, SUSESO, Mutualidades, Previred, IPS.
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una empresa paga a sus vendedores un sueldo base bajo y un «bono de colación y movilización» alto para reducir cotizaciones. Un trabajador reclama y la Dirección del Trabajo determina que gran parte del bono era remuneración imponible; la empresa paga diferencias de cotizaciones con reajustes. Después: rediseña la estructura con un sueldo base realista, comisiones claras y colación y movilización por montos razonables y documentados (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo publica dictámenes sobre la naturaleza de los haberes y los criterios de la remuneración imponible y no imponible.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código del Trabajo define la remuneración y los beneficios que no la constituyen; su texto vigente se consulta en la BCN.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

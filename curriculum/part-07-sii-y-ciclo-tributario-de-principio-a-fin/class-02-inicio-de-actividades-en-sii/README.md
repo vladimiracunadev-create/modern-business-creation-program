@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Verificación de actividad** | Proceso por el que el sii confirma la operación declarada. |
 | **Habilitación para emitir DTE** | Autorización para emitir documentos tributarios electrónicos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De la constitución a la primera factura
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Inicio de actividades"]
-    C --> A2["Plazo legal"]
-    C --> A3["Verificación de actividad"]
-    C --> A4["Habilitación para emitir<br/>DTE"]
-    A1 & A2 & A3 & A4 --> D{{"declarar inicio de actividades<br/>con giros correctos y régimen<br/>elegido"}}
-    D --> E["Entregable<br/>expediente de inicio de<br/>actividades con giros,<br/>domicilio acreditado y régimen<br/>seleccionado"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El inicio de actividades convierte a la sociedad en contribuyente operativo: activa obligaciones mensuales, habilita la emisión de documentos y fija el régimen.
+
+![Esquema: De la constitución a la primera factura](modelo-mental.svg)
+
+**Lectura guiada:** La línea ordena el proceso. El hito destacado es la declaración, que se hace en línea y define giros y régimen; los demás pasos dependen de que esté bien hecha.
+
+**Para recordarlo:** Es la inscripción de un auto: sin ese paso, el vehículo existe, pero no puede circular legalmente.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El inicio de actividades es el acto que convierte a la sociedad en contribuyente
 
 ### 2. Cómo se traduce en la práctica
 
-Desde ese momento hay F29 mensual y calendario anual, con independencia de que haya actividad. El SII puede además verificar domicilio y actividad antes de habilitar la emisión de documentos, de modo que la fecha de inicio debe elegirse considerando cuándo se podrá facturar realmente.
+Antes de declarar, define giros, régimen tributario y domicilio acreditado. Presenta el inicio de actividades dentro del plazo legal y solicita la habilitación de documentos electrónicos. Mantén a mano el contrato de domicilio y las claves del representante. Si el SII te pide verificación, responde rápido: cualquier retraso detiene tu primera venta.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,16 @@ Desde ese momento hay F29 mensual y calendario anual, con independencia de que h
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una consultora se constituye un lunes y planea facturar su primer servicio el viernes. Declara el inicio de actividades con un giro que no corresponde a su servicio principal y el SII pide verificación del domicilio. La habilitación se retrasa 10 días y el cliente, que necesitaba la factura para su rendición, cambia de proveedor. Con el giro correcto y el domicilio acreditado antes, habría facturado esa semana (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII describe el procedimiento de inicio de actividades, la verificación de la actividad y la habilitación para emitir documentos electrónicos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

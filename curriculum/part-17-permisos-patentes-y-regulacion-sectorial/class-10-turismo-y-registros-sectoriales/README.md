@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Sello de calidad** | Distintivo voluntario asociado a estándares. |
 | **Servicio turístico** | Categoría regulada según el tipo de prestación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué exige un servicio turístico según su riesgo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SERNATUR"]
-    C --> A2["Registro de prestadores"]
-    C --> A3["Sello de calidad"]
-    C --> A4["Servicio turístico"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si la actividad<br/>exige inscripción y qué normas<br/>técnicas aplican"}}
-    D --> E["Entregable<br/>análisis de exigibilidad<br/>SERNATUR con registro, normas<br/>técnicas y requisitos de<br/>seguridad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Los prestadores de servicios turísticos deben inscribirse en el registro de SERNATUR, y ciertas actividades de turismo aventura tienen normas técnicas y exigencias de seguridad específicas.
+
+![Esquema: Qué exige un servicio turístico según su riesgo](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica tu servicio según el riesgo para los clientes. A más riesgo, mayor formalidad y normas técnicas. Operar actividades de riesgo sin las exigencias puede poner en peligro a personas.
+
+**Para recordarlo:** Es la diferencia entre guiar una caminata en un parque urbano y una escalada en roca: en la segunda, el equipo, la capacitación y los protocolos salvan vidas.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Los prestadores de servicios turísticos deben inscribirse en el registro de SER
 
 ### 2. Cómo se traduce en la práctica
 
-La inscripción es además requisito para acceder a programas de promoción y para operar con ciertos canales de comercialización. En turismo aventura las normas técnicas definen personal, equipamiento y procedimientos: su incumplimiento es el riesgo mayor del modelo, muy por encima del comercial.
+Verifica si tu actividad requiere inscripción en el registro de prestadores y si existen normas técnicas aplicables. Define los equipos, la capacitación del personal y los protocolos de emergencia. Contrata seguros acordes al riesgo. Informa a los clientes con claridad las condiciones y los riesgos. Considera los sellos de calidad que diferencian al servicio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ La inscripción es además requisito para acceder a programas de promoción y pa
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Imagina que lanzas un servicio de kayak en un lago. Escribe en una hoja si debes inscribirte en el registro de SERNATUR, qué normas técnicas aplican a tu actividad, qué equipos y certificaciones necesitas, qué seguros contratarías y qué protocolo seguirías ante un accidente. Si no lo sabes, pregunta a SERNATUR antes de vender. Anota qué información debe recibir el cliente antes de contratar. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Registro de prestadores de servicios turísticos** (Servicio Nacional de Turismo): El Servicio Nacional de Turismo mantiene el registro de prestadores de servicios turísticos y publica las normas técnicas de ciertas actividades.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Riesgo priorizado** | Exposición ordenada por impacto y probabilidad. |
 | **Evidencia de cumplimiento** | Documento que acredita cada obligación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Los contratos y obligaciones que activa el caso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Arquitectura contractual"]
-    C --> A2["Mapa de compliance"]
-    C --> A3["Riesgo priorizado"]
-    C --> A4["Evidencia de cumplimiento"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar los contratos y el<br/>mapa de compliance del caso"}}
-    D --> E["Entregable<br/>arquitectura contractual y<br/>mapa de compliance del caso<br/>con riesgos priorizados y<br/>controles"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Esta etapa define qué contratos necesita el caso (clientes, proveedores, trabajadores y socios) y qué obligaciones de compliance activa su actividad; el mapa debe priorizar los riesgos reales y no copiar listas genéricas.
+
+![Esquema: Los contratos y obligaciones que activa el caso](modelo-mental.svg)
+
+**Cómo leerlo:** El centro es el caso y los satélites son los contratos y controles que lo sostienen. Un mapa de compliance útil prioriza los riesgos de esta actividad; uno genérico llena páginas sin proteger nada.
+
+**Para recordarlo:** Es el equipaje de un viaje específico: no llevas lo mismo a la playa que a la montaña, y una lista copiada de otro destino te deja sin lo importante.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Esta etapa define qué contratos necesita el caso —clientes, proveedores, trab
 
 ### 2. Cómo se traduce en la práctica
 
-Un mapa genérico no vinculado a la actividad es el error típico: hay que derivar las obligaciones de lo que la empresa realmente hará. Y omitir los contratos con trabajadores o con proveedores críticos deja sin instrumentar justamente las relaciones de mayor riesgo.
+Lista los contratos que necesitas: clientes, proveedores, trabajadores y socios. Define las cláusulas críticas de cada uno. Construye el mapa de compliance con riesgos propios de la actividad, su probabilidad, impacto, control, responsable y evidencia. Considera consumidores, trabajadores, UAF si corresponde, datos personales y tributarios. Registra lo que requiere asesoría profesional.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un mapa genérico no vinculado a la actividad es el error típico: hay que deriv
 **Autoridades o contrapartes involucradas:** todas las anteriores según la línea de negocio elegida.
 **Profesionales de apoyo:** fundador, contador, abogado, especialista sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: el caso copia un mapa de compliance genérico de 40 riesgos y no distingue cuáles aplican a un servicio de mantención de bicicletas. Omite el riesgo de consumo y garantía, y contrata a un ayudante con boleta de honorarios aunque cumple horario y recibe órdenes. La corrección: un mapa de ocho riesgos priorizados con responsable, control y evidencia, y un contrato de trabajo para el ayudante (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los criterios para calificar la relación laboral y el contenido de los contratos de trabajo.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de la Ley del Consumidor, base del compliance de una empresa que vende a personas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Evaluación bancaria** | Análisis de capacidad de pago y comportamiento. |
 | **Comportamiento de pago** | Historial que condiciona el acceso al crédito. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cómo funciona una garantía estatal con evaluación bancaria
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["FOGAPE"]
-    C --> A2["Garantía estatal"]
-    C --> A3["Evaluación bancaria"]
-    C --> A4["Comportamiento de pago"]
-    A1 & A2 & A3 & A4 --> D{{"evaluar si corresponde acceder<br/>a garantías estatales y qué<br/>exige el proceso"}}
-    D --> E["Entregable<br/>evaluación de acceso a<br/>garantías con requisitos,<br/>plazos y verificación de<br/>comportamiento de pago"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las garantías estatales no reemplazan la evaluación bancaria: facilitan el acceso reduciendo el riesgo del banco, pero la empresa debe demostrar capacidad de pago y mantener limpio su comportamiento.
+
+![Esquema: Cómo funciona una garantía estatal con evaluación bancaria](modelo-mental.svg)
+
+**Lectura guiada:** Sigue el flujo. El rombo recuerda que el banco igualmente evalúa si puedes pagar. Una garantía no convierte en viable un crédito que la empresa no puede pagar.
+
+**Una imagen cotidiana:** Es tener un aval para un arriendo: ayuda a que te acepten, pero no te exime de pagar la renta cada mes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las garantías estatales no reemplazan la evaluación bancaria: facilitan el acc
 
 ### 2. Cómo se traduce en la práctica
 
-Reducen el riesgo del banco, no el requisito de demostrar que se puede pagar. Y el comportamiento de pago —proveedores, impuestos, cotizaciones— es lo que determina el acceso futuro: deteriorarlo para aliviar un mes cierra puertas por años, que es un costo que no aparece en ninguna planilla.
+Antes de postular, regulariza deudas atrasadas y revisa tu historial en las centrales de información. Prepara estados financieros, flujo proyectado y el uso del crédito. Consulta las condiciones del instrumento de garantía en la institución que lo administra y qué exige. Pide el monto que tu flujo puede pagar, no el máximo disponible.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Reducen el riesgo del banco, no el requisito de demostrar que se puede pagar. Y 
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa solicita un crédito con garantía estatal convencida de que se lo aprobarán porque hay garantía. El banco lo rechaza por comportamiento de pago deteriorado y flujo insuficiente. La corrección: ordenar su historial con proveedores, regularizar deudas atrasadas, presentar un flujo proyectado creíble y solicitar un monto acorde a su capacidad. La siguiente solicitud fue aprobada (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Innovación, inversión y garantías** (Corporación de Fomento de la Producción): CORFO publica los instrumentos de garantía y financiamiento para empresas, con sus requisitos y condiciones.
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La CMF supervisa a las entidades financieras que evalúan y otorgan los créditos con garantía.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

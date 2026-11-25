@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Filial** | Entidad propia constituida en el extranjero. |
 | **Costo de estructura** | Carga de mantener presencia legal y operativa en destino. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De la venta remota a la filial
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Venta remota"]
-    C --> A2["Partner local"]
-    C --> A3["Filial"]
-    C --> A4["Costo de estructura"]
-    A1 & A2 & A3 & A4 --> D{{"elegir la forma de entrada<br/>proporcional a la evidencia de<br/>demanda"}}
-    D --> E["Entregable<br/>comparación de formas de<br/>entrada con costo de<br/>estructura, control y<br/>velocidad por alternativa"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La secuencia habitual es venta remota, luego partner local y solo después filial, escalando la inversión según la evidencia de demanda; constituir una filial antes de tener volumen genera costos fijos que el mercado no justifica.
+
+![Esquema: De la venta remota a la filial](modelo-mental.svg)
+
+**Cómo leerlo:** Cada peldaño pide más compromiso y exige más evidencia. Subir sin ella es apostar con costos fijos; esperar demasiado puede dejar pasar la oportunidad. El criterio es la demanda demostrada.
+
+**Una analogía:** Es mudarse a otra ciudad: primero visitas, luego arriendas por temporada y solo cuando estás seguro compras la casa.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La secuencia habitual es venta remota, luego partner local y solo después filia
 
 ### 2. Cómo se traduce en la práctica
 
-Constituir filial antes de tener volumen genera costos fijos, obligaciones tributarias y administración en una jurisdicción que aún no se conoce. Y depender de un partner exclusivo sin metas ni cláusula de término entrega el mercado sin garantía de que alguien lo trabaje.
+Define qué evidencia de demanda necesitas para subir cada peldaño: número de clientes, ingresos recurrentes, pipeline. Evalúa el costo de estructura (legal, tributario, personal) y el costo de oportunidad. Escoge partners con reputación y cláusulas claras de exclusividad, desempeño y término. Constituye una filial con asesoría tributaria y legal en el país de destino.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Constituir filial antes de tener volumen genera costos fijos, obligaciones tribu
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa de software entusiasmada por un primer cliente en México abre una filial con oficina y tres empleados antes de tener un segundo cliente. Sus costos fijos mensuales superan 10 millones y la demanda no llega al ritmo esperado. La corrección: volver a venta remota, firmar un partner local que prueba el mercado con costos variables y reabrir la filial cuando el volumen la justifique (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Programas, estudios de mercado y promoción** (ProChile): ProChile publica orientación sobre las formas de entrada a mercados y los apoyos para cada etapa.
+- **Crossing the Chasm (3.ª ed., 2014)** (HarperBusiness): Moore propone avanzar por etapas, consolidando un segmento antes de ampliar, que es la misma lógica que escalar la inversión según la evidencia de demanda.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
 
@@ -176,6 +181,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para elegir la forma de entrada proporcional a la evidencia de demanda.
+
+**HarperBusiness — Crossing the Chasm (3.ª ed., 2014)**  
+<https://openlibrary.org/isbn/9780062292988> · verificado 2026-11-25
+
+- *Qué contiene:* Explica cómo una empresa con tecnología o servicio nuevo pasa de los primeros adoptantes al mercado mayoritario concentrándose en un segmento acotado antes de ampliar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Crossing the Chasm (3.ª ed., 2014)» para elegir la forma de entrada proporcional a la evidencia de demanda.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **RTO** | Tiempo máximo aceptable para restaurar el servicio. |
 | **Prueba de restauración** | Ejercicio que verifica que el respaldo funciona. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: RPO y RTO sobre la línea de una falla
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Respaldo"]
-    C --> A2["RPO"]
-    C --> A3["RTO"]
-    C --> A4["Prueba de restauración"]
-    A1 & A2 & A3 & A4 --> D{{"definir RPO, RTO y calendario<br/>de pruebas de restauración"}}
-    D --> E["Entregable<br/>política de respaldos con RPO,<br/>RTO, esquema de copias y<br/>registro de pruebas de<br/>restauración"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un respaldo no probado no es un respaldo: la prueba de restauración debe hacerse periódicamente y con cronómetro, porque el tiempo real de recuperación casi siempre supera al estimado.
+
+![Esquema: RPO y RTO sobre la línea de una falla](modelo-mental.svg)
+
+**Cómo leerlo:** La línea muestra los dos relojes de una falla. A la izquierda de la falla está lo que podrías perder; a la derecha, lo que tardas en volver. Ambos deben decidirse antes, no durante.
+
+**Piénsalo así:** Es el seguro de un auto: importa cuánto cubre y cuánto tarda en pagar, y solo lo sabes de verdad si probaste el procedimiento.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un respaldo no probado no es un respaldo. La prueba de restauración debe hacers
 
 ### 2. Cómo se traduce en la práctica
 
-El RTO real casi siempre supera al estimado, y esa diferencia solo se descubre ensayando. La regla mínima es tener al menos una copia fuera del sistema principal y fuera de línea, porque un cifrado por ransomware alcanza también a los respaldos accesibles desde la misma red.
+Define para cada sistema el RPO y el RTO aceptables según el costo de perder datos y de estar detenido. Aplica la regla mínima de tres copias, en dos medios distintos y una fuera del lugar. Prueba la restauración cada trimestre con cronómetro y registra los resultados. Guarda los procedimientos escritos fuera de los sistemas que se restauran.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El RTO real casi siempre supera al estimado, y esa diferencia solo se descubre e
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda hace respaldos cada noche, es decir, un RPO de hasta 24 horas: si falla a las 18:00, pierde las ventas del día. Calcula que perder un día cuesta 2 millones y que cada hora sin sistema cuesta 300.000. Prueba la restauración con cronómetro: tarda 9 horas, no las 2 que estimaba, y descubre que un archivo clave no estaba en el respaldo. Cambia a respaldos cada hora y añade una copia fuera de la oficina (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Site Reliability Engineering** (O'Reilly): Beyer y sus coautores tratan la planificación de recuperación y las pruebas periódicas de procedimientos como parte de la confiabilidad de un servicio.
+- **The Phoenix Project** (IT Revolution): Kim y sus coautores muestran, en forma de novela, cómo la preparación y la práctica de la recuperación de sistemas cambian el resultado de una crisis operacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir RPO, RTO y calendario de pruebas de restauración.
+
+**O'Reilly — Site Reliability Engineering**  
+<https://openlibrary.org/isbn/9781491929124> · verificado 2026-11-25
+
+- *Qué contiene:* Prácticas de confiabilidad de servicios de Google: objetivos de nivel de servicio, presupuesto de error y gestión de incidentes.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Site Reliability Engineering» para definir RPO, RTO y calendario de pruebas de restauración.
+
+**IT Revolution — The Phoenix Project**  
+<https://openlibrary.org/isbn/9781950508921> · verificado 2026-11-25
+
+- *Qué contiene:* Novela sobre operaciones de tecnología, flujo de trabajo y los orígenes de DevOps. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Phoenix Project» para definir RPO, RTO y calendario de pruebas de restauración.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

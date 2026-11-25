@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **EBITDA** | Resultado operacional antes de intereses, impuestos, depreciación y amortización. |
 | **Calidad del EBITDA** | Grado en que el ebitda se convierte efectivamente en caja. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Del EBITDA al efectivo que realmente queda
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Margen bruto"]
-    C --> A2["Margen de contribución"]
-    C --> A3["EBITDA"]
-    C --> A4["Calidad del EBITDA"]
-    A1 & A2 & A3 & A4 --> D{{"evaluar si el resultado<br/>operacional se está<br/>convirtiendo en efectivo"}}
-    D --> E["Entregable<br/>análisis de margen bruto,<br/>contribución y EBITDA con<br/>puente hacia el flujo<br/>operacional"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El EBITDA es útil para comparar operaciones pero engaña cuando el negocio requiere reinversión constante o cuando el crecimiento consume capital de trabajo.
+
+![Esquema: Del EBITDA al efectivo que realmente queda](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra resta algo que el EBITDA no muestra. La última es el efectivo libre. Si es mucho menor que la primera, el resultado operacional no se está convirtiendo en caja.
+
+**Piénsalo así:** Es el sueldo bruto y el sueldo líquido: el primero impresiona, pero lo que alcanza para vivir es el segundo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El EBITDA es útil para comparar operaciones pero engaña cuando el negocio requ
 
 ### 2. Cómo se traduce en la práctica
 
-El EBITDA es útil para comparar operaciones y engaña cuando el negocio requiere reinversión constante o cuando el crecimiento consume capital de trabajo. Usarlo como sinónimo de caja generada es el error que más sorprende a fundadores que ven un buen resultado y no tienen con qué pagar.
+Calcula, además del EBITDA, el flujo operacional y el flujo libre. Compara la conversión de EBITDA en efectivo cada trimestre. Un EBITDA positivo con flujo operacional negativo sostenido indica que el crecimiento consume más caja de la que produce y que la empresa depende de deuda o aportes de socios. Define metas de conversión por tipo de negocio.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El EBITDA es útil para comparar operaciones y engaña cuando el negocio requier
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas si tu EBITDA es de buena calidad. Uno: ¿cuánto del EBITDA se va en capital de trabajo? Dos: ¿cuánto hay que reinvertir cada año para mantener la operación? Tres: ¿cuánto se paga en intereses e impuestos? Con los datos ilustrativos del gráfico, solo 25 de cada 100 del EBITDA quedan libres: la empresa debe mirar su capital de trabajo antes de celebrar el EBITDA.
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican por qué las medidas de resultado operacional no equivalen al flujo de efectivo y cómo interpretar ambas.
+- **The Little Book of Valuation** (Wiley): Damodaran enseña que el valor de una empresa se apoya en el flujo de efectivo que genera y no solo en sus resultados contables.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para evaluar si el resultado operacional se está convirtiendo en efectivo.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para evaluar si el resultado operacional se está convirtiendo en efectivo.
+
+**Wiley — The Little Book of Valuation**  
+<https://openlibrary.org/isbn/9781118004777> · verificado 2026-11-25
+
+- *Qué contiene:* Introduce la valoración de empresas por flujo descontado y por múltiplos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Little Book of Valuation» para evaluar si el resultado operacional se está convirtiendo en efectivo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

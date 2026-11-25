@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Grupo de interés** | Actor afectado por la operación aunque no sea cliente. |
 | **Conflicto de interés** | Situación donde el interés personal compite con el de la empresa. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo permitido, lo aceptado y lo que tú no cruzas
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Ética empresarial"]
-    C --> A2["Licencia social"]
-    C --> A3["Grupo de interés"]
-    C --> A4["Conflicto de interés"]
-    A1 & A2 & A3 & A4 --> D{{"definir los límites que la<br/>empresa no cruzará aunque sean<br/>legalmente permitidos"}}
-    D --> E["Entregable<br/>mapa de grupos de interés con<br/>impacto, expectativa y canal<br/>de relación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La licencia social es un activo operativo: se pierde cuando la empresa mira solo lo que la ley permite y no lo que su comunidad y sus propios valores toleran.
+
+![Esquema: Lo permitido, lo aceptado y lo que tú no cruzas](modelo-mental.svg)
+
+**Cómo leerlo:** Los tres círculos no coinciden del todo. La zona central es donde la empresa puede operar sin conflicto; lo que está solo en el primer círculo es legal, pero puede costar fiscalización, rechazo o dificultad para contratar.
+
+**Piénsalo así:** Es como vivir en un edificio: cumplir el reglamento es necesario, pero si no saludas ni cuidas los espacios comunes, nadie querrá trabajar contigo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La licencia social no es un ideal: es un activo operativo. Su pérdida se traduc
 
 ### 2. Cómo se traduce en la práctica
 
-En sectores con impacto territorial —minería, energía, construcción, residuos— la aceptación de la comunidad determina si el proyecto se ejecuta, con independencia de que los permisos estén otorgados. Mapear grupos de interés con su expectativa y su canal de relación es tan operativo como mapear proveedores.
+Define tres o cuatro límites que tu empresa no cruzará aunque sean legales: por ejemplo, no pagar a proveedores con atraso deliberado, no usar publicidad que exagere o no despedir sin explicar. Escríbelos, compártelos con tu equipo y úsalos como criterio en las decisiones difíciles. Revisa también qué grupos de interés pueden retirarte su apoyo y qué señales mostrarían ese riesgo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,16 @@ En sectores con impacto territorial —minería, energía, construcción, residu
 **Autoridades o contrapartes involucradas:** SII, Registro de Empresas y Sociedades, Servicio Nacional del Consumidor.
 **Profesionales de apoyo:** fundador o gerencia, contador, abogado corporativo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Gerente: «El reglamento permite operar de noche». Jefa de comunidad: «Los vecinos ya reclamaron por el ruido; si no hablamos, irán a la municipalidad». Gerente: «Pero estamos dentro de la norma». Jefa: «Dentro de la norma, sí; dentro de la tolerancia, no. Si perdemos su apoyo, nos cuesta más caro que mover un turno». Deciden acordar horarios con los vecinos y publicar un canal de contacto (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La normativa oficial fija el mínimo exigible; la guía distingue ese mínimo de los límites éticos propios de la empresa, que la ley no impone y que sostienen su aceptación social.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Marco legal chileno: obligación, recomendación y medida voluntaria
 

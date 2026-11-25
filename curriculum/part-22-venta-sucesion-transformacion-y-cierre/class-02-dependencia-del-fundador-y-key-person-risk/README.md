@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Plan de sucesión** | Preparación de un reemplazo para un rol crítico. |
 | **Redundancia** | Existencia de más de una persona capaz de ejecutar y autorizar. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué personas y proveedores concentran demasiado riesgo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Key-person risk"]
-    C --> A2["Conocimiento tácito"]
-    C --> A3["Plan de sucesión"]
-    C --> A4["Redundancia"]
-    A1 & A2 & A3 & A4 --> D{{"identificar personas y<br/>proveedores críticos y reducir<br/>la dependencia de cada uno"}}
-    D --> E["Entregable<br/>mapa de key-person y<br/>third-party risk con<br/>conocimiento, permisos,<br/>relaciones, sustitución,<br/>documentación y redundancia"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El riesgo de persona clave se reduce documentando conocimiento, formando un segundo responsable, separando permisos y trasladando relaciones a la empresa; la automatización no crea redundancia por sí sola.
+
+![Esquema: Qué personas y proveedores concentran demasiado riesgo](modelo-mental.svg)
+
+**Lectura guiada:** Ubica a cada persona o proveedor crítico según el conocimiento que concentra y el impacto si se va. El cuadrante superior derecho necesita un plan este año.
+
+**Una analogía:** Es un puente con un solo pilar central: funciona perfecto hasta el día en que ese pilar falla.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El key-person risk se reduce documentando conocimiento, formando un segundo resp
 
 ### 2. Cómo se traduce en la práctica
 
-La prueba práctica se hace rara vez y es simple: qué pasaría si esa persona no volviera mañana. Identificar el riesgo sin ejecutar la documentación es el patrón habitual, porque documentar compite con la operación diaria y siempre pierde salvo que se calendarice.
+Identifica a las personas y los proveedores críticos y qué conocimiento tácito concentran. Documenta procesos, forma un segundo responsable y traslada relaciones a la empresa mediante presentaciones y reuniones conjuntas. Separa permisos y accesos. Revisa también la dependencia de proveedores únicos. La automatización puede concentrar aún más el conocimiento si nadie entiende cómo funciona.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ La prueba práctica se hace rara vez y es simple: qué pasaría si esa persona n
 **Autoridades o contrapartes involucradas:** SII, Dirección del Trabajo, Registro de Empresas y Sociedades, Conservador de Bienes Raíces.
 **Profesionales de apoyo:** abogado corporativo y tributario, banquero de inversión o asesor M&A, contador, abogado laboral. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Haz una lista de tus diez personas y proveedores más críticos y ubícalos en la matriz. Para cada uno del cuadrante superior derecho, anota qué sabe que nadie más sabe, quién podría reemplazarlo y qué debería documentar en los próximos 60 días. Elige uno y escribe un plan de redundancia con responsable y fecha. Revisa también tus permisos: ¿quién puede firmar, pagar o acceder si esa persona no está? El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **The E-Myth Revisited** (HarperBusiness): Gerber sostiene que una empresa debe funcionar por sus sistemas y no por el conocimiento de una persona.
+- **MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455** (U.S. Food and Drug Administration): La carta de advertencia de la FDA a MEDVi ilustra que la responsabilidad recae en la empresa aunque la operación se apoye en terceros o en pocas personas clave.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🔬 Caso aplicado: MEDVi
 
@@ -192,6 +197,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Carta de advertencia fechada el 20 de febrero de 2026, dirigida a MEDVi, LLC dba MEDVi, sobre claims y rotulado observados por FDA en medvi.io durante diciembre de 2025.
 - *Cómo leerla:* Distingue lo que FDA observó y calificó como misbranding de cualquier conclusión penal o de falsificación. Registra destinatario, dominio, claims, normas citadas, plazo de respuesta y medidas advertidas sin ampliar su alcance.
 - *Uso en esta clase:* aporta el marco de «MEDVi, LLC dba MEDVi: Warning Letter MARCS-CMS 721455» para identificar personas y proveedores críticos y reducir la dependencia de cada uno.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para identificar personas y proveedores críticos y reducir la dependencia de cada uno.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

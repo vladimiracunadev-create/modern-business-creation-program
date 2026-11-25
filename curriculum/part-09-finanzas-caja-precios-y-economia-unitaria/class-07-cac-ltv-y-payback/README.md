@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Payback** | Meses que tarda el margen en recuperar el cac. |
 | **Cohorte** | Grupo de clientes adquiridos en el mismo período. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto tarda en volver lo que gastaste en conseguir un cliente
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["CAC"]
-    C --> A2["LTV"]
-    C --> A3["Payback"]
-    C --> A4["Cohorte"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el costo de<br/>adquisición es recuperable en<br/>un plazo financiable"}}
-    D --> E["Entregable<br/>análisis de CAC, LTV y payback<br/>por cohorte con conclusión<br/>sobre capacidad de<br/>financiamiento"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La relación entre valor del cliente y costo de adquisición indica si el negocio es viable, pero el payback indica si es financiable: un payback largo exige un capital que una pyme rara vez tiene.
+
+![Esquema: Cuánto tarda en volver lo que gastaste en conseguir un cliente](modelo-mental.svg)
+
+**Lectura guiada:** La línea muestra el dinero recuperado mes a mes. El payback es el hito en que vuelve lo gastado. Mientras no llega, la empresa financia al cliente con su propia caja.
+
+**Una imagen cotidiana:** Es comprar una máquina que te devuelve ahorro cada mes: sabes que conviene, pero también debes saber cuándo recuperas lo invertido.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La relación LTV sobre CAC indica si el negocio es viable, pero el payback indic
 
 ### 2. Cómo se traduce en la práctica
 
-La relación LTV sobre CAC dice si el negocio es viable; el payback dice si es financiable. Un payback de 24 meses exige un capital que una pyme rara vez tiene, por bueno que sea el ratio. Analizar por cohortes revela además si la calidad de los clientes se está deteriorando con el crecimiento.
+Calcula el costo de adquisición por canal, el margen mensual por cliente y su permanencia esperada. Obtén el LTV, la razón LTV/CAC y el payback. Analiza por cohortes: si los clientes recientes se comportan distinto que los antiguos, el negocio está cambiando. Decide cuánto puedes gastar en captar según el capital que puedes inmovilizar.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La relación LTV sobre CAC dice si el negocio es viable; el payback dice si es f
 **Autoridades o contrapartes involucradas:** Banco Central de Chile, CMF, SII.
 **Profesionales de apoyo:** CFO o controller, contador, asesor financiero. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un cliente cuesta $300.000 en publicidad y ventas, y aporta un margen de $30.000 al mes. El payback es de 10 meses. Si permanece 24 meses, su valor es de $720.000 (LTV): una razón LTV/CAC de 2,4. El negocio es viable, pero si adquiere 100 clientes al mes debe financiar $30 millones durante 10 meses. Con un plan anual por adelantado, el payback baja a 6 meses y se financia solo (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz describen el costo de adquisición, el valor de vida y el análisis por etapas como métricas centrales de un negocio recurrente.
+- **The Lean Startup (2011)** (Crown Business): Ries propone el análisis por cohortes para saber si las mejoras realmente cambian el comportamiento de los clientes.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para determinar si el costo de adquisición es recuperable en un plazo financiable.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para determinar si el costo de adquisición es recuperable en un plazo financiable.
+
+**Crown Business — The Lean Startup (2011)**  
+<https://openlibrary.org/isbn/9780307887894> · verificado 2026-11-25
+
+- *Qué contiene:* Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Lean Startup (2011)» para determinar si el costo de adquisición es recuperable en un plazo financiable.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

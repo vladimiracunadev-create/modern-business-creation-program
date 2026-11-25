@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Notificación de brecha** | Obligación de informar a la autoridad y a los afectados. |
 | **Cadena de custodia** | Registro que preserva el valor probatorio de la evidencia. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El reloj de un incidente si eres una institución comprendida
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Incidente"]
-    C --> A2["Plan de respuesta"]
-    C --> A3["Notificación de brecha"]
-    C --> A4["Cadena de custodia"]
-    A1 & A2 & A3 & A4 --> D{{"definir el plan de respuesta a<br/>incidentes y los criterios de<br/>notificación"}}
-    D --> E["Entregable<br/>plan de respuesta con roles,<br/>pasos, plantillas de<br/>comunicación y criterios de<br/>notificación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El plan de respuesta debe existir antes del incidente y estar accesible fuera de los sistemas afectados; la ley fija plazos de reporte para las instituciones comprendidas y un reloj que sirve de estándar para las demás.
+
+![Esquema: El reloj de un incidente si eres una institución comprendida](modelo-mental.svg)
+
+**Qué mirar primero:** La línea es el reloj de un incidente. Las instituciones comprendidas por la Ley 21.663 deben ajustarse a esos plazos; para las demás, el reloj marca un estándar de buena práctica.
+
+**Para recordarlo:** Es la secuencia de un incendio: primero se contiene, luego se avisa a los bomberos y recién después se investiga la causa.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El plan de respuesta debe existir antes del incidente y debe estar impreso o acc
 
 ### 2. Cómo se traduce en la práctica
 
-Con la Ley 21.719 aparece la obligación de notificar brechas de datos personales en plazos breves, lo que exige criterios de evaluación y destinatarios predefinidos. Improvisar la comunicación agrava el daño, y manipular la evidencia sin cadena de custodia elimina su valor probatorio posterior.
+Escribe tu plan de respuesta en papel y guárdalo fuera de los sistemas: quién decide, a quién se llama y qué se hace en la primera hora. Conserva la evidencia sin alterarla y respeta la cadena de custodia. Verifica si te corresponde reportar a la Agencia o a otras autoridades y revisa la obligación de notificar vulneraciones de datos personales que traerá la Ley 21.719.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ Con la Ley 21.719 aparece la obligación de notificar brechas de datos personale
 **Autoridades o contrapartes involucradas:** SERNAC, Agencia de Protección de Datos Personales (en implementación), INAPI, ANCI.
 **Profesionales de apoyo:** abogado de consumo y datos, DPO o responsable de privacidad, responsable de seguridad de la información. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Un servicio de salud descubre a las 10:00 un acceso no autorizado a una base de pacientes. A las 10:30 aísla los sistemas y abre el registro; a las 12:00, dentro de las tres horas, envía la alerta temprana al CSIRT Nacional. A las 48 horas entrega la actualización con evaluación inicial; en el día 12 presenta el informe final con las causas y las medidas correctivas. El reloj de la ley ordenó la respuesta (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 21.663 — Ley Marco de Ciberseguridad** (Biblioteca del Congreso Nacional): El artículo 9 de la Ley 21.663 fija el reporte al CSIRT Nacional con alerta temprana en tres horas, actualización en setenta y dos horas e informe final en quince días corridos para las instituciones comprendidas.
+- **Site Reliability Engineering** (O'Reilly): Beyer y sus coautores describen la gestión de incidentes con roles claros, comunicación y revisión posterior, prácticas que sirven de base a un plan de respuesta.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Prevención y gestión de crisis
 
@@ -223,6 +228,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Sustituye la fecha de vigencia de la Ley 21.719 por el 15 de octubre de 2027, eleva a cinco los consejeros de la Agencia y ajusta su designación (Diario Oficial 44606).
 - *Cómo leerla:* Úsala para corregir cualquier material que fije la vigencia de la Ley 21.719 el 1-12-2026. Es una ley breve: léela completa.
 - *Uso en esta clase:* aporta el marco de «Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)» para definir el plan de respuesta a incidentes y los criterios de notificación.
+
+**O'Reilly — Site Reliability Engineering**  
+<https://openlibrary.org/isbn/9781491929124> · verificado 2026-11-25
+
+- *Qué contiene:* Prácticas de confiabilidad de servicios de Google: objetivos de nivel de servicio, presupuesto de error y gestión de incidentes.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Site Reliability Engineering» para definir el plan de respuesta a incidentes y los criterios de notificación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

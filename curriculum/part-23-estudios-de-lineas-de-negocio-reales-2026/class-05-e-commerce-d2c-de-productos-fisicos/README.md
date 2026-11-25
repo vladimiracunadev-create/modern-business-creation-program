@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Tasa de devolución** | Porcentaje de pedidos devueltos. |
 | **Cumplimiento de consumo** | Obligaciones de información, retracto y garantía. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La rentabilidad llega con la recompra
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["D2C de productos físicos"]
-    C --> A2["Contribución por pedido"]
-    C --> A3["Tasa de devolución"]
-    C --> A4["Cumplimiento de consumo"]
-    A1 & A2 & A3 & A4 --> D{{"validar contribución por<br/>pedido y tasa de recompra<br/>antes de escalar la inversión"}}
-    D --> E["Entregable<br/>modelo D2C con contribución<br/>por pedido, tasa de recompra<br/>proyectada y cumplimiento<br/>normativo de consumo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El e-commerce D2C en Chile compite con marketplaces con ventaja en logística y confianza; su viabilidad depende de la contribución por pedido y de la recompra: adquirir clientes que no recompran es financiar a la competencia.
+
+![Esquema: La rentabilidad llega con la recompra](modelo-mental.svg)
+
+**Qué mirar primero:** La línea muestra en qué compra el cliente empieza a dejar utilidad. Si la mayoría compra una sola vez, la empresa pierde en cada cliente que atrae.
+
+**Piénsalo así:** Es una suscripción de gimnasio: la primera visita no paga la promoción, el negocio está en que el cliente vuelva.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El e-commerce D2C en Chile compite con marketplaces establecidos que tienen vent
 
 ### 2. Cómo se traduce en la práctica
 
-Adquirir un cliente para una sola venta rara vez es rentable con los costos de adquisición actuales, de modo que la recompra es la variable que decide el modelo. Y el D2C compite con marketplaces que tienen ventaja en logística y confianza: la diferenciación debe estar en el producto o en la relación.
+Mide la contribución por pedido (con despacho, pasarela y devoluciones), el costo de adquisición y la tasa de recompra por cohorte. Define la meta antes de aumentar la inversión publicitaria. Cumple las normas de consumo: información de precio y despacho, retracto y garantía. Revisa tu dependencia de plataformas y marketplaces para captar y vender.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Adquirir un cliente para una sola venta rara vez es rentable con los costos de a
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda de cosmética natural gasta $9.000 en captar a cada cliente y obtiene una contribución de $7.000 en la primera compra: pierde $2.000. Si el 40 % de los clientes compra de nuevo y deja $7.000 adicionales, el promedio por cliente es $9.800: recupera el costo y deja $800. Si la recompra baja al 20 %, el promedio es $8.400 y pierde $600. La inversión crece solo si la recompra sostiene la cuenta (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de la Ley del Consumidor para el comercio electrónico, que determina costos y obligaciones del D2C.
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz describen cómo medir la retención y el valor del cliente por cohortes para decidir cuánto invertir en adquirir.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para validar contribución por pedido y tasa de recompra antes de escalar la inversión.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para validar contribución por pedido y tasa de recompra antes de escalar la inversión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

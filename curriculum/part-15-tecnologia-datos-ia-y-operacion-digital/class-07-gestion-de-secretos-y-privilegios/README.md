@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Rotación** | Cambio periódico de credenciales. |
 | **Cuenta privilegiada** | Acceso con permisos administrativos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De las contraseñas por mensajería a un gestor de secretos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Secreto"]
-    C --> A2["Gestor de secretos"]
-    C --> A3["Rotación"]
-    C --> A4["Cuenta privilegiada"]
-    A1 & A2 & A3 & A4 --> D{{"definir cómo se almacenan,<br/>comparten y rotan las<br/>credenciales"}}
-    D --> E["Entregable<br/>inventario de secretos con<br/>gestor definido, política de<br/>rotación y cuentas<br/>privilegiadas nominativas"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Las credenciales compartidas por mensajería son la puerta de entrada más común; un gestor de secretos con acceso individual permite revocar sin cambiar todo y deja trazabilidad de quién accedió.
+
+![Esquema: De las contraseñas por mensajería a un gestor de secretos](modelo-mental.svg)
+
+**Lectura guiada:** Cada peldaño reduce un riesgo concreto. Subir uno ya mejora la seguridad: no hace falta esperar a tener un sistema perfecto para dejar de compartir contraseñas por chat.
+
+**Una imagen cotidiana:** Es pasar de dejar la llave bajo el felpudo a una cerradura con tarjeta personal: cada acceso queda registrado y se puede anular uno sin cambiar toda la cerradura.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Las credenciales compartidas por mensajería son la puerta de entrada más comú
 
 ### 2. Cómo se traduce en la práctica
 
-Compartir credenciales por mensajería es la práctica más extendida y la que peor envejece: cuando alguien se va hay que cambiar todas las claves compartidas, y nadie sabe cuáles eran. Las cuentas privilegiadas deben además ser nominativas para que exista trazabilidad de las acciones administrativas.
+Haz un inventario de las credenciales que usa tu empresa y dónde se guardan. Reemplaza las compartidas por cuentas individuales o por un gestor de secretos. Define reglas de rotación y revocación al salir una persona. Separa las cuentas privilegiadas y limita su uso. Registra quién accede a qué y revisa los registros periódicamente.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Compartir credenciales por mensajería es la práctica más extendida y la que p
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: un equipo comparte la contraseña del panel de publicidad por un grupo de mensajería. Cuando un colaborador se va, nadie cambia la clave porque se usa en varias herramientas. Meses después, alguien accede con esa clave y pausa las campañas. La corrección: pasar a un gestor de secretos con acceso individual, rotación periódica, y registro de accesos; ahora se revoca a una persona en minutos (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Ley 21.459 — Delitos informáticos** (Biblioteca del Congreso Nacional): La Ley 21.459 sanciona el acceso ilícito a sistemas informáticos, lo que da relevancia legal a controlar quién conserva credenciales.
+- **Accelerate** (IT Revolution): Forsgren y sus coautores asocian prácticas disciplinadas de gestión técnica con mejores resultados, entre ellas el control de accesos y la automatización.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Contrainteligencia empresarial
 
@@ -174,6 +179,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne los instrumentos de fomento a la innovación y la inversión, incluidos programas de capital semilla, escalamiento, garantías y cobertura de riesgo para el sistema financiero.
 - *Cómo leerla:* Filtra por etapa de la empresa antes que por monto. Y verifica el componente de innovación que exige cada instrumento: presentar una expansión comercial como innovación es la causa más común de rechazo.
 - *Uso en esta clase:* aporta el marco de «Innovación, inversión y garantías» para definir cómo se almacenan, comparten y rotan las credenciales.
+
+**Biblioteca del Congreso Nacional — Ley 21.459 — Delitos informáticos**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1177743> · verificado 2026-11-12
+
+- *Qué contiene:* Tipifica el ataque a la integridad de un sistema, el acceso ilícito, la interceptación ilícita, el ataque a datos, la falsificación y el fraude informáticos, la receptación de datos y las circunstancias agravantes, además de reglas de investigación.
+- *Cómo leerla:* El acceso ilícito exige superar barreras técnicas o excederse de la autorización; no cubre el uso indebido por quien accede con permiso. «Espionaje informático» es una categoría de estudio, no el nombre de un delito de esta ley.
+- *Uso en esta clase:* aporta el marco de «Ley 21.459 — Delitos informáticos» para definir cómo se almacenan, comparten y rotan las credenciales.
+
+**IT Revolution — Accelerate**  
+<https://openlibrary.org/isbn/9781942788379> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta evidencia sobre qué prácticas de ingeniería se asocian con mejor desempeño en la entrega de software.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Accelerate» para definir cómo se almacenan, comparten y rotan las credenciales.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

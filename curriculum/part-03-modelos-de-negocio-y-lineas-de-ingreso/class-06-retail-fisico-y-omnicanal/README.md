@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Merma** | Pérdida de inventario por daño, vencimiento o hurto. |
 | **Ticket promedio** | Venta media por transacción. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un solo inventario para todos los canales
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Omnicanal"]
-    C --> A2["Rotación"]
-    C --> A3["Merma"]
-    C --> A4["Ticket promedio"]
-    A1 & A2 & A3 & A4 --> D{{"decidir si el punto físico se<br/>justifica por su rotación y su<br/>contribución"}}
-    D --> E["Entregable<br/>modelo de punto de venta con<br/>rotación, merma, ticket y<br/>contribución después de<br/>arriendo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La integración omnicanal falla casi siempre por inventario: si el stock que ve el cliente en la web no coincide con el de la tienda, se rompe la promesa.
+
+![Esquema: Un solo inventario para todos los canales](modelo-mental.svg)
+
+**Qué mirar primero:** El centro es el inventario y los satélites son todos los canales que lo consumen. Cada vez que uno de ellos no se actualiza, los demás prometen algo que no existe.
+
+**Para recordarlo:** Es una despensa familiar: si cada integrante cree que queda leche y nadie la compra, la mañana siguiente nadie tiene desayuno.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El retail físico agrega arriendo, patente municipal, personal en turnos y merma
 
 ### 2. Cómo se traduce en la práctica
 
-El error de secuencia es firmar el arriendo y después averiguar si la comuna admite la actividad. El certificado de informaciones previas de la Dirección de Obras cuesta poco y responde esa pregunta; descubrirlo después obliga a mudarse o a un cambio de destino largo y caro. La parte 17 desarrolla la secuencia completa.
+Antes de abrir un segundo canal, define quién es la fuente de verdad del inventario y con qué frecuencia se actualiza. Calcula por punto de venta la rotación por metro cuadrado, la merma y el ticket promedio, y suma arriendo, patente y personal para ver su contribución. Un local se justifica si sus ventas y su efecto en otros canales superan su costo fijo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El error de secuencia es firmar el arriendo y después averiguar si la comuna ad
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Cliente: «Vi en su web que quedaba una chaqueta talla M». Vendedora: «Veo que ya la vendimos hace un rato en tienda». Cliente: «Entonces ¿por qué la web me dejó pagarla?». Vendedora: «El sistema se actualiza cada seis horas». Cliente: «Eso es culpa suya, no mía». La tienda comprende que perdió una venta y un cliente por un desfase de datos y decide sincronizar el inventario cada cinco minutos o ocultar los productos con pocas unidades (diálogo ilustrativo).
+
+### 5. En qué se apoya
+
+- **Lean Thinking** (Free Press): Womack y Jones tratan el inventario y el flujo como elementos del valor para el cliente y proponen reducir esperas y desajustes entre lo prometido y lo disponible.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica el criterio según el cual lo ofrecido al consumidor, incluida la disponibilidad, debe cumplirse, lo que hace del inventario un tema legal además de operativo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para decidir si el punto físico se justifica por su rotación y su contribución.
+
+**Free Press — Lean Thinking**  
+<https://openlibrary.org/isbn/9780684810355> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta los principios lean: valor, flujo, tracción y perfección. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Thinking» para decidir si el punto físico se justifica por su rotación y su contribución.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

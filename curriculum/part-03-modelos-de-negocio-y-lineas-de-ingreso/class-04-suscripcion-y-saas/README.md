@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Churn** | Porcentaje de clientes o ingreso que se pierde por período. |
 | **NRR** | Ingreso neto retenido incluyendo expansión y contracción de la base existente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto dura un cliente de suscripción
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Suscripción"]
-    C --> A2["MRR"]
-    C --> A3["Churn"]
-    C --> A4["NRR"]
-    A1 & A2 & A3 & A4 --> D{{"definir el ciclo de cobro, la<br/>política de renovación y el<br/>umbral de churn tolerable"}}
-    D --> E["Entregable<br/>modelo de suscripción con MRR,<br/>churn, NRR y punto de<br/>equilibrio de adquisición"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El modelo de suscripción cambia el problema de vender a retener: un churn alto obliga a conquistar nuevos clientes solo para quedarse donde estás.
+
+![Esquema: Cuánto dura un cliente de suscripción](modelo-mental.svg)
+
+**Lectura guiada:** La curva muestra cuántos clientes de un mismo mes de alta siguen activos con el paso del tiempo. Mientras más empinada, más rápido hay que reponer la base para no encogerse.
+
+**Una analogía:** Es llenar un balde con un agujero: si el agujero es grande, por más agua que eches no sube el nivel.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El modelo de suscripción cambia el problema de vender a retener. Un churn mensu
 
 ### 2. Cómo se traduce en la práctica
 
-Un churn mensual de 5 % renueva toda la base en veinte meses: crecer exige adquirir más rápido que la fuga, indefinidamente. Además, en Chile la renovación automática frente a consumidores exige información clara y un mecanismo de baja accesible; una política de retención basada en dificultar la salida es infracción, no estrategia.
+Mide cuatro números cada mes: ingreso recurrente mensual (MRR), churn de clientes, churn de ingresos y retención neta (NRR). Define el ciclo de cobro (mensual o anual), la política de renovación y el umbral de churn que toleras antes de dejar de invertir en adquisición. En Chile, las condiciones de renovación y término de la suscripción deben informarse con claridad al consumidor.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un churn mensual de 5 % renueva toda la base en veinte meses: crecer exige adqui
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Tu SaaS cobra $20.000 mensuales y gana 100 clientes nuevos al mes. Supón un churn mensual de 5 %. Calcula cuántos clientes de una cohorte siguen tras 12 meses: 100 × 0,95 elevado a 12, cerca de 54. Ahora compáralo con un churn de 2 %: quedarían cerca de 78. Escribe qué pasa con tu ingreso a un año en cada caso y qué acción reduciría más el churn (onboarding, soporte, plan anual). Declara los supuestos que usaste; las cifras son ilustrativas.
+
+### 5. En qué se apoya
+
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz proponen métricas por etapa y por modelo de negocio, entre ellas el churn y la retención, para suscripciones y software como servicio.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica criterios sobre contratos de adhesión y términos de renovación y término, que condicionan cómo se diseñan los cobros recurrentes a consumidores.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir el ciclo de cobro, la política de renovación y el umbral de churn tolerable.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para definir el ciclo de cobro, la política de renovación y el umbral de churn tolerable.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

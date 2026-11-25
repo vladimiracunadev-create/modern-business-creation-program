@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Proceso crítico** | Aquel cuya variación destruye la promesa al cliente. |
 | **Manual operativo** | Documento que permite replicar sin el fundador presente. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Estandarizar para poder replicar
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Estandarización"]
-    C --> A2["Replicabilidad"]
-    C --> A3["Proceso crítico"]
-    C --> A4["Manual operativo"]
-    A1 & A2 & A3 & A4 --> D{{"identificar qué procesos deben<br/>estandarizarse antes de crecer"}}
-    D --> E["Entregable<br/>lista de procesos críticos con<br/>nivel de estandarización y<br/>manual operativo de los tres<br/>principales"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Antes de replicar hay que estandarizar: si un proceso funciona porque una persona lo ajusta sobre la marcha, no se puede copiar; la prueba práctica es si alguien nuevo puede ejecutarlo con el manual.
+
+![Esquema: Estandarizar para poder replicar](modelo-mental.svg)
+
+**Lectura guiada:** El ciclo tiene un paso decisivo: probar con una persona nueva. Si necesita preguntar para completar un paso, el manual no está terminado y el proceso no es replicable.
+
+**Una analogía:** Es una receta que solo sale bien cuando la prepara la abuela: no sirve para abrir un restaurante hasta que otra persona la pueda cocinar igual.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Antes de replicar hay que estandarizar: si el proceso funciona porque una person
 
 ### 2. Cómo se traduce en la práctica
 
-Si el proceso funciona porque una persona lo ajusta sobre la marcha, no se puede copiar: lo que se replica es la dependencia. Y estandarizar procesos que no son críticos mientras se posterga lo esencial consume el mismo esfuerzo sin producir capacidad de replicación.
+Identifica tus procesos críticos: los que afectan al cliente, la caja o el cumplimiento. Escribe cada uno como se hace en la práctica y prueba el manual con alguien que no lo conozca. Mide el resultado con el manual y corrige. Define un responsable de la versión vigente. No replicas lo que depende de la intuición de una sola persona.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Si el proceso funciona porque una persona lo ajusta sobre la marcha, no se puede
 **Autoridades o contrapartes involucradas:** CMF para sociedades anónimas, FNE en operaciones de concentración, SII en reorganizaciones.
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa abre una segunda sucursal confiada en que su primera «funciona sola». Pero depende de una encargada que ajusta pedidos y atiende reclamos de memoria. En la nueva sucursal la calidad cae y los reclamos suben. La corrección: documentar el proceso con ayuda de la encargada, probarlo con una persona nueva en la primera sucursal, corregir los vacíos y recién entonces replicarlo (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The E-Myth Revisited** (HarperBusiness): Gerber propone sistematizar el negocio como un prototipo replicable que otros puedan operar sin depender del fundador.
+- **The Checklist Manifesto** (Metropolitan Books): Gawande muestra que las listas y los procedimientos probados permiten que personas distintas obtengan resultados confiables.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para identificar qué procesos deben estandarizarse antes de crecer.
+
+**HarperBusiness — The E-Myth Revisited**  
+<https://openlibrary.org/isbn/9780061446788> · verificado 2026-11-25
+
+- *Qué contiene:* Plantea que la empresa debe funcionar por sus sistemas y no depender de la persona fundadora.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The E-Myth Revisited» para identificar qué procesos deben estandarizarse antes de crecer.
+
+**Metropolitan Books — The Checklist Manifesto**  
+<https://openlibrary.org/isbn/9780312430009> · verificado 2026-11-25
+
+- *Qué contiene:* Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Checklist Manifesto» para identificar qué procesos deben estandarizarse antes de crecer.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

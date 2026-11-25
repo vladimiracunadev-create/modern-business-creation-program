@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Derecho ad valorem** | Arancel calculado sobre el valor. |
 | **Clasificación errónea** | Error que genera diferencias, multas y demoras. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: ¿Cuál es la partida arancelaria de tu producto?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Partida arancelaria"]
-    C --> A2["Sistema Armonizado"]
-    C --> A3["Derecho ad valorem"]
-    C --> A4["Clasificación errónea"]
-    A1 & A2 & A3 & A4 --> D{{"clasificar correctamente la<br/>mercancía antes de operar"}}
-    D --> E["Entregable<br/>clasificación arancelaria del<br/>producto con justificación y<br/>verificación de acuerdos<br/>aplicables"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La clasificación arancelaria determina el arancel, las exigencias de certificación y la aplicación de los acuerdos comerciales; un error puede significar pagar derechos que no correspondían o perder un beneficio.
+
+![Esquema: ¿Cuál es la partida arancelaria de tu producto?](modelo-mental.svg)
+
+**Qué mirar primero:** Recorre las preguntas con tu producto. La clasificación parte de una buena descripción: composición, uso y proceso. Después se verifica con las reglas del Sistema Armonizado y con quien lo hace a diario.
+
+**Piénsalo así:** Es archivar un documento en el lugar correcto de una biblioteca: si lo pones en el estante equivocado, nadie lo encontrará y tú pagarás el costo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La clasificación arancelaria determina el arancel, las exigencias de certificac
 
 ### 2. Cómo se traduce en la práctica
 
-Clasificar por parecido de nombre sin analizar las notas del capítulo produce diferencias, multas y demoras. Ante duda existe el mecanismo formal de consulta de clasificación, y usarlo antes de embarcar cuesta mucho menos que corregir una declaración ya presentada.
+Describe técnicamente tu mercancía y clasifícala antes de operar, apoyándote en las reglas del Sistema Armonizado y en un agente de aduana. Guarda la descripción y la partida usada. Verifica el arancel, los acuerdos comerciales aplicables y las certificaciones exigidas. Si cambias el producto o el proceso, revisa de nuevo la clasificación.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,16 @@ Clasificar por parecido de nombre sin analizar las notas del capítulo produce d
 **Autoridades o contrapartes involucradas:** Servicio Nacional de Aduanas, SII, ProChile, Banco Central de Chile, SAG y SEREMI de Salud según producto.
 **Profesionales de apoyo:** agente de aduana, abogado de comercio internacional, asesor tributario internacional, freight forwarder. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Describe un producto de tu negocio (por ejemplo, una mermelada de arándanos en frasco de vidrio) en cinco líneas: de qué está hecho, cómo se procesa, para qué se usa y cómo se vende. Busca el capítulo del Sistema Armonizado que parezca más cercano y anota tus dudas. Pide a un agente de aduana que confirme. Anota qué cambiaría si la partida fuera otra: arancel, acuerdos y certificados. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **Importación, exportación y clasificación arancelaria** (Servicio Nacional de Aduanas): El Servicio Nacional de Aduanas publica el arancel aduanero, la clasificación de mercancías y los procedimientos de consulta sobre partidas arancelarias.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

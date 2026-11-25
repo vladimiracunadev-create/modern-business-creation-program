@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Vida útil** | Período durante el cual se espera usar el activo. |
 | **Intangible** | Activo sin sustancia física: software, marca, derechos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: La vida útil de un activo fijo y su depreciación
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Activo fijo"]
-    C --> A2["Depreciación"]
-    C --> A3["Vida útil"]
-    C --> A4["Intangible"]
-    A1 & A2 & A3 & A4 --> D{{"definir el tratamiento de<br/>activos fijos e intangibles y<br/>su efecto tributario"}}
-    D --> E["Entregable<br/>registro de activo fijo con<br/>vida útil, método de<br/>depreciación y verificación<br/>del tratamiento tributario"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La depreciación tiene reglas tributarias que pueden diferir de la vida útil económica real, y los intangibles desarrollados internamente tienen un tratamiento distinto.
+
+![Esquema: La vida útil de un activo fijo y su depreciación](modelo-mental.svg)
+
+**Cómo leerlo:** La línea muestra el paso del activo por su vida. Cada cuota reduce su valor libro y el impuesto, pero no es dinero que salga de la caja: es la distribución del costo en el tiempo.
+
+**Una imagen cotidiana:** Es el desgaste de unas zapatillas: no pagas cada mes un pedazo, pero cada paso las acerca a la fecha en que tendrás que comprar otras.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La depreciación tiene reglas tributarias que pueden diferir de la vida útil ec
 
 ### 2. Cómo se traduce en la práctica
 
-Existen regímenes de depreciación acelerada aplicables a ciertas empresas, y los intangibles desarrollados internamente rara vez se activan, lo que hace que el balance subrepresente el valor real de una empresa de software. Activar gastos recurrentes de mantenimiento para mejorar el resultado es el error inverso y también se detecta.
+Registra cada activo con su fecha, costo, vida útil y método. Consulta con tu contador si aplica depreciación acelerada para tu tipo de empresa y qué efecto tiene en los impuestos. Mantén un plan de renovación distinto de la depreciación, porque ésta no genera caja. Para los intangibles, documenta qué costos puedes activar y cuáles son gasto.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Existen regímenes de depreciación acelerada aplicables a ciertas empresas, y l
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Contador: «La camioneta se deprecia por el tiempo que fija la norma tributaria, que es menor que su vida real». Dueña: «Entonces el costo se reconoce más rápido». Contador: «Sí, aunque la camioneta seguirá funcionando varios años». Dueña: «Entonces debo reservar plata para reemplazarla aunque ya esté totalmente depreciada». Contador: «Exacto: la depreciación es contable y tributaria, no es tu ahorro para renovar» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII publica las reglas de depreciación de activos fijos y los regímenes de depreciación acelerada que pueden aplicar a ciertas empresas.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El texto vigente de la Ley de Impuesto a la Renta contiene las normas de depreciación y se consulta en la Biblioteca del Congreso Nacional.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

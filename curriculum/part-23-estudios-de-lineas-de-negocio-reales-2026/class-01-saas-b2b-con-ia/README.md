@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Acuerdo de tratamiento de datos** | Contrato que regula el uso de datos del cliente. |
 | **Retención neta** | Indicador determinante de la viabilidad del modelo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un margen que ya no es casi total
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SaaS B2B con IA"]
-    C --> A2["Costo de inferencia"]
-    C --> A3["Acuerdo de tratamiento de<br/>datos"]
-    C --> A4["Retención neta"]
-    A1 & A2 & A3 & A4 --> D{{"validar margen con costo de<br/>inferencia y resolver el marco<br/>de tratamiento de datos"}}
-    D --> E["Entregable<br/>modelo de negocio SaaS con IA<br/>que incluye costo de<br/>inferencia, retención<br/>proyectada y acuerdo de datos"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El SaaS con IA introduce un costo variable relevante que rompe el supuesto de margen casi total del software tradicional; la viabilidad depende de que el precio contemple ese costo y de resolver el tratamiento de datos.
+
+![Esquema: Un margen que ya no es casi total](modelo-mental.svg)
+
+**Cómo leerlo:** Las tres barras comparan el margen de un software tradicional con dos versiones con IA. La diferencia entre las dos últimas es lo que cuesta fijar mal el precio de cada consulta al modelo.
+
+**Piénsalo así:** Es una cafetería que, además del arriendo, paga cada taza de café servida: más clientes no son gratis y el precio de la taza debe cubrir su costo.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El SaaS con IA introduce un costo variable relevante que rompe el supuesto de ma
 
 ### 2. Cómo se traduce en la práctica
 
-El precio debe contemplar ese costo variable y el acuerdo con clientes debe permitir el tratamiento de datos que el servicio requiere. Procesar datos de clientes con modelos sin acuerdo de tratamiento es, bajo la normativa de datos personales, una cesión que nadie autorizó.
+Calcula el costo de inferencia por cliente y por uso, con escenarios de baja, media y alta intensidad. Diseña el precio con límites, tramos y cobro por exceso. Verifica con el proveedor de modelos dónde se procesan los datos y firma acuerdos de tratamiento con tus clientes. Monitorea el margen por cliente y la retención neta, y ajusta los planes si el costo cambia.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El precio debe contemplar ese costo variable y el acuerdo con clientes debe perm
 **Autoridades o contrapartes involucradas:** autoridad sectorial según la línea analizada, SII, SERNAC, municipalidad.
 **Profesionales de apoyo:** fundador, consultor sectorial, abogado regulatorio, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa cobra $50.000 mensuales por cliente por un asistente con IA. Cada cliente hace 2.000 consultas y cada una cuesta $12 en costo de inferencia: $24.000 al mes, es decir 48 % del precio. Con solo otros costos del 5 %, el margen es 47 %. Al cambiar su precio a $70.000 con un límite de consultas incluidas y un cobro por exceso, el margen sube a cerca del 60 %. Además firma acuerdos de tratamiento de datos con sus clientes (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Lean Analytics** (O'Reilly): Croll y Yoskovitz describen las métricas de margen, retención y costo de servir de los negocios de software y su efecto en la viabilidad.
+- **Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales** (Biblioteca del Congreso Nacional): La Ley 21.719 regula el tratamiento de datos personales y la relación entre responsable y encargado, que se formaliza en un acuerdo con los clientes.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ejemplos por tipo de empresa
 
@@ -174,6 +179,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para validar margen con costo de inferencia y resolver el marco de tratamiento de datos.
+
+**O'Reilly — Lean Analytics**  
+<https://openlibrary.org/isbn/9781449335717> · verificado 2026-11-25
+
+- *Qué contiene:* Propone métricas por etapa de una startup y cómo elegir la métrica que importa en cada momento.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Lean Analytics» para validar margen con costo de inferencia y resolver el marco de tratamiento de datos.
+
+**Biblioteca del Congreso Nacional — Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1209272> · verificado 2026-11-25
+
+- *Qué contiene:* Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.
+- *Cómo leerla:* Úsala como estándar de diseño del protocolo de incidentes. La vigencia de sus modificaciones se fijó en el 15-10-2027 por la Ley 21.855: comprueba la fecha en la ficha de la BCN antes de planificar.
+- *Uso en esta clase:* aporta el marco de «Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales» para validar margen con costo de inferencia y resolver el marco de tratamiento de datos.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

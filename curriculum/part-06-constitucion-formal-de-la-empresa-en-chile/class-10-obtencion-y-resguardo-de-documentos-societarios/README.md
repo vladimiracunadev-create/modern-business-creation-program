@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Certificado de vigencia** | Acredita que la sociedad existe y quién la representa. |
 | **Custodia** | Resguardo con respaldo, control de acceso y trazabilidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué contiene la carpeta societaria
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Carpeta societaria"]
-    C --> A2["Certificado de estatuto<br/>actualizado"]
-    C --> A3["Certificado de vigencia"]
-    C --> A4["Custodia"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué documentos<br/>componen la carpeta y cómo se<br/>custodian y actualizan"}}
-    D --> E["Entregable<br/>índice de carpeta societaria<br/>con ubicación, responsable,<br/>vigencia y política de<br/>respaldo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La carpeta societaria es lo primero que piden un banco, un cliente grande, un inversionista o un comprador; armarla al constituir cuesta una hora, reconstruirla años después cuesta semanas.
+
+![Esquema: Qué contiene la carpeta societaria](modelo-mental.svg)
+
+**Lectura guiada:** Cada capa es un grupo de documentos. Al armar la carpeta, verifica que cada uno esté vigente, firmado y guardado en un lugar con respaldo y con acceso para quien corresponda.
+
+**Una analogía:** Es la mochila de emergencia: la preparas cuando no la necesitas para tenerla lista el día que sí.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La carpeta societaria es el primer documento que pide un banco, un cliente grand
 
 ### 2. Cómo se traduce en la práctica
 
-Es el primer documento que pide un banco, un cliente grande, un inversionista o un comprador. Debe mantenerse digital, con respaldo, control de versiones tras cada modificación y acceso de más de una persona: guardarla en el correo de un socio es la forma habitual de perderla.
+Define quién custodia la carpeta, dónde se guarda (con respaldo) y cómo se actualiza cuando cambia algo. Incluye certificados vigentes y copias de documentos clave. Descarga la carpeta tributaria electrónica del SII. Establece un calendario para renovar los documentos con vencimiento y para revisar la carpeta cada año.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Es el primer documento que pide un banco, un cliente grande, un inversionista o 
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Arma la carpeta de tu empresa en una hora. Crea cinco subcarpetas con los nombres de las capas y deposita un documento en cada una. Para cada documento anota fecha de emisión, fecha de vencimiento y dónde se renueva. Marca con rojo lo que falta y pon fecha para completarlo. Después, pide a un socio que intente responder, solo con la carpeta, quién representa a la sociedad, cuál es su capital y dónde está su domicilio.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades emite el certificado de estatuto actualizado y el de vigencia, base de la carpeta societaria.
+- **Carpeta Tributaria Electrónica** (Servicio de Impuestos Internos): La carpeta tributaria electrónica del SII resume la situación tributaria de la empresa y es un documento frecuente en trámites bancarios y de crédito.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

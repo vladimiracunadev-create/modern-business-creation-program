@@ -40,6 +40,9 @@ FECHA_BASE = "07-08-2026"
 TRANSLITERACION = {"ñ": "n", "Ñ": "n", "ü": "u", "Ü": "u"}
 
 
+from svg_modelos import dibujar  # noqa: E402  (módulo hermano)
+
+
 def slug(texto: str) -> str:
     """Convierte un título a slug ASCII estable, igual al usado en el repo."""
     for origen, destino in TRANSLITERACION.items():
@@ -102,6 +105,13 @@ def cargar_datos():
         if numero in especificas:
             especificas[numero].update(entrada)
 
+    # Modelos mentales por clase (SVG): opcionales; la clase sin visual conserva su diagrama.
+    carpeta_visuales = MANIFESTS / "visuales"
+    if carpeta_visuales.exists():
+        for numero, entrada in cargar_carpeta(carpeta_visuales).items():
+            if numero in especificas:
+                especificas[numero]["visual"] = entrada
+
     faltantes = [
         c["global_class"] for c in curriculo
         if c["global_class"] not in especificas or "proposito" not in especificas[c["global_class"]]
@@ -127,6 +137,20 @@ def ruta_clase(clase: dict) -> Path:
 GUIA_PROTECCION = "docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md"
 CASO_PROTECCION = "case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md"
 
+# Formatos pedagógicos del ejemplo de un modelo mental: cada clase elige el que mejor
+# enseña su idea, de modo que el recorrido no repita siempre la misma estructura.
+FORMATOS_EJEMPLO = {
+    "caso": "Caso trabajado",
+    "numerico": "Los números, paso a paso",
+    "dialogo": "Una conversación que enseña",
+    "error": "Un error y su corrección",
+    "antes_despues": "Antes y después",
+    "decision": "Cómo se decide, paso a paso",
+    "simulacion": "Pruébalo tú: mini simulación",
+}
+ETIQUETAS_ANALOGIA = ("Una analogía", "Piénsalo así", "Para recordarlo", "Una imagen cotidiana")
+ETIQUETAS_LECTURA = ("Cómo leerlo", "Qué mirar primero", "Lectura guiada")
+
 # Guía y expediente de casos a los que enlaza todo bloque «Reputación y confianza».
 GUIA_REPUTACION = "docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md"
 CASOS_REPUTACION = "case-studies/23-reputacion-y-crisis-siete-casos.md"
@@ -146,6 +170,9 @@ def fuentes_de_clase(spec: dict, pack: dict) -> list[str]:
     if spec.get("actualizacion"):
         base += [i for i in FUENTES_LEY_21850 if i not in base]
     base += [i for i in spec.get("fuentes_extra", []) if i not in base]
+    for apoyo in (spec.get("visual") or {}).get("fundamento", []):
+        if apoyo["fuente"] not in base:
+            base.append(apoyo["fuente"])
     return base
 
 
@@ -326,6 +353,38 @@ dependa de circulares, resoluciones o decretos aún no verificados queda marcado
 
 """
 
+    visual = spec.get("visual")
+    if visual:
+        seccion_visual = f"""## 🗺️ Modelo mental: {visual['titulo']}
+
+> **La idea en una frase:** {visual['idea']}
+
+![Esquema: {visual['titulo']}](modelo-mental.svg)
+
+**{ETIQUETAS_LECTURA[clase['global_class'] % 3]}:** {visual['lectura']}
+
+**{ETIQUETAS_ANALOGIA[clase['global_class'] % 4]}:** {visual['analogia']}
+
+"""
+        lineas_fundamento = "\n".join(
+            f"- **{fuentes[a['fuente']]['title']}** ({fuentes[a['fuente']]['authority']}): {a['apoyo']}"
+            for a in visual["fundamento"]
+        )
+        bloque_ejemplo_y_fundamento = f"""
+### 4. {FORMATOS_EJEMPLO[visual.get('formato', 'caso')]}
+
+{visual['ejemplo']}
+
+### 5. En qué se apoya
+
+{lineas_fundamento}
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
+"""
+    else:
+        seccion_visual = f"## 🗺️ Flujo de razonamiento\n\n{diagrama_clase(clase, spec)}\n\n"
+        bloque_ejemplo_y_fundamento = ""
+
     if anterior:
         celda_anterior = (
             f"[← {anterior['global_class']:03d} · {anterior['title']}]"
@@ -372,11 +431,7 @@ Al finalizar esta clase podrás:
 |---|---|
 {conceptos}
 
-## 🗺️ Flujo de razonamiento
-
-{diagrama_clase(clase, spec)}
-
-## 📖 Desarrollo
+{seccion_visual}## 📖 Desarrollo
 
 ### 1. El fondo del asunto
 
@@ -393,7 +448,7 @@ Al finalizar esta clase podrás:
 **Autoridades o contrapartes involucradas:** {autoridades}.
 **Profesionales de apoyo:** {profesionales}. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
-
+{bloque_ejemplo_y_fundamento}
 {bloque_caso}{bloque_actualizacion}{bloque_proteccion}{bloque_reputacion}## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -802,6 +857,13 @@ def main() -> int:
             fuentes, anterior, siguiente,
         )
         pendientes.append((ruta_clase(clase) / "README.md", contenido))
+        visual = especificas[clase["global_class"]].get("visual")
+        if visual:
+            pendientes.append((
+                ruta_clase(clase) / "modelo-mental.svg",
+                dibujar(clase["global_class"], packs[clase["part"]]["titulo"],
+                        etapa_de[clase["part"]]["etapa"], {**visual, "alt": f"{visual['titulo']}. {visual['lectura']}"}),
+            ))
 
     for parte, pack in packs.items():
         clases = [c for c in curriculo if c["part"] == parte]

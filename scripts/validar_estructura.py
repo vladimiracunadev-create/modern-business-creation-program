@@ -27,7 +27,6 @@ SECCIONES_CLASE = [
     "## 🎯 Propósito",
     "## 📚 Resultados de aprendizaje",
     "## 🧩 Conceptos centrales",
-    "## 🗺️ Flujo de razonamiento",
     "## 📖 Desarrollo",
     "## 🧪 Taller guiado",
     "### 📦 Entregable",
@@ -54,6 +53,14 @@ SECCIONES_PARTE = [
 # Todo README de clase y de parte debe traer su diagrama: es el apoyo visual que
 # distingue este programa y su ausencia indica una plantilla incompleta.
 BLOQUE_MERMAID = "```mermaid"
+
+SECCIONES_VISUAL = ("## 🗺️ Flujo de razonamiento", "## 🗺️ Modelo mental")
+
+
+def _tiene_modelo_svg(readme, texto: str) -> bool:
+    """Una clase puede traer su modelo mental como SVG propio en vez del mermaid genérico."""
+    return "](modelo-mental.svg)" in texto and (readme.parent / "modelo-mental.svg").exists()
+
 
 # Enlaces markdown [texto](destino), ignorando imágenes y anclas de referencia.
 ENLACE = re.compile(r"(?<!\!)\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
@@ -138,8 +145,10 @@ def main() -> int:
         for seccion in SECCIONES_CLASE:
             if seccion not in texto:
                 errores.append(f"{readme.relative_to(RAIZ).as_posix()}: falta '{seccion}'")
-        if BLOQUE_MERMAID not in texto:
-            errores.append(f"{readme.relative_to(RAIZ).as_posix()}: falta el diagrama mermaid")
+        if not any(s in texto for s in SECCIONES_VISUAL):
+            errores.append(f"{readme.relative_to(RAIZ).as_posix()}: falta la sección del diagrama o del modelo mental")
+        if BLOQUE_MERMAID not in texto and not _tiene_modelo_svg(readme, texto):
+            errores.append(f"{readme.relative_to(RAIZ).as_posix()}: falta el diagrama mermaid o el modelo mental SVG")
 
     for carpeta in carpetas_parte:
         readme = carpeta / "README.md"

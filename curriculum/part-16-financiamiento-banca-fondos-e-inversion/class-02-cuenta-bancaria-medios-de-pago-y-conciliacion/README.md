@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Plazo de abono** | Tiempo hasta que el dinero está disponible. |
 | **Conciliación de recaudación** | Cuadratura entre ventas, abonos y comisiones. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué medio de pago conviene según comisión y plazo
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Medio de pago"]
-    C --> A2["Comisión"]
-    C --> A3["Plazo de abono"]
-    C --> A4["Conciliación de<br/>recaudación"]
-    A1 & A2 & A3 & A4 --> D{{"elegir medios de pago según<br/>comisión, plazo de abono y<br/>perfil de cliente"}}
-    D --> E["Entregable<br/>comparación de medios de pago<br/>con comisión, plazo y<br/>procedimiento de conciliación<br/>de recaudación"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Cada medio de pago tiene comisión y plazo de abono distintos y ambos afectan la caja; la conciliación de la recaudación es indispensable para detectar abonos faltantes y comisiones mal cobradas.
+
+![Esquema: Qué medio de pago conviene según comisión y plazo](modelo-mental.svg)
+
+**Lectura guiada:** Ubica cada medio de pago según cuánto cuesta y cuánto tarda en abonarte. Elegir el más barato sin mirar el plazo puede dejarte sin caja, y el más rápido, sin mirar la comisión, reduce tu margen.
+
+**Una analogía:** Es elegir el camino para llegar a una reunión: el más corto no siempre es el más barato, y el más barato puede hacerte llegar tarde.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Cada medio de pago tiene comisión y plazo de abono distintos, y ambos afectan l
 
 ### 2. Cómo se traduce en la práctica
 
-Cada medio tiene comisión y plazo distintos y ambos afectan la caja. Sin conciliación de recaudación no se detectan abonos que nunca llegaron, comisiones mal aplicadas ni contracargos, y esos hallazgos aparecen meses después cuando ya no se pueden reclamar.
+Lista los medios de pago que aceptas, su comisión, el plazo de abono y el perfil de clientes que los usan. Calcula el costo efectivo y el efecto en la caja. Concilia cada mes lo vendido con lo abonado y las comisiones cobradas. Mantén la cuenta bancaria empresarial separada de las personales y revisa las condiciones cada año.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Cada medio tiene comisión y plazo distintos y ambos afectan la caja. Sin concil
 **Autoridades o contrapartes involucradas:** CMF, CORFO, SERCOTEC, BancoEstado y banca comercial.
 **Profesionales de apoyo:** CFO, abogado corporativo, asesor financiero, contador. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda vende 10 millones al mes por una pasarela con 2,9 % de comisión y abono a los 3 días, y 5 millones por otro medio con 1,5 % y abono a los 14 días. Paga 290.000 y 75.000 en comisiones. El segundo cuesta menos, pero tarda 11 días más en abonar. Si su caja resiste, le conviene el barato; si debe pagar sueldos a los 5 días, el rápido vale su costo (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Registro de Prestadores de Servicios Financieros · Ley 21.521** (Comisión para el Mercado Financiero): La Comisión para el Mercado Financiero mantiene el registro de prestadores de servicios financieros, entre ellos los de medios de pago, útil para verificar a las entidades con que se opera.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican el efecto de los plazos de cobro en el flujo de caja, que es el centro de la elección de un medio de pago.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Establece qué servicios financieros tecnológicos requieren inscripción o autorización ante la CMF, con qué requisitos de capital, gobierno corporativo y gestión de riesgos.
 - *Cómo leerla:* Califica primero tu servicio contra la lista de actividades reguladas; el nombre comercial no decide. Si califica, los requisitos de capital y gobierno son la variable que define si el modelo es viable, antes que el producto.
 - *Uso en esta clase:* aporta el marco de «Registro de Prestadores de Servicios Financieros · Ley 21.521» para elegir medios de pago según comisión, plazo de abono y perfil de cliente.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para elegir medios de pago según comisión, plazo de abono y perfil de cliente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

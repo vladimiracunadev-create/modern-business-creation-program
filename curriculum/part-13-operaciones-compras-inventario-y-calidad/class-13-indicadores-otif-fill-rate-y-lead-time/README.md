@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Lead time** | Tiempo desde el pedido hasta la entrega. |
 | **Variabilidad** | Dispersión del lead time, que importa más que el promedio. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un pedido bien entregado es a tiempo, completo y correcto
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["OTIF"]
-    C --> A2["Fill rate"]
-    C --> A3["Lead time"]
-    C --> A4["Variabilidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir los indicadores de<br/>servicio y su método de<br/>cálculo"}}
-    D --> E["Entregable<br/>panel de servicio con OTIF,<br/>fill rate, lead time promedio<br/>y variabilidad"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El cliente experimenta la variabilidad y no el promedio: un lead time de cinco días con una desviación grande es peor que uno consistente de siete; el OTIF debe medirse con criterio estricto, exigiendo que sea completo y a tiempo.
+
+![Esquema: Un pedido bien entregado es a tiempo, completo y correcto](modelo-mental.svg)
+
+**Qué mirar primero:** Los tres círculos deben coincidir en cada pedido. Un indicador que cuenta como éxito un pedido tardío o incompleto esconde los problemas que el cliente sí ve.
+
+**Piénsalo así:** Es un tren: no basta con que llegue en promedio a la hora, si algunas veces llega con una hora de retraso y otras con vagones menos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El cliente experimenta la variabilidad, no el promedio: un lead time de cinco d�
 
 ### 2. Cómo se traduce en la práctica
 
-Un lead time de cinco días con desviación de cuatro es peor que uno de siete días consistente, porque impide planificar. Reportar entregas parciales como cumplidas produce indicadores en verde y clientes molestos, que es la combinación que hace inútil todo el tablero.
+Define el OTIF con criterio estricto y mide también el fill rate, el lead time y su variabilidad. Calcula por cliente y por producto, no solo el promedio. Fija metas y revisa las causas de los pedidos fuera del criterio. Comparte los resultados con los clientes críticos y con tu equipo. Si el indicador es mejor de lo que perciben los clientes, está mal definido.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un lead time de cinco días con desviación de cuatro es peor que uno de siete d
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Un error y su corrección
+
+El error: una empresa informa un OTIF de 95 % contando como éxito cualquier pedido entregado dentro de dos días de la fecha comprometida y con el 90 % de lo pedido. Sus clientes grandes reclaman. La corrección: medir con criterio estricto (en la fecha, con el 100 % de lo pedido y sin daños) y descubrir que el OTIF real era de 78 %. Con ese número identificó las causas y las corrigió (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Out of the Crisis** (Cambridge University Press): Deming insiste en medir la variación de los procesos y no solo los promedios, porque el cliente experimenta la variabilidad.
+- **The Goal** (North River Press): Goldratt relaciona el flujo y la entrega a tiempo con el desempeño del sistema completo.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir los indicadores de servicio y su método de cálculo.
+
+**Cambridge University Press — Out of the Crisis**  
+<https://openlibrary.org/isbn/9780521305532> · verificado 2026-11-25
+
+- *Qué contiene:* Expone los catorce puntos de Deming y la calidad como responsabilidad de la dirección, con foco en variación y sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Out of the Crisis» para definir los indicadores de servicio y su método de cálculo.
+
+**North River Press — The Goal**  
+<https://openlibrary.org/isbn/9781622313945> · verificado 2026-11-25
+
+- *Qué contiene:* Novela que presenta la teoría de las restricciones: identificar y gestionar el cuello de botella de un sistema.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Goal» para definir los indicadores de servicio y su método de cálculo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

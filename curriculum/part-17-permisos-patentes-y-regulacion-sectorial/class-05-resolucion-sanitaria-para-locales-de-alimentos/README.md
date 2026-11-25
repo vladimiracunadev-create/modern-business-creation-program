@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Manipulador de alimentos** | Persona con capacitación exigida. |
 | **Fiscalización** | Inspección de la autoridad sanitaria. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Lo que debe resolver el diseño de un local de alimentos
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Resolución sanitaria"]
-    C --> A2["Planta física"]
-    C --> A3["Manipulador de alimentos"]
-    C --> A4["Fiscalización"]
-    A1 & A2 & A3 & A4 --> D{{"diseñar el local considerando<br/>desde el inicio los requisitos<br/>sanitarios"}}
-    D --> E["Entregable<br/>checklist de resolución<br/>sanitaria aplicado al proyecto<br/>de local con brechas y costo<br/>de cierre"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La resolución sanitaria para locales de alimentos exige condiciones de planta física, como superficies lavables, separación de áreas, agua potable y control de plagas, que deben resolverse en el diseño y no después.
+
+![Esquema: Lo que debe resolver el diseño de un local de alimentos](modelo-mental.svg)
+
+**Qué mirar primero:** Cada capa es una condición del local. Corregirlas después de construir cuesta mucho más que incorporarlas desde los planos; por eso se revisan antes de arrendar y remodelar.
+
+**Piénsalo así:** Es construir una casa con los desagües ya pensados: ponerlos después significa romper pisos y paredes.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La resolución sanitaria para locales de alimentos exige condiciones de planta f
 
 ### 2. Cómo se traduce en la práctica
 
-Superficies lavables, separación de áreas, agua potable y control de plagas se resuelven en el diseño. Modificar un local ya construido para cumplir suele costar más que la diferencia de haberlo hecho correctamente, y mientras tanto el local no puede operar.
+Antes de arrendar o remodelar, revisa con la SEREMI los requisitos de planta física: superficies, separación de áreas, agua potable, evacuación, ventilación, control de plagas y servicios higiénicos. Incorpóralos en los planos y en el presupuesto. Define procedimientos de limpieza y capacita a los manipuladores. Prepara el local para una inspección antes de abrir.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -67,6 +61,16 @@ Superficies lavables, separación de áreas, agua potable y control de plagas se
 **Autoridades o contrapartes involucradas:** Municipalidad y Dirección de Obras Municipales, SEREMI de Salud, SEC, SUBTEL, SERNATUR, SENCE, SEA, SMA.
 **Profesionales de apoyo:** abogado regulatorio, arquitecto o DOM, prevencionista, consultor sectorial. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Arquitecta: «Los planos muestran la bodega junto a la cocina sin separación». Dueña: «Es para aprovechar el espacio». Arquitecta: «La resolución sanitaria exige separar áreas y tener superficies lavables; si construimos así, tendremos que demoler». Dueña: «Entonces rediseñemos antes de comprar el mesón y obtengamos una consulta previa a la SEREMI» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional informa los requisitos de la resolución sanitaria y las condiciones de planta física de los locales que manipulan alimentos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 

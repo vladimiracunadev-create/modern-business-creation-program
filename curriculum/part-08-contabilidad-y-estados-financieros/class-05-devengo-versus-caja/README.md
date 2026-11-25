@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Diferimiento** | Ingreso cobrado que aún no se ha devengado. |
 | **Provisión** | Gasto devengado que aún no se ha pagado. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Un anticipo anual: caja hoy, ingreso mes a mes
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Devengo"]
-    C --> A2["Base caja"]
-    C --> A3["Diferimiento"]
-    C --> A4["Provisión"]
-    A1 & A2 & A3 & A4 --> D{{"definir cuándo se reconoce el<br/>ingreso y cómo se controla el<br/>diferimiento"}}
-    D --> E["Entregable<br/>política de reconocimiento de<br/>ingresos con tratamiento de<br/>anticipos y provisiones"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La brecha entre devengo y caja explica por qué una empresa con utilidad puede no tener dinero; un anticipo anual cobrado en enero es caja en enero e ingreso a lo largo del año.
+
+![Esquema: Un anticipo anual: caja hoy, ingreso mes a mes](modelo-mental.svg)
+
+**Qué mirar primero:** La línea muestra dos relojes: el de la caja, que marca el cobro, y el del ingreso, que marca el servicio prestado. Gastar el anticipo como si todo fuera ganancia es adelantar un ingreso que aún no se gana.
+
+**Una imagen cotidiana:** Es recibir el sueldo anual por adelantado: lo tienes en la cuenta, pero lo ganas mes a mes trabajando.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La brecha entre devengo y caja es la que explica por qué una empresa con utilid
 
 ### 2. Cómo se traduce en la práctica
 
-Un anticipo anual cobrado en enero es caja de enero e ingreso de doce meses; tratarlo como utilidad disponible es la forma más elegante de quedarse sin dinero en agosto. La política de reconocimiento debe definir el momento por tipo de ingreso y controlar los anticipos como pasivo hasta devengarse.
+Define cuándo reconoces cada ingreso: al entregar el servicio o al facturar. Registra los anticipos como pasivo por servicio no prestado y reconoce el ingreso conforme se presta. Controla los diferimientos y las provisiones al cierre y compara siempre la utilidad con el flujo de caja. Una utilidad sin caja suele esconder cobros pendientes o anticipos mal entendidos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Un anticipo anual cobrado en enero es caja de enero e ingreso de doce meses; tra
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa cobra en enero un contrato anual de 12 millones y lo gasta en comprar equipos y pagar bonos. Al cierre de marzo ha devengado 3 millones de ingresos, pero ya gastó 11. En agosto debe seguir prestando el servicio sin ingresos nuevos y se queda sin caja. Si hubiera separado 1 millón mensual para el servicio, habría tenido recursos hasta diciembre (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican la diferencia entre utilidad y flujo de caja y por qué una empresa rentable puede quedarse sin dinero.
+- **Nuevos contribuyentes, inicio de actividades y DTE** (Servicio de Impuestos Internos): El SII informa las reglas de reconocimiento de ingresos y costos a efectos tributarios, que pueden diferir del criterio de gestión.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir cuándo se reconoce el ingreso y cómo se controla el diferimiento.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para definir cuándo se reconoce el ingreso y cómo se controla el diferimiento.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

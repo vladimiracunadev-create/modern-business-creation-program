@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Cambio de régimen** | Paso de un régimen a otro, con plazos y efectos definidos. |
 | **Simulación comparada** | Cálculo del resultado bajo cada régimen para el mismo escenario. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué régimen evaluar según tus ingresos y tus retiros
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Régimen tributario"]
-    C --> A2["Requisito de ingreso"]
-    C --> A3["Cambio de régimen"]
-    C --> A4["Simulación comparada"]
-    A1 & A2 & A3 & A4 --> D{{"elegir el régimen tributario<br/>con simulación comparada<br/>documentada"}}
-    D --> E["Entregable<br/>simulación comparada de<br/>regímenes elegibles con carga<br/>total empresa más socios"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** La elección de régimen depende del nivel de ingresos, del tipo de socios y de la política de retiros; la única forma responsable de decidir es simular el mismo escenario bajo cada régimen elegible.
+
+![Esquema: Qué régimen evaluar según tus ingresos y tus retiros](modelo-mental.svg)
+
+**Lectura guiada:** Ubica tu empresa según sus ingresos y cuánto retiras. La matriz no decide por ti: indica qué simulaciones hacer antes de elegir.
+
+**Piénsalo así:** Es elegir un plan de telefonía: el mejor depende de cuánto hablas, no del plan que anuncia la publicidad.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ La elección de régimen depende del nivel de ingresos, del tipo de socios y de 
 
 ### 2. Cómo se traduce en la práctica
 
-La comparación debe incluir el impuesto de los socios y verificar primero los requisitos de tipo de propietarios, que descartan regímenes antes de que las tasas importen. Las tasas además cambian por ley y por período transitorio: cada cifra usada necesita fecha de consulta anotada junto a ella.
+Para decidir, simula el mismo escenario de ingresos, costos y retiros en cada régimen elegible, incluyendo el efecto en el flujo de caja y en el momento de pago. Documenta la comparación con fecha, supuestos y las tasas vigentes del SII. Revisa si hay requisitos de ingreso o de propietarios que limiten tus opciones y qué consecuencias tiene cambiar de régimen después.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -66,6 +60,17 @@ La comparación debe incluir el impuesto de los socios y verificar primero los r
 **Autoridades o contrapartes involucradas:** SII, Tesorería General de la República.
 **Profesionales de apoyo:** contador, asesor tributario, abogado tributario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una pyme proyecta una utilidad de 40 millones. Simula dos escenarios con tasas de ejemplo: reinvierte todo, de modo que la carga está en la empresa; o retira todo, de modo que los socios pagan según su tramo. Con una tasa de empresa de 12 % y un tramo de socios de 25 %, la carga es de 4,8 millones si reinvierte y se acerca a 10 millones si retira, porque una vez reconocido el crédito de la empresa domina el tramo del socio. Las tasas son supuestos: usa las vigentes que informe el SII (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Regímenes tributarios · Operación Renta 2026** (Servicio de Impuestos Internos): El SII publica el comparativo de regímenes de la Operación Renta, necesario para simular la carga de cada uno.
+- **Circular 53 de 2025: tasa transitoria de IDPC y de PPM del régimen Pro Pyme** (Servicio de Impuestos Internos): La Circular 53 de 2025 del SII informa la tasa transitoria del impuesto de primera categoría y del PPM en el régimen Pro Pyme, dato que cambia la simulación.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🆕 Actualización normativa: Ley 21.850
 

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Brecha** | Requisito pendiente que impide operar o facturar. |
 | **Calendario de obligaciones** | Fechas periódicas que la empresa debe cumplir. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cierre de la etapa societaria y paso a la habilitación
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Empresa jurídicamente<br/>lista"]
-    C --> A2["Habilitación operativa"]
-    C --> A3["Brecha"]
-    C --> A4["Calendario de obligaciones"]
-    A1 & A2 & A3 & A4 --> D{{"verificar el cierre de la<br/>etapa societaria y las brechas<br/>hacia la habilitación<br/>operativa"}}
-    D --> E["Entregable<br/>checklist de empresa<br/>jurídicamente lista con<br/>brechas pendientes y<br/>responsable por brecha"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El checklist cierra la etapa societaria y abre la tributaria y sectorial: estar jurídicamente listo no es estar habilitado para operar.
+
+![Esquema: Cierre de la etapa societaria y paso a la habilitación](modelo-mental.svg)
+
+**Cómo leerlo:** Verifica cada paso y revisa el rombo. Si la respuesta es sí, lo que sigue es la etapa tributaria; si es no, vuelve al paso que falta antes de avanzar.
+
+**Una analogía:** Es revisar el equipaje antes de embarcar: no basta con tener maleta, hay que comprobar que están el pasaporte, el pasaje y los documentos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El checklist cierra la etapa societaria y abre la tributaria y sectorial. Estar 
 
 ### 2. Cómo se traduce en la práctica
 
-Estar jurídicamente listo no es estar habilitado: faltan inicio de actividades, régimen tributario, patente municipal y permisos sectoriales. Comprometer entregas antes de cerrar esas brechas es el error de secuencia más caro del arranque, porque el costo cae sobre la relación con el primer cliente.
+Haz el checklist con fecha y firma de quien lo verifica. Anota las brechas que quedan y quién las resolverá. Arma un calendario con las obligaciones recurrentes (renovaciones, declaraciones, libros). Los listados de verificación reducen errores en tareas complejas; úsalo también como constancia ante un inversionista o un banco.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Estar jurídicamente listo no es estar habilitado: faltan inicio de actividades,
 **Autoridades o contrapartes involucradas:** Registro de Empresas y Sociedades, SII, Conservador de Bienes Raíces, Diario Oficial.
 **Profesionales de apoyo:** abogado corporativo, notario, contador, ejecutivo bancario. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide así si cierras la etapa. Uno: ¿tienes el certificado de estatuto y de vigencia al día? Dos: ¿RUT, domicilios y poderes están acreditados? Tres: ¿hay libros y actas iniciales? Cuatro: ¿abriste la cuenta bancaria? Si todo es sí, estás jurídicamente listo; ahora falta lo tributario y sectorial. Una pyme de catering marca todo, pero aún necesita inicio de actividades, patente municipal y autorización sanitaria antes de vender.
+
+### 5. En qué se apoya
+
+- **Constitución de empresas** (Registro de Empresas y Sociedades / ChileAtiende): El Registro de Empresas y Sociedades entrega los documentos que prueban la existencia y los estatutos de la sociedad, base del checklist.
+- **The Checklist Manifesto** (Metropolitan Books): Gawande muestra que las listas de verificación simples reducen errores evitables en tareas complejas, argumento a favor de cerrar cada etapa con una lista.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -156,6 +161,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para verificar el cierre de la etapa societaria y las brechas hacia la habilitación operativa.
+
+**Metropolitan Books — The Checklist Manifesto**  
+<https://openlibrary.org/isbn/9780312430009> · verificado 2026-11-25
+
+- *Qué contiene:* Muestra cómo listas de verificación simples reducen errores evitables en trabajos complejos. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Checklist Manifesto» para verificar el cierre de la etapa societaria y las brechas hacia la habilitación operativa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Proveedor alternativo** | Segunda fuente aprobada para el mismo insumo. |
 | **Evaluación periódica** | Revisión del desempeño del proveedor en el tiempo. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: A qué proveedores exigirles una segunda fuente
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Homologación"]
-    C --> A2["Criterio de evaluación"]
-    C --> A3["Proveedor alternativo"]
-    C --> A4["Evaluación periódica"]
-    A1 & A2 & A3 & A4 --> D{{"definir el proceso de<br/>homologación y qué insumos<br/>exigen segunda fuente"}}
-    D --> E["Entregable<br/>procedimiento de homologación<br/>con criterios ponderados y<br/>registro de proveedores<br/>aprobados"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Homologar antes de comprar evita descubrir el problema con el pedido urgente; el criterio debe incluir riesgo, como solvencia, cumplimiento previsional y capacidad, y no solo precio.
+
+![Esquema: A qué proveedores exigirles una segunda fuente](modelo-mental.svg)
+
+**Cómo leerlo:** Ubica cada proveedor según el riesgo que representa y la importancia de lo que te vende. El cuadrante superior derecho exige acción antes de que ocurra la falla.
+
+**Una imagen cotidiana:** Es revisar el paracaídas antes del salto: no quieres descubrir su estado durante la caída.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Homologar antes de comprar evita descubrir el problema con el pedido urgente. El
 
 ### 2. Cómo se traduce en la práctica
 
-Solvencia, cumplimiento previsional y capacidad de entrega son parte del criterio, porque un proveedor barato que incumple traslada su problema a tu cliente. Tener una segunda fuente aprobada para insumos críticos cuesta poco y evita negociar bajo presión cuando el proveedor único falla.
+Define los criterios de homologación: solvencia, cumplimiento de obligaciones laborales y previsionales, certificaciones sectoriales, capacidad y precio. Solicita documentos y verifica referencias. Para los insumos críticos, exige una segunda fuente homologada. Evalúa periódicamente a los proveedores y registra el desempeño. Los certificados de cumplimiento protegen a la empresa.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Solvencia, cumplimiento previsional y capacidad de entrega son parte del criteri
 **Autoridades o contrapartes involucradas:** SEREMI de Salud en rubros con trazabilidad sanitaria, SERNAC en garantía y postventa.
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿el insumo es crítico para tu operación? Dos: ¿el proveedor tiene solvencia, cumple sus obligaciones laborales y tiene capacidad para tus volúmenes? Tres: ¿hay una alternativa calificada? Una empresa de alimentos descubre que su único proveedor de envases no tiene autorización sanitaria vigente; homologa un segundo proveedor antes de un lote grande.
+
+### 5. En qué se apoya
+
+- **Relaciones laborales y obligaciones del empleador** (Dirección del Trabajo): La Dirección del Trabajo informa los certificados de cumplimiento de obligaciones laborales y previsionales que una empresa puede exigir a sus proveedores.
+- **Autorización sanitaria de alimentos** (ChileAtiende · Autoridad Sanitaria Regional): La autoridad sanitaria regional informa la autorización de alimentos, un requisito que se verifica al homologar proveedores del rubro.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Riesgos de las relaciones con terceros
 
@@ -174,6 +179,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir el proceso de homologación y qué insumos exigen segunda fuente.
+
+**Dirección del Trabajo — Relaciones laborales y obligaciones del empleador**  
+<https://www.dt.gob.cl/> · verificado 2026-11-05
+
+- *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
+- *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
+- *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir el proceso de homologación y qué insumos exigen segunda fuente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

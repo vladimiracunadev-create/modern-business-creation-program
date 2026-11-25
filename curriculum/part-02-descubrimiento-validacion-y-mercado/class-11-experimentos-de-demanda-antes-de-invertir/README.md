@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Señal débil** | Clic, me gusta, encuesta o promesa verbal. |
 | **Costo del experimento** | Gasto máximo aceptable para obtener la señal. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuánto compromiso demuestra cada señal
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Experimento de demanda"]
-    C --> A2["Señal fuerte"]
-    C --> A3["Señal débil"]
-    C --> A4["Costo del experimento"]
-    A1 & A2 & A3 & A4 --> D{{"elegir el experimento que<br/>produce la señal más fuerte al<br/>menor costo"}}
-    D --> E["Entregable<br/>diseño de experimento con<br/>señal buscada, umbral de<br/>éxito, costo y plazo"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un experimento de demanda vale por la fricción que impone: pedir una seña o una firma separa el interés del compromiso real.
+
+![Esquema: Cuánto compromiso demuestra cada señal](modelo-mental.svg)
+
+**Qué mirar primero:** Cada peldaño exige más del cliente y por eso informa más. Un resultado en los primeros peldaños es barato pero débil; uno en los últimos es costoso pero convincente.
+
+**Piénsalo así:** Es la diferencia entre aplaudir una canción y comprar la entrada del concierto: ambos suman, pero solo el segundo prueba la demanda.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un experimento de demanda vale por la fricción que impone: pedir una tarjeta, u
 
 ### 2. Cómo se traduce en la práctica
 
-La fricción es lo que hace válido el experimento: pedir una tarjeta o un anticipo separa el interés del compromiso. Al mismo tiempo, ofrecer algo que aún no existe exige cuidado con la Ley del Consumidor: la comunicación debe dejar claro el estado real de la oferta y los plazos, o el experimento se convierte en publicidad engañosa.
+Antes de lanzar un experimento, define la señal que cuenta como éxito y el peldaño que exige: una seña, una firma o un pago. Informa con claridad qué vendes, cuándo se entrega y qué ocurre si no se cumple, porque lo ofrecido obliga. Ajusta el costo del experimento a la decisión que informará: no gastes un mes en probar lo que una semana puede responder.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ La fricción es lo que hace válido el experimento: pedir una tarjeta o un antic
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: una startup publica una página que describe su servicio y obtiene 400 visitas y 60 correos; concluye que hay demanda. Después: ofrece una preventa con un 30 % de seña y un plazo de entrega claro; de 60 interesados, pagan 7. Ahora sabe que el interés real es cercano al 12 %, no al 100 % que aparentaba. Informó claramente lo que vendía, porque prometer algo inexistente exige cuidado con la Ley del Consumidor (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **The Lean Startup (2011)** (Crown Business): Ries distingue entre indicadores de vanidad y métricas accionables, y pide medir comportamientos que demuestren compromiso real del cliente.
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica criterios de información al consumidor que obligan a describir con veracidad lo que se ofrece al vender algo que aún no existe en su forma final.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para elegir el experimento que produce la señal más fuerte al menor costo.
+
+**Crown Business — The Lean Startup (2011)**  
+<https://openlibrary.org/isbn/9780307887894> · verificado 2026-11-25
+
+- *Qué contiene:* Propone construir, medir y aprender con ciclos cortos y con indicadores accionables, en lugar de métricas de vanidad.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «The Lean Startup (2011)» para elegir el experimento que produce la señal más fuerte al menor costo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

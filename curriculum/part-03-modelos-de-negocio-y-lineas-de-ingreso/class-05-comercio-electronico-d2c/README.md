@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Retracto** | Derecho del consumidor a desistir en los plazos y casos legales. |
 | **Costo logístico inverso** | Costo de recibir y reponer un producto devuelto. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: De cada pedido, ¿cuánto te queda realmente?
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["D2C"]
-    C --> A2["Contribución por pedido"]
-    C --> A3["Retracto"]
-    C --> A4["Costo logístico inverso"]
-    A1 & A2 & A3 & A4 --> D{{"determinar la contribución<br/>real por pedido y el nivel de<br/>servicio comprometido"}}
-    D --> E["Entregable<br/>modelo de contribución por<br/>pedido con todos los costos<br/>variables y tasa de devolución"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un negocio D2C se evalúa por la contribución por pedido, no por el margen bruto del producto: pasarela, despacho, embalaje y devoluciones consumen puntos que rara vez se modelan.
+
+![Esquema: De cada pedido, ¿cuánto te queda realmente?](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra es lo que queda de la venta tras un costo. La última es lo que aporta el pedido para pagar marketing y gastos fijos. Si es menor que el costo de captar al cliente, vender más pierde dinero (cifras ilustrativas).
+
+**Piénsalo así:** Es la propina de un garzón: el valor de la cuenta no es lo que lleva a casa, sino lo que queda después de todos los descuentos.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El e-commerce D2C se evalúa por contribución por pedido, no por margen bruto d
 
 ### 2. Cómo se traduce en la práctica
 
-Comisión de pasarela, despacho, embalaje y devoluciones consumen puntos que rara vez se modelan al inicio. Y el Reglamento de Comercio Electrónico exige informar precio total antes del pago, confirmar la compra con sus condiciones y respetar el retracto: la operación debe poder sostener lo que la web promete.
+Modela un pedido típico con todos los costos: producto, embalaje, despacho, comisión de pasarela, devoluciones, atención y garantía. Calcula la contribución y compárala con el costo de adquisición. Recuerda las obligaciones del comercio electrónico: información de precio, plazos y derecho de retracto. Fija el nivel de servicio que prometes en despacho y devolución solo si tu margen lo soporta.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Comisión de pasarela, despacho, embalaje y devoluciones consumen puntos que rar
 **Autoridades o contrapartes involucradas:** SERNAC, FNE, SII.
 **Profesionales de apoyo:** fundador, abogado comercial, contador de gestión. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una tienda vende un producto a $30.000. Su costo es $10.500, el despacho y embalaje cuestan $4.800, la pasarela y las devoluciones promedio $3.000. Quedan $11.700 por pedido. Si captar un cliente le cuesta $12.000 en publicidad, pierde $300 en cada primera compra y solo gana si el cliente recompra. Antes de escalar debe medir la recompra y el costo logístico inverso (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Ley 19.496, comercio electrónico y garantía legal** (Servicio Nacional del Consumidor): El SERNAC publica la interpretación de la Ley del Consumidor para el comercio electrónico, incluidos el retracto y la garantía, que determinan costos reales de devolución.
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican por qué el margen bruto no basta y cómo ver cuánto aporta cada venta una vez cubiertos los costos asociados.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para determinar la contribución real por pedido y el nivel de servicio comprometido.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para determinar la contribución real por pedido y el nivel de servicio comprometido.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

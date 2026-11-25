@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Revisión humana** | Control que valida la salida antes de que produzca efecto. |
 | **Dato de entrada** | Información que se entrega al modelo, con sus implicancias de confidencialidad. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Qué datos puedes entregar a un modelo de IA
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["IA generativa"]
-    C --> A2["Caso de uso acotado"]
-    C --> A3["Revisión humana"]
-    C --> A4["Dato de entrada"]
-    A1 & A2 & A3 & A4 --> D{{"definir casos de uso<br/>permitidos, datos autorizados<br/>y control de revisión"}}
-    D --> E["Entregable<br/>política de uso de IA con<br/>casos permitidos, datos<br/>autorizados y controles de<br/>revisión"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El uso responsable de la IA en operaciones exige tres definiciones: qué datos se pueden entregar al modelo, quién revisa la salida y qué se registra.
+
+![Esquema: Qué datos puedes entregar a un modelo de IA](modelo-mental.svg)
+
+**Cómo leerlo:** Cada banda es una regla de uso. Antes de pegar información en un servicio externo, clasifica el dato: lo que es del cliente o de terceros no se entrega sin acuerdo previo.
+
+**Una imagen cotidiana:** Es la regla de una biblioteca: puedes consultar cualquier libro, pero los documentos reservados no salen de la sala sin autorización.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El uso responsable en operaciones exige tres definiciones: qué datos se pueden 
 
 ### 2. Cómo se traduce en la práctica
 
-Entregar datos de clientes a un servicio sin acuerdo de tratamiento puede constituir una cesión no autorizada bajo la normativa de datos personales. Y publicar salidas de modelos sin revisión humana en materias de riesgo —legal, tributaria, médica— traslada al cliente un error que la empresa no detectó.
+Define los casos de uso permitidos, los datos autorizados y quién revisa la salida. Registra qué se envía a cada servicio y con qué configuración de privacidad. Capacita al equipo: el error más común es pegar información de clientes en un servicio sin acuerdo de tratamiento. La responsabilidad por el resultado sigue siendo de la empresa, no del modelo.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Entregar datos de clientes a un servicio sin acuerdo de tratamiento puede consti
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Cómo se decide, paso a paso
+
+Decide con tres preguntas. Uno: ¿el dato es público o anónimo? Entonces puedes usarlo. Dos: ¿es interno de la empresa? Solo con un proveedor evaluado y un acuerdo. Tres: ¿contiene datos personales de clientes? No, salvo que exista un acuerdo de tratamiento y una base de licitud. Una agencia permite usar IA para borradores de textos con información pública, pero prohíbe pegar contratos o listas de clientes.
+
+### 5. En qué se apoya
+
+- **Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales** (Biblioteca del Congreso Nacional): La Ley 21.719 regula el tratamiento de datos personales y exige una base legítima, lo que condiciona entregar datos de clientes a un servicio de IA.
+- **Thinking, Fast and Slow** (Macmillan): Kahneman describe cómo las personas confían en juicios fluidos aunque sean erróneos, razón por la cual la salida de un modelo debe ser revisada por una persona.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -149,6 +154,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir casos de uso permitidos, datos autorizados y control de revisión.
+
+**Biblioteca del Congreso Nacional — Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1209272> · verificado 2026-11-25
+
+- *Qué contiene:* Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.
+- *Cómo leerla:* Úsala como estándar de diseño del protocolo de incidentes. La vigencia de sus modificaciones se fijó en el 15-10-2027 por la Ley 21.855: comprueba la fecha en la ficha de la BCN antes de planificar.
+- *Uso en esta clase:* aporta el marco de «Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales» para definir casos de uso permitidos, datos autorizados y control de revisión.
+
+**Macmillan — Thinking, Fast and Slow**  
+<https://openlibrary.org/isbn/9781464166174> · verificado 2026-11-25
+
+- *Qué contiene:* Describe sesgos y heurísticas de la decisión humana a partir de dos modos de pensar.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Thinking, Fast and Slow» para definir casos de uso permitidos, datos autorizados y control de revisión.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

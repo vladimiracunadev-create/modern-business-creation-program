@@ -195,10 +195,14 @@ class ArbolTest(unittest.TestCase):
         self.assertEqual(cortos, [], f"clases por debajo del mínimo de profundidad: {cortos[:5]}")
 
     def test_todo_readme_del_curriculo_tiene_diagrama(self) -> None:
+        def con_visual(p) -> bool:
+            texto = p.read_text(encoding="utf-8")
+            if "```mermaid" in texto:
+                return True
+            return "](modelo-mental.svg)" in texto and (p.parent / "modelo-mental.svg").exists()
+
         sin_diagrama = [
-            p.relative_to(RAIZ).as_posix()
-            for p in CURRICULUM.rglob("README.md")
-            if "```mermaid" not in p.read_text(encoding="utf-8")
+            p.relative_to(RAIZ).as_posix() for p in CURRICULUM.rglob("README.md") if not con_visual(p)
         ]
         self.assertEqual(sin_diagrama, [], f"README sin diagrama: {sin_diagrama[:5]}")
 
@@ -842,6 +846,138 @@ class ReputacionCrisisTest(unittest.TestCase):
         for nombre in ("Ley 21.855", "Ley 19.733", "Ley 20.730"):
             self.assertIn(nombre, nombres)
         self.assertIn("15-10-2027", nombres["Ley 21.719"]["scope"])
+
+
+FORMATOS_VALIDOS = {"caso", "numerico", "dialogo", "error", "antes_despues", "decision", "simulacion"}
+
+
+class ModelosMentalesTest(unittest.TestCase):
+    """Cada clase con modelo mental trae un gráfico propio, un ejemplo y su fundamento."""
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.visuales = {}
+        for archivo in sorted((MANIFESTS / "visuales").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                cls.visuales[entrada["n"]] = entrada
+        cls.clases = {}
+        for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                cls.clases[entrada["n"]] = entrada
+        for archivo in sorted((MANIFESTS / "pedagogia").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                cls.clases[entrada["n"]].update(entrada)
+        cls.fuentes = {
+            f["manifest_id"]: f
+            for f in json.loads(
+                (RAIZ / "sources" / "bibliography.json").read_text(encoding="utf-8")
+            )["entries"]
+        }
+        cls.curriculo = {c["global_class"]: c for c in cargar("curriculum.json")}
+
+    def _carpeta(self, numero: int):
+        clase = self.curriculo[numero]
+        return next(
+            CURRICULUM.glob(f"part-{clase['part']:02d}-*/class-{clase['class']:02d}-*")
+        )
+
+    def test_la_parte_14_tiene_su_modelo_mental_y_cada_uno_es_distinto(self) -> None:
+        self.assertTrue(set(range(183, 197)) <= set(self.visuales))
+        tipos = [self.visuales[n]["tipo"] for n in range(183, 197)]
+        # Los dos de «curva» difieren por subtipo; el resto son arquetipos distintos.
+        firmas = [
+            (v["tipo"], v["datos"].get("tipo")) for v in (self.visuales[n] for n in range(183, 197))
+        ]
+        self.assertEqual(len(set(firmas)), 14, f"arquetipos repetidos: {tipos}")
+
+    def test_clases_contiguas_nunca_comparten_arquetipo(self) -> None:
+        for numero in sorted(self.visuales):
+            if numero + 1 in self.visuales:
+                with self.subTest(clase=numero):
+                    a, b = self.visuales[numero], self.visuales[numero + 1]
+                    self.assertNotEqual(
+                        (a["tipo"], a["datos"].get("tipo")), (b["tipo"], b["datos"].get("tipo"))
+                    )
+
+    def test_cada_modelo_trae_idea_lectura_analogia_ejemplo_y_fundamento(self) -> None:
+        for numero, v in sorted(self.visuales.items()):
+            with self.subTest(clase=numero):
+                self.assertGreaterEqual(len(v["idea"].split()), 14)
+                self.assertGreaterEqual(len(v["lectura"].split()), 14)
+                self.assertGreaterEqual(len(v["analogia"].split()), 10)
+                self.assertGreaterEqual(len(v["ejemplo"].split()), 35)
+                self.assertGreaterEqual(len(v["fundamento"]), 1)
+                for apoyo in v["fundamento"]:
+                    self.assertIn(apoyo["fuente"], self.fuentes)
+                    self.assertGreaterEqual(len(apoyo["apoyo"].split()), 12)
+                self.assertTrue((self._carpeta(numero) / "modelo-mental.svg").exists())
+
+    def test_los_ejemplos_numericos_se_declaran_ilustrativos(self) -> None:
+        for numero, v in sorted(self.visuales.items()):
+            if re.search(r"\d", v["ejemplo"]):
+                with self.subTest(clase=numero):
+                    self.assertRegex(v["ejemplo"], r"ilustrativ")
+
+    def test_el_desarrollo_practico_no_repite_el_fondo_del_asunto(self) -> None:
+        for numero in sorted(self.visuales):
+            fondo = set(re.findall(r"\w{5,}", self.clases[numero]["desarrollo"].lower()))
+            practica = set(re.findall(r"\w{5,}", self.clases[numero]["desarrollo2"].lower()))
+            solape = len(fondo & practica) / max(len(practica), 1)
+            with self.subTest(clase=numero):
+                self.assertLess(solape, 0.5, f"solape {solape:.0%}")
+
+    def test_los_libros_del_registro_tienen_isbn_y_se_citan(self) -> None:
+        libros = {k: f for k, f in self.fuentes.items() if f["type"] == "book"}
+        self.assertGreaterEqual(len(libros), 9)
+        for identificador, libro in libros.items():
+            with self.subTest(libro=identificador):
+                self.assertEqual(len(libro["isbn13"]), 13)
+                self.assertEqual(
+                    libro["locator"], f"https://openlibrary.org/isbn/{libro['isbn13']}"
+                )
+                self.assertTrue(libro["used_in"])
+
+    def test_el_svg_es_accesible_y_autocontenido(self) -> None:
+        for numero in sorted(self.visuales):
+            texto = (self._carpeta(numero) / "modelo-mental.svg").read_text(encoding="utf-8")
+            with self.subTest(clase=numero):
+                self.assertIn("<title", texto)
+                self.assertIn("<desc", texto)
+                self.assertIn('role="img"', texto)
+                self.assertNotIn("http://www.w3.org/1999/xlink", texto)
+                self.assertNotRegex(texto, r"<script|<image|href=\"http")
+
+    def test_el_readme_de_la_clase_trae_las_cinco_piezas_pedagogicas(self) -> None:
+        for numero in sorted(self.visuales):
+            texto = (self._carpeta(numero) / "README.md").read_text(encoding="utf-8")
+            with self.subTest(clase=numero):
+                for pieza in (
+                    "## 🗺️ Modelo mental:", "**La idea en una frase:**", "(modelo-mental.svg)",
+                    "### 5. En qué se apoya",
+                ):
+                    self.assertIn(pieza, texto)
+                self.assertRegex(texto, r"\*\*(Cómo leerlo|Qué mirar primero|Lectura guiada):\*\*")
+                self.assertRegex(
+                    texto, r"\*\*(Una analogía|Piénsalo así|Para recordarlo|Una imagen cotidiana):\*\*"
+                )
+                self.assertRegex(texto, r"### 4\. (Caso trabajado|Los números, paso a paso|Una conversación que enseña|Un error y su corrección|Antes y después|Cómo se decide, paso a paso|Pruébalo tú: mini simulación)")
+                self.assertIn(self.visuales[numero]["formato"], FORMATOS_VALIDOS)
+
+    def test_los_formatos_pedagogicos_varian_dentro_de_cada_parte(self) -> None:
+        por_parte: dict[int, set] = {}
+        for numero, v in self.visuales.items():
+            por_parte.setdefault(self.curriculo[numero]["part"], set()).add(v["formato"])
+        for parte, formatos in por_parte.items():
+            with self.subTest(parte=parte):
+                self.assertGreaterEqual(len(formatos), 4, f"parte {parte}: {sorted(formatos)}")
+
+    def test_clases_contiguas_no_repiten_formato_pedagogico(self) -> None:
+        for numero in sorted(self.visuales):
+            if numero + 1 in self.visuales:
+                with self.subTest(clase=numero):
+                    self.assertNotEqual(
+                        self.visuales[numero]["formato"], self.visuales[numero + 1]["formato"]
+                    )
 
 
 if __name__ == "__main__":

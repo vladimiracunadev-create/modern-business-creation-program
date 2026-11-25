@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Excepciones** | Información pública, previamente conocida o de desarrollo independiente. |
 | **Plazo de confidencialidad** | Duración de la obligación tras terminar la relación. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Cuándo una información es realmente protegible
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["NDA"]
-    C --> A2["Información confidencial"]
-    C --> A3["Excepciones"]
-    C --> A4["Plazo de confidencialidad"]
-    A1 & A2 & A3 & A4 --> D{{"definir qué información se<br/>protege, por cuánto tiempo y<br/>con qué medidas"}}
-    D --> E["Entregable<br/>NDA con definición de<br/>información confidencial,<br/>excepciones, plazo y medidas<br/>de protección"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un NDA vale por su definición de información confidencial y su plazo: definiciones demasiado amplias son inaplicables y demasiado estrechas dejan fuera lo que importa.
+
+![Esquema: Cuándo una información es realmente protegible](modelo-mental.svg)
+
+**Lectura guiada:** Las tres condiciones deben coincidir. Si algo es público, no se protege; si no tiene valor, no merece protección; si no se cuida, es difícil defender que era reservado.
+
+**Una imagen cotidiana:** Es una receta secreta: solo lo es si no está publicada, si tiene valor y si la guardas con llave.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un NDA vale por su definición de información confidencial y su plazo. Definici
 
 ### 2. Cómo se traduce en la práctica
 
-Una definición demasiado amplia es inaplicable y una demasiado estrecha deja fuera lo que importa. Además, para que la ley proteja un secreto empresarial hay que acreditar medidas razonables de resguardo: proteger por contrato información que circula sin control no produce protección real.
+Define la información que se protege con ejemplos concretos y las excepciones habituales (pública, conocida antes, desarrollada independientemente, exigida por ley). Fija el plazo de reserva y las obligaciones de devolución o destrucción. Complementa el acuerdo con medidas reales: acceso por necesidad, registros y cláusulas con empleados. La ley chilena distingue el secreto comercial de la mera reserva contractual.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Una definición demasiado amplia es inaplicable y una demasiado estrecha deja fu
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Pruébalo tú: mini simulación
+
+Redacta la definición de información confidencial de un NDA para compartir tu lista de clientes con un posible socio. Escribe tres cosas que sí protegerías (lista, precios, métodos), dos que no (información pública del sitio, datos que el socio ya tenía) y el plazo de reserva. Anota qué medidas tomarás: acceso limitado, copia numerada, devolución al término. Evalúa si tu definición cumple las tres condiciones del gráfico. El ejercicio es ilustrativo.
+
+### 5. En qué se apoya
+
+- **DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial** (Biblioteca del Congreso Nacional): El texto refundido de la Ley 19.039 define los requisitos del secreto comercial y las acciones disponibles ante su obtención ilícita.
+- **Código Penal — Artículos 284 a 284 sexies (secreto comercial)** (Biblioteca del Congreso Nacional): El Código Penal tipifica conductas relacionadas con el secreto comercial, lo que refuerza la importancia de proteger la información con medidas reales y no solo con un NDA.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Protección de secretos comerciales
 

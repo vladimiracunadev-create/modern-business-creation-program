@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Sustituto** | Forma alternativa de lograr el progreso, incluido no hacer nada. |
 | **Matriz competitiva** | Comparación por atributos que el cliente usa para decidir. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Contra quién compites en la decisión del cliente
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Competidor directo"]
-    C --> A2["Competidor indirecto"]
-    C --> A3["Sustituto"]
-    C --> A4["Matriz competitiva"]
-    A1 & A2 & A3 & A4 --> D{{"identificar contra qué compite<br/>realmente la oferta en la<br/>decisión del cliente"}}
-    D --> E["Entregable<br/>matriz de competidores y<br/>benchmarks con directos,<br/>indirectos, sustitutos, statu<br/>quo, barreras y señales"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El competidor más frecuente de una empresa nueva es el statu quo: la planilla, el cuaderno o la costumbre del cliente.
+
+![Esquema: Contra quién compites en la decisión del cliente](modelo-mental.svg)
+
+**Cómo leerlo:** Cada satélite es una forma en que el cliente puede resolver su problema sin ti. Una matriz competitiva útil compara por los criterios con que el cliente decide, no por los atributos que a ti te gustaría destacar.
+
+**Piénsalo así:** Es una carrera donde no solo corren los otros atletas: también compite quien decide quedarse en casa.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El competidor más frecuente en una empresa nueva es el statu quo. Una matriz co
 
 ### 2. Cómo se traduce en la práctica
 
-Una matriz útil compara por criterios que el cliente declara y debe incluir el statu quo. Los benchmarks no son adornos: se explica qué dimensión es comparable y cuál no. Barreras y señales de crecimiento o contracción llevan fuente y fecha, porque una fotografía competitiva sin contexto temporal se vuelve falsa con rapidez.
+Lista todo lo que tu cliente usa hoy para resolver el problema, incluida la opción de no hacer nada. Pregúntale por qué elige lo que elige y con qué criterios. Construye una matriz con esos criterios, no con los tuyos, y puntúa a todos honestamente. Revisa la competencia desleal: compararse es legítimo, pero no se debe engañar ni denigrar a terceros.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ Una matriz útil compara por criterios que el cliente declara y debe incluir el 
 **Autoridades o contrapartes involucradas:** INE, Banco Central de Chile, SII (estadísticas de empresas por rubro).
 **Profesionales de apoyo:** fundador, investigador de mercado, analista de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Caso trabajado
+
+Una empresa de software de inventario para ferreterías analiza a sus competidores: encuentra dos software similares (directos), pero el 70 % de las ferreterías que entrevista usa un cuaderno o una planilla (statu quo). El cliente declara que decide por cuatro criterios: facilidad para empezar, costo mensual, soporte en español y boleta electrónica. Reorganiza su mensaje para ganarle a la planilla en facilidad y en boleta electrónica (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Blue Ocean Strategy** (Harvard Business School Press): Kim y Mauborgne proponen comparar la oferta con las alternativas por los factores de competencia que valora el cliente, para ver dónde diferenciarse.
+- **Competitive Strategy** (Free Press): Porter incluye entre las fuerzas competitivas la amenaza de sustitutos y de nuevos entrantes, que amplían el mapa más allá de los competidores directos.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Competencia lícita frente a inteligencia desleal
 
@@ -189,6 +194,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Define el acto de competencia desleal como la conducta contraria a la buena fe o a las buenas costumbres que, por medios ilegítimos, persigue desviar clientela; enumera conductas particulares y las acciones de cesación, declaración, remoción de efectos e indemnización.
 - *Cómo leerla:* La enumeración del artículo 4 no es taxativa y no menciona expresamente la obtención de secretos, que se trata en la ley de propiedad industrial y en el Código Penal. Úsala para inducción a incumplir contratos, engaño y denigración, y para ejercer acciones civiles.
 - *Uso en esta clase:* aporta el marco de «Ley 20.169 — Regula la competencia desleal» para identificar contra qué compite realmente la oferta en la decisión del cliente.
+
+**Harvard Business School Press — Blue Ocean Strategy**  
+<https://openlibrary.org/isbn/9781591396192> · verificado 2026-11-25
+
+- *Qué contiene:* Propone crear espacios de mercado sin competencia redefiniendo el valor ofrecido y la estructura de costos.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Blue Ocean Strategy» para identificar contra qué compite realmente la oferta en la decisión del cliente.
+
+**Free Press — Competitive Strategy**  
+<https://openlibrary.org/isbn/9780029253601> · verificado 2026-11-25
+
+- *Qué contiene:* Presenta el análisis de las cinco fuerzas y las estrategias genéricas para estudiar una industria.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Competitive Strategy» para identificar contra qué compite realmente la oferta en la decisión del cliente.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

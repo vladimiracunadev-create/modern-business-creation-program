@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Menor privilegio** | Acceso limitado a lo estrictamente necesario. |
 | **Ciclo de vida del acceso** | Alta, modificación y baja de permisos. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: El ciclo de vida de un acceso
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Dominio"]
-    C --> A2["Identidad corporativa"]
-    C --> A3["Menor privilegio"]
-    C --> A4["Ciclo de vida del acceso"]
-    A1 & A2 & A3 & A4 --> D{{"definir la administración de<br/>identidad y el ciclo de vida<br/>de los accesos"}}
-    D --> E["Entregable<br/>inventario de accesos por<br/>persona y sistema con<br/>procedimiento de alta, cambio<br/>y baja"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El dominio y las cuentas de correo deben estar a nombre de la empresa y no de una persona; el ciclo de vida del acceso, en especial la baja al salir alguien, es el control más descuidado.
+
+![Esquema: El ciclo de vida de un acceso](modelo-mental.svg)
+
+**Qué mirar primero:** El ciclo se repite con cada persona. Lo que no se revisa se acumula: accesos de quienes cambiaron de rol o se fueron, que siguen abiertos sin que nadie lo note.
+
+**Una imagen cotidiana:** Es el manejo de las llaves de una oficina: se entregan con registro, se cambian cuando alguien cambia de función y se recuperan el día que se va.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El dominio y las cuentas de correo deben estar a nombre de la empresa y no de un
 
 ### 2. Cómo se traduce en la práctica
 
-El dominio registrado a nombre personal de un socio o de un proveedor es el error que más bloquea operaciones cuando esa relación termina. Y la baja de accesos es el control que más se omite: credenciales que sobreviven a la salida de una persona son la vía de incidente más frecuente en empresas pequeñas.
+Registra el dominio, el correo y las cuentas clave a nombre de la empresa, con al menos dos administradores. Otorga a cada persona los permisos mínimos para su función. Haz una lista de verificación de salida con la baja de accesos el mismo día. Revisa cada trimestre quién tiene acceso a qué. El acceso indebido a sistemas puede constituir un delito informático.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El dominio registrado a nombre personal de un socio o de un proveedor es el erro
 **Autoridades o contrapartes involucradas:** ANCI, CSIRT Nacional, Agencia de Protección de Datos Personales (en implementación).
 **Profesionales de apoyo:** responsable de TI, consultor de ciberseguridad, analista de datos, abogado de datos. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Una conversación que enseña
+
+Gerente: «Nuestro diseñador renunció hace dos meses y todavía puede entrar al sitio web». Encargado de sistemas: «Su cuenta no se dio de baja y el dominio está a su nombre». Gerente: «¿Y si decide cambiar el contenido?». Encargado: «Podría, y no tendríamos cómo recuperar el dominio sin su cooperación. Pasemos todo a la empresa y creemos una lista de baja el mismo día de cada salida» (conversación ilustrativa).
+
+### 5. En qué se apoya
+
+- **Ley 21.459 — Delitos informáticos** (Biblioteca del Congreso Nacional): La Ley 21.459 tipifica delitos informáticos como el acceso ilícito a sistemas, que muestra por qué los accesos de personas que ya no deben tenerlos son un riesgo legal.
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): La Biblioteca del Congreso Nacional publica la ley y su contexto, referencia para entender las obligaciones de proteger los sistemas.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🛡️ Protección del conocimiento: Ingeniería social empresarial
 

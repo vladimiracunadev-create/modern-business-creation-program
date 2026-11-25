@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Tiempo de respuesta y de resolución** | Plazos comprometidos por severidad. |
 | **Crédito de servicio** | Compensación por incumplimiento del sla. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Disponibilidad medida y consecuencia pactada
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["SLA"]
-    C --> A2["Disponibilidad"]
-    C --> A3["Tiempo de respuesta y de<br/>resolución"]
-    C --> A4["Crédito de servicio"]
-    A1 & A2 & A3 & A4 --> D{{"definir métricas, exclusiones<br/>y consecuencias del nivel de<br/>servicio"}}
-    D --> E["Entregable<br/>SLA con métricas medibles,<br/>método de medición,<br/>exclusiones y créditos de<br/>servicio"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** Un SLA sin medición no es un compromiso, es una declaración: debe definir cómo se mide, quién mide, qué se excluye y cuál es la consecuencia.
+
+![Esquema: Disponibilidad medida y consecuencia pactada](modelo-mental.svg)
+
+**Qué mirar primero:** Cada banda es un nivel de cumplimiento con su efecto. Los umbrales y créditos son un ejemplo; lo importante es que estén escritos, medidos y con una consecuencia clara.
+
+**Piénsalo así:** Es la garantía de un electrodoméstico: vale por lo que dice y por cómo se hace efectiva, no por el folleto.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ Un SLA sin medición no es un compromiso, es una declaración. Debe definir cóm
 
 ### 2. Cómo se traduce en la práctica
 
-Un SLA sin medición es una declaración. Debe especificar quién mide y con qué herramienta, qué se excluye —mantenimiento programado, fuerza mayor, causas del cliente— y cuál es el crédito de servicio, que en la práctica suele operar como límite de responsabilidad del proveedor.
+Define las métricas (disponibilidad, tiempo de respuesta, tiempo de resolución), la forma de medirlas, el responsable de la medición y las exclusiones (mantención programada, fuerza mayor, causas del cliente). Fija créditos de servicio y el derecho de terminar tras incumplimientos reiterados. Establece cómo se reportan los resultados y cada cuánto se revisan.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -65,6 +59,17 @@ Un SLA sin medición es una declaración. Debe especificar quién mide y con qu�
 **Autoridades o contrapartes involucradas:** Tribunales ordinarios, Centros de arbitraje (CAM Santiago).
 **Profesionales de apoyo:** abogado comercial, responsable de contratos, finanzas. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Antes y después
+
+Antes: un proveedor promete «alta disponibilidad» en su contrato y, tras una caída de 9 horas, el cliente reclama pero no hay métrica ni crédito pactado. Después: un SLA fija 99,9 % medido por un monitor independiente, excluye mantenciones programadas con aviso y establece créditos escalonados. La siguiente caída de 4 horas activa un crédito automático y el proveedor mejora su plan de continuidad (caso ilustrativo).
+
+### 5. En qué se apoya
+
+- **Normativa oficial consolidada** (Biblioteca del Congreso Nacional · LeyChile): El Código Civil y el Código de Comercio regulan las obligaciones contractuales y sus remedios, que fundan la exigibilidad de los créditos de servicio pactados.
+- **Site Reliability Engineering** (O'Reilly): Beyer y sus coautores explican los objetivos de nivel de servicio y el presupuesto de error como forma de medir y gestionar la confiabilidad de un servicio.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -157,6 +162,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Reúne el circuito completo del contribuyente nuevo: obtención de RUT, declaración de inicio de actividades, elección de códigos de actividad económica y habilitación para emitir documentos tributarios electrónicos.
 - *Cómo leerla:* Sepáralo en dos actos distintos que la página trata seguidos: el RUT identifica, el inicio de actividades habilita. Lo que te bloquea para facturar casi siempre está en el segundo, no en el primero.
 - *Uso en esta clase:* aporta el marco de «Nuevos contribuyentes, inicio de actividades y DTE» para definir métricas, exclusiones y consecuencias del nivel de servicio.
+
+**O'Reilly — Site Reliability Engineering**  
+<https://openlibrary.org/isbn/9781491929124> · verificado 2026-11-25
+
+- *Qué contiene:* Prácticas de confiabilidad de servicios de Google: objetivos de nivel de servicio, presupuesto de error y gestión de incidentes.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Site Reliability Engineering» para definir métricas, exclusiones y consecuencias del nivel de servicio.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

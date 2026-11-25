@@ -29,21 +29,15 @@ Al finalizar esta clase podrás:
 | **Resultado operacional** | Antes de gastos financieros e impuestos. |
 | **Gasto no operacional** | Resultado ajeno al giro principal. |
 
-## 🗺️ Flujo de razonamiento
+## 🗺️ Modelo mental: Dónde se queda el dinero entre la venta y el resultado
 
-```mermaid
-flowchart TB
-    C["Contexto del caso<br/>actividad · escala · comuna"]
-    C --> A1["Estado de resultados"]
-    C --> A2["Margen bruto"]
-    C --> A3["Resultado operacional"]
-    C --> A4["Gasto no operacional"]
-    A1 & A2 & A3 & A4 --> D{{"determinar si el problema está<br/>en el margen del producto o en<br/>la estructura de gastos"}}
-    D --> E["Entregable<br/>estado de resultados con<br/>apertura por línea de negocio<br/>y análisis de margen"]
-    E --> V{"¿Cumple el criterio<br/>de aceptación?"}
-    V -->|sí| S["Evidencia archivada<br/>y clase siguiente"]
-    V -->|no| C
-```
+> **La idea en una frase:** El estado de resultados responde si el modelo de negocio funciona: el margen bruto dice si el precio cubre el costo de entregar y el resultado operacional dice si la estructura de gastos es sostenible.
+
+![Esquema: Dónde se queda el dinero entre la venta y el resultado](modelo-mental.svg)
+
+**Cómo leerlo:** Cada barra es lo que queda tras un tipo de costo. La mayor caída señala dónde está el problema: en el costo de entregar o en la estructura (cifras ilustrativas).
+
+**Piénsalo así:** Es una cascada con varias pozas: el agua que llega al final depende de cuánto se queda en cada una.
 
 ## 📖 Desarrollo
 
@@ -53,7 +47,7 @@ El estado de resultados responde si el modelo de negocio funciona. La lectura ú
 
 ### 2. Cómo se traduce en la práctica
 
-El margen bruto indica si el precio cubre el costo de entregar; el resultado operacional indica si la estructura cabe dentro de ese margen. Son problemas distintos con soluciones distintas: uno se resuelve con precio o costo directo, el otro con estructura, y confundirlos lleva a recortar donde no corresponde.
+Separa en tu estado de resultados el margen bruto, el resultado operacional y los gastos no operacionales. Calcula los porcentajes sobre ventas y compáralos mes a mes y con tu sector. Si el margen bruto es bajo, revisa precio y costo directo; si es bueno pero el resultado operacional es bajo, revisa la estructura de gastos. Atiende también los gastos no operacionales y los impuestos.
 
 ### 3. Marco aplicable y quién interviene
 
@@ -64,6 +58,17 @@ El margen bruto indica si el precio cubre el costo de entregar; el resultado ope
 **Autoridades o contrapartes involucradas:** SII, Colegio de Contadores de Chile.
 **Profesionales de apoyo:** contador general, auditor, controller. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
+
+### 4. Los números, paso a paso
+
+Una empresa de servicios vende 100 millones y tiene un costo directo de 55 millones: margen bruto de 45 %. Sus gastos de administración y ventas suman 33 millones, de modo que el resultado operacional es de 12 millones (12 %). Tras intereses e impuestos, quedan 8 millones. Si el margen bruto fuera 35 %, la estructura de gastos la dejaría en pérdidas: el problema no sería vender más, sino precio o costo (cifras ilustrativas).
+
+### 5. En qué se apoya
+
+- **Financial Intelligence** (Harvard Business Review Press): Berman y Knight explican cómo se leen el margen bruto y el resultado operacional para entender dónde se gana y dónde se pierde dinero.
+- **Simple Numbers, Straight Talk, Big Profits!** (Greg Crabtree): Crabtree propone indicadores simples de rentabilidad para pequeñas empresas, como la relación entre costo laboral y margen bruto.
+
+*Las lecturas de apoyo ofrecen marcos conceptuales; lo que exige la ley chilena se verifica en las fuentes oficiales de esta clase.*
 
 ## 🧪 Taller guiado
 
@@ -163,6 +168,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar si el problema está en el margen del producto o en la estructura de gastos.
+
+**Harvard Business Review Press — Financial Intelligence**  
+<https://openlibrary.org/isbn/9781591397649> · verificado 2026-11-25
+
+- *Qué contiene:* Explica a personas no financieras cómo leer estados financieros, márgenes, flujo de caja y capital de trabajo.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Financial Intelligence» para determinar si el problema está en el margen del producto o en la estructura de gastos.
+
+**Greg Crabtree — Simple Numbers, Straight Talk, Big Profits!**  
+<https://openlibrary.org/isbn/9780989645232> · verificado 2026-11-25
+
+- *Qué contiene:* Propone indicadores simples para pequeñas empresas, como el costo laboral sobre el margen bruto. Se usa como lectura de apoyo conceptual y no como fuente normativa.
+- *Cómo leerla:* Úsalo como marco conceptual para entender el porqué de la práctica, nunca como prueba de lo que exige la ley chilena; para eso están las fuentes oficiales de la clase.
+- *Uso en esta clase:* aporta el marco de «Simple Numbers, Straight Talk, Big Profits!» para determinar si el problema está en el margen del producto o en la estructura de gastos.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·
