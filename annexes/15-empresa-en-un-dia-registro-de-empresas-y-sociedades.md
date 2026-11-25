@@ -491,7 +491,259 @@ son ilustrativos.
 | Certificado | Documento emitido por la Subsecretaría con valor de instrumento público. |
 | Resciliación | Término de un acto por acuerdo de las partes. |
 
-## 15. Preguntas frecuentes
+## 15. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre los artículos 1 a 13 ter de la Ley 20.659, leídos en Ley Chile
+(BCN).
+
+### Escenario 1: tres socios, uno de viaje
+
+**Situación.** Tres socios completan el formulario de una SpA el 3 de marzo. Dos firman ese día; el tercero viaja y firma
+el 10 de mayo.
+
+**Análisis.** Todos deben firmar **dentro de sesenta días desde la firma del primero**; si no, los formularios se tienen
+por **no suscritos para todos los efectos** (art. 10). Del 3 de marzo al 10 de mayo pasan 68 días. Además, con la firma del
+primero el formulario **no puede modificarse** (art. 10), y solo se entiende incorporado al Registro cuando firman todos
+(art. 4).
+
+**Decisión.** Antes de iniciar, coordinar las agendas de todos los firmantes o designar un apoderado en el formulario.
+
+### Escenario 2: firma sin firma electrónica avanzada
+
+**Situación.** Una socia no tiene firma electrónica avanzada.
+
+**Análisis.** Quien no cuente con firma electrónica avanzada debe suscribir el formulario **ante un notario**, quien estampa
+su firma electrónica avanzada, y se entiende suscrito para todos los efectos. También puede concurrir por representante
+legal o apoderado (art. 9). Los notarios solo pueden cobrar la tarifa fijada por decreto.
+
+**Decisión.** Reservar hora con un notario o tramitar la firma electrónica avanzada antes de la fecha límite.
+
+### Escenario 3: el poder desde el extranjero
+
+**Situación.** Un socio que vive en otro país otorga un poder para firmar por él.
+
+**Análisis.** El poder debe otorgarse según las formas del art. 9 (escritura pública, instrumento privado con firma
+autorizada por notario y protocolizado, o documento electrónico con firma electrónica avanzada). Si se otorga en el
+extranjero, deben cumplirse las normas de **legalización o apostilla**, y una **copia digital íntegra** del instrumento de
+la personería se incorpora al Registro.
+
+**Decisión.** Tramitar apostilla y traducción con anticipación.
+
+### Escenario 4: el RUT que no llegó
+
+**Situación.** Una socia espera una respuesta del SII para recibir el RUT.
+
+**Análisis.** El SII **asigna sin más trámite** un RUT a toda persona jurídica que se constituya conforme a esta ley, en
+forma simultánea a la incorporación al Registro; con la sola incorporación del formulario de constitución se entiende
+requerido (art. 13). En el mismo formulario puede solicitarse el **inicio de actividades** y el **timbraje** de documentos
+tributarios, según el Reglamento.
+
+### Escenario 5: la dirección para el RUT
+
+**Situación.** Los socios no tienen una oficina y quieren dejar el domicilio vacío.
+
+**Análisis.** El formulario debe completar el domicilio social si la ley del tipo societario lo exige, y **todos deben
+especificar una dirección para obtener RUT** (art. 6). Revisa el anexo 18 sobre domicilio.
+
+### Escenario 6: venta de acciones en una SpA acogida
+
+**Situación.** Un socio de una SpA constituida por el Registro vende parte de sus acciones.
+
+**Análisis.** Para las personas jurídicas acogidas, el Registro de Accionistas se lleva **exclusivamente en el sitio del
+Registro**. Toda cesión, adquisición, gravamen y pacto sobre cesión deben inscribirse tras firmar el formulario «De
+Inscripción al Registro de Accionistas»; la suscripción y compraventa pueden hacerse con los formularios «De Suscripción»
+o «De Compraventa de Acciones» firmados por ambas partes (art. 13 bis).
+
+**Decisión.** Designar quién registra (gerente general o administrador) y guardar los certificados.
+
+### Escenario 7: poderes en el Registro de Poderes
+
+**Situación.** Una sociedad quiere dar un poder a un gerente y revocarlo cuando termine su contrato.
+
+**Análisis.** El otorgamiento, modificación y revocación de poderes puede hacerse por formulario, que se incorpora
+automáticamente al **Registro de Poderes**, que es de **acceso público**. Los poderes se entienden vigentes mientras no se
+incorpore su modificación o revocación, y desde su incorporación se entienden revestidos de las solemnidades necesarias, con
+un certificado como prueba (art. 13 ter).
+
+**Decisión.** Mantener actualizado el Registro de Poderes: un poder no revocado sigue vigente.
+
+### Escenario 8: errores manifiestos
+
+**Situación.** Se detecta un error de tipeo en el nombre de un socio.
+
+**Análisis.** El Registro puede rectificar errores manifiestos u omisiones, de oficio o a petición, y la rectificación
+debe registrarse según la ley; no hace cancelaciones de oficio (art. 12).
+
+## 16. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Firmar fuera de los 60 días | Coordinación | Formularios por no suscritos (art. 10) | Calendario de firmas | Escenario 1 |
+| 2 | Modificar tras la primera firma | Detectar errores tarde | No se puede (art. 10) | Revisar antes de firmar | Sección 6 |
+| 3 | Elegir un tipo fuera de la lista | Desconocimiento | No es posible (art. 2) | Revisar el catálogo | Sección 4 |
+| 4 | No tener firma avanzada ni notario | Falta de previsión | No se completa la suscripción (art. 9) | Notario o firma avanzada | Escenario 2 |
+| 5 | Poder extranjero sin apostilla | Apuro | Rechazo (art. 9) | Apostilla y traducción | Escenario 3 |
+| 6 | Dejar el domicilio sin dirección para RUT | Informalidad | Incumple el art. 6 | Dirección válida | Escenario 5 |
+| 7 | Aportar bienes sin la solemnidad exigida | Olvidar el art. 8 | Aporte ineficaz | Cumplir las formalidades del bien | Sección 6 |
+| 8 | Llevar el Registro de Accionistas fuera del sitio | Costumbre | Incumple el art. 13 bis | Llevarlo en el Registro | Escenario 6 |
+| 9 | No revocar poderes | Descuido | Poder vigente (art. 13 ter) | Formulario de revocación | Escenario 7 |
+| 10 | Suponer que el Registro reemplaza permisos | Confusión | Operar sin patente | Anexo 17 | Sección 13 |
+| 11 | Esperar al SII para el RUT | Desconocimiento | Retrasos innecesarios | Revisar el art. 13 | Escenario 4 |
+| 12 | No documentar el apoderado único | Desorden | Dudas sobre quién firmó | Designar en el formulario | Sección 7 |
+| 13 | Mezclar sistemas tradicional y electrónico | Desconocimiento | Doble registro | Seguir el Título VII | Sección 12 |
+| 14 | No guardar los certificados | Desorden | Dificultad para acreditar | Archivo con índice | Sección 8 |
+| 15 | Creer que cualquier acto se hace en el Registro | Confusión | Actos fuera del sistema | Revisar actos admitidos | Sección 10 |
+
+## 17. Alternativas y variantes de diseño
+
+### C.1. Registro en línea frente a la vía tradicional
+
+| Criterio | Registro de Empresas y Sociedades | Escritura, extracto, inscripción y publicación |
+|---|---|---|
+| Naturaleza | Voluntaria; solo para los ocho tipos del art. 2 | Para cualquier tipo y para quienes no se acojan |
+| Forma | Formulario electrónico (art. 4) | Escritura y trámites conservatorios |
+| Firma | Firma electrónica avanzada o notario (art. 9) | Escritura pública o privada autorizada |
+| Plazo de firmas | 60 días desde la primera firma (art. 10) | Plazos propios de cada tipo |
+| Efectos tributarios | RUT asignado al incorporarse; opción de inicio de actividades (art. 13) | Trámites separados en el SII |
+| Publicidad | Registro público y gratuito (art. 11) | Inscripción y publicación |
+
+### C.2. Los ocho tipos que pueden acogerse (art. 2)
+
+| N.º | Tipo | Anexo |
+|---:|---|---|
+| 1 | Empresa individual de responsabilidad limitada | 02 |
+| 2 | Sociedad de responsabilidad limitada | 03 |
+| 3 | Sociedad anónima cerrada | 07 |
+| 4 | Sociedad anónima de garantía recíproca | 10 |
+| 5 | Sociedad colectiva comercial | 04 |
+| 6 | Sociedad por acciones | 06 |
+| 7 | Sociedad en comandita simple | 05 |
+| 8 | Sociedad en comandita por acciones | 05 |
+
+### C.3. Opciones de firma
+
+| Opción | Cuándo sirve | Cuidado |
+|---|---|---|
+| Firma electrónica avanzada de cada socio | Socios con firma | Obtenerla con anticipación |
+| Firma ante notario | Socios sin firma avanzada | Tarifa fijada por decreto |
+| Representante o apoderado | Socios ausentes | Poder bien otorgado y copia en el Registro |
+| Apoderado único para todos | Muchos socios | Designarlo en el formulario de constitución |
+
+### C.4. Ideas de contenido del formulario
+
+1. Datos completos de cada socio y su capacidad.
+2. Domicilio y dirección para RUT.
+3. Capital y forma de aportarlo, con las solemnidades del tipo de bien.
+4. Administración y representación.
+5. Cláusulas opcionales que no quieras dejar al régimen supletorio.
+
+## 18. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Elegir el tipo | 02 al 07 |
+| Qué hace el SII después | 16 |
+| Patente y permisos | 17 |
+| Domicilio y dirección | 18 |
+| Alternativas fuera de la lista | 09, 11, 12 o 14 |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+- [Parte 5, clase 13: juntas, actas, libros y trazabilidad de decisiones](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-13-juntas-actas-libros-y-trazabilidad-de-decisiones/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Firma y plazo:** los arts. 9 y 10 conectan los medios de firma con el plazo de 60 días.
+2. **Registro y SII:** el art. 13 conecta la incorporación con el RUT y el inicio de actividades.
+3. **Accionistas y poderes:** los arts. 13 bis y 13 ter extienden el sistema más allá de la constitución.
+4. **Sistema y realidad:** el sistema formaliza la sociedad; no sustituye permisos ni patente.
+
+## 19. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 10 | Elegir el tipo, redactar el contenido y reunir datos de todos | Socios | Borrador |
+| Días 11 a 20 | Completar el formulario y coordinar las firmas | Apoderado | Formulario |
+| Días 21 a 60 | Firmas dentro del plazo; descargar certificados | Socios | Certificados |
+| Días 61 a 90 | Cuenta bancaria, contabilidad, patente y permisos | Administrador | Calendario |
+
+### E.2. Calendario del constituyente
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Día de la primera firma | Contar 60 días | Art. 10 |
+| Antes del día 50 | Verificar que todos firmaron | Art. 10 |
+| Al incorporarse | Descargar certificados y RUT | Art. 13 |
+| Al ceder acciones | Formularios del Registro de Accionistas | Art. 13 bis |
+| Al otorgar o revocar un poder | Formulario del Registro de Poderes | Art. 13 ter |
+
+### E.3. Lista de control antes de la primera firma
+
+| Ítem | Sí | No |
+|---|---|---|
+| Tipo dentro de los ocho del art. 2 | | |
+| Datos de socios verificados | | |
+| Domicilio y dirección para RUT | | |
+| Capital y solemnidades de los aportes | | |
+| Firma avanzada o notario para cada socio | | |
+| Apoderados con poder correcto y apostilla | | |
+| Todos pueden firmar dentro de 60 días | | |
+
+### E.4. Registro de firmas
+
+| Socio | Medio de firma | Fecha | Observaciones |
+|---|---|---|---|
+| | | | |
+
+## 20. Autoevaluación
+
+1. ¿Es obligatorio el Registro?
+2. ¿Cuántos tipos de sociedad cubre?
+3. ¿En cuánto tiempo deben firmar todos?
+4. ¿Qué pasa si alguien no firma a tiempo?
+5. ¿Puedo modificar el formulario tras la primera firma?
+6. ¿Cómo firma quien no tiene firma avanzada?
+7. ¿Quién asigna el RUT?
+8. ¿Dónde se lleva el Registro de Accionistas?
+9. ¿Qué es el Registro de Poderes?
+10. ¿El Registro es público?
+
+**Respuestas.**
+
+1. No: es voluntario (art. 1).
+2. Ocho (art. 2).
+3. En sesenta días desde la firma del primero (art. 10).
+4. Los formularios se tienen por no suscritos para todos los efectos (art. 10).
+5. No (art. 10).
+6. Ante un notario, que estampa su firma electrónica avanzada (art. 9).
+7. El SII, al incorporarse el formulario (art. 13).
+8. Exclusivamente en el sitio del Registro (art. 13 bis).
+9. Un registro electrónico público de poderes y delegaciones (art. 13 ter).
+10. Sí, público y gratuito (art. 11).
+
+**Puntaje.** Ocho o más: dominas el tipo. Cuatro a siete: repasa las secciones 6 y 7. Menos de cuatro: relee el anexo.
+
+## 21. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Apostilla | Certificación que da validez en otro país a un documento público |
+| Certificado para migración | Documento que acredita la vigencia para pasar de un sistema de registro al otro |
+| Firma electrónica avanzada | Firma electrónica con certificación que permite suscribir el formulario |
+| Formulario | Documento electrónico que contiene el contrato social y sus modificaciones |
+| Migración | Tránsito entre el sistema tradicional y el del Registro |
+| Registro de Accionistas | Registro electrónico de titulares de acciones llevado en el sitio del Registro |
+| Registro de Empresas y Sociedades | Registro único, público y gratuito administrado por el Ministerio de Economía |
+| Registro de Poderes | Registro electrónico público de poderes y delegaciones |
+| RUT | Rol Único Tributario asignado por el SII |
+| Solemnidad | Formalidad exigida para la validez de un acto |
+
+## 22. Preguntas frecuentes
 
 **1. ¿Es obligatorio usar el Registro de Empresas y Sociedades?**
 No. Rige para quienes voluntariamente se constituyan o acojan a la ley (art. 1).
@@ -565,7 +817,54 @@ días (art. 19).
 **20. ¿El sistema cancela las sociedades inactivas?**
 No. El Registro no hace cancelaciones de oficio (art. 12).
 
-## 16. Fuentes y vigencia
+**21. ¿Qué pasa si no me acojo a la ley?**
+Los actos de la persona jurídica se rigen por las normas tradicionales que la regulan, y no se aplican las disposiciones de
+esta ley (art. 1).
+
+**22. ¿Qué rige si el formulario guarda silencio?**
+Las normas aplicables a su especie (art. 5).
+
+**23. ¿Qué es el formulario?**
+El documento electrónico que contiene el contrato social y sus modificaciones (art. 3).
+
+**24. ¿Quién administra el Registro?**
+El Ministerio de Economía (art. 11).
+
+**25. ¿Quién emite los certificados?**
+El Subsecretario de Economía y Empresas de Menor Tamaño como ministro de fe, con firma electrónica (art. 12).
+
+**26. ¿Se puede rechazar una inscripción?**
+No se efectúan las inscripciones si los formularios no contienen las designaciones legales o reglamentarias requeridas
+(art. 12).
+
+**27. ¿Qué se hace con una sentencia que ordena disolver?**
+Se incorpora al Registro la sentencia o resolución judicial ejecutoriada que ordene la disolución o modificación (art. 12).
+
+**28. ¿Puedo pedir inicio de actividades en el mismo formulario?**
+Sí, y también el timbraje de documentos tributarios, según el Reglamento (art. 13).
+
+**29. ¿Quién registra las cesiones de acciones?**
+El gerente general en la anónima cerrada y la SpA, o los administradores si no hay gerente general (art. 13 bis).
+
+**30. ¿Cuándo se entiende que la sociedad conoce la solicitud de inscripción de acciones?**
+Firmado el formulario, se presume que la persona jurídica emisora tomó conocimiento (art. 13 bis).
+
+**31. ¿Quién puede ver el Registro de Accionistas?**
+Accionistas, administradores o apoderados facultados y, cuando corresponda, el notario (art. 13 bis).
+
+**32. ¿Qué valor tiene un poder inscrito?**
+Desde su incorporación se entiende revestido de las solemnidades necesarias, con un certificado como prueba (art. 13 ter).
+
+**33. ¿Los poderes informan automáticamente al SII?**
+No: al Registro de Poderes no se le aplica la información automática al SII del art. 13 (art. 13 ter).
+
+**34. ¿Qué es un aporte con solemnidades especiales?**
+Un aporte (por ejemplo, un inmueble) que exige formalidades propias además de la mención del capital (art. 8).
+
+**35. ¿Cuándo debo pedir ayuda profesional?**
+Para elegir el tipo, redactar el contenido del formulario, coordinar firmas y poderes, y preparar la operación posterior.
+
+## 23. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|
