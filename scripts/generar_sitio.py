@@ -32,6 +32,7 @@ REPO = "https://github.com/vladimiracunadev-create/modern-business-creation-prog
 # Directorios cuyo Markdown se publica, en el orden en que aparecen en el menú.
 SECCIONES = [
     ("docs", "Manuales transversales"),
+    ("annexes", "Anexos: tipos de empresa y trámites"),
     ("case-studies", "Casos empresariales y sectoriales"),
     ("templates", "Plantillas"),
     ("curriculum", "Currículo"),
@@ -637,6 +638,12 @@ def main() -> int:
         copia.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(svg, copia)
 
+    # Figuras SVG de los anexos: viven en annexes/img y se publican en la misma ruta.
+    for svg in sorted((RAIZ / "annexes" / "img").glob("*.svg")):
+        copia = SALIDA / svg.relative_to(RAIZ)
+        copia.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(svg, copia)
+
     # El manual en PDF se compila aparte con scripts/generar_manual.py y vive en
     # output/; aquí solo se copia a las descargas del sitio si ya está generado.
     if HAY_MANUAL:
@@ -682,7 +689,7 @@ def main() -> int:
         )
 
     # Redirección desde la ruta corta de casos y plantillas.
-    for carpeta in ("case-studies", "templates", "docs", "curriculum"):
+    for carpeta in ("case-studies", "templates", "docs", "annexes", "curriculum"):
         indice = SALIDA / carpeta / "index.html"
         if indice.exists():
             continue

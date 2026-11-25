@@ -1,0 +1,248 @@
+[
+ {
+  "n": 2,
+  "slug": "eirl",
+  "titulo": "Empresa Individual de Responsabilidad Limitada (EIRL)",
+  "grupo": "personas",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "De la Ley 19.857 al Registro en línea",
+    "alt": "Línea de tiempo de la EIRL: 2003 la Ley 19.857 crea la empresa individual, 2013 la Ley 20.659 permite constituirla en línea y 2026 nuevas tasas tributarias de Primera Categoría.",
+    "datos": {
+     "hitos": [
+      [
+       "2003",
+       "Ley 19.857: una persona natural puede crear una EIRL"
+      ],
+      [
+       "2013",
+       "Ley 20.659: constitución en línea"
+      ],
+      [
+       "2020",
+       "Ley 21.210: modernización tributaria"
+      ],
+      [
+       "2026",
+       "Ley 21.850: nuevo calendario de tasas"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "La EIRL resolvió el problema de limitar la responsabilidad sin necesitar un segundo socio."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Cómo se constituye una EIRL",
+    "alt": "Flujo de cinco pasos: definir giro y capital, elegir escritura o Registro, firmar, inscribir y publicar en 60 días, e iniciar actividades.",
+    "datos": {
+     "pasos": [
+      "Definir nombre, giro y capital",
+      "Elegir escritura pública o Registro en línea",
+      "Firmar como único titular",
+      "Inscribir y publicar el extracto en 60 días (vía escritura)",
+      "Inicio de actividades en el SII"
+     ],
+     "retorno": "Omitir una solemnidad puede acarrear nulidad y responsabilidad personal"
+    }
+   },
+   {
+    "tipo": "balanza",
+    "titulo": "Qué protege la EIRL y qué no",
+    "alt": "Balanza que contrasta lo que protege la EIRL, como las deudas del giro, con lo que no protege, como avales personales y los casos del artículo 12.",
+    "datos": {
+     "izq": [
+      "Lo que la protección cubre",
+      [
+       "Deudas del giro, pagadas con bienes de la empresa",
+       "Acreedores personales sin acción sobre la empresa",
+       "Utilidades retiradas pasan a tu patrimonio"
+      ]
+     ],
+     "der": [
+      "Lo que la protección no cubre",
+      [
+       "Avales y fianzas personales que firmes",
+       "Actos fuera del giro o sin el nombre de la empresa",
+       "Retiros sin utilidades y actos simulados"
+      ]
+     ],
+     "criterio": "La separación solo funciona si la practicas: cuentas, contratos y retiros distintos."
+    }
+   },
+   {
+    "tipo": "semaforo",
+    "titulo": "Señales de riesgo de responsabilidad ilimitada",
+    "alt": "Semáforo de tres bandas que clasifica el riesgo de perder la protección de la EIRL según la separación entre dinero personal y de la empresa.",
+    "datos": {
+     "indicador": "Separación entre tu dinero y el de la empresa",
+     "bandas": [
+      [
+       "verde",
+       "Cuentas, contratos y retiros separados y documentados",
+       "La protección es creíble y fácil de demostrar."
+      ],
+      [
+       "amarillo",
+       "Cuentas separadas pero sin contratos entre titular y empresa",
+       "Escritura y protocolización pendientes (art. 10)."
+      ],
+      [
+       "rojo",
+       "Gastos personales pagados con la empresa o retiros sin utilidades",
+       "Riesgo del art. 12: puedes responder con tu patrimonio."
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "matriz",
+    "titulo": "Cuándo elegir EIRL y cuándo otra forma",
+    "alt": "Matriz que cruza la cantidad de dueños con la probabilidad de captar inversión para sugerir EIRL, SpA, sociedad limitada o persona natural.",
+    "datos": {
+     "x": "Probabilidad de socios o inversión en dos años",
+     "y": "Necesidad de separar tu patrimonio del negocio",
+     "cuadrantes": [
+      [
+       "Separar y crecer",
+       "SpA: flexible para socios e inversión."
+      ],
+      [
+       "Separar sin socios",
+       "EIRL: simple y con patrimonio propio."
+      ],
+      [
+       "Sin socios ni riesgo",
+       "Persona natural con giro puede bastar."
+      ],
+      [
+       "Socios sin gran riesgo",
+       "Sociedad limitada con pacto claro."
+      ]
+     ],
+     "punto": [
+      0.2,
+      0.75,
+      "EIRL"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "slug": "spa",
+  "titulo": "Sociedad por Acciones (SpA)",
+  "grupo": "sociedades-capital",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "De la Ley 20.190 al Registro en línea",
+    "alt": "Línea de tiempo con cuatro hitos de la SpA: 1997 saneamiento de nulidades, 2007 creación de la SpA, 2013 Registro de Empresas y Sociedades y 2026 nuevas tasas tributarias.",
+    "datos": {
+     "hitos": [
+      [
+       "1997",
+       "Ley 19.499: saneamiento de nulidades"
+      ],
+      [
+       "2007",
+       "Ley 20.190 crea la SpA en el Código de Comercio"
+      ],
+      [
+       "2013",
+       "Ley 20.659: Registro de Empresas y Sociedades"
+      ],
+      [
+       "2026",
+       "Ley 21.850: nuevo calendario de tasas"
+      ]
+     ],
+     "hito": 1,
+     "bajada": "La SpA nació como vehículo flexible para el capital de riesgo y hoy se constituye en línea."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Dos caminos para constituir una SpA",
+    "alt": "Flujo de cinco pasos: decidir estatuto, elegir camino, firmar, incorporar o inscribir y publicar, e iniciar actividades en el SII.",
+    "datos": {
+     "pasos": [
+      "Decidir estatuto y pacto",
+      "Elegir camino: Registro en línea o escritura",
+      "Firmar dentro de 60 días",
+      "Incorporar al Registro, o inscribir y publicar el extracto",
+      "Inicio de actividades en el SII"
+     ],
+     "retorno": "El plazo de 60 días corre desde la primera firma o desde el acto de constitución"
+    }
+   },
+   {
+    "tipo": "capas",
+    "titulo": "Cómo se ordena el poder en una SpA",
+    "alt": "Cuatro capas: estatuto, series de acciones, administración y pacto de accionistas, de lo que fija la ley a lo que pactan los socios.",
+    "datos": {
+     "capas": [
+      [
+       "Ley: arts. 424 a 446",
+       "Lo que no puedes cambiar"
+      ],
+      [
+       "Estatuto",
+       "Lo que pactas y queda inscrito"
+      ],
+      [
+       "Series de acciones",
+       "Derechos económicos y políticos distintos"
+      ],
+      [
+       "Pacto de accionistas",
+       "Reglas privadas de salida, desempate y vesting"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "Elegir el régimen tributario de una SpA",
+    "alt": "Árbol de decisión sobre si los accionistas son personas naturales y si se retiran utilidades, para elegir Pro Pyme o régimen general.",
+    "datos": {
+     "q": "¿Todos los accionistas son personas naturales con domicilio en Chile?",
+     "si": {
+      "q": "¿Planeas retirar la mayor parte de las utilidades?",
+      "si": "Simula Pro Pyme Transparente y compara con el general",
+      "no": "Simula Pro Pyme General con reinversión"
+     },
+     "no": "Simula régimen general semi integrado y consulta a un contador"
+    }
+   },
+   {
+    "tipo": "escalera",
+    "titulo": "Preparación previa a constituir",
+    "alt": "Escalera de cuatro peldaños: acordar con los socios, redactar estatuto y pacto, reunir documentos y firmas, y recién constituir.",
+    "datos": {
+     "niveles": [
+      [
+       "Acordar entre socios",
+       "Aportes, roles, salida"
+      ],
+      [
+       "Redactar estatuto y pacto",
+       "Con revisión de abogado"
+      ],
+      [
+       "Reunir documentos y firmas",
+       "Firma electrónica avanzada o notario"
+      ],
+      [
+       "Constituir e iniciar actividades",
+       "Con régimen simulado"
+      ]
+     ],
+     "eje": "Cada peldaño evita un error del siguiente"
+    }
+   }
+  ]
+ }
+]

@@ -76,7 +76,8 @@ def linea(x1, y1, x2, y2, color=TENUE, grosor=1.6, flecha=False, punteada=False)
             f'stroke-width="{grosor}"{punto}{extra}/>')
 
 
-def marco(numero: int, parte_titulo: str, titulo: str, descripcion: str, acento: str, cuerpo: str) -> str:
+def marco(numero: int, parte_titulo: str, titulo: str, descripcion: str, acento: str, cuerpo: str,
+          rotulo: str | None = None) -> str:
     claro, medio = _mezcla(acento, 0.12), _mezcla(acento, 0.35)
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {ANCHO} {ALTO}" width="{ANCHO}" '
@@ -89,7 +90,7 @@ def marco(numero: int, parte_titulo: str, titulo: str, descripcion: str, acento:
         f'<rect width="{ANCHO}" height="{ALTO}" rx="16" fill="{FONDO}" stroke="{LINEA}"/>'
         f'<rect x="0" y="0" width="{ANCHO}" height="8" rx="4" fill="{acento}"/>'
         f'{texto(32, 44, titulo, tam=20, ancla="start", peso="700")}'
-        f'{texto(32, 66, f"Clase {numero} · {parte_titulo}", tam=12, ancla="start", color=TENUE)}'
+        f'{texto(32, 66, rotulo or f"Clase {numero} · {parte_titulo}", tam=12, ancla="start", color=TENUE)}'
         f'<line x1="32" y1="76" x2="{ANCHO - 32}" y2="76" stroke="{LINEA}"/>'
         f'{cuerpo}'
         f'<circle cx="{ANCHO - 40}" cy="40" r="14" fill="{claro}" stroke="{medio}"/>'
@@ -509,3 +510,9 @@ def dibujar(numero: int, parte_titulo: str, etapa: int, visual: dict) -> str:
     acento = ACENTOS[etapa]
     cuerpo = arquetipo(visual["datos"], acento)
     return marco(numero, parte_titulo, visual["titulo"], visual["alt"], acento, cuerpo)
+
+
+def dibujar_figura(numero: int, rotulo: str, acento: str, visual: dict) -> str:
+    """Renderiza una figura de anexo: mismo motor, rótulo propio y color explícito."""
+    cuerpo = ARQUETIPOS[visual["tipo"]](visual["datos"], acento)
+    return marco(numero, "", visual["titulo"], visual["alt"], acento, cuerpo, rotulo=rotulo)

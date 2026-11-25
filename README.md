@@ -340,6 +340,14 @@ Lo que casi ningún programa enseña porque no es aspiracional. Al terminarla ti
 
 <!-- partes:fin -->
 
+## 📚 Anexos: tipos de empresa, Empresa en un Día, SII y municipalidades
+
+Los [anexos](annexes/README.md) son lecturas de profundidad que acompañan a las clases: cada uno tiene
+**más de 5.000 palabras**, figuras SVG propias, fuentes oficiales con enlace, una lista de verificación
+«antes de construir» y preguntas frecuentes. Cubren los tipos de empresa chilenos (EIRL, SpA,
+sociedades, cooperativas, entre otros), el trámite de Empresa en un Día, el Servicio de Impuestos
+Internos y las municipalidades. Son material educativo, no asesoría legal.
+
 ## 🔬 Caso transversal MEDVi
 
 [MEDVi: empresa AI-native, red externa y control al crecer](case-studies/21-medvi-empresa-ai-native-y-control.md)

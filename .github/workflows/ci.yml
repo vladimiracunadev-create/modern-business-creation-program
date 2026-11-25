@@ -31,6 +31,9 @@ jobs:
       - name: Sincronía manifiestos -> README generados
         run: python scripts/generar_clases.py --check
 
+      - name: Figuras de los anexos sincronizadas con el manifiesto
+        run: python scripts/generar_anexos.py --check
+
       - name: Estructura, secciones obligatorias y enlaces internos
         run: python scripts/validar_estructura.py
 
