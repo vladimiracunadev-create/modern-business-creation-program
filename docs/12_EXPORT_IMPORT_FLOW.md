@@ -339,3 +339,295 @@ Para clasificación dudosa, contratos internacionales, tratamiento tributario y 
 | Incoterm | Término comercial que reparte costos y riesgos del transporte |
 | Origen | País donde se produce o transforma el bien |
 | Visto bueno | Autorización previa de una autoridad sectorial |
+
+---
+
+## 14. Incoterms: quién paga qué y quién carga el riesgo
+
+Los Incoterms son términos comerciales estandarizados que reparten entre vendedor y comprador **costos, riesgos y
+obligaciones de transporte y documentación**. Elegir uno es una decisión comercial y de riesgo, no un detalle.
+
+| Pregunta | Por qué importa |
+|---|---|
+| ¿Dónde se transfiere el riesgo de pérdida o daño? | Define quién asume el costo si la carga se daña en el camino |
+| ¿Quién contrata y paga el transporte principal? | Afecta costos y control de la logística |
+| ¿Quién contrata el seguro? | Sin seguro, un daño puede ser una pérdida total |
+| ¿Quién hace el despacho de exportación e importación? | Define quién responde ante Aduanas en cada país |
+| ¿Quién paga derechos e impuestos en destino? | Cambia el precio final para el comprador |
+
+```mermaid
+flowchart LR
+    V["Vendedor"] -- "entrega en su bodega" --> P1["Punto A"]
+    P1 -- "transporte hasta puerto" --> P2["Punto B"]
+    P2 -- "transporte internacional" --> P3["Punto C"]
+    P3 -- "transporte final" --> C["Comprador"]
+```
+
+> Cada Incoterm fija en cuál de esos puntos se transfiere el riesgo y quién paga cada tramo. Lee la versión vigente de
+> las reglas de la Cámara de Comercio Internacional (ICC) y pide a tu agente o abogado que valide el término elegido para
+> tu producto y tu medio de transporte (marítimo, aéreo o terrestre), porque algunos términos solo son adecuados para
+> ciertos medios.
+
+**Regla práctica:** si eres exportador y no controlas la logística en destino, evita asumir riesgos y costos que no puedes
+gestionar. Si eres importador, calcula siempre el **costo puesto en tu bodega**.
+
+---
+
+## 15. Medios de pago internacionales
+
+| Medio | Cómo funciona (visión general) | Riesgo para el vendedor | Riesgo para el comprador |
+|---|---|---|---|
+| **Pago anticipado** | El comprador paga antes del envío | Bajo | Alto: puede no recibir lo comprado |
+| **Carta de crédito** | Un banco se compromete a pagar si se presentan documentos conformes | Bajo si los documentos son correctos | Medio: costo y exigencia documental |
+| **Cobranza documentaria** | Los bancos gestionan la entrega de documentos contra pago o aceptación | Medio | Medio |
+| **Cuenta abierta (crédito del vendedor)** | Se envía y se paga después | Alto: riesgo de impago | Bajo |
+| **Seguro de crédito a la exportación** | Una aseguradora cubre el impago del comprador | Reduce el riesgo | No aplica |
+
+**Lista de decisión.**
+
+1. ¿Conoces a tu contraparte y su historial de pagos?
+2. ¿El monto justifica el costo de una carta de crédito o de un seguro?
+3. ¿Qué plazo de cobro es normal en ese mercado?
+4. ¿Qué pasa con el tipo de cambio entre venta y cobro?
+5. ¿Qué documentos exige cada medio y puedes entregarlos sin errores?
+
+> Un error de forma en un documento (un nombre mal escrito, una fecha distinta) puede hacer que un banco rechace el pago
+> en una carta de crédito. Revisa cada documento dos veces.
+
+---
+
+## 16. Documentos de una operación: el expediente
+
+| Documento | Para qué sirve |
+|---|---|
+| **Contrato o confirmación de pedido** | Define condiciones y responsabilidades |
+| **Factura comercial / de exportación** | Documenta la venta y el precio |
+| **Lista de empaque** | Detalla el contenido y el embalaje |
+| **Documento de transporte** | Acredita el contrato de transporte y la entrega |
+| **Póliza de seguro** | Prueba la cobertura |
+| **Certificados** (origen, sanitarios, calidad) | Exigidos por la aduana o el destino |
+| **Documento de despacho aduanero** | Declaración ante Aduanas |
+| **Comprobantes de pago y de cambio** | Evidencian el cobro y la conversión |
+| **Correspondencia relevante** | Respalda acuerdos y reclamos |
+
+**Reglas de orden:**
+
+1. Una carpeta por operación, con un número único.
+2. Que los datos coincidan en todos los documentos (nombres, cantidades, valores, fechas).
+3. Copia de respaldo digital.
+4. Conservación por los plazos legales; consulta a tu contador.
+
+---
+
+## 17. Origen, tratados y aranceles
+
+| Concepto | Qué es | Por qué importa |
+|---|---|---|
+| **Origen** | País donde un bien se produce o se transforma lo suficiente | Determina si accedes a preferencias |
+| **Regla de origen** | Condiciones para considerar un bien originario | Sin cumplirla no hay preferencia |
+| **Tratado o acuerdo comercial** | Acuerdo que reduce aranceles entre países | Puede mejorar tu precio |
+| **Certificado de origen** | Documento que acredita el origen | Se exige para usar la preferencia |
+| **Arancel** | Impuesto a la importación | Eleva el costo en destino |
+
+**Pasos para evaluar una preferencia arancelaria:**
+
+1. Clasificar el producto correctamente.
+2. Identificar si existe un acuerdo entre Chile y el país de destino.
+3. Revisar la regla de origen de tu producto.
+4. Verificar la documentación que se exige.
+5. Calcular el ahorro y compararlo con el costo de cumplir.
+
+---
+
+## 18. Catálogo de errores frecuentes
+
+| N.º | Error | Consecuencia | Cómo evitarlo |
+|---:|---|---|---|
+| 1 | Clasificar mal el producto | Aranceles incorrectos, retrasos o multas | Validar con agente de aduanas |
+| 2 | Producir sin validar requisitos del destino | Lote inutilizable | Verificar normas antes |
+| 3 | Elegir un Incoterm sin entenderlo | Costos y riesgos inesperados | Revisar con asesor |
+| 4 | Despachar sin forma de cobro | Impago | Carta de crédito, pago anticipado o seguro |
+| 5 | Documentos inconsistentes | Retrasos y rechazos | Revisión cruzada |
+| 6 | Sin seguro de carga | Pérdida total | Contratar seguro |
+| 7 | Subestimar costos de logística | Margen negativo | Costear todo el recorrido |
+| 8 | Ignorar el tipo de cambio | Pérdida de margen | Incluirlo en el precio y evaluar coberturas |
+| 9 | No usar tratados cuando corresponde | Pagar aranceles de más | Evaluar origen y preferencias |
+| 10 | No conservar evidencia del embarque | Problemas tributarios | Carpeta de operación |
+| 11 | Contratar proveedores sin verificar | Fraude o incumplimiento | Referencias y contratos |
+| 12 | Olvidar propiedad intelectual y datos | Conflictos posteriores | Cláusulas y registros |
+| 13 | Tratar el trámite como puntual | Fallas recurrentes | Procedimiento escrito |
+| 14 | No definir tribunal ni ley aplicable | Disputas costosas | Cláusulas claras |
+| 15 | No planificar la devolución o el reclamo | Pérdidas por defectos | Política de reclamos |
+
+---
+
+## 19. Más preguntas frecuentes
+
+**13. ¿Cómo sé qué requisitos exige el país de destino?**
+Consulta a ProChile, a la autoridad sectorial del producto y al comprador; pide los requisitos por escrito.
+
+**14. ¿Puedo exportar servicios a través de internet?**
+Sí; sigue la guía de ProChile y consulta a tu contador por el tratamiento tributario de la operación.
+
+**15. ¿Qué es un agente de aduanas?**
+Un profesional autorizado para tramitar despachos ante Aduanas en representación del importador o exportador.
+
+**16. ¿Debo pagar impuestos al importar?**
+Sí, según el tipo de bien: pueden aplicar aranceles, IVA y otros; consulta a tu agente y contador.
+
+**17. ¿Qué diferencia hay entre factura comercial y de exportación?**
+La de exportación es el documento tributario chileno de una venta al exterior; la comercial puede ser el documento que
+usa el comprador. Consulta al SII y a tu agente.
+
+**18. ¿Qué es un seguro de crédito a la exportación?**
+Un seguro que cubre el riesgo de impago del comprador; consulta a un corredor.
+
+**19. ¿Cómo evito fraudes por correo falso?**
+Verifica los cambios de cuenta bancaria por otro medio, desconfía de urgencias y usa canales oficiales.
+
+**20. ¿Cuándo debo contratar a un especialista?**
+Para clasificación, contratos internacionales, tributación y productos regulados.
+
+---
+
+## 20. Cómo fijar el precio de exportación, paso a paso
+
+El precio de exportación no es el precio local con otra moneda. Se construye sumando todo lo que cuesta llegar al cliente y
+dejando un margen que sobreviva a los imprevistos.
+
+### 20.1. Ejemplo ilustrativo
+
+Un productor vende 1.000 unidades de un producto. Costos ilustrativos (todos en dólares):
+
+| Concepto | Monto total (USD) | Por unidad (USD) |
+|---|---:|---:|
+| Costo de producción | 6.000 | 6,00 |
+| Embalaje de exportación | 500 | 0,50 |
+| Transporte local hasta el puerto | 300 | 0,30 |
+| Gastos de despacho y documentación | 400 | 0,40 |
+| Flete internacional | 1.200 | 1,20 |
+| Seguro de la carga | 100 | 0,10 |
+| Costos bancarios y de cobro | 150 | 0,15 |
+| Imprevistos (3 % de lo anterior) | 260 | 0,26 |
+| **Costo total** | **8.910** | **8,91** |
+| Margen deseado (20 % sobre el precio) | | |
+
+Para lograr un margen de 20 % **sobre el precio de venta**, el precio unitario debe ser costo / (1 − 0,20):
+8,91 / 0,80 = **11,14 USD** por unidad (redondeado). Si hubieras sumado el 20 % al costo (8,91 × 1,20 = 10,69), el margen
+real sería menor (16,7 % sobre el precio). Es un error común.
+
+**Sensibilidad al tipo de cambio.** Si los costos de producción son en pesos y el dólar baja 6 %, tu costo en dólares
+sube. Calcula cuánto margen te queda en un escenario adverso antes de cerrar el precio.
+
+### 20.2. Lista para cotizar
+
+- [ ] Costos completos de producción, embalaje y logística.
+- [ ] Incoterm definido y sus costos asociados.
+- [ ] Costos bancarios y de cobro.
+- [ ] Margen deseado y mínimo aceptable.
+- [ ] Escenario de tipo de cambio adverso.
+- [ ] Validez de la cotización y condiciones de pago.
+
+---
+
+## 21. Elegir el medio de transporte
+
+| Medio | Cuándo suele convenir | Cuidados |
+|---|---|---|
+| **Marítimo** | Cargas grandes o pesadas, plazos largos tolerables | Tiempos, consolidación de carga, riesgo de demoras en puertos |
+| **Aéreo** | Productos de alto valor, perecibles o urgentes | Costo por kilo, restricciones de peso y de mercancías peligrosas |
+| **Terrestre** | Mercados vecinos y rutas regionales | Trámites fronterizos y seguros específicos |
+| **Courier o envíos pequeños** | Muestras y pedidos de bajo volumen | Límites de valor y peso, impuestos en destino |
+
+**Preguntas para tu operador logístico:**
+
+1. ¿Cuál es el tiempo total puerta a puerta y qué lo puede alargar?
+2. ¿Qué costos no están incluidos en la cotización (almacenaje, demoras, recargos)?
+3. ¿Qué cobertura de seguro ofrece y cuáles son las exclusiones?
+4. ¿Cómo se manejan los reclamos por daños o pérdidas?
+5. ¿Qué documentos necesita de mi parte y con cuánta anticipación?
+
+---
+
+## 22. Importación: ejemplo de costo puesto en bodega
+
+> Ejemplo ilustrativo; los porcentajes de aranceles e impuestos se deben verificar con el agente de aduanas.
+
+| Concepto | Monto (USD) | Observación |
+|---|---:|---|
+| Mercadería (500 unidades a 8,00) | 4.000 | Precio del proveedor |
+| Flete y seguro internacional | 600 | Según Incoterm |
+| **Base para aduana** (supuesto) | **4.600** | Puede variar según reglas de valoración |
+| Arancel (supuesto de 6 %) | 276 | Verificar según clasificación y tratados |
+| IVA de importación (supuesto de 19 %) | 926 | Sobre la base y el arancel; consulta tratamiento como crédito |
+| Honorarios del agente y gastos portuarios | 350 | Cotización |
+| Transporte local y bodegaje | 180 | |
+| Costos bancarios y cambiarios | 90 | |
+
+**Costo sin IVA recuperable** (suponiendo que el IVA es crédito fiscal recuperable): 4.600 + 276 + 350 + 180 + 90 =
+**5.496 USD**, es decir 10,99 USD por unidad (frente a los 8,00 del precio de lista: **37 % más**).
+
+Si el IVA **no** fuera recuperable en tu caso, el costo sería mayor. Consulta a tu contador cómo se trata el IVA en tu
+régimen antes de fijar precios.
+
+---
+
+## 23. Checklist por rol
+
+| Rol | Qué debe revisar |
+|---|---|
+| **Dueño o gerente** | Estrategia de mercado, riesgo aceptable, forma de pago, contratos |
+| **Finanzas** | Precio, costos totales, tipo de cambio, cobro, conciliación |
+| **Operaciones** | Producción, calidad, embalaje, plazos, inventario |
+| **Comercial** | Cliente, contrato, condiciones, comunicación |
+| **Logística** | Transporte, seguro, documentos, seguimiento |
+| **Legal y cumplimiento** | Contratos, sanciones, propiedad intelectual, datos |
+| **Contador** | Documentos tributarios, IVA, registros y respaldo |
+| **Agente de aduanas** | Clasificación, declaración y trámites |
+
+### 23.1. Matriz de riesgos de una operación
+
+| Riesgo | Señal | Mitigación |
+|---|---|---|
+| Impago del cliente | Cliente nuevo y sin referencias | Pago anticipado, carta de crédito o seguro |
+| Daño en tránsito | Carga frágil o larga distancia | Embalaje adecuado y seguro |
+| Rechazo en destino | Producto sin cumplir normas | Validar requisitos antes de producir |
+| Variación cambiaria | Margen estrecho | Precios en la moneda correcta, coberturas |
+| Retrasos | Dependencia de un solo transportista | Plan alternativo y holgura en plazos |
+| Fraude | Cambio de cuenta por correo | Verificación por otro canal |
+| Incumplimiento contractual | Contrato incompleto | Cláusulas y asesoría legal |
+
+### 23.2. Plan de 90 días para tu primera exportación
+
+| Período | Objetivo | Tareas | Resultado |
+|---|---|---|---|
+| Días 1 a 30 | Validar | Elegir producto y mercado; reunir requisitos del destino; hablar con ProChile y la autoridad sectorial; costear una operación completa | Decisión informada de seguir o ajustar |
+| Días 31 a 60 | Preparar | Definir precio, Incoterm y forma de cobro; elegir agente de aduanas y operador logístico; revisar el contrato modelo con un abogado; preparar certificaciones | Oferta lista para enviar |
+| Días 61 a 90 | Ejecutar | Cerrar con un primer cliente, producir, embarcar, seguir el envío y gestionar el cobro | Primera operación completa y carpeta de evidencia |
+
+**Indicadores de la primera operación:**
+
+1. Tiempo total desde el pedido hasta el cobro.
+2. Margen real frente al margen cotizado.
+3. Incidencias de documentos, transporte y pago.
+4. Lecciones y ajustes para la siguiente operación.
+
+Documenta cada diferencia entre lo planificado y lo ocurrido: la segunda exportación debería ser notablemente más simple
+y más barata que la primera.
+
+---
+
+## 24. Límites de este manual
+
+Este manual no es asesoría legal, tributaria ni aduanera; no fija aranceles ni plazos vigentes; las cifras de los ejemplos
+son ilustrativas. Verifica siempre en Aduanas, ProChile y las autoridades sectoriales. Para decidir a quién consultar,
+usa la [guía de cuándo llamar a un profesional](18_WHEN_TO_CALL_A_PROFESSIONAL.md) y el
+[catálogo de fuentes oficiales](16_OFFICIAL_SOURCE_CATALOG.md).
+
+Antes de tu primera operación, guarda tres cosas: la **opinión escrita** de tu agente sobre la clasificación, la
+**cotización** completa de logística y la **carpeta** con todos los documentos. Esa evidencia te protege ante reclamos,
+fiscalizaciones y cobros, y vuelve más rápida y barata la segunda operación.
+
+Si algo sale distinto de lo planificado (un retraso, un daño, un rechazo documental, un cambio del tipo de cambio),
+registra qué pasó, cuánto costó y qué cambiarías. Con tres o cuatro operaciones documentadas tendrás datos propios para
+fijar precios, elegir transportistas y negociar con clientes y bancos, y dejarás de depender de estimaciones ajenas.

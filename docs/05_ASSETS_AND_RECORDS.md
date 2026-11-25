@@ -392,7 +392,8 @@ Hazlas una vez al año, en una tarde, con una muestra pequeña:
    empresa.
 5. **Prueba de recuperación:** restaura un archivo importante desde el respaldo y comprueba que funciona.
 
-Anota el resultado y las correcciones. Si una prueba falla en más de dos de cada diez casos, el registro no es confiable
+Anota la fecha, quién hizo las pruebas, el resultado y las correcciones, y guarda esa nota junto con el registro: es una
+evidencia más de que el control funciona. Si una prueba falla en más de dos de cada diez casos, el registro no es confiable
 todavía y conviene dedicarle un esfuerzo mayor antes de depender de él para un seguro, un crédito o una venta.
 
 ---
