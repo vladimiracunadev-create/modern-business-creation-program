@@ -862,7 +862,51 @@ Responde primero sin mirar; luego compara con las respuestas.
 **Cómo puntuarte.** Diez o más aciertos: dominas lo esencial. Entre seis y nueve: repasa las secciones 5, 7 y
 8. Menos de seis: vuelve a leer el anexo completo y los escenarios.
 
-## 19. Preguntas frecuentes
+## 19. Calendario anual y glosario ampliado
+
+### H.1. Calendario anual de una persona natural con giro
+
+Las fechas exactas de vencimiento las publica el SII cada año; las que siguen vienen de las leyes leídas (patente) o
+son **tareas internas** que sugiere este anexo.
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada semana | Registrar ingresos y gastos; apartar impuestos | Recomendación profesional |
+| Cada mes | Revisar el Registro de Compras y Ventas; declarar y pagar según el calendario del SII | DL 825, art. 59; calendario SII |
+| Mayo | Si tienes sucursales, presentar la declaración de trabajadores por unidad; el SII informa tu capital propio a las municipalidades | DL 3.063, arts. 24 y 25 |
+| Julio | Pagar la patente (al contado o primera cuota) | DL 3.063, art. 29 |
+| Enero | Pagar la segunda cuota de la patente | DL 3.063, art. 29 |
+| Mes de la Operación Renta | Declarar la renta anual con tu contador, imputando retenciones de honorarios | Calendario SII |
+| Cada trimestre | Revisar tamaño, riesgo, seguros y necesidad de pasar a una persona jurídica | Recomendación profesional |
+| Al cambiar tus datos | Actualizar domicilio, giros y representantes ante el SII y la municipalidad | Código Tributario, art. 68; DL 3.063, art. 29 |
+| Al cerrar | Término de giro con balance y pago en dos meses | Código Tributario, art. 69 |
+
+### H.2. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Asiento de los negocios | Lugar donde se desarrolla efectivamente la administración o la actividad; base del domicilio tributario |
+| Boleta de honorarios | Documento que respalda ingresos por profesiones u ocupaciones lucrativas |
+| Capital propio | Base de cálculo de la patente municipal |
+| Carpeta tributaria electrónica | Conjunto de información tributaria disponible para terceros |
+| Causa de preferencia | Privilegio o hipoteca: los únicos motivos legales para pagar primero a un acreedor |
+| Contribuyente | Persona obligada a pagar un impuesto |
+| Débito fiscal | IVA cobrado en las ventas del período |
+| Crédito fiscal | IVA soportado en compras que dan derecho a rebaja |
+| Empresario individual | Persona natural que explota un negocio en Primera Categoría |
+| Giro | Actividad económica declarada al SII |
+| Honorarios | Ingresos de Segunda Categoría por trabajo independiente |
+| Inembargable | Bien que la ley protege de la ejecución |
+| Microempresa familiar | Actividad en la casa habitación con las condiciones del art. 26 del DL 3.063 |
+| Patente única | Patente anual de una UTM de los profesionales |
+| Prorrata | Reparto proporcional cuando los bienes no alcanzan |
+| Retención | Descuento a cuenta del impuesto que hace quien paga honorarios |
+| Rol de avalúo | Identificador del bien raíz ante el SII |
+| Segunda Categoría | Rentas del trabajo y de profesiones |
+| Término de giro | Aviso formal del cese de actividades |
+| UTM | Unidad Tributaria Mensual; su valor lo fija el SII |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Necesito constituir una empresa para vender?**
 No. Puedes operar como persona natural, declarando el inicio de actividades ante el SII.
@@ -1020,7 +1064,7 @@ de impuestos (art. 69 del Código Tributario).
 Cuando recibas una citación, firmes contratos de alto monto, contrates personal, cambies de forma jurídica, tengas
 operaciones con el exterior o dudes entre categorías tributarias. Ver la sección 12.
 
-## 20. Fuentes y vigencia
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

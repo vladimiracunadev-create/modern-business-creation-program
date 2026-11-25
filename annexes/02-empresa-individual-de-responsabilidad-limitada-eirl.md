@@ -791,7 +791,51 @@ legal con un criterio de búsqueda.
 **Cómo usar el mapa.** Cuando tengas una duda concreta, busca el artículo en el texto de la Biblioteca del Congreso
 Nacional, léelo completo y compáralo con lo que este anexo resume. Si el texto cambió, el texto manda.
 
-## 20. Preguntas frecuentes
+## 20. Calendario anual y glosario ampliado
+
+### H.1. Calendario anual de una EIRL
+
+Las fechas de vencimiento tributarias las publica el SII cada año. Las que siguen se basan en las leyes leídas o son
+tareas internas recomendadas.
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada semana | Registrar movimientos y apartar impuestos; revisar que ningún gasto personal pase por la cuenta de la empresa | Recomendación profesional |
+| Cada mes | Revisar el Registro de Compras y Ventas; declarar y pagar según el calendario del SII | DL 825, art. 59 |
+| Cada mes | Fijar y registrar el retiro del titular sobre utilidades reales | Ley 19.857, art. 12 d) |
+| Mayo | Declaración de trabajadores por unidad (si tienes sucursales); el SII informa tu capital propio | DL 3.063, arts. 24 y 25 |
+| Julio y enero | Pagar la patente | DL 3.063, art. 29 |
+| Mes de la Operación Renta | Declaración anual con tu contador | Calendario SII |
+| Cada semestre | Revisar poderes vigentes y revocar los que no correspondan | Ley 19.857, art. 9; Ley 20.659, art. 13 ter |
+| Cada año | Revisar los contratos titular-empresa y su protocolización | Ley 19.857, art. 10 |
+| Al transformar o terminar | Formularios o escrituras del art. 14 o 15 | Ley 19.857, arts. 14 y 15 |
+
+### H.2. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Aporte | Capital que el titular transfiere a la empresa, en dinero o especies valoradas |
+| Extracto | Resumen de la escritura que se inscribe y publica |
+| Gerente general | Persona designada por el titular con las facultades del administrador, salvo exclusiones |
+| Giro u objeto | Actividad económica de la empresa |
+| Mandato general o especial | Poder para actuar a nombre de la empresa |
+| Nulidad absoluta | Sanción por omitir solemnidades de constitución o modificación |
+| Patrimonio de afectación | Conjunto de bienes de la empresa, separado del patrimonio del titular |
+| Protocolizar | Incorporar un documento al registro de un notario |
+| Razón social | Nombre de la empresa, con el nombre y apellido del titular y «E.I.R.L.» |
+| Registro de comercio | Registro del Conservador donde se inscribe el extracto en la vía tradicional |
+| Registro de Poderes | Registro público de poderes del Registro de Empresas y Sociedades |
+| Remanente | Saldo tras pagar a los acreedores de la empresa |
+| Resciliación | Término de un acto por acuerdo de las partes |
+| Retiro | Dinero que el titular saca de la empresa |
+| Saneamiento | Corrección de vicios de nulidad |
+| Simulación | Acto aparente que oculta la realidad; causal de responsabilidad ilimitada |
+| Término | Cese de la empresa por las causas del art. 15 |
+| Titular | Persona natural dueña de la EIRL |
+| Transformación | Cambio de la forma jurídica manteniendo la persona jurídica |
+| Utilidad líquida y realizable | Resultado efectivo que puede retirarse sin infringir el art. 12 d) |
+
+## 21. Preguntas frecuentes
 
 **1. ¿Una EIRL puede tener socios?**
 No. Es una empresa de un solo titular, persona natural (arts. 1 y 2). Si quieres socios, debes
@@ -943,7 +987,7 @@ casos del art. 12. Si los bienes no alcanzan, evalúa la liquidación con un abo
 Al redactar el giro y el estatuto, antes de firmar contratos entre tú y tu empresa, al elegir régimen, ante una
 transformación o el fallecimiento del titular, y siempre que dudes de un retiro. Ver la sección 12.
 
-## 21. Fuentes y vigencia
+## 22. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

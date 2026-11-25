@@ -485,7 +485,323 @@ capital pero no quieren trabajar en el local. Los números son ilustrativos.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos**: nombres y cifras inventados para practicar el razonamiento sobre los artículos 470 a 507 bis
+del Código de Comercio.
+
+### Escenario 1: el comanditario que «solo ayuda» con una firma
+
+**Situación.** Patricio es comanditario de una comandita simple que opera una cafetería. Un día, ante la ausencia
+del gestor, firma una orden de compra a un proveedor por 2.400.000 pesos «para no perder el pedido».
+
+**Análisis.** El art. 484 prohíbe al comanditario ejecutar acto alguno de administración, **aun en calidad de
+apoderado** de los gestores. Si lo hace, queda solidariamente responsable con los gestores de **todas** las
+pérdidas y obligaciones de la sociedad, **anteriores o posteriores** a la contravención (art. 485). Hay una
+discusión posible sobre si un acto aislado constituye «administración»; el art. 487 lista actos que **no** lo son
+(contratos con los gestores, comisión en otra plaza, consejo e inspección, actos como comunero tras la
+disolución), pero firmar una compra para la sociedad no figura entre ellos.
+
+**Qué hacer.** Documentar de inmediato la circunstancia, evitar repetir actos de gestión y pedir asesoría sobre el
+riesgo ya generado. Si Patricio paga a los acreedores por haber violado la prohibición, puede exigir a los gestores la
+restitución del exceso sobre su aporte (art. 486).
+
+**Lección.** La protección del comanditario es el premio a su pasividad.
+
+### Escenario 2: el nombre del comanditario en el letrero
+
+**Situación.** La razón social es «Martínez y Compañía»; el comanditario, Sergio Quiroga, permite que el letrero y las
+facturas digan «Martínez y Quiroga».
+
+**Análisis.** El nombre de un socio comanditario no puede incluirse en la razón social (art. 476). El comanditario
+que **permite o tolera** la inserción de su nombre se constituye **responsable de todas las obligaciones y
+pérdidas** de la sociedad en los mismos términos que el gestor (art. 477). Agregar solo «y compañía» al nombre del
+gestor no implica la inclusión del comanditario (art. 476).
+
+**Corrección.** Retirar el nombre de Sergio de documentos y letreros, avisar por escrito a proveedores y revisar los
+contratos firmados con ese nombre.
+
+### Escenario 3: la comandita por acciones que parte sin junta de vigilancia
+
+**Situación.** Un grupo de accionistas suscribe todo el capital de una comandita por acciones, pagan un cuarto de cada
+acción y comienzan a operar. No eligen junta de vigilancia.
+
+**Análisis.** La comandita por acciones solo queda definitivamente constituida cuando se suscribió todo el capital y
+cada accionista entregó al menos la cuarta parte (art. 493). Debe establecerse una **junta de vigilancia de al
+menos tres accionistas**, nombrada por la asamblea inmediatamente después de la constitución definitiva y antes de
+toda operación social (art. 498). El gerente que comience las operaciones antes de que la junta haya comenzado a
+funcionar incurre en la sanción del art. 503 (expresada en escudos, unidad histórica).
+
+**Corrección.** Constituir la junta cuanto antes, revisar la validez de las operaciones realizadas y consultar a un
+abogado sobre las consecuencias de la omisión.
+
+### Escenario 4: no se sabe quién es gestor
+
+**Situación.** El contrato de una sociedad dice que «Rosa y Tomás son socios» y que Rosa pone el capital y Tomás el
+trabajo, pero no usa los términos gestor ni comanditario.
+
+**Análisis.** En caso de duda, la sociedad se reputa **colectiva** (art. 490). Eso significa que ambos socios
+responderían solidariamente e ilimitadamente. Para que exista una comandita, el contrato debe distinguir claramente
+a los gestores y a los comanditarios, y la razón social debe incluir al gestor.
+
+**Corrección.** Modificar la escritura para aclarar los roles, o transformar la sociedad en una SpA con series de
+acciones si los socios no quieren responsabilidad ilimitada para ninguno.
+
+### Escenario 5: el inversionista que quiere control
+
+**Situación.** Un inversionista aporta 15.000.000 de pesos a una comandita y exige participar en las decisiones
+diarias, aprobar gastos y firmar cheques.
+
+**Análisis.** Eso excede lo permitido: el comanditario puede asistir a las asambleas con voto consultivo (art. 481) y
+dar consejo, examinar, inspeccionar y vigilar **siempre que no trabe la libre y espontánea acción de los gestores**
+(art. 487 N.º 3). Aprobar gastos y firmar cheques son actos de administración.
+
+**Alternativas.** (a) Asumir la calidad de gestor, con responsabilidad ilimitada; (b) cambiar a una SpA con derechos
+políticos pactados para el inversionista y responsabilidad limitada a su aporte; (c) pactar derechos de información y
+consulta dentro de los límites del art. 487.
+
+**Lección.** Si el inversionista quiere control, la comandita es la herramienta equivocada.
+
+### Escenario 6: cuentas en participación para una operación puntual
+
+**Situación.** Dos comerciantes quieren importar un lote de mercadería. Uno la ejecutará a su nombre y el otro
+aportará la mitad del capital a cambio de la mitad de la utilidad.
+
+**Análisis.** La participación es un contrato por el cual dos o más comerciantes toman interés en una o más
+operaciones mercantiles que **uno de ellos ejecuta en su solo nombre y bajo su crédito personal**, rindiendo cuenta
+y dividiendo ganancias o pérdidas (art. 507). No está sujeta a las solemnidades de constitución de sociedades (art.
+508), **no constituye persona jurídica** (art. 509) y el gestor es reputado único dueño frente a terceros (art. 510).
+
+**Decisión.** Es una herramienta útil para operaciones puntuales, pero deja al gestor expuesto frente a terceros.
+Para un negocio permanente, conviene una sociedad.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Comanditario que administra o firma | «Solo ayuda» | Responsabilidad solidaria (arts. 484 y 485) | Cesar actos de gestión | Escenario 1 |
+| 2 | Nombre del comanditario en la razón social | Marketing | Responde como gestor (art. 477) | Retirarlo de documentos | Escenario 2 |
+| 3 | Roles no definidos | Informalidad | Se reputa colectiva (art. 490) | Aclarar en la escritura | Escenario 4 |
+| 4 | Aporte de «trabajo» del comanditario | Confusión | No vale como aporte (art. 478) | Aportar capital o ser gestor | Sección 5.1 |
+| 5 | Comandita por acciones sin junta de vigilancia | Desconocer el tipo | Nulidad o sanciones (arts. 497 y 503) | Constituir la junta | Escenario 3 |
+| 6 | Capital no suscrito ni pagado en un cuarto | Apuro | No queda definitivamente constituida (art. 493) | Completar | Sección 4.2 |
+| 7 | Negociar acciones antes de pagar dos quintos | Liquidez | Multa y negociación irregular (arts. 495 y 504) | Esperar el pago | Sección 4.2 |
+| 8 | Ignorar la transformación por ley | Crecimiento | Pasa a ser anónima (art. 507 bis) | Vigilar el número de accionistas | Sección 2.3 |
+| 9 | No inscribir ni publicar | Olvido | Nulidad entre socios | Controlar plazos | Sección 4.4 |
+| 10 | Usar el art. 480 sin asesoría | Remisión a un artículo derogado | Fundamento incierto | Consultar a un abogado | Sección 7.3 |
+| 11 | Elegir comandita por moda | Desconocer alternativas | Gestor con riesgo ilimitado | Comparar con SpA | Sección 11 |
+| 12 | Confundir comandita con participación | Terminología | Sin persona jurídica y gestor expuesto | Elegir el vehículo correcto | Sección 9.4 |
+| 13 | No documentar derechos de información | Confianza | Conflicto sobre el art. 487 | Pacto escrito | Sección 6.1 |
+| 14 | Comanditario que compite | Oportunidad | Pierde el derecho a examinar libros (art. 488) | No competir o pedir autorización | Sección 6.3 |
+| 15 | No prever la salida del comanditario | Optimismo | Disputa sobre la cuota | Cláusula de cesión y valoración | Sección 5.3 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Comandita frente a otras formas para capital pasivo
+
+| Criterio | Comandita simple | Comandita por acciones | SpA con series | Sociedad limitada con pacto | Cuentas en participación |
+|---|---|---|---|---|---|
+| Responsabilidad del gestor | Ilimitada | Ilimitada | Limitada | Limitada | Ilimitada frente a terceros |
+| Responsabilidad del inversionista | Hasta el aporte | Hasta el aporte suscrito | Hasta el aporte | Hasta el aporte | Según el contrato |
+| Persona jurídica | Sí | Sí | Sí | Sí | No |
+| Órgano de control | Ninguno obligatorio | Junta de vigilancia | Libre | Libre | Ninguno |
+| Uso actual | Poco | Muy poco | Muy frecuente | Frecuente | Operaciones puntuales |
+
+### C.2. Variantes de diseño
+
+| Variante | Descripción | Riesgo |
+|---|---|---|
+| Un gestor y un comanditario | La forma clásica | Gestor con riesgo ilimitado |
+| Varios gestores | Responsabilidad compartida | Descoordinación; ver art. 489 |
+| Gestor que es una sociedad limitada | Se interpone una persona jurídica | Riesgo de abuso; asesoría |
+| Comandita por acciones con junta de vigilancia | Estructura para muchos accionistas pasivos | Costos y responsabilidad de la junta |
+| Comandita temporal para un proyecto | Duración limitada | Reglas de salida |
+
+### C.3. Cuándo reemplazar la comandita
+
+| Señal | Alternativa |
+|---|---|
+| El gestor no quiere riesgo ilimitado | SpA |
+| El inversionista quiere derechos políticos | SpA con series de acciones |
+| Más de unos pocos inversionistas | SpA o anónima |
+| Operación puntual | Cuentas en participación |
+
+### C.4. Ideas de cláusulas
+
+1. «Los comanditarios no ejecutarán actos de administración, aun como apoderados; las consultas y recomendaciones se
+   harán por escrito al gestor.»
+2. «Los comanditarios recibirán informes trimestrales y podrán examinar los libros, sin trabar la acción de los
+   gestores.»
+3. «El nombre de los comanditarios no figurará en la razón social, el extracto ni la publicidad.»
+4. «La cesión de derechos del comanditario requerirá aviso previo; la facultad de examinar los libros no se
+   transfiere hasta que la sociedad dé punto a sus operaciones.»
+5. «Si el gestor fallece, [mecanismo de continuación].»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Quieres entender las reglas supletorias | 04 |
+| Quieres una alternativa moderna para inversionistas | 06 |
+| La sociedad crecerá mucho | 08 |
+| Quieres constituirla en línea | 15 |
+| Eliges domicilio | 18 |
+| Regimen tributario de socios | 16 |
+| Operación puntual entre comerciantes | Sección 9.4 de este anexo |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 6: sociedades colectivas y comanditarias](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-06-sociedades-colectivas-y-comanditarias/README.md)
+- [Parte 5, clase 4: sociedad por acciones (SpA)](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-04-sociedad-por-acciones-spa/README.md)
+- [Parte 5, clase 11: pactos de accionistas y acuerdos de fundadores](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-11-pactos-de-accionistas-y-acuerdos-de-fundadores/README.md)
+- [Parte 16, clase 9: ángeles y capital semilla privado](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-09-angeles-y-capital-semilla-privado/README.md)
+- [Parte 16, clase 14: costo de dilución y estrategia de financiamiento](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-14-costo-de-dilucion-y-estrategia-de-financiamiento/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Pasividad y protección:** los arts. 477, 484 y 485 conectan lo que hace el comanditario con su responsabilidad.
+2. **Gestión y riesgo:** el art. 483 conecta la administración con la responsabilidad ilimitada.
+3. **Crecimiento y tipo social:** el art. 507 bis conecta el número de accionistas con la transformación en anónima.
+4. **Escritura y prueba:** el art. 490 conecta la claridad del contrato con la clasificación del tipo.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 10 | Identificar gestores y comanditarios; confirmar riesgo ilimitado del gestor | Socios y abogado | Acta de roles |
+| Días 11 a 30 | Escritura, extracto en 60 días, RUT | Gestor | Certificado |
+| Días 31 a 60 | Pacto de información y control; razón social sin nombres de comanditarios | Abogado | Pacto firmado |
+| Días 61 a 90 | Revisión de límites de actuación del comanditario | Gestor y comanditarios | Acta de revisión |
+
+### E.2. Lista de control de la pasividad del comanditario
+
+| Ítem | Sí | No |
+|---|---|---|
+| El comanditario no firma ni da instrucciones a terceros | | |
+| Su nombre no aparece en razón social, letreros ni publicidad | | |
+| Sus derechos de información están pactados | | |
+| Asiste a asambleas con voto consultivo | | |
+| No compite con la sociedad | | |
+| Su aporte es capital, no trabajo | | |
+
+### E.3. Informe trimestral del gestor (modelo)
+
+| Sección | Contenido |
+|---|---|
+| Resultados | Ingresos, costos y utilidad |
+| Caja | Saldo y proyección |
+| Riesgos | Hechos relevantes |
+| Decisiones | Principales decisiones del trimestre |
+| Consultas de comanditarios | Preguntas y respuestas |
+
+### E.4. Lista de verificación de una comandita por acciones
+
+1. Capital totalmente suscrito.
+2. Un cuarto pagado por cada accionista y declaración del gerente en escritura pública.
+3. Acciones nominativas.
+4. Aportes no dinerarios aprobados por la asamblea.
+5. Junta de vigilancia de al menos tres accionistas, designada antes de operar.
+6. Libros e inventarios revisados anualmente.
+7. Control del número de accionistas por la transformación del art. 507 bis.
+
+## 18. Autoevaluación
+
+1. ¿Quién administra una comandita?
+2. ¿Quién responde sin límite?
+3. ¿Hasta cuánto responde el comanditario?
+4. ¿Qué pasa si el comanditario administra?
+5. ¿Puede aparecer su nombre en la razón social?
+6. ¿Qué ocurre si no se sabe quién es gestor?
+7. ¿Qué exige la comandita por acciones antes de operar?
+8. ¿Qué es la junta de vigilancia?
+9. ¿Qué caracteriza a las cuentas en participación?
+10. ¿Se puede constituir en línea?
+11. ¿Cuándo se transforma en anónima por ley?
+12. ¿Qué alternativa moderna conviene al inversionista pasivo?
+
+**Respuestas.**
+
+1. Los gestores (art. 470).
+2. Los gestores, indefinida y solidariamente (art. 483).
+3. Hasta sus aportes prometidos o entregados (art. 483).
+4. Queda solidariamente responsable de todas las pérdidas y obligaciones (art. 485).
+5. No: si lo permite, responde como gestor (arts. 476 y 477).
+6. Se reputa colectiva (art. 490).
+7. Capital suscrito, un cuarto pagado, junta de vigilancia y demás reglas del párrafo (arts. 493 y 498).
+8. Un órgano de al menos tres accionistas que controla inventarios y dividendos (arts. 498 a 502).
+9. No son persona jurídica, no tienen razón social, patrimonio colectivo ni domicilio; el gestor es reputado único
+   dueño frente a terceros (arts. 509 y 510).
+10. Sí (art. 2 N.º 7 y 8 de la Ley 20.659).
+11. Si durante doce meses consecutivos cumple las condiciones de una anónima cerrada para inscribirse en el Registro
+    de Valores (art. 507 bis).
+12. Una SpA con series de acciones (Anexo 06).
+
+**Puntaje.** Diez o más: dominas el tipo. Seis a nueve: repasa las secciones 6 y 7. Menos de seis: relee el anexo.
+
+## 19. Mapa de artículos de la comandita (Código de Comercio, arts. 470 a 511)
+
+| Artículos | Contenido | Pregunta práctica |
+|---|---|---|
+| 470 | Definición: gestores y comanditarios | ¿Quién es quién? |
+| 471 a 473 | Dos especies: simple y por acciones | ¿Qué tipos hay? |
+| 474 | La simple se forma como la colectiva | ¿Cómo se constituye? |
+| 475 | El nombre del comanditario no figura en el extracto | ¿Aparezco en el registro? |
+| 476 y 477 | Razón social e inclusión del nombre del comanditario | ¿Puede mi nombre estar en el letrero? |
+| 478 y 479 | Aportes del comanditario | ¿Puedo aportar trabajo? |
+| 480 a 482 | Responsabilidad remitida, voto consultivo y cesión | ¿Qué derechos tengo? |
+| 483 | Responsabilidad de gestores y comanditarios | ¿Cuánto respondo? |
+| 484 a 487 | Prohibición de administrar y actos permitidos | ¿Qué puedo hacer sin perder la protección? |
+| 488 | Competencia y derecho a examinar libros | ¿Qué pasa si compito? |
+| 489 y 490 | Varios socios y duda sobre la naturaleza | ¿Y si el contrato no es claro? |
+| 491 a 497 | Reglas de la comandita por acciones | ¿Cómo se constituye? |
+| 498 a 502 | Junta de vigilancia | ¿Quién controla? |
+| 503 a 505 | Sanciones del texto histórico | ¿Qué conductas se castigan? |
+| 506 | Representación de accionistas en pleitos | ¿Cómo litigan los accionistas? |
+| 507 bis | Transformación en anónima por ley | ¿Cuándo dejo de ser comandita? |
+| 507 a 511 | Asociación o cuentas en participación | ¿Qué es la participación? |
+
+**Cómo usar el mapa.** Busca el artículo, léelo completo en el texto de la Biblioteca del Congreso Nacional y compáralo con
+este anexo. Recuerda que el art. 480 remite a un artículo hoy derogado y que los arts. 492 y 503 usan «escudos».
+
+## 20. Calendario anual y glosario ampliado
+
+### H.1. Calendario anual de una comandita
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada mes | Revisar el Registro de Compras y Ventas; declarar y pagar | DL 825, art. 59 |
+| Cada trimestre | Informe del gestor a los comanditarios | Recomendación profesional |
+| Mayo | Declaración de trabajadores por unidad; el SII informa el capital propio | DL 3.063, arts. 24 y 25 |
+| Julio y enero | Patente | DL 3.063, art. 29 |
+| Mes de la Operación Renta | Declaración anual y atribución de utilidades | Calendario SII |
+| Cada año | Asamblea con voto consultivo de los comanditarios; en la comandita por acciones, memoria de la junta de vigilancia | Arts. 481 y 499 |
+| Cada año | Revisar que los comanditarios no hayan realizado actos de administración | Arts. 484 y 485 |
+| Cuando cambia un socio | Modificación de la escritura e inscripción | Art. 474 |
+| Cada año | Revisar el número de accionistas y la transformación posible | Art. 507 bis |
+
+### H.2. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Asamblea | Reunión de accionistas en la comandita por acciones |
+| Comanditario | Socio que aporta y no administra |
+| Cupón de acción | Título de participación en la comandita por acciones |
+| Escudo | Unidad monetaria histórica usada en el texto |
+| Gestor | Socio que administra y responde sin límite |
+| Junta de vigilancia | Órgano de control de la comandita por acciones |
+| Participación | Contrato privado sin persona jurídica |
+| Partícipe inactivo | Quien aporta en la participación y no figura frente a terceros |
+| Razón social | Nombre bajo el cual actúa la sociedad |
+| Secreto de arte o ciencia | Aporte permitido al comanditario si no lo aplica por sí mismo |
+| Socio colectivo | Socio con responsabilidad solidaria e ilimitada |
+| Suscriptor | Quien toma acciones y responde del monto total |
+| Voto consultivo | Voz sin voto decisorio |
+
+## 21. Preguntas frecuentes
 
 **1. ¿Cuál es la diferencia entre gestor y comanditario?**
 El gestor administra y responde indefinida y solidariamente; el comanditario aporta y responde solo hasta
@@ -560,7 +876,59 @@ Tiene derecho a exigir a los gestores la restitución del exceso sobre su aporte
 Los miembros de la junta de vigilancia pueden ser responsables solidarios si permiten a sabiendas
 inexactitudes graves o dividendos no justificados (art. 502).
 
-## 14. Fuentes y vigencia
+**21. ¿Puede haber varios gestores?**
+Sí. Si hay comanditarios y varios colectivos que administran de consuno o por todos, la sociedad es comanditaria
+respecto de los primeros y colectiva respecto de los segundos (art. 489).
+
+**22. ¿Puede el comanditario ser director o gerente?**
+No es compatible con su calidad: administrar lo expone a responsabilidad solidaria (arts. 484 y 485).
+
+**23. ¿Puede el comanditario celebrar contratos con la sociedad?**
+Puede celebrar contratos con los socios gestores por cuenta propia o ajena sin que se considere administración
+(art. 487 N.º 1).
+
+**24. ¿Puede el comanditario trabajar en otro lugar para la sociedad?**
+El desempeño de una comisión en una plaza distinta de la del domicilio social no es acto de administración
+(art. 487 N.º 2).
+
+**25. ¿Qué es un secreto de arte o ciencia como aporte?**
+Una comunicación de conocimiento que el comanditario no aplica por sí mismo ni coopera diariamente a aplicar
+(art. 478).
+
+**26. ¿Qué pasa si el aporte consiste en el usufructo?**
+El comanditario no soporta otra pérdida que la de los productos de la cosa y no restituye los beneficios recibidos de
+buena fe (art. 479).
+
+**27. ¿Cuándo se puede negociar una acción de comandita?**
+Una vez entregadas dos quintas partes de su valor (art. 495).
+
+**28. ¿Qué responsabilidad tiene el suscriptor?**
+Responde del monto total de las acciones que tomó, aunque se estipule lo contrario (art. 495).
+
+**29. ¿Qué hace la junta de vigilancia?**
+Examina la constitución legal, inspecciona los libros, comprueba valores sociales y presenta una memoria anual
+(art. 499); puede convocar a la asamblea y provocar la disolución (art. 500).
+
+**30. ¿Los miembros de la junta pueden responder?**
+Sí, solidariamente con los gerentes en los casos de los arts. 501 y 502.
+
+**31. ¿Qué es el artículo 480 y por qué es problemático?**
+Remite a la responsabilidad de los accionistas del art. 456, hoy derogado. Consulta a un abogado antes de apoyarte en él.
+
+**32. ¿Qué son los escudos de los arts. 492 y 503?**
+Una unidad monetaria histórica; esas disposiciones no sirven como guía práctica sin asesoría.
+
+**33. ¿Las cuentas en participación pagan impuestos?**
+El tratamiento tributario depende de la operación y de los partícipes; consulta a un contador (Anexo 16).
+
+**34. ¿Puedo convertir la comandita en SpA?**
+Con asesoría, mediante transformación o nueva constitución y aporte, evaluando contratos y efectos tributarios.
+
+**35. ¿Cuándo debo pedir ayuda profesional?**
+Antes de elegir la comandita, al redactar la escritura, ante cualquier acto del comanditario que parezca gestión, al
+constituir la junta de vigilancia y ante la transformación por ley.
+
+## 22. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

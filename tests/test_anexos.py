@@ -28,7 +28,7 @@ SECCIONES_AMPLIACION = (
 )
 SECCIONES_FINALES = ("Preguntas frecuentes", "Fuentes y vigencia")
 # Anexos ya ampliados (seis secciones de profundización antes de las preguntas frecuentes).
-EXTENDIDOS = {1, 2}
+EXTENDIDOS = {1, 2, 3, 4, 5, 6}
 
 
 def palabras(texto: str) -> int:

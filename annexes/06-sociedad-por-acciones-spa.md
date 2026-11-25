@@ -481,7 +481,375 @@ sí a alguna, la SpA suele ser la opción más cómoda.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md) del programa.
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre los artículos 424 a 446 del Código de Comercio y los
+artículos 4, 9, 10, 13 bis y 14 de la Ley 20.659.
+
+### Escenario 1: el estatuto copiado de internet
+
+**Situación.** Tres fundadores constituyen una SpA con un estatuto descargado de un sitio web. Cuando hay que decidir
+una reducción de capital, uno de ellos se niega.
+
+**Análisis.** El art. 440 dice que todo acuerdo de reducción de capital se adopta por la mayoría que fije el estatuto
+y, **en silencio de este, por unanimidad** de los accionistas. El estatuto copiado no regulaba la materia: un solo
+accionista puede bloquear la decisión. Además, el art. 424 remite supletoriamente a las normas de las anónimas
+cerradas en lo no previsto, lo que puede producir resultados que los fundadores no esperaban.
+
+**Corrección.** Modificar el estatuto con la mayoría que corresponda (o con unanimidad si nada se pactó, art. 427),
+fijando quórums por materia. Contratar revisión de un abogado para el estatuto completo.
+
+**Lección.** «No copies estatutos sin entender» no es un consejo retórico: cada silencio activa una regla supletoria.
+
+### Escenario 2: la ronda de inversión y las series de acciones
+
+**Situación.** Una SpA de dos fundadores recibe una oferta de un inversionista que aportará 60.000.000 de pesos por
+el 20 % de la propiedad, con preferencia en la liquidación y un director.
+
+**Análisis.** La SpA admite acciones ordinarias y preferidas (art. 436), series sin voto, con voto limitado o con más
+de un voto (art. 437) y dividendo fijo preferente (art. 442). El inversionista puede recibir una **serie preferente**
+con derechos definidos en el estatuto. La emisión de acciones de pago se ofrece al precio que fijen los accionistas
+(art. 439). El pacto de accionistas regula lo no estatutario.
+
+**Pasos.** (1) Valorar la empresa con supuestos escritos; (2) redactar la modificación del estatuto para crear la serie
+(art. 427); (3) firmar el formulario de aumento de capital; (4) inscribir la suscripción en el Registro de
+Accionistas (art. 13 bis de la Ley 20.659); (5) firmar el pacto con derechos de información, veto y salida.
+
+**Cifras ilustrativas.** 60.000.000 por el 20 % implica una valoración *post-money* de 300.000.000 y *pre-money* de
+240.000.000. Si los fundadores tenían 10.000 acciones, deben emitirse 2.500 nuevas para que el inversionista tenga el
+20 % (2.500 sobre 12.500).
+
+### Escenario 3: el accionista que no paga su capital suscrito
+
+**Situación.** El estatuto no fija plazo para pagar el capital. Un accionista suscribió 5.000.000 de pesos y no ha
+pagado nada en cuatro años.
+
+**Análisis.** Si el estatuto calla, el plazo para suscribir y pagar es de **cinco años** desde la constitución (art.
+434). Si no se paga oportunamente, el capital queda reducido al monto efectivamente suscrito y pagado; y salvo
+disposición contraria, las acciones no pagadas no gozan de derecho alguno (art. 434). Aún faltan doce meses para el
+vencimiento.
+
+**Decisión.** Antes de que venza el plazo, enviar un requerimiento y decidir: exigir el pago, acordar una reducción de
+capital (por mayoría estatutaria o unanimidad, art. 440) o prorrogar. Documentar.
+
+**Lección.** Fijar un plazo corto de pago en el estatuto evita capitales ficticios.
+
+### Escenario 4: el pacto de arrastre y acompañamiento
+
+**Situación.** Un comprador quiere adquirir el 100 % de una SpA con cinco accionistas. Uno de ellos, minoritario, se
+niega a vender.
+
+**Análisis.** El art. 435 permite que el estatuto establezca que, bajo determinadas circunstancias, se pueda exigir la
+venta de las acciones a todos o parte de los accionistas, regulando efectos, derechos y obligaciones; si no los
+regula, esas estipulaciones se tienen por no escritas. Un **derecho de arrastre** (*drag along*) pactado y bien
+regulado habría obligado al minoritario a vender en las mismas condiciones.
+
+**Corrección.** Sin cláusula, el comprador debe negociar con el minoritario. A futuro, incluir arrastre y
+acompañamiento (*tag along*) en el estatuto o en el pacto, con precios mínimos y reglas de valoración.
+
+### Escenario 5: la SpA que crece hasta ser anónima
+
+**Situación.** Una SpA de tecnología ha vendido acciones a muchos pequeños inversionistas. Durante dos años cumple las
+condiciones que obligan a una anónima cerrada a inscribir sus acciones en el Registro de Valores.
+
+**Análisis.** La SpA que durante doce meses consecutivos cumpla esas condiciones **se transforma por el solo ministerio
+de la ley en sociedad anónima**, y le serán aplicables las disposiciones de la Ley 18.046, que prevalecen sobre el
+estatuto (art. 430). La siguiente junta debe resolver las adecuaciones y elegir un directorio.
+
+**Decisión.** Vigilar el número de accionistas y planificar la transición (Anexos 07 y 08). Consultar a un abogado de
+mercado de valores antes de captar muchos inversionistas.
+
+### Escenario 6: los socios en tres ciudades y la firma electrónica
+
+**Situación.** Tres fundadores viven en ciudades distintas; uno no tiene firma electrónica avanzada.
+
+**Análisis.** El formulario debe firmarlo cada uno con firma avanzada o ante un notario (art. 9 de la Ley 20.659), o por
+un apoderado; los socios pueden designar un apoderado único para firmar por todos. Todos deben firmar dentro de 60
+días desde la primera firma, y el formulario no puede modificarse después (art. 10).
+
+**Decisión.** Designar un apoderado único con firma avanzada, o agendar al notario del tercero en su ciudad. Revisar
+el estatuto entre los tres antes de la primera firma.
+
+### Escenario 7: el administrador único que se pasó
+
+**Situación.** El único administrador firma un contrato de arriendo por diez años a nombre de la SpA, sin consulta,
+con un familiar suyo.
+
+**Análisis.** La SpA no exige directorio y su estatuto puede conferir amplias facultades al administrador (art. 425 N.º
+4). Sin límites de monto o materia, el acto puede obligar a la sociedad. Si el contrato fue desventajoso, los
+accionistas podrían reclamar responsabilidad por perjuicios; si las reglas supletorias de la anónima sobre operaciones con directores
+se extienden a un administrador único es una cuestión que debe revisar un abogado; lo seguro es incorporarlas al estatuto.
+
+**Corrección.** Incorporar al estatuto o al pacto límites de monto, aprobación previa para contratos con
+partes relacionadas y registro de decisiones. Revisar el contrato y, si corresponde, evaluar acciones.
+
+### Escenario 8: el accionista que se va
+
+**Situación.** Una fundadora quiere vender sus acciones al otro fundador y salir.
+
+**Análisis.** Se transfiere mediante los formularios del Registro de Accionistas: compraventa o inscripción (art. 13
+bis de la Ley 20.659), y el cesionario debe declarar que conoce la normativa y el estatuto (art. 446). Si hay derecho de
+preferencia, debe respetarse; si hay *vesting*, revisar cuántas acciones están adquiridas.
+
+**Cifras ilustrativas.** Con vesting de cuatro años, cliff de un año y 10.000 acciones, a los 30 meses la fundadora tiene
+adquiridas 6.250 (30/48). Las no adquiridas pueden recomprarse a un precio pactado.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Copiar estatutos | Prisa | Reglas supletorias inesperadas | Revisión legal completa | Escenario 1 |
+| 2 | No fijar plazo de pago del capital | Omisión | Cinco años y capital reducido (art. 434) | Plazo corto escrito | Escenario 3 |
+| 3 | No firmar en 60 días | Mala coordinación | Formulario no suscrito (art. 10 Ley 20.659) | Apoderado único y agenda | Escenario 6 |
+| 4 | Modificar tras la primera firma | Cambio de opinión | Imposible: se corrige después | Revisar antes de firmar | Sección 4.2 |
+| 5 | Silencio sobre reducción de capital | Omisión | Unanimidad (art. 440) | Quórum estatutario | Escenario 1 |
+| 6 | No regular arrastre ni acompañamiento | Optimismo | Compra bloqueada | Cláusulas y precios mínimos | Escenario 4 |
+| 7 | No llevar el registro de accionistas | Descuido | Responsabilidad solidaria de administradores (art. 431) | Registro electrónico | Sección 5.4 |
+| 8 | No declarar conocimiento del estatuto al transferir | Informalidad | Responsabilidad del cedente (art. 446) | Declaración en el traspaso | Escenario 8 |
+| 9 | Ignorar la transformación por ley | Crecimiento | Pasa a anónima (art. 430) | Vigilar accionistas | Escenario 5 |
+| 10 | Administrador sin límites | Confianza | Contratos desventajosos | Límites y registro | Escenario 7 |
+| 11 | No pactar arbitraje con claridad | Silencio | Árbitro mixto designado por el tribunal (art. 441) | Elegir institución | Sección 6.3 |
+| 12 | Series sin definir derechos con precisión | Complejidad | Estipulaciones sin efecto | Redactar series con abogado | Sección 5.2 |
+| 13 | Aportes no dinerarios sin valor | Informalidad | Discusión de capital | Valorar y documentar | Sección 5.1 |
+| 14 | Revocar poderes sin registrar | Descuido | Poder vigente (art. 13 ter Ley 20.659) | Revocar en el Registro | Sección 6.4 |
+| 15 | Elegir régimen sin simular | No consultó | Sorpresas tributarias | Simulación a cuatro años | Anexo 16 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Cuatro estructuras típicas de una SpA
+
+| Estructura | Descripción | Cuándo sirve | Riesgo |
+|---|---|---|---|
+| SpA unipersonal | Un accionista | Un fundador que prevé socios | Falta de controles |
+| SpA de fundadores con vesting | Acciones que se adquieren con el tiempo | Equipos que parten juntos | Conflicto en la salida |
+| SpA con inversionista y series | Series preferentes y pacto | Ronda de inversión | Complejidad y dilución |
+| SpA con directorio | Órgano colegiado por estatuto | Mayor gobierno | Costos y formalidad |
+
+### C.2. Opciones de gobierno
+
+| Opción | Descripción | Observación |
+|---|---|---|
+| Administrador único | El fundador administra | Simple; concentra poder |
+| Administración conjunta | Dos firmas | Control con lentitud |
+| Directorio y gerente | Estructura de anónima | Útil con inversionistas |
+| Comité de inversión por pacto | Control del inversionista sin directorio | Debe pactarse |
+
+### C.3. Alternativas de salida de accionistas
+
+| Mecanismo | Descripción |
+|---|---|
+| Derecho de preferencia | Los accionistas compran primero |
+| Arrastre (*drag along*) | Obliga a vender junto al mayoritario |
+| Acompañamiento (*tag along*) | Permite vender en las mismas condiciones |
+| Opción de compra o venta | Un accionista compra o vende al precio pactado |
+| Recompra por la sociedad | La SpA adquiere acciones (art. 438) |
+
+### C.4. Cuándo cambiar de tipo
+
+| Señal | Alternativa |
+|---|---|
+| Muchos accionistas y alta formalidad | Anónima cerrada o abierta |
+| Socios estables sin inversión | Limitada |
+| Un solo dueño sin planes de socios | EIRL |
+
+### C.5. Ideas de cláusulas
+
+1. «El capital se pagará dentro de [12] meses desde la constitución.»
+2. «La reducción de capital requerirá el voto conforme de accionistas que representen al menos [66 %] de las acciones.»
+3. «Las acciones serán de dos series: A (ordinarias) y B (preferentes, con derecho a [dividendo] y a [veto] sobre [materias]).»
+4. «Las diferencias se resolverán por arbitraje con [institución], tres árbitros y sede en [ciudad].»
+5. «Los accionistas fundadores tendrán *vesting* de [4] años con *cliff* de [1] año.»
+6. «El cesionario declarará conocer la normativa, el estatuto y las protecciones que existen o no existen.»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Quieres entender las reglas supletorias | 07 |
+| Constituyes en línea | 15 |
+| Eliges régimen | 16 |
+| Abres un local o eliges oficina | 17 y 18 |
+| Eres pyme | 13 |
+| La sociedad crece mucho | 08 |
+| Habrá un inversionista | Secciones 5 y 6 y las clases de la parte 16 |
+| Cierre o transformación | 16 y las clases de la parte 22 |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 4: sociedad por acciones (SpA)](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-04-sociedad-por-acciones-spa/README.md)
+- [Parte 5, clase 9: capital, aportes, valorización y vesting](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-09-capital-aportes-valorizacion-y-vesting/README.md)
+- [Parte 5, clase 11: pactos de accionistas y acuerdos de fundadores](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-11-pactos-de-accionistas-y-acuerdos-de-fundadores/README.md)
+- [Parte 6, clase 6: acciones, series y derechos en una SpA](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-06-acciones-series-y-derechos-en-una-spa/README.md)
+- [Parte 16, clase 10: venture capital y rondas](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-10-venture-capital-y-rondas/README.md)
+- [Parte 16, clase 11: SAFE, notas convertibles y equity](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-11-safe-notas-convertibles-y-equity/README.md)
+- [Parte 16, clase 14: costo de dilución y estrategia de financiamiento](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-14-costo-de-dilucion-y-estrategia-de-financiamiento/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Estatuto y supletoriedad:** el art. 424 conecta lo escrito con las reglas de la anónima cerrada.
+2. **Capital y plazo:** el art. 434 conecta el plazo de pago con la validez del capital.
+3. **Registro y transferencias:** el art. 13 bis de la Ley 20.659 conecta el Registro de Accionistas con el SII.
+4. **Crecimiento y tipo:** el art. 430 conecta el número de accionistas con la transformación en anónima.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 10 | Redactar estatuto y pacto; verificar nombre | Fundadores y abogado | Borrador revisado |
+| Días 11 a 20 | Firmar el formulario (todos dentro de 60 días); RUT | Fundadores | Certificado |
+| Días 21 a 30 | Registro de accionistas; poderes; cuenta bancaria | Administrador | Registro y poderes |
+| Días 31 a 60 | Política de capital y vesting; seguros | Fundadores | Política firmada |
+| Días 61 a 90 | Primera revisión de gobierno y régimen tributario | Contador y abogado | Memo de revisión |
+
+### E.2. Lista de control del estatuto
+
+| Ítem | Sí | No |
+|---|---|---|
+| Nombre con «SpA» | | |
+| Objeto amplio y claro | | |
+| Capital, número de acciones y plazo de pago | | |
+| Series y derechos definidos | | |
+| Administración y límites | | |
+| Quórums de modificación y de reducción de capital | | |
+| Arbitraje con institución y reglas | | |
+| Medios de comunicación con accionistas | | |
+| Arrastre, acompañamiento y preferencia | | |
+
+### E.3. Cuadro de capitalización (ejemplo ilustrativo)
+
+| Etapa | Fundador A | Fundador B | Inversionista | Total |
+|---|---:|---:|---:|---:|
+| Constitución | 5.000 | 5.000 | 0 | 10.000 |
+| Tras la ronda (20 % post) | 5.000 | 5.000 | 2.500 | 12.500 |
+| Porcentajes | 40 % | 40 % | 20 % | 100 % |
+
+### E.4. Acta de decisión de accionistas (modelo)
+
+| Campo | Contenido |
+|---|---|
+| Fecha | |
+| Accionistas y porcentajes | |
+| Materia | |
+| Quórum requerido por estatuto | |
+| Votos | |
+| Decisión | |
+| Firmas | |
+
+### E.5. Lista para una ronda de inversión
+
+1. Valoración y supuestos escritos.
+2. Modificación estatutaria para las series.
+3. Formulario de aumento de capital y suscripción.
+4. Inscripción en el Registro de Accionistas.
+5. Pacto de accionistas.
+6. Actualización de poderes y gobierno.
+7. Información al SII y al contador.
+
+## 18. Autoevaluación
+
+1. ¿Cuántas personas pueden crear una SpA?
+2. ¿Con qué expresión debe terminar el nombre?
+3. ¿Qué regla rige en silencio del estatuto?
+4. ¿Qué plazo hay para pagar el capital si el estatuto calla?
+5. ¿Qué mayoría exige reducir capital si el estatuto calla?
+6. ¿Qué puede hacer el estatuto con los votos?
+7. ¿Qué es obligatorio resolver por arbitraje?
+8. ¿Qué plazo hay para firmar todos el formulario?
+9. ¿Cuándo se transforma por ley en anónima?
+10. ¿Qué declara el cesionario al recibir acciones?
+11. ¿Dónde se llevan el registro de accionistas y los poderes en el sistema en línea?
+12. ¿Qué cláusulas protegen a un minoritario?
+
+**Respuestas.**
+
+1. Una o más (art. 424).
+2. «SpA» (art. 425 N.º 1).
+3. Las normas de las anónimas cerradas, en lo que no contradiga su naturaleza (art. 424).
+4. Cinco años (art. 434).
+5. Unanimidad (art. 440).
+6. Crear series sin voto, con voto limitado o con más de un voto (art. 437).
+7. Las diferencias entre accionistas, con la sociedad y con sus administradores (art. 441).
+8. Sesenta días desde la primera firma (art. 10 Ley 20.659).
+9. Si durante doce meses consecutivos cumple las condiciones de inscripción de una anónima cerrada (art. 430).
+10. Que conoce la normativa, el estatuto y las protecciones que existan o no (art. 446).
+11. En el Registro de Empresas y Sociedades (arts. 13 bis y 13 ter).
+12. Acompañamiento, preferencia, vetos sobre materias críticas, derechos de información y quórums calificados.
+
+**Puntaje.** Diez o más: dominas el tipo. Seis a nueve: repasa las secciones 5 y 6. Menos de seis: relee el anexo.
+
+## 19. Mapa de artículos de la SpA (Código de Comercio, arts. 424 a 446)
+
+| Artículo | Contenido | Pregunta práctica |
+|---:|---|---|
+| 424 | Definición; libertad del estatuto; supletoriedad de la anónima cerrada | ¿Qué rige si no escribo algo? |
+| 425 | Formación y contenido mínimo del estatuto | ¿Qué debo decidir? |
+| 426 | Extracto inscrito y publicado en 60 días | ¿Cuándo vence el plazo en la vía tradicional? |
+| 427 | Modificación del estatuto | ¿Cómo cambio el estatuto? |
+| 428 | Omisiones y saneamiento | ¿Qué pasa si omití un requisito? |
+| 429 | Responsabilidad limitada a los aportes | ¿Cuánto arriesgo? |
+| 430 | Transformación por ley en anónima | ¿Cuándo dejo de ser SpA? |
+| 431 | Registro de accionistas | ¿Qué debo anotar? |
+| 432 | Nombre idéntico o semejante | ¿Puedo repetir un nombre? |
+| 433 | Domicilio | ¿Qué pasa si no lo indico? |
+| 434 | Capital y plazo de pago | ¿Cuándo debo pagar? |
+| 435 | Límites de control y venta forzosa | ¿Puedo pactar arrastre? |
+| 436 y 437 | Acciones ordinarias y preferidas; votos | ¿Cómo diseño series? |
+| 438 | Acciones de propia emisión | ¿Puede recomprar? |
+| 439 | Acciones de pago | ¿A qué precio emito? |
+| 440 | Reducción de capital | ¿Qué mayoría necesito? |
+| 441 | Arbitraje | ¿Cómo se resuelven las disputas? |
+| 442 y 443 | Dividendo fijo y cuentas separadas | ¿Puedo pagar dividendos preferentes? |
+| 444 | No se disuelve por reunirse en un accionista | ¿Qué pasa si queda uno solo? |
+| 445 | Comunicaciones | ¿Cómo se cita a los accionistas? |
+| 446 | Declaración del cesionario | ¿Qué debo declarar al recibir acciones? |
+
+**Cómo usar el mapa.** Busca el artículo, léelo completo en el texto de la Biblioteca del Congreso Nacional y compáralo con
+este anexo.
+
+## 20. Calendario anual y glosario ampliado
+
+### H.1. Calendario anual de una SpA
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada mes | Registro de Compras y Ventas; declarar y pagar | DL 825, art. 59; calendario SII |
+| Cada trimestre | Revisar capital pagado, plazos y cuentas de accionistas | Código de Comercio, art. 434 |
+| Cada trimestre | Informe a accionistas e inversionistas según el pacto | Recomendación profesional |
+| Mayo | Declaración de trabajadores por unidad; el SII informa el capital propio | DL 3.063, arts. 24 y 25 |
+| Julio y enero | Patente | DL 3.063, art. 29 |
+| Mes de la Operación Renta | Declaración anual, atribución o retiro de utilidades | Calendario SII |
+| Cada año | Revisar el Registro de Accionistas y el de Poderes | Ley 20.659, arts. 13 bis y 13 ter |
+| Cada año | Revisar el número de accionistas por el art. 430 | Código de Comercio, art. 430 |
+| En cada transferencia | Formularios del Registro de Accionistas y declaración del cesionario | Ley 20.659, art. 13 bis; art. 446 |
+| En cada modificación | Formulario y respaldo de actas en 30 días | Ley 20.659, art. 14 |
+
+### H.2. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Acción ordinaria | Acción con los derechos generales |
+| Acción preferida | Acción con privilegios definidos en el estatuto |
+| Acción de pago | Acción emitida a cambio de un aporte |
+| Arrastre | Derecho a obligar a otros accionistas a vender |
+| Acompañamiento | Derecho a vender en las mismas condiciones del mayoritario |
+| Cliff | Período inicial sin adquisición de acciones en un vesting |
+| Dilución | Reducción del porcentaje por nuevas emisiones |
+| Dividendo fijo | Pago preferente a una serie |
+| Drag along / tag along | Nombres en inglés de arrastre y acompañamiento |
+| Estatuto | Contrato y reglas de la SpA |
+| Post-money | Valoración tras la inversión |
+| Pre-money | Valoración antes de la inversión |
+| Registro de Accionistas | Registro electrónico de acciones y gravámenes |
+| Serie | Conjunto de acciones con iguales derechos |
+| Suscripción | Compromiso de comprar acciones |
+| Vesting | Adquisición gradual de acciones |
+| Veto | Derecho a bloquear ciertas decisiones |
+
+## 21. Preguntas frecuentes
 
 **1. ¿Puedo constituir una SpA yo solo?**
 Sí. El artículo 424 permite que la sociedad sea creada por una o más personas, y el artículo 444 aclara
@@ -564,7 +932,71 @@ La ley no lo prohíbe. Los efectos tributarios y de control cambian según el r�
 **20. ¿Dónde veo qué sociedades existen?**
 En el Registro de Empresas y Sociedades, que es público y gratuito (art. 11 Ley 20.659).
 
-## 14. Fuentes y vigencia
+**21. ¿Puede una SpA tener directorio?**
+Sí, si el estatuto lo establece. No es obligatorio; la forma de administración la define el estatuto (art. 425 N.º 4).
+
+**22. ¿Puedo emitir acciones sin láminas físicas?**
+Sí, el estatuto puede establecerlo (art. 434).
+
+**23. ¿La SpA puede recomprar sus acciones?**
+Sí, salvo prohibición estatutaria; deben enajenarse dentro del plazo del estatuto o en un año; si no, el capital queda
+reducido (art. 438).
+
+**24. ¿Cómo se calculan los quórums con acciones sin voto o con voto múltiple?**
+El estatuto debe determinar cómo computarlas (art. 437).
+
+**25. ¿Qué pasa si no se pagan dividendos a la serie con dividendo fijo?**
+El accionista puede optar por acumular el saldo en una cuenta especial o ejercer el derecho a retiro (art. 442).
+
+**26. ¿Puedo pagar dividendos según una unidad de negocio?**
+Sí, llevando cuentas separadas y calculando las utilidades sobre esa contabilidad (art. 443).
+
+**27. ¿Cómo se comunican las citaciones?**
+Por los medios del estatuto; si calla, por correo certificado (art. 445).
+
+**28. ¿Qué pasa si se reúnen todas las acciones en un accionista?**
+La sociedad no se disuelve, salvo que el estatuto lo disponga (art. 444).
+
+**29. ¿Qué es el arbitraje obligatorio?**
+Las diferencias entre accionistas, con la sociedad y con sus administradores deben resolverse por arbitraje; el
+estatuto debe indicar el tipo, los integrantes y su designación (art. 441).
+
+**30. ¿Qué pasa si no se indica el árbitro?**
+Conoce un árbitro mixto designado por el tribunal de justicia del domicilio (art. 441).
+
+**31. ¿Puedo limitar cuánto puede controlar un accionista?**
+Sí, con porcentajes o montos máximos o mínimos y reglas de efectos (art. 435).
+
+**32. ¿Qué es el vesting y dónde se pacta?**
+La adquisición gradual de acciones; se pacta en el estatuto o en el pacto de accionistas, con reglas de recompra.
+
+**33. ¿Cómo se firman los traspasos?**
+Con los formularios del Registro de Accionistas, y el cesionario declara conocer la normativa (arts. 13 bis y 446).
+
+**34. ¿Puedo constituirla sin un abogado?**
+La ley no lo exige, pero el estatuto exige diseño; la asesoría evita reglas supletorias inesperadas.
+
+**35. ¿Qué diferencia hay con la anónima cerrada?**
+La SpA no exige directorio ni juntas y su estatuto es más libre; la anónima tiene órganos obligatorios (Anexo 07).
+
+**36. ¿Puede tener accionistas personas jurídicas?**
+La ley no lo prohíbe; revisa los efectos tributarios y de control.
+
+**37. ¿La SpA puede hacer pactos entre accionistas?**
+Sí, los pactos privados son habituales; lo que debe constar en el estatuto para valer frente a la sociedad no puede
+quedar solo en un pacto verbal.
+
+**38. ¿Qué es un apoderado único?**
+Una persona designada para firmar los formularios en nombre de todos los socios (art. 9 de la Ley 20.659).
+
+**39. ¿Cuánto cuesta el trámite en línea?**
+El Registro es público y gratuito; pueden existir costos de notario y de asesoría (Anexo 15).
+
+**40. ¿Cuándo debo pedir ayuda profesional?**
+Al redactar el estatuto, en rondas de inversión, ante reducciones de capital, al pactar vesting y arrastre y cuando la
+sociedad crezca en número de accionistas.
+
+## 22. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

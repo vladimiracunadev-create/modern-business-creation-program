@@ -497,7 +497,322 @@ y para valorar la limitación de responsabilidad que ofrecen.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Todos los casos son **ilustrativos**: nombres y cifras inventados para practicar el razonamiento sobre los
+artículos 348 a 423 del Código de Comercio.
+
+### Escenario 1: el acreedor cobra todo a un solo socio
+
+**Situación.** Tres socios de una colectiva de transporte (Iván, Julia y Karla) deben 18.000.000 de pesos a un
+proveedor de repuestos. El proveedor demanda solo a Iván, que es el que tiene más bienes.
+
+**Análisis.** Los socios colectivos responden **solidariamente** de todas las obligaciones legalmente contraídas
+bajo la razón social, y no pueden derogar la solidaridad por pacto (art. 370). El acreedor puede cobrar el total a
+cualquiera. Iván debe pagar los 18.000.000, aunque su participación sea de un tercio.
+
+**Qué puede hacer Iván.** Pagar y luego exigir a Julia y Karla su parte según lo pactado en la escritura o, a falta de
+pacto, según las reglas de reparto de pérdidas (a prorrata de los aportes, art. 382). El **derecho de repetición**
+entre socios no cambia lo que el acreedor puede exigir.
+
+**Lección.** En una colectiva, la confianza entre socios es la garantía de recuperar lo que uno paga por todos.
+
+### Escenario 2: el socio que firma por la sociedad sin estar autorizado
+
+**Situación.** Luis, socio sin facultad de administrar según la escritura, firma un pagaré por 5.000.000 de pesos a
+nombre de la razón social para comprar un vehículo que usa para sus propios negocios.
+
+**Análisis.** Si un socio no autorizado usa la firma social, la sociedad no responde, salvo si la obligación se
+convirtió en provecho de ella, y entonces solo hasta el beneficio recibido (art. 373). La sociedad tampoco responde
+de documentos suscritos con la razón social cuando las obligaciones no le conciernen y el tercero los aceptó
+sabiéndolo (art. 374). Si el acreedor actuó de buena fe y sin saber, la discusión puede ser más compleja.
+
+**Acciones recomendadas.** Reunir pruebas del uso personal, avisar por escrito al acreedor, evaluar la exclusión del
+socio (art. 404 N.º 2) y revisar los controles de firma.
+
+**Lección.** Definir en la escritura **quién usa la razón social** (art. 371) y comunicarlo a bancos y proveedores.
+
+### Escenario 3: el socio que abre su propio negocio del mismo rubro
+
+**Situación.** Mónica, socia de una colectiva de ferretería, abre por su cuenta una tienda de pinturas, que es parte del
+giro de la sociedad.
+
+**Análisis.** El art. 404 N.º 4 prohíbe a los socios explotar por cuenta propia el ramo de industria en que opera la
+sociedad, y hacer sin consentimiento de todos operaciones particulares cuando la sociedad no tiene un género
+determinado de comercio. Los socios que contravengan deben **llevar al acervo común las ganancias y soportar
+individualmente las pérdidas**. Los demás socios no pueden negar la autorización sin acreditar perjuicio cierto y
+manifiesto (art. 405).
+
+**Qué hacer.** Si la actividad de Mónica no compite con la sociedad, pedir la autorización de los consocios por
+escrito. Si compite, la ganancia debe llevarse al acervo común.
+
+### Escenario 4: un socio quiere vender su parte
+
+**Situación.** Nicolás quiere salir y vender su interés a un tercero, Óscar.
+
+**Análisis.** Ceder el interés en la sociedad y hacerse sustituir en la administración **sin autorización de todos los
+socios es nulo** (art. 404 N.º 3). Además, cualquier cambio de socio exige reducir a escritura pública el cambio y
+cumplir las solemnidades (art. 350). Si el cambio no se inscribe oportunamente, no produce efectos (art. 361).
+
+**Ruta.** Obtener la autorización unánime, redactar la modificación, inscribir el extracto dentro de 60 días,
+actualizar SII y bancos y pactar el destino de las deudas anteriores.
+
+**Lección.** La colectiva es la forma menos transferible: por eso, salir es un proceso a pactar de antemano.
+
+### Escenario 5: la comunidad que nadie quería
+
+**Situación.** Dos amigos comienzan a operar un negocio con un acuerdo de socios en un documento privado, sin escritura
+pública ni inscripción.
+
+**Análisis.** El documento privado solo obliga a los socios a otorgar escritura pública antes de dar principio a las
+operaciones (art. 351). La sociedad que no consta de escritura pública ni de instrumento reducido o protocolizado es
+**nula de pleno derecho y no puede sanearse**; si existe de hecho, da lugar a una **comunidad**, y sus miembros
+responden **solidariamente** a los terceros (art. 356). Los terceros pueden acreditar su existencia por cualquier
+medio de prueba.
+
+**Corrección.** Constituir una sociedad válida, regularizar las operaciones realizadas y asesorarse sobre el
+tratamiento tributario del período de hecho.
+
+### Escenario 6: la prescripción de cuatro años
+
+**Situación.** Una colectiva se disuelve en 2025. Su escritura fijó la duración. En 2030 un acreedor intenta cobrar a
+un socio que no fue liquidador.
+
+**Análisis.** Las acciones contra los socios no liquidadores prescriben en **cuatro años** desde la disolución, siempre
+que la escritura haya fijado la duración o la disolución se haya inscrito (art. 419). La prescripción no se interrumpe
+sino por gestiones judiciales dentro de esos cuatro años (art. 420) y no tiene lugar cuando los socios liquidan por
+sí mismos o la sociedad es deudora en un procedimiento concursal de liquidación (art. 422).
+
+**Lección.** Inscribir la disolución y evitar liquidar «de hecho» entre los socios protege a quien se retira.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Elegir la colectiva «por costo» | Desconocer la solidaridad | Patrimonio personal expuesto (art. 370) | Evaluar limitada o SpA | Sección 11 |
+| 2 | No designar administrador | Confianza | Cada socio obliga a todos (art. 386) | Designar con límites | Sección 6 |
+| 3 | No definir uso de la razón social | Omisión | Firmas sin control | Cláusula y aviso a terceros | Escenario 2 |
+| 4 | Pactos verbales | Informalidad | Sin prueba (art. 353) | Todo por escrito | Sección 4.2 |
+| 5 | No inscribir en 60 días | Olvido | Nulidad entre socios (art. 355 A) | Controlar plazos | Sección 4.4 |
+| 6 | Operar sin escritura | Apuro | Comunidad solidaria (art. 356) | Constituir | Escenario 5 |
+| 7 | Retirar más de lo asignado | Necesidad personal | Reintegro (art. 404 N.º 1) | Fijar retiros | Sección 6.6 |
+| 8 | Competir con la sociedad | Oportunidad | Ganancias al acervo (art. 404 N.º 4) | Autorización escrita | Escenario 3 |
+| 9 | Ceder el interés sin unanimidad | Venta informal | Nulidad (art. 404 N.º 3) | Autorización y modificación | Escenario 4 |
+| 10 | No prever la muerte de un socio | Tabú | La administración no pasa a herederos (art. 401) | Cláusula de continuación | Sección 6.4 |
+| 11 | Liquidar «de hecho» | Informalidad | Sin prescripción (art. 422) | Liquidador y escritura inscrita | Escenario 6 |
+| 12 | No inscribir la disolución | Olvido | Prescripción no corre | Inscribir según art. 354 | Sección 7.4 |
+| 13 | Mayoría numérica supuesta por capital | Confusión | Un socio pequeño frena | Pacto de decisión | Sección 6.2 |
+| 14 | Aportes sin valor ni plazo | Informalidad | Conflictos de reparto | Valorar y fijar plazos | Sección 5 |
+| 15 | No simular el efecto tributario | No consultó | Sorpresas | Simular a cuatro años | Anexo 16 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Colectiva frente a sus alternativas
+
+| Criterio | Colectiva | Limitada | SpA | Comandita simple |
+|---|---|---|---|---|
+| Responsabilidad | Solidaria e ilimitada | Limitada | Limitada | Mixta |
+| Transferibilidad | Autorización unánime | Modificación de escritura | Libre por estatuto | Reglas de comandita |
+| Administración | Todos o delegados | Todos o delegados | Libre | Gestores |
+| Uso actual | Poco | Muy frecuente | Muy frecuente | Poco |
+| Aislamiento de riesgo | Ninguno | Sí | Sí | Parcial |
+
+### C.2. Variantes dentro de la colectiva
+
+| Variante | Descripción | Observación |
+|---|---|---|
+| Colectiva con administrador único | Un socio con límites de monto | Reduce el riesgo de firmas descontroladas |
+| Colectiva con administración conjunta | Dos firmas para actos relevantes | Más control, menos agilidad |
+| Colectiva con socio industrial | Uno aporta trabajo | Pactar cuota y no competencia |
+| Colectiva con comanditario | Se agrega un socio pasivo | Rige la comandita para él (Anexo 05) |
+| Colectiva familiar | Socios parientes | Pactar sucesión y salida |
+
+### C.3. Cuándo abandonar la colectiva
+
+| Señal | Alternativa |
+|---|---|
+| Deudas o daños relevantes | Limitada o SpA |
+| Llegan socios nuevos | SpA |
+| Un socio quiere ser pasivo | Comandita o SpA con series |
+| Más de un socio pierde confianza | Pactar salida o disolver |
+
+### C.4. Ideas de cláusulas
+
+1. «La administración corresponde a [socio], con límite de [monto]; los actos de mayor monto requieren la firma de
+   dos socios.»
+2. «Ningún socio podrá usar la razón social para negocios ajenos a la sociedad; la infracción autoriza la exclusión.»
+3. «Cada socio podrá retirar hasta [monto] al año para gastos particulares.»
+4. «Si fallece un socio, la sociedad continuará con sus herederos, quienes designarán un representante común, sin
+   facultad de administrar salvo acuerdo unánime.»
+5. «Las diferencias entre los socios se someterán a arbitraje de [institución].»
+6. «Las deudas pagadas por un socio en exceso de su cuota serán reintegradas por los demás dentro de [plazo].»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Quieres limitar la responsabilidad | 03 y 06 |
+| Un socio quiere ser pasivo | 05 |
+| Necesitas la versión civil con responsabilidad a prorrata | 11 |
+| Quieres constituirla en línea | 15 |
+| Eliges domicilio | 18 |
+| Eliges régimen y obligaciones tributarias | 16 |
+| Abres un local | 17 |
+| Disuelves la sociedad | 16 y las clases de cierre |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 6: sociedades colectivas y comanditarias](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-06-sociedades-colectivas-y-comanditarias/README.md)
+- [Parte 5, clase 3: sociedad de responsabilidad limitada](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-03-sociedad-de-responsabilidad-limitada/README.md)
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+- [Parte 5, clase 10: administración, poderes y representación legal](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-10-administracion-poderes-y-representacion-legal/README.md)
+- [Parte 22, clase 10: disolución societaria](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-10-disolucion-societaria/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Solidaridad y confianza:** el art. 370 conecta el riesgo de cada socio con la conducta de los demás.
+2. **Escritura e inscripción:** los arts. 350 a 361 conectan la prueba con los efectos frente a terceros.
+3. **Administración y firma:** los arts. 371 a 374 conectan quién firma con qué obliga a la sociedad.
+4. **Disolución y prescripción:** los arts. 407 a 423 conectan el cierre con el fin de la responsabilidad.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 10 | Confirmar que todos aceptan la solidaridad; definir administración y uso de la razón social | Socios y abogado | Acta de acuerdos |
+| Días 11 a 30 | Firmar escritura o formulario; inscribir en 60 días; RUT | Socios | Certificado |
+| Días 31 a 60 | Poderes, cuenta bancaria, seguros | Administrador | Poderes registrados |
+| Días 61 a 90 | Pacto complementario de retiros, competencia y salida | Abogado | Pacto firmado |
+
+### E.2. Lista de control del gobierno
+
+| Ítem | Sí | No |
+|---|---|---|
+| Escritura con las doce menciones del art. 352 | | |
+| Administrador y límites definidos | | |
+| Uso de la razón social comunicado | | |
+| Retiros anuales fijados | | |
+| Cláusula de no competencia | | |
+| Cláusula de continuación o salida | | |
+| Poderes registrados | | |
+| Libros y actas al día | | |
+
+### E.3. Registro de operaciones de riesgo
+
+| Fecha | Operación | Monto | Quién firmó | Autorización | Observaciones |
+|---|---|---:|---|---|---|
+| | | | | | |
+
+### E.4. Lista para disolver ordenadamente
+
+1. Acuerdo unánime o causal legal.
+2. Designar liquidador y fijar sus facultades.
+3. Inventario de bienes, deudas y libros.
+4. Cobro de créditos y pago de deudas.
+5. Rendición de cuenta final.
+6. Inscribir la escritura de disolución.
+7. Aviso de término de giro al SII y certificados.
+8. Archivo de documentos.
+
+## 18. Autoevaluación
+
+1. ¿Cómo responden los socios de una colectiva?
+2. ¿Pueden pactar que no sean solidarios?
+3. ¿Quién administra si la escritura calla?
+4. ¿Qué efecto tiene la oposición de un socio?
+5. ¿Qué pasa si un socio cede su interés sin autorización?
+6. ¿Qué prohíbe el art. 404?
+7. ¿Qué plazo hay para inscribir el extracto?
+8. ¿Qué es una comunidad en este contexto?
+9. ¿Cuánto tiempo tiene el acreedor para demandar a un socio no liquidador tras la disolución?
+10. ¿Se transmite la facultad de administrar a los herederos?
+11. ¿Se puede constituir en línea?
+12. ¿Cuál es la alternativa más usada para limitar la responsabilidad?
+
+**Respuestas.**
+
+1. Solidaria e ilimitadamente (art. 370).
+2. No: no pueden derogar la solidaridad por pacto (art. 370).
+3. Todos y cada uno de los socios (art. 385).
+4. Suspende el acto hasta que decida la mayoría numérica (art. 389).
+5. La cesión es nula (art. 404 N.º 3).
+6. Extraer más de lo asignado, usar fondos y firma para negocios propios, ceder el interés sin autorización y
+   explotar por cuenta propia el ramo de la sociedad.
+7. Sesenta días desde la escritura (art. 354).
+8. La situación de quienes operan sin escritura válida: responden solidariamente a terceros (art. 356).
+9. Cuatro años desde la disolución, bajo las condiciones del art. 419.
+10. No (art. 401).
+11. Sí (art. 2 N.º 5 de la Ley 20.659).
+12. La sociedad limitada o la SpA.
+
+**Puntaje.** Diez o más: dominas el tipo. Seis a nueve: repasa las secciones 6 y 7. Menos de seis: relee el anexo.
+
+## 19. Calendario anual y glosario ampliado
+
+### H.1. Calendario anual de una sociedad colectiva
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada mes | Revisar el Registro de Compras y Ventas; declarar y pagar según el calendario del SII | DL 825, art. 59 |
+| Cada mes | Revisar operaciones firmadas con la razón social y retiros de cada socio | Código de Comercio, arts. 371 y 404 |
+| Mayo | Declaración de trabajadores por unidad; el SII informa el capital propio | DL 3.063, arts. 24 y 25 |
+| Julio y enero | Pagar la patente | DL 3.063, art. 29 |
+| Mes de la Operación Renta | Declaración anual y régimen | Calendario SII |
+| Cada año | Rendición de cuentas de los administradores a los socios | Código de Comercio, arts. 403 y 413 |
+| Cada año | Revisar poderes y uso de la razón social | Recomendación profesional |
+| Cuando cambia un socio | Modificación de la escritura e inscripción en 60 días | Arts. 350 y 354 |
+| Al disolver | Inscribir la disolución; liquidador y cuenta final | Arts. 407 a 418 |
+
+### H.2. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Acervo común | Patrimonio social al que se llevan las ganancias de operaciones prohibidas |
+| Comunidad | Situación de quienes operan sin escritura válida |
+| Compromiso | Sometimiento a arbitraje |
+| Delegado | Persona a quien se confía la administración |
+| Fondo social | Conjunto de aportes de los socios |
+| Gestor | Socio administrador |
+| Interés social | Participación de cada socio |
+| Liquidador | Mandatario que liquida la sociedad disuelta |
+| Mayoría numérica | Un voto por socio |
+| Mera industria | Trabajo que se aporta sin capital |
+| Prescripción | Pérdida de la acción por el paso del tiempo |
+| Razón social | Nombre bajo el cual la sociedad actúa y firma |
+| Repetición | Derecho del socio que paga a cobrar a los demás su parte |
+| Socio capitalista | Aporta dinero o bienes |
+| Socio industrial | Aporta trabajo |
+| Solidaridad | El acreedor puede exigir el total a cualquiera |
+
+## 20. Mapa de artículos de la sociedad colectiva (Código de Comercio, arts. 348 a 423)
+
+| Artículos | Contenido | Pregunta práctica |
+|---|---|---|
+| 348 | Especies de sociedad: colectiva, por acciones y comandita | ¿Qué tipos regula el Título VII? |
+| 349 | Capacidad para contratar sociedad; autorización especial de menores y ciertos casos | ¿Quién puede ser socio? |
+| 350 | Forma y modificaciones: escritura pública inscrita | ¿Cómo se forma y se cambia? |
+| 351 | El documento privado solo obliga a otorgar escritura | ¿Vale un acuerdo privado? |
+| 352 | Doce menciones de la escritura | ¿Qué debo decidir antes de firmar? |
+| 353 | No se admite prueba contra la escritura | ¿Valen los pactos verbales? |
+| 354 | Extracto inscrito en 60 días | ¿Cuándo vence el plazo? |
+| 355 a 361 | Domicilio supletorio, nulidades, sociedad de hecho y efectos de modificaciones | ¿Qué riesgo corro si omito un trámite? |
+| 370 | Solidaridad no derogable | ¿Cómo respondo? |
+| 371 a 374 | Uso de la razón social y actos no autorizados | ¿Quién puede firmar? |
+| 375 a 383 | Fondo social, aportes, mora, reparto y socio industrial | ¿Cómo se aporta y reparte? |
+| 384 a 392 | Administración, oposición, mayoría y delegación | ¿Quién decide? |
+| 393 a 403 | Firma, facultades, poder especial, varios administradores y libros | ¿Qué puede hacer un administrador? |
+| 404 a 406 | Prohibiciones a los socios | ¿Qué no puedo hacer siendo socio? |
+| 407 a 418 | Disolución y liquidación | ¿Cómo se cierra? |
+| 419 a 423 | Prescripción de acciones | ¿Cuándo termina la responsabilidad frente a acreedores? |
+
+**Cómo usar el mapa.** Busca el artículo, léelo completo en el texto de la Biblioteca del Congreso Nacional y compáralo con
+este anexo. Si el texto cambió, el texto manda.
+
+## 21. Preguntas frecuentes
 
 **1. ¿Qué es una sociedad colectiva comercial?**
 Es una sociedad de personas, regulada en los arts. 348 a 423 del Código de Comercio, en la que los
@@ -568,7 +883,58 @@ división (art. 380).
 Rara vez. Casi siempre una sociedad limitada o una SpA logran fines parecidos con limitación de
 responsabilidad. Decide con asesoría legal.
 
-## 14. Fuentes y vigencia
+**21. ¿Puede una persona jurídica ser socia de una colectiva?**
+La ley no lo prohíbe en los artículos revisados. Revisa los efectos tributarios y de responsabilidad: la solidaridad
+alcanzaría a esa persona jurídica y, según su gobierno, a sus propios socios por otras vías.
+
+**22. ¿Cómo se valoran los aportes en bienes?**
+La escritura debe expresar el valor asignado a los muebles o inmuebles, y la forma de justipreciarlos si no se les asignó
+valor (art. 352 N.º 4).
+
+**23. ¿Qué pasa si un socio entrega tarde su aporte?**
+Los demás pueden excluirlo o proceder ejecutivamente, con indemnización de perjuicios (art. 379).
+
+**24. ¿Los acreedores personales de un socio pueden embargar su aporte?**
+No durante la sociedad; pueden solicitar la retención de su interés para cuando se divida (art. 380).
+
+**25. ¿Puedo pedir que me devuelvan mi aporte antes de liquidar?**
+No: los socios no pueden exigir la restitución de sus aportes antes de concluir la liquidación, salvo usufructo (art. 381).
+
+**26. ¿Qué es la mera industria?**
+Un aporte de trabajo sin capital, que el Código admite como aporte (art. 376).
+
+**27. ¿Quién representa a la sociedad en juicio?**
+Los administradores, que tienen su representación legal (art. 398).
+
+**28. ¿Qué actos exigen poder especial?**
+Vender o hipotecar inmuebles, alterar su forma, transigir o comprometer, salvo las excepciones del art. 397 (art. 395).
+
+**29. ¿Cómo se decide si hay dos administradores que deben obrar de consuno?**
+La oposición de uno impide el acto del otro (art. 399).
+
+**30. ¿Pueden removerme como administrador designado en la escritura?**
+Solo en los casos previstos o por causa grave; la mayoría puede nombrarte un coadministrador o pedir la disolución si
+tu gestión produce perjuicios manifiestos (art. 400; art. 2072 del Código Civil como referencia general).
+
+**31. ¿Qué pasa si hay desacuerdo sobre la cuenta del liquidador?**
+Las cuestiones sobre la cuenta se someten precisamente a compromiso (art. 414).
+
+**32. ¿Cuándo se disuelve?**
+Por los modos que determina el Código Civil (art. 407): expiración del plazo, finalización del negocio, consentimiento
+unánime, renuncia justificada, entre otros.
+
+**33. ¿Qué diferencia hay con una sociedad civil?**
+En la civil la responsabilidad frente a terceros es, por regla, a prorrata; en la colectiva comercial es solidaria y no
+se puede pactar en contrario (Anexo 11).
+
+**34. ¿Se puede convertir en limitada?**
+Con asesoría, mediante los mecanismos de transformación o de nueva constitución y aporte de los bienes; evalúa efectos
+tributarios y de contratos (Anexo 15).
+
+**35. ¿Cuándo debo pedir ayuda profesional?**
+Antes de constituirla, al redactar la escritura, ante entradas o salidas de socios, al firmar créditos y al disolver.
+
+## 22. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

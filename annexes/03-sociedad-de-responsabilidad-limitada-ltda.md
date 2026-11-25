@@ -483,7 +483,374 @@ conflicto.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Todos los casos son **ilustrativos**: nombres y cifras inventados para practicar el razonamiento sobre la Ley
+3.918 y las reglas supletorias de la sociedad colectiva (arts. 348 a 423 del Código de Comercio).
+
+### Escenario 1: dos socios 50/50 que no se ponen de acuerdo
+
+**Situación.** Ana y Boris son socios al 50 % de una sociedad limitada de venta de repuestos. La escritura no
+dice cómo se decide ni quién administra. Ana quiere abrir una segunda sucursal; Boris se opone.
+
+**Análisis.** Por regla supletoria, la administración corresponde a todos y cada uno de los socios (art. 385) y
+cada uno puede oponerse a los actos proyectados por otro (art. 388). La oposición suspende el acto hasta que la
+mayoría numérica califique su conveniencia (art. 389). Con dos socios no hay mayoría: si hay pareceres sin mayoría
+absoluta, los socios deben abstenerse de ejecutar el acto (art. 390). El resultado es un **bloqueo**.
+
+**Salidas posibles.**
+
+1. **Negociación con mediador:** una tercera persona de confianza propone una solución.
+2. **Modificación de la escritura:** definir un administrador con límites de monto y un mecanismo de desempate (por
+   ejemplo, un árbitro o un tercero con voto dirimente). Exige el acuerdo de ambos (art. 350).
+3. **Cláusula de salida (buy-sell):** si no se pactó, solo se puede proponer. Uno ofrece comprar la cuota del otro a
+   un precio y el otro decide si compra o vende.
+4. **Disolución:** por el consentimiento unánime o por las causales legales; es la salida más costosa.
+
+**Lección.** Con dos socios iguales, **el pacto de desempate no es un lujo**: es parte del diseño.
+
+### Escenario 2: entra un tercer socio
+
+**Situación.** Cecilia, socia de una pequeña consultora, quiere vender la mitad de su participación a un nuevo
+socio, Diego.
+
+**Análisis.** En la sociedad limitada, entrar o salir exige **modificar la escritura** con las solemnidades de la
+constitución, e inscribir y publicar el extracto en 60 días (arts. 350 y 354; art. 3 de la Ley 3.918). Además, si la
+escritura no lo permite, los demás socios deben consentir. Si el cambio no se inscribe oportunamente, **no produce
+efectos** ni entre los socios ni frente a terceros (art. 361).
+
+**Pasos.** (1) Acordar el precio y las condiciones; (2) obtener el consentimiento de los demás socios; (3) redactar
+la modificación con la nueva distribución del capital; (4) firmar y registrar por el Registro de Empresas y
+Sociedades (art. 14 de la Ley 20.659) o por escritura; (5) actualizar SII, bancos y contratos.
+
+**Puntos finos.** Revisar si Diego asume deudas anteriores; valorar la cuota con un método objetivo; actualizar el
+pacto de socios; informar al SII el cambio de socios.
+
+### Escenario 3: el socio que no paga su aporte
+
+**Situación.** Tres socios acuerdan aportes de 4.000.000 de pesos cada uno, pagaderos a 30 días. Eduardo no paga.
+
+**Análisis.** El retardo en la entrega del aporte autoriza a los demás para **excluir al socio moroso** o proceder
+ejecutivamente contra su persona y bienes, con indemnización de los perjuicios (art. 379). El camino de la
+exclusión exige respetar la escritura y el procedimiento de modificación; el camino ejecutivo implica un juicio.
+
+**Recomendación.** Antes de excluir, enviar una carta de requerimiento con plazo, documentar la mora y revisar si la
+escritura establece una cláusula penal o un procedimiento. Después, formalizar la salida y recomponer el capital.
+
+**Lección.** El plazo y la forma de pago de los aportes deben estar escritos; sin plazo, el aporte se debe en el
+domicilio social apenas firmada la escritura (art. 378).
+
+### Escenario 4: la empresa familiar y la herencia
+
+**Situación.** Un matrimonio fundó una sociedad limitada con dos socios. Uno de ellos fallece.
+
+**Análisis.** La muerte de un socio es un hecho que debe reducirse a escritura pública con las solemnidades del art.
+350. La continuación con los herederos depende de lo que diga la escritura y del derecho sucesorio; si no se
+pactó, la sociedad puede quedar en una situación incierta. En el caso de las limitadas, el art. 4 de la Ley 3.918
+remite a las reglas de la colectiva, y estas contemplan que la facultad de administrar **no se transmite a los
+herederos** (art. 401).
+
+**Recomendación.** Incluir en la escritura una cláusula de continuación con los herederos, la forma de valorar la
+cuota y quién administra durante la sucesión. Consultar a un abogado de familia y sucesiones.
+
+### Escenario 5: el nombre sin la palabra «limitada»
+
+**Situación.** «Constructora Los Álamos» firma contratos y facturas sin la palabra «limitada». Un cliente no paga y
+un proveedor demanda a los socios.
+
+**Análisis.** Según el art. 4 de la Ley 3.918, la razón social debe terminar con la palabra «limitada»; **si no, todos
+los socios son solidariamente responsables** de las obligaciones sociales. Los acreedores podrían invocarlo para
+cobrar a los socios con su patrimonio personal.
+
+**Corrección.** Corregir de inmediato documentos, firmas, sitios web y facturas; revisar los contratos firmados sin
+la expresión; y consultar a un abogado sobre el riesgo de las obligaciones ya contraídas.
+
+### Escenario 6: el socio industrial que quiere más
+
+**Situación.** Fabiola aporta su trabajo como socia industrial; Gustavo y Helena aportan capital. Nada se pactó
+sobre reparto. Fabiola cree que le corresponde un tercio.
+
+**Análisis.** Los socios capitalistas reparten ganancias y pérdidas como lo hayan estipulado; a falta de pacto, a
+prorrata de sus aportes (art. 382). El socio industrial lleva, salvo pacto, una cuota igual a la del aporte más
+módico, sin soportar pérdidas (art. 383). Si los aportes en dinero son de 6.000.000 (Gustavo) y 4.000.000
+(Helena), la cuota de Fabiola equivale a 4.000.000 en las ganancias.
+
+**Reparto ilustrativo de una utilidad de 14.000.000.** Proporciones 6, 4 y 4 sobre 14: Gustavo 6.000.000, Helena
+4.000.000 y Fabiola 4.000.000. Las pérdidas las soportan solo los socios capitalistas, salvo pacto.
+
+**Lección.** Pactar el reparto antes de que haya utilidades evita sorpresas.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Omitir «limitada» en el nombre | Costumbre | Responsabilidad solidaria (art. 4 Ley 3.918) | Corregir documentos y consultar | Escenario 5 |
+| 2 | No fijar quién administra | Confianza entre socios | Todos administran y pueden obligar a todos | Designar administrador con límites | Sección 6 |
+| 3 | No definir cómo se decide | Informalidad | Mayoría numérica; bloqueos con dos socios | Pacto de decisión y desempate | Escenario 1 |
+| 4 | No inscribir ni publicar en 60 días | Olvido | Nulidad entre socios (art. 355 A) | Controlar el plazo o usar el Registro | Sección 4.3 |
+| 5 | Modificar sin inscribir | Apuro | Sin efectos (art. 361) | Inscribir oportunamente | Escenario 2 |
+| 6 | Pactos verbales | Confianza | No se admite prueba contra la escritura (art. 353) | Todo por escrito | Sección 4.2 |
+| 7 | No prever la salida de un socio | Optimismo | Disputas y valoraciones | Cláusula de salida y método de valor | Escenario 2 |
+| 8 | No prever la muerte de un socio | Tabú | Incertidumbre | Cláusula de continuación | Escenario 4 |
+| 9 | Aportes sin plazo ni forma | Informalidad | Mora y conflictos | Plazos escritos y cláusula penal | Escenario 3 |
+| 10 | Superar los cincuenta socios | Crecimiento | Incumplimiento del tope (art. 2) | Transformar en SpA o anónima | Sección 1 |
+| 11 | Ignorar la mayoría numérica | Suponer voto por capital | Un socio pequeño frena al grande | Pactar voto por capital | Sección 6.2 |
+| 12 | Socio industrial sin pacto de reparto | Omisión | Reparto supletorio inesperado | Fijar cuotas por escrito | Escenario 6 |
+| 13 | Actuar como sociedad de hecho | No constituir | Solidaridad y comunidad (art. 356) | Constituir y sanear | Anexo 15 |
+| 14 | Firmar sin poder | Descuido | Obligaciones personales | Poderes escritos y registro | Sección 6.5 |
+| 15 | No simular el efecto tributario de retiros | No consultó | Sorpresas en renta | Simulación a cuatro años | Anexo 16 |
+
+**Uso del catálogo.** Antes de firmar la escritura, marca los errores que tus socios podrían cometer y decide cómo
+evitarlos en el texto.
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Cuatro modelos de gobierno para una sociedad limitada
+
+| Modelo | Descripción | Cuándo sirve | Riesgo |
+|---|---|---|---|
+| Administración por todos (supletoria) | Cada socio puede obligar a todos | Dos o tres socios de máxima confianza | Actos no coordinados |
+| Administrador único designado | Un socio con poderes y límites | Cuando uno lidera la operación | Concentración de poder |
+| Administración conjunta | Dos firmas para actos de monto alto | Equilibrio entre socios | Lentitud |
+| Gerente externo | Un tercero con mandato | Empresas que crecen | Control de la gestión |
+
+### C.2. Reglas de decisión posibles
+
+| Regla | Efecto | Observación |
+|---|---|---|
+| Mayoría numérica (supletoria) | Un voto por socio | Puede no reflejar el capital |
+| Mayoría por capital | Peso según aporte | Debe pactarse |
+| Unanimidad para materias críticas | Protege a las minorías | Riesgo de bloqueo |
+| Mayoría calificada para ciertos actos | Equilibrio | Definir cuáles |
+| Árbitro o tercero dirimente | Rompe empates | Costo y plazos |
+
+### C.3. Cuándo cambiar a otro tipo
+
+| Señal | Alternativa |
+|---|---|
+| Llegará inversión externa | SpA (Anexo 06) |
+| Habrá más de cincuenta socios | Anónima (Anexo 07) |
+| Quieres gobierno institucional | Anónima cerrada |
+| Un solo dueño | EIRL o SpA unipersonal |
+| Una persona solo aportará capital pasivo | Comandita o SpA con series |
+
+### C.4. Ideas de cláusulas (para conversar con tu abogado)
+
+1. **Administración.** «La administración y el uso de la razón social corresponden a [nombre], con facultades hasta
+   [monto]; actos superiores requieren la firma de dos socios.»
+2. **Decisión.** «Las decisiones ordinarias se adoptan por mayoría de capital; las materias del [listado] requieren
+   unanimidad.»
+3. **Desempate.** «Si no hay acuerdo sobre una materia por sesenta días, las partes designarán a [árbitro o mediador].»
+4. **Salida.** «El socio que quiera salir avisará con noventa días; los demás tendrán preferencia para comprar su cuota
+   al valor calculado por [método].»
+5. **Continuación.** «Si fallece un socio, la sociedad continuará con sus herederos, que designarán un
+   representante común.»
+6. **Aportes.** «Cada socio enterará su aporte dentro de [plazo]; el retardo devengará [interés] y autorizará la
+   exclusión.»
+7. **Competencia.** «Los socios no podrán explotar por cuenta propia el mismo giro mientras sean socios.»
+8. **Arbitraje.** «Las diferencias se resolverán por arbitraje con [reglas] y [sede].»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Qué cambia | Anexo |
+|---|---|---|
+| Quieres constituirla en línea | Formulario y firma | 15 |
+| Necesitas entender las reglas supletorias | Administración, mayoría, aportes | 04 |
+| Llega inversión | Cambio de tipo | 06 y 07 |
+| Entra o sale un socio | Modificación | 15 y esta sección |
+| Eliges domicilio | Dirección y oficina virtual | 18 |
+| Eliges régimen tributario | Retiros y tasas | 16 |
+| Abres un local | Patente | 17 |
+| Eres pyme | Estatuto Pyme | 13 |
+
+### D.2. Obligaciones por organismo
+
+| Organismo | Obligación | Sección |
+|---|---|---|
+| Registro o notaría | Constitución y modificaciones | 4 |
+| SII | RUT, inicio de actividades, documentos | 8 |
+| Municipalidad | Patente | 9 |
+| Dirección del Trabajo | Obligaciones de empleador | 9 |
+| Tribunales o árbitro | Conflictos entre socios | 6 y 7 |
+
+### D.3. Clases del programa
+
+- [Parte 5, clase 3: sociedad de responsabilidad limitada](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-03-sociedad-de-responsabilidad-limitada/README.md)
+- [Parte 5, clase 6: sociedades colectivas y comanditarias](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-06-sociedades-colectivas-y-comanditarias/README.md)
+- [Parte 5, clase 11: pactos de accionistas y acuerdos de fundadores](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-11-pactos-de-accionistas-y-acuerdos-de-fundadores/README.md)
+- [Parte 5, clase 8: socios, porcentajes y control](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-08-socios-accionistas-porcentajes-y-control/README.md)
+- [Parte 6, clase 11: modificaciones, saneamientos y rectificaciones](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-11-modificaciones-saneamientos-y-rectificaciones/README.md)
+- [Parte 22, clase 10: disolución societaria](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-10-disolucion-societaria/README.md)
+
+### D.4. Hilos que se conectan en una limitada
+
+1. **Escritura y prueba:** no se admite prueba contra su tenor (art. 353): lo que importa es lo escrito.
+2. **Entrada y salida:** modificar la escritura conecta a los socios con el Registro y el SII.
+3. **Nombre y responsabilidad:** la palabra «limitada» conecta el nombre con la protección patrimonial.
+4. **Decisión y administración:** la mayoría numérica supletoria conecta el gobierno con los desempates.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días para una sociedad limitada nueva
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 10 | Acordar aportes, administración, decisión y salida; elegir nombre | Socios y abogado | Borrador de escritura |
+| Días 11 a 20 | Firmar (todos dentro de 60 días en el Registro); obtener RUT | Socios | Certificado de constitución |
+| Días 21 a 30 | Cuenta bancaria, poderes y seguros | Administrador | Poderes registrados |
+| Días 31 a 60 | Pacto de socios complementario; régimen tributario | Abogado y contador | Pacto firmado |
+| Días 61 a 90 | Primera revisión de decisiones, retiros y cumplimiento | Socios | Acta de revisión |
+
+### E.2. Lista de control del gobierno
+
+| Ítem | Sí | No |
+|---|---|---|
+| La escritura designa administrador y límites | | |
+| La regla de decisión está escrita (por cabeza o por capital) | | |
+| Hay mecanismo de desempate | | |
+| Hay cláusula de salida y valoración | | |
+| Hay cláusula de continuación con herederos | | |
+| Los aportes tienen plazo y forma | | |
+| El nombre termina en «limitada» | | |
+| Los poderes están registrados | | |
+
+### E.3. Acta de decisión entre socios (modelo)
+
+| Campo | Contenido |
+|---|---|
+| Fecha y lugar | |
+| Socios presentes | |
+| Materia | |
+| Votos a favor y en contra | |
+| Decisión | |
+| Responsable de ejecutar | |
+| Firmas | |
+
+### E.4. Cuadro de reparto ilustrativo
+
+Sin pacto, los socios capitalistas reparten a prorrata de sus aportes y el socio industrial lleva una cuota igual
+al aporte más módico (arts. 382 y 383). Con una utilidad de 20.000.000 de pesos (cifras ilustrativas):
+
+| Socio | Aporte computable | Tipo | Proporción | Reparto |
+|---|---:|---|---:|---:|
+| Gustavo | 8.000.000 | Capitalista | 8/16 | 10.000.000 |
+| Helena | 4.000.000 | Capitalista | 4/16 | 5.000.000 |
+| Fabiola | 4.000.000 (igual al aporte más módico) | Industrial | 4/16 | 5.000.000 |
+| Total | 16.000.000 | | 16/16 | 20.000.000 |
+
+La tabla muestra que el socio industrial puede llevar una parte importante aun sin aportar dinero; por eso conviene
+**pactar el reparto** en la escritura.
+
+### E.5. Lista para un cambio de socios
+
+1. Acuerdo de los socios según la escritura.
+2. Valoración de la cuota.
+3. Redacción de la modificación.
+4. Firma por el Registro o por escritura.
+5. Inscripción del extracto y publicación o incorporación al Registro.
+6. Actualización del SII, bancos, contratos y poderes.
+7. Registro del cambio en el libro de decisiones.
+
+## 18. Autoevaluación
+
+1. ¿Cuántos socios puede tener una sociedad limitada?
+2. ¿Qué pasa si el nombre no termina en «limitada»?
+3. ¿Quién administra si la escritura calla?
+4. ¿Qué regla supletoria decide entre socios en desacuerdo?
+5. ¿Qué puede hacerse con un socio moroso?
+6. ¿Qué exige entrar o salir un socio?
+7. ¿Qué plazo hay para inscribir y publicar el extracto?
+8. ¿Qué efecto tiene una modificación no inscrita oportunamente?
+9. ¿Qué cuota lleva el socio industrial si nada se pactó?
+10. ¿Se admite prueba contra la escritura?
+11. ¿Qué tipo conviene si llegará inversión?
+12. ¿Se puede constituir en línea?
+
+**Respuestas.**
+
+1. Hasta cincuenta (art. 2 de la Ley 3.918).
+2. Todos los socios responden solidariamente (art. 4).
+3. Todos y cada uno de los socios (arts. 385 y 386).
+4. La mayoría numérica; si hay pareceres sin mayoría absoluta, los socios deben abstenerse (arts. 389 y 390).
+5. Excluirlo o cobrarle ejecutivamente, con indemnización (art. 379).
+6. Modificar la escritura con sus solemnidades (art. 350).
+7. Sesenta días desde la escritura (art. 354).
+8. No produce efectos entre socios ni frente a terceros (art. 361).
+9. Una cuota igual a la del aporte más módico en ganancias, sin soportar pérdidas (art. 383).
+10. No: no se admite prueba contra el tenor de las escrituras (art. 353).
+11. Una SpA, por la flexibilidad de las acciones (Anexo 06).
+12. Sí, por el Registro de Empresas y Sociedades (art. 2 N.º 2 de la Ley 20.659).
+
+**Puntaje.** Diez o más: dominas el tipo. Seis a nueve: repasa las secciones 5 y 6. Menos de seis: relee el anexo
+y los escenarios.
+
+## 19. Mapa de artículos de la Ley 3.918 y de las reglas supletorias clave
+
+| Norma | Contenido | Pregunta práctica |
+|---|---|---|
+| Ley 3.918, art. 1 | Autoriza sociedades civiles y comerciales con responsabilidad limitada | ¿Existe la sociedad limitada? Sí, desde 1923 |
+| Art. 2 | Escritura con las menciones del art. 352; tope de cincuenta socios; sin negocios bancarios | ¿Qué límites tiene? |
+| Art. 3 | Extracto inscrito y publicado en el plazo del art. 354 | ¿Cuánto tengo para inscribir? |
+| Art. 4 | Razón social terminada en «limitada»; supletoriedad de las colectivas | ¿Qué pasa si olvido la palabra? |
+| Código de Comercio, art. 350 | Forma y modificaciones | ¿Cómo cambio la escritura? |
+| Art. 352 | Menciones de la escritura | ¿Qué debo decidir? |
+| Art. 353 | Sin prueba contra la escritura | ¿Valen los pactos verbales? |
+| Art. 354 | Extracto en 60 días | ¿Cuándo vence el plazo? |
+| Art. 355 A a 361 | Nulidades y saneamiento | ¿Qué riesgo corro si omito un trámite? |
+| Art. 378 a 383 | Aportes, mora, restitución y reparto | ¿Cómo se pagan y reparten aportes? |
+| Art. 385 a 395 | Administración, oposición, mayoría y delegación | ¿Quién decide y cómo? |
+| Art. 399 a 401 | Varios administradores; intransmisibilidad | ¿Qué pasa con los herederos del gestor? |
+| Ley 20.659, arts. 2, 10 y 14 | Constitución, plazo de firma y modificaciones | ¿Cómo lo hago en línea? |
+
+**Cómo usar el mapa.** Para cada duda, localiza el artículo, lee el texto actualizado en la Biblioteca del Congreso
+Nacional y compáralo con este anexo.
+
+## 20. Calendario anual y glosario ampliado
+
+### H.1. Calendario anual de una sociedad limitada
+
+Los vencimientos tributarios los publica el SII cada año. Lo siguiente se basa en las leyes leídas o son tareas internas.
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada mes | Revisar el Registro de Compras y Ventas; declarar y pagar | DL 825, art. 59; calendario SII |
+| Cada mes | Revisar retiros de los socios contra lo permitido por la escritura | Código de Comercio, arts. 352 N.º 8 y 404 |
+| Mayo | Declaración de trabajadores por unidad; el SII informa tu capital propio | DL 3.063, arts. 24 y 25 |
+| Julio y enero | Pagar la patente | DL 3.063, art. 29 |
+| Mes de la Operación Renta | Declaración anual y atribución o retiro de utilidades según régimen | Calendario SII |
+| Cada año | Reunión de socios para revisar cuentas, administración, poderes y pacto | Recomendación profesional |
+| Cada vez que entra o sale un socio | Modificación de la escritura y extracto en 60 días | Arts. 350 y 354; Ley 3.918, art. 3 |
+| Cada vez que cambie el domicilio | Actualizar SII y municipalidad; modificar la escritura si cambia el domicilio social | DL 3.063, art. 29; Ley 20.659, art. 14 |
+| Al disolver | Liquidador, inventario y cuenta final | Código de Comercio, arts. 407 a 418 |
+
+### H.2. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Acervo común | Patrimonio social al que se llevan ganancias de operaciones prohibidas |
+| Administrador delegado | Socio o tercero a quien se confía la administración |
+| Aporte moroso | Aporte no entregado a tiempo |
+| Comunidad | Situación de quienes operan sin escritura válida |
+| Compromiso | Sometimiento a arbitraje |
+| Derechos sociales | Participación de cada socio en el capital de una sociedad limitada |
+| Escritura social | Contrato de sociedad otorgado en escritura pública |
+| Extracto | Resumen inscrito y publicado de la escritura |
+| Fondo social | Conjunto de aportes de los socios |
+| Interés social | Participación de cada socio en la sociedad |
+| Liquidador | Mandatario que liquida la sociedad disuelta |
+| Mayoría numérica | Un voto por socio |
+| Nulidad absoluta entre socios | Sanción por falta de escritura o inscripción oportuna |
+| Oposición | Derecho de un socio a frenar un acto de otro |
+| Razón social | Nombre bajo el cual la sociedad actúa y firma |
+| Socio capitalista | Aporta dinero o bienes |
+| Socio industrial | Aporta trabajo o industria |
+| Suma adicional | Monto, además del aporte, hasta el cual se limita la responsabilidad |
+| Supletorio | Regla que rige solo si los socios no pactaron otra |
+| Uso de la razón social | Facultad de firmar por la sociedad |
+
+## 21. Preguntas frecuentes
 
 **1. ¿Cuántos socios puede tener una sociedad limitada?**
 Hasta cincuenta (art. 2 de la Ley 3.918). Con una sola persona no existe sociedad; para un dueño único
@@ -556,7 +923,82 @@ series de acciones o ingreso y salida de socios, la SpA suele ser más cómoda.
 La muerte de un socio es un hecho que debe reducirse a escritura pública con las solemnidades del
 art. 350. Lo que ocurra con su cuota depende de la escritura y de la sucesión; consulta a un abogado.
 
-## 14. Fuentes y vigencia
+**21. ¿Puedo ser socio de varias sociedades limitadas?**
+La ley no lo prohíbe en los artículos revisados. Pero si una sociedad explota el mismo ramo que otra de la que eres
+socio, revisa las cláusulas de no competencia y la regla supletoria que prohíbe explotar por cuenta propia el ramo de
+la sociedad (art. 404 del Código de Comercio).
+
+**22. ¿Puedo ceder mis derechos a un tercero?**
+Depende de lo que diga la escritura. Por regla supletoria de la colectiva, ceder el interés sin autorización de todos
+los socios es nulo (art. 404 N.º 3), y cualquier cambio de socios exige modificar la escritura (art. 350).
+
+**23. ¿Puede una sociedad limitada tener un solo socio?**
+No como sociedad: la limitada necesita al menos dos socios. Para un único dueño existen la EIRL y la SpA.
+
+**24. ¿Qué pasa si se reúnen todas las participaciones en una sola persona?**
+La sociedad queda con un solo socio; conviene transformarla o reorganizarla con asesoría (Anexo 02, art. 14 de la Ley
+19.857, para pasar a EIRL).
+
+**25. ¿Puedo pactar que un socio no responda por pérdidas?**
+Sí, y el socio industrial no soporta pérdidas salvo pacto (art. 383). Para los capitalistas, las pérdidas se reparten
+como lo disponga la escritura o a prorrata de los aportes (art. 382).
+
+**26. ¿Puedo retirar dinero cuando quiero?**
+La escritura debe indicar la cantidad que cada socio puede tomar anualmente para gastos particulares (art. 352 N.º 8).
+Extraer más autoriza a los demás a exigir reintegro o a extraer proporcionalmente (art. 404 N.º 1).
+
+**27. ¿Cómo se liquida una sociedad limitada?**
+Según lo pactado en la escritura (art. 352 N.º 9) y, en lo no previsto, las reglas supletorias de la colectiva
+(arts. 407 a 418): liquidador nombrado, inventario, cobro de créditos, pago de deudas y cuenta final.
+
+**28. ¿Qué es un liquidador?**
+Un mandatario de la sociedad disuelta que debe ceñirse a su título y responder de sus actos dolosos o culpables
+(art. 410).
+
+**29. ¿Cuánto tiempo tienen los acreedores para demandar a un socio que se fue?**
+Las reglas de prescripción de las colectivas dependen de la disolución y de la inscripción; consulta a un abogado
+antes de dar por terminada una responsabilidad.
+
+**30. ¿La sociedad limitada puede emitir acciones?**
+No. Su capital se divide en derechos sociales, no en acciones. Para acciones, usa una SpA o una anónima.
+
+**31. ¿Puedo tener directorio?**
+La limitada no lo exige; puedes crear órganos de consulta por pacto, pero la administración sigue las reglas de la
+escritura y las supletorias.
+
+**32. ¿Qué es la razón social?**
+El nombre bajo el cual la sociedad actúa y firma; puede contener el nombre de uno o más socios o una referencia al
+objeto y debe terminar en «limitada» (art. 4 de la Ley 3.918).
+
+**33. ¿Puedo cambiar el objeto?**
+Sí, modificando la escritura con las solemnidades del art. 350, o con el formulario de modificación en el Registro.
+
+**34. ¿Qué pasa con las deudas si un socio se va?**
+Las deudas sociales siguen siendo de la sociedad; el socio saliente debe acordar con los demás su liquidación de
+cuenta, y conviene pactar un finiquito societario por escrito.
+
+**35. ¿Los socios pueden ser también trabajadores?**
+Sí, pero conviene definir si lo hacen como aporte (socio industrial) o como trabajadores con contrato, porque los
+efectos laborales y tributarios son distintos.
+
+**36. ¿Se puede pactar un valor de salida?**
+Sí, y es muy recomendable: fija un método (por ejemplo, múltiplo de utilidades o valor libro) y un plazo de pago.
+
+**37. ¿Qué pasa si un socio se declara en insolvencia?**
+Los acreedores personales no pueden embargar el aporte durante la sociedad, pero pueden pedir retener su parte para
+cuando se divida (art. 380). Consulta a un abogado concursal.
+
+**38. ¿Puedo usar la limitada para actividades civiles?**
+Sí, la Ley 3.918 autoriza sociedades civiles y comerciales con responsabilidad limitada (art. 1).
+
+**39. ¿Puedo pactar una suma adicional a mis aportes como límite?**
+Sí, la escritura puede limitar la responsabilidad a los aportes o a la suma que se indique además (art. 2).
+
+**40. ¿Cuándo debo pedir ayuda profesional?**
+Al redactar la escritura, cuando entran o salen socios, ante conflictos, al elegir régimen tributario y siempre que
+quieras transformar la sociedad. Ver la sección 12.
+
+## 22. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|
