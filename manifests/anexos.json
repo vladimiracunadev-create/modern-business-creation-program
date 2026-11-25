@@ -1382,5 +1382,142 @@
     }
    }
   ]
+ },
+ {
+  "n": 13,
+  "slug": "estatuto-pyme",
+  "titulo": "Estatuto Pyme: empresas de menor tamaño (Ley 20.416)",
+  "grupo": "otras",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "El Estatuto Pyme y sus reformas",
+    "alt": "Línea de tiempo: 2010 promulgación y publicación de la Ley 20.416, 2013 Ley 20.659 de constitución en línea administrada por la Subsecretaría de Economía y Empresas de Menor Tamaño, y reformas tributarias recientes.",
+    "datos": {
+     "hitos": [
+      [
+       "13 ene 2010",
+       "Se promulga la Ley 20.416"
+      ],
+      [
+       "3 feb 2010",
+       "Se publica el Estatuto Pyme"
+      ],
+      [
+       "2013",
+       "Ley 20.659: constitución en línea"
+      ],
+      [
+       "2025-2026",
+       "Reformas tributarias Pro Pyme (Leyes 21.755 y 21.850)"
+      ]
+     ],
+     "hito": 1,
+     "bajada": "Clasifica a las empresas por tamaño y gradúa trámites y sanciones; no crea un tipo societario."
+    }
+   },
+   {
+    "tipo": "barras",
+    "titulo": "Los tramos de ingresos del Estatuto Pyme",
+    "alt": "Gráfico de barras con los límites máximos de ingresos anuales en unidades de fomento: micro 2.400, pequeña 25.000 y mediana 100.000.",
+    "datos": {
+     "serie": [
+      [
+       "Micro (hasta)",
+       2400
+      ],
+      [
+       "Pequeña (hasta)",
+       25000
+      ],
+      [
+       "Mediana (hasta)",
+       100000
+      ]
+     ],
+     "unidad": " UF",
+     "destacar": 0,
+     "eje": "Ingresos anuales sin IVA, límite superior de cada tramo (UF)",
+     "nota": "Ingresos del último año calendario, sin IVA ni impuestos específicos (art. 2)."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Cómo acceder a los beneficios provisorios",
+    "alt": "Flujo de cinco pasos: calcular tamaño, verificar exclusiones, elegir el beneficio, reunir respaldos y presentar la solicitud con plazos.",
+    "datos": {
+     "pasos": [
+      "Calcular ingresos y trabajadores",
+      "Verificar exclusiones por giro o propiedad",
+      "Elegir: permiso provisorio, patente o declaración jurada",
+      "Reunir declaraciones y capital enterado",
+      "Presentar y controlar los plazos (60 días + 15)"
+     ],
+     "retorno": "Los beneficios provisorios son por una sola vez y duran hasta un año"
+    }
+   },
+   {
+    "tipo": "actores",
+    "titulo": "Quién apoya y quién fiscaliza a una pyme",
+    "alt": "Mapa con la empresa de menor tamaño al centro y alrededor el Ministerio de Economía, el Consejo Consultivo, la municipalidad, la autoridad sanitaria y la Dirección del Trabajo.",
+    "datos": {
+     "centro": "Empresa de menor tamaño",
+     "actores": [
+      [
+       "Ministerio de Economía",
+       "División de Empresas de Menor Tamaño y fomento"
+      ],
+      [
+       "Consejo Consultivo",
+       "Asesora políticas y sesiona al menos 4 veces al año"
+      ],
+      [
+       "Municipalidad",
+       "Patente provisoria con exención o cuotas"
+      ],
+      [
+       "Autoridad sanitaria",
+       "Declaración jurada y declaración voluntaria"
+      ],
+      [
+       "Dirección del Trabajo",
+       "Multas graduadas, sustitución y rebaja"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "matriz",
+    "titulo": "Qué beneficio mirar según tu situación",
+    "alt": "Matriz que cruza si es la primera solicitud con el riesgo de la actividad para indicar qué beneficio del Estatuto Pyme usar.",
+    "datos": {
+     "x": "Riesgo sanitario o ambiental de la actividad",
+     "y": "Es tu primera solicitud de permiso o patente",
+     "cuadrantes": [
+      [
+       "Primera vez, riesgo alto",
+       "Permiso provisorio con condiciones; evalúa autorización completa."
+      ],
+      [
+       "Primera vez, riesgo bajo",
+       "Declaración jurada sanitaria y patente provisoria."
+      ],
+      [
+       "Ya operas, riesgo bajo",
+       "Plan de cumplimiento y reducción de multas."
+      ],
+      [
+       "Ya operas, riesgo alto",
+       "Cumple la norma; usa la declaración voluntaria si corresponde."
+      ]
+     ],
+     "punto": [
+      0.2,
+      0.8,
+      "Microempresa nueva"
+     ]
+    }
+   }
+  ]
  }
 ]

@@ -440,6 +440,15 @@ toda» la corporación y sus miembros deben obedecerlos bajo las sanciones que e
 (art. 553). Tercero, **separa las funciones**: quien administra no debe juzgar la disciplina (art. 553) ni
 quien rinde cuentas debe ser el único que las revisa.
 
+Un último punto para organizaciones que piensan crecer en red. La ley permite que las asociaciones formen
+**uniones o federaciones**, y estas, **confederaciones**, cumpliendo los requisitos que fijen sus estatutos y
+los que la ley exige para constituir asociaciones (art. 6 de la Ley 20.500). Si prevés integrarte a una
+red, incluye desde el inicio una cláusula que lo autorice y que diga quién decide la afiliación, qué aportes
+implica y qué ocurre si quieres salir. Así evitas modificar los estatutos con apuro cuando llegue la
+oportunidad. Cada nivel de la red es una persona jurídica distinta, con su propio directorio, su propio
+registro y su propia responsabilidad: la federación no responde por las deudas de cada asociación ni al
+revés, salvo que se obliguen expresamente.
+
 ## 11. Cuándo conviene y cuándo no
 
 ### 11.1. Comparación

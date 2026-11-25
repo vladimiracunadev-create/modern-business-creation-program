@@ -27,7 +27,8 @@ tributaria: confirma cada dato en la fuente citada y en el texto vigente de la l
 | 09 | [Cooperativa](09-cooperativa.md) | Régimen especial | 5.360 |
 | 10 | [Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)](10-sociedad-de-garantia-reciproca-sagr.md) | Régimen especial | 5.222 |
 | 11 | [Sociedad Civil (Código Civil)](11-sociedad-civil.md) | Otras formas | 5.008 |
-| 12 | [Corporaciones. asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md) | Otras formas | 4.992 |
+| 12 | [Corporaciones. asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md) | Otras formas | 5.119 |
+| 13 | [Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](13-estatuto-pyme-empresas-de-menor-tamano.md) | Otras formas | 5.483 |
 
 ## Lo que dice y lo que no dice este material
 
