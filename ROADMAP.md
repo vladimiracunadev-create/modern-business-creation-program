@@ -26,6 +26,8 @@ material complementario.
 - [x] Integrar MEDVi como caso AI-native transversal con expediente de evidencia, precisión farmacéutica, founder bottleneck y due diligence progresiva, sin añadir ni renumerar clases.
 - [x] Conectar mercado, cliente, costos, modelo, aliados y proyección en un expediente de viabilidad progresivo, basado en evidencia y sin añadir clases.
 - [x] Integrar inteligencia económica, espionaje industrial y protección del conocimiento en 38 clases existentes, con guía, caso NVIDIA (en curso) y marco legal chileno verificado, sin añadir clases.
+- [x] Integrar reputación, crisis y confianza en 31 clases existentes con guía, siete simulaciones, nueve plantillas y base legal leída en la BCN (2026-11-25), sin añadir clases.
+- [ ] Leer los reglamentos de la Ley 21.663 y la Ley 21.719 cuando se publiquen y las sanciones de la Ley 21.719 cuando se acerque su vigencia (15-10-2027).
 - [ ] Actualizar el caso NVIDIA cuando el directorio, el Congreso o las autoridades publiquen resultados oficiales.
 - [ ] Revalidar contra fuente oficial las clases marcadas `DINAMICO` (partes 11, 15 y 16) y registrar la fecha de verificación por clase.
 - [ ] Ampliar cada caso de `case-studies/` con economía unitaria numérica y calendario de habilitación.

@@ -65,6 +65,30 @@ Los referidos son el canal de menor costo de adquisición y el menos gestionado:
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: partners y canales que hablan por tu marca
+
+[Guía de reputación, crisis y confianza, sección 4](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#4-construcción-inicial-de-reputación-identidad-promesa-y-canales)
+
+**Lente para esta clase:** Cada partner o canal extiende la promesa de la empresa: lo que diga o haga en tu nombre será parte de tu reputación, y el contrato debe dejar claro cómo se controla.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un acuerdo breve con cada partner que dice qué puede afirmar, qué no y cómo se retira una pieza. |
+| **Pyme** | Programa de partners con onboarding, guía de mensajes, revisión periódica y sanciones por incumplimiento. |
+| **Gran empresa o multinacional** | Gobierno de canales con auditoría, certificación de partners, indicadores de reclamos por canal y plan de crisis conjunto. |
+
+**Obligación legal:** Cualquier mensaje publicitario que induzca a error o engaño es infracción (Ley 19.496, art. 28), sin importar quién lo emita en beneficio de la empresa.
+
+**Recomendación profesional:** Registrar quién aprobó cada pieza y mantener la facultad de exigir su retiro en 24 horas.
+
+**Actividad:** Define las tres afirmaciones que un partner nunca puede hacer sobre tu producto y el procedimiento para retirarlas.
+
+**Plantilla:** [Simulaciones de crisis para pymes](../../../templates/33_simulaciones_crisis_pyme.md)
+
+**Términos:** Partner de canal (*Channel partner*) · Reputación compartida (*Shared reputation*)
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +180,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el programa de referidos y las reglas del canal indirecto.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el programa de referidos y las reglas del canal indirecto.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

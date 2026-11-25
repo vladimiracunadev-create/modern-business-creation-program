@@ -67,6 +67,32 @@ Los clientes regulados trasladan exigencias de controles, auditorías y notifica
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: ciberincidentes: quién avisa a quién y en cuánto tiempo
+
+[Guía de reputación, crisis y confianza, sección 13](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#13-obligaciones-de-información-y-colaboración-con-autoridades)
+
+**Lente para esta clase:** Un incidente de ciberseguridad activa obligaciones distintas según el tipo de institución: conocer a cuál pertenece la empresa antes del incidente evita decidir bajo presión.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Saber si la empresa presta un servicio esencial y guardar el contacto del CSIRT y del asesor en un lugar accesible sin internet. |
+| **Pyme** | Protocolo con responsables, reloj de 3 horas, 72 horas y 15 días si corresponde, y plantillas de reporte y de aviso a clientes. |
+| **Gran empresa o multinacional** | Gestión de incidentes con equipo propio, reporte único coordinado a varias autoridades y ejercicios anuales de reloj. |
+
+**Obligación legal:** Las instituciones comprendidas por la Ley 21.663 reportan al CSIRT Nacional: alerta temprana en 3 horas, actualización en 72 horas (24 horas para un operador de importancia vital con servicio esencial afectado) e informe final en 15 días corridos (art. 9). Un incidente que afecta sistemas con datos personales se considera de efecto significativo (art. 27).
+
+**Recomendación profesional:** Si la empresa no está comprendida, adoptar igual el reloj de la ley como estándar interno y avisar a los afectados cuando haya riesgo razonable.
+
+**Actividad:** Escribe el reloj de tu empresa: a las 0, 3, 24, 72 horas y 15 días, quién hace qué si hoy detectas una intrusión.
+
+**Plantilla:** [Procedimiento de control de daños](../../../templates/27_procedimiento_control_de_danos.md)
+
+**Términos:** Incidente de efecto significativo (*Significant-impact incident*) · Operador de importancia vital (*Vital-importance operator*)
+
+**Simulación:** [caso 4 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#4-empresa-que-sufre-una-filtración-de-datos). Distingue el aviso que la empresa debe hacer a una autoridad del que decide hacer a sus clientes. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -151,6 +177,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para identificar las obligaciones de ciberseguridad directas y las trasladadas por clientes.
+
+**Biblioteca del Congreso Nacional — Ley 21.663 — Ley Marco de Ciberseguridad**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1202434> · verificado 2026-11-25
+
+- *Qué contiene:* Define las instituciones comprendidas (servicios esenciales y operadores de importancia vital), el deber de reportar ciberincidentes al CSIRT Nacional con alerta a las tres horas, actualización a las setenta y dos y informe final a los quince días corridos (art. 9) y el concepto de incidente de efecto significativo (art. 27).
+- *Cómo leerla:* Úsala para saber si la empresa es una institución comprendida antes de que ocurra el incidente. Los reglamentos y las instrucciones de la Agencia cambian los detalles; consúltalos en su sitio.
+- *Uso en esta clase:* aporta el marco de «Ley 21.663 — Ley Marco de Ciberseguridad» para identificar las obligaciones de ciberseguridad directas y las trasladadas por clientes.
+
+**Biblioteca del Congreso Nacional — Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1230520> · verificado 2026-11-25
+
+- *Qué contiene:* Sustituye la fecha de vigencia de la Ley 21.719 por el 15 de octubre de 2027, eleva a cinco los consejeros de la Agencia y ajusta su designación (Diario Oficial 44606).
+- *Cómo leerla:* Úsala para corregir cualquier material que fije la vigencia de la Ley 21.719 el 1-12-2026. Es una ley breve: léela completa.
+- *Uso en esta clase:* aporta el marco de «Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)» para identificar las obligaciones de ciberseguridad directas y las trasladadas por clientes.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

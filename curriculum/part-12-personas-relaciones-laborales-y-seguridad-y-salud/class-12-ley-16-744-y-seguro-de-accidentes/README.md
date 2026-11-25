@@ -68,6 +68,30 @@ La tasa varía según siniestralidad, de modo que la gestión preventiva tiene r
 **Profesionales de apoyo:** abogado laboral, encargado de personas, prevencionista de riesgos, contador de remuneraciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: accidente grave: primero la persona, después la comunicación
+
+[Guía de reputación, crisis y confianza, sección 12](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#12-protección-de-personas-afectadas)
+
+**Lente para esta clase:** En un accidente grave o fatal la reputación se juega en el orden de las acciones: socorro, avisos exigidos, acompañamiento a la familia y solo después la declaración pública.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un protocolo de una hoja: socorro, llamadas obligatorias, suspensión de la faena y una persona que acompaña a la familia. |
+| **Pyme** | Procedimiento con responsables y sustitutos, registro del hecho, contacto con el organismo administrador y declaración mínima aprobada. |
+| **Gran empresa o multinacional** | Gestión integrada con prevención de riesgos, comité de crisis, asesoría legal y apoyo psicosocial a equipos y familias. |
+
+**Obligación legal:** El empleador denuncia el accidente al organismo administrador de inmediato; en accidentes fatales y graves informa de inmediato a la Inspección del Trabajo y a la SEREMI de Salud y suspende de forma inmediata las faenas afectadas, con multa por incumplimiento (Ley 16.744, art. 76).
+
+**Recomendación profesional:** No difundir detalles ni imágenes del hecho; hablar primero con la familia y, en lo público, limitarse a hechos confirmados y a las medidas tomadas.
+
+**Actividad:** Ordena en una línea de tiempo las primeras seis acciones tras una caída grave en bodega y marca cuáles son obligación legal.
+
+**Plantilla:** [Procedimiento de control de daños](../../../templates/27_procedimiento_control_de_danos.md)
+
+**Términos:** Accidente grave (*Serious workplace accident*) · Suspensión de faenas (*Work stoppage*)
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -159,6 +183,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para asegurar afiliación, prevención y procedimiento de denuncia de accidentes.
+
+**Biblioteca del Congreso Nacional — Ley 16.744 — Seguro social contra riesgos de accidentes del trabajo y enfermedades profesionales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=28650> · verificado 2026-11-25
+
+- *Qué contiene:* Su artículo 76 obliga a denunciar los accidentes al organismo administrador, a informar de inmediato los fatales y graves a la Inspección del Trabajo y a la SEREMI de Salud y a suspender las faenas afectadas, con multa por incumplimiento.
+- *Cómo leerla:* Úsala para ordenar las primeras horas de un accidente grave: primero la persona, después los avisos exigidos y la comunicación. Las instrucciones de forma las imparte la Superintendencia de Seguridad Social.
+- *Uso en esta clase:* aporta el marco de «Ley 16.744 — Seguro social contra riesgos de accidentes del trabajo y enfermedades profesionales» para asegurar afiliación, prevención y procedimiento de denuncia de accidentes.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

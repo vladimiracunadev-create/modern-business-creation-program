@@ -65,6 +65,30 @@ Definir objetivos ambiciosos que la infraestructura no puede cumplir produce un 
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: comunicar durante una caída de sistemas
+
+[Guía de reputación, crisis y confianza, sección 11](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#11-comunicación-durante-fallas-operacionales-y-de-producto)
+
+**Lente para esta clase:** Cuando los sistemas caen, el cliente no necesita la causa técnica sino saber qué le afecta, qué hacer y cuándo habrá novedades; el canal de aviso debe funcionar sin los sistemas caídos.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un canal alternativo de aviso (mensaje, cuenta oficial) y un texto base para una caída, con horario de actualización. |
+| **Pyme** | Comunicación escalonada por severidad, página de estado independiente y registro de horas de cada aviso. |
+| **Gran empresa o multinacional** | Gestión de incidentes con página de estado, mensajes preaprobados por servicio y revisión posterior pública. |
+
+**Obligación legal:** Respetar los términos del servicio ofrecido es exigible (Ley 19.496, art. 12); si hay datos personales o servicios esenciales involucrados, aplican además los deberes de la guía, sección 13.
+
+**Recomendación profesional:** Informar qué afecta, qué se hace y cuándo se actualizará; evitar plazos de restablecimiento sin base técnica.
+
+**Actividad:** Redacta el aviso de tres líneas que publicarías en 30 minutos si tu sistema principal cae, con hora de la siguiente actualización.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Página de estado (*Status page*) · Continuidad operacional (*Operational continuity*)
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +180,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir el orden de recuperación tecnológica y probarlo.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el orden de recuperación tecnológica y probarlo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

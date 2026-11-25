@@ -10,7 +10,7 @@
 
 ## 🎯 De qué trata esta parte
 
-Esta es la parte con más cambio normativo en curso del programa, y por eso está marcada como dinámica. La Ley 21.719 de protección de datos personales entra en vigencia el 1 de diciembre de 2026: crea una autoridad con potestad sancionatoria, introduce bases de licitud, refuerza los derechos de los titulares y obliga a notificar brechas. Prepararse no es un proyecto legal: exige cambiar sistemas, contratos con proveedores y procesos de atención.
+Esta es la parte con más cambio normativo en curso del programa, y por eso está marcada como dinámica. La Ley 21.719 de protección de datos personales entra en vigencia el 15 de octubre de 2027: crea una autoridad con potestad sancionatoria, introduce bases de licitud, refuerza los derechos de los titulares y obliga a notificar brechas. Prepararse no es un proyecto legal: exige cambiar sistemas, contratos con proveedores y procesos de atención.
 
 El bloque de consumo es más antiguo y más fiscalizado. La Ley 19.496 y su Reglamento de Comercio Electrónico exigen informar el precio total antes del pago, sostener lo publicitado, respetar la garantía legal en los términos que la ley establece y atender reclamos. La mayoría de las infracciones no nacen de mala fe sino de una operación que no puede cumplir lo que la web promete: stock desincronizado, plazos de despacho optimistas, políticas de devolución sin costear.
 
@@ -45,7 +45,7 @@ flowchart TB
         DER --> BRE["Notificación de brechas"]
     end
     DAT --> DAT2
-    DAT2 --> HITO{{"Vigencia: 1 de diciembre de 2026"}}
+    DAT2 --> HITO{{"Vigencia: 15 de octubre de 2027"}}
     IP --> INAPI["Marca registrada por clases"]
     IP --> SEC["Patente o secreto"]
     CIB --> PLAN["Plan de respuesta<br/>accesible fuera del sistema"]
@@ -55,7 +55,7 @@ flowchart TB
 
 - Ley 19.496 sobre protección de los derechos de los consumidores y su Reglamento de Comercio Electrónico
 - Ley 19.628 sobre protección de la vida privada, vigente hasta la entrada en régimen de la Ley 21.719
-- Ley 21.719 sobre protección de datos personales, con vigencia el 1 de diciembre de 2026
+- Ley 21.719 sobre protección de datos personales, con vigencia el 15 de octubre de 2027
 - Ley 19.039 sobre propiedad industrial y Ley 17.336 sobre propiedad intelectual
 - Ley 21.663 Marco de Ciberseguridad
 
@@ -122,7 +122,7 @@ flowchart TB
 | **Información precontractual** | Datos que deben estar disponibles antes de contratar. |
 | **Legibilidad** | Exigencia de redacción clara y accesible. |
 | **Ley 21.663** | Ley marco de ciberseguridad. |
-| **Ley 21.719** | Nueva ley de protección de datos personales, con vigencia el 1 de diciembre de 2026. |
+| **Ley 21.719** | Nueva ley de protección de datos personales, con vigencia el 15 de octubre de 2027. |
 | **Licencia de código abierto** | Permiso con obligaciones específicas según el tipo. |
 | **Licencia de software** | Condiciones bajo las cuales se autoriza el uso. |
 | **Mapa de datos** | Inventario de qué datos se tratan, dónde y por qué. |

@@ -85,6 +85,30 @@ tamaño de la empresa y de la actividad económica.
 
 *Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
+## 🤝 Reputación y confianza: escenarios reputacionales y simulaciones de mesa
+
+[Guía de reputación, crisis y confianza, sección 17](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#17-simulaciones-para-empresas-pequeñas-y-medianas)
+
+**Lente para esta clase:** Un escenario sin ensayo es una hipótesis: las simulaciones de mesa convierten el mapa de amenazas en reflejos, y cuestan una hora, no una crisis.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una simulación de 60 minutos al año con el fundador, un socio y el asesor de llamada. |
+| **Pyme** | Dos simulaciones al año con los sustitutos, rúbrica, acta y tres cambios concretos de procedimiento. |
+| **Gran empresa o multinacional** | Programa anual de simulaciones por escenario, con evaluadores externos, indicadores de tiempo y revisión en directorio. |
+
+**Obligación legal:** Los ejercicios no son obligatorios por ley general; sí lo son los reportes a autoridades en cada escenario aplicable, cuyo reloj debe ensayarse.
+
+**Recomendación profesional:** Registrar cada ejercicio con su acta; una simulación sin acta no se cuenta como realizada.
+
+**Actividad:** Elige una de las diez simulaciones de la plantilla 33 y define fecha, facilitador y participantes de tu primer ejercicio.
+
+**Plantilla:** [Simulaciones de crisis para pymes](../../../templates/33_simulaciones_crisis_pyme.md)
+
+**Términos:** Ejercicio de mesa (*Tabletop exercise*) · Escenario de crisis (*Crisis scenario*)
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

@@ -9,11 +9,24 @@ ya había divergido del registro y enlazaba direcciones distintas para las misma
 |---|---|---|---|---:|---:|
 | Banco Central de Chile | Estadísticas macroeconómicas, tipo de cambio y UF | <https://www.bcentral.cl/> | ✅ verificada | 2026-11-05 | 2 |
 | Biblioteca del Congreso Nacional | Código Penal — Artículos 284 a 284 sexies (secreto comercial) | <https://www.bcn.cl/leychile/navegar?idNorma=1984> | ✅ verificada | 2026-11-12 | 4 |
+| Biblioteca del Congreso Nacional | Código Penal — Calumnia e injuria (arts. 412 a 431) | <https://www.bcn.cl/leychile/navegar?idNorma=1984> | ✅ verificada | 2026-11-25 | 1 |
+| Biblioteca del Congreso Nacional | Código del Trabajo (DFL 1 de 2002) | <https://www.bcn.cl/leychile/navegar?idNorma=207436> | ✅ verificada | 2026-11-25 | 5 |
 | Biblioteca del Congreso Nacional | Código del Trabajo — Artículos 154 ter y 160 (reserva y causales) | <https://www.bcn.cl/leychile/navegar?idNorma=207436> | ✅ verificada | 2026-11-12 | 2 |
 | Biblioteca del Congreso Nacional | DFL 4 de 2022 — Texto refundido de la Ley 19.039 de Propiedad Industrial | <https://www.bcn.cl/leychile/navegar?idNorma=1179684> | ✅ verificada | 2026-11-12 | 5 |
+| Biblioteca del Congreso Nacional | Ley 16.744 — Seguro social contra riesgos de accidentes del trabajo y enfermedades profesionales | <https://www.bcn.cl/leychile/navegar?idNorma=28650> | ✅ verificada | 2026-11-25 | 1 |
+| Biblioteca del Congreso Nacional | Ley 18.045 — Ley de Mercado de Valores | <https://www.bcn.cl/leychile/navegar?idNorma=29472> | ✅ verificada | 2026-11-25 | 1 |
+| Biblioteca del Congreso Nacional | Ley 19.496 — Protección de los derechos de los consumidores | <https://www.bcn.cl/leychile/navegar?idNorma=61438> | ✅ verificada | 2026-11-25 | 11 |
+| Biblioteca del Congreso Nacional | Ley 19.733 — Libertades de opinión e información y ejercicio del periodismo | <https://www.bcn.cl/leychile/navegar?idNorma=186049> | ✅ verificada | 2026-11-25 | 1 |
 | Biblioteca del Congreso Nacional | Ley 20.169 — Regula la competencia desleal | <https://www.bcn.cl/leychile/navegar?idNorma=258377> | ✅ verificada | 2026-11-12 | 2 |
+| Biblioteca del Congreso Nacional | Ley 20.720 — Reorganización y liquidación de empresas y personas | <https://www.bcn.cl/leychile/navegar?idNorma=1058072> | ✅ verificada | 2026-11-25 | 1 |
+| Biblioteca del Congreso Nacional | Ley 20.730 — Regula el lobby y las gestiones que representen intereses particulares | <https://www.bcn.cl/leychile/navegar?idNorma=1060115> | ✅ verificada | 2026-11-25 | 1 |
+| Biblioteca del Congreso Nacional | Ley 21.131 — Establece pago a treinta días | <https://www.bcn.cl/leychile/navegar?idNorma=1127890> | ✅ verificada | 2026-11-25 | 4 |
 | Biblioteca del Congreso Nacional | Ley 21.459 — Delitos informáticos | <https://www.bcn.cl/leychile/navegar?idNorma=1177743> | ✅ verificada | 2026-11-12 | 3 |
 | Biblioteca del Congreso Nacional | Ley 21.595 — Ley de Delitos Económicos | <https://www.bcn.cl/leychile/navegar?idNorma=1195119> | ✅ verificada | 2026-11-12 | 1 |
+| Biblioteca del Congreso Nacional | Ley 21.643 — Prevención, investigación y sanción del acoso laboral, sexual y la violencia en el trabajo | <https://www.bcn.cl/leychile/navegar?idNorma=1200096> | ✅ verificada | 2026-11-25 | 3 |
+| Biblioteca del Congreso Nacional | Ley 21.663 — Ley Marco de Ciberseguridad | <https://www.bcn.cl/leychile/navegar?idNorma=1202434> | ✅ verificada | 2026-11-25 | 2 |
+| Biblioteca del Congreso Nacional | Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales | <https://www.bcn.cl/leychile/navegar?idNorma=1209272> | ✅ verificada | 2026-11-25 | 1 |
+| Biblioteca del Congreso Nacional | Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia) | <https://www.bcn.cl/leychile/navegar?idNorma=1230520> | ✅ verificada | 2026-11-25 | 2 |
 | Biblioteca del Congreso Nacional · LeyChile | Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social | <https://www.bcn.cl/leychile/navegar?idNorma=1229250> | ✅ verificada | 2026-11-05 | 17 |
 | Biblioteca del Congreso Nacional · LeyChile | Normativa oficial consolidada | <https://www.bcn.cl/leychile/> | ✅ verificada | 2026-11-05 | 248 |
 | CNBC | Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (08-11-2026) | <https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html> | ✅ verificada | 2026-11-12 | 3 |

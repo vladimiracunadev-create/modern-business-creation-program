@@ -65,6 +65,32 @@ Sin el último paso las mismas no conformidades reaparecen y el registro se conv
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: producto con falla: del reclamo al retiro
+
+[Guía de reputación, crisis y confianza, sección 11](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#11-comunicación-durante-fallas-operacionales-y-de-producto)
+
+**Lente para esta clase:** Una no conformidad se vuelve crisis cuando afecta la seguridad de las personas: el sistema de calidad debe tener un umbral que active la comunicación sin esperar el informe final.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un registro de reclamos por lote y la regla de que tres casos iguales detienen las ventas del lote hasta revisar. |
+| **Pyme** | Trazabilidad por lote, umbral escrito para detener ventas, plan de cambio o devolución y aviso a las autoridades. |
+| **Gran empresa o multinacional** | Procedimiento de retiro de producto probado en simulación, contratos de proveedor con cláusula de retiro y comité de seguridad. |
+
+**Obligación legal:** Quien descubre peligros no previstos después de vender debe ponerlos sin demora en conocimiento de la autoridad competente y advertir a los consumidores (Ley 19.496, arts. 45 y 46); el proveedor cambia el bien o restituye lo pagado (arts. 47 y 48) y facilita la fiscalización (art. 58).
+
+**Recomendación profesional:** Medir la tasa de contacto efectiva del aviso y no dar por cerrada la campaña hasta superar la meta definida.
+
+**Actividad:** Define el umbral numérico que detiene la venta de un lote y quién lo decide; escríbelo en una oración.
+
+**Plantilla:** [Procedimiento de control de daños](../../../templates/27_procedimiento_control_de_danos.md)
+
+**Términos:** Retiro de producto (*Product recall*) · No conformidad (*Nonconformity*)
+
+**Simulación:** [caso 2 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#2-empresa-con-fallas-de-un-producto). Decide cuándo tres reclamos dejan de ser un problema de calidad y pasan a ser un riesgo que se informa a la autoridad. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir cómo se registran y se cierran las no conformidades.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir cómo se registran y se cierran las no conformidades.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

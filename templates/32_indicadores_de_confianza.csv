@@ -1,0 +1,17 @@
+audiencia,indicador,formula,unidad,meta_sugerida,frecuencia,owner,fuente_de_datos,umbral_de_alerta,accion_si_alerta
+Clientes,Tiempo mediano de primera respuesta,mediana(hora_primera_respuesta - hora_reclamo),horas,Menor a 24,Semanal,Atención al cliente,Bandeja de reclamos,Mayor a 48,Reasignar carga y revisar canal
+Clientes,Reclamos resueltos en plazo,reclamos cerrados en plazo / reclamos recibidos,porcentaje,Mayor a 90,Mensual,Atención al cliente,Bandeja de reclamos,Menor a 80,Análisis de causas con jefatura
+Clientes,Reclamos repetidos por misma causa,reclamos con causa ya conocida / reclamos totales,porcentaje,Menor a 15,Mensual,Operaciones,Registro de causas,Mayor a 25,Corrección de proceso con fecha
+Clientes,Tasa de contacto efectiva en aviso,clientes alcanzados y confirmados / clientes afectados,porcentaje,Mayor a 95 en riesgo de seguridad,Por campaña,Responsable del incidente,Confirmaciones y rebotes,Menor a 85,Segundo canal y llamada directa
+Clientes,Recompra o renovación de afectados,afectados que compran de nuevo / afectados,porcentaje,Igual o mayor al nivel previo,Trimestral,Ventas,CRM,Caída mayor a 10 puntos,Oferta de reparación y contacto personal
+Clientes,Valoración posterior a la resolución,promedio de encuesta tras cierre,puntos de 1 a 5,Mayor a 4,Mensual,Atención al cliente,Encuesta corta,Menor a 3.5,Revisar casos peor evaluados
+Trabajadores,Rotación voluntaria tras el incidente,renuncias voluntarias / dotación,porcentaje,Sin alza sobre el nivel previo,Mensual,Personas,Registro de personal,Alza mayor a 5 puntos,Conversaciones individuales y plan
+Trabajadores,Cumplimiento de actualizaciones internas,actualizaciones enviadas a tiempo / comprometidas,porcentaje,100,Por incidente,Vocería,Registro de incidente,Menor a 100,Corregir y avisar el motivo
+Trabajadores,Denuncias investigadas en plazo,denuncias investigadas en 30 días / denuncias recibidas,porcentaje,100,Mensual,Personas,Registro de denuncias,Menor a 100,Escalar al abogado laboral
+Proveedores,Pagos dentro del plazo comprometido,facturas pagadas en plazo acordado / facturas vencibles,porcentaje,Mayor a 95,Semanal,Finanzas,Cuentas por pagar,Menor a 85,Reordenar prioridades y renegociar por escrito
+Proveedores,Proveedores críticos con acuerdo vigente,proveedores críticos con acuerdo escrito / proveedores críticos,porcentaje,100,Mensual,Compras,Repositorio de contratos,Menor a 100,Acuerdo antes de 15 días
+Socios,Cumplimiento de hitos informados,hitos cumplidos en fecha / hitos informados,porcentaje,Mayor a 90,Mensual,Gerencia general,Informe a socios,Menor a 75,Reunión extraordinaria
+Autoridades,Respuestas a requerimientos en plazo,respuestas en plazo / requerimientos,porcentaje,100,Por requerimiento,Legal,Registro de requerimientos,Menor a 100,Revisión con abogado
+General,Cumplimiento de compromisos públicos,compromisos con prueba publicada / compromisos asumidos,porcentaje,100,Mensual,Vocería,Plan de recuperación,Menor a 100,Informar el atraso y su causa
+General,Menciones negativas con tracción,publicaciones negativas con alcance sobre el umbral definido,cantidad,Tendencia a la baja,Semanal,Vocería,Monitoreo manual de redes,Alza por 2 semanas,Revisar mensaje y canal
+General,Tiempo hasta la primera decisión en simulación,hora de primera decisión - hora de inicio,minutos,Menor a 30,Por simulación,Responsable del incidente,Acta de simulación,Mayor a 45,Reentrenar y repetir

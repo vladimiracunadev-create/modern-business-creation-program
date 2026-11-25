@@ -339,7 +339,7 @@ activo más valioso y el objetivo más probable.
 > **Límite ético y legal.** Proteger a un ejecutivo no autoriza a vigilar su vida privada. La
 > empresa puede pedir que declare conflictos de interés y relaciones comerciales relevantes; no
 > puede exigir ni rastrear información personal que no tenga relación con el riesgo. La Ley 19.628,
-> y desde el 1-dic-2026 la Ley 21.719, regulan el tratamiento de datos personales (clases 146–149).
+> y desde el 15-10-2027 la Ley 21.719, regulan el tratamiento de datos personales (clases 146–149).
 
 ## 12. Marco legal chileno: obligación, recomendación y medida voluntaria
 

@@ -29,17 +29,17 @@ https://www.bcn.cl/leychile/navegar?idNorma=1165504
 
 Opera el régimen vigente de la Ley 19.628.
 
-### Desde 1 de diciembre de 2026
+### Desde 15 de octubre de 2027
 
-Entra en vigencia la Ley 21.719, que reforma profundamente protección y tratamiento
+Entra en vigencia la Ley 21.719 (fecha fijada por la Ley 21.855, publicada el 23-11-2026; la original era el 1-12-2026), que reforma profundamente protección y tratamiento
 de datos y crea la Agencia de Protección de Datos Personales.
 
 Texto:
 https://www.bcn.cl/leychile/navegar?i=1209272
 
-## No esperar a diciembre
+## No esperar a la vigencia
 
-En 2026 construir:
+Entre 2026 y 2027 construir:
 
 1. inventario de tratamientos;
 2. mapa de datos;

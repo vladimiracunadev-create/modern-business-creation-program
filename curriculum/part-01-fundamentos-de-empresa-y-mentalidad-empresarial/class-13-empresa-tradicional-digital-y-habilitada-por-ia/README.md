@@ -53,7 +53,7 @@ La diferencia no está en comprar una herramienta. Una empresa tradicional coord
 
 ### 2. Cómo se traduce en la práctica
 
-Antes de conectar un modelo a un proceso hay que resolver una pregunta legal que suele llegar tarde: qué datos se le pueden entregar. Con la Ley 21.719 vigente desde el 1 de diciembre de 2026, cargar datos de clientes en un servicio sin acuerdo de tratamiento puede constituir una cesión no autorizada.
+Antes de conectar un modelo a un proceso hay que resolver una pregunta legal que suele llegar tarde: qué datos se le pueden entregar. Con la Ley 21.719 vigente desde el 15 de octubre de 2027, cargar datos de clientes en un servicio sin acuerdo de tratamiento puede constituir una cesión no autorizada.
 
 ### 3. Marco aplicable y quién interviene
 

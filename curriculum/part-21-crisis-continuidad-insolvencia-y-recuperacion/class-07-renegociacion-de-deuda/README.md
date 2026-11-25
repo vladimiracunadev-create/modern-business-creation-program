@@ -74,6 +74,32 @@ tamaño de la empresa y de la actividad económica.
 **Estado:** Ventanas transitorias con término; confirma el plazo vigente. Texto leído en el Diario Oficial del 17-10-2026; lo que
 dependa de circulares, resoluciones o decretos aún no verificados queda marcado como pendiente.
 
+## 🤝 Reputación y confianza: renegociar con propuestas por escrito y por acreedor
+
+[Guía de reputación, crisis y confianza, sección 15](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#15-comunicación-sobre-problemas-financieros-y-continuidad)
+
+**Lente para esta clase:** Una renegociación fracasa cuando se promete lo mismo a todos o cuando el acreedor se entera por terceros: cada propuesta debe ser concreta, escrita y consistente.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una propuesta de una página por acreedor principal, con cuotas, fechas y qué ocurre si no se cumple. |
+| **Pyme** | Mapa de acreedores, criterios de priorización, propuestas firmadas y seguimiento semanal de cumplimiento. |
+| **Gran empresa o multinacional** | Programa de reestructuración con asesores financieros y legales, comunicación a bancos y pruebas de sensibilidad. |
+
+**Obligación legal:** Los acuerdos de pago con proveedores constan por escrito; un plazo mayor a 30 días corridos para facturas exige acuerdo escrito inscrito (Ley 21.131).
+
+**Recomendación profesional:** Cumplir la primera cuota de cada acuerdo: es la prueba más fuerte de que la empresa sostiene lo prometido.
+
+**Actividad:** Redacta la propuesta de una página para tu mayor acreedor: monto, calendario de cuotas y garantías ofrecidas.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Renegociación (*Renegotiation*) · Acuerdo de pago (*Payment agreement*)
+
+**Simulación:** [caso 7 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#7-empresa-que-enfrenta-problemas-de-liquidez-y-reclamos). Compara una propuesta común a todos los acreedores con propuestas ajustadas a cada uno. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -179,6 +205,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Ficha de LeyChile de la Ley 21.850 con su texto consolidado, historia de la norma y vigencias. Reúne la modificación de la Ley sobre Impuesto a la Renta, del Código Tributario y del estatuto de capacitación, más las normas transitorias.
 - *Cómo leerla:* Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.
 - *Uso en esta clase:* aporta el marco de «Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social» para preparar y ejecutar la renegociación con propuesta fundada.
+
+**Biblioteca del Congreso Nacional — Ley 21.131 — Establece pago a treinta días**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1127890> · verificado 2026-11-25
+
+- *Qué contiene:* Sustituye el artículo 2 de la Ley 19.983: el saldo de la factura se paga en treinta días corridos desde su recepción y un plazo mayor exige acuerdo escrito inscrito en el registro del Ministerio de Economía.
+- *Cómo leerla:* Úsala para conocer qué plazo se puede prometer a un proveedor y qué debe constar por escrito al renegociar pagos.
+- *Uso en esta clase:* aporta el marco de «Ley 21.131 — Establece pago a treinta días» para preparar y ejecutar la renegociación con propuesta fundada.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

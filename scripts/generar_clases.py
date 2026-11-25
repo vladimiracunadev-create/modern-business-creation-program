@@ -127,6 +127,10 @@ def ruta_clase(clase: dict) -> Path:
 GUIA_PROTECCION = "docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md"
 CASO_PROTECCION = "case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md"
 
+# Guía y expediente de casos a los que enlaza todo bloque «Reputación y confianza».
+GUIA_REPUTACION = "docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md"
+CASOS_REPUTACION = "case-studies/23-reputacion-y-crisis-siete-casos.md"
+
 # Fuentes primarias que respaldan todo bloque «Actualización normativa».
 FUENTES_LEY_21850 = ["LEY_21850_DO", "LEY_21850_BCN"]
 
@@ -281,6 +285,47 @@ dependa de circulares, resoluciones o decretos aún no verificados queda marcado
 
 """
 
+    bloque_reputacion = ""
+    reputacion = spec.get("reputacion")
+    if reputacion:
+        micro, pyme, grande = reputacion["niveles"]
+        terminos_r = " · ".join(f"{es} (*{en}*)" for es, en in reputacion["terminos"])
+        caso_r = ""
+        if reputacion.get("caso"):
+            caso_r = (
+                "\n**Simulación:** "
+                f"[caso {reputacion['caso']['numero']} del expediente de reputación y crisis]"
+                f"(../../../{CASOS_REPUTACION}#{reputacion['caso']['ancla']}). "
+                f"{reputacion['caso']['lente']} Es una simulación ilustrativa, "
+                "no una empresa real.\n"
+            )
+        plantilla_r = reputacion["plantilla"]
+        bloque_reputacion = f"""## 🤝 Reputación y confianza: {reputacion['titulo']}
+
+[Guía de reputación, crisis y confianza, sección {reputacion['seccion']}](../../../{GUIA_REPUTACION}#{reputacion['ancla']})
+
+**Lente para esta clase:** {reputacion['lente']}
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | {micro} |
+| **Pyme** | {pyme} |
+| **Gran empresa o multinacional** | {grande} |
+
+**Obligación legal:** {reputacion['obligacion']}
+
+**Recomendación profesional:** {reputacion['recomendacion']}
+
+**Actividad:** {reputacion['ejercicio']}
+
+**Plantilla:** [{plantilla_r['nombre']}](../../../{plantilla_r['ruta']})
+
+**Términos:** {terminos_r}
+{caso_r}
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
+"""
+
     if anterior:
         celda_anterior = (
             f"[← {anterior['global_class']:03d} · {anterior['title']}]"
@@ -349,7 +394,7 @@ Al finalizar esta clase podrás:
 **Profesionales de apoyo:** {profesionales}. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
-{bloque_caso}{bloque_actualizacion}{bloque_proteccion}## 🧪 Taller guiado
+{bloque_caso}{bloque_actualizacion}{bloque_proteccion}{bloque_reputacion}## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
 una segunda línea de carga regulatoria distinta:

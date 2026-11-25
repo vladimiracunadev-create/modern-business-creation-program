@@ -65,6 +65,32 @@ Es la fuente de mejora más barata que existe y la más ignorada, porque cada re
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: reclamos como activo y controversias públicas
+
+[Guía de reputación, crisis y confianza, sección 6](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#6-gestión-de-reclamos-y-controversias)
+
+**Lente para esta clase:** Un reclamo bien resuelto es la mejor prueba de reputación; uno ignorado se convierte en publicación, y la diferencia suele ser la rapidez y el trato, no el dinero.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un canal único, un responsable con sustituto y una respuesta comprometida en 24 horas, con registro en una planilla. |
+| **Pyme** | Ciclo completo de reclamo, clasificación por severidad, indicadores de plazo y revisión trimestral de causas repetidas. |
+| **Gran empresa o multinacional** | Gestión de reclamos con trazabilidad, escalamiento a crisis, análisis de voz del cliente y reporte a gerencia y directorio. |
+
+**Obligación legal:** Los proveedores deben facilitar la fiscalización del SERNAC y no negarse a entregar la información requerida (Ley 19.496, art. 58); el procedimiento voluntario colectivo del art. 54 H es una vía opcional.
+
+**Recomendación profesional:** Responder una vez en público con el canal para resolver en privado, no borrar comentarios y no publicar datos del cliente.
+
+**Actividad:** Escribe la respuesta pública de tres líneas a una reseña con una acusación parcialmente cierta, sin discutir y sin revelar datos.
+
+**Plantilla:** [Registro de incidentes reputacionales](../../../templates/29_registro_incidentes_reputacionales.csv)
+
+**Términos:** Voz del cliente (*Voice of the customer*) · Controversia pública (*Public controversy*)
+
+**Simulación:** [caso 1 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#1-microempresa-con-una-controversia-pública). Sigue el camino de un reclamo individual hasta una publicación viral y las decisiones en cada etapa. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -149,6 +175,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir cómo se registran, resuelven y analizan los reclamos.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir cómo se registran, resuelven y analizan los reclamos.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

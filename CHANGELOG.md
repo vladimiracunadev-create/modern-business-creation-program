@@ -7,6 +7,26 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ### Añadido
 
+- Guía `docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md` (21 secciones): reputación inicial, asuntos
+  públicos, reclamos y controversias, política de comunicación, matriz de severidad S0–S4, roles,
+  sustitutos, comité de crisis por tamaño y vocería, control de daños en 72 horas, fallas
+  operacionales, protección de personas afectadas, obligaciones con autoridades, conflictos
+  laborales y con proveedores, comunicación de liquidez, recuperación con indicadores y
+  simulaciones. Separa **obligación legal**, **recomendación profesional** y **medida voluntaria**.
+- Caso 23 (`case-studies/23-…`): siete simulaciones ilustrativas (microempresa con controversia
+  pública, falla de producto, publicaciones falsas, filtración de datos, conflicto laboral público,
+  pérdida de un socio, liquidez y reclamos), cada una con diagnóstico, responsables, evidencia,
+  alternativas, decisiones, consecuencias y seguimiento.
+- Nueve plantillas (25 a 33): política de comunicación, matriz de severidad, control de daños,
+  escalamiento y vocería, registro de incidentes, plan de respuesta y recuperación, guías por
+  audiencia, 16 indicadores de confianza y diez simulaciones de mesa.
+- Bloque «Reputación y confianza» en 31 clases existentes (partes 11, 12, 13, 14, 19, 20 y 21),
+  renderizado desde el campo `reputacion` de los manifiestos, sin crear clases ni alterar la
+  numeración (336). Conserva intacto el bloque «Protección del conocimiento».
+- Trece fuentes verificadas el 2026-11-25 (BCN) y cuatro normas en la matriz legal (Leyes 21.855,
+  19.733 y 20.730 y Código Penal arts. 412 a 431).
+- Diez pruebas de regresión (`ReputacionCrisisTest`), entre ellas una que impide que la vigencia de
+  la Ley 21.719 vuelva a la fecha derogada.
 - Guía `docs/21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md` sobre inteligencia
   económica y competitiva lícita, espionaje industrial, ingeniería social, HUMINT, secretos
   comerciales, terceros, contrainteligencia, protección de ejecutivos y crisis, con tres niveles de
@@ -25,6 +45,10 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 
 ### Corregido
 
+- **Vigencia de la Ley 21.719.** La Ley 21.855 (Diario Oficial, 23-11-2026) sustituyó el 1-12-2026
+  por el **15-10-2027**. Se corrigió en clases, partes, glosario, guías, manifiestos y README. El
+  título histórico de la clase 147 conserva «desde 1-dic-2026» para no alterar la numeración ni los
+  enlaces; su contenido ya refleja la fecha nueva.
 - «Secreto empresarial» pasa a «secreto comercial», la denominación vigente en la Ley 19.039 (DFL 4
   de 2022) y en el Código Penal (clases 131 y 151, glosario, parte 11 y activos).
 

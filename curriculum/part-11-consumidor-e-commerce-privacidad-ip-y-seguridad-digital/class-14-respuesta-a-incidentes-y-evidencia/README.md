@@ -59,7 +59,7 @@ Con la Ley 21.719 aparece la obligación de notificar brechas de datos personale
 
 - Ley 19.496 sobre protección de los derechos de los consumidores y su Reglamento de Comercio Electrónico
 - Ley 19.628 sobre protección de la vida privada, vigente hasta la entrada en régimen de la Ley 21.719
-- Ley 21.719 sobre protección de datos personales, con vigencia el 1 de diciembre de 2026
+- Ley 21.719 sobre protección de datos personales, con vigencia el 15 de octubre de 2027
 - Ley 19.039 sobre propiedad industrial y Ley 17.336 sobre propiedad intelectual
 - Ley 21.663 Marco de Ciberseguridad
 
@@ -84,6 +84,32 @@ tamaño de la empresa y de la actividad económica.
 **Términos:** Cadena de custodia (*Chain of Custody*) · Incidente (*Incident*)
 
 *Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
+
+## 🤝 Reputación y confianza: incidente de datos: qué se informa y a quién
+
+[Guía de reputación, crisis y confianza, sección 13](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#13-obligaciones-de-información-y-colaboración-con-autoridades)
+
+**Lente para esta clase:** Un incidente técnico se vuelve reputacional cuando los afectados se enteran por un tercero: la respuesta ordena primero qué datos y qué personas, y solo después qué se dice.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una hoja con quién decide, a quién se avisa primero y qué dato se vio comprometido, guardada fuera del sistema afectado. |
+| **Pyme** | Registro del incidente, clasificación con la matriz de severidad y aviso a cada afectado con lenguaje claro y medidas recomendadas. |
+| **Gran empresa o multinacional** | Comité con asesores externos, una sola vía hacia las autoridades y evaluación formal de cada deber de reporte aplicable. |
+
+**Obligación legal:** Quien sea institución comprendida por la Ley 21.663 reporta al CSIRT Nacional: alerta en 3 horas, actualización en 72 horas e informe final en 15 días corridos (art. 9). El deber de reportar vulneraciones de datos del art. 14 sexies de la Ley 21.719 rige desde el 15-10-2027 (Ley 21.855).
+
+**Recomendación profesional:** Aplicar desde ya el estándar futuro: registrar cada incidente, avisar a los afectados con datos sensibles o económicos y explicar medidas y consecuencias.
+
+**Actividad:** Redacta el aviso de seis líneas que enviarías a 4.000 clientes si una planilla con su RUT salió por error: qué datos, qué hiciste y qué deben hacer ellos.
+
+**Plantilla:** [Procedimiento de control de daños](../../../templates/27_procedimiento_control_de_danos.md)
+
+**Términos:** Notificación de vulneración (*Breach notification*) · Titular de datos (*Data subject*)
+
+**Simulación:** [caso 4 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#4-empresa-que-sufre-una-filtración-de-datos). Clasifica un envío erróneo de datos de clientes, decide a quién avisar y compara el aviso exigible hoy con el estándar que regirá después. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
 
 ## 🧪 Taller guiado
 
@@ -176,6 +202,27 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Tipifica el ataque a la integridad de un sistema, el acceso ilícito, la interceptación ilícita, el ataque a datos, la falsificación y el fraude informáticos, la receptación de datos y las circunstancias agravantes, además de reglas de investigación.
 - *Cómo leerla:* El acceso ilícito exige superar barreras técnicas o excederse de la autorización; no cubre el uso indebido por quien accede con permiso. «Espionaje informático» es una categoría de estudio, no el nombre de un delito de esta ley.
 - *Uso en esta clase:* aporta el marco de «Ley 21.459 — Delitos informáticos» para definir el plan de respuesta a incidentes y los criterios de notificación.
+
+**Biblioteca del Congreso Nacional — Ley 21.663 — Ley Marco de Ciberseguridad**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1202434> · verificado 2026-11-25
+
+- *Qué contiene:* Define las instituciones comprendidas (servicios esenciales y operadores de importancia vital), el deber de reportar ciberincidentes al CSIRT Nacional con alerta a las tres horas, actualización a las setenta y dos y informe final a los quince días corridos (art. 9) y el concepto de incidente de efecto significativo (art. 27).
+- *Cómo leerla:* Úsala para saber si la empresa es una institución comprendida antes de que ocurra el incidente. Los reglamentos y las instrucciones de la Agencia cambian los detalles; consúltalos en su sitio.
+- *Uso en esta clase:* aporta el marco de «Ley 21.663 — Ley Marco de Ciberseguridad» para definir el plan de respuesta a incidentes y los criterios de notificación.
+
+**Biblioteca del Congreso Nacional — Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1209272> · verificado 2026-11-25
+
+- *Qué contiene:* Reemplaza el texto de la Ley 19.628. Su artículo 14 sexies obliga a reportar a la Agencia las vulneraciones de seguridad con riesgo razonable para los titulares y a avisar a estos cuando hay datos sensibles, de menores de catorce años o económicos.
+- *Cómo leerla:* Úsala como estándar de diseño del protocolo de incidentes. La vigencia de sus modificaciones se fijó en el 15-10-2027 por la Ley 21.855: comprueba la fecha en la ficha de la BCN antes de planificar.
+- *Uso en esta clase:* aporta el marco de «Ley 21.719 — Protección y tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales» para definir el plan de respuesta a incidentes y los criterios de notificación.
+
+**Biblioteca del Congreso Nacional — Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1230520> · verificado 2026-11-25
+
+- *Qué contiene:* Sustituye la fecha de vigencia de la Ley 21.719 por el 15 de octubre de 2027, eleva a cinco los consejeros de la Agencia y ajusta su designación (Diario Oficial 44606).
+- *Cómo leerla:* Úsala para corregir cualquier material que fije la vigencia de la Ley 21.719 el 1-12-2026. Es una ley breve: léela completa.
+- *Uso en esta clase:* aporta el marco de «Ley 21.855 — Modifica la Ley 21.719 (vigencia y consejo de la Agencia)» para definir el plan de respuesta a incidentes y los criterios de notificación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

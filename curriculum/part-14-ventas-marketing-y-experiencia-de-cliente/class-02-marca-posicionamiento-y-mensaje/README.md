@@ -65,6 +65,32 @@ Cambiar el mensaje cada trimestre impide que se construya cualquier posicionamie
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: identidad y promesa verificable
+
+[Guía de reputación, crisis y confianza, sección 4](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#4-construcción-inicial-de-reputación-identidad-promesa-y-canales)
+
+**Lente para esta clase:** La marca de una empresa nueva no tiene historial: tiene promesas verificables, y cada una puede cumplirse o incumplirse a la vista del cliente.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Tres promesas medibles y tres cosas que no se hacen, escritas en una hoja y usadas en la web y en las redes. |
+| **Pyme** | Guía de identidad con tono, canal oficial, regla de aprobación de piezas y archivo de pruebas de cada afirmación. |
+| **Gran empresa o multinacional** | Arquitectura de marca, comité de marca, revisión legal de afirmaciones y medición de percepción por audiencia. |
+
+**Obligación legal:** Lo ofrecido obliga (Ley 19.496, art. 12) y la información consignada en la publicidad debe poder comprobarse y no inducir a error (arts. 28 y 33).
+
+**Recomendación profesional:** Preferir promesas pequeñas y cumplidas a eslóganes grandes; definir un tono para las buenas y las malas noticias.
+
+**Actividad:** Escribe tres promesas de tu empresa con número y plazo, y la evidencia que guardarías para demostrar cada una.
+
+**Plantilla:** [Política de comunicación corporativa](../../../templates/25_politica_comunicacion_corporativa.md)
+
+**Términos:** Promesa de marca (*Brand promise*) · Reputación corporativa (*Corporate reputation*)
+
+**Simulación:** [caso 1 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#1-microempresa-con-una-controversia-pública). Muestra cómo una promesa de marca sin evidencia agrava una controversia que nació de un trato. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir el mensaje central y asegurar su consistencia y protección.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el mensaje central y asegurar su consistencia y protección.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

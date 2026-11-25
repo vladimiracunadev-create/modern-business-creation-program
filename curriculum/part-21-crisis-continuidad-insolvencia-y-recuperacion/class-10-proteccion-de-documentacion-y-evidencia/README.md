@@ -83,6 +83,32 @@ tamaño de la empresa y de la actividad económica.
 
 *Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
+## 🤝 Reputación y confianza: evidencia que se preserva antes de comunicar
+
+[Guía de reputación, crisis y confianza, sección 10](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#10-protocolo-de-respuesta-ante-incidentes-y-control-de-daños)
+
+**Lente para esta clase:** La evidencia es lo que da credibilidad a la respuesta: debe preservarse en las primeras horas y antes de borrar, editar o responder nada.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Capturas con fecha y hora, copia de los chats y un cuaderno con la secuencia de hechos desde el primer aviso. |
+| **Pyme** | Procedimiento de preservación con responsable, carpeta con acceso restringido y cadena de custodia simple. |
+| **Gran empresa o multinacional** | Preservación forense con apoyo externo, retención legal de datos y registro auditado de accesos a la evidencia. |
+
+**Obligación legal:** Colaborar con una autoridad exige entregar lo que se pida en plazo y no destruir documentos; qué se entrega y cómo lo decide el abogado.
+
+**Recomendación profesional:** No borrar publicaciones ni mensajes; archivar el original antes de responder o de pedir que se retire.
+
+**Actividad:** Prepara la lista de los siete elementos que guardarías en la primera hora de una publicación falsa sobre tu empresa.
+
+**Plantilla:** [Registro de incidentes reputacionales](../../../templates/29_registro_incidentes_reputacionales.csv)
+
+**Términos:** Cadena de custodia (*Chain of custody*) · Retención legal (*Legal hold*)
+
+**Simulación:** [caso 3 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#3-negocio-afectado-por-publicaciones-falsas). Muestra cómo las capturas y los registros preservados sostienen una aclaración frente a publicaciones falsas. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

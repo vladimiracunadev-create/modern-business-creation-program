@@ -65,6 +65,32 @@ Reanudar el crecimiento con la reserva agotada deja a la empresa expuesta al sig
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: recuperar confianza con acciones comprobables
+
+[Guía de reputación, crisis y confianza, sección 16](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#16-recuperación-de-confianza-con-acciones-comprobables)
+
+**Lente para esta clase:** La vuelta al crecimiento depende de que clientes, trabajadores y proveedores vean hechos: el plan de recuperación define qué se compromete, con qué prueba y en qué fecha.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Tres compromisos con prueba y fecha, publicados en el canal oficial y revisados a 7, 30 y 90 días. |
+| **Pyme** | Plan con diagnóstico, medidas por audiencia, indicadores de confianza y reuniones de seguimiento con acta. |
+| **Gran empresa o multinacional** | Programa de recuperación con comité, metas por audiencia, auditoría independiente y reporte periódico al directorio. |
+
+**Obligación legal:** Lo comprometido a los clientes obliga (Ley 19.496, art. 12); los compromisos con proveedores y trabajadores constan por escrito y rigen según su contrato y la ley.
+
+**Recomendación profesional:** Usar la plantilla 32 de indicadores y reunirse a 7, 30, 90 y 180 días con el mismo tablero.
+
+**Actividad:** Elige cuatro indicadores de la plantilla 32 para tu empresa y define meta, responsable y frecuencia de cada uno.
+
+**Plantilla:** [Plan de respuesta y recuperación](../../../templates/30_plan_respuesta_y_recuperacion.md)
+
+**Términos:** Indicadores de confianza (*Trust indicators*) · Plan de recuperación (*Recovery plan*)
+
+**Simulación:** [caso 7 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#7-empresa-que-enfrenta-problemas-de-liquidez-y-reclamos). Construye un plan de 180 días con indicadores para clientes, proveedores y trabajadores tras una crisis de liquidez. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir los hitos de estabilización y la secuencia de recuperación.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir los hitos de estabilización y la secuencia de recuperación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

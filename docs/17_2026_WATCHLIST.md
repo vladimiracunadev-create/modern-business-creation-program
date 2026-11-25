@@ -2,8 +2,8 @@
 
 ## 1. Datos personales
 
-**Ley 21.719: entra en vigencia 01-12-2026.**
-Prioridad 2026: inventario, contratos, bases de licitud, derechos, seguridad, incidentes y gobierno.
+**Ley 21.719: entra en vigencia el 15-10-2027** (Ley 21.855, publicada en el Diario Oficial el 23-11-2026, que sustituyó la fecha original del 01-12-2026). Por vigilar: reglamentos y designación del Consejo de la Agencia.
+Prioridad 2026-2027: inventario, contratos, bases de licitud, derechos, seguridad, incidentes y gobierno.
 
 ## 2. Jornada
 
@@ -32,7 +32,7 @@ Guía: [docs/21](21_INTELIGENCIA_ECONOMICA_Y_PROTECCION_DEL_CONOCIMIENTO.md). Ba
 Ley 19.039 (DFL 4/2022) arts. 86 a 88, Código Penal arts. 284 a 284 sexies (versión del 20-08-2026), Ley 21.595 art. 2,
 Ley 21.459 y Ley 20.169. **Por vigilar:** el caso [NVIDIA](../case-studies/22-nvidia-sospecha-de-espionaje-y-proteccion-del-conocimiento.md)
 (investigación independiente del directorio, requerimiento del Congreso de EE. UU. y el estado de la indagación atribuida al FBI);
-el expediente se actualiza solo con comunicados oficiales y no se cierra sin resultado publicado. El paso a la Ley 21.719 (1-12-2026)
+el expediente se actualiza solo con comunicados oficiales y no se cierra sin resultado publicado. El paso a la Ley 21.719 (15-10-2027)
 condiciona qué datos personales de directivos puede pedir la empresa para gestionar conflictos de interés.
 
 ## 4. Finanzas abiertas

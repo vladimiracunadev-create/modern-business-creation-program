@@ -65,6 +65,30 @@ En Chile las contingencias más frecuentes en una compra son laborales y tributa
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: asuntos públicos y gobierno de la relación con autoridades
+
+[Guía de reputación, crisis y confianza, sección 5](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#5-relaciones-institucionales-y-asuntos-públicos)
+
+**Lente para esta clase:** El directorio o consejo supervisa cómo la empresa se relaciona con las autoridades: una política clara evita ofrecimientos indebidos y protege a la empresa de acusaciones.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una regla escrita: ninguna reunión con una autoridad sin acta, sin acompañante y sin ofrecer beneficio alguno. |
+| **Pyme** | Política de asuntos públicos, mapa de autoridades, registro de reuniones y revisión legal de toda gestión. |
+| **Gran empresa o multinacional** | Comité de asuntos públicos, coordinación con gremios, registro de audiencias y reporte periódico al directorio. |
+
+**Obligación legal:** Quien solicita una audiencia con un sujeto pasivo de la Ley 20.730 debe informar a nombre de quién gestiona y si recibe remuneración; omitirlo o falsearlo se sanciona con multa de 10 a 50 UTM (arts. 3 y 4 y siguientes).
+
+**Recomendación profesional:** Construir la relación antes de necesitarla, por cumplimiento y transparencia, y registrar cada reunión relevante.
+
+**Actividad:** Define la regla de tres líneas que seguirá cualquier persona de tu empresa que sea invitada a una reunión con una autoridad.
+
+**Plantilla:** [Política de comunicación corporativa](../../../templates/25_politica_comunicacion_corporativa.md)
+
+**Términos:** Asuntos públicos (*Public affairs*) · Gestión de intereses particulares (*Lobbying*)
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -163,6 +187,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para determinar si adquirir y cómo se cubren las contingencias detectadas.
+
+**Biblioteca del Congreso Nacional — Ley 20.730 — Regula el lobby y las gestiones que representen intereses particulares**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1060115> · verificado 2026-11-25
+
+- *Qué contiene:* Define los sujetos pasivos (autoridades y funcionarios), obliga a registrar audiencias y reuniones y sanciona con multa a quien omite o falsea, al pedir una reunión, a nombre de quién gestiona y si recibe remuneración.
+- *Cómo leerla:* Úsala para ordenar las reuniones de la empresa con autoridades y para saber qué información debe entregar quien las solicita. Revisa en la norma si la autoridad concreta es sujeto pasivo.
+- *Uso en esta clase:* aporta el marco de «Ley 20.730 — Regula el lobby y las gestiones que representen intereses particulares» para determinar si adquirir y cómo se cubren las contingencias detectadas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

@@ -95,6 +95,32 @@ categoría como prueba automática de otra.
 
 *Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
+## 🤝 Reputación y confianza: política de comunicación y categorías de hecho
+
+[Guía de reputación, crisis y confianza, sección 7](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#7-política-de-comunicación-corporativa)
+
+**Lente para esta clase:** La clase ya enseña a clasificar evidencia; la política de comunicación convierte esa clasificación en una regla diaria: quién habla, con qué verificación y por qué canal.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Dos páginas con una sola voz, tres canales oficiales y la regla «no sé aún» cuando falta verificación. |
+| **Pyme** | Política firmada, matriz de severidad, lista de portavoces con sustitutos y registro de cada comunicado. |
+| **Gran empresa o multinacional** | Marco de comunicación corporativa con comité, revisión legal, entrenamiento de portavoces y auditoría anual. |
+
+**Obligación legal:** Si la empresa decide comunicar, lo que dice queda sujeto a la veracidad de la información y de la publicidad (Ley 19.496, arts. 28 y 33). Frente a una publicación falsa de un medio de comunicación social, el derecho de aclaración dura 20 días (Ley 19.733, art. 20) y la imputación de un delito falso es calumnia (Código Penal, art. 412).
+
+**Recomendación profesional:** Responder una vez, con evidencia y sin atacar a personas; decidir con un abogado las vías formales antes de usarlas.
+
+**Actividad:** Redacta una declaración de cinco líneas con las categorías hecho verificado, alegación, actuación de una autoridad y respuesta de la empresa.
+
+**Plantilla:** [Política de comunicación corporativa](../../../templates/25_politica_comunicacion_corporativa.md)
+
+**Términos:** Declaración inicial (*Holding statement*) · Derecho de aclaración (*Right of reply*)
+
+**Simulación:** [caso 3 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#3-negocio-afectado-por-publicaciones-falsas). Responde a publicaciones falsas con evidencia, distingue hecho y alegación y decide qué vías legales evaluar. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -221,6 +247,27 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Informa la contratación, por los directores independientes, de un ex fiscal federal interino y su estudio para investigar los hechos, la declaración del directorio, la continuidad del ejecutivo y la caída bursátil, y distingue lo que NBC confirmó de lo que no.
 - *Cómo leerla:* Distingue con cuidado entre lo que el medio confirma, lo que atribuye a sus fuentes y lo que otros medios reportaron sin confirmación de NBC. La mención de una investigación del FBI proviene de declaraciones del presidente, no de una declaración del FBI.
 - *Uso en esta clase:* aporta el marco de «Nvidia hires former acting U.S. attorney to probe Jensen Huang affair (10-11-2026)» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
+
+**Biblioteca del Congreso Nacional — Ley 19.733 — Libertades de opinión e información y ejercicio del periodismo**  
+<https://www.bcn.cl/leychile/navegar?idNorma=186049> · verificado 2026-11-25
+
+- *Qué contiene:* Regula en el título IV el derecho de aclaración y rectificación de toda persona natural o jurídica ofendida o injustamente aludida por un medio de comunicación social: difusión gratuita, extensión máxima de mil palabras, prescripción a los veinte días y exclusión de las apreciaciones de crítica especializada (arts. 16 a 21).
+- *Cómo leerla:* Úsala para decidir si una publicación falsa de un medio permite exigir una aclaración y en qué plazo. No es una vía contra redes sociales de personas; consulta a un abogado sobre el alcance.
+- *Uso en esta clase:* aporta el marco de «Ley 19.733 — Libertades de opinión e información y ejercicio del periodismo» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
+
+**Biblioteca del Congreso Nacional — Código Penal — Calumnia e injuria (arts. 412 a 431)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1984> · verificado 2026-11-25
+
+- *Qué contiene:* Define la calumnia como la imputación de un delito determinado pero falso (art. 412) y la injuria como toda expresión en deshonra, descrédito o menosprecio (art. 416), con penas mayores cuando se propaga por escrito y con publicidad (arts. 413 y 418).
+- *Cómo leerla:* Úsalo para entender cuándo una publicación falsa sobre la empresa puede ser calumnia o injuria; la decisión de acudir a la vía penal la toma un abogado.
+- *Uso en esta clase:* aporta el marco de «Código Penal — Calumnia e injuria (arts. 412 a 431)» para definir vocería, clasificación de evidencia, protección de afectados y escalamiento antes de la crisis.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

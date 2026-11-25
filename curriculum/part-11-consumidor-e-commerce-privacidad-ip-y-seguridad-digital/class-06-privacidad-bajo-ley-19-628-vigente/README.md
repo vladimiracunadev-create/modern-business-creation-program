@@ -53,13 +53,13 @@ La Ley 19.628 rige mientras la Ley 21.719 no entra plenamente en vigencia. Su es
 
 ### 2. Cómo se traduce en la práctica
 
-La Ley 19.628 rige mientras la 21.719 no entra plenamente en vigencia, y su estándar es más bajo. Construir el tratamiento con el estándar futuro evita hacer dos veces el mismo trabajo, porque la finalidad determinada, el registro de tratamientos y la base de licitud serán exigibles desde el 1 de diciembre de 2026.
+La Ley 19.628 rige mientras la 21.719 no entra plenamente en vigencia, y su estándar es más bajo. Construir el tratamiento con el estándar futuro evita hacer dos veces el mismo trabajo, porque la finalidad determinada, el registro de tratamientos y la base de licitud serán exigibles desde el 15 de octubre de 2027.
 
 ### 3. Marco aplicable y quién interviene
 
 - Ley 19.496 sobre protección de los derechos de los consumidores y su Reglamento de Comercio Electrónico
 - Ley 19.628 sobre protección de la vida privada, vigente hasta la entrada en régimen de la Ley 21.719
-- Ley 21.719 sobre protección de datos personales, con vigencia el 1 de diciembre de 2026
+- Ley 21.719 sobre protección de datos personales, con vigencia el 15 de octubre de 2027
 - Ley 19.039 sobre propiedad industrial y Ley 17.336 sobre propiedad intelectual
 - Ley 21.663 Marco de Ciberseguridad
 

@@ -12,8 +12,8 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Partes | 24 |
 | Clases | 336 |
 | Clases por parte | 14 |
-| Palabras totales del currículo | 454.271 |
-| Palabras por clase | 1.144–2.909 (mediana 1.313) |
+| Palabras totales del currículo | 467.439 |
+| Palabras por clase | 1.144–3.064 (mediana 1.343) |
 | Diagramas mermaid | 360 (uno por clase + uno por parte) |
 | Conceptos con definición operacional | 1.344 |
 | Términos del glosario maestro | 1.250 |
@@ -22,20 +22,20 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | Entregables definidos | 336 |
 | Criterios de aceptación específicos | 336 conjuntos |
 | Narrativas de parte | 24 |
-| Manuales transversales (`docs/`) | 22 |
-| Casos empresariales y sectoriales (`case-studies/`) | 22 (20 líneas de negocio + MEDVi y NVIDIA transversales) |
-| Plantillas operativas (`templates/`) | 24 |
-| Fuentes en el registro | 63 (61 citadas · 59 verificadas · 4 pendientes) |
-| Cuerpos normativos mapeados | 54 |
+| Manuales transversales (`docs/`) | 23 |
+| Casos empresariales y sectoriales (`case-studies/`) | 23 (20 líneas de negocio + MEDVi y NVIDIA transversales + un expediente de siete simulaciones de reputación y crisis) |
+| Plantillas operativas (`templates/`) | 33 |
+| Fuentes en el registro | 76 (74 citadas · 72 verificadas · 4 pendientes) |
+| Cuerpos normativos mapeados | 60 |
 | Revalidación de fuentes | por fuente (`accessed` en `sources/bibliography.json`); última pasada 2026-11-05 |
 
 ## Publicación
 
 | Superficie | Valor |
 |---|---:|
-| Páginas del sitio HTML | 431 |
+| Páginas del sitio HTML | 439 |
 | Enlaces internos verificados en el sitio | todos los enlaces relativos generados |
-| Manual integral en PDF | 1.606 páginas · ~4,2 MB |
+| Manual integral en PDF | 1.633 páginas · ~4,3 MB |
 | PDF por parte | 24 · ~63 páginas cada uno |
 | Workflows de CI | 4 |
 | Dependencias de terceros | 2, fijadas a versión exacta |
@@ -59,7 +59,7 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | `scripts/generar_sitio.py` | que las 431 páginas de contenido compilen y que ninguno de sus enlaces internos rompa |
 | `scripts/generar_manual.py` | que el manual compile y que la portada y el número de páginas sean los esperados |
 | `markdownlint-cli2` | Markdown estructuralmente válido en todo el repositorio |
-| `python -m unittest discover -s tests` | 51 pruebas de currículo, manifiestos, pedagogía, fuentes, etapas, sincronía, expediente de viabilidad integración MEDVi e integración de inteligencia económica y protección del conocimiento |
+| `python -m unittest discover -s tests` | 61 pruebas de currículo, manifiestos, pedagogía, fuentes, etapas, sincronía, expediente de viabilidad, integración MEDVi, integración de inteligencia económica y protección del conocimiento e integración de reputación, crisis y confianza (incluida la vigencia de la Ley 21.719) |
 | `gitleaks` | ausencia de secretos en el árbol de archivos |
 | `bandit` | análisis estático de los scripts de Python |
 | `pip-audit` | vulnerabilidades conocidas en las dependencias fijadas |
@@ -98,4 +98,4 @@ con cada reforma.
 **2026-11-05** (texto del Diario Oficial) con circulares del SII pendientes. La base legal de la guía de
 inteligencia económica y protección del conocimiento (Ley 19.039, Código Penal arts. 284 a 284 sexies,
 Leyes 21.595, 21.459 y 20.169, Código del Trabajo) se verificó el **2026-11-12**; el caso NVIDIA está
-abierto a esa fecha.
+abierto a esa fecha. La base legal de la guía de reputación, crisis y confianza (Leyes 19.496, 19.733, 20.730, 21.131, 21.643, 21.663, 21.719, 21.855, 16.744, 20.720 y 18.045; Código del Trabajo y Código Penal arts. 412 a 431) se leyó en el texto consolidado de la BCN el **2026-11-25**; allí se detectó que la Ley 21.855 fijó la vigencia de la Ley 21.719 en el **2027-10-15**.

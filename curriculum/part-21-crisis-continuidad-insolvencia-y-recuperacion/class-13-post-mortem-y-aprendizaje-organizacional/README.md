@@ -83,6 +83,32 @@ tamaño de la empresa y de la actividad económica.
 
 *Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
+## 🤝 Reputación y confianza: aprender sin culpas y comprobar lo prometido
+
+[Guía de reputación, crisis y confianza, sección 16](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#16-recuperación-de-confianza-con-acciones-comprobables)
+
+**Lente para esta clase:** El post-mortem cierra la crisis solo si convierte lo aprendido en cambios comprobables: una lección que no cambia un procedimiento no es una lección.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una reunión de una hora sin buscar culpables, con tres cambios concretos y fecha. |
+| **Pyme** | Post-mortem con causa raíz, acciones correctivas con responsable y revisión de cumplimiento a 30 y 90 días. |
+| **Gran empresa o multinacional** | Programa de aprendizaje con registro de lecciones, actualización de políticas y reporte público de avances cuando corresponda. |
+
+**Obligación legal:** No hay una obligación general de publicar el post-mortem; sí hay deberes de informar a autoridades y de reparar a los afectados según el caso.
+
+**Recomendación profesional:** Publicar el avance de cada compromiso con su evidencia; la confianza se recupera con hechos comprobables.
+
+**Actividad:** Escribe tres compromisos de mejora de una crisis pasada con la prueba que un tercero podría comprobar de cada uno.
+
+**Plantilla:** [Indicadores de confianza](../../../templates/32_indicadores_de_confianza.csv)
+
+**Términos:** Causa raíz (*Root cause*) · Recuperación de confianza (*Trust recovery*)
+
+**Simulación:** [caso 2 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#2-empresa-con-fallas-de-un-producto). Traza qué evidencia permite afirmar que la causa de la falla de un producto fue corregida. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

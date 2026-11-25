@@ -8,7 +8,7 @@
 
 ## 🎯 Propósito
 
-Planificar la adecuación a la Ley 21.719 con hitos anteriores al 1 de diciembre de 2026, entendiendo que no es un proyecto legal sino operativo.
+Planificar la adecuación a la Ley 21.719 con hitos anteriores al 15 de octubre de 2027, entendiendo que no es un proyecto legal sino operativo.
 
 ## 📚 Resultados de aprendizaje
 
@@ -24,7 +24,7 @@ Al finalizar esta clase podrás:
 
 | Concepto | Comprensión verificable |
 |---|---|
-| **Ley 21.719** | Nueva ley de protección de datos personales, con vigencia el 1 de diciembre de 2026. |
+| **Ley 21.719** | Nueva ley de protección de datos personales, con vigencia el 15 de octubre de 2027. |
 | **Responsable del tratamiento** | Quien decide fines y medios. |
 | **Encargado** | Quien trata datos por cuenta del responsable. |
 | **Agencia de Protección de Datos** | Autoridad con potestad fiscalizadora y sancionatoria. |
@@ -59,7 +59,7 @@ La ley introduce principios, bases de licitud, derechos reforzados, obligación 
 
 - Ley 19.496 sobre protección de los derechos de los consumidores y su Reglamento de Comercio Electrónico
 - Ley 19.628 sobre protección de la vida privada, vigente hasta la entrada en régimen de la Ley 21.719
-- Ley 21.719 sobre protección de datos personales, con vigencia el 1 de diciembre de 2026
+- Ley 21.719 sobre protección de datos personales, con vigencia el 15 de octubre de 2027
 - Ley 19.039 sobre propiedad industrial y Ley 17.336 sobre propiedad intelectual
 - Ley 21.663 Marco de Ciberseguridad
 
@@ -107,7 +107,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ✅ Criterio de aceptación
 
-- [ ] el plan tiene hitos anteriores al 1 de diciembre de 2026
+- [ ] el plan tiene hitos anteriores al 15 de octubre de 2027
 - [ ] incluye contratos con encargados y procedimiento de brechas
 - [ ] cada afirmación regulatoria está referida a una fuente oficial con fecha de consulta;
 - [ ] los datos dinámicos quedan marcados para revalidación;
@@ -139,7 +139,7 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 
 ## ❓ Preguntas de comprobación
 
-1. ¿Qué hitos de tu plan de adecuación caen antes del 1 de diciembre de 2026?
+1. ¿Qué hitos de tu plan de adecuación caen antes del 15 de octubre de 2027?
 2. ¿Qué contratos con proveedores que tratan datos hay que modificar?
 3. ¿Podrías notificar una brecha en el plazo exigido con los procesos que tienes hoy?
 

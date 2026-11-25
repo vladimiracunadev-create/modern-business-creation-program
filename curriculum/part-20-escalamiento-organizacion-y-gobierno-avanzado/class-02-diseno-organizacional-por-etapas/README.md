@@ -65,6 +65,30 @@ Los organigramas con cargos vacíos generan confusión de responsabilidades y ex
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: roles, sustitutos y comité de crisis dimensionado
+
+[Guía de reputación, crisis y confianza, sección 9](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#9-responsables-sustitutos-comité-de-crisis-y-vocería)
+
+**Lente para esta clase:** Delegar sin sustituto es esperar que el día de la crisis estén todos: el comité debe ser proporcional al tamaño y cada rol debe tener un reemplazo conocido.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Tres personas y un asesor de llamada: responsable, vocería y registro, con sustitutos nombrados por escrito. |
+| **Pyme** | Comité de cinco a siete personas con roles, sustitutos, canal de convocatoria en 2 horas y acta de cada sesión. |
+| **Gran empresa o multinacional** | Comité de crisis, comité operativo y directorio informado, con turnos y una sola vía hacia autoridades y medios. |
+
+**Obligación legal:** No existe una obligación general de tener un comité de crisis; sí existen obligaciones de informar a autoridades (guía, sección 13) cuyo cumplimiento requiere un responsable y un sustituto.
+
+**Recomendación profesional:** Si el titular está involucrado en el hecho, no dirige la respuesta sobre su conducta; entrena al sustituto.
+
+**Actividad:** Completa la tabla de roles y sustitutos de tu empresa con nombres y teléfonos y verifica que ninguna persona ocupe dos roles críticos.
+
+**Plantilla:** [Protocolo de escalamiento y vocería](../../../templates/28_protocolo_escalamiento_y_voceria.md)
+
+**Términos:** Comité de crisis (*Crisis committee*) · Sustituto (*Alternate*)
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

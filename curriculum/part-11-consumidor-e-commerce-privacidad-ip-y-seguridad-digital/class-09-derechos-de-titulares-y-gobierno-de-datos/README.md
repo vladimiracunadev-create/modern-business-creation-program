@@ -59,7 +59,7 @@ Ese ejercicio revela si el mapa de datos sirve o es un documento decorativo. El 
 
 - Ley 19.496 sobre protección de los derechos de los consumidores y su Reglamento de Comercio Electrónico
 - Ley 19.628 sobre protección de la vida privada, vigente hasta la entrada en régimen de la Ley 21.719
-- Ley 21.719 sobre protección de datos personales, con vigencia el 1 de diciembre de 2026
+- Ley 21.719 sobre protección de datos personales, con vigencia el 15 de octubre de 2027
 - Ley 19.039 sobre propiedad industrial y Ley 17.336 sobre propiedad intelectual
 - Ley 21.663 Marco de Ciberseguridad
 

@@ -65,6 +65,32 @@ El vacío de información se llena con rumores, siempre peores que la realidad. 
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: el orden de las audiencias y la cadencia
+
+[Guía de reputación, crisis y confianza, sección 10](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#10-protocolo-de-respuesta-ante-incidentes-y-control-de-daños)
+
+**Lente para esta clase:** La clase enseña a comunicar con cadencia; el protocolo de 72 horas añade el orden: equipo interno, afectados, clientes, proveedores y público, siempre con la misma versión.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un mensaje base y un horario de actualización, con la regla de informar primero al equipo. |
+| **Pyme** | Guías por audiencia, aprobación por dos personas, registro de cada envío y calendario de actualizaciones. |
+| **Gran empresa o multinacional** | Comunicación coordinada con comités, plataformas internas y externas, y medición de la tasa de contacto por audiencia. |
+
+**Obligación legal:** La comunicación no es una obligación en general; sí lo son los avisos a autoridades y los deberes con consumidores (guía, secciones 11 y 13). Lo que se comunique debe ser veraz (Ley 19.496, arts. 28 y 33).
+
+**Recomendación profesional:** Usar las guías de la plantilla 31 y no cambiar los hechos entre audiencias, solo el énfasis.
+
+**Actividad:** Redacta el mensaje base a trabajadores y a clientes ante una falla de servicio, con los mismos hechos y distinto énfasis.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Cadencia de actualización (*Update cadence*) · Audiencia (*Stakeholder audience*)
+
+**Simulación:** [caso 5 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#5-empresa-con-conflicto-laboral-público). Compara una comunicación pública anterior a la interna con una que informa primero al equipo. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir qué se comunica, a quién, cuándo y con qué cadencia.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir qué se comunica, a quién, cuándo y con qué cadencia.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

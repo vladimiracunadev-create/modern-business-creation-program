@@ -87,6 +87,30 @@ tamaño de la empresa y de la actividad económica.
 
 *Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
+## 🤝 Reputación y confianza: la reputación en el mapa de riesgos con severidad común
+
+[Guía de reputación, crisis y confianza, sección 8](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#8-matriz-de-severidad-reputacional)
+
+**Lente para esta clase:** Un riesgo reputacional solo puede gestionarse si se mide con una escala común: la matriz de severidad convierte la sensación de gravedad en un umbral que activa responsables.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Cinco niveles de severidad escritos en una hoja y una regla para subir de nivel cuando hay riesgo para personas. |
+| **Pyme** | Matriz adoptada por todas las áreas, vinculada al registro de riesgos, con responsables y tiempos de respuesta. |
+| **Gran empresa o multinacional** | Escenarios reputacionales en el mapa corporativo, apetito de riesgo definido y reporte periódico al directorio. |
+
+**Obligación legal:** Esta clase no crea una obligación nueva: la matriz permite decidir, con evidencia, cuáles de las obligaciones de informar a autoridades (guía, sección 13) se activan en cada nivel.
+
+**Recomendación profesional:** Probar la matriz con tres incidentes pasados y comprobar que el nivel asignado coincide con la gravedad real.
+
+**Actividad:** Clasifica tres incidentes recientes de tu empresa con la matriz S0 a S4 y justifica cada nivel.
+
+**Plantilla:** [Matriz de severidad reputacional](../../../templates/26_matriz_severidad_reputacional.csv)
+
+**Términos:** Matriz de severidad (*Severity matrix*) · Apetito de riesgo (*Risk appetite*)
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

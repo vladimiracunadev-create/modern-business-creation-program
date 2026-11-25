@@ -661,5 +661,188 @@ class ProteccionConocimientoTest(unittest.TestCase):
         self.assertIn("Código Penal, arts. 284 a 284 sexies", nombres)
 
 
+class ReputacionCrisisTest(unittest.TestCase):
+    """Reputación, crisis y confianza: integrado sin crear clases ni alterar la numeración."""
+
+    CLASES = {
+        154, 163, 164, 166, 168, 176, 179, 184, 187, 193, 194, 195, 253, 258, 264, 265, 268,
+        274, 276, 281, 283, 284, 285, 286, 287, 289, 290, 291, 292, 293, 294,
+    }
+    DOC = "docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md"
+    CASO = "case-studies/23-reputacion-y-crisis-siete-casos.md"
+    PLANTILLAS = {
+        25: "25_politica_comunicacion_corporativa.md",
+        26: "26_matriz_severidad_reputacional.csv",
+        27: "27_procedimiento_control_de_danos.md",
+        28: "28_protocolo_escalamiento_y_voceria.md",
+        29: "29_registro_incidentes_reputacionales.csv",
+        30: "30_plan_respuesta_y_recuperacion.md",
+        31: "31_guias_comunicacion_por_audiencia.md",
+        32: "32_indicadores_de_confianza.csv",
+        33: "33_simulaciones_crisis_pyme.md",
+    }
+
+    @staticmethod
+    def _ancla(encabezado: str) -> str:
+        texto = re.sub(r"[^\w\s-]", "", encabezado.strip().lower())
+        return re.sub(r"\s", "-", texto)
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.guia = (RAIZ / cls.DOC).read_text(encoding="utf-8")
+        cls.caso = (RAIZ / cls.CASO).read_text(encoding="utf-8")
+        cls.clases = {}
+        for archivo in sorted((MANIFESTS / "classes").glob("*.json")):
+            for entrada in json.loads(archivo.read_text(encoding="utf-8")):
+                cls.clases[entrada["n"]] = entrada
+        cls.fuentes = {
+            f["manifest_id"]: f
+            for f in json.loads(
+                (RAIZ / "sources" / "bibliography.json").read_text(encoding="utf-8")
+            )["entries"]
+        }
+        cls.anclas_guia = {
+            cls._ancla(h) for h in re.findall(r"^## (.+)$", cls.guia, flags=re.M)
+        }
+        cls.anclas_caso = {
+            cls._ancla(h) for h in re.findall(r"^## (.+)$", cls.caso, flags=re.M)
+        }
+
+    def test_no_se_crean_clases_ni_se_altera_la_numeracion(self) -> None:
+        self.assertEqual(set(self.clases), set(range(1, TOTAL_CLASES + 1)))
+        integradas = {n for n, e in self.clases.items() if e.get("reputacion")}
+        self.assertEqual(integradas, self.CLASES)
+        # El bloque anterior de protección del conocimiento se conserva intacto.
+        self.assertEqual(sum(1 for e in self.clases.values() if e.get("proteccion")), 38)
+
+    def test_cada_bloque_tiene_tres_niveles_obligacion_recomendacion_y_enlaces(self) -> None:
+        for numero in sorted(self.CLASES):
+            bloque = self.clases[numero]["reputacion"]
+            with self.subTest(clase=numero):
+                self.assertEqual(len(bloque["niveles"]), 3)
+                for nivel in bloque["niveles"]:
+                    self.assertGreaterEqual(len(nivel.split()), 8)
+                self.assertGreaterEqual(len(bloque["lente"].split()), 15)
+                self.assertGreaterEqual(len(bloque["ejercicio"].split()), 10)
+                self.assertGreaterEqual(len(bloque["obligacion"].split()), 12)
+                self.assertGreaterEqual(len(bloque["recomendacion"].split()), 12)
+                self.assertGreaterEqual(len(bloque["terminos"]), 2)
+                self.assertIn(bloque["ancla"], self.anclas_guia)
+                self.assertTrue((RAIZ / bloque["plantilla"]["ruta"]).exists())
+                if bloque.get("caso"):
+                    self.assertIn(bloque["caso"]["ancla"], self.anclas_caso)
+                    self.assertGreaterEqual(len(bloque["caso"]["lente"].split()), 10)
+
+    def test_readme_de_cada_clase_integrada_trae_el_bloque(self) -> None:
+        for clase in cargar("curriculum.json"):
+            numero = clase["global_class"]
+            if numero not in self.CLASES:
+                continue
+            carpeta = next(
+                CURRICULUM.glob(f"part-{clase['part']:02d}-*/class-{clase['class']:02d}-*")
+            )
+            texto = (carpeta / "README.md").read_text(encoding="utf-8")
+            with self.subTest(clase=numero):
+                self.assertIn("## 🤝 Reputación y confianza", texto)
+                self.assertIn("**Obligación legal:**", texto)
+                self.assertIn("**Recomendación profesional:**", texto)
+
+    def test_guia_cubre_las_veintiuna_secciones_y_distingue_obligacion_de_recomendacion(
+        self,
+    ) -> None:
+        encabezados = re.findall(r"^## (\d+)\. ", self.guia, flags=re.M)
+        self.assertEqual(encabezados, [str(i) for i in range(1, 22)])
+        for frase in (
+            "[Obligación legal]", "[Recomendación profesional]", "[Voluntaria]",
+            "Matriz de severidad reputacional", "Comité de crisis por tamaño",
+            "Vocería de fundadores y representantes legales", "Protección de personas afectadas",
+            "Conflictos laborales y con proveedores", "Recuperación de confianza",
+            "Indicadores de confianza", "Lo que **no** es obligación legal",
+            "Relaciones institucionales y asuntos públicos",
+            "Gestión de reclamos y controversias",
+        ):
+            with self.subTest(frase=frase):
+                self.assertIn(frase, self.guia)
+
+    def test_guia_cita_los_plazos_y_articulos_leidos_en_la_bcn(self) -> None:
+        plano = " ".join(self.guia.split())
+        for frase in (
+            "alerta en **3 horas**", "actualización en **72 horas**", "**15 días corridos**",
+            "prescribe a los 20 días", "1.000 palabras", "art. 14 sexies", "Ley 21.855",
+            "15 de octubre de 2027", "art. 211-C", "30 días", "arts. 45 y 46", "art. 76",
+            "art. 345", "arts. 289 y 291", "10 a 50 UTM", "50 a 150 UTM", "Ley 21.131",
+            "arts. 9 y 10", "art. 54",
+        ):
+            with self.subTest(frase=frase):
+                self.assertIn(frase, plano)
+
+    def test_la_vigencia_de_la_ley_21719_no_quedo_en_la_fecha_derogada(self) -> None:
+        # La Ley 21.855 sustituyó el 1-12-2026 por el 15-10-2027: ningún texto de clase,
+        # parte ni manifiesto puede seguir afirmándolo como fecha de vigencia.
+        rutas = list((RAIZ / "curriculum").rglob("README.md")) + list(MANIFESTS.rglob("*.json"))
+        for ruta in rutas:
+            texto = ruta.read_text(encoding="utf-8")
+            with self.subTest(archivo=str(ruta.relative_to(RAIZ))):
+                self.assertNotIn("vigencia el 1 de diciembre de 2026", texto)
+                self.assertNotIn("vigente desde el 1 de diciembre de 2026", texto)
+                self.assertNotIn("antes del 1 de diciembre de 2026", texto)
+        parte_11 = next((CURRICULUM).glob("part-11-*"))
+        clase_147 = next(parte_11.glob("class-07-*")) / "README.md"
+        self.assertIn("15 de octubre de 2027", clase_147.read_text(encoding="utf-8"))
+
+    def test_siete_casos_con_las_siete_secciones_y_naturaleza_ilustrativa(self) -> None:
+        casos = re.split(r"^## (?=\d+\. )", self.caso, flags=re.M)[1:]
+        self.assertEqual(len(casos), 7)
+        for numero, cuerpo in enumerate(casos, start=1):
+            for seccion in (
+                "Diagnóstico", "Responsables", "Evidencia", "Alternativas", "Decisiones",
+                "Consecuencias", "Seguimiento",
+            ):
+                with self.subTest(caso=numero, seccion=seccion):
+                    self.assertIn(f"### {seccion}", cuerpo)
+        self.assertIn("son ficticias", self.caso)
+        self.assertIn("simulaciones ilustrativas", self.caso.lower())
+
+    def test_plantillas_operativas_existen_y_tienen_lo_esencial(self) -> None:
+        for numero, nombre in self.PLANTILLAS.items():
+            with self.subTest(plantilla=numero):
+                self.assertTrue((RAIZ / "templates" / nombre).exists())
+        matriz = (RAIZ / "templates" / self.PLANTILLAS[26]).read_text(encoding="utf-8")
+        for nivel in ("S0,", "S1,", "S2,", "S3,", "S4,"):
+            self.assertIn(nivel, matriz)
+        indicadores = (RAIZ / "templates" / self.PLANTILLAS[32]).read_text(encoding="utf-8")
+        self.assertEqual(len(indicadores.strip().splitlines()) - 1, 16)
+        registro = (RAIZ / "templates" / self.PLANTILLAS[29]).read_text(encoding="utf-8")
+        cabecera = registro.splitlines()[0]
+        for columna in (
+            "severidad", "hecho_verificado", "alegaciones_no_verificadas",
+            "autoridades_informadas", "proxima_actualizacion", "causa_raiz",
+        ):
+            self.assertIn(columna, cabecera)
+        simulaciones = (RAIZ / "templates" / self.PLANTILLAS[33]).read_text(encoding="utf-8")
+        for i in range(1, 11):
+            self.assertIn(f"### S-{i:02d} ·", simulaciones)
+
+    def test_fuentes_nuevas_registradas_con_fecha_y_uso(self) -> None:
+        esperadas = {
+            "LEY_19496_BCN", "LEY_19733_BCN", "LEY_20730_BCN", "CT_BCN", "LEY_21643_BCN",
+            "LEY_16744_BCN", "LEY_21131_BCN", "LEY_20720_BCN", "LEY_18045_BCN",
+            "LEY_21663_BCN", "LEY_21719_BCN", "LEY_21855_BCN", "CP_HONRA_BCN",
+        }
+        self.assertLessEqual(esperadas, set(self.fuentes))
+        for identificador in esperadas:
+            with self.subTest(fuente=identificador):
+                fuente = self.fuentes[identificador]
+                self.assertEqual(fuente["accessed"], "2026-11-25")
+                self.assertEqual(fuente["status"], "verificada")
+                self.assertTrue(fuente["used_in"])
+
+    def test_matriz_legal_registra_las_normas_nuevas(self) -> None:
+        nombres = {n["name"]: n for n in cargar("legal_sources.json")}
+        for nombre in ("Ley 21.855", "Ley 19.733", "Ley 20.730"):
+            self.assertIn(nombre, nombres)
+        self.assertIn("15-10-2027", nombres["Ley 21.719"]["scope"])
+
+
 if __name__ == "__main__":
     unittest.main()

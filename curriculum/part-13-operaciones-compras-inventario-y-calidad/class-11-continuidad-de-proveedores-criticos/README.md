@@ -65,6 +65,32 @@ Ninguna basta por sí sola: el stock sin alternativa solo compra tiempo, y la cl
 **Profesionales de apoyo:** jefe de operaciones, comprador, encargado de calidad, prevencionista. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: proveedores críticos en conflicto o en falla
+
+[Guía de reputación, crisis y confianza, sección 14](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#14-conflictos-laborales-y-con-proveedores)
+
+**Lente para esta clase:** La reputación frente a proveedores se construye pagando y comunicando con criterio; en una falla, el mensaje a cada uno debe ser individual, escrito y consistente con el que reciben clientes y trabajadores.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Lista de los tres proveedores que no se pueden reemplazar en 30 días, con contacto directo y acuerdo básico por escrito. |
+| **Pyme** | Mapa de criticidad, contratos con plazos y escalamiento, y regla de priorización de pagos conocida por finanzas y gerencia. |
+| **Gran empresa o multinacional** | Programa de proveedores críticos con auditoría, planes alternativos probados y comunicación coordinada con compras y legal. |
+
+**Obligación legal:** El pago de la factura debe cumplirse en 30 días corridos desde su recepción; un plazo mayor exige acuerdo escrito, inscrito en el registro del Ministerio de Economía (Ley 21.131).
+
+**Recomendación profesional:** Escribir a cada proveedor por separado con una propuesta concreta antes de que venza el pago; no usar publicaciones públicas como presión, porque imputar un incumplimiento no probado puede ser injuria.
+
+**Actividad:** Redacta el correo de cinco líneas a un proveedor crítico al que no podrás pagar en la fecha pactada, con calendario propuesto.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Proveedor crítico (*Critical supplier*) · Priorización de pagos (*Payment prioritization*)
+
+**Simulación:** [caso 7 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#7-empresa-que-enfrenta-problemas-de-liquidez-y-reclamos). Observa cómo tres proveedores que exigen pago exigen mensajes distintos y un criterio de priorización escrito. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica la interpretación aplicada de la Ley del Consumidor: deberes de información en la oferta, reglas del comercio electrónico, garantía legal, contratos de adhesión y el procedimiento de reclamos.
 - *Cómo leerla:* Entra por el rubro de tu negocio y revisa las alertas y procedimientos colectivos publicados: muestran qué está fiscalizando el servicio ahora, que es mejor predictor de tu riesgo que la lectura abstracta de la ley.
 - *Uso en esta clase:* aporta el marco de «Ley 19.496, comercio electrónico y garantía legal» para definir cómo se cubre la falla de cada proveedor crítico.
+
+**Biblioteca del Congreso Nacional — Ley 21.131 — Establece pago a treinta días**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1127890> · verificado 2026-11-25
+
+- *Qué contiene:* Sustituye el artículo 2 de la Ley 19.983: el saldo de la factura se paga en treinta días corridos desde su recepción y un plazo mayor exige acuerdo escrito inscrito en el registro del Ministerio de Economía.
+- *Cómo leerla:* Úsala para conocer qué plazo se puede prometer a un proveedor y qué debe constar por escrito al renegociar pagos.
+- *Uso en esta clase:* aporta el marco de «Ley 21.131 — Establece pago a treinta días» para definir cómo se cubre la falla de cada proveedor crítico.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

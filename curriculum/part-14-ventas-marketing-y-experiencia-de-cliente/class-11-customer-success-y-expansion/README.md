@@ -65,6 +65,32 @@ La renovación se gana durante el período, no en el mes previo. Un indicador qu
 **Profesionales de apoyo:** responsable comercial, marketing, customer success, abogado de consumo. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: comunicar antes de que el cliente pregunte
+
+[Guía de reputación, crisis y confianza, sección 4](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#4-construcción-inicial-de-reputación-identidad-promesa-y-canales)
+
+**Lente para esta clase:** El cliente perdona un retraso avisado y no perdona uno descubierto: la comunicación proactiva es el cimiento de la reputación en la operación diaria.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un mensaje tipo para cada falla probable (retraso, cobro erróneo, falta de stock) que se envía en la primera hora. |
+| **Pyme** | Calendario de comunicaciones del ciclo de vida del cliente y plantillas con responsable y plazo de envío. |
+| **Gran empresa o multinacional** | Customer success con alertas de riesgo de cuenta, comunicación segmentada y escalamiento a gerencia por severidad. |
+
+**Obligación legal:** Respetar los términos, condiciones y modalidades ofrecidos al cliente es exigible (Ley 19.496, art. 12); por eso el aviso de un cambio debe preceder al incumplimiento y no seguirlo.
+
+**Recomendación profesional:** Informar la nueva fecha realista, ofrecer una alternativa y comprometer la próxima actualización.
+
+**Actividad:** Redacta un aviso proactivo de cuatro líneas para un pedido que llegará con siete días de retraso.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Comunicación proactiva (*Proactive communication*) · Experiencia del cliente (*Customer experience*)
+
+**Simulación:** [caso 1 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#1-microempresa-con-una-controversia-pública). Compara una respuesta reactiva con un aviso proactivo ante un retraso en pedidos. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir el indicador de salud de cuenta y las intervenciones por nivel de riesgo.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para definir el indicador de salud de cuenta y las intervenciones por nivel de riesgo.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

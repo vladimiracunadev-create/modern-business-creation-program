@@ -65,6 +65,32 @@ Atrasos crecientes, promesas incumplidas, cambios de interlocutor y pedidos mayo
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: cuando un cliente o proveedor crítico falla
+
+[Guía de reputación, crisis y confianza, sección 14](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#14-conflictos-laborales-y-con-proveedores)
+
+**Lente para esta clase:** Si un tercero crítico entra en problemas, la reputación depende de cuánto antes se informa al cliente y de que la empresa tenga un plan alternativo probado.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un contacto directo y un acuerdo básico con el proveedor crítico, y un sustituto identificado para 30 días. |
+| **Pyme** | Plan de contingencia por proveedor, mensajes tipo a clientes, y criterios para activar al alternativo. |
+| **Gran empresa o multinacional** | Gestión de terceros con monitoreo de salud financiera, contratos con derecho de sustitución y simulacros de salida. |
+
+**Obligación legal:** El pago se debe en 30 días corridos desde la recepción de la factura salvo acuerdo escrito inscrito (Ley 21.131); los contratos fijan los demás plazos y remedios.
+
+**Recomendación profesional:** Hablar primero con los clientes más afectados y sostener una sola versión sobre el origen del problema; no atribuir culpas públicas sin evidencia.
+
+**Actividad:** Identifica tu proveedor más crítico y escribe el mensaje de cuatro líneas que enviarías a tus clientes si fallara mañana.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Cadena de suministro (*Supply chain*) · Plan alternativo (*Contingency plan*)
+
+**Simulación:** [caso 7 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#7-empresa-que-enfrenta-problemas-de-liquidez-y-reclamos). Examina cómo un proveedor que exige pago y uno que no responde requieren estrategias y mensajes distintos. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -149,6 +175,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para definir cómo se monitorea el riesgo de contraparte y cómo se reduce la exposición.
+
+**Biblioteca del Congreso Nacional — Ley 21.131 — Establece pago a treinta días**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1127890> · verificado 2026-11-25
+
+- *Qué contiene:* Sustituye el artículo 2 de la Ley 19.983: el saldo de la factura se paga en treinta días corridos desde su recepción y un plazo mayor exige acuerdo escrito inscrito en el registro del Ministerio de Economía.
+- *Cómo leerla:* Úsala para conocer qué plazo se puede prometer a un proveedor y qué debe constar por escrito al renegociar pagos.
+- *Uso en esta clase:* aporta el marco de «Ley 21.131 — Establece pago a treinta días» para definir cómo se monitorea el riesgo de contraparte y cómo se reduce la exposición.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

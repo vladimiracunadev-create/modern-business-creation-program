@@ -65,6 +65,32 @@ El recorte porcentual parejo es el más fácil de decidir y el más destructivo:
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: reducir costos sin romper la confianza
+
+[Guía de reputación, crisis y confianza, sección 14](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#14-conflictos-laborales-y-con-proveedores)
+
+**Lente para esta clase:** Un recorte comunicado mal destruye más valor que el costo que ahorra: el mensaje, el orden y la ayuda a quienes salen determinan la reputación posterior.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Informar primero a las personas afectadas, en persona, con carta clara y apoyo concreto, y luego al equipo. |
+| **Pyme** | Plan de reducción con criterios, calendario, apoyo a la reinserción y mensaje coordinado entre áreas. |
+| **Gran empresa o multinacional** | Programa de ajuste con asesoría laboral y comunicacional, diálogo con representantes y seguimiento del clima. |
+
+**Obligación legal:** El término por necesidades de la empresa exige comunicación escrita al trabajador (Código del Trabajo, arts. 161 y 162); presionar con pérdida del empleo o cierre contra la sindicalización es práctica antisindical (arts. 289 y 291).
+
+**Recomendación profesional:** Explicar los criterios, evitar anuncios en redes antes de informar a las personas y medir la rotación voluntaria posterior.
+
+**Actividad:** Define el orden de tres comunicaciones de un ajuste de dotación (afectados, equipo, clientes) y el mensaje central de cada una.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Ajuste de dotación (*Headcount reduction*) · Clima laboral (*Workplace climate*)
+
+**Simulación:** [caso 5 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#5-empresa-con-conflicto-laboral-público). Estudia cómo un ajuste de dotación en pleno conflicto cambia la lectura de la comunicación pública. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -156,6 +182,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Concentra el Código del Trabajo aplicado: dictámenes que interpretan la norma en casos concretos, la plataforma Mi DT para registrar contratos y finiquitos, y las guías de fiscalización.
 - *Cómo leerla:* Los dictámenes valen más que las guías divulgativas: describen cómo la autoridad resolvió un caso real. Busca por materia y contrasta la fecha, porque un dictamen posterior puede cambiar el criterio anterior.
 - *Uso en esta clase:* aporta el marco de «Relaciones laborales y obligaciones del empleador» para definir la secuencia de reducción de costos preservando capacidad de recuperación.
+
+**Biblioteca del Congreso Nacional — Código del Trabajo (DFL 1 de 2002)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=207436> · verificado 2026-11-25
+
+- *Qué contiene:* Incluye el contenido del reglamento interno y el protocolo contra el acoso y la violencia (art. 154), el procedimiento de investigación de denuncias (art. 211-C), las causales de término y su comunicación (arts. 161 y 162), las prácticas antisindicales (arts. 289 y 291) y la prohibición de reemplazar a trabajadores en huelga (art. 345).
+- *Cómo leerla:* Úsalo para separar lo que el empleador debe hacer en un conflicto laboral de lo que solo conviene comunicar. Verifica siempre la versión vigente del artículo antes de citarlo.
+- *Uso en esta clase:* aporta el marco de «Código del Trabajo (DFL 1 de 2002)» para definir la secuencia de reducción de costos preservando capacidad de recuperación.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

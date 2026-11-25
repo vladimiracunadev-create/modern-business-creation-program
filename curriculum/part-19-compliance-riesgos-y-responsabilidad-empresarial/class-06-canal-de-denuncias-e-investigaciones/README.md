@@ -85,6 +85,32 @@ tamaño de la empresa y de la actividad económica.
 
 *Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
+## 🤝 Reputación y confianza: proteger a quien denuncia
+
+[Guía de reputación, crisis y confianza, sección 12](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#12-protección-de-personas-afectadas)
+
+**Lente para esta clase:** Un canal de denuncias solo funciona si quien denuncia sabe que será protegido y que lo informado se investigará; de lo contrario, la denuncia llega a la prensa.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un correo y una persona con sustituto que reciben denuncias, guardan reserva y responden con fecha. |
+| **Pyme** | Canal con registro, investigador designado, plazo comprometido y comunicación de resultados al denunciante. |
+| **Gran empresa o multinacional** | Canal independiente con plataforma, comité de ética, protección contra represalias y reportes agregados al directorio. |
+
+**Obligación legal:** Presentada una denuncia de acoso o violencia en el trabajo, la investigación concluye en 30 días, consta por escrito, es reservada y oye a ambas partes (Código del Trabajo, art. 211-C).
+
+**Recomendación profesional:** Informar al denunciante del avance sin revelar a terceros; documentar cualquier señal de represalia y actuar de inmediato.
+
+**Actividad:** Define en una hoja las cuatro garantías que ofreces a quien denuncia y cómo comprobarás que se cumplen.
+
+**Plantilla:** [Registro de incidentes reputacionales](../../../templates/29_registro_incidentes_reputacionales.csv)
+
+**Términos:** Canal de denuncias (*Whistleblowing channel*) · Represalia (*Retaliation*)
+
+**Simulación:** [caso 5 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#5-empresa-con-conflicto-laboral-público). Verifica cómo la reserva de la investigación y el trato digno al denunciante evitan que el conflicto se haga público. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -176,6 +202,20 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para implementar el canal y el procedimiento de investigación con garantías reales.
+
+**Biblioteca del Congreso Nacional — Código del Trabajo (DFL 1 de 2002)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=207436> · verificado 2026-11-25
+
+- *Qué contiene:* Incluye el contenido del reglamento interno y el protocolo contra el acoso y la violencia (art. 154), el procedimiento de investigación de denuncias (art. 211-C), las causales de término y su comunicación (arts. 161 y 162), las prácticas antisindicales (arts. 289 y 291) y la prohibición de reemplazar a trabajadores en huelga (art. 345).
+- *Cómo leerla:* Úsalo para separar lo que el empleador debe hacer en un conflicto laboral de lo que solo conviene comunicar. Verifica siempre la versión vigente del artículo antes de citarlo.
+- *Uso en esta clase:* aporta el marco de «Código del Trabajo (DFL 1 de 2002)» para implementar el canal y el procedimiento de investigación con garantías reales.
+
+**Biblioteca del Congreso Nacional — Ley 21.643 — Prevención, investigación y sanción del acoso laboral, sexual y la violencia en el trabajo**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1200096> · verificado 2026-11-25
+
+- *Qué contiene:* Modifica el Código del Trabajo para exigir un protocolo de prevención, fija la investigación de las denuncias en treinta días y dispone su vigencia el primer día del sexto mes subsiguiente a su publicación.
+- *Cómo leerla:* Úsala para diseñar el protocolo y el procedimiento de investigación; la fecha de vigencia se calcula desde la publicación y debe comprobarse en el Diario Oficial.
+- *Uso en esta clase:* aporta el marco de «Ley 21.643 — Prevención, investigación y sanción del acoso laboral, sexual y la violencia en el trabajo» para implementar el canal y el procedimiento de investigación con garantías reales.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

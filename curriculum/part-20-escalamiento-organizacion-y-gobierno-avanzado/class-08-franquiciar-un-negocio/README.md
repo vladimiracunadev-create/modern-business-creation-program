@@ -65,6 +65,32 @@ Franquiciar para resolver un problema de caja es la falla típica: el canon inic
 **Profesionales de apoyo:** gerencia general, control de gestión, abogado corporativo, consultor organizacional. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: aliados y reputación compartida
+
+[Guía de reputación, crisis y confianza, sección 9](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#9-responsables-sustitutos-comité-de-crisis-y-vocería)
+
+**Lente para esta clase:** Una alianza comparte reputación: lo que haga el aliado puede afectar a la empresa, y por eso la vocería, el protocolo de crisis y la salida deben pactarse antes de firmar.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Un acuerdo escrito que dice quién habla, quién avisa a quién y cómo se sale de la alianza sin ataques públicos. |
+| **Pyme** | Debida diligencia reputacional del aliado, vocería conjunta, cláusulas de comunicación de incidentes y de salida. |
+| **Gran empresa o multinacional** | Gobierno de alianzas con comité, auditoría de aliados críticos, protocolo de crisis conjunto y revisión anual. |
+
+**Obligación legal:** Un acuerdo de alianza o de socios es un contrato: lo pactado sobre confidencialidad, comunicación y salida obliga a las partes.
+
+**Recomendación profesional:** Pactar de antemano un comunicado conjunto de salida y la regla de que ninguna parte critica públicamente a la otra.
+
+**Actividad:** Redacta la cláusula de comunicación de una alianza en cinco líneas: quién habla, a quién avisa y en qué plazo.
+
+**Plantilla:** [Protocolo de escalamiento y vocería](../../../templates/28_protocolo_escalamiento_y_voceria.md)
+
+**Términos:** Debida diligencia reputacional (*Reputational due diligence*) · Vocería conjunta (*Joint spokesperson role*)
+
+**Simulación:** [caso 6 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#6-startup-que-pierde-un-socio-importante). Analiza qué se comunica y a quién cuando un socio relevante deja la sociedad y los terceros se enteran por un rumor. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

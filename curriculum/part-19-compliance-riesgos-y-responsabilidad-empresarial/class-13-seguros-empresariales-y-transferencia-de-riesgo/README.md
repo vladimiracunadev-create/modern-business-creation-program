@@ -67,6 +67,30 @@ Muchas empresas descubren en el siniestro que su cobertura excluía justamente l
 **Profesionales de apoyo:** oficial de cumplimiento, abogado penal económico, auditor interno, corredor de seguros. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: aviso al seguro y evidencia de la crisis
+
+[Guía de reputación, crisis y confianza, sección 10](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#10-protocolo-de-respuesta-ante-incidentes-y-control-de-daños)
+
+**Lente para esta clase:** Una póliza puede perder su utilidad si el aviso llega tarde o la evidencia está incompleta: el procedimiento de crisis debe incluir al asegurador desde las primeras horas.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Una hoja con el número de póliza, el corredor y el plazo de aviso, pegada junto al plan de crisis. |
+| **Pyme** | Aviso al corredor y asegurador dentro del plazo contractual, evidencia ordenada y registro de lo comunicado. |
+| **Gran empresa o multinacional** | Programa de seguros con revisión de cobertura reputacional y cibernética, cláusulas de gestión de crisis y simulación anual. |
+
+**Obligación legal:** El plazo y la forma del aviso del siniestro y la cobertura dependen de la póliza y de su contrato; léelos antes de la crisis. Esta clase no se apoya en una norma general verificada en esta pasada.
+
+**Recomendación profesional:** Incluir en el procedimiento de crisis la llamada al corredor dentro de las primeras 8 horas y guardar cada documento enviado.
+
+**Actividad:** Busca en tu póliza más relevante el plazo de aviso de siniestro y regístralo en el protocolo de crisis.
+
+**Plantilla:** [Procedimiento de control de daños](../../../templates/27_procedimiento_control_de_danos.md)
+
+**Términos:** Aviso de siniestro (*Notice of claim*) · Cobertura cibernética (*Cyber coverage*)
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con

@@ -86,7 +86,7 @@
   },
   {
     "name": "Ley 21.719",
-    "scope": "Nueva regulación de protección de datos; entra en vigencia 01-12-2026.",
+    "scope": "Nueva regulación de protección de datos; entra en vigencia el 15-10-2027 según la Ley 21.855, que sustituyó la fecha original del 01-12-2026.",
     "domain": "Datos"
   },
   {
@@ -278,5 +278,25 @@
     "name": "Ley 18.010",
     "scope": "Operaciones de crédito de dinero e intereses.",
     "domain": "Finanzas"
+  },
+  {
+    "name": "Ley 21.855",
+    "scope": "Modifica la Ley 21.719: fija su vigencia el 15-10-2027 y ajusta el Consejo de la Agencia de Protección de Datos Personales.",
+    "domain": "Datos"
+  },
+  {
+    "name": "Ley 19.733",
+    "scope": "Libertades de opinión e información; derecho de aclaración y rectificación de personas naturales y jurídicas (arts. 16 a 21).",
+    "domain": "General"
+  },
+  {
+    "name": "Ley 20.730",
+    "scope": "Regula el lobby y las gestiones que representen intereses particulares ante autoridades.",
+    "domain": "Compliance"
+  },
+  {
+    "name": "Código Penal, arts. 412 a 431",
+    "scope": "Calumnia e injuria, incluida la propagada por escrito y con publicidad.",
+    "domain": "General"
   }
 ]

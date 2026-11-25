@@ -86,6 +86,32 @@ tamaño de la empresa y de la actividad económica.
 
 *Enfoque defensivo: reconocer, prevenir, documentar y escalar. No enseña a obtener información de forma indebida; la calificación jurídica de un hecho concreto corresponde a un abogado.*
 
+## 🤝 Reputación y confianza: desvinculaciones en tiempo de conflicto
+
+[Guía de reputación, crisis y confianza, sección 14](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#14-conflictos-laborales-y-con-proveedores)
+
+**Lente para esta clase:** Una desvinculación puede ser legal y aun así ser la noticia: en medio de un conflicto, el momento, el orden y el mensaje importan tanto como la causal.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Antes de cualquier desvinculación en conflicto, revisar con un abogado la causal, la evidencia y el momento. |
+| **Pyme** | Lista de verificación de salida: causal, comunicación escrita, documentos, mensaje interno y registro de la decisión. |
+| **Gran empresa o multinacional** | Comité de personas y legal que revisa toda desvinculación colectiva y su mensaje, con análisis de riesgo de tutela y sindical. |
+
+**Obligación legal:** El término por necesidades de la empresa es una causal legal (Código del Trabajo, art. 161) y la comunicación debe constar por escrito (art. 162). Ejercer presión con pérdida de empleo o cierre contra la sindicalización constituye práctica antisindical (arts. 289 y 291).
+
+**Recomendación profesional:** Evitar decisiones masivas durante un conflicto abierto; si son inevitables, explicar los criterios y el apoyo ofrecido a quienes salen.
+
+**Actividad:** Redacta el mensaje interno de cuatro líneas para anunciar un ajuste de dotación, sin culpar a nadie y con el apoyo que se ofrece.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Desvinculación (*Termination of employment*) · Práctica antisindical (*Unfair labor practice*)
+
+**Simulación:** [caso 5 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#5-empresa-con-conflicto-laboral-público). Evalúa por qué un término de contrato durante un conflicto público se lee como represalia aunque tenga causal. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -184,6 +210,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* El artículo 154 ter obliga al empleador a mantener reserva de la información privada del trabajador; el artículo 160 enumera causales de término sin indemnización, entre ellas la falta de probidad y las negociaciones prohibidas por escrito dentro del giro del negocio.
 - *Cómo leerla:* El Código no enumera expresamente la revelación de secretos entre las letras del número 1 del artículo 160. Por eso conviene escribir el deber de reserva en el contrato y en el reglamento interno, y consultar a un abogado laboralista antes de invocar una causal.
 - *Uso en esta clase:* aporta el marco de «Código del Trabajo — Artículos 154 ter y 160 (reserva y causales)» para ejecutar el término con causal correcta y documentación completa.
+
+**Biblioteca del Congreso Nacional — Código del Trabajo (DFL 1 de 2002)**  
+<https://www.bcn.cl/leychile/navegar?idNorma=207436> · verificado 2026-11-25
+
+- *Qué contiene:* Incluye el contenido del reglamento interno y el protocolo contra el acoso y la violencia (art. 154), el procedimiento de investigación de denuncias (art. 211-C), las causales de término y su comunicación (arts. 161 y 162), las prácticas antisindicales (arts. 289 y 291) y la prohibición de reemplazar a trabajadores en huelga (art. 345).
+- *Cómo leerla:* Úsalo para separar lo que el empleador debe hacer en un conflicto laboral de lo que solo conviene comunicar. Verifica siempre la versión vigente del artículo antes de citarlo.
+- *Uso en esta clase:* aporta el marco de «Código del Trabajo (DFL 1 de 2002)» para ejecutar el término con causal correcta y documentación completa.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

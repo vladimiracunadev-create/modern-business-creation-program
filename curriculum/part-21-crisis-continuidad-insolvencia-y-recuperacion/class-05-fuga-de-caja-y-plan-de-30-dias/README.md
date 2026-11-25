@@ -74,6 +74,32 @@ tamaño de la empresa y de la actividad económica.
 **Estado:** Ventanas transitorias con término; confirma el plazo vigente. Texto leído en el Diario Oficial del 17-10-2026; lo que
 dependa de circulares, resoluciones o decretos aún no verificados queda marcado como pendiente.
 
+## 🤝 Reputación y confianza: qué se comunica cuando falta caja
+
+[Guía de reputación, crisis y confianza, sección 15](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#15-comunicación-sobre-problemas-financieros-y-continuidad)
+
+**Lente para esta clase:** La fuga de caja se agrava cuando se calla a quienes dependen de la empresa: la comunicación debe fijar qué se mantiene, qué cambia y cuándo se informa.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Flujo de 13 semanas y una lista de tres obligaciones intocables, con un mensaje base a clientes y proveedores. |
+| **Pyme** | Priorización escrita de pagos, mensajes diferenciados por audiencia y reunión semanal de caja con acta. |
+| **Gran empresa o multinacional** | Comité de liquidez, asesoría financiera y legal, comunicación coordinada con bancos, inversionistas y proveedores clave. |
+
+**Obligación legal:** No se puede inducir a error a quien contrata ni recibir pagos por lo que no se puede cumplir (Ley 19.496, arts. 12, 28 y 33). Los plazos de pago a proveedores se rigen por la Ley 21.131.
+
+**Recomendación profesional:** Comunicar a cada audiencia con cifras y calendario; no prometer fechas que el flujo de caja de 13 semanas no respalde.
+
+**Actividad:** Escribe la lista de prioridades de pago de tu empresa para las próximas 4 semanas y el criterio que la justifica.
+
+**Plantilla:** [Guías de comunicación por audiencia](../../../templates/31_guias_comunicacion_por_audiencia.md)
+
+**Términos:** Flujo de caja de 13 semanas (*13-week cash flow*) · Priorización de pagos (*Payment prioritization*)
+
+**Simulación:** [caso 7 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#7-empresa-que-enfrenta-problemas-de-liquidez-y-reclamos). Separa lo que se debe a clientes, trabajadores y proveedores cuando el flujo de caja no alcanza para todos. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -179,6 +205,27 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Ficha de LeyChile de la Ley 21.850 con su texto consolidado, historia de la norma y vigencias. Reúne la modificación de la Ley sobre Impuesto a la Renta, del Código Tributario y del estatuto de capacitación, más las normas transitorias.
 - *Cómo leerla:* Ve primero a los artículos 7, 8, 9, 18 y 29 y a los transitorios: separan lo vigente, lo futuro y lo transitorio. El 5.º y el 6.º transitorio fijan las tasas y las restituciones por año; anota la fecha de consulta con cada cifra.
 - *Uso en esta clase:* aporta el marco de «Ley 21.850, para la Reconstrucción Nacional y el Desarrollo Económico y Social» para ejecutar el plan de estabilización de caja con prioridades definidas.
+
+**Biblioteca del Congreso Nacional — Ley 19.496 — Protección de los derechos de los consumidores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=61438> · verificado 2026-11-25
+
+- *Qué contiene:* Fija los derechos básicos del consumidor, la obligación de cumplir lo ofrecido (art. 12), la publicidad veraz (arts. 28 y 33), la seguridad del producto y el deber de informar a la autoridad los peligros descubiertos después de vender (arts. 45 a 49) y las funciones de fiscalización del SERNAC (art. 58).
+- *Cómo leerla:* Úsala para distinguir qué debe hacer un proveedor ante un producto riesgoso o una publicidad cuestionada de lo que solo conviene hacer. Lee el artículo completo en la versión vigente antes de aplicarlo a un caso concreto.
+- *Uso en esta clase:* aporta el marco de «Ley 19.496 — Protección de los derechos de los consumidores» para ejecutar el plan de estabilización de caja con prioridades definidas.
+
+**Biblioteca del Congreso Nacional — Ley 21.131 — Establece pago a treinta días**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1127890> · verificado 2026-11-25
+
+- *Qué contiene:* Sustituye el artículo 2 de la Ley 19.983: el saldo de la factura se paga en treinta días corridos desde su recepción y un plazo mayor exige acuerdo escrito inscrito en el registro del Ministerio de Economía.
+- *Cómo leerla:* Úsala para conocer qué plazo se puede prometer a un proveedor y qué debe constar por escrito al renegociar pagos.
+- *Uso en esta clase:* aporta el marco de «Ley 21.131 — Establece pago a treinta días» para ejecutar el plan de estabilización de caja con prioridades definidas.
+
+**Biblioteca del Congreso Nacional — Ley 18.045 — Ley de Mercado de Valores**  
+<https://www.bcn.cl/leychile/navegar?idNorma=29472> · verificado 2026-11-25
+
+- *Qué contiene:* Obliga a las entidades inscritas en el Registro de Valores a divulgar información esencial veraz, suficiente y oportuna (arts. 9 y 10).
+- *Cómo leerla:* Úsala solo si la empresa tiene valores inscritos; una empresa privada no está sujeta a este deber de divulgación por esta ley.
+- *Uso en esta clase:* aporta el marco de «Ley 18.045 — Ley de Mercado de Valores» para ejecutar el plan de estabilización de caja con prioridades definidas.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

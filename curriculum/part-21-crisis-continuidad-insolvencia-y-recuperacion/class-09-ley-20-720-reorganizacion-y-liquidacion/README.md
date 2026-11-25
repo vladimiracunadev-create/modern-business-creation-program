@@ -65,6 +65,32 @@ La reorganización permite acordar con acreedores bajo protección financiera co
 **Profesionales de apoyo:** abogado de insolvencia, veedor o liquidador, CFO, comunicaciones. La participación concreta depende del riesgo, del
 tamaño de la empresa y de la actividad económica.
 
+## 🤝 Reputación y confianza: reorganización: la decisión y su señal pública
+
+[Guía de reputación, crisis y confianza, sección 15](../../../docs/22_REPUTACION_CRISIS_Y_CONFIANZA.md#15-comunicación-sobre-problemas-financieros-y-continuidad)
+
+**Lente para esta clase:** La decisión de reorganizar es judicial, tiene efectos concretos y envía una señal a clientes y proveedores: se toma con asesoría y con un plan de comunicación listo.
+
+| Nivel | Medida proporcionada |
+|---|---|
+| **Emprendedor o microempresa** | Consultar a un abogado de insolvencia antes de que falte la caja y guardar la lista de acreedores y de activos. |
+| **Pyme** | Preparar un expediente con flujo, acreedores y propuesta, y un mensaje por audiencia previo a cualquier solicitud. |
+| **Gran empresa o multinacional** | Estrategia concursal con asesores, veedor, comunicación coordinada y plan de continuidad operativa durante el procedimiento. |
+
+**Obligación legal:** La empresa deudora inicia la reorganización judicial presentando una solicitud ante el tribunal de su domicilio (Ley 20.720, art. 54); durante la protección financiera concursal no puede solicitarse ni declararse su liquidación ni iniciarse ejecuciones.
+
+**Recomendación profesional:** Informar a trabajadores, clientes y proveedores en el mismo día, con el mismo texto de fondo y con la persona de contacto.
+
+**Actividad:** Escribe el mensaje de cuatro líneas a tus trabajadores el día en que se presente una solicitud de reorganización: hechos, efecto y próximos pasos.
+
+**Plantilla:** [Plan de respuesta y recuperación](../../../templates/30_plan_respuesta_y_recuperacion.md)
+
+**Términos:** Protección financiera concursal (*Financial protection under insolvency*) · Reorganización judicial (*Court-supervised reorganization*)
+
+**Simulación:** [caso 7 del expediente de reputación y crisis](../../../case-studies/23-reputacion-y-crisis-siete-casos.md#7-empresa-que-enfrenta-problemas-de-liquidez-y-reclamos). Evalúa cuándo pedir asesoría de insolvencia y qué señal envía la solicitud al mercado. Es una simulación ilustrativa, no una empresa real.
+
+*Distingue lo que la ley exige de lo que conviene hacer. Las normas se leyeron en la Biblioteca del Congreso Nacional; verifica la versión vigente y consulta a un abogado antes de aplicarlas a un caso real.*
+
 ## 🧪 Taller guiado
 
 Aplica esta clase a **una** de las siguientes líneas de negocio y repite después el ejercicio con
@@ -149,6 +175,13 @@ explica por escrito **qué cambió, por qué y qué fuente lo determina**.
 - *Qué contiene:* Publica el texto oficial y consolidado de leyes, decretos y reglamentos, con la versión vigente a una fecha, el historial de modificaciones y la tramitación que las originó.
 - *Cómo leerla:* Usa siempre el selector de versión vigente a la fecha en que ejecutarás el trámite, no la última publicada. Y lee el artículo transitorio: en normas en implantación gradual —jornada, datos personales— ahí está la fecha que realmente te aplica.
 - *Uso en esta clase:* aporta el marco de «Normativa oficial consolidada» para conocer las alternativas concursales antes de estar en cesación de pagos.
+
+**Biblioteca del Congreso Nacional — Ley 20.720 — Reorganización y liquidación de empresas y personas**  
+<https://www.bcn.cl/leychile/navegar?idNorma=1058072> · verificado 2026-11-25
+
+- *Qué contiene:* Regula el procedimiento concursal de reorganización de la empresa deudora (art. 54) y define la protección financiera concursal, durante la cual no se puede solicitar ni declarar la liquidación ni iniciar ejecuciones.
+- *Cómo leerla:* Úsala para comprender la decisión de reorganizar y su efecto antes de comunicarla; la estrategia concreta la define un abogado de insolvencia.
+- *Uso en esta clase:* aporta el marco de «Ley 20.720 — Reorganización y liquidación de empresas y personas» para conocer las alternativas concursales antes de estar en cesación de pagos.
 
 Complementos del repositorio: [glosario](../../../docs/19_GLOSSARY.md) ·
 [ruta de lecturas](../../../docs/15_BOOKS_AND_LEARNING_PATH.md) ·

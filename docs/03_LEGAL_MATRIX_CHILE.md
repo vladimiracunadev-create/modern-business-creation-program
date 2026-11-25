@@ -22,7 +22,7 @@
 | Ley 19.496 | Protección de los Derechos de los Consumidores. | Consumidor |
 | Decreto 6/2021 Economía | Reglamento de Comercio Electrónico. | Consumidor |
 | Ley 19.628 | Protección de la vida privada/datos personales, vigente hasta 30-11-2026 en su régimen actual. | Datos |
-| Ley 21.719 | Nueva regulación de protección de datos; entra en vigencia 01-12-2026. | Datos |
+| Ley 21.719 | Nueva regulación de protección de datos; entra en vigencia el 15-10-2027 (Ley 21.855, publicada el 23-11-2026). | Datos |
 | Ley 19.039 / DFL 4-2022 | Propiedad Industrial: marcas, patentes, diseños y secretos comerciales (arts. 86 a 88). | PI |
 | Ley 20.169 | Competencia desleal: conductas y acciones civiles (cesación, declaración, remoción de efectos e indemnización). | Comercial |
 | Código Penal, arts. 284 a 284 sexies | Delitos contra el secreto comercial: intromisión indebida, revelación por deber de reserva y aprovechamiento económico. | PI |
@@ -75,7 +75,7 @@
 ## Cambios 2026 que el programa trata explícitamente
 
 - Jornada: reducción a **42 horas semanales desde 26-04-2026**, conforme Ley 21.561 y doctrina DT.
-- Datos personales: Ley 21.719 entra en vigencia **01-12-2026**.
+- Datos personales: Ley 21.719 entra en vigencia el **15-10-2027** (Ley 21.855; la fecha original era 01-12-2026).
 - Pro Pyme: tasa transitoria indicada por Ley 21.755 para 2025-2027, bajo condiciones.
 - Sistema de Finanzas Abiertas: CMF informó en junio de 2026 que la implementación se posterga a **julio de 2027**.
 - Reglamento de prevención de riesgos Decreto 44: vigente desde **01-02-2025**.
