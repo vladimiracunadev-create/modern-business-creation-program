@@ -119,6 +119,30 @@ class AnexosTest(unittest.TestCase):
             with self.subTest(anexo=archivo.name):
                 self.assertIn(f"]({archivo.name})", indice)
 
+    def test_cada_anexo_enlaza_al_anterior_y_al_siguiente(self) -> None:
+        archivos = sorted(self.archivos, key=self.numero)
+        for i, archivo in enumerate(archivos):
+            texto = archivo.read_text(encoding="utf-8")
+            with self.subTest(anexo=archivo.name):
+                self.assertIn("](README.md)", texto)
+                self.assertIn("## En 60 segundos", texto)
+                self.assertIn("## Para seguir leyendo", texto)
+                self.assertEqual(texto.count("**Navegación:**"), 2)
+                if i:
+                    self.assertIn(f"]({archivos[i - 1].name})", texto)
+                if i < len(archivos) - 1:
+                    self.assertIn(f"]({archivos[i + 1].name})", texto)
+
+    def test_el_readme_principal_describe_cada_anexo(self) -> None:
+        readme = (RAIZ / "README.md").read_text(encoding="utf-8")
+        self.assertIn("| N.º | Anexo | Qué encontrarás |", readme)
+        for anexo in self.manifiesto:
+            with self.subTest(anexo=anexo["n"]):
+                self.assertGreaterEqual(len(anexo["descripcion"].split()), 15)
+                self.assertEqual(len(anexo["resumen"]), 5)
+                self.assertGreaterEqual(len(anexo["relacionados"]), 3)
+                self.assertIn(anexo["descripcion"], readme)
+
     def test_los_ejemplos_numericos_se_declaran_ilustrativos(self) -> None:
         for archivo in self.archivos:
             texto = archivo.read_text(encoding="utf-8")

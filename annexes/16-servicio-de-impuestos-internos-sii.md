@@ -6,6 +6,20 @@
 > profesional** y **medida voluntaria**. No contiene plazos de vencimiento mensuales ni anuales: se consultan
 > en el calendario oficial del SII.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 15. Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md) · [Índice de anexos](README.md) · [17. Municipalidades: patente comercial, zonificación y permisos locales →](17-municipalidades-patentes-y-permisos-locales.md)
+
+## En 60 segundos
+
+- Debes inscribirte en el RUT y declarar el inicio de actividades en dos meses (Código Tributario, arts. 66 y 68).
+- El IVA es 19 %: débito menos crédito fiscal; el crédito exige factura registrada (DL 825, arts. 14, 20 y 25).
+- Los documentos tributarios son electrónicos y se registran en el Registro de Compras y Ventas (arts. 54 y 59).
+- No se autoriza disolver una sociedad sin certificado de estar al día (Código Tributario, art. 70).
+- Los plazos de vencimiento se consultan en el calendario oficial del SII.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -562,3 +576,16 @@ contenidos cambian y deben verificarse. No se transcriben circulares, resolucion
 **Límites.** Este anexo no reproduce el texto íntegro de las leyes tributarias, no calcula impuestos de un caso
 concreto, no contiene plazos de vencimiento y sus ejemplos numéricos son ilustrativos. No sustituye la
 asesoría de un contador ni de un abogado tributario.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 15. Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md): el RUT automático.
+- [Anexo 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md): patente según capital propio.
+- [Anexo 01. Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md): persona natural.
+- [Anexo 13. Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](13-estatuto-pyme-empresas-de-menor-tamano.md): tamaño de la empresa.
+
+**Navegación:** [← 15. Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md) · [Índice de anexos](README.md) · [17. Municipalidades: patente comercial, zonificación y permisos locales →](17-municipalidades-patentes-y-permisos-locales.md)
+
+<!-- anexos:cierre-fin -->

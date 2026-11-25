@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 01. Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md) · [Índice de anexos](README.md) · [03. Sociedad de Responsabilidad Limitada (Ltda.) →](03-sociedad-de-responsabilidad-limitada-ltda.md)
+
+## En 60 segundos
+
+- La EIRL es persona jurídica de un solo titular, persona natural (Ley 19.857, arts. 1 y 2).
+- La empresa responde por las deudas del giro; el titular solo del pago efectivo de su aporte (art. 8).
+- El artículo 12 lista cinco casos en que el titular pierde la protección: giro ajeno, falta de nombre, simulación, retiros sin utilidades y delitos concursales.
+- Los contratos entre el titular y su empresa solo valen si constan por escrito y se protocolizan (art. 10).
+- Si llegan socios, se transforma en sociedad (art. 14).
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -551,3 +565,16 @@ deben verificarse en el SII.
 **Límites.** Este anexo no reproduce el texto completo de las leyes, no incluye tarifas ni plazos de
 trámites de terceros, y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado
 ni de un contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 01. Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md): la alternativa sin persona jurídica.
+- [Anexo 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md): adonde suele transformarse.
+- [Anexo 15. Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md): constituirla en línea.
+- [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): obligaciones tributarias.
+
+**Navegación:** [← 01. Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md) · [Índice de anexos](README.md) · [03. Sociedad de Responsabilidad Limitada (Ltda.) →](03-sociedad-de-responsabilidad-limitada-ltda.md)
+
+<!-- anexos:cierre-fin -->

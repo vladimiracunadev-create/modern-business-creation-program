@@ -6,6 +6,20 @@
 > ley exige), **recomendación profesional** (lo que la práctica aconseja) y **medida voluntaria** (lo
 > que tú decides pactar).
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 05. Sociedad en Comandita (simple y por acciones)](05-sociedad-en-comandita.md) · [Índice de anexos](README.md) · [07. Sociedad Anónima Cerrada (S.A.) →](07-sociedad-anonima-cerrada.md)
+
+## En 60 segundos
+
+- Puede crearla una o más personas y el nombre debe terminar en «SpA» (Código de Comercio, arts. 424 y 425).
+- El estatuto puede pactar casi todo; lo que no escribes lo rige la anónima cerrada (art. 424).
+- Si el estatuto calla, el capital se paga en cinco años y reducirlo exige unanimidad (arts. 434 y 440).
+- Las diferencias entre accionistas van a arbitraje obligatorio (art. 441).
+- Si cumple las condiciones de una anónima abierta por doce meses, se transforma por ley (art. 430).
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -571,3 +585,16 @@ circular; se citan como referencia del programa y deben verificarse en el SII an
 **Límites.** Este anexo no reproduce el texto completo de las leyes, no sustituye un estatuto redactado
 por un abogado y no incluye tarifas ni plazos de trámite que dependen del sistema o de terceros. Los
 ejemplos numéricos son ilustrativos.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 07. Sociedad Anónima Cerrada (S.A.)](07-sociedad-anonima-cerrada.md): la anónima cerrada, su derecho supletorio.
+- [Anexo 15. Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md): constituirla en línea.
+- [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): elegir régimen tributario.
+- [Anexo 03. Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md): la alternativa de sociedad de personas.
+
+**Navegación:** [← 05. Sociedad en Comandita (simple y por acciones)](05-sociedad-en-comandita.md) · [Índice de anexos](README.md) · [07. Sociedad Anónima Cerrada (S.A.) →](07-sociedad-anonima-cerrada.md)
+
+<!-- anexos:cierre-fin -->

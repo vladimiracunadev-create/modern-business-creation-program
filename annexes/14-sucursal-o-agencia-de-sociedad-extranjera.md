@@ -5,6 +5,20 @@
 > final antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 13. Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](13-estatuto-pyme-empresas-de-menor-tamano.md) · [Índice de anexos](README.md) · [15. Empresa en un Día: el Registro de Empresas y Sociedades →](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md)
+
+## En 60 segundos
+
+- La agencia es la misma entidad extranjera: no limita la responsabilidad (Código de Comercio, arts. 447 y 448).
+- Exige documentos legalizados, protocolización, escritura de declaraciones y extracto en 60 días (arts. 447 a 449).
+- Debe publicar su balance anual en el cuatrimestre siguiente al cierre (art. 450).
+- Tributa con contabilidad completa como empresa separada; las remesas pagan impuesto adicional de 35 % (Ley de la Renta, arts. 38 y 58).
+- Si necesitas aislar el riesgo, una filial suele ser mejor.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -579,3 +593,15 @@ en las fuentes oficiales.
 **Límites.** Este anexo no reproduce el texto íntegro de las normas, no analiza convenios internacionales ni
 migración y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado ni de un
 contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md): filial como SpA.
+- [Anexo 07. Sociedad Anónima Cerrada (S.A.)](07-sociedad-anonima-cerrada.md): filial como anónima.
+- [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): impuesto adicional y contabilidad.
+
+**Navegación:** [← 13. Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](13-estatuto-pyme-empresas-de-menor-tamano.md) · [Índice de anexos](README.md) · [15. Empresa en un Día: el Registro de Empresas y Sociedades →](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md)
+
+<!-- anexos:cierre-fin -->

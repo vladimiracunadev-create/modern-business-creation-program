@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 10. Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)](10-sociedad-de-garantia-reciproca-sagr.md) · [Índice de anexos](README.md) · [12. Corporaciones, asociaciones y fundaciones →](12-corporaciones-asociaciones-y-fundaciones.md)
+
+## En 60 segundos
+
+- Es un contrato para repartir beneficios y forma una persona jurídica distinta de los socios (Código Civil, art. 2053).
+- Salvo pacto, los socios responden a prorrata de su interés social, no solidariamente (art. 2095).
+- En caso de duda, se entiende que el socio contrata a título personal (art. 2094).
+- Decide la mayoría de votos según el contrato; modificar lo esencial exige unanimidad (art. 2054).
+- No figura entre los tipos del Registro de Empresas y Sociedades.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -550,3 +564,15 @@ general ajena al texto leído. Las tasas y créditos tributarios deben verificar
 **Límites.** Este anexo no reproduce todo el Código Civil, no resuelve cuándo una actividad es civil o
 comercial en un caso concreto y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un
 abogado ni de un contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 03. Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md): la limitada, que puede ser civil.
+- [Anexo 04. Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md): el contraste con la colectiva comercial.
+- [Anexo 01. Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md): operar sin sociedad.
+
+**Navegación:** [← 10. Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)](10-sociedad-de-garantia-reciproca-sagr.md) · [Índice de anexos](README.md) · [12. Corporaciones, asociaciones y fundaciones →](12-corporaciones-asociaciones-y-fundaciones.md)
+
+<!-- anexos:cierre-fin -->

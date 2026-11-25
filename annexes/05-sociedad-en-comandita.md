@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 04. Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md) · [Índice de anexos](README.md) · [06. Sociedad por Acciones (SpA) →](06-sociedad-por-acciones-spa.md)
+
+## En 60 segundos
+
+- Los gestores administran y responden ilimitadamente; los comanditarios, solo hasta su aporte (art. 483).
+- El comanditario que administra o permite su nombre en la razón social pierde la protección (arts. 477, 484 y 485).
+- En caso de duda, la sociedad se reputa colectiva (art. 490).
+- La comandita por acciones exige junta de vigilancia y capital suscrito con un cuarto pagado (arts. 493 y 498).
+- Hoy suele ser mejor una SpA con series de acciones; las cuentas en participación sirven para operaciones puntuales.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -567,3 +581,15 @@ se citan como referencia del programa y deben verificarse en el SII.
 **Límites.** Este anexo no reproduce todo el texto del Código de Comercio, no incluye tarifas ni plazos
 de trámites de terceros y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado
 ni de un contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 04. Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md): sus reglas supletorias.
+- [Anexo 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md): la alternativa moderna para inversionistas.
+- [Anexo 08. Sociedad Anónima Abierta (mercado de valores, CMF)](08-sociedad-anonima-abierta.md): cuando una comandita pasa a anónima por ley.
+
+**Navegación:** [← 04. Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md) · [Índice de anexos](README.md) · [06. Sociedad por Acciones (SpA) →](06-sociedad-por-acciones-spa.md)
+
+<!-- anexos:cierre-fin -->

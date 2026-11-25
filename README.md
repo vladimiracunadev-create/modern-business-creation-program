@@ -350,25 +350,27 @@ tres últimos explican el Registro de Empresas y Sociedades («Empresa en un Dí
 Internos y las municipalidades. Son material educativo, no asesoría legal; cada anexo declara su fecha de
 consulta y sus límites.
 
-| N.º | Anexo |
-|---:|---|
-| 01 | [Persona natural con giro y trabajador independiente](annexes/01-persona-natural-con-giro-y-trabajador-independiente.md) |
-| 02 | [Empresa Individual de Responsabilidad Limitada (EIRL)](annexes/02-empresa-individual-de-responsabilidad-limitada-eirl.md) |
-| 03 | [Sociedad de Responsabilidad Limitada (Ltda.)](annexes/03-sociedad-de-responsabilidad-limitada-ltda.md) |
-| 04 | [Sociedad Colectiva Comercial](annexes/04-sociedad-colectiva-comercial.md) |
-| 05 | [Sociedad en Comandita (simple y por acciones)](annexes/05-sociedad-en-comandita.md) |
-| 06 | [Sociedad por Acciones (SpA)](annexes/06-sociedad-por-acciones-spa.md) |
-| 07 | [Sociedad Anónima Cerrada (S.A.)](annexes/07-sociedad-anonima-cerrada.md) |
-| 08 | [Sociedad Anónima Abierta (mercado de valores, CMF)](annexes/08-sociedad-anonima-abierta.md) |
-| 09 | [Cooperativa](annexes/09-cooperativa.md) |
-| 10 | [Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)](annexes/10-sociedad-de-garantia-reciproca-sagr.md) |
-| 11 | [Sociedad Civil (Código Civil)](annexes/11-sociedad-civil.md) |
-| 12 | [Corporaciones, asociaciones y fundaciones](annexes/12-corporaciones-asociaciones-y-fundaciones.md) |
-| 13 | [Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](annexes/13-estatuto-pyme-empresas-de-menor-tamano.md) |
-| 14 | [Sucursal o agencia de sociedad extranjera](annexes/14-sucursal-o-agencia-de-sociedad-extranjera.md) |
-| 15 | [Empresa en un Día: el Registro de Empresas y Sociedades](annexes/15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md) |
-| 16 | [Servicio de Impuestos Internos (SII): lo que una empresa debe saber](annexes/16-servicio-de-impuestos-internos-sii.md) |
-| 17 | [Municipalidades: patente comercial, zonificación y permisos locales](annexes/17-municipalidades-patentes-y-permisos-locales.md) |
+<!-- anexos:tabla-inicio -->
+| N.º | Anexo | Qué encontrarás |
+|---:|---|---|
+| 01 | [Persona natural con giro y trabajador independiente](annexes/01-persona-natural-con-giro-y-trabajador-independiente.md) | Persona natural que trabaja por cuenta propia: cómo se formaliza ante el SII y la municipalidad, qué categoría tributaria le corresponde y por qué responde con todos sus bienes. |
+| 02 | [Empresa Individual de Responsabilidad Limitada (EIRL)](annexes/02-empresa-individual-de-responsabilidad-limitada-eirl.md) | Empresa individual de responsabilidad limitada: un solo titular con patrimonio de empresa separado, sus cinco casos de responsabilidad ilimitada y cómo transformarla. |
+| 03 | [Sociedad de Responsabilidad Limitada (Ltda.)](annexes/03-sociedad-de-responsabilidad-limitada-ltda.md) | Sociedad de responsabilidad limitada: la sociedad de personas más usada por pymes, con tope de 50 socios, reglas supletorias de la colectiva y salida de socios por modificación de escritura. |
+| 04 | [Sociedad Colectiva Comercial](annexes/04-sociedad-colectiva-comercial.md) | Sociedad colectiva comercial: el tipo madre de las sociedades de personas, con responsabilidad solidaria que no se puede pactar en contrario. |
+| 05 | [Sociedad en Comandita (simple y por acciones)](annexes/05-sociedad-en-comandita.md) | Sociedad en comandita, simple y por acciones: gestores que administran y responden sin límite, y comanditarios que aportan capital y responden hasta su aporte. |
+| 06 | [Sociedad por Acciones (SpA)](annexes/06-sociedad-por-acciones-spa.md) | Sociedad por acciones (SpA): la forma flexible para emprendimientos con inversionistas, con estatuto casi libre y responsabilidad limitada a los aportes. |
+| 07 | [Sociedad Anónima Cerrada (S.A.)](annexes/07-sociedad-anonima-cerrada.md) | Sociedad anónima cerrada: gobierno institucional con directorio, juntas y gerente, para empresas medianas o familiares con varios accionistas. |
+| 08 | [Sociedad Anónima Abierta (mercado de valores, CMF)](annexes/08-sociedad-anonima-abierta.md) | Sociedad anónima abierta: la que inscribe sus acciones en el Registro de Valores, con fiscalización de la CMF, gobierno corporativo reforzado y transparencia al mercado. |
+| 09 | [Cooperativa](annexes/09-cooperativa.md) | Cooperativa: asociación para mejorar las condiciones de vida de sus socios, con un voto por persona, capital variable y excedentes según el uso. |
+| 10 | [Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)](annexes/10-sociedad-de-garantia-reciproca-sagr.md) | Sociedad de garantía recíproca (SAGR): institución que afianza las deudas de pymes que no tienen garantías propias, con capital mínimo de 10.000 UF. |
+| 11 | [Sociedad Civil (Código Civil)](annexes/11-sociedad-civil.md) | Sociedad civil del Código Civil: contrato de sociedad para actividades no mercantiles, con responsabilidad a prorrata y no solidaria. |
+| 12 | [Corporaciones, asociaciones y fundaciones](annexes/12-corporaciones-asociaciones-y-fundaciones.md) | Corporaciones, asociaciones y fundaciones: personas jurídicas sin fines de lucro, que no reparten utilidades y se registran en el Registro Nacional. |
+| 13 | [Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](annexes/13-estatuto-pyme-empresas-de-menor-tamano.md) | Estatuto Pyme (Ley 20.416): clasificación por tamaño y beneficios en permisos, patentes, sanciones y protección frente a proveedores. |
+| 14 | [Sucursal o agencia de sociedad extranjera](annexes/14-sucursal-o-agencia-de-sociedad-extranjera.md) | Sucursal o agencia de una sociedad extranjera: presencia en Chile sin crear persona jurídica, con la matriz respondiendo con todos sus bienes. |
+| 15 | [Empresa en un Día: el Registro de Empresas y Sociedades](annexes/15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md) | Empresa en un Día: el Registro de Empresas y Sociedades de la Ley 20.659, con formulario, firma electrónica, RUT automático y registros de accionistas y poderes. |
+| 16 | [Servicio de Impuestos Internos (SII): lo que una empresa debe saber](annexes/16-servicio-de-impuestos-internos-sii.md) | Servicio de Impuestos Internos: RUT, inicio de actividades, documentos electrónicos, IVA, Registro de Compras y Ventas, ciclo mensual y anual y término de giro. |
+| 17 | [Municipalidades: patente comercial, zonificación y permisos locales](annexes/17-municipalidades-patentes-y-permisos-locales.md) | Municipalidades: patente comercial, zonificación, patente provisoria y sanciones, con el orden correcto de los permisos para abrir un local. |
+<!-- anexos:tabla-fin -->
 
 ## 🔬 Caso transversal MEDVi
 
@@ -523,7 +525,7 @@ sitio **y el manual en PDF releído desde el archivo emitido**. Nada llega a `ma
 
 | ⚙️ Workflow | Qué cubre |
 |---|---|
-| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 83 pruebas estructurales, build del sitio y compilación del manual |
+| 🧪 [ci.yml](.github/workflows/ci.yml) | sincronía manifiesto→README de las 336 clases y 24 partes, las 13 secciones obligatorias por clase y 9 por parte, presencia del diagrama, enlaces internos, `CURRICULUM.md` y glosario al día, codificación UTF-8 sin mojibake, `markdownlint`, 85 pruebas estructurales, build del sitio y compilación del manual |
 | 🔒 [security.yml](.github/workflows/security.yml) | secretos (`gitleaks`), análisis estático de los scripts (`bandit`), dependencias fijadas a versión exacta y auditadas con `pip-audit` |
 | 🚀 [deploy-pages.yml](.github/workflows/deploy-pages.yml) | compila el manual integral y los 24 PDF por parte, genera el sitio, verifica que las 25 descargas llegaron y despliega a GitHub Pages |
 
@@ -539,7 +541,7 @@ python scripts/validar_encoding.py          # todo UTF-8, sin BOM ni mojibake
 python scripts/generar_manual.py --partes   # manual integral + 24 PDF por parte
 python scripts/generar_manual.py --verificar  # relee el PDF: portada, versión y extensión
 python scripts/generar_sitio.py             # sitio HTML en site/ y copia de las descargas
-python -m unittest discover -s tests -v     # 83 pruebas estructurales
+python -m unittest discover -s tests -v     # 85 pruebas estructurales
 npx markdownlint-cli2 "**/*.md"             # estilo de todo el Markdown
 ```
 

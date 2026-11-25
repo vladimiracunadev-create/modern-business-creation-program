@@ -6,6 +6,20 @@
 > voluntaria**. **Importante:** la Ley 20.416 **no es un tipo de empresa**: es un conjunto de reglas que
 > se superponen a cualquier tipo (EIRL, SpA, limitada, persona natural) según el **tamaño** de la empresa.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 12. Corporaciones, asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md) · [Índice de anexos](README.md) · [14. Sucursal o agencia de sociedad extranjera →](14-sucursal-o-agencia-de-sociedad-extranjera.md)
+
+## En 60 segundos
+
+- Micro: hasta 2.400 UF; pequeña: hasta 25.000 UF; mediana: hasta 100.000 UF de ingresos anuales sin IVA (art. 2).
+- No es un tipo de sociedad ni el régimen tributario Pro Pyme.
+- Permisos provisorios por una sola vez y de hasta un año; patente provisoria con exención o cuotas hasta un capital de 5.000 UF.
+- En micro y pequeñas, las multas laborales se pueden sustituir o rebajar al menos 80 % si se corrige a tiempo.
+- No elimina obligaciones: gradúa sanciones.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -589,3 +603,15 @@ de la UF, el régimen Pro Pyme tributario y la vigencia del artículo undécimo 
 **Límites.** Este anexo no reproduce el texto íntegro de la ley, no determina la clasificación de una empresa
 concreta y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado ni de un
 contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md): patente provisoria y microempresa familiar.
+- [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): régimen tributario.
+- [Anexo 01. Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md): persona natural como microempresa.
+
+**Navegación:** [← 12. Corporaciones, asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md) · [Índice de anexos](README.md) · [14. Sucursal o agencia de sociedad extranjera →](14-sucursal-o-agencia-de-sociedad-extranjera.md)
+
+<!-- anexos:cierre-fin -->

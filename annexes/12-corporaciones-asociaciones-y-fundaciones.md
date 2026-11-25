@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 11. Sociedad Civil (Código Civil)](11-sociedad-civil.md) · [Índice de anexos](README.md) · [13. Estatuto Pyme: empresas de menor tamaño (Ley 20.416) →](13-estatuto-pyme-empresas-de-menor-tamano.md)
+
+## En 60 segundos
+
+- La asociación reúne personas; la fundación afecta bienes a un fin (Código Civil, art. 545).
+- Los excedentes no se reparten, ni al disolverse (art. 556).
+- Se constituyen por acto ante ministro de fe, depósito municipal en 30 días e inscripción en el Registro Nacional (art. 548 y Ley 20.500).
+- El directorio tiene al menos tres miembros, con mandato de hasta cinco años (art. 551).
+- No están exentas de impuestos por defecto; cada ingreso debe analizarse.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -580,3 +594,15 @@ describen porque cambian por ley y deben verificarse.
 **Límites.** Este anexo no reproduce el texto íntegro de las leyes, no determina el tratamiento tributario de
 una organización concreta y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado
 ni de un contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 09. Cooperativa](09-cooperativa.md): cooperativa: reparto según uso.
+- [Anexo 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md): sociedad con propósito pactado.
+- [Anexo 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md): exención de patente para ciertas entidades.
+
+**Navegación:** [← 11. Sociedad Civil (Código Civil)](11-sociedad-civil.md) · [Índice de anexos](README.md) · [13. Estatuto Pyme: empresas de menor tamaño (Ley 20.416) →](13-estatuto-pyme-empresas-de-menor-tamano.md)
+
+<!-- anexos:cierre-fin -->

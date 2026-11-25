@@ -59,7 +59,7 @@ sección final; el CI vuelve a comprobarlas en cada push.
 | `scripts/generar_sitio.py` | que las 431 páginas de contenido compilen y que ninguno de sus enlaces internos rompa |
 | `scripts/generar_manual.py` | que el manual compile y que la portada y el número de páginas sean los esperados |
 | `markdownlint-cli2` | Markdown estructuralmente válido en todo el repositorio |
-| `python -m unittest discover -s tests` | 83 pruebas de currículo, anexos, manifiestos, pedagogía, fuentes, etapas, sincronía, expediente de viabilidad, integración MEDVi, integración de inteligencia económica y protección del conocimiento e integración de reputación, crisis y confianza (incluida la vigencia de la Ley 21.719) |
+| `python -m unittest discover -s tests` | 85 pruebas de currículo, anexos, manifiestos, pedagogía, fuentes, etapas, sincronía, expediente de viabilidad, integración MEDVi, integración de inteligencia económica y protección del conocimiento e integración de reputación, crisis y confianza (incluida la vigencia de la Ley 21.719) |
 | `gitleaks` | ausencia de secretos en el árbol de archivos |
 | `bandit` | análisis estático de los scripts de Python |
 | `pip-audit` | vulnerabilidades conocidas en las dependencias fijadas |

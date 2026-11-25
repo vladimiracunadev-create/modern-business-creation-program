@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md) · [Índice de anexos](README.md) · [08. Sociedad Anónima Abierta (mercado de valores, CMF) →](08-sociedad-anonima-abierta.md)
+
+## En 60 segundos
+
+- Es la anónima que no es abierta ni especial; directorio mínimo de tres miembros (Ley 18.046, arts. 2 y 31).
+- El capital se paga en un máximo de tres años y no hay acciones de industria (arts. 11 y 13).
+- Sin política de dividendos en el estatuto rige el mínimo de 30 % (art. 79).
+- Los contratos con directores de monto relevante requieren aprobación previa y condiciones de mercado (art. 44).
+- Si todas las acciones se reúnen en una persona más de diez días, se disuelve (art. 103).
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -584,3 +598,15 @@ anexo: confirma su texto vigente.
 **Límites.** Este anexo no reproduce el texto íntegro de la ley, no incluye tarifas ni plazos de trámites de
 terceros y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado ni de un
 contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md): la SpA, más flexible.
+- [Anexo 08. Sociedad Anónima Abierta (mercado de valores, CMF)](08-sociedad-anonima-abierta.md): cuando la sociedad crece y se abre.
+- [Anexo 15. Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md): constituirla en línea.
+
+**Navegación:** [← 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md) · [Índice de anexos](README.md) · [08. Sociedad Anónima Abierta (mercado de valores, CMF) →](08-sociedad-anonima-abierta.md)
+
+<!-- anexos:cierre-fin -->

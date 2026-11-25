@@ -6,6 +6,20 @@
 > voluntaria**. La persona natural **no es una forma societaria**: es la persona misma actuando
 > económicamente. Por eso este anexo describe cómo se **formaliza** y qué riesgos asume.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** — · [Índice de anexos](README.md) · [02. Empresa Individual de Responsabilidad Limitada (EIRL) →](02-empresa-individual-de-responsabilidad-limitada-eirl.md)
+
+## En 60 segundos
+
+- No es una persona jurídica: tu patrimonio y el del negocio son uno solo (art. 2465 del Código Civil).
+- Debes declarar el inicio de actividades al SII dentro de dos meses (art. 68 del Código Tributario).
+- Los honorarios tributan en Segunda Categoría; las ventas con giro, en Primera Categoría.
+- Los profesionales pagan una patente única de una UTM, válida en todo el país.
+- Es buena para partir; cuando crecen el riesgo o el tamaño, conviene una EIRL o una sociedad.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -559,3 +573,16 @@ procedimientos simplificados del SII cambian y deben verificarse en las fuentes 
 **Límites.** Este anexo no reproduce el texto íntegro de las leyes, no determina la categoría tributaria de una
 actividad concreta, no describe en detalle la previsión de independientes y sus ejemplos numéricos son
 ilustrativos. No sustituye la asesoría de un contador ni de un abogado.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 02. Empresa Individual de Responsabilidad Limitada (EIRL)](02-empresa-individual-de-responsabilidad-limitada-eirl.md): la primera forma con patrimonio separado.
+- [Anexo 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md): si habrá socios o inversión.
+- [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): inicio de actividades, IVA y término de giro.
+- [Anexo 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md): patente y microempresa familiar.
+
+**Navegación:** — · [Índice de anexos](README.md) · [02. Empresa Individual de Responsabilidad Limitada (EIRL) →](02-empresa-individual-de-responsabilidad-limitada-eirl.md)
+
+<!-- anexos:cierre-fin -->

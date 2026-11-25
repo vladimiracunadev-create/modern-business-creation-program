@@ -5,6 +5,20 @@
 > la fuente oficial y en la municipalidad de tu comuna antes de actuar. Este anexo separa **obligación legal**,
 > **recomendación profesional** y **medida voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) · [Índice de anexos](README.md) · —
+
+## En 60 segundos
+
+- La patente grava la actividad en un local determinado y cuesta entre 2,5 y 5 por mil del capital propio (DL 3.063, art. 24).
+- Se paga en julio y enero; si te estableces después del 31 de diciembre, pagas el 50 %.
+- La municipalidad debe otorgarla de inmediato si están los permisos; si no, procede la provisoria con plazos (art. 26).
+- La mora o la falta de patente permiten la clausura (art. 58).
+- Verifica la zonificación antes de firmar el arriendo.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -555,3 +569,15 @@ Construcciones solo se cita por referencia del art. 26: su texto no fue leído p
 
 **Límites.** Este anexo no sustituye la consulta a tu municipalidad ni la asesoría de un abogado o contador, no
 incluye los requisitos específicos de cada comuna y sus ejemplos numéricos son ilustrativos.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 13. Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](13-estatuto-pyme-empresas-de-menor-tamano.md): patente provisoria para pymes.
+- [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): capital propio y SII.
+- [Anexo 12. Corporaciones, asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md): exención para organizaciones sin fines de lucro.
+
+**Navegación:** [← 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) · [Índice de anexos](README.md) · —
+
+<!-- anexos:cierre-fin -->

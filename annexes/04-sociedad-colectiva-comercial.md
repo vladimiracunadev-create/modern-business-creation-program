@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 03. Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md) · [Índice de anexos](README.md) · [05. Sociedad en Comandita (simple y por acciones) →](05-sociedad-en-comandita.md)
+
+## En 60 segundos
+
+- Los socios responden solidariamente por las obligaciones sociales y no pueden derogarlo por pacto (Código de Comercio, art. 370).
+- Administran todos los socios salvo delegación; cada uno puede oponerse a los actos de otro (arts. 385 a 391).
+- Ceder la participación sin autorización de todos es nulo (art. 404 N.º 3).
+- Sin extracto inscrito en 60 días hay nulidad; sin escritura, una comunidad solidaria (arts. 354 a 356).
+- Hoy se usa poco: se estudia por ser derecho supletorio de otros tipos.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -574,3 +588,15 @@ del programa y deben verificarse en el SII.
 **Límites.** Este anexo no reproduce todo el texto del Código de Comercio, no incluye tarifas ni plazos
 de trámites de terceros y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado
 ni de un contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 03. Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md): la limitada, que la usa como derecho supletorio.
+- [Anexo 05. Sociedad en Comandita (simple y por acciones)](05-sociedad-en-comandita.md): la comandita, que la reutiliza.
+- [Anexo 11. Sociedad Civil (Código Civil)](11-sociedad-civil.md): la sociedad civil, con responsabilidad a prorrata.
+
+**Navegación:** [← 03. Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md) · [Índice de anexos](README.md) · [05. Sociedad en Comandita (simple y por acciones) →](05-sociedad-en-comandita.md)
+
+<!-- anexos:cierre-fin -->

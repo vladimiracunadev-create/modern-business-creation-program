@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 02. Empresa Individual de Responsabilidad Limitada (EIRL)](02-empresa-individual-de-responsabilidad-limitada-eirl.md) · [Índice de anexos](README.md) · [04. Sociedad Colectiva Comercial →](04-sociedad-colectiva-comercial.md)
+
+## En 60 segundos
+
+- La responsabilidad se limita a los aportes, pero el nombre debe terminar en «limitada» o los socios responden solidariamente (Ley 3.918, art. 4).
+- Máximo cincuenta socios y no puede tener objeto bancario (art. 2).
+- Supletoriamente se aplican las reglas de la colectiva: administran todos y decide la mayoría numérica.
+- Entrar o salir un socio exige modificar la escritura, con inscripción y extracto.
+- Sin pacto de salida y de decisión, los bloqueos son frecuentes.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -562,3 +576,16 @@ tributarios se citan como referencia del programa y deben verificarse en el SII.
 **Límites.** Este anexo no reproduce todo el texto de las leyes, no incluye tarifas ni plazos de trámites
 de terceros y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado ni de un
 contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 04. Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md): el derecho supletorio que hereda.
+- [Anexo 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md): la alternativa flexible.
+- [Anexo 15. Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md): constituirla en línea.
+- [Anexo 11. Sociedad Civil (Código Civil)](11-sociedad-civil.md): la versión civil.
+
+**Navegación:** [← 02. Empresa Individual de Responsabilidad Limitada (EIRL)](02-empresa-individual-de-responsabilidad-limitada-eirl.md) · [Índice de anexos](README.md) · [04. Sociedad Colectiva Comercial →](04-sociedad-colectiva-comercial.md)
+
+<!-- anexos:cierre-fin -->

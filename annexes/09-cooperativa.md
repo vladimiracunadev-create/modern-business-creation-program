@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 08. Sociedad Anónima Abierta (mercado de valores, CMF)](08-sociedad-anonima-abierta.md) · [Índice de anexos](README.md) · [10. Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca) →](10-sociedad-de-garantia-reciproca-sagr.md)
+
+## En 60 segundos
+
+- Mínimo cinco socios; un voto por persona (DFL 5 de 2003, arts. 13 y 22).
+- Ningún socio puede tener más del 20 % del capital (10 % en ahorro y crédito).
+- Se constituye por junta constitutiva, escritura y extracto en 60 días; no por el Registro en línea.
+- El remanente se destina primero a pérdidas y a la reserva legal del 18 %, con excepciones (art. 38).
+- Tiene exenciones tributarias parciales, pero está afecta a IVA.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -584,3 +598,15 @@ confirma su texto vigente. La interpretación tributaria del SII sobre cooperati
 **Límites.** Este anexo no reproduce el texto íntegro de la ley ni del reglamento, no incluye tarifas ni
 plazos de trámites de terceros y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un
 abogado ni de un contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 10. Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)](10-sociedad-de-garantia-reciproca-sagr.md): cooperativas de garantía recíproca.
+- [Anexo 12. Corporaciones, asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md): organizaciones sin fines de lucro.
+- [Anexo 03. Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md): alternativa de sociedad.
+
+**Navegación:** [← 08. Sociedad Anónima Abierta (mercado de valores, CMF)](08-sociedad-anonima-abierta.md) · [Índice de anexos](README.md) · [10. Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca) →](10-sociedad-de-garantia-reciproca-sagr.md)
+
+<!-- anexos:cierre-fin -->

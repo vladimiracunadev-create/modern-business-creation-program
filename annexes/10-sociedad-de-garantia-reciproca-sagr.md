@@ -5,6 +5,20 @@
 > final antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 09. Cooperativa](09-cooperativa.md) · [Índice de anexos](README.md) · [11. Sociedad Civil (Código Civil) →](11-sociedad-civil.md)
+
+## En 60 segundos
+
+- Su objeto exclusivo es otorgar fianzas; no puede dar créditos directos (Ley 20.179, arts. 3 y 4).
+- Capital y patrimonio mínimo de 10.000 UF y reserva patrimonial del 20 % del capital.
+- Solo las instituciones de categoría A sirven para calificar garantías ante los bancos.
+- No goza del beneficio de excusión y se subroga en los derechos del acreedor al pagar.
+- Si el acreedor renegocia sin su consentimiento, la fianza puede extinguirse.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -545,3 +559,15 @@ regulador no se transcriben.
 **Límites.** Este anexo no reproduce el texto íntegro de la ley, no incluye tarifas ni comisiones de
 instituciones concretas y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado ni
 de un contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 07. Sociedad Anónima Cerrada (S.A.)](07-sociedad-anonima-cerrada.md): se rige por la ley de sociedades anónimas.
+- [Anexo 09. Cooperativa](09-cooperativa.md): su versión cooperativa.
+- [Anexo 13. Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](13-estatuto-pyme-empresas-de-menor-tamano.md): financiamiento de pymes.
+
+**Navegación:** [← 09. Cooperativa](09-cooperativa.md) · [Índice de anexos](README.md) · [11. Sociedad Civil (Código Civil) →](11-sociedad-civil.md)
+
+<!-- anexos:cierre-fin -->

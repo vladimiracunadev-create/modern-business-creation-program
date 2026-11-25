@@ -6,6 +6,20 @@
 > voluntaria**. El nombre popular «Empresa en un Día» es un nombre de programa: **la ley no promete que
 > todo se haga en un día**; promete un sistema electrónico simplificado. Este anexo cita el texto de la ley.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 14. Sucursal o agencia de sociedad extranjera](14-sucursal-o-agencia-de-sociedad-extranjera.md) · [Índice de anexos](README.md) · [16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber →](16-servicio-de-impuestos-internos-sii.md)
+
+## En 60 segundos
+
+- Es voluntario y cubre ocho tipos de sociedad (arts. 1 y 2).
+- Todos deben firmar dentro de 60 días desde la primera firma; después no se puede modificar el formulario (art. 10).
+- Al incorporarse, el SII queda informado y asigna el RUT; puede pedirse el inicio de actividades (art. 13).
+- El Registro es público y gratuito; las firmas ante notario pagan una tarifa fijada por decreto (arts. 9 y 11).
+- No reemplaza permisos, patente ni cuenta bancaria.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -569,3 +583,15 @@ transcriben. El flujo operativo del portal puede variar; confirma en el sitio of
 
 **Límites.** Este anexo explica la ley, no el funcionamiento técnico del portal ni sus tiempos de respuesta, y
 sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un abogado ni de un contador.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): qué sigue ante el SII.
+- [Anexo 17. Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md): patente y permisos locales.
+- [Anexo 06. Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md): el tipo más usado.
+
+**Navegación:** [← 14. Sucursal o agencia de sociedad extranjera](14-sucursal-o-agencia-de-sociedad-extranjera.md) · [Índice de anexos](README.md) · [16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber →](16-servicio-de-impuestos-internos-sii.md)
+
+<!-- anexos:cierre-fin -->

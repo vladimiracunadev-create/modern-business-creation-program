@@ -20,6 +20,11 @@ Versionado según [SemVer](https://semver.org/lang/es/).
 - `scripts/generar_anexos.py` (con `--check` en CI) renderiza las figuras desde `manifests/anexos.json` y
   `tests/test_anexos.py` (12 pruebas) exige profundidad, secciones, preguntas frecuentes, fuentes y figuras.
 
+- Navegación entre anexos: cada uno enlaza al anterior, al siguiente y al índice (arriba y abajo), trae un
+  resumen «En 60 segundos» y un cierre «Para seguir leyendo» con anexos relacionados. El índice suma una
+  guía «¿Por dónde empiezo?» y una matriz comparativa de las formas jurídicas; la tabla del README principal
+  añade la columna «Qué encontrarás». Todo se genera desde `manifests/anexos.json` y se verifica en CI.
+
 ### Corregido en el motor de figuras
 
 - Motor de SVG: texto de bajo contraste en los peldaños oscuros de la escalera, etiquetas del embudo que se

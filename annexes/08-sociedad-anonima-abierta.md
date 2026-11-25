@@ -5,6 +5,20 @@
 > antes de actuar. Este anexo separa **obligación legal**, **recomendación profesional** y **medida
 > voluntaria**. No contiene recomendaciones de inversión.
 
+<!-- anexos:nav-inicio -->
+
+**Navegación:** [← 07. Sociedad Anónima Cerrada (S.A.)](07-sociedad-anonima-cerrada.md) · [Índice de anexos](README.md) · [09. Cooperativa →](09-cooperativa.md)
+
+## En 60 segundos
+
+- Debe inscribirse si tuvo más de 2.000 accionistas por doce meses, o si cumple los umbrales del art. 5 de la Ley 18.045.
+- Directorio de al menos cinco miembros, con límite del 60 % de un mismo sexo y reglas de independencia.
+- Las operaciones con partes relacionadas exigen interés social, condiciones de mercado y aprobación sin los directores involucrados (Ley 18.046, arts. 146 y 147).
+- Usar información privilegiada está prohibido (Ley 18.045, arts. 164 a 166).
+- Los costos de cumplimiento son permanentes: conviene solo si el capital público los compensa.
+
+<!-- anexos:nav-fin -->
+
 ## 1. Ficha rápida
 
 | Pregunta | Respuesta |
@@ -556,3 +570,15 @@ cambian con frecuencia y no se transcriben aquí.
 **Límites.** Este anexo no reproduce el texto íntegro de las leyes, no contiene asesoría de inversión ni
 interpreta normas de la CMF y sus ejemplos numéricos son ilustrativos. No sustituye la asesoría de un
 abogado especializado.
+
+<!-- anexos:cierre-inicio -->
+
+## Para seguir leyendo
+
+- [Anexo 07. Sociedad Anónima Cerrada (S.A.)](07-sociedad-anonima-cerrada.md): de donde parte una abierta.
+- [Anexo 05. Sociedad en Comandita (simple y por acciones)](05-sociedad-en-comandita.md): la comandita que puede transformarse.
+- [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): impuestos sobre dividendos y ganancias de capital.
+
+**Navegación:** [← 07. Sociedad Anónima Cerrada (S.A.)](07-sociedad-anonima-cerrada.md) · [Índice de anexos](README.md) · [09. Cooperativa →](09-cooperativa.md)
+
+<!-- anexos:cierre-fin -->
