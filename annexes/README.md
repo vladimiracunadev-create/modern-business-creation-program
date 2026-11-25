@@ -29,6 +29,7 @@ tributaria: confirma cada dato en la fuente citada y en el texto vigente de la l
 | 11 | [Sociedad Civil (Código Civil)](11-sociedad-civil.md) | Otras formas | 5.008 |
 | 12 | [Corporaciones. asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md) | Otras formas | 5.119 |
 | 13 | [Estatuto Pyme: empresas de menor tamaño (Ley 20.416)](13-estatuto-pyme-empresas-de-menor-tamano.md) | Otras formas | 5.483 |
+| 14 | [Sucursal o agencia de sociedad extranjera](14-sucursal-o-agencia-de-sociedad-extranjera.md) | Otras formas | 4.996 |
 
 ## Lo que dice y lo que no dice este material
 

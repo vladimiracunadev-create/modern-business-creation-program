@@ -1519,5 +1519,118 @@
     }
    }
   ]
+ },
+ {
+  "n": 14,
+  "slug": "sucursal",
+  "titulo": "Sucursal o agencia de sociedad extranjera",
+  "grupo": "otras",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "Agencias de sociedades extranjeras en la ley chilena",
+    "alt": "Línea de tiempo: Código de Comercio regula las agencias de sociedades extranjeras, Ley 18.046 de 1981 regula las agencias de anónimas extranjeras, Ley de la Renta fija el régimen del establecimiento permanente y Ley 21.850 cambia tasas.",
+    "datos": {
+     "hitos": [
+      [
+       "Código de Comercio",
+       "Arts. 447 a 450: agencias de sociedades extranjeras"
+      ],
+      [
+       "1981",
+       "Ley 18.046: agencias de anónimas extranjeras (arts. 121 a 124)"
+      ],
+      [
+       "Ley de la Renta",
+       "Art. 38 e impuesto adicional del art. 58"
+      ],
+      [
+       "2026",
+       "Ley 21.850: nuevo calendario de tasas"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "La ley exige presencia identificable, documentos legalizados y responsabilidad de la matriz."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Abrir una sucursal en Chile",
+    "alt": "Flujo de cinco pasos: reunir y legalizar documentos de origen, protocolizar en notaría, otorgar escritura de declaraciones, inscribir y publicar el extracto en sesenta días y registrarse en el SII.",
+    "datos": {
+     "pasos": [
+      "Reunir y legalizar documentos del país de origen",
+      "Traducirlos y protocolizarlos en notaría chilena",
+      "Escritura pública con las declaraciones del agente",
+      "Inscribir y publicar el extracto en 60 días",
+      "RUT e inicio de actividades en el SII"
+     ],
+     "retorno": "Cada modificación repite las formalidades; el balance anual se publica en el cuatrimestre siguiente"
+    }
+   },
+   {
+    "tipo": "balanza",
+    "titulo": "Sucursal o filial: qué cambia",
+    "alt": "Balanza que compara la sucursal, con responsabilidad de toda la matriz y trámite más simple, con la filial, con responsabilidad limitada y socios locales posibles.",
+    "datos": {
+     "izq": [
+      "Sucursal",
+      [
+       "Es la misma entidad extranjera",
+       "La matriz responde con todos sus bienes",
+       "Constitución y contabilidad más simples"
+      ]
+     ],
+     "der": [
+      "Filial (sociedad chilena)",
+      [
+       "Persona jurídica nueva",
+       "Responsabilidad limitada al capital aportado",
+       "Permite socios locales e inversión"
+      ]
+     ],
+     "criterio": "Si necesitas aislar el riesgo de Chile, elige filial; si buscas simplicidad y control, evalúa sucursal."
+    }
+   },
+   {
+    "tipo": "capas",
+    "titulo": "De la matriz al negocio en Chile",
+    "alt": "Cuatro capas: la matriz extranjera con directorio y política, el agente con poder general, la agencia con contabilidad completa y las operaciones y contratos con terceros en Chile.",
+    "datos": {
+     "capas": [
+      [
+       "Matriz extranjera",
+       "Define política, presupuesto y poderes; responde con todos sus bienes"
+      ],
+      [
+       "Agente en Chile",
+       "Poder general con responsabilidad directa de la entidad"
+      ],
+      [
+       "Agencia con contabilidad completa",
+       "Balance separado y publicación anual"
+      ],
+      [
+       "Operaciones en Chile",
+       "Contratos, trabajadores, impuestos y permisos"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "Cómo decidir entre sucursal y filial",
+    "alt": "Árbol de decisión sobre el riesgo del negocio en Chile y la necesidad de socios locales para elegir entre sucursal y filial.",
+    "datos": {
+     "q": "¿El riesgo operativo o legal del negocio en Chile es alto?",
+     "si": "Filial: limita la responsabilidad al capital aportado",
+     "no": {
+      "q": "¿Necesitas socios locales o inversión parcial?",
+      "si": "Filial con pacto de socios",
+      "no": "Sucursal puede bastar; simula el impuesto adicional"
+     }
+    }
+   }
+  ]
  }
 ]
