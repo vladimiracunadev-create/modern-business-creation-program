@@ -485,7 +485,255 @@ trabajo de reconstrucción tomaría semanas. Cifras ilustrativas.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre los artículos 66 a 71 del Código Tributario, leídos en Ley Chile
+(BCN). Las tasas y formularios de impuestos concretos no se repiten aquí: verifícalos en el SII.
+
+### Escenario 1: vendió antes de iniciar actividades
+
+**Situación.** Un diseñador empezó a cobrar a clientes el 10 de marzo y recién el 25 de mayo se acuerda de ir al SII.
+
+**Análisis.** Quienes inician negocios o labores susceptibles de producir rentas gravadas en la primera y segunda
+categorías deben presentar una **declaración jurada de iniciación dentro de los dos meses siguientes** a aquel en que
+comiencen sus actividades (art. 68). Se entiende que inicia actividades quien efectúa cualquier acto u operación que sea
+elemento necesario para determinar los impuestos periódicos que afecten a la actividad, o que los genere. El plazo de dos
+meses desde marzo vencía en mayo.
+
+**Decisión.** Regularizar de inmediato con el contador y consultar a un asesor tributario por posibles sanciones.
+
+### Escenario 2: el RUT de una sociedad nueva
+
+**Situación.** Una sociedad se constituyó y los socios creen que con la escritura basta para operar.
+
+**Análisis.** Todas las personas naturales y jurídicas que, en razón de su actividad, causen o puedan causar, retengan o
+deban retener impuestos deben estar inscritas en el RUT (art. 66). Revisa cómo se asigna el RUT en cada vía de
+constitución (anexo 15).
+
+### Escenario 3: cerrar el negocio
+
+**Situación.** Un emprendedor decide terminar su actividad el 30 de junio.
+
+**Análisis.** Quien termina su giro o actividades y deja de estar afecto a impuestos debe **dar aviso al SII por la carpeta
+tributaria electrónica**, adjuntando el **balance de término de giro** y los antecedentes para determinar los impuestos, y
+debe **pagar el impuesto determinado dentro de los dos meses** siguientes a la fecha de término. El SII tiene **seis meses
+para revisar y girar** diferencias, ampliables en tres meses en ciertos casos; si no emite el giro, se entiende aceptada la
+presentación y se certifica el término (art. 69).
+
+**Decisión.** Preparar el balance de término con el contador y guardar el certificado.
+
+### Escenario 4: disolver una sociedad
+
+**Situación.** Los socios quieren disolver la sociedad pero tienen declaraciones pendientes.
+
+**Análisis.** No se autoriza ninguna disolución de sociedad sin un **certificado del SII que acredite que está al día en el
+pago de sus tributos** (art. 70).
+
+**Decisión.** Regularizar primero las obligaciones tributarias y luego tramitar la disolución.
+
+### Escenario 5: comprar un negocio con deudas tributarias
+
+**Situación.** Una persona compra el local y el inventario de un comerciante.
+
+**Análisis.** Cuando una persona cesa sus actividades por venta, cesión o traspaso de sus bienes, negocios o industrias, la
+persona adquirente tiene el carácter de **fiador respecto de las obligaciones tributarias** correspondientes a lo adquirido.
+Para gozar del beneficio de excusión debe cumplir los arts. 2358 y 2359 del Código Civil. Las actuaciones se notifican al
+vendedor y al adquirente (art. 71).
+
+**Decisión.** Pedir al vendedor certificados y documentos tributarios antes de comprar y consultar a un abogado tributario.
+
+### Escenario 6: la importación que cuenta como inicio
+
+**Situación.** Una persona realiza importaciones esporádicas y se pregunta si debe iniciar actividades.
+
+**Análisis.** El art. 68 señala que se entiende que inician actividades los contribuyentes que, dentro de un período móvil de
+doce meses, efectúen una o más importaciones cuyo valor supere el umbral que el artículo establece. El texto leído se
+corta antes del umbral; **verifica el monto vigente en el SII**.
+
+### Escenario 7: simplificar con una resolución
+
+**Situación.** Un microemprendedor de escasos recursos quiere saber si hay trámites más simples.
+
+**Análisis.** El Director del SII puede, mediante resolución fundada y en casos calificados, establecer procedimientos
+simplificados para la inscripción en el RUT o alternativos a ella (art. 66), y puede eximir o sustituir la declaración de
+iniciación a grupos de contribuyentes de escasos recursos (art. 68).
+
+**Decisión.** Preguntar en el SII si existe un procedimiento simplificado aplicable.
+
+### Escenario 8: la carpeta tributaria
+
+**Situación.** Un banco pide la carpeta tributaria para evaluar un crédito.
+
+**Análisis.** La inscripción en el RUT se realiza mediante la **carpeta tributaria electrónica** (art. 66), que reúne la
+información del contribuyente. Mantenerla ordenada ayuda a financiarte (ver el manual de financiamiento).
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Vender antes de iniciar actividades | Apuro | Incumple el art. 68 | Iniciar en plazo | Escenario 1 |
+| 2 | Pasar de los dos meses | Descuido | Posible sanción | Calendario de plazos | Escenario 1 |
+| 3 | No tener RUT | Creer que basta el contrato | Incumple el art. 66 | Inscribirse | Escenario 2 |
+| 4 | Elegir régimen sin asesoría | Optimismo | Impuestos mal calculados | Comparar con el contador | Sección 6 |
+| 5 | Mezclar cuentas personales y de la empresa | Informalidad | Contabilidad deficiente | Cuentas separadas | Sección 9 |
+| 6 | No emitir documentos tributarios | Desconocimiento | Sanciones | Sistema de facturación | Sección 7 |
+| 7 | Dejar de operar sin término de giro | Pereza | Obligaciones vigentes | Aviso y balance de término | Escenario 3 |
+| 8 | No pagar el impuesto del término | Falta de caja | Giro posterior | Planificar el pago | Escenario 3 |
+| 9 | Disolver sin certificado de tributos al día | Desconocer el art. 70 | No se autoriza | Regularizar | Escenario 4 |
+| 10 | Comprar un negocio sin revisar su historia | Prisa | Responsabilidad como fiador | Diligencia | Escenario 5 |
+| 11 | No guardar respaldos | Desorden | Dificultad ante revisiones | Archivo ordenado | Sección 9 |
+| 12 | Ignorar notificaciones del SII | Miedo | Plazos que corren | Revisar la casilla | Sección 10 |
+| 13 | No actualizar giros o domicilio | Olvido | Documentos incorrectos | Aviso de modificaciones | Sección 4 |
+| 14 | Confiar solo en el contador | Falta de supervisión | Errores no detectados | Revisión periódica | Sección 9 |
+| 15 | No separar IVA de la caja | Mezcla de fondos | Falta de dinero al pagar | Cuenta o provisión de IVA | Sección 7 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Persona natural frente a sociedad ante el SII
+
+| Criterio | Persona natural con giro | Sociedad |
+|---|---|---|
+| RUT | El personal | Uno propio por la sociedad |
+| Inicio de actividades | Declaración de iniciación (art. 68) | Misma obligación, por la sociedad |
+| Contabilidad | Según el régimen | Según el régimen |
+| Responsabilidad | Ilimitada | Según el tipo social |
+| Término | Aviso y balance (art. 69) | Aviso y balance, y certificado para disolver (art. 70) |
+
+### C.2. Cómo organizar la relación con el contador
+
+| Modelo | Descripción | Cuándo sirve |
+|---|---|---|
+| Contador externo por honorarios | Presta servicios mensuales | Microempresas |
+| Contador interno | Parte del equipo | Empresas con volumen |
+| Servicio contable en línea | Plataforma con asesoría | Negocios simples |
+| Asesor tributario puntual | Para decisiones específicas | Reorganizaciones y contingencias |
+
+### C.3. Opciones al terminar
+
+| Opción | Qué implica | Cuidado |
+|---|---|---|
+| Término de giro con balance | Cierre ordenado ante el SII (art. 69) | Pago en dos meses |
+| Vender el negocio | Traspaso a un adquirente (art. 71) | El adquirente es fiador |
+| Disolver la sociedad | Requiere certificado de tributos al día (art. 70) | Regularizar antes |
+| Mantener inactivo | Sin operar | Siguen obligaciones de declarar |
+
+### C.4. Ideas de política interna tributaria
+
+1. «Todo ingreso se registra con documento tributario el mismo día.»
+2. «El IVA mensual se aparta en una cuenta separada.»
+3. «El contador entrega un calendario anual de obligaciones.»
+4. «Se revisa la casilla del SII cada semana.»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Constitución y RUT de una sociedad | 15 |
+| Patente municipal | 17 |
+| Domicilio para el SII | 18 |
+| Elegir el tipo y su efecto tributario | 01 al 07 |
+| Término y disolución | Anexos del tipo respectivo |
+
+### D.2. Clases del programa
+
+- [Parte 16, clase 5: FOGAPE, garantías y evaluación bancaria](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-05-fogape-garantias-y-evaluacion-bancaria/README.md)
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **RUT e inicio:** los arts. 66 y 68 conectan identificación con actividad.
+2. **Término y disolución:** los arts. 69 y 70 conectan el cierre con el certificado de tributos.
+3. **Traspaso y fianza:** el art. 71 conecta la venta de un negocio con la responsabilidad tributaria.
+4. **Carpeta y financiamiento:** la carpeta tributaria conecta el SII con los bancos.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 15 | Obtener RUT y presentar la declaración de iniciación (dentro de dos meses del inicio) | Contador | Comprobantes |
+| Días 16 a 45 | Definir régimen, documentos tributarios y sistema de facturación | Contador | Configuración |
+| Días 46 a 75 | Calendario mensual y anual de obligaciones; cuenta de IVA | Administrador | Calendario |
+| Días 76 a 90 | Revisión con el contador y plan de respaldos | Dirección | Informe |
+
+### E.2. Calendario anual
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Dentro de dos meses del inicio | Declaración de iniciación | Art. 68 |
+| Cada mes | IVA y retenciones según corresponda | Anexo |
+| Cada año | Declaración de renta y revisión del régimen | Anexo |
+| Ante cambios | Aviso de modificaciones | Anexo |
+| Al terminar | Aviso con balance y pago en dos meses | Art. 69 |
+| Antes de disolver | Certificado de tributos al día | Art. 70 |
+
+### E.3. Lista de control de inicio
+
+| Ítem | Sí | No |
+|---|---|---|
+| RUT vigente | | |
+| Declaración de iniciación en plazo | | |
+| Giros y domicilio correctos | | |
+| Régimen tributario elegido con asesoría | | |
+| Documentos tributarios habilitados | | |
+| Contador contratado | | |
+
+### E.4. Lista de control de término
+
+| Ítem | Sí | No |
+|---|---|---|
+| Balance de término de giro | | |
+| Antecedentes para determinar impuestos | | |
+| Pago del impuesto en dos meses | | |
+| Aviso por la carpeta tributaria | | |
+| Certificado de término de giro | | |
+
+## 18. Autoevaluación
+
+1. ¿Quién debe tener RUT?
+2. ¿En cuánto tiempo se presenta la declaración de iniciación?
+3. ¿Qué es la carpeta tributaria electrónica?
+4. ¿Qué debe presentar quien termina su giro?
+5. ¿Cuánto tiempo tiene el SII para revisar el término de giro?
+6. ¿Qué se necesita para disolver una sociedad?
+7. ¿Qué responsabilidad tiene quien compra un negocio?
+8. ¿Puede el SII simplificar trámites?
+9. ¿Qué pasa si el SII no emite el giro tras el plazo?
+10. ¿Qué debes hacer antes de vender un negocio?
+
+**Respuestas.**
+
+1. Quienes causen, puedan causar, retengan o deban retener impuestos (art. 66).
+2. Dentro de los dos meses siguientes al inicio de actividades (art. 68).
+3. El medio electrónico por el cual se realiza la inscripción y gestión ante el SII (art. 66).
+4. Aviso por la carpeta con balance de término y antecedentes, y pago del impuesto en dos meses (art. 69).
+5. Seis meses, ampliables en tres en ciertos casos (art. 69).
+6. Un certificado del SII de que está al día en tributos (art. 70).
+7. Es fiador de las obligaciones tributarias correspondientes a lo adquirido (art. 71).
+8. Sí, mediante resolución fundada en casos calificados (arts. 66 y 68).
+9. Se entiende aceptada la presentación y se certifica el término (art. 69).
+10. Revisar su situación tributaria y consultar a un abogado tributario (art. 71).
+
+**Puntaje.** Ocho o más: dominas el tipo. Cuatro a siete: repasa las secciones 4 y 8. Menos de cuatro: relee el anexo.
+
+## 19. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Balance de término de giro | Balance que se presenta al terminar las actividades |
+| Carpeta tributaria electrónica | Medio electrónico por el que el contribuyente se relaciona con el SII |
+| Declaración de iniciación | Declaración jurada con que se informa el inicio de actividades |
+| Fiador | Persona que responde de una obligación ajena |
+| Giro | Giro u objeto de la actividad registrada ante el SII |
+| Inicio de actividades | Acto de informar al SII que comienza una actividad gravada |
+| Renta gravada | Ingreso afecto a impuesto |
+| RUT | Rol Único Tributario |
+| Término de giro | Aviso de que la actividad terminó |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Debo inscribirme en el RUT?**
 Sí, si en razón de tu actividad causas o puedes causar impuestos, o retienes o debes retener (art. 66 Código
@@ -555,7 +803,56 @@ En el calendario oficial del SII; este anexo no los reproduce.
 **20. ¿Qué hago si recibo una citación del SII?**
 No la ignores: consulta de inmediato a un abogado o contador tributario y respeta los plazos que indique.
 
-## 14. Fuentes y vigencia
+**21. ¿Debo inscribirme en el RUT aunque no venda todavía?**
+Debes estar inscrito si en razón de tu actividad causas, puedes causar, retienes o debes retener impuestos (art. 66).
+
+**22. ¿Qué es la carpeta tributaria electrónica?**
+El medio electrónico mediante el cual se realiza la inscripción en el RUT y se gestionan los trámites ante el SII (arts. 66 y
+68).
+
+**23. ¿Cuándo se entiende que inicié actividades?**
+Cuando efectúas cualquier acto u operación que sea elemento necesario para determinar los impuestos periódicos de tu
+actividad o que los genere (art. 68).
+
+**24. ¿Qué pasa si no presento a tiempo la declaración de iniciación?**
+Puede haber sanciones; regulariza de inmediato y consulta a un asesor tributario.
+
+**25. ¿Puedo estar exento de la declaración?**
+El Director del SII puede eximir o sustituir la declaración a grupos de contribuyentes mediante normas generales (art. 68).
+
+**26. ¿Cómo termino mi actividad?**
+Con un aviso por la carpeta tributaria, adjuntando el balance de término de giro y los antecedentes para determinar los
+impuestos (art. 69).
+
+**27. ¿Cuándo pago el impuesto del término?**
+Dentro de los dos meses siguientes a la fecha de término (art. 69).
+
+**28. ¿Cuánto demora el SII en revisar el término?**
+Tiene seis meses para revisar y girar diferencias, con posibles ampliaciones de tres meses (art. 69).
+
+**29. ¿Puedo disolver mi sociedad con deudas tributarias?**
+No se autoriza la disolución sin un certificado del SII que acredite que está al día (art. 70).
+
+**30. ¿Qué responsabilidad asume quien compra mi negocio?**
+Es fiador de las obligaciones tributarias correspondientes a lo adquirido (art. 71).
+
+**31. ¿Qué es el beneficio de excusión?**
+El derecho del fiador a exigir que primero se persiga al deudor principal; el adquirente debe cumplir los arts. 2358 y 2359 del
+Código Civil para invocarlo (art. 71).
+
+**32. ¿Debo informar cambios de domicilio o giro?**
+Sí, mediante el procedimiento de actualización ante el SII; consulta a tu contador.
+
+**33. ¿Qué es un documento tributario electrónico?**
+Boletas, facturas y otros documentos emitidos por medios electrónicos según las normas del SII.
+
+**34. ¿Qué hago si recibo una notificación del SII?**
+Revísala el mismo día, anota los plazos y consulta a un asesor tributario si hay riesgo.
+
+**35. ¿Cuándo debo pedir ayuda profesional?**
+Al elegir régimen, iniciar actividades, terminar el giro, comprar o vender un negocio, y ante fiscalizaciones.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

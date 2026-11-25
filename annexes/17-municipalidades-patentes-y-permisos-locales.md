@@ -475,7 +475,253 @@ ilustrativos.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre los artículos 23 a 34 del Decreto Ley 3.063 de Rentas
+Municipales, leídos en Ley Chile (BCN). Las tasas concretas las fija cada municipalidad dentro del rango legal.
+
+### Escenario 1: calcular la patente de un local
+
+**Situación.** Una tienda tiene un capital propio de 40.000.000 de pesos y la municipalidad fijó la tasa en 3 por mil.
+
+**Análisis.** El valor por doce meses de la patente es un monto **entre el dos y medio por mil y el cinco por mil del
+capital propio**, con un mínimo de **una UTM** y un máximo de **ocho mil UTM**; el alcalde, con acuerdo del concejo, fija la
+tasa dentro del rango (art. 24). Con 3 por mil: 40.000.000 × 0,003 = 120.000 pesos por doce meses. Si la UTM fuese 68.000
+pesos (valor ilustrativo), el mínimo sería 68.000 y el resultado supera el mínimo.
+
+**Pago.** Se puede pagar al contado o en dos cuotas iguales, en **julio y enero** (art. 29).
+
+### Escenario 2: la tienda que abre en febrero
+
+**Situación.** Un negocio inicia actividades el 15 de febrero.
+
+**Análisis.** Si un contribuyente se establece **después del 31 de diciembre** paga el **50 %** del valor de la patente
+(art. 29). El valor fijado corresponde a los doce meses entre el 1 de julio del año de la declaración y el 30 de junio del
+año siguiente.
+
+### Escenario 3: la declaración de capital propio
+
+**Situación.** Un emprendedor solicita su patente sin declaración de capital.
+
+**Análisis.** Toda persona que inicie un giro gravado presenta, junto con la solicitud de autorización para funcionar en un
+local o lugar determinado, una **declaración jurada simple del monto del capital propio** (art. 26). No puede cobrarse
+ningún impuesto o derecho municipal por los instrumentos que se presentan para otorgar la patente (declaraciones, copias de
+balances): está prohibido cualquier cobro distinto del valor del art. 24 (art. 29).
+
+**Decisión.** Preparar la declaración con el contador y rechazar cobros adicionales por los documentos.
+
+### Escenario 4: el permiso que falta
+
+**Situación.** El local no tiene el informe sanitario.
+
+**Análisis.** La municipalidad está obligada a otorgar la patente **de inmediato** cuando el contribuyente acompañó todos los
+permisos o ella verificó su cumplimiento: sanitarios, de emplazamiento según la zonificación del Plan Regulador y otros
+exigidos por leyes especiales, y siempre que no deba verificarse el funcionamiento por la Dirección de Obras (art. 26). Si
+falta un permiso, no procede el otorgamiento definitivo.
+
+**Decisión.** Reunir los permisos antes de solicitar, o evaluar una patente provisoria con las condiciones del anexo.
+
+### Escenario 5: la profesional independiente
+
+**Situación.** Una abogada que atiende en su estudio de Providencia dicta clases en otras comunas.
+
+**Análisis.** Las personas que ejercen profesiones liberales u otra ocupación lucrativa conforme al art. 42 N.º 2 de la Ley
+de la Renta pagan su patente anual **solo en la comuna donde tengan su consulta, estudio u oficina principal**, y esa patente
+las habilita para ejercer en **todo el territorio nacional**; el valor es de **una UTM** al año (art. 32). Para patentes de
+profesionales y de sociedades de profesionales **no se exige permiso alguno** (art. 26).
+
+### Escenario 6: la microempresa familiar
+
+**Situación.** Una familia vende comida preparada desde su casa.
+
+**Análisis.** El art. 26 distingue la microempresa familiar: el giro se ejerce en la **casa habitación familiar**, laboran no
+más de **cinco trabajadores ajenos a la familia** y sus activos productivos no superan el límite que fija el artículo (el
+texto leído se corta antes del monto: **verifícalo**). Las limitaciones y autorizaciones del artículo no se aplican a la
+microempresa familiar, pero sus actividades deben sujetarse al Reglamento Sanitario de los Alimentos (D.S. 977 de 1997).
+
+### Escenario 7: la fundación y la patente
+
+**Situación.** Una fundación que ofrece talleres comunitarios recibe un cobro de patente.
+
+**Análisis.** Solo están exentas de patente las personas jurídicas sin fines de lucro que realicen acciones de
+beneficencia, de culto religioso, culturales, de ayuda mutua de sus asociados, artísticas o deportivas no profesionales y de
+promoción de intereses comunitarios (art. 27).
+
+**Decisión.** Verificar si la actividad concreta entra en esas categorías y documentarlo.
+
+### Escenario 8: comprar un negocio con patentes impagas
+
+**Situación.** Un comprador adquiere un local y descubre que el vendedor debía patentes.
+
+**Análisis.** El comprador, usufructuario, sucesor u ocupante a cualquier título de un establecimiento, negocio o giro gravado
+**responde del pago de las patentes morosas** que se adeudaren (art. 34).
+
+**Decisión.** Pedir un certificado de no deuda de patentes antes de comprar.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Firmar el arriendo sin ver la zonificación | Apuro | No se otorga la patente | Certificado de zonificación | Sección 5 |
+| 2 | No declarar el capital propio | Desconocimiento | Trámite incompleto (art. 26) | Declaración jurada simple | Escenario 3 |
+| 3 | Pagar cobros por los documentos | Desconocer el art. 29 | Cobro indebido | Reclamar por escrito | Escenario 3 |
+| 4 | Olvidar el pago de julio y enero | Descuido | Mora y posible clausura | Calendario | Escenario 1 |
+| 5 | No pagar el 50 % si abres tarde | Desconocimiento | Pago de más | Verificar fecha de inicio | Escenario 2 |
+| 6 | Cambiar de domicilio sin avisar | Olvido | Doble patente o mora | Aviso en 30 días y certificado | Sección 6 |
+| 7 | Comprar sin certificado de deuda | Prisa | Responsabilidad por morosas (art. 34) | Pedir certificado | Escenario 8 |
+| 8 | Creer que la patente reemplaza permisos | Confusión | Operar sin autorización | Reunir permisos | Escenario 4 |
+| 9 | Una patente para dos locales | Ahorro | Incumple el art. 24 | Una por local | Sección 3 |
+| 10 | Profesional que paga en varias comunas | Desconocer el art. 32 | Pagos duplicados | Una sola patente | Escenario 5 |
+| 11 | Suponer exención sin cumplir requisitos | Confusión | Cobro posterior | Revisar el art. 27 | Escenario 7 |
+| 12 | Alcoholes sin patente especial | Desconocimiento | Clausura | Ley de alcoholes (art. 33) | Sección 7 |
+| 13 | No guardar comprobantes | Desorden | Dificultad ante reclamos | Carpeta de patentes | Sección 9 |
+| 14 | Dejar de pagar al cerrar sin dar de baja | Cierre de hecho | Mora acumulada | Dar de baja formalmente | Sección 10 |
+| 15 | Ignorar notificaciones municipales | Miedo | Plazos que corren | Responder en plazo | Sección 10 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Tipos de patente que aparecen en el texto
+
+| Tipo | Quién | Dónde se paga | Valor |
+|---|---|---|---|
+| Patente comercial, industrial o de servicios | Quien ejerce una actividad lucrativa en un local | Comuna del local (art. 24) | 2,5 a 5 por mil del capital propio; mínimo 1 UTM y máximo 8.000 UTM |
+| Patente de profesional | Profesiones liberales y ocupaciones lucrativas del art. 42 N.º 2 | Comuna del estudio u oficina principal (art. 32) | 1 UTM anual |
+| Patente de sociedad de inversiones o de profesionales sin domicilio comercial | Sociedades de inversiones o de profesionales | Comuna del domicilio registrado ante el SII (art. 24) | Según el art. 24 |
+| Patente temporal | Balnearios y lugares de turismo | Comuna turística (art. 28) | 50 % del valor, hasta cuatro meses |
+| Patente de alcoholes | Expendio de bebidas alcohólicas | Ley 19.925 y art. 24 (art. 33) | Según su ley |
+
+### C.2. Alternativas para el lugar de trabajo
+
+| Opción | Efecto sobre la patente | Cuidado |
+|---|---|---|
+| Local propio o arrendado | Patente en esa comuna | Zonificación y permisos |
+| Casa habitación como microempresa familiar | Reglas especiales (art. 26) | Cumplir requisitos del artículo |
+| Oficina virtual o coworking | Ver anexo 18 | Acreditación y comuna de la patente |
+| Actividad sin local fijo | Consultar a la municipalidad | Reglas según la actividad |
+
+### C.3. Cómo organizar varios locales
+
+| Situación | Regla de partida |
+|---|---|
+| Un mismo contribuyente con varios locales | La patente grava la actividad en cada local, oficina, establecimiento o lugar determinado (art. 24) |
+| Casa matriz y sucursal en otras comunas | Cada local paga en su comuna; el cambio de domicilio sigue el procedimiento del art. 29 |
+| Traslado | Aviso en 30 días corridos, patente pagada del semestre y certificado de no deuda |
+
+### C.4. Ideas de calendario interno
+
+1. «Julio y enero: pagar patente y archivar comprobante.»
+2. «Cada diciembre: revisar el capital propio y la tasa comunal.»
+3. «Antes de cada traslado: pedir certificado de no deuda.»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Constitución y RUT | 15 y 16 |
+| Domicilio y oficinas virtuales | 18 |
+| Forma jurídica | 01 al 07 |
+| Fin sin ánimo de lucro | 12 |
+
+### D.2. Clases del programa
+
+- [Parte 17, clase 1: patente municipal, flujo y evidencia](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-01-patente-municipal-flujo-y-evidencia/README.md)
+- [Parte 16, clase 6: SERCOTEC y programas de fomento](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-06-sercotec-y-programas-de-fomento/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Capital propio y patente:** el art. 24 conecta la contabilidad con el valor de la patente.
+2. **Permisos y otorgamiento:** el art. 26 conecta sanidad y zonificación con la patente.
+3. **Traspaso y morosas:** el art. 34 conecta la compra de un negocio con las deudas previas.
+4. **Cambios de domicilio:** el art. 29 conecta la mudanza con el pago en la nueva comuna.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 15 | Certificado de zonificación y definición del local | Dueño | Certificado |
+| Días 16 a 45 | Permisos sanitarios y otros; declaración de capital propio | Administrador y contador | Permisos y declaración |
+| Días 46 a 60 | Solicitud de patente y pago | Administrador | Patente y comprobante |
+| Días 61 a 90 | Calendario de pagos y archivo | Contador | Calendario |
+
+### E.2. Calendario anual
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Julio | Pago de la patente o primera cuota | Art. 29 |
+| Enero | Segunda cuota | Art. 29 |
+| Antes de julio | Actualizar capital propio | Art. 24 |
+| Ante un traslado | Aviso en 30 días corridos y certificado | Art. 29 |
+| Antes de comprar o heredar un negocio | Certificado de deuda de patentes | Art. 34 |
+
+### E.3. Lista de control antes de solicitar la patente
+
+| Ítem | Sí | No |
+|---|---|---|
+| Zonificación compatible | | |
+| Permiso sanitario u otros requeridos | | |
+| Declaración jurada simple de capital propio | | |
+| Documentos tributarios en regla | | |
+| Presupuesto para julio y enero | | |
+
+### E.4. Cálculo de patente
+
+| Concepto | Valor |
+|---|---:|
+| Capital propio | |
+| Tasa comunal (por mil) | |
+| Valor anual | |
+| ¿Menor que 1 UTM? Si sí, aplicar el mínimo | |
+| Valor de cada cuota (si se paga en dos) | |
+| Descuento por inicio después del 31 de diciembre (50 %) | |
+
+## 18. Autoevaluación
+
+1. ¿Qué actividades quedan sujetas a patente?
+2. ¿Cuál es el rango de la tasa?
+3. ¿Cuál es el valor mínimo y el máximo?
+4. ¿Cuándo se paga?
+5. ¿Cuánto paga quien se establece después del 31 de diciembre?
+6. ¿Qué paga un profesional liberal?
+7. ¿Quiénes están exentos?
+8. ¿Qué responsabilidad tiene quien compra un negocio?
+9. ¿Qué documento acompaña la solicitud?
+10. ¿Quién debe otorgar la patente cuando están los permisos?
+
+**Respuestas.**
+
+1. Profesiones, oficios, industria, comercio, arte y otras actividades lucrativas secundarias o terciarias, y ciertas
+   primarias con elaboración o venta directa (art. 23).
+2. Entre el dos y medio por mil y el cinco por mil del capital propio (art. 24).
+3. Mínimo una UTM y máximo ocho mil UTM (art. 24).
+4. En julio y enero, al contado o en dos cuotas (art. 29).
+5. El 50 % del valor (art. 29).
+6. Una UTM anual en la comuna de su estudio o consulta (art. 32).
+7. Las personas jurídicas sin fines de lucro con las finalidades del art. 27.
+8. Responde de las patentes morosas (art. 34).
+9. Una declaración jurada simple del capital propio (art. 26).
+10. La municipalidad, de inmediato (art. 26).
+
+**Puntaje.** Ocho o más: dominas el tipo. Cuatro a siete: repasa las secciones 3 y 5. Menos de cuatro: relee el anexo.
+
+## 19. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Capital propio | Base sobre la que se calcula la patente, según la normativa tributaria |
+| Concejo municipal | Órgano que aprueba decisiones del alcalde, como la tasa de la patente |
+| Fondo Común Municipal | Fondo de redistribución entre municipalidades |
+| Microempresa familiar | Giro que se ejerce en la casa habitación con no más de cinco trabajadores ajenos |
+| Patente municipal | Contribución anual por ejercer una actividad lucrativa en un lugar determinado |
+| Plan Regulador | Instrumento de planificación que define usos de suelo y zonas |
+| Patente temporal | Patente por hasta cuatro meses en balnearios y lugares de turismo |
+| UTM | Unidad Tributaria Mensual |
+| Zonificación | Reglas que definen qué actividades se pueden desarrollar en cada zona |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Qué actividades pagan patente?**
 El ejercicio de toda profesión, oficio, industria, comercio, arte o actividad lucrativa secundaria o terciaria
@@ -549,7 +795,58 @@ mensuales reajustables (art. 26).
 En la ordenanza o decreto alcaldicio de tu municipalidad, que puede fijar una tasa única o tasas por zonas
 dentro del rango legal (art. 24).
 
-## 14. Fuentes y vigencia
+**21. ¿Quién fija la tasa de la patente?**
+El alcalde, con acuerdo del concejo, dentro del rango legal; puede ser una tasa única o diferenciada por zonas del instrumento
+de planificación (art. 24).
+
+**22. ¿Se paga una patente por cada giro?**
+La patente grava la actividad que ejerce un mismo contribuyente en su local, oficina, establecimiento, kiosco o lugar
+determinado, con prescindencia de la cantidad de giros o rubros (art. 24).
+
+**23. ¿Dónde pagan las sociedades de inversiones o de profesionales sin domicilio comercial?**
+En la comuna del domicilio registrado ante el SII (art. 24).
+
+**24. ¿Qué periodo cubre la patente?**
+Doce meses entre el 1 de julio del año de la declaración y el 30 de junio del año siguiente (art. 29).
+
+**25. ¿Puedo pagar en cuotas?**
+En dos cuotas iguales, en julio y enero; la segunda se reajusta según el IPC del período que fija el artículo (art. 29).
+
+**26. ¿Qué pasa si cambio de comuna?**
+Pagas la patente en la nueva comuna desde el semestre siguiente a la instalación, y debes comunicarlo dentro de 30 días
+corridos con la patente pagada y un certificado de no deuda (art. 29).
+
+**27. ¿Quiénes están exentos?**
+Solo las personas jurídicas sin fines de lucro con las finalidades que enumera el art. 27.
+
+**28. ¿Qué es una patente temporal?**
+Una patente por hasta cuatro meses en balnearios y lugares de turismo, con un valor del 50 % de la ordinaria (art. 28).
+
+**29. ¿Las patentes de alcoholes se rigen por esta ley?**
+Se clasifican y otorgan según la Ley 19.925, sin perjuicio de quedar afectas a la contribución del art. 24 (art. 33).
+
+**30. ¿Puede la municipalidad cobrar por recibir mi declaración?**
+No: los instrumentos que se presentan para el otorgamiento están exentos de todo impuesto o derecho municipal (art. 29).
+
+**31. ¿Qué es la microempresa familiar?**
+Una actividad ejercida en la casa habitación, con no más de cinco trabajadores ajenos a la familia y con activos
+productivos bajo el límite del art. 26.
+
+**32. ¿Debo tener permiso sanitario?**
+Depende de la actividad; si corresponde, debe acompañarse para obtener la patente definitiva (art. 26). En alimentos aplica el
+Reglamento Sanitario de los Alimentos.
+
+**33. ¿Qué pasa si no pago?**
+Hay mora y la municipalidad puede aplicar sanciones, incluida la clausura según el anexo; consulta el art. 58 de la ley
+citada en el anexo y a un abogado.
+
+**34. ¿La patente me autoriza a funcionar sin más trámites?**
+No reemplaza los permisos sectoriales ni la zonificación.
+
+**35. ¿Cuándo debo pedir ayuda profesional?**
+Para calcular el capital propio, revisar la zonificación, tramitar permisos y cuando hay clausura o mora.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|
