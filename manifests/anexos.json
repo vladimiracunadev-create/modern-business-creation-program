@@ -866,5 +866,276 @@
     }
    }
   ]
+ },
+ {
+  "n": 9,
+  "slug": "cooperativa",
+  "titulo": "Cooperativa",
+  "grupo": "especial",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "Del texto refundido a las reformas recientes",
+    "alt": "Línea de tiempo de las cooperativas: 2003 Ley 19.832 entra en vigencia, 2003 DFL 5 fija el texto refundido, 2007 reglamento Decreto 101 y reformas posteriores sobre género y firma electrónica.",
+    "datos": {
+     "hitos": [
+      [
+       "4 mayo 2003",
+       "Entra en vigencia la Ley 19.832"
+      ],
+      [
+       "25 sep 2003",
+       "DFL 5 fija el texto refundido (publicado en 2004)"
+      ],
+      [
+       "2007",
+       "Decreto 101: reglamento de la ley"
+      ],
+      [
+       "Reformas",
+       "Género en órganos, firma electrónica y reglas transitorias"
+      ]
+     ],
+     "hito": 1,
+     "bajada": "La cooperativa se define por su finalidad: mejorar las condiciones de vida de sus socios."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Constituir una cooperativa",
+    "alt": "Flujo de cinco pasos: reunir al menos cinco socios, estudio socioeconómico si corresponde, junta constitutiva con estatutos, escritura pública y extracto inscrito y publicado en sesenta días.",
+    "datos": {
+     "pasos": [
+      "Reunir al menos cinco socios",
+      "Estudio socioeconómico (ahorro y crédito, vivienda abierta)",
+      "Junta General Constitutiva y estatutos",
+      "Reducir el acta a escritura pública",
+      "Inscribir y publicar el extracto en 60 días"
+     ],
+     "retorno": "Sin escritura ni inscripción, la cooperativa es nula de pleno derecho"
+    }
+   },
+   {
+    "tipo": "embudo",
+    "titulo": "Del remanente al excedente: en qué orden se usa",
+    "alt": "Embudo con cuatro etapas del uso del remanente de una cooperativa: absorber pérdidas, reserva legal del dieciocho por ciento, reservas voluntarias e intereses, y excedente a repartir entre socios.",
+    "datos": {
+     "etapas": [
+      [
+       "Remanente del ejercicio",
+       "$10.000.000",
+       1.0
+      ],
+      [
+       "Tras absorber pérdidas acumuladas",
+       "$8.500.000",
+       0.85
+      ],
+      [
+       "Tras reserva legal (18 % del remanente)",
+       "$6.700.000",
+       0.67
+      ],
+      [
+       "Excedente a repartir (ejemplo)",
+       "$4.000.000",
+       0.4
+      ]
+     ],
+     "cuello": 3
+    }
+   },
+   {
+    "tipo": "actores",
+    "titulo": "Quién decide en una cooperativa",
+    "alt": "Mapa con la Junta General de Socios al centro, y alrededor el consejo de administración, el gerente, la junta de vigilancia, el Departamento de Cooperativas y las federaciones.",
+    "datos": {
+     "centro": "Junta General de Socios (un socio, un voto)",
+     "actores": [
+      [
+       "Consejo de administración",
+       "Administra; 60 % elegido por socios usuarios"
+      ],
+      [
+       "Gerente",
+       "Ejecuta y representa en juicio"
+      ],
+      [
+       "Junta de vigilancia",
+       "Fiscaliza internamente"
+      ],
+      [
+       "Departamento de Cooperativas",
+       "Fiscaliza y puede pedir la disolución"
+      ],
+      [
+       "Federación",
+       "Relación intercooperativa"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "balanza",
+    "titulo": "Cooperativa o sociedad: qué cambia",
+    "alt": "Balanza que compara cooperativa, con voto por persona y reparto según uso, contra sociedad de capital, con voto por aporte y reparto según acciones.",
+    "datos": {
+     "izq": [
+      "Cooperativa",
+      [
+       "Un socio, un voto",
+       "Reparto según el uso de la cooperativa",
+       "Capital variable y reservas irrepartibles"
+      ]
+     ],
+     "der": [
+      "Sociedad de capital",
+      [
+       "Voto según acciones o aportes",
+       "Reparto según el capital",
+       "Entrada de inversión más simple"
+      ]
+     ],
+     "criterio": "Elige cooperativa si los socios son también usuarios; sociedad si buscas capital externo."
+    }
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "slug": "sagr",
+  "titulo": "Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)",
+  "grupo": "especial",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "La garantía recíproca en Chile",
+    "alt": "Línea de tiempo de la garantía recíproca: 2007 promulgación y publicación de la Ley 20.179, 2013 Ley 20.659 incluye a la SAGR en el Registro en línea y las reformas posteriores de la supervisión financiera.",
+    "datos": {
+     "hitos": [
+      [
+       "10 mayo 2007",
+       "Se promulga la Ley 20.179"
+      ],
+      [
+       "20 junio 2007",
+       "Se publica en el Diario Oficial"
+      ],
+      [
+       "2013",
+       "Ley 20.659: la SAGR puede constituirse en línea"
+      ],
+      [
+       "Hoy",
+       "Reguladores con nuevos nombres: verifica la CMF"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "Nació para que las pyme sin garantías propias accedan a crédito afianzadas por una institución."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "De la idea a operar como institución de garantía recíproca",
+    "alt": "Flujo de cinco pasos: definir S.A.G.R. o cooperativa, redactar estatutos con límites de riesgo, constituir con al menos diez mil UF, acreditar ante el regulador e inscribirse en categoría A o B.",
+    "datos": {
+     "pasos": [
+      "Definir S.A.G.R. o cooperativa de garantía recíproca",
+      "Estatutos con límites de garantías y relación capital/deuda",
+      "Constituir con al menos 10.000 UF de capital",
+      "Acreditar requisitos ante el regulador (cada año)",
+      "Inscribirse en el Registro: categoría A o B"
+     ],
+     "retorno": "Solo la categoría A sirve para calificar garantías ante los bancos"
+    }
+   },
+   {
+    "tipo": "capas",
+    "titulo": "Cómo se respalda una fianza",
+    "alt": "Cuatro capas de respaldo de una fianza: contragarantías del beneficiario, capital y reserva patrimonial de la institución, fondos de garantía con aporte público y reafianzamiento.",
+    "datos": {
+     "capas": [
+      [
+       "Contragarantías del beneficiario",
+       "Prendas o hipotecas que respaldan a la institución"
+      ],
+      [
+       "Capital y reserva patrimonial",
+       "Mínimo 10.000 UF y reserva de 20 % del capital"
+      ],
+      [
+       "Fondos de garantía",
+       "Patrimonios independientes con aportes de organismos públicos"
+      ],
+      [
+       "Reafianzamiento",
+       "Garantía de segundo nivel, por ejemplo del Fondo del Pequeño Empresario"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "actores",
+    "titulo": "Quién interviene en una garantía recíproca",
+    "alt": "Mapa con la institución de garantía recíproca al centro y alrededor el beneficiario, el banco acreedor, el regulador, el auditor independiente y la entidad evaluadora.",
+    "datos": {
+     "centro": "Institución de garantía recíproca",
+     "actores": [
+      [
+       "Beneficiario",
+       "Accionista que solicita la fianza y aporta contragarantías"
+      ],
+      [
+       "Acreedor o banco",
+       "Recibe el certificado de fianza con mérito ejecutivo"
+      ],
+      [
+       "Regulador",
+       "Registra, clasifica en A o B y supervisa"
+      ],
+      [
+       "Auditor externo",
+       "Dictamina estados financieros y cumplimiento"
+      ],
+      [
+       "Entidad evaluadora",
+       "Informa dos veces al año para la categoría A"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "matriz",
+    "titulo": "Cuándo conviene una garantía recíproca",
+    "alt": "Matriz que cruza la disponibilidad de garantías propias con la solidez del negocio para mostrar cuándo conviene afianzarse con una institución de garantía recíproca.",
+    "datos": {
+     "x": "Garantías propias disponibles (prenda, hipoteca, aval)",
+     "y": "Solidez y viabilidad del negocio",
+     "cuadrantes": [
+      [
+       "Negocio sólido, sin garantías",
+       "Garantía recíproca: es el caso para el que existe."
+      ],
+      [
+       "Negocio sólido, con garantías",
+       "Usa tus garantías o un fondo de garantía estatal."
+      ],
+      [
+       "Negocio débil, sin garantías",
+       "Primero mejora el negocio; la fianza no lo arregla."
+      ],
+      [
+       "Negocio débil, con garantías",
+       "Evalúa el riesgo antes de comprometer tus bienes."
+      ]
+     ],
+     "punto": [
+      0.2,
+      0.8,
+      "SAGR"
+     ]
+    }
+   }
+  ]
  }
 ]

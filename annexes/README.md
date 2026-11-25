@@ -23,7 +23,9 @@ tributaria: confirma cada dato en la fuente citada y en el texto vigente de la l
 | 05 | [Sociedad en Comandita (simple y por acciones)](05-sociedad-en-comandita.md) | Sociedades de personas | 5.058 |
 | 06 | [Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md) | Sociedades de capital | 5.487 |
 | 07 | [Sociedad Anónima Cerrada (S.A.)](07-sociedad-anonima-cerrada.md) | Sociedades de capital | 5.176 |
-| 08 | [Sociedad Anónima Abierta (mercado de valores. CMF)](08-sociedad-anonima-abierta.md) | Sociedades de capital | 5.058 |
+| 08 | [Sociedad Anónima Abierta (mercado de valores. CMF)](08-sociedad-anonima-abierta.md) | Sociedades de capital | 5.055 |
+| 09 | [Cooperativa](09-cooperativa.md) | Régimen especial | 5.360 |
+| 10 | [Sociedad de Garantía Recíproca (SAGR y cooperativa de garantía recíproca)](10-sociedad-de-garantia-reciproca-sagr.md) | Régimen especial | 5.222 |
 
 ## Lo que dice y lo que no dice este material
 
