@@ -131,6 +131,365 @@
   ]
  },
  {
+  "n": 3,
+  "slug": "ltda",
+  "titulo": "Sociedad de Responsabilidad Limitada (Ltda.)",
+  "grupo": "sociedades-personas",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "Un siglo de sociedad limitada en Chile",
+    "alt": "Línea de tiempo: 1923 Ley 3.918 autoriza la sociedad limitada, 1997 Ley 19.499 sobre saneamiento de nulidades, 2013 Ley 20.659 permite constituirla en línea y 2026 nuevo calendario de tasas.",
+    "datos": {
+     "hitos": [
+      [
+       "1923",
+       "Ley 3.918 autoriza la sociedad limitada"
+      ],
+      [
+       "1997",
+       "Ley 19.499: saneamiento de nulidades"
+      ],
+      [
+       "2013",
+       "Ley 20.659: constitución en línea"
+      ],
+      [
+       "2026",
+       "Ley 21.850: nuevo calendario de tasas"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "Una ley de cinco artículos sigue siendo la base de miles de empresas pequeñas."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Constituir una sociedad limitada",
+    "alt": "Flujo de cinco pasos para constituir una sociedad limitada: acordar aportes y reglas, redactar la escritura con las menciones del artículo 352, firmar, inscribir y publicar en sesenta días e iniciar actividades.",
+    "datos": {
+     "pasos": [
+      "Acordar aportes, decisiones y salida",
+      "Redactar escritura (art. 352) o formulario",
+      "Firmar todos los socios",
+      "Inscribir y publicar en 60 días, o incorporar al Registro",
+      "Inicio de actividades en el SII"
+     ],
+     "retorno": "Sin inscripción oportuna hay nulidad entre los socios"
+    }
+   },
+   {
+    "tipo": "balanza",
+    "titulo": "Lo que la responsabilidad limitada cubre y lo que no",
+    "alt": "Balanza que contrasta lo que cubre la responsabilidad limitada, como las deudas sociales, con lo que no cubre, como el nombre sin la palabra limitada y los avales personales.",
+    "datos": {
+     "izq": [
+      "Lo que cubre",
+      [
+       "Deudas sociales: hasta los aportes",
+       "Acreedores personales sin acción sobre el aporte",
+       "Suma adicional pactada, si la hay"
+      ]
+     ],
+     "der": [
+      "Lo que no cubre",
+      [
+       "Nombre sin «limitada»: responsabilidad solidaria",
+       "Avales y fianzas personales",
+       "Sociedad de hecho por falta de solemnidades"
+      ]
+     ],
+     "criterio": "La protección depende del nombre, de la inscripción y de lo que firmes."
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "Cómo se decide entre socios si la escritura calla",
+    "alt": "Árbol de decisión sobre una oposición de un socio: si hay mayoría absoluta se ejecuta el acto, si no la hay los socios deben abstenerse.",
+    "datos": {
+     "q": "¿Un socio se opone a un acto que no es de mera conservación?",
+     "si": {
+      "q": "¿La mayoría numérica de socios lo aprueba?",
+      "si": "Se ejecuta: obliga a la minoría si es acto de administración o del giro",
+      "no": "Los socios deben abstenerse de ejecutarlo"
+     },
+     "no": "El administrador puede ejecutarlo dentro de sus facultades"
+    }
+   },
+   {
+    "tipo": "matriz",
+    "titulo": "Cuándo elegir sociedad limitada",
+    "alt": "Matriz que cruza el número de socios estables y la probabilidad de inversión externa para sugerir sociedad limitada, SpA o EIRL.",
+    "datos": {
+     "x": "Probabilidad de inversión externa o cambios de socios",
+     "y": "Estabilidad y confianza entre los socios",
+     "cuadrantes": [
+      [
+       "Estables pero con inversión",
+       "SpA con pacto de accionistas."
+      ],
+      [
+       "Estables y cerrados",
+       "Sociedad limitada: estructura simple."
+      ],
+      [
+       "Inestables y cerrados",
+       "Reglas de salida y arbitraje antes de constituir."
+      ],
+      [
+       "Inestables y con inversión",
+       "SpA con vesting y mecanismos de salida."
+      ]
+     ],
+     "punto": [
+      0.2,
+      0.78,
+      "Sociedad limitada"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "slug": "colectiva",
+  "titulo": "Sociedad Colectiva Comercial",
+  "grupo": "sociedades-personas",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "El tipo madre de las sociedades de personas",
+    "alt": "Línea de tiempo: 1865 Código de Comercio, 1923 Ley 3.918 que toma sus reglas como supletorias, 1997 Ley 19.499 de saneamiento y 2013 Ley 20.659 que permite constituirla en línea.",
+    "datos": {
+     "hitos": [
+      [
+       "1865",
+       "Código de Comercio regula la sociedad colectiva"
+      ],
+      [
+       "1923",
+       "Ley 3.918: la limitada la usa como derecho supletorio"
+      ],
+      [
+       "1997",
+       "Ley 19.499: saneamiento de nulidades"
+      ],
+      [
+       "2013",
+       "Ley 20.659: constitución en línea"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "Hoy se usa poco, pero sus reglas siguen vivas como régimen supletorio."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Constituir una sociedad colectiva",
+    "alt": "Flujo de cinco pasos: aceptar la responsabilidad solidaria, redactar la escritura, firmar, inscribir el extracto en sesenta días e iniciar actividades.",
+    "datos": {
+     "pasos": [
+      "Aceptar la responsabilidad solidaria e ilimitada",
+      "Redactar escritura con las doce menciones del art. 352",
+      "Firmar todos los socios",
+      "Inscribir el extracto antes de 60 días",
+      "Inicio de actividades en el SII"
+     ],
+     "retorno": "Sin inscripción oportuna hay nulidad; sin escritura, una comunidad solidaria"
+    }
+   },
+   {
+    "tipo": "capas",
+    "titulo": "Cuánto del patrimonio personal queda expuesto",
+    "alt": "Cuatro capas que muestran el orden de exposición patrimonial: aportes, bienes sociales, patrimonio personal de cada socio por solidaridad y deudas sin pacto que pueda limitarlas.",
+    "datos": {
+     "capas": [
+      [
+       "Bienes de la sociedad",
+       "Primera garantía de los acreedores sociales"
+      ],
+      [
+       "Aportes de los socios",
+       "No embargables por acreedores personales"
+      ],
+      [
+       "Patrimonio personal de cada socio",
+       "Responde solidariamente por todo (art. 370)"
+      ],
+      [
+       "Pacto de limitar",
+       "No vale frente a terceros: la solidaridad no se deroga"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "Qué hacer cuando un socio se opone",
+    "alt": "Árbol de decisión: si un socio se opone y el acto no es de mera conservación se suspende, y si no hay mayoría absoluta los socios deben abstenerse.",
+    "datos": {
+     "q": "¿Un socio se opone a un acto que no es de mera conservación?",
+     "si": {
+      "q": "¿Hay mayoría numérica de socios a favor?",
+      "si": "Se ejecuta si es acto de administración o del giro (art. 390)",
+      "no": "Los socios deben abstenerse de ejecutarlo"
+     },
+     "no": "Cualquier socio puede ejecutarlo dentro del giro (art. 387)"
+    }
+   },
+   {
+    "tipo": "matriz",
+    "titulo": "Cuándo tiene sentido una colectiva",
+    "alt": "Matriz que cruza el riesgo de la actividad con la confianza entre socios para mostrar que la colectiva solo se justifica con riesgo bajo y confianza máxima.",
+    "datos": {
+     "x": "Riesgo de deudas o daños a terceros",
+     "y": "Confianza y permanencia entre socios",
+     "cuadrantes": [
+      [
+       "Confianza alta, riesgo alto",
+       "Evita la colectiva: usa limitada o SpA."
+      ],
+      [
+       "Confianza alta, riesgo bajo",
+       "Única zona donde una colectiva puede justificarse."
+      ],
+      [
+       "Confianza baja, riesgo bajo",
+       "Limitada con pacto de salida."
+      ],
+      [
+       "Confianza baja, riesgo alto",
+       "Evita sociedades de personas hasta construir confianza."
+      ]
+     ],
+     "punto": [
+      0.15,
+      0.85,
+      "Colectiva"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "slug": "comandita",
+  "titulo": "Sociedad en Comandita (simple y por acciones)",
+  "grupo": "sociedades-personas",
+  "figuras": [
+   {
+    "tipo": "tiempo",
+    "titulo": "La comandita en el derecho chileno",
+    "alt": "Línea de tiempo: 1865 el Código de Comercio regula la comandita, 1923 Ley 3.918 crea la sociedad limitada, 2007 Ley 20.190 crea la SpA y 2013 Ley 20.659 permite constituir comanditas en línea.",
+    "datos": {
+     "hitos": [
+      [
+       "1865",
+       "Código de Comercio regula la comandita simple y por acciones"
+      ],
+      [
+       "1923",
+       "Ley 3.918: nace la sociedad limitada"
+      ],
+      [
+       "2007",
+       "Ley 20.190: nace la SpA"
+      ],
+      [
+       "2013",
+       "Ley 20.659: comanditas en línea"
+      ]
+     ],
+     "hito": 0,
+     "bajada": "La comandita convive hoy con tipos que ofrecen limitación de responsabilidad para todos los socios."
+    }
+   },
+   {
+    "tipo": "flujo",
+    "titulo": "Constituir una comandita simple",
+    "alt": "Flujo de cinco pasos: identificar gestores y comanditarios, redactar la escritura, inscribir un extracto sin los comanditarios, publicar y operar bajo la razón social del gestor.",
+    "datos": {
+     "pasos": [
+      "Identificar con claridad gestores y comanditarios",
+      "Redactar escritura (art. 352) con aportes de cada uno",
+      "Inscribir el extracto sin nombrar a los comanditarios",
+      "Operar bajo la razón social del gestor",
+      "Inicio de actividades en el SII"
+     ],
+     "retorno": "En caso de duda, la sociedad se reputa colectiva (art. 490)"
+    }
+   },
+   {
+    "tipo": "balanza",
+    "titulo": "Quién arriesga qué en una comandita",
+    "alt": "Balanza que compara al socio gestor, que administra y responde sin límite, con el socio comanditario, que aporta capital y responde hasta su aporte.",
+    "datos": {
+     "izq": [
+      "Socio gestor",
+      [
+       "Administra y firma por la sociedad",
+       "Responde indefinida y solidariamente",
+       "Su nombre figura en la razón social"
+      ]
+     ],
+     "der": [
+      "Socio comanditario",
+      [
+       "Aporta capital y no administra",
+       "Responde hasta su aporte",
+       "Su nombre no figura en el extracto"
+      ]
+     ],
+     "criterio": "El equilibrio se rompe si el comanditario administra o permite su nombre en la razón social."
+    }
+   },
+   {
+    "tipo": "actores",
+    "titulo": "Cómo se reparte el poder en una comandita por acciones",
+    "alt": "Mapa con la asamblea de accionistas al centro y alrededor los gerentes, la junta de vigilancia, los suscriptores y los socios gestores con sus funciones.",
+    "datos": {
+     "centro": "Asamblea de accionistas",
+     "actores": [
+      [
+       "Gerentes o gestores",
+       "Administran y responden sin límite"
+      ],
+      [
+       "Junta de vigilancia",
+       "Al menos tres accionistas; controla inventarios y dividendos"
+      ],
+      [
+       "Accionistas",
+       "Responden por el total de lo suscrito"
+      ],
+      [
+       "Juzgado de comercio",
+       "Designa apoderados si la asamblea no puede"
+      ],
+      [
+       "Aportes en especie",
+       "Verificados y aprobados por la asamblea"
+      ]
+     ]
+    }
+   },
+   {
+    "tipo": "arbol",
+    "titulo": "Elegir entre comandita, SpA y cuentas en participación",
+    "alt": "Árbol de decisión para elegir entre comandita, SpA con series de acciones o cuentas en participación según si el negocio es permanente y si algún socio acepta responder sin límite.",
+    "datos": {
+     "q": "¿El negocio es permanente y necesita una persona jurídica?",
+     "si": {
+      "q": "¿Algún socio acepta responder con todo su patrimonio?",
+      "si": "La comandita es posible; compárala con una SpA",
+      "no": "SpA con series de acciones o sociedad limitada"
+     },
+     "no": "Evalúa cuentas en participación: una operación puntual, sin persona jurídica"
+    }
+   }
+  ]
+ },
+ {
   "n": 6,
   "slug": "spa",
   "titulo": "Sociedad por Acciones (SpA)",

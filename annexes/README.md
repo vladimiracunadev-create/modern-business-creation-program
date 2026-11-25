@@ -1,12 +1,34 @@
 # Anexos: tipos de empresa, Empresa en un Día, SII y municipalidades
 
 Los anexos profundizan lo que las clases solo pueden introducir. Cada uno tiene **más de 5.000
-palabras**, figuras SVG propias, fuentes con enlace oficial y una sección de preguntas frecuentes.
-Son material educativo, no asesoría legal ni tributaria: confirma cada dato en la fuente citada.
+palabras**, figuras SVG propias, fuentes con enlace oficial, una lista de verificación «antes de
+construir» y una sección de preguntas frecuentes. Son material educativo, no asesoría legal ni
+tributaria: confirma cada dato en la fuente citada y en el texto vigente de la ley.
 
-## Tipos de empresa
+## Cómo leer un anexo
 
-| N.º | Anexo | Grupo |
-|---:|---|---|
-| 02 | [Empresa Individual de Responsabilidad Limitada (EIRL)](02-empresa-individual-de-responsabilidad-limitada-eirl.md) | Sin sociedad |
-| 06 | [Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md) | Sociedades de capital |
+1. **Ficha rápida:** decide en un minuto si el tipo te interesa.
+2. **Historia, marco legal y constitución:** entiende de dónde viene y qué exige la ley.
+3. **Capital, gobierno, responsabilidad y tributación:** el corazón de la decisión.
+4. **Antes de construir:** la lista de verificación y un caso trabajado.
+5. **Preguntas frecuentes y fuentes:** respuestas cortas con el artículo que las respalda.
+
+## Índice
+
+| N.º | Anexo | Grupo | Palabras |
+|---:|---|---|---:|
+| 02 | [Empresa Individual de Responsabilidad Limitada (EIRL)](02-empresa-individual-de-responsabilidad-limitada-eirl.md) | Sin sociedad | 5.156 |
+| 03 | [Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md) | Sociedades de personas | 5.062 |
+| 04 | [Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md) | Sociedades de personas | 5.060 |
+| 05 | [Sociedad en Comandita (simple y por acciones)](05-sociedad-en-comandita.md) | Sociedades de personas | 5.058 |
+| 06 | [Sociedad por Acciones (SpA)](06-sociedad-por-acciones-spa.md) | Sociedades de capital | 5.487 |
+
+## Lo que dice y lo que no dice este material
+
+- Cita artículos que se leyeron en el texto de la Biblioteca del Congreso Nacional (fecha de consulta
+  en cada anexo). Cuando un texto remite a un artículo derogado o a una unidad histórica, lo señala.
+- Los números de los ejemplos son **ilustrativos**.
+- No incluye tarifas de notarías, aranceles ni plazos de terceros: cambian y deben consultarse en la
+  fuente.
+- No existe en Chile, a la fecha de consulta, una ley de sociedades de beneficio e interés colectivo
+  (BIC); por eso no hay un anexo sobre ese tipo.
