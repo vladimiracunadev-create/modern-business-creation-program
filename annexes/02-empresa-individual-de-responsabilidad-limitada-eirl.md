@@ -466,7 +466,332 @@ contratos escritos con el titular. Si Camila las abandona, el nombre «E.I.R.L.�
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Todos los casos son **ilustrativos**: nombres y cifras inventados para practicar el razonamiento sobre los
+artículos de la Ley 19.857 y de la Ley 20.659.
+
+### Escenario 1: el titular que usa la cuenta de la empresa para gastos personales
+
+**Situación.** Andrés tiene una EIRL de reparación de electrodomésticos. Paga con la tarjeta de la empresa las
+cuentas de su casa, el colegio de sus hijos y un viaje familiar. Al cierre del año la empresa tiene 1.500.000
+pesos de utilidad contable, pero él ha retirado 6.000.000 de pesos.
+
+**Análisis.** El artículo 12 letra d) de la Ley 19.857 dice que el titular responde ilimitadamente si percibe
+rentas de la empresa que no guarden relación con la importancia de su giro o efectúa retiros que no
+correspondan a utilidades líquidas y realizables. Los 6.000.000 retirados superan en 4.500.000 las utilidades
+del año. Además, pagar gastos personales con fondos de la empresa dificulta probar la separación de
+patrimonios.
+
+**Qué puede pasar.** Si un acreedor de la empresa demuestra que los retiros no correspondían a utilidades, puede
+pedir que Andrés responda con su patrimonio personal. Tributariamente, esos retiros también deben analizarse
+con un contador.
+
+**Corrección recomendada.** Dejar de pagar gastos personales con la cuenta de la empresa; fijar un retiro
+mensual estable calculado sobre utilidades reales; regularizar por escrito lo retirado en exceso (por ejemplo,
+como préstamo del titular a la empresa que se devuelve, **cumpliendo la formalidad del art. 10**: por escrito y
+protocolizado) y consultar al contador cómo registrar la corrección.
+
+**Lección.** El nombre «E.I.R.L.» no protege por sí solo: protege la conducta ordenada.
+
+### Escenario 2: el contrato firmado sin el nombre de la empresa
+
+**Situación.** Lucía, titular de una EIRL de eventos, contrata un servicio de sonido por 3.000.000 de pesos y
+firma el contrato con su nombre y RUT personal, no con el de la empresa. Después el servicio no se paga y el
+proveedor demanda.
+
+**Análisis.** El artículo 12 letra b) establece la responsabilidad ilimitada por los actos y contratos que se
+ejecutaren **sin el nombre o representación de la empresa**. El proveedor puede perseguir los bienes de Lucía
+personalmente por esa obligación. Si Lucía alega que era un gasto de la empresa, deberá probarlo, pero el
+contrato ya la obligó a ella.
+
+**Corrección recomendada.** Firmar siempre como «Nombre de la empresa E.I.R.L., representada por Lucía…» y
+revisar que los contratos, facturas y cotizaciones lleven el nombre y RUT de la empresa. Para el contrato ya
+firmado, negociar con el proveedor una novación a nombre de la empresa, con asesoría.
+
+### Escenario 3: el giro demasiado estrecho
+
+**Situación.** Camilo constituye una EIRL con el giro «reparación de bicicletas». Dos años después comienza a
+importar repuestos y a arrendar bicicletas eléctricas a turistas.
+
+**Análisis.** El art. 12 letra a) hace responder al titular ilimitadamente por los actos y contratos efectuados
+**fuera del objeto de la empresa**. Un giro tan específico puede dejar la importación y el arriendo fuera del
+objeto, o al menos en la zona dudosa. Además, el SII exige que los giros declarados reflejen la actividad real
+(Anexo 16).
+
+**Corrección recomendada.** Modificar el objeto por el procedimiento del art. 6 (con las solemnidades de la
+constitución) o por el formulario de modificación del Registro (art. 14 de la Ley 20.659), ampliándolo con
+cláusulas como «comercialización, importación, arriendo y servicios relacionados con vehículos de movilidad
+personal», y actualizar los giros ante el SII.
+
+**Lección.** Redactar el giro con visión de futuro cuesta poco; corregirlo después cuesta tiempo y riesgo.
+
+### Escenario 4: el préstamo del titular a su empresa
+
+**Situación.** Daniela presta 5.000.000 de pesos a su EIRL para comprar inventario. No firma nada: solo hace una
+transferencia desde su cuenta personal a la de la empresa.
+
+**Análisis.** El artículo 10 dispone que los actos y contratos entre el patrimonio personal del titular y el de
+la empresa **solo tienen valor si constan por escrito y desde que se protocolizan** ante notario, y que deben
+anotarse al margen de la inscripción dentro de sesenta días. Una transferencia sin contrato escrito y
+protocolizado **no tiene valor** como préstamo frente a terceros. Si la empresa quiebra, Daniela podría no poder
+exigir su crédito en igualdad con otros acreedores.
+
+**Corrección recomendada.** Redactar un contrato de mutuo escrito, protocolizarlo y anotarlo al margen
+(en la vía tradicional) o registrar lo que corresponda según el Registro de la Ley 20.659, con asesoría.
+
+### Escenario 5: la muerte del titular
+
+**Situación.** Ricardo, titular de una EIRL de transporte, fallece de forma repentina. Sus dos hijos quieren
+seguir con el negocio.
+
+**Análisis.** La muerte del titular es causa de término (art. 15 letra e). Los herederos pueden designar un
+**gerente común** para continuar el giro **hasta por un año**, vencido el cual termina la responsabilidad
+limitada. Cualquier heredero puede declarar la terminación por escritura pública (art. 15). Los legados sobre
+bienes singulares valen y no se ven afectados por la continuación.
+
+**Ruta recomendada.** Dentro del año, los herederos deben decidir: (a) transformar la EIRL en una sociedad, cuya
+formalidad cumplen los herederos (art. 14 inc. 2) o (b) liquidar. Mientras tanto, mantener contabilidad
+separada y documentar quién es el gerente común.
+
+**Lección.** Un plan de sucesión simple (qué ocurre si falto) vale más que una discusión familiar bajo presión.
+
+### Escenario 6: llegan los socios
+
+**Situación.** Marta tiene una EIRL de diseño que crece. Un socio capitalista quiere entrar con 20 % de la
+propiedad.
+
+**Análisis.** La EIRL tiene un solo titular. Para incorporar socios debe **transformarse en una sociedad de
+cualquier tipo** cumpliendo los requisitos del tipo elegido (art. 14 inc. 2). La alternativa es **aportar el
+capital de la EIRL a una sociedad**, lo que termina la EIRL (art. 15 letra c) y hace que la sociedad responda
+de las obligaciones de la empresa, salvo que el titular declare asumirlas con su patrimonio (art. 16).
+
+**Decisión recomendada.** Evaluar una SpA (Anexo 06) por su flexibilidad para series de acciones y pacto de
+socios; redactar el estatuto con asesoría y firmar el formulario de transformación en el Registro (art. 14 de la
+Ley 20.659).
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Retirar más que las utilidades | Necesidades personales | Responsabilidad ilimitada (art. 12 d) | Retiro fijo sobre utilidades reales y regularización escrita | Escenario 1 |
+| 2 | Firmar sin el nombre de la empresa | Hábito | Responsabilidad ilimitada (art. 12 b) | Firmar siempre con la razón social | Escenario 2 |
+| 3 | Giro estrecho | Redactar para el trámite | Actos fuera del objeto (art. 12 a) | Ampliar el giro por formulario | Escenario 3 |
+| 4 | Préstamo sin contrato protocolizado | Informalidad | Sin valor frente a terceros (art. 10) | Contrato escrito y protocolizado | Escenario 4 |
+| 5 | No inscribir ni publicar en 60 días (vía escritura) | Olvido | Nulidad absoluta (art. 7) | Usar el Registro o controlar el plazo; sanear | Sección 4.3 |
+| 6 | Capital aportado solo en papel | Prisa | Responsabilidad por el aporte (art. 8) | Documentar aportes efectivos | Sección 5.1 |
+| 7 | No separar cuentas | Comodidad | Prueba débil de patrimonios separados | Cuenta propia de la empresa | Sección 6.4 |
+| 8 | Simular operaciones o deudas | Presión | Responsabilidad ilimitada (art. 12 c) | No simular; contabilidad real | Sección 7.2 |
+| 9 | Ignorar el plazo de un año tras la muerte | Duelo y desorden | Termina la responsabilidad limitada | Plan de sucesión | Escenario 5 |
+| 10 | Transformar sin revisar contratos y permisos | Apuro | Contratos a nombre equivocado | Inventario y traspaso | Anexos 06 y 15 |
+| 11 | Garantías personales sin evaluar | Presión del banco | Se reintroduce el patrimonio personal | Negociar y limitar montos | Sección 7.3 |
+| 12 | Confundir EIRL con empresa de dos personas | Informalidad | Socio «de hecho» sin protección | Constituir sociedad | Anexos 03 y 06 |
+| 13 | No actualizar poderes | Descuido | Poderes vigentes sin control | Registrar revocaciones | Sección 6.2 |
+| 14 | Mezclar la EIRL con otras sociedades sin orden | Crecimiento desordenado | Confusión de responsabilidades | Mapa de entidades y contratos | Anexo 14 |
+| 15 | No simular el efecto tributario de los retiros | No consultó | Sorpresas en la declaración anual | Simulación a cuatro años | Anexo 16 |
+
+**Uso del catálogo.** Una vez al año, repasa la lista con tu contador y deja constancia escrita de cuáles
+errores revisaste.
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Cuatro configuraciones posibles de una EIRL
+
+| Configuración | Descripción | Cuándo sirve | Riesgo principal |
+|---|---|---|---|
+| EIRL «pura» | Titular administra y opera | Negocio individual pequeño | Retiros no justificados |
+| EIRL con gerente general | El titular designa un gerente por escritura (art. 9) | Cuando el titular quiere distancia operativa | Límites de poderes mal definidos |
+| EIRL con mandatos especiales | Mandatarios para tareas definidas (art. 9) | Gestiones recurrentes | Poderes sin revocar |
+| EIRL como etapa previa a una sociedad | Se usa mientras se prueba el negocio | Emprendimientos que esperan socios | Traspaso tardío |
+
+### C.2. EIRL frente a otras formas, por escenario
+
+| Escenario | EIRL | SpA unipersonal | Persona natural |
+|---|---|---|---|
+| Un solo dueño, riesgo bajo | Posible | Posible | Suficiente |
+| Un solo dueño, riesgo medio | Recomendable | Recomendable | Insuficiente |
+| Se espera inversión | Requiere transformar | Recomendable | No aplica |
+| Cliente grande exige empresa | Cumple | Cumple | No cumple |
+| Máxima simplicidad | Media | Media | Alta |
+
+### C.3. Cuándo transformar y cuándo aportar
+
+| Opción | Efecto | Cuándo conviene |
+|---|---|---|
+| Transformar en sociedad (art. 14) | La persona jurídica continúa con otra forma | Cuando se quiere conservar contratos y permisos |
+| Aportar el capital a una sociedad (arts. 15 c y 16) | Termina la EIRL; la sociedad responde de sus obligaciones | Cuando ya existe una sociedad receptora |
+| Terminar y liquidar | Cierra la empresa | Cuando no hay continuidad |
+
+### C.4. Ideas de cláusulas internas (para conversar con tu abogado)
+
+1. **Política de retiros.** «El titular retirará mensualmente un monto fijo, revisable trimestralmente según las
+   utilidades líquidas y realizables certificadas por el contador.»
+2. **Firma.** «Todo contrato se firmará con la razón social y el RUT de la empresa; ningún contrato podrá firmarse
+   a nombre personal para negocios de la empresa.»
+3. **Operaciones con el titular.** «Cualquier operación entre el titular y la empresa constará por escrito y se
+   protocolizará antes de su ejecución.»
+4. **Poderes.** «Los poderes se revisarán cada seis meses y se revocarán por escrito los que no estén vigentes.»
+5. **Sucesión.** «En caso de fallecimiento, los herederos podrán designar un gerente común por un año; se evaluará
+   en ese plazo la transformación o liquidación.»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Qué cambia | Anexo |
+|---|---|---|
+| Quieres constituir en línea | Formulario y firma | 15 |
+| Vendrán socios | Hay que transformar o aportar | 03, 06 |
+| Contratas personal | Eres empleador | 13 |
+| Abres un local | Patente | 17 |
+| Eliges régimen | Retiros y tasas | 16 |
+| Se acerca un cierre | Término de giro | 16 |
+| Necesitas aislar riesgos en el exterior | Filial o sucursal | 14 |
+| Quieres un fin social | Alternativas sin reparto | 12 |
+
+### D.2. Mapa de obligaciones
+
+| Organismo | Obligación | Sección |
+|---|---|---|
+| Registro o notaría | Constitución, modificaciones y poderes | 4 y 6 |
+| SII | RUT, inicio de actividades, documentos y retiros | 8 |
+| Municipalidad | Patente a nombre de la EIRL | 9 |
+| Dirección del Trabajo | Obligaciones de empleador | 9 |
+| Tribunales | Nulidad, saneamiento y ejecución | 4 y 7 |
+
+### D.3. Clases del programa
+
+- [Parte 5, clase 2: EIRL, cuándo sirve y cuándo limita](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-02-eirl-cuando-sirve-y-cuando-limita/README.md)
+- [Parte 5, clase 1: persona natural versus persona jurídica](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-01-persona-natural-versus-persona-juridica/README.md)
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+- [Parte 6, clase 2: «tu empresa en un día», flujo completo](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-02-tu-empresa-en-un-dia-flujo-completo/README.md)
+- [Parte 6, clase 12: transformación, fusión y división](../curriculum/part-06-constitucion-formal-de-la-empresa-en-chile/class-12-transformacion-fusion-y-division/README.md)
+- [Parte 22, clase 10: disolución societaria](../curriculum/part-22-venta-sucesion-transformacion-y-cierre/class-10-disolucion-societaria/README.md)
+
+### D.4. Hilos que se conectan en una EIRL
+
+1. **Patrimonio y contratos:** el art. 10 conecta lo que pasa entre titular y empresa con la validez de cada
+   acto.
+2. **Retiros y tributación:** el art. 12 d) conecta los retiros con la responsabilidad y, a la vez, con lo que
+   declararás ante el SII.
+3. **Poderes y representación:** el art. 9 conecta quién firma con qué obliga a la empresa.
+4. **Transformación y sucesión:** los arts. 14 y 15 conectan el crecimiento y el fallecimiento con la
+   continuidad.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días para una EIRL nueva
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 10 | Redactar giro, capital y nombre; verificar disponibilidad | Titular y abogado | Borrador del formulario |
+| Días 11 a 20 | Firmar y obtener RUT; solicitar inicio de actividades | Titular | Certificado de la Subsecretaría |
+| Días 21 a 30 | Abrir cuenta bancaria; contratar seguros; patente | Titular | Cuenta y póliza |
+| Días 31 a 60 | Ordenar contratos a nombre de la empresa; política de retiros | Titular y contador | Política firmada |
+| Días 61 a 90 | Primera revisión de retiros y régimen tributario | Contador | Memo de revisión |
+
+### E.2. Lista de control de la separación de patrimonios
+
+| Ítem | Sí | No |
+|---|---|---|
+| Cuenta bancaria exclusiva de la empresa | | |
+| Contratos y facturas a nombre de la empresa | | |
+| Retiros calculados sobre utilidades | | |
+| Contratos titular-empresa protocolizados | | |
+| Inventario de bienes aportados con valores | | |
+| Poderes vigentes y revisados | | |
+| Seguros contratados | | |
+
+### E.3. Modelo de acta de decisión del titular
+
+| Campo | Contenido |
+|---|---|
+| Fecha | |
+| Decisión | |
+| Fundamento | |
+| Impacto en caja | |
+| Riesgos | |
+| Documentos de respaldo | |
+
+### E.4. Lista para el cierre o la transformación
+
+1. Inventario de activos, pasivos, contratos y permisos.
+2. Revisión de poderes vigentes.
+3. Cálculo de utilidades retirables.
+4. Plan de comunicación a clientes, proveedores y trabajadores.
+5. Elección del procedimiento (transformación, aporte o término).
+6. Formularios y escrituras requeridos.
+7. Actualización del SII y de la municipalidad.
+8. Archivo de los documentos por el plazo que indique tu contador.
+
+## 18. Autoevaluación
+
+1. ¿Cuántos titulares puede tener una EIRL?
+2. ¿Qué puede ser titular de una EIRL: persona natural o jurídica?
+3. ¿Qué artículo fija la responsabilidad limitada y cuál enumera las excepciones?
+4. ¿Cuáles son las cinco excepciones del art. 12?
+5. ¿Qué exige el art. 10 para los contratos entre el titular y la empresa?
+6. ¿Qué plazo hay para inscribir y publicar el extracto en la vía tradicional?
+7. ¿Qué ocurre si se omiten las solemnidades de los arts. 4, 5 y 6?
+8. ¿Qué pueden hacer los herederos tras la muerte del titular?
+9. ¿Qué es mejor para recibir socios: transformar o aportar?
+10. ¿Qué derecho tienen los acreedores personales del titular sobre los bienes de la empresa?
+11. ¿Se puede constituir una EIRL en línea?
+12. ¿Qué prácticas protegen la separación de patrimonios?
+
+**Respuestas.**
+
+1. Uno solo.
+2. Una persona natural (art. 1).
+3. El art. 8 fija la regla; el art. 12, las excepciones.
+4. Actos fuera del objeto; actos sin el nombre o representación de la empresa; actos simulados, ocultamiento de
+   bienes o deudas supuestas; rentas o retiros sin relación con el giro o con utilidades líquidas y realizables;
+   condena por delitos concursales.
+5. Constar por escrito y protocolizarse, y anotarse al margen dentro de sesenta días (art. 10).
+6. Sesenta días desde la fecha de la escritura (art. 5).
+7. Nulidad absoluta del acto respectivo; si afecta al acto constitutivo, responsabilidad personal e ilimitada
+   (art. 7).
+8. Designar un gerente común hasta por un año; después termina la responsabilidad limitada (art. 15).
+9. Depende: transformar conserva la persona jurídica; aportar termina la EIRL y la sociedad responde de sus
+   obligaciones, salvo declaración del titular (arts. 14 a 16).
+10. No tienen acción sobre los bienes de la empresa; solo sobre utilidades y remanente (art. 13).
+11. Sí, por el Registro de Empresas y Sociedades (art. 2 N.º 1 de la Ley 20.659).
+12. Cuenta propia, firma con razón social, retiros sobre utilidades, contratos protocolizados y registros
+    ordenados.
+
+**Puntaje.** Diez o más: dominas el tipo. Seis a nueve: repasa las secciones 4, 5 y 7. Menos de seis: relee el
+anexo y los escenarios.
+
+## 19. Mapa de artículos de la Ley 19.857
+
+Una lectura artículo por artículo, con la pregunta práctica que cada uno responde. Sirve para volver al texto
+legal con un criterio de búsqueda.
+
+| Art. | Contenido | Pregunta práctica |
+|---:|---|---|
+| 1 | Autoriza a toda persona natural a establecer EIRL | ¿Puedo ser titular? Sí, si soy persona natural |
+| 2 | Persona jurídica con patrimonio propio; siempre comercial; no puede hacer lo reservado a anónimas | ¿Qué puede hacer la EIRL? Operaciones civiles y comerciales, salvo las reservadas a anónimas |
+| 3 | Constitución por escritura pública, con inscripción y publicación | ¿Cómo se constituye por la vía tradicional? |
+| 4 | Contenido de la escritura: datos del titular, nombre, capital, giro, domicilio y plazo | ¿Qué debo decidir antes de escribir? |
+| 5 | Extracto inscrito y publicado dentro de sesenta días | ¿Cuánto tiempo tengo para inscribir y publicar? |
+| 6 | Las modificaciones siguen las mismas solemnidades | ¿Cómo cambio el giro o el nombre? |
+| 7 | Nulidad absoluta por omitir solemnidades | ¿Qué riesgo corro si me olvido de un trámite? |
+| 8 | La empresa responde por las obligaciones de su giro; el titular, solo del pago efectivo de su aporte | ¿Cuál es la regla de la responsabilidad limitada? |
+| 9 | Administración por el titular; gerente general y mandatos por escritura | ¿Quién puede firmar por la empresa? |
+| 10 | Contratos entre titular y empresa: por escrito y protocolizados; delito agravado | ¿Qué hago si le presto dinero a mi empresa? |
+| 11 | Utilidades retiradas pasan al patrimonio personal | ¿Qué ocurre con lo que retiro? |
+| 12 | Cinco casos de responsabilidad ilimitada | ¿Cuándo pierdo la protección? |
+| 13 | Los acreedores personales del titular no tienen acción sobre los bienes de la empresa | ¿Pueden embargar los bienes de mi empresa por mis deudas personales? |
+| 14 | Transformación de sociedad en EIRL (treinta días) y de EIRL en sociedad | ¿Cómo entran socios o cómo paso de sociedad a EIRL? |
+| 15 | Causas de término: voluntad, plazo, aporte a sociedad, liquidación y muerte | ¿Cómo termina una EIRL? |
+| 16 | Aporte a una sociedad: la sociedad responde de las obligaciones, salvo declaración del titular | ¿Qué pasa con las deudas si aporto la EIRL a una sociedad? |
+| 17 | Adjudicatario único de la liquidación puede continuar | ¿Se puede seguir tras una liquidación? |
+| 18 | Aplicación supletoria de las normas de las sociedades de responsabilidad limitada y de saneamiento | ¿Qué rige si la ley no dice nada? |
+
+**Cómo usar el mapa.** Cuando tengas una duda concreta, busca el artículo en el texto de la Biblioteca del Congreso
+Nacional, léelo completo y compáralo con lo que este anexo resume. Si el texto cambió, el texto manda.
+
+## 20. Preguntas frecuentes
 
 **1. ¿Una EIRL puede tener socios?**
 No. Es una empresa de un solo titular, persona natural (arts. 1 y 2). Si quieres socios, debes
@@ -545,7 +870,80 @@ un contador y a un abogado laboral.
 Se aplican las normas de liquidación. La resolución de liquidación es causa de término (art. 15 letra d),
 y el adjudicatario único puede continuar como titular con las formalidades del art. 6 (art. 17).
 
-## 14. Fuentes y vigencia
+**21. ¿Puedo cambiar el nombre de la EIRL?**
+Sí, modificando las menciones del art. 4 con las solemnidades del art. 3 y publicando el extracto con el contenido
+específico de la modificación (art. 6). En el Registro de la Ley 20.659 se hace con el formulario de modificación.
+
+**22. ¿Puedo cambiar el giro?**
+Sí, por el mismo procedimiento de modificación, y debes actualizar los giros ante el SII (Anexo 16).
+
+**23. ¿La EIRL puede tener trabajadores?**
+Sí. La empresa es el empleador y debe cumplir las obligaciones laborales y previsionales.
+
+**24. ¿Puedo ser titular de dos EIRL?**
+La Ley 19.857 no contiene una prohibición expresa en el texto revisado, pero cada EIRL exige su propia
+constitución, contabilidad y separación. Consulta a un abogado ante combinaciones complejas.
+
+**25. ¿La EIRL tiene capital mínimo?**
+No. Debes declarar el capital que transfieres y que sea efectivo (arts. 4 letra c y 8).
+
+**26. ¿Puedo aportar un vehículo como capital?**
+Sí, indicando su valor; las formalidades del traspaso del bien deben cumplirse al enterar el aporte (art. 8 de la
+Ley 20.659).
+
+**27. ¿Quién firma por la EIRL?**
+El titular, o el gerente o mandatario con poderes escriturados e inscritos (art. 9).
+
+**28. ¿Qué pasa si el gerente excede sus facultades?**
+Los actos fuera de sus facultades pueden no obligar a la empresa y generar responsabilidad del gerente. Define los
+poderes con precisión.
+
+**29. ¿Qué es la nulidad absoluta del art. 7?**
+Es la sanción por omitir las solemnidades de constitución, extracto o modificación; si afecta al acto constitutivo,
+el titular responde personalmente por lo que contraiga en el giro, sin perjuicio del saneamiento.
+
+**30. ¿Se puede sanear una EIRL mal constituida?**
+Sí, con los mecanismos de saneamiento (Ley 19.499 y, en el Registro, art. 16 de la Ley 20.659).
+
+**31. ¿Puedo vender mi EIRL?**
+La EIRL es una persona jurídica con un titular; para venderla se suele transferir el negocio o transformarla en una
+sociedad donde el comprador entre. Evalúa con un abogado la forma más segura.
+
+**32. ¿La EIRL paga IVA?**
+Si realiza operaciones afectas, sí, como cualquier contribuyente (Anexo 16).
+
+**33. ¿Cómo tributa el retiro del titular?**
+Depende del régimen y de la situación personal del titular; simula con un contador antes de decidir.
+
+**34. ¿Puedo tener un socio «de palabra»?**
+Es riesgoso: una EIRL no admite socios, y un acuerdo verbal puede dar origen a una sociedad de hecho con
+responsabilidad solidaria. Constituye una sociedad.
+
+**35. ¿Qué pasa si el titular es declarado en liquidación?**
+La resolución de liquidación es causa de término (art. 15 letra d); el adjudicatario único puede continuar como
+titular con las formalidades del art. 6 (art. 17).
+
+**36. ¿Mis acreedores personales pueden embargar mis utilidades?**
+Pueden accionar contra los beneficios o utilidades que correspondan al titular y sobre el remanente tras pagar a
+los acreedores de la empresa (art. 13).
+
+**37. ¿La EIRL debe llevar libro de actas?**
+El texto no lo exige para una empresa de un titular; aun así, un registro de decisiones relevantes es una buena
+práctica.
+
+**38. ¿Puedo cambiar de EIRL a SpA sin perder el RUT?**
+La transformación conserva la persona jurídica; consulta al abogado el efecto concreto sobre el RUT y los
+contratos, y sigue el formulario de transformación (art. 14 de la Ley 20.659).
+
+**39. ¿Qué pasa si mi EIRL tiene deudas y quiero cerrar?**
+Las deudas del giro se pagan con los bienes de la empresa; el titular no responde más allá de su aporte, salvo los
+casos del art. 12. Si los bienes no alcanzan, evalúa la liquidación con un abogado.
+
+**40. ¿Cuándo debo pedir ayuda profesional?**
+Al redactar el giro y el estatuto, antes de firmar contratos entre tú y tu empresa, al elegir régimen, ante una
+transformación o el fallecimiento del titular, y siempre que dudes de un retiro. Ver la sección 12.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

@@ -26,13 +26,14 @@ fuente citada y en el texto vigente de la ley.
 | Una empresa extranjera quiere operar en Chile | 14 o una filial (06 o 07) |
 | Ya elegí el tipo y quiero constituirla | 15, 16 y 17 |
 | Soy pyme y busco trámites más simples | 13, 17 y 16 |
+| Necesito una dirección: oficina virtual, coworking, casa o local | 18, luego 16 y 17 |
 
 ## Índice
 
 | N.º | Anexo | Qué encontrarás | Grupo | Palabras |
 |---:|---|---|---|---:|
-| 01 | [Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md) | Persona natural que trabaja por cuenta propia: cómo se formaliza ante el SII y la municipalidad, qué categoría tributaria le corresponde y por qué responde con todos sus bienes. | Sin sociedad | 5.272 |
-| 02 | [Empresa Individual de Responsabilidad Limitada (EIRL)](02-empresa-individual-de-responsabilidad-limitada-eirl.md) | Empresa individual de responsabilidad limitada: un solo titular con patrimonio de empresa separado, sus cinco casos de responsabilidad ilimitada y cómo transformarla. | Sin sociedad | 5.422 |
+| 01 | [Persona natural con giro y trabajador independiente](01-persona-natural-con-giro-y-trabajador-independiente.md) | Persona natural que trabaja por cuenta propia: cómo se formaliza ante el SII y la municipalidad, qué categoría tributaria le corresponde y por qué responde con todos sus bienes. | Sin sociedad | 9.719 |
+| 02 | [Empresa Individual de Responsabilidad Limitada (EIRL)](02-empresa-individual-de-responsabilidad-limitada-eirl.md) | Empresa individual de responsabilidad limitada: un solo titular con patrimonio de empresa separado, sus cinco casos de responsabilidad ilimitada y cómo transformarla. | Sin sociedad | 9.187 |
 | 03 | [Sociedad de Responsabilidad Limitada (Ltda.)](03-sociedad-de-responsabilidad-limitada-ltda.md) | Sociedad de responsabilidad limitada: la sociedad de personas más usada por pymes, con tope de 50 socios, reglas supletorias de la colectiva y salida de socios por modificación de escritura. | Sociedades de personas | 5.283 |
 | 04 | [Sociedad Colectiva Comercial](04-sociedad-colectiva-comercial.md) | Sociedad colectiva comercial: el tipo madre de las sociedades de personas, con responsabilidad solidaria que no se puede pactar en contrario. | Sociedades de personas | 5.282 |
 | 05 | [Sociedad en Comandita (simple y por acciones)](05-sociedad-en-comandita.md) | Sociedad en comandita, simple y por acciones: gestores que administran y responden sin límite, y comanditarios que aportan capital y responden hasta su aporte. | Sociedades de personas | 5.262 |
@@ -47,7 +48,8 @@ fuente citada y en el texto vigente de la ley.
 | 14 | [Sucursal o agencia de sociedad extranjera](14-sucursal-o-agencia-de-sociedad-extranjera.md) | Sucursal o agencia de una sociedad extranjera: presencia en Chile sin crear persona jurídica, con la matriz respondiendo con todos sus bienes. | Otras formas | 5.314 |
 | 15 | [Empresa en un Día: el Registro de Empresas y Sociedades](15-empresa-en-un-dia-registro-de-empresas-y-sociedades.md) | Empresa en un Día: el Registro de Empresas y Sociedades de la Ley 20.659, con formulario, firma electrónica, RUT automático y registros de accionistas y poderes. | Trámites e instituciones | 5.392 |
 | 16 | [Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) | Servicio de Impuestos Internos: RUT, inicio de actividades, documentos electrónicos, IVA, Registro de Compras y Ventas, ciclo mensual y anual y término de giro. | Trámites e instituciones | 5.327 |
-| 17 | [Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md) | Municipalidades: patente comercial, zonificación, patente provisoria y sanciones, con el orden correcto de los permisos para abrir un local. | Trámites e instituciones | 5.239 |
+| 17 | [Municipalidades: patente comercial, zonificación y permisos locales](17-municipalidades-patentes-y-permisos-locales.md) | Municipalidades: patente comercial, zonificación, patente provisoria y sanciones, con el orden correcto de los permisos para abrir un local. | Trámites e instituciones | 5.277 |
+| 18 | [Domicilio, oficinas virtuales, coworking y otras formas de ubicar tu empresa](18-domicilio-oficinas-virtuales-y-coworking.md) | Cada forma de ubicar tu empresa explicada: casa habitación, microempresa familiar, local propio o arrendado, comodato, oficina virtual, coworking, sucursales, y cómo se acredita el domicilio ante el SII. | Trámites e instituciones | 10.261 |
 
 ## Matriz comparativa de las formas jurídicas
 

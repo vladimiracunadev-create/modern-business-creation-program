@@ -16,13 +16,19 @@ FAQ_MINIMAS = 15
 # Los anexos 1 a 14 describen un tipo de empresa y comparten estructura; los demás
 # (empresa en un día, SII, municipalidades) describen un trámite o una institución.
 ULTIMO_TIPO_DE_EMPRESA = 14
-SECCIONES_TIPO = (
+SECCIONES_BASE = (
     "Ficha rápida", "Historia y evolución", "Marco legal", "Cómo se constituye",
     "Capital, aportes y propiedad", "Administración y gobierno", "Responsabilidad", "Tributación",
     "Obligaciones laborales, contables y sectoriales", "Antes de construir: lista de verificación",
-    "Cuándo conviene y cuándo no", "Cuándo llamar a un profesional", "Preguntas frecuentes",
-    "Fuentes y vigencia",
+    "Cuándo conviene y cuándo no", "Cuándo llamar a un profesional",
 )
+SECCIONES_AMPLIACION = (
+    "Escenarios resueltos", "Catálogo de errores y cómo corregirlos", "Alternativas y variantes de diseño",
+    "Vinculación con otros anexos y con las clases", "Plantillas y listas de trabajo", "Autoevaluación",
+)
+SECCIONES_FINALES = ("Preguntas frecuentes", "Fuentes y vigencia")
+# Anexos ya ampliados (seis secciones de profundización antes de las preguntas frecuentes).
+EXTENDIDOS = {1, 2}
 
 
 def palabras(texto: str) -> int:
@@ -48,13 +54,19 @@ class AnexosTest(unittest.TestCase):
             with self.subTest(anexo=archivo.name):
                 self.assertGreaterEqual(palabras(archivo.read_text(encoding="utf-8")), PALABRAS_MINIMAS)
 
-    def test_los_tipos_de_empresa_tienen_las_14_secciones(self) -> None:
+    def test_los_tipos_de_empresa_tienen_la_estructura_comun(self) -> None:
         for archivo in self.archivos:
             if self.numero(archivo) > ULTIMO_TIPO_DE_EMPRESA:
                 continue
-            titulos = re.findall(r"^## \d+\. (.+)$", archivo.read_text(encoding="utf-8"), re.M)
+            titulos = tuple(re.findall(r"^## \d+\. (.+)$", archivo.read_text(encoding="utf-8"), re.M))
             with self.subTest(anexo=archivo.name):
-                self.assertEqual(tuple(titulos), SECCIONES_TIPO)
+                self.assertEqual(titulos[:len(SECCIONES_BASE)], SECCIONES_BASE)
+                self.assertEqual(titulos[-2:], SECCIONES_FINALES)
+                medio = titulos[len(SECCIONES_BASE):-2]
+                if self.numero(archivo) in EXTENDIDOS:
+                    self.assertEqual(medio[:len(SECCIONES_AMPLIACION)], SECCIONES_AMPLIACION)
+                else:
+                    self.assertEqual(medio, ())
 
     def test_todos_traen_preguntas_frecuentes_y_fuentes(self) -> None:
         for archivo in self.archivos:
@@ -101,11 +113,11 @@ class AnexosTest(unittest.TestCase):
             with self.subTest(anexo=anexo["slug"]):
                 self.assertTrue(all(a != b for a, b in zip(tipos, tipos[1:])), tipos)
 
-    def test_estan_los_17_anexos_previstos(self) -> None:
-        """01 a 14 son tipos de empresa; 15 a 17 son Empresa en un Día, SII y municipalidades."""
-        self.assertEqual({self.numero(p) for p in self.archivos}, set(range(1, 18)))
+    def test_estan_los_18_anexos_previstos(self) -> None:
+        """01 a 14 son tipos de empresa; 15 a 18 son Empresa en un Día, SII, municipalidades y domicilio."""
+        self.assertEqual({self.numero(p) for p in self.archivos}, set(range(1, 19)))
         palabras_clave = {
-            15: "empresa-en-un-dia", 16: "servicio-de-impuestos-internos", 17: "municipalidades",
+            15: "empresa-en-un-dia", 16: "servicio-de-impuestos-internos", 17: "municipalidades", 18: "domicilio-oficinas-virtuales",
         }
         for numero, clave in palabras_clave.items():
             with self.subTest(anexo=numero):

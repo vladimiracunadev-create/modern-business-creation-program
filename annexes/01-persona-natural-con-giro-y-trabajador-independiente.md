@@ -479,7 +479,390 @@ alcanzar a la nueva empresa. Consulta a un abogado antes de mover bienes.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Los escenarios siguientes aplican lo visto en las secciones anteriores. Son **casos ilustrativos**: los
+nombres y los números son inventados y sirven para practicar el razonamiento, no para fijar cifras.
+
+### Escenario 1: la diseñadora que factura a empresas
+
+**Situación.** Valentina es diseñadora gráfica. Trabaja desde su casa para cuatro empresas y emite boletas de
+honorarios por unos 2.000.000 de pesos al mes. Una de las empresas le propone un contrato por un año con
+exclusividad parcial.
+
+**Preguntas que debe hacerse.**
+
+1. ¿Su ingreso es por honorarios (profesión u ocupación lucrativa) o tiene un giro comercial? Como presta un
+   servicio personal, hoy tributa en Segunda Categoría (art. 42 N.º 2 de la Ley de la Renta).
+2. ¿Quién retiene? Las empresas obligadas a llevar contabilidad retienen a cuenta del impuesto (art. 74 N.º 2);
+   el texto consultado fija una tasa provisional de 17 %, pero la tasa tiene calendario transitorio.
+3. ¿Qué pasa si crece? Si empieza a contratar ayudantes o a vender productos (por ejemplo, plantillas con
+   licencia), su actividad puede pasar a tener giro y a quedar en Primera Categoría.
+
+**Análisis.** Valentina no necesita constituir una empresa para seguir facturando honorarios. Lo que sí debe
+hacer es **ordenar su situación**: declarar el inicio de actividades dentro de dos meses desde que empezó a
+ejercer (art. 68 del Código Tributario), pagar la patente única de profesional de una UTM en la comuna donde
+tiene su estudio (art. 32 del DL 3.063) y separar sus cuentas.
+
+**Decisión recomendada.** Mantenerse como persona natural, **contratar un seguro de responsabilidad
+profesional** si sus trabajos pueden causar daños económicos a sus clientes, y fijar en sus contratos un tope
+de responsabilidad por escrito. Evaluar una EIRL o una SpA unipersonal **cuando** contrate personal, emita
+facturas por ventas de productos o su riesgo contractual supere su tolerancia.
+
+**Errores a evitar.** Aceptar la exclusividad sin pagar por ella (puede configurar subordinación), no registrar
+la retención de cada cliente (afecta su declaración anual) y firmar contratos que la hagan responsable de
+perjuicios ilimitados.
+
+**Cifras ilustrativas.** Con 24.000.000 de pesos de ingresos brutos al año y una retención del 17 %, sus
+clientes retienen 4.080.000 pesos a cuenta de su impuesto anual. Si su impuesto anual resulta menor, tendrá
+devolución; si resulta mayor, deberá pagar la diferencia. El resultado depende de sus gastos aceptados y de su
+situación personal: lo calcula su contador.
+
+### Escenario 2: la tienda desde la casa
+
+**Situación.** Rodrigo vende conservas artesanales desde el living de su casa, con ayuda de su pareja y de una
+persona externa a la familia que trabaja medio día. Sus ventas anuales son de unos 18.000.000 de pesos y sus
+activos productivos (cocina, envases, balanza) no pasan de 1.500.000 pesos.
+
+**Preguntas.**
+
+1. ¿Es una microempresa familiar? El art. 26 del DL 3.063 exige tres cosas: actividad en la casa habitación
+   familiar, no más de cinco trabajadores ajenos a la familia y activos productivos sin contar el inmueble que
+   no excedan de 1.000 UF. Rodrigo cumple las tres con holgura.
+2. ¿Qué actividades quedan excluidas? Las peligrosas, contaminantes o molestas. Una cocina doméstica de
+   conservas puede ser sanitariamente sensible: debe respetar el Reglamento Sanitario de los Alimentos, que el
+   propio art. 26 menciona.
+3. ¿Qué debe presentar? Inscripción en la municipalidad con una declaración jurada de que es legítimo ocupante
+   de la vivienda y de que su actividad no produce contaminación. Si vive en un condominio, necesita la
+   autorización del Comité de Administración.
+
+**Análisis.** Rodrigo puede beneficiarse del régimen de microempresa familiar, pero **no queda libre de
+obligaciones sanitarias ni tributarias**. Debe declarar el inicio de actividades, emitir documentos y declarar
+IVA si sus ventas están afectas. Además, es **microempresa según la Ley 20.416** (menos de 2.400 UF de
+ingresos anuales), lo que le abre otros beneficios (Anexo 13).
+
+**Decisión recomendada.** Formalizar como persona natural con giro, inscribirse como microempresa familiar y
+**pedir una asesoría sanitaria** antes de crecer. Si su volumen o su riesgo aumentan (por ejemplo, venta a
+supermercados), conviene una EIRL o una SpA y un local con permisos completos.
+
+**Errores a evitar.** Vender sin boleta, dar por hecho que «microempresa familiar» exime de lo sanitario, y
+mezclar el dinero del hogar con el del negocio.
+
+### Escenario 3: el «independiente» que trabaja para un solo cliente
+
+**Situación.** Matías es programador. Firma un contrato de honorarios con una empresa, trabaja en sus oficinas
+de lunes a viernes de 9 a 18, usa su correo corporativo, recibe instrucciones de un jefe y no puede atender a
+otros clientes. Lleva dieciocho meses así.
+
+**Análisis.** La ley laboral califica la relación por los **hechos** (subordinación y dependencia), no por el
+nombre del contrato. Si los hechos muestran subordinación, la relación podría ser laboral aunque el papel diga
+«honorarios». Para Matías hay un riesgo doble: si es empleado encubierto, pierde cotizaciones, vacaciones e
+indemnizaciones; para la empresa, el riesgo es de sanciones y cobros. Este anexo **no resuelve** el caso
+(requiere análisis laboral), pero sí enseña la **alerta temprana**.
+
+**Señales de alerta** (marca las que apliquen): horario fijo impuesto; jefe que da órdenes; herramientas de la
+empresa; exclusividad; pago periódico fijo como sueldo; imposibilidad de subcontratar a otro.
+
+**Decisión recomendada.** Consultar a un abogado laboral **antes** de firmar o renovar. Alternativas: (a)
+convertir la relación en un contrato de trabajo, (b) rediseñar el servicio por entregables con autonomía real,
+(c) constituir una persona jurídica que preste el servicio con sus propios medios, si los hechos lo permiten.
+
+**Errores a evitar.** Firmar «por conveniencia tributaria» sin entender el riesgo; no guardar evidencia de
+autonomía (correos, entregables, facturación a otros clientes).
+
+### Escenario 4: la deuda que llega a la casa
+
+**Situación.** Carolina tiene un taller de costura como persona natural. Una proveedora le demanda por
+8.000.000 de pesos. Carolina tiene un vehículo, ahorros de 3.000.000 y una vivienda.
+
+**Análisis.** Según el art. 2465 del Código Civil, la obligación personal da al acreedor el derecho de
+perseguir **todos los bienes raíces o muebles del deudor**, presentes o futuros, salvo los no embargables. Si
+los bienes no alcanzan para todos los acreedores, se paga **a prorrata**, salvo las causas de preferencia, que
+son solo el privilegio y la hipoteca (arts. 2469 y 2470). Por eso **no importa** que la deuda sea «del taller»:
+todo su patrimonio embargable queda expuesto.
+
+**Preguntas útiles.** ¿Qué bienes son inembargables según la ley (consulta a un abogado, la lista es técnica)?
+¿Existe una hipoteca anterior sobre su vivienda que tendría preferencia? ¿Cuáles son los plazos del juicio?
+
+**Decisión recomendada.** Buscar un **acuerdo de pago** antes de la ejecución, con asesoría. A futuro, evaluar
+una estructura con responsabilidad limitada **sin mover bienes para eludir deudas existentes**: un traspaso
+dirigido a evitar el pago puede ser impugnado.
+
+**Errores a evitar.** Vender bienes a familiares «para protegerlos» una vez iniciada la demanda; ignorar las
+notificaciones; firmar nuevos avales.
+
+### Escenario 5: de persona natural a EIRL, paso a paso
+
+**Situación.** Pablo repara computadores como persona natural hace tres años, tiene dos empleados y quiere
+firmar un contrato con una cadena de tiendas que le exige estar constituido como empresa.
+
+**Ruta.** Pablo evalúa EIRL y SpA unipersonal (Anexos 02 y 06). Elige EIRL por simplicidad. Sigue la secuencia
+de la sección 10.6: inventario de bienes con valor, redacción del giro amplio, constitución por el Registro
+de Empresas y Sociedades (Anexo 15), traspaso de contratos, actualización ante el SII y la municipalidad,
+término de giro como persona natural y separación de cuentas.
+
+**Puntos finos.**
+
+- El **aporte** de las herramientas debe ser efectivo y con valor documentado (art. 8 de la Ley 19.857).
+- Los **contratos entre Pablo y su EIRL** (por ejemplo, arriendo de una bodega que es suya) deben constar por
+  escrito y protocolizarse (art. 10 de la Ley 19.857).
+- Los **trabajadores** deben recibir un traspaso formal del empleador: pregunta a un abogado laboral cómo
+  hacerlo sin perder antigüedad.
+- La **patente** y los permisos se solicitan a nombre de la EIRL (Anexo 17).
+
+**Resultado esperado.** Una empresa con patrimonio separado, contratos a su nombre y contabilidad propia.
+
+### Escenario 6: el profesional que también vende productos
+
+**Situación.** Ignacio es kinesiólogo (honorarios) y comienza a vender suplementos y aparatos de ejercicio en
+su consulta.
+
+**Análisis.** Sus honorarios siguen siendo de Segunda Categoría; la venta de productos es una actividad de
+comercio que puede quedar en Primera Categoría y afecta a IVA (arts. 8 y 14 del DL 825). Mezclar ambas sin
+orden genera problemas: ¿qué documento emite en cada caso?, ¿cómo separa costos?, ¿cómo declara?
+
+**Decisión recomendada.** Consultar a su contador si conviene **separar las actividades** (por ejemplo, una
+sociedad para la venta de productos y mantener los honorarios como persona natural) y emitir el documento
+correcto en cada operación. Revisar además las normas sanitarias de venta de dispositivos.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+La tabla ordena los errores por **causa**, **consecuencia** y **corrección**. La columna «Dónde ver más» remite
+al anexo o a la sección que lo desarrolla.
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Vender sin declarar el inicio de actividades | «Es solo al comienzo» | No puedes emitir documentos; riesgo de sanciones | Declarar de inmediato y consultar a un contador cómo regularizar | Sección 4.3; Anexo 16 |
+| 2 | Elegir códigos de actividad por aproximación | Prisa | Documentos limitados o régimen equivocado | Revisar giros con el contador y actualizar ante el SII | Anexo 16 |
+| 3 | Mezclar cuentas personales y del negocio | Comodidad | Contabilidad confusa; defensa débil ante el SII | Abrir una cuenta separada y registrar traspasos | Sección 6.1 |
+| 4 | No considerar la retención de honorarios | No lo calculó en el flujo | Caja menor a la esperada | Proyectar ingreso líquido y declaración anual | Sección 8.2 |
+| 5 | Contrato de honorarios con subordinación | Conveniencia | Posible relación laboral encubierta | Asesoría laboral y rediseño del contrato | Escenario 3 |
+| 6 | No pagar patente o pagarla en la comuna equivocada | Desconocimiento | Multas y clausura | Consultar a la municipalidad y regularizar | Anexo 17 |
+| 7 | Firmar avales sin evaluar | Presión del banco o del cliente | Compromete todo el patrimonio | Negociar alternativas y límites | Sección 7.4 |
+| 8 | No contratar seguros | Costo percibido | Daños no cubiertos | Cotizar responsabilidad civil y bienes | Sección 7.4 |
+| 9 | Cerrar «de hecho» | Falta de ventas | Obligaciones tributarias continúan | Aviso de término de giro con balance | Anexo 16 |
+| 10 | Mover bienes tras una demanda | Miedo | Impugnación del traspaso | Acuerdo de pago con asesoría | Escenario 4 |
+| 11 | No llevar registros | «Es un negocio pequeño» | Imposible respaldar gastos | Rutina semanal de registro | Sección 9.6 |
+| 12 | Superar tramos sin recalcular el tamaño | Falta de control | Pérdida de beneficios o exclusión | Recalcular cada año | Anexo 13 |
+| 13 | Ignorar normas sanitarias en alimentos | Creer que «microempresa» exime | Clausura o multas | Autorización sanitaria y asesoría | Escenario 2 |
+| 14 | Operar con socio sin constituir sociedad | Informalidad | Sociedad de hecho con responsabilidad solidaria | Constituir la sociedad | Anexos 03, 06 y 15 |
+| 15 | Postergar el paso a una persona jurídica | Costo percibido | Una deuda grande llega tarde | Plan de transición en diez pasos | Sección 10.6 |
+
+**Cómo usar el catálogo.** Antes de cada trimestre, recorre la tabla y marca los errores que podrías estar
+cometiendo. Los que marques tres veces seguidas son candidatos a un cambio de estructura.
+
+## 15. Alternativas y variantes de diseño
+
+### Variante 1: persona natural «pura»
+
+Sin sociedad, con las obligaciones tributarias que correspondan. **Ventajas:** costo mínimo, velocidad.
+**Desventajas:** responsabilidad ilimitada, menor imagen frente a clientes grandes. **Ideal para:** pruebas de
+negocio y servicios de bajo riesgo.
+
+### Variante 2: persona natural con seguros y contratos robustos
+
+La misma forma, más una estrategia de protección: seguro de responsabilidad, contratos con topes de
+responsabilidad, reservas de caja. **Ventajas:** reduce el riesgo sin crear una persona jurídica.
+**Desventajas:** los seguros no cubren todo y los topes contractuales no obligan a terceros ajenos al
+contrato. **Ideal para:** profesionales con riesgo medio.
+
+### Variante 3: persona natural + microempresa familiar
+
+Cuando la actividad se ejerce en la casa y cumple los tres requisitos del art. 26 del DL 3.063. **Ventajas:**
+trámites municipales simplificados. **Desventajas:** límites de trabajadores y de activos; no aplica a
+actividades peligrosas, contaminantes o molestas. **Ideal para:** producción artesanal y servicios caseros
+sin riesgo.
+
+### Variante 4: persona natural como socio de una sociedad
+
+Quien presta servicios por su cuenta y, además, participa en una sociedad con otros. **Ventajas:** separa
+proyectos. **Desventajas:** confusión de roles y de documentos. Revisa los Anexos 03, 06 y 11.
+
+### Variante 5: pequeños contribuyentes de impuesto único
+
+La Ley de la Renta contempla regímenes de impuesto único para ciertas actividades pequeñas (por ejemplo,
+comerciantes en la vía pública calificados por su permiso municipal, art. 22). **Ventajas:** simplicidad.
+**Desventajas:** limitada a ciertas actividades. Consulta al SII antes de asumirlo.
+
+### Variante 6: pasar a EIRL
+
+Ver Anexo 02. **Ventajas:** patrimonio separado, imagen institucional. **Desventajas:** formalidades (art. 10),
+responsabilidad ilimitada en los casos del art. 12.
+
+### Variante 7: pasar a SpA unipersonal
+
+Ver Anexo 06. **Ventajas:** flexibilidad para socios futuros, series de acciones. **Desventajas:** estatuto que
+exige diseño y reglas supletorias de la anónima.
+
+### Cuadro de decisión por tipo de riesgo
+
+| Riesgo principal | Primera respuesta | Segunda respuesta |
+|---|---|---|
+| Deudas con proveedores | EIRL o SpA | Condiciones de pago y seguros de crédito |
+| Daños a clientes | Seguro de responsabilidad civil | Estructura con responsabilidad limitada |
+| Reclamo laboral | Contrato correcto y asesoría | Persona jurídica con trabajadores propios |
+| Reclamo tributario | Contabilidad y respaldo | Asesor tributario |
+| Competencia desleal o propiedad intelectual | Contratos y registro de marca | Asesoría especializada |
+
+### Cláusulas útiles, en lenguaje llano
+
+Estas **ideas de cláusulas** no son un contrato listo para usar: sirven para conversar con tu abogado.
+
+1. **Alcance.** «El servicio incluye exclusivamente lo descrito en la propuesta; todo trabajo adicional se
+   cotiza aparte.»
+2. **Plazos y aceptación.** «Si el cliente no responde en cinco días hábiles a un entregable, se entiende
+   recibido sin observaciones.»
+3. **Tope de responsabilidad.** «La responsabilidad total del prestador no excederá el monto pagado en los
+   doce meses anteriores.» (Su validez depende del caso y de la ley aplicable; consulta.)
+4. **Propiedad intelectual.** «Los derechos sobre el entregable pasan al cliente una vez pagado el precio
+   total.»
+5. **Confidencialidad.** «Ambas partes guardarán reserva de la información no pública.»
+6. **Término.** «Cualquiera de las partes puede terminar el contrato con treinta días de aviso por escrito.»
+7. **Autonomía.** «El prestador define sus horarios y medios; no existe exclusividad.» (Solo sirve si es
+   cierto en los hechos.)
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento en tu negocio | Qué cambia | Anexo que debes leer |
+|---|---|---|
+| Llega un socio | Ya no puedes operar solo como persona natural | 03, 06, 11 |
+| Quieres inversión | Necesitas acciones y pacto | 06, 07 |
+| Contratas personas | Eres empleador | 13 y la [guía laboral](../docs/08_EMPLOYMENT_FLOW_CHILE.md) |
+| Subes de tamaño | Cambian beneficios y sanciones | 13 |
+| Abres un local | Patente y zonificación | 17 |
+| Recibes una citación del SII | Defensa y plazos | 16 |
+| Quieres limitar tu riesgo | Cambias de forma | 02, 06 |
+| Quieres vender el negocio | Debe ser transferible | 02, 06 |
+| Quieres cerrar | Término de giro | 16 |
+| Operarás con el exterior | Importación o exportación | [Guía de comercio exterior](../docs/12_EXPORT_IMPORT_FLOW.md) |
+
+### D.2. Obligaciones por organismo (resumen)
+
+| Organismo | Qué le debes como persona natural |
+|---|---|
+| SII | RUT, inicio de actividades, documentos, declaraciones y término de giro |
+| Municipalidad | Patente y permisos de funcionamiento |
+| Dirección del Trabajo y previsión | Obligaciones de empleador si contratas |
+| Autoridad sanitaria | Autorización si tu actividad lo exige |
+| Registro Civil y notarías | Firmas y poderes cuando corresponda |
+
+### D.3. Clases del programa que profundizan este anexo
+
+- [Clase 1 de la parte 5: persona natural versus persona jurídica](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-01-persona-natural-versus-persona-juridica/README.md)
+- [Clase 2 de la parte 5: EIRL, cuándo sirve y cuándo limita](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-02-eirl-cuando-sirve-y-cuando-limita/README.md)
+- [Clase 2 de la parte 7: inicio de actividades en el SII](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-02-inicio-de-actividades-en-sii/README.md)
+- [Clase 3 de la parte 7: actividades económicas, giros y códigos](../curriculum/part-07-sii-y-ciclo-tributario-de-principio-a-fin/class-03-actividades-economicas-giros-y-codigos/README.md)
+- [Clase 1 de la parte 17: patente municipal, flujo y evidencia](../curriculum/part-17-permisos-patentes-y-regulacion-sectorial/class-01-patente-municipal-flujo-y-evidencia/README.md)
+- [Clase 1 de la parte 12: cuándo contratar versus externalizar](../curriculum/part-12-personas-relaciones-laborales-y-seguridad-y-salud/class-01-cuando-contratar-versus-externalizar/README.md)
+
+### D.4. Cómo se conectan las obligaciones entre sí
+
+La persona natural tiene cuatro «hilos» que se tocan entre sí. Si tiras de uno, mueves los otros:
+
+1. **Hilo tributario:** el inicio de actividades define tu categoría y tus documentos.
+2. **Hilo municipal:** la patente usa tu capital propio, que el SII informa a la municipalidad (Anexo 17).
+3. **Hilo laboral:** contratar te vuelve empleador y cambia tu clasificación por tamaño (Anexo 13).
+4. **Hilo patrimonial:** todos tus bienes responden; separar la actividad en una persona jurídica corta ese
+   hilo hacia el futuro, no hacia el pasado (Anexo 02).
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días para quien parte como persona natural
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 7 | Definir actividad, categoría y documento; reunir cédula y título del domicilio | Tú | Nota de decisión |
+| Días 8 a 15 | Declarar el inicio de actividades; elegir giros; abrir cuenta separada | Tú y contador | Comprobante de inicio |
+| Días 16 a 30 | Tramitar patente y permisos; contratar un seguro si corresponde | Tú | Patente o solicitud |
+| Días 31 a 60 | Primera declaración mensual; conciliar ingresos; revisar el Registro de Compras y Ventas | Contador | Conciliación |
+| Días 61 a 90 | Revisar tamaño y riesgo; decidir si pasas a EIRL o sociedad | Tú y asesores | Memo de decisión |
+
+### E.2. Ficha mensual de control (para imprimir)
+
+| Ítem | Sí | No | Observación |
+|---|---|---|---|
+| Registré todos los ingresos del mes | | | |
+| Guardé todas las boletas y facturas | | | |
+| Revisé el Registro de Compras y Ventas | | | |
+| Aparté dinero para impuestos | | | |
+| Revisé retenciones de mis clientes | | | |
+| Pagué la patente cuando correspondía | | | |
+| Revisé mis seguros y mi previsión | | | |
+| Registré decisiones relevantes del mes | | | |
+
+### E.3. Registro de decisiones (modelo)
+
+| Fecha | Decisión | Motivo | Alternativas consideradas | Riesgo | Quién la revisó |
+|---|---|---|---|---|---|
+| | | | | | |
+
+### E.4. Lista para evaluar el paso a una persona jurídica
+
+1. ¿Tengo deudas o contratos que me exponen a más de lo que puedo perder?
+2. ¿He contratado o contrataré personal en los próximos doce meses?
+3. ¿Un cliente grande me exige estar constituido?
+4. ¿Voy a incorporar un socio o un inversionista?
+5. ¿Quiero vender el negocio como un activo separado?
+6. ¿Tengo un inventario valorado de bienes, contratos y obligaciones?
+7. ¿Entiendo cómo se traspasa cada contrato y cada permiso?
+8. ¿Cuánto cuesta la contabilidad adicional y quién la llevará?
+
+Si respondes «sí» a las preguntas 1 a 5, el cambio es probablemente conveniente. Las preguntas 6 a 8 miden tu
+preparación.
+
+### E.5. Esquema de carpeta documental
+
+| Carpeta | Contenido |
+|---|---|
+| 01 Identidad y SII | RUT, inicio de actividades, carpeta tributaria |
+| 02 Municipalidad | Patente, permisos y comprobantes de pago |
+| 03 Contratos | Clientes, proveedores y trabajadores |
+| 04 Ingresos y gastos | Documentos y conciliaciones por mes |
+| 05 Seguros y garantías | Pólizas y avales |
+| 06 Decisiones | Registro de decisiones y correos relevantes |
+
+## 18. Autoevaluación
+
+Responde primero sin mirar; luego compara con las respuestas.
+
+1. ¿Una persona natural con giro tiene patrimonio separado del de su negocio?
+2. ¿En cuánto tiempo debe declarar el inicio de actividades?
+3. ¿Qué artículo del Código Civil expone todos sus bienes a los acreedores?
+4. ¿Qué categoría tributaria corresponde a honorarios profesionales?
+5. ¿Cuánto paga de patente un profesional con consulta propia?
+6. ¿Qué tres requisitos define la microempresa familiar?
+7. ¿Qué señales sugieren una relación laboral encubierta?
+8. ¿Qué puede pasar si traspasas bienes a un familiar después de que te demanden?
+9. ¿Cuándo conviene pasar a una EIRL?
+10. ¿Qué debes hacer antes de cerrar tu negocio?
+11. ¿Puedes ser microempresa según la Ley 20.416 y estar sujeto a IVA? Explica.
+12. ¿Qué hilo conecta tu capital propio con la municipalidad?
+
+**Respuestas.**
+
+1. No. Todos sus bienes responden (art. 2465 del Código Civil).
+2. Dentro de dos meses desde que comienza las actividades (art. 68 del Código Tributario).
+3. El artículo 2465.
+4. Segunda Categoría (art. 42 N.º 2 de la Ley de la Renta).
+5. Una UTM al año, en la comuna de su consulta, válida en todo el país (art. 32 del DL 3.063).
+6. Actividad en la casa habitación familiar; no más de cinco trabajadores ajenos a la familia; activos
+   productivos sin contar el inmueble que no excedan de 1.000 UF (art. 26 del DL 3.063).
+7. Horario impuesto, órdenes de un jefe, herramientas de la empresa, exclusividad y pago como sueldo.
+8. Puede ser impugnado; además puede constituir conductas sancionadas. Consulta a un abogado.
+9. Cuando crece el riesgo, contratas personal, llegan socios o un cliente exige una persona jurídica.
+10. Avisar el término de giro con balance y pagar el impuesto dentro de dos meses (art. 69 del Código
+    Tributario).
+11. Sí. La clasificación por tamaño depende de los ingresos; el IVA, del tipo de operaciones. Son criterios
+    distintos.
+12. El SII informa a las municipalidades, cada mayo, el capital propio, el RUT y el código de actividad
+    (art. 24 del DL 3.063).
+
+**Cómo puntuarte.** Diez o más aciertos: dominas lo esencial. Entre seis y nueve: repasa las secciones 5, 7 y
+8. Menos de seis: vuelve a leer el anexo completo y los escenarios.
+
+## 19. Preguntas frecuentes
 
 **1. ¿Necesito constituir una empresa para vender?**
 No. Puedes operar como persona natural, declarando el inicio de actividades ante el SII.
@@ -553,7 +936,91 @@ Depende del régimen. Lleva siempre un registro ordenado; tu contador te indicar
 **20. ¿Quién me ayuda a elegir?**
 Un contador y un abogado. Este anexo no sustituye esa asesoría.
 
-## 14. Fuentes y vigencia
+**21. ¿Puedo tener dos actividades distintas como persona natural?**
+Sí. Puedes declarar más de un giro. Cada actividad puede tener un tratamiento tributario distinto (por ejemplo,
+honorarios y ventas), así que conviene ordenar los documentos y los costos por actividad con tu contador.
+
+**22. ¿Necesito contador desde el primer día?**
+Los artículos revisados no lo exigen. Aun así, una consulta inicial para elegir categoría, giros y documentos
+evita errores difíciles de corregir. Después, la frecuencia depende de tu complejidad.
+
+**23. ¿Qué diferencia hay entre «giro» y «actividad económica»?**
+En la práctica, el giro es la actividad que declaras al SII, identificada con uno o más códigos de actividad. Elige
+códigos que reflejen lo que realmente haces: cada uno puede habilitar o limitar documentos y beneficios.
+
+**24. ¿Puedo emitir factura si soy profesional con honorarios?**
+Depende de tu actividad y de cómo estés inscrito ante el SII. Los honorarios se documentan, por regla, con boleta
+de honorarios; las ventas afectas, con factura o boleta de ventas. Consulta al SII y a tu contador.
+
+**25. ¿Qué pasa si mis ingresos suben mucho?**
+Tu tamaño según la Ley 20.416 se recalcula cada año con los ingresos del año calendario anterior (art. 2). Si
+superas los tramos, pierdes los beneficios correspondientes; revisa además si te conviene otro régimen o forma.
+
+**26. ¿Puedo poner el negocio a nombre de mi pareja para «protegerme»?**
+Cambiar el titular no elimina el riesgo, solo lo traslada a otra persona, y puede generar problemas tributarios y
+de prueba si los hechos muestran que tú lo administras. Si buscas limitar el riesgo, la herramienta es una
+persona jurídica constituida con asesoría.
+
+**27. ¿Puedo contratar a un familiar?**
+Sí, pero debe haber una relación real y documentada (contrato, labores, pago). Un contrato ficticio puede traer
+sanciones. Consulta a un abogado laboral.
+
+**28. ¿Qué es la boleta de honorarios electrónica?**
+Es el documento con que quienes ejercen profesiones u ocupaciones lucrativas respaldan sus ingresos de Segunda
+Categoría. Su emisión se hace por los canales del SII; el detalle operativo no está en los artículos revisados.
+
+**29. ¿Debo cotizar como independiente?**
+La previsión de los trabajadores independientes tiene reglas propias que cambian con las reformas; este anexo no las
+detalla. Consulta a un asesor previsional y al SII para saber cómo se declara y paga.
+
+**30. ¿Qué es el capital propio y por qué me preguntan por él?**
+Es la base con que se calcula la patente municipal: el capital inicial declarado si es una actividad nueva, o el que
+muestra el balance al 31 de diciembre anterior (art. 24 del DL 3.063). Quien no está obligado a llevar balance paga
+una UTM al año.
+
+**31. ¿Puedo arrendar mi casa para mi negocio?**
+Si usarás la vivienda para una actividad, revisa la zonificación, el reglamento de copropiedad y la microempresa
+familiar. En un condominio necesitas la autorización del Comité de Administración si te acoges al régimen de
+microempresa familiar (art. 26 del DL 3.063).
+
+**32. ¿Qué pasa con mi negocio si fallezco?**
+Los herederos reciben tu patrimonio con sus deudas y obligaciones según el derecho sucesorio. Una persona
+jurídica con estatutos claros facilita la continuidad. Consulta a un abogado sobre planificación sucesoria.
+
+**33. ¿Cómo separo mis gastos personales de los del negocio?**
+Abre una cuenta separada, paga los gastos del negocio solo desde ella, guarda documentos a nombre del
+contribuyente y define un retiro mensual fijo para tus gastos personales.
+
+**34. ¿Es obligatorio emitir boleta por cada venta?**
+Quien celebra contratos o convenciones afectos a las leyes de ventas y servicios debe emitir facturas o boletas
+según el caso, aunque la operación sea exenta (art. 52 del DL 825).
+
+**35. ¿Qué pasa si un cliente no me paga?**
+La deuda es un derecho tuyo que puedes cobrar judicialmente; el costo y el tiempo dependen del monto y del
+deudor. Conviene tener contratos claros, anticipos y condiciones de pago por escrito, y considerar la cobranza
+temprana.
+
+**36. ¿Puedo usar mi vehículo personal para el negocio?**
+Puedes usarlo, pero el tratamiento tributario de los gastos asociados depende de las reglas del SII y de que sean
+necesarios para producir la renta. Lleva un registro y consulta a tu contador.
+
+**37. ¿Debo tener un reglamento interno si contrato a una persona?**
+Las obligaciones de reglamento interno dependen del número de trabajadores y de otras normas laborales no
+detalladas en este anexo. Consulta la [guía laboral](../docs/08_EMPLOYMENT_FLOW_CHILE.md).
+
+**38. ¿Puedo cobrar en moneda extranjera?**
+Puedes pactarlo en tus contratos, pero la contabilidad y los impuestos tienen reglas de conversión y documentos
+específicos. Consulta a tu contador antes de firmar.
+
+**39. ¿Qué diferencia hay entre dejar de trabajar y terminar el giro?**
+Dejar de vender no termina tus obligaciones. El término de giro es un trámite formal ante el SII, con balance y pago
+de impuestos (art. 69 del Código Tributario).
+
+**40. ¿Cuándo debo pedir ayuda profesional?**
+Cuando recibas una citación, firmes contratos de alto monto, contrates personal, cambies de forma jurídica, tengas
+operaciones con el exterior o dudes entre categorías tributarias. Ver la sección 12.
+
+## 20. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

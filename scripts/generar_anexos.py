@@ -57,6 +57,7 @@ RUTAS = [
     ("Una empresa extranjera quiere operar en Chile", "14 o una filial (06 o 07)"),
     ("Ya elegí el tipo y quiero constituirla", "15, 16 y 17"),
     ("Soy pyme y busco trámites más simples", "13, 17 y 16"),
+    ("Necesito una dirección: oficina virtual, coworking, casa o local", "18, luego 16 y 17"),
 ]
 
 NAV_INICIO = "<!-- anexos:nav-inicio -->"

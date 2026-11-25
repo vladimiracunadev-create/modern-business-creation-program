@@ -7,7 +7,7 @@
 
 <!-- anexos:nav-inicio -->
 
-**Navegación:** [← 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) · [Índice de anexos](README.md) · —
+**Navegación:** [← 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) · [Índice de anexos](README.md) · [18. Domicilio, oficinas virtuales, coworking y otras formas de ubicar tu empresa →](18-domicilio-oficinas-virtuales-y-coworking.md)
 
 ## En 60 segundos
 
@@ -578,6 +578,6 @@ incluye los requisitos específicos de cada comuna y sus ejemplos numéricos son
 - [Anexo 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md): capital propio y SII.
 - [Anexo 12. Corporaciones, asociaciones y fundaciones](12-corporaciones-asociaciones-y-fundaciones.md): exención para organizaciones sin fines de lucro.
 
-**Navegación:** [← 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) · [Índice de anexos](README.md) · —
+**Navegación:** [← 16. Servicio de Impuestos Internos (SII): lo que una empresa debe saber](16-servicio-de-impuestos-internos-sii.md) · [Índice de anexos](README.md) · [18. Domicilio, oficinas virtuales, coworking y otras formas de ubicar tu empresa →](18-domicilio-oficinas-virtuales-y-coworking.md)
 
 <!-- anexos:cierre-fin -->
