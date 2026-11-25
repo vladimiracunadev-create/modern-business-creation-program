@@ -467,7 +467,258 @@ garantías reales. Los números son ilustrativos.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre la Ley 20.179. La ley menciona organismos que luego fueron
+reformados; en cada caso, confirma en la CMF cuál es el organismo competente hoy.
+
+### Escenario 1: la pyme que no paga la cuota y el banco que cobra la fianza
+
+**Situación.** Una panadería obtiene un crédito de 20.000.000 de pesos con fianza de una SAGR. Tras la cuota 8 deja de
+pagar. El banco quiere declarar vencida toda la deuda.
+
+**Análisis.** El acreedor debe requerir de pago a la institución dentro de los **seis meses** siguientes al
+incumplimiento, por notario o carta certificada al domicilio de la institución (art. 14). La SAGR puede optar entre
+(a) seguir pagando el calendario original, en cuyo caso, si paga lo vencido dentro de los 30 días del requerimiento, la
+cláusula de aceleración no se le aplica mientras siga cumpliendo; (b) pagar el saldo insoluto anticipadamente; o (c)
+pactar otra modalidad con el acreedor. No tiene beneficio de excusión: el banco no necesita perseguir antes a la
+panadería. Al pagar, la SAGR se subroga en los derechos del banco contra la panadería y sus codeudores o avalistas.
+
+**Lección.** Para el beneficiario, la fianza no borra la deuda: la traslada a la institución, que luego le cobra.
+
+### Escenario 2: el acreedor que renegocia sin avisar
+
+**Situación.** El banco y el beneficiario acuerdan alargar el plazo de pago sin consultar a la institución.
+
+**Análisis.** La obligación de la institución se extingue, entre otras causas, por la modificación o novación de la
+obligación principal **sin su intervención y consentimiento** (art. 15 letra b). Para el banco, renegociar sin avisar
+puede dejarlo sin garantía.
+
+**Decisión.** Toda renegociación debe pasar por la institución con consentimiento escrito.
+
+### Escenario 3: el socio beneficiario que quiere vender sus acciones
+
+**Situación.** Un accionista beneficiario quiere vender sus acciones de la SAGR mientras tiene una fianza vigente.
+
+**Análisis.** No puede gravar ni enajenar sus aportes de capital, salvo a beneficio de la entidad, mientras tenga
+obligaciones vigentes o con saldo insoluto afianzadas por ella (art. 8). Además puede haber constituido prenda sobre
+esas acciones a favor de la institución (art. 16).
+
+**Decisión.** Primero extinguir o sustituir las obligaciones afianzadas; después, vender.
+
+### Escenario 4: dividendos y mora
+
+**Situación.** La junta acuerda repartir dividendos. Un socio beneficiario está en mora de una obligación afianzada.
+
+**Análisis.** No tiene derecho a la distribución mientras esté en mora a la fecha en que se acuerde; lo que le habría
+correspondido se aplica al interés moratorio pactado (o al máximo convencional) sobre el saldo insoluto y el remanente
+al capital (art. 9). Sus demás derechos sociales se suspenden de pleno derecho por la mora o el simple retardo (art. 10).
+
+### Escenario 5: la garantía concentrada
+
+**Situación.** Una SAGR con patrimonio de 30.000 UF otorgó garantías a un solo beneficiario por 4.000 UF sin
+contragarantías.
+
+**Análisis.** Se presume que han ocurrido hechos que afectan su situación financiera cuando se otorgan garantías a un
+mismo beneficiario, dentro del giro, por sumas superiores al **10 % del patrimonio** sin contragarantías que aseguren
+razonablemente la recuperación (art. 23 letra c). 10 % de 30.000 UF son 3.000 UF; 4.000 UF las superan.
+
+**Consecuencia.** Si el directorio no normaliza la situación en 30 días desde la fecha del estado financiero, debe
+convocar a junta dentro del quinto día hábil siguiente para acordar el aumento de capital necesario (art. 23).
+
+### Escenario 6: patrimonio bajo el mínimo
+
+**Situación.** Tras pérdidas, el patrimonio de una SAGR cae a 8.500 UF.
+
+**Análisis.** Debe mantener en todo momento un patrimonio al menos equivalente al capital mínimo inicial de 10.000 UF
+(art. 3 letra c) y es una de las presunciones de dificultad financiera (art. 23 letra a). Si la junta rechaza el aumento
+o este no se entera en plazo, la institución no puede aumentar el monto global de garantías ni invertir, salvo en
+instrumentos del Banco Central (art. 23).
+
+### Escenario 7: la tentación del crédito directo
+
+**Situación.** Un director propone «adelantar» fondos a un socio en apuros.
+
+**Análisis.** Está prohibida la concesión de créditos directos a accionistas o terceros; el acto es nulo y los directores
+y ejecutivos que participaron son solidariamente responsables por los perjuicios (art. 4).
+
+### Escenario 8: liquidación y traspaso de fianzas
+
+**Situación.** Una SAGR cae en quiebra con fianzas vigentes por 50.000.000 de pesos.
+
+**Análisis.** La ley previó que el síndico transfiriera las fianzas vigentes, junto con las contragarantías, mediante
+licitaciones públicas abiertas solo a otras instituciones de garantía recíproca sanas, en no más de 120 días, y que
+durante ese lapso el acreedor no pudiera hacer vencer la obligación por la quiebra (art. 30). El procedimiento
+concursal aplicable hoy debe verificarse a la luz de la Ley 20.720.
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Prometer «crédito» desde la SAGR | Confundir fianza con préstamo | Nulidad y responsabilidad (art. 4) | Solo garantías | Escenario 7 |
+| 2 | Nombre sin la frase legal | Marca de fantasía | Incumple art. 3 letra b | Incluir «S.A.G.R.» | Sección 4 |
+| 3 | Capital bajo 10.000 UF | Subestimar el piso | No puede ejercer el giro (art. 17) | Capitalizar | Sección 5 |
+| 4 | Patrimonio bajo el mínimo | Pérdidas | Restricciones (art. 23) | Aumento de capital | Escenario 6 |
+| 5 | Repartir dividendos sin reserva del 20 % | Presión de socios | Prohibido (art. 7) | Completar la reserva | Sección 5 |
+| 6 | Garantizar sin contragarantía a un solo cliente | Confianza | Presunción de insolvencia (art. 23 c) | Límite del 10 % | Escenario 5 |
+| 7 | Contrato de garantía recíproca sin protocolizar | Informalidad | Vicio de formalización (art. 11) | Protocolizar o firma avanzada | Sección 4 |
+| 8 | Certificado de fianza incompleto | Plantilla pobre | Dudas de ejecución (art. 12) | Todas las menciones | Sección 4 |
+| 9 | Vender acciones con fianza vigente | Desconocer el art. 8 | Acto inválido | Extinguir antes | Escenario 3 |
+| 10 | Renegociar sin consentimiento | Prisa del acreedor | Fianza extinguida (art. 15 b) | Consentimiento escrito | Escenario 2 |
+| 11 | Requerir fuera de los seis meses | Descuido del acreedor | Pérdida de la fianza (art. 14) | Calendario de alertas | Escenario 1 |
+| 12 | No acreditar anualmente ante el regulador | Olvido | Sanciones | Calendario anual | Sección 9 |
+| 13 | Operar sin categoría A | Confusión | La fianza no califica ante bancos (art. 19) | Evaluaciones independientes | Sección 3 |
+| 14 | Fusionarse con una sociedad común | Reorganización | Prohibido (art. 28) | Solo entre SAGR | Sección 7 |
+| 15 | Disolver sin autorización de acreedores | Apuro | Acto sin autorización (art. 28) | Dos tercios de acreedores | Sección 7 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. SAGR frente a la cooperativa de garantía recíproca
+
+| Criterio | SAGR (sociedad anónima) | Cooperativa de garantía recíproca |
+|---|---|---|
+| Norma base | Ley 18.046 | Reglas de cooperativas de ahorro y crédito (art. 1) |
+| Nombre | «Sociedad Anónima de Garantía Recíproca» o «S.A.G.R.» | «Cooperativa de Garantía Recíproca» o «CGR» |
+| Autorización previa | No específica en el art. 1 | Departamento de Cooperativas (art. 1) |
+| Fiscalización | Regulador financiero | Como cooperativas de importancia económica (art. 1) |
+
+### C.2. Alternativas para garantizar una deuda pyme
+
+| Alternativa | Qué es | Ventaja | Límite |
+|---|---|---|---|
+| SAGR | Fianza de una institución especializada | Sin hipoteca propia | Costo y contragarantías |
+| Fondo estatal de garantía | Programas públicos de cobertura | Respaldo estatal | Condiciones de cada programa |
+| Aval personal | Fianza de un tercero | Rápido | Compromete patrimonio personal |
+| Prenda o hipoteca | Garantía real | Bajo costo de crédito | Inmoviliza el bien |
+
+Los fondos estatales y su cobertura se verifican en CORFO y en el anexo 03 y las clases de financiamiento.
+
+### C.3. Contragarantías posibles (art. 11)
+
+1. Prenda sobre acciones o cuotas de la propia institución (art. 16).
+2. Bienes, cauciones y derechos acordados en el contrato.
+3. Cláusula de garantía general, limitada a un monto máximo.
+4. Fianza sin contragarantía, si el estatuto lo permite.
+
+### C.4. Cláusulas de estatuto que exige la ley (art. 5)
+
+1. Condiciones generales de las garantías y contragarantías.
+2. Porcentajes máximos de garantías en relación con el patrimonio, los fondos o las contragarantías.
+3. Relación máxima entre el capital que aporta cada accionista beneficiario y el importe máximo de deudas que pide
+   garantizar con cargo a sus acciones.
+4. Requisitos para ser accionista y beneficiario (opcional).
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Entender la sociedad anónima base | 07 |
+| Cooperativas en general | 09 |
+| Comparar con formas de pyme | 03, 04, 05 |
+| IVA e impuestos | 16 |
+| Oficina y patente | 17 y 18 |
+
+### D.2. Clases del programa
+
+- [Parte 16, clase 5: FOGAPE, garantías y evaluación bancaria](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-05-fogape-garantias-y-evaluacion-bancaria/README.md)
+- [Parte 16, clase 6: SERCOTEC y programas de fomento](../curriculum/part-16-financiamiento-banca-fondos-e-inversion/class-06-sercotec-y-programas-de-fomento/README.md)
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Fianza y subrogación:** pagar al acreedor convierte a la institución en acreedora del beneficiario.
+2. **Reserva y dividendos:** el art. 7 condiciona el reparto a la reserva del 20 %.
+3. **Categoría A y bancos:** solo esa categoría sirve para ampliar límites de crédito bancario (art. 19).
+4. **Insolvencia y traspaso:** el título VI y el art. 30 buscan proteger a los acreedores de obligaciones vigentes.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 30 | Estudio de viabilidad, capital de 10.000 UF y socios | Promotores | Plan y compromisos |
+| Días 31 a 60 | Estatuto con materias del art. 5; escritura y registro | Abogado | Escritura |
+| Días 61 a 90 | Acreditación ante el regulador, auditor, modelo de contrato | Gerente | Certificados |
+
+### E.2. Calendario anual
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada año | Acreditar constitución y patrimonio | Art. 17 |
+| Al menos dos veces al año | Evaluaciones independientes para categoría A | Art. 18 |
+| Cierre anual | Estados financieros auditados | Art. 20 |
+| Cada estado financiero | Revisar patrimonio vs. 10.000 UF y concentración del 10 % | Arts. 3 y 23 |
+| Al acordar dividendos | Revisar reserva del 20 % y mora de beneficiarios | Arts. 7 y 9 |
+
+### E.3. Lista de revisión de un contrato de garantía recíproca
+
+| Ítem | Sí | No |
+|---|---|---|
+| Bienes y cauciones del beneficiario | | |
+| Monto máximo afianzable | | |
+| Plazo de duración | | |
+| Modalidad de las garantías | | |
+| Derechos y obligaciones | | |
+| Protocolizado o con firma avanzada | | |
+
+### E.4. Cálculo de la concentración por beneficiario
+
+| Concepto | Valor |
+|---|---:|
+| Patrimonio | |
+| Límite del 10 % del patrimonio | |
+| Garantías al beneficiario sin contragarantía | |
+| ¿Supera el límite? | |
+
+## 18. Autoevaluación
+
+1. ¿Cuál es el objeto exclusivo de una SAGR?
+2. ¿Cuál es el capital mínimo inicial?
+3. ¿Qué porcentaje del capital debe tener la reserva patrimonial?
+4. ¿Puede otorgar créditos directos?
+5. ¿Qué plazo tiene el acreedor para requerir el pago?
+6. ¿Tiene beneficio de excusión?
+7. ¿Qué categoría sirve para calificar garantías ante bancos?
+8. ¿Con quién puede fusionarse?
+9. ¿Qué pasa si renegocian la deuda sin su consentimiento?
+10. ¿Qué umbral de garantías sin contragarantía presume problemas?
+
+**Respuestas.**
+
+1. Otorgar garantías personales a los acreedores de sus beneficiarios (art. 3).
+2. 10.000 UF (art. 3 letra c).
+3. Al menos el 20 % (art. 7).
+4. No (art. 4).
+5. Seis meses desde el incumplimiento (art. 14).
+6. No (art. 14).
+7. La categoría A (art. 19).
+8. Solo con otras instituciones de garantía recíproca (art. 28).
+9. La obligación de la institución puede extinguirse (art. 15 letra b).
+10. Más del 10 % del patrimonio a un mismo beneficiario (art. 23 letra c).
+
+**Puntaje.** Ocho o más: dominas el tipo. Cuatro a siete: repasa las secciones 5 y 7. Menos de cuatro: relee el anexo.
+
+## 19. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Beneficiario | Persona que puede optar a ser afianzada por la institución |
+| Beneficio de excusión | Derecho del fiador a exigir que se persiga primero al deudor; la SAGR no lo tiene |
+| Categoría A | Instituciones con informe favorable de evaluadores independientes |
+| Categoría B | Instituciones que no cumplen lo anterior |
+| Certificado de Fianza | Documento con mérito ejecutivo por el que la institución afianza una obligación |
+| Contragarantía | Caución que el beneficiario entrega a la institución |
+| Contrato de Garantía Recíproca | Contrato entre beneficiario e institución que fija derechos y obligaciones |
+| Entidad evaluadora | Empresa inscrita que evalúa a la institución para la categoría A |
+| Fianza | Obligación accesoria de pagar si el deudor no paga |
+| Fondo de reserva patrimonial | Fondo que absorbe pérdidas futuras |
+| Institución de garantía recíproca | SAGR o cooperativa de garantía recíproca |
+| Subrogación | Traspaso de los derechos del acreedor a quien paga |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Qué hace una sociedad de garantía recíproca?**
 Otorga fianzas a los acreedores de sus beneficiarios para caucionar obligaciones de su actividad
@@ -539,7 +790,64 @@ independientes (arts. 32 y 33).
 No. El aval es una garantía personal de un tercero; la fianza de una institución de garantía recíproca es
 un producto regulado con contragarantías, capital mínimo y supervisión.
 
-## 14. Fuentes y vigencia
+**21. ¿Qué diferencia hay entre una fianza y un aval?**
+La ley regula una fianza con certificado propio; el aval se trata en la legislación de títulos de crédito. Consulta con un
+abogado cuál usa tu operación.
+
+**22. ¿La institución puede invertir libremente sus recursos?**
+Solo en los instrumentos que autorice su estatuto; salvo disposición contraria, al menos el 50 % de la reserva patrimonial
+va a instrumentos de bajo riesgo señalados en la ley (art. 6).
+
+**23. ¿Se pueden afianzar obligaciones futuras?**
+Sí, si están determinadas singularmente en el certificado (art. 12).
+
+**24. ¿Qué mérito tiene el certificado de fianza?**
+Tiene mérito ejecutivo; la institución solo puede oponer pago, prescripción, no empecer el título o prórrogas (art. 12).
+
+**25. ¿Qué privilegio tienen los créditos afianzados?**
+Gozan del privilegio del art. 2481 N.º 1 del Código Civil (art. 12).
+
+**26. ¿Puede emitirse el certificado sin papel?**
+Sí, de forma inmaterial, depositado en un depósito centralizado o institución autorizada (art. 13).
+
+**27. ¿Qué pasa si se pierde el certificado?**
+Se aplican las reglas de la ley de letras de cambio compatibles con su naturaleza (art. 12).
+
+**28. ¿Puede la institución adquirir sus propias acciones?**
+En la ejecución de la prenda o dación en pago, sin acuerdo de junta (art. 16).
+
+**29. ¿Cuándo quedan sus operaciones restringidas?**
+Si la junta rechaza el aumento de capital o este no se entera: no puede aumentar el monto de garantías ni invertir, salvo
+en instrumentos del Banco Central (art. 23).
+
+**30. ¿Qué deben hacer los acreedores con la información?**
+Entregar a la institución información veraz, suficiente y oportuna sobre las obligaciones garantizadas (art. 21).
+
+**31. ¿Quién fiscaliza hoy?**
+La ley nombra a la Superintendencia de Bancos; verifica en la CMF el organismo competente actual (ver sección 2).
+
+**32. ¿Pueden dos instituciones fusionarse?**
+Sí, solo entre ellas y con autorización de dos tercios de los acreedores de las deudas garantizadas (art. 28).
+
+**33. ¿Responden las entidades surgidas de una fusión por fianzas anteriores?**
+Sí, solidariamente, salvo pacto en contrario con los acreedores (art. 29).
+
+**34. ¿Qué es la categoría A?**
+Instituciones con evaluación favorable de una entidad independiente en al menos dos épocas del año (art. 18).
+
+**35. ¿Cuánto cuesta una fianza?**
+Este anexo no fija tarifas: varían por institución y operación; compáralas por escrito.
+
+**36. ¿Puedo ser socio y beneficiario a la vez?**
+Sí, es el modelo base: accionistas que pueden optar a ser afianzados (art. 1).
+
+**37. ¿Puede una SAGR dar asesoría?**
+Sí, técnica, económica, legal y financiera a beneficiarios, y administrar fondos de garantía (art. 3).
+
+**38. ¿Cuándo debo pedir ayuda profesional?**
+Al constituirla, al redactar contratos de garantía, ante mora, renegociaciones y cualquier situación de insolvencia.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|

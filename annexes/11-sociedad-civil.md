@@ -466,7 +466,268 @@ conflictos.
 
 Consulta la [guía de cuándo llamar a un profesional](../docs/18_WHEN_TO_CALL_A_PROFESSIONAL.md).
 
-## 13. Preguntas frecuentes
+## 13. Escenarios resueltos
+
+Casos **ilustrativos** (nombres y cifras inventados) sobre los artículos 2053 a 2115 del Código Civil.
+
+### Escenario 1: dos arquitectas y un socio que contrata «a su nombre»
+
+**Situación.** Dos arquitectas forman una sociedad civil. Una de ellas firma un arriendo de oficina a su propio nombre,
+sin mencionar la sociedad, y luego la sociedad usa la oficina.
+
+**Análisis.** El socio que contrata a su propio nombre no obliga a la sociedad ante terceros, ni aun por el beneficio que
+ella reporte; el acreedor solo puede intentar contra la sociedad las acciones del socio deudor. Solo se entiende que
+contrata a nombre de la sociedad cuando lo expresa el contrato o las circunstancias lo manifiestan de modo inequívoco, y
+en caso de duda se entiende que contrata en su nombre privado (art. 2094).
+
+**Resultado.** El arrendador cobra a la arquitecta; esta puede reclamar a la sociedad lo que corresponda por la vía
+interna del art. 2089.
+
+**Lección.** Firmar siempre «a nombre de la sociedad», con el poder que corresponda.
+
+### Escenario 2: la deuda y la responsabilidad «a prorrata»
+
+**Situación.** Tres socios con intereses de 50 %, 30 % y 20 % deben 9.000.000 de pesos a un proveedor, y la sociedad no
+paga.
+
+**Análisis.** Si la sociedad colectiva es obligada respecto de terceros, la totalidad de la deuda se divide entre los socios
+a prorrata de su interés social, y la cuota del socio insolvente grava a los otros; no hay solidaridad salvo que se
+exprese en el título de la obligación y esta se haya contraído por todos o con poder especial (art. 2095). El cálculo:
+50 % de 9.000.000 son 4.500.000; 30 % son 2.700.000; 20 % son 1.800.000.
+
+**Matiz.** Si el socio del 20 % es insolvente, su cuota de 1.800.000 se reparte entre los otros dos. Esa regla es
+adicional a la división inicial.
+
+**Lección.** El proveedor que quiere cobrar sin dividir debe exigir una cláusula de solidaridad por escrito.
+
+### Escenario 3: el socio industrial que no pone dinero
+
+**Situación.** Un contador aporta su trabajo a una sociedad civil entre profesionales; no se pactó su cuota de beneficios
+ni de pérdidas.
+
+**Análisis.** Si uno de los socios contribuye solo con su industria, servicio o trabajo y no hay estipulación sobre su
+cuota en los beneficios, la fija el juez en caso necesario; y si nada se estipuló sobre su cuota en las pérdidas, no le
+cabe otra que la de su industria, trabajo o servicio (art. 2069). Si el contrato le asegura una cantidad fija pagadera aun
+en pérdida, esa suma se mira como precio de su industria y no es considerado socio (art. 2086).
+
+**Decisión.** Pactar por escrito cuota de beneficios y pérdidas del socio industrial.
+
+### Escenario 4: la muerte de un socio
+
+**Situación.** Fallece uno de los dos socios de una sociedad civil. El contrato no dice nada.
+
+**Análisis.** La sociedad se disuelve por la muerte de cualquiera de los socios, salvo que la ley o el acto constitutivo
+dispongan que continúe entre los sobrevivientes con los herederos o sin ellos (art. 2103). Hasta que los administradores
+reciban noticia de la muerte se entiende que continúa, y las operaciones iniciadas por el difunto que no supongan aptitud
+peculiar deben llevarse a cabo. Los herederos que no entren a la sociedad solo reclaman lo que tocaba a su causante
+según el estado de los negocios al saberse la muerte (art. 2105).
+
+**Decisión.** Incluir en el contrato una cláusula de continuación con herederos o sin ellos.
+
+### Escenario 5: la renuncia intempestiva
+
+**Situación.** Un socio renuncia en pleno proyecto, dejando la sociedad sin la persona clave para cerrar un contrato.
+
+**Análisis.** La renuncia no vale si se hace de mala fe o intempestivamente (art. 2110). Es intempestiva cuando la
+separación perjudica los intereses sociales; la sociedad continúa hasta terminar los negocios pendientes que requieren la
+cooperación del renunciante, y puede aplicársele excluirlo de los beneficios y hacerlo soportar su cuota de las pérdidas
+(art. 2112 y 2111). Si la sociedad es de duración fija o para un negocio limitado, la renuncia solo opera si el contrato
+la permite o hay grave motivo (art. 2108). Debe notificarse a todos los socios (art. 2109).
+
+### Escenario 6: la deuda particular de un socio
+
+**Situación.** Un acreedor personal de un socio quiere embargar el inmueble que ese socio aportó a la sociedad.
+
+**Análisis.** Los acreedores de un socio no tienen acción sobre los bienes sociales sino por hipoteca anterior a la
+sociedad, o posterior si el aporte del inmueble no consta por inscripción en el registro competente; pueden pedir que se
+embarguen las asignaciones por cuenta de beneficios sociales o aportes (art. 2096).
+
+**Lección.** Inscribir el aporte de inmuebles protege el patrimonio de la sociedad.
+
+### Escenario 7: la sociedad de hecho
+
+**Situación.** Dos amigos trabajan juntos y reparten ganancias sin contrato escrito. Surge un conflicto.
+
+**Análisis.** Si se forma de hecho una sociedad que no puede subsistir legalmente, cada socio puede pedir que se liquiden
+las operaciones anteriores y sacar sus aportes (art. 2057), y la nulidad no perjudica las acciones de terceros de buena fe
+contra todos los asociados por las operaciones de la sociedad de hecho (art. 2058). Este anexo no resuelve el caso
+concreto: acude a un abogado.
+
+### Escenario 8: aumentar los aportes
+
+**Situación.** El proyecto necesita más dinero. Dos socios quieren aportar más y uno no.
+
+**Análisis.** A ningún socio puede exigírsele un aporte mayor que aquel a que se obligó; si por mutación de
+circunstancias no puede lograrse el objeto sin aumentar los aportes, el socio que no consienta puede retirarse y debe
+hacerlo si sus consocios lo exigen (art. 2087).
+
+## 14. Catálogo de errores y cómo corregirlos
+
+| N.º | Error | Causa típica | Consecuencia | Cómo corregirlo | Dónde ver más |
+|---:|---|---|---|---|---|
+| 1 | Firmar a título personal | Costumbre | La sociedad no queda obligada (art. 2094) | «p.p. Sociedad X» con poder | Escenario 1 |
+| 2 | Suponer solidaridad | Confundir con la limitada | Responsabilidad a prorrata (art. 2095) | Pactar lo que se quiere | Escenario 2 |
+| 3 | No pactar cuota del industrial | Informalidad | La fija el juez (art. 2069) | Cláusula expresa | Escenario 3 |
+| 4 | Sin cláusula de continuación | Olvido | Disolución por muerte (art. 2103) | Cláusula con herederos | Escenario 4 |
+| 5 | Renunciar de mala fe | Oportunismo | Exclusión de beneficios (art. 2111) | Renuncia oportuna y notificada | Escenario 5 |
+| 6 | No inscribir el aporte de inmuebles | Ahorro de trámites | Riesgo frente a acreedores (art. 2096) | Inscribir | Escenario 6 |
+| 7 | Sociedad de ganancias a título universal | Desconocer la prohibición | Prohibida (art. 2056) | Especificar bienes | Sección 4 |
+| 8 | Exigir más aportes de los pactados | Urgencia | Retiro del socio (art. 2087) | Acuerdo unánime | Escenario 8 |
+| 9 | Incorporar a un tercero sin consentimiento | Confianza | Prohibido (art. 2088) | Consentimiento de todos | Sección 6 |
+| 10 | No rendir cuenta anual | Descuido | Incumplimiento (art. 2080) | Rendición periódica | Sección 6 |
+| 11 | Administrador que hipoteca bienes fijos | Exceso de facultades | Responde él solo (arts. 2078 y 2079) | Respetar los límites | Sección 6 |
+| 12 | Disolver sin dar aviso | Olvido | Disolución inoponible a terceros (art. 2114) | Tres avisos | Sección 4 |
+| 13 | Dar el arbitrio de reparto a un socio | Comodidad | Prohibido (art. 2067) | Un tercero ajeno | Sección 5 |
+| 14 | Mezclar con una sociedad comercial | Equivocar el giro | Régimen distinto (arts. 2059 y 2060) | Elegir bien el tipo | Sección 3 |
+| 15 | Olvidar el SII y las patentes | Creer que basta el contrato | Sanciones tributarias | Anexos 16 y 17 | Sección 8 |
+
+## 15. Alternativas y variantes de diseño
+
+### C.1. Sociedad civil frente a otras formas
+
+| Criterio | Sociedad civil | Sociedad colectiva comercial | Limitada | Comunidad |
+|---|---|---|---|---|
+| Responsabilidad | A prorrata del interés (art. 2095) | Solidaria (Código de Comercio) | Hasta el aporte | Según la ley |
+| Regulación | Código Civil | Código de Comercio | Ley 3.918 | Cuasicontrato |
+| Constitución en línea | No figura | Sí en el Registro | Sí en el Registro | No aplica |
+| Administración | Por socios o mandatario | Por socios | Por socios o gerente | Por comuneros |
+
+### C.2. Opciones de administración
+
+| Opción | Regla | Cuándo sirve |
+|---|---|---|
+| Todos los socios (art. 2081) | Cada uno puede oponerse a los actos de otro | Dos o tres socios de confianza |
+| Uno o más socios designados (art. 2071) | Cada uno actúa por sí salvo prohibición (art. 2076) | Equipos con roles |
+| Administrador por acto posterior (art. 2074) | Revocable por mayoría | Cuando se quiere flexibilidad |
+| Mandatario ajeno | Reglas del mandato | Profesionalizar la gestión |
+
+### C.3. Variantes de reparto de beneficios y pérdidas
+
+1. A prorrata de los valores aportados (regla supletoria, art. 2068).
+2. Fórmula pactada (art. 2066).
+3. Arbitrio de un tercero ajeno (art. 2067), nunca de un socio.
+4. Cuota especial para el socio industrial (art. 2069).
+
+### C.4. Ideas de cláusulas
+
+1. «La sociedad actuará por medio de [socios] con facultades separadas hasta [monto] y conjuntas por sobre él.»
+2. «Si fallece un socio, la sociedad continuará con sus herederos [o con los sobrevivientes].»
+3. «La renuncia deberá notificarse con [plazo] de anticipación y no podrá hacerse durante [proyectos].»
+4. «Los socios responderán de las deudas sociales a prorrata de su interés, salvo lo que se exprese en el título.»
+5. «Cada año se rendirá cuenta de la gestión a los socios.»
+
+## 16. Vinculación con otros anexos y con las clases
+
+### D.1. ¿Cuándo salto a otro anexo?
+
+| Evento | Anexo |
+|---|---|
+| Quieres limitar la responsabilidad | 03 o 04 |
+| Quieres constituir en línea | 15 |
+| Dudas de tipo y de régimen tributario | 16 |
+| Necesitas patente | 17 |
+| Necesitas domicilio | 18 |
+| Fin sin ánimo de lucro | 12 |
+
+### D.2. Clases del programa
+
+- [Parte 5, clase 7: comparación jurídica para elegir forma societaria](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-07-comparacion-juridica-para-elegir-forma-societaria/README.md)
+- [Parte 5, clase 13: juntas, actas, libros y trazabilidad de decisiones](../curriculum/part-05-diseno-societario-y-gobierno-inicial/class-13-juntas-actas-libros-y-trazabilidad-de-decisiones/README.md)
+
+### D.3. Hilos que se conectan
+
+1. **Contrato y persona jurídica:** el art. 2053 conecta el pacto con la existencia separada.
+2. **Poder y responsabilidad:** el art. 2094 conecta la forma de firmar con quién responde.
+3. **Disolución y terceros:** el art. 2114 conecta la publicidad del término con su oponibilidad.
+4. **Aportes y acreedores:** el art. 2096 conecta la inscripción con la protección del patrimonio social.
+
+## 17. Plantillas y listas de trabajo
+
+### E.1. Plan de 30, 60 y 90 días
+
+| Plazo | Tareas | Responsable | Evidencia |
+|---|---|---|---|
+| Días 1 a 15 | Definir objeto, aportes, reparto y administración | Socios | Borrador de acuerdo |
+| Días 16 a 30 | Redactar y firmar el contrato; escritura si hay inmuebles | Abogado | Contrato firmado |
+| Días 31 a 60 | Inscribir aportes que lo requieran, RUT, inicio de actividades, cuenta | Administrador | Certificados |
+| Días 61 a 90 | Contabilidad, patentes y política de rendición de cuentas | Contador | Calendario |
+
+### E.2. Calendario anual
+
+| Cuándo | Tarea | Base |
+|---|---|---|
+| Cada año | Rendición de cuenta del administrador | Art. 2080 |
+| Cada mes | IVA y retenciones según corresponda | Anexo 16 |
+| Cada año | Revisar la cláusula de continuación y los poderes | Art. 2103 |
+| Antes de cualquier renuncia | Notificar a todos los socios | Art. 2109 |
+| Al disolverse | Avisos y división del haber | Arts. 2114 y 2115 |
+
+### E.3. Lista de control del contrato
+
+| Ítem | Sí | No |
+|---|---|---|
+| Cada socio pone algo en común | | |
+| Hay participación de beneficios | | |
+| Plazo o condición de término | | |
+| Cuotas de beneficios y pérdidas | | |
+| Administración y poderes | | |
+| Cláusula por muerte, incapacidad o renuncia | | |
+| Aportes de inmuebles inscritos | | |
+
+### E.4. Cálculo de responsabilidad por deuda
+
+| Socio | Interés social | Cuota de la deuda |
+|---|---:|---:|
+| A | | |
+| B | | |
+| C | | |
+| Total | 100 % | |
+
+## 18. Autoevaluación
+
+1. ¿Qué dice el art. 2053?
+2. ¿Hay sociedad sin participación de beneficios?
+3. ¿Los socios responden solidariamente por regla general?
+4. ¿Cuándo se entiende que un socio contrata a nombre de la sociedad?
+5. ¿Qué mayoría decide?
+6. ¿Qué exige modificar sustancialmente el contrato?
+7. ¿Qué pasa si muere un socio?
+8. ¿Se puede encargar el reparto a un socio?
+9. ¿Qué es renunciar intempestivamente?
+10. ¿Cómo se opone la disolución a terceros?
+
+**Respuestas.**
+
+1. Define la sociedad como contrato para repartir beneficios, que forma persona jurídica distinta.
+2. No (art. 2055).
+3. No: a prorrata del interés social (art. 2095).
+4. Cuando lo expresa el contrato o las circunstancias lo manifiestan inequívocamente (art. 2094).
+5. La mayoría de votos según el contrato, o la numérica de socios (art. 2054).
+6. Unanimidad (art. 2054).
+7. Se disuelve, salvo cláusula de continuación (art. 2103).
+8. No: el arbitrio no puede cometerse a un socio (art. 2067).
+9. Renunciar cuando la separación perjudica los intereses sociales (art. 2112).
+10. Con fecha cierta, tres avisos o prueba de noticia (art. 2114).
+
+**Puntaje.** Ocho o más: dominas el tipo. Cuatro a siete: repasa las secciones 6 y 7. Menos de cuatro: relee el anexo.
+
+## 19. Glosario ampliado
+
+| Término | Significado |
+|---|---|
+| Arbitrio | Decisión de un tercero sobre el reparto de beneficios y pérdidas |
+| Aporte en usufructo | Se pone el uso y los frutos; la propiedad sigue siendo del socio |
+| Capital fijo | Bienes durables de la sociedad que el administrador no puede empeñar ni hipotecar |
+| Comanditario | Socio que responde solo hasta su aporte |
+| Disolución | Término de la sociedad por las causas legales o contractuales |
+| Evicción | Pérdida de la cosa aportada por derecho de un tercero |
+| Interés social | Participación de cada socio en la sociedad |
+| Mandato | Contrato por el cual alguien gestiona un negocio por cuenta de otro |
+| Prorrata | Reparto en proporción a la parte de cada uno |
+| Socio industrial | Socio que aporta trabajo, servicio o industria |
+| Sociedad de hecho | La que existe sin cumplir los requisitos legales |
+
+## 20. Preguntas frecuentes
 
 **1. ¿Qué es una sociedad civil?**
 Un contrato en que dos o más personas ponen algo en común para repartir beneficios, que forma una persona
@@ -545,7 +806,60 @@ si falta por su hecho o culpa a su promesa (art. 2101).
 **20. ¿Una sociedad civil paga impuestos?**
 Depende de su actividad y régimen; consulta a un contador y al SII (ver sección 8).
 
-## 14. Fuentes y vigencia
+**21. ¿Puedo aportar el uso de un bien sin entregar la propiedad?**
+Sí: los aportes pueden hacerse en propiedad o en usufructo, y en ambos casos los frutos pertenecen a la sociedad desde el
+aporte (art. 2082).
+
+**22. ¿Qué pasa si un socio se atrasa en su aporte?**
+Resarce los perjuicios que cause el retardo, aun por culpa leve (art. 2083).
+
+**23. ¿Quién soporta la pérdida de un bien aportado en propiedad?**
+La sociedad, según las reglas generales; si solo se aportó el usufructo, la pérdida no imputable a la sociedad es del socio
+(art. 2084).
+
+**24. ¿Puede un socio incorporar a un tercero?**
+No sin el consentimiento de los demás; sí puede asociarlo a su propia parte, formando una sociedad particular (art. 2088).
+
+**25. ¿Puedo cobrar los gastos que adelanté?**
+Cada socio tiene derecho a que la sociedad le reembolse las sumas adelantadas con conocimiento de ella (art. 2089).
+
+**26. ¿A quién pertenecen los productos de la gestión de un socio?**
+A la sociedad; el socio más exitoso no tiene derecho a mayor beneficio (art. 2091).
+
+**27. ¿Qué responsabilidad tiene un socio frente a la sociedad?**
+Responde de los perjuicios causados, aun por culpa leve (art. 2093).
+
+**28. ¿Pueden los acreedores de un socio cobrar al patrimonio social?**
+Solo en los casos del art. 2096 (hipoteca y embargo de asignaciones).
+
+**29. ¿Qué pasa si se agota el objeto?**
+La sociedad se disuelve por la extinción de la cosa que forma su objeto total, o por finalización del negocio (arts. 2099 y
+2100).
+
+**30. ¿Qué pasa si falta el plazo?**
+Se entiende contraída por toda la vida de los asociados, salvo el derecho de renuncia (art. 2065).
+
+**31. ¿Se puede prorrogar?**
+Con el consentimiento unánime y las mismas formalidades de la constitución (art. 2098).
+
+**32. ¿Qué ocurre ante la incapacidad o insolvencia de un socio?**
+La sociedad expira, pero puede continuar con el incapaz o el fallido, y su curador o acreedores ejercen sus derechos
+(art. 2106).
+
+**33. ¿Cómo se divide el haber al disolverse?**
+Con las reglas de la partición de bienes hereditarios, salvo lo que contradiga el título (art. 2115).
+
+**34. ¿Se pueden pactar reglas de sociedad comercial?**
+Sí: se puede estipular que se sujete a ellas aunque no sea comercial por naturaleza (art. 2060).
+
+**35. ¿Hay prohibiciones sobre el tipo de bienes?**
+Se prohíbe toda sociedad a título universal y la de ganancias a título universal, salvo entre cónyuges; se pueden poner en
+sociedad bienes especificados (art. 2056).
+
+**36. ¿Cuándo debo pedir ayuda profesional?**
+Al redactar el contrato, al aportar inmuebles, ante deudas, renuncias, muertes de socios y cualquier tema tributario.
+
+## 21. Fuentes y vigencia
 
 | Fuente | Qué se usó | Dónde consultarla |
 |---|---|---|
